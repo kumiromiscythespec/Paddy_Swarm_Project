@@ -1,0 +1,4 @@
+// Paddy Swarm 3D Print Pack v0.1
+// R00 concept STLs generated from parametric Python/trimesh primitives.
+// Use the STL files for preview/printing and edit dimensions in the source script if needed.
+// All dimensions are millimeters.

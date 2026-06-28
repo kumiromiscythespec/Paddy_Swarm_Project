@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives / duplicate distribution packs
+*.zip
+*.7z
+*.rar
+
+# CAD / slicer temporary outputs
+*.bak
+*.tmp
+*.log
+
+# Machine-specific print files
+*.gcode
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Local private notes
+_private/
+local_notes/
+field_location_private/
