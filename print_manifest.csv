@@ -1,12 +1,14 @@
-part_no,file,name,machine,recommended_material,infill,notes
-PS-PR-A0-BMP-001-R00,PS-PR-A0-BMP-001-R00_front_bumper.stl,"Front/rear ladder bumper, drill-to-fit mount lugs",Paddy Rover α-0,PETG / ASA,35-50%,Concept R00. Mount holes are pilot annulus guides; drill/ream for final bolts.
-PS-PR-A0-SBC-001-R00,PS-PR-A0-SBC-001-R00_orange_pi_universal_mount.stl,Universal Orange Pi / small SBC mount plate with standoff rings,Paddy Rover α-0,PETG,30-45%,"Measure the exact board before use. Designed as universal drill-to-fit R00, not a certified Orange Pi One hole pattern."
-PS-PR-A0-CAM-001-R00,PS-PR-A0-CAM-001-R00_camera_cradle.stl,Generic front camera cradle / protective frame,Paddy Rover α-0,PETG / ASA,30-45%,Use foam tape or small screws. Final camera dimensions must be measured and adjusted.
-PS-PR-A0-CBL-001-R00,PS-PR-A0-CBL-001-R00_cable_comb_guide.stl,Cable comb guide for temporary harness routing,Paddy Rover α-0,PETG / TPU optional,20-35%,Not waterproof by itself. Use inside covers or as a service loop guide.
-PS-HU-H0-GDE-001-R00,PS-HU-H0-GDE-001-R00_v_rice_stalk_guide.stl,V-shaped rice stalk guide for bench harvest test,Harvest Assist H0,PLA for desk / PETG for repeated test,20-35%,First geometry check. Edges should be sanded smooth to avoid snagging leaves.
-PS-HU-H0-RLR-001-R00,PS-HU-H0-RLR-001-R00_dual_roller_side_frame.stl,Dual roller side frame with bearing ring guides,Harvest Assist H0,PETG / PA12 if repeated,40-60%,"Use 8mm shafts or adapt holes by drilling. This is a bench-test holder, not a field unit."
-PS-HU-H0-CVR-001-R00,PS-HU-H0-CVR-001-R00_cutter_safety_cover_frame.stl,Cutter safety cover frame for bench test,Harvest Assist H0,PETG,35-50%,Use a clear acrylic/polycarbonate inspection plate if needed. Do not operate blades without a cover.
-PS-HU-H0-CHU-001-R00,PS-HU-H0-CHU-001-R00_straw_discharge_chute.stl,Downward straw discharge chute,Harvest Assist H0,PLA/PETG,20-35%,For desk tests only. Smooth surfaces reduce stem snagging.
-PS-PP-P0-TRAY-001-R00,PS-PP-P0-TRAY-001-R00_seedling_tray_rail_section.stl,Seedling tray rail section / concept holder,Paddy Planter P-0,PETG / ASA,30-45%,Scale/section concept. Real seedling tray dimensions must be measured before final design.
-PS-PP-P0-DEPTH-001-R00,PS-PP-P0-DEPTH-001-R00_planting_depth_skid_gauge.stl,Planting depth skid gauge concept,Paddy Planter P-0,PETG / PA12,40-60%,Concept geometry. Test in a mud box before any field use.
-PS-ST-S0-DOCK-001-R00,PS-ST-S0-DOCK-001-R00_aze_dock_alignment_funnel.stl,Aze dock alignment funnel concept,Station S0,PETG / ASA,35-50%,"Bonus part. For dry dock alignment tests only, not an electrical charging connector."
+part_no,filename,title,quantity,material,size_x_mm,size_y_mm,size_z_mm,print_note
+PSR-HU-002-R00,PSR-HU-002-R00_left_float_front_tray.stl,Left float front open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-003-R00,PSR-HU-003-R00_left_float_mid_tray.stl,Left float mid open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-004-R00,PSR-HU-004-R00_left_float_rear_tray.stl,Left float rear open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-005-R00,PSR-HU-005-R00_right_float_front_tray.stl,Right float front open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-006-R00,PSR-HU-006-R00_right_float_mid_tray.stl,Right float mid open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-007-R00,PSR-HU-007-R00_right_float_rear_tray.stl,Right float rear open tray,1,PETG recommended,165.0,56.0,85.0,Open-top float tray; add foam and seal for water testing; print upright; brim recommended.
+PSR-HU-001-R00,PSR-HU-001-R00_central_hull_short_frame.stl,Central hull short frame with cradle and belly rails,1,"PLA first, PETG later",240.0,116.0,35.75,Print flat on bed; no support expected.
+PSR-HU-008-R00,PSR-HU-008-R00_bow_mud_deflector_step_ramp.stl,Stepped bow mud deflector concept,1,PLA/PETG,120.0,115.0,35.0,Concept part; print flat; not a structural part.
+PSR-HU-010-R00,PSR-HU-010-R00_waterproof_box_dummy.stl,Waterproof box placement dummy,1,PLA,144.0,84.0,61.5,Visual/dummy only; not waterproof.
+PSR-HU-013-R00,PSR-HU-013-R00_ballast_test_tray.stl,Ballast test tray for weight placement,1,PLA/PETG,150.0,70.0,19.75,Use tape/zip ties to secure weights during water tests.
+PSR-HU-015-R00,PSR-HU-015-R00_float_segment_lid_generic.stl,Generic float segment lid,6,PETG recommended,165.0,50.0,11.0,One lid per float tray; seal with tape/silicone only for controlled water tests.
+PSR-HU-016-R00,PSR-HU-016-R00_float_seam_joiner_clip.stl,Float seam joiner clip,4,PLA/PETG,60.0,58.0,20.0,Clip over seam between float segments; use with tape for water tests.
+PSR-HU-012-R00,PSR-HU-012-R00_belly_module_rail_sample.stl,Belly module rail sample,1,PLA/PETG,140.0,80.0,16.0,Sample rail/tongue for future module swap tests.

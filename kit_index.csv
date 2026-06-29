@@ -1,12 +1,14 @@
-kit_no,kit_name,included_part_no
-PS-PR-A0-KIT-001-R00,PS PR A0 KIT 001 R00,PS-PR-A0-BMP-001-R00
-PS-PR-A0-KIT-001-R00,PS PR A0 KIT 001 R00,PS-PR-A0-SBC-001-R00
-PS-PR-A0-KIT-001-R00,PS PR A0 KIT 001 R00,PS-PR-A0-CAM-001-R00
-PS-PR-A0-KIT-001-R00,PS PR A0 KIT 001 R00,PS-PR-A0-CBL-001-R00
-PS-HU-H0-KIT-001-R00,PS HU H0 KIT 001 R00,PS-HU-H0-GDE-001-R00
-PS-HU-H0-KIT-001-R00,PS HU H0 KIT 001 R00,PS-HU-H0-RLR-001-R00
-PS-HU-H0-KIT-001-R00,PS HU H0 KIT 001 R00,PS-HU-H0-CVR-001-R00
-PS-HU-H0-KIT-001-R00,PS HU H0 KIT 001 R00,PS-HU-H0-CHU-001-R00
-PS-PP-P0-KIT-001-R00,PS PP P0 KIT 001 R00,PS-PP-P0-TRAY-001-R00
-PS-PP-P0-KIT-001-R00,PS PP P0 KIT 001 R00,PS-PP-P0-DEPTH-001-R00
-PS-ST-S0-KIT-001-R00,PS ST S0 KIT 001 R00,PS-ST-S0-DOCK-001-R00
+category,part_no,filename,description
+hull_v0_1,PSR-HU-002-R00,stl/hull_v0_1/PSR-HU-002-R00_left_float_front_tray.stl,Left float front open tray
+hull_v0_1,PSR-HU-003-R00,stl/hull_v0_1/PSR-HU-003-R00_left_float_mid_tray.stl,Left float mid open tray
+hull_v0_1,PSR-HU-004-R00,stl/hull_v0_1/PSR-HU-004-R00_left_float_rear_tray.stl,Left float rear open tray
+hull_v0_1,PSR-HU-005-R00,stl/hull_v0_1/PSR-HU-005-R00_right_float_front_tray.stl,Right float front open tray
+hull_v0_1,PSR-HU-006-R00,stl/hull_v0_1/PSR-HU-006-R00_right_float_mid_tray.stl,Right float mid open tray
+hull_v0_1,PSR-HU-007-R00,stl/hull_v0_1/PSR-HU-007-R00_right_float_rear_tray.stl,Right float rear open tray
+hull_v0_1,PSR-HU-001-R00,stl/hull_v0_1/PSR-HU-001-R00_central_hull_short_frame.stl,Central hull short frame with cradle and belly rails
+hull_v0_1,PSR-HU-008-R00,stl/hull_v0_1/PSR-HU-008-R00_bow_mud_deflector_step_ramp.stl,Stepped bow mud deflector concept
+hull_v0_1,PSR-HU-010-R00,stl/hull_v0_1/PSR-HU-010-R00_waterproof_box_dummy.stl,Waterproof box placement dummy
+hull_v0_1,PSR-HU-013-R00,stl/hull_v0_1/PSR-HU-013-R00_ballast_test_tray.stl,Ballast test tray for weight placement
+hull_v0_1,PSR-HU-015-R00,stl/hull_v0_1/PSR-HU-015-R00_float_segment_lid_generic.stl,Generic float segment lid
+hull_v0_1,PSR-HU-016-R00,stl/hull_v0_1/PSR-HU-016-R00_float_seam_joiner_clip.stl,Float seam joiner clip
+hull_v0_1,PSR-HU-012-R00,stl/hull_v0_1/PSR-HU-012-R00_belly_module_rail_sample.stl,Belly module rail sample
