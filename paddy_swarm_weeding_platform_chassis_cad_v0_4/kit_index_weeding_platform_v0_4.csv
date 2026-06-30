@@ -1,0 +1,4 @@
+kit_id,kit_name,includes,purpose
+PSR-KIT-WD0,Weeding Platform Fit Kit v0.4,PSR-WP-101; PSR-WD-101; PSR-WD-102; PSR-FLT-101; PSR-WH-101,"Fit, clearance, float, and under-belly weeding layout checks"
+PSR-KIT-WD1,Weeding Season Reference Assembly v0.4,PSR-ASM-103,Visual/reference assembly only; not one-piece print
+PSR-KIT-PWR0,Dry Cassette Check Kit v0.4,PSR-PWR-101; PSR-WP-102,Check protective cover and inner dry cassette space

@@ -1,0 +1,10 @@
+part_id,filename,category,recommended_material,print_first,notes
+PSR-WP-101,PSR-WP-101-R00_base_chassis_four_wheel_weeding_ready.stl,base chassis,PLA then PETG,yes,Four-wheel frame with blank front/rear option sockets and belly rails
+PSR-WP-102,PSR-WP-102-R00_low_protective_cover_charge_solar_ready.stl,protective cover,PLA then PETG,yes,Low water-shedding cover; Charge Scute and solar/perovskite-ready area retained
+PSR-PWR-101,PSR-PWR-101-R00_inner_dry_cassette_dummy.stl,power protection,PLA,yes,Dry cassette size and clearance dummy only
+PSR-FLT-101,PSR-FLT-101-R00_removable_side_float_pair_15cm_water.stl,float,PLA then PETG,yes,Removable side floats for 15cm water and mud sink-in concept tests
+PSR-WH-101,PSR-WH-101-R00_tpu_low_damage_lug_wheel_dummy.stl,wheel,TPU/PETG split later,yes,Single wheel dummy; duplicate four times for layout check
+PSR-WD-101,PSR-WD-101-R00_belly_weeding_module_carrier.stl,weeding module,PLA then PETG,yes,Slide-in carrier with mud skids and height adjustment gauge
+PSR-WD-102,PSR-WD-102-R00_belly_weeding_stirrer_tine_unit.stl,weeding module,PLA then TPU/PETG,yes,Experimental stirrer/tine geometry dummy
+PSR-WD-103,PSR-WD-103-R00_belly_weeding_module_complete_reference.stl,weeding module assembly,PLA,no,Reference only; carrier plus stirrer
+PSR-ASM-103,PSR-ASM-103-R00_base_chassis_weeding_complete_reference_assembly.stl,reference assembly,none,no,Do not print as one piece; visual and clearance reference only
