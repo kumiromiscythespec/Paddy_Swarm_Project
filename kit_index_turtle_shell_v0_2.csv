@@ -1,0 +1,11 @@
+kit,part_id,qty,required,purpose
+Turtle Shell Chassis v0.2,PSR-HU-020,1,yes,Updated chassis test segment
+Turtle Shell Chassis v0.2,PSR-SHL-000,1,yes,Shell mount gauge
+Turtle Shell Chassis v0.2,PSR-SHL-001F,1,yes,Front standard shell
+Turtle Shell Chassis v0.2,PSR-SHL-001R,1,yes,Rear standard shell
+Turtle Shell Chassis v0.2,PSR-PWR-010,1,yes,Inner dry cassette fit check
+Turtle Shell Chassis v0.2,PSR-PWR-011,1,yes,Low battery tray fit check
+Charge Module option,PSR-CHG-003,1,optional,Top wireless charge window dummy
+Solar-ready option,PSR-SHL-002,1,optional,Future panel/coating pad dummy
+Charge Scute option,PSR-SHL-003,1,optional,Non-metallic wireless charge target
+CAD reference,PSR-ASM-001,1,no,Full reference assembly only
