@@ -1,0 +1,11 @@
+part_id,filename,category,recommended_material,purpose,print_priority,notes
+PSR-WP-001,PSR-WP-001-R00_four_wheel_work_chassis_frame.stl,chassis,PLA/PETG,四輪作業シャーシ本体,1,腹下クリアランスと前後マウント位置確認
+PSR-WP-002,PSR-WP-002-R00_front_quick_attachment_mount.stl,attachment,PLA/PETG,前方アタッチメント受け,2,除草・直播・田植えユニット接続想定
+PSR-WP-003,PSR-WP-003-R00_rear_high_cut_arm_mount.stl,attachment,PLA/PETG,後方高刈りアーム受け,3,収穫補助・後方処理系接続想定
+PSR-WP-004,PSR-WP-004-R00_belly_weeding_module_carrier_dummy.stl,weeding,PLA,腹下除草ユニットダミー,4,撹拌軸とタインの干渉確認
+PSR-WP-005,PSR-WP-005-R00_direct_seeding_planting_module_dummy.stl,seeding,PLA,直播・田植えモジュールダミー,5,ホッパーと浅溝オープナーの重心確認
+PSR-WP-006,PSR-WP-006-R00_high_cut_harvest_arm_dummy.stl,harvest,PLA,高刈りアームダミー,6,後方重量と刈刃高さ確認
+PSR-WP-007,PSR-WP-007-R00_low_functional_protective_cover_charge_solar_ready.stl,cover,PETG,低い機能優先保護カバー,4,Charge Scuteとソーラー対応面あり
+PSR-WP-008,PSR-WP-008-R00_side_float_pair_safety_path_width.stl,float,PETG,側面フロートペア,5,Safety Path運用向け安定化
+PSR-WH-010,PSR-WH-010-R00_tpu_lug_wheel_dummy.stl,wheel,TPU/PETG,TPUラグタイヤダミー,3,PETGハブ+TPUタイヤの検討用
+PSR-ASM-002,PSR-ASM-002-R00_four_wheel_work_platform_reference_assembly.stl,assembly,none,全体参照アセンブリ,0,印刷非推奨・全体把握用

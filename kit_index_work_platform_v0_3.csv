@@ -1,0 +1,11 @@
+kit,part_id,filename,qty,role
+Work Platform Base,PSR-WP-001,PSR-WP-001-R00_four_wheel_work_chassis_frame.stl,1,base chassis
+Work Platform Base,PSR-WP-007,PSR-WP-007-R00_low_functional_protective_cover_charge_solar_ready.stl,1,protective cover
+Work Platform Base,PSR-WP-008,PSR-WP-008-R00_side_float_pair_safety_path_width.stl,1,side floats
+Four Wheel Test,PSR-WH-010,PSR-WH-010-R00_tpu_lug_wheel_dummy.stl,4,wheel dummy
+Attachment Interface,PSR-WP-002,PSR-WP-002-R00_front_quick_attachment_mount.stl,1,front attachment mount
+Attachment Interface,PSR-WP-003,PSR-WP-003-R00_rear_high_cut_arm_mount.stl,1,rear attachment mount
+Belly Weeding Test,PSR-WP-004,PSR-WP-004-R00_belly_weeding_module_carrier_dummy.stl,1,belly weeding dummy
+Direct Seeding Test,PSR-WP-005,PSR-WP-005-R00_direct_seeding_planting_module_dummy.stl,1,seeding/planting dummy
+High-Cut Test,PSR-WP-006,PSR-WP-006-R00_high_cut_harvest_arm_dummy.stl,1,high-cut harvest dummy
+Reference,PSR-ASM-002,PSR-ASM-002-R00_four_wheel_work_platform_reference_assembly.stl,1,reference assembly only
