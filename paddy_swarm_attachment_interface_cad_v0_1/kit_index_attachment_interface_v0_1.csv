@@ -1,0 +1,5 @@
+kit_id,kit_name,included_parts,purpose
+PSR-AIF-KIT-001,Four Fixed Port Interface Gauge,"PSR-AIF-001, PSR-AIF-010",Validate the four attachment locations before updating body or attachments.
+PSR-WP-KIT-201,Base Chassis Four-Port v0.5,"PSR-WP-201, PSR-AIF-010",Body reference with front/rear left/right attachment ports.
+PSR-DS-KIT-401,Rear 3-Unit Direct Seeding Mock-up,"PSR-WP-203, PSR-DS-401, PSR-DS-402, PSR-DS-403, PSR-DS-404, PSR-DS-405","Rear-mounted direct seeding module for germinated seed, 3 units at 100 mm pitch."
+PSR-HC-KIT-202,Front High-Cut Interface Gauge,PSR-WP-202,Front-port position gauge for future high-cut camera-linked arm.
