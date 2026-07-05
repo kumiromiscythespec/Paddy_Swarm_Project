@@ -1,0 +1,4 @@
+﻿dense_set,description,total_items,rigid_items,tpu_items,printed_metal_replacement_items,plates,output_dir
+rigid_plus_metal,RIGID + printed metal surrogate rods,51,51,0,3,20,rover_v227_dense_v5_7_model\dense_rigid_plus_metal
+rigid_only,"RIGID only, no printed metal surrogate rods",48,48,0,0,19,rover_v227_dense_v5_7_model\dense_rigid_only
+tpu_only,TPU only,10,0,10,0,8,rover_v227_dense_v5_7_model\dense_tpu_only

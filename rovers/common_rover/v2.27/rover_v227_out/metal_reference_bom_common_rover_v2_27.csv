@@ -1,0 +1,4 @@
+﻿item,diameter_mm,length_mm,qty,notes
+wheel axle rod,6,172,4,real load path; stainless or plated steel candidate
+gearbox internal rod,4,54,8,gear/idler support rods
+PTO alignment rod,6,52,2,alignment/reference only

@@ -1,0 +1,14 @@
+﻿plate_id,material_group,items,notes
+A1-HARD-01,HARD,PS-RV227-CHS-FL; PS-RV227-CHS-FR; PS-RV227-CHS-RL; PS-RV227-CHS-RR,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-02,HARD,PS-WBX-MCR-L; PS-WBX-MCR-R; PS-WBX-MCR-LOC-S; PS-WBX-MCR-WDG-S; PS-WBX-MCR-LAT-S; PS-WBX-MCR-GAUGE,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-03,HARD,PS-RV227-CBOX-BDY; PS-RV227-CBOX-LID; PS-RV227-BBOX-BDY; PS-RV227-BBOX-LID; PS-RV227-DBX-RC,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-04,HARD,PS-RCP-G1; PS-RV227-RCP-BRKT; PS-WCH-G1; PS-RV227-PTO; PS-RV227-MPL; PS-RV227-MPR,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-05,HARD,PS-RV227-DRC-LF; PS-RV227-DRC-LR; PS-RV227-DRC-RF; PS-RV227-DRC-RR; PS-RV227-DRC-CVR-S; PS-RV227-GEA-18T-S; PS-RV227-IDR-S; PS-RV227-PIN-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-06,HARD,PS-RV227-WBASE-L; PS-RV227-WBASE-R; PS-RV227-DRIVE-L; PS-RV227-DRIVE-R; PS-RV227-AXLE-HUB-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-07,HARD,PS-RV227-FLT-L; PS-RV227-FLT-R; PS-RV227-HULL-SKID,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-08,HARD,PS-RV227-PAX-6X172-S; PS-RV227-PAX-4X54-S; PS-RV227-PAX-6X52-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-09,HARD,PS-RV227-LOWER-FRAME; PS-RV227-GBOX-INTERNAL-L; PS-RV227-GBOX-INTERNAL-R; PS-RV227-AXLE-SPROCKET-S; PS-RV227-FLT-BRACKET-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-HARD-10,HARD,PS-RV227-FLT-RCV-L; PS-RV227-FLT-RCV-R; PS-RV227-FLT-RCV-FR-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-TPU-01,TPU,PS-RV227-CBOX-GSK; PS-RV227-BBOX-GSK; PS-RV227-DBX-PLG-S,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-TPU-02,TPU,PS-RV227-WHL-FL; PS-RV227-WHL-FR; PS-RV227-WHL-RL; PS-RV227-WHL-RR,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed
+A1-TPU-03,TPU,PS-RV227-FLT-STRAP-S; PS-RV227-BELT-L; PS-RV227-BELT-R,auto-generated v223 lower-drivetrain moving-model plate group; dense v5.5 may split further if needed

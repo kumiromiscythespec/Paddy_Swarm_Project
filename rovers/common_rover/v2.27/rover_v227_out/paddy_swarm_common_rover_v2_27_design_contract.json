@@ -1,0 +1,1016 @@
+{
+  "design": {
+    "project": "Paddy Swarm Project",
+    "part_family": "Common Rover Body",
+    "version": "v2.27",
+    "units": "mm",
+    "row_spacing_target": 300.0,
+    "total_width_max_allowed": 300.0,
+    "printed_box_outer_lwh": [
+      150.0,
+      200.0,
+      120.0
+    ],
+    "commercial_box_reference_lwh": [
+      200.0,
+      300.0,
+      120.0
+    ],
+    "box_wall": 4.0,
+    "box_bottom": 4.0,
+    "top_open_notch_count_per_box": 2,
+    "top_open_notch_count_total_two_boxes": 4,
+    "top_open_notch_w_depth": [
+      14.0,
+      13.0
+    ],
+    "top_open_notch_bottom_z": 104.0,
+    "top_open_notch_slope_deg": 45.0,
+    "slot_water_path": "top-open notch: connector passes over open lid edge; only bundled wires occupy the notch; bottom is rounded and lower/exterior side is treated as water escape; no upper bridge",
+    "printed_joint_policy": "slide rails, wedges, latches, snap/retainer features before metal screws",
+    "commercial_box_mode": "300x200x120mm class purchased IP65-IP67 box, reference only",
+    "printed_box_mode": "150x200x120mm CBOX + 150x200x120mm BBOX, front/rear placement on rover",
+    "transport_height_rule": "box height 120mm target; top protrusions <= +8mm standard, <= +12mm absolute upper limit",
+    "water_depth_design_check": "15cm water depth plus mud sink-in requires flotation before real water operation; printed box height alone is not treated as safe freeboard",
+    "flotation_mount_policy": "provide removable front/rear and inboard side float receivers; keep flotation within 300mm row-spacing envelope where possible; final float volume is determined by tank test"
+  },
+  "parts": [
+    {
+      "part_no": "PS-RV227-CHS-FL",
+      "name": "front-left split chassis with female slide slot",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-01",
+      "stl_name": "PS-RV227-CHS-FL.stl",
+      "bbox_lwh_mm": [
+        118,
+        178,
+        22
+      ],
+      "print_target": true,
+      "notes": "printed chassis quadrant; v2.27 fused tabs; no metal screw dependency"
+    },
+    {
+      "part_no": "PS-RV227-CHS-FR",
+      "name": "front-right split chassis with female slide slot",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-01",
+      "stl_name": "PS-RV227-CHS-FR.stl",
+      "bbox_lwh_mm": [
+        118,
+        178,
+        22
+      ],
+      "print_target": true,
+      "notes": "printed chassis quadrant; v2.27 fused tabs"
+    },
+    {
+      "part_no": "PS-RV227-CHS-RL",
+      "name": "rear-left split chassis with female slide slot",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-01",
+      "stl_name": "PS-RV227-CHS-RL.stl",
+      "bbox_lwh_mm": [
+        118,
+        178,
+        22
+      ],
+      "print_target": true,
+      "notes": "printed chassis quadrant; v2.27 fused tabs"
+    },
+    {
+      "part_no": "PS-RV227-CHS-RR",
+      "name": "rear-right split chassis with female slide slot",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-01",
+      "stl_name": "PS-RV227-CHS-RR.stl",
+      "bbox_lwh_mm": [
+        118,
+        178,
+        22
+      ],
+      "print_target": true,
+      "notes": "printed chassis quadrant; v2.27 fused tabs"
+    },
+    {
+      "part_no": "PS-WBX-MCR-L",
+      "name": "multi-cradle left rail for commercial or dual printed boxes",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-L.stl",
+      "bbox_lwh_mm": [
+        18,
+        430,
+        18
+      ],
+      "print_target": true,
+      "notes": "slide rail + fused low hold-down geometry"
+    },
+    {
+      "part_no": "PS-WBX-MCR-R",
+      "name": "multi-cradle right rail for commercial or dual printed boxes",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-R.stl",
+      "bbox_lwh_mm": [
+        18,
+        430,
+        18
+      ],
+      "print_target": true,
+      "notes": "slide rail + fused low hold-down geometry"
+    },
+    {
+      "part_no": "PS-WBX-MCR-LOC-S",
+      "name": "front/rear adjustable locator set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-LOC-S.stl",
+      "bbox_lwh_mm": [
+        120,
+        28,
+        22
+      ],
+      "print_target": true,
+      "notes": "locator blocks for 300x200x120 or dual 150x200x120 boxes"
+    },
+    {
+      "part_no": "PS-WBX-MCR-WDG-S",
+      "name": "printed wedge key set for box cradle",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-WDG-S.stl",
+      "bbox_lwh_mm": [
+        92,
+        52,
+        12
+      ],
+      "print_target": true,
+      "notes": "no metal screw wedge locks"
+    },
+    {
+      "part_no": "PS-WBX-MCR-LAT-S",
+      "name": "printed latch key set for low hold-downs",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-LAT-S.stl",
+      "bbox_lwh_mm": [
+        82,
+        48,
+        14
+      ],
+      "print_target": true,
+      "notes": "low top protrusion latch keys"
+    },
+    {
+      "part_no": "PS-WBX-MCR-GAUGE",
+      "name": "transport rack height interference gauge",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-02",
+      "stl_name": "PS-WBX-MCR-GAUGE.stl",
+      "bbox_lwh_mm": [
+        170,
+        18,
+        16
+      ],
+      "print_target": true,
+      "notes": "checks HCS-G1 roof rack clearance"
+    },
+    {
+      "part_no": "PS-RV227-CBOX-BDY",
+      "name": "printed control/drive waterproof box body",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-03",
+      "stl_name": "PS-RV227-CBOX-BDY.stl",
+      "bbox_lwh_mm": [
+        150,
+        200,
+        120
+      ],
+      "print_target": true,
+      "notes": "two top-open wire-drop notches with bottom-only rounded cable guide; no floating body label"
+    },
+    {
+      "part_no": "PS-RV227-CBOX-LID",
+      "name": "printed control/drive box lid with gasket groove",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-03",
+      "stl_name": "PS-RV227-CBOX-LID.stl",
+      "bbox_lwh_mm": [
+        166,
+        216,
+        16
+      ],
+      "print_target": true,
+      "notes": "support-safe flat lid; solid lid label OK"
+    },
+    {
+      "part_no": "PS-RV227-BBOX-BDY",
+      "name": "printed power/battery waterproof box body",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-03",
+      "stl_name": "PS-RV227-BBOX-BDY.stl",
+      "bbox_lwh_mm": [
+        150,
+        200,
+        120
+      ],
+      "print_target": true,
+      "notes": "two top-open wire-drop notches with bottom-only rounded cable guide; no floating body label"
+    },
+    {
+      "part_no": "PS-RV227-BBOX-LID",
+      "name": "printed power/battery box lid with gasket groove",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-03",
+      "stl_name": "PS-RV227-BBOX-LID.stl",
+      "bbox_lwh_mm": [
+        166,
+        216,
+        16
+      ],
+      "print_target": true,
+      "notes": "support-safe flat lid; solid lid label OK"
+    },
+    {
+      "part_no": "PS-RV227-CBOX-GSK",
+      "name": "TPU gasket for control box lid",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-01",
+      "stl_name": "PS-RV227-CBOX-GSK.stl",
+      "bbox_lwh_mm": [
+        154,
+        204,
+        3
+      ],
+      "print_target": true,
+      "notes": "TPU/EPDM gasket candidate"
+    },
+    {
+      "part_no": "PS-RV227-BBOX-GSK",
+      "name": "TPU gasket for battery box lid",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-01",
+      "stl_name": "PS-RV227-BBOX-GSK.stl",
+      "bbox_lwh_mm": [
+        154,
+        204,
+        3
+      ],
+      "print_target": true,
+      "notes": "TPU/EPDM gasket candidate"
+    },
+    {
+      "part_no": "PS-RV227-DBX-RC",
+      "name": "low raincoat seam cover for dual box seam",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-03",
+      "stl_name": "PS-RV227-DBX-RC.stl",
+      "bbox_lwh_mm": [
+        160,
+        54,
+        18
+      ],
+      "print_target": true,
+      "notes": "support-clean flat shingle raincoat cover; usage angle by mounting"
+    },
+    {
+      "part_no": "PS-RV227-DBX-PLG-S",
+      "name": "TPU sloped slot plug set",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-01",
+      "stl_name": "PS-RV227-DBX-PLG-S.stl",
+      "bbox_lwh_mm": [
+        96,
+        28,
+        6
+      ],
+      "print_target": true,
+      "notes": "support-clean plug set on sacrificial sprue base"
+    },
+    {
+      "part_no": "PS-RCP-G1",
+      "name": "rear high-mounted control panel",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-RCP-G1.stl",
+      "bbox_lwh_mm": [
+        170,
+        28,
+        58
+      ],
+      "print_target": true,
+      "notes": "real switch hole panel: 23mm E-stop, 17mm buttons, LED/buzzer holes, rear potting cups"
+    },
+    {
+      "part_no": "PS-RV227-RCP-BRKT",
+      "name": "raised top-access bracket for RCP-G1 control panel",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-RV227-RCP-BRKT.stl",
+      "bbox_lwh_mm": [
+        98,
+        42,
+        56
+      ],
+      "print_target": true,
+      "notes": "separates E-stop access from PTO face; mounts control panel above box edge with front/rear bolt slots"
+    },
+    {
+      "part_no": "PS-WCH-G1",
+      "name": "wa-shaped rain return cable hood",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-WCH-G1.stl",
+      "bbox_lwh_mm": [
+        92,
+        70,
+        42
+      ],
+      "print_target": true,
+      "notes": "support-clean flat shingle cable hood; usage angle by mounting"
+    },
+    {
+      "part_no": "PS-RV227-PTO",
+      "name": "front two-port PTO panel with bayonet lugs",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-RV227-PTO.stl",
+      "bbox_lwh_mm": [
+        162,
+        24,
+        72
+      ],
+      "print_target": true,
+      "notes": "support-clean face-up PTO representation; PTO stays on front lower face and is separated from emergency-stop controls"
+    },
+    {
+      "part_no": "PS-RV227-MPL",
+      "name": "left high motor pod",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-RV227-MPL.stl",
+      "bbox_lwh_mm": [
+        54,
+        132,
+        58
+      ],
+      "print_target": true,
+      "notes": "left high mounted motor pod; v2.27 fused cable boss; recessed external label"
+    },
+    {
+      "part_no": "PS-RV227-MPR",
+      "name": "right high motor pod",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-04",
+      "stl_name": "PS-RV227-MPR.stl",
+      "bbox_lwh_mm": [
+        54,
+        132,
+        58
+      ],
+      "print_target": true,
+      "notes": "right high mounted motor pod; v2.27 fused cable boss; recessed external label"
+    },
+    {
+      "part_no": "PS-RV227-DRC-LF",
+      "name": "left front functional drive case half",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-DRC-LF.stl",
+      "bbox_lwh_mm": [
+        32,
+        120,
+        38
+      ],
+      "print_target": true,
+      "notes": "cavity, rod holes, service cover rail, drain"
+    },
+    {
+      "part_no": "PS-RV227-DRC-LR",
+      "name": "left rear functional drive case half",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-DRC-LR.stl",
+      "bbox_lwh_mm": [
+        32,
+        120,
+        38
+      ],
+      "print_target": true,
+      "notes": "cavity, rod holes, service cover rail, drain"
+    },
+    {
+      "part_no": "PS-RV227-DRC-RF",
+      "name": "right front functional drive case half",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-DRC-RF.stl",
+      "bbox_lwh_mm": [
+        32,
+        120,
+        38
+      ],
+      "print_target": true,
+      "notes": "cavity, rod holes, service cover rail, drain"
+    },
+    {
+      "part_no": "PS-RV227-DRC-RR",
+      "name": "right rear functional drive case half",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-DRC-RR.stl",
+      "bbox_lwh_mm": [
+        32,
+        120,
+        38
+      ],
+      "print_target": true,
+      "notes": "cavity, rod holes, service cover rail, drain"
+    },
+    {
+      "part_no": "PS-RV227-DRC-CVR-S",
+      "name": "slide service cover set for drive cases",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-DRC-CVR-S.stl",
+      "bbox_lwh_mm": [
+        118,
+        82,
+        8
+      ],
+      "print_target": true,
+      "notes": "four slide service covers"
+    },
+    {
+      "part_no": "PS-RV227-GEA-18T-S",
+      "name": "printed 18 tooth gear set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-GEA-18T-S.stl",
+      "bbox_lwh_mm": [
+        120,
+        60,
+        12
+      ],
+      "print_target": true,
+      "notes": "assembly/test gears; metal rods still recommended for load"
+    },
+    {
+      "part_no": "PS-RV227-IDR-S",
+      "name": "printed idler roller set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-IDR-S.stl",
+      "bbox_lwh_mm": [
+        88,
+        42,
+        12
+      ],
+      "print_target": true,
+      "notes": "idler rollers for belt/chain route mockup"
+    },
+    {
+      "part_no": "PS-RV227-PIN-S",
+      "name": "printed service pin and retainer set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-05",
+      "stl_name": "PS-RV227-PIN-S.stl",
+      "bbox_lwh_mm": [
+        110,
+        42,
+        10
+      ],
+      "print_target": true,
+      "notes": "printed service pins and retainers"
+    },
+    {
+      "part_no": "PS-RV227-WBASE-L",
+      "name": "left printable wheelbase side rail with axle carriers",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-06",
+      "stl_name": "PS-RV227-WBASE-L.stl",
+      "bbox_lwh_mm": [
+        224,
+        32,
+        20
+      ],
+      "print_target": true,
+      "notes": "moving model wheelbase; axle carrier rail; low-load printed model"
+    },
+    {
+      "part_no": "PS-RV227-WBASE-R",
+      "name": "right printable wheelbase side rail with axle carriers",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-06",
+      "stl_name": "PS-RV227-WBASE-R.stl",
+      "bbox_lwh_mm": [
+        224,
+        32,
+        20
+      ],
+      "print_target": true,
+      "notes": "moving model wheelbase; axle carrier rail; low-load printed model"
+    },
+    {
+      "part_no": "PS-RV227-DRIVE-L",
+      "name": "left visible gearbox-to-wheel drive path module",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-06",
+      "stl_name": "PS-RV227-DRIVE-L.stl",
+      "bbox_lwh_mm": [
+        218,
+        46,
+        18
+      ],
+      "print_target": true,
+      "notes": "visible belt/chain drive path from drive case output to front/rear wheel axles"
+    },
+    {
+      "part_no": "PS-RV227-DRIVE-R",
+      "name": "right visible gearbox-to-wheel drive path module",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-06",
+      "stl_name": "PS-RV227-DRIVE-R.stl",
+      "bbox_lwh_mm": [
+        218,
+        46,
+        18
+      ],
+      "print_target": true,
+      "notes": "visible belt/chain drive path from drive case output to front/rear wheel axles"
+    },
+    {
+      "part_no": "PS-RV227-AXLE-HUB-S",
+      "name": "printable axle hub and wheel retainer set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-06",
+      "stl_name": "PS-RV227-AXLE-HUB-S.stl",
+      "bbox_lwh_mm": [
+        126,
+        38,
+        14
+      ],
+      "print_target": true,
+      "notes": "low-load model hubs/retainers for printed axles and TPU wheels"
+    },
+    {
+      "part_no": "PS-RV227-FLT-L",
+      "name": "left side float pontoon",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-07",
+      "stl_name": "PS-RV227-FLT-L.stl",
+      "bbox_lwh_mm": [
+        226,
+        34,
+        22
+      ],
+      "print_target": true,
+      "notes": "support-clean side float / mud skid pontoon; model only until sealed"
+    },
+    {
+      "part_no": "PS-RV227-FLT-R",
+      "name": "right side float pontoon",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-07",
+      "stl_name": "PS-RV227-FLT-R.stl",
+      "bbox_lwh_mm": [
+        226,
+        34,
+        22
+      ],
+      "print_target": true,
+      "notes": "support-clean side float / mud skid pontoon; model only until sealed"
+    },
+    {
+      "part_no": "PS-RV227-HULL-SKID",
+      "name": "central shallow boat skid hull",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-07",
+      "stl_name": "PS-RV227-HULL-SKID.stl",
+      "bbox_lwh_mm": [
+        178,
+        214,
+        18
+      ],
+      "print_target": true,
+      "notes": "shallow underbody boat/skid tray for low-load moving model and float layout check"
+    },
+    {
+      "part_no": "PS-RV227-PAX-6X172-S",
+      "name": "printed 6mm class axle surrogate set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-08",
+      "stl_name": "PS-RV227-PAX-6X172-S.stl",
+      "bbox_lwh_mm": [
+        190,
+        44,
+        8
+      ],
+      "print_target": true,
+      "notes": "plastic surrogate for 6mm x 172mm wheel axles; low-load model only"
+    },
+    {
+      "part_no": "PS-RV227-PAX-4X54-S",
+      "name": "printed 4mm class gearbox rod surrogate set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-08",
+      "stl_name": "PS-RV227-PAX-4X54-S.stl",
+      "bbox_lwh_mm": [
+        112,
+        46,
+        6
+      ],
+      "print_target": true,
+      "notes": "plastic surrogate for 4mm x 54mm gearbox rods; low-load model only"
+    },
+    {
+      "part_no": "PS-RV227-PAX-6X52-S",
+      "name": "printed 6mm class PTO alignment surrogate set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-08",
+      "stl_name": "PS-RV227-PAX-6X52-S.stl",
+      "bbox_lwh_mm": [
+        90,
+        28,
+        8
+      ],
+      "print_target": true,
+      "notes": "plastic surrogate for 6mm x 52mm PTO/alignment rods; low-load model only"
+    },
+    {
+      "part_no": "PS-RV227-LOWER-FRAME",
+      "name": "one-piece visible lower undercarriage wheelbase frame",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-09",
+      "stl_name": "PS-RV227-LOWER-FRAME.stl",
+      "bbox_lwh_mm": [
+        232,
+        188,
+        22
+      ],
+      "print_target": true,
+      "notes": "clear wheelbase frame with front/rear axle carriers and center gearbox mounts"
+    },
+    {
+      "part_no": "PS-RV227-GBOX-INTERNAL-L",
+      "name": "left gearbox internal gear mockup cartridge",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-09",
+      "stl_name": "PS-RV227-GBOX-INTERNAL-L.stl",
+      "bbox_lwh_mm": [
+        118,
+        46,
+        16
+      ],
+      "print_target": true,
+      "notes": "printed gear train mockup replacing metal gears for low-load model"
+    },
+    {
+      "part_no": "PS-RV227-GBOX-INTERNAL-R",
+      "name": "right gearbox internal gear mockup cartridge",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-09",
+      "stl_name": "PS-RV227-GBOX-INTERNAL-R.stl",
+      "bbox_lwh_mm": [
+        118,
+        46,
+        16
+      ],
+      "print_target": true,
+      "notes": "printed gear train mockup replacing metal gears for low-load model"
+    },
+    {
+      "part_no": "PS-RV227-AXLE-SPROCKET-S",
+      "name": "axle sprocket and spacer set for four wheels",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-09",
+      "stl_name": "PS-RV227-AXLE-SPROCKET-S.stl",
+      "bbox_lwh_mm": [
+        132,
+        52,
+        12
+      ],
+      "print_target": true,
+      "notes": "four axle sprockets/pulleys plus spacers for printed wheel axles"
+    },
+    {
+      "part_no": "PS-RV227-FLT-BRACKET-S",
+      "name": "float and hull bracket set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-09",
+      "stl_name": "PS-RV227-FLT-BRACKET-S.stl",
+      "bbox_lwh_mm": [
+        142,
+        46,
+        12
+      ],
+      "print_target": true,
+      "notes": "brackets connecting side floats and central hull/skid to lower frame"
+    },
+    {
+      "part_no": "PS-RV227-FLT-RCV-L",
+      "name": "left inboard side float receiver rail",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-10",
+      "stl_name": "PS-RV227-FLT-RCV-L.stl",
+      "bbox_lwh_mm": [
+        226,
+        28,
+        18
+      ],
+      "print_target": true,
+      "notes": "removable inboard side receiver for FLT-L or foam float; keeps float mount inside wheel envelope where possible"
+    },
+    {
+      "part_no": "PS-RV227-FLT-RCV-R",
+      "name": "right inboard side float receiver rail",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-10",
+      "stl_name": "PS-RV227-FLT-RCV-R.stl",
+      "bbox_lwh_mm": [
+        226,
+        28,
+        18
+      ],
+      "print_target": true,
+      "notes": "removable inboard side receiver for FLT-R or foam float; keeps float mount inside wheel envelope where possible"
+    },
+    {
+      "part_no": "PS-RV227-FLT-RCV-FR-S",
+      "name": "front/rear cross float receiver saddle set",
+      "material": "PETG",
+      "material_group": "HARD",
+      "qty": 1,
+      "plate_id": "A1-HARD-10",
+      "stl_name": "PS-RV227-FLT-RCV-FR-S.stl",
+      "bbox_lwh_mm": [
+        188,
+        58,
+        16
+      ],
+      "print_target": true,
+      "notes": "front and rear cross saddles for float blocks; avoids side-width growth"
+    },
+    {
+      "part_no": "PS-RV227-FLT-STRAP-S",
+      "name": "float strap and locator key set",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-03",
+      "stl_name": "PS-RV227-FLT-STRAP-S.stl",
+      "bbox_lwh_mm": [
+        148,
+        48,
+        5
+      ],
+      "print_target": true,
+      "notes": "TPU strap/locator mockup for detachable float modules; not a final load-rated strap"
+    },
+    {
+      "part_no": "PS-RV227-BELT-L",
+      "name": "left TPU loop belt mockup",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-03",
+      "stl_name": "PS-RV227-BELT-L.stl",
+      "bbox_lwh_mm": [
+        198,
+        42,
+        4
+      ],
+      "print_target": true,
+      "notes": "TPU belt/chain loop mockup from gearbox output to front/rear axle sprockets"
+    },
+    {
+      "part_no": "PS-RV227-BELT-R",
+      "name": "right TPU loop belt mockup",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-03",
+      "stl_name": "PS-RV227-BELT-R.stl",
+      "bbox_lwh_mm": [
+        198,
+        42,
+        4
+      ],
+      "print_target": true,
+      "notes": "TPU belt/chain loop mockup from gearbox output to front/rear axle sprockets"
+    },
+    {
+      "part_no": "PS-RV227-WHL-FL",
+      "name": "front-left support-clean vertical TPU tire placeholder",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-02",
+      "stl_name": "PS-RV227-WHL-FL.stl",
+      "bbox_lwh_mm": [
+        112,
+        42,
+        112
+      ],
+      "print_target": true,
+      "notes": "support-clean vertical TPU tire/contact placeholder"
+    },
+    {
+      "part_no": "PS-RV227-WHL-FR",
+      "name": "front-right support-clean vertical TPU tire placeholder",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-02",
+      "stl_name": "PS-RV227-WHL-FR.stl",
+      "bbox_lwh_mm": [
+        112,
+        42,
+        112
+      ],
+      "print_target": true,
+      "notes": "support-clean vertical TPU tire/contact placeholder"
+    },
+    {
+      "part_no": "PS-RV227-WHL-RL",
+      "name": "rear-left support-clean vertical TPU tire placeholder",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-02",
+      "stl_name": "PS-RV227-WHL-RL.stl",
+      "bbox_lwh_mm": [
+        112,
+        42,
+        112
+      ],
+      "print_target": true,
+      "notes": "support-clean vertical TPU tire/contact placeholder"
+    },
+    {
+      "part_no": "PS-RV227-WHL-RR",
+      "name": "rear-right support-clean vertical TPU tire placeholder",
+      "material": "TPU",
+      "material_group": "TPU",
+      "qty": 1,
+      "plate_id": "A1-TPU-02",
+      "stl_name": "PS-RV227-WHL-RR.stl",
+      "bbox_lwh_mm": [
+        112,
+        42,
+        112
+      ],
+      "print_target": true,
+      "notes": "support-clean vertical TPU tire/contact placeholder"
+    }
+  ],
+  "reference_parts": [
+    {
+      "part_no": "PS-RV227-COMBOX-REF",
+      "name": "commercial IP67 box reference 300x200x120",
+      "material": "REFERENCE",
+      "material_group": "REFERENCE",
+      "qty": 1,
+      "plate_id": "REFERENCE",
+      "stl_name": "PS-RV227-COMBOX-REF.stl",
+      "bbox_lwh_mm": [
+        200,
+        300,
+        120
+      ],
+      "print_target": false,
+      "notes": "purchased 300x200x120mm class IP65-IP67 box reference"
+    }
+  ],
+  "metal_reference_bom": [
+    {
+      "item": "wheel axle rod",
+      "diameter_mm": 6,
+      "length_mm": 172,
+      "qty": 4,
+      "notes": "real load path; stainless or plated steel candidate"
+    },
+    {
+      "item": "gearbox internal rod",
+      "diameter_mm": 4,
+      "length_mm": 54,
+      "qty": 8,
+      "notes": "gear/idler support rods"
+    },
+    {
+      "item": "PTO alignment rod",
+      "diameter_mm": 6,
+      "length_mm": 52,
+      "qty": 2,
+      "notes": "alignment/reference only"
+    }
+  ],
+  "v2_25_rebuild_rules": [
+    "No floating labels on open-top CBOX/BBOX body cavities.",
+    "CBOX/BBOX body each has exactly two narrowed small top-open cable-bundle notches; total four slots for two boxes.",
+    "No external protruding collar or floating U-rib around top-open cable notches; bottom-only rounded guide bead only.",
+    "Notch water management uses an open-top sloped cut: inner floor high, exterior floor low.",
+    "Cable protection uses a bottom-only low rounded interior guide bead; no side posts and no exterior notch collar.",
+    "Commercial 300x200x120 box is reference-only; printed dual 150x200x120 boxes are print targets."
+  ]
+}
