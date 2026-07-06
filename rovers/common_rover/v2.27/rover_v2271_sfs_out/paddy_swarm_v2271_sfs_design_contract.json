@@ -1,0 +1,89 @@
+{
+  "kit": "Paddy Swarm Retrofit Summer Float Shell G1",
+  "version": "v2.27.1-sfs-g1",
+  "compatibility": {
+    "base_rover": "Paddy Swarm Common Rover v2.27",
+    "requires_base_modification": false,
+    "do_not_reprint_current_bbox_cbox": true,
+    "intended_use": "retrofit top shell / summer water-weeding season protection prototype"
+  },
+  "safety_policy": [
+    "This shell is not a waterproof guarantee.",
+    "Do not hide or block the emergency stop button.",
+    "Do not place the shell or side adapters against DRC/DRIVE gearboxes.",
+    "Do not drill into the waterproof BBOX/CBOX during first retrofit testing.",
+    "Do not run water tests with electronics installed; use dummy weights first.",
+    "Use water intrusion sensors and independent high-current cutoff in later electrical builds."
+  ],
+  "mechanical_policy": [
+    "Central top shell protects BBOX/CBOX lid, cable-notch area, and direct splash path.",
+    "MCR/FLT-RCV/LOWER-FRAME area is used as mounting reference instead of the waterproof boxes.",
+    "Side float shells must remain separate from central shell and must preserve gearbox service access.",
+    "Minimum target clearance around DRC/DRIVE is 8 mm, preferably 10 mm or more.",
+    "Minimum target clearance around tire sweep is 12 mm or more in clean dry test, more in mud.",
+    "All dimensions are prototype values and must be checked on the actual printed v2.27 body."
+  ],
+  "print_policy": [
+    "Main shell halves fit within a 256 x 256 mm class plate as separate front/rear parts.",
+    "For lowest support, orient central shells with the broad top/roof face toward the build plate if needed.",
+    "Do not enable heavy supports before checking orientation manually in the slicer.",
+    "PETG is preferred for outdoor testing; PLA is acceptable for dry fit/mockup."
+  ],
+  "reference_dimensions_mm": {
+    "printed_box_body_mm": [
+      150.0,
+      200.0,
+      120.0
+    ],
+    "printed_box_lid_mm": [
+      166.0,
+      216.0,
+      16.0
+    ],
+    "mcr_rail_nominal_mm": [
+      18.0,
+      430.0,
+      18.0
+    ],
+    "lower_frame_mm": [
+      232.0,
+      188.0,
+      22.0
+    ],
+    "float_receiver_nominal_mm": [
+      226.0,
+      28.0,
+      18.0
+    ],
+    "design_clearance_from_gearbox_mm": 8.0,
+    "minimum_tire_clearance_mm": 12.0
+  },
+  "shell_dimensions_mm": {
+    "length": 232.0,
+    "base_width": 194.0,
+    "top_width": 118.0,
+    "side_run": 34.0,
+    "side_rise": 34.0,
+    "side_skirt_height": 16.0,
+    "thickness": 3.2,
+    "edge_rail_thickness": 4.0,
+    "flange_w": 22.0,
+    "flange_l": 34.0,
+    "m3_clearance": 3.6,
+    "overlap": 0.35
+  },
+  "doghouse_dimensions_mm": {
+    "panel_w": 86.0,
+    "panel_h": 64.0,
+    "panel_t": 4.0,
+    "estop_hole_d": 23.5,
+    "angle_deg": 22.0,
+    "hood_depth": 20.0,
+    "hood_t": 4.0,
+    "side_wall_t": 3.2,
+    "base_w": 100.0,
+    "base_l": 54.0,
+    "base_t": 5.0,
+    "m3_clearance": 3.6
+  }
+}

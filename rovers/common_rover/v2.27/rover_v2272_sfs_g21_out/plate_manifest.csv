@@ -1,0 +1,8 @@
+﻿plate,plate_group,part_ids,material,notes
+SFS-G2-P01-ROOF-F,SFS-G2-P01-ROOF-F,PS-RV2272-SFS-ROOF-F x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P02-ROOF-R,SFS-G2-P02-ROOF-R,PS-RV2272-SFS-ROOF-R x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P03-CAPS,SFS-G2-P03-CAPS,PS-RV2272-SFS-REAR-CAP x1;PS-RV2272-SFS-FRONT-VISOR x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P04-FLOAT-L,SFS-G2-P04-FLOAT-L,PS-RV2272-SFS-SIDE-FLOAT-L x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P05-FLOAT-R,SFS-G2-P05-FLOAT-R,PS-RV2272-SFS-SIDE-FLOAT-R x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P06-MOUNTS,SFS-G2-P06-MOUNTS,PS-RV2272-SFS-MCR-CLAMP-S x6;PS-RV2272-SFS-FLT-RCV-SADDLE-S x4;PS-RV2272-SFS-CLEARANCE-GAUGE-S x2,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.
+SFS-G2-P07-DOGHOUSE,SFS-G2-P07-DOGHOUSE,PS-RV2272-RCP-DOGHOUSE-G2 x1,PETG/PLA,One large component per plate where possible. Use individual plate 3MF fallback if Bambu multi-plate project shows boundary warnings.

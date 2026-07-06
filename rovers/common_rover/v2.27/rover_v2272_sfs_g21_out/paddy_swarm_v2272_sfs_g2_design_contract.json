@@ -1,0 +1,75 @@
+{
+  "kit": "Paddy Swarm Retrofit Summer Float Shell G2",
+  "version": "v2.27.2-sfs-g2",
+  "compatibility": {
+    "base_rover": "Paddy Swarm Common Rover v2.27",
+    "base_modification_required": false,
+    "current_v227_print_can_continue": true,
+    "retrofit_policy": "add-on clamps/adapters only; no BBOX/CBOX drilling in first test"
+  },
+  "geometry_policy": [
+    "Use 45-degree faceted roof panels instead of smooth curves for lower-support printing.",
+    "Keep PTO/front side open; optionally add FRONT-VISOR only.",
+    "Close rear/CBOX side only with optional REAR-CAP and drain notches.",
+    "Side floats are separate sponsons, not continuous walls around gearboxes.",
+    "Do not make shell or floats touch DRC/DRIVE gearboxes or tire sweep."
+  ],
+  "safety_policy": [
+    "E-stop must be higher than likely splash/waterline and accessible with shell fitted.",
+    "Do not rely on top-mounted button gasket alone; use DOGHOUSE, waterproof button, terminal cover, drip loop, and cable gland.",
+    "Water-intrusion sensors and independent high-current cutoff should be added before powered water tests.",
+    "Use test weights, not electronics, for first float/water tests."
+  ],
+  "reference_dimensions_mm": {
+    "target_base_rover": "Paddy Swarm Common Rover v2.27",
+    "a1_nominal_plate_mm": [
+      256,
+      256
+    ],
+    "keepout_gearbox_clearance_mm": 10.0,
+    "keepout_tire_sweep_clearance_mm": 12.0,
+    "printed_box_body_reference_mm": [
+      150.0,
+      200.0,
+      120.0
+    ],
+    "printed_box_lid_reference_mm": [
+      166.0,
+      216.0,
+      16.0
+    ]
+  },
+  "roof_dimensions_mm": {
+    "length": 236.0,
+    "top_width": 92.0,
+    "side_run": 42.0,
+    "side_rise": 42.0,
+    "skirt_height": 18.0,
+    "panel_t": 3.2,
+    "edge_t": 4.0,
+    "rib_t": 4.0,
+    "m3_clearance": 3.6
+  },
+  "float_dimensions_mm": {
+    "length": 238.0,
+    "width": 42.0,
+    "height": 36.0,
+    "chamfer": 12.0,
+    "mount_tab_w": 12.0,
+    "mount_tab_h": 18.0,
+    "m3_clearance": 3.6
+  },
+  "doghouse_dimensions_mm": {
+    "panel_w": 90.0,
+    "panel_h": 66.0,
+    "panel_t": 4.0,
+    "estop_hole_d": 23.5,
+    "angle_deg": 24.0,
+    "base_w": 106.0,
+    "base_l": 60.0,
+    "base_t": 5.0,
+    "hood_depth": 24.0,
+    "hood_t": 4.0,
+    "m3_clearance": 3.6
+  }
+}

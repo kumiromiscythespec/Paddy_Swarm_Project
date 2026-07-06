@@ -1,0 +1,4 @@
+plate,part_ids,material,notes
+SFS-RIGID-01,PS-RV2271-SFS-CENTER-F x1;PS-RV2271-SFS-CENTER-R x1,PETG/PLA,A1 256x256-class plate; verify orientation and support manually
+SFS-RIGID-02,PS-RV2271-SFS-JOINER-S x2;PS-RV2271-SFS-MCR-CLAMP-S x6;PS-RV2271-SFS-FLT-RCV-ADAPTER-S x4,PETG/PLA,A1 256x256-class plate; verify orientation and support manually
+SFS-RIGID-03,PS-RV2271-SFS-SIDE-STANDOFF-S x4;PS-RV2271-RCP-DOGHOUSE-G1 x1,PETG/PLA,A1 256x256-class plate; verify orientation and support manually
