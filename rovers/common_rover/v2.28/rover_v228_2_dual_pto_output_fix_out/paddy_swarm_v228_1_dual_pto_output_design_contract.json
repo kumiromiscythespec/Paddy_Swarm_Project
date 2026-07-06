@@ -1,0 +1,164 @@
+{
+  "kit": "Paddy Swarm v2.28.2 Dual PTO Output Clean Core Fix",
+  "version": "v2.28.2-dual-pto-output-fix",
+  "reference": {
+    "base_rover": "Paddy Swarm Common Rover v2.27",
+    "a1_nominal_plate_mm": [
+      256,
+      256
+    ],
+    "row_spacing_target_mm": 300.0,
+    "v227_box_body_lwh_mm": [
+      200.0,
+      150.0,
+      120.0
+    ],
+    "v227_box_lid_lwh_mm": [
+      216.0,
+      166.0,
+      16.0
+    ],
+    "v227_box_gasket_lwh_mm": [
+      204.0,
+      154.0,
+      3.0
+    ],
+    "v2274_notch_reference": "Corrected layout: each printed box is 200mm wide x 150mm front/back; top-open wire-drop notches are on the 200mm wide front/rear faces, one inner-side and one outer-side.",
+    "first_water_test": "dummy weights only; no electronics",
+    "v2274_reason": "fix v2274 90-degree box-notch orientation: BBOX/CBOX become 200mm wide x 150mm front/back so notches sit on the 200mm wide faces"
+  },
+  "common_parts_to_keep": [
+    "PS-RV227-BBOX-BDY",
+    "PS-RV227-BBOX-LID",
+    "PS-RV227-BBOX-GSK",
+    "PS-RV227-CBOX-BDY",
+    "PS-RV227-CBOX-LID",
+    "PS-RV227-CBOX-GSK",
+    "PS-RV227-DBX-RC",
+    "PS-RV227-DBX-PLG-S",
+    "PS-WBX-MCR-L",
+    "PS-WBX-MCR-R",
+    "PS-WBX-MCR-LOC-S",
+    "PS-WBX-MCR-WDG-S",
+    "PS-WBX-MCR-LAT-S",
+    "PS-RV227-RCP-BRKT",
+    "PS-RV227-PTO",
+    "PS-WCH-G1"
+  ],
+  "g1_split_policy": [
+    "Long hull/shell/sponson parts are split into half-length A/B parts.",
+    "Largest split shell footprint is about 196 x 116 x 74 mm, not 196 x 238 x 74 mm.",
+    "prism_xz(length_y) uses length_y/2 with both=True so manifest length matches STL length."
+  ],
+  "v2274_orientation_fix": [
+    "Corrected from the earlier 150x200 body orientation to 200x150.",
+    "Two boxes in front/rear series make about 200mm width x 300mm length.",
+    "Wire-drop notches are on the 200mm wide front/rear faces, matching the user's field layout diagram.",
+    "BBOX outer notch is the front/negative-Y wide face; BBOX inner notch is the rear/positive-Y wide face.",
+    "CBOX inner notch is the front/negative-Y wide face; CBOX outer notch is the rear/positive-Y wide face."
+  ],
+  "v2274_box_notch_policy": [
+    "Each BBOX/CBOX body is 200 x 150 x 120 mm and has exactly two top-open rounded-bottom wire-drop notches on the 200 mm wide faces.",
+    "Each box has one inner-side notch and one outer-side notch.",
+    "This is not a two-notches-on-one-side design.",
+    "Physical side placement follows the corrected one-notch-per-wide-front/rear-face policy for the 20cm-wide by 30cm-long two-box layout.",
+    "No low horizontal side hole near water/mud.",
+    "Notches are drip-resistant helper geometry only, not waterproof.",
+    "Seal cable exits with silicone, boot, cable gland where possible, potting, and leak detection.",
+    "Notch zones use steep >46-degree local drip/rib wedges only; broad internal top-wall ramps were removed to prevent supports inside the waterproof box."
+  ],
+  "no_floating_parts_policy": [
+    "No CAD part may contain a detached shell, floating panel, floating roof, or floating decorative label.",
+    "Every generated solid must touch the bed in print orientation or intentionally overlap/fuse with its parent body.",
+    "Rotated panels are avoided unless they are deeply overlapped into base/body geometry.",
+    "Optional caps and covers must be generated in print-safe bed-touching orientation, even if they are mounted differently in use.",
+    "Bambu Studio preview must be checked for floating islands before printing."
+  ],
+  "shell_panel_policy": [
+    "Shell is a support-free lightweight panel structure.",
+    "No hollow dome with trapped support is allowed.",
+    "Panels are printed flat on the bed and repaired/reprinted individually.",
+    "Shell is a splash/mud/sun cover only, not a waterproof enclosure.",
+    "Panel tabs and beads are fused upward from the panel; no floating tabs."
+  ],
+  "material_saver_shell_policy": [
+    "Shell/dome parts are replaced by support-free lightweight flat/faceted panel structures.",
+    "Shell is a splash cover only, not a waterproof enclosure.",
+    "Avoid closed cavities that trap water, mud, or support material.",
+    "Use flat bed-printed panels, fused beads, perimeter ribs, and simple panel frames instead of hollow dome cavities.",
+    "If Bambu Studio shows shell support, remove or simplify the panel bead/tab rather than using slicer support."
+  ],
+  "tpu_minimization_policy": [
+    "TPU is limited to replaceable tread/contact surfaces.",
+    "Wheel hub/core/axle bore/spokes/flanges are HARD material.",
+    "Do not generate full-TPU wheels as the standard model.",
+    "TPU tread lugs must avoid floating side overhangs and support-heavy shapes.",
+    "Optional half tread is provided for print-risk testing, but do not print both full ring and half ring for the same model unless comparing."
+  ],
+  "internal_box_support_policy": [
+    "Waterproof box interiors must avoid slicer-generated support structures.",
+    "Do not add broad internal top-wall ramps inside BBOX/CBOX.",
+    "Use only small local notch ribs, and make their slopes steeper than 46 degrees; this policy also applies to shell ribs and TPU tread lugs.",
+    "If Bambu Studio shows support inside a box, remove or shrink the internal feature rather than relying on slicer settings."
+  ],
+  "support_generation_policy": [
+    "Slicer support avoidance is a first-class CAD requirement.",
+    "All lateral protrusions must include their own printable ramp steeper than 46 degrees where possible; exact 45 degrees is avoided because Bambu Studio may still generate support.",
+    "No side protrusion may start with an unsupported outward lower point.",
+    "Prefer chamfers, triangular ramps, wedges, and fused ribs over horizontal blocks.",
+    "Bambu Studio support preview must be checked before printing each major revision."
+  ],
+  "dual_pto_output_policy": [
+    "Front high PTO output uses two side-by-side output holes for left/right power takeoff.",
+    "The two PTO holes are kept high and forward to reduce water ingestion risk.",
+    "The front PTO mount is a layout/fit-check part, not a sealed gearbox.",
+    "Metal/bearing/shaft dimensions are reference-only and must be finalized before load testing.",
+    "Heavy PTO work units may require their own float to prevent nose-down trim."
+  ],
+  "v228_compatibility_policy": [
+    "v228 keeps PS-RV227-BBOX-* and PS-RV227-CBOX-* part IDs for v227-compatible fixed core boxes.",
+    "New external modules use PS-RV228-* part IDs.",
+    "Do not reinterpret v228 as permission to redesign the fixed core.",
+    "BBOX/CBOX remain 200 x 150 x 120 with notches on the upper area of the 200mm wide front/rear wall faces."
+  ],
+  "clean_restart_policy": [
+    "Obsolete G1 retrofit hull/shell/sponson print targets are removed from this restart manifest.",
+    "Shell and belly hull modules are sized around the fixed 200 x 150 x 120 mm BBOX/CBOX core.",
+    "No cut-based hollowing is used in clean shell/belly/side buoy parts to avoid floating-looking slicer islands.",
+    "reference_metal_stl is generated for printed surrogate shafts/rods in rigid_plus_metal output.",
+    "Plastic metal-surrogate parts are for visual/fit-check only and must be replaced with real metal for load tests."
+  ],
+  "dense_safe_split_policy": [
+    "Upper turtle shell and lower belly hull are split left/right to stay under safe=232mm.",
+    "This split does not modify the BBOX/CBOX fixed core.",
+    "Oversized single shell/hull halves are not included as print targets.",
+    "External shell/hull split seams are service seams, not waterproof seams."
+  ],
+  "fixed_core_policy": [
+    "Do not redesign the core without explicit owner approval.",
+    "Fixed core is BBOX + CBOX in front/rear series, not side-by-side.",
+    "BBOX/CBOX body dimensions remain 200mm wide x 150mm front/back x 120mm high.",
+    "Wire-drop notches are on the upper area of the 200mm wide front/rear wall faces.",
+    "Each BBOX/CBOX has one notch on each 200mm wide face: front and rear; no notch on the 150mm side faces.",
+    "The v227 notch position is treated as rotated 90 degrees to match the correct 20cm-wide wall-face layout.",
+    "Motor boxes mount on upper side walls of the waterproof boxes, not on the box top.",
+    "Tires exit from the hull sides."
+  ],
+  "front_high_pto_policy": [
+    "PTO is moved to a high forward position.",
+    "PTO output/coupler must not be placed in the low belly hull or expected waterline.",
+    "Front PTO work units may need their own float to prevent nose-down trim."
+  ],
+  "turtle_shell_belly_hull_policy": [
+    "BBOX/CBOX are the primary waterproof enclosures.",
+    "Upper turtle shell is secondary splash/mud/sun protection, not a waterproof enclosure.",
+    "Lower belly hull provides secondary buoyancy and bottom protection.",
+    "Printed buoyancy chambers require sealing/coating or foam filling before water tests."
+  ],
+  "field_safety": [
+    "Rice fields are income-producing land, not disposable test fields.",
+    "Stage tests: slicer preview -> dry bench -> dry ground -> soft soil -> shallow mud -> dummy-weight tub test -> powered test only after independent cutoff and recovery plan.",
+    "Never put electronics into first water tests; use dummy weights.",
+    "Keep clear of grass cutting, kuro-nuri, planter, combine, and kei-truck paths."
+  ]
+}

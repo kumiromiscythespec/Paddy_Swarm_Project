@@ -1,0 +1,7 @@
+﻿plate_no,plate_name,material,part_id,rotated_90,bbox_x,bbox_y,safe,gap,plate_inner_margin,nominal_plate_size,local_x_min,local_y_min,local_x_max,local_y_max,status
+1,01_tpu_all_dense,TPU,PS-RV227-BBOX-GSK,False,204.0,154.0,240.0,4.0,12.0,256.0,14.0,14.0,218.0,168.0,PASS
+2,02_tpu_all_dense,TPU,PS-RV227-CBOX-GSK,False,204.0,154.0,240.0,4.0,12.0,256.0,14.0,14.0,218.0,168.0,PASS
+3,03_tpu_all_dense,TPU,PS-RV2274-WHL-TPU-TREAD-S,False,130.0,130.0,240.0,4.0,12.0,256.0,14.0,14.0,144.0,144.0,PASS
+4,04_tpu_all_dense,TPU,PS-RV2274-WHL-TPU-TREAD-S,False,130.0,130.0,240.0,4.0,12.0,256.0,14.0,14.0,144.0,144.0,PASS
+5,05_tpu_all_dense,TPU,PS-RV2274-WHL-TPU-TREAD-S,False,130.0,130.0,240.0,4.0,12.0,256.0,14.0,14.0,144.0,144.0,PASS
+6,06_tpu_all_dense,TPU,PS-RV2274-WHL-TPU-TREAD-S,False,130.0,130.0,240.0,4.0,12.0,256.0,14.0,14.0,144.0,144.0,PASS

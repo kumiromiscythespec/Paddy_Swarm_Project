@@ -1,0 +1,28 @@
+﻿plate_id,material_group,phase,items,notes
+FULLSET-BOX-BBOX-BDY,HARD,0,PS-RV227-BBOX-BDY,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-BBOX-LID,HARD,0,PS-RV227-BBOX-LID,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-BBOX-GSK,TPU,0,PS-RV227-BBOX-GSK,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-CBOX-BDY,HARD,0,PS-RV227-CBOX-BDY,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-CBOX-LID,HARD,0,PS-RV227-CBOX-LID,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-CBOX-GSK,TPU,0,PS-RV227-CBOX-GSK,G1 split; dense tool may pack further; verify in Bambu Studio
+FULLSET-BOX-NOTCH-CAP,HARD,0,PS-RV2273v2274-BOX-NOTCH-RAIN-CAP-S,G1 split; dense tool may pack further; verify in Bambu Studio
+MS-B-HARD-WHEEL-HUB,HARD,B,PS-RV2274-WHL-HUB-S,G1 split; dense tool may pack further; verify in Bambu Studio
+MS-B-TPU-TREAD-RING,TPU,B,PS-RV2274-WHL-TPU-TREAD-S,G1 split; dense tool may pack further; verify in Bambu Studio
+HQG1-B-GAUGE,HARD,B,PS-RV2273G1-WHL-CLEARANCE-GAUGE-S,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-UPPER-SHELL-F-L,HARD,C,PS-RV228-TURTLE-SHELL-UPPER-F-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-UPPER-SHELL-F-R,HARD,C,PS-RV228-TURTLE-SHELL-UPPER-F-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-UPPER-SHELL-R-L,HARD,C,PS-RV228-TURTLE-SHELL-UPPER-R-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-UPPER-SHELL-R-R,HARD,C,PS-RV228-TURTLE-SHELL-UPPER-R-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-BELLY-HULL-F-L,HARD,C,PS-RV228-BELLY-HULL-CENTER-F-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-BELLY-HULL-F-R,HARD,C,PS-RV228-BELLY-HULL-CENTER-F-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-BELLY-HULL-R-L,HARD,C,PS-RV228-BELLY-HULL-CENTER-R-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-BELLY-HULL-R-R,HARD,C,PS-RV228-BELLY-HULL-CENTER-R-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-SIDE-BUOY-L,HARD,C,PS-RV228-BUOYANCY-CHAMBER-SIDE-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-SIDE-BUOY-R,HARD,C,PS-RV228-BUOYANCY-CHAMBER-SIDE-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-SIDE-MOTOR-MOUNT-L,HARD,C,PS-RV228-SIDE-MOTOR-POD-MOUNT-L,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-SIDE-MOTOR-MOUNT-R,HARD,C,PS-RV228-SIDE-MOTOR-POD-MOUNT-R,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-FRONT-PTO-DUAL,HARD,C,PS-RV228-FRONT-PTO-HIGH-MOUNT-S,G1 split; dense tool may pack further; verify in Bambu Studio
+V228R-C-FRONT-PTO-FLOAT-MOUNT,HARD,C,PS-RV228-FRONT-PTO-FLOAT-MOUNT-S,G1 split; dense tool may pack further; verify in Bambu Studio
+HQG1-C-MOUNTS,HARD,C,PS-RV2273G1-MCR-CLAMP-S,G1 split; dense tool may pack further; verify in Bambu Studio
+HQG1-C-DOGHOUSE,HARD,C,PS-RV2273G1-RCP-DOGHOUSE-G3,G1 split; dense tool may pack further; verify in Bambu Studio
+HQG1-D-INTERNAL,HARD,D,PS-RV2273G1-INT-WATER-SENSOR-SADDLE-S; PS-RV2273G1-INT-PCB-SHELF-S; PS-RV2273G1-INT-BAT-BAG-RAIL-S; PS-RV2273G1-INT-FUSE-RELAY-TRAY,G1 split; dense tool may pack further; verify in Bambu Studio
