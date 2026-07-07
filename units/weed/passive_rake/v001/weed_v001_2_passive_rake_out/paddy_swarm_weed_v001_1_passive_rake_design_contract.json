@@ -1,0 +1,78 @@
+{
+  "kit": "Paddy Swarm Weed Unit V001.2 Passive Rake Gauge Reference Fix Width Gauge Split",
+  "version": "weed-v001.1-passive-rake-width-gauge-split",
+  "reference": {
+    "compatible_rover": "Paddy Swarm Common Rover v2.28.2 Dual PTO Restart",
+    "core_policy": "Do not redesign the v227-compatible two waterproof box fixed core.",
+    "bbox_cbox_body_lwh_mm": [
+      200.0,
+      150.0,
+      120.0
+    ],
+    "wire_notch_policy": "Top-open notches on upper 200 mm wide wall faces only; no low side holes.",
+    "front_pto_policy": "Front high dual PTO is used only for optional drop/release, not continuous weeding.",
+    "row_spacing_target_mm": 300.0,
+    "working_width_target_mm": [
+      140.0,
+      180.0
+    ],
+    "working_width_max_mm": 220.0,
+    "rake_depth_targets_mm": [
+      10.0,
+      20.0,
+      30.0
+    ],
+    "a1_nominal_plate_mm": [
+      256.0,
+      256.0
+    ],
+    "recommended_dense_safe_mm": 240.0,
+    "first_test": "bench / water tank / shallow mud only; dummy-load first; not field-ready"
+  },
+  "passive_rake_policy": [
+    "V001 is a passive rake/comb unit, not a powered rotary weeder.",
+    "The rover moves forward; the rake tines disturb shallow mud and weeds.",
+    "Tines are blunt and replaceable; they are not cutting blades."
+  ],
+  "manual_drop_policy": [
+    "MANUAL_DROP is mandatory for first tests.",
+    "The rake can be raised, latched, and then released by a hand lever or cord without PTO.",
+    "Water-tank tests should begin with manual release only."
+  ],
+  "pto_drop_policy": [
+    "PTO_DROP is an optional release/deploy mechanism only.",
+    "Front high dual PTO can rotate a small cam for latch release.",
+    "PTO must be stopped after release; it is not used for continuous weeding.",
+    "The cam/link/latch must remain visible and high, not buried in mud or low hull area."
+  ],
+  "no_continuous_pto_weeding_policy": [
+    "Do not connect V001 PTO parts to rotating blades, discs, or brushes.",
+    "Continuous PTO weeding is deferred to later versions after water-propulsion stability is proven."
+  ],
+  "depth_control_policy": [
+    "Target tine engagement is shallow: about 10/20/30mm settings.",
+    "Left/right skids limit depth and allow hard mud to lift the unit upward.",
+    "The rover core should not be sunk to make the rake reach mud; the unit reaches down instead."
+  ],
+  "width_gauge_split_policy": [
+    "The 300mm row-width gauge is kept as a non-print reference part only.",
+    "The 150mm A/B halves are also reference-only in v001.2 to keep dense output clean.",
+    "Do not use --allow-excluded-print-targets for row-width gauges; use a ruler/tape or separate gauge print instead."
+  ],
+  "v2282_front_dual_pto_compatibility": [
+    "Designed for Paddy Swarm Common Rover v2.28.2 front high dual PTO restart layout.",
+    "Does not modify BBOX/CBOX fixed core or notch policy.",
+    "Keep PTO/motor boxes/notches above water during tests."
+  ],
+  "no_support_generation_policy": [
+    "Parts are simple flat/box/rod geometries intended for support-free orientation.",
+    "Avoid floating labels or detached overhang islands.",
+    "45 degrees is not treated as safe; ramps are conservative and fused to parent solids."
+  ],
+  "field_safety": [
+    "This is not a field-ready tool.",
+    "Rice fields are income-producing land; do not run unvalidated hardware in real paddies.",
+    "Stage tests: bench -> dry fit -> water tank -> shallow mud -> low speed dummy-load only.",
+    "If the rake catches, sacrifice pins/tines before rover core or PTO parts."
+  ]
+}

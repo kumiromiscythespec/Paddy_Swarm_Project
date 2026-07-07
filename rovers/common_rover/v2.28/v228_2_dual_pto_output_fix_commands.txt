@@ -1,0 +1,18 @@
+﻿# Paddy Swarm Common Rover v2.28.2 Dual PTO Restart Pre-release
+# Generation commands
+
+# 1. Metadata-only check
+python .\paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py --metadata-only --out .\rover_v228_2_dual_pto_output_fix_meta --make-zip
+
+# 2. Full CAD export
+python .\paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py --out .\rover_v228_2_dual_pto_output_fix_out --make-zip
+
+# 3. Dense Bambu A1 model sets
+python .\paddy_swarm_a1_dense_project_tools_v5_7_3_model_sets_paddy_fix.py --manifest .\rover_v228_2_dual_pto_output_fix_out\print_manifest_generic_marked.csv --out .\rover_v228_2_dual_pto_output_fix_dense_sets --group-mode all --ignore-manifest-plates --split-tpu --make-model-dense-sets --safe 240 --support-orient-fit-safe 244 --gap 4 --bambu-template-plate-inner-margin 12 --bambu-plate-inner-margin 12 --make-3mf --make-bambu-template-project-3mf --bambu-template-3mf .\blank_a1_plates_4.3mf --make-zip
+
+# Notes:
+# - BBOX/CBOX are v227-compatible fixed core parts.
+# - Notches are on the upper area of the 20cm wide wall faces.
+# - Front PTO uses dual left/right output holes.
+# - First water tests must use dummy weights only.
+# - Waterproof performance is not guaranteed by 3D printing alone.

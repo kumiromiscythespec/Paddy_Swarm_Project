@@ -1,0 +1,10 @@
+﻿plate_no,plate_group,material_groups,part_ids,notes
+1,W001-A-MOUNT,HARD,PS-WEED-V001-FRONT-MOUNT;PS-WEED-V001-HINGE-CROSSBAR,Logical group only; dense tool may repack by material and safe size.
+2,W001-B-ADJUST,HARD,PS-WEED-V001-SKID-HEIGHT-PLATE-S,Logical group only; dense tool may repack by material and safe size.
+3,W001-B-RAKE,HARD,PS-WEED-V001-RAKE-ARM-L;PS-WEED-V001-RAKE-ARM-R;PS-WEED-V001-RAKE-COMB-BAR;PS-WEED-V001-RAKE-TINE-S;PS-WEED-V001-DEPTH-SKID-L;PS-WEED-V001-DEPTH-SKID-R,Logical group only; dense tool may repack by material and safe size.
+4,W001-C-SAFETY,HARD,PS-WEED-V001-SHEAR-PIN-S;PS-WEED-V001-MANUAL-DROP-LEVER;PS-WEED-V001-MANUAL-LIFT-CORD-ANCHOR,Logical group only; dense tool may repack by material and safe size.
+5,W001-D-PTO-DROP,HARD,PS-WEED-V001-PTO-DROP-CAM;PS-WEED-V001-PTO-DROP-LINK;PS-WEED-V001-DROP-LATCH;PS-WEED-V001-DROP-LIMIT-STOP,Logical group only; dense tool may repack by material and safe size.
+6,W001-E-FLOAT,HARD,PS-WEED-V001-FRONT-MINI-FLOAT-L;PS-WEED-V001-FRONT-MINI-FLOAT-R,Logical group only; dense tool may repack by material and safe size.
+7,W001-F-GAUGE,HARD,PS-WEED-V001-DEPTH-GAUGE-S,Logical group only; dense tool may repack by material and safe size.
+8,W001-F-GAUGE-REF,REFERENCE,PS-WEED-V001-WIDTH-GAUGE-300MM-S;PS-WEED-V001-WIDTH-GAUGE-150MM-A;PS-WEED-V001-WIDTH-GAUGE-150MM-B,Logical group only; dense tool may repack by material and safe size.
+9,W001-G-TPU-OPTIONAL,TPU,PS-WEED-V001-LIMIT-BUMPER-TPU-S,Logical group only; dense tool may repack by material and safe size.

@@ -1,0 +1,4 @@
+﻿dense_set,description,total_items,rigid_items,tpu_items,printed_metal_replacement_items,plates,output_dir
+rigid_plus_metal,RIGID + printed metal surrogate rods,38,38,0,6,2,weed_v001_2_passive_rake_model_dense_sets\dense_rigid_plus_metal
+rigid_only,"RIGID only, no printed metal surrogate rods",32,32,0,0,2,weed_v001_2_passive_rake_model_dense_sets\dense_rigid_only
+tpu_only,TPU only,2,0,2,0,1,weed_v001_2_passive_rake_model_dense_sets\dense_tpu_only
