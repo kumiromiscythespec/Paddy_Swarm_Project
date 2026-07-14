@@ -1,0 +1,112 @@
+{
+  "baseline_version": 1,
+  "protocol_version": "v0",
+  "validator_scope": "manifest-layer0-schema-semantic-coverage",
+  "toolchain": {
+    "python_version": "3.11.0",
+    "jsonschema_version": "4.26.0",
+    "toolchain_marker_sha256": "f6c3314d3355d3ab56736198af5a247487fac2ca9d1395f784a53ea60b50de16",
+    "offline_required": true
+  },
+  "critical_artifacts": [
+    {
+      "name": "vector_schema",
+      "path": "software/rover_control/protocol/v0/test_vectors/schema/test-vector.schema.json",
+      "sha256": "ea021f20390962246aad09a2334dfb898588442333c679cc2911fb9895dbc013",
+      "size_bytes": 107083
+    },
+    {
+      "name": "vector_manifest",
+      "path": "software/rover_control/protocol/v0/test_vectors/manifest/test-vector-manifest.json",
+      "sha256": "c50d631cdfb774afe62e62193fc75e647f8d991be78745d16a92d7a11d48a1ea",
+      "size_bytes": 14865
+    },
+    {
+      "name": "case_rule_table",
+      "path": "software/rover_control/protocol/v0/test_vectors/case_rules/protocol-v0-case-rules.json",
+      "sha256": "ff7c7369bf1fcf5293e231ba60384c24782f11694f007e08d1569a1b3ec4f11c",
+      "size_bytes": 56881
+    },
+    {
+      "name": "manifest_requirements",
+      "path": "software/rover_control/protocol/v0/test_vectors/MANIFEST_REQUIREMENTS.md",
+      "sha256": "f91b0fd770a47f0669d37fdf6a46f10e3f25cfb839608d29782fae9a3f37cc11",
+      "size_bytes": 8276
+    },
+    {
+      "name": "validator_design",
+      "path": "software/rover_control/protocol/v0/test_vectors/OFFLINE_LOADER_VALIDATOR_DESIGN.md",
+      "sha256": "17c85769afbc8e16b25ee568994e6c2945d90f9c7c3cf93b4af7424bdf45d723",
+      "size_bytes": 11638
+    },
+    {
+      "name": "case_rule_requirements",
+      "path": "software/rover_control/protocol/v0/test_vectors/CASE_RULE_TABLE_REQUIREMENTS.md",
+      "sha256": "fb587bbf3db5f7329d188a89ac985122478a79a8ab1979aff25d572a0c8caf0c",
+      "size_bytes": 10038
+    },
+    {
+      "name": "phase1_implementation",
+      "path": "software/rover_control/protocol/v0/test_vectors/offline_validator/phase1.py",
+      "sha256": "549304a8040482080c19295aaad74a6ea11ba03d88780c637ffb31eb1359e0af",
+      "size_bytes": 40863
+    },
+    {
+      "name": "phase1_tests",
+      "path": "software/rover_control/protocol/v0/test_vectors/tests/test_offline_validator_phase1.py",
+      "sha256": "958107492ed486508735ef155376778bf13b4d252a993f4beab1333c98443227",
+      "size_bytes": 20303
+    },
+    {
+      "name": "phase2_implementation",
+      "path": "software/rover_control/protocol/v0/test_vectors/offline_validator/phase2.py",
+      "sha256": "d13f11e57b0dee423de448e295addaa4fe2eed953daf484dcafa189049c0456e",
+      "size_bytes": 46559
+    },
+    {
+      "name": "phase2_tests",
+      "path": "software/rover_control/protocol/v0/test_vectors/tests/test_offline_validator_phase2.py",
+      "sha256": "7de034a310f8baf94906c119a869c6d1df9d4a44aa9345a4fba4180199b8f2af",
+      "size_bytes": 25733
+    }
+  ],
+  "test_suites": {
+    "phase1": {
+      "test_method_count": 37,
+      "failures": 0,
+      "errors": 0,
+      "unexpected_skips": 0,
+      "result": "PASS"
+    },
+    "phase2": {
+      "test_method_count": 61,
+      "failures": 0,
+      "errors": 0,
+      "unexpected_skips": 0,
+      "result": "PASS"
+    }
+  },
+  "positive_reports": {
+    "phase1_json_sha256": "0e4b82369c23a84c7b63131c541cb9fa3d022883f078e07ef400f900e03166e8",
+    "phase1_text_sha256": "e935cdd9f7ea1eb18fb4164a17ded8f46e7a71e8a3ffbd0f18efe2f01794f963",
+    "phase2_json_sha256": "2e91013c3b3922aa23814df2ab5a1a5eb63fc78bc5c5ed25dc5717103231d020",
+    "phase2_text_sha256": "d35a2fb8f968d338725186811af7b9ce2572230e9416fbe8e37c6c4f9b81f740"
+  },
+  "positive_summary": {
+    "vector_count": 38,
+    "layer0_pass_count": 38,
+    "schema_pass_count": 38,
+    "semantic_pass_count": 38,
+    "coverage_result": "PASS",
+    "diagnostic_count": 0,
+    "exit_code": 0
+  },
+  "safety_boundaries": [
+    "OFFLINE_ONLY",
+    "NO_NETWORK_ACCESS",
+    "NO_HARDWARE_ACCESS",
+    "NO_RUNTIME_STATE_MACHINE_EXECUTION",
+    "PHYSICAL_ESTOP_REMAINS_INDEPENDENT",
+    "NOT_A_REAL_ROVER_SAFETY_APPROVAL"
+  ]
+}

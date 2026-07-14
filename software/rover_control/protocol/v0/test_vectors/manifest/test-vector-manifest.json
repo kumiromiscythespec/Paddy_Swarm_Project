@@ -1,0 +1,373 @@
+{
+  "manifest_version": 1,
+  "protocol_version": "v0",
+  "vector_schema": {
+    "path": "software/rover_control/protocol/v0/test_vectors/schema/test-vector.schema.json",
+    "sha256": "ea021f20390962246aad09a2334dfb898588442333c679cc2911fb9895dbc013"
+  },
+  "source_documents": {
+    "validation_order": {
+      "path": "software/rover_control/protocol/v0/VALIDATION_ORDER.md",
+      "sha256": "ed600175566a55ad7eea921d2471107ad5d7ee9d86168054ecb7f647e0608e4a"
+    },
+    "case_catalog": {
+      "path": "software/rover_control/protocol/v0/test_vectors/CASE_CATALOG.md",
+      "sha256": "4021e082b9085f0785b5e3967389e1b0ee7535e682d832f6f4696997e369f22d"
+    },
+    "field_model": {
+      "path": "software/rover_control/protocol/v0/test_vectors/FIELD_MODEL.md",
+      "sha256": "792edc2a5885da182616d857f05f97e72465920db9205e3b3317009b9de0601e"
+    },
+    "validation_limits": {
+      "path": "software/rover_control/protocol/v0/test_vectors/VALIDATION_LIMITS.md",
+      "sha256": "bf15de9b7fc0b4f8c654ed327b183febe01c8591af0ef4d2c0a4f0c2ea69639f"
+    }
+  },
+  "vector_directory": "software/rover_control/protocol/v0/test_vectors/vectors",
+  "vector_count": 38,
+  "source_scenario_count": 36,
+  "vectors": [
+    {
+      "vector_id": "PV0-VAL-001A",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-001A.json",
+      "sha256": "84cf5a6ab2da26cee703fe8476b511905f574c476e218ea7c37f9668d7ab220f",
+      "size_bytes": 3646,
+      "source_scenario": 1,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-001B",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-001B.json",
+      "sha256": "21730d10f659a08e037ba96b7e855caa4638dc8126580ebe4ffe248873a7d333",
+      "size_bytes": 3669,
+      "source_scenario": 1,
+      "profile": "drive_pto_split_fixture",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-002",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-002.json",
+      "sha256": "bc482767c4a352080e4f0a06feeca700d9005a0fc74a44e77ef739d93ebafb6b",
+      "size_bytes": 3614,
+      "source_scenario": 2,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-003",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-003.json",
+      "sha256": "d4630983af6b6e2ea9d790ed5390f3f2d62cc285deca85c2af2571c587876dd2",
+      "size_bytes": 3715,
+      "source_scenario": 3,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-004",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-004.json",
+      "sha256": "b60404dc4caaa976dd8bff828052f1934520f5c3bdf8c75b418e355e7c026336",
+      "size_bytes": 3408,
+      "source_scenario": 4,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-005",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-005.json",
+      "sha256": "3257d729fb8b4dc913dc813a332e59f482ec974146060876181b196fa2d500ea",
+      "size_bytes": 3794,
+      "source_scenario": 5,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-006",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-006.json",
+      "sha256": "8609ae77734a6854a87b52f6733c33cb0933055731d58c96f0b0a8833442502d",
+      "size_bytes": 3801,
+      "source_scenario": 6,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-007",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-007.json",
+      "sha256": "7e66dd870d835ad806fe9405c25306bf5dcce56f934962de1beb225408582304",
+      "size_bytes": 3803,
+      "source_scenario": 7,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-008",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-008.json",
+      "sha256": "c0519b309b1c25f7b8a8dfccd911892911e9fcb4c55ebf9f72007890ff084d06",
+      "size_bytes": 3807,
+      "source_scenario": 8,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-009",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-009.json",
+      "sha256": "43d8ab4f58a631daae00a6150f248b171e779bd08a46b19fe1e498fce931ec28",
+      "size_bytes": 4015,
+      "source_scenario": 9,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-010",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-010.json",
+      "sha256": "e2a2d5bae712a8126bade5f04bb5eb93d35b31db8a6f6d80fef28ec6a73e483f",
+      "size_bytes": 4106,
+      "source_scenario": 10,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-011",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-011.json",
+      "sha256": "033417132e876ebec031b26c00ebf04ddd2ef68ace834c4d9bb59d40a3ce275a",
+      "size_bytes": 3818,
+      "source_scenario": 11,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-012",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-012.json",
+      "sha256": "d0bc12d538610af1d32e574778c7167a1866d25d7290c3ea6fed0907fbd4510a",
+      "size_bytes": 3785,
+      "source_scenario": 12,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-013",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-013.json",
+      "sha256": "ce10cc7b8572582a4f146cdd7a6b4122d1ebbdb7f7b3d313700cfb64cf77176e",
+      "size_bytes": 3809,
+      "source_scenario": 13,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-014L",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-014L.json",
+      "sha256": "1e421511fbdef538f5eaad83db869730126c9414f4d224a796dd95c43dea802c",
+      "size_bytes": 3825,
+      "source_scenario": 14,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-014R",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-014R.json",
+      "sha256": "22d2a913f6e38448dcd7b321869c45d9d4a46dfa91a601bc9b1d9b796ce87dde",
+      "size_bytes": 3827,
+      "source_scenario": 14,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-015",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-015.json",
+      "sha256": "6cbef893c32561864bcd7eb4139a3215b30c6323b1b40110e1ce28095a86b48e",
+      "size_bytes": 3836,
+      "source_scenario": 15,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-016",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-016.json",
+      "sha256": "03bbaa098ab4d217f5c40dacc50ee8ca4d91a36e2e381dbed1bc87517ca4b674",
+      "size_bytes": 3807,
+      "source_scenario": 16,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-017",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-017.json",
+      "sha256": "2f149bc801e3db085db2fa7891f1f97c92cafc9a294f1fd8d0d8605b46592dea",
+      "size_bytes": 3702,
+      "source_scenario": 17,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-018",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-018.json",
+      "sha256": "1a324bd9aed5bce708f8069037298622148f7e2fd16f6f42bfa2fb0663a12457",
+      "size_bytes": 3715,
+      "source_scenario": 18,
+      "profile": "drive_pto_split_fixture",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-019",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-019.json",
+      "sha256": "959abaace6f8e7bf30c4d1efbabae0161262c34302929509b1683ca49db38488",
+      "size_bytes": 3978,
+      "source_scenario": 19,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-020",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-020.json",
+      "sha256": "36bf843d1d46837f8514af5d9d7ba2b13cdbc55d13f25dae392864433eeed56e",
+      "size_bytes": 3889,
+      "source_scenario": 20,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-021",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-021.json",
+      "sha256": "585448b465a8404ad30553437e38d12c3e2d2c3538b116db9cff55de77dd61a3",
+      "size_bytes": 3885,
+      "source_scenario": 21,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-022",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-022.json",
+      "sha256": "51056eab25472c773662aee6d9e4dfcd0f0105bddc90a27457ea6f0182dba1af",
+      "size_bytes": 3910,
+      "source_scenario": 22,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-023",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-023.json",
+      "sha256": "2be412606b36b8f00fa03ca24aa4d1390a097df7d3e362dcee8a843e7730af12",
+      "size_bytes": 3639,
+      "source_scenario": 23,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-024",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-024.json",
+      "sha256": "3de439aece7af08a430bc22572fade9ff51a6bf5140cf44bd804ca08cb46f7ea",
+      "size_bytes": 4167,
+      "source_scenario": 24,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-025",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-025.json",
+      "sha256": "2d735a05f4fe6adf78105e96d324e96cdaac4887f4187a14a3336b1d8f660e7d",
+      "size_bytes": 3789,
+      "source_scenario": 25,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-026",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-026.json",
+      "sha256": "76faafb22b024171ceae1731161dde35c10ff3c269a7b2dd308b92e273cdb2e9",
+      "size_bytes": 4044,
+      "source_scenario": 26,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-027",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-027.json",
+      "sha256": "bb1224b6ef8217d0e49e0bb164ebd0306658b7250030726ae4d019314e787d9f",
+      "size_bytes": 3960,
+      "source_scenario": 27,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-028",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-028.json",
+      "sha256": "4ab39421f3fb6d1fa559eeae74d141a48e8f402337a7e22ed6cc4c474e845043",
+      "size_bytes": 3936,
+      "source_scenario": 28,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-029",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-029.json",
+      "sha256": "9c97585cc3bd3c83c0f287e01242e5c735249761db5c2786b0acae0ab793aa2b",
+      "size_bytes": 3953,
+      "source_scenario": 29,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-030",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-030.json",
+      "sha256": "b2dbbe5e3709f843f63be8b4c87d1c58a5f6e02fff2884980de4ccc87cc9110a",
+      "size_bytes": 3661,
+      "source_scenario": 30,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-031",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-031.json",
+      "sha256": "53756c49982885a782d8907802f3517f23417b5203dca2b67ce408a8a9dce25e",
+      "size_bytes": 4197,
+      "source_scenario": 31,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-032",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-032.json",
+      "sha256": "959cca331c00bdfc5ff1dacc85afbeb0bdf4e9e56fbf9bb368d926813b898896",
+      "size_bytes": 3784,
+      "source_scenario": 32,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-033",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-033.json",
+      "sha256": "b12ed9c2b830828deb9ddaacf433c80d9653dfa4ffef3518952e1ff17acc6ec0",
+      "size_bytes": 3822,
+      "source_scenario": 33,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-034",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-034.json",
+      "sha256": "c8c3e75929fdc34dabc99ac7474425963506874261247db10c8e09dc71a4b00c",
+      "size_bytes": 3671,
+      "source_scenario": 34,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": true
+    },
+    {
+      "vector_id": "PV0-VAL-035",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-035.json",
+      "sha256": "891f6651180ec1d1185ee4ff611a6cc25969a188e78f27e6e39b9782b98aebed",
+      "size_bytes": 3900,
+      "source_scenario": 35,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    },
+    {
+      "vector_id": "PV0-VAL-036",
+      "path": "software/rover_control/protocol/v0/test_vectors/vectors/PV0-VAL-036.json",
+      "sha256": "4b151324a007bff45717f51fc6e3a9159c6734ea6a403f813e51059fdde0ee40",
+      "size_bytes": 3685,
+      "source_scenario": 36,
+      "profile": "one_side_test",
+      "accepted_command_sequence_updated": false
+    }
+  ]
+}
