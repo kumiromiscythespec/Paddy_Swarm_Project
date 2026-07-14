@@ -1,0 +1,466 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:paddy-swarm:station-control:platform-preflight-report:1",
+  "title": "Paddy Swarm Station Control Platform Preflight Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_version",
+    "phase",
+    "profile",
+    "result",
+    "runtime",
+    "platform",
+    "resources",
+    "clock",
+    "storage",
+    "sqlite",
+    "temperature",
+    "safety",
+    "summary",
+    "diagnostics",
+    "exit_code"
+  ],
+  "properties": {
+    "report_version": {
+      "const": 1
+    },
+    "phase": {
+      "const": "ST-002"
+    },
+    "profile": {
+      "enum": [
+        "development-host",
+        "orange-pi-zero-512"
+      ]
+    },
+    "result": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "runtime": {
+      "$ref": "#/$defs/runtime"
+    },
+    "platform": {
+      "$ref": "#/$defs/platform"
+    },
+    "resources": {
+      "$ref": "#/$defs/resources"
+    },
+    "clock": {
+      "$ref": "#/$defs/clock"
+    },
+    "storage": {
+      "$ref": "#/$defs/storage"
+    },
+    "sqlite": {
+      "$ref": "#/$defs/sqlite"
+    },
+    "temperature": {
+      "$ref": "#/$defs/temperature"
+    },
+    "safety": {
+      "$ref": "#/$defs/safety"
+    },
+    "summary": {
+      "$ref": "#/$defs/summary"
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/diagnostic"
+      }
+    },
+    "exit_code": {
+      "enum": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "result": {
+            "const": "PASS"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      },
+      "then": {
+        "properties": {
+          "exit_code": {
+            "const": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "exit_code": {
+            "const": 0
+          }
+        },
+        "required": [
+          "exit_code"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "const": "PASS"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "result": {
+            "const": "FAIL"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonNegativeInteger": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "python_version",
+        "python_implementation",
+        "minimum_python_version",
+        "python_requirement_satisfied",
+        "standard_library_only"
+      ],
+      "properties": {
+        "python_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "python_implementation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minimum_python_version": {
+          "const": "3.11"
+        },
+        "python_requirement_satisfied": {
+          "type": "boolean"
+        },
+        "standard_library_only": {
+          "const": true
+        }
+      }
+    },
+    "platform": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "system",
+        "release",
+        "machine",
+        "linux_required",
+        "linux_requirement_satisfied",
+        "orange_pi_hardware_validation"
+      ],
+      "properties": {
+        "system": {
+          "type": "string"
+        },
+        "release": {
+          "type": "string"
+        },
+        "machine": {
+          "type": "string"
+        },
+        "linux_required": {
+          "type": "boolean"
+        },
+        "linux_requirement_satisfied": {
+          "type": "boolean"
+        },
+        "orange_pi_hardware_validation": {
+          "const": "NOT_PERFORMED"
+        }
+      }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "logical_cpu_count",
+        "minimum_logical_cpu_count",
+        "cpu_requirement_satisfied",
+        "total_memory_bytes",
+        "minimum_memory_bytes",
+        "memory_requirement_satisfied",
+        "filesystem_total_bytes",
+        "minimum_free_bytes",
+        "free_space_requirement_satisfied"
+      ],
+      "properties": {
+        "logical_cpu_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "minimum_logical_cpu_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "cpu_requirement_satisfied": {
+          "type": "boolean"
+        },
+        "total_memory_bytes": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "minimum_memory_bytes": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "memory_requirement_satisfied": {
+          "type": "boolean"
+        },
+        "filesystem_total_bytes": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "minimum_free_bytes": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "free_space_requirement_satisfied": {
+          "type": "boolean"
+        }
+      }
+    },
+    "clock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "monotonic_available",
+        "monotonic",
+        "adjustable",
+        "resolution_ns"
+      ],
+      "properties": {
+        "monotonic_available": {
+          "type": "boolean"
+        },
+        "monotonic": {
+          "type": "boolean"
+        },
+        "adjustable": {
+          "type": "boolean"
+        },
+        "resolution_ns": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        }
+      }
+    },
+    "storage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "data_directory_outside_repository",
+        "write_test_performed",
+        "write_test_passed",
+        "readback_match",
+        "cleanup_passed",
+        "persistent_test_file_created"
+      ],
+      "properties": {
+        "data_directory_outside_repository": {
+          "type": "boolean"
+        },
+        "write_test_performed": {
+          "type": "boolean"
+        },
+        "write_test_passed": {
+          "type": "boolean"
+        },
+        "readback_match": {
+          "type": "boolean"
+        },
+        "cleanup_passed": {
+          "type": "boolean"
+        },
+        "persistent_test_file_created": {
+          "type": "boolean"
+        }
+      }
+    },
+    "sqlite": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "module_available",
+        "sqlite_version",
+        "in_memory_check_passed",
+        "database_file_created"
+      ],
+      "properties": {
+        "module_available": {
+          "type": "boolean"
+        },
+        "sqlite_version": {
+          "type": "string"
+        },
+        "in_memory_check_passed": {
+          "type": "boolean"
+        },
+        "database_file_created": {
+          "const": false
+        }
+      }
+    },
+    "temperature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adapter",
+        "status",
+        "value_celsius",
+        "hardware_access_performed"
+      ],
+      "properties": {
+        "adapter": {
+          "const": "stub"
+        },
+        "status": {
+          "const": "NOT_IMPLEMENTED"
+        },
+        "value_celsius": {
+          "const": ""
+        },
+        "hardware_access_performed": {
+          "const": false
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "network_access_performed",
+        "gpio_access_performed",
+        "hardware_output_performed",
+        "motor_control_performed",
+        "charging_control_performed",
+        "repository_modified",
+        "physical_estop_independent"
+      ],
+      "properties": {
+        "network_access_performed": {
+          "const": false
+        },
+        "gpio_access_performed": {
+          "const": false
+        },
+        "hardware_output_performed": {
+          "const": false
+        },
+        "motor_control_performed": {
+          "const": false
+        },
+        "charging_control_performed": {
+          "const": false
+        },
+        "repository_modified": {
+          "const": false
+        },
+        "physical_estop_independent": {
+          "const": true
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "check_count",
+        "pass_count",
+        "fail_count",
+        "unavailable_count",
+        "next_phase_eligible"
+      ],
+      "properties": {
+        "check_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "pass_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "fail_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "unavailable_count": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "next_phase_eligible": {
+          "type": "boolean"
+        }
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "severity",
+        "code",
+        "component",
+        "message"
+      ],
+      "properties": {
+        "severity": {
+          "enum": [
+            "INFO",
+            "WARNING",
+            "ERROR"
+          ]
+        },
+        "code": {
+          "enum": [
+            "PREFLIGHT_INVALID_ARGUMENT",
+            "PREFLIGHT_REPOSITORY_ROOT_INVALID",
+            "PREFLIGHT_DATA_DIRECTORY_INVALID",
+            "PREFLIGHT_DATA_DIRECTORY_INSIDE_REPOSITORY",
+            "PREFLIGHT_REPORT_PATH_INSIDE_REPOSITORY",
+            "PREFLIGHT_REPORT_PARENT_INVALID",
+            "PYTHON_VERSION_UNSUPPORTED",
+            "OPERATING_SYSTEM_UNSUPPORTED",
+            "LOGICAL_CPU_BELOW_MINIMUM",
+            "MEMORY_UNAVAILABLE",
+            "MEMORY_BELOW_MINIMUM",
+            "DISK_SPACE_BELOW_MINIMUM",
+            "MONOTONIC_CLOCK_UNAVAILABLE",
+            "DATA_DIRECTORY_WRITE_FAILED",
+            "DATA_DIRECTORY_READBACK_FAILED",
+            "DATA_DIRECTORY_CLEANUP_FAILED",
+            "SQLITE_MODULE_UNAVAILABLE",
+            "SQLITE_IN_MEMORY_CHECK_FAILED",
+            "TEMPERATURE_NOT_IMPLEMENTED",
+            "INTERNAL_VALIDATOR_ERROR",
+            "REPORT_WRITE_FAILED"
+          ]
+        },
+        "component": {
+          "type": "string",
+          "minLength": 1
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
