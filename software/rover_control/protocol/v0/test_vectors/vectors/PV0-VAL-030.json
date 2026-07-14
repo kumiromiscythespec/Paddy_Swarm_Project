@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "vector_id": "PV0-VAL-030",
+    "title": "Malformed emergency stop has no message action",
+    "schema_version": 1,
+    "protocol_version": "v0"
+  },
+  "source": {
+    "validation_document_path": "software/rover_control/protocol/v0/VALIDATION_ORDER.md",
+    "validation_document_sha256": "ed600175566a55ad7eea921d2471107ad5d7ee9d86168054ecb7f647e0608e4a",
+    "validation_chapter": 17,
+    "source_scenario": 30,
+    "case_catalog_path": "software/rover_control/protocol/v0/test_vectors/CASE_CATALOG.md",
+    "case_catalog_sha256": "4021e082b9085f0785b5e3967389e1b0ee7535e682d832f6f4696997e369f22d"
+  },
+  "profile_and_capability": {
+    "profile": "one_side_test",
+    "drive_available": true,
+    "turn_left_available": false,
+    "turn_right_available": false,
+    "pto_available": false,
+    "right_output_available": false,
+    "real_motor_output_enabled": false
+  },
+  "initial_fixture": {
+    "official_state": "DRIVE_ACTIVE",
+    "armed": true,
+    "drive_output": "forward",
+    "pto_output": "zero",
+    "safety_latches": {
+      "communication_loss": false,
+      "fault": false,
+      "emergency_stop": false
+    },
+    "rover_boot_id": "boot-pv0-val-030",
+    "session_id": "session-pv0-val-030",
+    "controller_owner_present": true,
+    "controller_owner_id": "controller-pv0-val-030",
+    "last_seen_sequence_present": true,
+    "last_seen_sequence": 1601,
+    "last_accepted_command_sequence_present": true,
+    "last_accepted_command_sequence": 1600,
+    "active_operation_present": true,
+    "active_operation_id": "operation-pv0-val-030-active",
+    "selected_mode": "DRIVE",
+    "monotonic_time_ms": 10000,
+    "freshness_reference_ms": 10000,
+    "watchdog_remaining_ms": 5000,
+    "cached_command_result_present": false
+  },
+  "stimulus": {
+    "trigger_kind": "MESSAGE",
+    "message": {
+      "candidate_intent": "EMERGENCY_STOP",
+      "direction": "controller_to_rover",
+      "size_valid": true,
+      "parseable": false
+    },
+    "output_apply_result": "NOT_APPLICABLE"
+  },
+  "validation_expectation": {
+    "processing_path": "STOPPED_AT_VALIDATION_STEP",
+    "terminal_step_number": 3,
+    "terminal_step_name": "parse可能性",
+    "handling_code": "malformed",
+    "formal_disposition": "NONE",
+    "defensive_action": "NONE",
+    "message_handling": "NO_MESSAGE_ACTION",
+    "result_source": "NONE",
+    "state_machine_event_generated": false,
+    "accepted_command_sequence_updated": false,
+    "result_cache_updated": false,
+    "control_liveness_updated": false
+  },
+  "immediate_expectation": {
+    "drive_output": "same",
+    "pto_output": "zero",
+    "armed": true,
+    "operation_id": "same",
+    "official_state": "DRIVE_ACTIVE",
+    "safety_latches": {
+      "communication_loss": false,
+      "fault": false,
+      "emergency_stop": false
+    },
+    "last_accepted_command_sequence": "same",
+    "output_apply_safety_action": "NONE",
+    "applied_success": false,
+    "state_confirmed_success": true
+  },
+  "time_advance": {
+    "advance_ms": 5000,
+    "watchdog_expiry_expected": true,
+    "internal_event": "communication_lost"
+  },
+  "post_time_expectation": {
+    "drive_output": "zero",
+    "pto_output": "zero",
+    "operation_id": "invalid",
+    "armed": false,
+    "official_state": "COMM_LOSS_LATCHED",
+    "formal_disposition": "NONE",
+    "command_result_required": false,
+    "accepted_command_sequence_updated": false,
+    "control_liveness_updated": false
+  },
+  "observability": {
+    "command_result_required": false,
+    "state_snapshot_required": true,
+    "telemetry_update_required": true,
+    "safety_log_required": true,
+    "cached_result_replay_expected": false
+  }
+}

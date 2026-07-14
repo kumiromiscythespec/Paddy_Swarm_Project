@@ -1,0 +1,3 @@
+# Protocol files use raw-byte SHA256 contracts.
+.gitattributes text eol=lf
+software/rover_control/** text eol=lf

@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "vector_id": "PV0-VAL-032",
+    "title": "Output application failure after accepted MOVE_FORWARD",
+    "schema_version": 1,
+    "protocol_version": "v0"
+  },
+  "source": {
+    "validation_document_path": "software/rover_control/protocol/v0/VALIDATION_ORDER.md",
+    "validation_document_sha256": "ed600175566a55ad7eea921d2471107ad5d7ee9d86168054ecb7f647e0608e4a",
+    "validation_chapter": 17,
+    "source_scenario": 32,
+    "case_catalog_path": "software/rover_control/protocol/v0/test_vectors/CASE_CATALOG.md",
+    "case_catalog_sha256": "4021e082b9085f0785b5e3967389e1b0ee7535e682d832f6f4696997e369f22d"
+  },
+  "profile_and_capability": {
+    "profile": "one_side_test",
+    "drive_available": true,
+    "turn_left_available": false,
+    "turn_right_available": false,
+    "pto_available": false,
+    "right_output_available": false,
+    "real_motor_output_enabled": false
+  },
+  "initial_fixture": {
+    "official_state": "DRIVE_READY",
+    "armed": true,
+    "drive_output": "zero",
+    "pto_output": "zero",
+    "safety_latches": {
+      "communication_loss": false,
+      "fault": false,
+      "emergency_stop": false
+    },
+    "rover_boot_id": "boot-pv0-032",
+    "session_id": "session-pv0-032",
+    "controller_owner_present": true,
+    "controller_owner_id": "controller-pv0-032",
+    "last_seen_sequence_present": true,
+    "last_seen_sequence": 101,
+    "last_accepted_command_sequence_present": true,
+    "last_accepted_command_sequence": 100,
+    "active_operation_present": false,
+    "selected_mode": "DRIVE",
+    "monotonic_time_ms": 10000,
+    "freshness_reference_ms": 10000,
+    "watchdog_remaining_ms": 5000,
+    "cached_command_result_present": false
+  },
+  "stimulus": {
+    "trigger_kind": "MESSAGE",
+    "message": {
+      "logical_message_type": "COMMAND",
+      "command_type": "MOVE_FORWARD",
+      "direction": "controller_to_rover",
+      "size_valid": true,
+      "parseable": true,
+      "protocol_version": "v0",
+      "rover_boot_id": "boot-pv0-032",
+      "session_id": "session-pv0-032",
+      "sender_role": "controller",
+      "controller_ownership": true,
+      "message_id": "message-pv0-032",
+      "sequence": 102,
+      "freshness_age_ms": 10,
+      "ttl_ms": 1000,
+      "required_fields_present": true,
+      "payload_valid": true,
+      "capability_compatible": true,
+      "state_compatible": true,
+      "guard_passed": true
+    },
+    "output_apply_result": "FAILED"
+  },
+  "validation_expectation": {
+    "processing_path": "OUTPUT_APPLY_FAILED",
+    "terminal_step_number": 20,
+    "terminal_step_name": "出力適用",
+    "formal_disposition": "FORMAL_ACCEPT",
+    "defensive_action": "NONE",
+    "message_handling": "PROCESS",
+    "result_source": "NEW_RESULT",
+    "state_machine_event_generated": true,
+    "state_machine_event": "MOVE_FORWARD",
+    "accepted_command_sequence_updated": true,
+    "result_cache_updated": true,
+    "control_liveness_updated": true
+  },
+  "immediate_expectation": {
+    "drive_output": "zero",
+    "pto_output": "zero",
+    "armed": false,
+    "operation_id": "invalid",
+    "official_state": "FAULT_LATCHED",
+    "safety_latches": {
+      "communication_loss": false,
+      "fault": true,
+      "emergency_stop": false
+    },
+    "last_accepted_command_sequence": "stimulus_sequence",
+    "output_apply_safety_action": "ZERO_ALL_OUTPUTS",
+    "applied_success": false,
+    "state_confirmed_success": false,
+    "fault_reason": "output_apply_failed"
+  },
+  "observability": {
+    "command_result_required": true,
+    "command_result_source": "NEW_RESULT",
+    "command_result_formal_disposition": "FORMAL_ACCEPT",
+    "state_snapshot_required": true,
+    "telemetry_update_required": true,
+    "safety_log_required": true,
+    "cached_result_replay_expected": false
+  }
+}

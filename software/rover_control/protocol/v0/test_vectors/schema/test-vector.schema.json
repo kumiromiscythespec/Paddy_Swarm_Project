@@ -1,0 +1,4414 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:paddy-swarm:protocol:v0:test-vector-schema:1",
+  "title": "Paddy Swarm Rover Control Protocol v0 Test Vector",
+  "description": "Schema for one Strict JSON test vector. It is simulator-first, does not approve real motor output, and is not a wire protocol schema. Layer 0 byte and parser checks and Layer 2/3 cross-file and simulator behavior checks remain outside this schema.",
+  "type": "object",
+  "properties": {
+    "identity": {
+      "$ref": "#/$defs/identity"
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "profile_and_capability": {
+      "$ref": "#/$defs/profile_and_capability"
+    },
+    "initial_fixture": {
+      "$ref": "#/$defs/initial_fixture"
+    },
+    "stimulus": {
+      "$ref": "#/$defs/stimulus"
+    },
+    "validation_expectation": {
+      "$ref": "#/$defs/validation_expectation"
+    },
+    "immediate_expectation": {
+      "$ref": "#/$defs/immediate_expectation"
+    },
+    "time_advance": {
+      "$ref": "#/$defs/time_advance"
+    },
+    "post_time_expectation": {
+      "$ref": "#/$defs/post_time_expectation"
+    },
+    "observability": {
+      "$ref": "#/$defs/observability"
+    },
+    "notes": {
+      "$ref": "#/$defs/notes"
+    }
+  },
+  "required": [
+    "identity",
+    "source",
+    "profile_and_capability",
+    "initial_fixture",
+    "stimulus",
+    "validation_expectation",
+    "immediate_expectation",
+    "observability"
+  ],
+  "additionalProperties": false,
+  "maxProperties": 11,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "enum": [
+                  "PV0-VAL-004",
+                  "PV0-VAL-023",
+                  "PV0-VAL-024",
+                  "PV0-VAL-030",
+                  "PV0-VAL-031"
+                ]
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "required": [
+          "time_advance",
+          "post_time_expectation"
+        ]
+      },
+      "else": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "time_advance"
+              ]
+            },
+            {
+              "required": [
+                "post_time_expectation"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "enum": [
+                  "PV0-VAL-001A",
+                  "PV0-VAL-001B",
+                  "PV0-VAL-002",
+                  "PV0-VAL-017",
+                  "PV0-VAL-018",
+                  "PV0-VAL-025",
+                  "PV0-VAL-032",
+                  "PV0-VAL-034"
+                ]
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "accepted_command_sequence_updated": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "accepted_command_sequence_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "last_accepted_command_sequence": {
+                    "const": "stimulus_sequence"
+                  }
+                },
+                "required": [
+                  "last_accepted_command_sequence"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      },
+      "else": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "accepted_command_sequence_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "accepted_command_sequence_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "last_accepted_command_sequence": {
+                    "const": "same"
+                  }
+                },
+                "required": [
+                  "last_accepted_command_sequence"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "enum": [
+                  "PV0-VAL-001B",
+                  "PV0-VAL-018"
+                ]
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "properties": {
+          "profile_and_capability": {
+            "properties": {
+              "profile": {
+                "const": "drive_pto_split_fixture"
+              }
+            },
+            "required": [
+              "profile"
+            ]
+          }
+        },
+        "required": [
+          "profile_and_capability"
+        ]
+      },
+      "else": {
+        "properties": {
+          "profile_and_capability": {
+            "properties": {
+              "profile": {
+                "const": "one_side_test"
+              }
+            },
+            "required": [
+              "profile"
+            ]
+          }
+        },
+        "required": [
+          "profile_and_capability"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "enum": [
+                  "PV0-VAL-009",
+                  "PV0-VAL-019",
+                  "PV0-VAL-026"
+                ]
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "properties": {
+          "initial_fixture": {
+            "properties": {
+              "cached_command_result_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "cached_command_result_present"
+            ]
+          }
+        },
+        "required": [
+          "initial_fixture"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "stimulus": {
+            "properties": {
+              "trigger_kind": {
+                "const": "TIME_ADVANCE"
+              }
+            },
+            "required": [
+              "trigger_kind"
+            ]
+          }
+        },
+        "required": [
+          "stimulus"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "processing_path": {
+                    "const": "NOT_APPLICABLE"
+                  },
+                  "formal_disposition": {
+                    "const": "NONE"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "message_handling": {
+                    "const": "NOT_APPLICABLE"
+                  },
+                  "result_source": {
+                    "const": "NONE"
+                  },
+                  "accepted_command_sequence_updated": {
+                    "const": false
+                  },
+                  "control_liveness_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "processing_path",
+                  "formal_disposition",
+                  "defensive_action",
+                  "message_handling",
+                  "result_source",
+                  "accepted_command_sequence_updated",
+                  "control_liveness_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "stimulus": {
+                "properties": {
+                  "output_apply_result": {
+                    "const": "NOT_APPLICABLE"
+                  }
+                },
+                "required": [
+                  "output_apply_result"
+                ]
+              }
+            },
+            "required": [
+              "stimulus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "processing_path": {
+                "const": "PASSED_ALL"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stimulus": {
+            "properties": {
+              "output_apply_result": {
+                "const": "SUCCESS"
+              }
+            },
+            "required": [
+              "output_apply_result"
+            ]
+          }
+        },
+        "required": [
+          "stimulus"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "processing_path": {
+                "const": "STOPPED_AT_VALIDATION_STEP"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stimulus": {
+            "properties": {
+              "output_apply_result": {
+                "const": "NOT_APPLICABLE"
+              }
+            },
+            "required": [
+              "output_apply_result"
+            ]
+          }
+        },
+        "required": [
+          "stimulus"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "processing_path": {
+                "const": "NOT_APPLICABLE"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stimulus": {
+            "properties": {
+              "output_apply_result": {
+                "const": "NOT_APPLICABLE"
+              }
+            },
+            "required": [
+              "output_apply_result"
+            ]
+          }
+        },
+        "required": [
+          "stimulus"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "processing_path": {
+                "const": "OUTPUT_APPLY_FAILED"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stimulus": {
+            "properties": {
+              "output_apply_result": {
+                "const": "FAILED"
+              }
+            },
+            "required": [
+              "output_apply_result"
+            ]
+          }
+        },
+        "required": [
+          "stimulus"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "message_handling": {
+                "const": "CACHE_REPLAY"
+              }
+            },
+            "required": [
+              "message_handling"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "formal_disposition": {
+                    "const": "NONE"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "result_source": {
+                    "const": "CACHED_RESULT"
+                  },
+                  "accepted_command_sequence_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "formal_disposition",
+                  "defensive_action",
+                  "result_source",
+                  "accepted_command_sequence_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "initial_fixture": {
+                "properties": {
+                  "cached_command_result_present": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "cached_command_result_present"
+                ]
+              }
+            },
+            "required": [
+              "initial_fixture"
+            ]
+          },
+          {
+            "properties": {
+              "observability": {
+                "properties": {
+                  "command_result_required": {
+                    "const": true
+                  },
+                  "command_result_source": {
+                    "const": "CACHED_RESULT"
+                  },
+                  "cached_result_replay_expected": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "command_result_required",
+                  "command_result_source",
+                  "cached_result_replay_expected"
+                ]
+              }
+            },
+            "required": [
+              "observability"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "operation_id": {
+                    "enum": [
+                      "same",
+                      "invalid",
+                      "none"
+                    ]
+                  }
+                },
+                "required": [
+                  "operation_id"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "message_handling": {
+                "const": "NO_MESSAGE_ACTION"
+              }
+            },
+            "required": [
+              "message_handling"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "formal_disposition": {
+                    "const": "NONE"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "result_source": {
+                    "const": "NONE"
+                  },
+                  "control_liveness_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "formal_disposition",
+                  "defensive_action",
+                  "result_source",
+                  "control_liveness_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "observability": {
+                "properties": {
+                  "command_result_required": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "command_result_required"
+                ]
+              }
+            },
+            "required": [
+              "observability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation_expectation": {
+            "properties": {
+              "defensive_action": {
+                "const": "DEFENSIVE_ZERO"
+              }
+            },
+            "required": [
+              "defensive_action"
+            ]
+          }
+        },
+        "required": [
+          "validation_expectation"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "formal_disposition": {
+                    "const": "FORMAL_REJECT"
+                  },
+                  "accepted_command_sequence_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "formal_disposition",
+                  "accepted_command_sequence_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "zero"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "invalid"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-023"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "stimulus": {
+                "properties": {
+                  "message": {
+                    "properties": {
+                      "parseable": {
+                        "const": false
+                      },
+                      "candidate_intent": {
+                        "const": "STOP"
+                      }
+                    },
+                    "required": [
+                      "parseable",
+                      "candidate_intent"
+                    ]
+                  }
+                },
+                "required": [
+                  "message"
+                ]
+              }
+            },
+            "required": [
+              "stimulus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-030"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "stimulus": {
+                "properties": {
+                  "message": {
+                    "properties": {
+                      "parseable": {
+                        "const": false
+                      },
+                      "candidate_intent": {
+                        "const": "EMERGENCY_STOP"
+                      }
+                    },
+                    "required": [
+                      "parseable",
+                      "candidate_intent"
+                    ]
+                  }
+                },
+                "required": [
+                  "message"
+                ]
+              }
+            },
+            "required": [
+              "stimulus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "not": {
+                  "enum": [
+                    "PV0-VAL-023",
+                    "PV0-VAL-030"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "properties": {
+            "stimulus": {
+              "properties": {
+                "message": {
+                  "required": [
+                    "candidate_intent"
+                  ]
+                }
+              },
+              "required": [
+                "message"
+              ]
+            }
+          },
+          "required": [
+            "stimulus"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "enum": [
+                  "PV0-VAL-023",
+                  "PV0-VAL-024",
+                  "PV0-VAL-030",
+                  "PV0-VAL-031"
+                ]
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "formal_disposition": {
+                    "const": "NONE"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "message_handling": {
+                    "const": "NO_MESSAGE_ACTION"
+                  },
+                  "result_source": {
+                    "const": "NONE"
+                  },
+                  "control_liveness_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "formal_disposition",
+                  "defensive_action",
+                  "message_handling",
+                  "result_source",
+                  "control_liveness_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "same"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "same"
+                  },
+                  "official_state": {
+                    "const": "DRIVE_ACTIVE"
+                  },
+                  "armed": {
+                    "const": true
+                  },
+                  "safety_latches": {
+                    "properties": {
+                      "communication_loss": {
+                        "const": false
+                      },
+                      "fault": {
+                        "const": false
+                      },
+                      "emergency_stop": {
+                        "const": false
+                      }
+                    },
+                    "required": [
+                      "communication_loss",
+                      "fault",
+                      "emergency_stop"
+                    ]
+                  },
+                  "last_accepted_command_sequence": {
+                    "const": "same"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "armed",
+                  "operation_id",
+                  "official_state",
+                  "safety_latches",
+                  "last_accepted_command_sequence"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "observability": {
+                "properties": {
+                  "command_result_required": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "command_result_required"
+                ]
+              }
+            },
+            "required": [
+              "observability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-004"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "stimulus": {
+                "properties": {
+                  "trigger_kind": {
+                    "const": "TIME_ADVANCE"
+                  },
+                  "output_apply_result": {
+                    "const": "NOT_APPLICABLE"
+                  }
+                },
+                "required": [
+                  "trigger_kind",
+                  "output_apply_result"
+                ]
+              }
+            },
+            "required": [
+              "stimulus"
+            ]
+          },
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "processing_path": {
+                    "const": "NOT_APPLICABLE"
+                  },
+                  "formal_disposition": {
+                    "const": "NONE"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "message_handling": {
+                    "const": "NOT_APPLICABLE"
+                  },
+                  "result_source": {
+                    "const": "NONE"
+                  },
+                  "state_machine_event_generated": {
+                    "const": true
+                  },
+                  "state_machine_event": {
+                    "const": "communication_lost"
+                  },
+                  "accepted_command_sequence_updated": {
+                    "const": false
+                  },
+                  "control_liveness_updated": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "processing_path",
+                  "formal_disposition",
+                  "defensive_action",
+                  "message_handling",
+                  "result_source",
+                  "state_machine_event_generated",
+                  "state_machine_event",
+                  "accepted_command_sequence_updated",
+                  "control_liveness_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "zero"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "invalid"
+                  },
+                  "armed": {
+                    "const": false
+                  },
+                  "official_state": {
+                    "const": "COMM_LOSS_LATCHED"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id",
+                  "armed",
+                  "official_state"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "time_advance": {
+                "properties": {
+                  "watchdog_expiry_expected": {
+                    "const": true
+                  },
+                  "internal_event": {
+                    "const": "communication_lost"
+                  }
+                },
+                "required": [
+                  "watchdog_expiry_expected",
+                  "internal_event"
+                ]
+              }
+            },
+            "required": [
+              "time_advance"
+            ]
+          },
+          {
+            "properties": {
+              "observability": {
+                "properties": {
+                  "command_result_required": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "command_result_required"
+                ]
+              }
+            },
+            "required": [
+              "observability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-032"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "processing_path": {
+                    "const": "OUTPUT_APPLY_FAILED"
+                  },
+                  "terminal_step_number": {
+                    "const": 20
+                  },
+                  "terminal_step_name": {
+                    "const": "出力適用"
+                  },
+                  "formal_disposition": {
+                    "const": "FORMAL_ACCEPT"
+                  },
+                  "defensive_action": {
+                    "const": "NONE"
+                  },
+                  "message_handling": {
+                    "const": "PROCESS"
+                  },
+                  "result_source": {
+                    "const": "NEW_RESULT"
+                  },
+                  "accepted_command_sequence_updated": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "processing_path",
+                  "terminal_step_number",
+                  "terminal_step_name",
+                  "formal_disposition",
+                  "defensive_action",
+                  "message_handling",
+                  "result_source",
+                  "accepted_command_sequence_updated"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "stimulus": {
+                "properties": {
+                  "output_apply_result": {
+                    "const": "FAILED"
+                  }
+                },
+                "required": [
+                  "output_apply_result"
+                ]
+              }
+            },
+            "required": [
+              "stimulus"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "zero"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "invalid"
+                  },
+                  "official_state": {
+                    "const": "FAULT_LATCHED"
+                  },
+                  "output_apply_safety_action": {
+                    "const": "ZERO_ALL_OUTPUTS"
+                  },
+                  "applied_success": {
+                    "const": false
+                  },
+                  "state_confirmed_success": {
+                    "const": false
+                  },
+                  "fault_reason": {
+                    "const": "output_apply_failed"
+                  },
+                  "last_accepted_command_sequence": {
+                    "const": "stimulus_sequence"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id",
+                  "official_state",
+                  "output_apply_safety_action",
+                  "applied_success",
+                  "state_confirmed_success",
+                  "fault_reason",
+                  "last_accepted_command_sequence"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-009"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "message_handling": {
+                    "const": "CACHE_REPLAY"
+                  }
+                },
+                "required": [
+                  "message_handling"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "same"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "same"
+                  },
+                  "official_state": {
+                    "const": "DRIVE_ACTIVE"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id",
+                  "official_state"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-019"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "message_handling": {
+                    "const": "CACHE_REPLAY"
+                  }
+                },
+                "required": [
+                  "message_handling"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "zero"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "invalid"
+                  },
+                  "official_state": {
+                    "const": "DRIVE_READY"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id",
+                  "official_state"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity": {
+            "properties": {
+              "vector_id": {
+                "const": "PV0-VAL-026"
+              }
+            },
+            "required": [
+              "vector_id"
+            ]
+          }
+        },
+        "required": [
+          "identity"
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "properties": {
+              "validation_expectation": {
+                "properties": {
+                  "message_handling": {
+                    "const": "CACHE_REPLAY"
+                  }
+                },
+                "required": [
+                  "message_handling"
+                ]
+              }
+            },
+            "required": [
+              "validation_expectation"
+            ]
+          },
+          {
+            "properties": {
+              "immediate_expectation": {
+                "properties": {
+                  "drive_output": {
+                    "const": "zero"
+                  },
+                  "pto_output": {
+                    "const": "zero"
+                  },
+                  "operation_id": {
+                    "const": "invalid"
+                  },
+                  "official_state": {
+                    "const": "EMERGENCY_STOP_LATCHED"
+                  }
+                },
+                "required": [
+                  "drive_output",
+                  "pto_output",
+                  "operation_id",
+                  "official_state"
+                ]
+              }
+            },
+            "required": [
+              "immediate_expectation"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "identity": {
+      "type": "object",
+      "properties": {
+        "vector_id": {
+          "type": "string",
+          "enum": [
+            "PV0-VAL-001A",
+            "PV0-VAL-001B",
+            "PV0-VAL-002",
+            "PV0-VAL-003",
+            "PV0-VAL-004",
+            "PV0-VAL-005",
+            "PV0-VAL-006",
+            "PV0-VAL-007",
+            "PV0-VAL-008",
+            "PV0-VAL-009",
+            "PV0-VAL-010",
+            "PV0-VAL-011",
+            "PV0-VAL-012",
+            "PV0-VAL-013",
+            "PV0-VAL-014L",
+            "PV0-VAL-014R",
+            "PV0-VAL-015",
+            "PV0-VAL-016",
+            "PV0-VAL-017",
+            "PV0-VAL-018",
+            "PV0-VAL-019",
+            "PV0-VAL-020",
+            "PV0-VAL-021",
+            "PV0-VAL-022",
+            "PV0-VAL-023",
+            "PV0-VAL-024",
+            "PV0-VAL-025",
+            "PV0-VAL-026",
+            "PV0-VAL-027",
+            "PV0-VAL-028",
+            "PV0-VAL-029",
+            "PV0-VAL-030",
+            "PV0-VAL-031",
+            "PV0-VAL-032",
+            "PV0-VAL-033",
+            "PV0-VAL-034",
+            "PV0-VAL-035",
+            "PV0-VAL-036"
+          ],
+          "maxLength": 64
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "schema_version": {
+          "const": 1
+        },
+        "protocol_version": {
+          "const": "v0"
+        }
+      },
+      "required": [
+        "vector_id",
+        "title",
+        "schema_version",
+        "protocol_version"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "validation_document_path": {
+          "type": "string",
+          "const": "software/rover_control/protocol/v0/VALIDATION_ORDER.md",
+          "maxLength": 256
+        },
+        "validation_document_sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "^[0-9a-f]{64}$",
+          "const": "ed600175566a55ad7eea921d2471107ad5d7ee9d86168054ecb7f647e0608e4a"
+        },
+        "validation_chapter": {
+          "const": 17
+        },
+        "source_scenario": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 36
+        },
+        "case_catalog_path": {
+          "type": "string",
+          "const": "software/rover_control/protocol/v0/test_vectors/CASE_CATALOG.md",
+          "maxLength": 256
+        },
+        "case_catalog_sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "^[0-9a-f]{64}$",
+          "const": "4021e082b9085f0785b5e3967389e1b0ee7535e682d832f6f4696997e369f22d"
+        }
+      },
+      "required": [
+        "validation_document_path",
+        "validation_document_sha256",
+        "validation_chapter",
+        "source_scenario",
+        "case_catalog_path",
+        "case_catalog_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "profile_and_capability": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "string",
+          "enum": [
+            "one_side_test",
+            "drive_pto_split_fixture"
+          ]
+        },
+        "drive_available": {
+          "const": true
+        },
+        "turn_left_available": {
+          "const": false
+        },
+        "turn_right_available": {
+          "const": false
+        },
+        "pto_available": {
+          "type": "boolean"
+        },
+        "right_output_available": {
+          "const": false
+        },
+        "real_motor_output_enabled": {
+          "const": false
+        }
+      },
+      "required": [
+        "profile",
+        "drive_available",
+        "turn_left_available",
+        "turn_right_available",
+        "pto_available",
+        "right_output_available",
+        "real_motor_output_enabled"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "profile": {
+                "const": "one_side_test"
+              }
+            },
+            "required": [
+              "profile"
+            ]
+          },
+          "then": {
+            "properties": {
+              "pto_available": {
+                "const": false
+              }
+            },
+            "required": [
+              "pto_available"
+            ]
+          },
+          "else": {
+            "properties": {
+              "pto_available": {
+                "const": true
+              }
+            },
+            "required": [
+              "pto_available"
+            ]
+          }
+        }
+      ]
+    },
+    "safety_latches": {
+      "type": "object",
+      "properties": {
+        "communication_loss": {
+          "type": "boolean"
+        },
+        "fault": {
+          "type": "boolean"
+        },
+        "emergency_stop": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "communication_loss",
+        "fault",
+        "emergency_stop"
+      ],
+      "additionalProperties": false
+    },
+    "cached_command_result": {
+      "type": "object",
+      "properties": {
+        "message_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "formal_disposition": {
+          "type": "string",
+          "enum": [
+            "FORMAL_ACCEPT",
+            "FORMAL_REJECT",
+            "NONE"
+          ]
+        },
+        "rejection_reason": {
+          "type": "string",
+          "enum": [
+            "unsupported_version",
+            "invalid_message_type",
+            "wrong_direction",
+            "invalid_boot_id",
+            "invalid_session",
+            "not_control_owner",
+            "duplicate_sequence",
+            "stale_sequence",
+            "expired",
+            "malformed",
+            "missing_required_field",
+            "invalid_payload",
+            "invalid_state",
+            "guard_failed",
+            "not_armed",
+            "mode_conflict",
+            "capability_unavailable",
+            "safety_latched"
+          ]
+        },
+        "applied_success": {
+          "type": "boolean"
+        },
+        "state_confirmed_success": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "message_id",
+        "sequence",
+        "formal_disposition",
+        "applied_success",
+        "state_confirmed_success"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "formal_disposition": {
+                "const": "FORMAL_REJECT"
+              }
+            },
+            "required": [
+              "formal_disposition"
+            ]
+          },
+          "then": {
+            "required": [
+              "rejection_reason"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "rejection_reason"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "initial_fixture": {
+      "type": "object",
+      "properties": {
+        "official_state": {
+          "type": "string",
+          "enum": [
+            "BOOT_SAFE",
+            "DISARMED",
+            "ARMED_NEUTRAL",
+            "DRIVE_READY",
+            "DRIVE_ACTIVE",
+            "PTO_READY",
+            "PTO_ACTIVE",
+            "COMM_LOSS_LATCHED",
+            "FAULT_LATCHED",
+            "EMERGENCY_STOP_LATCHED"
+          ]
+        },
+        "armed": {
+          "type": "boolean"
+        },
+        "drive_output": {
+          "type": "string",
+          "enum": [
+            "zero",
+            "forward"
+          ]
+        },
+        "pto_output": {
+          "type": "string",
+          "enum": [
+            "zero",
+            "active"
+          ]
+        },
+        "safety_latches": {
+          "$ref": "#/$defs/safety_latches"
+        },
+        "rover_boot_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "controller_owner_present": {
+          "type": "boolean"
+        },
+        "controller_owner_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "last_seen_sequence_present": {
+          "type": "boolean"
+        },
+        "last_seen_sequence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "last_accepted_command_sequence_present": {
+          "type": "boolean"
+        },
+        "last_accepted_command_sequence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "active_operation_present": {
+          "type": "boolean"
+        },
+        "active_operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "selected_mode": {
+          "type": "string",
+          "enum": [
+            "NONE",
+            "DRIVE",
+            "PTO",
+            "NEUTRAL"
+          ]
+        },
+        "monotonic_time_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "freshness_reference_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "watchdog_remaining_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 86400000
+        },
+        "cached_command_result_present": {
+          "type": "boolean"
+        },
+        "cached_command_result": {
+          "$ref": "#/$defs/cached_command_result"
+        }
+      },
+      "required": [
+        "official_state",
+        "armed",
+        "drive_output",
+        "pto_output",
+        "safety_latches",
+        "rover_boot_id",
+        "session_id",
+        "controller_owner_present",
+        "last_seen_sequence_present",
+        "last_accepted_command_sequence_present",
+        "active_operation_present",
+        "selected_mode",
+        "monotonic_time_ms",
+        "freshness_reference_ms",
+        "watchdog_remaining_ms",
+        "cached_command_result_present"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "controller_owner_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "controller_owner_present"
+            ]
+          },
+          "then": {
+            "required": [
+              "controller_owner_id"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "controller_owner_id"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "last_seen_sequence_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "last_seen_sequence_present"
+            ]
+          },
+          "then": {
+            "required": [
+              "last_seen_sequence"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "last_seen_sequence"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "last_accepted_command_sequence_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "last_accepted_command_sequence_present"
+            ]
+          },
+          "then": {
+            "required": [
+              "last_accepted_command_sequence"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "last_accepted_command_sequence"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "active_operation_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "active_operation_present"
+            ]
+          },
+          "then": {
+            "required": [
+              "active_operation_id"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "active_operation_id"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "cached_command_result_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "cached_command_result_present"
+            ]
+          },
+          "then": {
+            "required": [
+              "cached_command_result"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "cached_command_result"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "DRIVE_ACTIVE",
+                  "PTO_ACTIVE"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "active_operation_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "active_operation_present"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "COMM_LOSS_LATCHED",
+                  "FAULT_LATCHED",
+                  "EMERGENCY_STOP_LATCHED"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "drive_output": {
+                "const": "zero"
+              },
+              "pto_output": {
+                "const": "zero"
+              }
+            },
+            "required": [
+              "drive_output",
+              "pto_output"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "COMM_LOSS_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "communication_loss": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "communication_loss"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "FAULT_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "fault": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "fault"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "EMERGENCY_STOP_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "emergency_stop": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "emergency_stop"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "COMM_LOSS_LATCHED",
+                  "FAULT_LATCHED",
+                  "EMERGENCY_STOP_LATCHED"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": false
+              }
+            },
+            "required": [
+              "armed"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "DRIVE_ACTIVE",
+                  "PTO_READY",
+                  "PTO_ACTIVE"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              }
+            },
+            "required": [
+              "armed"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "PTO_READY",
+                  "COMM_LOSS_LATCHED",
+                  "FAULT_LATCHED",
+                  "EMERGENCY_STOP_LATCHED"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "drive_output": {
+                "const": "zero"
+              },
+              "pto_output": {
+                "const": "zero"
+              }
+            },
+            "required": [
+              "drive_output",
+              "pto_output"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "DRIVE_ACTIVE"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              },
+              "drive_output": {
+                "const": "forward"
+              },
+              "pto_output": {
+                "const": "zero"
+              },
+              "active_operation_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "armed",
+              "drive_output",
+              "pto_output",
+              "active_operation_present"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "PTO_ACTIVE"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              },
+              "drive_output": {
+                "const": "zero"
+              },
+              "pto_output": {
+                "const": "active"
+              },
+              "active_operation_present": {
+                "const": true
+              }
+            },
+            "required": [
+              "armed",
+              "drive_output",
+              "pto_output",
+              "active_operation_present"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "DRIVE_ACTIVE",
+                  "PTO_READY",
+                  "PTO_ACTIVE"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "communication_loss": {
+                    "const": false
+                  },
+                  "fault": {
+                    "const": false
+                  },
+                  "emergency_stop": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "communication_loss",
+                  "fault",
+                  "emergency_stop"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        }
+      ]
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "logical_message_type": {
+          "type": "string",
+          "enum": [
+            "SESSION_HELLO",
+            "SESSION_ACCEPTED",
+            "SESSION_REJECTED",
+            "SESSION_END",
+            "CAPABILITY_SNAPSHOT",
+            "COMMAND",
+            "CONTROL_UPDATE",
+            "COMMAND_RESULT",
+            "STATE_SNAPSHOT",
+            "TELEMETRY",
+            "ROVER_HEARTBEAT",
+            "DIAGNOSTIC"
+          ]
+        },
+        "command_type": {
+          "type": "string",
+          "enum": [
+            "ARM",
+            "DISARM",
+            "SET_SPEED_LIMIT",
+            "SELECT_DRIVE",
+            "SELECT_NEUTRAL",
+            "SELECT_PTO",
+            "MOVE_FORWARD",
+            "MOVE_REVERSE",
+            "TURN_LEFT",
+            "TURN_RIGHT",
+            "STOP",
+            "EMERGENCY_STOP",
+            "PTO_START",
+            "PTO_STOP",
+            "fault_reset",
+            "emergency_stop_reset"
+          ]
+        },
+        "candidate_intent": {
+          "type": "string",
+          "enum": [
+            "STOP",
+            "EMERGENCY_STOP"
+          ]
+        },
+        "direction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "size_valid": {
+          "type": "boolean"
+        },
+        "parseable": {
+          "type": "boolean"
+        },
+        "protocol_version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "rover_boot_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "sender_role": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "controller_ownership": {
+          "type": "boolean"
+        },
+        "message_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "freshness_age_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 86400000
+        },
+        "ttl_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 86400000
+        },
+        "required_fields_present": {
+          "type": "boolean"
+        },
+        "payload_valid": {
+          "type": "boolean"
+        },
+        "capability_compatible": {
+          "type": "boolean"
+        },
+        "state_compatible": {
+          "type": "boolean"
+        },
+        "guard_passed": {
+          "type": "boolean"
+        },
+        "control_update_deadman": {
+          "type": "boolean"
+        },
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        }
+      },
+      "required": [
+        "direction",
+        "size_valid",
+        "parseable"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "parseable": {
+                "const": true
+              }
+            },
+            "required": [
+              "parseable"
+            ]
+          },
+          "then": {
+            "required": [
+              "logical_message_type",
+              "protocol_version",
+              "rover_boot_id",
+              "session_id",
+              "sender_role",
+              "controller_ownership",
+              "message_id",
+              "sequence",
+              "freshness_age_ms",
+              "ttl_ms",
+              "required_fields_present",
+              "payload_valid",
+              "capability_compatible",
+              "state_compatible",
+              "guard_passed"
+            ],
+            "not": {
+              "required": [
+                "candidate_intent"
+              ]
+            }
+          },
+          "else": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "logical_message_type"
+                  ]
+                },
+                {
+                  "required": [
+                    "protocol_version"
+                  ]
+                },
+                {
+                  "required": [
+                    "rover_boot_id"
+                  ]
+                },
+                {
+                  "required": [
+                    "session_id"
+                  ]
+                },
+                {
+                  "required": [
+                    "sender_role"
+                  ]
+                },
+                {
+                  "required": [
+                    "controller_ownership"
+                  ]
+                },
+                {
+                  "required": [
+                    "message_id"
+                  ]
+                },
+                {
+                  "required": [
+                    "sequence"
+                  ]
+                },
+                {
+                  "required": [
+                    "freshness_age_ms"
+                  ]
+                },
+                {
+                  "required": [
+                    "ttl_ms"
+                  ]
+                },
+                {
+                  "required": [
+                    "required_fields_present"
+                  ]
+                },
+                {
+                  "required": [
+                    "payload_valid"
+                  ]
+                },
+                {
+                  "required": [
+                    "capability_compatible"
+                  ]
+                },
+                {
+                  "required": [
+                    "state_compatible"
+                  ]
+                },
+                {
+                  "required": [
+                    "guard_passed"
+                  ]
+                },
+                {
+                  "required": [
+                    "command_type"
+                  ]
+                },
+                {
+                  "required": [
+                    "control_update_deadman"
+                  ]
+                },
+                {
+                  "required": [
+                    "operation_id"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "logical_message_type": {
+                "const": "COMMAND"
+              }
+            },
+            "required": [
+              "logical_message_type"
+            ]
+          },
+          "then": {
+            "required": [
+              "command_type"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "control_update_deadman"
+                  ]
+                },
+                {
+                  "required": [
+                    "operation_id"
+                  ]
+                }
+              ]
+            }
+          },
+          "else": {
+            "not": {
+              "required": [
+                "command_type"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "logical_message_type": {
+                "const": "CONTROL_UPDATE"
+              }
+            },
+            "required": [
+              "logical_message_type"
+            ]
+          },
+          "then": {
+            "required": [
+              "control_update_deadman",
+              "operation_id"
+            ],
+            "not": {
+              "required": [
+                "command_type"
+              ]
+            }
+          },
+          "else": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "control_update_deadman"
+                  ]
+                },
+                {
+                  "required": [
+                    "operation_id"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "stimulus": {
+      "type": "object",
+      "properties": {
+        "trigger_kind": {
+          "type": "string",
+          "enum": [
+            "MESSAGE",
+            "TIME_ADVANCE",
+            "INTERNAL_EVENT"
+          ]
+        },
+        "message": {
+          "$ref": "#/$defs/message"
+        },
+        "internal_event": {
+          "type": "string",
+          "enum": [
+            "boot_complete",
+            "boot_failed",
+            "SET_SPEED_LIMIT",
+            "ARM",
+            "SELECT_DRIVE",
+            "SELECT_PTO",
+            "SELECT_NEUTRAL",
+            "MOVE_FORWARD",
+            "MOVE_REVERSE",
+            "TURN_LEFT",
+            "TURN_RIGHT",
+            "STOP",
+            "deadman_released",
+            "command_expired",
+            "PTO_START",
+            "PTO_STOP",
+            "DISARM",
+            "communication_restored",
+            "fault_reset",
+            "emergency_stop_reset",
+            "EMERGENCY_STOP",
+            "communication_lost",
+            "fault_detected"
+          ]
+        },
+        "output_apply_result": {
+          "type": "string",
+          "enum": [
+            "SUCCESS",
+            "FAILED",
+            "NOT_APPLICABLE"
+          ]
+        }
+      },
+      "required": [
+        "trigger_kind",
+        "output_apply_result"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "trigger_kind": {
+                "const": "MESSAGE"
+              }
+            },
+            "required": [
+              "trigger_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "message"
+            ],
+            "not": {
+              "required": [
+                "internal_event"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "trigger_kind": {
+                "const": "TIME_ADVANCE"
+              }
+            },
+            "required": [
+              "trigger_kind"
+            ]
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "message"
+                  ]
+                },
+                {
+                  "required": [
+                    "internal_event"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "trigger_kind": {
+                "const": "INTERNAL_EVENT"
+              }
+            },
+            "required": [
+              "trigger_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "internal_event"
+            ],
+            "not": {
+              "required": [
+                "message"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "validation_expectation": {
+      "type": "object",
+      "properties": {
+        "processing_path": {
+          "type": "string",
+          "enum": [
+            "PASSED_ALL",
+            "STOPPED_AT_VALIDATION_STEP",
+            "OUTPUT_APPLY_FAILED",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "terminal_step_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 23
+        },
+        "terminal_step_name": {
+          "type": "string",
+          "enum": [
+            "transportから受信",
+            "message size上限候補",
+            "parse可能性",
+            "protocol version",
+            "message type",
+            "direction",
+            "rover boot ID",
+            "session ID",
+            "sender role",
+            "controller ownership",
+            "sequence / duplicate / stale",
+            "freshness reference",
+            "TTL / expiry",
+            "必須項目",
+            "payload範囲",
+            "capability",
+            "current state",
+            "safety guard",
+            "state transition決定",
+            "出力適用",
+            "COMMAND_RESULT生成",
+            "STATE_SNAPSHOTまたはtelemetry更新",
+            "ログ候補"
+          ]
+        },
+        "handling_code": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "formal_disposition": {
+          "type": "string",
+          "enum": [
+            "FORMAL_ACCEPT",
+            "FORMAL_REJECT",
+            "NONE"
+          ]
+        },
+        "defensive_action": {
+          "type": "string",
+          "enum": [
+            "DEFENSIVE_ZERO",
+            "NONE"
+          ]
+        },
+        "message_handling": {
+          "type": "string",
+          "enum": [
+            "PROCESS",
+            "NO_MESSAGE_ACTION",
+            "CACHE_REPLAY",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "result_source": {
+          "type": "string",
+          "enum": [
+            "NEW_RESULT",
+            "CACHED_RESULT",
+            "NONE"
+          ]
+        },
+        "rejection_reason": {
+          "type": "string",
+          "enum": [
+            "unsupported_version",
+            "invalid_message_type",
+            "wrong_direction",
+            "invalid_boot_id",
+            "invalid_session",
+            "not_control_owner",
+            "duplicate_sequence",
+            "stale_sequence",
+            "expired",
+            "malformed",
+            "missing_required_field",
+            "invalid_payload",
+            "invalid_state",
+            "guard_failed",
+            "not_armed",
+            "mode_conflict",
+            "capability_unavailable",
+            "safety_latched"
+          ]
+        },
+        "diagnostic_code": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        },
+        "state_machine_event_generated": {
+          "type": "boolean"
+        },
+        "state_machine_event": {
+          "type": "string",
+          "enum": [
+            "boot_complete",
+            "boot_failed",
+            "SET_SPEED_LIMIT",
+            "ARM",
+            "SELECT_DRIVE",
+            "SELECT_PTO",
+            "SELECT_NEUTRAL",
+            "MOVE_FORWARD",
+            "MOVE_REVERSE",
+            "TURN_LEFT",
+            "TURN_RIGHT",
+            "STOP",
+            "deadman_released",
+            "command_expired",
+            "PTO_START",
+            "PTO_STOP",
+            "DISARM",
+            "communication_restored",
+            "fault_reset",
+            "emergency_stop_reset",
+            "EMERGENCY_STOP",
+            "communication_lost",
+            "fault_detected"
+          ]
+        },
+        "accepted_command_sequence_updated": {
+          "type": "boolean"
+        },
+        "result_cache_updated": {
+          "type": "boolean"
+        },
+        "control_liveness_updated": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "processing_path",
+        "formal_disposition",
+        "defensive_action",
+        "message_handling",
+        "result_source",
+        "state_machine_event_generated",
+        "accepted_command_sequence_updated",
+        "result_cache_updated",
+        "control_liveness_updated"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "processing_path": {
+                "const": "PASSED_ALL"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "terminal_step_number"
+                  ]
+                },
+                {
+                  "required": [
+                    "terminal_step_name"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "processing_path": {
+                "const": "NOT_APPLICABLE"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "terminal_step_number"
+                  ]
+                },
+                {
+                  "required": [
+                    "terminal_step_name"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "processing_path": {
+                "const": "STOPPED_AT_VALIDATION_STEP"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          },
+          "then": {
+            "required": [
+              "terminal_step_number",
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "processing_path": {
+                "const": "OUTPUT_APPLY_FAILED"
+              }
+            },
+            "required": [
+              "processing_path"
+            ]
+          },
+          "then": {
+            "required": [
+              "terminal_step_number",
+              "terminal_step_name"
+            ],
+            "properties": {
+              "terminal_step_number": {
+                "const": 20
+              },
+              "terminal_step_name": {
+                "const": "出力適用"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "formal_disposition": {
+                "const": "FORMAL_REJECT"
+              }
+            },
+            "required": [
+              "formal_disposition"
+            ]
+          },
+          "then": {
+            "required": [
+              "rejection_reason"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "rejection_reason"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "state_machine_event_generated": {
+                "const": true
+              }
+            },
+            "required": [
+              "state_machine_event_generated"
+            ]
+          },
+          "then": {
+            "required": [
+              "state_machine_event"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "state_machine_event"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 1
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "transportから受信"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 2
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "message size上限候補"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 3
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "parse可能性"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 4
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "protocol version"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 5
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "message type"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 6
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "direction"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 7
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "rover boot ID"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 8
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "session ID"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 9
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "sender role"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 10
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "controller ownership"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 11
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "sequence / duplicate / stale"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 12
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "freshness reference"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 13
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "TTL / expiry"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 14
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "必須項目"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 15
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "payload範囲"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 16
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "capability"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 17
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "current state"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 18
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "safety guard"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 19
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "state transition決定"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 20
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "出力適用"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 21
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "COMMAND_RESULT生成"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 22
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "STATE_SNAPSHOTまたはtelemetry更新"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "terminal_step_number": {
+                "const": 23
+              }
+            },
+            "required": [
+              "terminal_step_number"
+            ]
+          },
+          "then": {
+            "properties": {
+              "terminal_step_name": {
+                "const": "ログ候補"
+              }
+            },
+            "required": [
+              "terminal_step_name"
+            ]
+          }
+        }
+      ]
+    },
+    "immediate_expectation": {
+      "type": "object",
+      "properties": {
+        "drive_output": {
+          "type": "string",
+          "enum": [
+            "zero",
+            "forward",
+            "same"
+          ]
+        },
+        "pto_output": {
+          "type": "string",
+          "enum": [
+            "zero",
+            "same"
+          ]
+        },
+        "armed": {
+          "type": "boolean"
+        },
+        "operation_id": {
+          "type": "string",
+          "enum": [
+            "new",
+            "same",
+            "invalid",
+            "none"
+          ]
+        },
+        "official_state": {
+          "type": "string",
+          "enum": [
+            "BOOT_SAFE",
+            "DISARMED",
+            "ARMED_NEUTRAL",
+            "DRIVE_READY",
+            "DRIVE_ACTIVE",
+            "PTO_READY",
+            "PTO_ACTIVE",
+            "COMM_LOSS_LATCHED",
+            "FAULT_LATCHED",
+            "EMERGENCY_STOP_LATCHED"
+          ]
+        },
+        "safety_latches": {
+          "$ref": "#/$defs/safety_latches"
+        },
+        "last_accepted_command_sequence": {
+          "type": "string",
+          "enum": [
+            "same",
+            "stimulus_sequence"
+          ]
+        },
+        "output_apply_safety_action": {
+          "type": "string",
+          "enum": [
+            "ZERO_ALL_OUTPUTS",
+            "NONE"
+          ]
+        },
+        "applied_success": {
+          "type": "boolean"
+        },
+        "state_confirmed_success": {
+          "type": "boolean"
+        },
+        "stop_reason": {
+          "type": "string",
+          "enum": [
+            "ARM",
+            "DISARM",
+            "EMERGENCY_STOP",
+            "MOVE_FORWARD",
+            "MOVE_REVERSE",
+            "PTO_START",
+            "PTO_STOP",
+            "SELECT_DRIVE",
+            "SELECT_NEUTRAL",
+            "SELECT_PTO",
+            "SET_SPEED_LIMIT",
+            "STOP",
+            "TURN_LEFT",
+            "TURN_RIGHT",
+            "boot_complete",
+            "boot_failed",
+            "command_expired",
+            "communication_lost",
+            "communication_restored",
+            "deadman_released",
+            "emergency_stop_reset",
+            "fault_detected",
+            "fault_reset"
+          ]
+        },
+        "fault_reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"
+        }
+      },
+      "required": [
+        "drive_output",
+        "pto_output",
+        "armed",
+        "operation_id",
+        "official_state",
+        "safety_latches",
+        "last_accepted_command_sequence",
+        "output_apply_safety_action",
+        "applied_success",
+        "state_confirmed_success"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "FAULT_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "required": [
+              "fault_reason"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "fault_reason"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "COMM_LOSS_LATCHED",
+                  "FAULT_LATCHED",
+                  "EMERGENCY_STOP_LATCHED"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": false
+              }
+            },
+            "required": [
+              "armed"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "DRIVE_ACTIVE",
+                  "PTO_READY",
+                  "PTO_ACTIVE"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              }
+            },
+            "required": [
+              "armed"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "PTO_READY",
+                  "COMM_LOSS_LATCHED",
+                  "FAULT_LATCHED",
+                  "EMERGENCY_STOP_LATCHED"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "drive_output": {
+                "const": "zero"
+              },
+              "pto_output": {
+                "const": "zero"
+              }
+            },
+            "required": [
+              "drive_output",
+              "pto_output"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "DRIVE_ACTIVE"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              },
+              "drive_output": {
+                "enum": [
+                  "forward",
+                  "same"
+                ]
+              },
+              "pto_output": {
+                "const": "zero"
+              }
+            },
+            "required": [
+              "armed",
+              "drive_output",
+              "pto_output"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "PTO_ACTIVE"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "armed": {
+                "const": true
+              },
+              "drive_output": {
+                "const": "zero"
+              },
+              "pto_output": {
+                "const": "same"
+              }
+            },
+            "required": [
+              "armed",
+              "drive_output",
+              "pto_output"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "enum": [
+                  "BOOT_SAFE",
+                  "DISARMED",
+                  "ARMED_NEUTRAL",
+                  "DRIVE_READY",
+                  "DRIVE_ACTIVE",
+                  "PTO_READY",
+                  "PTO_ACTIVE"
+                ]
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "communication_loss": {
+                    "const": false
+                  },
+                  "fault": {
+                    "const": false
+                  },
+                  "emergency_stop": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "communication_loss",
+                  "fault",
+                  "emergency_stop"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "COMM_LOSS_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "communication_loss": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "communication_loss"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "FAULT_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "fault": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "fault"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "official_state": {
+                "const": "EMERGENCY_STOP_LATCHED"
+              }
+            },
+            "required": [
+              "official_state"
+            ]
+          },
+          "then": {
+            "properties": {
+              "safety_latches": {
+                "properties": {
+                  "emergency_stop": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "emergency_stop"
+                ]
+              }
+            },
+            "required": [
+              "safety_latches"
+            ]
+          }
+        }
+      ]
+    },
+    "time_advance": {
+      "type": "object",
+      "properties": {
+        "advance_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 86400000
+        },
+        "watchdog_expiry_expected": {
+          "const": true
+        },
+        "internal_event": {
+          "const": "communication_lost"
+        }
+      },
+      "required": [
+        "advance_ms",
+        "watchdog_expiry_expected",
+        "internal_event"
+      ],
+      "additionalProperties": false
+    },
+    "post_time_expectation": {
+      "type": "object",
+      "properties": {
+        "drive_output": {
+          "const": "zero"
+        },
+        "pto_output": {
+          "const": "zero"
+        },
+        "operation_id": {
+          "const": "invalid"
+        },
+        "armed": {
+          "const": false
+        },
+        "official_state": {
+          "const": "COMM_LOSS_LATCHED"
+        },
+        "formal_disposition": {
+          "const": "NONE"
+        },
+        "command_result_required": {
+          "const": false
+        },
+        "accepted_command_sequence_updated": {
+          "const": false
+        },
+        "control_liveness_updated": {
+          "const": false
+        }
+      },
+      "required": [
+        "drive_output",
+        "pto_output",
+        "operation_id",
+        "armed",
+        "official_state",
+        "formal_disposition",
+        "command_result_required",
+        "accepted_command_sequence_updated",
+        "control_liveness_updated"
+      ],
+      "additionalProperties": false
+    },
+    "observability": {
+      "type": "object",
+      "properties": {
+        "command_result_required": {
+          "type": "boolean"
+        },
+        "command_result_source": {
+          "type": "string",
+          "enum": [
+            "NEW_RESULT",
+            "CACHED_RESULT"
+          ]
+        },
+        "command_result_formal_disposition": {
+          "type": "string",
+          "enum": [
+            "FORMAL_ACCEPT",
+            "FORMAL_REJECT",
+            "NONE"
+          ]
+        },
+        "command_result_rejection_reason": {
+          "type": "string",
+          "enum": [
+            "unsupported_version",
+            "invalid_message_type",
+            "wrong_direction",
+            "invalid_boot_id",
+            "invalid_session",
+            "not_control_owner",
+            "duplicate_sequence",
+            "stale_sequence",
+            "expired",
+            "malformed",
+            "missing_required_field",
+            "invalid_payload",
+            "invalid_state",
+            "guard_failed",
+            "not_armed",
+            "mode_conflict",
+            "capability_unavailable",
+            "safety_latched"
+          ]
+        },
+        "state_snapshot_required": {
+          "type": "boolean"
+        },
+        "telemetry_update_required": {
+          "type": "boolean"
+        },
+        "safety_log_required": {
+          "type": "boolean"
+        },
+        "cached_result_replay_expected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "command_result_required",
+        "state_snapshot_required",
+        "telemetry_update_required",
+        "safety_log_required",
+        "cached_result_replay_expected"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "command_result_required": {
+                "const": true
+              }
+            },
+            "required": [
+              "command_result_required"
+            ]
+          },
+          "then": {
+            "required": [
+              "command_result_source",
+              "command_result_formal_disposition"
+            ]
+          },
+          "else": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "command_result_source"
+                  ]
+                },
+                {
+                  "required": [
+                    "command_result_formal_disposition"
+                  ]
+                },
+                {
+                  "required": [
+                    "command_result_rejection_reason"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "command_result_formal_disposition": {
+                "const": "FORMAL_REJECT"
+              }
+            },
+            "required": [
+              "command_result_formal_disposition"
+            ]
+          },
+          "then": {
+            "required": [
+              "command_result_rejection_reason"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "command_result_rejection_reason"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "tags": {
+          "type": "array",
+          "maxItems": 16,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          }
+        }
+      },
+      "required": [
+        "summary"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
