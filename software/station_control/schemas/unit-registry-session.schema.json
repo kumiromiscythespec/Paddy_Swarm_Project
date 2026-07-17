@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "unit-registry-session.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["session_version", "session_id", "operations"],
+  "properties": {
+    "session_version": {"const": 1},
+    "session_id": {"type": "string", "pattern": "^SESSION-ST007-[A-Z0-9-]{1,40}$"},
+    "operations": {"type": "array", "minItems": 1, "maxItems": 512, "items": {"$ref": "#/$defs/operation"}}
+  },
+  "$defs": {
+    "unit_id": {"type": "string", "pattern": "^UNIT-DEMO-[A-Z0-9-]+$", "maxLength": 128},
+    "rover_id": {"type": "string", "pattern": "^ROVER-DEMO-[0-9]{3}$"},
+    "field_id": {"type": "string", "pattern": "^FIELD-DEMO-[0-9]{3}$"},
+    "operation_id": {"type": "string", "pattern": "^OP-ST007-[0-9]{3}$"},
+    "compatibility_id": {"type": "string", "pattern": "^COMPAT-ST007-[0-9]{3}$"},
+    "tick": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+    "unit_type": {"enum": ["SCOUT_SENSOR", "PASSIVE_RAKE", "CARRIER", "TEST_ONLY"]},
+    "state": {"enum": ["PENDING", "REGISTERED", "SUSPENDED", "RETIRED"]},
+    "rover_state": {"enum": ["PENDING", "REGISTERED", "SUSPENDED", "REVOKED"]},
+    "pto": {"enum": ["NONE", "DEPLOY_ASSIST_ONLY", "CONTINUOUS"]},
+    "hardware": {"enum": ["COMMON_ROVER_V2", "SCOUT_VARIANT", "WORK_VARIANT", "TEST_FIXTURE"]},
+    "hardware_array": {"type": "array", "minItems": 1, "maxItems": 16, "uniqueItems": true, "items": {"$ref": "#/$defs/hardware"}},
+    "field_array": {"type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/field_id"}},
+    "safe_mount": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_id", "rover_id", "rover_hardware_class", "rover_registration_state", "rover_enabled", "operator_approved", "rover_confirmed_stopped", "motor_output_disabled", "pto_output_disabled", "charging_transition_count", "active_mission_count", "physical_estop_state_known", "main_power_isolated", "mechanical_lock_confirmed"],
+      "properties": {
+        "unit_id": {"$ref": "#/$defs/unit_id"}, "rover_id": {"$ref": "#/$defs/rover_id"},
+        "rover_hardware_class": {"$ref": "#/$defs/hardware"}, "rover_registration_state": {"$ref": "#/$defs/rover_state"},
+        "rover_enabled": {"type": "boolean"}, "operator_approved": {"type": "boolean"},
+        "rover_confirmed_stopped": {"type": "boolean"}, "motor_output_disabled": {"type": "boolean"},
+        "pto_output_disabled": {"type": "boolean"}, "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 1024},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 1024},
+        "physical_estop_state_known": {"type": "boolean"}, "main_power_isolated": {"type": "boolean"},
+        "mechanical_lock_confirmed": {"type": "boolean"}
+      }
+    },
+    "register": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "display_name", "unit_type", "initial_state", "enabled", "profile_revision", "pto_contract", "allowed_hardware_classes", "allowed_fields"],
+      "properties": {
+        "unit_id": {"$ref": "#/$defs/unit_id"}, "display_name": {"type": "string", "minLength": 1, "maxLength": 80},
+        "unit_type": {"$ref": "#/$defs/unit_type"}, "initial_state": {"const": "PENDING"},
+        "enabled": {"type": "boolean"}, "profile_revision": {"const": 1}, "pto_contract": {"$ref": "#/$defs/pto"},
+        "allowed_hardware_classes": {"$ref": "#/$defs/hardware_array"}, "allowed_fields": {"$ref": "#/$defs/field_array"}
+      }
+    },
+    "revise": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "expected_revision", "new_revision", "display_name", "unit_type", "enabled", "pto_contract", "allowed_hardware_classes", "allowed_fields", "operator_approved", "unit_confirmed_unmounted", "pto_output_disabled", "main_power_isolated"],
+      "properties": {
+        "unit_id": {"$ref": "#/$defs/unit_id"}, "expected_revision": {"type": "integer", "minimum": 1, "maximum": 2147483646},
+        "new_revision": {"type": "integer", "minimum": 2, "maximum": 2147483647}, "display_name": {"type": "string", "minLength": 1, "maxLength": 80},
+        "unit_type": {"$ref": "#/$defs/unit_type"}, "enabled": {"type": "boolean"}, "pto_contract": {"$ref": "#/$defs/pto"},
+        "allowed_hardware_classes": {"$ref": "#/$defs/hardware_array"}, "allowed_fields": {"$ref": "#/$defs/field_array"},
+        "operator_approved": {"type": "boolean"}, "unit_confirmed_unmounted": {"type": "boolean"},
+        "pto_output_disabled": {"type": "boolean"}, "main_power_isolated": {"type": "boolean"}
+      }
+    },
+    "set_state": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "target_state", "operator_approved", "unit_confirmed_unmounted", "pto_output_disabled", "main_power_isolated", "reason"],
+      "properties": {
+        "unit_id": {"$ref": "#/$defs/unit_id"}, "target_state": {"$ref": "#/$defs/state"},
+        "operator_approved": {"type": "boolean"}, "unit_confirmed_unmounted": {"type": "boolean"},
+        "pto_output_disabled": {"type": "boolean"}, "main_power_isolated": {"type": "boolean"},
+        "reason": {"type": "string", "minLength": 1, "maxLength": 160}
+      }
+    },
+    "unmount": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "rover_id", "operator_approved", "rover_confirmed_stopped", "motor_output_disabled", "pto_output_disabled", "charging_transition_count", "active_mission_count", "physical_estop_state_known", "main_power_isolated", "mechanical_lock_confirmed"],
+      "properties": {
+        "unit_id": {"$ref": "#/$defs/unit_id"}, "rover_id": {"$ref": "#/$defs/rover_id"},
+        "operator_approved": {"type": "boolean"}, "rover_confirmed_stopped": {"type": "boolean"},
+        "motor_output_disabled": {"type": "boolean"}, "pto_output_disabled": {"type": "boolean"},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 1024},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 1024},
+        "physical_estop_state_known": {"type": "boolean"}, "main_power_isolated": {"type": "boolean"},
+        "mechanical_lock_confirmed": {"type": "boolean"}
+      }
+    },
+    "compatibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["compatibility_id", "unit_id", "rover_id", "rover_hardware_class", "rover_registration_state", "rover_enabled", "active_field_id", "requested_field_id", "operator_approved", "rover_reported_stopped", "motor_output_disabled", "pto_output_disabled", "charging_transition_count", "active_mission_count", "physical_estop_state_known", "main_power_isolated", "mechanical_lock_confirmed"],
+      "properties": {
+        "compatibility_id": {"$ref": "#/$defs/compatibility_id"}, "unit_id": {"$ref": "#/$defs/unit_id"}, "rover_id": {"$ref": "#/$defs/rover_id"},
+        "rover_hardware_class": {"$ref": "#/$defs/hardware"}, "rover_registration_state": {"$ref": "#/$defs/rover_state"}, "rover_enabled": {"type": "boolean"},
+        "active_field_id": {"$ref": "#/$defs/field_id"}, "requested_field_id": {"$ref": "#/$defs/field_id"},
+        "operator_approved": {"type": "boolean"}, "rover_reported_stopped": {"type": "boolean"},
+        "motor_output_disabled": {"type": "boolean"}, "pto_output_disabled": {"type": "boolean"},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 1024}, "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 1024},
+        "physical_estop_state_known": {"type": "boolean"}, "main_power_isolated": {"type": "boolean"}, "mechanical_lock_confirmed": {"type": "boolean"}
+      }
+    },
+    "operation": {
+      "oneOf": [
+        {"$ref": "#/$defs/register_operation"}, {"$ref": "#/$defs/revise_operation"},
+        {"$ref": "#/$defs/state_operation"}, {"$ref": "#/$defs/mount_operation"},
+        {"$ref": "#/$defs/unmount_operation"}, {"$ref": "#/$defs/compatibility_operation"},
+        {"$ref": "#/$defs/integrity_operation"}
+      ]
+    },
+    "register_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "REGISTER_UNIT"}, "payload": {"$ref": "#/$defs/register"}}},
+    "revise_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "REVISE_UNIT"}, "payload": {"$ref": "#/$defs/revise"}}},
+    "state_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "SET_UNIT_STATE"}, "payload": {"$ref": "#/$defs/set_state"}}},
+    "mount_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "MOUNT_UNIT"}, "payload": {"$ref": "#/$defs/safe_mount"}}},
+    "unmount_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "UNMOUNT_UNIT"}, "payload": {"$ref": "#/$defs/unmount"}}},
+    "compatibility_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "EVALUATE_COMPATIBILITY"}, "payload": {"$ref": "#/$defs/compatibility"}}},
+    "integrity_operation": {"type": "object", "additionalProperties": false, "required": ["operation_id", "logical_tick", "operation_type", "payload"], "properties": {"operation_id": {"$ref": "#/$defs/operation_id"}, "logical_tick": {"$ref": "#/$defs/tick"}, "operation_type": {"const": "VERIFY_INTEGRITY"}, "payload": {"type": "object", "additionalProperties": false, "maxProperties": 0}}}
+  }
+}

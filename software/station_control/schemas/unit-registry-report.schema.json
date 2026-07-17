@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "unit-registry-report.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_version", "phase", "session_id", "result", "database", "transaction", "schema", "operations", "units", "hardware_permissions", "field_permissions", "mounts", "compatibility_decisions", "integrity", "idempotency", "safety", "summary", "diagnostics", "canonical_state_sha256", "exit_code"],
+  "properties": {
+    "report_version": {"const": 1},
+    "phase": {"const": "ST-007"},
+    "session_id": {"type": "string", "minLength": 1, "maxLength": 64},
+    "result": {"enum": ["PASS", "FAIL"]},
+    "database": {"$ref": "#/$defs/database"},
+    "transaction": {"$ref": "#/$defs/transaction"},
+    "schema": {"$ref": "#/$defs/schema"},
+    "operations": {"$ref": "#/$defs/operations"},
+    "units": {"$ref": "#/$defs/units"},
+    "hardware_permissions": {"$ref": "#/$defs/permissions"},
+    "field_permissions": {"$ref": "#/$defs/permissions"},
+    "mounts": {"$ref": "#/$defs/mounts"},
+    "compatibility_decisions": {"$ref": "#/$defs/compatibility"},
+    "integrity": {"$ref": "#/$defs/integrity"},
+    "idempotency": {"$ref": "#/$defs/idempotency"},
+    "safety": {"$ref": "#/$defs/safety"},
+    "summary": {"$ref": "#/$defs/summary"},
+    "diagnostics": {"type": "array", "maxItems": 512, "items": {"$ref": "#/$defs/diagnostic"}},
+    "canonical_state_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "exit_code": {"enum": [0, 2, 3, 4, 5, 7]}
+  },
+  "allOf": [
+    {"if": {"properties": {"result": {"const": "PASS"}}, "required": ["result"]}, "then": {"properties": {"exit_code": {"const": 0}}}},
+    {"if": {"properties": {"result": {"const": "FAIL"}}, "required": ["result"]}, "then": {"properties": {"exit_code": {"enum": [2, 3, 4, 5, 7]}}}}
+  ],
+  "$defs": {
+    "count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+    "database": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created", "reopened", "database_outside_repository", "journal_mode", "synchronous", "foreign_keys", "busy_timeout_ms"],
+      "properties": {"created": {"type": "boolean"}, "reopened": {"type": "boolean"}, "database_outside_repository": {"const": true}, "journal_mode": {"enum": ["wal", "not_available"]}, "synchronous": {"type": "integer", "minimum": 0, "maximum": 3}, "foreign_keys": {"type": "integer", "minimum": 0, "maximum": 1}, "busy_timeout_ms": {"type": "integer", "minimum": 0, "maximum": 5000}}
+    },
+    "transaction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["atomic_session", "begun", "committed", "rolled_back"],
+      "properties": {"atomic_session": {"const": true}, "begun": {"type": "boolean"}, "committed": {"type": "boolean"}, "rolled_back": {"type": "boolean"}}
+    },
+    "schema": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "supported", "initialized", "migration_performed"],
+      "properties": {"schema_version": {"const": "1"}, "supported": {"type": "boolean"}, "initialized": {"type": "boolean"}, "migration_performed": {"const": false}}
+    },
+    "operations": {
+      "type": "object", "additionalProperties": false,
+      "required": ["input_count", "processed_count", "applied_count", "duplicate_noop_count", "rejected_count"],
+      "properties": {"input_count": {"$ref": "#/$defs/count"}, "processed_count": {"$ref": "#/$defs/count"}, "applied_count": {"$ref": "#/$defs/count"}, "duplicate_noop_count": {"$ref": "#/$defs/count"}, "rejected_count": {"$ref": "#/$defs/count"}}
+    },
+    "units": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "revised_count", "state_changed_count", "pending_count", "registered_count", "suspended_count", "retired_count", "enabled_count", "disabled_count", "total_count"],
+      "properties": {"created_count": {"$ref": "#/$defs/count"}, "revised_count": {"$ref": "#/$defs/count"}, "state_changed_count": {"$ref": "#/$defs/count"}, "pending_count": {"$ref": "#/$defs/count"}, "registered_count": {"$ref": "#/$defs/count"}, "suspended_count": {"$ref": "#/$defs/count"}, "retired_count": {"$ref": "#/$defs/count"}, "enabled_count": {"$ref": "#/$defs/count"}, "disabled_count": {"$ref": "#/$defs/count"}, "total_count": {"$ref": "#/$defs/count"}}
+    },
+    "permissions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "total_count", "enabled_count"],
+      "properties": {"created_count": {"$ref": "#/$defs/count"}, "total_count": {"$ref": "#/$defs/count"}, "enabled_count": {"$ref": "#/$defs/count"}}
+    },
+    "mounts": {
+      "type": "object", "additionalProperties": false,
+      "required": ["state_changed_count", "mounted_count", "unmounted_count", "total_count"],
+      "properties": {"state_changed_count": {"$ref": "#/$defs/count"}, "mounted_count": {"$ref": "#/$defs/count"}, "unmounted_count": {"$ref": "#/$defs/count"}, "total_count": {"$ref": "#/$defs/count"}}
+    },
+    "compatibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "total_count", "compatible_count", "incompatible_count", "direct_output_authority"],
+      "properties": {"created_count": {"$ref": "#/$defs/count"}, "total_count": {"$ref": "#/$defs/count"}, "compatible_count": {"$ref": "#/$defs/count"}, "incompatible_count": {"$ref": "#/$defs/count"}, "direct_output_authority": {"const": false}}
+    },
+    "integrity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["check_performed", "result"],
+      "properties": {"check_performed": {"type": "boolean"}, "result": {"enum": ["OK", "FAILED", "NOT_PERFORMED"]}}
+    },
+    "idempotency": {
+      "type": "object", "additionalProperties": false,
+      "required": ["request_hash_algorithm", "duplicate_noop_count", "conflict_count"],
+      "properties": {"request_hash_algorithm": {"const": "SHA256_CANONICAL_JSON"}, "duplicate_noop_count": {"$ref": "#/$defs/count"}, "conflict_count": {"$ref": "#/$defs/count"}}
+    },
+    "safety": {
+      "type": "object", "additionalProperties": false,
+      "required": ["offline_only", "network_access_performed", "gpio_access_performed", "serial_access_performed", "hardware_output_performed", "motor_control_performed", "pto_control_performed", "charging_control_performed", "rover_communication_performed", "physical_mount_performed", "physical_unmount_performed", "attachment_sensor_access_performed", "actual_assignment_performed", "actual_arm_performed", "automatic_registration_performed", "automatic_state_transition_performed", "direct_output_authority", "repository_modified", "physical_estop_independent"],
+      "properties": {"offline_only": {"const": true}, "network_access_performed": {"const": false}, "gpio_access_performed": {"const": false}, "serial_access_performed": {"const": false}, "hardware_output_performed": {"const": false}, "motor_control_performed": {"const": false}, "pto_control_performed": {"const": false}, "charging_control_performed": {"const": false}, "rover_communication_performed": {"const": false}, "physical_mount_performed": {"const": false}, "physical_unmount_performed": {"const": false}, "attachment_sensor_access_performed": {"const": false}, "actual_assignment_performed": {"const": false}, "actual_arm_performed": {"const": false}, "automatic_registration_performed": {"const": false}, "automatic_state_transition_performed": {"const": false}, "direct_output_authority": {"const": false}, "repository_modified": {"const": false}, "physical_estop_independent": {"const": true}}
+    },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["table_count", "row_count_total", "diagnostic_count", "compatible_decision_count", "incompatible_decision_count", "next_phase_eligible"],
+      "properties": {"table_count": {"const": 7}, "row_count_total": {"$ref": "#/$defs/count"}, "diagnostic_count": {"$ref": "#/$defs/count"}, "compatible_decision_count": {"$ref": "#/$defs/count"}, "incompatible_decision_count": {"$ref": "#/$defs/count"}, "next_phase_eligible": {"type": "boolean"}}
+    },
+    "diagnostic": {
+      "type": "object", "additionalProperties": false,
+      "required": ["severity", "code", "component", "operation_id", "message"],
+      "properties": {"severity": {"enum": ["INFO", "WARNING", "ERROR"]}, "code": {"type": "string", "minLength": 1, "maxLength": 80}, "component": {"type": "string", "minLength": 1, "maxLength": 80}, "operation_id": {"type": "string", "maxLength": 64}, "message": {"type": "string", "minLength": 1, "maxLength": 240}}
+    }
+  }
+}

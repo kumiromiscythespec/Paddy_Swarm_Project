@@ -1,0 +1,72 @@
+{
+  "session_version": 1,
+  "session_id": "SESSION-ST007-POSITIVE",
+  "operations": [
+    {
+      "operation_id": "OP-ST007-001",
+      "logical_tick": 0,
+      "operation_type": "REGISTER_UNIT",
+      "payload": {"unit_id": "UNIT-DEMO-SCOUT", "display_name": "Scout Monitoring Module", "unit_type": "SCOUT_SENSOR", "initial_state": "PENDING", "enabled": true, "profile_revision": 1, "pto_contract": "NONE", "allowed_hardware_classes": ["COMMON_ROVER_V2", "SCOUT_VARIANT"], "allowed_fields": ["FIELD-DEMO-001", "FIELD-DEMO-002"]}
+    },
+    {
+      "operation_id": "OP-ST007-002",
+      "logical_tick": 1,
+      "operation_type": "REGISTER_UNIT",
+      "payload": {"unit_id": "UNIT-DEMO-WEED", "display_name": "PS-WEED-V001.2 Passive Rake", "unit_type": "PASSIVE_RAKE", "initial_state": "PENDING", "enabled": true, "profile_revision": 1, "pto_contract": "DEPLOY_ASSIST_ONLY", "allowed_hardware_classes": ["COMMON_ROVER_V2", "WORK_VARIANT"], "allowed_fields": ["FIELD-DEMO-001", "FIELD-DEMO-002"]}
+    },
+    {
+      "operation_id": "OP-ST007-003",
+      "logical_tick": 2,
+      "operation_type": "SET_UNIT_STATE",
+      "payload": {"unit_id": "UNIT-DEMO-SCOUT", "target_state": "REGISTERED", "operator_approved": true, "unit_confirmed_unmounted": true, "pto_output_disabled": true, "main_power_isolated": true, "reason": "Operator approved demo registration"}
+    },
+    {
+      "operation_id": "OP-ST007-004",
+      "logical_tick": 3,
+      "operation_type": "SET_UNIT_STATE",
+      "payload": {"unit_id": "UNIT-DEMO-WEED", "target_state": "REGISTERED", "operator_approved": true, "unit_confirmed_unmounted": true, "pto_output_disabled": true, "main_power_isolated": true, "reason": "Operator approved demo registration"}
+    },
+    {
+      "operation_id": "OP-ST007-005",
+      "logical_tick": 4,
+      "operation_type": "MOUNT_UNIT",
+      "payload": {"unit_id": "UNIT-DEMO-SCOUT", "rover_id": "ROVER-DEMO-001", "rover_hardware_class": "SCOUT_VARIANT", "rover_registration_state": "REGISTERED", "rover_enabled": true, "operator_approved": true, "rover_confirmed_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-006",
+      "logical_tick": 5,
+      "operation_type": "MOUNT_UNIT",
+      "payload": {"unit_id": "UNIT-DEMO-WEED", "rover_id": "ROVER-DEMO-002", "rover_hardware_class": "WORK_VARIANT", "rover_registration_state": "REGISTERED", "rover_enabled": true, "operator_approved": true, "rover_confirmed_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-007",
+      "logical_tick": 6,
+      "operation_type": "EVALUATE_COMPATIBILITY",
+      "payload": {"compatibility_id": "COMPAT-ST007-001", "unit_id": "UNIT-DEMO-SCOUT", "rover_id": "ROVER-DEMO-001", "rover_hardware_class": "SCOUT_VARIANT", "rover_registration_state": "REGISTERED", "rover_enabled": true, "active_field_id": "FIELD-DEMO-001", "requested_field_id": "FIELD-DEMO-001", "operator_approved": true, "rover_reported_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-008",
+      "logical_tick": 7,
+      "operation_type": "EVALUATE_COMPATIBILITY",
+      "payload": {"compatibility_id": "COMPAT-ST007-002", "unit_id": "UNIT-DEMO-WEED", "rover_id": "ROVER-DEMO-002", "rover_hardware_class": "WORK_VARIANT", "rover_registration_state": "REGISTERED", "rover_enabled": true, "active_field_id": "FIELD-DEMO-001", "requested_field_id": "FIELD-DEMO-001", "operator_approved": true, "rover_reported_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-009",
+      "logical_tick": 8,
+      "operation_type": "EVALUATE_COMPATIBILITY",
+      "payload": {"compatibility_id": "COMPAT-ST007-003", "unit_id": "UNIT-DEMO-WEED", "rover_id": "ROVER-DEMO-001", "rover_hardware_class": "SCOUT_VARIANT", "rover_registration_state": "REGISTERED", "rover_enabled": true, "active_field_id": "FIELD-DEMO-001", "requested_field_id": "FIELD-DEMO-001", "operator_approved": true, "rover_reported_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-010",
+      "logical_tick": 9,
+      "operation_type": "UNMOUNT_UNIT",
+      "payload": {"unit_id": "UNIT-DEMO-SCOUT", "rover_id": "ROVER-DEMO-001", "operator_approved": true, "rover_confirmed_stopped": true, "motor_output_disabled": true, "pto_output_disabled": true, "charging_transition_count": 0, "active_mission_count": 0, "physical_estop_state_known": true, "main_power_isolated": true, "mechanical_lock_confirmed": true}
+    },
+    {
+      "operation_id": "OP-ST007-011",
+      "logical_tick": 10,
+      "operation_type": "VERIFY_INTEGRITY",
+      "payload": {}
+    }
+  ]
+}
