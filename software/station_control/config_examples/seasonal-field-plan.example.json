@@ -1,0 +1,53 @@
+{
+  "plan_version": 1,
+  "plan_id": "PLAN-ST008-SEASONAL-DEMO",
+  "field": {
+    "field_id": "FIELD-DEMO-001",
+    "field_length_mm": 52000,
+    "field_width_mm": 15000,
+    "field_area_m2": 780,
+    "work_width_mm": 300,
+    "turn_alignment_overhead_basis_points": 1500,
+    "weed_priority_treatment_basis_points": 2500
+  },
+  "battery_model": {
+    "battery_id": "BATTERY-DEMO-LIFEPO4-12V-10AH",
+    "nominal_voltage_mv": 12800,
+    "capacity_mah": 10000,
+    "nominal_energy_mwh": 128000,
+    "reserve_basis_points": 2000,
+    "usable_energy_mwh": 102400,
+    "battery_pool_count": 16,
+    "charger_count": 4,
+    "planned_charge_minutes": 180,
+    "initial_fully_charged_battery_count": 16,
+    "broadcast_runtime_minutes": 180,
+    "weed_runtime_minutes": 150,
+    "high_cut_runtime_minutes": 90,
+    "carrier_runtime_minutes": 180
+  },
+  "assumptions": {
+    "battery_swap_minutes": 3,
+    "seed_refill_minutes": 5,
+    "high_cut_cassette_swap_minutes": 2,
+    "carrier_pickup_seconds_per_cassette": 60,
+    "carrier_drop_seconds_per_cassette": 60,
+    "grain_mass_g": 480000,
+    "cassette_capacity_g": 1000,
+    "active_cassette_count_per_rover": 1,
+    "spare_cassette_count_per_rover": 1,
+    "in_field_temporary_drop_allowed": true,
+    "single_side_collection_hub": true,
+    "collection_side": "SHORT_SIDE_A",
+    "temporary_drop_slot_count": 50,
+    "carrier_average_one_way_distance_mm": 26000
+  },
+  "scenarios": [
+    {"scenario_id": "BASELINE", "broadcast_speed": "STANDARD", "broadcast_seed_mass_g": 3250, "weed_schedule": "STANDARD", "weed_speed": "STANDARD", "high_cut_speed": "STANDARD", "carrier_speed": "STANDARD", "harvest_factor_basis_points": 20000, "carrier_cassettes_per_trip": 2, "manual_recovery_per_day": 10, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 2, "battery_pool": 16, "chargers": 4, "charge_minutes": 180, "battery_runtime_factor_basis_points": 10000, "broadcast_failure_half_capacity": false, "weed_failure_half_capacity": false, "high_cut_failure_half_capacity": false},
+    {"scenario_id": "CONSERVATIVE", "broadcast_speed": "LOW", "broadcast_seed_mass_g": 3500, "weed_schedule": "STANDARD", "weed_speed": "LOW", "high_cut_speed": "LOW", "carrier_speed": "LOW", "harvest_factor_basis_points": 22000, "carrier_cassettes_per_trip": 1, "manual_recovery_per_day": 10, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 2, "battery_pool": 16, "chargers": 4, "charge_minutes": 210, "battery_runtime_factor_basis_points": 9000, "broadcast_failure_half_capacity": false, "weed_failure_half_capacity": false, "high_cut_failure_half_capacity": false},
+    {"scenario_id": "WET_FIELD", "broadcast_speed": "LOW", "broadcast_seed_mass_g": 3500, "weed_schedule": "BAD_WEATHER", "weed_speed": "LOW", "high_cut_speed": "LOW", "carrier_speed": "LOW", "harvest_factor_basis_points": 25000, "carrier_cassettes_per_trip": 1, "manual_recovery_per_day": 10, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 2, "battery_pool": 16, "chargers": 4, "charge_minutes": 210, "battery_runtime_factor_basis_points": 8500, "broadcast_failure_half_capacity": false, "weed_failure_half_capacity": false, "high_cut_failure_half_capacity": false},
+    {"scenario_id": "ONE_ROVER_DOWN", "broadcast_speed": "STANDARD", "broadcast_seed_mass_g": 3250, "weed_schedule": "STANDARD", "weed_speed": "STANDARD", "high_cut_speed": "STANDARD", "carrier_speed": "STANDARD", "harvest_factor_basis_points": 20000, "carrier_cassettes_per_trip": 2, "manual_recovery_per_day": 10, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 2, "battery_pool": 16, "chargers": 4, "charge_minutes": 180, "battery_runtime_factor_basis_points": 10000, "broadcast_failure_half_capacity": true, "weed_failure_half_capacity": true, "high_cut_failure_half_capacity": true},
+    {"scenario_id": "CARRIER_BOTTLENECK", "broadcast_speed": "STANDARD", "broadcast_seed_mass_g": 3250, "weed_schedule": "STANDARD", "weed_speed": "STANDARD", "high_cut_speed": "STANDARD", "carrier_speed": "STANDARD", "harvest_factor_basis_points": 20000, "carrier_cassettes_per_trip": 1, "manual_recovery_per_day": 10, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 1, "battery_pool": 16, "chargers": 4, "charge_minutes": 180, "battery_runtime_factor_basis_points": 10000, "broadcast_failure_half_capacity": false, "weed_failure_half_capacity": false, "high_cut_failure_half_capacity": false},
+    {"scenario_id": "COMBINED_BAD", "broadcast_speed": "LOW", "broadcast_seed_mass_g": 3500, "weed_schedule": "BAD_WEATHER", "weed_speed": "LOW", "high_cut_speed": "LOW", "carrier_speed": "LOW", "harvest_factor_basis_points": 25000, "carrier_cassettes_per_trip": 1, "manual_recovery_per_day": 0, "broadcast_rovers": 4, "weed_rovers": 2, "high_cut_rovers": 4, "carrier_rovers": 1, "battery_pool": 16, "chargers": 3, "charge_minutes": 240, "battery_runtime_factor_basis_points": 8500, "broadcast_failure_half_capacity": true, "weed_failure_half_capacity": true, "high_cut_failure_half_capacity": true}
+  ]
+}

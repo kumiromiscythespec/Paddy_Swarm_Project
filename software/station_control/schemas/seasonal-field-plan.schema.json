@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seasonal-field-plan.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_version", "plan_id", "field", "battery_model", "assumptions", "scenarios"],
+  "properties": {
+    "plan_version": {"const": 1},
+    "plan_id": {"type": "string", "pattern": "^PLAN-ST008-[A-Z0-9-]{1,40}$"},
+    "field": {"$ref": "#/$defs/field"},
+    "battery_model": {"$ref": "#/$defs/battery"},
+    "assumptions": {"$ref": "#/$defs/assumptions"},
+    "scenarios": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "uniqueItems": true,
+      "prefixItems": [
+        {"$ref": "#/$defs/baseline"},
+        {"$ref": "#/$defs/conservative"},
+        {"$ref": "#/$defs/wet_field"},
+        {"$ref": "#/$defs/one_rover_down"},
+        {"$ref": "#/$defs/carrier_bottleneck"},
+        {"$ref": "#/$defs/combined_bad"}
+      ],
+      "items": false
+    }
+  },
+  "$defs": {
+    "positive": {"type": "integer", "minimum": 1, "maximum": 10000000},
+    "field": {
+      "type": "object", "additionalProperties": false,
+      "required": ["field_id", "field_length_mm", "field_width_mm", "field_area_m2", "work_width_mm", "turn_alignment_overhead_basis_points", "weed_priority_treatment_basis_points"],
+      "properties": {
+        "field_id": {"const": "FIELD-DEMO-001"},
+        "field_length_mm": {"$ref": "#/$defs/positive"},
+        "field_width_mm": {"$ref": "#/$defs/positive"},
+        "field_area_m2": {"$ref": "#/$defs/positive"},
+        "work_width_mm": {"$ref": "#/$defs/positive"},
+        "turn_alignment_overhead_basis_points": {"type": "integer", "minimum": 0, "maximum": 10000},
+        "weed_priority_treatment_basis_points": {"type": "integer", "minimum": 0, "maximum": 10000}
+      }
+    },
+    "battery": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_id", "nominal_voltage_mv", "capacity_mah", "nominal_energy_mwh", "reserve_basis_points", "usable_energy_mwh", "battery_pool_count", "charger_count", "planned_charge_minutes", "initial_fully_charged_battery_count", "broadcast_runtime_minutes", "weed_runtime_minutes", "high_cut_runtime_minutes", "carrier_runtime_minutes"],
+      "properties": {
+        "battery_id": {"const": "BATTERY-DEMO-LIFEPO4-12V-10AH"},
+        "nominal_voltage_mv": {"$ref": "#/$defs/positive"}, "capacity_mah": {"$ref": "#/$defs/positive"},
+        "nominal_energy_mwh": {"$ref": "#/$defs/positive"}, "reserve_basis_points": {"type": "integer", "minimum": 0, "maximum": 10000},
+        "usable_energy_mwh": {"$ref": "#/$defs/positive"}, "battery_pool_count": {"$ref": "#/$defs/positive"},
+        "charger_count": {"$ref": "#/$defs/positive"}, "planned_charge_minutes": {"$ref": "#/$defs/positive"},
+        "initial_fully_charged_battery_count": {"$ref": "#/$defs/positive"}, "broadcast_runtime_minutes": {"$ref": "#/$defs/positive"},
+        "weed_runtime_minutes": {"$ref": "#/$defs/positive"}, "high_cut_runtime_minutes": {"$ref": "#/$defs/positive"},
+        "carrier_runtime_minutes": {"$ref": "#/$defs/positive"}
+      }
+    },
+    "assumptions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_swap_minutes", "seed_refill_minutes", "high_cut_cassette_swap_minutes", "carrier_pickup_seconds_per_cassette", "carrier_drop_seconds_per_cassette", "grain_mass_g", "cassette_capacity_g", "active_cassette_count_per_rover", "spare_cassette_count_per_rover", "in_field_temporary_drop_allowed", "single_side_collection_hub", "collection_side", "temporary_drop_slot_count", "carrier_average_one_way_distance_mm"],
+      "properties": {
+        "battery_swap_minutes": {"$ref": "#/$defs/positive"}, "seed_refill_minutes": {"$ref": "#/$defs/positive"},
+        "high_cut_cassette_swap_minutes": {"$ref": "#/$defs/positive"}, "carrier_pickup_seconds_per_cassette": {"$ref": "#/$defs/positive"},
+        "carrier_drop_seconds_per_cassette": {"$ref": "#/$defs/positive"}, "grain_mass_g": {"$ref": "#/$defs/positive"},
+        "cassette_capacity_g": {"$ref": "#/$defs/positive"}, "active_cassette_count_per_rover": {"$ref": "#/$defs/positive"},
+        "spare_cassette_count_per_rover": {"$ref": "#/$defs/positive"}, "in_field_temporary_drop_allowed": {"type": "boolean"},
+        "single_side_collection_hub": {"type": "boolean"}, "collection_side": {"const": "SHORT_SIDE_A"},
+        "temporary_drop_slot_count": {"$ref": "#/$defs/positive"}, "carrier_average_one_way_distance_mm": {"$ref": "#/$defs/positive"}
+      }
+    },
+    "scenario": {
+      "type": "object", "additionalProperties": false,
+      "required": ["scenario_id", "broadcast_speed", "broadcast_seed_mass_g", "weed_schedule", "weed_speed", "high_cut_speed", "carrier_speed", "harvest_factor_basis_points", "carrier_cassettes_per_trip", "manual_recovery_per_day", "broadcast_rovers", "weed_rovers", "high_cut_rovers", "carrier_rovers", "battery_pool", "chargers", "charge_minutes", "battery_runtime_factor_basis_points", "broadcast_failure_half_capacity", "weed_failure_half_capacity", "high_cut_failure_half_capacity"],
+      "properties": {
+        "scenario_id": {"enum": ["BASELINE", "CONSERVATIVE", "WET_FIELD", "ONE_ROVER_DOWN", "CARRIER_BOTTLENECK", "COMBINED_BAD"]},
+        "broadcast_speed": {"enum": ["LOW", "STANDARD", "IMPROVED"]}, "broadcast_seed_mass_g": {"type": "integer", "minimum": 3000, "maximum": 3500},
+        "weed_schedule": {"enum": ["STANDARD", "BAD_WEATHER"]}, "weed_speed": {"enum": ["LOW", "STANDARD", "IMPROVED"]},
+        "high_cut_speed": {"enum": ["LOW", "STANDARD", "IMPROVED"]}, "carrier_speed": {"enum": ["LOW", "STANDARD", "IMPROVED"]},
+        "harvest_factor_basis_points": {"type": "integer", "minimum": 10000, "maximum": 30000},
+        "carrier_cassettes_per_trip": {"enum": [1, 2, 4]}, "manual_recovery_per_day": {"enum": [0, 10, 20]},
+        "broadcast_rovers": {"$ref": "#/$defs/positive"}, "weed_rovers": {"$ref": "#/$defs/positive"},
+        "high_cut_rovers": {"$ref": "#/$defs/positive"}, "carrier_rovers": {"$ref": "#/$defs/positive"},
+        "battery_pool": {"$ref": "#/$defs/positive"}, "chargers": {"$ref": "#/$defs/positive"},
+        "charge_minutes": {"$ref": "#/$defs/positive"}, "battery_runtime_factor_basis_points": {"$ref": "#/$defs/positive"},
+        "broadcast_failure_half_capacity": {"type": "boolean"}, "weed_failure_half_capacity": {"type": "boolean"},
+        "high_cut_failure_half_capacity": {"type": "boolean"}
+      }
+    },
+    "baseline": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "BASELINE"}}}]},
+    "conservative": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "CONSERVATIVE"}}}]},
+    "wet_field": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "WET_FIELD"}}}]},
+    "one_rover_down": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "ONE_ROVER_DOWN"}}}]},
+    "carrier_bottleneck": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "CARRIER_BOTTLENECK"}}}]},
+    "combined_bad": {"allOf": [{"$ref": "#/$defs/scenario"}, {"properties": {"scenario_id": {"const": "COMBINED_BAD"}}}]}
+  }
+}
