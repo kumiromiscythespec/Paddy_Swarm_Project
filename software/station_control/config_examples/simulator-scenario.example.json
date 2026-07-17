@@ -1,0 +1,135 @@
+{
+  "scenario_version": 1,
+  "scenario_id": "SCENARIO-ST003-POSITIVE",
+  "active_field_id": "FIELD-DEMO-001",
+  "fields": [
+    {
+      "field_id": "FIELD-DEMO-001",
+      "display_name": "Field 1",
+      "boundary_reference": "local-reference:demo-field-1"
+    },
+    {
+      "field_id": "FIELD-DEMO-002",
+      "display_name": "Field 2",
+      "boundary_reference": "local-reference:demo-field-2"
+    }
+  ],
+  "rovers": [
+    {
+      "rover_id": "ROVER-DEMO-001",
+      "current_field_id": "FIELD-DEMO-001",
+      "current_unit_id": "UNIT-DEMO-001",
+      "official_state": "STOPPED",
+      "battery_percentage": 80,
+      "last_seen_tick": 0,
+      "fault": "",
+      "active_mission_id": "",
+      "communication_available": true
+    },
+    {
+      "rover_id": "ROVER-DEMO-002",
+      "current_field_id": "FIELD-DEMO-001",
+      "current_unit_id": "UNIT-DEMO-002",
+      "official_state": "STOPPED",
+      "battery_percentage": 70,
+      "last_seen_tick": 0,
+      "fault": "",
+      "active_mission_id": "",
+      "communication_available": true
+    },
+    {
+      "rover_id": "ROVER-DEMO-003",
+      "current_field_id": "FIELD-DEMO-001",
+      "current_unit_id": "UNIT-DEMO-003",
+      "official_state": "STOPPED",
+      "battery_percentage": 60,
+      "last_seen_tick": 0,
+      "fault": "",
+      "active_mission_id": "",
+      "communication_available": true
+    }
+  ],
+  "events": [
+    {
+      "tick": 0,
+      "event_type": "MISSION_CREATE",
+      "target_id": "MISSION-DEMO-001",
+      "payload": {
+        "field_id": "FIELD-DEMO-001",
+        "unit_id": "UNIT-DEMO-001"
+      }
+    },
+    {
+      "tick": 1,
+      "event_type": "MISSION_APPROVE",
+      "target_id": "MISSION-DEMO-001",
+      "payload": {
+        "operator_approved": true
+      }
+    },
+    {
+      "tick": 2,
+      "event_type": "MISSION_ASSIGN",
+      "target_id": "MISSION-DEMO-001",
+      "payload": {
+        "rover_id": "ROVER-DEMO-001"
+      }
+    },
+    {
+      "tick": 3,
+      "event_type": "MISSION_START",
+      "target_id": "MISSION-DEMO-001",
+      "payload": {}
+    },
+    {
+      "tick": 4,
+      "event_type": "BATTERY_DECREASE",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {
+        "amount": 30
+      }
+    },
+    {
+      "tick": 5,
+      "event_type": "COMMUNICATION_LOST",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {}
+    },
+    {
+      "tick": 6,
+      "event_type": "COMMUNICATION_RESTORED",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {}
+    },
+    {
+      "tick": 7,
+      "event_type": "RETURN_REQUEST",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {
+        "reason": "Operator requests simulated return after review"
+      }
+    },
+    {
+      "tick": 8,
+      "event_type": "CHARGE_START",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {}
+    },
+    {
+      "tick": 9,
+      "event_type": "CHARGE_COMPLETE",
+      "target_id": "ROVER-DEMO-001",
+      "payload": {
+        "battery_percentage": 90
+      }
+    },
+    {
+      "tick": 10,
+      "event_type": "FIELD_SWITCH_REQUEST",
+      "target_id": "FIELD-DEMO-002",
+      "payload": {
+        "operator_confirmed": true
+      }
+    }
+  ]
+}
