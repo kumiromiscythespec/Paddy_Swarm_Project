@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:paddy-swarm:station-control:local-storage-session:1",
+  "title": "Paddy Swarm Local Storage Session",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["session_version", "session_id", "operations"],
+  "properties": {
+    "session_version": { "const": 1 },
+    "session_id": {
+      "type": "string",
+      "pattern": "^SESSION-ST004-[A-Z0-9-]{1,40}$"
+    },
+    "operations": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1000,
+      "items": { "$ref": "#/$defs/operation" }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]{2,63}$"
+    },
+    "logicalTick": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2147483647
+    },
+    "eventType": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]{2,63}$"
+    },
+    "eventPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "mission_state": { "enum": ["DRAFT", "PAUSED"] },
+        "simulation": { "type": "boolean" },
+        "communication_available": { "type": "boolean" },
+        "demo_level": { "enum": ["LOW", "NORMAL", "HIGH"] },
+        "measurement": { "const": "DEMO_ONLY" }
+      }
+    },
+    "storeEventPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "event_type",
+        "source_type",
+        "source_id",
+        "event_payload",
+        "enqueue_upload",
+        "upload_record_id",
+        "idempotency_key"
+      ],
+      "properties": {
+        "event_id": { "$ref": "#/$defs/identifier" },
+        "event_type": { "$ref": "#/$defs/eventType" },
+        "source_type": { "enum": ["STATION", "ROVER", "UNIT", "MISSION", "SYSTEM"] },
+        "source_id": { "$ref": "#/$defs/identifier" },
+        "event_payload": { "$ref": "#/$defs/eventPayload" },
+        "enqueue_upload": { "type": "boolean" },
+        "upload_record_id": { "type": "string", "maxLength": 64 },
+        "idempotency_key": { "type": "string", "maxLength": 64 }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "enqueue_upload": { "const": true } },
+            "required": ["enqueue_upload"]
+          },
+          "then": {
+            "properties": {
+              "upload_record_id": { "$ref": "#/$defs/identifier" },
+              "idempotency_key": { "$ref": "#/$defs/identifier" }
+            }
+          },
+          "else": {
+            "properties": {
+              "upload_record_id": { "const": "" },
+              "idempotency_key": { "const": "" }
+            }
+          }
+        }
+      ]
+    },
+    "attemptPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["upload_record_id", "error_code"],
+      "properties": {
+        "upload_record_id": { "$ref": "#/$defs/identifier" },
+        "error_code": {
+          "enum": ["OFFLINE", "CONNECTION_UNAVAILABLE", "REMOTE_NOT_CONFIGURED"]
+        }
+      }
+    },
+    "acknowledgePayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["upload_record_id", "acknowledgement_id"],
+      "properties": {
+        "upload_record_id": { "$ref": "#/$defs/identifier" },
+        "acknowledgement_id": { "$ref": "#/$defs/identifier" }
+      }
+    },
+    "emptyPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "maxProperties": 0
+    },
+    "storeEventOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": { "$ref": "#/$defs/identifier" },
+        "logical_tick": { "$ref": "#/$defs/logicalTick" },
+        "operation_type": { "const": "STORE_EVENT" },
+        "payload": { "$ref": "#/$defs/storeEventPayload" }
+      }
+    },
+    "attemptOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": { "$ref": "#/$defs/identifier" },
+        "logical_tick": { "$ref": "#/$defs/logicalTick" },
+        "operation_type": { "const": "RECORD_UPLOAD_ATTEMPT" },
+        "payload": { "$ref": "#/$defs/attemptPayload" }
+      }
+    },
+    "acknowledgeOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": { "$ref": "#/$defs/identifier" },
+        "logical_tick": { "$ref": "#/$defs/logicalTick" },
+        "operation_type": { "const": "ACKNOWLEDGE_UPLOAD" },
+        "payload": { "$ref": "#/$defs/acknowledgePayload" }
+      }
+    },
+    "verifyOperation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": { "$ref": "#/$defs/identifier" },
+        "logical_tick": { "$ref": "#/$defs/logicalTick" },
+        "operation_type": { "const": "VERIFY_INTEGRITY" },
+        "payload": { "$ref": "#/$defs/emptyPayload" }
+      }
+    },
+    "operation": {
+      "oneOf": [
+        { "$ref": "#/$defs/storeEventOperation" },
+        { "$ref": "#/$defs/attemptOperation" },
+        { "$ref": "#/$defs/acknowledgeOperation" },
+        { "$ref": "#/$defs/verifyOperation" }
+      ]
+    }
+  }
+}

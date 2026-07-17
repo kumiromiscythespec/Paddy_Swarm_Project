@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:paddy-swarm:station-control:local-storage-report:1",
+  "title": "Paddy Swarm Local Storage Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_version",
+    "phase",
+    "session_id",
+    "result",
+    "database",
+    "transaction",
+    "schema",
+    "operations",
+    "events",
+    "outbox",
+    "integrity",
+    "idempotency",
+    "safety",
+    "summary",
+    "diagnostics",
+    "canonical_state_sha256",
+    "exit_code"
+  ],
+  "properties": {
+    "report_version": { "const": 1 },
+    "phase": { "const": "ST-004" },
+    "session_id": { "type": "string", "minLength": 1, "maxLength": 64 },
+    "result": { "enum": ["PASS", "FAIL"] },
+    "database": { "$ref": "#/$defs/database" },
+    "transaction": { "$ref": "#/$defs/transaction" },
+    "schema": { "$ref": "#/$defs/schema" },
+    "operations": { "$ref": "#/$defs/operations" },
+    "events": { "$ref": "#/$defs/events" },
+    "outbox": { "$ref": "#/$defs/outbox" },
+    "integrity": { "$ref": "#/$defs/integrity" },
+    "idempotency": { "$ref": "#/$defs/idempotency" },
+    "safety": { "$ref": "#/$defs/safety" },
+    "summary": { "$ref": "#/$defs/summary" },
+    "diagnostics": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": { "$ref": "#/$defs/diagnostic" }
+    },
+    "canonical_state_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "exit_code": { "enum": [0, 2, 3, 4, 5, 7] }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "result": { "const": "PASS" } },
+        "required": ["result"]
+      },
+      "then": { "properties": { "exit_code": { "const": 0 } } },
+      "else": { "properties": { "exit_code": { "enum": [2, 3, 4, 5, 7] } } }
+    },
+    {
+      "if": {
+        "properties": { "exit_code": { "const": 0 } },
+        "required": ["exit_code"]
+      },
+      "then": { "properties": { "result": { "const": "PASS" } } },
+      "else": { "properties": { "result": { "const": "FAIL" } } }
+    }
+  ],
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2147483647
+    },
+    "database": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created",
+        "reopened",
+        "database_outside_repository",
+        "journal_mode",
+        "synchronous",
+        "foreign_keys",
+        "busy_timeout_ms"
+      ],
+      "properties": {
+        "created": { "type": "boolean" },
+        "reopened": { "type": "boolean" },
+        "database_outside_repository": { "const": true },
+        "journal_mode": { "enum": ["", "wal"] },
+        "synchronous": { "enum": ["", "FULL"] },
+        "foreign_keys": { "type": "boolean" },
+        "busy_timeout_ms": { "enum": [0, 5000] }
+      }
+    },
+    "transaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["atomic_session", "begun", "committed", "rolled_back"],
+      "properties": {
+        "atomic_session": { "const": true },
+        "begun": { "type": "boolean" },
+        "committed": { "type": "boolean" },
+        "rolled_back": { "type": "boolean" }
+      }
+    },
+    "schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "supported", "initialized", "migration_performed"],
+      "properties": {
+        "schema_version": { "enum": [0, 1] },
+        "supported": { "type": "boolean" },
+        "initialized": { "type": "boolean" },
+        "migration_performed": { "const": false }
+      }
+    },
+    "operations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_count", "processed_count", "applied_count", "duplicate_noop_count", "rejected_count"],
+      "properties": {
+        "input_count": { "$ref": "#/$defs/count" },
+        "processed_count": { "$ref": "#/$defs/count" },
+        "applied_count": { "$ref": "#/$defs/count" },
+        "duplicate_noop_count": { "$ref": "#/$defs/count" },
+        "rejected_count": { "$ref": "#/$defs/count" }
+      }
+    },
+    "events": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stored_count", "total_count"],
+      "properties": {
+        "stored_count": { "$ref": "#/$defs/count" },
+        "total_count": { "$ref": "#/$defs/count" }
+      }
+    },
+    "outbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_count", "pending_count", "acknowledged_count", "dead_letter_count", "attempt_count_total"],
+      "properties": {
+        "created_count": { "$ref": "#/$defs/count" },
+        "pending_count": { "$ref": "#/$defs/count" },
+        "acknowledged_count": { "$ref": "#/$defs/count" },
+        "dead_letter_count": { "$ref": "#/$defs/count" },
+        "attempt_count_total": { "$ref": "#/$defs/count" }
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["check_performed", "result"],
+      "properties": {
+        "check_performed": { "type": "boolean" },
+        "result": { "enum": ["OK", "FAILED", "NOT_PERFORMED"] }
+      }
+    },
+    "idempotency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["request_hash_algorithm", "duplicate_noop_count", "conflict_count"],
+      "properties": {
+        "request_hash_algorithm": { "const": "SHA256_CANONICAL_JSON" },
+        "duplicate_noop_count": { "$ref": "#/$defs/count" },
+        "conflict_count": { "$ref": "#/$defs/count" }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "offline_only",
+        "network_access_performed",
+        "gpio_access_performed",
+        "serial_access_performed",
+        "hardware_output_performed",
+        "motor_control_performed",
+        "charging_control_performed",
+        "rover_communication_performed",
+        "actual_upload_performed",
+        "repository_modified",
+        "physical_estop_independent"
+      ],
+      "properties": {
+        "offline_only": { "const": true },
+        "network_access_performed": { "const": false },
+        "gpio_access_performed": { "const": false },
+        "serial_access_performed": { "const": false },
+        "hardware_output_performed": { "const": false },
+        "motor_control_performed": { "const": false },
+        "charging_control_performed": { "const": false },
+        "rover_communication_performed": { "const": false },
+        "actual_upload_performed": { "const": false },
+        "repository_modified": { "const": false },
+        "physical_estop_independent": { "const": true }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["table_count", "row_count_total", "diagnostic_count", "next_phase_eligible"],
+      "properties": {
+        "table_count": { "const": 4 },
+        "row_count_total": { "$ref": "#/$defs/count" },
+        "diagnostic_count": { "$ref": "#/$defs/count" },
+        "next_phase_eligible": { "type": "boolean" }
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["severity", "code", "component", "operation_id", "message"],
+      "properties": {
+        "severity": { "enum": ["INFO", "WARNING", "ERROR"] },
+        "code": {
+          "enum": [
+            "STORAGE_INVALID_ARGUMENT",
+            "STORAGE_REPOSITORY_ROOT_INVALID",
+            "STORAGE_DATABASE_PATH_INSIDE_REPOSITORY",
+            "STORAGE_DATABASE_PARENT_INVALID",
+            "STORAGE_REPORT_PATH_INSIDE_REPOSITORY",
+            "STORAGE_REPORT_PARENT_INVALID",
+            "STORAGE_SESSION_INVALID",
+            "STORAGE_SESSION_TICK_REVERSED",
+            "STORAGE_SCHEMA_VERSION_UNSUPPORTED",
+            "STORAGE_SCHEMA_INITIALIZATION_FAILED",
+            "STORAGE_TRANSACTION_BEGIN_FAILED",
+            "STORAGE_OPERATION_UNKNOWN",
+            "STORAGE_EVENT_CONFLICT",
+            "STORAGE_OUTBOX_RECORD_NOT_FOUND",
+            "STORAGE_OUTBOX_STATE_CONFLICT",
+            "STORAGE_IDEMPOTENCY_CONFLICT",
+            "STORAGE_TRANSACTION_ROLLED_BACK",
+            "STORAGE_INTEGRITY_CHECK_FAILED",
+            "STORAGE_REOPEN_FAILED",
+            "STORAGE_REPORT_WRITE_FAILED",
+            "STORAGE_INTERNAL_ERROR"
+          ]
+        },
+        "component": { "type": "string", "minLength": 1, "maxLength": 64 },
+        "operation_id": { "type": "string", "maxLength": 64 },
+        "message": { "type": "string", "minLength": 1, "maxLength": 256 }
+      }
+    }
+  }
+}
