@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rover-registry-session.schema.json",
+  "title": "ST-006 Rover Registry Session",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["session_version", "session_id", "operations"],
+  "properties": {
+    "session_version": {"const": 1},
+    "session_id": {"type": "string", "pattern": "^SESSION-ST006-[A-Z0-9-]{1,40}$", "maxLength": 54},
+    "operations": {"type": "array", "minItems": 1, "maxItems": 512, "items": {"$ref": "#/$defs/operation"}}
+  },
+  "$defs": {
+    "roverId": {"type": "string", "pattern": "^ROVER-DEMO-[0-9]{3}$", "maxLength": 14},
+    "fieldId": {"type": "string", "pattern": "^FIELD-DEMO-[0-9]{3}$", "maxLength": 14},
+    "unitId": {"type": "string", "pattern": "^UNIT-DEMO-[A-Z0-9-]+$", "maxLength": 64},
+    "missionId": {"type": "string", "pattern": "^MISSION-DEMO-[0-9]{3}$", "maxLength": 16},
+    "authorizationId": {"type": "string", "pattern": "^AUTH-ST006-[0-9]{3}$", "maxLength": 14},
+    "operationId": {"type": "string", "pattern": "^OP-ST006-[0-9]{3}$", "maxLength": 12},
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operator_approved", "rover_confirmed_stopped", "active_mission_count", "charging_transition_count"],
+      "properties": {
+        "operator_approved": {"type": "boolean"},
+        "rover_confirmed_stopped": {"type": "boolean"},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 2147483647}
+      }
+    },
+    "registerPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rover_id", "display_name", "role", "initial_state", "enabled", "profile_revision", "hardware_class", "allowed_fields", "allowed_units"],
+      "properties": {
+        "rover_id": {"$ref": "#/$defs/roverId"},
+        "display_name": {"type": "string", "minLength": 1, "maxLength": 128},
+        "role": {"enum": ["SCOUT", "WORK", "MULTI_ROLE", "TEST_ONLY"]},
+        "initial_state": {"const": "PENDING"},
+        "enabled": {"type": "boolean"},
+        "profile_revision": {"const": 1},
+        "hardware_class": {"enum": ["COMMON_ROVER_V2", "SCOUT_VARIANT", "WORK_VARIANT", "TEST_FIXTURE"]},
+        "allowed_fields": {"type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/fieldId"}},
+        "allowed_units": {"type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/unitId"}}
+      }
+    },
+    "revisePayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rover_id", "expected_revision", "new_revision", "display_name", "role", "enabled", "hardware_class", "allowed_fields", "allowed_units", "operator_approved", "rover_confirmed_stopped", "active_mission_count", "charging_transition_count"],
+      "properties": {
+        "rover_id": {"$ref": "#/$defs/roverId"},
+        "expected_revision": {"type": "integer", "minimum": 1, "maximum": 2147483646},
+        "new_revision": {"type": "integer", "minimum": 2, "maximum": 2147483647},
+        "display_name": {"type": "string", "minLength": 1, "maxLength": 128},
+        "role": {"enum": ["SCOUT", "WORK", "MULTI_ROLE", "TEST_ONLY"]},
+        "enabled": {"type": "boolean"},
+        "hardware_class": {"enum": ["COMMON_ROVER_V2", "SCOUT_VARIANT", "WORK_VARIANT", "TEST_FIXTURE"]},
+        "allowed_fields": {"type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/fieldId"}},
+        "allowed_units": {"type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": {"$ref": "#/$defs/unitId"}},
+        "operator_approved": {"type": "boolean"},
+        "rover_confirmed_stopped": {"type": "boolean"},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 2147483647}
+      }
+    },
+    "statePayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rover_id", "target_state", "operator_approved", "rover_confirmed_stopped", "active_mission_count", "charging_transition_count", "reason"],
+      "properties": {
+        "rover_id": {"$ref": "#/$defs/roverId"},
+        "target_state": {"enum": ["PENDING", "REGISTERED", "SUSPENDED", "REVOKED"]},
+        "operator_approved": {"type": "boolean"},
+        "rover_confirmed_stopped": {"type": "boolean"},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "reason": {"type": "string", "minLength": 1, "maxLength": 256}
+      }
+    },
+    "authorizationPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["authorization_id", "rover_id", "mission_id", "mission_state", "active_field_id", "requested_field_id", "requested_unit_id", "operator_approved", "rover_reported_stopped", "communication_available", "fault_present", "battery_percentage", "physical_estop_asserted"],
+      "properties": {
+        "authorization_id": {"$ref": "#/$defs/authorizationId"},
+        "rover_id": {"$ref": "#/$defs/roverId"},
+        "mission_id": {"$ref": "#/$defs/missionId"},
+        "mission_state": {"enum": ["DRAFT", "WAITING_APPROVAL", "QUEUED", "ASSIGNED", "RUNNING", "PAUSED", "RETURNING", "CHARGING", "COMPLETED", "FAILED", "CANCELLED", "EXPIRED"]},
+        "active_field_id": {"$ref": "#/$defs/fieldId"},
+        "requested_field_id": {"$ref": "#/$defs/fieldId"},
+        "requested_unit_id": {"$ref": "#/$defs/unitId"},
+        "operator_approved": {"type": "boolean"},
+        "rover_reported_stopped": {"type": "boolean"},
+        "communication_available": {"type": "boolean"},
+        "fault_present": {"type": "boolean"},
+        "battery_percentage": {"type": "integer", "minimum": 0, "maximum": 100},
+        "physical_estop_asserted": {"type": "boolean"}
+      }
+    },
+    "operationBase": {
+      "type": "object", "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": {"$ref": "#/$defs/operationId"},
+        "logical_tick": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "operation_type": {"enum": ["REGISTER_ROVER", "REVISE_ROVER", "SET_REGISTRATION_STATE", "AUTHORIZE_ASSIGNMENT", "VERIFY_INTEGRITY"]},
+        "payload": {"type": "object"}
+      }
+    },
+    "operation": {
+      "oneOf": [
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "REGISTER_ROVER"}, "payload": {"$ref": "#/$defs/registerPayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "REVISE_ROVER"}, "payload": {"$ref": "#/$defs/revisePayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "SET_REGISTRATION_STATE"}, "payload": {"$ref": "#/$defs/statePayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "AUTHORIZE_ASSIGNMENT"}, "payload": {"$ref": "#/$defs/authorizationPayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "VERIFY_INTEGRITY"}, "payload": {"type": "object", "additionalProperties": false, "maxProperties": 0}}}]}
+      ]
+    }
+  }
+}
