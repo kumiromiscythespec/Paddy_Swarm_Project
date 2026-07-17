@@ -1,0 +1,67 @@
+{
+  "session_version": 1,
+  "session_id": "SESSION-ST005-POSITIVE",
+  "operations": [
+    {
+      "operation_id": "OP-ST005-001",
+      "logical_tick": 1,
+      "operation_type": "REGISTER_FIELD",
+      "payload": {
+        "field_id": "FIELD-DEMO-001",
+        "display_name": "Field 1",
+        "enabled": true,
+        "profile_revision": 1,
+        "local_frame_id": "LOCAL-FRAME-DEMO-001",
+        "references": [
+          {"reference_id": "REF-FIELD-001-ENTRY", "reference_type": "ENTRY", "label": "Demo entry", "location_reference": "local-ref:field-1-entry", "enabled": true},
+          {"reference_id": "REF-FIELD-001-INLET", "reference_type": "WATER_INLET", "label": "Demo water inlet", "location_reference": "local-ref:field-1-water-inlet", "enabled": true},
+          {"reference_id": "REF-FIELD-001-OUTLET", "reference_type": "WATER_OUTLET", "label": "Demo water outlet", "location_reference": "local-ref:field-1-water-outlet", "enabled": true},
+          {"reference_id": "REF-FIELD-001-RECOVERY", "reference_type": "RECOVERY_POINT", "label": "Demo recovery point", "location_reference": "local-ref:field-1-recovery", "enabled": true}
+        ],
+        "no_go_zones": [
+          {"zone_id": "ZONE-FIELD-001-DRAIN", "label": "Demo drain", "reason_code": "DRAIN", "boundary": ["local-zone-ref:field-1-drain-a", "local-zone-ref:field-1-drain-b", "local-zone-ref:field-1-drain-c"], "enabled": true}
+        ]
+      }
+    },
+    {
+      "operation_id": "OP-ST005-002",
+      "logical_tick": 2,
+      "operation_type": "REGISTER_FIELD",
+      "payload": {
+        "field_id": "FIELD-DEMO-002",
+        "display_name": "Field 2",
+        "enabled": true,
+        "profile_revision": 1,
+        "local_frame_id": "LOCAL-FRAME-DEMO-002",
+        "references": [
+          {"reference_id": "REF-FIELD-002-ENTRY", "reference_type": "ENTRY", "label": "Demo entry", "location_reference": "local-ref:field-2-entry", "enabled": true},
+          {"reference_id": "REF-FIELD-002-INLET", "reference_type": "WATER_INLET", "label": "Demo water inlet", "location_reference": "local-ref:field-2-water-inlet", "enabled": true},
+          {"reference_id": "REF-FIELD-002-OUTLET", "reference_type": "WATER_OUTLET", "label": "Demo water outlet", "location_reference": "local-ref:field-2-water-outlet", "enabled": true},
+          {"reference_id": "REF-FIELD-002-RECOVERY", "reference_type": "RECOVERY_POINT", "label": "Demo recovery point", "location_reference": "local-ref:field-2-recovery", "enabled": true}
+        ],
+        "no_go_zones": [
+          {"zone_id": "ZONE-FIELD-002-MUD", "label": "Demo soft mud", "reason_code": "SOFT_MUD", "boundary": ["local-zone-ref:field-2-mud-a", "local-zone-ref:field-2-mud-b", "local-zone-ref:field-2-mud-c"], "enabled": true}
+        ]
+      }
+    },
+    {
+      "operation_id": "OP-ST005-003",
+      "logical_tick": 3,
+      "operation_type": "SET_ACTIVE_FIELD",
+      "payload": {
+        "target_field_id": "FIELD-DEMO-001",
+        "operator_approved": true,
+        "all_rovers_stopped": true,
+        "active_mission_count": 0,
+        "charging_transition_count": 0,
+        "reason": "operator selected demo field"
+      }
+    },
+    {
+      "operation_id": "OP-ST005-004",
+      "logical_tick": 4,
+      "operation_type": "VERIFY_INTEGRITY",
+      "payload": {}
+    }
+  ]
+}

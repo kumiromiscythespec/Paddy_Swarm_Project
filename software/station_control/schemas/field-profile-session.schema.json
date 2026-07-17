@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "field-profile-session.schema.json",
+  "title": "ST-005 Field Profile Session",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["session_version", "session_id", "operations"],
+  "properties": {
+    "session_version": {"const": 1},
+    "session_id": {"type": "string", "pattern": "^SESSION-ST005-[A-Z0-9-]{1,40}$", "maxLength": 54},
+    "operations": {"type": "array", "minItems": 1, "maxItems": 256, "items": {"$ref": "#/$defs/operation"}}
+  },
+  "$defs": {
+    "identifier": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]{2,63}$", "maxLength": 64},
+    "boundedText": {"type": "string", "minLength": 1, "maxLength": 128},
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference_id", "reference_type", "label", "location_reference", "enabled"],
+      "properties": {
+        "reference_id": {"$ref": "#/$defs/identifier"},
+        "reference_type": {"enum": ["ENTRY", "WATER_INLET", "WATER_OUTLET", "RECOVERY_POINT", "STATION_POINT"]},
+        "label": {"$ref": "#/$defs/boundedText"},
+        "location_reference": {"type": "string", "pattern": "^local-ref:[a-z0-9][a-z0-9-]{0,63}$", "maxLength": 74},
+        "enabled": {"type": "boolean"}
+      }
+    },
+    "zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zone_id", "label", "reason_code", "boundary", "enabled"],
+      "properties": {
+        "zone_id": {"$ref": "#/$defs/identifier"},
+        "label": {"$ref": "#/$defs/boundedText"},
+        "reason_code": {"enum": ["DEEP_WATER", "SOFT_MUD", "DRAIN", "OBSTACLE", "CROP_PROTECTION", "MACHINERY_ROUTE", "HUMAN_REVIEW_REQUIRED"]},
+        "boundary": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^local-zone-ref:[a-z0-9][a-z0-9-]{0,63}$", "maxLength": 79}
+        },
+        "enabled": {"type": "boolean"}
+      }
+    },
+    "profileFields": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_id", "display_name", "enabled", "profile_revision", "local_frame_id", "references", "no_go_zones"],
+      "properties": {
+        "field_id": {"$ref": "#/$defs/identifier"},
+        "display_name": {"$ref": "#/$defs/boundedText"},
+        "enabled": {"type": "boolean"},
+        "profile_revision": {"type": "integer", "minimum": 1, "maximum": 2147483647},
+        "local_frame_id": {"type": "string", "pattern": "^LOCAL-FRAME-[A-Z0-9-]{1,48}$", "maxLength": 60},
+        "references": {"type": "array", "minItems": 1, "maxItems": 32, "items": {"$ref": "#/$defs/reference"}},
+        "no_go_zones": {"type": "array", "maxItems": 32, "items": {"$ref": "#/$defs/zone"}}
+      }
+    },
+    "revisePayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_id", "expected_revision", "new_revision", "display_name", "enabled", "local_frame_id", "references", "no_go_zones", "operator_approved", "all_rovers_stopped", "active_mission_count", "charging_transition_count"],
+      "properties": {
+        "field_id": {"$ref": "#/$defs/identifier"},
+        "expected_revision": {"type": "integer", "minimum": 1, "maximum": 2147483646},
+        "new_revision": {"type": "integer", "minimum": 2, "maximum": 2147483647},
+        "display_name": {"$ref": "#/$defs/boundedText"},
+        "enabled": {"type": "boolean"},
+        "local_frame_id": {"type": "string", "pattern": "^LOCAL-FRAME-[A-Z0-9-]{1,48}$", "maxLength": 60},
+        "references": {"type": "array", "minItems": 1, "maxItems": 32, "items": {"$ref": "#/$defs/reference"}},
+        "no_go_zones": {"type": "array", "maxItems": 32, "items": {"$ref": "#/$defs/zone"}},
+        "operator_approved": {"type": "boolean"},
+        "all_rovers_stopped": {"type": "boolean"},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 2147483647}
+      }
+    },
+    "activePayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_field_id", "operator_approved", "all_rovers_stopped", "active_mission_count", "charging_transition_count", "reason"],
+      "properties": {
+        "target_field_id": {"$ref": "#/$defs/identifier"},
+        "operator_approved": {"type": "boolean"},
+        "all_rovers_stopped": {"type": "boolean"},
+        "active_mission_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "charging_transition_count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "reason": {"type": "string", "minLength": 1, "maxLength": 256}
+      }
+    },
+    "operationBase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation_id", "logical_tick", "operation_type", "payload"],
+      "properties": {
+        "operation_id": {"$ref": "#/$defs/identifier"},
+        "logical_tick": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+        "operation_type": {"enum": ["REGISTER_FIELD", "REVISE_FIELD", "SET_ACTIVE_FIELD", "VERIFY_INTEGRITY"]},
+        "payload": {"type": "object"}
+      }
+    },
+    "operation": {
+      "oneOf": [
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "REGISTER_FIELD"}, "payload": {"$ref": "#/$defs/profileFields"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "REVISE_FIELD"}, "payload": {"$ref": "#/$defs/revisePayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "SET_ACTIVE_FIELD"}, "payload": {"$ref": "#/$defs/activePayload"}}}]},
+        {"allOf": [{"$ref": "#/$defs/operationBase"}, {"properties": {"operation_type": {"const": "VERIFY_INTEGRITY"}, "payload": {"type": "object", "additionalProperties": false, "maxProperties": 0}}}]}
+      ]
+    }
+  }
+}
