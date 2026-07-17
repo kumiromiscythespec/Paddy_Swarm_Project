@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seasonal-capacity-sweep-plan.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sweep_version", "sweep_id", "targets", "ranges", "objective_policy", "search_policy"],
+  "properties": {
+    "sweep_version": {"const": 1},
+    "sweep_id": {"const": "SWEEP-ST009-FIELD-DEMO-001"},
+    "targets": {
+      "type": "array",
+      "const": ["TARGET_BASELINE", "TARGET_WET_RESILIENT", "TARGET_ALL_SCENARIOS"],
+      "uniqueItems": true
+    },
+    "ranges": {"$ref": "#/$defs/ranges"},
+    "objective_policy": {"$ref": "#/$defs/objective_policy"},
+    "search_policy": {"$ref": "#/$defs/search_policy"}
+  },
+  "$defs": {
+    "ranges": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["broadcast_rover_counts", "weed_rover_counts", "high_cut_rover_counts", "carrier_rover_counts", "battery_pool_counts", "charger_counts", "cassette_capacity_g_values", "carrier_cassettes_per_trip_values", "temporary_drop_slot_counts", "manual_recovery_per_day_values"],
+      "properties": {
+        "broadcast_rover_counts": {"type": "array", "const": [4], "uniqueItems": true},
+        "weed_rover_counts": {"type": "array", "const": [2, 3, 4, 5, 6], "uniqueItems": true},
+        "high_cut_rover_counts": {"type": "array", "const": [4, 5, 6, 7, 8, 9, 10, 11, 12], "uniqueItems": true},
+        "carrier_rover_counts": {"type": "array", "const": [2, 3, 4, 5, 6, 7, 8], "uniqueItems": true},
+        "battery_pool_counts": {"type": "array", "const": [16, 20, 24, 28, 32, 36, 40, 44, 48], "uniqueItems": true},
+        "charger_counts": {"type": "array", "const": [4, 6, 8, 10, 12], "uniqueItems": true},
+        "cassette_capacity_g_values": {"type": "array", "const": [1000, 2000, 4000], "uniqueItems": true},
+        "carrier_cassettes_per_trip_values": {"type": "array", "const": [1, 2, 4, 6], "uniqueItems": true},
+        "temporary_drop_slot_counts": {"type": "array", "const": [50, 100, 150, 200], "uniqueItems": true},
+        "manual_recovery_per_day_values": {"type": "array", "const": [0, 10, 20], "uniqueItems": true}
+      }
+    },
+    "objective_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["equipment_quantity_min_enabled", "human_min_enabled", "exact_pareto_enabled", "mechanical_review_is_feasibility_gate"],
+      "properties": {
+        "equipment_quantity_min_enabled": {"const": true},
+        "human_min_enabled": {"const": true},
+        "exact_pareto_enabled": {"const": true},
+        "mechanical_review_is_feasibility_gate": {"const": false}
+      }
+    },
+    "search_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw_candidate_count", "staged_exact_search", "upper_bound_may_prove_success", "automatic_range_expansion", "internal_candidate_cap", "report_pareto_limit", "nearest_miss_limit"],
+      "properties": {
+        "raw_candidate_count": {"const": 2041200},
+        "staged_exact_search": {"const": true},
+        "upper_bound_may_prove_success": {"const": false},
+        "automatic_range_expansion": {"const": false},
+        "internal_candidate_cap": {"const": 0},
+        "report_pareto_limit": {"const": 20},
+        "nearest_miss_limit": {"const": 10}
+      }
+    }
+  }
+}
