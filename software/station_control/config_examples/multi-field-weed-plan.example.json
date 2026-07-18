@@ -1,0 +1,123 @@
+{
+  "plan_version": 1,
+  "plan_id": "ST010-MULTI-FIELD-WEED-DEMO",
+  "area_reference": {
+    "reference_id": "R4_DECLARED_AREA_REFERENCE",
+    "mapping_status": "UNRESOLVED",
+    "r4_total_area_m2": 31950,
+    "r4_parcel_count": 20,
+    "r4_rice_area_m2": 22040,
+    "r4_rice_parcel_count": 16,
+    "r4_rice_parcel_areas_m2": [1270, 1170, 1250, 480, 1160, 1020, 1440, 1100, 1360, 3560, 930, 1900, 1320, 810, 1600, 1670],
+    "r4_grass_parcel_areas_m2": [4760, 540, 1480],
+    "r4_self_conservation_area_m2": 3130
+  },
+  "operational_field_model": {
+    "field_model_id": "CURRENT_OPERATIONAL_EQUALIZED_19",
+    "field_count": 19,
+    "total_area_m2": 27000,
+    "area_source": "TOTAL_ONLY_EQUALIZED_ESTIMATE",
+    "parcel_mapping_status": "UNRESOLVED",
+    "geometry_estimated": true,
+    "groups": [
+      {"group_id": "GROUP-HOME", "field_count": 9},
+      {"group_id": "GROUP-OTHER-CONSIGNED", "field_count": 3},
+      {"group_id": "GROUP-CONSIGNED", "field_count": 2},
+      {"group_id": "GROUP-OWN-A", "field_count": 2},
+      {"group_id": "GROUP-OWN-B", "field_count": 3}
+    ],
+    "fields": [
+      {"field_id": "GROUP-HOME-F01", "group_id": "GROUP-HOME", "area_m2": 1422, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F02", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F03", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F04", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F05", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F06", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F07", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F08", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-HOME-F09", "group_id": "GROUP-HOME", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OTHER-CONSIGNED-F01", "group_id": "GROUP-OTHER-CONSIGNED", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OTHER-CONSIGNED-F02", "group_id": "GROUP-OTHER-CONSIGNED", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OTHER-CONSIGNED-F03", "group_id": "GROUP-OTHER-CONSIGNED", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-CONSIGNED-F01", "group_id": "GROUP-CONSIGNED", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-CONSIGNED-F02", "group_id": "GROUP-CONSIGNED", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OWN-A-F01", "group_id": "GROUP-OWN-A", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OWN-A-F02", "group_id": "GROUP-OWN-A", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OWN-B-F01", "group_id": "GROUP-OWN-B", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OWN-B-F02", "group_id": "GROUP-OWN-B", "area_m2": 1421, "area_estimated": true},
+      {"field_id": "GROUP-OWN-B-F03", "group_id": "GROUP-OWN-B", "area_m2": 1421, "area_estimated": true}
+    ]
+  },
+  "planning_model": {
+    "reference_field_area_m2": 780,
+    "reference_full_pass_distance_mm": 2990000,
+    "area_level_target_distance_mm": 103500000,
+    "field_level_target_distance_mm": 103500006,
+    "target_id": "FULL_PASS_ALL_19_WITHIN_10_WORK_DAYS",
+    "full_pass_only": true
+  },
+  "work_day_model": {
+    "work_day_count": 10,
+    "availability_basis_points": 6000,
+    "daily_windows": [
+      {"window_id": "SHORT_WINDOW", "scheduled_minutes_per_day": 150},
+      {"window_id": "STANDARD_WINDOW", "scheduled_minutes_per_day": 300},
+      {"window_id": "FULL_DAY", "scheduled_minutes_per_day": 480}
+    ]
+  },
+  "fleet_model": {
+    "weed_rover_count": 12,
+    "maximum_simultaneous_fields": 2,
+    "rover_state_enum": ["AT_DEPOT", "IN_MANUAL_TRANSPORT", "DEPLOYED", "WORKING", "BATTERY_SWAP", "BATTERY_WAIT", "MANUAL_RECOVERY", "MAINTENANCE", "DONE_FOR_DAY"]
+  },
+  "logistics_model": {
+    "vehicle_count": 1,
+    "operator_count_options": [1, 2, 3],
+    "vehicle_rover_capacity_options": [6, 8, 10],
+    "vehicle_capacity_provisional_upper_bound": true,
+    "loading_minutes_per_rover": 4,
+    "unloading_minutes_per_rover": 4,
+    "secure_and_safety_check_minutes_per_trip": 10,
+    "same_group_drive_minutes_per_trip": 10,
+    "cross_group_drive_minutes_per_trip": 20,
+    "station_pack_minutes": 20,
+    "station_setup_minutes": 25,
+    "station_requires_dedicated_trip": true,
+    "maximum_group_changes_per_day": 1,
+    "morning_deployment_required": true,
+    "daily_recovery_required": true,
+    "battery_handling_minutes_per_battery": 1
+  },
+  "battery_model": {
+    "battery_id": "BATTERY-DEMO-LIFEPO4-12V-10AH",
+    "battery_pool_options": [16, 24, 36],
+    "charger_count": 4,
+    "battery_runtime_minutes": 150,
+    "battery_swap_minutes": 3,
+    "charge_minutes": 180,
+    "overnight_charge_window_minutes": 720,
+    "service_windows": ["MORNING_DEPLOYMENT", "EVENING_RECOVERY"],
+    "midday_battery_shuttle_enabled": false,
+    "mobile_charging_station_count": 1
+  },
+  "scout_model": {
+    "source": "PRELOADED_MAP",
+    "priority_information_required": false
+  },
+  "future_features": [
+    {"feature_id": "ADJACENT_FIELD_SELF_TRANSFER", "enabled": false},
+    {"feature_id": "ROVER_SWARM_STATION_TRANSPORT", "enabled": false}
+  ],
+  "simulation_matrix": {
+    "allocation_policies": ["ONE_FIELD_CONCENTRATED", "TWO_FIELDS_EQUAL", "TWO_FIELDS_WEIGHTED", "FINISH_FIRST", "ROAD_SIDE_BATCHED"],
+    "speed_profiles": [
+      {"speed_profile": "CONSERVATIVE", "speed_mm_per_min": 400},
+      {"speed_profile": "CURRENT_STANDARD", "speed_mm_per_min": 700},
+      {"speed_profile": "CURRENT_IMPROVED", "speed_mm_per_min": 1000}
+    ],
+    "raw_configuration_count": 1215,
+    "all_configurations_evaluated": true,
+    "random_sampling": false,
+    "automatic_range_reduction": false
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "multi-field-weed-report.schema.json",
+  "title": "ST-010 deterministic multi-field weed scheduler report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_version", "phase", "plan_id", "result", "area_reference", "operational_field_model", "fleet_model", "logistics_model", "battery_model", "search_space", "configuration_results", "selected_results", "required_capacity", "feasibility", "safety", "diagnostics", "canonical_plan_sha256", "canonical_schedule_state_sha256", "exit_code"],
+  "properties": {
+    "report_version": {"const": 1},
+    "phase": {"const": "ST-010"},
+    "plan_id": {"const": "ST010-MULTI-FIELD-WEED-DEMO"},
+    "result": {"enum": ["PASS", "FAIL"]},
+    "area_reference": {"$ref": "#/$defs/area_reference"},
+    "operational_field_model": {"$ref": "#/$defs/operational_model"},
+    "fleet_model": {"$ref": "#/$defs/fleet_model"},
+    "logistics_model": {"$ref": "#/$defs/logistics_model"},
+    "battery_model": {"$ref": "#/$defs/battery_model"},
+    "search_space": {"$ref": "#/$defs/search_space"},
+    "configuration_results": {"type": "array", "minItems": 1215, "maxItems": 1215, "items": {"$ref": "#/$defs/configuration_result"}},
+    "selected_results": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/selected_result"}},
+    "required_capacity": {"$ref": "#/$defs/required_capacity"},
+    "feasibility": {"$ref": "#/$defs/feasibility"},
+    "safety": {"$ref": "#/$defs/safety"},
+    "diagnostics": {"type": "array", "minItems": 0, "maxItems": 5000, "items": {"$ref": "#/$defs/diagnostic"}},
+    "canonical_plan_sha256": {"$ref": "#/$defs/sha256"},
+    "canonical_schedule_state_sha256": {"$ref": "#/$defs/sha256"},
+    "exit_code": {"enum": [0, 2, 3, 4, 7]}
+  },
+  "$defs": {
+    "nonnegative": {"type": "integer", "minimum": 0, "maximum": 1000000000},
+    "positive": {"type": "integer", "minimum": 1, "maximum": 1000000000},
+    "basis_points": {"type": "integer", "minimum": 0, "maximum": 10000},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "group_id": {"enum": ["GROUP-HOME", "GROUP-OTHER-CONSIGNED", "GROUP-CONSIGNED", "GROUP-OWN-A", "GROUP-OWN-B"]},
+    "policy": {"enum": ["ONE_FIELD_CONCENTRATED", "TWO_FIELDS_EQUAL", "TWO_FIELDS_WEIGHTED", "FINISH_FIRST", "ROAD_SIDE_BATCHED"]},
+    "bottleneck": {"enum": ["NONE", "WORKDAY_TOO_SHORT", "SPEED_INSUFFICIENT", "ROVER_COUNT_INSUFFICIENT", "VEHICLE_CAPACITY", "MANUAL_LOADING_TIME", "STATION_RELOCATION", "GROUP_TRANSFER", "BATTERY_POOL", "CHARGER_COUNT", "BATTERY_RUNTIME", "NO_MIDDAY_BATTERY_DELIVERY", "FIELD_GEOMETRY_ESTIMATED", "FIELD_AREA_MAPPING_UNRESOLVED"]},
+    "recommendation": {"enum": ["MEASURE_ACTUAL_19_FIELD_AREAS", "RESOLVE_R4_TO_CURRENT_FIELD_MAPPING", "MEASURE_ROVER_LOADING_CAPACITY", "MEASURE_ROVER_OPERATING_SPEED", "MEASURE_WEED_POWER_CONSUMPTION", "INCREASE_DAILY_WORK_WINDOW", "INCREASE_EFFECTIVE_SPEED", "INCREASE_WEED_ROVER_COUNT", "INCREASE_BATTERY_POOL", "INCREASE_CHARGER_COUNT", "REDUCE_FIELD_TRANSFER_FREQUENCY", "USE_ROAD_SIDE_BATCHED_OPERATION", "ADD_SECOND_MOBILE_STATION_FOR_PARALLEL_FIELDS", "CONSIDER_MIDDAY_BATTERY_SHUTTLE", "MANUAL_DRONE_SCOUT_SEPARATE_STUDY", "PHYSICAL_FIELD_VALIDATION_REQUIRED"]},
+    "area_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference_id", "mapping_status", "r4_total_area_m2", "r4_parcel_count", "r4_rice_area_m2", "r4_rice_parcel_count", "r4_rice_parcel_areas_m2", "r4_grass_parcel_areas_m2", "r4_self_conservation_area_m2"],
+      "properties": {
+        "reference_id": {"const": "R4_DECLARED_AREA_REFERENCE"},
+        "mapping_status": {"const": "UNRESOLVED"},
+        "r4_total_area_m2": {"const": 31950},
+        "r4_parcel_count": {"const": 20},
+        "r4_rice_area_m2": {"const": 22040},
+        "r4_rice_parcel_count": {"const": 16},
+        "r4_rice_parcel_areas_m2": {"type": "array", "minItems": 16, "maxItems": 16, "items": {"$ref": "#/$defs/positive"}},
+        "r4_grass_parcel_areas_m2": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/positive"}},
+        "r4_self_conservation_area_m2": {"const": 3130}
+      }
+    },
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["group_id", "field_count"],
+      "properties": {"group_id": {"$ref": "#/$defs/group_id"}, "field_count": {"type": "integer", "minimum": 2, "maximum": 9}}
+    },
+    "normalized_field": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_id", "group_id", "area_m2", "target_distance_mm"],
+      "properties": {
+        "field_id": {"type": "string", "pattern": "^GROUP-[A-Z-]+-F[0-9]{2}$", "maxLength": 32},
+        "group_id": {"$ref": "#/$defs/group_id"},
+        "area_m2": {"type": "integer", "minimum": 1421, "maximum": 1422},
+        "target_distance_mm": {"enum": [5447167, 5451000]}
+      }
+    },
+    "operational_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_model_id", "field_count", "total_area_m2", "area_source", "parcel_mapping_status", "field_area_estimated", "field_geometry_estimated", "actual_field_measurement_required", "area_level_target_distance_mm", "field_level_target_distance_mm", "groups", "fields"],
+      "properties": {
+        "field_model_id": {"const": "CURRENT_OPERATIONAL_EQUALIZED_19"},
+        "field_count": {"const": 19},
+        "total_area_m2": {"const": 27000},
+        "area_source": {"const": "TOTAL_ONLY_EQUALIZED_ESTIMATE"},
+        "parcel_mapping_status": {"const": "UNRESOLVED"},
+        "field_area_estimated": {"const": true},
+        "field_geometry_estimated": {"const": true},
+        "actual_field_measurement_required": {"const": true},
+        "area_level_target_distance_mm": {"const": 103500000},
+        "field_level_target_distance_mm": {"const": 103500006},
+        "groups": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"$ref": "#/$defs/group"}},
+        "fields": {"type": "array", "minItems": 19, "maxItems": 19, "items": {"$ref": "#/$defs/normalized_field"}}
+      }
+    },
+    "fleet_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["weed_rover_count", "maximum_simultaneous_fields", "manual_rover_transfer", "rover_states"],
+      "properties": {
+        "weed_rover_count": {"const": 12},
+        "maximum_simultaneous_fields": {"const": 2},
+        "manual_rover_transfer": {"const": true},
+        "rover_states": {"const": ["AT_DEPOT", "IN_MANUAL_TRANSPORT", "DEPLOYED", "WORKING", "BATTERY_SWAP", "BATTERY_WAIT", "MANUAL_RECOVERY", "MAINTENANCE", "DONE_FOR_DAY"]}
+      }
+    },
+    "logistics_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vehicle_count", "operator_count_options", "vehicle_rover_capacity_options", "vehicle_capacity_provisional_upper_bound", "manual_station_transfer", "station_requires_dedicated_trip", "maximum_group_changes_per_day", "morning_deployment_required", "daily_recovery_required"],
+      "properties": {
+        "vehicle_count": {"const": 1},
+        "operator_count_options": {"const": [1, 2, 3]},
+        "vehicle_rover_capacity_options": {"const": [6, 8, 10]},
+        "vehicle_capacity_provisional_upper_bound": {"const": true},
+        "manual_station_transfer": {"const": true},
+        "station_requires_dedicated_trip": {"const": true},
+        "maximum_group_changes_per_day": {"const": 1},
+        "morning_deployment_required": {"const": true},
+        "daily_recovery_required": {"const": true}
+      }
+    },
+    "battery_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["battery_id", "battery_pool_options", "charger_count", "battery_runtime_minutes", "battery_swap_minutes", "charge_minutes", "overnight_charge_window_minutes", "maximum_overnight_sessions", "service_windows", "midday_battery_shuttle_enabled", "state_carried_across_days", "daily_battery_reset", "mobile_charging_station_count"],
+      "properties": {
+        "battery_id": {"const": "BATTERY-DEMO-LIFEPO4-12V-10AH"},
+        "battery_pool_options": {"const": [16, 24, 36]},
+        "charger_count": {"const": 4},
+        "battery_runtime_minutes": {"const": 150},
+        "battery_swap_minutes": {"const": 3},
+        "charge_minutes": {"const": 180},
+        "overnight_charge_window_minutes": {"const": 720},
+        "maximum_overnight_sessions": {"const": 16},
+        "service_windows": {"const": ["MORNING_DEPLOYMENT", "EVENING_RECOVERY"]},
+        "midday_battery_shuttle_enabled": {"const": false},
+        "state_carried_across_days": {"const": true},
+        "daily_battery_reset": {"const": false},
+        "mobile_charging_station_count": {"const": 1}
+      }
+    },
+    "search_space": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allocation_policy_count", "speed_profile_count", "daily_window_count", "operator_count", "vehicle_capacity_count", "battery_pool_count", "raw_configuration_count", "all_configurations_evaluated", "random_sampling", "automatic_range_reduction"],
+      "properties": {
+        "allocation_policy_count": {"const": 5},
+        "speed_profile_count": {"const": 3},
+        "daily_window_count": {"const": 3},
+        "operator_count": {"const": 3},
+        "vehicle_capacity_count": {"const": 3},
+        "battery_pool_count": {"const": 3},
+        "raw_configuration_count": {"const": 1215},
+        "all_configurations_evaluated": {"const": true},
+        "random_sampling": {"const": false},
+        "automatic_range_reduction": {"const": false}
+      }
+    },
+    "rover_allocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_id", "rover_count"],
+      "properties": {"field_id": {"type": "string", "minLength": 1, "maxLength": 32}, "rover_count": {"type": "integer", "minimum": 1, "maximum": 60}}
+    },
+    "field_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field_id", "group_id", "area_m2", "area_estimated", "target_distance_mm", "processed_distance_mm", "remaining_distance_mm", "completion_basis_points", "status", "first_work_day", "completion_day", "interruption_count", "deployment_count", "battery_wait_minutes"],
+      "properties": {
+        "field_id": {"type": "string", "minLength": 1, "maxLength": 32},
+        "group_id": {"$ref": "#/$defs/group_id"},
+        "area_m2": {"type": "integer", "minimum": 1421, "maximum": 1422},
+        "area_estimated": {"const": true},
+        "target_distance_mm": {"enum": [5447167, 5451000]},
+        "processed_distance_mm": {"$ref": "#/$defs/nonnegative"},
+        "remaining_distance_mm": {"$ref": "#/$defs/nonnegative"},
+        "completion_basis_points": {"$ref": "#/$defs/basis_points"},
+        "status": {"enum": ["WAITING", "IN_PROGRESS", "COMPLETED", "MANUAL_REQUIRED"]},
+        "first_work_day": {"type": "integer", "minimum": 0, "maximum": 10},
+        "completion_day": {"type": "integer", "minimum": 0, "maximum": 10},
+        "interruption_count": {"$ref": "#/$defs/nonnegative"},
+        "deployment_count": {"$ref": "#/$defs/nonnegative"},
+        "battery_wait_minutes": {"$ref": "#/$defs/nonnegative"}
+      }
+    },
+    "daily_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["day_index", "selected_group_ids", "selected_field_ids", "rover_allocations", "morning_full_batteries", "evening_depleted_batteries", "overnight_charged_batteries", "deployment_minutes", "productive_minutes", "recovery_minutes", "processed_distance_mm", "completed_field_ids", "group_change_count", "vehicle_trip_count", "station_trip_count", "battery_swap_count", "battery_wait_minutes", "human_work_minutes"],
+      "properties": {
+        "day_index": {"type": "integer", "minimum": 1, "maximum": 10},
+        "selected_group_ids": {"type": "array", "minItems": 1, "maxItems": 2, "uniqueItems": true, "items": {"$ref": "#/$defs/group_id"}},
+        "selected_field_ids": {"type": "array", "minItems": 0, "maxItems": 19, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 32}},
+        "rover_allocations": {"type": "array", "minItems": 0, "maxItems": 19, "items": {"$ref": "#/$defs/rover_allocation"}},
+        "morning_full_batteries": {"$ref": "#/$defs/nonnegative"},
+        "evening_depleted_batteries": {"$ref": "#/$defs/nonnegative"},
+        "overnight_charged_batteries": {"$ref": "#/$defs/nonnegative"},
+        "deployment_minutes": {"$ref": "#/$defs/nonnegative"},
+        "productive_minutes": {"type": "integer", "minimum": 0, "maximum": 480},
+        "recovery_minutes": {"$ref": "#/$defs/nonnegative"},
+        "processed_distance_mm": {"$ref": "#/$defs/nonnegative"},
+        "completed_field_ids": {"type": "array", "minItems": 0, "maxItems": 19, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 32}},
+        "group_change_count": {"type": "integer", "minimum": 0, "maximum": 1},
+        "vehicle_trip_count": {"$ref": "#/$defs/nonnegative"},
+        "station_trip_count": {"$ref": "#/$defs/nonnegative"},
+        "battery_swap_count": {"$ref": "#/$defs/nonnegative"},
+        "battery_wait_minutes": {"$ref": "#/$defs/nonnegative"},
+        "human_work_minutes": {"$ref": "#/$defs/nonnegative"}
+      }
+    },
+    "configuration_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["configuration_id", "policy", "speed_profile", "speed_mm_per_min", "daily_window_minutes", "operator_count", "vehicle_rover_capacity", "battery_pool_count", "completed", "completed_field_count", "completed_area_m2", "incomplete_area_m2", "processed_distance_mm", "target_distance_mm", "completion_basis_points", "days_used", "estimated_days_required", "required_speed_found", "required_speed_mm_per_min", "field_transfer_count", "group_transfer_count", "vehicle_trip_count", "station_trip_count", "battery_swap_count", "battery_wait_minutes", "minimum_charged_inventory", "human_work_minutes", "maximum_daily_human_work_minutes", "field_results", "daily_results", "bottlenecks", "recommendations"],
+      "properties": {
+        "configuration_id": {"type": "string", "pattern": "^CFG-[A-Z_]+-S[0-9]{4}-D[0-9]{4}-O[0-9]{2}-V[0-9]{2}-B[0-9]{2}$", "maxLength": 96},
+        "policy": {"$ref": "#/$defs/policy"},
+        "speed_profile": {"enum": ["CONSERVATIVE", "CURRENT_STANDARD", "CURRENT_IMPROVED"]},
+        "speed_mm_per_min": {"enum": [400, 700, 1000]},
+        "daily_window_minutes": {"enum": [150, 300, 480]},
+        "operator_count": {"enum": [1, 2, 3]},
+        "vehicle_rover_capacity": {"enum": [6, 8, 10]},
+        "battery_pool_count": {"enum": [16, 24, 36]},
+        "completed": {"type": "boolean"},
+        "completed_field_count": {"type": "integer", "minimum": 0, "maximum": 19},
+        "completed_area_m2": {"type": "integer", "minimum": 0, "maximum": 27000},
+        "incomplete_area_m2": {"type": "integer", "minimum": 0, "maximum": 27000},
+        "processed_distance_mm": {"type": "integer", "minimum": 0, "maximum": 103500006},
+        "target_distance_mm": {"const": 103500006},
+        "completion_basis_points": {"$ref": "#/$defs/basis_points"},
+        "days_used": {"type": "integer", "minimum": 0, "maximum": 10},
+        "estimated_days_required": {"$ref": "#/$defs/nonnegative"},
+        "required_speed_found": {"type": "boolean"},
+        "required_speed_mm_per_min": {"type": "integer", "minimum": 0, "maximum": 10000},
+        "field_transfer_count": {"$ref": "#/$defs/nonnegative"},
+        "group_transfer_count": {"$ref": "#/$defs/nonnegative"},
+        "vehicle_trip_count": {"$ref": "#/$defs/nonnegative"},
+        "station_trip_count": {"$ref": "#/$defs/nonnegative"},
+        "battery_swap_count": {"$ref": "#/$defs/nonnegative"},
+        "battery_wait_minutes": {"$ref": "#/$defs/nonnegative"},
+        "minimum_charged_inventory": {"$ref": "#/$defs/nonnegative"},
+        "human_work_minutes": {"$ref": "#/$defs/nonnegative"},
+        "maximum_daily_human_work_minutes": {"$ref": "#/$defs/nonnegative"},
+        "field_results": {"type": "array", "minItems": 19, "maxItems": 19, "items": {"$ref": "#/$defs/field_result"}},
+        "daily_results": {"type": "array", "minItems": 1, "maxItems": 10, "items": {"$ref": "#/$defs/daily_result"}},
+        "bottlenecks": {"type": "array", "minItems": 1, "maxItems": 14, "uniqueItems": true, "items": {"$ref": "#/$defs/bottleneck"}},
+        "recommendations": {"type": "array", "minItems": 3, "maxItems": 16, "uniqueItems": true, "items": {"$ref": "#/$defs/recommendation"}}
+      }
+    },
+    "selected_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["selection_id", "configuration_id"],
+      "properties": {
+        "selection_id": {"enum": ["BEST_COMPLETION", "MINIMUM_HUMAN_TIME", "MINIMUM_TRANSFER", "BEST_10_DAY_FEASIBILITY"]},
+        "configuration_id": {"type": "string", "minLength": 1, "maxLength": 96}
+      }
+    },
+    "required_speed_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy", "daily_window_minutes", "operator_count", "vehicle_rover_capacity", "battery_pool_count", "required_speed_found", "required_speed_mm_per_min", "reason"],
+      "properties": {
+        "policy": {"$ref": "#/$defs/policy"},
+        "daily_window_minutes": {"enum": [150, 300, 480]},
+        "operator_count": {"enum": [1, 2, 3]},
+        "vehicle_rover_capacity": {"enum": [6, 8, 10]},
+        "battery_pool_count": {"enum": [16, 24, 36]},
+        "required_speed_found": {"type": "boolean"},
+        "required_speed_mm_per_min": {"type": "integer", "minimum": 0, "maximum": 10000},
+        "reason": {"type": "string", "minLength": 1, "maxLength": 160}
+      }
+    },
+    "required_capacity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_speed_is_design_target", "actual_speed_measurement_required", "required_speed_results", "representative_policy", "representative_speed_mm_per_min", "representative_daily_window_minutes", "representative_operator_count", "representative_vehicle_capacity", "required_rover_count_found", "required_rover_count", "required_rover_reason"],
+      "properties": {
+        "required_speed_is_design_target": {"const": true},
+        "actual_speed_measurement_required": {"const": true},
+        "required_speed_results": {"type": "array", "minItems": 405, "maxItems": 405, "items": {"$ref": "#/$defs/required_speed_result"}},
+        "representative_policy": {"const": "ROAD_SIDE_BATCHED"},
+        "representative_speed_mm_per_min": {"const": 700},
+        "representative_daily_window_minutes": {"const": 480},
+        "representative_operator_count": {"const": 2},
+        "representative_vehicle_capacity": {"const": 10},
+        "required_rover_count_found": {"type": "boolean"},
+        "required_rover_count": {"type": "integer", "minimum": 0, "maximum": 60},
+        "required_rover_reason": {"type": "string", "minLength": 1, "maxLength": 160}
+      }
+    },
+    "feasibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_id", "target_status", "classification", "best_configuration_id", "required_speed_is_design_target", "actual_speed_measurement_required", "actual_field_measurement_required"],
+      "properties": {
+        "target_id": {"const": "FULL_PASS_ALL_19_WITHIN_10_WORK_DAYS"},
+        "target_status": {"enum": ["COMPLETED", "INCOMPLETE", "NOT_EVALUATED"]},
+        "classification": {"enum": ["FEASIBLE", "MARGINAL", "INFEASIBLE", "NOT_EVALUATED"]},
+        "best_configuration_id": {"type": "string", "minLength": 1, "maxLength": 96},
+        "required_speed_is_design_target": {"const": true},
+        "actual_speed_measurement_required": {"const": true},
+        "actual_field_measurement_required": {"const": true}
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["offline_only", "network_access_performed", "random_used", "monte_carlo_used", "weather_probability_claimed", "gpio_access_performed", "serial_access_performed", "hardware_output_performed", "motor_control_performed", "pto_control_performed", "charging_control_performed", "bms_communication_performed", "rover_communication_performed", "actual_assignment_performed", "actual_arm_performed", "autonomous_interfield_transfer_performed", "autonomous_public_road_crossing_performed", "rover_carried_station_transfer_performed", "field_operation_approved", "unattended_operation_approved", "physical_estop_independent", "repository_modified"],
+      "properties": {
+        "offline_only": {"const": true},
+        "network_access_performed": {"const": false},
+        "random_used": {"const": false},
+        "monte_carlo_used": {"const": false},
+        "weather_probability_claimed": {"const": false},
+        "gpio_access_performed": {"const": false},
+        "serial_access_performed": {"const": false},
+        "hardware_output_performed": {"const": false},
+        "motor_control_performed": {"const": false},
+        "pto_control_performed": {"const": false},
+        "charging_control_performed": {"const": false},
+        "bms_communication_performed": {"const": false},
+        "rover_communication_performed": {"const": false},
+        "actual_assignment_performed": {"const": false},
+        "actual_arm_performed": {"const": false},
+        "autonomous_interfield_transfer_performed": {"const": false},
+        "autonomous_public_road_crossing_performed": {"const": false},
+        "rover_carried_station_transfer_performed": {"const": false},
+        "field_operation_approved": {"const": false},
+        "unattended_operation_approved": {"const": false},
+        "physical_estop_independent": {"const": true},
+        "repository_modified": {"const": false}
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["severity", "code", "component", "configuration_id", "field_id", "day_index", "message"],
+      "properties": {
+        "severity": {"enum": ["INFO", "WARNING", "ERROR"]},
+        "code": {"enum": ["MFW_INVALID_ARGUMENT", "MFW_REPOSITORY_ROOT_INVALID", "MFW_PLAN_INVALID", "MFW_REPORT_PATH_INSIDE_REPOSITORY", "MFW_REPORT_PARENT_INVALID", "MFW_ST008_LOAD_FAILED", "MFW_AREA_REFERENCE_INVALID", "MFW_OPERATIONAL_AREA_INVALID", "MFW_FIELD_COUNT_MISMATCH", "MFW_GROUP_COUNT_MISMATCH", "MFW_DISTANCE_CALCULATION_INVALID", "MFW_SEARCH_COUNT_MISMATCH", "MFW_SCHEDULE_FAILED", "MFW_TARGET_INCOMPLETE", "MFW_REQUIRED_SPEED_NOT_FOUND", "MFW_REQUIRED_ROVER_COUNT_NOT_FOUND", "MFW_BATTERY_SHORTFALL", "MFW_CHARGER_SHORTFALL", "MFW_TRANSFER_OVERHEAD_HIGH", "MFW_FIELD_MAPPING_UNRESOLVED", "MFW_GEOMETRY_ESTIMATED", "MFW_REPORT_WRITE_FAILED", "MFW_INTERNAL_ERROR"]},
+        "component": {"type": "string", "minLength": 1, "maxLength": 32},
+        "configuration_id": {"type": "string", "maxLength": 96},
+        "field_id": {"type": "string", "maxLength": 32},
+        "day_index": {"type": "integer", "minimum": 0, "maximum": 10},
+        "message": {"type": "string", "minLength": 1, "maxLength": 240}
+      }
+    }
+  }
+}
