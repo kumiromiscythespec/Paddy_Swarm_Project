@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paddy-swarm.invalid/schemas/drive-through-charge-exchange-plan.schema.json",
+  "title": "ST-012 Drive-Through Charge Exchange Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_version", "plan_id", "st011_plan_relative_path", "allocation_policy", "field_set_contract", "fleet_profiles", "rover_battery", "work_schedules", "environment_profiles", "speed_profiles_mm_per_minute", "availability_basis_points", "return_distances_mm", "deadlines", "drive_through_station", "connector", "station_cassette", "battery_mules", "hub", "required_capacity_ranges"],
+  "properties": {
+    "plan_version": {"const": 1},
+    "plan_id": {"type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[A-Z0-9-]+$"},
+    "st011_plan_relative_path": {"const": "software/station_control/config_examples/water-flow-set-power-plan.example.json"},
+    "allocation_policy": {"const": "SET_SEQUENTIAL"},
+    "field_set_contract": {"$ref": "#/$defs/fieldSetContract"},
+    "fleet_profiles": {"type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{"$ref": "#/$defs/fleet22"}, {"$ref": "#/$defs/fleet30"}], "items": false},
+    "rover_battery": {"$ref": "#/$defs/roverBattery"},
+    "work_schedules": {"type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{"$ref": "#/$defs/work2"}, {"$ref": "#/$defs/work3"}], "items": false},
+    "environment_profiles": {"type": "array", "minItems": 3, "maxItems": 3, "prefixItems": [{"$ref": "#/$defs/envCool"}, {"$ref": "#/$defs/envHot"}, {"$ref": "#/$defs/envExtreme"}], "items": false},
+    "speed_profiles_mm_per_minute": {"const": [400, 700, 1000]},
+    "availability_basis_points": {"const": 6000},
+    "return_distances_mm": {"const": [25000, 50000, 75000]},
+    "deadlines": {"const": [10, 14, 21]},
+    "drive_through_station": {"$ref": "#/$defs/station"},
+    "connector": {"$ref": "#/$defs/connector"},
+    "station_cassette": {"$ref": "#/$defs/cassette"},
+    "battery_mules": {"$ref": "#/$defs/mules"},
+    "hub": {"$ref": "#/$defs/hub"},
+    "required_capacity_ranges": {"$ref": "#/$defs/ranges"}
+  },
+  "$defs": {
+    "fieldSetContract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["field_count", "set_count", "set_sizes", "total_area_m2", "total_target_distance_mm", "maximum_set_transfers_per_day"],
+      "properties": {"field_count": {"const": 19}, "set_count": {"const": 7}, "set_sizes": {"const": [3, 3, 3, 3, 2, 2, 3]}, "total_area_m2": {"const": 27000}, "total_target_distance_mm": {"const": 103500006}, "maximum_set_transfers_per_day": {"const": 1}}
+    },
+    "fleet22": {"allOf": [{"$ref": "#/$defs/fleet"}], "properties": {"fleet_profile": {"const": "FLEET_22"}, "fleet_rover_count": {"const": 22}, "target_active_rover_count": {"const": 12}, "installed_rover_battery_count": {"const": 22}, "maintenance_spare_rover_battery_count": {"const": 2}, "total_rover_battery_count": {"const": 24}, "recommended_for": {"const": "TWO_BLOCK_HEAT_AVOID"}}},
+    "fleet30": {"allOf": [{"$ref": "#/$defs/fleet"}], "properties": {"fleet_profile": {"const": "FLEET_30"}, "fleet_rover_count": {"const": 30}, "target_active_rover_count": {"const": 12}, "installed_rover_battery_count": {"const": 30}, "maintenance_spare_rover_battery_count": {"const": 2}, "total_rover_battery_count": {"const": 32}, "recommended_for": {"const": "THREE_BLOCK_MAX"}}},
+    "fleet": {
+      "type": "object", "additionalProperties": false,
+      "required": ["fleet_profile", "fleet_rover_count", "target_active_rover_count", "installed_rover_battery_count", "maintenance_spare_rover_battery_count", "total_rover_battery_count", "recommended_for"],
+      "properties": {"fleet_profile": {"enum": ["FLEET_22", "FLEET_30"]}, "fleet_rover_count": {"type": "integer", "minimum": 22, "maximum": 30}, "target_active_rover_count": {"const": 12}, "installed_rover_battery_count": {"type": "integer", "minimum": 22, "maximum": 30}, "maintenance_spare_rover_battery_count": {"const": 2}, "total_rover_battery_count": {"type": "integer", "minimum": 24, "maximum": 32}, "recommended_for": {"enum": ["TWO_BLOCK_HEAT_AVOID", "THREE_BLOCK_MAX"]}}
+    },
+    "roverBattery": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_id", "nominal_energy_mwh", "usable_energy_mwh", "full_runtime_minutes", "full_charge_minutes", "battery_mass_g", "low_return_request_runtime_minutes", "minimum_emergency_runtime_reserve_minutes", "fixed_onboard", "routine_swap_performed"],
+      "properties": {"battery_id": {"const": "BATTERY-DEMO-LIFEPO4-12V-10AH"}, "nominal_energy_mwh": {"const": 128000}, "usable_energy_mwh": {"const": 102400}, "full_runtime_minutes": {"const": 150}, "full_charge_minutes": {"const": 180}, "battery_mass_g": {"const": 1200}, "low_return_request_runtime_minutes": {"const": 30}, "minimum_emergency_runtime_reserve_minutes": {"const": 10}, "fixed_onboard": {"const": true}, "routine_swap_performed": {"const": false}}
+    },
+    "work2": {"type": "object", "additionalProperties": false, "required": ["work_schedule", "block_minutes"], "properties": {"work_schedule": {"const": "TWO_BLOCK_HEAT_AVOID"}, "block_minutes": {"const": [150, 0, 150]}}},
+    "work3": {"type": "object", "additionalProperties": false, "required": ["work_schedule", "block_minutes"], "properties": {"work_schedule": {"const": "THREE_BLOCK_MAX"}, "block_minutes": {"const": [150, 150, 150]}}},
+    "envCool": {"type": "object", "additionalProperties": false, "required": ["environment_profile", "block_minutes", "night_speed_basis_points"], "properties": {"environment_profile": {"const": "ENV_COOL_NIGHT_100"}, "block_minutes": {"const": [150, 150, 150]}, "night_speed_basis_points": {"const": 10000}}},
+    "envHot": {"type": "object", "additionalProperties": false, "required": ["environment_profile", "block_minutes", "night_speed_basis_points"], "properties": {"environment_profile": {"const": "ENV_HOT_NIGHT_85"}, "block_minutes": {"const": [150, 0, 150]}, "night_speed_basis_points": {"const": 8500}}},
+    "envExtreme": {"type": "object", "additionalProperties": false, "required": ["environment_profile", "block_minutes", "night_speed_basis_points"], "properties": {"environment_profile": {"const": "ENV_EXTREME_NIGHT_70"}, "block_minutes": {"const": [120, 0, 120]}, "night_speed_basis_points": {"const": 7000}}},
+    "station": {
+      "type": "object", "additionalProperties": false,
+      "required": ["charge_bay_count", "bay_ids", "lane_a_bays", "lane_b_bays", "queue_capacity_rovers", "bypass_lane", "bay_entry_alignment_minutes", "connector_engage_and_verify_minutes", "full_charge_minutes", "connector_release_minutes", "bay_exit_clear_minutes", "total_full_cycle_bay_occupancy_minutes", "independent_resources"],
+      "properties": {"charge_bay_count": {"const": 5}, "bay_ids": {"const": ["BAY-01", "BAY-02", "BAY-03", "BAY-04", "BAY-05"]}, "lane_a_bays": {"const": ["BAY-01", "BAY-02", "BAY-03"]}, "lane_b_bays": {"const": ["BAY-04", "BAY-05"]}, "queue_capacity_rovers": {"const": 12}, "bypass_lane": {"const": true}, "bay_entry_alignment_minutes": {"const": 2}, "connector_engage_and_verify_minutes": {"const": 2}, "full_charge_minutes": {"const": 180}, "connector_release_minutes": {"const": 1}, "bay_exit_clear_minutes": {"const": 1}, "total_full_cycle_bay_occupancy_minutes": {"const": 186}, "independent_resources": {"const": true}}
+    },
+    "connector": {"type": "object", "additionalProperties": false, "required": ["position", "sequence", "hardware_output"], "properties": {"position": {"const": "HIGH_MOUNTED"}, "sequence": {"type": "array", "minItems": 16, "maxItems": 16, "items": {"type": "string", "minLength": 1}}, "hardware_output": {"const": false}}},
+    "cassette": {
+      "type": "object", "additionalProperties": false,
+      "required": ["module_count_per_cassette", "module_nominal_energy_mwh", "module_mass_g", "module_reserve_basis_points", "conversion_efficiency_basis_points", "cassette_auxiliary_mass_g", "cassette_total_mass_g", "delivered_energy_per_module_mwh", "delivered_energy_per_cassette_mwh", "inventory_options", "slot_ids", "direct_parallel_enabled", "replacement_request_threshold_mwh", "cassette_switch_pause_minutes", "cassette_exchange_dock_minutes", "exchange_method", "sequence"],
+      "properties": {"module_count_per_cassette": {"const": 7}, "module_nominal_energy_mwh": {"const": 128000}, "module_mass_g": {"const": 1200}, "module_reserve_basis_points": {"const": 1000}, "conversion_efficiency_basis_points": {"const": 8500}, "cassette_auxiliary_mass_g": {"const": 1200}, "cassette_total_mass_g": {"const": 9600}, "delivered_energy_per_module_mwh": {"const": 97920}, "delivered_energy_per_cassette_mwh": {"const": 685440}, "inventory_options": {"const": [6, 8]}, "slot_ids": {"const": ["SLOT-A", "SLOT-B"]}, "direct_parallel_enabled": {"const": false}, "replacement_request_threshold_mwh": {"const": 204800}, "cassette_switch_pause_minutes": {"const": 1}, "cassette_exchange_dock_minutes": {"const": 10}, "exchange_method": {"const": "HORIZONTAL_SLIDE"}, "sequence": {"type": "array", "minItems": 20, "maxItems": 20, "items": {"type": "string", "minLength": 1}}}
+    },
+    "mules": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_mule_count", "vehicle_type", "operation_area", "cassette_payload_count", "installed_modules_per_mule", "shared_maintenance_spare_modules", "total_battery_modules", "usable_route_runtime_minutes", "full_recharge_minutes", "day_speed_mm_per_second", "night_speed_mm_per_second", "route_distances_mm", "profiles", "segment_reservation_required", "passing", "overtaking", "paddy_entry", "public_road_operation"],
+      "properties": {"battery_mule_count": {"const": 2}, "vehicle_type": {"const": "FOUR_WHEEL_ACKERMANN"}, "operation_area": {"const": "REGISTERED_WIDE_LEVEE_ROUTE_ONLY"}, "cassette_payload_count": {"const": 1}, "installed_modules_per_mule": {"const": 2}, "shared_maintenance_spare_modules": {"const": 2}, "total_battery_modules": {"const": 6}, "usable_route_runtime_minutes": {"const": 240}, "full_recharge_minutes": {"const": 180}, "day_speed_mm_per_second": {"const": 500}, "night_speed_mm_per_second": {"const": 300}, "route_distances_mm": {"const": [50000, 100000, 200000, 300000, 500000]}, "profiles": {"const": ["MULE_NOMINAL", "MULE_ONE_OUT", "MULE_NIGHT_HOLD"]}, "segment_reservation_required": {"const": true}, "passing": {"const": false}, "overtaking": {"const": false}, "paddy_entry": {"const": false}, "public_road_operation": {"const": false}}
+    },
+    "hub": {"type": "object", "additionalProperties": false, "required": ["cassette_charger_ports", "cassette_full_recharge_minutes", "mule_charger_ports", "full_cassette_load_minutes", "depleted_cassette_unload_minutes", "cassette_queue", "whole_cassette_charging"], "properties": {"cassette_charger_ports": {"const": 2}, "cassette_full_recharge_minutes": {"const": 180}, "mule_charger_ports": {"const": 2}, "full_cassette_load_minutes": {"const": 5}, "depleted_cassette_unload_minutes": {"const": 5}, "cassette_queue": {"const": "FIFO"}, "whole_cassette_charging": {"const": true}}},
+    "ranges": {"type": "object", "additionalProperties": false, "required": ["rover_count", "charge_bay_count", "cassette_inventory_count", "mule_count"], "properties": {"rover_count": {"const": [12, 40]}, "charge_bay_count": {"const": [1, 15]}, "cassette_inventory_count": {"const": [2, 16]}, "mule_count": {"const": [1, 5]}}}
+  }
+}
