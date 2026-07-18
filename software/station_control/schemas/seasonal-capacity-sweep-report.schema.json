@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seasonal-capacity-sweep-report.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_version", "phase", "sweep_id", "result", "base_model", "search_space", "stage_results", "target_results", "global_pareto_summary", "safety", "diagnostics", "canonical_base_plan_sha256", "canonical_sweep_plan_sha256", "canonical_search_state_sha256", "exit_code"],
+  "properties": {
+    "report_version": {"const": 1},
+    "phase": {"const": "ST-009"},
+    "sweep_id": {"const": "SWEEP-ST009-FIELD-DEMO-001"},
+    "result": {"enum": ["PASS", "FAIL"]},
+    "base_model": {"$ref": "#/$defs/base_model"},
+    "search_space": {"$ref": "#/$defs/search_space"},
+    "stage_results": {"$ref": "#/$defs/stage_results"},
+    "target_results": {
+      "type": "array", "minItems": 3, "maxItems": 3, "uniqueItems": true,
+      "prefixItems": [
+        {"allOf": [{"$ref": "#/$defs/target_result"}, {"properties": {"target_id": {"const": "TARGET_BASELINE"}}}]},
+        {"allOf": [{"$ref": "#/$defs/target_result"}, {"properties": {"target_id": {"const": "TARGET_WET_RESILIENT"}}}]},
+        {"allOf": [{"$ref": "#/$defs/target_result"}, {"properties": {"target_id": {"const": "TARGET_ALL_SCENARIOS"}}}]}
+      ],
+      "items": false
+    },
+    "global_pareto_summary": {"$ref": "#/$defs/global_summary"},
+    "safety": {"$ref": "#/$defs/safety"},
+    "diagnostics": {"type": "array", "maxItems": 100, "items": {"$ref": "#/$defs/diagnostic"}},
+    "canonical_base_plan_sha256": {"$ref": "#/$defs/hash"},
+    "canonical_sweep_plan_sha256": {"$ref": "#/$defs/hash"},
+    "canonical_search_state_sha256": {"$ref": "#/$defs/hash"},
+    "exit_code": {"enum": [0, 2, 3, 4, 7]}
+  },
+  "allOf": [
+    {"if": {"properties": {"result": {"const": "PASS"}}, "required": ["result"]}, "then": {"properties": {"exit_code": {"const": 0}}}},
+    {"if": {"properties": {"result": {"const": "FAIL"}}, "required": ["result"]}, "then": {"properties": {"exit_code": {"enum": [2, 3, 4, 7]}}}}
+  ],
+  "$defs": {
+    "count": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "scenario_id": {"enum": ["BASELINE", "CONSERVATIVE", "WET_FIELD", "ONE_ROVER_DOWN", "CARRIER_BOTTLENECK", "COMBINED_BAD"]},
+    "target_id": {"enum": ["TARGET_BASELINE", "TARGET_WET_RESILIENT", "TARGET_ALL_SCENARIOS"]},
+    "base_model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["base_phase", "field_id", "field_area_m2", "full_pass_distance_mm", "weed_target_distance_mm", "scenario_ids", "st008_model_reused"],
+      "properties": {
+        "base_phase": {"const": "ST-008"}, "field_id": {"type": "string", "maxLength": 40},
+        "field_area_m2": {"$ref": "#/$defs/count"}, "full_pass_distance_mm": {"$ref": "#/$defs/count"},
+        "weed_target_distance_mm": {"$ref": "#/$defs/count"},
+        "scenario_ids": {"type": "array", "maxItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/scenario_id"}},
+        "st008_model_reused": {"type": "boolean"}
+      }
+    },
+    "search_space": {
+      "type": "object", "additionalProperties": false,
+      "required": ["raw_candidate_count", "broadcast_value_count", "weed_value_count", "high_cut_value_count", "carrier_value_count", "battery_value_count", "charger_value_count", "cassette_capacity_value_count", "carrier_batch_value_count", "temporary_slot_value_count", "manual_recovery_value_count"],
+      "properties": {
+        "raw_candidate_count": {"const": 2041200}, "broadcast_value_count": {"$ref": "#/$defs/count"},
+        "weed_value_count": {"$ref": "#/$defs/count"}, "high_cut_value_count": {"$ref": "#/$defs/count"},
+        "carrier_value_count": {"$ref": "#/$defs/count"}, "battery_value_count": {"$ref": "#/$defs/count"},
+        "charger_value_count": {"$ref": "#/$defs/count"}, "cassette_capacity_value_count": {"$ref": "#/$defs/count"},
+        "carrier_batch_value_count": {"$ref": "#/$defs/count"}, "temporary_slot_value_count": {"$ref": "#/$defs/count"},
+        "manual_recovery_value_count": {"$ref": "#/$defs/count"}
+      }
+    },
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["execution_result", "evaluated_count", "survivor_count", "pruned_count", "cache_hit_count", "diagnostic_count"],
+      "properties": {
+        "execution_result": {"enum": ["PASS", "FAIL", "NOT_EVALUATED"]},
+        "evaluated_count": {"$ref": "#/$defs/count"}, "survivor_count": {"$ref": "#/$defs/count"},
+        "pruned_count": {"$ref": "#/$defs/count"}, "cache_hit_count": {"$ref": "#/$defs/count"},
+        "diagnostic_count": {"$ref": "#/$defs/count"}
+      }
+    },
+    "stage_results": {
+      "type": "object", "additionalProperties": false,
+      "required": ["stage0_validation", "stage1_broadcast", "stage2_weed", "stage3_harvest", "stage4_power", "stage5_exact_validation"],
+      "properties": {
+        "stage0_validation": {"$ref": "#/$defs/stage"}, "stage1_broadcast": {"$ref": "#/$defs/stage"},
+        "stage2_weed": {"$ref": "#/$defs/stage"}, "stage3_harvest": {"$ref": "#/$defs/stage"},
+        "stage4_power": {"$ref": "#/$defs/stage"}, "stage5_exact_validation": {"$ref": "#/$defs/stage"}
+      }
+    },
+    "mechanical_flag": {"enum": ["CASSETTE_LOAD_TEST_REQUIRED", "CARRIER_BATCH_RACK_REQUIRED", "CARRIER_PAYLOAD_ENGINEERING_REVIEW_REQUIRED", "MUD_SINKING_TEST_REQUIRED", "CENTER_OF_GRAVITY_TEST_REQUIRED"]},
+    "candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "broadcast_rover_count", "weed_rover_count", "high_cut_rover_count", "carrier_rover_count", "common_rover_count", "total_attachment_count", "battery_pool_count", "charger_count", "cassette_capacity_g", "carrier_cassettes_per_trip", "carrier_payload_g", "temporary_drop_slot_count", "manual_recovery_per_day", "cassette_inventory_proxy_count", "mechanical_review_flags"],
+      "properties": {
+        "candidate_id": {"type": "string", "maxLength": 80},
+        "broadcast_rover_count": {"$ref": "#/$defs/count"}, "weed_rover_count": {"$ref": "#/$defs/count"},
+        "high_cut_rover_count": {"$ref": "#/$defs/count"}, "carrier_rover_count": {"$ref": "#/$defs/count"},
+        "common_rover_count": {"$ref": "#/$defs/count"}, "total_attachment_count": {"$ref": "#/$defs/count"},
+        "battery_pool_count": {"$ref": "#/$defs/count"}, "charger_count": {"$ref": "#/$defs/count"},
+        "cassette_capacity_g": {"$ref": "#/$defs/count"}, "carrier_cassettes_per_trip": {"$ref": "#/$defs/count"},
+        "carrier_payload_g": {"$ref": "#/$defs/count"}, "temporary_drop_slot_count": {"$ref": "#/$defs/count"},
+        "manual_recovery_per_day": {"$ref": "#/$defs/count"}, "cassette_inventory_proxy_count": {"$ref": "#/$defs/count"},
+        "mechanical_review_flags": {"type": "array", "maxItems": 5, "uniqueItems": true, "items": {"$ref": "#/$defs/mechanical_flag"}}
+      }
+    },
+    "scenario_mask": {
+      "type": "object", "additionalProperties": false,
+      "required": ["BASELINE", "CONSERVATIVE", "WET_FIELD", "ONE_ROVER_DOWN", "CARRIER_BOTTLENECK", "COMBINED_BAD"],
+      "properties": {"BASELINE": {"type": "boolean"}, "CONSERVATIVE": {"type": "boolean"}, "WET_FIELD": {"type": "boolean"}, "ONE_ROVER_DOWN": {"type": "boolean"}, "CARRIER_BOTTLENECK": {"type": "boolean"}, "COMBINED_BAD": {"type": "boolean"}}
+    },
+    "equipment_metrics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["common_rover_count", "total_attachment_count", "battery_pool_count", "charger_count", "cassette_inventory_proxy_count", "cassette_inventory_is_proxy", "carrier_payload_g", "manual_recovery_per_day", "temporary_drop_slot_count", "mechanical_review_flag_count"],
+      "properties": {"common_rover_count": {"$ref": "#/$defs/count"}, "total_attachment_count": {"$ref": "#/$defs/count"}, "battery_pool_count": {"$ref": "#/$defs/count"}, "charger_count": {"$ref": "#/$defs/count"}, "cassette_inventory_proxy_count": {"$ref": "#/$defs/count"}, "cassette_inventory_is_proxy": {"const": true}, "carrier_payload_g": {"$ref": "#/$defs/count"}, "manual_recovery_per_day": {"$ref": "#/$defs/count"}, "temporary_drop_slot_count": {"$ref": "#/$defs/count"}, "mechanical_review_flag_count": {"$ref": "#/$defs/count"}}
+    },
+    "operational_metrics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["total_battery_wait_minutes", "maximum_scenario_battery_wait_minutes", "maximum_cassette_backlog", "maximum_high_cut_wait_minutes", "maximum_unfinished_weed_distance_mm", "maximum_unfinished_harvest_distance_mm", "stress_completion_score_basis_points", "field_operation_approved", "unattended_operation_approved"],
+      "properties": {"total_battery_wait_minutes": {"$ref": "#/$defs/count"}, "maximum_scenario_battery_wait_minutes": {"$ref": "#/$defs/count"}, "maximum_cassette_backlog": {"$ref": "#/$defs/count"}, "maximum_high_cut_wait_minutes": {"$ref": "#/$defs/count"}, "maximum_unfinished_weed_distance_mm": {"$ref": "#/$defs/count"}, "maximum_unfinished_harvest_distance_mm": {"$ref": "#/$defs/count"}, "stress_completion_score_basis_points": {"type": "integer", "minimum": 0, "maximum": 10000}, "field_operation_approved": {"const": false}, "unattended_operation_approved": {"const": false}}
+    },
+    "mechanical_review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["required", "flags", "physical_validation_completed", "simulation_completion_changed_by_flags"],
+      "properties": {"required": {"type": "boolean"}, "flags": {"type": "array", "maxItems": 5, "uniqueItems": true, "items": {"$ref": "#/$defs/mechanical_flag"}}, "physical_validation_completed": {"const": false}, "simulation_completion_changed_by_flags": {"const": false}}
+    },
+    "bottleneck": {"enum": ["NONE", "DISTANCE_CAPACITY", "BATTERY_AVAILABILITY", "SEED_REFILL", "WEATHER_AVAILABILITY", "ROVER_FAILURE", "WEED_ROVER_COUNT", "HIGH_CUT_SPEED", "CASSETTE_BUFFER", "CARRIER_CAPACITY", "CARRIER_COUNT", "MANUAL_RECOVERY_LIMIT", "CHARGER_COUNT"]},
+    "recommendation": {"enum": ["BROADCAST_FIXED_CAPACITY_INSUFFICIENT", "WEED_ROVER_RANGE_INSUFFICIENT", "HIGH_CUT_ROVER_RANGE_INSUFFICIENT", "CARRIER_RANGE_INSUFFICIENT", "BATTERY_RANGE_INSUFFICIENT", "CHARGER_RANGE_INSUFFICIENT", "CASSETTE_LOGISTICS_REDESIGN_REQUIRED", "CASSETTE_LOAD_TEST_REQUIRED", "CARRIER_BATCH_RACK_REQUIRED", "CARRIER_PAYLOAD_ENGINEERING_REVIEW_REQUIRED", "MUD_SINKING_TEST_REQUIRED", "CENTER_OF_GRAVITY_TEST_REQUIRED", "MANUAL_DEPENDENCY_HIGH", "NO_TARGET_CANDIDATE_WITHIN_BOUNDS", "PHYSICAL_PROTOTYPE_VALIDATION_REQUIRED"]},
+    "candidate_summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate", "target_satisfied", "required_scenarios", "completed_scenarios", "scenario_completion_mask", "equipment_metrics", "operational_metrics", "mechanical_review", "bottlenecks", "recommendations"],
+      "properties": {"candidate": {"$ref": "#/$defs/candidate"}, "target_satisfied": {"type": "boolean"}, "required_scenarios": {"type": "array", "maxItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/scenario_id"}}, "completed_scenarios": {"type": "array", "maxItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/scenario_id"}}, "scenario_completion_mask": {"$ref": "#/$defs/scenario_mask"}, "equipment_metrics": {"$ref": "#/$defs/equipment_metrics"}, "operational_metrics": {"$ref": "#/$defs/operational_metrics"}, "mechanical_review": {"$ref": "#/$defs/mechanical_review"}, "bottlenecks": {"type": "array", "maxItems": 13, "uniqueItems": true, "items": {"$ref": "#/$defs/bottleneck"}}, "recommendations": {"type": "array", "maxItems": 15, "uniqueItems": true, "items": {"$ref": "#/$defs/recommendation"}}}
+    },
+    "candidate_wrapper": {"type": "object", "additionalProperties": false, "required": ["present", "candidate"], "properties": {"present": {"type": "boolean"}, "candidate": {"$ref": "#/$defs/candidate_summary"}}},
+    "target_result": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_id", "status", "required_scenarios", "satisfying_candidate_count", "satisfying_without_mechanical_review_count", "satisfying_with_mechanical_review_count", "equipment_quantity_min_candidate", "human_min_candidate", "pareto_total_count", "pareto_candidates", "nearest_miss_candidates", "recommendations"],
+      "properties": {"target_id": {"$ref": "#/$defs/target_id"}, "status": {"enum": ["FOUND", "NOT_FOUND_WITHIN_BOUNDS", "NOT_EVALUATED"]}, "required_scenarios": {"type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/scenario_id"}}, "satisfying_candidate_count": {"$ref": "#/$defs/count"}, "satisfying_without_mechanical_review_count": {"$ref": "#/$defs/count"}, "satisfying_with_mechanical_review_count": {"$ref": "#/$defs/count"}, "equipment_quantity_min_candidate": {"$ref": "#/$defs/candidate_wrapper"}, "human_min_candidate": {"$ref": "#/$defs/candidate_wrapper"}, "pareto_total_count": {"$ref": "#/$defs/count"}, "pareto_candidates": {"type": "array", "maxItems": 20, "items": {"$ref": "#/$defs/candidate_summary"}}, "nearest_miss_candidates": {"type": "array", "maxItems": 10, "items": {"$ref": "#/$defs/candidate_summary"}}, "recommendations": {"type": "array", "maxItems": 15, "uniqueItems": true, "items": {"$ref": "#/$defs/recommendation"}}}
+    },
+    "global_summary": {"type": "object", "additionalProperties": false, "required": ["target_count", "targets_found", "targets_not_found", "total_satisfying_candidates", "total_pareto_candidates", "report_pareto_candidate_count"], "properties": {"target_count": {"const": 3}, "targets_found": {"type": "integer", "minimum": 0, "maximum": 3}, "targets_not_found": {"type": "integer", "minimum": 0, "maximum": 3}, "total_satisfying_candidates": {"$ref": "#/$defs/count"}, "total_pareto_candidates": {"$ref": "#/$defs/count"}, "report_pareto_candidate_count": {"$ref": "#/$defs/count"}}},
+    "safety": {"type": "object", "additionalProperties": false, "required": ["offline_only", "network_access_performed", "random_used", "monte_carlo_used", "weather_probability_claimed", "gpio_access_performed", "serial_access_performed", "hardware_output_performed", "motor_control_performed", "pto_control_performed", "charging_control_performed", "bms_communication_performed", "rover_communication_performed", "actual_assignment_performed", "actual_arm_performed", "physical_mount_performed", "physical_unmount_performed", "field_operation_approved", "unattended_operation_approved", "physical_estop_independent", "repository_modified"], "properties": {"offline_only": {"const": true}, "network_access_performed": {"const": false}, "random_used": {"const": false}, "monte_carlo_used": {"const": false}, "weather_probability_claimed": {"const": false}, "gpio_access_performed": {"const": false}, "serial_access_performed": {"const": false}, "hardware_output_performed": {"const": false}, "motor_control_performed": {"const": false}, "pto_control_performed": {"const": false}, "charging_control_performed": {"const": false}, "bms_communication_performed": {"const": false}, "rover_communication_performed": {"const": false}, "actual_assignment_performed": {"const": false}, "actual_arm_performed": {"const": false}, "physical_mount_performed": {"const": false}, "physical_unmount_performed": {"const": false}, "field_operation_approved": {"const": false}, "unattended_operation_approved": {"const": false}, "physical_estop_independent": {"const": true}, "repository_modified": {"const": false}}},
+    "diagnostic": {"type": "object", "additionalProperties": false, "required": ["severity", "code", "component", "target_id", "candidate_id", "message"], "properties": {"severity": {"enum": ["INFO", "WARNING", "ERROR"]}, "code": {"enum": ["SWEEP_INVALID_ARGUMENT", "SWEEP_REPOSITORY_ROOT_INVALID", "SWEEP_BASE_PLAN_INVALID", "SWEEP_PLAN_INVALID", "SWEEP_REPORT_PATH_INSIDE_REPOSITORY", "SWEEP_REPORT_PARENT_INVALID", "SWEEP_ST008_LOAD_FAILED", "SWEEP_ST008_VALIDATION_FAILED", "SWEEP_RAW_COUNT_MISMATCH", "SWEEP_STAGE_FAILED", "SWEEP_TARGET_NOT_FOUND", "SWEEP_BROADCAST_FIXED_INSUFFICIENT", "SWEEP_WEED_RANGE_INSUFFICIENT", "SWEEP_HARVEST_RANGE_INSUFFICIENT", "SWEEP_POWER_RANGE_INSUFFICIENT", "SWEEP_CASSETTE_LOGISTICS_INSUFFICIENT", "SWEEP_MECHANICAL_REVIEW_REQUIRED", "SWEEP_REPORT_WRITE_FAILED", "SWEEP_INTERNAL_ERROR"]}, "component": {"enum": ["cli", "internal", "mechanical", "path", "plan", "report", "search", "st008", "target"]}, "target_id": {"type": "string", "maxLength": 40}, "candidate_id": {"type": "string", "maxLength": 80}, "message": {"type": "string", "minLength": 1, "maxLength": 240}}}
+  }
+}

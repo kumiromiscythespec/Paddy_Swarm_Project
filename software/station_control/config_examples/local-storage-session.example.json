@@ -1,0 +1,84 @@
+{
+  "session_version": 1,
+  "session_id": "SESSION-ST004-POSITIVE",
+  "operations": [
+    {
+      "operation_id": "OP-ST004-001",
+      "logical_tick": 0,
+      "operation_type": "STORE_EVENT",
+      "payload": {
+        "event_id": "EVENT-ST004-001",
+        "event_type": "MISSION_CREATED",
+        "source_type": "MISSION",
+        "source_id": "MISSION-DEMO-001",
+        "event_payload": {
+          "mission_state": "DRAFT",
+          "simulation": true
+        },
+        "enqueue_upload": true,
+        "upload_record_id": "UPLOAD-ST004-001",
+        "idempotency_key": "IDEMPOTENCY-ST004-001"
+      }
+    },
+    {
+      "operation_id": "OP-ST004-002",
+      "logical_tick": 5,
+      "operation_type": "STORE_EVENT",
+      "payload": {
+        "event_id": "EVENT-ST004-002",
+        "event_type": "COMMUNICATION_LOST",
+        "source_type": "ROVER",
+        "source_id": "ROVER-DEMO-001",
+        "event_payload": {
+          "communication_available": false,
+          "mission_state": "PAUSED"
+        },
+        "enqueue_upload": true,
+        "upload_record_id": "UPLOAD-ST004-002",
+        "idempotency_key": "IDEMPOTENCY-ST004-002"
+      }
+    },
+    {
+      "operation_id": "OP-ST004-003",
+      "logical_tick": 6,
+      "operation_type": "RECORD_UPLOAD_ATTEMPT",
+      "payload": {
+        "upload_record_id": "UPLOAD-ST004-001",
+        "error_code": "OFFLINE"
+      }
+    },
+    {
+      "operation_id": "OP-ST004-004",
+      "logical_tick": 7,
+      "operation_type": "ACKNOWLEDGE_UPLOAD",
+      "payload": {
+        "upload_record_id": "UPLOAD-ST004-001",
+        "acknowledgement_id": "ACK-DEMO-ST004-001"
+      }
+    },
+    {
+      "operation_id": "OP-ST004-005",
+      "logical_tick": 8,
+      "operation_type": "STORE_EVENT",
+      "payload": {
+        "event_id": "EVENT-ST004-003",
+        "event_type": "WATER_LEVEL_SAMPLE_RECORDED",
+        "source_type": "STATION",
+        "source_id": "STATION-DEMO-001",
+        "event_payload": {
+          "demo_level": "NORMAL",
+          "measurement": "DEMO_ONLY"
+        },
+        "enqueue_upload": false,
+        "upload_record_id": "",
+        "idempotency_key": ""
+      }
+    },
+    {
+      "operation_id": "OP-ST004-006",
+      "logical_tick": 9,
+      "operation_type": "VERIFY_INTEGRITY",
+      "payload": {}
+    }
+  ]
+}

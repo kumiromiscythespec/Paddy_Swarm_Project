@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paddy-swarm.invalid/schemas/water-flow-set-power-report.schema.json",
+  "title": "ST-011 Water-Flow Set Power Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_version", "phase", "plan_id", "result", "field_model", "water_flow_set_model", "persistent_deployment_model", "work_block_model", "rover_battery_model", "charger_model", "power_source_model", "search_space", "configuration_results", "grid_pack_comparisons", "selected_results", "required_capacity", "logistics_sensitivity", "feasibility", "mechanical_electrical_reviews", "safety", "diagnostics", "canonical_plan_sha256", "canonical_schedule_state_sha256", "exit_code"],
+  "properties": {
+    "report_version": {"const": 1}, "phase": {"const": "ST-011"},
+    "plan_id": {"type": "string", "minLength": 1, "maxLength": 128}, "result": {"enum": ["PASS", "FAIL"]},
+    "field_model": {"$ref": "#/$defs/fieldModel"},
+    "water_flow_set_model": {"$ref": "#/$defs/setModel"},
+    "persistent_deployment_model": {"$ref": "#/$defs/persistentModel"},
+    "work_block_model": {"$ref": "#/$defs/workBlockModel"},
+    "rover_battery_model": {"$ref": "#/$defs/batteryModel"},
+    "charger_model": {"$ref": "#/$defs/chargerModel"},
+    "power_source_model": {"$ref": "#/$defs/powerModel"},
+    "search_space": {"$ref": "#/$defs/searchSpace"},
+    "configuration_results": {"type": "array", "minItems": 15795, "maxItems": 15795, "items": {"$ref": "#/$defs/configurationResult"}},
+    "grid_pack_comparisons": {"type": "array", "minItems": 14580, "maxItems": 14580, "items": {"$ref": "#/$defs/gridPackComparison"}},
+    "selected_results": {"type": "array", "minItems": 10, "maxItems": 10, "items": {"$ref": "#/$defs/selectedResult"}},
+    "required_capacity": {"$ref": "#/$defs/requiredCapacity"},
+    "logistics_sensitivity": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/logisticsSensitivity"}},
+    "feasibility": {"$ref": "#/$defs/feasibility"},
+    "mechanical_electrical_reviews": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/reviewFlag"}},
+    "safety": {"$ref": "#/$defs/safety"},
+    "diagnostics": {"type": "array", "items": {"$ref": "#/$defs/diagnostic"}},
+    "canonical_plan_sha256": {"$ref": "#/$defs/sha256"},
+    "canonical_schedule_state_sha256": {"$ref": "#/$defs/sha256"},
+    "exit_code": {"type": "integer", "minimum": 0, "maximum": 3}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "nonNegativeInteger": {"type": "integer", "minimum": 0},
+    "basisPoints": {"type": "integer", "minimum": 0, "maximum": 10000},
+    "fieldModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["field_count", "total_area_m2", "total_target_distance_mm", "geometry_estimated", "actual_coordinates_included"],
+      "properties": {"field_count": {"const": 19}, "total_area_m2": {"const": 27000}, "total_target_distance_mm": {"const": 103500006}, "geometry_estimated": {"const": true}, "actual_coordinates_included": {"const": false}}
+    },
+    "waterFlowSet": {
+      "type": "object", "additionalProperties": false,
+      "required": ["set_id", "field_ids", "total_area_m2", "target_distance_mm"],
+      "properties": {
+        "set_id": {"enum": ["SET-HOME-01", "SET-HOME-02", "SET-HOME-03", "SET-OTHER-CONSIGNED-01", "SET-CONSIGNED-01", "SET-OWN-A-01", "SET-OWN-B-01"]},
+        "field_ids": {"type": "array", "minItems": 2, "maxItems": 3, "uniqueItems": true, "items": {"type": "string", "pattern": "^GROUP-[A-Z-]+-F[0-9]{2}$"}},
+        "total_area_m2": {"type": "integer", "minimum": 2842, "maximum": 4264},
+        "target_distance_mm": {"type": "integer", "minimum": 10894334, "maximum": 16345334}
+      }
+    },
+    "setModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["set_count", "set_sizes", "persistent_until_complete", "actual_water_mapping_required", "sets"],
+      "properties": {
+        "set_count": {"const": 7}, "set_sizes": {"type": "array", "prefixItems": [{"const": 3}, {"const": 3}, {"const": 3}, {"const": 3}, {"const": 2}, {"const": 2}, {"const": 3}], "items": false, "minItems": 7, "maxItems": 7},
+        "persistent_until_complete": {"const": true}, "actual_water_mapping_required": {"const": true},
+        "sets": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/waterFlowSet"}}
+      }
+    },
+    "persistentModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rover_count", "daily_rover_recovery", "daily_station_recovery", "manual_rover_transfer", "manual_station_transfer", "maximum_set_transfers_per_day"],
+      "properties": {"rover_count": {"const": 12}, "daily_rover_recovery": {"const": false}, "daily_station_recovery": {"const": false}, "manual_rover_transfer": {"const": true}, "manual_station_transfer": {"const": true}, "maximum_set_transfers_per_day": {"const": 1}}
+    },
+    "workBlockModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["simulation_resolution_minutes", "block_order", "service_event_order", "availability_basis_points"],
+      "properties": {
+        "simulation_resolution_minutes": {"const": 1},
+        "block_order": {"type": "array", "prefixItems": [{"const": "EARLY_MORNING"}, {"const": "MIDDAY"}, {"const": "EVENING_NIGHT"}], "items": false, "minItems": 3, "maxItems": 3},
+        "service_event_order": {"type": "array", "prefixItems": [{"const": "MORNING_SERVICE"}, {"const": "MIDDAY_SERVICE"}, {"const": "EVENING_SERVICE"}], "items": false, "minItems": 3, "maxItems": 3},
+        "availability_basis_points": {"const": 6000}
+      }
+    },
+    "batteryModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_id", "nominal_energy_mwh", "usable_energy_mwh", "runtime_minutes", "charge_minutes", "battery_swap_minutes", "battery_pool_options", "state_carries_across_days_and_sets"],
+      "properties": {
+        "battery_id": {"const": "BATTERY-DEMO-LIFEPO4-12V-10AH"}, "nominal_energy_mwh": {"const": 128000}, "usable_energy_mwh": {"const": 102400},
+        "runtime_minutes": {"const": 150}, "charge_minutes": {"const": 180}, "battery_swap_minutes": {"const": 3},
+        "battery_pool_options": {"type": "array", "prefixItems": [{"const": 16}, {"const": 24}, {"const": 36}], "items": false, "minItems": 3, "maxItems": 3},
+        "state_carries_across_days_and_sets": {"const": true}
+      }
+    },
+    "chargerModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["charger_count", "full_charge_minutes", "full_recharge_required_mwh", "output_rate_numerator_mwh", "output_rate_denominator_minutes", "charger_order_deterministic"],
+      "properties": {"charger_count": {"const": 5}, "full_charge_minutes": {"const": 180}, "full_recharge_required_mwh": {"const": 102400}, "output_rate_numerator_mwh": {"const": 102400}, "output_rate_denominator_minutes": {"const": 180}, "charger_order_deterministic": {"const": true}}
+    },
+    "powerModel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["power_source_mutually_exclusive", "hybrid_power_mode_evaluated", "grid_available_24h", "grid_maximum_sessions_per_day", "grid_maximum_output_mwh_per_day", "portable_module_delivered_energy_mwh", "module_counts", "pack_deliveries_per_day", "external_pack_recharge_assumed", "depot_pack_inventory_not_evaluated", "direct_pack_to_rover_connection"],
+      "properties": {
+        "power_source_mutually_exclusive": {"const": true}, "hybrid_power_mode_evaluated": {"const": false}, "grid_available_24h": {"const": true},
+        "grid_maximum_sessions_per_day": {"const": 40}, "grid_maximum_output_mwh_per_day": {"const": 4096000}, "portable_module_delivered_energy_mwh": {"const": 97920},
+        "module_counts": {"type": "array", "prefixItems": [{"const": 5}, {"const": 6}, {"const": 7}, {"const": 8}], "items": false, "minItems": 4, "maxItems": 4},
+        "pack_deliveries_per_day": {"type": "array", "prefixItems": [{"const": 1}, {"const": 2}, {"const": 3}], "items": false, "minItems": 3, "maxItems": 3},
+        "external_pack_recharge_assumed": {"const": true}, "depot_pack_inventory_not_evaluated": {"const": true}, "direct_pack_to_rover_connection": {"const": false}
+      }
+    },
+    "searchSpace": {
+      "type": "object", "additionalProperties": false,
+      "required": ["allocation_policy_count", "speed_profile_count", "heat_profile_count", "night_factor_count", "deadline_count", "rover_battery_pool_count", "power_variant_count", "raw_configuration_count", "all_configurations_evaluated", "random_sampling", "automatic_range_reduction", "hybrid_power_mode_evaluated"],
+      "properties": {"allocation_policy_count": {"const": 5}, "speed_profile_count": {"const": 3}, "heat_profile_count": {"const": 3}, "night_factor_count": {"const": 3}, "deadline_count": {"const": 3}, "rover_battery_pool_count": {"const": 3}, "power_variant_count": {"const": 13}, "raw_configuration_count": {"const": 15795}, "all_configurations_evaluated": {"const": true}, "random_sampling": {"const": false}, "automatic_range_reduction": {"const": false}, "hybrid_power_mode_evaluated": {"const": false}}
+    },
+    "reviewFlag": {"enum": ["PORTABLE_MODULE_ENERGY_ASSUMPTION_UNVERIFIED", "PORTABLE_PACK_AUXILIARY_MASS_UNVERIFIED", "TEN_KG_HANDLING_TARGET_EXCEEDED", "PACK_CONNECTOR_REVIEW_REQUIRED", "PACK_FUSE_REVIEW_REQUIRED", "PACK_BMS_REVIEW_REQUIRED", "CHARGER_INPUT_COMPATIBILITY_REVIEW_REQUIRED", "PARTIAL_CHARGE_BEHAVIOR_REVIEW_REQUIRED", "NIGHT_OPERATION_FIELD_TEST_REQUIRED", "OVERNIGHT_SECURITY_REVIEW_REQUIRED", "WATER_FLOW_SET_MAPPING_REQUIRED", "GRID_ELECTRICAL_INSTALLATION_REVIEW_REQUIRED"]},
+    "bottleneck": {"enum": ["NONE", "DEADLINE_TOO_SHORT", "WORK_SPEED", "HEAT_STOP", "NIGHT_SPEED_REDUCTION", "ROVER_COUNT", "ROVER_BATTERY_POOL", "CHARGER_COUNT", "GRID_INPUT_UNAVAILABLE", "PORTABLE_PACK_ENERGY", "PORTABLE_PACK_DELIVERY_FREQUENCY", "BATTERY_SWAP_SERVICE", "SET_TRANSFER_TIME", "FIELD_GEOMETRY_ESTIMATED", "WATER_FLOW_MAPPING_UNRESOLVED"]},
+    "recommendation": {"enum": ["MEASURE_ACTUAL_WATER_FLOW_SETS", "MEASURE_ROVER_OPERATING_SPEED", "MEASURE_ROVER_ENERGY_USE", "MEASURE_NIGHT_SPEED", "VALIDATE_NIGHT_SAFETY", "VALIDATE_OVERNIGHT_PARKING_SECURITY", "VALIDATE_GRID_CONNECTION_AVAILABILITY", "ELECTRICIAN_REVIEW_REQUIRED", "MEASURE_PORTABLE_MODULE_CAPACITY", "MEASURE_COMPLETE_PACK_MASS", "LIMIT_PORTABLE_PACK_TO_SEVEN_MODULES_FOR_10KG_TARGET", "INCREASE_PORTABLE_PACK_DELIVERY_FREQUENCY", "INCREASE_PORTABLE_ENERGY_CAPACITY", "INCREASE_ROVER_BATTERY_POOL", "INCREASE_CHARGER_COUNT", "REDUCE_THREE_BLOCK_OPERATION", "USE_GRID_POWER_WHERE_AVAILABLE", "USE_PORTABLE_PACK_AS_SEPARATE_OFF_GRID_MODE", "DO_NOT_TREAT_PACK_AS_GRID_EQUIVALENT", "PHYSICAL_FIELD_VALIDATION_REQUIRED"]},
+    "setResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["set_id", "completed", "processed_distance_mm", "target_distance_mm", "completion_basis_points"],
+      "properties": {"set_id": {"type": "string", "pattern": "^SET-"}, "completed": {"type": "boolean"}, "processed_distance_mm": {"$ref": "#/$defs/nonNegativeInteger"}, "target_distance_mm": {"type": "integer", "minimum": 1, "maximum": 16345334}, "completion_basis_points": {"$ref": "#/$defs/basisPoints"}}
+    },
+    "fieldResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["field_id", "completed", "area_m2", "processed_distance_mm", "target_distance_mm", "completion_basis_points"],
+      "properties": {"field_id": {"type": "string", "pattern": "^GROUP-"}, "completed": {"type": "boolean"}, "area_m2": {"type": "integer", "minimum": 1, "maximum": 27000}, "processed_distance_mm": {"$ref": "#/$defs/nonNegativeInteger"}, "target_distance_mm": {"type": "integer", "minimum": 1, "maximum": 103500006}, "completion_basis_points": {"$ref": "#/$defs/basisPoints"}}
+    },
+    "blockResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["block_id", "scheduled_minutes", "productive_distance_mm", "battery_wait_minutes"],
+      "properties": {"block_id": {"enum": ["EARLY_MORNING", "MIDDAY", "EVENING_NIGHT"]}, "scheduled_minutes": {"type": "integer", "minimum": 0, "maximum": 150}, "productive_distance_mm": {"$ref": "#/$defs/nonNegativeInteger"}, "battery_wait_minutes": {"$ref": "#/$defs/nonNegativeInteger"}}
+    },
+    "dayResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["day_index", "processed_distance_mm", "energy_used_mwh", "energy_delivered_mwh", "battery_wait_minutes", "block_results"],
+      "properties": {"day_index": {"type": "integer", "minimum": 1, "maximum": 21}, "processed_distance_mm": {"$ref": "#/$defs/nonNegativeInteger"}, "energy_used_mwh": {"$ref": "#/$defs/nonNegativeInteger"}, "energy_delivered_mwh": {"$ref": "#/$defs/nonNegativeInteger"}, "battery_wait_minutes": {"$ref": "#/$defs/nonNegativeInteger"}, "block_results": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/blockResult"}}}
+    },
+    "configurationResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["configuration_id", "allocation_policy", "speed_mm_per_minute", "heat_profile", "night_factor_basis_points", "deadline_days", "battery_pool_count", "power_source", "portable_module_count", "pack_cadence", "pack_deliveries_per_day", "completed", "completed_set_count", "completed_field_count", "completed_area_m2", "processed_distance_mm", "target_distance_mm", "completion_basis_points", "set_transfer_count", "battery_wait_minutes", "charger_sessions", "partial_charge_count", "energy_used_mwh", "energy_delivered_mwh", "energy_shortfall_mwh", "charger_starvation_minutes", "pack_delivery_count", "pack_total_mass_g", "ten_kg_handling_target_met", "sustainable", "human_service_person_minutes", "human_service_elapsed_minutes", "maximum_daily_human_service_elapsed_minutes", "review_flags", "bottlenecks", "recommendations", "details_included", "set_results", "field_results", "day_results"],
+      "properties": {
+        "configuration_id": {"type": "string", "pattern": "^CFG-"}, "allocation_policy": {"enum": ["SET_SEQUENTIAL", "SET_PARALLEL_EQUAL", "SET_PARALLEL_WEIGHTED", "SET_FINISH_FIRST", "SET_WATER_ORDERED"]},
+        "speed_mm_per_minute": {"enum": [400, 700, 1000]}, "heat_profile": {"enum": ["COOL_DAY", "HOT_DAY", "EXTREME_HEAT"]}, "night_factor_basis_points": {"enum": [7000, 8500, 10000]}, "deadline_days": {"enum": [10, 14, 21]}, "battery_pool_count": {"enum": [16, 24, 36]},
+        "power_source": {"enum": ["GRID_ALWAYS_ON", "PORTABLE_PACK_ONLY"]}, "portable_module_count": {"enum": [0, 5, 6, 7, 8]}, "pack_cadence": {"enum": ["NONE", "PACK_MORNING_ONLY", "PACK_MORNING_EVENING", "PACK_THREE_SERVICES"]}, "pack_deliveries_per_day": {"type": "integer", "minimum": 0, "maximum": 3},
+        "completed": {"type": "boolean"}, "completed_set_count": {"type": "integer", "minimum": 0, "maximum": 7}, "completed_field_count": {"type": "integer", "minimum": 0, "maximum": 19}, "completed_area_m2": {"type": "integer", "minimum": 0, "maximum": 27000}, "processed_distance_mm": {"type": "integer", "minimum": 0, "maximum": 103500006}, "target_distance_mm": {"const": 103500006}, "completion_basis_points": {"$ref": "#/$defs/basisPoints"},
+        "set_transfer_count": {"type": "integer", "minimum": 0, "maximum": 6}, "battery_wait_minutes": {"$ref": "#/$defs/nonNegativeInteger"}, "charger_sessions": {"$ref": "#/$defs/nonNegativeInteger"}, "partial_charge_count": {"$ref": "#/$defs/nonNegativeInteger"}, "energy_used_mwh": {"$ref": "#/$defs/nonNegativeInteger"}, "energy_delivered_mwh": {"$ref": "#/$defs/nonNegativeInteger"}, "energy_shortfall_mwh": {"$ref": "#/$defs/nonNegativeInteger"}, "charger_starvation_minutes": {"$ref": "#/$defs/nonNegativeInteger"}, "pack_delivery_count": {"$ref": "#/$defs/nonNegativeInteger"}, "pack_total_mass_g": {"type": "integer", "minimum": 0, "maximum": 10800},
+        "ten_kg_handling_target_met": {"type": "boolean"}, "sustainable": {"type": "boolean"}, "human_service_person_minutes": {"$ref": "#/$defs/nonNegativeInteger"}, "human_service_elapsed_minutes": {"$ref": "#/$defs/nonNegativeInteger"}, "maximum_daily_human_service_elapsed_minutes": {"$ref": "#/$defs/nonNegativeInteger"},
+        "review_flags": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/reviewFlag"}}, "bottlenecks": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/bottleneck"}}, "recommendations": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/recommendation"}},
+        "details_included": {"type": "boolean"}, "set_results": {"type": "array", "maxItems": 7, "items": {"$ref": "#/$defs/setResult"}}, "field_results": {"type": "array", "maxItems": 19, "items": {"$ref": "#/$defs/fieldResult"}}, "day_results": {"type": "array", "maxItems": 21, "items": {"$ref": "#/$defs/dayResult"}}
+      }
+    },
+    "gridPackComparison": {
+      "type": "object", "additionalProperties": false,
+      "required": ["grid_configuration_id", "pack_configuration_id", "completion_delta_basis_points", "completed_field_delta", "battery_wait_delta_minutes", "energy_delivery_delta_mwh", "additional_deliveries_required_per_day", "required_pack_deliveries_per_day", "required_pack_mass_g", "grid_equivalent_found"],
+      "properties": {"grid_configuration_id": {"type": "string", "pattern": "-PGRID$"}, "pack_configuration_id": {"type": "string", "pattern": "-PPACK"}, "completion_delta_basis_points": {"type": "integer", "minimum": -10000, "maximum": 10000}, "completed_field_delta": {"type": "integer", "minimum": -19, "maximum": 19}, "battery_wait_delta_minutes": {"type": "integer"}, "energy_delivery_delta_mwh": {"type": "integer"}, "additional_deliveries_required_per_day": {"$ref": "#/$defs/nonNegativeInteger"}, "required_pack_deliveries_per_day": {"type": "integer", "minimum": 1, "maximum": 8}, "required_pack_mass_g": {"type": "integer", "minimum": 7200, "maximum": 10800}, "grid_equivalent_found": {"type": "boolean"}}
+    },
+    "selectedResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["selection_id", "configuration_id"],
+      "properties": {"selection_id": {"enum": ["BEST_GRID_COMPLETION", "GRID_MINIMUM_BATTERY_WAIT", "GRID_MINIMUM_HUMAN_SERVICE", "BEST_PACK_COMPLETION_UNDER_10KG", "BEST_PACK_COMPLETION_ANY_WEIGHT", "PACK_MINIMUM_DELIVERIES", "PACK_MINIMUM_HANDLING_MASS", "BEST_10_DAY_RESULT", "BEST_14_DAY_RESULT", "BEST_21_DAY_RESULT"]}, "configuration_id": {"type": "string", "pattern": "^CFG-"}}
+    },
+    "requiredCapacity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["three_block_full_session_count", "three_block_energy_mwh", "required_modules_per_day", "required_seven_module_pack_deliveries_per_day", "required_eight_module_pack_deliveries_per_day", "ten_kg_pack_module_limit", "formal_pack_delivery_maximum_per_day", "portable_pack_grid_equivalent"],
+      "properties": {"three_block_full_session_count": {"const": 36}, "three_block_energy_mwh": {"const": 3686400}, "required_modules_per_day": {"const": 38}, "required_seven_module_pack_deliveries_per_day": {"const": 6}, "required_eight_module_pack_deliveries_per_day": {"const": 5}, "ten_kg_pack_module_limit": {"const": 7}, "formal_pack_delivery_maximum_per_day": {"const": 3}, "portable_pack_grid_equivalent": {"const": false}}
+    },
+    "logisticsSensitivity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["profile_id", "operator_count", "vehicle_rover_capacity", "representative_only"],
+      "properties": {"profile_id": {"enum": ["LOGISTICS_CONSERVATIVE", "LOGISTICS_PLANNED", "LOGISTICS_SUPPORTED"]}, "operator_count": {"type": "integer", "minimum": 1, "maximum": 3}, "vehicle_rover_capacity": {"enum": [6, 10]}, "representative_only": {"const": true}}
+    },
+    "feasibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["grid", "portable_pack", "simulation_result_is_not_feasibility"],
+      "properties": {"grid": {"enum": ["FEASIBLE", "MARGINAL", "INFEASIBLE", "NOT_EVALUATED"]}, "portable_pack": {"enum": ["FEASIBLE", "MARGINAL", "INFEASIBLE", "NOT_EVALUATED"]}, "simulation_result_is_not_feasibility": {"const": true}}
+    },
+    "safety": {
+      "type": "object", "additionalProperties": false,
+      "required": ["offline_only", "network_access_performed", "gpio_access_performed", "serial_access_performed", "hardware_output_performed", "motor_control_performed", "pto_control_performed", "charging_control_performed", "bms_communication_performed", "rover_communication_performed", "actual_assignment_performed", "actual_arm_performed", "manual_battery_swap", "automatic_battery_swap", "automatic_restart", "autonomous_interfield_transfer", "autonomous_public_road_crossing", "rover_carried_station_transfer", "night_operation_requires_field_validation", "night_operation_approved", "field_operation_approved", "unattended_operation_approved", "physical_estop_independent", "production_ready"],
+      "properties": {"offline_only": {"const": true}, "network_access_performed": {"const": false}, "gpio_access_performed": {"const": false}, "serial_access_performed": {"const": false}, "hardware_output_performed": {"const": false}, "motor_control_performed": {"const": false}, "pto_control_performed": {"const": false}, "charging_control_performed": {"const": false}, "bms_communication_performed": {"const": false}, "rover_communication_performed": {"const": false}, "actual_assignment_performed": {"const": false}, "actual_arm_performed": {"const": false}, "manual_battery_swap": {"const": true}, "automatic_battery_swap": {"const": false}, "automatic_restart": {"const": false}, "autonomous_interfield_transfer": {"const": false}, "autonomous_public_road_crossing": {"const": false}, "rover_carried_station_transfer": {"const": false}, "night_operation_requires_field_validation": {"const": true}, "night_operation_approved": {"const": false}, "field_operation_approved": {"const": false}, "unattended_operation_approved": {"const": false}, "physical_estop_independent": {"const": true}, "production_ready": {"const": false}}
+    },
+    "diagnostic": {
+      "type": "object", "additionalProperties": false,
+      "required": ["diagnostic_id", "severity", "message"],
+      "properties": {"diagnostic_id": {"type": "string", "pattern": "^ST011-"}, "severity": {"enum": ["INFO", "WARNING", "ERROR"]}, "message": {"type": "string", "minLength": 1, "maxLength": 512}}
+    }
+  }
+}

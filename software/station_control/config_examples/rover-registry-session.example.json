@@ -1,0 +1,96 @@
+{
+  "session_version": 1,
+  "session_id": "SESSION-ST006-POSITIVE",
+  "operations": [
+    {
+      "operation_id": "OP-ST006-001",
+      "logical_tick": 0,
+      "operation_type": "REGISTER_ROVER",
+      "payload": {
+        "rover_id": "ROVER-DEMO-001",
+        "display_name": "Demo Scout 1",
+        "role": "SCOUT",
+        "initial_state": "PENDING",
+        "enabled": true,
+        "profile_revision": 1,
+        "hardware_class": "SCOUT_VARIANT",
+        "allowed_fields": ["FIELD-DEMO-001", "FIELD-DEMO-002"],
+        "allowed_units": ["UNIT-DEMO-SCOUT"]
+      }
+    },
+    {
+      "operation_id": "OP-ST006-002",
+      "logical_tick": 1,
+      "operation_type": "REGISTER_ROVER",
+      "payload": {
+        "rover_id": "ROVER-DEMO-002",
+        "display_name": "Demo Work 1",
+        "role": "WORK",
+        "initial_state": "PENDING",
+        "enabled": true,
+        "profile_revision": 1,
+        "hardware_class": "WORK_VARIANT",
+        "allowed_fields": ["FIELD-DEMO-001"],
+        "allowed_units": ["UNIT-DEMO-WEED"]
+      }
+    },
+    {
+      "operation_id": "OP-ST006-003",
+      "logical_tick": 2,
+      "operation_type": "REGISTER_ROVER",
+      "payload": {
+        "rover_id": "ROVER-DEMO-003",
+        "display_name": "Demo Work 2",
+        "role": "WORK",
+        "initial_state": "PENDING",
+        "enabled": true,
+        "profile_revision": 1,
+        "hardware_class": "WORK_VARIANT",
+        "allowed_fields": ["FIELD-DEMO-002"],
+        "allowed_units": ["UNIT-DEMO-WEED"]
+      }
+    },
+    {
+      "operation_id": "OP-ST006-004",
+      "logical_tick": 3,
+      "operation_type": "SET_REGISTRATION_STATE",
+      "payload": {"rover_id": "ROVER-DEMO-001", "target_state": "REGISTERED", "operator_approved": true, "rover_confirmed_stopped": true, "active_mission_count": 0, "charging_transition_count": 0, "reason": "operator registered demo rover"}
+    },
+    {
+      "operation_id": "OP-ST006-005",
+      "logical_tick": 4,
+      "operation_type": "SET_REGISTRATION_STATE",
+      "payload": {"rover_id": "ROVER-DEMO-002", "target_state": "REGISTERED", "operator_approved": true, "rover_confirmed_stopped": true, "active_mission_count": 0, "charging_transition_count": 0, "reason": "operator registered demo rover"}
+    },
+    {
+      "operation_id": "OP-ST006-006",
+      "logical_tick": 5,
+      "operation_type": "SET_REGISTRATION_STATE",
+      "payload": {"rover_id": "ROVER-DEMO-003", "target_state": "REGISTERED", "operator_approved": true, "rover_confirmed_stopped": true, "active_mission_count": 0, "charging_transition_count": 0, "reason": "operator registered demo rover"}
+    },
+    {
+      "operation_id": "OP-ST006-007",
+      "logical_tick": 6,
+      "operation_type": "SET_REGISTRATION_STATE",
+      "payload": {"rover_id": "ROVER-DEMO-003", "target_state": "SUSPENDED", "operator_approved": true, "rover_confirmed_stopped": true, "active_mission_count": 0, "charging_transition_count": 0, "reason": "demo suspension before authorization test"}
+    },
+    {
+      "operation_id": "OP-ST006-008",
+      "logical_tick": 7,
+      "operation_type": "AUTHORIZE_ASSIGNMENT",
+      "payload": {"authorization_id": "AUTH-ST006-001", "rover_id": "ROVER-DEMO-001", "mission_id": "MISSION-DEMO-001", "mission_state": "QUEUED", "active_field_id": "FIELD-DEMO-001", "requested_field_id": "FIELD-DEMO-001", "requested_unit_id": "UNIT-DEMO-SCOUT", "operator_approved": true, "rover_reported_stopped": true, "communication_available": true, "fault_present": false, "battery_percentage": 80, "physical_estop_asserted": false}
+    },
+    {
+      "operation_id": "OP-ST006-009",
+      "logical_tick": 8,
+      "operation_type": "AUTHORIZE_ASSIGNMENT",
+      "payload": {"authorization_id": "AUTH-ST006-002", "rover_id": "ROVER-DEMO-003", "mission_id": "MISSION-DEMO-002", "mission_state": "QUEUED", "active_field_id": "FIELD-DEMO-002", "requested_field_id": "FIELD-DEMO-002", "requested_unit_id": "UNIT-DEMO-WEED", "operator_approved": true, "rover_reported_stopped": true, "communication_available": true, "fault_present": false, "battery_percentage": 80, "physical_estop_asserted": false}
+    },
+    {
+      "operation_id": "OP-ST006-010",
+      "logical_tick": 9,
+      "operation_type": "VERIFY_INTEGRITY",
+      "payload": {}
+    }
+  ]
+}

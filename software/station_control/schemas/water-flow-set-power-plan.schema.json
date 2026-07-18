@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paddy-swarm.invalid/schemas/water-flow-set-power-plan.schema.json",
+  "title": "ST-011 Water-Flow Set Power Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_version", "plan_id", "st010_plan_relative_path", "water_flow_sets", "persistent_deployment", "logistics", "allocation_policies", "speed_profiles_mm_per_minute", "availability_basis_points", "deadlines", "work_blocks", "heat_profiles", "night_factors_basis_points", "rover_battery", "charger", "portable_module", "pack_cadences"],
+  "properties": {
+    "plan_version": {"const": 1},
+    "plan_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "st010_plan_relative_path": {"const": "software/station_control/config_examples/multi-field-weed-plan.example.json"},
+    "water_flow_sets": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/waterFlowSet"}},
+    "persistent_deployment": {"$ref": "#/$defs/persistentDeployment"},
+    "logistics": {"$ref": "#/$defs/logistics"},
+    "allocation_policies": {"type": "array", "prefixItems": [{"const": "SET_SEQUENTIAL"}, {"const": "SET_PARALLEL_EQUAL"}, {"const": "SET_PARALLEL_WEIGHTED"}, {"const": "SET_FINISH_FIRST"}, {"const": "SET_WATER_ORDERED"}], "items": false, "minItems": 5, "maxItems": 5},
+    "speed_profiles_mm_per_minute": {"type": "array", "prefixItems": [{"const": 400}, {"const": 700}, {"const": 1000}], "items": false, "minItems": 3, "maxItems": 3},
+    "availability_basis_points": {"const": 6000},
+    "deadlines": {"type": "array", "prefixItems": [{"const": 10}, {"const": 14}, {"const": 21}], "items": false, "minItems": 3, "maxItems": 3},
+    "work_blocks": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/workBlock"}},
+    "heat_profiles": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/heatProfile"}},
+    "night_factors_basis_points": {"type": "array", "prefixItems": [{"const": 7000}, {"const": 8500}, {"const": 10000}], "items": false, "minItems": 3, "maxItems": 3},
+    "rover_battery": {"$ref": "#/$defs/roverBattery"},
+    "charger": {"$ref": "#/$defs/charger"},
+    "portable_module": {"$ref": "#/$defs/portableModule"},
+    "pack_cadences": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/packCadence"}}
+  },
+  "$defs": {
+    "waterFlowSet": {
+      "type": "object", "additionalProperties": false,
+      "required": ["set_id", "field_ids", "total_area_m2", "target_distance_mm"],
+      "properties": {
+        "set_id": {"enum": ["SET-HOME-01", "SET-HOME-02", "SET-HOME-03", "SET-OTHER-CONSIGNED-01", "SET-CONSIGNED-01", "SET-OWN-A-01", "SET-OWN-B-01"]},
+        "field_ids": {"type": "array", "minItems": 2, "maxItems": 3, "uniqueItems": true, "items": {"type": "string", "pattern": "^GROUP-[A-Z-]+-F[0-9]{2}$"}},
+        "total_area_m2": {"type": "integer", "minimum": 2842, "maximum": 4264},
+        "target_distance_mm": {"type": "integer", "minimum": 10894334, "maximum": 16345334}
+      }
+    },
+    "persistentDeployment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rover_count", "persistent_until_set_complete", "daily_rover_recovery", "daily_station_recovery", "manual_rover_transfer", "manual_station_transfer", "maximum_set_transfers_per_day"],
+      "properties": {
+        "rover_count": {"const": 12}, "persistent_until_set_complete": {"const": true},
+        "daily_rover_recovery": {"const": false}, "daily_station_recovery": {"const": false},
+        "manual_rover_transfer": {"const": true}, "manual_station_transfer": {"const": true},
+        "maximum_set_transfers_per_day": {"const": 1}
+      }
+    },
+    "logistics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["vehicle_count", "operator_count", "vehicle_rover_capacity", "load_minutes_per_rover", "unload_minutes_per_rover", "secure_minutes_per_trip", "cross_set_drive_minutes_per_trip", "station_pack_minutes", "station_setup_minutes", "station_dedicated_trip"],
+      "properties": {
+        "vehicle_count": {"const": 1}, "operator_count": {"const": 2}, "vehicle_rover_capacity": {"const": 10},
+        "load_minutes_per_rover": {"const": 4}, "unload_minutes_per_rover": {"const": 4},
+        "secure_minutes_per_trip": {"const": 10}, "cross_set_drive_minutes_per_trip": {"const": 20},
+        "station_pack_minutes": {"const": 20}, "station_setup_minutes": {"const": 25},
+        "station_dedicated_trip": {"const": true}
+      }
+    },
+    "workBlock": {
+      "type": "object", "additionalProperties": false,
+      "required": ["block_id", "service_id", "scheduled_minutes"],
+      "properties": {
+        "block_id": {"enum": ["EARLY_MORNING", "MIDDAY", "EVENING_NIGHT"]},
+        "service_id": {"enum": ["MORNING_SERVICE", "MIDDAY_SERVICE", "EVENING_SERVICE"]},
+        "scheduled_minutes": {"const": 150}
+      }
+    },
+    "heatProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["heat_profile_id", "block_minutes"],
+      "properties": {
+        "heat_profile_id": {"enum": ["COOL_DAY", "HOT_DAY", "EXTREME_HEAT"]},
+        "block_minutes": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 0, "maximum": 150}}
+      }
+    },
+    "roverBattery": {
+      "type": "object", "additionalProperties": false,
+      "required": ["battery_id", "nominal_energy_mwh", "usable_energy_mwh", "runtime_minutes", "charge_minutes", "battery_swap_minutes", "battery_pool_options", "initially_full", "fifo"],
+      "properties": {
+        "battery_id": {"const": "BATTERY-DEMO-LIFEPO4-12V-10AH"}, "nominal_energy_mwh": {"const": 128000},
+        "usable_energy_mwh": {"const": 102400}, "runtime_minutes": {"const": 150},
+        "charge_minutes": {"const": 180}, "battery_swap_minutes": {"const": 3},
+        "battery_pool_options": {"type": "array", "prefixItems": [{"const": 16}, {"const": 24}, {"const": 36}], "items": false, "minItems": 3, "maxItems": 3},
+        "initially_full": {"const": true}, "fifo": {"const": true}
+      }
+    },
+    "charger": {
+      "type": "object", "additionalProperties": false,
+      "required": ["charger_count", "full_charge_minutes", "full_recharge_required_mwh"],
+      "properties": {"charger_count": {"const": 5}, "full_charge_minutes": {"const": 180}, "full_recharge_required_mwh": {"const": 102400}}
+    },
+    "portableModule": {
+      "type": "object", "additionalProperties": false,
+      "required": ["module_nominal_energy_mwh", "module_mass_g", "module_reserve_basis_points", "conversion_efficiency_basis_points", "station_pack_auxiliary_mass_g", "module_counts", "pack_swap_minutes", "vehicle_visit_minutes"],
+      "properties": {
+        "module_nominal_energy_mwh": {"const": 128000}, "module_mass_g": {"const": 1200},
+        "module_reserve_basis_points": {"const": 1000}, "conversion_efficiency_basis_points": {"const": 8500},
+        "station_pack_auxiliary_mass_g": {"const": 1200},
+        "module_counts": {"type": "array", "prefixItems": [{"const": 5}, {"const": 6}, {"const": 7}, {"const": 8}], "items": false, "minItems": 4, "maxItems": 4},
+        "pack_swap_minutes": {"const": 10}, "vehicle_visit_minutes": {"const": 20}
+      }
+    },
+    "packCadence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["cadence_id", "deliveries_per_day", "service_ids"],
+      "properties": {
+        "cadence_id": {"enum": ["PACK_MORNING_ONLY", "PACK_MORNING_EVENING", "PACK_THREE_SERVICES"]},
+        "deliveries_per_day": {"type": "integer", "minimum": 1, "maximum": 3},
+        "service_ids": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"enum": ["MORNING_SERVICE", "MIDDAY_SERVICE", "EVENING_SERVICE"]}}
+      }
+    }
+  }
+}

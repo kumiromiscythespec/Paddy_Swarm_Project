@@ -1,0 +1,54 @@
+[station]
+station_id = "STATION-DEMO-001"
+display_name = "Orange Pi Prototype Station"
+timezone = "Asia/Tokyo"
+active_field_profile = "FIELD-DEMO-001"
+
+[runtime]
+mode = "simulation"
+offline_first = true
+real_hardware_enabled = false
+web_bind_host = "127.0.0.1"
+web_port = 8080
+
+[storage]
+database_path = "data/station.db"
+event_log_path = "data/events.jsonl"
+upload_outbox_enabled = true
+maximum_local_days = 30
+
+[safety]
+require_operator_approval = true
+allow_rover_motion_commands = false
+allow_charging_contactor_control = false
+allow_water_gate_control = false
+allow_automatic_mission_resume = false
+allow_automatic_field_switch = false
+
+[rover_gateway]
+enabled = false
+transport = "simulation"
+
+[water_level]
+enabled = false
+adapter = "simulation"
+sample_interval_seconds = 60
+
+[station_health]
+enabled = false
+adapter = "simulation"
+sample_interval_seconds = 60
+
+[charging]
+enabled = false
+adapter = "simulation"
+maximum_simultaneous_rovers = 1
+
+[sync]
+enabled = false
+endpoint = ""
+batch_size = 100
+
+[logging]
+level = "INFO"
+telemetry_sample_interval_seconds = 10

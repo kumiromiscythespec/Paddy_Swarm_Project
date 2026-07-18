@@ -1,0 +1,81 @@
+{
+  "plan_version": 1,
+  "plan_id": "ST011-WATER-FLOW-SET-POWER-DEMO",
+  "st010_plan_relative_path": "software/station_control/config_examples/multi-field-weed-plan.example.json",
+  "water_flow_sets": [
+    {"set_id": "SET-HOME-01", "field_ids": ["GROUP-HOME-F01", "GROUP-HOME-F02", "GROUP-HOME-F03"], "total_area_m2": 4264, "target_distance_mm": 16345334},
+    {"set_id": "SET-HOME-02", "field_ids": ["GROUP-HOME-F04", "GROUP-HOME-F05", "GROUP-HOME-F06"], "total_area_m2": 4263, "target_distance_mm": 16341501},
+    {"set_id": "SET-HOME-03", "field_ids": ["GROUP-HOME-F07", "GROUP-HOME-F08", "GROUP-HOME-F09"], "total_area_m2": 4263, "target_distance_mm": 16341501},
+    {"set_id": "SET-OTHER-CONSIGNED-01", "field_ids": ["GROUP-OTHER-CONSIGNED-F01", "GROUP-OTHER-CONSIGNED-F02", "GROUP-OTHER-CONSIGNED-F03"], "total_area_m2": 4263, "target_distance_mm": 16341501},
+    {"set_id": "SET-CONSIGNED-01", "field_ids": ["GROUP-CONSIGNED-F01", "GROUP-CONSIGNED-F02"], "total_area_m2": 2842, "target_distance_mm": 10894334},
+    {"set_id": "SET-OWN-A-01", "field_ids": ["GROUP-OWN-A-F01", "GROUP-OWN-A-F02"], "total_area_m2": 2842, "target_distance_mm": 10894334},
+    {"set_id": "SET-OWN-B-01", "field_ids": ["GROUP-OWN-B-F01", "GROUP-OWN-B-F02", "GROUP-OWN-B-F03"], "total_area_m2": 4263, "target_distance_mm": 16341501}
+  ],
+  "persistent_deployment": {
+    "rover_count": 12,
+    "persistent_until_set_complete": true,
+    "daily_rover_recovery": false,
+    "daily_station_recovery": false,
+    "manual_rover_transfer": true,
+    "manual_station_transfer": true,
+    "maximum_set_transfers_per_day": 1
+  },
+  "logistics": {
+    "vehicle_count": 1,
+    "operator_count": 2,
+    "vehicle_rover_capacity": 10,
+    "load_minutes_per_rover": 4,
+    "unload_minutes_per_rover": 4,
+    "secure_minutes_per_trip": 10,
+    "cross_set_drive_minutes_per_trip": 20,
+    "station_pack_minutes": 20,
+    "station_setup_minutes": 25,
+    "station_dedicated_trip": true
+  },
+  "allocation_policies": ["SET_SEQUENTIAL", "SET_PARALLEL_EQUAL", "SET_PARALLEL_WEIGHTED", "SET_FINISH_FIRST", "SET_WATER_ORDERED"],
+  "speed_profiles_mm_per_minute": [400, 700, 1000],
+  "availability_basis_points": 6000,
+  "deadlines": [10, 14, 21],
+  "work_blocks": [
+    {"block_id": "EARLY_MORNING", "service_id": "MORNING_SERVICE", "scheduled_minutes": 150},
+    {"block_id": "MIDDAY", "service_id": "MIDDAY_SERVICE", "scheduled_minutes": 150},
+    {"block_id": "EVENING_NIGHT", "service_id": "EVENING_SERVICE", "scheduled_minutes": 150}
+  ],
+  "heat_profiles": [
+    {"heat_profile_id": "COOL_DAY", "block_minutes": [150, 150, 150]},
+    {"heat_profile_id": "HOT_DAY", "block_minutes": [150, 0, 150]},
+    {"heat_profile_id": "EXTREME_HEAT", "block_minutes": [120, 0, 120]}
+  ],
+  "night_factors_basis_points": [7000, 8500, 10000],
+  "rover_battery": {
+    "battery_id": "BATTERY-DEMO-LIFEPO4-12V-10AH",
+    "nominal_energy_mwh": 128000,
+    "usable_energy_mwh": 102400,
+    "runtime_minutes": 150,
+    "charge_minutes": 180,
+    "battery_swap_minutes": 3,
+    "battery_pool_options": [16, 24, 36],
+    "initially_full": true,
+    "fifo": true
+  },
+  "charger": {
+    "charger_count": 5,
+    "full_charge_minutes": 180,
+    "full_recharge_required_mwh": 102400
+  },
+  "portable_module": {
+    "module_nominal_energy_mwh": 128000,
+    "module_mass_g": 1200,
+    "module_reserve_basis_points": 1000,
+    "conversion_efficiency_basis_points": 8500,
+    "station_pack_auxiliary_mass_g": 1200,
+    "module_counts": [5, 6, 7, 8],
+    "pack_swap_minutes": 10,
+    "vehicle_visit_minutes": 20
+  },
+  "pack_cadences": [
+    {"cadence_id": "PACK_MORNING_ONLY", "deliveries_per_day": 1, "service_ids": ["MORNING_SERVICE"]},
+    {"cadence_id": "PACK_MORNING_EVENING", "deliveries_per_day": 2, "service_ids": ["MORNING_SERVICE", "EVENING_SERVICE"]},
+    {"cadence_id": "PACK_THREE_SERVICES", "deliveries_per_day": 3, "service_ids": ["MORNING_SERVICE", "MIDDAY_SERVICE", "EVENING_SERVICE"]}
+  ]
+}

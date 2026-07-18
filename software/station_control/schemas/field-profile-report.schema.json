@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "field-profile-report.schema.json",
+  "title": "ST-005 Field Profile Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_version", "phase", "session_id", "result", "database", "transaction", "schema", "operations", "fields", "references", "no_go_zones", "active_field", "integrity", "idempotency", "safety", "summary", "diagnostics", "canonical_state_sha256", "exit_code"],
+  "properties": {
+    "report_version": {"const": 1},
+    "phase": {"const": "ST-005"},
+    "session_id": {"type": "string", "minLength": 1, "maxLength": 64},
+    "result": {"enum": ["PASS", "FAIL"]},
+    "database": {"$ref": "#/$defs/database"},
+    "transaction": {"$ref": "#/$defs/transaction"},
+    "schema": {"$ref": "#/$defs/schema"},
+    "operations": {"$ref": "#/$defs/operations"},
+    "fields": {"$ref": "#/$defs/fields"},
+    "references": {"$ref": "#/$defs/references"},
+    "no_go_zones": {"$ref": "#/$defs/zones"},
+    "active_field": {"$ref": "#/$defs/active"},
+    "integrity": {"$ref": "#/$defs/integrity"},
+    "idempotency": {"$ref": "#/$defs/idempotency"},
+    "safety": {"$ref": "#/$defs/safety"},
+    "summary": {"$ref": "#/$defs/summary"},
+    "diagnostics": {"type": "array", "maxItems": 64, "items": {"$ref": "#/$defs/diagnostic"}},
+    "canonical_state_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "maxLength": 64},
+    "exit_code": {"enum": [0, 2, 3, 4, 5, 7]}
+  },
+  "$defs": {
+    "database": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created", "reopened", "database_outside_repository", "journal_mode", "synchronous", "foreign_keys", "busy_timeout_ms"],
+      "properties": {
+        "created": {"type": "boolean"}, "reopened": {"type": "boolean"},
+        "database_outside_repository": {"type": "boolean"},
+        "journal_mode": {"enum": ["", "wal"]}, "synchronous": {"enum": ["", "FULL"]},
+        "foreign_keys": {"type": "boolean"}, "busy_timeout_ms": {"type": "integer", "minimum": 0, "maximum": 5000}
+      }
+    },
+    "transaction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["atomic_session", "begun", "committed", "rolled_back"],
+      "properties": {"atomic_session": {"type": "boolean"}, "begun": {"type": "boolean"}, "committed": {"type": "boolean"}, "rolled_back": {"type": "boolean"}}
+    },
+    "schema": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "supported", "initialized", "migration_performed"],
+      "properties": {"schema_version": {"type": "integer", "minimum": 0, "maximum": 1}, "supported": {"type": "boolean"}, "initialized": {"type": "boolean"}, "migration_performed": {"type": "boolean"}}
+    },
+    "operations": {
+      "type": "object", "additionalProperties": false,
+      "required": ["input_count", "processed_count", "applied_count", "duplicate_noop_count", "rejected_count"],
+      "properties": {"input_count": {"type": "integer", "minimum": 0, "maximum": 256}, "processed_count": {"type": "integer", "minimum": 0, "maximum": 256}, "applied_count": {"type": "integer", "minimum": 0, "maximum": 256}, "duplicate_noop_count": {"type": "integer", "minimum": 0, "maximum": 256}, "rejected_count": {"type": "integer", "minimum": 0, "maximum": 256}}
+    },
+    "fields": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "revised_count", "enabled_count", "disabled_count", "total_count"],
+      "properties": {"created_count": {"type": "integer", "minimum": 0, "maximum": 64}, "revised_count": {"type": "integer", "minimum": 0, "maximum": 256}, "enabled_count": {"type": "integer", "minimum": 0, "maximum": 64}, "disabled_count": {"type": "integer", "minimum": 0, "maximum": 64}, "total_count": {"type": "integer", "minimum": 0, "maximum": 64}}
+    },
+    "references": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "total_count"],
+      "properties": {"created_count": {"type": "integer", "minimum": 0, "maximum": 2048}, "total_count": {"type": "integer", "minimum": 0, "maximum": 2048}}
+    },
+    "zones": {
+      "type": "object", "additionalProperties": false,
+      "required": ["created_count", "total_count", "enabled_count"],
+      "properties": {"created_count": {"type": "integer", "minimum": 0, "maximum": 2048}, "total_count": {"type": "integer", "minimum": 0, "maximum": 2048}, "enabled_count": {"type": "integer", "minimum": 0, "maximum": 2048}}
+    },
+    "active": {
+      "type": "object", "additionalProperties": false,
+      "required": ["active_field_id", "selection_revision", "changed", "automatic_selection_performed"],
+      "properties": {"active_field_id": {"type": "string", "pattern": "^$|^[A-Z][A-Z0-9-]{2,63}$", "maxLength": 64}, "selection_revision": {"type": "integer", "minimum": 0, "maximum": 2147483647}, "changed": {"type": "boolean"}, "automatic_selection_performed": {"type": "boolean"}}
+    },
+    "integrity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["check_performed", "result"],
+      "properties": {"check_performed": {"type": "boolean"}, "result": {"enum": ["OK", "FAILED", "NOT_PERFORMED"]}}
+    },
+    "idempotency": {
+      "type": "object", "additionalProperties": false,
+      "required": ["request_hash_algorithm", "duplicate_noop_count", "conflict_count"],
+      "properties": {"request_hash_algorithm": {"const": "SHA256_CANONICAL_JSON"}, "duplicate_noop_count": {"type": "integer", "minimum": 0, "maximum": 256}, "conflict_count": {"type": "integer", "minimum": 0, "maximum": 256}}
+    },
+    "safety": {
+      "type": "object", "additionalProperties": false,
+      "required": ["offline_only", "network_access_performed", "gpio_access_performed", "serial_access_performed", "hardware_output_performed", "motor_control_performed", "charging_control_performed", "rover_communication_performed", "field_navigation_performed", "automatic_field_selection_performed", "actual_water_control_performed", "repository_modified", "physical_estop_independent"],
+      "properties": {"offline_only": {"type": "boolean"}, "network_access_performed": {"type": "boolean"}, "gpio_access_performed": {"type": "boolean"}, "serial_access_performed": {"type": "boolean"}, "hardware_output_performed": {"type": "boolean"}, "motor_control_performed": {"type": "boolean"}, "charging_control_performed": {"type": "boolean"}, "rover_communication_performed": {"type": "boolean"}, "field_navigation_performed": {"type": "boolean"}, "automatic_field_selection_performed": {"type": "boolean"}, "actual_water_control_performed": {"type": "boolean"}, "repository_modified": {"type": "boolean"}, "physical_estop_independent": {"type": "boolean"}}
+    },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["table_count", "row_count_total", "diagnostic_count", "next_phase_eligible"],
+      "properties": {"table_count": {"const": 6}, "row_count_total": {"type": "integer", "minimum": 0, "maximum": 100000}, "diagnostic_count": {"type": "integer", "minimum": 0, "maximum": 64}, "next_phase_eligible": {"type": "boolean"}}
+    },
+    "diagnostic": {
+      "type": "object", "additionalProperties": false,
+      "required": ["severity", "code", "component", "operation_id", "message"],
+      "properties": {
+        "severity": {"enum": ["ERROR", "WARNING", "INFO"]},
+        "code": {"enum": ["FIELD_INVALID_ARGUMENT", "FIELD_REPOSITORY_ROOT_INVALID", "FIELD_DATABASE_PATH_INSIDE_REPOSITORY", "FIELD_DATABASE_PARENT_INVALID", "FIELD_REPORT_PATH_INSIDE_REPOSITORY", "FIELD_REPORT_PARENT_INVALID", "FIELD_SESSION_INVALID", "FIELD_SESSION_TICK_REVERSED", "FIELD_SCHEMA_VERSION_UNSUPPORTED", "FIELD_SCHEMA_INITIALIZATION_FAILED", "FIELD_TRANSACTION_BEGIN_FAILED", "FIELD_OPERATION_UNKNOWN", "FIELD_IDEMPOTENCY_CONFLICT", "FIELD_ALREADY_EXISTS", "FIELD_NOT_FOUND", "FIELD_REVISION_CONFLICT", "FIELD_REVISION_SEQUENCE_INVALID", "FIELD_PROFILE_INVALID", "FIELD_REFERENCE_DUPLICATE", "FIELD_REFERENCE_REQUIRED_MISSING", "FIELD_LOCATION_REFERENCE_INVALID", "FIELD_ZONE_DUPLICATE", "FIELD_ZONE_BOUNDARY_INVALID", "FIELD_DISABLED", "FIELD_OPERATOR_APPROVAL_REQUIRED", "FIELD_ROVERS_NOT_STOPPED", "FIELD_ACTIVE_MISSION_PRESENT", "FIELD_CHARGING_TRANSITION_ACTIVE", "FIELD_ACTIVE_SELECTION_CONFLICT", "FIELD_TRANSACTION_ROLLED_BACK", "FIELD_INTEGRITY_CHECK_FAILED", "FIELD_REOPEN_FAILED", "FIELD_REPORT_WRITE_FAILED", "FIELD_INTERNAL_ERROR"]},
+        "component": {"type": "string", "minLength": 1, "maxLength": 32},
+        "operation_id": {"type": "string", "maxLength": 64},
+        "message": {"type": "string", "minLength": 1, "maxLength": 256}
+      }
+    }
+  }
+}

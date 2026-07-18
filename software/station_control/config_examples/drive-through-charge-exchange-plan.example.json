@@ -1,0 +1,171 @@
+{
+  "plan_version": 1,
+  "plan_id": "ST012-DRIVE-THROUGH-CHARGE-EXCHANGE-DEMO",
+  "st011_plan_relative_path": "software/station_control/config_examples/water-flow-set-power-plan.example.json",
+  "allocation_policy": "SET_SEQUENTIAL",
+  "field_set_contract": {
+    "field_count": 19,
+    "set_count": 7,
+    "set_sizes": [3, 3, 3, 3, 2, 2, 3],
+    "total_area_m2": 27000,
+    "total_target_distance_mm": 103500006,
+    "maximum_set_transfers_per_day": 1
+  },
+  "fleet_profiles": [
+    {
+      "fleet_profile": "FLEET_22",
+      "fleet_rover_count": 22,
+      "target_active_rover_count": 12,
+      "installed_rover_battery_count": 22,
+      "maintenance_spare_rover_battery_count": 2,
+      "total_rover_battery_count": 24,
+      "recommended_for": "TWO_BLOCK_HEAT_AVOID"
+    },
+    {
+      "fleet_profile": "FLEET_30",
+      "fleet_rover_count": 30,
+      "target_active_rover_count": 12,
+      "installed_rover_battery_count": 30,
+      "maintenance_spare_rover_battery_count": 2,
+      "total_rover_battery_count": 32,
+      "recommended_for": "THREE_BLOCK_MAX"
+    }
+  ],
+  "rover_battery": {
+    "battery_id": "BATTERY-DEMO-LIFEPO4-12V-10AH",
+    "nominal_energy_mwh": 128000,
+    "usable_energy_mwh": 102400,
+    "full_runtime_minutes": 150,
+    "full_charge_minutes": 180,
+    "battery_mass_g": 1200,
+    "low_return_request_runtime_minutes": 30,
+    "minimum_emergency_runtime_reserve_minutes": 10,
+    "fixed_onboard": true,
+    "routine_swap_performed": false
+  },
+  "work_schedules": [
+    {"work_schedule": "TWO_BLOCK_HEAT_AVOID", "block_minutes": [150, 0, 150]},
+    {"work_schedule": "THREE_BLOCK_MAX", "block_minutes": [150, 150, 150]}
+  ],
+  "environment_profiles": [
+    {"environment_profile": "ENV_COOL_NIGHT_100", "block_minutes": [150, 150, 150], "night_speed_basis_points": 10000},
+    {"environment_profile": "ENV_HOT_NIGHT_85", "block_minutes": [150, 0, 150], "night_speed_basis_points": 8500},
+    {"environment_profile": "ENV_EXTREME_NIGHT_70", "block_minutes": [120, 0, 120], "night_speed_basis_points": 7000}
+  ],
+  "speed_profiles_mm_per_minute": [400, 700, 1000],
+  "availability_basis_points": 6000,
+  "return_distances_mm": [25000, 50000, 75000],
+  "deadlines": [10, 14, 21],
+  "drive_through_station": {
+    "charge_bay_count": 5,
+    "bay_ids": ["BAY-01", "BAY-02", "BAY-03", "BAY-04", "BAY-05"],
+    "lane_a_bays": ["BAY-01", "BAY-02", "BAY-03"],
+    "lane_b_bays": ["BAY-04", "BAY-05"],
+    "queue_capacity_rovers": 12,
+    "bypass_lane": true,
+    "bay_entry_alignment_minutes": 2,
+    "connector_engage_and_verify_minutes": 2,
+    "full_charge_minutes": 180,
+    "connector_release_minutes": 1,
+    "bay_exit_clear_minutes": 1,
+    "total_full_cycle_bay_occupancy_minutes": 186,
+    "independent_resources": true
+  },
+  "connector": {
+    "position": "HIGH_MOUNTED",
+    "sequence": [
+      "rover enters at low speed",
+      "wheel guides align rover",
+      "rover stops",
+      "holding brake simulated",
+      "motor inhibit simulated",
+      "PTO inhibit simulated",
+      "high-mounted connector engages",
+      "mechanical lock confirmation",
+      "connector ID confirmation",
+      "voltage compatibility confirmation",
+      "insulation and fault status confirmation",
+      "charging simulated",
+      "charging current becomes zero",
+      "contactor-open state simulated",
+      "connector releases",
+      "rover clears bay forward"
+    ],
+    "hardware_output": false
+  },
+  "station_cassette": {
+    "module_count_per_cassette": 7,
+    "module_nominal_energy_mwh": 128000,
+    "module_mass_g": 1200,
+    "module_reserve_basis_points": 1000,
+    "conversion_efficiency_basis_points": 8500,
+    "cassette_auxiliary_mass_g": 1200,
+    "cassette_total_mass_g": 9600,
+    "delivered_energy_per_module_mwh": 97920,
+    "delivered_energy_per_cassette_mwh": 685440,
+    "inventory_options": [6, 8],
+    "slot_ids": ["SLOT-A", "SLOT-B"],
+    "direct_parallel_enabled": false,
+    "replacement_request_threshold_mwh": 204800,
+    "cassette_switch_pause_minutes": 1,
+    "cassette_exchange_dock_minutes": 10,
+    "exchange_method": "HORIZONTAL_SLIDE",
+    "sequence": [
+      "mule approaches station dock",
+      "mule enters alignment guide",
+      "mule stops and holding brake simulated",
+      "station verifies mule ID",
+      "mule inserts full cassette into EMPTY slot",
+      "mechanical latch locks",
+      "cassette ID read",
+      "cassette voltage checked",
+      "cassette temperature checked",
+      "BMS-ready state simulated",
+      "precharge simulated",
+      "charger output temporarily pauses",
+      "existing ACTIVE slot contactor opens",
+      "zero-current state confirmed",
+      "new slot becomes ACTIVE",
+      "charger output resumes",
+      "previous slot becomes DEPLETED_SAFE",
+      "mule withdraws depleted cassette",
+      "mule cargo latch confirms",
+      "mule exits forward"
+    ]
+  },
+  "battery_mules": {
+    "battery_mule_count": 2,
+    "vehicle_type": "FOUR_WHEEL_ACKERMANN",
+    "operation_area": "REGISTERED_WIDE_LEVEE_ROUTE_ONLY",
+    "cassette_payload_count": 1,
+    "installed_modules_per_mule": 2,
+    "shared_maintenance_spare_modules": 2,
+    "total_battery_modules": 6,
+    "usable_route_runtime_minutes": 240,
+    "full_recharge_minutes": 180,
+    "day_speed_mm_per_second": 500,
+    "night_speed_mm_per_second": 300,
+    "route_distances_mm": [50000, 100000, 200000, 300000, 500000],
+    "profiles": ["MULE_NOMINAL", "MULE_ONE_OUT", "MULE_NIGHT_HOLD"],
+    "segment_reservation_required": true,
+    "passing": false,
+    "overtaking": false,
+    "paddy_entry": false,
+    "public_road_operation": false
+  },
+  "hub": {
+    "cassette_charger_ports": 2,
+    "cassette_full_recharge_minutes": 180,
+    "mule_charger_ports": 2,
+    "full_cassette_load_minutes": 5,
+    "depleted_cassette_unload_minutes": 5,
+    "cassette_queue": "FIFO",
+    "whole_cassette_charging": true
+  },
+  "required_capacity_ranges": {
+    "rover_count": [12, 40],
+    "charge_bay_count": [1, 15],
+    "cassette_inventory_count": [2, 16],
+    "mule_count": [1, 5]
+  }
+}

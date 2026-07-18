@@ -1,0 +1,36 @@
+{
+  "sweep_version": 1,
+  "sweep_id": "SWEEP-ST009-FIELD-DEMO-001",
+  "targets": [
+    "TARGET_BASELINE",
+    "TARGET_WET_RESILIENT",
+    "TARGET_ALL_SCENARIOS"
+  ],
+  "ranges": {
+    "broadcast_rover_counts": [4],
+    "weed_rover_counts": [2, 3, 4, 5, 6],
+    "high_cut_rover_counts": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "carrier_rover_counts": [2, 3, 4, 5, 6, 7, 8],
+    "battery_pool_counts": [16, 20, 24, 28, 32, 36, 40, 44, 48],
+    "charger_counts": [4, 6, 8, 10, 12],
+    "cassette_capacity_g_values": [1000, 2000, 4000],
+    "carrier_cassettes_per_trip_values": [1, 2, 4, 6],
+    "temporary_drop_slot_counts": [50, 100, 150, 200],
+    "manual_recovery_per_day_values": [0, 10, 20]
+  },
+  "objective_policy": {
+    "equipment_quantity_min_enabled": true,
+    "human_min_enabled": true,
+    "exact_pareto_enabled": true,
+    "mechanical_review_is_feasibility_gate": false
+  },
+  "search_policy": {
+    "raw_candidate_count": 2041200,
+    "staged_exact_search": true,
+    "upper_bound_may_prove_success": false,
+    "automatic_range_expansion": false,
+    "internal_candidate_cap": 0,
+    "report_pareto_limit": 20,
+    "nearest_miss_limit": 10
+  }
+}
