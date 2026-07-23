@@ -1,0 +1,99 @@
+[
+  {
+    "allows_overlap": false,
+    "assembly_sequence": "MEASUREMENT_REQUIRED_BEFORE_STRUCTURAL_OVERLAP_ACCEPTANCE",
+    "component_a": "V2292-FPB-RAIL-L",
+    "component_b": "V2292-FPB-FRONT-XMEMBER",
+    "expected_contact": "MEASUREMENT_REQUIRED",
+    "expected_overlap": {
+      "proxy_candidate_volume_mm3": 1728.0,
+      "status": "MEASUREMENT_REQUIRED"
+    },
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_groups": [
+      "FG-004"
+    ],
+    "geometry_authority": "component_registry AABB overlap + attachment ATT-004; insufficient to distinguish butt/lap/tab",
+    "joint_id": "JOINT-LOOP001-RAIL-FRONT-XMEMBER",
+    "joint_type": "UNDEFINED_MEASUREMENT_HOLD",
+    "load_directions": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB_PROXY_UNRESOLVED",
+    "measurement_status": "JOINT_TYPE_MEASUREMENT_REQUIRED",
+    "overlap_envelope": {
+      "bounds": [
+        73.0,
+        85.0,
+        -232.0,
+        -220.0,
+        0.0,
+        12.0
+      ],
+      "status": "AABB_PROXY_NOT_ALLOWED_JOINT_ENVELOPE"
+    },
+    "removal_sequence": "REMOVE_FG-004_THEN_SEPARATE_JOINT"
+  },
+  {
+    "allows_overlap": false,
+    "assembly_sequence": "LOCATE_DOWEL_OR_FACE_THEN_INSTALL_FG-002",
+    "component_a": "V2292-FPB-RAIL-L",
+    "component_b": "V2292-LOWER-ADAPTER",
+    "expected_contact": "FACE_CONTACT_AT_Z0",
+    "expected_overlap": {
+      "maximum_volume_mm3": 0.001,
+      "minimum_volume_mm3": 0.0
+    },
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_groups": [
+      "FG-002"
+    ],
+    "geometry_authority": "attachment_registry ATT-002",
+    "joint_id": "JOINT-LOOP001-RAIL-LOWER-ADAPTER",
+    "joint_type": "DOWEL_AND_BOLT",
+    "load_directions": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "measurement_status": "PHYSICAL_DOWEL_MEASUREMENT_REQUIRED",
+    "overlap_envelope": {
+      "bounds": null,
+      "status": "NO_VOLUME_OVERLAP_EXPECTED"
+    },
+    "removal_sequence": "REMOVE_FG-002_THEN_SEPARATE_Z"
+  },
+  {
+    "allows_overlap": false,
+    "assembly_sequence": "SEAT_BRACKET_FACE_THEN_INSTALL_FG-006",
+    "component_a": "V2292-FPB-RAIL-L",
+    "component_b": "V2292-MOTOR-BRACKET-L",
+    "expected_contact": "FACE_CONTACT_AT_Z12",
+    "expected_overlap": {
+      "maximum_volume_mm3": 0.001,
+      "minimum_volume_mm3": 0.0
+    },
+    "failure_consequence": "LOSS_OF_MOTOR_LOAD_PATH",
+    "fastener_groups": [
+      "FG-006"
+    ],
+    "geometry_authority": "attachment_registry ATT-006",
+    "joint_id": "JOINT-LOOP001-RAIL-MOTOR-BRACKET",
+    "joint_type": "BOLTED_ANGLE_BRACKET",
+    "load_directions": [
+      "motor_torque",
+      "radial",
+      "axial"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "measurement_status": "PHYSICAL_FACE_MEASUREMENT_REQUIRED",
+    "overlap_envelope": {
+      "bounds": null,
+      "status": "NO_VOLUME_OVERLAP_EXPECTED"
+    },
+    "removal_sequence": "REMOVE_FG-006_THEN_LIFT_BRACKET"
+  }
+]

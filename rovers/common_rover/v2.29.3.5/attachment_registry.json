@@ -1,0 +1,988 @@
+[
+  {
+    "attachment_id": "ATT-001",
+    "attachment_type": "SLOT_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-LOWER-ADAPTER",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-001",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "upper_weight",
+      "drive_reaction"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "ALUMINUM_FRAME_DATUM",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "LOWER_FRAME_MEASUREMENT_HOLD",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-002",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-FPB-RAIL-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-002",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-LOWER-ADAPTER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-003",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-FPB-RAIL-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-003",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-LOWER-ADAPTER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-004",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-FPB-FRONT-XMEMBER",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-004",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-005",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-FPB-FRONT-XMEMBER",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-005",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-006",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-BRACKET-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-006",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "motor_torque",
+      "radial",
+      "axial"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-007",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-CRADLE-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-007",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "motor_torque",
+      "radial",
+      "axial"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-MOTOR-BRACKET-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-008",
+    "attachment_type": "SLOT_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-INPUT-CARTRIDGE-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-008",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "belt_radial",
+      "shaft_axial",
+      "tension_reaction"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-009",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-BRIDGE-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-009",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "belt_radial",
+      "PTO_reaction"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-010",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-TOWER-L1",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-010",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "bearing_radial",
+      "bearing_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-011",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-TOWER-L2",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-011",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "bearing_radial",
+      "bearing_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-012",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-PTO-BAY-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-012",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "PTO_reaction",
+      "guard_load"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-013",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-BRACKET-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-013",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "motor_torque",
+      "radial",
+      "axial"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-014",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-CRADLE-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-014",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "motor_torque",
+      "radial",
+      "axial"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-MOTOR-BRACKET-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-015",
+    "attachment_type": "SLOT_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-INPUT-CARTRIDGE-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-015",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "belt_radial",
+      "shaft_axial",
+      "tension_reaction"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-016",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-BRIDGE-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-016",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "belt_radial",
+      "PTO_reaction"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-017",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-TOWER-R1",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-017",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "bearing_radial",
+      "bearing_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-018",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-OUTPUT-TOWER-R2",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-018",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "bearing_radial",
+      "bearing_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-019",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-PTO-BAY-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-019",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "PTO_reaction",
+      "guard_load"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-020",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-SERVO-BRIDGE",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-020",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "servo_torque",
+      "cam_radial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-RAIL-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-021",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-SERVO-BRACKET",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-021",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "servo_torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRIDGE",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-022",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-SERVO-TRAY",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-022",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "servo_torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRACKET",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-023",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-CAM-SUPPORT-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-023",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cam_radial",
+      "cam_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRIDGE",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-024",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-CAM-SUPPORT-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-024",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cam_radial",
+      "cam_axial"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRIDGE",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-025",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-HITCH-LOAD-PAD-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-025",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "unit_push_draw",
+      "vertical",
+      "yaw"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-FRONT-XMEMBER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-026",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-HITCH-LOAD-PAD-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-026",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "unit_push_draw",
+      "vertical",
+      "yaw"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-FRONT-XMEMBER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-027",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-UPPER-TORQUE-BRACKET",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-027",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "unit_torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-FPB-FRONT-XMEMBER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-028",
+    "attachment_type": "DOWEL_AND_BOLT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-UPPER-TORQUE-LINK-PAD",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-028",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "unit_torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-UPPER-TORQUE-BRACKET",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-029",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-PORTAL-PILLAR-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-029",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "service_spine_only"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-LOWER-ADAPTER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-030",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-PORTAL-PILLAR-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-030",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "service_spine_only"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-LOWER-ADAPTER",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-031",
+    "attachment_type": "BOLTED_FLANGE",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-PORTAL-CROSSBAR",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-031",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "service_spine_only"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-PORTAL-PILLAR-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-032",
+    "attachment_type": "BOLTED_BRACKET",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-ESTOP-MOUNT",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_group_id": "FG-032",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "estop_actuation_only"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-PORTAL-CROSSBAR",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "STRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-033",
+    "attachment_type": "NONSTRUCTURAL_CLIP",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-COVER-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-033",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-MOTOR-CRADLE-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-034",
+    "attachment_type": "HEAT_SET_INSERT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-BELT-GUARD-L",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-034",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-L",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-035",
+    "attachment_type": "NONSTRUCTURAL_CLIP",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-MOTOR-COVER-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-035",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "TWO_FACE_ANTI_ROTATION",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-MOTOR-CRADLE-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-036",
+    "attachment_type": "HEAT_SET_INSERT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-BELT-GUARD-R",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-036",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-OUTPUT-BRIDGE-R",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-037",
+    "attachment_type": "HEAT_SET_INSERT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-SERVO-COVER",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-037",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRACKET",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  },
+  {
+    "attachment_id": "ATT-038",
+    "attachment_type": "HEAT_SET_INSERT",
+    "axis_intersects_child": true,
+    "axis_intersects_parent": true,
+    "child_component": "V2292-CAM-COVER",
+    "contact_gap_mm": 0.0,
+    "edge_distance_candidate_mm": 8.0,
+    "failure_consequence": "LOSS_OF_PROTECTION",
+    "fastener_group_id": "FG-038",
+    "geometry_status": "PROXY_VALIDATED",
+    "load_types": [
+      "cover_retention"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB",
+    "nominal_contact_faces": {
+      "child": "SCENE_AABB_MATING_FACE",
+      "parent": "SCENE_AABB_MATING_FACE"
+    },
+    "parent_component": "V2292-SERVO-BRIDGE",
+    "provenance": "PROJECT_CANDIDATE",
+    "removable": true,
+    "service_order": "REMOVE_AFTER_POWER_SAFE",
+    "structural_or_nonstructural": "NONSTRUCTURAL"
+  }
+]

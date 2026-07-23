@@ -1,0 +1,13 @@
+{
+  "authority_gate": "CONTRADICTION",
+  "cad_execution_status": "NOT_RUN_ENVIRONMENT_UNAVAILABLE",
+  "external_review": "PENDING_EXTERNAL_REVIEW",
+  "final_loop_gate": "BLOCKED",
+  "group_gate": "PASS_WITH_CONTRADICTION_HOLD",
+  "next_loop_eligibility": "BLOCKED",
+  "rail_crossmember_joint": "MEASUREMENT_HOLD",
+  "required_hole_static_gate": "PASS_STATIC_REQUIRED_HOLE_GATE_WITH_DESIGN_HOLDS",
+  "routing_gate": "PASS",
+  "status": "PASS_WITH_HOLD",
+  "technical_gate": "NOT_RUN_ENVIRONMENT_UNAVAILABLE"
+}

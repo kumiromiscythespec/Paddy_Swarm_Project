@@ -1,0 +1,15 @@
+{
+  "authority_accounting_result": "PASS_24_OF_24",
+  "authority_accounting_total": 24,
+  "bracket_hole_not_rail_count": 0,
+  "design_contradiction_count": 12,
+  "errors": [],
+  "external_clamp_no_rail_hole_count": 0,
+  "measurement_hold_count": 8,
+  "required_hole_authority_undefined_count": 0,
+  "required_rail_slot_or_notch_count": 0,
+  "required_rail_through_hole_count": 4,
+  "stale_registry_confirmed_count": 0,
+  "status": "CONTRADICTION",
+  "total_rail_referencing_instances": 24
+}

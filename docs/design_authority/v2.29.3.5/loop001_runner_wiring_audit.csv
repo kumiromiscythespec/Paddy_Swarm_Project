@@ -1,0 +1,10 @@
+wiring,source,status
+REQUIREMENT_BEFORE_REACHABILITY,fastener_requirement_authority.py -> opening_router.py,PASS
+STEP_EXPORT_REIMPORT,full_loop_runner.py stages 10-11,PASS
+VISUALIZATION_STL_VERIFY,full_loop_runner.py stages 12-13,PASS
+ACTUAL_SOLID_RENDER_IMAGE_QA,full_loop_runner.py stages 14-15,PASS
+MINIMUM_ASSEMBLY_PROPAGATION,full_loop_runner.py stages 16-19 + exit 70/71,PASS
+REVIEW_RECEIPT_ARGUMENT_CONSUMPTION,validate_receipt_argument + stage 21,PASS
+FINAL_GATE,evaluate_v229_3_5_final_gate + stage 22,PASS
+PACKAGE_FINAL_SEAL,package_seal + stages 23-24,PASS
+RUN_ALL_SINGLE_INVOCATION,local_cadquery_runner/run_all.ps1,PASS

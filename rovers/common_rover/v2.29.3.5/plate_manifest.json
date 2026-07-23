@@ -1,0 +1,74 @@
+{
+  "manifest_id": "V2293-PLATE-MANIFEST",
+  "plates": [
+    {
+      "part_ids": [
+        "TENSION_PUSH_BLOCK_L",
+        "TENSION_PUSH_BLOCK_R",
+        "V2292-BATTERY-HINGE",
+        "V2292-BATTERY-LATCH",
+        "V2292-BBOX-MOUNT",
+        "V2292-CAM-SUPPORT-L",
+        "V2292-CAM-SUPPORT-R",
+        "V2292-CBOX-MOUNT",
+        "V2292-ESTOP-GUARD",
+        "V2292-ESTOP-MOUNT",
+        "V2292-HITCH-LOAD-PAD-L",
+        "V2292-HITCH-LOAD-PAD-R",
+        "V2292-INPUT-CARTRIDGE-L",
+        "V2292-INPUT-CARTRIDGE-R",
+        "V2292-LOWER-ADAPTER",
+        "V2292-MOTOR-BRACKET-L",
+        "V2292-MOTOR-BRACKET-R",
+        "V2292-MOTOR-CRADLE-L",
+        "V2292-MOTOR-CRADLE-R",
+        "V2292-OUTPUT-BRIDGE-L",
+        "V2292-OUTPUT-BRIDGE-R",
+        "V2292-OUTPUT-TOWER-L1",
+        "V2292-OUTPUT-TOWER-L2",
+        "V2292-OUTPUT-TOWER-R1",
+        "V2292-OUTPUT-TOWER-R2",
+        "V2292-PORTAL-CROSSBAR",
+        "V2292-PORTAL-PILLAR-L",
+        "V2292-PORTAL-PILLAR-R",
+        "V2292-PTO-BAY-L",
+        "V2292-PTO-BAY-R",
+        "V2292-SERVO-BRACKET",
+        "V2292-SERVO-BRIDGE",
+        "V2292-SERVO-TRAY",
+        "V2292-UNIT-FEED",
+        "V2292-UPPER-TORQUE-BRACKET",
+        "V2292-UPPER-TORQUE-LINK-PAD"
+      ],
+      "plate_id": "PLATE-STRUCTURAL",
+      "safe_area_mm": [
+        240,
+        240
+      ],
+      "status": "LAYOUT_REQUIRED"
+    },
+    {
+      "part_ids": [
+        "V2292-BELT-GUARD-L",
+        "V2292-BELT-GUARD-R",
+        "V2292-CAM-COVER",
+        "V2292-MOTOR-COVER-L",
+        "V2292-MOTOR-COVER-R",
+        "V2292-SERVO-COVER",
+        "V2292-SHELL-BATTERY",
+        "V2292-SHELL-CENTER",
+        "V2292-SHELL-FRONT",
+        "V2292-SHELL-LOWER",
+        "V2293-PTO-COVER-L",
+        "V2293-PTO-COVER-R"
+      ],
+      "plate_id": "PLATE-HOLLOW",
+      "safe_area_mm": [
+        240,
+        240
+      ],
+      "status": "LAYOUT_REQUIRED"
+    }
+  ],
+  "status": "EXACT_PART_SET"
+}

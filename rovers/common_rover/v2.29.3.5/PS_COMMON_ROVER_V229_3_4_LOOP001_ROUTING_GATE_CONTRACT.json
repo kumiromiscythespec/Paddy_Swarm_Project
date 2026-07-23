@@ -1,0 +1,37 @@
+{
+  "active_loop": "LOOP-001",
+  "active_part": "V2292-FPB-RAIL-L",
+  "active_revision": "revA",
+  "contract_id": "PS-COMMON-ROVER-V229_3_4-LOOP001-REGISTRY-ROUTING-MINIMUM-ASSEMBLY-GATE-REPAIR-001",
+  "next_loop": {
+    "blocking_or_reinspection_or_critical_not_visible_unlocks": false,
+    "conditional_receipt_unlocks": false,
+    "loop_002_part": "V2292-MOTOR-COVER-L"
+  },
+  "opening_routing": {
+    "authority": "fastener_registry instances",
+    "direct_fastener_access_cut_forbidden": true,
+    "reviewed_records": 24,
+    "unreachable_records_must_not_be_relocated": true
+  },
+  "package": {
+    "external_sidecars": [
+      "completion_report.md",
+      "package_receipt.json",
+      "final_zip_seal_report.json",
+      "result_bundle.zip",
+      "result_bundle.zip.sha256"
+    ],
+    "external_sidecars_in_internal_sha256sums": false,
+    "final_zip_reopen_required": true
+  },
+  "part_process_class": "METAL_PART_CAD_VALIDATION",
+  "previous_artifact_sha256": "da79dd405bc4ab52afe082027bc7f00c8a8f07ec6111deef5603e9bdf3561851",
+  "print_target": false,
+  "structural_joint_policy": {
+    "proxy_overlap_volume_mm3": 1728.0,
+    "rail_crossmember_joint": "UNDEFINED_MEASUREMENT_HOLD",
+    "unknown_overlap_allowed": false
+  },
+  "version": "v2.29.3.4"
+}

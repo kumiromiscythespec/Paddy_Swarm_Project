@@ -1,0 +1,74 @@
+[
+  {
+    "child": "V2292-MOTOR-BRACKET-L",
+    "interface_id": "IF-MOTOR-L",
+    "parent": "V2292-FPB-RAIL-L",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-MOTOR-BRACKET-R",
+    "interface_id": "IF-MOTOR-R",
+    "parent": "V2292-FPB-RAIL-R",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-INPUT-CARTRIDGE-L",
+    "interface_id": "IF-INPUT-L",
+    "parent": "V2292-FPB-RAIL-L",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-INPUT-CARTRIDGE-R",
+    "interface_id": "IF-INPUT-R",
+    "parent": "V2292-FPB-RAIL-R",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-OUTPUT-BRIDGE-L",
+    "interface_id": "IF-OUTPUT-L",
+    "parent": "V2292-FPB-RAIL-L",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-OUTPUT-BRIDGE-R",
+    "interface_id": "IF-OUTPUT-R",
+    "parent": "V2292-FPB-RAIL-R",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-SERVO-BRIDGE",
+    "interface_id": "IF-SERVO",
+    "parent": "V2292-FPB-RAIL-L",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-CAM-SUPPORT-L",
+    "interface_id": "IF-CAM-L",
+    "parent": "V2292-SERVO-BRIDGE",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-CAM-SUPPORT-R",
+    "interface_id": "IF-CAM-R",
+    "parent": "V2292-SERVO-BRIDGE",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-HITCH-LOAD-PAD-L",
+    "interface_id": "IF-HITCH-L",
+    "parent": "V2292-FPB-FRONT-XMEMBER",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-HITCH-LOAD-PAD-R",
+    "interface_id": "IF-HITCH-R",
+    "parent": "V2292-FPB-FRONT-XMEMBER",
+    "status": "CLOSED_PROXY"
+  },
+  {
+    "child": "V2292-LOWER-ADAPTER",
+    "interface_id": "IF-LOWER",
+    "parent": "ALUMINUM_FRAME_DATUM",
+    "status": "UPPER_SIDE_CLOSED_LOWER_MEASUREMENT_REQUIRED"
+  }
+]
