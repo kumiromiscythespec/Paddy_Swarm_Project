@@ -1,0 +1,31 @@
+{
+  "component_id": "V22939-FPB-FRONT-XMEMBER",
+  "envelope": {
+    "max": [
+      69.0,
+      -212.0,
+      20.0
+    ],
+    "min": [
+      -69.0,
+      -232.0,
+      0.0
+    ]
+  },
+  "front_datum_y_mm": -232.0,
+  "inside_bare_frame_x_union": true,
+  "intended_solid_overlap_mm3": 0.0,
+  "joint": "BOLTED_T_SLOT_CORNER_BRACKET",
+  "left_end_face_x_mm": 69.0,
+  "length_mm": 138.0,
+  "long_axis": "X",
+  "profile_class": "20X20MM_T_SLOT_CLASS",
+  "rail_relationship": "BUTT_FACE_CONTACT",
+  "rear_face_y_mm": -212.0,
+  "right_end_face_x_mm": -69.0,
+  "section_mm": {
+    "Y": 20.0,
+    "Z": 20.0
+  },
+  "version": "v2.29.3.9"
+}

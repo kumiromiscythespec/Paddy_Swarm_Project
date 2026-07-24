@@ -1,0 +1,608 @@
+{
+  "expected_anchor_count": 60,
+  "fallback_allowed": false,
+  "join_key": "slot_zone_id",
+  "mappings": [
+    {
+      "anchor_instance_id": "V22938-FI-TS-001-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-001-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-001-03",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-001-04",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-002-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-002-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-002-03",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-002-04",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-003-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-003-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-003-03",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-003-04",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-004-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-004-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-004-03",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-004-04",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-005-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-005-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-005-03",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-005-04",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-006-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-006-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-006-03",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-006-04",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-007-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-007-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-007-03",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-007-04",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-008-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-008-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-008-03",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-008-04",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-009-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-009-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-009-03",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-009-04",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-010-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-010-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-010-03",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-010-04",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-011-01",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "SERVO-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-011-02",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "SERVO-BRIDGE-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-012-01",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "SERVO-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-012-02",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "SERVO-BRIDGE-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-01",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-02",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-03",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-04",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-05",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-013-06",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-01",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-02",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-03",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-04",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-05",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-014-06",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-015-01",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-015-02",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-015-03",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT"
+    },
+    {
+      "anchor_instance_id": "V22938-FI-TS-015-04",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-TOP",
+      "mapping_authority": "EXPLICIT_NO_FALLBACK",
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT"
+    }
+  ],
+  "version": "v2.29.3.9.1"
+}

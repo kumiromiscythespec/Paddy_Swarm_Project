@@ -1,0 +1,8 @@
+{
+  "actual_solid_width_status": "NOT_RUN",
+  "candidate_target_max_mm": 286,
+  "hard_limit_mm": 300,
+  "input_rule": "UNION_OF_UNIQUE_FIXED_OPERATIONAL_EXPLICIT_MAXIMUM_INTERFACE_ENVELOPES",
+  "preferred_max_mm": 282,
+  "version": "v2.29.3.9"
+}

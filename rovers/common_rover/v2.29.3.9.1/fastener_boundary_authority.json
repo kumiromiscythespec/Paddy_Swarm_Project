@@ -1,0 +1,4096 @@
+{
+  "adapter_internal_records": [
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -12.0,
+        -4.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-001-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        12.0,
+        -4.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-001-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -12.0,
+        -4.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-001-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        12.0,
+        -4.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-001-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        85.0,
+        -110.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-007-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        85.0,
+        -86.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-007-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        85.0,
+        -62.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-007-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        85.0,
+        -38.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-007-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        82.5,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-010-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        82.5,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-010-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        106.5,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-010-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        106.5,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-010-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        122,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-011-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        122,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-011-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        134,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-011-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        134,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-011-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        101.0,
+        -305.0,
+        6.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-012-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        101.0,
+        -305.0,
+        30.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-012-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        125.0,
+        -305.0,
+        6.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-012-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        125.0,
+        -305.0,
+        30.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-012-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -85.0,
+        -110.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-014-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -85.0,
+        -86.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-014-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -85.0,
+        -62.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-014-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -85.0,
+        -38.0,
+        63.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-014-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -106.5,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-017-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -106.5,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-017-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -82.5,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-017-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -82.5,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-017-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -134,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-018-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -134,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-018-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -122,
+        -307.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-018-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -122,
+        -283.0,
+        24.0
+      ],
+      "diameter_class": "M5-class",
+      "instance_id": "FG-018-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -125.0,
+        -305.0,
+        6.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-019-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -125.0,
+        -305.0,
+        30.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-019-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -101.0,
+        -305.0,
+        6.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-019-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -101.0,
+        -305.0,
+        30.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-019-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -224.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-021-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -200.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-021-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -224.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-021-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -200.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-021-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -31.0,
+        -204.0,
+        76.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-022-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -31.0,
+        -182.0,
+        76.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-022-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        31.0,
+        -204.0,
+        76.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-022-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        31.0,
+        -182.0,
+        76.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-022-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        32.0,
+        -226.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-023-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        32.0,
+        -202.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-023-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        56.0,
+        -226.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-023-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        56.0,
+        -202.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-023-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -56.0,
+        -226.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-024-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -56.0,
+        -202.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-024-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -32.0,
+        -226.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-024-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -32.0,
+        -202.0,
+        24.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-024-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -232.0,
+        41.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -232.0,
+        65.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -232.0,
+        89.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -232.0,
+        41.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -232.0,
+        65.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I05",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -232.0,
+        89.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-028-I06",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        122,
+        -286.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-034-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        122,
+        -262.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-034-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        122,
+        -238.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-034-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -122,
+        -286.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-036-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -122,
+        -262.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-036-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -122,
+        -238.5,
+        33.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-036-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -226.0,
+        49.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-038-I01",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        -12.0,
+        -202.0,
+        49.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-038-I02",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -226.0,
+        49.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-038-I03",
+      "slot_face_id": null,
+      "t_nut_class": null
+    },
+    {
+      "axis_origin_xyz": [
+        12.0,
+        -202.0,
+        49.0
+      ],
+      "diameter_class": "M4-class",
+      "instance_id": "FG-038-I04",
+      "slot_face_id": null,
+      "t_nut_class": null
+    }
+  ],
+  "body_tslot_anchor_instance_ids": [
+    "V22938-FI-TS-001-01",
+    "V22938-FI-TS-001-02",
+    "V22938-FI-TS-001-03",
+    "V22938-FI-TS-001-04",
+    "V22938-FI-TS-002-01",
+    "V22938-FI-TS-002-02",
+    "V22938-FI-TS-002-03",
+    "V22938-FI-TS-002-04",
+    "V22938-FI-TS-003-01",
+    "V22938-FI-TS-003-02",
+    "V22938-FI-TS-003-03",
+    "V22938-FI-TS-003-04",
+    "V22938-FI-TS-004-01",
+    "V22938-FI-TS-004-02",
+    "V22938-FI-TS-004-03",
+    "V22938-FI-TS-004-04",
+    "V22938-FI-TS-005-01",
+    "V22938-FI-TS-005-02",
+    "V22938-FI-TS-005-03",
+    "V22938-FI-TS-005-04",
+    "V22938-FI-TS-006-01",
+    "V22938-FI-TS-006-02",
+    "V22938-FI-TS-006-03",
+    "V22938-FI-TS-006-04",
+    "V22938-FI-TS-007-01",
+    "V22938-FI-TS-007-02",
+    "V22938-FI-TS-007-03",
+    "V22938-FI-TS-007-04",
+    "V22938-FI-TS-008-01",
+    "V22938-FI-TS-008-02",
+    "V22938-FI-TS-008-03",
+    "V22938-FI-TS-008-04",
+    "V22938-FI-TS-009-01",
+    "V22938-FI-TS-009-02",
+    "V22938-FI-TS-009-03",
+    "V22938-FI-TS-009-04",
+    "V22938-FI-TS-010-01",
+    "V22938-FI-TS-010-02",
+    "V22938-FI-TS-010-03",
+    "V22938-FI-TS-010-04",
+    "V22938-FI-TS-011-01",
+    "V22938-FI-TS-011-02",
+    "V22938-FI-TS-012-01",
+    "V22938-FI-TS-012-02",
+    "V22938-FI-TS-013-01",
+    "V22938-FI-TS-013-02",
+    "V22938-FI-TS-013-03",
+    "V22938-FI-TS-013-04",
+    "V22938-FI-TS-013-05",
+    "V22938-FI-TS-013-06",
+    "V22938-FI-TS-014-01",
+    "V22938-FI-TS-014-02",
+    "V22938-FI-TS-014-03",
+    "V22938-FI-TS-014-04",
+    "V22938-FI-TS-014-05",
+    "V22938-FI-TS-014-06",
+    "V22938-FI-TS-015-01",
+    "V22938-FI-TS-015-02",
+    "V22938-FI-TS-015-03",
+    "V22938-FI-TS-015-04"
+  ],
+  "body_tslot_anchor_records": [
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-001",
+      "current_anchor_instance_id": "V22938-FI-TS-001-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "legacy_source_instance_id": "FG-002-I01",
+      "mirror_zone_id": "LOWER-ADAPTER-R",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-001",
+      "current_anchor_instance_id": "V22938-FI-TS-001-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "legacy_source_instance_id": "FG-002-I02",
+      "mirror_zone_id": "LOWER-ADAPTER-R",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-001",
+      "current_anchor_instance_id": "V22938-FI-TS-001-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "legacy_source_instance_id": "FG-002-I03",
+      "mirror_zone_id": "LOWER-ADAPTER-R",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-001",
+      "current_anchor_instance_id": "V22938-FI-TS-001-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "legacy_source_instance_id": "FG-002-I04",
+      "mirror_zone_id": "LOWER-ADAPTER-R",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "LOWER-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-002",
+      "current_anchor_instance_id": "V22938-FI-TS-002-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "legacy_source_instance_id": "FG-003-I01",
+      "mirror_zone_id": "LOWER-ADAPTER-L",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-002",
+      "current_anchor_instance_id": "V22938-FI-TS-002-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "legacy_source_instance_id": "FG-003-I02",
+      "mirror_zone_id": "LOWER-ADAPTER-L",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-002",
+      "current_anchor_instance_id": "V22938-FI-TS-002-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "legacy_source_instance_id": "FG-003-I03",
+      "mirror_zone_id": "LOWER-ADAPTER-L",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-LOWER-ADAPTER-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-002",
+      "current_anchor_instance_id": "V22938-FI-TS-002-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "legacy_source_instance_id": "FG-003-I04",
+      "mirror_zone_id": "LOWER-ADAPTER-L",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "LOWER-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-003",
+      "current_anchor_instance_id": "V22938-FI-TS-003-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "legacy_source_instance_id": "FG-004-I01",
+      "mirror_zone_id": "CORNER-BRACKET-R",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-003",
+      "current_anchor_instance_id": "V22938-FI-TS-003-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "legacy_source_instance_id": "FG-004-I02",
+      "mirror_zone_id": "CORNER-BRACKET-R",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-003",
+      "current_anchor_instance_id": "V22938-FI-TS-003-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "legacy_source_instance_id": "FG-004-I03",
+      "mirror_zone_id": "CORNER-BRACKET-R",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-003",
+      "current_anchor_instance_id": "V22938-FI-TS-003-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "legacy_source_instance_id": "FG-004-I04",
+      "mirror_zone_id": "CORNER-BRACKET-R",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_zone_id": "CORNER-BRACKET-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-004",
+      "current_anchor_instance_id": "V22938-FI-TS-004-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "legacy_source_instance_id": "FG-005-I01",
+      "mirror_zone_id": "CORNER-BRACKET-L",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-004",
+      "current_anchor_instance_id": "V22938-FI-TS-004-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "legacy_source_instance_id": "FG-005-I02",
+      "mirror_zone_id": "CORNER-BRACKET-L",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-004",
+      "current_anchor_instance_id": "V22938-FI-TS-004-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "legacy_source_instance_id": "FG-005-I03",
+      "mirror_zone_id": "CORNER-BRACKET-L",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-FPB-CORNER-BRACKET-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-004",
+      "current_anchor_instance_id": "V22938-FI-TS-004-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "legacy_source_instance_id": "FG-005-I04",
+      "mirror_zone_id": "CORNER-BRACKET-L",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_zone_id": "CORNER-BRACKET-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-005",
+      "current_anchor_instance_id": "V22938-FI-TS-005-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-006-I01",
+      "mirror_zone_id": "MOTOR-ADAPTER-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-005",
+      "current_anchor_instance_id": "V22938-FI-TS-005-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-006-I02",
+      "mirror_zone_id": "MOTOR-ADAPTER-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-005",
+      "current_anchor_instance_id": "V22938-FI-TS-005-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-006-I03",
+      "mirror_zone_id": "MOTOR-ADAPTER-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-005",
+      "current_anchor_instance_id": "V22938-FI-TS-005-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-006-I04",
+      "mirror_zone_id": "MOTOR-ADAPTER-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "MOTOR-ADAPTER-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-006",
+      "current_anchor_instance_id": "V22938-FI-TS-006-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-013-I01",
+      "mirror_zone_id": "MOTOR-ADAPTER-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-006",
+      "current_anchor_instance_id": "V22938-FI-TS-006-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-013-I02",
+      "mirror_zone_id": "MOTOR-ADAPTER-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-006",
+      "current_anchor_instance_id": "V22938-FI-TS-006-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-013-I03",
+      "mirror_zone_id": "MOTOR-ADAPTER-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-MOTOR-ADAPTER-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-006",
+      "current_anchor_instance_id": "V22938-FI-TS-006-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-013-I04",
+      "mirror_zone_id": "MOTOR-ADAPTER-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "MOTOR-ADAPTER-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-007",
+      "current_anchor_instance_id": "V22938-FI-TS-007-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-008-I01",
+      "mirror_zone_id": "INPUT-CARTRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-007",
+      "current_anchor_instance_id": "V22938-FI-TS-007-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-008-I02",
+      "mirror_zone_id": "INPUT-CARTRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-007",
+      "current_anchor_instance_id": "V22938-FI-TS-007-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-008-I03",
+      "mirror_zone_id": "INPUT-CARTRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-007",
+      "current_anchor_instance_id": "V22938-FI-TS-007-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-008-I04",
+      "mirror_zone_id": "INPUT-CARTRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_zone_id": "INPUT-CARTRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-008",
+      "current_anchor_instance_id": "V22938-FI-TS-008-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-015-I01",
+      "mirror_zone_id": "INPUT-CARTRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-008",
+      "current_anchor_instance_id": "V22938-FI-TS-008-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-015-I02",
+      "mirror_zone_id": "INPUT-CARTRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-008",
+      "current_anchor_instance_id": "V22938-FI-TS-008-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-015-I03",
+      "mirror_zone_id": "INPUT-CARTRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-008",
+      "current_anchor_instance_id": "V22938-FI-TS-008-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-015-I04",
+      "mirror_zone_id": "INPUT-CARTRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_zone_id": "INPUT-CARTRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-009",
+      "current_anchor_instance_id": "V22938-FI-TS-009-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-009-I01",
+      "mirror_zone_id": "OUTPUT-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-009",
+      "current_anchor_instance_id": "V22938-FI-TS-009-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-009-I02",
+      "mirror_zone_id": "OUTPUT-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-009",
+      "current_anchor_instance_id": "V22938-FI-TS-009-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-009-I03",
+      "mirror_zone_id": "OUTPUT-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-009",
+      "current_anchor_instance_id": "V22938-FI-TS-009-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-009-I04",
+      "mirror_zone_id": "OUTPUT-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "OUTPUT-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-010",
+      "current_anchor_instance_id": "V22938-FI-TS-010-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-016-I01",
+      "mirror_zone_id": "OUTPUT-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-010",
+      "current_anchor_instance_id": "V22938-FI-TS-010-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-016-I02",
+      "mirror_zone_id": "OUTPUT-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-010",
+      "current_anchor_instance_id": "V22938-FI-TS-010-03",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-016-I03",
+      "mirror_zone_id": "OUTPUT-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-010",
+      "current_anchor_instance_id": "V22938-FI-TS-010-04",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-016-I04",
+      "mirror_zone_id": "OUTPUT-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "OUTPUT-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-SERVO-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-011",
+      "current_anchor_instance_id": "V22938-FI-TS-011-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-020-I01",
+      "mirror_zone_id": "SERVO-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "SERVO-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-SERVO-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-L",
+      "current_anchor_group_id": "V22938-FG-TS-011",
+      "current_anchor_instance_id": "V22938-FI-TS-011-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-L-TOP",
+      "legacy_source_instance_id": "FG-020-I02",
+      "mirror_zone_id": "SERVO-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_zone_id": "SERVO-BRIDGE-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-SERVO-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-012",
+      "current_anchor_instance_id": "V22938-FI-TS-012-01",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-020-I03",
+      "mirror_zone_id": "SERVO-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "SERVO-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-SERVO-BRIDGE-MOUNT",
+      "canonical_host_component": "V22939-FPB-RAIL-R",
+      "current_anchor_group_id": "V22938-FG-TS-012",
+      "current_anchor_instance_id": "V22938-FI-TS-012-02",
+      "deprecated_reference": false,
+      "host_slot_id": "RAIL-R-TOP",
+      "legacy_source_instance_id": "FG-020-I04",
+      "mirror_zone_id": "SERVO-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_zone_id": "SERVO-BRIDGE-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-01",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I01",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-02",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I02",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-03",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I03",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-04",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I04",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-05",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I05",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-L",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-013",
+      "current_anchor_instance_id": "V22938-FI-TS-013-06",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-025-I06",
+      "mirror_zone_id": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-L",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-01",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I01",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-02",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I02",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-03",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I03",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-04",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I04",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-05",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I05",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-HITCH-PAD-MOUNT-R",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-014",
+      "current_anchor_instance_id": "V22938-FI-TS-014-06",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-FRONT",
+      "legacy_source_instance_id": "FG-026-I06",
+      "mirror_zone_id": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "HITCH-PAD-R",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-UPPER-TORQUE-MOUNT",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-015",
+      "current_anchor_instance_id": "V22938-FI-TS-015-01",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-TOP",
+      "legacy_source_instance_id": "FG-027-I01",
+      "mirror_zone_id": null,
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-UPPER-TORQUE-MOUNT",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-015",
+      "current_anchor_instance_id": "V22938-FI-TS-015-02",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-TOP",
+      "legacy_source_instance_id": "FG-027-I02",
+      "mirror_zone_id": null,
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-UPPER-TORQUE-MOUNT",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-015",
+      "current_anchor_instance_id": "V22938-FI-TS-015-03",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-TOP",
+      "legacy_source_instance_id": "FG-027-I03",
+      "mirror_zone_id": null,
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "anchor_class": "BODY_T_SLOT_ANCHOR",
+      "attachment_component": "V22939-UPPER-TORQUE-MOUNT",
+      "canonical_host_component": "V22939-FPB-FRONT-XMEMBER",
+      "current_anchor_group_id": "V22938-FG-TS-015",
+      "current_anchor_instance_id": "V22938-FI-TS-015-04",
+      "deprecated_reference": false,
+      "host_slot_id": "XMEMBER-TOP",
+      "legacy_source_instance_id": "FG-027-I04",
+      "mirror_zone_id": null,
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_zone_id": "UPPER-TORQUE-MOUNT",
+      "t_nut_class": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    }
+  ],
+  "classification_records": [
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-001-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-001-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-001-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-001-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-001-01",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-001-02",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-001-03",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-001-04",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-002-01",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-002-02",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-002-03",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-002-04",
+      "slot_face_id_current": "BOTTOM_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-003-01",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-003-02",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-003-03",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-003-04",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-004-01",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-004-02",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-004-03",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-004-04",
+      "slot_face_id_current": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-005-01",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-005-02",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-005-03",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-005-04",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-007-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-007-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-007-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-007-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-007-01",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-007-02",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-007-03",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-007-04",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-009-01",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-009-02",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-009-03",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-009-04",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-010-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-010-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-010-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-010-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-011-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-011-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-011-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-011-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-012-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-012-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-012-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-012-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-006-01",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-006-02",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-006-03",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-006-04",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-014-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-014-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-014-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-014-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-008-01",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-008-02",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-008-03",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-008-04",
+      "slot_face_id_current": "TOP_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-010-01",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-010-02",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-010-03",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-010-04",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-017-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-017-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-017-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-017-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-018-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-018-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-018-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "FG-018-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-019-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-019-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-019-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-019-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-011-01",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-011-02",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-012-01",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-012-02",
+      "slot_face_id_current": "TOP_SLOT_BOTH_RAILS",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-021-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-021-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-021-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-021-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-022-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-022-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-022-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-022-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-023-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-023-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-023-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-023-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-024-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-024-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-024-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-024-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-01",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-02",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-03",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-04",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-05",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-013-06",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-01",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-02",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-03",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-04",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-05",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M5-class",
+      "instance_id": "V22938-FI-TS-014-06",
+      "slot_face_id_current": "FRONT_FACE_SLOT",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-015-01",
+      "slot_face_id_current": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-015-02",
+      "slot_face_id_current": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-015-03",
+      "slot_face_id_current": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "BODY_T_SLOT_ANCHOR",
+      "classification_count": 1,
+      "diameter_class_current": "M5-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "V22938-FI-TS-015-04",
+      "slot_face_id_current": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "t_nut_class_current": "M5_DROP_IN_OR_ROLL_IN_CLASS_CANDIDATE"
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I05",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-028-I06",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-029-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-029-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-029-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-029-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-030-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-030-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-030-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-030-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-031-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-031-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-031-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-031-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-032-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-032-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-032-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_UPPER_STRUCTURE_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-032-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-033-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-033-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-034-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-034-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-034-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-035-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-035-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-036-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-036-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-036-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-037-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-037-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-037-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "PRESERVED_COVER_OR_GUARD_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-037-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-038-I01",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-038-I02",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-038-I03",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    },
+    {
+      "boundary_class": "ADAPTER_INTERNAL_FASTENER",
+      "classification_count": 1,
+      "diameter_class_current": "M4-class",
+      "diameter_class_legacy": "M4-class",
+      "instance_id": "FG-038-I04",
+      "slot_face_id_current": null,
+      "t_nut_class_current": null
+    }
+  ],
+  "direct_rail_hole_policy": "NO_UNVALIDATED_DIRECT_HOLES",
+  "expected_counts": {
+    "ADAPTER_INTERNAL_FASTENER": 68,
+    "BODY_T_SLOT_ANCHOR": 60,
+    "FULL": 152,
+    "PRESERVED_COVER_OR_GUARD_FASTENER": 8,
+    "PRESERVED_UPPER_STRUCTURE_FASTENER": 16
+  },
+  "legacy_direct_rail_records": [
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "67.0 -122.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-002",
+      "legacy_instance_id": "FG-002-I01",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-001",
+      "replacement_instance_id": "V22938-FI-TS-001-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "67.0 -98.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-002",
+      "legacy_instance_id": "FG-002-I02",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-001",
+      "replacement_instance_id": "V22938-FI-TS-001-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "91.0 -122.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-002",
+      "legacy_instance_id": "FG-002-I03",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-001",
+      "replacement_instance_id": "V22938-FI-TS-001-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "91.0 -98.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-002",
+      "legacy_instance_id": "FG-002-I04",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-001",
+      "replacement_instance_id": "V22938-FI-TS-001-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-91.0 -122.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-003",
+      "legacy_instance_id": "FG-003-I01",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-002",
+      "replacement_instance_id": "V22938-FI-TS-002-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-91.0 -98.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-003",
+      "legacy_instance_id": "FG-003-I02",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-002",
+      "replacement_instance_id": "V22938-FI-TS-002-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-67.0 -122.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-003",
+      "legacy_instance_id": "FG-003-I03",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-002",
+      "replacement_instance_id": "V22938-FI-TS-002-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-67.0 -98.0 0.0",
+      "legacy_child_component_id": "V2292-FPB-RAIL-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-003",
+      "legacy_instance_id": "FG-003-I04",
+      "legacy_parent_component_id": "V2292-LOWER-ADAPTER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-002",
+      "replacement_instance_id": "V22938-FI-TS-002-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "67.0 -238.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-004",
+      "legacy_instance_id": "FG-004-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-003",
+      "replacement_instance_id": "V22938-FI-TS-003-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "67.0 -214.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-004",
+      "legacy_instance_id": "FG-004-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-003",
+      "replacement_instance_id": "V22938-FI-TS-003-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "91.0 -238.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-004",
+      "legacy_instance_id": "FG-004-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-003",
+      "replacement_instance_id": "V22938-FI-TS-003-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "91.0 -214.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-004",
+      "legacy_instance_id": "FG-004-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-003",
+      "replacement_instance_id": "V22938-FI-TS-003-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-91.0 -238.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-005",
+      "legacy_instance_id": "FG-005-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-004",
+      "replacement_instance_id": "V22938-FI-TS-004-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-91.0 -214.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-005",
+      "legacy_instance_id": "FG-005-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-004",
+      "replacement_instance_id": "V22938-FI-TS-004-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-67.0 -238.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-005",
+      "legacy_instance_id": "FG-005-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-004",
+      "replacement_instance_id": "V22938-FI-TS-004-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-67.0 -214.0 6.0",
+      "legacy_child_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-005",
+      "legacy_instance_id": "FG-005-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-004",
+      "replacement_instance_id": "V22938-FI-TS-004-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "79.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-006",
+      "legacy_instance_id": "FG-006-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-005",
+      "replacement_instance_id": "V22938-FI-TS-005-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "79.0 -94.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-006",
+      "legacy_instance_id": "FG-006-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-005",
+      "replacement_instance_id": "V22938-FI-TS-005-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "79.0 -70.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-006",
+      "legacy_instance_id": "FG-006-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-005",
+      "replacement_instance_id": "V22938-FI-TS-005-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "79.0 -46.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-006",
+      "legacy_instance_id": "FG-006-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-005",
+      "replacement_instance_id": "V22938-FI-TS-005-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -142.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-008",
+      "legacy_instance_id": "FG-008-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-007",
+      "replacement_instance_id": "V22938-FI-TS-007-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-008",
+      "legacy_instance_id": "FG-008-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-007",
+      "replacement_instance_id": "V22938-FI-TS-007-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "97.0 -142.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-008",
+      "legacy_instance_id": "FG-008-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-007",
+      "replacement_instance_id": "V22938-FI-TS-007-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "97.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-008",
+      "legacy_instance_id": "FG-008-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-007",
+      "replacement_instance_id": "V22938-FI-TS-007-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "85.0 -238.0 0.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-009",
+      "legacy_instance_id": "FG-009-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-009",
+      "replacement_instance_id": "V22938-FI-TS-009-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "85.0 -238.0 24.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-009",
+      "legacy_instance_id": "FG-009-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-009",
+      "replacement_instance_id": "V22938-FI-TS-009-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "85.0 -214.0 0.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-009",
+      "legacy_instance_id": "FG-009-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-009",
+      "replacement_instance_id": "V22938-FI-TS-009-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "85.0 -214.0 24.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-009",
+      "legacy_instance_id": "FG-009-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-009",
+      "replacement_instance_id": "V22938-FI-TS-009-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-79.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-013",
+      "legacy_instance_id": "FG-013-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-006",
+      "replacement_instance_id": "V22938-FI-TS-006-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-79.0 -94.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-013",
+      "legacy_instance_id": "FG-013-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-006",
+      "replacement_instance_id": "V22938-FI-TS-006-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-79.0 -70.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-013",
+      "legacy_instance_id": "FG-013-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-006",
+      "replacement_instance_id": "V22938-FI-TS-006-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-79.0 -46.0 12.0",
+      "legacy_child_component_id": "V2292-MOTOR-BRACKET-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-013",
+      "legacy_instance_id": "FG-013-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-006",
+      "replacement_instance_id": "V22938-FI-TS-006-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-97.0 -142.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-015",
+      "legacy_instance_id": "FG-015-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-008",
+      "replacement_instance_id": "V22938-FI-TS-008-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-97.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-015",
+      "legacy_instance_id": "FG-015-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-008",
+      "replacement_instance_id": "V22938-FI-TS-008-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-73.0 -142.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-015",
+      "legacy_instance_id": "FG-015-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-008",
+      "replacement_instance_id": "V22938-FI-TS-008-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-73.0 -118.0 12.0",
+      "legacy_child_component_id": "V2292-INPUT-CARTRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-015",
+      "legacy_instance_id": "FG-015-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-008",
+      "replacement_instance_id": "V22938-FI-TS-008-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-85.0 -238.0 0.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-016",
+      "legacy_instance_id": "FG-016-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-010",
+      "replacement_instance_id": "V22938-FI-TS-010-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-85.0 -238.0 24.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-016",
+      "legacy_instance_id": "FG-016-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-010",
+      "replacement_instance_id": "V22938-FI-TS-010-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-85.0 -214.0 0.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-016",
+      "legacy_instance_id": "FG-016-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-010",
+      "replacement_instance_id": "V22938-FI-TS-010-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-85.0 -214.0 24.0",
+      "legacy_child_component_id": "V2292-OUTPUT-BRIDGE-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-016",
+      "legacy_instance_id": "FG-016-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-R",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-010",
+      "replacement_instance_id": "V22938-FI-TS-010-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -226.0 0.0",
+      "legacy_child_component_id": "V2292-SERVO-BRIDGE",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-020",
+      "legacy_instance_id": "FG-020-I01",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-011",
+      "replacement_instance_id": "V22938-FI-TS-011-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -226.0 24.0",
+      "legacy_child_component_id": "V2292-SERVO-BRIDGE",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-020",
+      "legacy_instance_id": "FG-020-I02",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-011",
+      "replacement_instance_id": "V22938-FI-TS-011-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -202.0 0.0",
+      "legacy_child_component_id": "V2292-SERVO-BRIDGE",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-020",
+      "legacy_instance_id": "FG-020-I03",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-012",
+      "replacement_instance_id": "V22938-FI-TS-012-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "73.0 -202.0 24.0",
+      "legacy_child_component_id": "V2292-SERVO-BRIDGE",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-020",
+      "legacy_instance_id": "FG-020-I04",
+      "legacy_parent_component_id": "V2292-FPB-RAIL-L",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-012",
+      "replacement_instance_id": "V22938-FI-TS-012-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "41.0 -232.0 -18.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I01",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "41.0 -232.0 6.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I02",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "41.0 -232.0 30.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I03",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "65.0 -232.0 -18.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I04",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "65.0 -232.0 6.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I05",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-05",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "65.0 -232.0 30.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-L",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-025",
+      "legacy_instance_id": "FG-025-I06",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-013",
+      "replacement_instance_id": "V22938-FI-TS-013-06",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-65.0 -232.0 -18.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I01",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-65.0 -232.0 6.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I02",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-65.0 -232.0 30.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I03",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-41.0 -232.0 -18.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I04",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-41.0 -232.0 6.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I05",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-05",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-41.0 -232.0 30.0",
+      "legacy_child_component_id": "V2292-HITCH-LOAD-PAD-R",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-026",
+      "legacy_instance_id": "FG-026-I06",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-014",
+      "replacement_instance_id": "V22938-FI-TS-014-06",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-12.0 -238.0 12.0",
+      "legacy_child_component_id": "V2292-UPPER-TORQUE-BRACKET",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-027",
+      "legacy_instance_id": "FG-027-I01",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-015",
+      "replacement_instance_id": "V22938-FI-TS-015-01",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "-12.0 -214.0 12.0",
+      "legacy_child_component_id": "V2292-UPPER-TORQUE-BRACKET",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-027",
+      "legacy_instance_id": "FG-027-I02",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-015",
+      "replacement_instance_id": "V22938-FI-TS-015-02",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "12.0 -238.0 12.0",
+      "legacy_child_component_id": "V2292-UPPER-TORQUE-BRACKET",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-027",
+      "legacy_instance_id": "FG-027-I03",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-015",
+      "replacement_instance_id": "V22938-FI-TS-015-03",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    },
+    {
+      "direct_rail_hole_current": false,
+      "legacy_axis_origin_xyz": "12.0 -214.0 12.0",
+      "legacy_child_component_id": "V2292-UPPER-TORQUE-BRACKET",
+      "legacy_direct_rail_hole_status": "DEPRECATED_NOT_CURRENT",
+      "legacy_group_id": "FG-027",
+      "legacy_instance_id": "FG-027-I04",
+      "legacy_parent_component_id": "V2292-FPB-FRONT-XMEMBER",
+      "record_retained": true,
+      "replacement_group_id": "V22938-FG-TS-015",
+      "replacement_instance_id": "V22938-FI-TS-015-04",
+      "replacement_mechanism": "M5_T_NUT_TO_METAL_ADAPTER"
+    }
+  ],
+  "legacy_y_minus_238_status": "DEPRECATED_NOT_CURRENT",
+  "preserved_cover_instance_ids": [
+    "FG-033-I01",
+    "FG-033-I02",
+    "FG-035-I01",
+    "FG-035-I02",
+    "FG-037-I01",
+    "FG-037-I02",
+    "FG-037-I03",
+    "FG-037-I04"
+  ],
+  "preserved_upper_instance_ids": [
+    "FG-029-I01",
+    "FG-029-I02",
+    "FG-029-I03",
+    "FG-029-I04",
+    "FG-030-I01",
+    "FG-030-I02",
+    "FG-030-I03",
+    "FG-030-I04",
+    "FG-031-I01",
+    "FG-031-I02",
+    "FG-031-I03",
+    "FG-031-I04",
+    "FG-032-I01",
+    "FG-032-I02",
+    "FG-032-I03",
+    "FG-032-I04"
+  ],
+  "source_files": {
+    "adapter_internal_fastener_registry.json": "a45447bdb61c5054f746914dc4c5a1d301a8dedbf930d3bee7e6af5d056e0c0a",
+    "body_tslot_anchor_instance_registry.json": "fe6f5f14298a32fa7bf808586229e5d7f43ebacea9f6b0d3232ede4a66edda5d",
+    "fastener_boundary_classification.json": "c41eee0f28a959063800426a5e78ae3e9ede269b5b50b739d2d1194746a159f9",
+    "legacy_deprecation_registry.json": "835c1a5a7aa04cc4e9b47974e922313053ef66bdfaf0348e9901f282c1be8baf",
+    "preserved_cover_fastener_registry.json": "f02431dc15f4b424d21dd8fb2f500a63b629f945ce4945f530aedf35c807761c",
+    "preserved_upper_structure_fastener_registry.json": "a33320ee8a18986e3c4b370660decc0993cc89ab8a31073357e84594b1673255"
+  },
+  "source_result_bundle_sha256": "15b0f77c51d2ca0c7daa4c4799e2afd92118a12184d08d94a2c153da8178ce5f",
+  "source_version": "v2.29.3.8",
+  "version": "v2.29.3.9.1"
+}

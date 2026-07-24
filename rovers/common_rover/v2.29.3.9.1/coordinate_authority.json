@@ -1,0 +1,21 @@
+{
+  "authority_id": "COORDINATE_AUTHORITY_VERSION_V2.29.3.9",
+  "axes": {
+    "X": {
+      "meaning": "lateral",
+      "positive": "left"
+    },
+    "Y": {
+      "front": "negative",
+      "meaning": "longitudinal",
+      "positive": "rear"
+    },
+    "Z": {
+      "meaning": "vertical",
+      "positive": "up"
+    }
+  },
+  "origin": "PRESERVED_FROM_V2.29_AUTHORITY",
+  "units": "millimetres",
+  "version": "v2.29.3.9"
+}

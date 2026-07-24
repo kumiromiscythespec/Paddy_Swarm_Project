@@ -1,0 +1,52 @@
+{
+  "architecture": "FPB_2020_T_SLOT_FRAME",
+  "bare_frame_components": [
+    "V22939-FPB-RAIL-L",
+    "V22939-FPB-RAIL-R",
+    "V22939-FPB-FRONT-XMEMBER"
+  ],
+  "bare_frame_union": {
+    "max_x_mm": 89.0,
+    "min_x_mm": -89.0,
+    "width_mm": 178.0
+  },
+  "bare_rail_outer_width_mm": 178.0,
+  "direct_rail_hole_policy": "NO_UNVALIDATED_DIRECT_HOLES",
+  "profile_class": "20X20MM_T_SLOT_CLASS",
+  "rail_centerlines_x_mm": {
+    "LEFT": 79.0,
+    "RIGHT": -79.0
+  },
+  "rail_envelopes": {
+    "LEFT": {
+      "max": [
+        89.0,
+        0.0,
+        20.0
+      ],
+      "min": [
+        69.0,
+        -232.0,
+        0.0
+      ]
+    },
+    "RIGHT": {
+      "max": [
+        -69.0,
+        0.0,
+        20.0
+      ],
+      "min": [
+        -89.0,
+        -232.0,
+        0.0
+      ]
+    }
+  },
+  "rail_length_mm": 232.0,
+  "section_mm": {
+    "X_or_Y": 20.0,
+    "Z": 20.0
+  },
+  "version": "v2.29.3.9"
+}

@@ -1,0 +1,8 @@
+{
+  "cross_registry": "EXPLICIT_60_ANCHORS",
+  "geometry_change": false,
+  "lower_adapter": "BOTTOM_SLOT_CONSISTENT",
+  "manifest": "VERSION_LANE_RELATIVE",
+  "upper_torque": "XMEMBER_TOP_CONSISTENT",
+  "version": "v2.29.3.9.1"
+}

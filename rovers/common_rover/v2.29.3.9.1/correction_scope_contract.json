@@ -1,0 +1,81 @@
+{
+  "allowed_semantic_changes": [
+    "VERSION_3.9_TO_3.9.1",
+    "LOWER_ADAPTER_TOP_TO_BOTTOM_CORRECTION",
+    "UPPER_TORQUE_REAR_TO_TOP_CORRECTION",
+    "EXPLICIT_SLOT_ZONE_ID",
+    "CROSS_REGISTRY_VALIDATOR",
+    "LANE_RELATIVE_MANIFEST",
+    "POST_APPLY_VALIDATOR",
+    "POINTER_AND_CORRECTION_DOCS"
+  ],
+  "baseline_version": "v2.29.3.9",
+  "classification_digest": "3ad4433b452c5dfb56035ac19c1fdd71aeb118fcc960eb72ec940e18365282d3",
+  "immutable_file_sha256": {
+    "axis_authority.json": "0344b5952ae98bc0db5baaf4118f1ff167b398dbd5fe7345d73350a2621cf892",
+    "body_frame_authority.json": "eaf35bbe9a4fc858e88609aa624295c9ba992626f47d6eff01cdf23ed706e960",
+    "component_registry.json": "6542e19e685883670f8edf11a9d7939cd0128466c491e3cfcf86a9bb64d384c0",
+    "fixed_body_dimension_authority.json": "460caacf85712d8d590b9736223e8fde6d5825ed60c19c0aae945bd274ba1de1",
+    "front_crossmember_authority.json": "7d2c04258e871fef0c72250e1a33544b5c256d960f551883857a0d53e4f5333c",
+    "hardware_envelope_registry.json": "7ef06c22368489bc3a86a3c3ca1ac1fc22c28c825ecce31dc68e8bd3a6feebb4",
+    "known_hold_registry.json": "ae3ee83c2779e4fbde7ad00311e0f0b8b22fb072e8b6a9bf0131d6b3838505ae",
+    "operational_width_contract.json": "26bf469ff180584a3a633bca5d168bb082f6f3a7c7b9bcf800f0a6c2dd50671e"
+  },
+  "immutable_values": {
+    "BARE_FRAME_WIDTH_MM": 178.0,
+    "BATTERY_CASSETTE": {
+      "X": 125.0,
+      "Y": 180.0,
+      "Z": 120.0
+    },
+    "BBOX": {
+      "X": 150.0,
+      "Y": 220.0,
+      "Z": 150.0
+    },
+    "CBOX": {
+      "X": 130.0,
+      "Y": 140.0,
+      "Z": 105.0
+    },
+    "CORE_LENGTH_MM": 360.0,
+    "FRONT_CROSSMEMBER_ENVELOPE": {
+      "max": [
+        69.0,
+        -212.0,
+        20.0
+      ],
+      "min": [
+        -69.0,
+        -232.0,
+        0.0
+      ]
+    },
+    "FRONT_CROSSMEMBER_LENGTH_MM": 138.0,
+    "HARD_WIDTH_LIMIT_MM": 300.0,
+    "INPUT_ZONE_Y_MM": [
+      -135,
+      -125
+    ],
+    "MOTOR_ZONE_Y_MM": [
+      -80,
+      -70
+    ],
+    "OUTPUT_ZONE_Y_MM": [
+      -222,
+      -212
+    ],
+    "RAIL_CENTERS_X_MM": {
+      "LEFT": 79.0,
+      "RIGHT": -79.0
+    },
+    "REGISTERED_WIDTH_MM": 286.0,
+    "SERVO_ZONE_Y_MM": [
+      -210,
+      -200
+    ]
+  },
+  "internal_fastener_digest": "86b96e6e2bdc6c32c96be5969cc62b729ffb4c130eefd56e7c3d9a56b3495eee",
+  "scope": "V2.29.3.9.1_CORRECTION_ONLY",
+  "version": "v2.29.3.9.1"
+}
