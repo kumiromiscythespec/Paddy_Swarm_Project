@@ -1,0 +1,215 @@
+{
+  "end_clearance": {
+    "constraint": {
+      "lower_exclusive_mm": 0.0,
+      "upper_exclusive_mm": 10.0
+    },
+    "exact_value": "MEASUREMENT_REQUIRED",
+    "parameter": "TSLOT_END_CLEARANCE_MM",
+    "symbol": "E"
+  },
+  "exact_t_nut_dimensions": "MEASUREMENT_REQUIRED",
+  "profile_class": "20X20MM_T_SLOT_CLASS",
+  "slots": [
+    {
+      "access_direction": "+Z",
+      "axis": "Y",
+      "face": "TOP_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-L",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        0.0
+      ],
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_id": "RAIL-L-TOP",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "0 - E"
+      ]
+    },
+    {
+      "access_direction": "+Z",
+      "axis": "Y",
+      "face": "TOP_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-R",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        0.0
+      ],
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_id": "RAIL-R-TOP",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "0 - E"
+      ]
+    },
+    {
+      "access_direction": "LATERAL_OR_LONGITUDINAL_FACE_NORMAL",
+      "axis": "Y",
+      "face": "INNER_SIDE_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-L",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        -212.0
+      ],
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_id": "RAIL-L-INNER-FRONT",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "-212 - E"
+      ]
+    },
+    {
+      "access_direction": "LATERAL_OR_LONGITUDINAL_FACE_NORMAL",
+      "axis": "Y",
+      "face": "INNER_SIDE_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-R",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        -212.0
+      ],
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_id": "RAIL-R-INNER-FRONT",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "-212 - E"
+      ]
+    },
+    {
+      "access_direction": "+Z",
+      "axis": "X",
+      "face": "TOP_SLOT",
+      "host_class": "FRONT_CROSSMEMBER",
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -69.0,
+        69.0
+      ],
+      "normalized_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_id": "XMEMBER-TOP",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-69 + E",
+        "69 - E"
+      ]
+    },
+    {
+      "access_direction": "LATERAL_OR_LONGITUDINAL_FACE_NORMAL",
+      "axis": "X",
+      "face": "FRONT_FACE_SLOT",
+      "host_class": "FRONT_CROSSMEMBER",
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -69.0,
+        69.0
+      ],
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_id": "XMEMBER-FRONT",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-69 + E",
+        "69 - E"
+      ]
+    },
+    {
+      "access_direction": "LATERAL_OR_LONGITUDINAL_FACE_NORMAL",
+      "axis": "X",
+      "face": "REAR_FACE_SLOT",
+      "host_class": "FRONT_CROSSMEMBER",
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "mud_drainage_measurement_hold": "MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -69.0,
+        69.0
+      ],
+      "normalized_slot_face": "REAR_FACE_SLOT",
+      "semantic_qualifier": "REAR_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_id": "XMEMBER-REAR",
+      "source_authority": "V2.29.3.9_GEOMETRY_PLUS_V2.29.3.9.1_FACE_CORRECTION",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-69 + E",
+        "69 - E"
+      ]
+    },
+    {
+      "access_direction": "-Z",
+      "axis": "Y",
+      "face": "BOTTOM_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-L",
+      "mud_drainage_measurement_hold": "BOTTOM_SLOT_DRAINAGE_AND_CLEANING_ACCESS_MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        0.0
+      ],
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_id": "RAIL-L-BOTTOM",
+      "source_authority": "V2.29.3.8_LOWER_ADAPTER_BOTTOM_SLOT_PRESERVED_AND_CORRECTED",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "0 - E"
+      ]
+    },
+    {
+      "access_direction": "-Z",
+      "axis": "Y",
+      "face": "BOTTOM_SLOT",
+      "host_class": "RAIL",
+      "host_component": "V22939-FPB-RAIL-R",
+      "mud_drainage_measurement_hold": "BOTTOM_SLOT_DRAINAGE_AND_CLEANING_ACCESS_MEASUREMENT_REQUIRED",
+      "nominal_interval": [
+        -232.0,
+        0.0
+      ],
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_id": "RAIL-R-BOTTOM",
+      "source_authority": "V2.29.3.8_LOWER_ADAPTER_BOTTOM_SLOT_PRESERVED_AND_CORRECTED",
+      "t_nut_permitted": true,
+      "usable_symbolic": [
+        "-232 + E",
+        "0 - E"
+      ]
+    }
+  ],
+  "vendor": "UNSELECTED",
+  "version": "v2.29.3.9.1"
+}

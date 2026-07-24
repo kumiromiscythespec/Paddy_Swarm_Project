@@ -1,0 +1,1642 @@
+[
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-FPB-RAIL-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "DIRECT_FIXED_FRAME_AABB",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      89,
+      0,
+      20
+    ],
+    "envelope_min_xyz_mm": [
+      69,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FRAME_RAIL",
+    "hold_reason": "PURCHASED_PROFILE_EXACT_SLOT_DIMENSIONS_MEASUREMENT_REQUIRED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        89,
+        0,
+        20
+      ],
+      "min_xyz_mm": [
+        69,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "body_frame_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "4771b5008f00d3903eeddd4b132c11f477187e4d4813630c6c0e6dae5c6afc34",
+    "source_type": "FIXED_FRAME_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-FPB-RAIL-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "DIRECT_FIXED_FRAME_AABB",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      -69,
+      0,
+      20
+    ],
+    "envelope_min_xyz_mm": [
+      -89,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FRAME_RAIL",
+    "hold_reason": "PURCHASED_PROFILE_EXACT_SLOT_DIMENSIONS_MEASUREMENT_REQUIRED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -69,
+        0,
+        20
+      ],
+      "min_xyz_mm": [
+        -89,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "body_frame_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "4771b5008f00d3903eeddd4b132c11f477187e4d4813630c6c0e6dae5c6afc34",
+    "source_type": "FIXED_FRAME_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-FPB-FRONT-XMEMBER",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "DIRECT_FIXED_CROSSMEMBER_AABB",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      69,
+      -212,
+      20
+    ],
+    "envelope_min_xyz_mm": [
+      -69,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FRONT_CROSSMEMBER",
+    "hold_reason": "PURCHASED_PROFILE_EXACT_SLOT_DIMENSIONS_MEASUREMENT_REQUIRED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        69,
+        -212,
+        20
+      ],
+      "min_xyz_mm": [
+        -69,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "front_crossmember_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "b64465409edb5029539a3e203625007a3f1ae688f4da076884130a3275f5dcbd",
+    "source_type": "FIXED_FRAME_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-CBOX",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_DIMENSIONS_PLUS_CORE_PLACEMENT",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      65,
+      0,
+      105
+    ],
+    "envelope_min_xyz_mm": [
+      -65,
+      -140,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "CONTROL_BOX",
+    "hold_reason": "NONE",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        65,
+        0,
+        105
+      ],
+      "min_xyz_mm": [
+        -65,
+        -140,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "fixed_body_dimension_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "194fa82cf38a0458719477bef8c08be41296b2e5dcfd03da26cc474fcc2dde99",
+    "source_type": "FIXED_BODY_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-BBOX",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_DIMENSIONS_PLUS_CORE_PLACEMENT",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      75,
+      220,
+      150
+    ],
+    "envelope_min_xyz_mm": [
+      -75,
+      0,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "BATTERY_BOX",
+    "hold_reason": "NONE",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        75,
+        220,
+        150
+      ],
+      "min_xyz_mm": [
+        -75,
+        0,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "fixed_body_dimension_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "194fa82cf38a0458719477bef8c08be41296b2e5dcfd03da26cc474fcc2dde99",
+    "source_type": "FIXED_BODY_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "AUTHORITY_EXACT",
+    "alias": false,
+    "canonical_component_id": "V22939-BATTERY-CASSETTE",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_DIMENSIONS_WITHIN_BBOX_INTERFACE",
+    "dimension_status": "FIXED_AUTHORITY",
+    "envelope_max_xyz_mm": [
+      62.5,
+      200,
+      135
+    ],
+    "envelope_min_xyz_mm": [
+      -62.5,
+      20,
+      15
+    ],
+    "fixed_movable": "FIXED",
+    "function": "BATTERY_CASSETTE",
+    "hold_reason": "BATTERY_OPENING_CANDIDATE_ONLY",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        62.5,
+        200,
+        135
+      ],
+      "min_xyz_mm": [
+        -62.5,
+        20,
+        15
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "fixed_body_dimension_authority.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "194fa82cf38a0458719477bef8c08be41296b2e5dcfd03da26cc474fcc2dde99",
+    "source_type": "FIXED_BODY_AUTHORITY",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-FPB-CORNER-BRACKET-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "CORNER_BRACKET_MAXIMUM.L",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      89,
+      -224,
+      20
+    ],
+    "envelope_min_xyz_mm": [
+      69,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "CORNER_BRACKET",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        89,
+        -224,
+        20
+      ],
+      "min_xyz_mm": [
+        69,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-FPB-CORNER-BRACKET-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "CORNER_BRACKET_MAXIMUM.R",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -69,
+      -224,
+      20
+    ],
+    "envelope_min_xyz_mm": [
+      -89,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "CORNER_BRACKET",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -69,
+        -224,
+        20
+      ],
+      "min_xyz_mm": [
+        -89,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-LOWER-ADAPTER-MOUNT-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_FASTENER_DATUM_PLUS_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      110,
+      -95,
+      45
+    ],
+    "envelope_min_xyz_mm": [
+      65,
+      -125,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "LOWER_ADAPTER",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        110,
+        -95,
+        45
+      ],
+      "min_xyz_mm": [
+        65,
+        -125,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-LOWER-ADAPTER-MOUNT-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -65,
+      -95,
+      45
+    ],
+    "envelope_min_xyz_mm": [
+      -110,
+      -125,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "LOWER_ADAPTER",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -65,
+        -95,
+        45
+      ],
+      "min_xyz_mm": [
+        -110,
+        -125,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-ADAPTER-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MOTOR_AXIS_PLUS_ADJUSTMENT_AND_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      124,
+      -70,
+      105
+    ],
+    "envelope_min_xyz_mm": [
+      69,
+      -80,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "MOTOR_ADAPTER",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        124,
+        -70,
+        105
+      ],
+      "min_xyz_mm": [
+        69,
+        -80,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-ADAPTER-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -69,
+      -70,
+      105
+    ],
+    "envelope_min_xyz_mm": [
+      -124,
+      -80,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "MOTOR_ADAPTER",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -69,
+        -70,
+        105
+      ],
+      "min_xyz_mm": [
+        -124,
+        -80,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "INPUT_AXIS_PLUS_ADJUSTMENT_AND_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      118,
+      -120,
+      105
+    ],
+    "envelope_min_xyz_mm": [
+      69,
+      -140,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "INPUT_CARTRIDGE_MOUNT",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        118,
+        -120,
+        105
+      ],
+      "min_xyz_mm": [
+        69,
+        -140,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -69,
+      -120,
+      105
+    ],
+    "envelope_min_xyz_mm": [
+      -118,
+      -140,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "INPUT_CARTRIDGE_MOUNT",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -69,
+        -120,
+        105
+      ],
+      "min_xyz_mm": [
+        -118,
+        -140,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-OUTPUT-BRIDGE-MOUNT",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "OUTPUT_BRIDGE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      143,
+      -212,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      -143,
+      -305,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "OUTPUT_BRIDGE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        143,
+        -212,
+        110
+      ],
+      "min_xyz_mm": [
+        -143,
+        -305,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "BOTH",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-SERVO-BRIDGE-MOUNT",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "SERVO_BRIDGE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      78,
+      -190,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      -78,
+      -210,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "SERVO_BRIDGE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        78,
+        -190,
+        110
+      ],
+      "min_xyz_mm": [
+        -78,
+        -210,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "BOTH",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-POSITIVE-STOP-BLOCK-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "OUTPUT_ZONE_POSITIVE_STOP_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      94,
+      -216,
+      30
+    ],
+    "envelope_min_xyz_mm": [
+      69,
+      -220,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "OUTPUT_POSITIVE_STOP",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        94,
+        -216,
+        30
+      ],
+      "min_xyz_mm": [
+        69,
+        -220,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-POSITIVE-STOP-BLOCK-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -69,
+      -216,
+      30
+    ],
+    "envelope_min_xyz_mm": [
+      -94,
+      -220,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "OUTPUT_POSITIVE_STOP",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -69,
+        -216,
+        30
+      ],
+      "min_xyz_mm": [
+        -94,
+        -220,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-HITCH-PAD-MOUNT-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "HITCH_REFERENCE_PLUS_XMEMBER_FACE_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      66,
+      -212,
+      40
+    ],
+    "envelope_min_xyz_mm": [
+      40,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "HITCH_PAD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        66,
+        -212,
+        40
+      ],
+      "min_xyz_mm": [
+        40,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-HITCH-PAD-MOUNT-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -40,
+      -212,
+      40
+    ],
+    "envelope_min_xyz_mm": [
+      -66,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "HITCH_PAD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -40,
+        -212,
+        40
+      ],
+      "min_xyz_mm": [
+        -66,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-UPPER-TORQUE-MOUNT",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "CENTERED_XMEMBER_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      20,
+      -212,
+      70
+    ],
+    "envelope_min_xyz_mm": [
+      -20,
+      -232,
+      0
+    ],
+    "fixed_movable": "FIXED",
+    "function": "UPPER_TORQUE_MOUNT",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        20,
+        -212,
+        70
+      ],
+      "min_xyz_mm": [
+        -20,
+        -232,
+        0
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-PORTAL-PILLAR-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "PRESERVED_PORTAL_AUTHORITY_EXPLICIT_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      89,
+      15,
+      140
+    ],
+    "envelope_min_xyz_mm": [
+      65,
+      -25,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "PORTAL_PILLAR",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        89,
+        15,
+        140
+      ],
+      "min_xyz_mm": [
+        65,
+        -25,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-PORTAL-PILLAR-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -65,
+      15,
+      140
+    ],
+    "envelope_min_xyz_mm": [
+      -89,
+      -25,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "PORTAL_PILLAR",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -65,
+        15,
+        140
+      ],
+      "min_xyz_mm": [
+        -89,
+        -25,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-PORTAL-CROSSBAR",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "PRESERVED_PORTAL_AUTHORITY_EXPLICIT_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      100,
+      20,
+      140
+    ],
+    "envelope_min_xyz_mm": [
+      -100,
+      -20,
+      120
+    ],
+    "fixed_movable": "FIXED",
+    "function": "PORTAL_CROSSBAR",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        100,
+        20,
+        140
+      ],
+      "min_xyz_mm": [
+        -100,
+        -20,
+        120
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-ESTOP-MOUNT",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "PRESERVED_ESTOP_AUTHORITY_EXPLICIT_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      110,
+      20,
+      150
+    ],
+    "envelope_min_xyz_mm": [
+      90,
+      -20,
+      120
+    ],
+    "fixed_movable": "FIXED",
+    "function": "ESTOP_MOUNT",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        110,
+        20,
+        150
+      ],
+      "min_xyz_mm": [
+        90,
+        -20,
+        120
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-CABLE-GUARD-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_GUARD_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      118,
+      0,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      89,
+      -180,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_CABLE_GUARD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        118,
+        0,
+        110
+      ],
+      "min_xyz_mm": [
+        89,
+        -180,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-CABLE-GUARD-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -89,
+      0,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      -118,
+      -180,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_CABLE_GUARD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -89,
+        0,
+        110
+      ],
+      "min_xyz_mm": [
+        -118,
+        -180,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-SIDE-GUARD-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MOTOR_SIDE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      124,
+      -30,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      89,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_MOTOR_GUARD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        124,
+        -30,
+        120
+      ],
+      "min_xyz_mm": [
+        89,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-SIDE-GUARD-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -89,
+      -30,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      -124,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_MOTOR_GUARD",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -89,
+        -30,
+        120
+      ],
+      "min_xyz_mm": [
+        -124,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-COVER-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_GUARD_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      124,
+      -30,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      89,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        124,
+        -30,
+        120
+      ],
+      "min_xyz_mm": [
+        89,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-COVER-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -89,
+      -30,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      -124,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -89,
+        -30,
+        120
+      ],
+      "min_xyz_mm": [
+        -124,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-CAM-COVER",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_LAYOUT_CAPPED_BY_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      78,
+      -202,
+      144
+    ],
+    "envelope_min_xyz_mm": [
+      -78,
+      -238,
+      74
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        78,
+        -202,
+        144
+      ],
+      "min_xyz_mm": [
+        -78,
+        -238,
+        74
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-SERVO-COVER",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_LAYOUT_CAPPED_BY_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      78,
+      -175,
+      140
+    ],
+    "envelope_min_xyz_mm": [
+      -78,
+      -210,
+      75
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        78,
+        -175,
+        140
+      ],
+      "min_xyz_mm": [
+        -78,
+        -210,
+        75
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "CENTER",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-BELT-GUARD-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "FIXED_GUARD_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      143,
+      -250,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      89,
+      -320,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        143,
+        -250,
+        120
+      ],
+      "min_xyz_mm": [
+        89,
+        -320,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-BELT-GUARD-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -89,
+      -250,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      -143,
+      -320,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "FIXED_COVER_PROTRUSION",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -89,
+        -250,
+        120
+      ],
+      "min_xyz_mm": [
+        -143,
+        -320,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-CRADLE-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_LAYOUT_CAPPED_BY_INTERFACE_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      124,
+      -30,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      89,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "MOTOR_CRADLE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        124,
+        -30,
+        110
+      ],
+      "min_xyz_mm": [
+        89,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-MOTOR-CRADLE-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -89,
+      -30,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      -124,
+      -120,
+      20
+    ],
+    "fixed_movable": "FIXED",
+    "function": "MOTOR_CRADLE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -89,
+        -30,
+        110
+      ],
+      "min_xyz_mm": [
+        -124,
+        -120,
+        20
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-INPUT-CARTRIDGE-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_INPUT_LAYOUT_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      120,
+      -88,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      90,
+      -172,
+      50
+    ],
+    "fixed_movable": "FIXED",
+    "function": "INPUT_CARTRIDGE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        120,
+        -88,
+        110
+      ],
+      "min_xyz_mm": [
+        90,
+        -172,
+        50
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-INPUT-CARTRIDGE-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -90,
+      -88,
+      110
+    ],
+    "envelope_min_xyz_mm": [
+      -120,
+      -172,
+      50
+    ],
+    "fixed_movable": "FIXED",
+    "function": "INPUT_CARTRIDGE",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -90,
+        -88,
+        110
+      ],
+      "min_xyz_mm": [
+        -120,
+        -172,
+        50
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-PTO-BAY-L",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "COMMITTED_PTO_LAYOUT_MAXIMUM",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      140,
+      -285,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      90,
+      -350,
+      60
+    ],
+    "fixed_movable": "FIXED",
+    "function": "PTO_BAY",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        140,
+        -285,
+        120
+      ],
+      "min_xyz_mm": [
+        90,
+        -350,
+        60
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "LEFT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  },
+  {
+    "actual_component_envelope": "NOT_MEASURED",
+    "alias": false,
+    "canonical_component_id": "V22939-PTO-BAY-R",
+    "coordinate_frame": "V2.29.3.9_BODY_GLOBAL",
+    "derivation_method": "MIRROR_OF_LEFT_EXPLICIT_CONTRACT",
+    "dimension_status": "INTERFACE_MAXIMUM_NOT_ACTUAL_PART",
+    "envelope_max_xyz_mm": [
+      -90,
+      -285,
+      120
+    ],
+    "envelope_min_xyz_mm": [
+      -140,
+      -350,
+      60
+    ],
+    "fixed_movable": "FIXED",
+    "function": "PTO_BAY",
+    "hold_reason": "PURCHASED_PART_NOT_SELECTED",
+    "maximum_interface_envelope": {
+      "max_xyz_mm": [
+        -90,
+        -285,
+        120
+      ],
+      "min_xyz_mm": [
+        -140,
+        -350,
+        60
+      ]
+    },
+    "operational_service_classification": "FIXED_OPERATIONAL",
+    "side": "RIGHT",
+    "source_path": "hardware_envelope_provenance.json",
+    "source_revision": "v2.29.3.9",
+    "source_sha256": "e80c4238c17c97ede5482f864eac47cef0bd9d102099d77d9c449c77b2731e15",
+    "source_type": "FIXED_INTERFACE_MAXIMUM",
+    "width_inclusion": true
+  }
+]

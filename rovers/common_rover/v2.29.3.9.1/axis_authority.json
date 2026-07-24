@@ -1,0 +1,307 @@
+{
+  "automatic_z_plus_8_forbidden": true,
+  "coordinate_authority": "V2.29.3.9",
+  "records": [
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "MOTOR_AXIS_L",
+      "current_xyz_mm": [
+        96.0,
+        -75.0,
+        96.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        96.0,
+        -75.0,
+        96.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "MOTOR_AXIS_R",
+      "current_xyz_mm": [
+        -96.0,
+        -75.0,
+        96.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -96.0,
+        -75.0,
+        96.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "INPUT_SHAFT_AXIS_L",
+      "current_xyz_mm": [
+        115.0,
+        -130.0,
+        93.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        115.0,
+        -130.0,
+        93.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "INPUT_SHAFT_AXIS_R",
+      "current_xyz_mm": [
+        -115.0,
+        -130.0,
+        93.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -115.0,
+        -130.0,
+        93.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "OUTPUT_SHAFT_AXIS_L",
+      "current_xyz_mm": [
+        116.0,
+        -297.0,
+        97.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        116.0,
+        -297.0,
+        97.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "OUTPUT_SHAFT_AXIS_R",
+      "current_xyz_mm": [
+        -116.0,
+        -297.0,
+        97.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -116.0,
+        -297.0,
+        97.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "PTO_AXIS_L",
+      "current_xyz_mm": [
+        116.0,
+        -337.0,
+        97.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        116.0,
+        -337.0,
+        97.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_LAYOUT_VALUE",
+      "axis_id": "PTO_AXIS_R",
+      "current_xyz_mm": [
+        -116.0,
+        -337.0,
+        97.0
+      ],
+      "derivation": "MIDPOINT_OF_COMMITTED_LAYOUT_AABB",
+      "measurement_status": "MEASUREMENT_HOLD",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -116.0,
+        -337.0,
+        97.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "SELECTOR_REFERENCE_L",
+      "current_xyz_mm": [
+        116.0,
+        -317.0,
+        99.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        116.0,
+        -317.0,
+        99.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "SELECTOR_REFERENCE_R",
+      "current_xyz_mm": [
+        -116.0,
+        -317.0,
+        99.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -116.0,
+        -317.0,
+        99.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "SERVO_REFERENCE",
+      "current_xyz_mm": [
+        0.0,
+        -193.0,
+        109.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        0.0,
+        -193.0,
+        109.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "CAM_REFERENCE",
+      "current_xyz_mm": [
+        0.0,
+        -220.0,
+        106.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        0.0,
+        -220.0,
+        106.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "HITCH_REFERENCE_L",
+      "current_xyz_mm": [
+        53.0,
+        -244.0,
+        13.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        53.0,
+        -244.0,
+        13.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "LAYOUT_REFERENCE_ONLY",
+      "axis_id": "HITCH_REFERENCE_R",
+      "current_xyz_mm": [
+        -53.0,
+        -244.0,
+        13.0
+      ],
+      "derivation": "MIDPOINT_OF_MEASUREMENT_HELD_PLACEHOLDER_AABB",
+      "measurement_status": "MEASUREMENT_OR_DESIGN_AUTHORITY_REQUIRED",
+      "source_path": "rovers/common_rover/v2.29.3.5/component_registry.json",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf",
+      "source_xyz_mm": [
+        -53.0,
+        -244.0,
+        13.0
+      ],
+      "tolerance_mm": 0.0
+    },
+    {
+      "authority_class": "COMMITTED_TRANSVERSE_REFERENCE",
+      "axis_id": "SERVO_CAM_TRANSVERSE_SECTION_Y",
+      "current_xyz_mm": [
+        null,
+        -205.0,
+        null
+      ],
+      "derivation": "EXPLICIT_SECTION_COORDINATE",
+      "measurement_status": "PARTIAL_AXIS_ONLY",
+      "source_path": "rovers/common_rover/v2.29.3.5/cad_sections.py",
+      "source_revision": "v2.29.3.5@3ab4270d42f3c6cf355b845c43821dbc2126277d",
+      "source_sha256": "b7a7f9735669b684f8ecce800fcf37f7506eb6ace0dc703b08acec25aad07adf",
+      "source_xyz_mm": [
+        null,
+        -205.0,
+        null
+      ],
+      "tolerance_mm": 0.0
+    }
+  ],
+  "version": "v2.29.3.9"
+}

@@ -1,0 +1,43 @@
+{
+  "joint": {
+    "allows_overlap": false,
+    "assembly_sequence": "MEASUREMENT_REQUIRED_BEFORE_STRUCTURAL_OVERLAP_ACCEPTANCE",
+    "component_a": "V2292-FPB-RAIL-L",
+    "component_b": "V2292-FPB-FRONT-XMEMBER",
+    "expected_contact": "MEASUREMENT_REQUIRED",
+    "expected_overlap": {
+      "proxy_candidate_volume_mm3": 1728.0,
+      "status": "MEASUREMENT_REQUIRED"
+    },
+    "failure_consequence": "LOSS_OF_LOAD_PATH_OR_ALIGNMENT",
+    "fastener_groups": [
+      "FG-004"
+    ],
+    "geometry_authority": "component_registry AABB overlap + attachment ATT-004; insufficient to distinguish butt/lap/tab",
+    "joint_id": "JOINT-LOOP001-RAIL-FRONT-XMEMBER",
+    "joint_type": "UNDEFINED_MEASUREMENT_HOLD",
+    "load_directions": [
+      "radial",
+      "axial",
+      "torque"
+    ],
+    "locating_feature": "REGISTERED_FACE_OR_TAB_PROXY_UNRESOLVED",
+    "measurement_status": "JOINT_TYPE_MEASUREMENT_REQUIRED",
+    "overlap_envelope": {
+      "bounds": [
+        73.0,
+        85.0,
+        -232.0,
+        -220.0,
+        0.0,
+        12.0
+      ],
+      "status": "AABB_PROXY_NOT_ALLOWED_JOINT_ENVELOPE"
+    },
+    "removal_sequence": "REMOVE_FG-004_THEN_SEPARATE_JOINT"
+  },
+  "loop_001_pass_permitted": false,
+  "minimum_assembly_status": "BLOCKED_BY_UNDEFINED_STRUCTURAL_JOINT",
+  "rail_only_cad_permitted": true,
+  "status": "MEASUREMENT_HOLD"
+}

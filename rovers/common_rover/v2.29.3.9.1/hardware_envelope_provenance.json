@@ -1,0 +1,122 @@
+{
+  "actual_vs_maximum_rule": "MAXIMUM_INTERFACE_ENVELOPE_IS_NOT_ACTUAL_PART",
+  "allowed_source_types": [
+    "FIXED_BODY_AUTHORITY",
+    "FIXED_FRAME_AUTHORITY",
+    "FIXED_INTERFACE_MAXIMUM",
+    "MEASURED_PURCHASED_PART",
+    "CAD_DERIVED",
+    "DOCUMENTED_LAYOUT_CANDIDATE",
+    "MEASUREMENT_HOLD"
+  ],
+  "forbidden_source_types": [
+    "NAME_BASED_HEURISTIC",
+    "GENERIC_PLACEHOLDER",
+    "UNSOURCED_DEFAULT"
+  ],
+  "maximum_interface_contracts": {
+    "CORNER_BRACKET_MAXIMUM": {
+      "aabbs": {
+        "L": [
+          69,
+          89,
+          -232,
+          -224,
+          0,
+          20
+        ],
+        "R": [
+          -89,
+          -69,
+          -232,
+          -224,
+          0,
+          20
+        ]
+      },
+      "basis": "FRONT_DATUM_AND_20MM_PROFILE_JOINT"
+    },
+    "FIXED_GUARD_MAXIMUM": {
+      "basis": "V22935_PROJECT_CANDIDATE_GUARD_LAYOUT_CAPPED_BY_INTERFACE_CONTRACT",
+      "left_max_x_mm": 143,
+      "right_min_x_mm": -143
+    },
+    "INPUT_MOUNT_MAXIMUM": {
+      "basis": "COMMITTED_INPUT_AXIS_AND_V22935_LAYOUT_AABBS",
+      "left_aabb": [
+        69,
+        118,
+        -140,
+        -120,
+        0,
+        105
+      ],
+      "right_aabb": [
+        -118,
+        -69,
+        -140,
+        -120,
+        0,
+        105
+      ]
+    },
+    "MOTOR_SIDE_MAXIMUM": {
+      "basis": "COMMITTED_MOTOR_AXIS_AND_V22935_LAYOUT_AABBS",
+      "left_aabb": [
+        69,
+        124,
+        -120,
+        -30,
+        0,
+        120
+      ],
+      "right_aabb": [
+        -124,
+        -69,
+        -120,
+        -30,
+        0,
+        120
+      ]
+    },
+    "OUTPUT_BRIDGE_MAXIMUM": {
+      "aabb": [
+        -143,
+        143,
+        -305,
+        -212,
+        0,
+        110
+      ],
+      "basis": "OUTPUT_SHAFT_Y=-297_PLUS_ANCHOR_OFFSET_75_TO_85MM",
+      "offset_capability_mm": [
+        75,
+        85
+      ]
+    },
+    "PORTAL_ESTOP_MAXIMUM": {
+      "basis": "V22938_PRESERVED_PORTAL_ESTOP_AUTHORITY_WITH_EXPLICIT_MAXIMUM",
+      "estop_width_mm": 220,
+      "portal_width_mm": 200
+    },
+    "SERVO_BRIDGE_MAXIMUM": {
+      "aabb": [
+        -78,
+        78,
+        -210,
+        -190,
+        0,
+        110
+      ],
+      "basis": "COMMITTED_SERVO_CAM_SECTION_Y=-205"
+    }
+  },
+  "policy": "EXPLICIT_RECORDS_ONLY_NO_NAME_PARSING",
+  "source_hashes": {
+    "body_frame_authority.json": "4771b5008f00d3903eeddd4b132c11f477187e4d4813630c6c0e6dae5c6afc34",
+    "fixed_body_dimension_authority.json": "194fa82cf38a0458719477bef8c08be41296b2e5dcfd03da26cc474fcc2dde99",
+    "front_crossmember_authority.json": "b64465409edb5029539a3e203625007a3f1ae688f4da076884130a3275f5dcbd",
+    "rovers/common_rover/v2.29.3.5/component_registry.json": "2dccc482fa0c14c203183fc471dc977ec43ac68d1a856531abf945a039bcfeaf"
+  },
+  "version": "v2.29.3.9"
+}

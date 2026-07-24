@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "canonical_component_id": "V22939-FPB-RAIL-L",
+      "fixed_movable": "FIXED",
+      "function": "FRAME_RAIL",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-FPB-RAIL-R",
+      "fixed_movable": "FIXED",
+      "function": "FRAME_RAIL",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-FPB-FRONT-XMEMBER",
+      "fixed_movable": "FIXED",
+      "function": "FRONT_CROSSMEMBER",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-CBOX",
+      "fixed_movable": "FIXED",
+      "function": "CONTROL_BOX",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-BBOX",
+      "fixed_movable": "FIXED",
+      "function": "BATTERY_BOX",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-BATTERY-CASSETTE",
+      "fixed_movable": "FIXED",
+      "function": "BATTERY_CASSETTE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-FPB-CORNER-BRACKET-L",
+      "fixed_movable": "FIXED",
+      "function": "CORNER_BRACKET",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-FPB-CORNER-BRACKET-R",
+      "fixed_movable": "FIXED",
+      "function": "CORNER_BRACKET",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-LOWER-ADAPTER-MOUNT-L",
+      "fixed_movable": "FIXED",
+      "function": "LOWER_ADAPTER",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-LOWER-ADAPTER-MOUNT-R",
+      "fixed_movable": "FIXED",
+      "function": "LOWER_ADAPTER",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-ADAPTER-L",
+      "fixed_movable": "FIXED",
+      "function": "MOTOR_ADAPTER",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-ADAPTER-R",
+      "fixed_movable": "FIXED",
+      "function": "MOTOR_ADAPTER",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-INPUT-CARTRIDGE-MOUNT-L",
+      "fixed_movable": "FIXED",
+      "function": "INPUT_CARTRIDGE_MOUNT",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-INPUT-CARTRIDGE-MOUNT-R",
+      "fixed_movable": "FIXED",
+      "function": "INPUT_CARTRIDGE_MOUNT",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-OUTPUT-BRIDGE-MOUNT",
+      "fixed_movable": "FIXED",
+      "function": "OUTPUT_BRIDGE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "BOTH"
+    },
+    {
+      "canonical_component_id": "V22939-SERVO-BRIDGE-MOUNT",
+      "fixed_movable": "FIXED",
+      "function": "SERVO_BRIDGE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "BOTH"
+    },
+    {
+      "canonical_component_id": "V22939-POSITIVE-STOP-BLOCK-L",
+      "fixed_movable": "FIXED",
+      "function": "OUTPUT_POSITIVE_STOP",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-POSITIVE-STOP-BLOCK-R",
+      "fixed_movable": "FIXED",
+      "function": "OUTPUT_POSITIVE_STOP",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-HITCH-PAD-MOUNT-L",
+      "fixed_movable": "FIXED",
+      "function": "HITCH_PAD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-HITCH-PAD-MOUNT-R",
+      "fixed_movable": "FIXED",
+      "function": "HITCH_PAD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-UPPER-TORQUE-MOUNT",
+      "fixed_movable": "FIXED",
+      "function": "UPPER_TORQUE_MOUNT",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-PORTAL-PILLAR-L",
+      "fixed_movable": "FIXED",
+      "function": "PORTAL_PILLAR",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-PORTAL-PILLAR-R",
+      "fixed_movable": "FIXED",
+      "function": "PORTAL_PILLAR",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-PORTAL-CROSSBAR",
+      "fixed_movable": "FIXED",
+      "function": "PORTAL_CROSSBAR",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-ESTOP-MOUNT",
+      "fixed_movable": "FIXED",
+      "function": "ESTOP_MOUNT",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-CABLE-GUARD-L",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_CABLE_GUARD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-CABLE-GUARD-R",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_CABLE_GUARD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-SIDE-GUARD-L",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_MOTOR_GUARD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-SIDE-GUARD-R",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_MOTOR_GUARD",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-COVER-L",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-COVER-R",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-CAM-COVER",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-SERVO-COVER",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "CENTER"
+    },
+    {
+      "canonical_component_id": "V22939-BELT-GUARD-L",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-BELT-GUARD-R",
+      "fixed_movable": "FIXED",
+      "function": "FIXED_COVER_PROTRUSION",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-CRADLE-L",
+      "fixed_movable": "FIXED",
+      "function": "MOTOR_CRADLE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-MOTOR-CRADLE-R",
+      "fixed_movable": "FIXED",
+      "function": "MOTOR_CRADLE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-INPUT-CARTRIDGE-L",
+      "fixed_movable": "FIXED",
+      "function": "INPUT_CARTRIDGE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-INPUT-CARTRIDGE-R",
+      "fixed_movable": "FIXED",
+      "function": "INPUT_CARTRIDGE",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    },
+    {
+      "canonical_component_id": "V22939-PTO-BAY-L",
+      "fixed_movable": "FIXED",
+      "function": "PTO_BAY",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "LEFT"
+    },
+    {
+      "canonical_component_id": "V22939-PTO-BAY-R",
+      "fixed_movable": "FIXED",
+      "function": "PTO_BAY",
+      "operational_service_classification": "FIXED_OPERATIONAL",
+      "side": "RIGHT"
+    }
+  ],
+  "version": "v2.29.3.9"
+}

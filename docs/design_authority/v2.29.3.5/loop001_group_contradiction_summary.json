@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "group_count": 6,
+  "group_status_counts": {
+    "DESIGN_CONTRADICTION_OR_MEASUREMENT_HOLD": 1,
+    "HOLE_PATTERN_DESIGN_CONTRADICTION": 3,
+    "JOINT_TYPE_UNDEFINED": 1,
+    "RAIL_HOLE_PATTERN_VALID": 1
+  },
+  "groups_requiring_design_or_measurement_resolution": 5,
+  "instance_count": 24,
+  "status": "PASS_WITH_CONTRADICTION_HOLD"
+}

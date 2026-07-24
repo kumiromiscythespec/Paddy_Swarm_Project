@@ -1,0 +1,458 @@
+{
+  "end_clearance_constraint": {
+    "lower_exclusive_mm": 0,
+    "upper_exclusive_mm": 10
+  },
+  "end_clearance_parameter": "E",
+  "front_joint_reserved_interval_y_mm": [
+    -232,
+    -224
+  ],
+  "legacy_output_anchor_y_minus_238_status": "DEPRECATED_NOT_CURRENT",
+  "version": "v2.29.3.9.1",
+  "zones": [
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 4,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "LOWER_FRAME_DATUM",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-BOTTOM",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "LOWER-ADAPTER-R",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "KEYED_LOWER_FRAME_SHOULDER",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "LEFT",
+      "slot_face": "BOTTOM_SLOT",
+      "zone_id": "LOWER-ADAPTER-L",
+      "zone_interval": [
+        -125,
+        -95
+      ]
+    },
+    {
+      "adjustment_range_mm": 3,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "MOTOR_AXIS_L_Y=-75",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "MOTOR-ADAPTER-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "ANTI_ROTATION_TAB",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "MOTOR-ADAPTER-L",
+      "zone_interval": [
+        -80,
+        -70
+      ]
+    },
+    {
+      "adjustment_range_mm": 3,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "INPUT_SHAFT_AXIS_L_Y=-130",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "INPUT-CARTRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "SHAFT_DATUM_STOP",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "LEFT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "INPUT-CARTRIDGE-L",
+      "zone_interval": [
+        -135,
+        -125
+      ]
+    },
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": {
+        "axis_y_mm": -297,
+        "derived_interval_mm": [
+          -222,
+          -212
+        ],
+        "offset_capability_mm": [
+          75,
+          85
+        ],
+        "type": "AXIS_PLUS_BOUNDED_OFFSET"
+      },
+      "fixed_datum_relation": "OUTPUT_SHAFT_AXIS_L_Y=-297",
+      "fixed_exclusions": [
+        {
+          "interval": [
+            -232,
+            -224
+          ],
+          "reason": "FRONT_CORNER_BRACKET_MAXIMUM"
+        }
+      ],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "OUTPUT-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "V22939-POSITIVE-STOP-BLOCK",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "OUTPUT-BRIDGE-L",
+      "zone_interval": [
+        -222,
+        -212
+      ]
+    },
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "SERVO_CAM_TRANSVERSE_SECTION_Y=-205",
+      "fixed_exclusions": [
+        {
+          "interval": [
+            -232,
+            -224
+          ],
+          "reason": "FRONT_CORNER_BRACKET_MAXIMUM"
+        },
+        {
+          "interval": [
+            -222,
+            -212
+          ],
+          "reason": "OUTPUT_BRIDGE_ZONE"
+        }
+      ],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "SERVO-BRIDGE-R",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "ANTI_ROTATION_EDGE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "LEFT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "SERVO-BRIDGE-L",
+      "zone_interval": [
+        -210,
+        -200
+      ]
+    },
+    {
+      "adjustment_range_mm": 0,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 4,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "FRONT_DATUM_Y=-232",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-L",
+      "host_slot_id": "RAIL-L-INNER-FRONT",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "CORNER-BRACKET-R",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "RAIL_END_BUTT_DATUM",
+      "raw_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "LEFT",
+      "slot_face": "INNER_SIDE_SLOT",
+      "zone_id": "CORNER-BRACKET-L",
+      "zone_interval": [
+        -228,
+        -224
+      ]
+    },
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 4,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "LOWER_FRAME_DATUM",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-BOTTOM",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "LOWER-ADAPTER-L",
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "KEYED_LOWER_FRAME_SHOULDER",
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT",
+      "side": "RIGHT",
+      "slot_face": "BOTTOM_SLOT",
+      "zone_id": "LOWER-ADAPTER-R",
+      "zone_interval": [
+        -125,
+        -95
+      ]
+    },
+    {
+      "adjustment_range_mm": 3,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "MOTOR_AXIS_R_Y=-75",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "MOTOR-ADAPTER-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "ANTI_ROTATION_TAB",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "MOTOR-ADAPTER-R",
+      "zone_interval": [
+        -80,
+        -70
+      ]
+    },
+    {
+      "adjustment_range_mm": 3,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "INPUT_SHAFT_AXIS_R_Y=-130",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "INPUT-CARTRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "SHAFT_DATUM_STOP",
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT",
+      "side": "RIGHT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "INPUT-CARTRIDGE-R",
+      "zone_interval": [
+        -135,
+        -125
+      ]
+    },
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": {
+        "axis_y_mm": -297,
+        "derived_interval_mm": [
+          -222,
+          -212
+        ],
+        "offset_capability_mm": [
+          75,
+          85
+        ],
+        "type": "AXIS_PLUS_BOUNDED_OFFSET"
+      },
+      "fixed_datum_relation": "OUTPUT_SHAFT_AXIS_R_Y=-297",
+      "fixed_exclusions": [
+        {
+          "interval": [
+            -232,
+            -224
+          ],
+          "reason": "FRONT_CORNER_BRACKET_MAXIMUM"
+        }
+      ],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "OUTPUT-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "V22939-POSITIVE-STOP-BLOCK",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "OUTPUT-BRIDGE-R",
+      "zone_interval": [
+        -222,
+        -212
+      ]
+    },
+    {
+      "adjustment_range_mm": 5,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "SERVO_CAM_TRANSVERSE_SECTION_Y=-205",
+      "fixed_exclusions": [
+        {
+          "interval": [
+            -232,
+            -224
+          ],
+          "reason": "FRONT_CORNER_BRACKET_MAXIMUM"
+        },
+        {
+          "interval": [
+            -222,
+            -212
+          ],
+          "reason": "OUTPUT_BRIDGE_ZONE"
+        }
+      ],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "SERVO-BRIDGE-L",
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "ANTI_ROTATION_EDGE",
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS",
+      "side": "RIGHT",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "SERVO-BRIDGE-R",
+      "zone_interval": [
+        -210,
+        -200
+      ]
+    },
+    {
+      "adjustment_range_mm": 0,
+      "anchor_required_count": 2,
+      "anchor_spacing_minimum_mm": 4,
+      "axis": "Y",
+      "derived_relation": null,
+      "fixed_datum_relation": "FRONT_DATUM_Y=-232",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-RAIL-R",
+      "host_slot_id": "RAIL-R-INNER-FRONT",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "CORNER-BRACKET-L",
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "RAIL_END_BUTT_DATUM",
+      "raw_slot_face": "INNER_SIDE_SLOT",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "side": "RIGHT",
+      "slot_face": "INNER_SIDE_SLOT",
+      "zone_id": "CORNER-BRACKET-R",
+      "zone_interval": [
+        -228,
+        -224
+      ]
+    },
+    {
+      "adjustment_range_mm": 0,
+      "anchor_required_count": 6,
+      "anchor_spacing_minimum_mm": 4,
+      "axis": "X",
+      "derived_relation": null,
+      "fixed_datum_relation": "HITCH_REFERENCE_L_X=53",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "HITCH-PAD-R",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "HITCH_PAD_EDGE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_face": "FRONT_FACE_SLOT",
+      "zone_id": "HITCH-PAD-L",
+      "zone_interval": [
+        40,
+        66
+      ]
+    },
+    {
+      "adjustment_range_mm": 0,
+      "anchor_required_count": 6,
+      "anchor_spacing_minimum_mm": 4,
+      "axis": "X",
+      "derived_relation": null,
+      "fixed_datum_relation": "HITCH_REFERENCE_R_X=-53",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-FRONT",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": "HITCH-PAD-L",
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "HITCH_PAD_EDGE",
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_face": "FRONT_FACE_SLOT",
+      "zone_id": "HITCH-PAD-R",
+      "zone_interval": [
+        -66,
+        -40
+      ]
+    },
+    {
+      "adjustment_range_mm": 0,
+      "anchor_required_count": 4,
+      "anchor_spacing_minimum_mm": 8,
+      "axis": "X",
+      "derived_relation": null,
+      "fixed_datum_relation": "X=0_CENTER_PLANE",
+      "fixed_exclusions": [],
+      "host_component": "V22939-FPB-FRONT-XMEMBER",
+      "host_slot_id": "XMEMBER-TOP",
+      "measurement_status": "SYMBOLIC_END_CLEARANCE_MEASUREMENT_REQUIRED",
+      "mirror_pair": null,
+      "normalized_slot_face": "TOP_SLOT",
+      "position_mode": "PARAMETERIZED_INTERFACE_ZONE",
+      "positive_stop_relation": "SYMMETRIC_CENTER_STOP",
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "side": "CENTER",
+      "slot_face": "TOP_SLOT",
+      "zone_id": "UPPER-TORQUE-MOUNT",
+      "zone_interval": [
+        -20,
+        20
+      ]
+    }
+  ]
+}

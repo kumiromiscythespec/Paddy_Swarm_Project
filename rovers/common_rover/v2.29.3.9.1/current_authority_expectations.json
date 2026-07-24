@@ -1,0 +1,18 @@
+{
+  "BODY_TSLOT_ANCHOR_COUNT": 60,
+  "LOWER_ADAPTER_ANCHOR_COUNT": 8,
+  "LOWER_ADAPTER_EXPECTED_SLOT": "BOTTOM_SLOT",
+  "UPPER_TORQUE_ANCHOR_COUNT": 4,
+  "UPPER_TORQUE_EXPECTED_HOST_SLOT": "XMEMBER-TOP",
+  "UPPER_TORQUE_EXPECTED_SLOT_FACE": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+  "precedence": [
+    "v2.29.3.9.1",
+    "v2.29.3.9",
+    "v2.29.3.8",
+    "v2.29.3.7",
+    "v2.29.3.6",
+    "v2.29.3.5",
+    "v2.28.2"
+  ],
+  "version": "v2.29.3.9.1"
+}

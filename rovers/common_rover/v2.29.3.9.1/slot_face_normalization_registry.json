@@ -1,0 +1,85 @@
+{
+  "records": [
+    {
+      "normalized_slot_face": "BOTTOM_SLOT",
+      "permitted_host_class": "RAIL",
+      "permitted_side": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "permitted_slot_ids": [
+        "RAIL-L-BOTTOM",
+        "RAIL-R-BOTTOM"
+      ],
+      "raw_slot_face": "BOTTOM_SLOT",
+      "semantic_qualifier": "RAIL_BOTTOM_SLOT"
+    },
+    {
+      "normalized_slot_face": "TOP_SLOT",
+      "permitted_host_class": "RAIL",
+      "permitted_side": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "permitted_slot_ids": [
+        "RAIL-L-TOP",
+        "RAIL-R-TOP"
+      ],
+      "raw_slot_face": "TOP_SLOT",
+      "semantic_qualifier": "RAIL_TOP_SLOT"
+    },
+    {
+      "normalized_slot_face": "TOP_SLOT",
+      "permitted_host_class": "RAIL",
+      "permitted_side": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "permitted_slot_ids": [
+        "RAIL-L-TOP",
+        "RAIL-R-TOP"
+      ],
+      "raw_slot_face": "TOP_SLOT_BOTH_RAILS",
+      "semantic_qualifier": "TOP_SLOT_BOTH_RAILS"
+    },
+    {
+      "normalized_slot_face": "INNER_SIDE_SLOT",
+      "permitted_host_class": "RAIL",
+      "permitted_side": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "permitted_slot_ids": [
+        "RAIL-L-INNER-FRONT",
+        "RAIL-R-INNER-FRONT"
+      ],
+      "raw_slot_face": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE",
+      "semantic_qualifier": "INNER_SIDE_SLOT_FRONT_JOINT_ZONE"
+    },
+    {
+      "normalized_slot_face": "FRONT_FACE_SLOT",
+      "permitted_host_class": "FRONT_CROSSMEMBER",
+      "permitted_side": [
+        "CENTER"
+      ],
+      "permitted_slot_ids": [
+        "XMEMBER-FRONT"
+      ],
+      "raw_slot_face": "FRONT_FACE_SLOT",
+      "semantic_qualifier": "FRONT_FACE_SLOT_OF_FRONT_CROSSMEMBER"
+    },
+    {
+      "normalized_slot_face": "TOP_SLOT",
+      "permitted_host_class": "FRONT_CROSSMEMBER",
+      "permitted_side": [
+        "CENTER"
+      ],
+      "permitted_slot_ids": [
+        "XMEMBER-TOP"
+      ],
+      "raw_slot_face": "TOP_SLOT_OF_FRONT_CROSSMEMBER",
+      "semantic_qualifier": "TOP_SLOT_OF_FRONT_CROSSMEMBER"
+    }
+  ],
+  "version": "v2.29.3.9.1"
+}

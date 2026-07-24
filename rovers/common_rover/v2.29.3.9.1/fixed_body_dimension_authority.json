@@ -1,0 +1,81 @@
+{
+  "battery_opening_candidate_mm": {
+    "X": 133.0,
+    "Y": 188.0
+  },
+  "core_arrangement": [
+    {
+      "Y_max": 0.0,
+      "Y_min": -140.0,
+      "component": "CBOX",
+      "order": 1
+    },
+    {
+      "Y_max": 220.0,
+      "Y_min": 0.0,
+      "component": "BBOX",
+      "order": 2
+    }
+  ],
+  "core_length_mm": 360.0,
+  "current_dimensions": {
+    "BATTERY_CASSETTE": {
+      "X": 125.0,
+      "Y": 180.0,
+      "Z": 120.0
+    },
+    "BBOX": {
+      "X": 150.0,
+      "Y": 220.0,
+      "Z": 150.0
+    },
+    "CBOX": {
+      "X": 130.0,
+      "Y": 140.0,
+      "Z": 105.0
+    }
+  },
+  "expected_constants": {
+    "BATTERY_CASSETTE": {
+      "X": 125.0,
+      "Y": 180.0,
+      "Z": 120.0
+    },
+    "BBOX": {
+      "X": 150.0,
+      "Y": 220.0,
+      "Z": 150.0
+    },
+    "CBOX": {
+      "X": 130.0,
+      "Y": 140.0,
+      "Z": 105.0
+    },
+    "CORE_LENGTH": 360.0
+  },
+  "forbidden": [
+    "CBOX_BBOX_SIDE_BY_SIDE",
+    "AUTOMATIC_DIMENSION_GROWTH",
+    "BOX_RESIZE_FOR_TSLOT_CHANGE",
+    "BATTERY_CASSETTE_OMISSION"
+  ],
+  "physical_dimensions": {
+    "BATTERY_CASSETTE": {
+      "height": 120.0,
+      "lateral": 125.0,
+      "longitudinal": 180.0
+    },
+    "BBOX": {
+      "height": 150.0,
+      "lateral": 150.0,
+      "longitudinal": 220.0
+    },
+    "CBOX": {
+      "height": 105.0,
+      "lateral": 130.0,
+      "longitudinal": 140.0
+    }
+  },
+  "units": "mm",
+  "version": "v2.29.3.9"
+}

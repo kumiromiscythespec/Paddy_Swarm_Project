@@ -1,0 +1,11 @@
+{
+  "actual_solid_execution": "NOT_RUN_ENVIRONMENT_UNAVAILABLE",
+  "nonrequired_or_unresolved_edge_breakout_count": 5,
+  "nonrequired_or_unresolved_seat_failure_count": 20,
+  "required_rail_hole_authority_undefined_count": 0,
+  "required_rail_hole_edge_breakout_count": 0,
+  "required_rail_hole_material_continuity_failure_count": 0,
+  "required_rail_hole_seat_failure_count": 0,
+  "required_rail_hole_static_unreachable_count": 0,
+  "status": "PASS_STATIC_REQUIRED_HOLE_GATE_WITH_DESIGN_HOLDS"
+}

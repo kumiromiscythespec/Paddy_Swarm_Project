@@ -1,0 +1,24 @@
+{
+  "calculated_inputs_only": true,
+  "correction_scope": "V2.29.3.9.1_CORRECTION_ONLY",
+  "required": [
+    "CORRECTION_SCOPE_PASS",
+    "LOWER_ADAPTER_CONFLICT_0",
+    "UPPER_TORQUE_CONFLICT_0",
+    "CROSS_REGISTRY_60_OF_60",
+    "LANE_RELATIVE_MANIFEST",
+    "CWD_INDEPENDENCE",
+    "PATCH_APPLY",
+    "POST_APPLY_VALIDATION",
+    "POINTERS",
+    "RELEASE_HOLDS",
+    "TESTS",
+    "ACTUAL_MUTATIONS",
+    "PYTHON_MUTATIONS",
+    "DETERMINISM",
+    "REPLAY",
+    "ZIP",
+    "GIT_WRITES_0"
+  ],
+  "version": "v2.29.3.9.1"
+}
