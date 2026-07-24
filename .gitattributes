@@ -1,3 +1,4 @@
 # Raw-byte design-authority contracts require deterministic LF checkout.
 .gitattributes text eol=lf
 rovers/common_rover/v2.29.3.9.1/** text eol=lf
+cad/common_rover/v2_29_3_9_1_executable_cad_seed/** text eol=lf
