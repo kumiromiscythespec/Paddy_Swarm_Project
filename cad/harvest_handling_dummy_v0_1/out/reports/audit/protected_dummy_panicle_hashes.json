@@ -1,0 +1,218 @@
+{
+  "audit": "optional_development_check",
+  "decision_basis": "individual_file_sha256",
+  "verified_unchanged": true,
+  "individual_file_match": true,
+  "expected_file_count": 50,
+  "actual_file_count": 50,
+  "missing_files": [],
+  "unexpected_files": [],
+  "modified_files": [],
+  "expected_aggregate_sha256": "48051996d184f0140538a26127671940d0513ab076bc1eee4ef97a823ba796bf",
+  "actual_aggregate_sha256": "48051996d184f0140538a26127671940d0513ab076bc1eee4ef97a823ba796bf",
+  "aggregate_match": true,
+  "aggregate_role": "diagnostic_only",
+  "root": "D:\\Paddy_Swarm_Project\\cad\\dummy_panicle_v0_1",
+  "files": [
+    {
+      "relative_path": "__init__.py",
+      "sha256": "3bb0be5bce00fe601d2ae3d2f525bdefd75b47ae02ff2a9919dfba7cf2ba3ab0"
+    },
+    {
+      "relative_path": "assemblies/__init__.py",
+      "sha256": "e3e260b7281e90cda1269e7e10c064adb534a1b1a87796205e3ce2c179d73a3d"
+    },
+    {
+      "relative_path": "assemblies/panicle_assembly_preview.py",
+      "sha256": "94d31069dec767b6b3eabf8231a780e6b18dfcf25c465ddb83213a27eeb2374d"
+    },
+    {
+      "relative_path": "cq_config.py",
+      "sha256": "3f31107dc2a130e8e5eb6613e92a5a915d239e31c9c63660ed0c8054d48f3ca0"
+    },
+    {
+      "relative_path": "cq_utils.py",
+      "sha256": "4fc5b4639dc34f4329deb0e8bb35cca09142e842e99c20a7bd863b94a31062bd"
+    },
+    {
+      "relative_path": "cutting_cartridge_holder.py",
+      "sha256": "8fea336f5865b9b8f9b146cf3aea9944856074738fbebf5858e87d2bd98412d4"
+    },
+    {
+      "relative_path": "generate_dummy_panicle_v0_1.py",
+      "sha256": "c430d8f4af08d095b1549caebb95d4cdb527d10e44dd94f6b721481231959990"
+    },
+    {
+      "relative_path": "interfaces.py",
+      "sha256": "a9c82eae02054a6cf316916c982407407951a97044260565bb2c19ee7f12e84e"
+    },
+    {
+      "relative_path": "out/preview/panicle_assembly_droop20.step",
+      "sha256": "dfb02a18d360b7960e459a132f2460e744c3715b83a67b7fc5f8d9c6262237b8"
+    },
+    {
+      "relative_path": "out/preview/panicle_assembly_upright.step",
+      "sha256": "8bae44f429741c168c9fac320e2d711b65e7b55ec0b92b65351e768e9421ad94"
+    },
+    {
+      "relative_path": "out/reports/dimensions.csv",
+      "sha256": "815b17ca5a2f4a0fdfcb9cf699723e568c75e0578a2d7e141db129b5940eb86a"
+    },
+    {
+      "relative_path": "out/reports/export_manifest.csv",
+      "sha256": "676ddf8fe02db7d849a81510492401a67417f7e66a7ed74144ff641d9cad4526"
+    },
+    {
+      "relative_path": "out/reports/interface_report.md",
+      "sha256": "7397d82ebad590ac9a6e8036b8106984bd0e2464722b10b06f57042ac2baf33f"
+    },
+    {
+      "relative_path": "out/reports/material_guide.md",
+      "sha256": "17240ffc96b73da32161c135e58159bad068c5c528224121357bf72d9faba249"
+    },
+    {
+      "relative_path": "out/reports/panicle_head_report.md",
+      "sha256": "66073c37fda7788bda1e2949f3cec4d57feca8131f950ce35bab4c9e7ce824da"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-B01_root_socket_PETG.step",
+      "sha256": "dd7456a626709bee4cdcec8bf0ff6bd3063207af888806c44ad4198554b701d5"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-C01_cutting_cartridge_holder_PETG.step",
+      "sha256": "82473d4c2a41ad8f988419ca7eb87934f0775e201552ed9866f244e2137e89c0"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-C01_tube_marking_gauge_PETG.step",
+      "sha256": "6c1553c9ca1cccdacb37d2cfde6768fa455dcf5c5a54cbc51a1581d151b9cb67"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-H02_panicle_hub_droop20_PETG.step",
+      "sha256": "3aa974fa62c71d7b18cb08dd8098340db4e5d8821cb304f38c7d81d0aa14d5e3"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-H02_panicle_hub_upright_PETG.step",
+      "sha256": "7d2da26d7e20c215fd56659d6bb5eaf7771fe2ebebdc4198349978de76c936d2"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-H03_panicle_weight_cap_PETG.step",
+      "sha256": "c5bb73bd2267a13c5873e61e5774edcf24dcd0503b713bd9f369ca631b390763"
+    },
+    {
+      "relative_path": "out/step/PETG/DR-S03_stem_end_plug_tube_id_3p6_calibration_PETG.step",
+      "sha256": "612ff43023f3a2f93b8527061867386f92a9d001233e874630f389d436689a8d"
+    },
+    {
+      "relative_path": "out/step/PETG/panicle_slot_coupon_PETG.step",
+      "sha256": "c8f89f08860ef31fc2d911e128d111e7697bb6a6e966020ce4092db287aeaf72"
+    },
+    {
+      "relative_path": "out/step/PETG/stem_clearance_coupon_PETG.step",
+      "sha256": "b1fab87fc328bfb25db6b45d10013d37bb5297cf3fece6cc1c1c6c44a1e8a779"
+    },
+    {
+      "relative_path": "out/step/TPU/DR-H01_panicle_branch_standard_TPU.step",
+      "sha256": "aa1a4e71485153b34b45fb4b185127fce25e5a155b734a679c50ea3e86f0d438"
+    },
+    {
+      "relative_path": "out/step/TPU/panicle_tab_coupon_TPU.step",
+      "sha256": "2f05e9a6787f50393763b0710cd04a93170661c90acde82825cbb6e88f7d9fcd"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-B01_root_socket_PETG.stl",
+      "sha256": "43d25f6481fb2ab317f76d85fd7a43b4c0c9d8d2920d2fb6a2c5267d19cf4a35"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-C01_cutting_cartridge_holder_PETG.stl",
+      "sha256": "96897a90b07675f1dc3aabdfd97589f4cec8832df3a2352d2761c9bb76cea6c2"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-C01_tube_marking_gauge_PETG.stl",
+      "sha256": "9198f83b1389a5663dfc0c6f878a9dfb9bd9ab992fea54bee624cefe8f23563e"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-H02_panicle_hub_droop20_PETG.stl",
+      "sha256": "0d20cea52f33d58e330b99367b157afd3014b30bbdcc007884da043149f349c2"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-H02_panicle_hub_upright_PETG.stl",
+      "sha256": "32e38f26e5300f90e70688079a1e839a37b6e7c84549097508444e3dd665b7be"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-H03_panicle_weight_cap_PETG.stl",
+      "sha256": "597235d218b2421e2fad8f5e6352f95d0632266484a807ac7604b11f4930fb31"
+    },
+    {
+      "relative_path": "out/stl/PETG/DR-S03_stem_end_plug_tube_id_3p6_calibration_PETG.stl",
+      "sha256": "e5889fc3bb95e18d2b1a4676a83b0c1c2b2804fee1e229e565b08b462c2002a6"
+    },
+    {
+      "relative_path": "out/stl/PETG/dummy_panicle_PETG.3mf",
+      "sha256": "02150235365b32d8b61293466798e02baa319c65a6bfc42cbfa3c97857f3bd7d"
+    },
+    {
+      "relative_path": "out/stl/PETG/panicle_slot_coupon_PETG.stl",
+      "sha256": "ed3897c902db008ae40eb6d63719a2c7528041860447828863ebbbcd1b055eab"
+    },
+    {
+      "relative_path": "out/stl/PETG/stem_clearance_coupon_PETG.stl",
+      "sha256": "37547a8d948b77509001bf9d5b4b7821e917884722b2b4b96848961365800e48"
+    },
+    {
+      "relative_path": "out/stl/TPU/DR-H01_panicle_branch_standard_TPU.stl",
+      "sha256": "fe505163d8f9ddab9c8b42adbc9bf3b6aab3dbf13e55460514db187370f45640"
+    },
+    {
+      "relative_path": "out/stl/TPU/panicle_tab_coupon_TPU.stl",
+      "sha256": "e551f166e6bca8411d0944032a1428a1ec8686bbab9ab891e9cc943e9d6bc660"
+    },
+    {
+      "relative_path": "panicle_branch.py",
+      "sha256": "f7b5775b810936d88b1a4f2ca8e81448b4c628b915179b2d457ead8293031e82"
+    },
+    {
+      "relative_path": "panicle_hub.py",
+      "sha256": "202b45ee01f376b9527bc11af9c12c0828e0737e3ab452ddee6e4f26f13d1853"
+    },
+    {
+      "relative_path": "panicle_slot_coupon.py",
+      "sha256": "a5a1191675c0f24da28757c484ef296e138d5996615bd83fc26b97b97d45a829"
+    },
+    {
+      "relative_path": "panicle_tab_coupon.py",
+      "sha256": "38b84a7b1bc201ac1c11e7434cd9628113b14367b6deeb873ba7a6502c63b2ea"
+    },
+    {
+      "relative_path": "panicle_weight_cap.py",
+      "sha256": "1bcdafe5fa7bbf468373f10962438c7cbb3f0d4670c4cb0bfa991577fe01ca25"
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "5625f0422f1882131d7de64bb28b3768ae785a37e2bba89441c579753e74e943"
+    },
+    {
+      "relative_path": "root_socket.py",
+      "sha256": "dff8ae363c4fa81983a378f76a85ac969c1672d4834be963bc8f116ece4a11ba"
+    },
+    {
+      "relative_path": "stem_clearance_coupon.py",
+      "sha256": "4801faee44092e5c0c9d68abb0d8ad97ce8e2abe73b7acf9f76ac02a3b3d01e6"
+    },
+    {
+      "relative_path": "stem_end_plug.py",
+      "sha256": "346209bf314099dde8e04289f8668aa7017dd3376730d3270a977f6369fe44d5"
+    },
+    {
+      "relative_path": "tests/__init__.py",
+      "sha256": "7e9fa7c379e8209cee9c5b780bc2b26cb9a1f929d42e394d8420cd38ecca5940"
+    },
+    {
+      "relative_path": "tests/test_dummy_panicle_v0_1.py",
+      "sha256": "771c9db67f7f4a31701d009e1169107b6ae962ad3a16ade6abc034c51c4254bd"
+    },
+    {
+      "relative_path": "tests/test_panicle_head_v0_1.py",
+      "sha256": "add125938db61867ac6b894f89dc354c3cfe5f56f89f8140fc714a6433313d5e"
+    }
+  ]
+}

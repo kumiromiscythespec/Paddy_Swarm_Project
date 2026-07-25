@@ -1,0 +1,27 @@
+﻿part_id,filename_stem,description,material,quantity,preset,module,size_x_mm,size_y_mm,size_z_mm,solid_count,volume_mm3,a1_safe_240x240x220
+HU-H0-HHD-BAS-A,HU-H0-HHD-BAS-A_PETG,Six-socket fixed-root base module A,PETG,1,module_a,A,105.000,105.000,18.000,1,185293.548,YES
+HU-H0-HHD-BAS-B,HU-H0-HHD-BAS-B_PETG,Six-socket fixed-root base module B,PETG,1,module_b,B,105.000,105.000,18.000,1,185293.548,YES
+HU-H0-HHD-BAS-C,HU-H0-HHD-BAS-C_PETG,Six-socket fixed-root base module C,PETG,1,module_c,C,105.000,105.000,18.000,1,185293.548,YES
+HU-H0-HHD-BAS-D,HU-H0-HHD-BAS-D_PETG,Six-socket fixed-root base module D,PETG,1,module_d,D,105.000,105.000,18.000,1,185293.548,YES
+HU-H0-HHD-MNT-L,HU-H0-HHD-MNT-L_PETG,Workbench mount half L,PETG,1,side_l,L,110.000,210.000,9.000,1,132240.876,YES
+HU-H0-HHD-MNT-R,HU-H0-HHD-MNT-R_PETG,Workbench mount half R,PETG,1,side_r,R,105.000,210.000,9.000,1,130429.620,YES
+HU-H0-HHD-SKT-00,HU-H0-HHD-SKT-00_PETG,Fixed 0 degree exchangeable stem socket,PETG,8,tilt_00,ALL,17.318,17.318,40.000,1,4299.899,YES
+HU-H0-HHD-SKT-10,HU-H0-HHD-SKT-10_PETG,Fixed 10 degree exchangeable stem socket,PETG,8,tilt_10,ALL,19.410,17.318,40.617,1,4274.508,YES
+HU-H0-HHD-SKT-20,HU-H0-HHD-SKT-20_PETG,Fixed 20 degree exchangeable stem socket,PETG,6,tilt_20,ALL,23.854,17.318,40.364,1,4247.487,YES
+HU-H0-HHD-SKT-30,HU-H0-HHD-SKT-30_PETG,Fixed 30 degree exchangeable stem socket,PETG,2,tilt_30,ALL,27.837,17.318,39.249,1,4216.761,YES
+HU-H0-HHD-PLG-ROD-2P0,HU-H0-HHD-PLG-ROD-2P0_PETG,Stem end plug rod_od_2p0; commercial material fit candidate,PETG,1,rod_od_2p0,ALL,9.944,10.000,38.000,1,1087.347,YES
+HU-H0-HHD-PLG-ROD-3P0,HU-H0-HHD-PLG-ROD-3P0_PETG,Stem end plug rod_od_3p0; commercial material fit candidate,PETG,1,rod_od_3p0,ALL,9.944,10.000,38.000,1,1207.673,YES
+HU-H0-HHD-PLG-ROD-4P0,HU-H0-HHD-PLG-ROD-4P0_PETG,Stem end plug rod_od_4p0; commercial material fit candidate,PETG,1,rod_od_4p0,ALL,9.944,10.000,38.000,1,1332.626,YES
+HU-H0-HHD-PLG-ROD-5P0,HU-H0-HHD-PLG-ROD-5P0_PETG,Stem end plug rod_od_5p0; commercial material fit candidate,PETG,1,rod_od_5p0,ALL,9.944,10.000,38.000,1,1462.239,YES
+HU-H0-HHD-PLG-BLANK,HU-H0-HHD-PLG-BLANK_PETG,Stem end plug blank_custom; commercial material fit candidate,PETG,1,blank_custom,ALL,10.000,10.000,38.000,1,2077.938,YES
+HU-H0-HHD-CPN-SOCKET-LOCK,HU-H0-HHD-CPN-SOCKET-LOCK_PETG,Three-candidate BASE-SOCKET snap/fit coupon,PETG,1,snap_0p15_0p25_0p35,CALIBRATION,95.000,42.000,18.000,1,27500.031,YES
+HU-H0-HHD-CPN-STEM-PLUG-FIT,HU-H0-HHD-CPN-STEM-PLUG-FIT_PETG,Five-hole 6 mm common plug fit coupon,PETG,1,holes_6p10_to_6p40,CALIBRATION,120.000,34.000,8.600,1,31438.017,YES
+HU-H0-HHD-GAG-ANGLE,HU-H0-HHD-GAG-ANGLE_PETG,Flat 0/10/20/30 degree and eight-direction gauge,PETG,1,standard,TOOLS,120.000,82.000,3.600,1,29809.229,YES
+HU-H0-HHD-GAG-HEIGHT-BASE,HU-H0-HHD-GAG-HEIGHT-BASE_PETG,Generic zip-tie height marker BASE,PETG,1,base,TOOLS,44.000,24.000,3.600,1,2891.218,YES
+HU-H0-HHD-GAG-HEIGHT-650,HU-H0-HHD-GAG-HEIGHT-650_PETG,Generic zip-tie height marker 650,PETG,1,650,TOOLS,44.000,24.000,3.600,1,2889.539,YES
+HU-H0-HHD-GAG-HEIGHT-750,HU-H0-HHD-GAG-HEIGHT-750_PETG,Generic zip-tie height marker 750,PETG,1,750,TOOLS,44.000,24.000,3.600,1,2888.280,YES
+HU-H0-HHD-GAG-HEIGHT-850,HU-H0-HHD-GAG-HEIGHT-850_PETG,Generic zip-tie height marker 850,PETG,1,850,TOOLS,44.000,24.000,3.600,1,2889.621,YES
+HU-H0-HHD-MAP-A,HU-H0-HHD-MAP-A_PETG,Removable socket layout record plate A,PETG,1,layout_standard_v001_a,A,105.000,105.000,2.600,1,20277.657,YES
+HU-H0-HHD-MAP-B,HU-H0-HHD-MAP-B_PETG,Removable socket layout record plate B,PETG,1,layout_standard_v001_b,B,105.000,105.000,2.600,1,20277.889,YES
+HU-H0-HHD-MAP-C,HU-H0-HHD-MAP-C_PETG,Removable socket layout record plate C,PETG,1,layout_standard_v001_c,C,105.000,105.000,2.600,1,20272.322,YES
+HU-H0-HHD-MAP-D,HU-H0-HHD-MAP-D_PETG,Removable socket layout record plate D,PETG,1,layout_standard_v001_d,D,105.000,105.000,2.600,1,20277.933,YES

@@ -1,0 +1,32 @@
+﻿part_id,description,quantity,material,printed_or_purchased,nominal_size,calibration_required,notes
+HU-H0-HHD-BAS-A,Six-socket fixed-root base module A,1,PETG,PRINTED,module_a,YES,Mount-mediated locating pins; six BASE-SOCKET-IF-V001 receivers.
+HU-H0-HHD-BAS-B,Six-socket fixed-root base module B,1,PETG,PRINTED,module_b,YES,Mount-mediated locating pins; six BASE-SOCKET-IF-V001 receivers.
+HU-H0-HHD-BAS-C,Six-socket fixed-root base module C,1,PETG,PRINTED,module_c,YES,Mount-mediated locating pins; six BASE-SOCKET-IF-V001 receivers.
+HU-H0-HHD-BAS-D,Six-socket fixed-root base module D,1,PETG,PRINTED,module_d,YES,Mount-mediated locating pins; six BASE-SOCKET-IF-V001 receivers.
+HU-H0-HHD-MNT-L,Workbench mount half L,1,PETG,PRINTED,side_l,YES,"M6 workbench holes, M4 module holes, locating pins, seam tongue/pocket."
+HU-H0-HHD-MNT-R,Workbench mount half R,1,PETG,PRINTED,side_r,YES,"M6 workbench holes, M4 module holes, locating pins, seam tongue/pocket."
+HU-H0-HHD-SKT-00,Fixed 0 degree exchangeable stem socket,8,PETG,PRINTED,tilt_00,YES,Eight-direction octagon index; shallow split-bead retention candidate.
+HU-H0-HHD-SKT-10,Fixed 10 degree exchangeable stem socket,8,PETG,PRINTED,tilt_10,YES,Eight-direction octagon index; shallow split-bead retention candidate.
+HU-H0-HHD-SKT-20,Fixed 20 degree exchangeable stem socket,6,PETG,PRINTED,tilt_20,YES,Eight-direction octagon index; shallow split-bead retention candidate.
+HU-H0-HHD-SKT-30,Fixed 30 degree exchangeable stem socket,2,PETG,PRINTED,tilt_30,YES,Eight-direction octagon index; shallow split-bead retention candidate.
+HU-H0-HHD-PLG-ROD-2P0,Stem end plug rod_od_2p0; commercial material fit candidate,1,PETG,PRINTED,rod_od_2p0,YES,Common 6 mm shank; material-side dimensions require calibration.
+HU-H0-HHD-PLG-ROD-3P0,Stem end plug rod_od_3p0; commercial material fit candidate,1,PETG,PRINTED,rod_od_3p0,YES,Common 6 mm shank; material-side dimensions require calibration.
+HU-H0-HHD-PLG-ROD-4P0,Stem end plug rod_od_4p0; commercial material fit candidate,1,PETG,PRINTED,rod_od_4p0,YES,Common 6 mm shank; material-side dimensions require calibration.
+HU-H0-HHD-PLG-ROD-5P0,Stem end plug rod_od_5p0; commercial material fit candidate,1,PETG,PRINTED,rod_od_5p0,YES,Common 6 mm shank; material-side dimensions require calibration.
+HU-H0-HHD-PLG-BLANK,Stem end plug blank_custom; commercial material fit candidate,1,PETG,PRINTED,blank_custom,YES,Common 6 mm shank; material-side dimensions require calibration.
+HU-H0-HHD-CPN-SOCKET-LOCK,Three-candidate BASE-SOCKET snap/fit coupon,1,PETG,PRINTED,snap_0p15_0p25_0p35,YES,Print before any base/socket quantity.
+HU-H0-HHD-CPN-STEM-PLUG-FIT,Five-hole 6 mm common plug fit coupon,1,PETG,PRINTED,holes_6p10_to_6p40,YES,Print before selecting the 6 mm socket receiver fit.
+HU-H0-HHD-GAG-ANGLE,Flat 0/10/20/30 degree and eight-direction gauge,1,PETG,PRINTED,standard,YES,Reference-only setup gauge.
+HU-H0-HHD-GAG-HEIGHT-BASE,Generic zip-tie height marker BASE,1,PETG,PRINTED,base,YES,Attach to a purchased ruler or stick; not a printed tall gauge.
+HU-H0-HHD-GAG-HEIGHT-650,Generic zip-tie height marker 650,1,PETG,PRINTED,650,YES,Attach to a purchased ruler or stick; not a printed tall gauge.
+HU-H0-HHD-GAG-HEIGHT-750,Generic zip-tie height marker 750,1,PETG,PRINTED,750,YES,Attach to a purchased ruler or stick; not a printed tall gauge.
+HU-H0-HHD-GAG-HEIGHT-850,Generic zip-tie height marker 850,1,PETG,PRINTED,850,YES,Attach to a purchased ruler or stick; not a printed tall gauge.
+HU-H0-HHD-MAP-A,Removable socket layout record plate A,1,PETG,PRINTED,layout_standard_v001_a,YES,Transfer aid only; CSV/JSON remain the design authority.
+HU-H0-HHD-MAP-B,Removable socket layout record plate B,1,PETG,PRINTED,layout_standard_v001_b,YES,Transfer aid only; CSV/JSON remain the design authority.
+HU-H0-HHD-MAP-C,Removable socket layout record plate C,1,PETG,PRINTED,layout_standard_v001_c,YES,Transfer aid only; CSV/JSON remain the design authority.
+HU-H0-HHD-MAP-D,Removable socket layout record plate D,1,PETG,PRINTED,layout_standard_v001_d,YES,Transfer aid only; CSV/JSON remain the design authority.
+PUR-M6-BOLT,Workbench fixing bolt candidate,4,METAL_UNASSIGNED,PURCHASED,M6 length TBD,YES,Select length for actual workbench thickness.
+PUR-M4-BOLT,Base module fixing bolt candidate,16,METAL_UNASSIGNED,PURCHASED,M4 length TBD,YES,Four per base module.
+PUR-M4-NUT,Base module fixing nut,16,METAL_UNASSIGNED,PURCHASED,M4,NO,Washers may be added after bench inspection.
+PUR-HHD-STEM,Independent commercial simulated-stem material,24,UNASSIGNED,PURCHASED,OD and material TBD; 650/750/850 mm virtual classes,YES,Do not substitute dry rice straw without measured adapter data.
+PUR-ZIP-TIE,Generic height-marker attachment tie,8,NYLON_CANDIDATE,PURCHASED,width <= 4 mm candidate,YES,Quantity and size depend on purchased ruler/stick.

@@ -1,0 +1,7 @@
+"""CadQuery package for PS-HARVEST-HANDLING-DUMMY-V001."""
+
+PROJECT_NAME = "PS-HARVEST-HANDLING-DUMMY-V001"
+SHORT_NAME = "HHD-V001"
+VERSION = "v0.1.0-fixed-root-layout"
+
+__all__ = ["PROJECT_NAME", "SHORT_NAME", "VERSION"]
