@@ -1,0 +1,346 @@
+{
+  "package": "crawler_h1_snap_head_lug_link_v0_11_4_deep_capture_easy_shaft",
+  "version": "crawler-h1-v0.11.4-deep-capture-easy-shaft",
+  "status": "FIT_TEST_CANDIDATE_RETENTION_AND_SHAFT_INSERTION_NOT_VERIFIED",
+  "supersedes": {
+    "version": "v0.11.3",
+    "reason": [
+      "Snap-head capture height was physically too shallow",
+      "TPU LUG barely entered the capture space",
+      "Three-link phi3 mm hole alignment was angle-dependent",
+      "More play, lead-in and root-side relief are required"
+    ]
+  },
+  "coordinate_contract": {
+    "X": "travel direction",
+    "Y": "track width and hinge shaft",
+    "Z": "+Z SPR/rover; -Z TPU/ground"
+  },
+  "fixed_contract": {
+    "link_pitch_mm": 20.0,
+    "front_axis_x_mm": 10.0,
+    "rear_axis_x_mm": -10.0,
+    "track_width_mm": 50.0,
+    "knuckle_structure": "three plate round knuckle",
+    "snap_head_system": "integral PETG mushroom head retained",
+    "ground_contact": "TPU only",
+    "sprocket_drive": "joint-centred open valley and thick forward/reverse walls",
+    "lateral_retention": "central low/thick guides independent of hinge play"
+  },
+  "source_inspection": {
+    "public_repository_status": "crawler_h1 source not found in public main at generation time",
+    "local_predecessor_source": "crawler_h1_snap_head_lug_link_v0_11_3.py",
+    "v0_11_3_capture_height_mm": 3.45,
+    "v0_11_3_center_knuckle_width_y_mm": 13.6,
+    "v0_11_3_outer_ear_width_y_mm": 13.77
+  },
+  "fit_matrix": {
+    "capture": {
+      "A": {
+        "code": "CAP-A",
+        "capture_increase_mm": 1.0,
+        "lug_thickness_mm": 7.5,
+        "ground_floor_mm": 1.8,
+        "marker_count": 1
+      },
+      "B": {
+        "code": "CAP-B",
+        "capture_increase_mm": 1.5,
+        "lug_thickness_mm": 8.0,
+        "ground_floor_mm": 1.8,
+        "marker_count": 2
+      },
+      "C": {
+        "code": "CAP-C",
+        "capture_increase_mm": 2.0,
+        "lug_thickness_mm": 8.5,
+        "ground_floor_mm": 1.8,
+        "marker_count": 3
+      }
+    },
+    "shaft": {
+      "A": {
+        "code": "SHAFT-A",
+        "hole_diameter_mm": 3.6,
+        "total_axial_play_mm": 0.8,
+        "entrance_chamfer_mm": 0.8,
+        "keepout_diameter_mm": 4.6,
+        "marker_count": 1,
+        "per_side_play_mm": 0.4
+      },
+      "B": {
+        "code": "SHAFT-B",
+        "hole_diameter_mm": 3.7,
+        "total_axial_play_mm": 0.9,
+        "entrance_chamfer_mm": 0.8,
+        "keepout_diameter_mm": 4.6,
+        "marker_count": 2,
+        "per_side_play_mm": 0.45
+      },
+      "C": {
+        "code": "SHAFT-C",
+        "hole_diameter_mm": 3.8,
+        "total_axial_play_mm": 1.0,
+        "entrance_chamfer_mm": 1.0,
+        "keepout_diameter_mm": 4.8,
+        "marker_count": 3,
+        "per_side_play_mm": 0.5
+      }
+    },
+    "heads": {
+      "A": {
+        "code": "HEAD-A",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 5.8,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 1
+      },
+      "B": {
+        "code": "HEAD-B",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 6.2,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 2
+      },
+      "C": {
+        "code": "HEAD-C",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 6.6,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 3
+      }
+    },
+    "guides": {
+      "A": {
+        "code": "GUIDE-A",
+        "side_clearance_mm": 0.8,
+        "marker_count": 1
+      },
+      "B": {
+        "code": "GUIDE-B",
+        "side_clearance_mm": 1.2,
+        "marker_count": 2
+      },
+      "C": {
+        "code": "GUIDE-C",
+        "side_clearance_mm": 1.5,
+        "marker_count": 3
+      }
+    }
+  },
+  "standard_candidate": "CAP-B + SHAFT-B + HEAD-B + GUIDE-B",
+  "quantity_status": "HOLD_NOT_GENERATED",
+  "unknowns": [
+    "actual/current SPR source geometry and physical engagement",
+    "current ROL guided width and guide compatibility",
+    "printed TPU snap retention and 20-cycle result",
+    "three-link printed phi3 mm shaft insertion at multiple angles",
+    "maximum practical articulation angle"
+  ],
+  "params": {
+    "track_width_mm": 50.0,
+    "link_pitch_mm": 20.0,
+    "link_body_length_mm": 17.0,
+    "link_body_width_mm": 50.0,
+    "link_thickness_mm": 7.2,
+    "center_knuckle_width_y_mm": 13.6,
+    "outer_ear_width_y_mm": 13.77,
+    "minimum_knuckle_width_y_mm": 4.0,
+    "maximum_total_axial_play_mm": 1.0,
+    "side_relief_mm": 1.0,
+    "pin_center_pitch_y_mm": 12.0,
+    "current_capture_height_mm": 3.45,
+    "pin_head_thickness_mm": 1.3,
+    "pin_head_shoulder_transition_mm": 0.35,
+    "pin_head_max_band_mm": 0.25,
+    "pin_head_nose_tip_diameter_mm": 3.2,
+    "pin_root_boss_diameter_mm": 9.8,
+    "pin_root_boss_height_mm": 0.8,
+    "pin_root_taper_height_mm": 0.8,
+    "lug_length_x_mm": 14.0,
+    "lug_width_y_mm": 34.0,
+    "lug_edge_radius_mm": 1.2,
+    "lug_chamber_cyl_height_mm": 0.7,
+    "lug_chamber_taper_height_mm": 0.8,
+    "boss_seat_top_diameter_mm": 10.2,
+    "boss_seat_bottom_diameter_mm": 5.6,
+    "boss_seat_depth_mm": 1.6,
+    "tool_notch_width_y_mm": 5.0,
+    "tool_notch_depth_x_mm": 2.0,
+    "tool_notch_height_z_mm": 2.2,
+    "shear_rail_length_x_mm": 11.0,
+    "shear_rail_width_y_mm": 3.0,
+    "shear_rail_center_y_mm": 13.0,
+    "shear_rail_height_mm": 0.8,
+    "shear_groove_clearance_mm": 0.4,
+    "shear_groove_depth_mm": 1.0,
+    "hinge_pin_nominal_mm": 3.0,
+    "hinge_axis_z_mm": 8.5,
+    "hinge_ear_outer_diameter_mm": 10.5,
+    "hinge_ear_flat_cut_mm": 0.8,
+    "hinge_ear_root_length_x_mm": 5.0,
+    "hinge_ear_root_fillet_mm": 2.7,
+    "hinge_root_side_relief_mm": 1.0,
+    "hinge_keepout_extension_each_y_mm": 1.5,
+    "minimum_xz_wall_mm": 2.0,
+    "candidate_max_articulation_deg": 35.0,
+    "print_datum_center_x_mm": 0.0,
+    "print_datum_center_y_mm": 12.0,
+    "print_datum_post_x_mm": 4.0,
+    "print_datum_post_y_mm": 7.0,
+    "print_datum_neck_height_mm": 0.8,
+    "print_datum_neck_x_mm": 1.2,
+    "print_datum_neck_y_mm": 5.0,
+    "drive_sprocket_teeth": 12,
+    "spr_pitch_mm": 20.0,
+    "spr_tooth_axial_width_y_mm": 44.0,
+    "spr_tooth_tangential_width_mm": 7.5,
+    "spr_legacy_root_offset_mm": 7.0,
+    "spr_legacy_tooth_depth_mm": 10.0,
+    "spr_corrected_effective_tooth_height_mm": 3.6,
+    "drive_pocket_total_clearance_x_mm": 1.0,
+    "drive_pocket_width_clearance_each_y_mm": 0.8,
+    "drive_pocket_depth_mm": 3.2,
+    "minimum_engaged_teeth": 3,
+    "guide_height_mm": 3.0,
+    "guide_thickness_y_mm": 2.5,
+    "guide_length_x_mm": 8.0,
+    "guide_root_fillet_mm": 1.2,
+    "guide_tip_radius_mm": 0.6,
+    "link_quantity": 40,
+    "link_spare_quantity": 8,
+    "lug_quantity": 40,
+    "lug_spare_quantity": 8,
+    "capture_candidates": {
+      "A": {
+        "code": "CAP-A",
+        "capture_increase_mm": 1.0,
+        "lug_thickness_mm": 7.5,
+        "ground_floor_mm": 1.8,
+        "marker_count": 1,
+        "capture_height_mm": 4.45,
+        "head_thickness_mm": 1.3,
+        "total_pin_projection_mm": 5.75,
+        "pin_head_ground_recess_mm": 1.75
+      },
+      "B": {
+        "code": "CAP-B",
+        "capture_increase_mm": 1.5,
+        "lug_thickness_mm": 8.0,
+        "ground_floor_mm": 1.8,
+        "marker_count": 2,
+        "capture_height_mm": 4.95,
+        "head_thickness_mm": 1.3,
+        "total_pin_projection_mm": 6.25,
+        "pin_head_ground_recess_mm": 1.75
+      },
+      "C": {
+        "code": "CAP-C",
+        "capture_increase_mm": 2.0,
+        "lug_thickness_mm": 8.5,
+        "ground_floor_mm": 1.8,
+        "marker_count": 3,
+        "capture_height_mm": 5.45,
+        "head_thickness_mm": 1.3,
+        "total_pin_projection_mm": 6.75,
+        "pin_head_ground_recess_mm": 1.75
+      }
+    },
+    "shaft_candidates": {
+      "A": {
+        "code": "SHAFT-A",
+        "hole_diameter_mm": 3.6,
+        "total_axial_play_mm": 0.8,
+        "entrance_chamfer_mm": 0.8,
+        "keepout_diameter_mm": 4.6,
+        "marker_count": 1,
+        "per_side_play_mm": 0.4,
+        "outer_pair_inner_span_mm": 14.4,
+        "outer_ear_center_y_mm": 14.085,
+        "outer_ear_outer_face_y_mm": 20.97,
+        "empty_space_to_body_edge_each_y_mm": 4.030000000000001,
+        "minimum_xz_wall_actual_mm": 3.45,
+        "rod_path_radial_margin_mm": 0.4999999999999998
+      },
+      "B": {
+        "code": "SHAFT-B",
+        "hole_diameter_mm": 3.7,
+        "total_axial_play_mm": 0.9,
+        "entrance_chamfer_mm": 0.8,
+        "keepout_diameter_mm": 4.6,
+        "marker_count": 2,
+        "per_side_play_mm": 0.45,
+        "outer_pair_inner_span_mm": 14.5,
+        "outer_ear_center_y_mm": 14.135,
+        "outer_ear_outer_face_y_mm": 21.02,
+        "empty_space_to_body_edge_each_y_mm": 3.9800000000000004,
+        "minimum_xz_wall_actual_mm": 3.4,
+        "rod_path_radial_margin_mm": 0.44999999999999973
+      },
+      "C": {
+        "code": "SHAFT-C",
+        "hole_diameter_mm": 3.8,
+        "total_axial_play_mm": 1.0,
+        "entrance_chamfer_mm": 1.0,
+        "keepout_diameter_mm": 4.8,
+        "marker_count": 3,
+        "per_side_play_mm": 0.5,
+        "outer_pair_inner_span_mm": 14.6,
+        "outer_ear_center_y_mm": 14.184999999999999,
+        "outer_ear_outer_face_y_mm": 21.07,
+        "empty_space_to_body_edge_each_y_mm": 3.9299999999999997,
+        "minimum_xz_wall_actual_mm": 3.35,
+        "rod_path_radial_margin_mm": 0.5
+      }
+    },
+    "head_candidates": {
+      "A": {
+        "code": "HEAD-A",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 5.8,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 1
+      },
+      "B": {
+        "code": "HEAD-B",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 6.2,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 2
+      },
+      "C": {
+        "code": "HEAD-C",
+        "shaft_diameter_mm": 4.8,
+        "head_diameter_mm": 6.6,
+        "lug_entry_diameter_mm": 5.4,
+        "lug_chamber_diameter_mm": 6.7,
+        "marker_count": 3
+      }
+    },
+    "guide_candidates": {
+      "A": {
+        "code": "GUIDE-A",
+        "side_clearance_mm": 0.8,
+        "marker_count": 1
+      },
+      "B": {
+        "code": "GUIDE-B",
+        "side_clearance_mm": 1.2,
+        "marker_count": 2
+      },
+      "C": {
+        "code": "GUIDE-C",
+        "side_clearance_mm": 1.5,
+        "marker_count": 3
+      }
+    },
+    "standard_guide_channel_width_y_mm": 46.4,
+    "standard_guide_total_width_y_mm": 51.4
+  },
+  "validation_result": "STATIC_PASS_WITH_WARNINGS"
+}

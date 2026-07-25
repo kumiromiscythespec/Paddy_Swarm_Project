@@ -1,0 +1,180 @@
+{
+  "schema": "PS_CRAWLER_H1_TRACK_MODULE_PRETEST_CANDIDATE_V0_1",
+  "package": "crawler_h1_track_module_pretest_candidate_v0_1",
+  "purpose": "Consolidate byte-identical final pre-test candidate STLs from separately developed sprocket/roller, link, and lug packages.",
+  "geometry_modified_during_consolidation": false,
+  "source_zip_sha256": "c515421ce9f8f486cff53cd2eb1f161eedccb32842b78359a9d1caf92ae9ecd8",
+  "candidate_part_count": 5,
+  "candidate_parts": [
+    {
+      "role": "DRIVE_SPROCKET",
+      "material": "PETG",
+      "source_package": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1",
+      "source_version": "v0.13.1",
+      "source_path": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1/stl/petg/DRIVE_SPROCKET_V0131_INTEGRATED_B10_3_PCD24_M4.stl",
+      "dest_path": "stl/petg/DRIVE_SPROCKET_V0131_INTEGRATED_B10_3_PCD24_M4.stl",
+      "status": "PRETEST_CANDIDATE",
+      "notes": "12T integrated-tooth drive sprocket; 10.3 mm bore; 4x M4-class holes on 24 mm PCD candidate.",
+      "sha256": "c97775e441fe25ad029bedccb7890a8e9661418da10fcab2bcbf968ea0a493e2",
+      "bytes": 661284,
+      "mesh": {
+        "watertight": true,
+        "connected_components": 1,
+        "faces": 13224,
+        "extents_mm": [
+          65.827477,
+          65.827477,
+          44.0
+        ],
+        "volume_mm3": 126485.438031
+      },
+      "physical_part_number_marking_verified": false
+    },
+    {
+      "role": "IDLER_SPROCKET",
+      "material": "PETG",
+      "source_package": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1",
+      "source_version": "v0.13.1",
+      "source_path": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+      "dest_path": "stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+      "status": "PRETEST_CANDIDATE",
+      "notes": "12T integrated-tooth idler sprocket; 6000-2RS seat-B candidate.",
+      "sha256": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+      "bytes": 865284,
+      "mesh": {
+        "watertight": true,
+        "connected_components": 1,
+        "faces": 17304,
+        "extents_mm": [
+          65.827477,
+          65.827477,
+          44.0
+        ],
+        "volume_mm3": 120864.365292
+      },
+      "physical_part_number_marking_verified": false
+    },
+    {
+      "role": "SUPPORT_ROLLER",
+      "material": "PETG",
+      "source_package": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1",
+      "source_version": "v0.13.1 / inherited v0.13.0",
+      "source_path": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1/stl/petg/SUPPORT_ROLLER_W44_OD50_6000_VERIFIED.stl",
+      "dest_path": "stl/petg/SUPPORT_ROLLER_W44_OD50_6000_VERIFIED.stl",
+      "status": "PRETEST_CANDIDATE",
+      "notes": "OD50 mm, nominal width 44 mm, 6000-2RS interface candidate.",
+      "sha256": "a20a9795849be1d6b9778204a209bc3798b64a5016a95bbe189ec26465f6df5c",
+      "bytes": 151284,
+      "mesh": {
+        "watertight": true,
+        "connected_components": 1,
+        "faces": 3024,
+        "extents_mm": [
+          50.0,
+          49.984459,
+          44.0
+        ],
+        "volume_mm3": 74357.173098
+      },
+      "physical_part_number_marking_verified": false
+    },
+    {
+      "role": "TRACK_LINK",
+      "material": "PETG",
+      "source_package": "crawler_h1_wide_span_three_knuckle_link_v0_12_5",
+      "source_version": "v0.12.5",
+      "source_path": "crawler_h1_wide_span_three_knuckle_link_v0_12_5/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl",
+      "dest_path": "stl/petg/STANDARD_V0125_WIDE_46_LINK.stl",
+      "status": "PRETEST_CANDIDATE",
+      "notes": "20 mm pitch; 46 mm hinge stack; 50 mm body; 54 mm guide maximum; phi3 x 50.5 mm shaft candidate.",
+      "sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a",
+      "bytes": 557284,
+      "mesh": {
+        "watertight": true,
+        "connected_components": 1,
+        "faces": 11144,
+        "extents_mm": [
+          31.996958,
+          54.0,
+          21.75
+        ],
+        "volume_mm3": 10663.886767
+      },
+      "physical_part_number_marking_verified": false
+    },
+    {
+      "role": "GROUND_LUG",
+      "material": "TPU 95A",
+      "source_package": "crawler_h1_snap_head_lug_link_v0_11_4_deep_capture_easy_shaft",
+      "source_version": "v0.11.4",
+      "source_path": "crawler_h1_snap_head_lug_link_v0_11_4_deep_capture_easy_shaft/stl/tpu/PS-TRH1-LUG-0114-STANDARD.stl",
+      "dest_path": "stl/tpu/PS-TRH1-LUG-0114-STANDARD.stl",
+      "status": "PRETEST_CANDIDATE",
+      "notes": "CAP-B standard lug candidate; 8.0 mm thickness; 1.8 mm TPU ground floor.",
+      "sha256": "a30e911586d20a2f4b1c41d823a75cc22e34897d181534447c402a2c65b96d2e",
+      "bytes": 333684,
+      "mesh": {
+        "watertight": true,
+        "connected_components": 1,
+        "faces": 6672,
+        "extents_mm": [
+          14.0,
+          34.0,
+          8.0
+        ],
+        "volume_mm3": 3236.561148
+      },
+      "physical_part_number_marking_verified": false
+    }
+  ],
+  "lineage": [
+    {
+      "sequence": 1,
+      "package": "crawler_h1_snap_head_lug_link_v0_11_4_deep_capture_easy_shaft",
+      "role": "TPU lug retention and shaft-insertion candidate"
+    },
+    {
+      "sequence": 2,
+      "package": "crawler_h1_wide_span_three_knuckle_link_v0_12_5",
+      "role": "Wide 46 mm three-knuckle PETG link candidate"
+    },
+    {
+      "sequence": 3,
+      "package": "crawler_h1_track_undercarriage_production_v0_13_0",
+      "role": "Track loop, 6000-series roller and undercarriage candidate dimensions"
+    },
+    {
+      "sequence": 4,
+      "package": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1",
+      "role": "Integrated sprocket tooth/root reinforcement and first-article candidate"
+    }
+  ],
+  "known_contract_values": {
+    "link_pitch_mm": 20.0,
+    "link_body_width_mm": 50.0,
+    "link_guide_max_width_mm": 54.0,
+    "hinge_stack_width_mm": 46.0,
+    "hinge_shaft_candidate": "phi3 x 50.5 mm",
+    "sprocket_tooth_count": 12,
+    "sprocket_axial_width_mm": 44.0,
+    "nominal_center_distance_mm_candidate": 280.0,
+    "tension_stroke_mm_candidate": 12.0,
+    "support_roller_od_mm": 50.0,
+    "support_roller_width_mm": 44.0
+  },
+  "status": {
+    "PRETEST_HISTORY_PACKAGE": "PASS",
+    "BYTE_IDENTITY_TO_UPLOADED_STLS": "PASS",
+    "STATIC_MESH_AUDIT": "PASS",
+    "POWERED_ENGAGEMENT": "NOT_VALIDATED",
+    "LOAD_TEST": "NOT_VALIDATED",
+    "MUD_WATER_TEST": "NOT_VALIDATED",
+    "TRACK_HEIGHT": "NOT_FIXED",
+    "TRACK_WIDTH": "CANDIDATE",
+    "BATCH_40_PLUS_8": "HOLD",
+    "PHYSICAL_PART_NUMBER_MARKING": "NOT_VERIFIED",
+    "PRINT_RELEASE": "HOLD_PENDING_MARKING_AND_USER_REVIEW",
+    "MANUFACTURING_STATUS": "NOT_APPROVED",
+    "FIELD_DEPLOYMENT_STATUS": "NOT_APPROVED"
+  }
+}

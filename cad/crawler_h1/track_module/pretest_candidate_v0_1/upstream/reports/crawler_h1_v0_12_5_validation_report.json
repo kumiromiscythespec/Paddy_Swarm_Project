@@ -1,0 +1,128 @@
+{
+  "package": "crawler_h1_wide_span_three_knuckle_link_v0_12_5",
+  "version": "crawler-h1-v0.12.5-wide-span-three-knuckle",
+  "status": "WIDE_46_TWO_LINK_FIT_TEST_MOTOR_LOAD_MUD_WATER_QUANTITY_HOLD",
+  "result": "STATIC_PASS_WITH_WARNINGS",
+  "cadquery_available": true,
+  "wide_knuckle": {
+    "outer_ear_width_mm": 10.0,
+    "center_ear_width_mm": 24.8,
+    "interleave_gap_each_mm": 0.6,
+    "target_total_width_mm": 46.0,
+    "body_width_mm": 50.0,
+    "guide_max_width_mm": 54.0
+  },
+  "derived": {
+    "outer_ear_center_y_mm": 18.0,
+    "outer_ear_center_span_mm": 36.0,
+    "outer_face_y_abs_mm": 23.0,
+    "body_edge_margin_each_mm": 2.0,
+    "guide_edge_margin_each_mm": 4.0,
+    "bearing_material_total_mm": 44.8,
+    "center_span_ratio_vs_v0124": 2.608695652173913,
+    "bearing_length_ratio_vs_v0124": 2.357894736842105,
+    "total_width_ratio_vs_v0124": 2.323232323232323,
+    "service_start_y_abs_mm": 23.1,
+    "service_length_mm": 4.899999999999999,
+    "shaft_reference_length_mm": 50.5,
+    "shaft_fit_candidates_mm": [
+      50.0,
+      50.5,
+      51.0
+    ]
+  },
+  "issues": [
+    {
+      "level": "PASS",
+      "code": "TOTAL_WIDTH_46MM",
+      "detail": "46.000 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "BODY_EDGE_MARGIN",
+      "detail": "2.000 mm/side"
+    },
+    {
+      "level": "PASS",
+      "code": "GUIDE_EDGE_MARGIN",
+      "detail": "4.000 mm/side"
+    },
+    {
+      "level": "PASS",
+      "code": "OUTER_EAR_WIDTH",
+      "detail": "10.000 mm × 2"
+    },
+    {
+      "level": "PASS",
+      "code": "CENTER_EAR_WIDTH",
+      "detail": "24.800 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "PRINT_CLEARANCE",
+      "detail": "0.600 mm/side"
+    },
+    {
+      "level": "PASS",
+      "code": "PITCH_RETAINED",
+      "detail": "20.000 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "GAP_B_RETAINED",
+      "detail": "GAP-B"
+    },
+    {
+      "level": "PASS",
+      "code": "ACCESS_B_DIAMETER_RETAINED",
+      "detail": "φ9.400 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "SERVICE_ACCESS_LENGTH",
+      "detail": "4.900 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "SHAFT_LONGER_THAN_STACK",
+      "detail": "50.500 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "TOOLS_UNCHANGED",
+      "detail": "v0.12.3 press sleeve and backing cup are reused."
+    },
+    {
+      "level": "WARN",
+      "code": "CADQUERY_RUNTIME_NOT_RUN",
+      "detail": "Actual STL/STEP and Boolean interference checks require paddy-cad."
+    },
+    {
+      "level": "WARN",
+      "code": "WIDE_EAR_WARP_TEST_REQUIRED",
+      "detail": "The 24.8 mm centre ear and 10 mm outer ears require a physical coupon."
+    },
+    {
+      "level": "WARN",
+      "code": "RIGIDITY_NOT_CERTIFIED",
+      "detail": "Wider support spacing improves geometry but is not a certified strength value."
+    },
+    {
+      "level": "WARN",
+      "code": "SHAFT_LENGTH_PHYSICAL_FIT_REQUIRED",
+      "detail": "Test 50.0, 50.5 and 51.0 mm before batch cutting."
+    },
+    {
+      "level": "WARN",
+      "code": "STARLOCK_OD_STILL_MEASURE",
+      "detail": "Confirm the actual Starlock OD and installed position."
+    },
+    {
+      "level": "WARN",
+      "code": "MOTOR_LOAD_MUD_WATER_QUANTITY_HOLD",
+      "detail": "Motor, load, mud, water and 40+8 production remain HOLD."
+    }
+  ],
+  "failures": 0,
+  "warnings": 6
+}

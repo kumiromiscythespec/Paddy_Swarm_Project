@@ -1,0 +1,34 @@
+{
+  "package": "crawler_h1_integrated_sprocket_reinforcement_v0_13_1",
+  "version": "v0.13.1",
+  "failure_fixed": "zero-volume tooth/root contact",
+  "external_tooth_profile_retained": {
+    "tooth_count": 12,
+    "tip_radius_mm": 33.07,
+    "exposed_root_radius_mm": 29.47,
+    "tip_width_mm": 7.5,
+    "root_width_mm": 9.5,
+    "axial_width_mm": 44.0
+  },
+  "integrated_root": {
+    "embed_depth_mm": 4.0,
+    "embed_radius_mm": 25.47,
+    "embed_width_mm": 13.0,
+    "pre_union_fillet": false
+  },
+  "reinforced_body": {
+    "ring_inner_radius_mm": 20.0,
+    "ring_radial_thickness_mm": 9.47,
+    "hub_radius_mm": 18.0,
+    "spoke_count": 6,
+    "spoke_width_mm": 12.0
+  },
+  "first_print": "DRIVE_SPROCKET_FIRST_ARTICLE_V0131_PETG.stl",
+  "full_set": "SINGLE_TRACK_SPROCKET_ROLLER_SET_V0131_REINFORCED_PETG.stl",
+  "mesh_gate": {
+    "drive_shells": 1,
+    "idler_shells": 1,
+    "full_set_parts": 8,
+    "independent_teeth": 0
+  }
+}

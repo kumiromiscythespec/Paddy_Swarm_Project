@@ -1,0 +1,230 @@
+{
+  "version": "crawler-h1-v0.11.4-deep-capture-easy-shaft",
+  "status": "FIT_TEST_CANDIDATE_RETENTION_AND_SHAFT_INSERTION_NOT_VERIFIED",
+  "result": "STATIC_PASS_WITH_WARNINGS",
+  "selected": {
+    "capture": {
+      "code": "CAP-B",
+      "capture_increase_mm": 1.5,
+      "lug_thickness_mm": 8.0,
+      "ground_floor_mm": 1.8,
+      "marker_count": 2
+    },
+    "shaft": {
+      "code": "SHAFT-B",
+      "hole_diameter_mm": 3.7,
+      "total_axial_play_mm": 0.9,
+      "entrance_chamfer_mm": 0.8,
+      "keepout_diameter_mm": 4.6,
+      "marker_count": 2,
+      "per_side_play_mm": 0.45
+    },
+    "head": {
+      "code": "HEAD-B",
+      "shaft_diameter_mm": 4.8,
+      "head_diameter_mm": 6.2,
+      "lug_entry_diameter_mm": 5.4,
+      "lug_chamber_diameter_mm": 6.7,
+      "marker_count": 2
+    },
+    "guide": {
+      "code": "GUIDE-B",
+      "side_clearance_mm": 1.2,
+      "marker_count": 2
+    }
+  },
+  "computed": {
+    "original_capture_height_mm": 3.45,
+    "new_capture_height_mm": 4.95,
+    "capture_height_increase_mm": 1.5,
+    "head_diameter_mm": 6.2,
+    "head_thickness_mm": 1.3,
+    "total_pin_projection_mm": 6.25,
+    "lug_total_thickness_mm": 8.0,
+    "tpu_ground_floor_mm": 1.8,
+    "pin_head_ground_recess_mm": 1.75,
+    "tpu_entrance_stretch_ratio": 0.14814814814814814,
+    "retention_shoulder_radial_mm": 0.3999999999999999,
+    "hinge_hole_diameter_mm": 3.7,
+    "total_axial_play_mm": 0.9,
+    "per_side_axial_play_mm": 0.45,
+    "entrance_chamfer_mm": 0.8,
+    "keepout_diameter_mm": 4.6,
+    "rod_path_radial_margin_mm": 0.44999999999999973,
+    "center_knuckle_width_y_mm": 13.6,
+    "outer_ear_width_y_mm": 13.77,
+    "minimum_xz_wall_actual_mm": 3.4,
+    "side_relief_mm": 1.0,
+    "empty_space_to_body_edge_each_y_mm": 3.9800000000000004
+  },
+  "cadquery_available": true,
+  "issues": [
+    {
+      "level": "PASS",
+      "code": "LINK_PITCH",
+      "message": "Axis pitch=20.000 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "HINGE_GLOBAL_AXES",
+      "message": "Global joint axes remain X=+/-10.0 mm and common Z."
+    },
+    {
+      "level": "PASS",
+      "code": "V0113_CL_B_WIDTHS_RETAINED",
+      "message": "Center/outer Y widths=13.60/13.77 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "CAPTURE_HEIGHT_INCREASE",
+      "message": "Capture height=4.950 mm; increase=1.500 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "PIN_HEAD_GROUND_RECESS",
+      "message": "PETG head recess=1.750 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "TPU_GROUND_FLOOR",
+      "message": "TPU ground floor=1.800 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "TOTAL_PIN_PROJECTION_FORMULA",
+      "message": "Total pin projection=6.250 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "LUG_PIN_STACK_COMPATIBILITY",
+      "message": "LUG thickness=8.000 mm > pin projection=6.250 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "GROUND_CONTACT_TPU_ONLY_SOURCE",
+      "message": "Snap head remains inside TPU; hinge, drive walls, and guides remain +Z."
+    },
+    {
+      "level": "WARN",
+      "code": "SNAP_RETENTION_PHYSICAL",
+      "message": "Head/entry stretch=14.8%; radial shoulder=0.400 mm. Physical insertion, pull-off and 20-cycle tests remain required."
+    },
+    {
+      "level": "PASS",
+      "code": "TOTAL_AXIAL_PLAY",
+      "message": "Total play=0.900 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "PER_SIDE_AXIAL_PLAY",
+      "message": "Per-side play=0.450 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "HINGE_HOLE_DIAMETRAL_CLEARANCE",
+      "message": "Hole-shaft diametral clearance=0.700 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "MINIMUM_XZ_WALL",
+      "message": "Nominal X-Z radial wall=3.400 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "HINGE_KEEP_OUT_RADIAL_MARGIN",
+      "message": "Bore-to-keep-out radial margin=0.450 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "BODY_EDGE_EMPTY_SPACE",
+      "message": "Visible empty space to body edge=3.980 mm/side"
+    },
+    {
+      "level": "PASS",
+      "code": "COMMON_AXIS_SOURCE",
+      "message": "Every ear bore is cut from the same global X/Z axis parameters."
+    },
+    {
+      "level": "PASS",
+      "code": "LEFT_RIGHT_ENTRY_LEAD_IN_SOURCE",
+      "message": "External lead-in depth/chamfer=0.800 mm at both outer faces."
+    },
+    {
+      "level": "PASS",
+      "code": "ROOT_SIDE_RELIEF_SOURCE",
+      "message": "Ear root Y width is reduced by 1.000 mm per side."
+    },
+    {
+      "level": "PASS",
+      "code": "NO_END_PROTRUSION_IN_ROD_PATH",
+      "message": "Keep-out cutter extends beyond both outer faces; no guide or datum is added at the entries."
+    },
+    {
+      "level": "WARN",
+      "code": "SUS_ROD_STRAIGHT_INSERTION_PHYSICAL",
+      "message": "Common nominal axes and lead-ins do not replace a printed three-link phi3 mm insertion test."
+    },
+    {
+      "level": "WARN",
+      "code": "ANGLE_DEPENDENT_ALIGNMENT_PHYSICAL",
+      "message": "35.0 deg remains a reference candidate; hand alignment at several angles is required."
+    },
+    {
+      "level": "PASS",
+      "code": "DRIVE_VALLEY_WIDTH",
+      "message": "Combined open valley=8.500 mm"
+    },
+    {
+      "level": "PASS",
+      "code": "DRIVE_WALL_LIGAMENT",
+      "message": "Remaining PETG ligament=4.000 mm"
+    },
+    {
+      "level": "WARN",
+      "code": "ACTUAL_SPROCKET_SOURCE_MISSING",
+      "message": "Public main did not expose crawler_h1 SPR; 12T/44 mm/7.5 mm values remain inherited reference data."
+    },
+    {
+      "level": "WARN",
+      "code": "LATERAL_PLAY_ENGAGEMENT_PHYSICAL",
+      "message": "SPR engagement with 0.90 mm play requires centred/left/right CAD and hand-rotation tests."
+    },
+    {
+      "level": "PASS",
+      "code": "GUIDE_HINGE_KEEP_OUT_CLEAR",
+      "message": "Guide nearest X edge is 6.000 mm from hinge axis."
+    },
+    {
+      "level": "PASS",
+      "code": "GUIDE_PLAY_INDEPENDENT",
+      "message": "Guide clearance and hinge axial play remain separate parameters."
+    },
+    {
+      "level": "WARN",
+      "code": "GUIDE_ROL_UNKNOWN",
+      "message": "ROL guided width/surface remains UNKNOWN_REQUIRES_SOURCE_CONFIRMATION."
+    },
+    {
+      "level": "PASS",
+      "code": "OPEN_WASH_PATH",
+      "message": "No small drain holes; shear grooves and tool notches remain open."
+    },
+    {
+      "level": "WARN",
+      "code": "SUPPORT_OFF_SLICER_CHECK",
+      "message": "Bambu Studio support-OFF inspection is required for all CAP and SHAFT candidates."
+    },
+    {
+      "level": "WARN",
+      "code": "MESH_RUNTIME_REQUIRED",
+      "message": "Positive volume, valid solid, STL/STEP, watertight, islands and collision checks require CadQuery execution."
+    },
+    {
+      "level": "PASS",
+      "code": "QUANTITY_HOLD",
+      "message": "40+8 links and 40+8 LUGs remain HOLD until FIT TEST acceptance."
+    }
+  ],
+  "failures": 0,
+  "warnings": 8
+}

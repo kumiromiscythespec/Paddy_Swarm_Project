@@ -1,0 +1,62 @@
+{
+  "package": "crawler_h1_wide_span_three_knuckle_link_v0_12_5",
+  "version": "crawler-h1-v0.12.5-wide-span-three-knuckle",
+  "status": "WIDE_46_TWO_LINK_FIT_TEST_MOTOR_LOAD_MUD_WATER_QUANTITY_HOLD",
+  "standard": "WIDE-46",
+  "change_scope": [
+    "three-knuckle Y span",
+    "ear/root widths",
+    "service-access Y start",
+    "shaft reference length"
+  ],
+  "wide_knuckle": {
+    "outer_ear_width_mm": 10.0,
+    "center_ear_width_mm": 24.8,
+    "gap_each_mm": 0.6,
+    "total_width_mm": 46.0,
+    "outer_ear_centers_y_mm": [
+      -18.0,
+      18.0
+    ],
+    "outer_faces_y_mm": [
+      -23.0,
+      23.0
+    ],
+    "body_margin_each_mm": 2.0,
+    "guide_margin_each_mm": 4.0
+  },
+  "unchanged": {
+    "pitch_mm": 20.0,
+    "axes_x_mm": [
+      -10.0,
+      10.0
+    ],
+    "axis_z_mm": 8.5,
+    "ring_od_mm": 12.0,
+    "bore_mm": 3.7,
+    "GAP_B_mm": [
+      8.2,
+      8.8
+    ],
+    "RELIEF_B_diameter_mm": 13.2,
+    "ACCESS_B_diameter_mm": 9.4,
+    "side_guides": "unchanged",
+    "lug": "unchanged",
+    "press_sleeve": "unchanged",
+    "backing_cup": "unchanged"
+  },
+  "shaft_fit_candidates_mm": [
+    50.0,
+    50.5,
+    51.0
+  ],
+  "first_print": "WIDE_46_THREE_KNUCKLE_TWO_LINK_COUPON_PETG.stl",
+  "validation_result": "STATIC_PASS_WITH_WARNINGS",
+  "hold": [
+    "motor",
+    "load",
+    "mud",
+    "water",
+    "40+8 links"
+  ]
+}
