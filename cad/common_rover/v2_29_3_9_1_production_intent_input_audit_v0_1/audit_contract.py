@@ -50,6 +50,8 @@ REQUIRED_EXTERNAL_ARTIFACTS = (
     "baseline_cad_output_diff_report.json",
     "untracked_cad_output_scan.json",
     "repository_bytecode_audit.json",
+    "canonical_inventory_hash_replay.json",
+    "canonical_inventory_hash_replay.txt",
 )
 
 DUMMY_DECLARATIONS = {

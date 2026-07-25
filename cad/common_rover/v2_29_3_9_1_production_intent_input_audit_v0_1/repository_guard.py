@@ -7,6 +7,10 @@ import subprocess
 from typing import Any, Iterable
 
 from audit_contract import BASE_HEAD, LANE_RELATIVE
+from canonical_inventory import (
+    ALGORITHM_IDENTIFIER,
+    validate_inventory_bundle,
+)
 
 
 CAD_SUFFIXES = {".stl", ".step", ".stp"}
@@ -37,6 +41,8 @@ GENERATED_REPORT_NAMES = {
     "baseline_cad_output_diff_report.json",
     "untracked_cad_output_scan.json",
     "repository_bytecode_audit.json",
+    "canonical_inventory_hash_replay.json",
+    "canonical_inventory_hash_replay.txt",
 }
 
 
@@ -154,6 +160,22 @@ def build_cad_diff_report(
             "baseline_inventory_sha256": baseline_inventory[
                 "inventory_sha256"
             ],
+            "baseline_inventory_hash_algorithm": baseline_inventory[
+                "inventory_hash_algorithm"
+            ],
+            "baseline_canonical_record_count": len(
+                baseline_inventory["records"]
+            ),
+            "baseline_first_canonical_path": baseline_inventory[
+                "records"
+            ][0]["path"],
+            "baseline_last_canonical_path": baseline_inventory[
+                "records"
+            ][-1]["path"],
+            "baseline_record_order": (
+                "UTF8_BYTEWISE_ASCENDING_CANONICAL_POSIX_PATH"
+            ),
+            "baseline_inventory_order_consistency": "PASS",
             "baseline_tracked_stl_count": sum(
                 item["extension"].lower() == ".stl"
                 for item in baseline_inventory["records"]
@@ -275,7 +297,15 @@ def ensure_external_output(
 
 
 def load_baseline_inventory(path: Path) -> dict[str, Any]:
+    validation = validate_inventory_bundle(
+        path,
+        path.with_name("baseline_tracked_cad_inventory.csv"),
+        path.with_name("baseline_tracked_cad_inventory.sha256"),
+    )
     result = json.loads(path.read_text(encoding="utf-8"))
     if result.get("base_head") != BASE_HEAD:
         raise ValueError("BASELINE_HEAD_MISMATCH")
+    if result.get("inventory_hash_algorithm") != ALGORITHM_IDENTIFIER:
+        raise ValueError("BASELINE_INVENTORY_ALGORITHM_MISMATCH")
+    result["_bundle_validation"] = validation
     return result

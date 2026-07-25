@@ -22,6 +22,7 @@ from audit_contract import (
     build_real_profile_audit,
     repository_root,
 )
+from canonical_inventory import ALGORITHM_IDENTIFIER
 from repository_guard import (
     build_cad_diff_report,
     ensure_external_output,
@@ -44,6 +45,7 @@ JSON_ARTIFACTS = {
     "baseline_cad_output_diff_report.json",
     "untracked_cad_output_scan.json",
     "repository_bytecode_audit.json",
+    "canonical_inventory_hash_replay.json",
 }
 
 
@@ -445,6 +447,8 @@ def generate(
         "baseline_tracked_cad_inventory.json",
         "baseline_tracked_cad_inventory.csv",
         "baseline_tracked_cad_inventory.sha256",
+        "canonical_inventory_hash_replay.json",
+        "canonical_inventory_hash_replay.txt",
     ):
         if not (output / name).is_file():
             raise FileNotFoundError(f"SEALED_BASELINE_ARTIFACT_MISSING:{name}")
@@ -459,6 +463,24 @@ def generate(
         != EXPECTED_TRACKED_STEP_STP_COUNT
     ):
         raise ValueError("BASELINE_TRACKED_STEP_STP_COUNT_MISMATCH")
+    if baseline["inventory_hash_algorithm"] != ALGORITHM_IDENTIFIER:
+        raise ValueError("BASELINE_INVENTORY_ALGORITHM_MISMATCH")
+    replay = json.loads(
+        (output / "canonical_inventory_hash_replay.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    if replay.get("algorithm_identifier") != ALGORITHM_IDENTIFIER:
+        raise ValueError("CANONICAL_REPLAY_ALGORITHM_MISMATCH")
+    if replay.get("recorded_sha256") != baseline["inventory_sha256"]:
+        raise ValueError("CANONICAL_REPLAY_RECORDED_SHA_MISMATCH")
+    for key in (
+        "match",
+        "shuffled_replay_match",
+        "reversed_replay_match",
+    ):
+        if replay.get(key) is not True:
+            raise ValueError(f"CANONICAL_REPLAY_FAILED:{key}")
 
     reports = {
         "profile": build_real_profile_audit(root),
@@ -491,6 +513,22 @@ def generate(
             "TRACKED_STEP_STP_COUNT"
         ],
         "baseline_inventory_sha256": baseline["inventory_sha256"],
+        "baseline_inventory_hash_algorithm": ALGORITHM_IDENTIFIER,
+        "canonical_record_order": (
+            "UTF8_BYTEWISE_ASCENDING_CANONICAL_POSIX_PATH"
+        ),
+        "json_csv_order_consistency": baseline[
+            "_bundle_validation"
+        ]["json_csv_order_consistency"],
+        "inventory_receipt_consistency": baseline[
+            "_bundle_validation"
+        ]["receipt_consistency"],
+        "reverse_order_replay": (
+            "PASS" if replay["reversed_replay_match"] else "FAIL"
+        ),
+        "shuffled_order_replay": (
+            "PASS" if replay["shuffled_replay_match"] else "FAIL"
+        ),
     }
     overall["repository_output_gates"] = {
         **{

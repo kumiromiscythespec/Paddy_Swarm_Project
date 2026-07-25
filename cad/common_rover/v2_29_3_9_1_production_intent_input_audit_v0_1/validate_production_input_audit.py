@@ -12,6 +12,7 @@ from audit_contract import (
     REQUIRED_EXTERNAL_ARTIFACTS,
     repository_root,
 )
+from canonical_inventory import ALGORITHM_IDENTIFIER
 from repository_guard import (
     CAD_SUFFIXES,
     build_cad_diff_report,
@@ -70,6 +71,11 @@ def validate(
             encoding="utf-8"
         )
     )
+    replay = json.loads(
+        (artifacts / "canonical_inventory_hash_replay.json").read_text(
+            encoding="utf-8"
+        )
+    )
 
     if baseline["TRACKED_STL_COUNT"] != EXPECTED_TRACKED_STL_COUNT:
         blockers.append("BASELINE_TRACKED_STL_COUNT_MISMATCH")
@@ -80,6 +86,26 @@ def validate(
         blockers.append("BASELINE_TRACKED_STEP_STP_COUNT_MISMATCH")
     if baseline["base_head"] != BASE_HEAD:
         blockers.append("BASE_HEAD_MISMATCH")
+    if baseline["inventory_hash_algorithm"] != ALGORITHM_IDENTIFIER:
+        blockers.append("CANONICAL_ALGORITHM_IDENTIFIER_MISMATCH")
+    if (
+        baseline["_bundle_validation"]["json_csv_order_consistency"]
+        != "PASS"
+    ):
+        blockers.append("JSON_CSV_RECORD_ORDER_MISMATCH")
+    if baseline["_bundle_validation"]["receipt_consistency"] != "PASS":
+        blockers.append("INVENTORY_SHA_RECEIPT_MISMATCH")
+    if replay.get("recorded_sha256") != baseline["inventory_sha256"]:
+        blockers.append("REPLAY_RECORDED_SHA_MISMATCH")
+    if replay.get("algorithm_identifier") != ALGORITHM_IDENTIFIER:
+        blockers.append("REPLAY_ALGORITHM_IDENTIFIER_MISMATCH")
+    for key in (
+        "match",
+        "shuffled_replay_match",
+        "reversed_replay_match",
+    ):
+        if replay.get(key) is not True:
+            blockers.append(f"CANONICAL_REPLAY_FAILED:{key}")
     if diff["BASELINE_TRACKED_CAD_INVENTORY_MATCH"] != "PASS":
         blockers.append("BASELINE_TRACKED_CAD_INVENTORY_MISMATCH")
     for name in (
@@ -129,6 +155,19 @@ def validate(
         "blockers": blockers,
         "required_artifact_count": len(REQUIRED_EXTERNAL_ARTIFACTS),
         "baseline_inventory_sha256": baseline["inventory_sha256"],
+        "canonical_algorithm_identifier": ALGORITHM_IDENTIFIER,
+        "reverse_order_replay": (
+            "PASS" if replay.get("reversed_replay_match") else "FAIL"
+        ),
+        "shuffled_order_replay": (
+            "PASS" if replay.get("shuffled_replay_match") else "FAIL"
+        ),
+        "json_csv_order_consistency": baseline[
+            "_bundle_validation"
+        ]["json_csv_order_consistency"],
+        "inventory_receipt_consistency": baseline[
+            "_bundle_validation"
+        ]["receipt_consistency"],
         "baseline_cad_diff": {
             key: diff[key]
             for key in (

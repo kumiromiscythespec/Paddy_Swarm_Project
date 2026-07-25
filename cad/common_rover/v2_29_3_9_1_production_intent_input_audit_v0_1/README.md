@@ -17,9 +17,26 @@ tracked STEP/STP files sealed at base
 unchanged. Added, modified, deleted, or untracked CAD output fails the audit.
 The filesystem scan is independent of `.gitignore`.
 
+The canonical inventory algorithm is
+`SHA256_OF_UTF8_BYTEWISE_SORTED_POSIX_PATH_RECORDS_V1`:
+
+1. convert backslashes to `/`, reject leading `./`, absolute paths,
+   noncanonical segments, control characters, and duplicate canonical paths;
+2. validate every file SHA-256 and lowercase it;
+3. sort records by `record["path"].encode("utf-8")`;
+4. encode each record as
+   `<lowercase_sha256><two ASCII spaces><canonical_posix_path><LF>`;
+5. concatenate the UTF-8 bytes and SHA-256 the complete payload.
+
+The JSON record array and CSV rows must be identical and in that canonical
+order. The receipt, recorded JSON hash, calculated hash, and independent
+reversed/shuffled replays must all match.
+
 Run with bytecode disabled:
 
 ```text
+python -B build_canonical_baseline_inventory.py --repository-root <worktree> --output-dir <external>
+python -B replay_canonical_inventory.py --artifact-dir <external>
 python -B run_unit_tests.py --json <external>/unit_test_results.json --text <external>/unit_test_results.txt
 python -B generate_production_input_audit.py --repository-root <worktree> --output-dir <external> --baseline-inventory <external>/baseline_tracked_cad_inventory.json
 python -B validate_production_input_audit.py --repository-root <worktree> --artifact-dir <external>
