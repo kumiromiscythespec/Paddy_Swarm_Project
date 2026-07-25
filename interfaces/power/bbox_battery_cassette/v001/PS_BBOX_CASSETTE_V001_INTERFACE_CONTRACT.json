@@ -1,0 +1,1090 @@
+{
+  "contract_name": "PS-BBOX-CASSETTE-V001",
+  "title": "BBOX Battery Cassette Direct-Swap Interface Contract",
+  "version": "v001",
+  "document_language": "en",
+  "interface_contract_status": "DOCUMENTATION_CANDIDATE_ONLY",
+  "cassette_architecture_status": "INTERFACE_CONTRACT_NOT_CAD_VALIDATED",
+  "repository_basis": {
+    "declared_repository_path": "C:\\Paddy_Swarm_Project",
+    "declared_repository_path_observed": "MISSING",
+    "observed_worktree_path": "D:\\Paddy_Swarm_Project",
+    "expected_branch": "software/station-control-foundation",
+    "expected_ref": "refs/remotes/origin/software/station-control-foundation",
+    "expected_tracked_head": "b16aded01102f94a9e718f4165c5e098d846c8c6",
+    "expected_ref_observed": true,
+    "expected_ref_head_matches": true,
+    "current_worktree_branch_at_start": "main",
+    "current_worktree_head_at_start": "e25590724d66ce499122fc9d8760fd83555744b8",
+    "current_worktree_clean_at_start": true,
+    "audit_source": "READ_ONLY_GIT_OBJECTS_AT_EXPECTED_TRACKED_HEAD",
+    "branch_switch_performed": false,
+    "git_index_write_performed": false,
+    "network_access_performed": false,
+    "missing_required_lanes": [
+      "rovers/battery_mule/v001/",
+      "simulations/battery_mule_motor_selection/v003_1/"
+    ],
+    "missing_lane_policy": "EVIDENCE_GAP_RECORDED_NO_GEOMETRY_INVENTED"
+  },
+  "source_scope": {
+    "new_files_only": true,
+    "allowed_new_file_count": 5,
+    "existing_tracked_files_modified": false,
+    "existing_untracked_files_modified": false,
+    "v2_28_modified": false,
+    "battery_mule_v001_modified": false,
+    "simulation_lane_modified": false
+  },
+  "approval_flags": {
+    "design_only": true,
+    "hardware_output_performed": false,
+    "cad_geometry_approved": false,
+    "battery_connection_approved": false,
+    "mains_work_approved": false,
+    "manufacturing_readiness": "NOT_APPROVED",
+    "purchase_approval": "NOT_APPROVED",
+    "field_deployment": "NOT_APPROVED",
+    "water_field_swap_approved": false,
+    "soft_trap_swap_approved": false,
+    "automatic_swap_v001_approved": false,
+    "actual_waterproofing_validated": false,
+    "electrical_safety_validated": false,
+    "battery_safety_validated": false,
+    "fire_safety_specialist_review_required": true
+  },
+  "mandatory_status": {
+    "commercial_box_compatibility": "REMOVED_BY_PROJECT_DECISION",
+    "interface_contract_status": "DOCUMENTATION_CANDIDATE_ONLY",
+    "cassette_architecture_status": "INTERFACE_CONTRACT_NOT_CAD_VALIDATED",
+    "cassette_waterproof_status": "NOT_PHYSICALLY_VALIDATED",
+    "connector_waterproof_status": "NOT_PHYSICALLY_VALIDATED",
+    "CBOX_boundary_status": "CONTRACT_ONLY_NOT_LEAK_TESTED",
+    "battery_cell_status": "NOT_SELECTED",
+    "battery_chemistry_status": "NOT_SELECTED",
+    "battery_voltage_status": "NOT_SELECTED",
+    "battery_capacity_status": "NOT_SELECTED",
+    "connector_product_status": "NOT_SELECTED",
+    "gasket_product_status": "NOT_SELECTED",
+    "vent_product_status": "NOT_SELECTED",
+    "BMS_status": "NOT_SELECTED",
+    "charger_status": "NOT_SELECTED",
+    "electrical_current_rating_status": "NOT_DEFINED",
+    "thermal_status": "NOT_VALIDATED",
+    "fire_safety_status": "REQUIRES_SEPARATE_SPECIALIST_REVIEW",
+    "actual_printability_status": "NOT_VALIDATED",
+    "manufacturing_readiness": "NOT_APPROVED",
+    "purchase_approval": "NOT_APPROVED",
+    "field_deployment": "NOT_APPROVED"
+  },
+  "coordinate_system": {
+    "source": "COMMON_ROVER_V2_28_REPOSITORY_NATIVE",
+    "X": "lateral; negative is rover left and positive is rover right",
+    "Y": "longitudinal; negative is rover front/forward and positive is rover rear/aft",
+    "Z": "vertical; positive is upward",
+    "cassette_insertion_vector": "-Z",
+    "cassette_removal_vector": "+Z"
+  },
+  "existing_fixed_core": {
+    "layout": "BBOX_FRONT_CBOX_REAR_IN_SERIES",
+    "side_by_side_prohibited": true,
+    "existing_box_body_envelope_mm": {
+      "X_width": 200.0,
+      "Y_front_back": 150.0,
+      "Z_height": 120.0
+    },
+    "existing_lid_envelope_mm": [216.0, 166.0, 16.0],
+    "existing_gasket_envelope_mm": [204.0, 154.0, 3.0],
+    "existing_two_box_plan_envelope_mm_approx": {
+      "X_width": 200.0,
+      "Y_length": 300.0
+    },
+    "preserved_part_families": [
+      "PS-RV227-BBOX-*",
+      "PS-RV227-CBOX-*",
+      "PS-RV227-LOWER-FRAME",
+      "PS-RV227-WBASE-L",
+      "PS-RV227-WBASE-R",
+      "PS-RV228-TURTLE-SHELL-UPPER-*",
+      "PS-RV228-SIDE-MOTOR-POD-MOUNT-*",
+      "PS-RV228-FRONT-PTO-HIGH-MOUNT-S"
+    ],
+    "lower_frame_reference_mm": [232.0, 188.0, 22.0],
+    "wheelbase_side_reference_mm": [224.0, 32.0, 20.0],
+    "motor_pod_relationship": "UPPER_SIDE_WALLS_RESERVED",
+    "front_pto_relationship": "HIGH_FORWARD_DUAL_PORT_PRESERVED",
+    "upper_shell_relationship": "REMOVABLE_SPLIT_TURTLE_SHELL_PRESERVED",
+    "lower_hull_relationship": "SECONDARY_SPLASH_BOTTOM_BUOYANCY_AID_ONLY",
+    "existing_notch_rule": "TWO_TOP_OPEN_WIRE_DROP_NOTCHES_PER_BOX_ON_FRONT_REAR_200MM_FACES",
+    "existing_notch_waterproof_status": "DRIP_RESISTANT_HELPER_ONLY",
+    "current_BBOX_dimension_change_authorized": false,
+    "future_envelope_issue": "A fixed BBOX-FRAME plus wet cradle and cassette may not fit the existing 200x150x120 body concept; CAD measurement is required before any dimension change.",
+    "geometry_conflict_status": "UNRESOLVED_CAD_HOLD_POINT"
+  },
+  "architecture": {
+    "selected_baseline": [
+      "FIXED_BBOX_FRAME",
+      "DRAINABLE_BBOX_WET_CRADLE",
+      "INDEPENDENTLY_SEALED_BBOX_BATTERY_CASSETTE",
+      "VERTICAL_TOP_INSERTION",
+      "UPPER_REAR_HORIZONTAL_CONNECTOR_SHUTTLE",
+      "DUAL_SEAL_WITH_DRAIN",
+      "CONNECTOR_DRY_POD",
+      "FIXED_SEALED_CBOX_FEEDTHROUGH"
+    ],
+    "layers": [
+      {
+        "name": "BBOX-FRAME",
+        "exchange_frequency": "FIXED_TO_ROVER",
+        "responsibilities": [
+          "vehicle center structure",
+          "CBOX structural connection",
+          "LOWER-FRAME connection",
+          "upper shell connection",
+          "guide and cradle support",
+          "connector module support",
+          "impact load transfer",
+          "cassette weight support",
+          "recovery load path"
+        ],
+        "prohibitions": [
+          "routine exchange",
+          "structural load through battery connector",
+          "shared wet cavity with CBOX"
+        ]
+      },
+      {
+        "name": "BBOX-WET-CRADLE",
+        "exchange_frequency": "FIXED_SERVICEABLE_WET_SIDE",
+        "responsibilities": [
+          "cassette insertion guide",
+          "structural seating",
+          "mechanical retention",
+          "coarse mud removal",
+          "gravity drainage",
+          "inspection access",
+          "replaceable wiper",
+          "replaceable wear rail",
+          "mis-insertion prevention",
+          "latch support"
+        ],
+        "dryness_claim": "WATER_INGRESS_ALLOWED_NO_POOLED_WATER"
+      },
+      {
+        "name": "BBOX-BATTERY-CASSETTE",
+        "exchange_frequency": "ROUTINE_EXCHANGE_ITEM",
+        "responsibilities": [
+          "battery cells",
+          "BMS",
+          "main fuse",
+          "main contactor",
+          "temperature sensing",
+          "cassette identity",
+          "lifecycle record",
+          "service disconnect candidate",
+          "pressure equalization candidate",
+          "abnormal pressure vent path",
+          "recessed electrical interface",
+          "standalone primary waterproof enclosure",
+          "drop protection",
+          "transport handle"
+        ]
+      }
+    ]
+  },
+  "zones": [
+    {
+      "id": "D0",
+      "name": "EXTERNAL_DIRTY_ENVIRONMENT",
+      "owner": "ENVIRONMENT",
+      "water_policy": "UNCONTROLLED",
+      "contents": ["rain", "mud", "paddy water", "straw", "dust", "insects", "grass fragments"]
+    },
+    {
+      "id": "D1",
+      "name": "DIRTY_ENTRY_ZONE",
+      "owner": "ROVER_BBOX",
+      "water_policy": "DIRTY_AND_WET_ALLOWED",
+      "contents": ["coarse wiper", "debris shedding", "mud scraping", "visual inspection"]
+    },
+    {
+      "id": "D2",
+      "name": "DRAINABLE_WET_CRADLE",
+      "owner": "ROVER_BBOX",
+      "water_policy": "INGRESS_ALLOWED_POOLING_PROHIBITED",
+      "contents": ["gravity drainage", "cleanable drain path", "no path into CBOX"]
+    },
+    {
+      "id": "D3",
+      "name": "CONNECTOR_PROTECTION_VESTIBULE",
+      "owner": "ROVER_BBOX",
+      "water_policy": "DETECTED_FAIL_CLOSED",
+      "contents": ["outer connector seal", "intermediate drain moat", "water detection", "secondary seal"]
+    },
+    {
+      "id": "D4",
+      "name": "CONNECTOR_DRY_CHAMBER",
+      "owner": "ROVER_BBOX_AND_CASSETTE_INTERFACE",
+      "water_policy": "DRY_REQUIRED_TO_ENERGIZE",
+      "contents": ["recessed power contacts", "signal contacts", "ID contacts", "pre-charge interface", "latch sensing"]
+    },
+    {
+      "id": "D5",
+      "name": "CBOX_DRY_CORE",
+      "owner": "CBOX",
+      "water_policy": "PERMANENT_DRY_CORE",
+      "contents": ["sealed bulkhead", "no shared drainage", "no shared cavity", "no wet-cradle opening"]
+    }
+  ],
+  "zone_invariants": {
+    "D0_D1_D2_to_D4_D5_ingress_prohibited": true,
+    "D3_water_blocks_main_contactor": true,
+    "D3_D4_D5_not_primary_drain_destinations": true,
+    "wet_cradle_and_CBOX_drainage_shared": false
+  },
+  "insertion": {
+    "baseline": "VERTICAL_TOP_INSERTION",
+    "insertion_axis": "-Z",
+    "removal_axis": "+Z",
+    "underwater_exchange_prohibited": true,
+    "horizontal_side_only_assumption_prohibited": true,
+    "connector_as_guide_prohibited": true
+  },
+  "connector_architecture": {
+    "recommended_candidate": "UPPER_REAR_HORIZONTAL_CONNECTOR_SHUTTLE",
+    "final_CAD_position_fixed": false,
+    "position_rationale": [
+      "high at the BBOX-to-CBOX boundary",
+      "short fixed feedthrough candidate to CBOX",
+      "avoids left and right upper motor-pod zones",
+      "separates vertical cassette weight from horizontal mating force",
+      "can remain protected beneath the opened/closed upper shell concept"
+    ],
+    "known_conflicts": [
+      "existing BBOX rear positive-Y top-open wire notch",
+      "existing CBOX front negative-Y top-open wire notch",
+      "existing split turtle-shell clearance",
+      "existing 150 mm front-back BBOX envelope",
+      "fixed bulkhead service access not yet measured"
+    ],
+    "shuttle": {
+      "motion": "HORIZONTAL_SHORT_STROKE",
+      "stroke": "TBD_BY_CONNECTOR_SELECTION",
+      "actuation_candidates": ["cam", "lever"],
+      "floating_alignment_required": true,
+      "replaceable_connector_module": true,
+      "replaceable_seal_module": true,
+      "retracted_during_cassette_insertion": true,
+      "may_advance_only_after": [
+        "structural seat confirmed",
+        "primary latch confirmed",
+        "safety latch confirmed",
+        "water sensors acceptable"
+      ]
+    },
+    "location_decision_matrix": [
+      {
+        "candidate": "UPPER_REAR",
+        "decision": "RECOMMENDED_FOR_CAD_STUDY",
+        "waterproofing": "HIGH",
+        "CBOX_feedthrough": "SHORTEST_CANDIDATE",
+        "motor_pod_conflict": "LOW",
+        "known_geometry_conflict": "INNER_NOTCH_AND_SHELL_MEASUREMENT_REQUIRED"
+      },
+      {
+        "candidate": "UPPER_LEFT",
+        "decision": "ALTERNATE_ONLY",
+        "waterproofing": "HIGH",
+        "CBOX_feedthrough": "LONGER",
+        "motor_pod_conflict": "HIGH",
+        "known_geometry_conflict": "LEFT_UPPER_SIDE_MOTOR_POD_AND_WIDTH_ENVELOPE"
+      },
+      {
+        "candidate": "UPPER_RIGHT",
+        "decision": "ALTERNATE_ONLY",
+        "waterproofing": "HIGH",
+        "CBOX_feedthrough": "LONGER",
+        "motor_pod_conflict": "HIGH",
+        "known_geometry_conflict": "RIGHT_UPPER_SIDE_MOTOR_POD_AND_WIDTH_ENVELOPE"
+      }
+    ],
+    "connector_product": "NOT_SELECTED",
+    "connector_family": "TBD_SHARED_BY_ROVER_MULE_AND_CHARGING_RACK",
+    "bottom_exposed_connector_prohibited": true,
+    "half_mated_drive_authorization_prohibited": true
+  },
+  "mechanical_load_path": {
+    "cassette_load_path": [
+      "cassette body",
+      "bottom structural seat",
+      "side guide and wear rail",
+      "primary latch",
+      "BBOX-FRAME",
+      "LOWER-FRAME"
+    ],
+    "connector_load_path": ["mate force", "unmate force"],
+    "connector_supports_cassette_weight": false,
+    "connector_locates_cassette": false,
+    "terminal_corrects_misalignment": false,
+    "gasket_friction_is_retention": false
+  },
+  "cassette_enclosure": {
+    "primary_waterproof_barrier": "CASSETTE_STANDALONE_CONTINUOUS_ENCLOSURE",
+    "cradle_dependent_sealing": false,
+    "service_lid_opened_during_routine_swap": false,
+    "continuous_perimeter_gasket": true,
+    "controlled_compression": true,
+    "multi_point_fastening": true,
+    "recessed_connector_port": true,
+    "recessed_pressure_equalization_area": true,
+    "abnormal_vent_away_from_CBOX": true,
+    "abnormal_vent_away_from_operator_handle": true,
+    "no_upward_water_pocket": true,
+    "sealed_internal_fastener_paths_required": true,
+    "replaceable_corner_bumper": true,
+    "replaceable_bottom_skid": true,
+    "transport_handle": true,
+    "asymmetric_keying": true,
+    "printed_outer_shell_is_complete_fire_containment": false,
+    "internal_candidates": [
+      "metal support tray",
+      "non-conductive cell restraint",
+      "heat-resistant separation",
+      "fuse near energy source",
+      "temperature sensors",
+      "gas and pressure route away from operator and CBOX"
+    ]
+  },
+  "connector_waterproofing": {
+    "barrier_order_outside_to_inside": [
+      "coarse contamination shield",
+      "replaceable wiping lip",
+      "first labyrinth",
+      "drain moat",
+      "water detection zone",
+      "secondary compression gasket",
+      "connector dry chamber",
+      "recessed electrical contacts"
+    ],
+    "primary_electrical_waterproof_barrier": "SECONDARY_COMPRESSION_GASKET_AND_CONNECTOR_DRY_CHAMBER",
+    "first_seal_role": ["mud wiping", "splash reduction", "debris reduction"],
+    "first_seal_is_primary_electrical_barrier": false,
+    "single_seal_dependency_prohibited": true,
+    "dual_seal_required": true,
+    "drain_moat_required": true
+  },
+  "drainage": {
+    "gravity_drained": true,
+    "direction": "AWAY_FROM_CBOX_AND_CONNECTOR_DRY_CHAMBER",
+    "visually_inspectable": true,
+    "manually_cleanable": true,
+    "large_open_slot": true,
+    "hidden_blind_pocket": false,
+    "upward_capillary_path": false,
+    "drains_beneath_CBOX": false,
+    "drains_beneath_connector": false,
+    "traps_in_lower_hull": false,
+    "shares_CBOX_feedthrough": false,
+    "blocked_drain_validation_required": true
+  },
+  "CBOX_boundary": {
+    "CBOX_zone": "D5",
+    "wet_cradle_zone": "D2",
+    "fixed_sealed_bulkhead_required": true,
+    "candidate_feedthrough": "SINGLE_SERVICEABLE_SEALED_FEEDTHROUGH_MODULE",
+    "feedthrough_candidates": [
+      "sealed bulkhead connector",
+      "potted fixed feedthrough module",
+      "dry-side replaceable harness",
+      "wet-side sacrificial connector module"
+    ],
+    "features": [
+      "raised boss",
+      "downward or side-facing cable route",
+      "strain relief",
+      "internal drip loop",
+      "secondary wet pocket",
+      "drainage and labyrinth"
+    ],
+    "bare_cable_hole_prohibited": true,
+    "simple_unsealed_grommet_prohibited": true,
+    "direct_wet_cradle_opening_prohibited": true,
+    "moves_during_routine_swap": false,
+    "shares_wet_cradle_drainage": false
+  },
+  "datums": [
+    {"id": "DATUM_A", "definition": "cassette bottom structural seat plane"},
+    {"id": "DATUM_B", "definition": "cassette rear alignment plane"},
+    {"id": "DATUM_C", "definition": "cassette lateral key plane"},
+    {"id": "DATUM_D", "definition": "connector mating plane"},
+    {"id": "DATUM_E", "definition": "handle and lift center reference"}
+  ],
+  "tolerance_architecture": {
+    "coarse_alignment": ["cradle guide", "tapered lead-in", "asymmetric key"],
+    "fine_alignment": ["cassette datum pads", "floating connector mount", "short connector shuttle stroke"],
+    "structural_retention": ["seat", "rail", "primary latch"],
+    "seal_compression": ["independent cam", "connector shuttle"],
+    "printed_dimensions_only_for_precision_alignment_prohibited": true,
+    "long_rigid_connector_alignment_prohibited": true,
+    "connector_pins_correct_misalignment_prohibited": true,
+    "excess_insertion_force_as_tolerance_prohibited": true
+  },
+  "latches": {
+    "primary_structural_latch_required": true,
+    "independent_safety_latch_required": true,
+    "electronic_seated_latched_detection_required": true,
+    "primary_responsibilities": ["retention", "structural preload", "guide seat maintenance"],
+    "safety_responsibility": "PREVENT_ACCIDENTAL_PRIMARY_LATCH_OPENING",
+    "shuttle_requires_both_latches": true,
+    "one_latch_open_cannot_drop_cassette": true,
+    "release_order": [
+      "main contactor proven open",
+      "bus below threshold",
+      "connector shuttle retracted",
+      "electrical disconnect confirmed",
+      "safety latch release",
+      "primary latch release",
+      "removal authorization"
+    ]
+  },
+  "seal_compression": {
+    "target_compression": "TBD_BY_GASKET_SELECTION",
+    "compression_uniformity_required": true,
+    "over_compression_prohibited": true,
+    "under_compression_prohibited": true,
+    "cassette_weight_only_prohibited": true,
+    "connector_secondary_seal_actuation": "CONTROLLED_BY_SHUTTLE_OR_CAM",
+    "cassette_lid_seal_actuation": "SERVICE_FASTENERS_OR_UNIFORM_CLAMP"
+  },
+  "electrical": {
+    "hot_swap_allowed": false,
+    "dead_front": {
+      "removed_cassette_state": "REMOVED_SAFE",
+      "cassette_main_contactor_open": true,
+      "cassette_output_energized_when_removed": false,
+      "internal_energy_isolated": true,
+      "rover_shuttle_retracted": true,
+      "rover_main_bus_isolated": true,
+      "exposed_energized_terminal_allowed": false,
+      "keep_alive_only_candidate": true
+    },
+    "swap_start_guards": [
+      "rover stopped",
+      "PTO stopped",
+      "selector NEUTRAL",
+      "motor output zero",
+      "parking or wheel restraint active",
+      "main contactor open",
+      "bus voltage below threshold",
+      "connector shuttle retracted",
+      "cassette removal authorized"
+    ],
+    "keep_alive": {
+      "candidate": "SMALL_KEEP_ALIVE_OR_HOLD_UP_SUPPLY",
+      "traction_use_allowed": false,
+      "source": "TBD"
+    },
+    "energization_sequence": [
+      "cassette insertion",
+      "coarse guide alignment",
+      "structural seating",
+      "primary latch closed",
+      "safety latch closed",
+      "latch sensors confirmed",
+      "water sensors confirmed",
+      "connector shuttle advanced",
+      "secondary seal compressed",
+      "low-energy signals connected",
+      "cassette identity confirmed",
+      "voltage polarity and temperature confirmed",
+      "pre-charge",
+      "voltage difference confirmed",
+      "main contactor ON",
+      "drive authorization"
+    ],
+    "precharge_required": true,
+    "main_contactor_required": true,
+    "removal_while_main_contactor_ON_prohibited": true,
+    "unknown_cassette_drive_authorization_prohibited": true,
+    "wrong_voltage_class_authorization_prohibited": true,
+    "wrong_chemistry_class_authorization_prohibited": true
+  },
+  "state_machine": {
+    "states": [
+      "ABSENT",
+      "INSERTING",
+      "SEATED_UNLATCHED",
+      "PRIMARY_LATCHED",
+      "SAFETY_LATCHED",
+      "WET_CHECK",
+      "WET_FAULT",
+      "CONNECTOR_ADVANCING",
+      "SIGNAL_CONNECTED",
+      "IDENTITY_CHECK",
+      "COMPATIBILITY_CHECK",
+      "PRECHARGE",
+      "PRECHARGE_FAILED",
+      "READY_TO_ENERGIZE",
+      "ENERGIZED",
+      "RUNNING",
+      "DEENERGIZING",
+      "CONNECTOR_RETRACTING",
+      "REMOVAL_AUTHORIZED",
+      "FAULT",
+      "OVERTEMPERATURE",
+      "OVERVOLTAGE",
+      "UNDERVOLTAGE",
+      "POLARITY_FAULT",
+      "UNKNOWN_CASSETTE"
+    ],
+    "initial_state": "ABSENT",
+    "safe_default_state": "FAULT",
+    "transitions": [
+      ["ABSENT", "INSERTING", "insertion detected"],
+      ["INSERTING", "SEATED_UNLATCHED", "structural seat confirmed"],
+      ["SEATED_UNLATCHED", "PRIMARY_LATCHED", "primary latch confirmed"],
+      ["PRIMARY_LATCHED", "SAFETY_LATCHED", "safety latch confirmed"],
+      ["SAFETY_LATCHED", "WET_CHECK", "latch sensors agree"],
+      ["WET_CHECK", "WET_FAULT", "moisture water sensor fault or unknown"],
+      ["WET_CHECK", "CONNECTOR_ADVANCING", "all required water sensors dry"],
+      ["CONNECTOR_ADVANCING", "SIGNAL_CONNECTED", "full mate and secondary compression confirmed"],
+      ["SIGNAL_CONNECTED", "IDENTITY_CHECK", "low energy channel valid"],
+      ["IDENTITY_CHECK", "UNKNOWN_CASSETTE", "identity unavailable or unknown"],
+      ["IDENTITY_CHECK", "COMPATIBILITY_CHECK", "identity accepted"],
+      ["COMPATIBILITY_CHECK", "POLARITY_FAULT", "polarity invalid"],
+      ["COMPATIBILITY_CHECK", "OVERVOLTAGE", "voltage above allowed class"],
+      ["COMPATIBILITY_CHECK", "UNDERVOLTAGE", "voltage below allowed class"],
+      ["COMPATIBILITY_CHECK", "OVERTEMPERATURE", "temperature outside gate"],
+      ["COMPATIBILITY_CHECK", "PRECHARGE", "class polarity temperature and BMS ready"],
+      ["PRECHARGE", "PRECHARGE_FAILED", "timeout or convergence failure"],
+      ["PRECHARGE", "READY_TO_ENERGIZE", "voltage convergence confirmed"],
+      ["READY_TO_ENERGIZE", "ENERGIZED", "contactor closed and feedback valid"],
+      ["ENERGIZED", "RUNNING", "low-power self-test and drive authorization"],
+      ["RUNNING", "DEENERGIZING", "stop and swap request accepted"],
+      ["ENERGIZED", "DEENERGIZING", "deenergize request"],
+      ["DEENERGIZING", "CONNECTOR_RETRACTING", "contactor open and bus below threshold"],
+      ["CONNECTOR_RETRACTING", "REMOVAL_AUTHORIZED", "full retraction and electrical disconnect confirmed"],
+      ["REMOVAL_AUTHORIZED", "ABSENT", "cassette removed"],
+      ["WET_FAULT", "FAULT", "fault latched"],
+      ["PRECHARGE_FAILED", "FAULT", "fault latched"],
+      ["UNKNOWN_CASSETTE", "FAULT", "fault latched"],
+      ["POLARITY_FAULT", "FAULT", "fault latched"],
+      ["OVERTEMPERATURE", "FAULT", "fault latched"],
+      ["OVERVOLTAGE", "FAULT", "fault latched"],
+      ["UNDERVOLTAGE", "FAULT", "fault latched"]
+    ],
+    "prohibited_transitions": [
+      ["ABSENT", "ENERGIZED"],
+      ["SEATED_UNLATCHED", "ENERGIZED"],
+      ["PRIMARY_LATCHED", "ENERGIZED"],
+      ["WET_FAULT", "ENERGIZED"],
+      ["CONNECTOR_ADVANCING", "ENERGIZED"],
+      ["UNKNOWN_CASSETTE", "RUNNING"],
+      ["POLARITY_FAULT", "ENERGIZED"],
+      ["OVERVOLTAGE", "ENERGIZED"],
+      ["UNDERVOLTAGE", "ENERGIZED"],
+      ["OVERTEMPERATURE", "ENERGIZED"],
+      ["ENERGIZED", "REMOVAL_AUTHORIZED"],
+      ["RUNNING", "REMOVAL_AUTHORIZED"]
+    ],
+    "fail_closed": true,
+    "automatic_restart_after_fault": false
+  },
+  "swap_locations": {
+    "allowed": [
+      "DRY_FIELD_EDGE_SWAP_PAD",
+      "STABLE_LEVELED_SERVICE_AREA",
+      "WORKSHOP_TEST_STAND"
+    ],
+    "conditional": ["DRY_STABLE_LEVEE_AREA"],
+    "prohibited": [
+      "FLOODED_PADDY_SURFACE",
+      "DEEP_MUD",
+      "RICE_ROW_INTERIOR",
+      "STEEP_LEVEE",
+      "MOVING_ROVER",
+      "PTO_RUNNING",
+      "MOTOR_ENERGIZED",
+      "UNSTABLE_FLOATING_STATE",
+      "SOFT_TRAP"
+    ],
+    "swap_pad_candidates": [
+      "wheel stop",
+      "rover alignment",
+      "drainage",
+      "clean cassette stand",
+      "dirty cassette stand",
+      "human foothold",
+      "Battery Mule docking reference"
+    ]
+  },
+  "human_swap_sequence": [
+    "receive swap request",
+    "move to dry swap pad",
+    "stop rover",
+    "apply wheel restraint",
+    "stop PTO",
+    "set selector NEUTRAL",
+    "open main contactor",
+    "confirm bus discharge",
+    "open upper shell",
+    "clean cassette top",
+    "retract connector shuttle",
+    "confirm electrical disconnect",
+    "release safety latch",
+    "release primary latch",
+    "remove cassette vertically",
+    "visually inspect connector vestibule",
+    "check water and mud",
+    "place dirty cassette in dirty bay",
+    "confirm charged cassette ID",
+    "insert cassette",
+    "confirm structural seating",
+    "close primary latch",
+    "close safety latch",
+    "perform dry check",
+    "advance connector shuttle",
+    "confirm signal and ID",
+    "perform pre-charge",
+    "close main contactor",
+    "perform low-power self-test",
+    "close shell",
+    "grant drive authorization",
+    "save swap log"
+  ],
+  "water_sensors": {
+    "states": ["DRY", "MOISTURE_DETECTED", "WATER_PRESENT", "SENSOR_FAULT", "UNKNOWN"],
+    "candidate_locations": [
+      "drain moat",
+      "connector vestibule lower point",
+      "connector dry chamber lower boundary",
+      "CBOX feedthrough outer pocket"
+    ],
+    "primary_seal": false,
+    "energize_allowed_states": ["DRY"],
+    "energize_prohibited_states": ["MOISTURE_DETECTED", "WATER_PRESENT", "SENSOR_FAULT", "UNKNOWN"]
+  },
+  "cassette_identity": {
+    "required_fields": [
+      "unique cassette ID",
+      "hardware revision",
+      "battery class ID",
+      "voltage class ID",
+      "capacity class ID",
+      "charge profile ID",
+      "BMS revision",
+      "manufacturing lot",
+      "cycle count",
+      "accumulated operating hours",
+      "maximum observed temperature",
+      "fault history",
+      "water exposure flag",
+      "service status",
+      "quarantine status",
+      "current SoC",
+      "current health proxy"
+    ],
+    "candidate_fields": ["drop event flag"],
+    "compatibility_fields": [
+      "hardware revision",
+      "battery class ID",
+      "voltage class ID",
+      "capacity class ID",
+      "charge profile ID",
+      "BMS revision"
+    ],
+    "theft_registration_is_compatibility": false
+  },
+  "mis_insertion_prevention": {
+    "hazards": [
+      "front rear reverse",
+      "left right reverse",
+      "upside down",
+      "incompatible voltage class",
+      "incompatible chemistry class",
+      "service cassette",
+      "damaged cassette",
+      "wrong connector family",
+      "partial insertion"
+    ],
+    "mechanical_means": ["asymmetric rail", "asymmetric bottom key", "mechanical coding block", "physical connector coding"],
+    "electrical_means": ["cassette ID", "voltage check", "chemistry and profile ID"],
+    "software_only_allowed": false
+  },
+  "battery_mule": {
+    "same_cassette_interface_required": true,
+    "cassette_roles": [
+      "MULE_PROPULSION_CASSETTE",
+      "DELIVERY_CHARGED_CASSETTE",
+      "RETURNED_DIRTY_CASSETTE",
+      "FAULT_QUARANTINE_CASSETTE"
+    ],
+    "propulsion_cassette_is_delivery_inventory": false,
+    "initial_load_candidate": {"propulsion": 1, "delivery_min": 1, "delivery_max": 2},
+    "many_cassettes_v001_assumed": false,
+    "rack_bays": ["CHARGED_CLEAN_BAY", "RETURNED_DIRTY_BAY", "QUARANTINE_BAY"],
+    "clean_dirty_shared_bay_allowed": false,
+    "geometry_validation_status": "BLOCKED_BY_MISSING_REPOSITORY_LANE",
+    "contractual_compatibility_status": "INTERFACE_ONLY"
+  },
+  "charging_rack": {
+    "same_cassette_interface_required": true,
+    "same_connector_family_candidate": true,
+    "states": [
+      "EMPTY",
+      "RETURNED_WARM",
+      "COOLING",
+      "INSPECTION",
+      "WET_FAULT",
+      "IDENTIFIED",
+      "CHARGING",
+      "CHARGE_COMPLETE",
+      "READY",
+      "RESERVED",
+      "FAULT",
+      "QUARANTINE"
+    ],
+    "authorization_sequence": [
+      "seating",
+      "latch",
+      "dry check",
+      "identity",
+      "compatibility",
+      "temperature check",
+      "isolation check candidate",
+      "charge authorization"
+    ],
+    "charge_immediately_after_insertion": false
+  },
+  "fleet_30_rover": {
+    "final_cassette_count_fixed": false,
+    "final_charger_count_fixed": false,
+    "supported_functions": [
+      "cassette inventory",
+      "charged returned fault separation",
+      "reservation",
+      "rover assignment",
+      "Battery Mule assignment",
+      "station assignment",
+      "swap request queue",
+      "staggered rover start",
+      "cassette health exclusion",
+      "charging priority",
+      "emergency reserve",
+      "human override",
+      "audit log"
+    ],
+    "fleet_assignment_can_bypass_local_interlocks": false
+  },
+  "ownership": {
+    "CASSETTE": [
+      "battery containment",
+      "internal fuse",
+      "internal BMS",
+      "cassette contactor",
+      "cassette ID",
+      "internal temperature",
+      "primary enclosure waterproofing",
+      "recessed mating port",
+      "pressure management"
+    ],
+    "ROVER_BBOX": [
+      "structural frame",
+      "wet cradle",
+      "drainage",
+      "guide",
+      "primary and safety latches",
+      "connector shuttle",
+      "water detection",
+      "CBOX feedthrough",
+      "vehicle interlock"
+    ],
+    "CBOX": [
+      "keep-alive logic",
+      "state machine authority candidate",
+      "vehicle bus monitoring",
+      "drive authorization",
+      "event logging"
+    ],
+    "BATTERY_MULE": [
+      "clean dirty physical separation",
+      "transport retention",
+      "delivery tracking",
+      "reserve cassette protection"
+    ],
+    "CHARGING_RACK": [
+      "cooling",
+      "inspection",
+      "charge authorization",
+      "charging",
+      "quarantine",
+      "inventory state"
+    ]
+  },
+  "vent_pressure": {
+    "simple_permanently_airtight_box_assumed": false,
+    "normal_candidate": "WATERPROOF_PRESSURE_EQUALIZATION_MEMBRANE",
+    "abnormal_candidate": "DEDICATED_SAFETY_VENT_ROUTE",
+    "vent_to_CBOX_allowed": false,
+    "vent_to_operator_handle_allowed": false,
+    "vent_to_connector_allowed": false,
+    "vent_to_blind_wet_cradle_pocket_allowed": false,
+    "product": "TBD",
+    "activation_behavior": "TBD"
+  },
+  "thermal": {
+    "CASSETTE": [
+      "cell temperature",
+      "BMS temperature",
+      "internal temperature",
+      "overtemperature shutdown",
+      "charge inhibit",
+      "discharge inhibit"
+    ],
+    "ROVER": [
+      "connector temperature candidate",
+      "connector resistance fault candidate",
+      "CBOX power input temperature candidate"
+    ],
+    "CHARGING_RACK": [
+      "returned warm cooldown",
+      "charge temperature gate",
+      "abnormal heating detection"
+    ],
+    "fan_opening_in_sealed_cassette_assumed": false
+  },
+  "connector_health": {
+    "monitored_candidates": [
+      "mating cycle count",
+      "contact resistance proxy",
+      "connector temperature",
+      "pre-charge time",
+      "bus voltage convergence",
+      "intermittent connection",
+      "latch state mismatch",
+      "water exposure",
+      "connector replacement history"
+    ],
+    "wear_item": true,
+    "replaceable_without_entire_BBOX": true
+  },
+  "serviceability": {
+    "replaceable_components": [
+      "entry wiper",
+      "guide rail",
+      "wear pad",
+      "corner bumper",
+      "bottom skid",
+      "primary latch",
+      "safety latch",
+      "latch sensor",
+      "water sensor",
+      "connector shuttle",
+      "connector module",
+      "secondary connector gasket",
+      "wet-side harness",
+      "drain cover candidate",
+      "feedthrough module candidate"
+    ],
+    "wet_side_sacrificial_modules_required": true,
+    "central_structure_preserved": true
+  },
+  "cleaning": {
+    "allowed_candidates": [
+      "brush cleaning",
+      "cloth wiping",
+      "low-pressure rinse candidate",
+      "drain probing",
+      "visual inspection",
+      "connector vestibule inspection",
+      "wiper removal",
+      "no-tool coarse cleaning candidate"
+    ],
+    "high_pressure_water_into_D4_prohibited": true,
+    "open_CBOX_for_routine_cleaning_prohibited": true,
+    "hidden_mud_pocket_prohibited": true,
+    "drain_cleaning_requires_disassembly": false
+  },
+  "human_factors": {
+    "maximum_manual_handling_mass": "TBD",
+    "two_hand_handle": "CANDIDATE_REQUIRED_PENDING_MASS",
+    "glove_compatible_grip": true,
+    "pinch_points_prohibited": true,
+    "sharp_edges_prohibited": true,
+    "handle_accidental_latch_actuation_prohibited": true,
+    "handle_lift_begins_disconnect_sequence": true,
+    "visual_latch_status": true,
+    "tactile_latch_status": true,
+    "electronic_latch_status": true,
+    "charged_dirty_fault_marking": true,
+    "lift_assist_required_above_manual_limit": true
+  },
+  "frozen_invariants": [
+    "commercial waterproof box compatibility is not required",
+    "BBOX and CBOX remain front rear in-series central core",
+    "CBOX remains a fixed dry core",
+    "BBOX structural frame remains fixed to rover",
+    "only battery cassette is routinely exchanged",
+    "cassette has standalone primary waterproof enclosure",
+    "wet cradle is gravity drainable",
+    "connector is high-mounted",
+    "bottom exposed connector is prohibited",
+    "connector carries no cassette structural load",
+    "vertical top insertion is baseline",
+    "horizontal connector shuttle is baseline",
+    "connector dry zone uses dual seal and drain moat",
+    "CBOX boundary uses fixed sealed feedthrough",
+    "removed cassette terminals are dead-front",
+    "traction hot-swap is prohibited",
+    "energization before both latches is prohibited",
+    "energization with wet detection is prohibited",
+    "pre-charge is required candidate",
+    "main contactor control is required candidate",
+    "Battery Mule and charging rack share cassette interface",
+    "clean dirty and fault cassettes are physically separated",
+    "water-field swap is prohibited",
+    "V001 uses human swap baseline",
+    "manufacturing purchase and field deployment are not approved"
+  ],
+  "open_parameters": [
+    {"name": "cassette exact dimensions", "owner": "MECHANICAL_CAD", "reason_open": "fixed-core fit not measured", "evidence_required": "BBOX shell cradle latch and lift sweep measurements", "next_stage": "CAD datum study"},
+    {"name": "cassette exact mass", "owner": "BATTERY_AND_MECHANICAL", "reason_open": "cells and enclosure not selected", "evidence_required": "mass budget and handling assessment", "next_stage": "geometric full-mass dummy"},
+    {"name": "cell chemistry", "owner": "BATTERY_SAFETY", "reason_open": "specialist selection required", "evidence_required": "hazard and lifecycle review", "next_stage": "battery architecture review"},
+    {"name": "nominal voltage", "owner": "ELECTRICAL", "reason_open": "traction load and BMS undefined", "evidence_required": "system voltage architecture", "next_stage": "electrical design review"},
+    {"name": "capacity", "owner": "FLEET_AND_BATTERY", "reason_open": "mission energy not measured", "evidence_required": "duty cycle and reserve analysis", "next_stage": "energy model"},
+    {"name": "current rating", "owner": "ELECTRICAL", "reason_open": "motor and fault currents undefined", "evidence_required": "continuous peak inrush and fault current", "next_stage": "electrical design review"},
+    {"name": "connector product", "owner": "ELECTRICAL_AND_MECHANICAL", "reason_open": "ratings and geometry undefined", "evidence_required": "candidate datasheets and qualification", "next_stage": "connector selection"},
+    {"name": "contact count", "owner": "ELECTRICAL", "reason_open": "signal and safety architecture incomplete", "evidence_required": "approved pin function list", "next_stage": "interface pin allocation"},
+    {"name": "contact current rating", "owner": "ELECTRICAL", "reason_open": "current envelope undefined", "evidence_required": "derated current and thermal data", "next_stage": "connector selection"},
+    {"name": "connector stroke", "owner": "MECHANICAL_CAD", "reason_open": "connector not selected", "evidence_required": "mate travel float and seal compression data", "next_stage": "shuttle mock"},
+    {"name": "gasket material", "owner": "WATERPROOFING", "reason_open": "chemistry and cleaning exposure unknown", "evidence_required": "material compatibility and datasheet", "next_stage": "seal selection"},
+    {"name": "gasket compression", "owner": "WATERPROOFING", "reason_open": "material not selected", "evidence_required": "supplier compression range and tolerance stack", "next_stage": "seal compression test"},
+    {"name": "latch force", "owner": "MECHANICAL_CAD", "reason_open": "mass loads and seal forces undefined", "evidence_required": "load cases and ergonomic test", "next_stage": "latch mock"},
+    {"name": "vent product", "owner": "BATTERY_SAFETY", "reason_open": "chemistry enclosure and pressure behavior unknown", "evidence_required": "pressure and gas hazard review", "next_stage": "vent architecture review"},
+    {"name": "vent activation behavior", "owner": "BATTERY_SAFETY", "reason_open": "cell and enclosure behavior unknown", "evidence_required": "abnormal event analysis", "next_stage": "specialist safety review"},
+    {"name": "manual handling mass limit", "owner": "HUMAN_FACTORS", "reason_open": "cassette mass and policy unknown", "evidence_required": "ergonomic and local safety review", "next_stage": "handling assessment"},
+    {"name": "keep-alive energy source", "owner": "CBOX_ELECTRICAL", "reason_open": "CBOX power architecture undefined", "evidence_required": "hold-up duration and fault analysis", "next_stage": "CBOX power design"},
+    {"name": "exact BBOX envelope", "owner": "MECHANICAL_CAD", "reason_open": "new frame cradle cassette stack not modeled", "evidence_required": "v2.28 interference and service sweep study", "next_stage": "CAD envelope study"},
+    {"name": "exact CBOX feedthrough location", "owner": "MECHANICAL_AND_ELECTRICAL", "reason_open": "rear shuttle geometry not measured", "evidence_required": "bulkhead clearance drip route and service study", "next_stage": "CAD feedthrough study"},
+    {"name": "exact charging slot and fleet cassette counts", "owner": "FLEET_OPERATIONS", "reason_open": "duty cycle charger throughput and reserve unknown", "evidence_required": "30-rover queue and charge simulation", "next_stage": "fleet capacity study"}
+  ],
+  "decision_matrix": [
+    {"category": "insertion", "candidate": "vertical top insertion", "decision": "SELECTED_BASELINE", "waterproofing": 4, "mud_tolerance": 4, "repairability": 4, "alignment": 4, "human_swap": 4, "future_automation": 5, "CBOX_protection": 4, "structural_integrity": 4, "width_impact": 5, "cost_proxy": 3, "failure_consequence": 4},
+    {"category": "insertion", "candidate": "front horizontal insertion", "decision": "REJECTED_BASELINE", "waterproofing": 2, "mud_tolerance": 2, "repairability": 3, "alignment": 2, "human_swap": 2, "future_automation": 4, "CBOX_protection": 3, "structural_integrity": 3, "width_impact": 5, "cost_proxy": 3, "failure_consequence": 2},
+    {"category": "insertion", "candidate": "side horizontal insertion", "decision": "REJECTED_BASELINE", "waterproofing": 2, "mud_tolerance": 2, "repairability": 3, "alignment": 2, "human_swap": 2, "future_automation": 3, "CBOX_protection": 3, "structural_integrity": 3, "width_impact": 1, "cost_proxy": 2, "failure_consequence": 2},
+    {"category": "connector", "candidate": "upper rear shuttle", "decision": "SELECTED_FOR_CAD_STUDY", "waterproofing": 4, "mud_tolerance": 4, "repairability": 4, "alignment": 4, "human_swap": 4, "future_automation": 5, "CBOX_protection": 5, "structural_integrity": 4, "width_impact": 5, "cost_proxy": 3, "failure_consequence": 4},
+    {"category": "connector", "candidate": "upper left shuttle", "decision": "ALTERNATE", "waterproofing": 4, "mud_tolerance": 4, "repairability": 3, "alignment": 4, "human_swap": 3, "future_automation": 4, "CBOX_protection": 4, "structural_integrity": 3, "width_impact": 1, "cost_proxy": 3, "failure_consequence": 3},
+    {"category": "connector", "candidate": "upper right shuttle", "decision": "ALTERNATE", "waterproofing": 4, "mud_tolerance": 4, "repairability": 3, "alignment": 4, "human_swap": 3, "future_automation": 4, "CBOX_protection": 4, "structural_integrity": 3, "width_impact": 1, "cost_proxy": 3, "failure_consequence": 3},
+    {"category": "connector", "candidate": "bottom blind-mate", "decision": "REJECTED", "waterproofing": 1, "mud_tolerance": 1, "repairability": 2, "alignment": 2, "human_swap": 3, "future_automation": 4, "CBOX_protection": 1, "structural_integrity": 2, "width_impact": 5, "cost_proxy": 2, "failure_consequence": 1},
+    {"category": "seal", "candidate": "single gasket", "decision": "REJECTED", "waterproofing": 1, "mud_tolerance": 1, "repairability": 3, "alignment": 3, "human_swap": 3, "future_automation": 3, "CBOX_protection": 1, "structural_integrity": 3, "width_impact": 5, "cost_proxy": 5, "failure_consequence": 1},
+    {"category": "seal", "candidate": "dual seal with drain", "decision": "SELECTED_BASELINE", "waterproofing": 5, "mud_tolerance": 4, "repairability": 4, "alignment": 4, "human_swap": 4, "future_automation": 5, "CBOX_protection": 5, "structural_integrity": 4, "width_impact": 4, "cost_proxy": 3, "failure_consequence": 4},
+    {"category": "seal", "candidate": "sealed commercial connector only", "decision": "REJECTED_AS_SOLE_BARRIER", "waterproofing": 2, "mud_tolerance": 2, "repairability": 3, "alignment": 3, "human_swap": 4, "future_automation": 4, "CBOX_protection": 2, "structural_integrity": 3, "width_impact": 4, "cost_proxy": 3, "failure_consequence": 2},
+    {"category": "seal", "candidate": "connector dry pod", "decision": "SELECTED_WITH_DUAL_SEAL", "waterproofing": 5, "mud_tolerance": 4, "repairability": 4, "alignment": 4, "human_swap": 4, "future_automation": 5, "CBOX_protection": 5, "structural_integrity": 4, "width_impact": 4, "cost_proxy": 2, "failure_consequence": 4},
+    {"category": "cassette enclosure", "candidate": "cassette independently sealed", "decision": "SELECTED_BASELINE", "waterproofing": 5, "mud_tolerance": 5, "repairability": 4, "alignment": 4, "human_swap": 5, "future_automation": 5, "CBOX_protection": 5, "structural_integrity": 4, "width_impact": 4, "cost_proxy": 3, "failure_consequence": 4},
+    {"category": "cassette enclosure", "candidate": "cradle-dependent sealing", "decision": "REJECTED", "waterproofing": 1, "mud_tolerance": 1, "repairability": 2, "alignment": 2, "human_swap": 2, "future_automation": 2, "CBOX_protection": 2, "structural_integrity": 3, "width_impact": 4, "cost_proxy": 4, "failure_consequence": 1},
+    {"category": "replacement", "candidate": "entire BBOX replacement", "decision": "REJECTED", "waterproofing": 2, "mud_tolerance": 2, "repairability": 1, "alignment": 1, "human_swap": 1, "future_automation": 1, "CBOX_protection": 1, "structural_integrity": 1, "width_impact": 3, "cost_proxy": 1, "failure_consequence": 1},
+    {"category": "replacement", "candidate": "internal battery pack replacement", "decision": "REJECTED_ROUTINE_OPERATION", "waterproofing": 1, "mud_tolerance": 1, "repairability": 3, "alignment": 3, "human_swap": 1, "future_automation": 1, "CBOX_protection": 2, "structural_integrity": 3, "width_impact": 4, "cost_proxy": 4, "failure_consequence": 1},
+    {"category": "replacement", "candidate": "sealed cassette replacement", "decision": "SELECTED_BASELINE", "waterproofing": 5, "mud_tolerance": 5, "repairability": 5, "alignment": 4, "human_swap": 5, "future_automation": 5, "CBOX_protection": 5, "structural_integrity": 5, "width_impact": 4, "cost_proxy": 3, "failure_consequence": 4}
+  ],
+  "failure_modes": [
+    "cassette dropped",
+    "cassette enclosure cracked",
+    "cassette lid seal damaged",
+    "cassette vent blocked",
+    "cassette inserted backward",
+    "incompatible cassette",
+    "cassette half-seated",
+    "primary latch open",
+    "safety latch open",
+    "latch sensor disagreement",
+    "connector shuttle jammed",
+    "connector half-mated",
+    "connector seal damaged",
+    "connector contaminated with mud",
+    "drain blocked",
+    "water in moat",
+    "water in dry chamber",
+    "feedthrough leakage",
+    "CBOX moisture alarm",
+    "overtemperature",
+    "undervoltage",
+    "overvoltage",
+    "polarity fault",
+    "pre-charge timeout",
+    "welded contactor",
+    "open fuse",
+    "ID communication failure",
+    "Battery Mule wrong cassette delivery",
+    "charged dirty rack cross-contamination",
+    "rover rolls during exchange",
+    "shell closed on incomplete latch",
+    "removal attempted while energized",
+    "pressure vent event",
+    "fire or smoke event",
+    "water sensor failed",
+    "water sensor disconnected",
+    "connector overtemperature",
+    "CBOX feedthrough harness strain"
+  ],
+  "FMEA_policy": {
+    "fields_per_failure": ["detection", "prevention", "safe_state", "operator_action", "service_action", "logging", "field_deployment_consequence"],
+    "default_safe_state": "FAULT_ISOLATED_NO_ENERGIZE",
+    "default_field_deployment_consequence": "STOP_AND_QUARANTINE"
+  },
+  "validation_stages": [
+    {"stage": 0, "name": "DOCUMENT_CONTRACT_VALIDATION", "energized": false, "approval": "THIS_STAGE_ONLY"},
+    {"stage": 1, "name": "GEOMETRIC_DUMMY", "energized": false, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 2, "name": "DRY_MECHANICAL_CYCLING", "energized": false, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 3, "name": "WATERPROOF_DUMMY", "energized": false, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 4, "name": "LOW_VOLTAGE_CURRENT_LIMITED", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 5, "name": "DUMMY_LOAD_POWER", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 6, "name": "SEALED_BATTERY_PROTOTYPE", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 7, "name": "ROVER_DRY_GROUND_SWAP", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 8, "name": "FIELD_EDGE_PAD", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 9, "name": "BATTERY_MULE_DELIVERY", "energized": true, "approval": "NOT_APPROVED_BY_THIS_CONTRACT"},
+    {"stage": 10, "name": "SEMI_AUTOMATIC_DOCK_FUTURE", "energized": true, "approval": "FUTURE_ONLY_NOT_APPROVED"}
+  ],
+  "waterproof_validation_matrix": [
+    {"condition": "clean dry", "ingress_path": "none expected", "expected_containment_zone": "D0_D1", "energize_permission": "CONDITIONAL_AFTER_ALL_GUARDS", "pass_criterion": "D3_D4_D5 dry", "fail_safe_state": "FAULT", "inspection_method": "visual and sensor"},
+    {"condition": "rain-wet", "ingress_path": "top and external faces", "expected_containment_zone": "D1_D2", "energize_permission": "CONDITIONAL_IF_D3_D4_DRY", "pass_criterion": "drains without D3 entry", "fail_safe_state": "WET_FAULT", "inspection_method": "dye and sensor"},
+    {"condition": "muddy exterior", "ingress_path": "entry face", "expected_containment_zone": "D1", "energize_permission": "AFTER_CLEAN_AND_DRY_CHECK", "pass_criterion": "no debris beyond first labyrinth", "fail_safe_state": "FAULT", "inspection_method": "visual teardown"},
+    {"condition": "muddy seal lip", "ingress_path": "wiping lip", "expected_containment_zone": "D1_D3_MOAT", "energize_permission": "PROHIBITED_UNTIL_CLEAN", "pass_criterion": "D4 remains dry", "fail_safe_state": "WET_FAULT", "inspection_method": "visual and blotter"},
+    {"condition": "blocked primary drain", "ingress_path": "D2 rising water", "expected_containment_zone": "D2", "energize_permission": "PROHIBITED", "pass_criterion": "no D4 or D5 ingress", "fail_safe_state": "WET_FAULT", "inspection_method": "controlled fill"},
+    {"condition": "partially blocked drain", "ingress_path": "restricted D2 outflow", "expected_containment_zone": "D2", "energize_permission": "PROHIBITED_IF_RETENTION", "pass_criterion": "visible outflow and no D3 rise", "fail_safe_state": "WET_FAULT", "inspection_method": "timed drain"},
+    {"condition": "first seal damaged", "ingress_path": "outer shield", "expected_containment_zone": "D3_MOAT", "energize_permission": "PROHIBITED_IF_MOISTURE", "pass_criterion": "secondary seal protects D4", "fail_safe_state": "WET_FAULT", "inspection_method": "dye and sensor"},
+    {"condition": "second seal damaged", "ingress_path": "D3 to D4", "expected_containment_zone": "D3", "energize_permission": "PROHIBITED", "pass_criterion": "water detected before power", "fail_safe_state": "WET_FAULT", "inspection_method": "sensor and blotter"},
+    {"condition": "latch half-closed", "ingress_path": "uneven seal compression", "expected_containment_zone": "D3", "energize_permission": "PROHIBITED", "pass_criterion": "latch contradiction detected", "fail_safe_state": "FAULT", "inspection_method": "sensor state"},
+    {"condition": "connector half-mated", "ingress_path": "open dry chamber boundary", "expected_containment_zone": "D3", "energize_permission": "PROHIBITED", "pass_criterion": "no power contact energization", "fail_safe_state": "FAULT", "inspection_method": "position and voltage"},
+    {"condition": "cassette tilted", "ingress_path": "asymmetric runoff", "expected_containment_zone": "D1_D2", "energize_permission": "PROHIBITED_UNTIL_SEATED", "pass_criterion": "guide rejects false seating", "fail_safe_state": "FAULT", "inspection_method": "datum gauges"},
+    {"condition": "rover tilted", "ingress_path": "changed drain head", "expected_containment_zone": "D2", "energize_permission": "CONDITIONAL_WITHIN_VALIDATED_LIMIT", "pass_criterion": "no reverse flow to D3_D5", "fail_safe_state": "WET_FAULT", "inspection_method": "tilt fixture"},
+    {"condition": "temperature cycle", "ingress_path": "pressure and condensation", "expected_containment_zone": "CASSETTE_ENCLOSURE_BARRIER", "energize_permission": "AFTER_DRY_AND_TEMPERATURE_GATE", "pass_criterion": "no condensation at D4", "fail_safe_state": "FAULT", "inspection_method": "humidity and visual"},
+    {"condition": "repeated insertion", "ingress_path": "seal and wear degradation", "expected_containment_zone": "D1_D3", "energize_permission": "CONDITIONAL_PER_CYCLE", "pass_criterion": "no trend beyond limits", "fail_safe_state": "FAULT", "inspection_method": "cycle log"},
+    {"condition": "vibration", "ingress_path": "seal or feedthrough loosening", "expected_containment_zone": "NONE_BEYOND_BARRIERS", "energize_permission": "AFTER_INSPECTION", "pass_criterion": "no latch or seal shift", "fail_safe_state": "FAULT", "inspection_method": "torque mark and leak check"},
+    {"condition": "rollover orientation", "ingress_path": "non-gravity orientation", "expected_containment_zone": "CASSETTE_PRIMARY_ENCLOSURE", "energize_permission": "PROHIBITED", "pass_criterion": "no CBOX ingress and safe isolation", "fail_safe_state": "FAULT", "inspection_method": "orientation fixture"},
+    {"condition": "shallow standing water", "ingress_path": "lower external exposure", "expected_containment_zone": "D0_D2", "energize_permission": "PROHIBITED_FOR_SWAP", "pass_criterion": "D4_D5 remain dry", "fail_safe_state": "WET_FAULT", "inspection_method": "unenergized immersion candidate"},
+    {"condition": "pressure differential", "ingress_path": "seal and vent pressure", "expected_containment_zone": "CASSETTE_VENT_SYSTEM", "energize_permission": "AFTER_INSPECTION", "pass_criterion": "controlled equalization no leak", "fail_safe_state": "FAULT", "inspection_method": "pressure decay"},
+    {"condition": "water sensor failed", "ingress_path": "latent water with unavailable detection", "expected_containment_zone": "D3", "energize_permission": "PROHIBITED", "pass_criterion": "sensor fault blocks power", "fail_safe_state": "WET_FAULT", "inspection_method": "fault injection"},
+    {"condition": "water sensor disconnected", "ingress_path": "open sensor circuit", "expected_containment_zone": "D3", "energize_permission": "PROHIBITED", "pass_criterion": "unknown blocks power", "fail_safe_state": "WET_FAULT", "inspection_method": "disconnect injection"}
+  ],
+  "artifact_contract": {
+    "deterministic_content_required": true,
+    "canonical_artifacts_must_exclude_timestamp": true,
+    "canonical_artifacts_must_exclude_absolute_source_path": true,
+    "zip_size_hard_limit_bytes": 524288000,
+    "zip_size_target_bytes": 52428800,
+    "zip_safety_checks": [
+      "duplicate entry",
+      "case collision",
+      "nested ZIP",
+      "symlink",
+      "absolute path",
+      "path traversal",
+      "pycache",
+      "secret candidate",
+      "manifest omission",
+      "SHA-256 mismatch",
+      "temporary file",
+      "source absolute path"
+    ]
+  }
+}
