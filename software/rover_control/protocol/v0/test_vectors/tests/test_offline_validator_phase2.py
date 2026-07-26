@@ -16,8 +16,6 @@ from unittest import mock
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[6]
 IMPLEMENTATION = REPOSITORY_ROOT / "software/rover_control/protocol/v0/test_vectors/offline_validator/phase2.py"
-MARKER = Path(r"C:\Paddy_Swarm_Project_work\tooling\jsonschema_draft202012\TOOLCHAIN_READY.txt")
-MARKER_SHA256 = "f6c3314d3355d3ab56736198af5a247487fac2ca9d1395f784a53ea60b50de16"
 TABLE_RELATIVE = Path("software/rover_control/protocol/v0/test_vectors/case_rules/protocol-v0-case-rules.json")
 MANIFEST_RELATIVE = Path("software/rover_control/protocol/v0/test_vectors/manifest/test-vector-manifest.json")
 VECTOR_DIRECTORY = Path("software/rover_control/protocol/v0/test_vectors/vectors")
@@ -57,6 +55,11 @@ def save_json(path: Path, value: dict) -> None:
 class Phase2TestCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
+        cls.marker_directory = tempfile.TemporaryDirectory()
+        cls.addClassCleanup(cls.cleanup_marker_directory)
+        cls.marker = Path(cls.marker_directory.name) / "TOOLCHAIN_READY.txt"
+        cls.marker.write_bytes("ready\n".encode("utf-8"))
+        cls.marker_sha256 = digest(cls.marker)
         cls.repository_hashes_before = {
             path.relative_to(REPOSITORY_ROOT).as_posix(): digest(path)
             for path in (REPOSITORY_ROOT / "software/rover_control").rglob("*")
@@ -71,12 +74,23 @@ class Phase2TestCase(unittest.TestCase):
             actual["filename_match"] = path.stem == actual["vector_id"]
             cls.positive_actuals.append(actual)
 
-    @staticmethod
-    def run_validator(root: Path, table_sha256: str = PHASE2.EXPECTED_CASE_RULE_TABLE_SHA256):
+    @classmethod
+    def tearDownClass(cls) -> None:
+        cls.cleanup_marker_directory()
+
+    @classmethod
+    def cleanup_marker_directory(cls) -> None:
+        marker_directory = getattr(cls, "marker_directory", None)
+        if marker_directory is not None:
+            marker_directory.cleanup()
+            cls.marker_directory = None
+
+    @classmethod
+    def run_validator(cls, root: Path, table_sha256: str = PHASE2.EXPECTED_CASE_RULE_TABLE_SHA256):
         return PHASE2.run_phase2(
             root,
-            marker=MARKER,
-            marker_sha256=MARKER_SHA256,
+            marker=cls.marker,
+            marker_sha256=cls.marker_sha256,
             case_rule_table_sha256=table_sha256,
         )
 
@@ -204,18 +218,23 @@ class Phase2TestCase(unittest.TestCase):
         rendered = PHASE2.render_json_report(self.positive)
         lowered = rendered.lower()
         self.assertNotIn(str(REPOSITORY_ROOT).lower(), lowered)
-        self.assertNotIn(str(MARKER).lower(), lowered)
+        self.assertNotIn(str(self.marker).lower(), lowered)
         self.assertNotIn("timestamp", lowered)
         self.assertNotIn("username", lowered)
         self.assertNotIn("machine_name", lowered)
 
     def test_positive_phase1_json_hash_is_preserved(self):
-        phase1 = PHASE2.PHASE1._run_phase1(REPOSITORY_ROOT, PHASE2.DEFAULT_MANIFEST, MARKER, MARKER_SHA256)
+        phase1 = PHASE2.PHASE1._run_phase1(
+            REPOSITORY_ROOT,
+            PHASE2.DEFAULT_MANIFEST,
+            self.marker,
+            self.marker_sha256,
+        )
         rendered = PHASE2.PHASE1.render_json_report(phase1).encode("utf-8")
         self.assertEqual("0e4b82369c23a84c7b63131c541cb9fa3d022883f078e07ef400f900e03166e8", hashlib.sha256(rendered).hexdigest())
 
     def test_phase1_global_toolchain_fatal_stops_s0(self):
-        report = PHASE2.run_phase2(REPOSITORY_ROOT, marker=MARKER, marker_sha256="0" * 64)
+        report = PHASE2.run_phase2(REPOSITORY_ROOT, marker=self.marker, marker_sha256="0" * 64)
         self.assertEqual(2, report.exit_code)
         self.assertEqual("NOT_RUN", report.case_rule_table["result"])
 
@@ -493,8 +512,8 @@ class Phase2TestCase(unittest.TestCase):
             output = root / "forbidden-report.json"
             arguments = [
                 "--repository-root", str(root),
-                "--toolchain-marker", str(MARKER),
-                "--toolchain-marker-sha256", MARKER_SHA256,
+                "--toolchain-marker", str(self.marker),
+                "--toolchain-marker-sha256", self.marker_sha256,
                 "--json-report", str(output),
             ]
             with redirect_stdout(io.StringIO()):

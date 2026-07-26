@@ -66,8 +66,8 @@
     {
       "name": "phase2_tests",
       "path": "software/rover_control/protocol/v0/test_vectors/tests/test_offline_validator_phase2.py",
-      "sha256": "7de034a310f8baf94906c119a869c6d1df9d4a44aa9345a4fba4180199b8f2af",
-      "size_bytes": 25733
+      "sha256": "83a5e40a5837b399c79c64956d4d357d445418219bda1678e83f232094e71fce",
+      "size_bytes": 26299
     }
   ],
   "test_suites": {
