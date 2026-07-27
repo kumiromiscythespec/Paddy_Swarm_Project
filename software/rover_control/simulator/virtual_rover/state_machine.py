@@ -81,6 +81,82 @@ class RuntimeStateMachine:
     def state(self) -> RuntimeState:
         return self._state
 
+    def apply_defensive_zero(
+        self,
+        *,
+        now_ms: int,
+        candidate_intent: str,
+        rejection_reason: str,
+        diagnostic_code: str,
+    ) -> StepResult:
+        """Apply a receiver-local zero without accepting a Protocol event."""
+        previous = self._state
+        event_label = "receiver_local_defensive_zero"
+        try:
+            if (
+                type(candidate_intent) is not str
+                or candidate_intent
+                not in {Event.STOP.value, Event.EMERGENCY_STOP.value}
+            ):
+                raise InternalInvariantError(
+                    "candidate_intent must identify STOP or EMERGENCY_STOP"
+                )
+            if type(rejection_reason) is not str or not rejection_reason:
+                raise InternalInvariantError(
+                    "rejection_reason must be a non-empty exact string"
+                )
+            if type(diagnostic_code) is not str or not diagnostic_code:
+                raise InternalInvariantError(
+                    "diagnostic_code must be a non-empty exact string"
+                )
+            if type(now_ms) is not int or now_ms < 0:
+                raise InternalInvariantError(
+                    "now_ms must be a non-negative exact integer"
+                )
+            if now_ms < previous.monotonic_time_ms:
+                raise InternalInvariantError(
+                    "monotonic time moved backwards"
+                )
+            prepared = replace(
+                previous,
+                monotonic_time_ms=now_ms,
+                step_index=previous.step_index + 1,
+            )
+            safe = self._zero_motion(prepared)
+            self._assert_invariants(safe)
+            self._state = safe
+            return self._result(
+                previous,
+                safe,
+                f"{event_label}/{candidate_intent}",
+                accepted=False,
+                rejection_reason=rejection_reason,
+                safety_action="ZERO_ALL_OUTPUTS",
+                sequence_accepted=False,
+                diagnostic_code=diagnostic_code,
+            )
+        except Exception:
+            failure_input = RuntimeInput.local(
+                event_label,
+                now_ms=now_ms,
+            )
+            failed = self._internal_failure_state(
+                previous,
+                failure_input,
+            )
+            self._state = failed
+            return self._result(
+                previous,
+                failed,
+                event_label,
+                accepted=False,
+                rejection_reason="internal_error",
+                safety_action="ZERO_ALL_OUTPUTS",
+                sequence_accepted=False,
+                diagnostic_code="DEFENSIVE_ZERO_LOCAL_INTERNAL_ERROR",
+                internal_failure=True,
+            )
+
     def step(self, runtime_input: RuntimeInput) -> StepResult:
         previous = self._state
         event_label = (
