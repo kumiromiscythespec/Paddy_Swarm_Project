@@ -1,0 +1,2 @@
+"""Replaceable growing-module geometry."""
+

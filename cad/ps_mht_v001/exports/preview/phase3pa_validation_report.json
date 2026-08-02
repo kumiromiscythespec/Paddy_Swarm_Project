@@ -1,0 +1,944 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3P-A",
+  "status": "PHYSICAL_FIT_CALIBRATION_PENDING",
+  "starting_state": {
+    "repository_root": "D:/Paddy_Swarm_Project",
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "b0b9e879c95913c137b09b7c0abc80c52a0c36a0",
+    "cadquery_version": "2.8.0",
+    "git_status_short": [
+      "M CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M README.md",
+      " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "?? cad/Paddy_Vacuum_Siphon_Primer_v0_1_package/",
+      "?? cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1/",
+      "?? cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2/",
+      "?? cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1/",
+      "?? cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_3/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_4/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_5/",
+      "?? cad/paddy_vacuum_siphon_primer_v0_1/",
+      "?? cad/ps_mht_v001/",
+      "?? tests/"
+    ],
+    "tracked_diff_files": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ],
+    "staged_diff_files": [],
+    "a1_build_envelope_mm": [
+      245.0,
+      245.0,
+      240.0
+    ]
+  },
+  "phase3sa2_state": {
+    "selected_clearance": null,
+    "test_count": 260,
+    "independent_from_phase3pa": true
+  },
+  "measurements": {
+    "status": "PHYSICAL_MEASUREMENT_AUTHORITATIVE_PHASE3PA",
+    "measurement_date": "2026-08-01",
+    "sample_count": 3,
+    "all_samples_same_within_caliper_resolution": true,
+    "outside_measurement_method": "CALIPER_OUTSIDE_JAWS",
+    "inside_measurement_method": "CALIPER_INSIDE_JAWS",
+    "measured_mm": {
+      "flange_outer_diameter": 108.0,
+      "flange_thickness": 4.0,
+      "overall_height": 68.0,
+      "maximum_body_outer_diameter": 78.6,
+      "maximum_rib_outer_diameter": 78.6,
+      "upper_inner_diameter": 77.2,
+      "lower_inner_diameter_reachable": 75.8,
+      "deepest_reachable_inner_diameter": 69.6
+    },
+    "derived_mm": {
+      "body_height_below_flange": 64.0,
+      "flange_radial_overhang_from_max_body": 14.7,
+      "maximum_external_rib_projection": 0.0
+    },
+    "inner_diameter_usage": "REFERENCE_ONLY_NOT_EXTERNAL_ENVELOPE"
+  },
+  "deprecated_assumptions": {
+    "flange_78_5": "REJECTED_BY_PHYSICAL_MEASUREMENT",
+    "body_72_0": "REJECTED_BY_PHYSICAL_MEASUREMENT",
+    "phase3r1_bore_84_0": "NOT_FINAL_EXCESS_CLEARANCE"
+  },
+  "selected_passage_mm": null,
+  "preferred_precalibration_mm": 80.5,
+  "reference_envelope": {
+    "status": "REFERENCE_ENVELOPE_NOT_A_PRINTABLE_NETPOT_MODEL",
+    "print_status": "REFERENCE_STEP_ONLY_NO_STL",
+    "geometry_policy": "CONSERVATIVE_FULL_HEIGHT_BODY_CYLINDER",
+    "solid_count": 1,
+    "measurements": {
+      "status": "PHYSICAL_MEASUREMENT_AUTHORITATIVE_PHASE3PA",
+      "measurement_date": "2026-08-01",
+      "sample_count": 3,
+      "all_samples_same_within_caliper_resolution": true,
+      "outside_measurement_method": "CALIPER_OUTSIDE_JAWS",
+      "inside_measurement_method": "CALIPER_INSIDE_JAWS",
+      "measured_mm": {
+        "flange_outer_diameter": 108.0,
+        "flange_thickness": 4.0,
+        "overall_height": 68.0,
+        "maximum_body_outer_diameter": 78.6,
+        "maximum_rib_outer_diameter": 78.6,
+        "upper_inner_diameter": 77.2,
+        "lower_inner_diameter_reachable": 75.8,
+        "deepest_reachable_inner_diameter": 69.6
+      },
+      "derived_mm": {
+        "body_height_below_flange": 64.0,
+        "flange_radial_overhang_from_max_body": 14.7,
+        "maximum_external_rib_projection": 0.0
+      },
+      "inner_diameter_usage": "REFERENCE_ONLY_NOT_EXTERNAL_ENVELOPE"
+    },
+    "internal_diameters_geometry": "NOT_MODELED_REFERENCE_ONLY",
+    "file_name": "ps_mht_v001_siawadeky_netpot_reference_envelope_phase3pa.step",
+    "shape_metrics": {
+      "size_x": 108.0,
+      "size_y": 108.0,
+      "size_z": 68.0,
+      "solid_count": 1,
+      "volume_mm3": 347181.6767142168,
+      "all_solids_valid": true
+    }
+  },
+  "coupon_feature_policy": {
+    "outer_diameter_mm": 116.0,
+    "thickness_mm": 8.0,
+    "top_face": "FLAT",
+    "outer_centering_lip": false,
+    "small_claw_count": 0,
+    "snap_count": 0,
+    "small_gate_count": 0,
+    "m4_hole_count": 0,
+    "identification": "ONE_TWO_THREE_LARGE_BLIND_DIMPLES"
+  },
+  "fit_candidates": {
+    "c800": {
+      "passage_diameter_mm": 80.0,
+      "diametral_clearance_mm": 1.4000000000000057,
+      "radial_clearance_mm": 0.7000000000000028,
+      "flange_support_width_mm": 14.0,
+      "ring_outside_flange_width_mm": 4.0
+    },
+    "c805": {
+      "passage_diameter_mm": 80.5,
+      "diametral_clearance_mm": 1.9000000000000057,
+      "radial_clearance_mm": 0.9500000000000028,
+      "flange_support_width_mm": 13.75,
+      "ring_outside_flange_width_mm": 4.0
+    },
+    "c810": {
+      "passage_diameter_mm": 81.0,
+      "diametral_clearance_mm": 2.4000000000000057,
+      "radial_clearance_mm": 1.2000000000000028,
+      "flange_support_width_mm": 13.5,
+      "ring_outside_flange_width_mm": 4.0
+    }
+  },
+  "coupon_shape_metrics": {
+    "ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 44326.79241967733,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 43815.20369099431,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 43300.4733696577,
+      "all_solids_valid": true
+    }
+  },
+  "individual_plates": {
+    "plate_01_netpot_fit_c805_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 43815.20369099431,
+      "all_solids_valid": true
+    },
+    "plate_02_netpot_fit_c800_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 44326.79241967733,
+      "all_solids_valid": true
+    },
+    "plate_03_netpot_fit_c810_phase3pa": {
+      "size_x": 116.03605508790534,
+      "size_y": 116.00000020000003,
+      "size_z": 8.036055087905332,
+      "solid_count": 1,
+      "volume_mm3": 43300.4733696577,
+      "all_solids_valid": true
+    }
+  },
+  "optional_three_up_plate": {
+    "generated": false,
+    "minimum_width_with_15mm_spacing_mm": 247.0,
+    "status": "NOT_GENERATED_EXCEEDS_A1_WITH_15MM_SPACING"
+  },
+  "physical_test_procedure": {
+    "A_INSERTION": [
+      "VERTICAL_TOOL_FREE_INSERTION",
+      "NO_STRONG_DEFORMATION_OR_RIB_CATCH",
+      "BODY_PASSES_FULL_DEPTH_AND_FLANGE_SEATS"
+    ],
+    "B_SEATING": [
+      "FULL_CIRCUMFERENCE_CONTACT",
+      "NO_ONE_SIDED_LIFT_OR_LARGE_FLANGE_WARP",
+      "NATURAL_CENTERING"
+    ],
+    "C_PLAY": [
+      "RECORD_BODY_LATERAL_PLAY",
+      "RECORD_ROTATIONAL_PLAY",
+      "REJECT_EXCESSIVE_PRACTICAL_WOBBLE"
+    ],
+    "D_TWENTY_CYCLES": [
+      "TWENTY_TOOL_FREE_INSERTION_REMOVAL_CYCLES",
+      "CHECK_POT_WHITENING_CRACK_AND_RIB_DAMAGE",
+      "CHECK_RING_CHIP_AND_CRACK",
+      "RECORD_INVERTED_RETENTION"
+    ],
+    "E_27_DEGREE": [
+      "TEST_EMPTY_POT",
+      "TEST_WET_SPONGE_EQUIVALENT",
+      "TEST_500G_REFERENCE_LOAD",
+      "NO_NATURAL_SLIDE_OR_FLANGE_OVERRUN"
+    ]
+  },
+  "selection_rule": {
+    "c805": "FIRST_CANDIDATE_NOT_FINAL_SELECTION",
+    "c800": "TEST_ONLY_IF_C805_TOO_LOOSE",
+    "c810": "TEST_ONLY_IF_C805_TOO_TIGHT",
+    "selected_until_physical_test": null
+  },
+  "existing_port_function_ring_audit": {
+    "status": "REDESIGN_REQUIRED",
+    "existing_ring_mm": {
+      "outer_diameter": 116.0,
+      "inner_diameter": 84.0,
+      "thickness": 8.0
+    },
+    "flange_seating": {
+      "measured_flange_diameter_mm": 108.0,
+      "full_circular_seating_geometrically_possible": true,
+      "flange_support_radial_width_mm": 12.0,
+      "ring_outside_flange_radial_width_mm": 4.0,
+      "continuous_support_interrupted_by_existing_m4_holes": true,
+      "status": "PASS_AS_REFERENCE"
+    },
+    "body_passage": {
+      "body_diameter_mm": 78.6,
+      "existing_bore_diameter_mm": 84.0,
+      "diametral_clearance_mm": 5.400000000000006,
+      "status": "NOT_FINAL_EXCESS_CLEARANCE"
+    },
+    "m4_fastener": {
+      "status": "FAIL_FASTENER_INTERFERENCE",
+      "summary": {
+        "status": "FAIL_FASTENER_INTERFERENCE",
+        "flange_radius_mm": 54.0,
+        "existing_m4_axis_radius_mm": 50.0,
+        "ring_outer_radius_mm": 58.0,
+        "radial_intervals_mm": {
+          "m4_bolt_axis": {
+            "minimum": 47.75,
+            "maximum": 52.25
+          },
+          "m4_flat_washer": {
+            "minimum": 45.5,
+            "maximum": 54.5
+          },
+          "m4_bolt_head_or_star_knob": {
+            "minimum": 41.0,
+            "maximum": 59.0
+          },
+          "m4_nut": {
+            "minimum": 45.95854811567262,
+            "maximum": 54.04145188432738
+          },
+          "tool_access": {
+            "minimum": 41.0,
+            "maximum": 59.0
+          },
+          "finger_access": {
+            "minimum": 38.0,
+            "maximum": 62.0
+          }
+        },
+        "intersects_measured_flange_projection": {
+          "m4_bolt_axis": true,
+          "m4_flat_washer": true,
+          "m4_bolt_head_or_star_knob": true,
+          "m4_nut": true,
+          "tool_access": true,
+          "finger_access": true
+        },
+        "cad_shape_intersection_free": false,
+        "tool_access_with_pot_installed": false,
+        "finger_access_with_pot_installed": false,
+        "fastening_without_removing_pot": false,
+        "fastening_with_pot_removed": true,
+        "pot_removal_path_with_existing_head_installed": false,
+        "service_classification": "POT_REMOVED_ONLY_REFERENCE",
+        "conclusion": "Existing M4 axes and all service envelopes lie inside the measured 54 mm flange radius. Geometry non-intersection alone cannot produce a service PASS."
+      }
+    },
+    "tool_envelope": {
+      "status": "FAIL_TOOL_ENVELOPE",
+      "pot_installed_access": false,
+      "pot_removed_access": true
+    },
+    "panel_opening": {
+      "opening_width_mm": 88.0,
+      "opening_height_mm": 92.0,
+      "body_width_clearance_mm": 9.400000000000006,
+      "body_height_clearance_mm": 13.400000000000006,
+      "axis_angle_deg": 27.0,
+      "seated_pot_shell_intersection_volume_mm3": 4788.534146328667,
+      "cad_boolean_intersection_free": false,
+      "status": "REDESIGN_REQUIRED_SHELL_INTERFERENCE"
+    },
+    "backing_ring": {
+      "outer_diameter_mm": 120.0,
+      "inner_diameter_mm": 88.0,
+      "body_diametral_clearance_mm": 9.400000000000006,
+      "status": "PASS_AS_REFERENCE"
+    },
+    "root_sleeve_ring": {
+      "outer_diameter_mm": 82.0,
+      "inner_diameter_mm": 50.0,
+      "body_passage_deficit_mm": 28.599999999999994,
+      "status": "REDESIGN_REQUIRED"
+    },
+    "root_zone_projection": {
+      "body_depth_below_flange_mm": 64.0,
+      "status": "REDESIGN_REQUIRED_ROOT_ZONE_REAUDIT"
+    },
+    "maximum_diameter": {
+      "installed_measured_pot_reference_mm": 241.21513055239188,
+      "limit_mm": 240.0,
+      "status": "FAIL_MAXIMUM_DIAMETER"
+    },
+    "final_conclusion": "The 116 mm ring supports the flange and passes the body, but the seated measured envelope intersects the shell/frame, exceeds the 240 mm installed envelope, and is incompatible with the existing M4/tool and 50 mm root-sleeve geometry."
+  },
+  "m4_fastener_envelope_audit": {
+    "status": "FAIL_FASTENER_INTERFERENCE",
+    "flange_radius_mm": 54.0,
+    "existing_m4_axis_radius_mm": 50.0,
+    "ring_outer_radius_mm": 58.0,
+    "radial_intervals_mm": {
+      "m4_bolt_axis": {
+        "minimum": 47.75,
+        "maximum": 52.25
+      },
+      "m4_flat_washer": {
+        "minimum": 45.5,
+        "maximum": 54.5
+      },
+      "m4_bolt_head_or_star_knob": {
+        "minimum": 41.0,
+        "maximum": 59.0
+      },
+      "m4_nut": {
+        "minimum": 45.95854811567262,
+        "maximum": 54.04145188432738
+      },
+      "tool_access": {
+        "minimum": 41.0,
+        "maximum": 59.0
+      },
+      "finger_access": {
+        "minimum": 38.0,
+        "maximum": 62.0
+      }
+    },
+    "intersects_measured_flange_projection": {
+      "m4_bolt_axis": true,
+      "m4_flat_washer": true,
+      "m4_bolt_head_or_star_knob": true,
+      "m4_nut": true,
+      "tool_access": true,
+      "finger_access": true
+    },
+    "cad_shape_intersection_free": false,
+    "tool_access_with_pot_installed": false,
+    "finger_access_with_pot_installed": false,
+    "fastening_without_removing_pot": false,
+    "fastening_with_pot_removed": true,
+    "pot_removal_path_with_existing_head_installed": false,
+    "service_classification": "POT_REMOVED_ONLY_REFERENCE",
+    "conclusion": "Existing M4 axes and all service envelopes lie inside the measured 54 mm flange radius. Geometry non-intersection alone cannot produce a service PASS."
+  },
+  "ring_outer_diameter_comparison": {
+    "baseline_phase3sa_maximum_diameter_mm": 237.48183810800376,
+    "tower_limit_mm": 240.0,
+    "installed_netpot_reference": {
+      "seat_datum": "PHASE3R1_RING_OUTER_FACE_AT_27_DEGREES",
+      "maximum_diameter_mm": 241.21513055239188,
+      "within_240mm": false,
+      "status": "REDESIGN_REQUIRED_MAXIMUM_DIAMETER"
+    },
+    "candidates": {
+      "od_116": {
+        "outer_diameter_mm": 116.0,
+        "flange_outer_margin_mm": 4.0,
+        "outside_flange_m4_band_required_mm": 10.5,
+        "outside_flange_m4_possible_with_3mm_walls": false,
+        "reference_ring_only_maximum_module_diameter_mm": 237.88991835096283,
+        "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+        "reference_maximum_module_diameter_mm": 241.21513055239188,
+        "limit_margin_mm": -1.2151305523918836,
+        "ring_only_within_240mm": true,
+        "within_240mm": false,
+        "candidate_adoption": false,
+        "panel_reinforcement": "EXISTING_116_DATUM",
+        "backing_ring_alignment": "FUNCTION_RING_2MM_PER_SIDE_INSIDE_BACKING",
+        "status": "REDESIGN_REQUIRED_INSTALLED_POT_MAXIMUM_DIAMETER"
+      },
+      "od_120": {
+        "outer_diameter_mm": 120.0,
+        "flange_outer_margin_mm": 6.0,
+        "outside_flange_m4_band_required_mm": 10.5,
+        "outside_flange_m4_possible_with_3mm_walls": false,
+        "reference_ring_only_maximum_module_diameter_mm": 239.86738656305934,
+        "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+        "reference_maximum_module_diameter_mm": 241.21513055239188,
+        "limit_margin_mm": -1.2151305523918836,
+        "ring_only_within_240mm": true,
+        "within_240mm": false,
+        "candidate_adoption": false,
+        "panel_reinforcement": "REQUIRES_REAUDIT_NO_GEOMETRY_GENERATED",
+        "backing_ring_alignment": "OUTER_DIAMETERS_MATCH",
+        "status": "REDESIGN_REQUIRED_INSTALLED_POT_MAXIMUM_DIAMETER"
+      },
+      "od_124": {
+        "outer_diameter_mm": 124.0,
+        "flange_outer_margin_mm": 8.0,
+        "outside_flange_m4_band_required_mm": 10.5,
+        "outside_flange_m4_possible_with_3mm_walls": false,
+        "reference_ring_only_maximum_module_diameter_mm": 241.878092686304,
+        "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+        "reference_maximum_module_diameter_mm": 241.878092686304,
+        "limit_margin_mm": -1.8780926863040008,
+        "ring_only_within_240mm": false,
+        "within_240mm": false,
+        "candidate_adoption": false,
+        "panel_reinforcement": "REQUIRES_REAUDIT_NO_GEOMETRY_GENERATED",
+        "backing_ring_alignment": "FUNCTION_RING_2MM_PER_SIDE_OUTSIDE_BACKING",
+        "status": "REJECTED_MAXIMUM_DIAMETER"
+      }
+    },
+    "local_ear_reference": {
+      "status": "REFERENCE_ONLY_NOT_GENERATED",
+      "minimum_local_outer_radius_for_18mm_head_and_3mm_wall_mm": 75.0,
+      "warning": "LIKELY_EXCEEDS_240MM_REQUIRES_DEDICATED_REDESIGN"
+    },
+    "inboard_fastener_reference": {
+      "status": "POT_REMOVED_ONLY_REFERENCE",
+      "existing_axis_radius_mm": 50.0,
+      "finalized": false
+    }
+  },
+  "maximum_diameter_audit": {
+    "status": "REDESIGN_REQUIRED",
+    "limit_mm": 240.0,
+    "baseline_mm": 237.48183810800376,
+    "rejected_candidates": [
+      "od_116",
+      "od_120",
+      "od_124"
+    ],
+    "ring_only_rejected_candidates": [
+      "od_124"
+    ],
+    "installed_netpot_maximum_diameter_mm": 241.21513055239188,
+    "installed_netpot_exceeds_limit": true,
+    "od_124_rejected": true,
+    "measured_values_or_27deg_axis_changed": false,
+    "final_ring_selected": null
+  },
+  "step_round_trip_validation": {
+    "ps_mht_v001_siawadeky_netpot_reference_envelope_phase3pa.step": {
+      "size_x": 108.0,
+      "size_y": 108.0,
+      "size_z": 68.0,
+      "solid_count": 1,
+      "volume_mm3": 347181.6767142146,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.step": {
+      "size_x": 116.0,
+      "size_y": 116.0,
+      "size_z": 8.0,
+      "solid_count": 1,
+      "volume_mm3": 44326.79241967857,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.step": {
+      "size_x": 116.0,
+      "size_y": 116.0,
+      "size_z": 8.0,
+      "solid_count": 1,
+      "volume_mm3": 43815.20369099571,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.step": {
+      "size_x": 116.0,
+      "size_y": 116.0,
+      "size_z": 8.0,
+      "solid_count": 1,
+      "volume_mm3": 43300.473369659216,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh_validation": {
+    "ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.stl": {
+      "point_count": 756,
+      "triangle_count": 1512,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.stl": {
+      "point_count": 1008,
+      "triangle_count": 2016,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.stl": {
+      "point_count": 1260,
+      "triangle_count": 2520,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_01_netpot_fit_c805_phase3pa.stl": {
+      "point_count": 1008,
+      "triangle_count": 2016,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_02_netpot_fit_c800_phase3pa.stl": {
+      "point_count": 756,
+      "triangle_count": 1512,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_03_netpot_fit_c810_phase3pa.stl": {
+      "point_count": 1260,
+      "triangle_count": 2520,
+      "size_x": 116.0,
+      "size_y": 115.96394348144531,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "print_manifest": {
+    "project": "PS-MHT-V001",
+    "phase": "3P-A",
+    "status": "PHASE3PA_PHYSICAL_FIT_CALIBRATION_PENDING",
+    "selected_passage_mm": null,
+    "preferred_precalibration_mm": 80.5,
+    "phase3sa_seam_clearance_selected": null,
+    "print_items": [
+      {
+        "file_name": "plate_01_netpot_fit_c805_phase3pa.stl",
+        "quantity": 1,
+        "print_status": "READY_FIRST",
+        "prerequisite": null
+      },
+      {
+        "file_name": "plate_02_netpot_fit_c800_phase3pa.stl",
+        "quantity": 1,
+        "print_status": "CONDITIONAL",
+        "prerequisite": "c805_too_loose"
+      },
+      {
+        "file_name": "plate_03_netpot_fit_c810_phase3pa.stl",
+        "quantity": 1,
+        "print_status": "CONDITIONAL",
+        "prerequisite": "c805_too_tight"
+      }
+    ],
+    "recommended_order": [
+      "c805",
+      "c800_if_loose",
+      "c810_if_tight"
+    ],
+    "final_function_ring_included": false,
+    "do_not_print": [
+      "SIAWADEKY_REFERENCE_ENVELOPE",
+      "FINAL_PORT_FUNCTION_RING",
+      "FINAL_M4_EARS",
+      "FINAL_PORT_BACKING_RING",
+      "FINAL_NETPOT_LINER",
+      "FINAL_120_DEGREE_PANEL_INTEGRATION",
+      "FULL_170MM_MODULE",
+      "THREE_PRODUCTION_PANELS",
+      "FIVE_STAGE_TOWER"
+    ]
+  },
+  "non_regression": {
+    "phase1": true,
+    "phase2": true,
+    "phase3a": true,
+    "phase3a1": true,
+    "phase3r": true,
+    "phase3r1": true,
+    "phase3sa": true,
+    "phase3sa1": true,
+    "phase3sa2": true
+  },
+  "non_regression_artifact_count": 188,
+  "automated_tests": {
+    "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS",
+    "existing_phase1_through_phase3sa2": 260,
+    "new_phase3pa": 46,
+    "total_passed": 306,
+    "all_passed": true,
+    "files": [
+      {
+        "file": "test_actual_index_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_actual_m4_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_assembly_validity.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_gasket_geometry.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_interface_fastener_alignment.py",
+        "passed": 9,
+        "returncode": 0
+      },
+      {
+        "file": "test_invalid_interface_rotation.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_module_interfaces.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_netpot_adapter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_parameters.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase2_print_envelope.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_complete_passage.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_m3_cartridge.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fastener_audit.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fit_coupons.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_flange_support.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_maximum_diameter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_measurements.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_no_finalization.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_reference_envelope.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_annular_nut_ring.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_artifacts.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_shell_frame_fusion.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_annular_nut_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_index_geometry.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_minimum_features.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_no_deprecated_parts.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_port_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_self_supporting_opening.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_print_manifest.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_selected_plate_api.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_full_length_geometry.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_capture_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_contact_area.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_no_premature_hardware.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_port_printability.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_print_orientation.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_seam_cycle.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_sector_geometry.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_plant_port_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_port_service_clearance.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_print_envelope.py",
+        "passed": 3,
+        "returncode": 0
+      },
+      {
+        "file": "test_root_zone_envelopes.py",
+        "passed": 6,
+        "returncode": 0
+      }
+    ]
+  },
+  "not_generated": [
+    "FINAL_PORT_FUNCTION_RING",
+    "FINAL_M4_EARS",
+    "FINAL_PORT_BACKING_RING",
+    "FINAL_NETPOT_LINER",
+    "FINAL_120_DEGREE_PANEL_PORT_INTEGRATION",
+    "PHASE3SA1_PLATE_02_TO_04",
+    "FULL_170MM_MODULE",
+    "FULL_TOWER"
+  ],
+  "git": {
+    "mutation_operations_performed": false,
+    "prohibited_operations": [
+      "checkout",
+      "pull",
+      "add",
+      "commit",
+      "push",
+      "merge",
+      "rebase",
+      "reset",
+      "branch_creation",
+      "pull_request_creation"
+    ]
+  },
+  "non_regression_after_tests": {
+    "phase1": true,
+    "phase2": true,
+    "phase3a": true,
+    "phase3a1": true,
+    "phase3r": true,
+    "phase3r1": true,
+    "phase3sa": true,
+    "phase3sa1": true,
+    "phase3sa2": true
+  },
+  "generated_files": [
+    "preview/phase3pa_existing_port_function_ring_audit.json",
+    "preview/phase3pa_m4_fastener_envelope_audit.json",
+    "preview/phase3pa_maximum_diameter_audit.json",
+    "preview/phase3pa_ring_outer_diameter_comparison.json",
+    "preview/phase3pa_validation_report.json",
+    "preview/print_manifest_phase3pa.json",
+    "preview/ps_mht_v001_netpot_fit_isometric_phase3pa.svg",
+    "preview/ps_mht_v001_netpot_fit_section_phase3pa.svg",
+    "step/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.step",
+    "step/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.step",
+    "step/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.step",
+    "step/ps_mht_v001_siawadeky_netpot_reference_envelope_phase3pa.step",
+    "stl/plate_01_netpot_fit_c805_phase3pa.stl",
+    "stl/plate_02_netpot_fit_c800_phase3pa.stl",
+    "stl/plate_03_netpot_fit_c810_phase3pa.stl",
+    "stl/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.stl",
+    "stl/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.stl",
+    "stl/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.stl"
+  ]
+}

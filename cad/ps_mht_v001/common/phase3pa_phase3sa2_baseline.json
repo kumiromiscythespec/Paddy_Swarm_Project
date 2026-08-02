@@ -1,0 +1,18 @@
+{
+  "preview/phase3sa2_build_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "preview/phase3sa2_build_stdout.log": "8af4be2fb43ee90766c691fc2c8d066995e42ad07800791fd2ca220a3381e760",
+  "preview/phase3sa2_validation_report.json": "e190384da7a0e3c71df1959b7efb72fa72af4805974efc2a5e01a14cfe8d90e6",
+  "preview/print_manifest_phase3sa2.json": "ff0e77d795bea12ce0227ddc15025f3465ee85301ef2625fe488b66f2dbd0233",
+  "ps_mht_v001_phase3sa2_delivery.zip": "84809d55a1bcce7b4814ca973b4872c5a0dba6b9112d1d6ac59e7d7e4d3a68d8",
+  "step/ps_mht_v001_full_length_seam_assembly_reference_c040_c060_phase3sa2.step": "e1e0e67323f4c303514dca2a1ef6db2a8a7098b54f3c38aa5ed626b0af06e804",
+  "step/ps_mht_v001_full_length_seam_capture_fixture_phase3sa2.step": "2349522255b97aa0aef79723829a8f95445bfa93da89615355fbd1f0ffcd2f20",
+  "step/ps_mht_v001_full_length_seam_pair_c040_phase3sa2.step": "c42aaf751a6b844379bbac8c51701dbe4c7d5b23a004a6231d5de54ce7aaecb5",
+  "step/ps_mht_v001_full_length_seam_pair_c060_phase3sa2.step": "fe4bf208d00155105994e0dacbc0373179e035eda0843c22f9e41e9563973a76",
+  "stl/plate_01_full_length_seam_c040_phase3sa2.stl": "81178de841ecaacda6c9262b48fab95707bf2c98c6726b5a7e79f13e7416b54c",
+  "stl/plate_02_full_length_seam_c060_phase3sa2.stl": "98b9e1da9118b4209a37d99fae1cf4e9703401ac55b2f38431ad9d2656dc3aec",
+  "stl/plate_03_full_length_seam_capture_fixtures_phase3sa2.stl": "a6a3340861f8f49309edc31bf98879f96bf8e8c418d28a334388c01814f819c2",
+  "stl/plate_optional_full_length_seam_c040_c060_phase3sa2.stl": "53a63045956de9166058d74c3971b4268d85ab4e241981d9dc2061ac23bd985b",
+  "stl/ps_mht_v001_full_length_seam_capture_fixture_phase3sa2.stl": "854fe4dea60c8d3a19373401a609dcda158226dcd39be54404aca38bbaee4d3e",
+  "stl/ps_mht_v001_full_length_seam_pair_c040_phase3sa2.stl": "81178de841ecaacda6c9262b48fab95707bf2c98c6726b5a7e79f13e7416b54c",
+  "stl/ps_mht_v001_full_length_seam_pair_c060_phase3sa2.stl": "98b9e1da9118b4209a37d99fae1cf4e9703401ac55b2f38431ad9d2656dc3aec"
+}

@@ -1,0 +1,267 @@
+schema_version: 1
+project: PS-MHT-V001
+phase: Phase_3CB-0
+title: Capillary Buffer Circulation and Horizontal Ring Stack Integrated Architecture Audit
+status: CONFLICT_FOUND
+cad_generation:
+  authorized: false
+  generated: false
+  prohibited_outputs:
+    - CAD
+    - STEP
+    - STL
+    - print_plate
+
+maintained:
+  nominal_tower_body_outer_diameter_mm: 200.0
+  maximum_installed_diameter_mm: 240.0
+  production_target_maximum_diameter_mm: 238.0
+  planting_port_upward_angle_deg: 27.0
+  material: white_PETG
+  module_count: 5
+  nominal_module_height_mm: 170.0
+  service_policy: module_disassembly_cleaning_replacement
+  manufacturing:
+    printer: Bambu_Lab_A1
+    nozzle_mm: 0.4
+    prefer_flat_circular_annular_parts: true
+    avoid_small_complex_printed_parts: true
+  netpot_measurements:
+    sample_count: 3
+    all_samples_same_within_caliper_resolution: true
+    flange_outer_diameter_mm: 108.0
+    flange_thickness_mm: 4.0
+    overall_height_mm: 68.0
+    maximum_body_outer_diameter_mm: 78.6
+    maximum_rib_outer_diameter_mm: 78.6
+    upper_inner_diameter_mm: 77.2
+    lower_inner_diameter_reachable_mm: 75.8
+    deepest_reachable_inner_diameter_mm: 69.6
+    body_height_below_flange_mm: 64.0
+    flange_radial_overhang_mm: 14.7
+    external_rib_projection_mm: 0.0
+
+changed:
+  shell_architecture:
+    from: vertical_integrated_or_three_sector_split
+    to: horizontal_full_circumference_ring_stack_candidate
+  circulation:
+    from: continuous_reference
+    to: intermittent_pumped_lift_gravity_return_capillary_hold
+  upper_tank_support:
+    from: unresolved
+    to: independent_aluminium_support_load_path
+  port_fastening:
+    from: existing_M4_axes_radius_50mm
+    to: redesign_outside_flange_tool_removal_and_root_envelopes
+  root_ring:
+    from_inner_diameter_mm: 50.0
+    to: redesign_required
+
+deprecated:
+  - integrated_cylinder_vertical_print
+  - production_three_sector_vertical_split
+  - c060_full_length_vertical_seam
+  - c040_continuation_for_vertical_split_production
+  - small_keys
+  - small_L_shaped_parts
+  - small_M3_M4_cartridges
+  - small_PETG_snaps_claws_and_wick_clips
+  - assumed_netpot_flange_outer_diameter_78_5mm
+  - assumed_netpot_body_outer_diameter_72_0mm
+  - finalizing_existing_port_inner_diameter_84_0mm
+  - capillarity_as_bottom_to_top_circulation_power
+  - printed_PETG_wall_as_only_permanent_water_seal
+
+calibration_pending:
+  netpot_body_passage_candidates_mm: [80.0, 80.5, 81.0]
+  netpot_body_passage_selected_mm: null
+  horizontal_band_count_candidates: [3, 4, 5]
+  leading_band_height_candidate_mm: [25, 40, 40, 40, 25]
+  horizontal_joint_clearance_candidates_mm: [0.3, 0.5, 0.7]
+  module_buffer_target_candidates_L: [0.4, 0.6, 0.8]
+  module_buffer_water_depth_candidates_mm: [15, 20, 25]
+  overflow_inner_diameter_candidates_mm: [12, 14, 16]
+  drain_inner_diameter_candidates_mm: [8, 10, 12]
+  upper_tank_candidates_L: [3, 4, 5]
+  lower_tank_candidates_L: [40, 50, 60]
+  orifice_candidates_mm: [0.8, 1.0, 1.2, 1.5]
+  selected_horizontal_stack: null
+  selected_module_buffer_L: null
+  selected_upper_tank_L: null
+  selected_lower_tank_L: null
+
+experiment_required:
+  - actual_buffer_effective_plan_area
+  - actual_buffer_volume_and_freeboard
+  - overflow_capacity_with_screen_roots_and_fouling
+  - drain_time_and_complete_low_point_drainage
+  - wick_material_geometry_delivery_and_service_life
+  - media_container_capacity_and_12h_moisture_curve
+  - progressive_1_3_6_9_12h_off_time
+  - actual_pump_head_flow_start_current_and_Wh
+  - four_branch_balance
+  - upper_tank_fill_time
+  - lower_tank_usable_volume_and_free_return
+  - canal_water_and_fertilizer_fouling
+  - joint_leak_creep_cycle_and_cleaning_time
+  - root_intrusion_and_screen_service_interval
+  - four_tower_30_day_trial
+
+prohibited:
+  - capillary_only_circulation
+  - continuously_submerging_entire_netpot
+  - sealed_uninspectable_buffer
+  - assuming_no_root_blockage
+  - assuming_no_small_nozzle_blockage
+  - relying_only_on_3d_printed_wall_for_watertightness
+  - reviving_small_PETG_snaps_claws_or_cartridges
+  - loading_upper_tank_weight_into_tower_shell
+  - shrinking_measured_netpot
+  - changing_27_degree_port_without_authorization
+  - relaxing_240mm_limit
+  - using_240mm_as_production_target
+  - claiming_80_to_90_percent_energy_reduction_before_test
+  - generating_80_tower_parts
+  - implementing_Phase_3H-A_CAD_during_Phase_3CB-0
+
+derived_values:
+  conservative_internal_diameter_mm: 194.0
+  gross_internal_plan_area_mm2: 29559.245277626364
+  gross_volume_L_by_depth_mm:
+    15: 0.44338867916439545
+    20: 0.5911849055525273
+    25: 0.7389811319406591
+  unobstructed_depth_mm_by_target_L:
+    0.4: 13.532160884043567
+    0.6: 20.29824132606535
+    0.8: 27.064321768087134
+  buffer_total_per_tower_L_by_module_candidate:
+    0.4: 2.0
+    0.6: 3.0
+    0.8: 4.0
+  buffer_total_four_towers_L_by_module_candidate:
+    0.4: 8.0
+    0.6: 12.0
+    0.8: 16.0
+  phase3pa_installed_netpot_maximum_diameter_mm: 241.21513055239188
+  maximum_diameter_excess_mm: 1.21513055239188
+  existing_shell_frame_intersection_mm3: 4788.53414632867
+  pump_reference:
+    continuous_20W_Wh_per_day: 480.0
+    intermittent_20W_80min_Wh_per_day: 26.666666666666668
+    total_target_Wh_per_day: [40, 50]
+  battery_conservative_12V_80pct_DoD:
+    20Ah_usable_Wh: 192.0
+    30Ah_usable_Wh: 288.0
+    20Ah_cold_factor_0_8_usable_Wh: 153.6
+    30Ah_cold_factor_0_8_usable_Wh: 230.4
+
+assumptions:
+  calculations:
+    shell_wall_mm: 3.0
+    water_density_kg_per_L: 1.0
+    lower_tank_sensitivity:
+      minimum_pump_and_sediment_volume_L: 8.0
+      four_tower_pipe_inventory_L: 2.0
+      abnormal_margin_fraction: 0.20
+      drainable_media_water_L: 0.0
+    battery:
+      conservative_voltage_V: 12.0
+      depth_of_discharge_fraction: 0.80
+      cold_capacity_factor: 0.80
+      aging_factor_for_table: 1.0
+    support_moment:
+      water_only: true
+      horizontal_offset_candidates_m: [0.10, 0.15, 0.20]
+  not_finalized:
+    - actual_internal_tray_diameter
+    - central_exclusion_and_obstruction_area
+    - pump_power_and_flow
+    - controller_and_sensor_power
+    - tank_mass_and_support_safety_factor
+    - media_drainable_water
+
+risks:
+  critical:
+    - id: R-CB-001
+      status: CONFLICT_FOUND
+      description: 0.8L_requires_27.06mm_in_unobstructed_194mm_circle_and_exceeds_25mm_depth
+    - id: R-PORT-001
+      status: CONFLICT_FOUND
+      description: measured_pot_at_fixed_27deg_has_241.215mm_installed_envelope
+    - id: R-PORT-002
+      status: REDESIGN_REQUIRED
+      description: existing_M4_and_tool_envelopes_overlap_108mm_flange_and_removal_path
+    - id: R-SHELL-001
+      status: REDESIGN_REQUIRED
+      description: measured_conservative_pot_envelope_intersects_existing_shell_frame
+  high:
+    - horizontal_joint_leak_and_creep
+    - overflow_root_or_debris_blockage
+    - small_orifice_fouling
+    - lower_tank_overfill_on_power_loss_or_siphon
+    - upper_tank_support_moment_and_dynamic_service_load
+    - four_tower_trial_confounding_and_low_replication
+    - root_oxygen_deficit_from_excessive_water_level
+    - eighty_tower_scale_not_represented_by_four_tower_manifold
+
+next_phase_entry_conditions:
+  Phase_3H-A:
+    purpose: Horizontal_Ring_Joint_Calibration
+    start:
+      - approve_3_4_5_band_comparison_and_coupon_datum
+      - define_joint_compression_load_and_M4_reference_path
+      - define_leak_collection_and_assembly_cycle_protocol
+      - retain_no_port_short_ring_scope
+    stop:
+      - any_candidate_exceeds_240mm_reference_envelope
+      - structural_wall_below_3mm
+      - M4_path_enters_reserved_root_or_service_envelope
+      - no_candidate_meets_leak_cycle_and_cleaning_criteria
+  Phase_3CB-A:
+    purpose: Capillary_Buffer_Tray_Coupon
+    start:
+      - declare_actual_coupon_effective_area_budget
+      - retain_0_4_0_6_0_8L_as_test_targets_not_promises
+      - define_maximum_branch_inflow_for_overflow_test
+      - define_removable_screen_wick_and_drain_service_paths
+    stop:
+      - target_requires_netpot_submersion
+      - overflow_clear_flow_below_150pct_of_verified_inflow
+      - tray_cannot_be_fully_inspected_and_drained
+      - claimed_volume_exceeds_measured_volume
+  Phase_3CB-B:
+    purpose: Top_Distribution_Tank_and_Flow_Control
+    start:
+      - aluminium_support_load_case_approved
+      - pump_head_flow_test_range_defined
+      - 3_4_5L_tank_and_0_8_1_0_1_2_1_5mm_orifice_comparison_defined
+      - emergency_overflow_route_defined
+    stop:
+      - tank_load_enters_PETG_shell
+      - flow_control_cannot_be_cleaned_or_replaced
+      - branch_balance_outside_approved_tolerance
+  Phase_3CB-C:
+    purpose: Four_Tower_Hydraulic_Mockup
+    start:
+      - Phase_3CB-A_and_3CB-B_hydraulic_candidates_pass
+      - common_tank_usable_volume_exceeds_measured_full_return_with_margin
+      - rescue_and_power_loss_procedures_approved
+      - DC_integrating_wattmeter_installed
+    stop:
+      - uncontained_overflow_or_electrical_hazard
+      - lower_tank_cannot_accept_measured_return
+      - repeated_branch_starvation_or_complete_blockage
+  Phase_3H-B:
+    purpose: Integrated_Horizontal_Stack_Planting_Module
+    start:
+      - Phase_3H-A_joint_selected
+      - Phase_3CB-A_tray_selected
+      - netpot_body_passage_physically_selected
+      - installed_pot_envelope_reduced_to_238mm_target_and_not_over_240mm
+      - final_port_cassette_and_M4_root_service_routes_audited
+    stop:
+      - changing_measured_netpot_or_27deg_axis_is_required
+      - installed_envelope_exceeds_240mm
+      - integrated_module_is_not_disassemblable_cleanable_or_A1_printable

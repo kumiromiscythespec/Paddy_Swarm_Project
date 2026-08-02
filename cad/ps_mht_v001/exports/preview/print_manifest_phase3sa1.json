@@ -1,0 +1,86 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3S-A.1",
+  "status": "PHASE3SA1_SELECTED_SEAM_PLATES_NOT_GENERATED_BEFORE_SELECTION",
+  "phase3sa_seam_clearance_selected_parameter": null,
+  "selected_clearance": null,
+  "selection_policy": "EXPLICIT_0.4_0.6_OR_0.8_REQUIRED_NO_DEFAULT",
+  "print_items": [
+    {
+      "file_name": "plate_01_sector_seam_coupons_phase3sa1.stl",
+      "quantity": 1,
+      "prerequisite": null,
+      "selected_clearance": null,
+      "print_status": "READY_TO_PRINT_FIRST",
+      "assembly_use": "SELECT_VERTICAL_SEAM_CLEARANCE",
+      "do_not_print_before": null
+    },
+    {
+      "file_name": null,
+      "quantity": 1,
+      "prerequisite": "PLATE_01_PASS_AND_SEAM_CLEARANCE_SELECTED",
+      "selected_clearance": null,
+      "print_status": "NOT_GENERATED_CLEARANCE_SELECTION_REQUIRED",
+      "assembly_use": "CAPTURE_FIT_COUPON_AND_FIRST_OF_TWO_CAPTURE_RINGS",
+      "do_not_print_before": "SEAM_CLEARANCE_SELECTED",
+      "candidate_file_names": [
+        "plate_02_panel_capture_coupon_c040_phase3sa1.stl",
+        "plate_02_panel_capture_coupon_c060_phase3sa1.stl",
+        "plate_02_panel_capture_coupon_c080_phase3sa1.stl"
+      ]
+    },
+    {
+      "file_name": null,
+      "quantity": 1,
+      "prerequisite": "SELECTED_PLATE_02_PASS",
+      "selected_clearance": null,
+      "print_status": "NOT_GENERATED_CLEARANCE_SELECTION_REQUIRED",
+      "assembly_use": "FULL_HEIGHT_SINGLE_PANEL_PRINT_GATE",
+      "do_not_print_before": "SELECTED_PLATE_02_PASS",
+      "candidate_file_names": [
+        "plate_03_sector_panel_single_c040_phase3sa1.stl",
+        "plate_03_sector_panel_single_c060_phase3sa1.stl",
+        "plate_03_sector_panel_single_c080_phase3sa1.stl"
+      ]
+    },
+    {
+      "file_name": "ps_mht_v001_temporary_panel_capture_ring_additional_phase3sa1.stl",
+      "quantity": 1,
+      "prerequisite": "SELECTED_PLATE_03_PASS",
+      "selected_clearance": null,
+      "print_status": "GENERATED_HOLD_UNTIL_PLATE_03_PASS",
+      "assembly_use": "SECOND_OF_TWO_CAPTURE_RINGS",
+      "do_not_print_before": "SELECTED_PLATE_03_PASS",
+      "clearance_dependency": false
+    },
+    {
+      "file_name": null,
+      "quantity": 1,
+      "prerequisite": "SELECTED_PLATE_03_PASS_AND_SECOND_RING_AVAILABLE",
+      "selected_clearance": null,
+      "print_status": "NOT_GENERATED_CLEARANCE_SELECTION_REQUIRED",
+      "assembly_use": "THREE_IDENTICAL_SHORT_CALIBRATION_PANELS",
+      "do_not_print_before": "SELECTED_PLATE_03_PASS_AND_SECOND_RING_AVAILABLE",
+      "candidate_file_names": [
+        "plate_04_three_sector_short_parts_c040_phase3sa1.stl",
+        "plate_04_three_sector_short_parts_c060_phase3sa1.stl",
+        "plate_04_three_sector_short_parts_c080_phase3sa1.stl"
+      ]
+    }
+  ],
+  "temporary_capture_ring_quantity": {
+    "required_for_short_assembly": 2,
+    "included_in_selected_plate_02": 1,
+    "additional_single_stl": 1,
+    "quantity_reconciled": true
+  },
+  "recommended_workflow": [
+    "1_PRINT_PLATE_01",
+    "2_SELECT_SEAM_CLEARANCE",
+    "3_REGENERATE_AND_PRINT_SELECTED_PLATE_02",
+    "4_PRINT_SELECTED_PLATE_03_AFTER_PLATE_02_PASS",
+    "5_PRINT_ONE_ADDITIONAL_CAPTURE_RING_AFTER_PLATE_03_PASS",
+    "6_PRINT_SELECTED_PLATE_04",
+    "7_BUILD_SHORT_THREE_PANEL_ASSEMBLY"
+  ]
+}

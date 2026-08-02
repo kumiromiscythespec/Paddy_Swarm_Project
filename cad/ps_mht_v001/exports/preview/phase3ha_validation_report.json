@@ -1,0 +1,889 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3H-A",
+  "status": "CAD_COMPLETE_PHYSICAL_CALIBRATION_PENDING",
+  "cadquery_version": "2.8.0",
+  "a1_build_envelope_mm": [
+    245.0,
+    245.0,
+    240.0
+  ],
+  "physical_c805_body_passage_result": {
+    "selected_mm": 80.5,
+    "selection_status": "PASS_BODY_PASSAGE_PHYSICAL",
+    "pots_tested": 3,
+    "tool_free": true,
+    "rib_catching": false,
+    "full_flange_seating": true,
+    "visible_tilt": false,
+    "observed_lateral_play": "APPROXIMATELY_1_0",
+    "play_measurement_method": "NOT_STANDARDIZED",
+    "c800_status": "NOT_REQUIRED_AFTER_C805_PASS",
+    "c810_status": "NOT_REQUIRED_AFTER_C805_PASS",
+    "twenty_cycle_test": "CALIBRATION_PENDING",
+    "retention_27deg": "CALIBRATION_PENDING",
+    "wet_media": "CALIBRATION_PENDING",
+    "load_500g": "CALIBRATION_PENDING",
+    "final_port_assembly": "REDESIGN_REQUIRED",
+    "complete_port_approval": false
+  },
+  "phase3cb0_history": {
+    "audit_status": "CONFLICT_FOUND",
+    "cad_generation": "PROHIBITED",
+    "scoped_next_phase_cad": "ALLOWED_WHEN_ENTRY_CONDITIONS_PASS"
+  },
+  "buffer_targets": {
+    "0.4_L": "PRIMARY_TARGET",
+    "0.6_L": "STRETCH_TARGET",
+    "0.8_L": "REJECTED_FOR_15_TO_25MM_SHALLOW_BUFFER",
+    "geometry_generated": false
+  },
+  "horizontal_joint": {
+    "selected_clearance_mm_per_side": null,
+    "requirements_by_candidate": {
+      "c030": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.3,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0
+      },
+      "c050": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.5,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0
+      },
+      "c070": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.7,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0
+      }
+    },
+    "lower_print_metrics": {
+      "size_x": 202.0,
+      "size_y": 202.0,
+      "size_z": 40.0,
+      "solid_count": 1,
+      "volume_mm3": 76793.09082434876,
+      "all_solids_valid": true
+    },
+    "upper_print_metrics": {
+      "c030": {
+        "size_x": 202.0,
+        "size_y": 202.0,
+        "size_z": 50.00000000000003,
+        "solid_count": 1,
+        "volume_mm3": 99775.61967687895,
+        "all_solids_valid": true
+      },
+      "c050": {
+        "size_x": 202.0,
+        "size_y": 202.0,
+        "size_z": 50.00000000000003,
+        "solid_count": 1,
+        "volume_mm3": 100214.50195064869,
+        "all_solids_valid": true
+      },
+      "c070": {
+        "size_x": 202.0,
+        "size_y": 202.0,
+        "size_z": 50.00000000000003,
+        "solid_count": 1,
+        "volume_mm3": 100652.37891476948,
+        "all_solids_valid": true
+      }
+    },
+    "arc_coupon_requirements": {
+      "c030": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.3,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0,
+        "coupon_status": "PRELIMINARY_ONLY_FULL_RING_REQUIRED_FOR_SELECTION",
+        "file_token": "c030",
+        "arc_angle_deg": 90.0,
+        "actual_diameter_curvature": true,
+        "part_count": 2,
+        "dimple_count": 1,
+        "dimple_diameter_mm": 5.0,
+        "text_marking_count": 0,
+        "small_feature_count": 0,
+        "selection_authority": false
+      },
+      "c050": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.5,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0,
+        "coupon_status": "PRELIMINARY_ONLY_FULL_RING_REQUIRED_FOR_SELECTION",
+        "file_token": "c050",
+        "arc_angle_deg": 90.0,
+        "actual_diameter_curvature": true,
+        "part_count": 2,
+        "dimple_count": 2,
+        "dimple_diameter_mm": 5.0,
+        "text_marking_count": 0,
+        "small_feature_count": 0,
+        "selection_authority": false
+      },
+      "c070": {
+        "status": "PHASE3HA_CLEARANCE_SELECTION_PENDING",
+        "clearance_mm_per_side": 0.7,
+        "joint_axis": "ASSEMBLY_Z",
+        "nominal_outer_diameter_mm": 200.0,
+        "nominal_inner_diameter_mm": 194.0,
+        "structural_wall_mm": 3.0,
+        "skirt_overlap_mm": 10.0,
+        "skirt_nominal_thickness_mm": 2.8,
+        "skirt_minimum_tip_thickness_mm": 2.4,
+        "skirt_root_radius_mm": 3.0,
+        "lead_chamfer_axial_length_mm": 1.0,
+        "inner_drip_edge_angle_deg": 45.0,
+        "hard_stop_width_mm": 4.0,
+        "upper_physical_print_height_mm": 50.0,
+        "lower_physical_print_height_mm": 40.0,
+        "full_circumference": true,
+        "closed_cavity": false,
+        "cleaning_brush_access": true,
+        "direct_outside_to_inside_sightline": false,
+        "port_count": 0,
+        "buffer_tray_count": 0,
+        "small_part_count": 0,
+        "sealant_count": 0,
+        "coupon_status": "PRELIMINARY_ONLY_FULL_RING_REQUIRED_FOR_SELECTION",
+        "file_token": "c070",
+        "arc_angle_deg": 90.0,
+        "actual_diameter_curvature": true,
+        "part_count": 2,
+        "dimple_count": 3,
+        "dimple_diameter_mm": 5.0,
+        "text_marking_count": 0,
+        "small_feature_count": 0,
+        "selection_authority": false
+      }
+    }
+  },
+  "compression_fixture": {
+    "status": "TEST_FIXTURE_ONLY",
+    "print_orientation": "FLAT_FULL_RING",
+    "common_upper_lower_ring": true,
+    "outer_diameter_mm": 224.0,
+    "inner_diameter_mm": 188.0,
+    "thickness_mm": 8.0,
+    "m4_angle_positions_deg": [
+      60.0,
+      180.0,
+      300.0
+    ],
+    "m4_pitch_radius_mm": 106.0,
+    "m4_clearance_hole_mm": 4.8,
+    "minimum_m4_radial_envelope_mm": 103.6,
+    "root_envelope_radius_mm": 97.0,
+    "m4_outside_root_envelope": true,
+    "m4_outside_200mm_body": true,
+    "threaded_rod_reference_count": 3,
+    "washer_reference_count": 6,
+    "nut_reference_count": 6,
+    "small_nut_cartridge_count": 0,
+    "small_gate_count": 0,
+    "production_fastener_authority": false
+  },
+  "temporary_test_membrane": {
+    "status": "REFERENCE_TEMPORARY_TEST_MEMBRANE",
+    "material": "PURCHASED_PE_OR_SILICONE_SHEET",
+    "print_status": "REFERENCE_ONLY_DO_NOT_PRINT",
+    "diameter_reference_mm": 200.0,
+    "thickness_reference_mm": 0.5,
+    "joint_leak_and_membrane_leak_must_be_distinguished": true,
+    "printed_bottom_wall_used": false
+  },
+  "shape_metrics": {
+    "horizontal_joint_arc_coupon_c030_phase3ha": {
+      "size_x": 217.10156377191902,
+      "size_y": 101.10156367191902,
+      "size_z": 50.100341794803036,
+      "solid_count": 2,
+      "volume_mm3": 44142.05496474837,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_arc_coupon_c050_phase3ha": {
+      "size_x": 217.10156377191902,
+      "size_y": 101.10156367191902,
+      "size_z": 50.100281772139525,
+      "solid_count": 2,
+      "volume_mm3": 44237.81541580158,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_arc_coupon_c070_phase3ha": {
+      "size_x": 217.10156377191902,
+      "size_y": 101.10156367191902,
+      "size_z": 50.10022175035939,
+      "solid_count": 2,
+      "volume_mm3": 44333.189077782015,
+      "all_solids_valid": true
+    },
+    "full_ring_joint_pair_c050_reference_phase3ha": {
+      "size_x": 202.0,
+      "size_y": 202.0,
+      "size_z": 80.0,
+      "solid_count": 2,
+      "volume_mm3": 177007.59277499755,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_compression_ring_phase3ha": {
+      "size_x": 224.0696234318172,
+      "size_y": 224.00000020000007,
+      "size_z": 8.069623431817195,
+      "solid_count": 1,
+      "volume_mm3": 92757.9107076554,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_compression_assembly_reference_phase3ha": {
+      "size_x": 224.0,
+      "size_y": 224.0,
+      "size_z": 112.0,
+      "solid_count": 19,
+      "volume_mm3": 367681.86255674815,
+      "all_solids_valid": true
+    },
+    "temporary_test_membrane_reference_phase3ha": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 0.5,
+      "solid_count": 1,
+      "volume_mm3": 15707.963267948968,
+      "all_solids_valid": true
+    }
+  },
+  "step_round_trip_validation": {
+    "horizontal_joint_arc_coupon_c030_phase3ha.step": {
+      "size_x": 217.0000001,
+      "size_y": 101.00000019999999,
+      "size_z": 50.000000200005005,
+      "solid_count": 2,
+      "volume_mm3": 44142.06715711245,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_arc_coupon_c050_phase3ha.step": {
+      "size_x": 217.0000002,
+      "size_y": 101.00000019999999,
+      "size_z": 50.00000020000499,
+      "solid_count": 2,
+      "volume_mm3": 44237.9385035162,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_arc_coupon_c070_phase3ha.step": {
+      "size_x": 217.0000002,
+      "size_y": 101.00000019999999,
+      "size_z": 50.00000020000503,
+      "solid_count": 2,
+      "volume_mm3": 44333.42644457573,
+      "all_solids_valid": true
+    },
+    "full_ring_joint_pair_c050_reference_phase3ha.step": {
+      "size_x": 202.0,
+      "size_y": 202.0,
+      "size_z": 80.0,
+      "solid_count": 2,
+      "volume_mm3": 177007.5927749992,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_compression_ring_phase3ha.step": {
+      "size_x": 224.0,
+      "size_y": 224.0,
+      "size_z": 8.0,
+      "solid_count": 1,
+      "volume_mm3": 92757.91070765907,
+      "all_solids_valid": true
+    },
+    "horizontal_joint_compression_assembly_reference_phase3ha.step": {
+      "size_x": 224.0,
+      "size_y": 224.0,
+      "size_z": 112.0,
+      "solid_count": 19,
+      "volume_mm3": 367681.8625567579,
+      "all_solids_valid": true
+    },
+    "temporary_test_membrane_reference_phase3ha.step": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 0.5,
+      "solid_count": 1,
+      "volume_mm3": 15707.963267948968,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh_validation": {
+    "horizontal_joint_arc_coupon_c030_phase3ha.stl": {
+      "point_count": 1893,
+      "triangle_count": 3778,
+      "size_x": 216.99999989999998,
+      "size_y": 100.9999999,
+      "size_z": 49.99999990000001,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "horizontal_joint_arc_coupon_c050_phase3ha.stl": {
+      "point_count": 2985,
+      "triangle_count": 5962,
+      "size_x": 216.99999989999998,
+      "size_y": 100.9999999,
+      "size_z": 49.99999990000001,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "horizontal_joint_arc_coupon_c070_phase3ha.stl": {
+      "point_count": 4077,
+      "triangle_count": 8146,
+      "size_x": 216.99999989999998,
+      "size_y": 100.9999999,
+      "size_z": 49.99999990000001,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "horizontal_joint_compression_ring_phase3ha.stl": {
+      "point_count": 1260,
+      "triangle_count": 2532,
+      "size_x": 224.0,
+      "size_y": 223.9303741455078,
+      "size_z": 8.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "print_manifest": {
+    "project": "PS-MHT-V001",
+    "phase": "3H-A",
+    "selected_clearance_mm_per_side": null,
+    "selection_authority": "FULL_RING_PHYSICAL_TEST_ONLY",
+    "print_items": [
+      {
+        "file_name": "horizontal_joint_arc_coupon_c050_phase3ha.stl",
+        "quantity": 1,
+        "candidate_clearance_mm_per_side": 0.5,
+        "prerequisite": null,
+        "selected_clearance": null,
+        "print_status": "READY_FIRST",
+        "assembly_use": "PRELIMINARY_INSERTION_AND_PRINTABILITY",
+        "do_not_print_before": null
+      },
+      {
+        "file_name": "horizontal_joint_arc_coupon_c030_phase3ha.stl",
+        "quantity": 1,
+        "candidate_clearance_mm_per_side": 0.3,
+        "prerequisite": "C050_ARC_TOO_LOOSE",
+        "selected_clearance": null,
+        "print_status": "CONDITIONAL_C050_TOO_LOOSE",
+        "assembly_use": "PRELIMINARY_TIGHTER_CLEARANCE_CHECK",
+        "do_not_print_before": "C050_ARC_RESULT"
+      },
+      {
+        "file_name": "horizontal_joint_arc_coupon_c070_phase3ha.stl",
+        "quantity": 1,
+        "candidate_clearance_mm_per_side": 0.7,
+        "prerequisite": "C050_ARC_TOO_TIGHT",
+        "selected_clearance": null,
+        "print_status": "CONDITIONAL_C050_TOO_TIGHT",
+        "assembly_use": "PRELIMINARY_LOOSER_CLEARANCE_CHECK",
+        "do_not_print_before": "C050_ARC_RESULT"
+      },
+      {
+        "file_name": null,
+        "quantity": 0,
+        "candidate_clearance_mm_per_side": null,
+        "prerequisite": "ARC_COUPON_PASS_AND_EXPLICIT_CLEARANCE",
+        "selected_clearance": null,
+        "print_status": "NOT_GENERATED_SELECTION_REQUIRED",
+        "assembly_use": "FULL_RING_JOINT_PAIR_PHYSICAL_SELECTION",
+        "do_not_print_before": "ARC_COUPON_PASS",
+        "generator": "build_full_ring_joint_pair_phase3ha(clearance)",
+        "reference_file_name": "full_ring_joint_pair_c050_reference_phase3ha.step"
+      },
+      {
+        "file_name": "horizontal_joint_compression_ring_phase3ha.stl",
+        "quantity": 2,
+        "candidate_clearance_mm_per_side": null,
+        "prerequisite": "ARC_COUPON_PASS",
+        "selected_clearance": null,
+        "print_status": "PRINT_AFTER_ARC_PASS",
+        "assembly_use": "TEST_FIXTURE_ONLY_COMMON_UPPER_LOWER",
+        "do_not_print_before": "ARC_COUPON_PASS"
+      }
+    ],
+    "reference_only_do_not_print": [
+      "full_ring_joint_pair_c050_reference_phase3ha.step",
+      "horizontal_joint_compression_assembly_reference_phase3ha.step",
+      "temporary_test_membrane_reference_phase3ha.step"
+    ],
+    "production_fastener_selected": false,
+    "final_module_generated": false
+  },
+  "physical_test_procedure": {
+    "arc_sequence": [
+      "C050_READY_FIRST",
+      "C030_ONLY_IF_C050_TOO_LOOSE",
+      "C070_ONLY_IF_C050_TOO_TIGHT"
+    ],
+    "arc_selection_authority": false,
+    "full_ring": {
+      "assembly": [
+        "TOOL_FREE_NO_IMPACT",
+        "FULL_CIRCUMFERENCE_HARD_STOP_SEATING",
+        "RECORD_AXIAL_RADIAL_PLAY_AND_TIME"
+      ],
+      "compression": [
+        "THREE_M4_REFERENCES_TIGHTEN_EVENLY",
+        "STOP_AT_HARD_STOP",
+        "DO_NOT_CRUSH_PETG",
+        "MEASURE_HEIGHT_BEFORE_AFTER"
+      ],
+      "repetition_cycles": 10,
+      "static_leak": {
+        "head_above_joint_mm": 20,
+        "duration_hours": 12,
+        "maximum_leakage_ml_per_joint": 5,
+        "continuous_jet_allowed": false
+      },
+      "flow_down": {
+        "volume_l": 2.0,
+        "target_flow_l_per_min": 1.0
+      },
+      "compression_hold_hours": 24
+    },
+    "selection_rule": {
+      "c050": "FIRST_FULL_RING_CANDIDATE_AFTER_ARC_PASS",
+      "c030": "IF_C050_LEAKS_OR_HAS_EXCESSIVE_PLAY",
+      "c070": "IF_C050_CANNOT_ASSEMBLE_OR_WHITENS",
+      "selected_before_full_ring_test": null
+    }
+  },
+  "not_generated": [
+    "FULL_RING_PRINT_STL_BEFORE_SELECTION",
+    "PLANTING_PORT",
+    "NETPOT_SEAT",
+    "CAPILLARY_BUFFER",
+    "OVERFLOW",
+    "DRAIN",
+    "WICK",
+    "ROOT_ZONE_RING",
+    "PRODUCTION_M4_ROUTE",
+    "FIVE_BAND_170MM_MODULE",
+    "WATER_SYSTEM",
+    "FIVE_STAGE_TOWER"
+  ],
+  "non_regression": {
+    "artifact_count": 207,
+    "source_count": 8,
+    "results": {
+      "phase1": true,
+      "phase2": true,
+      "phase3a": true,
+      "phase3a1": true,
+      "phase3r": true,
+      "phase3r1": true,
+      "phase3sa": true,
+      "phase3sa1": true,
+      "phase3sa2": true,
+      "phase3pa": true,
+      "phase3cb0_sources": true
+    }
+  },
+  "automated_tests": {
+    "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS",
+    "existing_phase1_through_phase3pa": 306,
+    "new_phase3ha": 28,
+    "total_passed": 334,
+    "all_passed": true,
+    "files": [
+      {
+        "file": "test_actual_index_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_actual_m4_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_assembly_validity.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_gasket_geometry.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_interface_fastener_alignment.py",
+        "passed": 9,
+        "returncode": 0
+      },
+      {
+        "file": "test_invalid_interface_rotation.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_module_interfaces.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_netpot_adapter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_parameters.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase2_print_envelope.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_complete_passage.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_m3_cartridge.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_coupons_and_fixture.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_entry_state.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_horizontal_joint_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fastener_audit.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fit_coupons.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_flange_support.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_maximum_diameter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_measurements.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_no_finalization.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_reference_envelope.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_annular_nut_ring.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_artifacts.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_shell_frame_fusion.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_annular_nut_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_index_geometry.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_minimum_features.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_no_deprecated_parts.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_port_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_self_supporting_opening.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_print_manifest.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_selected_plate_api.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_full_length_geometry.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_capture_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_contact_area.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_no_premature_hardware.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_port_printability.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_print_orientation.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_seam_cycle.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_sector_geometry.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_plant_port_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_port_service_clearance.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_print_envelope.py",
+        "passed": 3,
+        "returncode": 0
+      },
+      {
+        "file": "test_root_zone_envelopes.py",
+        "passed": 6,
+        "returncode": 0
+      }
+    ]
+  },
+  "git": {
+    "commands_executed": [],
+    "mutation_operations_performed": false
+  },
+  "non_regression_after_tests": {
+    "phase1": true,
+    "phase2": true,
+    "phase3a": true,
+    "phase3a1": true,
+    "phase3r": true,
+    "phase3r1": true,
+    "phase3sa": true,
+    "phase3sa1": true,
+    "phase3sa2": true,
+    "phase3pa": true,
+    "phase3cb0_sources": true
+  },
+  "generated_files": [
+    "preview/horizontal_joint_isometric_phase3ha.svg",
+    "preview/horizontal_joint_section_phase3ha.svg",
+    "preview/phase3ha_validation_report.json",
+    "preview/print_manifest_phase3ha.json",
+    "step/full_ring_joint_pair_c050_reference_phase3ha.step",
+    "step/horizontal_joint_arc_coupon_c030_phase3ha.step",
+    "step/horizontal_joint_arc_coupon_c050_phase3ha.step",
+    "step/horizontal_joint_arc_coupon_c070_phase3ha.step",
+    "step/horizontal_joint_compression_assembly_reference_phase3ha.step",
+    "step/horizontal_joint_compression_ring_phase3ha.step",
+    "step/temporary_test_membrane_reference_phase3ha.step",
+    "stl/horizontal_joint_arc_coupon_c030_phase3ha.stl",
+    "stl/horizontal_joint_arc_coupon_c050_phase3ha.stl",
+    "stl/horizontal_joint_arc_coupon_c070_phase3ha.stl",
+    "stl/horizontal_joint_compression_ring_phase3ha.stl"
+  ]
+}

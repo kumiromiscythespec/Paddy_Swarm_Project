@@ -1,0 +1,148 @@
+{
+  "model": "PS-MHT-V001",
+  "phase": 1,
+  "status": "PASS",
+  "cadquery_geometry": {
+    "planting_module": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 170.0,
+      "solid_count": 1,
+      "volume_mm3": 315560.081597419,
+      "all_solids_valid": true
+    },
+    "frame": {
+      "size_x": 450.0,
+      "size_y": 450.0,
+      "size_z": 1270.0,
+      "solid_count": 7,
+      "volume_mm3": 1466039.8133253094,
+      "all_solids_valid": true
+    },
+    "tower": {
+      "size_x": 200.00000000000003,
+      "size_y": 200.00000000000003,
+      "size_z": 1090.0,
+      "solid_count": 7,
+      "volume_mm3": 9117622.776602603,
+      "all_solids_valid": true
+    },
+    "full_assembly": {
+      "size_x": 450.0,
+      "size_y": 450.0,
+      "size_z": 1270.0,
+      "solid_count": 14,
+      "volume_mm3": 10583662.589927914,
+      "all_solids_valid": true
+    }
+  },
+  "step_round_trip": {
+    "planting_module": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 170.0,
+      "solid_count": 1,
+      "volume_mm3": 315560.08159742923,
+      "all_solids_valid": true
+    },
+    "frame": {
+      "size_x": 450.0,
+      "size_y": 450.0,
+      "size_z": 1270.0,
+      "solid_count": 7,
+      "volume_mm3": 1466039.8133253094,
+      "all_solids_valid": true
+    },
+    "tower": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 1090.0,
+      "solid_count": 7,
+      "volume_mm3": 9117622.776602656,
+      "all_solids_valid": true
+    },
+    "full_assembly": {
+      "size_x": 450.0,
+      "size_y": 450.0,
+      "size_z": 1270.0,
+      "solid_count": 14,
+      "volume_mm3": 10583662.589927966,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh": {
+    "planting_module": {
+      "point_count": 516,
+      "triangle_count": 1032,
+      "size_x": 200.0,
+      "size_y": 199.96002197265625,
+      "size_z": 170.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "a1_print_envelope": {
+    "status": "PASS",
+    "printable_parts_checked": 1,
+    "module_quantity": 5,
+    "module_bbox_mm": [
+      200.0,
+      200.0,
+      170.0
+    ]
+  },
+  "tower_max_diameter": {
+    "status": "PASS",
+    "phase1_actual_mm": 200.0,
+    "limit_mm": 240.0,
+    "note": "Plant-port protrusions are Phase 3 pending."
+  },
+  "module_placements": [
+    {
+      "module_number": 1,
+      "z_bottom_mm": 140.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "module_number": 2,
+      "z_bottom_mm": 310.0,
+      "rotation_deg": 60.0
+    },
+    {
+      "module_number": 3,
+      "z_bottom_mm": 480.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "module_number": 4,
+      "z_bottom_mm": 650.0,
+      "rotation_deg": 60.0
+    },
+    {
+      "module_number": 5,
+      "z_bottom_mm": 820.0,
+      "rotation_deg": 0.0
+    }
+  ],
+  "frame_clearance": {
+    "rear_post_to_body_clearance_mm": 40.0,
+    "rear_post_to_240mm_envelope_clearance_mm": 20.0,
+    "status": "PASS"
+  },
+  "exports": [
+    "step/ps_mht_v001_planting_module_A.step",
+    "stl/ps_mht_v001_planting_module_A.stl",
+    "step/ps_mht_v001_aluminum_frame_phase1.step",
+    "step/ps_mht_v001_tower_5_module_phase1.step",
+    "step/ps_mht_v001_full_tower_assembly_phase1.step",
+    "preview/ps_mht_v001_planting_module_A.svg",
+    "preview/ps_mht_v001_full_tower_assembly_phase1.svg",
+    "preview/phase1_validation_report.json"
+  ],
+  "phase_boundaries": {
+    "drain_base": "REFERENCE_ENVELOPE_ONLY_PHASE_4_PENDING",
+    "irrigation_top": "REFERENCE_ENVELOPE_ONLY_PHASE_5_PENDING",
+    "plant_ports": "PHASE_3_PENDING",
+    "module_interface": "PHASE_2_PENDING"
+  }
+}

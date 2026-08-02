@@ -1,0 +1,66 @@
+schema_version: 1
+project: PS-MHT-V001
+phase: Phase_3H-A
+status: ENTRY_CONDITIONS_PASS_SCOPED_CAD_ALLOWED
+history:
+  phase3cb0_audit_status: CONFLICT_FOUND
+  phase3cb0_cad_generation: PROHIBITED
+  original_phase3cb0_documents_preserved: true
+scoped_next_phase_cad:
+  status: ALLOWED_WHEN_ENTRY_CONDITIONS_PASS
+  allowed:
+    - horizontal_joint_arc_coupons
+    - horizontal_full_ring_reference
+    - test_compression_fixture
+    - temporary_test_membrane_reference
+  prohibited:
+    - planting_port
+    - netpot_seat
+    - capillary_buffer_tray
+    - overflow
+    - drain
+    - wick
+    - root_zone_ring
+    - production_fastener_route
+    - five_band_170mm_module
+    - five_stage_tower
+netpot_body_passage:
+  selected_mm: 80.5
+  selection_status: PASS_BODY_PASSAGE_PHYSICAL
+  samples_tested: 3
+  tool_free_insertion: true
+  rib_catching: false
+  full_flange_seating: true
+  visible_tilt: false
+  observed_lateral_play_mm: APPROXIMATELY_1_0
+  play_measurement_method: NOT_STANDARDIZED
+  c800_status: NOT_REQUIRED_AFTER_C805_PASS
+  c810_status: NOT_REQUIRED_AFTER_C805_PASS
+  remaining:
+    twenty_cycle_test: CALIBRATION_PENDING
+    retention_27deg: CALIBRATION_PENDING
+    wet_media: CALIBRATION_PENDING
+    load_500g: CALIBRATION_PENDING
+    final_port_assembly: REDESIGN_REQUIRED
+buffer_targets:
+  0.4_L: PRIMARY_TARGET
+  0.6_L: STRETCH_TARGET
+  0.8_L: REJECTED_FOR_15_TO_25MM_SHALLOW_BUFFER
+horizontal_joint:
+  nominal_outer_diameter_mm: 200.0
+  nominal_inner_diameter_mm: 194.0
+  structural_wall_mm: 3.0
+  axis: assembly_Z
+  band_axial_contribution_height_mm: 40.0
+  skirt_overlap_length_mm: 10.0
+  upper_physical_print_height_mm: 50.0
+  lower_physical_print_height_mm: 40.0
+  clearance_candidates_mm_per_side: [0.3, 0.5, 0.7]
+  selected_clearance_mm_per_side: null
+entry_conditions:
+  - joint_only_scope
+  - no_planting_port
+  - no_buffer_tray
+  - explicit_clearance_required
+  - A1_envelope_required
+  - existing_artifact_SHA_unchanged

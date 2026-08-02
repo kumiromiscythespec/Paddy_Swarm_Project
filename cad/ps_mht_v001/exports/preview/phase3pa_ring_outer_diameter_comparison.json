@@ -1,0 +1,70 @@
+{
+  "baseline_phase3sa_maximum_diameter_mm": 237.48183810800376,
+  "tower_limit_mm": 240.0,
+  "installed_netpot_reference": {
+    "seat_datum": "PHASE3R1_RING_OUTER_FACE_AT_27_DEGREES",
+    "maximum_diameter_mm": 241.21513055239188,
+    "within_240mm": false,
+    "status": "REDESIGN_REQUIRED_MAXIMUM_DIAMETER"
+  },
+  "candidates": {
+    "od_116": {
+      "outer_diameter_mm": 116.0,
+      "flange_outer_margin_mm": 4.0,
+      "outside_flange_m4_band_required_mm": 10.5,
+      "outside_flange_m4_possible_with_3mm_walls": false,
+      "reference_ring_only_maximum_module_diameter_mm": 237.88991835096283,
+      "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+      "reference_maximum_module_diameter_mm": 241.21513055239188,
+      "limit_margin_mm": -1.2151305523918836,
+      "ring_only_within_240mm": true,
+      "within_240mm": false,
+      "candidate_adoption": false,
+      "panel_reinforcement": "EXISTING_116_DATUM",
+      "backing_ring_alignment": "FUNCTION_RING_2MM_PER_SIDE_INSIDE_BACKING",
+      "status": "REDESIGN_REQUIRED_INSTALLED_POT_MAXIMUM_DIAMETER"
+    },
+    "od_120": {
+      "outer_diameter_mm": 120.0,
+      "flange_outer_margin_mm": 6.0,
+      "outside_flange_m4_band_required_mm": 10.5,
+      "outside_flange_m4_possible_with_3mm_walls": false,
+      "reference_ring_only_maximum_module_diameter_mm": 239.86738656305934,
+      "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+      "reference_maximum_module_diameter_mm": 241.21513055239188,
+      "limit_margin_mm": -1.2151305523918836,
+      "ring_only_within_240mm": true,
+      "within_240mm": false,
+      "candidate_adoption": false,
+      "panel_reinforcement": "REQUIRES_REAUDIT_NO_GEOMETRY_GENERATED",
+      "backing_ring_alignment": "OUTER_DIAMETERS_MATCH",
+      "status": "REDESIGN_REQUIRED_INSTALLED_POT_MAXIMUM_DIAMETER"
+    },
+    "od_124": {
+      "outer_diameter_mm": 124.0,
+      "flange_outer_margin_mm": 8.0,
+      "outside_flange_m4_band_required_mm": 10.5,
+      "outside_flange_m4_possible_with_3mm_walls": false,
+      "reference_ring_only_maximum_module_diameter_mm": 241.878092686304,
+      "reference_installed_netpot_maximum_diameter_mm": 241.21513055239188,
+      "reference_maximum_module_diameter_mm": 241.878092686304,
+      "limit_margin_mm": -1.8780926863040008,
+      "ring_only_within_240mm": false,
+      "within_240mm": false,
+      "candidate_adoption": false,
+      "panel_reinforcement": "REQUIRES_REAUDIT_NO_GEOMETRY_GENERATED",
+      "backing_ring_alignment": "FUNCTION_RING_2MM_PER_SIDE_OUTSIDE_BACKING",
+      "status": "REJECTED_MAXIMUM_DIAMETER"
+    }
+  },
+  "local_ear_reference": {
+    "status": "REFERENCE_ONLY_NOT_GENERATED",
+    "minimum_local_outer_radius_for_18mm_head_and_3mm_wall_mm": 75.0,
+    "warning": "LIKELY_EXCEEDS_240MM_REQUIRES_DEDICATED_REDESIGN"
+  },
+  "inboard_fastener_reference": {
+    "status": "POT_REMOVED_ONLY_REFERENCE",
+    "existing_axis_radius_mm": 50.0,
+    "finalized": false
+  }
+}

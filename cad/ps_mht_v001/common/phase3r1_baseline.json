@@ -1,0 +1,15 @@
+{
+  "preview/phase3r1_validation_report.json": "3d38549545a1127a3c21edbde1e68fe658e9251ae9d15a3301947b31381f3791",
+  "ps_mht_v001_phase3r1_delivery.zip": "a7bf20bd5a40941a655ae8182a4e0d33a02cd5304dbb43155cf3c0ac73e0771e",
+  "step/multi_plate_orientation_reference_phase3r1.step": "5abed74ae989bcaeb4bd43cd1550e885f21d71ca88ca11edb7aea356e8cc0391",
+  "step/ps_mht_v001_annular_nut_ring_calibration_coupon_phase3r1.step": "c2b15353e0d47f54f7393f9cdb21bce784ce29bfcb4660016194e79f8047f886",
+  "step/ps_mht_v001_module_nut_ring_candidate_c025_phase3r1.step": "a5467bce1614c2787f00250b72eca9d0bdddaaa3e5b1aa24eb96a2d14127698d",
+  "step/ps_mht_v001_self_supporting_port_shell_coupon_phase3r1.step": "a1f5aabbebc95fc597fc3e4cddca94fee3a78abb4ad18c64a00c2c5cfe0a0b0e",
+  "stl/plate_01_large_index_ring_phase3r1.stl": "06b1eaeb9ffed998430fe8dc658dc64aad42ba84659c6b10ecca3d718c2151d6",
+  "stl/plate_02_annular_nut_ring_phase3r1.stl": "d0edb035f8b1dbff5a49929764244a7b9ed740355bc3046d469835b134f7c6d1",
+  "stl/plate_03_self_supporting_shell_phase3r1.stl": "fa7f4803cf4bbb9572bc93ce1b43117640a311153dfae28ffefe9023c1db24bb",
+  "stl/plate_04_port_function_ring_phase3r1.stl": "f20b673e3a38eaed83d0532c141f70bdbfac4f48eb35978f8e3a7b101c57a4fc",
+  "stl/ps_mht_v001_annular_nut_ring_calibration_coupon_phase3r1.stl": "d0edb035f8b1dbff5a49929764244a7b9ed740355bc3046d469835b134f7c6d1",
+  "stl/ps_mht_v001_module_nut_ring_candidate_c025_phase3r1.stl": "7cdbb515fc8a6d1993f19493c3981cfbed69d3a99c1a9d393cdcbf3b8f2f551e",
+  "stl/ps_mht_v001_self_supporting_port_shell_coupon_phase3r1.stl": "fa7f4803cf4bbb9572bc93ce1b43117640a311153dfae28ffefe9023c1db24bb"
+}

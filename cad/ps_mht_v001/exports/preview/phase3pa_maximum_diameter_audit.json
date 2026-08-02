@@ -1,0 +1,18 @@
+{
+  "status": "REDESIGN_REQUIRED",
+  "limit_mm": 240.0,
+  "baseline_mm": 237.48183810800376,
+  "rejected_candidates": [
+    "od_116",
+    "od_120",
+    "od_124"
+  ],
+  "ring_only_rejected_candidates": [
+    "od_124"
+  ],
+  "installed_netpot_maximum_diameter_mm": 241.21513055239188,
+  "installed_netpot_exceeds_limit": true,
+  "od_124_rejected": true,
+  "measured_values_or_27deg_axis_changed": false,
+  "final_ring_selected": null
+}

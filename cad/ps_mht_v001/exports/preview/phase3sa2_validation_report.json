@@ -1,0 +1,482 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3S-A.2",
+  "status": "FULL_LENGTH_PHYSICAL_CALIBRATION_PENDING",
+  "selected_clearance": null,
+  "short_coupon_physical_results": {
+    "c040": {
+      "leak_test": "PASS_ON_SHORT_COUPON_WHEN_MANUALLY_SEATED",
+      "assembly_force": "UNRESOLVED",
+      "stress_whitening": "UNRESOLVED",
+      "full_length_behavior": "CALIBRATION_PENDING"
+    },
+    "c060": {
+      "leak_test": "PASS_ON_SHORT_COUPON_WHEN_MANUALLY_SEATED",
+      "assembly_force": "UNRESOLVED",
+      "stress_whitening": "UNRESOLVED",
+      "full_length_behavior": "CALIBRATION_PENDING"
+    },
+    "c080": {
+      "leak_test": "FAIL",
+      "failure_mode": "WATER_LEAK_WHEN_SEATED",
+      "selection_status": "REJECTED"
+    }
+  },
+  "full_length_pairs": {
+    "c040": {
+      "clearance_mm": 0.4,
+      "effective_length_mm": 170.0,
+      "panel_remaining_width_mm": 48.0,
+      "overlap_mm": 12.0,
+      "actual_curvature": true,
+      "actual_left_cover": true,
+      "actual_right_receiver": true,
+      "actual_contact_rail_section": true,
+      "actual_top_bottom_datums": true,
+      "small_snap_claw_gate": false
+    },
+    "c060": {
+      "clearance_mm": 0.6,
+      "effective_length_mm": 170.0,
+      "panel_remaining_width_mm": 48.0,
+      "overlap_mm": 12.0,
+      "actual_curvature": true,
+      "actual_left_cover": true,
+      "actual_right_receiver": true,
+      "actual_contact_rail_section": true,
+      "actual_top_bottom_datums": true,
+      "small_snap_claw_gate": false
+    }
+  },
+  "fixture": {
+    "capture_depth_mm": 12.0,
+    "height_mm": 15.0,
+    "inner_radius_mm": 58.0,
+    "outer_radius_mm": 118.0,
+    "arc_half_angle_deg": 38.0,
+    "seam_relief_half_angle_deg": 9.0,
+    "tool_less_clearance_mm": 0.6,
+    "inner_stop_outer_radius_mm": 66.8,
+    "outer_stop_inner_radius_mm": 105.8,
+    "same_upper_and_lower_part": true,
+    "fixture_contacts_seam_face": false,
+    "small_snap": false,
+    "reusable": true,
+    "external_band": "PURCHASED_REUSABLE_BAND_NOT_PRINTED",
+    "quantity_per_candidate": 2,
+    "quantity_simultaneous_c040_c060": 4
+  },
+  "shape_metrics": {
+    "ps_mht_v001_full_length_seam_pair_c040_phase3sa2": {
+      "size_x": 103.53253059741562,
+      "size_y": 170.00177349531793,
+      "size_z": 45.42860763538054,
+      "solid_count": 2,
+      "volume_mm3": 317904.0969462899,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_full_length_seam_pair_c060_phase3sa2": {
+      "size_x": 103.70573567817252,
+      "size_y": 170.00177349531793,
+      "size_z": 45.42860763538054,
+      "solid_count": 2,
+      "volume_mm3": 318074.0969462899,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_full_length_seam_capture_fixture_phase3sa2": {
+      "size_x": 125.83012095216867,
+      "size_y": 96.27269297337298,
+      "size_z": 15.000000200008722,
+      "solid_count": 1,
+      "volume_mm3": 45671.58821687689,
+      "all_solids_valid": true
+    }
+  },
+  "individual_plates": {
+    "plate_01_full_length_seam_c040_phase3sa2": {
+      "size_x": 103.53253059741562,
+      "size_y": 170.00177349531793,
+      "size_z": 45.42860763538054,
+      "solid_count": 2,
+      "volume_mm3": 317904.0969462899,
+      "all_solids_valid": true,
+      "part_spacing_minimum_mm": 15.0
+    },
+    "plate_02_full_length_seam_c060_phase3sa2": {
+      "size_x": 103.70573567817252,
+      "size_y": 170.00177349531793,
+      "size_z": 45.42860763538054,
+      "solid_count": 2,
+      "volume_mm3": 318074.0969462899,
+      "all_solids_valid": true,
+      "part_spacing_minimum_mm": 15.0
+    },
+    "plate_03_full_length_seam_capture_fixtures_phase3sa2": {
+      "size_x": 125.8301209521687,
+      "size_y": 207.54538574674595,
+      "size_z": 15.00000020000875,
+      "solid_count": 2,
+      "volume_mm3": 91343.17643375392,
+      "all_solids_valid": true,
+      "part_spacing_minimum_mm": 15.0
+    }
+  },
+  "optional_combined_plate": {
+    "size_x": 222.2382658755879,
+    "size_y": 170.00000000000006,
+    "size_z": 45.4286074353804,
+    "solid_count": 4,
+    "volume_mm3": 635978.1938925795,
+    "all_solids_valid": true,
+    "a1_fit": true,
+    "generated": true,
+    "part_spacing_minimum_mm": 15.0
+  },
+  "assembly_reference": {
+    "size_x": 405.8301207521687,
+    "size_y": 96.27269277337297,
+    "size_z": 176.0,
+    "solid_count": 8,
+    "volume_mm3": 818664.5467600873,
+    "all_solids_valid": true,
+    "print_status": "REFERENCE_ONLY_DO_NOT_PRINT_AS_ASSEMBLY"
+  },
+  "step_round_trip_validation": {
+    "ps_mht_v001_full_length_seam_pair_c040_phase3sa2.step": {
+      "size_x": 103.53253039741557,
+      "size_y": 170.0,
+      "size_z": 45.42860743539191,
+      "solid_count": 2,
+      "volume_mm3": 317904.0969462766,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_full_length_seam_pair_c060_phase3sa2.step": {
+      "size_x": 103.70573547817426,
+      "size_y": 170.0,
+      "size_z": 45.42860743539234,
+      "solid_count": 2,
+      "volume_mm3": 318074.0969462869,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_full_length_seam_capture_fixture_phase3sa2.step": {
+      "size_x": 125.83012075216115,
+      "size_y": 96.27269277336737,
+      "size_z": 15.0,
+      "solid_count": 1,
+      "volume_mm3": 45671.58821686978,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_full_length_seam_assembly_reference_c040_c060_phase3sa2.step": {
+      "size_x": 405.83012075216163,
+      "size_y": 96.27269277337415,
+      "size_z": 176.0,
+      "solid_count": 8,
+      "volume_mm3": 818664.546760087,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh_validation": {
+    "ps_mht_v001_full_length_seam_pair_c040_phase3sa2.stl": {
+      "point_count": 504,
+      "triangle_count": 1000,
+      "size_x": 103.53253173828125,
+      "size_y": 170.0,
+      "size_z": 45.42860794067383,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_full_length_seam_pair_c060_phase3sa2.stl": {
+      "point_count": 504,
+      "triangle_count": 1000,
+      "size_x": 103.70573425292969,
+      "size_y": 170.0,
+      "size_z": 45.42860794067383,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_full_length_seam_capture_fixture_phase3sa2.stl": {
+      "point_count": 1350,
+      "triangle_count": 2696,
+      "size_x": 125.83011817932129,
+      "size_y": 96.27269554138184,
+      "size_z": 15.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_01_full_length_seam_c040_phase3sa2.stl": {
+      "point_count": 504,
+      "triangle_count": 1000,
+      "size_x": 103.53253173828125,
+      "size_y": 170.0,
+      "size_z": 45.42860794067383,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_02_full_length_seam_c060_phase3sa2.stl": {
+      "point_count": 504,
+      "triangle_count": 1000,
+      "size_x": 103.70573425292969,
+      "size_y": 170.0,
+      "size_z": 45.42860794067383,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_03_full_length_seam_capture_fixtures_phase3sa2.stl": {
+      "point_count": 2700,
+      "triangle_count": 5392,
+      "size_x": 125.83012390136719,
+      "size_y": 207.54537963867188,
+      "size_z": 15.0,
+      "connected_component_count": 2,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "plate_optional_full_length_seam_c040_c060_phase3sa2.stl": {
+      "point_count": 1008,
+      "triangle_count": 2000,
+      "size_x": 222.23826599121094,
+      "size_y": 170.0,
+      "size_z": 45.42860794067383,
+      "connected_component_count": 4,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "non_regression": {
+    "phase1": true,
+    "phase2": true,
+    "phase3a": true,
+    "phase3a1": true,
+    "phase3r": true,
+    "phase3r1": true,
+    "phase3sa": true,
+    "phase3sa1": true
+  },
+  "automated_tests": {
+    "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS",
+    "preserved_through_phase3sa1": 242,
+    "new_phase3sa2": 18,
+    "total_passed": 260,
+    "all_passed": true,
+    "files": [
+      {
+        "file": "test_actual_index_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_actual_m4_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_assembly_validity.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_gasket_geometry.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_interface_fastener_alignment.py",
+        "passed": 9,
+        "returncode": 0
+      },
+      {
+        "file": "test_invalid_interface_rotation.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_module_interfaces.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_netpot_adapter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_parameters.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase2_print_envelope.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_complete_passage.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_m3_cartridge.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_annular_nut_ring.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_artifacts.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_shell_frame_fusion.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_annular_nut_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_index_geometry.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_minimum_features.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_no_deprecated_parts.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_port_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_self_supporting_opening.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_print_manifest.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_selected_plate_api.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_full_length_geometry.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_capture_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_contact_area.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_no_premature_hardware.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_port_printability.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_print_orientation.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_seam_cycle.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_sector_geometry.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_plant_port_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_port_service_clearance.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_print_envelope.py",
+        "passed": 3,
+        "returncode": 0
+      },
+      {
+        "file": "test_root_zone_envelopes.py",
+        "passed": 6,
+        "returncode": 0
+      }
+    ]
+  },
+  "git": {
+    "mutation_operations_performed": false,
+    "prohibited_operations": [
+      "checkout",
+      "pull",
+      "add",
+      "commit",
+      "push",
+      "merge",
+      "rebase",
+      "reset"
+    ]
+  }
+}

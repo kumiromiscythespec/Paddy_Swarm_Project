@@ -1,0 +1,110 @@
+{
+  "status": "REDESIGN_REQUIRED",
+  "existing_ring_mm": {
+    "outer_diameter": 116.0,
+    "inner_diameter": 84.0,
+    "thickness": 8.0
+  },
+  "flange_seating": {
+    "measured_flange_diameter_mm": 108.0,
+    "full_circular_seating_geometrically_possible": true,
+    "flange_support_radial_width_mm": 12.0,
+    "ring_outside_flange_radial_width_mm": 4.0,
+    "continuous_support_interrupted_by_existing_m4_holes": true,
+    "status": "PASS_AS_REFERENCE"
+  },
+  "body_passage": {
+    "body_diameter_mm": 78.6,
+    "existing_bore_diameter_mm": 84.0,
+    "diametral_clearance_mm": 5.400000000000006,
+    "status": "NOT_FINAL_EXCESS_CLEARANCE"
+  },
+  "m4_fastener": {
+    "status": "FAIL_FASTENER_INTERFERENCE",
+    "summary": {
+      "status": "FAIL_FASTENER_INTERFERENCE",
+      "flange_radius_mm": 54.0,
+      "existing_m4_axis_radius_mm": 50.0,
+      "ring_outer_radius_mm": 58.0,
+      "radial_intervals_mm": {
+        "m4_bolt_axis": {
+          "minimum": 47.75,
+          "maximum": 52.25
+        },
+        "m4_flat_washer": {
+          "minimum": 45.5,
+          "maximum": 54.5
+        },
+        "m4_bolt_head_or_star_knob": {
+          "minimum": 41.0,
+          "maximum": 59.0
+        },
+        "m4_nut": {
+          "minimum": 45.95854811567262,
+          "maximum": 54.04145188432738
+        },
+        "tool_access": {
+          "minimum": 41.0,
+          "maximum": 59.0
+        },
+        "finger_access": {
+          "minimum": 38.0,
+          "maximum": 62.0
+        }
+      },
+      "intersects_measured_flange_projection": {
+        "m4_bolt_axis": true,
+        "m4_flat_washer": true,
+        "m4_bolt_head_or_star_knob": true,
+        "m4_nut": true,
+        "tool_access": true,
+        "finger_access": true
+      },
+      "cad_shape_intersection_free": false,
+      "tool_access_with_pot_installed": false,
+      "finger_access_with_pot_installed": false,
+      "fastening_without_removing_pot": false,
+      "fastening_with_pot_removed": true,
+      "pot_removal_path_with_existing_head_installed": false,
+      "service_classification": "POT_REMOVED_ONLY_REFERENCE",
+      "conclusion": "Existing M4 axes and all service envelopes lie inside the measured 54 mm flange radius. Geometry non-intersection alone cannot produce a service PASS."
+    }
+  },
+  "tool_envelope": {
+    "status": "FAIL_TOOL_ENVELOPE",
+    "pot_installed_access": false,
+    "pot_removed_access": true
+  },
+  "panel_opening": {
+    "opening_width_mm": 88.0,
+    "opening_height_mm": 92.0,
+    "body_width_clearance_mm": 9.400000000000006,
+    "body_height_clearance_mm": 13.400000000000006,
+    "axis_angle_deg": 27.0,
+    "seated_pot_shell_intersection_volume_mm3": 4788.534146328667,
+    "cad_boolean_intersection_free": false,
+    "status": "REDESIGN_REQUIRED_SHELL_INTERFERENCE"
+  },
+  "backing_ring": {
+    "outer_diameter_mm": 120.0,
+    "inner_diameter_mm": 88.0,
+    "body_diametral_clearance_mm": 9.400000000000006,
+    "status": "PASS_AS_REFERENCE"
+  },
+  "root_sleeve_ring": {
+    "outer_diameter_mm": 82.0,
+    "inner_diameter_mm": 50.0,
+    "body_passage_deficit_mm": 28.599999999999994,
+    "status": "REDESIGN_REQUIRED"
+  },
+  "root_zone_projection": {
+    "body_depth_below_flange_mm": 64.0,
+    "status": "REDESIGN_REQUIRED_ROOT_ZONE_REAUDIT"
+  },
+  "maximum_diameter": {
+    "installed_measured_pot_reference_mm": 241.21513055239188,
+    "limit_mm": 240.0,
+    "status": "FAIL_MAXIMUM_DIAMETER"
+  },
+  "final_conclusion": "The 116 mm ring supports the flange and passes the body, but the seated measured envelope intersects the shell/frame, exceeds the 240 mm installed envelope, and is incompatible with the existing M4/tool and 50 mm root-sleeve geometry."
+}

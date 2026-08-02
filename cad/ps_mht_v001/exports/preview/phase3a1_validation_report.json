@@ -1,0 +1,938 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3A.1",
+  "status": "CORRECTION_CAD_COMPLETE_CALIBRATION_PENDING",
+  "full_module_print_status": "DO_NOT_PRINT_UNTIL_CALIBRATION",
+  "baseline_audit_before": {
+    "phase1": {
+      "expected": {
+        "preview/phase1_validation_report.json": "ba75de5bf21577fa1a694ae98b9c4f43a07d32f9a0c764788588b8779e6b7192",
+        "preview/ps_mht_v001_full_tower_assembly_phase1.svg": "be65fa2910b1e45c2fc6087c8e909c995c71fca41e60e2612370d881f521b03f",
+        "step/ps_mht_v001_aluminum_frame_phase1.step": "73ed10e3ac6856015e65424673a31d1d57e52e635f13271c9439fdfe29a731a5",
+        "step/ps_mht_v001_full_tower_assembly_phase1.step": "ea38ed2b87cfb5830cc50866c35fe33df07da91ef276f973d92bd988394cc805",
+        "step/ps_mht_v001_planting_module_A.step": "a36d5216279f4a8c9ebaab93ec7e364d041c339a3f6670e615480cb0a7ce7da6",
+        "step/ps_mht_v001_tower_5_module_phase1.step": "03d9b4e7f031e127619eeafd18c9a3d4d27a3447bfa26e447706c1ca785478ef",
+        "stl/ps_mht_v001_planting_module_A.stl": "8f6074b8b984883d95413627832679636beda4cbf7986f06303abbabdc88298d"
+      },
+      "actual": {
+        "preview/phase1_validation_report.json": "ba75de5bf21577fa1a694ae98b9c4f43a07d32f9a0c764788588b8779e6b7192",
+        "preview/ps_mht_v001_full_tower_assembly_phase1.svg": "be65fa2910b1e45c2fc6087c8e909c995c71fca41e60e2612370d881f521b03f",
+        "step/ps_mht_v001_aluminum_frame_phase1.step": "73ed10e3ac6856015e65424673a31d1d57e52e635f13271c9439fdfe29a731a5",
+        "step/ps_mht_v001_full_tower_assembly_phase1.step": "ea38ed2b87cfb5830cc50866c35fe33df07da91ef276f973d92bd988394cc805",
+        "step/ps_mht_v001_planting_module_A.step": "a36d5216279f4a8c9ebaab93ec7e364d041c339a3f6670e615480cb0a7ce7da6",
+        "step/ps_mht_v001_tower_5_module_phase1.step": "03d9b4e7f031e127619eeafd18c9a3d4d27a3447bfa26e447706c1ca785478ef",
+        "stl/ps_mht_v001_planting_module_A.stl": "8f6074b8b984883d95413627832679636beda4cbf7986f06303abbabdc88298d"
+      },
+      "unchanged": true
+    },
+    "phase2": {
+      "expected": {
+        "preview/phase2_validation_report.json": "8099efa855b302f53cb72bafbe38cf272cd621b0856b255aacc5e45dae8ffe8e",
+        "preview/ps_mht_v001_module_interface_section_phase2.svg": "67a9d852a075354cdae47d675348f6bd531cbcb3f8d2415689486a95a88c3ae1",
+        "preview/ps_mht_v001_planting_module_interface_phase2.svg": "af05128462a5d0b11989ed7316d45f7de3b28152de4c1addeb2efa17825f7865",
+        "step/ps_mht_v001_exploded_interface_phase2.step": "f61748800ee84f777f20820ebe1542793066c2d745d4c4bd945a8651a8419739",
+        "step/ps_mht_v001_keepouts_reference_phase2.step": "98c51725ec4732a1414eed1d99f2c4d48300390ecac28c006e948926100dd225",
+        "step/ps_mht_v001_m4_insert_coupon_phase2.step": "67138fa89bfafc629d07d4e58cc3a268e3a26018ef4676b6c8a73134e3b01e61",
+        "step/ps_mht_v001_m4_nut_cartridge_phase2.step": "00acf54b9b44245d362f786e3a1461cb11597afac796e98e1d090622da7703e5",
+        "step/ps_mht_v001_m4_nut_cartridge_retainer_phase2.step": "01401a139c38f0d7d08d751900da96035c9e4fc085aef780f12a4c614ea08c4e",
+        "step/ps_mht_v001_module_gasket_cord_reference_phase2.step": "8da49649bcf10b3ac0f66ede6e40b59f445a269704fafde9987e46156f346f64",
+        "step/ps_mht_v001_module_interface_coupon_phase2.step": "03830cb11dfd8da7d557c5eb2418e2da96777415af850f5fc7486125f8e39df1",
+        "step/ps_mht_v001_module_pair_0deg_phase2.step": "eb51fda72ece5c9030a6e59c49433ccc43664e8eb964e012ae362e6a3ba565fb",
+        "step/ps_mht_v001_module_pair_60deg_phase2.step": "e6d8c58f16d64fd13e7be9d087bfba10688399a0c0626f0ba63faa5cd3bb9aac",
+        "step/ps_mht_v001_module_roundness_coupon_phase2.step": "eb03fa96c51ed512b97956070b9c5bd648fe7ef6713e4e90132e6f63f331b3e4",
+        "step/ps_mht_v001_planting_module_interface_phase2.step": "eb31bf8cfaa9b07ae92fab7776df359fa6f43f8164062dfb09c69b2938a17768",
+        "step/ps_mht_v001_tpu_gasket_coupon_phase2.step": "25f7d3c0144d9aff576f2b67e69f494c354e50bbf76407ab27ab5ccc43b0f095",
+        "stl/ps_mht_v001_m4_insert_coupon_phase2.stl": "951b7e3b08b647855b0fe80a2e7dfc043961a798f92efd90be331d5c72e4501a",
+        "stl/ps_mht_v001_m4_nut_cartridge_phase2.stl": "f0a6b290688c7fbd31fdf165adfe869fbf13f99ea64aded6682fb03e876be4b3",
+        "stl/ps_mht_v001_m4_nut_cartridge_retainer_phase2.stl": "f73e1ae269fa1ad738b827693a78f8ea3648bb5d1109b183dd585ca37c64a97e",
+        "stl/ps_mht_v001_module_interface_coupon_phase2.stl": "e5bbd98a8f9f2642a4cc728c21d32a64e35c468b93aa634386b5a77287ad070c",
+        "stl/ps_mht_v001_module_roundness_coupon_phase2.stl": "60a5228bdac20f7d15a1fef45c8a1ff0192f9e218eaa88845f6e18cf1e2af401",
+        "stl/ps_mht_v001_planting_module_interface_phase2.stl": "3f23d0e4b75a233ed730ddbee85a141c3517cd73ff29854dded4dfb71ebb463f",
+        "stl/ps_mht_v001_tpu_gasket_coupon_phase2.stl": "65215face1f04b1a56fd6f6e9510ce30e2c527b414879a5b4f3af39790b61ff5"
+      },
+      "actual": {
+        "preview/phase2_validation_report.json": "8099efa855b302f53cb72bafbe38cf272cd621b0856b255aacc5e45dae8ffe8e",
+        "preview/ps_mht_v001_module_interface_section_phase2.svg": "67a9d852a075354cdae47d675348f6bd531cbcb3f8d2415689486a95a88c3ae1",
+        "preview/ps_mht_v001_planting_module_interface_phase2.svg": "af05128462a5d0b11989ed7316d45f7de3b28152de4c1addeb2efa17825f7865",
+        "step/ps_mht_v001_exploded_interface_phase2.step": "f61748800ee84f777f20820ebe1542793066c2d745d4c4bd945a8651a8419739",
+        "step/ps_mht_v001_keepouts_reference_phase2.step": "98c51725ec4732a1414eed1d99f2c4d48300390ecac28c006e948926100dd225",
+        "step/ps_mht_v001_m4_insert_coupon_phase2.step": "67138fa89bfafc629d07d4e58cc3a268e3a26018ef4676b6c8a73134e3b01e61",
+        "step/ps_mht_v001_m4_nut_cartridge_phase2.step": "00acf54b9b44245d362f786e3a1461cb11597afac796e98e1d090622da7703e5",
+        "step/ps_mht_v001_m4_nut_cartridge_retainer_phase2.step": "01401a139c38f0d7d08d751900da96035c9e4fc085aef780f12a4c614ea08c4e",
+        "step/ps_mht_v001_module_gasket_cord_reference_phase2.step": "8da49649bcf10b3ac0f66ede6e40b59f445a269704fafde9987e46156f346f64",
+        "step/ps_mht_v001_module_interface_coupon_phase2.step": "03830cb11dfd8da7d557c5eb2418e2da96777415af850f5fc7486125f8e39df1",
+        "step/ps_mht_v001_module_pair_0deg_phase2.step": "eb51fda72ece5c9030a6e59c49433ccc43664e8eb964e012ae362e6a3ba565fb",
+        "step/ps_mht_v001_module_pair_60deg_phase2.step": "e6d8c58f16d64fd13e7be9d087bfba10688399a0c0626f0ba63faa5cd3bb9aac",
+        "step/ps_mht_v001_module_roundness_coupon_phase2.step": "eb03fa96c51ed512b97956070b9c5bd648fe7ef6713e4e90132e6f63f331b3e4",
+        "step/ps_mht_v001_planting_module_interface_phase2.step": "eb31bf8cfaa9b07ae92fab7776df359fa6f43f8164062dfb09c69b2938a17768",
+        "step/ps_mht_v001_tpu_gasket_coupon_phase2.step": "25f7d3c0144d9aff576f2b67e69f494c354e50bbf76407ab27ab5ccc43b0f095",
+        "stl/ps_mht_v001_m4_insert_coupon_phase2.stl": "951b7e3b08b647855b0fe80a2e7dfc043961a798f92efd90be331d5c72e4501a",
+        "stl/ps_mht_v001_m4_nut_cartridge_phase2.stl": "f0a6b290688c7fbd31fdf165adfe869fbf13f99ea64aded6682fb03e876be4b3",
+        "stl/ps_mht_v001_m4_nut_cartridge_retainer_phase2.stl": "f73e1ae269fa1ad738b827693a78f8ea3648bb5d1109b183dd585ca37c64a97e",
+        "stl/ps_mht_v001_module_interface_coupon_phase2.stl": "e5bbd98a8f9f2642a4cc728c21d32a64e35c468b93aa634386b5a77287ad070c",
+        "stl/ps_mht_v001_module_roundness_coupon_phase2.stl": "60a5228bdac20f7d15a1fef45c8a1ff0192f9e218eaa88845f6e18cf1e2af401",
+        "stl/ps_mht_v001_planting_module_interface_phase2.stl": "3f23d0e4b75a233ed730ddbee85a141c3517cd73ff29854dded4dfb71ebb463f",
+        "stl/ps_mht_v001_tpu_gasket_coupon_phase2.stl": "65215face1f04b1a56fd6f6e9510ce30e2c527b414879a5b4f3af39790b61ff5"
+      },
+      "unchanged": true
+    },
+    "phase3a": {
+      "expected": {
+        "preview/phase3a_validation_report.json": "fc58bd82149c550b7da5eb5a326875f239dc894de0c3e4930b871d3a178ef270",
+        "preview/ps_mht_v001_three_port_module_front_phase3a.svg": "bba49c7bb84838dd7819bc09dc937a415cc202b21ae8b42c98250efd654ddb07",
+        "preview/ps_mht_v001_three_port_module_isometric_phase3a.svg": "0b4a9f13ac68cc9ca37d63ad0aba9e5104d06e7db6b20053e4abb2e7cb2f447b",
+        "ps_mht_v001_phase3a_delivery.zip": "7003f913ae8ff684cac1829fdfad22d76d8ba3e032df4d54f3ca9db53c0384f6",
+        "step/ps_mht_v001_angled_port_print_coupon_phase3a.step": "719d9cb47186f4d50ceebf280f1a8c7795029986f8c439c527df461d28cf183a",
+        "step/ps_mht_v001_blank_port_cap_phase3a.step": "5408ca67e6837844406dd3a821afb635b2edff752c58834bb85a5e071d3146a0",
+        "step/ps_mht_v001_gasket_compression_leak_coupon_phase3a.step": "dbcf142a5fe7201261eb17f377336c81e3f79806d59ed8ecbc95678f24dcab2f",
+        "step/ps_mht_v001_index_key_fit_coupon_phase3a.step": "2b363054fe7dcff32304f3e102f46ab77954bf7faa2f6fae37eb415db12e61d8",
+        "step/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.step": "9fe70a28c2fc239015787fb8db6b0ac5e6f2ba00b72f7f49842cb840a7f13092",
+        "step/ps_mht_v001_netpot_60_adapter_phase3a.step": "813cbb4e498ba70a50b0b3ac8cef276af8e3f3b9ce18677d8bc91a5510255a10",
+        "step/ps_mht_v001_netpot_adapter_coupon_phase3a.step": "dcef96c2e07c41807674cdb6b6c042835d55b9eedd99fd33318b9f39f24e5331",
+        "step/ps_mht_v001_netpot_reference_PURCHASED_PART_phase3a.step": "be8b67b2763f267cff0aab565719cafaed38ccf2aa022f1835dcdc28e1e3195f",
+        "step/ps_mht_v001_planting_port_adapter_phase3a.step": "53e007172f5818b7ea0d0ef53bf28530766c5505f884db25c9b173cef960529e",
+        "step/ps_mht_v001_planting_port_phase3a.step": "fd64785e872d04a5c507c9144f71d85ddc9198b39df997255d0b2a13d9c0ad11",
+        "step/ps_mht_v001_port_adapter_gasket_phase3a.step": "7d32432fe04f2dfc63a03cecde76554d524abf943ebed4b93fec07e4965732ea",
+        "step/ps_mht_v001_port_adapter_retainer_phase3a.step": "37d3b5c26fc21213d4ece6e49a2f91bcd36ba9c9ad4b02b29cb359c658304105",
+        "step/ps_mht_v001_port_exploded_phase3a.step": "7456ed3f5a10dbaa5e3620f2384d9a5567d5540ea46898bb07d8dc4a3073a4fb",
+        "step/ps_mht_v001_port_receiver_adapter_coupon_phase3a.step": "dc6ffeeea8302553d3a2468f3c337b77d04b9fd890b5b7849cba2c5eaf7e2a8e",
+        "step/ps_mht_v001_port_service_sweeps_phase3a.step": "cfd717f3cfeaa30251f5801463b89f472565a7ef3ab07cec6ea0dd7e7655651c",
+        "step/ps_mht_v001_root_sleeve_collapsed_reference_PURCHASED_PART_phase3a.step": "9461a6fd4731888246a9afdc8cb2765ad2979c55a94a46b1393428a774aec0dc",
+        "step/ps_mht_v001_root_sleeve_expanded_reference_PURCHASED_PART_phase3a.step": "1150d1a2e956fb8890f07839dbc039b2d12e9b2cec86cff1d1ffed07c08170fa",
+        "step/ps_mht_v001_root_sleeve_retaining_ring_phase3a.step": "fa1f550e7eee27cfdb12751482f8b6464c7b1d71b0da36760c397929fb853bb1",
+        "step/ps_mht_v001_root_stop_insert_phase3a.step": "52e8dd8b4ecbb4a3dcf24436a8e6fbc4480d5806d750eeec4ad2b3c54a854f00",
+        "step/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.step": "29aef46be5f968f8ed7b33a2eac5b3d7ad8e370728b920b6ec908352fe899b8a",
+        "stl/ps_mht_v001_angled_port_print_coupon_phase3a.stl": "f077dff23088ecd287936659dd190f3e25d3ea066772a5a6a3abccfb23b8c809",
+        "stl/ps_mht_v001_blank_port_cap_phase3a.stl": "87a6564f221d3cb1179609d08677103d9729a9ec98e97d2ea5596d2800956bd2",
+        "stl/ps_mht_v001_gasket_compression_leak_coupon_phase3a.stl": "3fbaf39ebfcabea59c114b76bc698e10995051f5ae72d2fec065007f478d415e",
+        "stl/ps_mht_v001_index_key_fit_coupon_phase3a.stl": "3ab4066530d6d9e826bcae46a7e874c5b203ea52bb61d355f8b4f915aee13ff9",
+        "stl/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.stl": "36f1cffea481c5af04020521175f2227c3e62a78c9a7b9fbb7c197a05ac6cf55",
+        "stl/ps_mht_v001_netpot_60_adapter_phase3a.stl": "954b4b19285b2104788b1ef3c4d182af2472a5461d857c7eeb9699c5759a809d",
+        "stl/ps_mht_v001_netpot_adapter_coupon_phase3a.stl": "bcaa9c517232d8032c6518829cf2c2e94fd4762900c563516437021edd4adee0",
+        "stl/ps_mht_v001_planting_port_adapter_phase3a.stl": "74b4d244f7b44945aac9d440fd9a78bd31b766467a266d48cf03f5a3d57f9bba",
+        "stl/ps_mht_v001_planting_port_phase3a.stl": "d794c989d38d1b4e3be6c242c64c7ac8585be2075722fbc2e53aca5516167163",
+        "stl/ps_mht_v001_port_adapter_gasket_phase3a.stl": "18a815a21faa9aea25f24ada7e28e125b2699187c67c3b02ce9b35f513a38bb2",
+        "stl/ps_mht_v001_port_adapter_retainer_phase3a.stl": "ec79e25c53f051cb0c152ce7f76abdf153ab798c371590cb9cbc235ac670978a",
+        "stl/ps_mht_v001_port_receiver_adapter_coupon_phase3a.stl": "62f846a90336ddd4da08b72a4ca8885feabc8ea65f8facdb745701b9845bd984",
+        "stl/ps_mht_v001_root_sleeve_retaining_ring_phase3a.stl": "08d3e4c9862eba9aef32da60c0beaaf51dfd35764f71f36837bf6326425cb3b8",
+        "stl/ps_mht_v001_root_stop_insert_phase3a.stl": "24fd2c2030be8cd8b80bf7d30c002d213c23a034f121485492f4ab7c7eb68ba2",
+        "stl/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.stl": "f85972021f4499402ab7e2e3ffef3acb9c79fd5a48c60bdadf2be3f0e882c5bb"
+      },
+      "actual": {
+        "preview/phase3a_validation_report.json": "fc58bd82149c550b7da5eb5a326875f239dc894de0c3e4930b871d3a178ef270",
+        "preview/ps_mht_v001_three_port_module_front_phase3a.svg": "bba49c7bb84838dd7819bc09dc937a415cc202b21ae8b42c98250efd654ddb07",
+        "preview/ps_mht_v001_three_port_module_isometric_phase3a.svg": "0b4a9f13ac68cc9ca37d63ad0aba9e5104d06e7db6b20053e4abb2e7cb2f447b",
+        "ps_mht_v001_phase3a_delivery.zip": "7003f913ae8ff684cac1829fdfad22d76d8ba3e032df4d54f3ca9db53c0384f6",
+        "step/ps_mht_v001_angled_port_print_coupon_phase3a.step": "719d9cb47186f4d50ceebf280f1a8c7795029986f8c439c527df461d28cf183a",
+        "step/ps_mht_v001_blank_port_cap_phase3a.step": "5408ca67e6837844406dd3a821afb635b2edff752c58834bb85a5e071d3146a0",
+        "step/ps_mht_v001_gasket_compression_leak_coupon_phase3a.step": "dbcf142a5fe7201261eb17f377336c81e3f79806d59ed8ecbc95678f24dcab2f",
+        "step/ps_mht_v001_index_key_fit_coupon_phase3a.step": "2b363054fe7dcff32304f3e102f46ab77954bf7faa2f6fae37eb415db12e61d8",
+        "step/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.step": "9fe70a28c2fc239015787fb8db6b0ac5e6f2ba00b72f7f49842cb840a7f13092",
+        "step/ps_mht_v001_netpot_60_adapter_phase3a.step": "813cbb4e498ba70a50b0b3ac8cef276af8e3f3b9ce18677d8bc91a5510255a10",
+        "step/ps_mht_v001_netpot_adapter_coupon_phase3a.step": "dcef96c2e07c41807674cdb6b6c042835d55b9eedd99fd33318b9f39f24e5331",
+        "step/ps_mht_v001_netpot_reference_PURCHASED_PART_phase3a.step": "be8b67b2763f267cff0aab565719cafaed38ccf2aa022f1835dcdc28e1e3195f",
+        "step/ps_mht_v001_planting_port_adapter_phase3a.step": "53e007172f5818b7ea0d0ef53bf28530766c5505f884db25c9b173cef960529e",
+        "step/ps_mht_v001_planting_port_phase3a.step": "fd64785e872d04a5c507c9144f71d85ddc9198b39df997255d0b2a13d9c0ad11",
+        "step/ps_mht_v001_port_adapter_gasket_phase3a.step": "7d32432fe04f2dfc63a03cecde76554d524abf943ebed4b93fec07e4965732ea",
+        "step/ps_mht_v001_port_adapter_retainer_phase3a.step": "37d3b5c26fc21213d4ece6e49a2f91bcd36ba9c9ad4b02b29cb359c658304105",
+        "step/ps_mht_v001_port_exploded_phase3a.step": "7456ed3f5a10dbaa5e3620f2384d9a5567d5540ea46898bb07d8dc4a3073a4fb",
+        "step/ps_mht_v001_port_receiver_adapter_coupon_phase3a.step": "dc6ffeeea8302553d3a2468f3c337b77d04b9fd890b5b7849cba2c5eaf7e2a8e",
+        "step/ps_mht_v001_port_service_sweeps_phase3a.step": "cfd717f3cfeaa30251f5801463b89f472565a7ef3ab07cec6ea0dd7e7655651c",
+        "step/ps_mht_v001_root_sleeve_collapsed_reference_PURCHASED_PART_phase3a.step": "9461a6fd4731888246a9afdc8cb2765ad2979c55a94a46b1393428a774aec0dc",
+        "step/ps_mht_v001_root_sleeve_expanded_reference_PURCHASED_PART_phase3a.step": "1150d1a2e956fb8890f07839dbc039b2d12e9b2cec86cff1d1ffed07c08170fa",
+        "step/ps_mht_v001_root_sleeve_retaining_ring_phase3a.step": "fa1f550e7eee27cfdb12751482f8b6464c7b1d71b0da36760c397929fb853bb1",
+        "step/ps_mht_v001_root_stop_insert_phase3a.step": "52e8dd8b4ecbb4a3dcf24436a8e6fbc4480d5806d750eeec4ad2b3c54a854f00",
+        "step/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.step": "29aef46be5f968f8ed7b33a2eac5b3d7ad8e370728b920b6ec908352fe899b8a",
+        "stl/ps_mht_v001_angled_port_print_coupon_phase3a.stl": "f077dff23088ecd287936659dd190f3e25d3ea066772a5a6a3abccfb23b8c809",
+        "stl/ps_mht_v001_blank_port_cap_phase3a.stl": "87a6564f221d3cb1179609d08677103d9729a9ec98e97d2ea5596d2800956bd2",
+        "stl/ps_mht_v001_gasket_compression_leak_coupon_phase3a.stl": "3fbaf39ebfcabea59c114b76bc698e10995051f5ae72d2fec065007f478d415e",
+        "stl/ps_mht_v001_index_key_fit_coupon_phase3a.stl": "3ab4066530d6d9e826bcae46a7e874c5b203ea52bb61d355f8b4f915aee13ff9",
+        "stl/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.stl": "36f1cffea481c5af04020521175f2227c3e62a78c9a7b9fbb7c197a05ac6cf55",
+        "stl/ps_mht_v001_netpot_60_adapter_phase3a.stl": "954b4b19285b2104788b1ef3c4d182af2472a5461d857c7eeb9699c5759a809d",
+        "stl/ps_mht_v001_netpot_adapter_coupon_phase3a.stl": "bcaa9c517232d8032c6518829cf2c2e94fd4762900c563516437021edd4adee0",
+        "stl/ps_mht_v001_planting_port_adapter_phase3a.stl": "74b4d244f7b44945aac9d440fd9a78bd31b766467a266d48cf03f5a3d57f9bba",
+        "stl/ps_mht_v001_planting_port_phase3a.stl": "d794c989d38d1b4e3be6c242c64c7ac8585be2075722fbc2e53aca5516167163",
+        "stl/ps_mht_v001_port_adapter_gasket_phase3a.stl": "18a815a21faa9aea25f24ada7e28e125b2699187c67c3b02ce9b35f513a38bb2",
+        "stl/ps_mht_v001_port_adapter_retainer_phase3a.stl": "ec79e25c53f051cb0c152ce7f76abdf153ab798c371590cb9cbc235ac670978a",
+        "stl/ps_mht_v001_port_receiver_adapter_coupon_phase3a.stl": "62f846a90336ddd4da08b72a4ca8885feabc8ea65f8facdb745701b9845bd984",
+        "stl/ps_mht_v001_root_sleeve_retaining_ring_phase3a.stl": "08d3e4c9862eba9aef32da60c0beaaf51dfd35764f71f36837bf6326425cb3b8",
+        "stl/ps_mht_v001_root_stop_insert_phase3a.stl": "24fd2c2030be8cd8b80bf7d30c002d213c23a034f121485492f4ab7c7eb68ba2",
+        "stl/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.stl": "f85972021f4499402ab7e2e3ffef3acb9c79fd5a48c60bdadf2be3f0e882c5bb"
+      },
+      "unchanged": true
+    }
+  },
+  "baseline_audit_after": {
+    "phase1": {
+      "expected": {
+        "preview/phase1_validation_report.json": "ba75de5bf21577fa1a694ae98b9c4f43a07d32f9a0c764788588b8779e6b7192",
+        "preview/ps_mht_v001_full_tower_assembly_phase1.svg": "be65fa2910b1e45c2fc6087c8e909c995c71fca41e60e2612370d881f521b03f",
+        "step/ps_mht_v001_aluminum_frame_phase1.step": "73ed10e3ac6856015e65424673a31d1d57e52e635f13271c9439fdfe29a731a5",
+        "step/ps_mht_v001_full_tower_assembly_phase1.step": "ea38ed2b87cfb5830cc50866c35fe33df07da91ef276f973d92bd988394cc805",
+        "step/ps_mht_v001_planting_module_A.step": "a36d5216279f4a8c9ebaab93ec7e364d041c339a3f6670e615480cb0a7ce7da6",
+        "step/ps_mht_v001_tower_5_module_phase1.step": "03d9b4e7f031e127619eeafd18c9a3d4d27a3447bfa26e447706c1ca785478ef",
+        "stl/ps_mht_v001_planting_module_A.stl": "8f6074b8b984883d95413627832679636beda4cbf7986f06303abbabdc88298d"
+      },
+      "actual": {
+        "preview/phase1_validation_report.json": "ba75de5bf21577fa1a694ae98b9c4f43a07d32f9a0c764788588b8779e6b7192",
+        "preview/ps_mht_v001_full_tower_assembly_phase1.svg": "be65fa2910b1e45c2fc6087c8e909c995c71fca41e60e2612370d881f521b03f",
+        "step/ps_mht_v001_aluminum_frame_phase1.step": "73ed10e3ac6856015e65424673a31d1d57e52e635f13271c9439fdfe29a731a5",
+        "step/ps_mht_v001_full_tower_assembly_phase1.step": "ea38ed2b87cfb5830cc50866c35fe33df07da91ef276f973d92bd988394cc805",
+        "step/ps_mht_v001_planting_module_A.step": "a36d5216279f4a8c9ebaab93ec7e364d041c339a3f6670e615480cb0a7ce7da6",
+        "step/ps_mht_v001_tower_5_module_phase1.step": "03d9b4e7f031e127619eeafd18c9a3d4d27a3447bfa26e447706c1ca785478ef",
+        "stl/ps_mht_v001_planting_module_A.stl": "8f6074b8b984883d95413627832679636beda4cbf7986f06303abbabdc88298d"
+      },
+      "unchanged": true
+    },
+    "phase2": {
+      "expected": {
+        "preview/phase2_validation_report.json": "8099efa855b302f53cb72bafbe38cf272cd621b0856b255aacc5e45dae8ffe8e",
+        "preview/ps_mht_v001_module_interface_section_phase2.svg": "67a9d852a075354cdae47d675348f6bd531cbcb3f8d2415689486a95a88c3ae1",
+        "preview/ps_mht_v001_planting_module_interface_phase2.svg": "af05128462a5d0b11989ed7316d45f7de3b28152de4c1addeb2efa17825f7865",
+        "step/ps_mht_v001_exploded_interface_phase2.step": "f61748800ee84f777f20820ebe1542793066c2d745d4c4bd945a8651a8419739",
+        "step/ps_mht_v001_keepouts_reference_phase2.step": "98c51725ec4732a1414eed1d99f2c4d48300390ecac28c006e948926100dd225",
+        "step/ps_mht_v001_m4_insert_coupon_phase2.step": "67138fa89bfafc629d07d4e58cc3a268e3a26018ef4676b6c8a73134e3b01e61",
+        "step/ps_mht_v001_m4_nut_cartridge_phase2.step": "00acf54b9b44245d362f786e3a1461cb11597afac796e98e1d090622da7703e5",
+        "step/ps_mht_v001_m4_nut_cartridge_retainer_phase2.step": "01401a139c38f0d7d08d751900da96035c9e4fc085aef780f12a4c614ea08c4e",
+        "step/ps_mht_v001_module_gasket_cord_reference_phase2.step": "8da49649bcf10b3ac0f66ede6e40b59f445a269704fafde9987e46156f346f64",
+        "step/ps_mht_v001_module_interface_coupon_phase2.step": "03830cb11dfd8da7d557c5eb2418e2da96777415af850f5fc7486125f8e39df1",
+        "step/ps_mht_v001_module_pair_0deg_phase2.step": "eb51fda72ece5c9030a6e59c49433ccc43664e8eb964e012ae362e6a3ba565fb",
+        "step/ps_mht_v001_module_pair_60deg_phase2.step": "e6d8c58f16d64fd13e7be9d087bfba10688399a0c0626f0ba63faa5cd3bb9aac",
+        "step/ps_mht_v001_module_roundness_coupon_phase2.step": "eb03fa96c51ed512b97956070b9c5bd648fe7ef6713e4e90132e6f63f331b3e4",
+        "step/ps_mht_v001_planting_module_interface_phase2.step": "eb31bf8cfaa9b07ae92fab7776df359fa6f43f8164062dfb09c69b2938a17768",
+        "step/ps_mht_v001_tpu_gasket_coupon_phase2.step": "25f7d3c0144d9aff576f2b67e69f494c354e50bbf76407ab27ab5ccc43b0f095",
+        "stl/ps_mht_v001_m4_insert_coupon_phase2.stl": "951b7e3b08b647855b0fe80a2e7dfc043961a798f92efd90be331d5c72e4501a",
+        "stl/ps_mht_v001_m4_nut_cartridge_phase2.stl": "f0a6b290688c7fbd31fdf165adfe869fbf13f99ea64aded6682fb03e876be4b3",
+        "stl/ps_mht_v001_m4_nut_cartridge_retainer_phase2.stl": "f73e1ae269fa1ad738b827693a78f8ea3648bb5d1109b183dd585ca37c64a97e",
+        "stl/ps_mht_v001_module_interface_coupon_phase2.stl": "e5bbd98a8f9f2642a4cc728c21d32a64e35c468b93aa634386b5a77287ad070c",
+        "stl/ps_mht_v001_module_roundness_coupon_phase2.stl": "60a5228bdac20f7d15a1fef45c8a1ff0192f9e218eaa88845f6e18cf1e2af401",
+        "stl/ps_mht_v001_planting_module_interface_phase2.stl": "3f23d0e4b75a233ed730ddbee85a141c3517cd73ff29854dded4dfb71ebb463f",
+        "stl/ps_mht_v001_tpu_gasket_coupon_phase2.stl": "65215face1f04b1a56fd6f6e9510ce30e2c527b414879a5b4f3af39790b61ff5"
+      },
+      "actual": {
+        "preview/phase2_validation_report.json": "8099efa855b302f53cb72bafbe38cf272cd621b0856b255aacc5e45dae8ffe8e",
+        "preview/ps_mht_v001_module_interface_section_phase2.svg": "67a9d852a075354cdae47d675348f6bd531cbcb3f8d2415689486a95a88c3ae1",
+        "preview/ps_mht_v001_planting_module_interface_phase2.svg": "af05128462a5d0b11989ed7316d45f7de3b28152de4c1addeb2efa17825f7865",
+        "step/ps_mht_v001_exploded_interface_phase2.step": "f61748800ee84f777f20820ebe1542793066c2d745d4c4bd945a8651a8419739",
+        "step/ps_mht_v001_keepouts_reference_phase2.step": "98c51725ec4732a1414eed1d99f2c4d48300390ecac28c006e948926100dd225",
+        "step/ps_mht_v001_m4_insert_coupon_phase2.step": "67138fa89bfafc629d07d4e58cc3a268e3a26018ef4676b6c8a73134e3b01e61",
+        "step/ps_mht_v001_m4_nut_cartridge_phase2.step": "00acf54b9b44245d362f786e3a1461cb11597afac796e98e1d090622da7703e5",
+        "step/ps_mht_v001_m4_nut_cartridge_retainer_phase2.step": "01401a139c38f0d7d08d751900da96035c9e4fc085aef780f12a4c614ea08c4e",
+        "step/ps_mht_v001_module_gasket_cord_reference_phase2.step": "8da49649bcf10b3ac0f66ede6e40b59f445a269704fafde9987e46156f346f64",
+        "step/ps_mht_v001_module_interface_coupon_phase2.step": "03830cb11dfd8da7d557c5eb2418e2da96777415af850f5fc7486125f8e39df1",
+        "step/ps_mht_v001_module_pair_0deg_phase2.step": "eb51fda72ece5c9030a6e59c49433ccc43664e8eb964e012ae362e6a3ba565fb",
+        "step/ps_mht_v001_module_pair_60deg_phase2.step": "e6d8c58f16d64fd13e7be9d087bfba10688399a0c0626f0ba63faa5cd3bb9aac",
+        "step/ps_mht_v001_module_roundness_coupon_phase2.step": "eb03fa96c51ed512b97956070b9c5bd648fe7ef6713e4e90132e6f63f331b3e4",
+        "step/ps_mht_v001_planting_module_interface_phase2.step": "eb31bf8cfaa9b07ae92fab7776df359fa6f43f8164062dfb09c69b2938a17768",
+        "step/ps_mht_v001_tpu_gasket_coupon_phase2.step": "25f7d3c0144d9aff576f2b67e69f494c354e50bbf76407ab27ab5ccc43b0f095",
+        "stl/ps_mht_v001_m4_insert_coupon_phase2.stl": "951b7e3b08b647855b0fe80a2e7dfc043961a798f92efd90be331d5c72e4501a",
+        "stl/ps_mht_v001_m4_nut_cartridge_phase2.stl": "f0a6b290688c7fbd31fdf165adfe869fbf13f99ea64aded6682fb03e876be4b3",
+        "stl/ps_mht_v001_m4_nut_cartridge_retainer_phase2.stl": "f73e1ae269fa1ad738b827693a78f8ea3648bb5d1109b183dd585ca37c64a97e",
+        "stl/ps_mht_v001_module_interface_coupon_phase2.stl": "e5bbd98a8f9f2642a4cc728c21d32a64e35c468b93aa634386b5a77287ad070c",
+        "stl/ps_mht_v001_module_roundness_coupon_phase2.stl": "60a5228bdac20f7d15a1fef45c8a1ff0192f9e218eaa88845f6e18cf1e2af401",
+        "stl/ps_mht_v001_planting_module_interface_phase2.stl": "3f23d0e4b75a233ed730ddbee85a141c3517cd73ff29854dded4dfb71ebb463f",
+        "stl/ps_mht_v001_tpu_gasket_coupon_phase2.stl": "65215face1f04b1a56fd6f6e9510ce30e2c527b414879a5b4f3af39790b61ff5"
+      },
+      "unchanged": true
+    },
+    "phase3a": {
+      "expected": {
+        "preview/phase3a_validation_report.json": "fc58bd82149c550b7da5eb5a326875f239dc894de0c3e4930b871d3a178ef270",
+        "preview/ps_mht_v001_three_port_module_front_phase3a.svg": "bba49c7bb84838dd7819bc09dc937a415cc202b21ae8b42c98250efd654ddb07",
+        "preview/ps_mht_v001_three_port_module_isometric_phase3a.svg": "0b4a9f13ac68cc9ca37d63ad0aba9e5104d06e7db6b20053e4abb2e7cb2f447b",
+        "ps_mht_v001_phase3a_delivery.zip": "7003f913ae8ff684cac1829fdfad22d76d8ba3e032df4d54f3ca9db53c0384f6",
+        "step/ps_mht_v001_angled_port_print_coupon_phase3a.step": "719d9cb47186f4d50ceebf280f1a8c7795029986f8c439c527df461d28cf183a",
+        "step/ps_mht_v001_blank_port_cap_phase3a.step": "5408ca67e6837844406dd3a821afb635b2edff752c58834bb85a5e071d3146a0",
+        "step/ps_mht_v001_gasket_compression_leak_coupon_phase3a.step": "dbcf142a5fe7201261eb17f377336c81e3f79806d59ed8ecbc95678f24dcab2f",
+        "step/ps_mht_v001_index_key_fit_coupon_phase3a.step": "2b363054fe7dcff32304f3e102f46ab77954bf7faa2f6fae37eb415db12e61d8",
+        "step/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.step": "9fe70a28c2fc239015787fb8db6b0ac5e6f2ba00b72f7f49842cb840a7f13092",
+        "step/ps_mht_v001_netpot_60_adapter_phase3a.step": "813cbb4e498ba70a50b0b3ac8cef276af8e3f3b9ce18677d8bc91a5510255a10",
+        "step/ps_mht_v001_netpot_adapter_coupon_phase3a.step": "dcef96c2e07c41807674cdb6b6c042835d55b9eedd99fd33318b9f39f24e5331",
+        "step/ps_mht_v001_netpot_reference_PURCHASED_PART_phase3a.step": "be8b67b2763f267cff0aab565719cafaed38ccf2aa022f1835dcdc28e1e3195f",
+        "step/ps_mht_v001_planting_port_adapter_phase3a.step": "53e007172f5818b7ea0d0ef53bf28530766c5505f884db25c9b173cef960529e",
+        "step/ps_mht_v001_planting_port_phase3a.step": "fd64785e872d04a5c507c9144f71d85ddc9198b39df997255d0b2a13d9c0ad11",
+        "step/ps_mht_v001_port_adapter_gasket_phase3a.step": "7d32432fe04f2dfc63a03cecde76554d524abf943ebed4b93fec07e4965732ea",
+        "step/ps_mht_v001_port_adapter_retainer_phase3a.step": "37d3b5c26fc21213d4ece6e49a2f91bcd36ba9c9ad4b02b29cb359c658304105",
+        "step/ps_mht_v001_port_exploded_phase3a.step": "7456ed3f5a10dbaa5e3620f2384d9a5567d5540ea46898bb07d8dc4a3073a4fb",
+        "step/ps_mht_v001_port_receiver_adapter_coupon_phase3a.step": "dc6ffeeea8302553d3a2468f3c337b77d04b9fd890b5b7849cba2c5eaf7e2a8e",
+        "step/ps_mht_v001_port_service_sweeps_phase3a.step": "cfd717f3cfeaa30251f5801463b89f472565a7ef3ab07cec6ea0dd7e7655651c",
+        "step/ps_mht_v001_root_sleeve_collapsed_reference_PURCHASED_PART_phase3a.step": "9461a6fd4731888246a9afdc8cb2765ad2979c55a94a46b1393428a774aec0dc",
+        "step/ps_mht_v001_root_sleeve_expanded_reference_PURCHASED_PART_phase3a.step": "1150d1a2e956fb8890f07839dbc039b2d12e9b2cec86cff1d1ffed07c08170fa",
+        "step/ps_mht_v001_root_sleeve_retaining_ring_phase3a.step": "fa1f550e7eee27cfdb12751482f8b6464c7b1d71b0da36760c397929fb853bb1",
+        "step/ps_mht_v001_root_stop_insert_phase3a.step": "52e8dd8b4ecbb4a3dcf24436a8e6fbc4480d5806d750eeec4ad2b3c54a854f00",
+        "step/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.step": "29aef46be5f968f8ed7b33a2eac5b3d7ad8e370728b920b6ec908352fe899b8a",
+        "stl/ps_mht_v001_angled_port_print_coupon_phase3a.stl": "f077dff23088ecd287936659dd190f3e25d3ea066772a5a6a3abccfb23b8c809",
+        "stl/ps_mht_v001_blank_port_cap_phase3a.stl": "87a6564f221d3cb1179609d08677103d9729a9ec98e97d2ea5596d2800956bd2",
+        "stl/ps_mht_v001_gasket_compression_leak_coupon_phase3a.stl": "3fbaf39ebfcabea59c114b76bc698e10995051f5ae72d2fec065007f478d415e",
+        "stl/ps_mht_v001_index_key_fit_coupon_phase3a.stl": "3ab4066530d6d9e826bcae46a7e874c5b203ea52bb61d355f8b4f915aee13ff9",
+        "stl/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.stl": "36f1cffea481c5af04020521175f2227c3e62a78c9a7b9fbb7c197a05ac6cf55",
+        "stl/ps_mht_v001_netpot_60_adapter_phase3a.stl": "954b4b19285b2104788b1ef3c4d182af2472a5461d857c7eeb9699c5759a809d",
+        "stl/ps_mht_v001_netpot_adapter_coupon_phase3a.stl": "bcaa9c517232d8032c6518829cf2c2e94fd4762900c563516437021edd4adee0",
+        "stl/ps_mht_v001_planting_port_adapter_phase3a.stl": "74b4d244f7b44945aac9d440fd9a78bd31b766467a266d48cf03f5a3d57f9bba",
+        "stl/ps_mht_v001_planting_port_phase3a.stl": "d794c989d38d1b4e3be6c242c64c7ac8585be2075722fbc2e53aca5516167163",
+        "stl/ps_mht_v001_port_adapter_gasket_phase3a.stl": "18a815a21faa9aea25f24ada7e28e125b2699187c67c3b02ce9b35f513a38bb2",
+        "stl/ps_mht_v001_port_adapter_retainer_phase3a.stl": "ec79e25c53f051cb0c152ce7f76abdf153ab798c371590cb9cbc235ac670978a",
+        "stl/ps_mht_v001_port_receiver_adapter_coupon_phase3a.stl": "62f846a90336ddd4da08b72a4ca8885feabc8ea65f8facdb745701b9845bd984",
+        "stl/ps_mht_v001_root_sleeve_retaining_ring_phase3a.stl": "08d3e4c9862eba9aef32da60c0beaaf51dfd35764f71f36837bf6326425cb3b8",
+        "stl/ps_mht_v001_root_stop_insert_phase3a.stl": "24fd2c2030be8cd8b80bf7d30c002d213c23a034f121485492f4ab7c7eb68ba2",
+        "stl/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.stl": "f85972021f4499402ab7e2e3ffef3acb9c79fd5a48c60bdadf2be3f0e882c5bb"
+      },
+      "actual": {
+        "preview/phase3a_validation_report.json": "fc58bd82149c550b7da5eb5a326875f239dc894de0c3e4930b871d3a178ef270",
+        "preview/ps_mht_v001_three_port_module_front_phase3a.svg": "bba49c7bb84838dd7819bc09dc937a415cc202b21ae8b42c98250efd654ddb07",
+        "preview/ps_mht_v001_three_port_module_isometric_phase3a.svg": "0b4a9f13ac68cc9ca37d63ad0aba9e5104d06e7db6b20053e4abb2e7cb2f447b",
+        "ps_mht_v001_phase3a_delivery.zip": "7003f913ae8ff684cac1829fdfad22d76d8ba3e032df4d54f3ca9db53c0384f6",
+        "step/ps_mht_v001_angled_port_print_coupon_phase3a.step": "719d9cb47186f4d50ceebf280f1a8c7795029986f8c439c527df461d28cf183a",
+        "step/ps_mht_v001_blank_port_cap_phase3a.step": "5408ca67e6837844406dd3a821afb635b2edff752c58834bb85a5e071d3146a0",
+        "step/ps_mht_v001_gasket_compression_leak_coupon_phase3a.step": "dbcf142a5fe7201261eb17f377336c81e3f79806d59ed8ecbc95678f24dcab2f",
+        "step/ps_mht_v001_index_key_fit_coupon_phase3a.step": "2b363054fe7dcff32304f3e102f46ab77954bf7faa2f6fae37eb415db12e61d8",
+        "step/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.step": "9fe70a28c2fc239015787fb8db6b0ac5e6f2ba00b72f7f49842cb840a7f13092",
+        "step/ps_mht_v001_netpot_60_adapter_phase3a.step": "813cbb4e498ba70a50b0b3ac8cef276af8e3f3b9ce18677d8bc91a5510255a10",
+        "step/ps_mht_v001_netpot_adapter_coupon_phase3a.step": "dcef96c2e07c41807674cdb6b6c042835d55b9eedd99fd33318b9f39f24e5331",
+        "step/ps_mht_v001_netpot_reference_PURCHASED_PART_phase3a.step": "be8b67b2763f267cff0aab565719cafaed38ccf2aa022f1835dcdc28e1e3195f",
+        "step/ps_mht_v001_planting_port_adapter_phase3a.step": "53e007172f5818b7ea0d0ef53bf28530766c5505f884db25c9b173cef960529e",
+        "step/ps_mht_v001_planting_port_phase3a.step": "fd64785e872d04a5c507c9144f71d85ddc9198b39df997255d0b2a13d9c0ad11",
+        "step/ps_mht_v001_port_adapter_gasket_phase3a.step": "7d32432fe04f2dfc63a03cecde76554d524abf943ebed4b93fec07e4965732ea",
+        "step/ps_mht_v001_port_adapter_retainer_phase3a.step": "37d3b5c26fc21213d4ece6e49a2f91bcd36ba9c9ad4b02b29cb359c658304105",
+        "step/ps_mht_v001_port_exploded_phase3a.step": "7456ed3f5a10dbaa5e3620f2384d9a5567d5540ea46898bb07d8dc4a3073a4fb",
+        "step/ps_mht_v001_port_receiver_adapter_coupon_phase3a.step": "dc6ffeeea8302553d3a2468f3c337b77d04b9fd890b5b7849cba2c5eaf7e2a8e",
+        "step/ps_mht_v001_port_service_sweeps_phase3a.step": "cfd717f3cfeaa30251f5801463b89f472565a7ef3ab07cec6ea0dd7e7655651c",
+        "step/ps_mht_v001_root_sleeve_collapsed_reference_PURCHASED_PART_phase3a.step": "9461a6fd4731888246a9afdc8cb2765ad2979c55a94a46b1393428a774aec0dc",
+        "step/ps_mht_v001_root_sleeve_expanded_reference_PURCHASED_PART_phase3a.step": "1150d1a2e956fb8890f07839dbc039b2d12e9b2cec86cff1d1ffed07c08170fa",
+        "step/ps_mht_v001_root_sleeve_retaining_ring_phase3a.step": "fa1f550e7eee27cfdb12751482f8b6464c7b1d71b0da36760c397929fb853bb1",
+        "step/ps_mht_v001_root_stop_insert_phase3a.step": "52e8dd8b4ecbb4a3dcf24436a8e6fbc4480d5806d750eeec4ad2b3c54a854f00",
+        "step/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.step": "29aef46be5f968f8ed7b33a2eac5b3d7ad8e370728b920b6ec908352fe899b8a",
+        "stl/ps_mht_v001_angled_port_print_coupon_phase3a.stl": "f077dff23088ecd287936659dd190f3e25d3ea066772a5a6a3abccfb23b8c809",
+        "stl/ps_mht_v001_blank_port_cap_phase3a.stl": "87a6564f221d3cb1179609d08677103d9729a9ec98e97d2ea5596d2800956bd2",
+        "stl/ps_mht_v001_gasket_compression_leak_coupon_phase3a.stl": "3fbaf39ebfcabea59c114b76bc698e10995051f5ae72d2fec065007f478d415e",
+        "stl/ps_mht_v001_index_key_fit_coupon_phase3a.stl": "3ab4066530d6d9e826bcae46a7e874c5b203ea52bb61d355f8b4f915aee13ff9",
+        "stl/ps_mht_v001_m4_cartridge_fit_coupon_phase3a.stl": "36f1cffea481c5af04020521175f2227c3e62a78c9a7b9fbb7c197a05ac6cf55",
+        "stl/ps_mht_v001_netpot_60_adapter_phase3a.stl": "954b4b19285b2104788b1ef3c4d182af2472a5461d857c7eeb9699c5759a809d",
+        "stl/ps_mht_v001_netpot_adapter_coupon_phase3a.stl": "bcaa9c517232d8032c6518829cf2c2e94fd4762900c563516437021edd4adee0",
+        "stl/ps_mht_v001_planting_port_adapter_phase3a.stl": "74b4d244f7b44945aac9d440fd9a78bd31b766467a266d48cf03f5a3d57f9bba",
+        "stl/ps_mht_v001_planting_port_phase3a.stl": "d794c989d38d1b4e3be6c242c64c7ac8585be2075722fbc2e53aca5516167163",
+        "stl/ps_mht_v001_port_adapter_gasket_phase3a.stl": "18a815a21faa9aea25f24ada7e28e125b2699187c67c3b02ce9b35f513a38bb2",
+        "stl/ps_mht_v001_port_adapter_retainer_phase3a.stl": "ec79e25c53f051cb0c152ce7f76abdf153ab798c371590cb9cbc235ac670978a",
+        "stl/ps_mht_v001_port_receiver_adapter_coupon_phase3a.stl": "62f846a90336ddd4da08b72a4ca8885feabc8ea65f8facdb745701b9845bd984",
+        "stl/ps_mht_v001_root_sleeve_retaining_ring_phase3a.stl": "08d3e4c9862eba9aef32da60c0beaaf51dfd35764f71f36837bf6326425cb3b8",
+        "stl/ps_mht_v001_root_stop_insert_phase3a.stl": "24fd2c2030be8cd8b80bf7d30c002d213c23a034f121485492f4ab7c7eb68ba2",
+        "stl/ps_mht_v001_three_port_module_DO_NOT_PRINT_UNTIL_CALIBRATION_phase3a.stl": "f85972021f4499402ab7e2e3ffef3acb9c79fd5a48c60bdadf2be3f0e882c5bb"
+      },
+      "unchanged": true
+    }
+  },
+  "complete_passage": {
+    "probe_diameter_mm": 60.0,
+    "common_adapter_inner_diameter_mm": 66.0,
+    "common_adapter_full_length_probe_diameter_mm": 66.0,
+    "common_adapter_full_length_probe_intersection_mm3": 0,
+    "component_intersections_mm3": {
+      "tower_receiver": 0,
+      "common_planting_port_adapter": 0,
+      "netpot_60_adapter": 0,
+      "root_sleeve_retaining_ring": 0
+    },
+    "all_structural_intersections_zero": true,
+    "netpot_bottom_z_mm": -32.5,
+    "root_ring_position": "COMMON_ADAPTER_INNER_END_DATUM",
+    "root_ring_retention": "CAPTIVE_IN_FLEXIBLE_SLEEVE_FOLD_AT_ADAPTER_INNER_END",
+    "solid_seat_inside_bore": false,
+    "debris_shelf": false
+  },
+  "complete_assembly": {
+    "solid_count": 14,
+    "prohibited_intersections_mm3": {
+      "netpot_to_common_adapter_mm3": 0,
+      "netpot_to_netpot_adapter_mm3": 0,
+      "netpot_adapter_to_common_adapter_mm3": 0,
+      "root_ring_to_common_adapter_mm3": 0,
+      "collapsed_sleeve_to_root_ring_mm3": 0,
+      "collapsed_sleeve_to_common_adapter_mm3": 0,
+      "root_stop_transit_to_common_adapter_mm3": 0,
+      "cartridge_-1_to_netpot_sweep_mm3": 0.0,
+      "cartridge_-1_to_root_sleeve_mm3": 0.0,
+      "cartridge_removal_-1_to_receiver_mm3": 0,
+      "cartridge_+1_to_netpot_sweep_mm3": 0.0,
+      "cartridge_+1_to_root_sleeve_mm3": 0.0,
+      "cartridge_removal_+1_to_receiver_mm3": 0
+    },
+    "all_prohibited_intersections_zero": true
+  },
+  "m3_external_cartridge": {
+    "cartridge_status": "CALIBRATION_PENDING_EXTERNAL_M3_NUT_CARTRIDGE",
+    "retainer_status": "M3_BOLT_CAPTURED_RIGID_GATE",
+    "old_annular_retainer_status": "DEPRECATED_NOT_EXTERNALLY_SERVICEABLE",
+    "metal_nut_assumed_across_flats_mm": 5.5,
+    "selected_clearance_per_side_mm": 0.3,
+    "coupon_clearances_per_side_mm": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "nominal_boss_radial_wall_mm": 5.8,
+    "required_boss_wall_mm": 5.0,
+    "actual_boss_probe_containment_ratio": {
+      "side_-1": 1.0,
+      "side_+1": 1.0
+    },
+    "nominal_slot_side_wall_at_selected_mm": 5.0,
+    "nominal_slot_side_wall_at_worst_coupon_mm": 4.8999999999999995,
+    "required_slot_outer_wall_mm": 3.0,
+    "actual_slot_wall_probe_containment_ratio": {
+      "side_-1": 1.0,
+      "side_+1": 1.0
+    },
+    "gate_minimum_thickness_mm": 2.4,
+    "required_gate_minimum_thickness_mm": 2.4,
+    "print_orientation": "BROAD_SIDE_ON_BED_NO_SUPPORT_TARGET"
+  },
+  "root_ring_passage": {
+    "selected_clearance_per_side_mm": 0.5,
+    "candidate_results": {
+      "0.35": {
+        "actual_maximum_diameter_mm": 65.29943315452095,
+        "actual_radial_clearance_mm": 0.3502834227395226
+      },
+      "0.50": {
+        "actual_maximum_diameter_mm": 64.99943315978139,
+        "actual_radial_clearance_mm": 0.5002834201093052
+      },
+      "0.70": {
+        "actual_maximum_diameter_mm": 64.5994331668701,
+        "actual_radial_clearance_mm": 0.7002834165649503
+      }
+    },
+    "tab_inclusive_measurement": true,
+    "tabs": "THREE_ROUNDED_TABS_NO_SHARP_CORNERS",
+    "externally_removable": true,
+    "retention_method": "CAPTIVE_IN_FLEXIBLE_SLEEVE_FOLD_AT_ADAPTER_INNER_END"
+  },
+  "netpot_adapter": {
+    "operation": "TOOL_FREE_GRAVITY_SEATED_REPLACEABLE_LINER",
+    "removal": "MAY_WITHDRAW_WITH_PURCHASED_NETPOT",
+    "rotation_policy": "FREE_ROTATION_FUNCTIONALLY_ACCEPTABLE",
+    "retention_policy": "NO_THIN_SNAP_TABS"
+  },
+  "module_envelope": {
+    "actual_maximum_diameter_mm": 236.48177425606968,
+    "limit_mm": 240.0,
+    "within_limit": true
+  },
+  "coupon_matrix": {
+    "receiver_adapter_clearance_mm": [
+      0.2,
+      0.35,
+      0.5
+    ],
+    "m3_cartridge_clearance_mm": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "complete_passage": [
+      "REAL_RECEIVER",
+      "REAL_COMMON_ADAPTER",
+      "REAL_NETPOT_ADAPTER",
+      "REAL_ROOT_RING",
+      "D60_NETPOT_AXIS_GAUGE",
+      "D48_FOLDED_ROOT_GAUGE"
+    ],
+    "root_ring_radial_clearance_mm": [
+      0.35,
+      0.5,
+      0.7
+    ]
+  },
+  "source_shape_metrics": {
+    "ps_mht_v001_planting_port_adapter_phase3a1": {
+      "size_x": 80.00000000000001,
+      "size_y": 101.0,
+      "size_z": 16.0,
+      "solid_count": 1,
+      "volume_mm3": 14905.425033558566,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_phase3a1": {
+      "size_x": 9.4,
+      "size_y": 8.4,
+      "size_z": 4.8,
+      "solid_count": 1,
+      "volume_mm3": 231.89319519339674,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_retainer_phase3a1": {
+      "size_x": 11.3,
+      "size_y": 12.6,
+      "size_z": 9.4,
+      "solid_count": 1,
+      "volume_mm3": 423.52991335470125,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_root_sleeve_retaining_ring_phase3a1": {
+      "size_x": 64.8,
+      "size_y": 64.6,
+      "size_z": 4.0,
+      "solid_count": 1,
+      "volume_mm3": 1537.1913521757642,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_port_receiver_adapter_coupon_phase3a1": {
+      "size_x": 137.02633403898957,
+      "size_y": 118.00000000000001,
+      "size_z": 16.0,
+      "solid_count": 6,
+      "volume_mm3": 29385.90855841416,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_cartridge_fit_coupon_phase3a1": {
+      "size_x": 153.70000000000005,
+      "size_y": 60.5,
+      "size_z": 24.0,
+      "solid_count": 12,
+      "volume_mm3": 12822.174103904264,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_passage_coupon_phase3a1": {
+      "size_x": 230.0,
+      "size_y": 196.5,
+      "size_z": 18.0,
+      "solid_count": 6,
+      "volume_mm3": 134937.38000025504,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_root_ring_passage_coupon_phase3a1": {
+      "size_x": 216.0,
+      "size_y": 134.45,
+      "size_z": 6.5,
+      "solid_count": 6,
+      "volume_mm3": 24656.219112351813,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_assembly_phase3a1": {
+      "size_x": 94.0,
+      "size_y": 103.0,
+      "size_z": 125.5,
+      "solid_count": 14,
+      "volume_mm3": 265595.97071197163,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_exploded_phase3a1": {
+      "size_x": 94.0,
+      "size_y": 135.0,
+      "size_z": 181.5,
+      "solid_count": 14,
+      "volume_mm3": 265595.97071197163,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_passage_probe_phase3a1": {
+      "size_x": 60.0,
+      "size_y": 60.0,
+      "size_z": 65.0,
+      "solid_count": 1,
+      "volume_mm3": 183783.17023500288,
+      "all_solids_valid": true
+    }
+  },
+  "step_round_trip_validation": {
+    "ps_mht_v001_planting_port_adapter_phase3a1.step": {
+      "size_x": 80.0,
+      "size_y": 101.0,
+      "size_z": 16.0,
+      "solid_count": 1,
+      "volume_mm3": 14905.425033547814,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_phase3a1.step": {
+      "size_x": 9.4,
+      "size_y": 8.4,
+      "size_z": 4.8,
+      "solid_count": 1,
+      "volume_mm3": 231.89319519339534,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_retainer_phase3a1.step": {
+      "size_x": 11.3,
+      "size_y": 12.6,
+      "size_z": 9.4,
+      "solid_count": 1,
+      "volume_mm3": 423.5299133547029,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_root_sleeve_retaining_ring_phase3a1.step": {
+      "size_x": 64.8,
+      "size_y": 64.6,
+      "size_z": 4.0,
+      "solid_count": 1,
+      "volume_mm3": 1537.191352175512,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_port_receiver_adapter_coupon_phase3a1.step": {
+      "size_x": 137.02633403899466,
+      "size_y": 118.00000000000037,
+      "size_z": 16.0,
+      "solid_count": 6,
+      "volume_mm3": 29385.908558424344,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_m3_port_cartridge_fit_coupon_phase3a1.step": {
+      "size_x": 153.7000000000001,
+      "size_y": 60.5,
+      "size_z": 24.0,
+      "solid_count": 12,
+      "volume_mm3": 12822.174103903839,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_passage_coupon_phase3a1.step": {
+      "size_x": 230.0,
+      "size_y": 196.5,
+      "size_z": 18.0,
+      "solid_count": 6,
+      "volume_mm3": 134937.38000022032,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_root_ring_passage_coupon_phase3a1.step": {
+      "size_x": 216.0,
+      "size_y": 134.45,
+      "size_z": 6.5,
+      "solid_count": 6,
+      "volume_mm3": 24656.21911235021,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_assembly_phase3a1.step": {
+      "size_x": 94.0,
+      "size_y": 103.0,
+      "size_z": 125.5,
+      "solid_count": 14,
+      "volume_mm3": 265595.97071207763,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_exploded_phase3a1.step": {
+      "size_x": 94.0,
+      "size_y": 135.0,
+      "size_z": 181.5,
+      "solid_count": 14,
+      "volume_mm3": 265595.9707120777,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_complete_port_passage_probe_phase3a1.step": {
+      "size_x": 60.0,
+      "size_y": 60.0,
+      "size_z": 65.0,
+      "solid_count": 1,
+      "volume_mm3": 183783.1702350029,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh_validation": {
+    "ps_mht_v001_planting_port_adapter_phase3a1.stl": {
+      "point_count": 1838,
+      "triangle_count": 3684,
+      "size_x": 79.97570037841797,
+      "size_y": 100.995361328125,
+      "size_z": 16.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_phase3a1.stl": {
+      "point_count": 530,
+      "triangle_count": 1064,
+      "size_x": 9.399999618530273,
+      "size_y": 8.399999618530273,
+      "size_z": 4.800000190734863,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_m3_port_nut_cartridge_retainer_phase3a1.stl": {
+      "point_count": 270,
+      "triangle_count": 540,
+      "size_x": 11.299999952316284,
+      "size_y": 12.600000381469727,
+      "size_z": 9.399999618530273,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_root_sleeve_retaining_ring_phase3a1.stl": {
+      "point_count": 666,
+      "triangle_count": 1332,
+      "size_x": 64.7997055053711,
+      "size_y": 64.5926513671875,
+      "size_z": 4.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_port_receiver_adapter_coupon_phase3a1.stl": {
+      "point_count": 2916,
+      "triangle_count": 5808,
+      "size_x": 137.0263328552246,
+      "size_y": 118.0,
+      "size_z": 16.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_m3_port_cartridge_fit_coupon_phase3a1.stl": {
+      "point_count": 7734,
+      "triangle_count": 15492,
+      "size_x": 153.69947052001953,
+      "size_y": 60.5,
+      "size_z": 24.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_complete_port_passage_coupon_phase3a1.stl": {
+      "point_count": 6288,
+      "triangle_count": 12600,
+      "size_x": 230.0,
+      "size_y": 196.48880767822266,
+      "size_z": 18.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "ps_mht_v001_root_ring_passage_coupon_phase3a1.stl": {
+      "point_count": 5100,
+      "triangle_count": 10200,
+      "size_x": 216.0,
+      "size_y": 134.43447875976562,
+      "size_z": 6.5,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "automated_tests": {
+    "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS",
+    "existing_phase1_through_phase3a": 86,
+    "new_phase3a1": 28,
+    "total_passed": 114,
+    "expected_total": 114,
+    "all_passed": true,
+    "files": [
+      {
+        "file": "test_actual_index_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_actual_m4_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_assembly_validity.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_gasket_geometry.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_interface_fastener_alignment.py",
+        "passed": 9,
+        "returncode": 0
+      },
+      {
+        "file": "test_invalid_interface_rotation.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_module_interfaces.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_netpot_adapter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_parameters.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase2_print_envelope.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_complete_passage.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_m3_cartridge.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_plant_port_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_port_service_clearance.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_print_envelope.py",
+        "passed": 3,
+        "returncode": 0
+      },
+      {
+        "file": "test_root_zone_envelopes.py",
+        "passed": 6,
+        "returncode": 0
+      }
+    ]
+  },
+  "calibration": {
+    "commercial_netpot_60_actual_dimensions": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "nominal_size": 60.0,
+        "flange_outer_diameter": 68.0,
+        "body_top_outer_diameter": 60.0,
+        "body_bottom_outer_diameter": 42.0,
+        "body_height": 55.0,
+        "flange_thickness": 2.0,
+        "lip_height": 3.0,
+        "taper_angle": 9.293308599397115,
+        "slot_width": 3.0,
+        "slot_count": 12,
+        "source": "ASSUMPTION"
+      }
+    },
+    "plant_port_flange_diameter": {
+      "status": "CALIBRATION_PENDING",
+      "value": 68.0
+    },
+    "netpot_adapter_fit_clearance": {
+      "status": "CALIBRATION_PENDING",
+      "value": 0.35
+    },
+    "port_adapter_fit_clearance": {
+      "status": "CALIBRATION_PENDING",
+      "value": 0.3500000000000014
+    },
+    "m3_port_fastener_actual_dimensions": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "clearance_diameter": 3.4,
+        "nut_across_flats": 5.5,
+        "nut_thickness": 2.4
+      }
+    },
+    "m3_port_cartridge_fit": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "selected_clearance_per_side": 0.3,
+        "candidate_clearances_per_side": [
+          0.2,
+          0.3,
+          0.4
+        ],
+        "nut_across_flats": 5.5
+      }
+    },
+    "root_ring_passage_fit": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "selected_clearance_per_side": 0.5,
+        "candidate_clearances_per_side": [
+          0.35,
+          0.5,
+          0.7
+        ]
+      }
+    },
+    "root_sleeve_purchased_product": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "material": "PURCHASED_PP_OR_PE_FLEXIBLE_MESH",
+        "expanded_target_mm3": 850000.0,
+        "collapsed_diameter": 48.0
+      }
+    },
+    "petg_shrinkage": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "tpu_gasket_compression_ratio": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "m4_star_knob_actual_dimensions": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "diameter": 18.0,
+        "height": 8.0,
+        "bolt_length": 22.0,
+        "washer_diameter": 9.0
+      }
+    },
+    "m5_star_knob_actual_dimensions": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "heat_set_insert_actual_dimensions": {
+      "status": "CALIBRATION_PENDING",
+      "value": {
+        "pilot_diameter": 5.6,
+        "depth": 6.0
+      }
+    },
+    "2020_extrusion_slot_profile": {
+      "status": "CALIBRATION_PENDING",
+      "value": "20 x 20 reference solid only"
+    },
+    "main_irrigation_tube_od": {
+      "status": "ASSUMPTION",
+      "value": 16.0
+    },
+    "branch_irrigation_tube_od": {
+      "status": "ASSUMPTION",
+      "value": 8.0
+    },
+    "drain_hose_actual_od": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "clamp_tpu_pad_thickness": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "mature_crop_spread": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "actual_root_mass": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    },
+    "actual_saturated_mass": {
+      "status": "CALIBRATION_PENDING",
+      "value": null
+    }
+  },
+  "remaining_physical_validation": [
+    "Measure actual purchased M3 nut across flats and thickness.",
+    "Print the M3 cartridge coupon and select insertion/removal force.",
+    "Print the root-ring passage coupon and select washable fit.",
+    "Validate sleeve-fold axial retention at the inner-end datum; a positive solid seat is intentionally absent to preserve the full φ66 adapter passage.",
+    "Measure purchased netpot and verify liner insertion/removal force.",
+    "Leak-test the corrected receiver, gasket, and common adapter stack.",
+    "Do not print the full module until all prior coupon gates pass."
+  ]
+}

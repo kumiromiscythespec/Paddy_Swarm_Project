@@ -1,0 +1,90 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3S-A.2",
+  "status": "PHASE3SA2_FULL_LENGTH_PHYSICAL_CALIBRATION_PENDING",
+  "selected_clearance": null,
+  "rejected_clearance": 0.8,
+  "print_items": [
+    {
+      "file_name": "plate_01_full_length_seam_c040_phase3sa2.stl",
+      "quantity": 1,
+      "prerequisite": null,
+      "print_status": "READY_FOR_FULL_LENGTH_TEST",
+      "assembly_use": "C040_TWO_PIECE_SEAM_PAIR",
+      "do_not_print_before": null
+    },
+    {
+      "file_name": "plate_02_full_length_seam_c060_phase3sa2.stl",
+      "quantity": 1,
+      "prerequisite": null,
+      "print_status": "READY_FOR_FULL_LENGTH_TEST",
+      "assembly_use": "C060_TWO_PIECE_SEAM_PAIR",
+      "do_not_print_before": null
+    },
+    {
+      "file_name": "plate_03_full_length_seam_capture_fixtures_phase3sa2.stl",
+      "quantity": 1,
+      "simultaneous_c040_c060_quantity": 2,
+      "prerequisite": "PRINT_C040_OR_C060_SEAM_PAIR",
+      "print_status": "PRINT_ONCE_FOR_SEQUENTIAL_REUSE",
+      "assembly_use": "TWO_IDENTICAL_UPPER_LOWER_LOCAL_FIXTURES",
+      "do_not_print_before": null
+    },
+    {
+      "file_name": "plate_optional_full_length_seam_c040_c060_phase3sa2.stl",
+      "quantity": 0,
+      "prerequisite": "OPTIONAL_ALTERNATIVE_TO_PLATE_01_AND_02",
+      "print_status": "OPTIONAL_COMBINED_A1_PLATE",
+      "assembly_use": "C040_AND_C060_FOUR_SPECIMENS_ON_ONE_PLATE",
+      "do_not_print_before": null
+    }
+  ],
+  "fixture_quantity": {
+    "per_candidate": 2,
+    "sequential_reuse_total": 2,
+    "simultaneous_c040_c060_total": 4,
+    "fixtures_per_plate_03": 2,
+    "plate_03_quantity_for_sequential": 1,
+    "plate_03_quantity_for_simultaneous": 2
+  },
+  "evaluation_sequence": {
+    "A_FREE_STATE": [
+      "ASSEMBLE_WITHOUT_FIXTURES",
+      "CHECK_FULL_LENGTH_INSERTION_AND_LOCAL_BINDING",
+      "RECORD_TOP_MIDDLE_BOTTOM_GAPS"
+    ],
+    "B_CAPTURED_STATE": [
+      "INSTALL_IDENTICAL_UPPER_AND_LOWER_FIXTURES",
+      "RESTRAIN_TO_NOMINAL_DIAMETER_200_MM",
+      "RECORD_GUIDED_GAP",
+      "OBSERVE_LIGHT_EXTERNAL_BAND_EFFECT"
+    ],
+    "C_TEN_CYCLES": [
+      "TEN_ASSEMBLY_DISASSEMBLY_CYCLES",
+      "CHECK_WHITENING_CRACK_EDGE_CHIP_PERMANENT_SET",
+      "RECORD_FORCE_AND_PLAY_CHANGE"
+    ],
+    "D_24_HOUR_HOLD": [
+      "HOLD_ASSEMBLED_FOR_24_HOURS",
+      "CHECK_WHITENING_CREEP_GAP_AND_DISASSEMBLY"
+    ],
+    "E_500ML_WATER": [
+      "DRIP_500_ML_FROM_INSIDE",
+      "RECORD_TOP_MIDDLE_BOTTOM_LEAKS",
+      "CHECK_DIRECT_JET_SURFACE_FLOW_AND_WATER_RETURN"
+    ]
+  },
+  "decision_rule": {
+    "c080": "REJECTED_NO_RETEST",
+    "c060": "PREFERRED_IF_TOOL_FREE_NO_WHITENING_TEN_CYCLES_NO_LARGE_CAPTURED_GAP_NO_DIRECT_LEAK_REMOVABLE_AFTER_24H",
+    "c040": "SELECT_IF_C060_FAILS_PLAY_OR_LEAK_AND_C040_PASSES_WITHOUT_EXCESSIVE_FORCE",
+    "both_fail": "STOP_FOR_GUIDE_OR_CAPTURE_METHOD_REDESIGN"
+  },
+  "do_not_print": [
+    "FULL_PANEL_ALL_WIDTH",
+    "FULL_THREE_PANEL_MODULE",
+    "FINAL_M4_FASTENING",
+    "DRAIN_OR_IRRIGATION_PARTS",
+    "REFERENCE_EXTERNAL_BAND"
+  ]
+}

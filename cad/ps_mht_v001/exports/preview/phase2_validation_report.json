@@ -1,0 +1,289 @@
+{
+  "model": "PS-MHT-V001",
+  "phase": 2,
+  "status": "PASS",
+  "phase1_regression_contract": {
+    "irrigation_top_height_mm": 100.0,
+    "tower_nominal_height_mm": 1090.0,
+    "phase1_output_names_overwritten": false
+  },
+  "module_interface": {
+    "metrics": {
+      "size_x": 220.00000000000006,
+      "size_y": 236.0,
+      "size_z": 178.0,
+      "solid_count": 1,
+      "volume_mm3": 430854.9581831268,
+      "all_solids_valid": true
+    },
+    "internal_diameter_mm": 194.0,
+    "ring_outer_diameter_mm": 220.0,
+    "fixed_feature_outer_diameter_mm": 236.0,
+    "knob_envelope_outer_diameter_mm": 238.0,
+    "spigot_socket_clearance_per_side_mm": 0.4,
+    "spigot_socket_diametral_clearance_mm": 0.8000000000000114,
+    "load_contact_radial_width_mm": 6.599999999999994,
+    "compression_stop_radial_width_mm": 6.599999999999994
+  },
+  "indexing": {
+    "station_count": 6,
+    "station_step_degree": 60.0,
+    "available_m4_angles_degree": [
+      30.0,
+      90.0,
+      150.0,
+      210.0,
+      270.0,
+      330.0
+    ],
+    "used_m4_angles_degree": [
+      30.0,
+      150.0,
+      270.0
+    ],
+    "minimum_m4_to_port_angle_degree": 30.0,
+    "rear_service_angle_degree": 90.0
+  },
+  "gasket": {
+    "cord_diameter_mm": 3.0,
+    "groove_width_mm": 3.6,
+    "groove_depth_mm": 2.2,
+    "radial_compression_mm": 0.3999999999999998,
+    "gasket_to_m4_radial_clearance_mm": 4.75,
+    "purpose": "NON_PRESSURIZED_SPLASH_AND_LEAK_REDUCTION"
+  },
+  "assembly_interference": {
+    "module_pair_0deg_mm3": 0,
+    "module_pair_60deg_mm3": 0,
+    "axis_offset_mm": 0.0
+  },
+  "cartridge_external_access_probe_intersection_mm3": {
+    "030deg": 0,
+    "090deg": 0,
+    "150deg": 0,
+    "210deg": 0,
+    "270deg": 0,
+    "330deg": 0
+  },
+  "cartridge_retainer": {
+    "external_replacement": true,
+    "normal_use_retainer_captured_by_m4_bolt": true,
+    "calibration_status": "CALIBRATION_PENDING"
+  },
+  "keepout_interference": {
+    "fastener_and_knob_to_port_max_mm3": 0,
+    "rear_90deg_normal_knob_present": false
+  },
+  "coupons": {
+    "interface_clearance_per_side_mm": [
+      0.3,
+      0.4,
+      0.5
+    ],
+    "gasket_groove_depths_mm": [
+      2.0,
+      2.2,
+      2.4
+    ],
+    "module_roundness_quantity": 1,
+    "m4_retention_methods": [
+      "HEX_NUT_CAPTURE",
+      "HEAT_SET_INSERT"
+    ]
+  },
+  "step_round_trip": {
+    "planting_module_interface": {
+      "size_x": 220.0,
+      "size_y": 236.0,
+      "size_z": 178.0,
+      "solid_count": 1,
+      "volume_mm3": 430854.9581832315,
+      "all_solids_valid": true
+    },
+    "m4_nut_cartridge": {
+      "size_x": 11.4,
+      "size_y": 11.5,
+      "size_z": 5.2,
+      "solid_count": 1,
+      "volume_mm3": 400.1170743713322,
+      "all_solids_valid": true
+    },
+    "m4_nut_cartridge_retainer": {
+      "size_x": 11.9,
+      "size_y": 18.0,
+      "size_z": 10.5,
+      "solid_count": 1,
+      "volume_mm3": 520.8544086969885,
+      "all_solids_valid": true
+    },
+    "module_interface_coupon": {
+      "size_x": 220.0,
+      "size_y": 110.0000000000418,
+      "size_z": 11.0,
+      "solid_count": 2,
+      "volume_mm3": 15204.83371382234,
+      "all_solids_valid": true
+    },
+    "module_roundness_coupon": {
+      "size_x": 200.0,
+      "size_y": 200.0,
+      "size_z": 28.0,
+      "solid_count": 1,
+      "volume_mm3": 51987.07523160498,
+      "all_solids_valid": true
+    },
+    "m4_insert_coupon": {
+      "size_x": 90.0,
+      "size_y": 40.0,
+      "size_z": 8.8,
+      "solid_count": 1,
+      "volume_mm3": 28410.407298174207,
+      "all_solids_valid": true
+    },
+    "tpu_gasket_coupon": {
+      "size_x": 100.0,
+      "size_y": 42.0,
+      "size_z": 8.7,
+      "solid_count": 1,
+      "volume_mm3": 32903.16557386555,
+      "all_solids_valid": true
+    },
+    "module_pair_0deg": {
+      "size_x": 220.0,
+      "size_y": 237.7,
+      "size_z": 348.0,
+      "solid_count": 12,
+      "volume_mm3": 876143.791534537,
+      "all_solids_valid": true
+    },
+    "module_pair_60deg": {
+      "size_x": 220.0,
+      "size_y": 237.7,
+      "size_z": 348.0,
+      "solid_count": 12,
+      "volume_mm3": 876143.791534054,
+      "all_solids_valid": true
+    },
+    "exploded_interface": {
+      "size_x": 220.0,
+      "size_y": 237.7,
+      "size_z": 373.0,
+      "solid_count": 12,
+      "volume_mm3": 876143.7915340546,
+      "all_solids_valid": true
+    },
+    "keepouts": {
+      "size_x": 293.2501476450633,
+      "size_y": 294.26801312363625,
+      "size_z": 360.0,
+      "solid_count": 11,
+      "volume_mm3": 9029774.128842384,
+      "all_solids_valid": true
+    },
+    "gasket": {
+      "size_x": 207.60000019999998,
+      "size_y": 207.60000019999998,
+      "size_z": 3.0000002,
+      "solid_count": 1,
+      "volume_mm3": 4543.472386041677,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh": {
+    "planting_module_interface": {
+      "point_count": 8538,
+      "triangle_count": 17148,
+      "size_x": 219.9380645751953,
+      "size_y": 235.99549865722656,
+      "size_z": 178.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "m4_nut_cartridge": {
+      "point_count": 530,
+      "triangle_count": 1064,
+      "size_x": 11.399999618530273,
+      "size_y": 11.5,
+      "size_z": 5.199999809265137,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "m4_nut_cartridge_retainer": {
+      "point_count": 256,
+      "triangle_count": 508,
+      "size_x": 11.900000214576721,
+      "size_y": 18.0,
+      "size_z": 10.5,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "module_interface_coupon": {
+      "point_count": 3263,
+      "triangle_count": 6518,
+      "size_x": 219.93162536621094,
+      "size_y": 110.0,
+      "size_z": 11.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "module_roundness_coupon": {
+      "point_count": 504,
+      "triangle_count": 1008,
+      "size_x": 200.0,
+      "size_y": 199.93783569335938,
+      "size_z": 28.0,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "m4_insert_coupon": {
+      "point_count": 1532,
+      "triangle_count": 3068,
+      "size_x": 90.0,
+      "size_y": 40.0,
+      "size_z": 8.800000190734863,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    },
+    "tpu_gasket_coupon": {
+      "point_count": 1544,
+      "triangle_count": 3084,
+      "size_x": 100.0,
+      "size_y": 42.0,
+      "size_z": 8.699999809265137,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true
+    }
+  },
+  "printable_part_count": 7,
+  "maximum_allowed_diameter_mm": 240.0,
+  "exports": [
+    "preview/phase2_validation_report.json",
+    "preview/ps_mht_v001_module_interface_section_phase2.svg",
+    "preview/ps_mht_v001_planting_module_interface_phase2.svg",
+    "step/ps_mht_v001_exploded_interface_phase2.step",
+    "step/ps_mht_v001_keepouts_reference_phase2.step",
+    "step/ps_mht_v001_m4_insert_coupon_phase2.step",
+    "step/ps_mht_v001_m4_nut_cartridge_phase2.step",
+    "step/ps_mht_v001_m4_nut_cartridge_retainer_phase2.step",
+    "step/ps_mht_v001_module_gasket_cord_reference_phase2.step",
+    "step/ps_mht_v001_module_interface_coupon_phase2.step",
+    "step/ps_mht_v001_module_pair_0deg_phase2.step",
+    "step/ps_mht_v001_module_pair_60deg_phase2.step",
+    "step/ps_mht_v001_module_roundness_coupon_phase2.step",
+    "step/ps_mht_v001_planting_module_interface_phase2.step",
+    "step/ps_mht_v001_tpu_gasket_coupon_phase2.step",
+    "stl/ps_mht_v001_m4_insert_coupon_phase2.stl",
+    "stl/ps_mht_v001_m4_nut_cartridge_phase2.stl",
+    "stl/ps_mht_v001_m4_nut_cartridge_retainer_phase2.stl",
+    "stl/ps_mht_v001_module_interface_coupon_phase2.stl",
+    "stl/ps_mht_v001_module_roundness_coupon_phase2.stl",
+    "stl/ps_mht_v001_planting_module_interface_phase2.stl",
+    "stl/ps_mht_v001_tpu_gasket_coupon_phase2.stl"
+  ],
+  "phase_boundaries": {
+    "plant_ports": "REFERENCE_KEEP_OUT_ONLY_PHASE_3_PENDING",
+    "drainage": "REFERENCE_KEEP_OUT_ONLY_PHASE_4_PENDING",
+    "irrigation": "REFERENCE_KEEP_OUT_ONLY_PHASE_5_PENDING",
+    "support_clamps_and_chain": "REFERENCE_KEEP_OUT_ONLY_PHASE_6_PENDING"
+  }
+}
