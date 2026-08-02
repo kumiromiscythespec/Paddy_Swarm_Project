@@ -1,0 +1,50 @@
+{
+  "project": "PS-MHT-8T-LINKED-SUMP-V001",
+  "phase": "4T-LS-A",
+  "ready_first_count": 0,
+  "stl_output_count": 0,
+  "items": [
+    {
+      "file_name": "ps_mht_8t_linked_sump_local_sump_reference.step",
+      "format": "STEP",
+      "print_status": "NOT_PRINTABLE_MEASUREMENT_PENDING",
+      "print_target": false,
+      "measurement_pending": true
+    },
+    {
+      "file_name": "ps_mht_8t_linked_sump_support_deck_reference.step",
+      "format": "STEP",
+      "print_status": "NOT_PRINTABLE_MEASUREMENT_PENDING",
+      "print_target": false,
+      "measurement_pending": true
+    },
+    {
+      "file_name": "ps_mht_8t_linked_sump_4tower_zone_reference.step",
+      "format": "STEP",
+      "print_status": "REFERENCE_ONLY",
+      "print_target": false,
+      "measurement_pending": true
+    },
+    {
+      "file_name": "ps_mht_8t_linked_sump_8tower_zone_reference.step",
+      "format": "STEP",
+      "print_status": "REFERENCE_ONLY",
+      "print_target": false,
+      "measurement_pending": true
+    },
+    {
+      "file_name": "ps_mht_8t_linked_sump_pump_well_reference.step",
+      "format": "STEP",
+      "print_status": "NOT_PRINTABLE_MEASUREMENT_PENDING",
+      "print_target": false,
+      "measurement_pending": true
+    },
+    {
+      "file_name": "ps_mht_8t_linked_sump_isolation_reference.step",
+      "format": "STEP",
+      "print_status": "REFERENCE_ONLY",
+      "print_target": false,
+      "measurement_pending": true
+    }
+  ]
+}

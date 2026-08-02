@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+<path d="M0,0 L10,4 L0,8 Z" fill="context-stroke"/>
+</marker>
+<style>text{font-family:"Yu Gothic","Noto Sans CJK JP",sans-serif;fill:#17212b}.title{font-size:28px;font-weight:700}.sub{font-size:16px;fill:#455a64}.node{stroke:#263238;stroke-width:2}.label{font-size:17px;font-weight:600;text-anchor:middle}.edge{fill:none;stroke-width:4;marker-end:url(#arrow)}.edge-label{font-size:14px;text-anchor:middle}.note{font-size:15px}</style>
+</defs>
+<rect width="1200" height="700" fill="#f7fafc"/>
+<text x="50" y="48" class="title">非常オーバーフロー</text>
+<text x="50" y="78" class="sub">隔離状態を循環系へ再接続しない独立安全経路</text>
+<path d="M310,270 L420,270" class="edge" stroke="#d84315"/>
+<text x="365" y="262" class="edge-label">異常流</text>
+<path d="M660,270 L790,270" class="edge" stroke="#d84315"/>
+<text x="725" y="262" class="edge-label">目視可能</text>
+<path d="M540,320 L540,430" class="edge" stroke="#d84315" stroke-dasharray="10 8"/>
+<text x="540" y="367" class="edge-label">戻さない</text>
+<rect x="90" y="220" width="220" height="100" rx="12" class="node" fill="#d8ecff"/>
+<text x="200" y="260" class="label">
+<tspan x="200" dy="0">ローカルサンプ</tspan>
+<tspan x="200" dy="22">HIGH出口 25～32mm</tspan>
+</text>
+<rect x="420" y="220" width="240" height="100" rx="12" class="node" fill="#fff0c7"/>
+<text x="540" y="260" class="label">
+<tspan x="540" dy="0">通常乾燥の</tspan>
+<tspan x="540" dy="22">共通安全樋</tspan>
+</text>
+<rect x="790" y="220" width="250" height="100" rx="12" class="node" fill="#ffdcdc"/>
+<text x="915" y="260" class="label">
+<tspan x="915" dy="0">非循環式</tspan>
+<tspan x="915" dy="22">非常受け槽</tspan>
+</text>
+<rect x="420" y="430" width="240" height="80" rx="12" class="node" fill="#e9eef2"/>
+<text x="540" y="460" class="label">
+<tspan x="540" dy="0">共通均水主管</tspan>
+<tspan x="540" dy="22">接続禁止</tspan>
+</text>
+<text x="50" y="610" class="note">• 病害・清掃中の液を循環へ戻さない</text>
+<text x="50" y="634" class="note">• 受け槽容量は枝流量×検知時間＋余裕で決める</text>
+</svg>

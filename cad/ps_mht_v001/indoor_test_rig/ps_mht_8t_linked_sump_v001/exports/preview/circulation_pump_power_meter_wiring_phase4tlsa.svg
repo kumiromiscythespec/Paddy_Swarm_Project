@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+<path d="M0,0 L10,4 L0,8 Z" fill="context-stroke"/>
+</marker>
+<style>text{font-family:"Yu Gothic","Noto Sans CJK JP",sans-serif;fill:#17212b}.title{font-size:28px;font-weight:700}.sub{font-size:16px;fill:#455a64}.node{stroke:#263238;stroke-width:2}.label{font-size:17px;font-weight:600;text-anchor:middle}.edge{fill:none;stroke-width:4;marker-end:url(#arrow)}.edge-label{font-size:14px;text-anchor:middle}.note{font-size:15px}</style>
+</defs>
+<rect width="1200" height="700" fill="#f7fafc"/>
+<text x="50" y="48" class="title">循環ポンプ専用Wh測定配線</text>
+<text x="50" y="78" class="sub">測定名：CIRCULATION_PUMP_ONLY_Wh</text>
+<path d="M240,285 L300,285" class="edge" stroke="#455a64"/>
+<path d="M470,285 L530,285" class="edge" stroke="#455a64"/>
+<path d="M730,285 L790,285" class="edge" stroke="#455a64"/>
+<path d="M960,285 L1020,285" class="edge" stroke="#455a64"/>
+<path d="M630,330 L630,440" class="edge" stroke="#d84315" stroke-dasharray="10 8"/>
+<text x="630" y="377" class="edge-label">含めない</text>
+<rect x="70" y="240" width="170" height="90" rx="12" class="node" fill="#e9eef2"/>
+<text x="155" y="285" class="label">
+<tspan x="155" dy="0">12V電源</tspan>
+</text>
+<rect x="300" y="240" width="170" height="90" rx="12" class="node" fill="#ffdcdc"/>
+<text x="385" y="285" class="label">
+<tspan x="385" dy="0">主ヒューズ</tspan>
+</text>
+<rect x="530" y="240" width="200" height="90" rx="12" class="node" fill="#fff0c7"/>
+<text x="630" y="275" class="label">
+<tspan x="630" dy="0">DC積算電力計</tspan>
+<tspan x="630" dy="22">V / A / W / Wh</tspan>
+</text>
+<rect x="790" y="240" width="170" height="90" rx="12" class="node" fill="#e9eef2"/>
+<text x="875" y="275" class="label">
+<tspan x="875" dy="0">タイマー</tspan>
+<tspan x="875" dy="22">またはスイッチ</tspan>
+</text>
+<rect x="1020" y="240" width="140" height="90" rx="12" class="node" fill="#d8ecff"/>
+<text x="1090" y="285" class="label">
+<tspan x="1090" dy="0">循環ポンプ</tspan>
+</text>
+<rect x="530" y="440" width="200" height="80" rx="12" class="node" fill="#dcf5e6"/>
+<text x="630" y="470" class="label">
+<tspan x="630" dy="0">清水補給設備</tspan>
+<tspan x="630" dy="22">別測定</tspan>
+</text>
+<text x="50" y="610" class="note">• センサーとタイマー待機電力も別項目</text>
+<text x="50" y="634" class="note">• 4/6/8タワー別Wh、1塔・1L当たりWhを算出</text>
+</svg>

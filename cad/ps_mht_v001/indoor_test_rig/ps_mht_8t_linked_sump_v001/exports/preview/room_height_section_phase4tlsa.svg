@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+<path d="M0,0 L10,4 L0,8 Z" fill="context-stroke"/>
+</marker>
+<style>text{font-family:"Yu Gothic","Noto Sans CJK JP",sans-serif;fill:#17212b}.title{font-size:28px;font-weight:700}.sub{font-size:16px;fill:#455a64}.node{stroke:#263238;stroke-width:2}.label{font-size:17px;font-weight:600;text-anchor:middle}.edge{fill:none;stroke-width:4;marker-end:url(#arrow)}.edge-label{font-size:14px;text-anchor:middle}.note{font-size:15px}</style>
+</defs>
+<rect width="1200" height="700" fill="#f7fafc"/>
+<text x="50" y="48" class="title">室内高さ断面REFERENCE</text>
+<text x="50" y="78" class="sub">天井2300mm確定。床の縦横寸法は未測定</text>
+<path d="M300,130 L300,190" class="edge" stroke="#d84315"/>
+<text x="300" y="152" class="edge-label">天井余裕≥250mm</text>
+<path d="M760,510 L760,540" class="edge" stroke="#1976d2"/>
+<rect x="60" y="100" width="1080" height="30" rx="12" class="node" fill="#e9eef2"/>
+<text x="600" y="115" class="label">
+<tspan x="600" dy="0">天井 2300mm</tspan>
+</text>
+<rect x="170" y="190" width="260" height="100" rx="12" class="node" fill="#d8ecff"/>
+<text x="300" y="230" class="label">
+<tspan x="300" dy="0">上部10L清水槽</tspan>
+<tspan x="300" dy="22">上端≤2050mm</tspan>
+</text>
+<rect x="170" y="330" width="260" height="70" rx="12" class="node" fill="#fff0c7"/>
+<text x="300" y="355" class="label">
+<tspan x="300" dy="0">独立棚</tspan>
+<tspan x="300" dy="22">推奨1700mm</tspan>
+</text>
+<rect x="650" y="250" width="220" height="260" rx="12" class="node" fill="#dcf5e6"/>
+<text x="760" y="370" class="label">
+<tspan x="760" dy="0">5段タワー</tspan>
+<tspan x="760" dy="22">荷重は乾式架台へ</tspan>
+</text>
+<rect x="620" y="540" width="280" height="50" rx="12" class="node" fill="#d8ecff"/>
+<text x="760" y="565" class="label">
+<tspan x="760" dy="0">低背サンプ・乾式デッキ</tspan>
+</text>
+<text x="50" y="610" class="note">• 清水槽重量をタワーへ載せない</text>
+<text x="50" y="634" class="note">• 正確な平面配置はroom length/width実測後</text>
+</svg>

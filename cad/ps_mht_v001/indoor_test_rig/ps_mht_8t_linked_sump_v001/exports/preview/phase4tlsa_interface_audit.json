@@ -1,0 +1,39 @@
+{
+  "status": "REFERENCE_INTERFACES_COMPLETE_MEASUREMENTS_PENDING",
+  "topology": "PARALLEL_BRANCH_EQUALIZATION",
+  "branch_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "branch_count": 8,
+  "active_initial_branches": 4,
+  "closed_future_branches": 4,
+  "branch_id_mm": {
+    "minimum": 25.0,
+    "preferred": 32.0
+  },
+  "trunk_id_mm": {
+    "minimum": 32.0,
+    "preferred": 40.0
+  },
+  "trunk_slope_candidates": [
+    0.0,
+    0.005,
+    0.01
+  ],
+  "trunk_slope_selected": null,
+  "bulkhead": "PHYSICAL_MEASUREMENT_PENDING",
+  "valve": "PHYSICAL_MEASUREMENT_PENDING",
+  "final_bulkhead_hole_mm": null,
+  "overflow_destination": "NON_CIRCULATING_EMERGENCY_RECEIVER",
+  "overflow_id_mm": {
+    "minimum": 25.0,
+    "preferred": 32.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "REFERENCE_LAYOUT_ONLY_ROOM_PLAN_MEASUREMENT_PENDING",
+  "room_ceiling_height_mm": 2300.0,
+  "room_length_mm": "MEASUREMENT_PENDING",
+  "room_width_mm": "MEASUREMENT_PENDING",
+  "upper_tank_maximum_top_elevation_mm": 2050.0,
+  "ceiling_clearance_mm": 250.0,
+  "minimum_ceiling_clearance_mm": 250.0,
+  "ceiling_clearance_pass": true,
+  "minimum_human_aisle_width_mm": 600.0,
+  "trunk_route": "PROTECTED_REAR_SERVICE_ROUTE",
+  "crosses_human_aisle": false,
+  "four_tower_reference": {
+    "status": "REFERENCE_ONLY_NOT_A_WATERTIGHT_OR_PRINTABLE_PART",
+    "tower_positions": 4,
+    "active_branches": 4,
+    "closed_future_branches": 4,
+    "hydraulic_connection": "PARALLEL_BRANCH_EQUALIZATION",
+    "serial_daisy_chain": false,
+    "common_pump_well_near_midpoint": true,
+    "rear_service_route": true,
+    "crosses_human_aisle": false,
+    "room_floor_dimensions_fixed": false,
+    "branch_identifiers": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  "eight_position_reference": {
+    "status": "REFERENCE_ONLY_NOT_A_WATERTIGHT_OR_PRINTABLE_PART",
+    "tower_positions": 8,
+    "active_branches": 4,
+    "closed_future_branches": 4,
+    "hydraulic_connection": "PARALLEL_BRANCH_EQUALIZATION",
+    "serial_daisy_chain": false,
+    "common_pump_well_near_midpoint": true,
+    "rear_service_route": true,
+    "crosses_human_aisle": false,
+    "room_floor_dimensions_fixed": false,
+    "branch_identifiers": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  "fresh_water_separate": true
+}

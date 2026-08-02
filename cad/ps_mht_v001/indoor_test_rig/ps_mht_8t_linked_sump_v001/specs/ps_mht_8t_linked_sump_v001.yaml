@@ -1,0 +1,158 @@
+schema_version: 1
+project: PS-MHT-8T-LINKED-SUMP-V001
+phase: Phase_4T-LS-A
+status:
+  architecture: ARCHITECTURE_AND_REFERENCE_CAD_COMPLETE
+  physical_components: PHYSICAL_COMPONENT_MEASUREMENT_PENDING
+  cad_authority: REFERENCE_ONLY
+  final_print_parts_generated: false
+  stl_generation_allowed: false
+
+zone:
+  maximum_towers: 8
+  initial_indoor_towers: 4
+  staged_tests: [4, 6, 8]
+  circulation_pumps: 1
+  connection: PARALLEL_BRANCH_EQUALIZATION
+  serial_daisy_chain_allowed: false
+  shared_nutrient_management_zone: true
+
+local_sump:
+  quantity_maximum: 8
+  watertight_authority: PURCHASED_PP_OR_PE_CONTAINER
+  dimensions_status: MEASUREMENT_PENDING
+  vented: true
+  airtight_allowed: false
+  gross_capacity_l: {min: 12, preferred: 16}
+  normal_operating_volume_l: {min: 5, max: 7}
+  emergency_freeboard_l: {min: 4, preferred: 6}
+  target_outer_height_mm: {min: 110, max: 130}
+  reference_envelope_mm: {x: 420, y: 320, z: 120}
+  normal_depth_mm: {min: 40, max: 55}
+  maximum_operating_depth_mm: {min: 75, max: 85}
+  level_markers: [LOW, NORMAL, HIGH]
+  openable_for_cleaning: true
+  fully_drainable: true
+  removable_toward_aisle: true
+  supports_tower_load: false
+  pipe_load_on_wall_allowed: false
+  closed_bottom_cavity_allowed: false
+
+tower_support:
+  load_path: DRY_FOUR_CORNER_SUPPORT_DIRECT_TO_FLOOR
+  support_deck_elevation_mm: {min: 160, nominal: 170, max: 180}
+  bottom_drain_elevation_mm: {min: 190, nominal: 205, max: 220}
+  reference_load_kg: 20
+  final_design_load_status: MEASUREMENT_PENDING
+
+equalization:
+  topology: PARALLEL
+  branch_identifiers: [A, B, C, D, E, F, G, H]
+  branch_inner_diameter_mm: {min: 25, preferred: 32}
+  trunk_inner_diameter_mm: {min: 32, preferred: 40}
+  equalization_valves: 8
+  commercial_full_port_union_valves: true
+  commercial_bulkheads: true
+  epdm_gaskets: true
+  flexible_supported_transitions: true
+  trunk_slope_candidates: [0, 0.005, 0.01]
+  trunk_slope_selected: null
+  rear_protected_service_route: true
+  crosses_human_aisle: false
+  cleanout_access: true
+  low_point_drain: true
+
+emergency_overflow:
+  quantity: 8
+  inner_diameter_mm: {min: 25, preferred: 32}
+  route: LOCAL_SUMP_TO_DRY_SAFETY_TROUGH_TO_NON_CIRCULATING_RECEIVER
+  reconnects_equalization_trunk: false
+  reconnects_pump_well: false
+
+common_pump_well:
+  present: true
+  location: NEAR_TRUNK_MIDPOINT
+  watertight_authority: PURCHASED_PP_OR_PE_CONTAINER
+  outer_height_mm: {min: 150, max: 200}
+  dimensions_status: PHYSICAL_MEASUREMENT_PENDING
+  functions:
+    - pump_submergence
+    - dry_run_prevention
+    - settling_bay
+    - removable_intake_strainer
+    - LOW_NORMAL_HIGH_monitoring
+    - EC_pH_measurement
+    - complete_drain
+
+pump:
+  reference: Tencen_submersible
+  voltage_v: 12
+  nameplate_power_w: 20
+  zero_head_maximum_flow_l_h: 700
+  maximum_head_m: 6
+  nominal_discharge_nipple_mm: 13
+  eight_tower_capacity: NOT_QUALIFIED
+  bypass_always_available: true
+  per_tower_target_l_min: {min: 0.5, max: 1.0}
+  stage_targets:
+    4: {l_min: [2, 4], l_h: [120, 240]}
+    6: {l_min: [3, 6], l_h: [180, 360]}
+    8: {l_min: [4, 8], l_h: [240, 480]}
+
+isolation_sequence:
+  - CLOSE_UPPER_SUPPLY
+  - WAIT_FOR_TOWER_DRAIN_TO_LOCAL_SUMP
+  - CONFIRM_LOCAL_LEVEL_STABLE
+  - CLOSE_EQUALIZATION_VALVE
+  - DISCONNECT_OR_SERVICE_TOWER_AND_SUMP
+equalization_first_isolation_allowed: false
+reconnection_sequence:
+  - VERIFY_SUMP_CLEAN
+  - VERIFY_EC_AND_PH_COMPATIBLE
+  - MATCH_LOCAL_WATER_LEVEL_TO_ZONE
+  - OPEN_EQUALIZATION_VALVE_SLOWLY
+  - CHECK_FOR_LEAKS
+  - OPEN_UPPER_SUPPLY
+  - CONFIRM_RETURN_FLOW
+
+fresh_water:
+  upper_tank_volume_l: 10
+  separate_from_nutrient_circulation: true
+  fresh_water_to_tower_at_night: CLOSED
+  load_supported_by_tower: false
+  shelf_elevation_mm: {min: 1650, preferred: 1700, max: 1750}
+  maximum_tank_top_elevation_mm: 2050
+
+room:
+  ceiling_height_mm: 2300
+  minimum_ceiling_clearance_mm: 250
+  length_mm: MEASUREMENT_PENDING
+  width_mm: MEASUREMENT_PENDING
+  human_aisle_width_mm: {min: 600, preferred: [700, 800]}
+
+water_balance:
+  tower_buffer_l_per_tower: 2
+  pipe_volume_l: MEASUREMENT_PENDING
+  pump_well_operating_volume_l: MEASUREMENT_PENDING
+  normal_total_formula_l: N_times_7_to_9_plus_V_pipe_plus_V_pump_well
+  stop_return_formula_l: N_times_2_plus_V_pipe_return
+
+energy:
+  measurement_name: CIRCULATION_PUMP_ONLY_Wh
+  includes_fresh_water_equipment: false
+  includes_sensors: false
+  includes_timer_standby: false
+
+prohibited:
+  - serial_sump_daisy_chain
+  - airtight_local_sump
+  - tower_load_on_sump
+  - pipe_load_on_sump_wall
+  - printed_petg_watertight_15L_tank
+  - printed_sliding_valve
+  - printed_thread_only_watertight_joint
+  - small_printed_petg_check_valve
+  - emergency_overflow_return_to_circulation
+  - final_bulkhead_hole_before_measurement
+  - eight_tower_qualification_from_nameplate_only
+  - printable_stl_in_phase4tlsa

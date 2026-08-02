@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+<path d="M0,0 L10,4 L0,8 Z" fill="context-stroke"/>
+</marker>
+<style>text{font-family:"Yu Gothic","Noto Sans CJK JP",sans-serif;fill:#17212b}.title{font-size:28px;font-weight:700}.sub{font-size:16px;fill:#455a64}.node{stroke:#263238;stroke-width:2}.label{font-size:17px;font-weight:600;text-anchor:middle}.edge{fill:none;stroke-width:4;marker-end:url(#arrow)}.edge-label{font-size:14px;text-anchor:middle}.note{font-size:15px}</style>
+</defs>
+<rect width="1200" height="700" fill="#f7fafc"/>
+<text x="50" y="48" class="title">夜間の水路状態</text>
+<text x="50" y="78" class="sub">上部10L清水槽と養液循環ゾーンを分離する</text>
+<path d="M300,210 L410,210" class="edge" stroke="#d84315" stroke-dasharray="10 8"/>
+<text x="355" y="202" class="edge-label">閉鎖</text>
+<path d="M590,210 L720,210" class="edge" stroke="#d84315" stroke-dasharray="10 8"/>
+<text x="655" y="202" class="edge-label">流れなし</text>
+<path d="M290,435 L400,435" class="edge" stroke="#1976d2"/>
+<text x="345" y="427" class="edge-label">均水</text>
+<path d="M600,435 L720,435" class="edge" stroke="#1976d2"/>
+<text x="660" y="427" class="edge-label">循環系のみ</text>
+<rect x="90" y="160" width="210" height="100" rx="12" class="node" fill="#d8ecff"/>
+<text x="195" y="200" class="label">
+<tspan x="195" dy="0">上部10L</tspan>
+<tspan x="195" dy="22">清水一時タンク</tspan>
+</text>
+<rect x="410" y="160" width="180" height="100" rx="12" class="node" fill="#ffdcdc"/>
+<text x="500" y="200" class="label">
+<tspan x="500" dy="0">清水→タワー弁</tspan>
+<tspan x="500" dy="22">CLOSED</tspan>
+</text>
+<rect x="720" y="160" width="210" height="100" rx="12" class="node" fill="#e9eef2"/>
+<text x="825" y="200" class="label">
+<tspan x="825" dy="0">タワー上部</tspan>
+<tspan x="825" dy="22">清水供給なし</tspan>
+</text>
+<rect x="90" y="390" width="200" height="90" rx="12" class="node" fill="#d8ecff"/>
+<text x="190" y="435" class="label">
+<tspan x="190" dy="0">ローカルサンプ</tspan>
+</text>
+<rect x="400" y="390" width="200" height="90" rx="12" class="node" fill="#d8ecff"/>
+<text x="500" y="435" class="label">
+<tspan x="500" dy="0">共通ポンプ槽</tspan>
+</text>
+<rect x="720" y="390" width="210" height="90" rx="12" class="node" fill="#dcf5e6"/>
+<text x="825" y="425" class="label">
+<tspan x="825" dy="0">養液循環</tspan>
+<tspan x="825" dy="22">設定に従う</tspan>
+</text>
+<text x="50" y="610" class="note">• 清水槽には夜間も清水だけを保持</text>
+<text x="50" y="634" class="note">• 清水補給設備の電力は循環ポンプWhへ含めない</text>
+</svg>

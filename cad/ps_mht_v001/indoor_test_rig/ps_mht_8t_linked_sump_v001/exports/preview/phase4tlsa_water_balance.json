@@ -1,0 +1,257 @@
+{
+  "status": "VARIABLE_BALANCE_COMPLETE_MEASUREMENTS_PENDING",
+  "cases": {
+    "4": {
+      "tower_count": 4,
+      "local_sump_normal_total_l": [
+        20.0,
+        28.0
+      ],
+      "tower_buffer_total_l": 8.0,
+      "known_normal_inventory_excluding_pipe_and_pump_well_l": [
+        28.0,
+        36.0
+      ],
+      "normal_operating_total_formula_l": "28..36 + V_pipe + V_pump_well",
+      "local_sump_gross_total_l": [
+        48.0,
+        64.0
+      ],
+      "specified_emergency_freeboard_total_l": [
+        16.0,
+        24.0
+      ],
+      "worst_case_geometric_empty_capacity_l": 20.0,
+      "known_stop_return_from_tower_buffers_l": 8.0,
+      "stop_return_formula_l": "8 + V_pipe_return",
+      "worst_case_headroom_after_known_tower_return_l": 12.0,
+      "pipe_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_operating_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_required_volume_formula_l": "V_minimum_submergence + V_operational_drawdown + max(0, V_stop_return + V_pipe_return - V_local_available) + V_abnormal_margin",
+      "target_zone_flow_l_min": [
+        2.0,
+        4.0
+      ],
+      "target_zone_flow_l_h": [
+        120.0,
+        240.0
+      ],
+      "pump_capacity_qualified": false
+    },
+    "6": {
+      "tower_count": 6,
+      "local_sump_normal_total_l": [
+        30.0,
+        42.0
+      ],
+      "tower_buffer_total_l": 12.0,
+      "known_normal_inventory_excluding_pipe_and_pump_well_l": [
+        42.0,
+        54.0
+      ],
+      "normal_operating_total_formula_l": "42..54 + V_pipe + V_pump_well",
+      "local_sump_gross_total_l": [
+        72.0,
+        96.0
+      ],
+      "specified_emergency_freeboard_total_l": [
+        24.0,
+        36.0
+      ],
+      "worst_case_geometric_empty_capacity_l": 30.0,
+      "known_stop_return_from_tower_buffers_l": 12.0,
+      "stop_return_formula_l": "12 + V_pipe_return",
+      "worst_case_headroom_after_known_tower_return_l": 18.0,
+      "pipe_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_operating_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_required_volume_formula_l": "V_minimum_submergence + V_operational_drawdown + max(0, V_stop_return + V_pipe_return - V_local_available) + V_abnormal_margin",
+      "target_zone_flow_l_min": [
+        3.0,
+        6.0
+      ],
+      "target_zone_flow_l_h": [
+        180.0,
+        360.0
+      ],
+      "pump_capacity_qualified": false
+    },
+    "8": {
+      "tower_count": 8,
+      "local_sump_normal_total_l": [
+        40.0,
+        56.0
+      ],
+      "tower_buffer_total_l": 16.0,
+      "known_normal_inventory_excluding_pipe_and_pump_well_l": [
+        56.0,
+        72.0
+      ],
+      "normal_operating_total_formula_l": "56..72 + V_pipe + V_pump_well",
+      "local_sump_gross_total_l": [
+        96.0,
+        128.0
+      ],
+      "specified_emergency_freeboard_total_l": [
+        32.0,
+        48.0
+      ],
+      "worst_case_geometric_empty_capacity_l": 40.0,
+      "known_stop_return_from_tower_buffers_l": 16.0,
+      "stop_return_formula_l": "16 + V_pipe_return",
+      "worst_case_headroom_after_known_tower_return_l": 24.0,
+      "pipe_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_operating_volume_l": "MEASUREMENT_PENDING",
+      "pump_well_required_volume_formula_l": "V_minimum_submergence + V_operational_drawdown + max(0, V_stop_return + V_pipe_return - V_local_available) + V_abnormal_margin",
+      "target_zone_flow_l_min": [
+        4.0,
+        8.0
+      ],
+      "target_zone_flow_l_h": [
+        240.0,
+        480.0
+      ],
+      "pump_capacity_qualified": false
+    }
+  },
+  "one_sump_isolated": {
+    "4": {
+      "tower_count": 4,
+      "isolated_sump_count": 1,
+      "active_tower_count": 3,
+      "isolated_stable_local_volume_l": [
+        5.0,
+        7.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        21.0,
+        27.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    },
+    "6": {
+      "tower_count": 6,
+      "isolated_sump_count": 1,
+      "active_tower_count": 5,
+      "isolated_stable_local_volume_l": [
+        5.0,
+        7.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        35.0,
+        45.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    },
+    "8": {
+      "tower_count": 8,
+      "isolated_sump_count": 1,
+      "active_tower_count": 7,
+      "isolated_stable_local_volume_l": [
+        5.0,
+        7.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        49.0,
+        63.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    }
+  },
+  "two_sumps_isolated": {
+    "4": {
+      "tower_count": 4,
+      "isolated_sump_count": 2,
+      "active_tower_count": 2,
+      "isolated_stable_local_volume_l": [
+        10.0,
+        14.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        14.0,
+        18.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    },
+    "6": {
+      "tower_count": 6,
+      "isolated_sump_count": 2,
+      "active_tower_count": 4,
+      "isolated_stable_local_volume_l": [
+        10.0,
+        14.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        28.0,
+        36.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    },
+    "8": {
+      "tower_count": 8,
+      "isolated_sump_count": 2,
+      "active_tower_count": 6,
+      "isolated_stable_local_volume_l": [
+        10.0,
+        14.0
+      ],
+      "active_known_inventory_excluding_pipe_and_pump_well_l": [
+        42.0,
+        54.0
+      ],
+      "downstream_active_sumps_disconnected": false,
+      "isolation_requires_supply_closed_first": true
+    }
+  },
+  "four_unused_branches_at_four_towers": {
+    "closed_branch_count": 4,
+    "fluid_beyond_closed_valve_l": 0.0,
+    "future_expansion_available": true
+  },
+  "pump_stop": {
+    "return_formula": "2 * N + V_pipe_return",
+    "local_absorption_checked_before_pump_well": true
+  },
+  "upper_supply_mistakenly_open_during_isolation": {
+    "equalization_valve_state": "CLOSED",
+    "route": "LOCAL_HIGH_OVERFLOW_TO_NON_CIRCULATING_RECEIVER",
+    "sensitivity": [
+      {
+        "detection_minutes": 5,
+        "receiver_required_before_margin_l": [
+          2.5,
+          5.0
+        ],
+        "formula": "Q_branch * t_detection + V_safety_margin"
+      },
+      {
+        "detection_minutes": 10,
+        "receiver_required_before_margin_l": [
+          5.0,
+          10.0
+        ],
+        "formula": "Q_branch * t_detection + V_safety_margin"
+      },
+      {
+        "detection_minutes": 15,
+        "receiver_required_before_margin_l": [
+          7.5,
+          15.0
+        ],
+        "formula": "Q_branch * t_detection + V_safety_margin"
+      }
+    ]
+  },
+  "unresolved_variables": [
+    "V_pipe",
+    "V_pipe_return",
+    "V_pump_well",
+    "V_minimum_submergence",
+    "V_operational_drawdown",
+    "V_abnormal_margin"
+  ]
+}

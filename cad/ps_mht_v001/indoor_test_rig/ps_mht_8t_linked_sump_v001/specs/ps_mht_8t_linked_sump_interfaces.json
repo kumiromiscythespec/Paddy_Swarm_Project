@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "project": "PS-MHT-8T-LINKED-SUMP-V001",
+  "phase": "4T-LS-A",
+  "status": "PHYSICAL_COMPONENT_MEASUREMENT_PENDING",
+  "topology": "PARALLEL_BRANCH_EQUALIZATION",
+  "branches": [
+    {"id": "A", "initial_use": "ACTIVE_4T", "upper_supply_valve": "REQUIRED", "equalization_valve": "REQUIRED", "emergency_overflow": "REQUIRED"},
+    {"id": "B", "initial_use": "ACTIVE_4T", "upper_supply_valve": "REQUIRED", "equalization_valve": "REQUIRED", "emergency_overflow": "REQUIRED"},
+    {"id": "C", "initial_use": "ACTIVE_4T", "upper_supply_valve": "REQUIRED", "equalization_valve": "REQUIRED", "emergency_overflow": "REQUIRED"},
+    {"id": "D", "initial_use": "ACTIVE_4T", "upper_supply_valve": "REQUIRED", "equalization_valve": "REQUIRED", "emergency_overflow": "REQUIRED"},
+    {"id": "E", "initial_use": "CLOSED_FUTURE", "upper_supply_valve": "CLOSED", "equalization_valve": "CLOSED", "emergency_overflow": "REQUIRED_WHEN_SUMP_INSTALLED"},
+    {"id": "F", "initial_use": "CLOSED_FUTURE", "upper_supply_valve": "CLOSED", "equalization_valve": "CLOSED", "emergency_overflow": "REQUIRED_WHEN_SUMP_INSTALLED"},
+    {"id": "G", "initial_use": "CLOSED_FUTURE", "upper_supply_valve": "CLOSED", "equalization_valve": "CLOSED", "emergency_overflow": "REQUIRED_WHEN_SUMP_INSTALLED"},
+    {"id": "H", "initial_use": "CLOSED_FUTURE", "upper_supply_valve": "CLOSED", "equalization_valve": "CLOSED", "emergency_overflow": "REQUIRED_WHEN_SUMP_INSTALLED"}
+  ],
+  "equalization_interface": {
+    "branch_inner_diameter_mm": {"minimum": 25, "preferred": 32},
+    "trunk_inner_diameter_mm": {"minimum": 32, "preferred": 40},
+    "bulkhead": "PURCHASED_MEASUREMENT_PENDING",
+    "gasket": "PURCHASED_EPDM_MEASUREMENT_PENDING",
+    "valve": "PURCHASED_FULL_PORT_UNION_MEASUREMENT_PENDING",
+    "flexible_transition": "PURCHASED_AND_INDEPENDENTLY_SUPPORTED",
+    "final_hole_diameter_mm": null
+  },
+  "upper_supply_interface": {
+    "per_branch_flow_control": true,
+    "open_discharge_at_tower_top": true,
+    "anti_siphon_by_open_discharge": true,
+    "fresh_water_closed_cross_connection": false
+  },
+  "overflow_interface": {
+    "inner_diameter_mm": {"minimum": 25, "preferred": 32},
+    "destination": "NON_CIRCULATING_EMERGENCY_RECEIVER",
+    "normal_state": "DRY",
+    "reconnects_shared_nutrient_zone": false
+  },
+  "pump_well_interface": {
+    "location": "NEAR_TRUNK_MIDPOINT",
+    "container": "PURCHASED_PP_OR_PE_MEASUREMENT_PENDING",
+    "pump": "TENCEN_PHYSICAL_MEASUREMENT_PENDING",
+    "minimum_submergence_mm": null,
+    "operating_volume_l": null
+  },
+  "load_interfaces": {
+    "tower_to_sump": "PROHIBITED",
+    "pipe_to_sump_wall": "PROHIBITED",
+    "tower_to_dry_frame_to_floor": "REQUIRED",
+    "fresh_water_tank_to_tower": "PROHIBITED"
+  },
+  "cad": {
+    "authority": "REFERENCE_ONLY",
+    "print_target_count": 0,
+    "stl_output_count": 0,
+    "a1_envelope_is_acceptance_condition": false
+  }
+}
