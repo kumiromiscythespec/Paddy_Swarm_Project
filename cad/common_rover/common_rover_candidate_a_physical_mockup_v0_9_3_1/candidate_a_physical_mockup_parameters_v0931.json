@@ -1,0 +1,222 @@
+{
+  "a1_build_volume_mm": [
+    256.0,
+    256.0,
+    256.0
+  ],
+  "authority_pointer": "UNCHANGED",
+  "candidate": "A_LATERAL_FRONT_DIRECT",
+  "clutch": {
+    "positions_mm": {
+      "DRIVE": 0,
+      "NEUTRAL": 5,
+      "PTO": 10
+    },
+    "simultaneous_drive_pto": "GEOMETRICALLY_NOT_SHOWN_AND_PROHIBITED",
+    "torque_transmission": "PROHIBITED"
+  },
+  "coordinate_system": {
+    "X": "left",
+    "Y": "rear",
+    "Z": "up"
+  },
+  "document_id": "PS-CR-CANDIDATE-A-PHYSICAL-MOCKUP-V0931",
+  "frame": {
+    "2040": "PROFILE_AND_SLOT_MEASUREMENT_HOLD",
+    "authority": "20X20MM_T_SLOT_CLASS",
+    "direct_holes": "PROHIBITED",
+    "temporary_methods": [
+      "T_NUT_IF_EXISTING_AND_COMPATIBLE",
+      "WOOD_OR_BOARD",
+      "SHORT_PRINTED_DUMMY",
+      "PAPER_CARDBOARD_MDF_TEMPLATE"
+    ]
+  },
+  "jig_trade": {
+    "JIG-A": "ADJUSTABLE_SLOT_COMPARISON_ONLY_NO_LOAD",
+    "JIG-B": "LIGHT_EXTERNAL_CRADLE_WITH_TPU_FELT_OR_RUBBER_PROTECTION_NO_CLAMP_LOAD",
+    "reason": "bracket hole origin, edge distances, and complete slot geometry remain HOLD",
+    "recommended": "JIG-B_EXTERNAL_CRADLE"
+  },
+  "manufacturing": "HOLD",
+  "motor_front_plate_datums_mm": {
+    "LEFT": [
+      68.0,
+      -185.0,
+      105.0
+    ],
+    "RIGHT": [
+      -68.0,
+      -185.0,
+      105.0
+    ]
+  },
+  "motor_measurements_mm": {
+    "boss": [
+      12.0,
+      2.7
+    ],
+    "bracket": [
+      40.1,
+      45.5,
+      42.8
+    ],
+    "bracket_thickness": 3.1,
+    "cylinder_diameter": 36.9,
+    "fastener_hole": 3.4,
+    "front_to_rear_fixed": 70.1,
+    "front_to_shaft_tip": 16.9,
+    "hole_centers": [
+      30.0,
+      23.8
+    ],
+    "shaft_diameter": 5.9,
+    "total_axial_fixed": 87.0,
+    "uncertainty": "USER_NOT_REPORTED",
+    "vertical_slot_exact_geometry": "MEASUREMENT_HOLD",
+    "vertical_slot_representative": 27.7
+  },
+  "parent_protection": {
+    "authority_pointers": [
+      {
+        "actual_sha256": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+        "expected_sha256": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+        "pass": true,
+        "path": "CURRENT_COMMON_ROVER_AUTHORITY.md"
+      },
+      {
+        "actual_sha256": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+        "expected_sha256": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+        "pass": true,
+        "path": "README.md"
+      },
+      {
+        "actual_sha256": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+        "expected_sha256": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+        "pass": true,
+        "path": "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      },
+      {
+        "actual_sha256": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9",
+        "expected_sha256": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9",
+        "pass": true,
+        "path": "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      }
+    ],
+    "checks": {
+      "authority_pointers": true,
+      "parent_ledger": true,
+      "parent_path_count": true,
+      "parent_zip_sha": true,
+      "pulley_references": true,
+      "zip_lane_byte_match": true,
+      "zip_scope": true
+    },
+    "mode": "LIVE_REPOSITORY",
+    "parent_ledger_sha256": "661a1d1f2ef6b83eb5e2506aac4494e9073c5af6d3cc78ed8fbdc34b9ab7d99f",
+    "parent_path_count": 151,
+    "parent_zip_path": "D:\\Downloads\\Paddy_Swarm_Common_Rover_v0_9_3_0_Motor_Layout_Powerpath_Trade_Study_20260803_185807.zip",
+    "parent_zip_sha256": "859763d303d154186aedbf676ffbe7d623724bb0f4cc030acc170830a32edfe6",
+    "pulley_references": [
+      {
+        "actual_sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+        "expected_sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+        "id": "20T_STEP",
+        "pass": true,
+        "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.step"
+      },
+      {
+        "actual_sha256": "a3e22cba3cd02e246fb9f1a8a58a9a10a0a12f8e5ddbec1e8397da01af9d944b",
+        "expected_sha256": "a3e22cba3cd02e246fb9f1a8a58a9a10a0a12f8e5ddbec1e8397da01af9d944b",
+        "id": "20T_STL",
+        "pass": true,
+        "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.stl"
+      },
+      {
+        "actual_sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+        "expected_sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+        "id": "60T_STEP",
+        "pass": true,
+        "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step"
+      },
+      {
+        "actual_sha256": "2577b0cd8575a961e527c47e304036a4072245ef051f91c5eccf3e1adbac42f7",
+        "expected_sha256": "2577b0cd8575a961e527c47e304036a4072245ef051f91c5eccf3e1adbac42f7",
+        "id": "60T_STL",
+        "pass": true,
+        "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.stl"
+      }
+    ],
+    "status": "PASS",
+    "zip_lane_byte_mismatches": []
+  },
+  "physical_mockup": "NOT_YET_PERFORMED",
+  "physical_mockup_class": "NO_LOAD_LAYOUT_ONLY",
+  "powerpath": "P1_LATERAL_DIRECT_COMMON_SELECTOR_PATTERN_LEFT_RIGHT_INDEPENDENT",
+  "pulley_reuse": {
+    "20T_STEP": {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.step",
+      "sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1"
+    },
+    "20T_STL": {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.stl",
+      "sha256": "a3e22cba3cd02e246fb9f1a8a58a9a10a0a12f8e5ddbec1e8397da01af9d944b"
+    },
+    "60T_STEP": {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step",
+      "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+    },
+    "60T_STL": {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.stl",
+      "sha256": "2577b0cd8575a961e527c47e304036a4072245ef051f91c5eccf3e1adbac42f7"
+    }
+  },
+  "ten_mm_shaft_reference": {
+    "S2_10P30": "NO_LOAD_PRINTED_SLIDE_REFERENCE_ONLY",
+    "physical_reference": "USER_EXISTING_10MM_SHAFT",
+    "source": "common_rover_shaft_fit_calibration_v0_9_2_2"
+  },
+  "version": "0.9.3.1",
+  "width_contract": {
+    "absolute_width_rule_mm": "LESS_THAN_300",
+    "boundary_x_mm": [
+      -145.0,
+      145.0
+    ],
+    "collisions": [
+      {
+        "intersection_volume_mm3": 0.0,
+        "method": "CADQUERY_ACTUAL_COMMON_VOLUME",
+        "pass": true,
+        "target": "CBOX"
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "method": "CADQUERY_ACTUAL_COMMON_VOLUME",
+        "pass": true,
+        "target": "BBOX"
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "method": "CADQUERY_ACTUAL_COMMON_VOLUME",
+        "pass": true,
+        "target": "FRAME"
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "method": "CADQUERY_ACTUAL_COMMON_VOLUME",
+        "pass": true,
+        "target": "TRACKS"
+      }
+    ],
+    "complete_fixed_width_mm": 290.0,
+    "complete_guarded_width_mm": 290.0,
+    "motor_fixed_width_mm": 276.2,
+    "motor_g1_guard_width_mm": 286.2,
+    "physical_confirmation": "REQUIRED",
+    "s2_temporary_service_width_mm": 316.2,
+    "status": "CONDITIONAL_PASS",
+    "target_width_mm": 290.0,
+    "track_proxy_width_mm": 290.0
+  }
+}

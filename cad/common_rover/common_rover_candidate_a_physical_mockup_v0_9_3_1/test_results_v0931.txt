@@ -1,0 +1,41 @@
+command=python -B tests/test_candidate_a_physical_mockup_v0931.py
+status=PASS
+Ran 30 tests in 3.151s
+OK
+physical_mockup=NOT_YET_PERFORMED
+full_output:
+test_001_document_identity_and_scope (__main__.CandidateAPhysicalMockupV0931Contract.test_001_document_identity_and_scope) ... ok
+test_002_parent_lane_and_zip_are_protected (__main__.CandidateAPhysicalMockupV0931Contract.test_002_parent_lane_and_zip_are_protected) ... ok
+test_003_authority_pointer_remains_unchanged (__main__.CandidateAPhysicalMockupV0931Contract.test_003_authority_pointer_remains_unchanged) ... ok
+test_004_candidate_a_datums_are_exact (__main__.CandidateAPhysicalMockupV0931Contract.test_004_candidate_a_datums_are_exact) ... ok
+test_005_motor_measurements_are_exact (__main__.CandidateAPhysicalMockupV0931Contract.test_005_motor_measurements_are_exact) ... ok
+test_006_jig_b_is_recommended_and_jig_a_is_comparison_only (__main__.CandidateAPhysicalMockupV0931Contract.test_006_jig_b_is_recommended_and_jig_a_is_comparison_only) ... ok
+test_007_cad_width_contract (__main__.CandidateAPhysicalMockupV0931Contract.test_007_cad_width_contract) ... ok
+test_008_actual_cad_intersections_are_zero (__main__.CandidateAPhysicalMockupV0931Contract.test_008_actual_cad_intersections_are_zero) ... ok
+test_009_service_sweep_is_not_a_fixed_width_failure (__main__.CandidateAPhysicalMockupV0931Contract.test_009_service_sweep_is_not_a_fixed_width_failure) ... ok
+test_010_frame_authority_is_2020_class_and_2040_is_hold (__main__.CandidateAPhysicalMockupV0931Contract.test_010_frame_authority_is_2020_class_and_2040_is_hold) ... ok
+test_011_pulley_references_are_pinned_not_duplicated (__main__.CandidateAPhysicalMockupV0931Contract.test_011_pulley_references_are_pinned_not_duplicated) ... ok
+test_012_ten_millimetre_shaft_is_reference_only (__main__.CandidateAPhysicalMockupV0931Contract.test_012_ten_millimetre_shaft_is_reference_only) ... ok
+test_013_all_fourteen_print_parts_reload_and_fit_a1 (__main__.CandidateAPhysicalMockupV0931Contract.test_013_all_fourteen_print_parts_reload_and_fit_a1) ... ok
+test_014_print_orientation_and_no_load_authority_are_recorded (__main__.CandidateAPhysicalMockupV0931Contract.test_014_print_orientation_and_no_load_authority_are_recorded) ... ok
+test_015_left_right_printable_bounds_are_symmetric (__main__.CandidateAPhysicalMockupV0931Contract.test_015_left_right_printable_bounds_are_symmetric) ... ok
+test_016_all_seven_step_assemblies_reload (__main__.CandidateAPhysicalMockupV0931Contract.test_016_all_seven_step_assemblies_reload) ... ok
+test_017_all_nine_one_to_one_templates_exist (__main__.CandidateAPhysicalMockupV0931Contract.test_017_all_nine_one_to_one_templates_exist) ... ok
+test_018_selector_states_are_0_5_10_and_mutually_exclusive (__main__.CandidateAPhysicalMockupV0931Contract.test_018_selector_states_are_0_5_10_and_mutually_exclusive) ... ok
+test_019_left_right_pto_are_independent_and_inward (__main__.CandidateAPhysicalMockupV0931Contract.test_019_left_right_pto_are_independent_and_inward) ... ok
+test_020_unit_mass_is_not_supported_by_pto_shafts (__main__.CandidateAPhysicalMockupV0931Contract.test_020_unit_mass_is_not_supported_by_pto_shafts) ... ok
+test_021_procedure_has_thirty_steps_and_ends_unpowered (__main__.CandidateAPhysicalMockupV0931Contract.test_021_procedure_has_thirty_steps_and_ends_unpowered) ... ok
+test_022_measurement_record_is_blank_for_physical_results (__main__.CandidateAPhysicalMockupV0931Contract.test_022_measurement_record_is_blank_for_physical_results) ... ok
+test_023_no_power_no_load_contract_is_explicit (__main__.CandidateAPhysicalMockupV0931Contract.test_023_no_power_no_load_contract_is_explicit) ... ok
+test_024_exact_package_path_contract (__main__.CandidateAPhysicalMockupV0931Contract.test_024_exact_package_path_contract) ... ok
+test_025_commit_paths_are_exactly_scoped (__main__.CandidateAPhysicalMockupV0931Contract.test_025_commit_paths_are_exactly_scoped) ... ok
+test_026_manifest_exact_order_and_roles (__main__.CandidateAPhysicalMockupV0931Contract.test_026_manifest_exact_order_and_roles) ... ok
+test_027_sha256_ledger_is_complete (__main__.CandidateAPhysicalMockupV0931Contract.test_027_sha256_ledger_is_complete) ... ok
+test_028_repository_lifecycle_guard (__main__.CandidateAPhysicalMockupV0931Contract.test_028_repository_lifecycle_guard) ... ok
+test_029_evidence_contract (__main__.CandidateAPhysicalMockupV0931Contract.test_029_evidence_contract) ... ok
+test_030_zip_scope_hashes_and_bytes (__main__.CandidateAPhysicalMockupV0931Contract.test_030_zip_scope_hashes_and_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 3.151s
+
+OK
