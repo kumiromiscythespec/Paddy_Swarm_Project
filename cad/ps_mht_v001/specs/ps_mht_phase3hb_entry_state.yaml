@@ -1,0 +1,64 @@
+schema_version: 1
+project: PS-MHT-V001
+phase: Phase_3H-B
+status:
+  - C050_ARC_PHYSICAL_PASS_RECORDED
+  - FULL_RING_PRINT_ARTIFACTS_READY
+  - FULL_RING_PHYSICAL_VALIDATION_PENDING
+phase3ha_arc_physical_result:
+  candidate: C050
+  radial_clearance_mm: 0.50
+  preferred_pairing_orientation: HOLE_1
+  assembly_direction: PASS
+  light_finger_alignment: PASS
+  repeated_attachment: PASS
+  whitening: NONE_REPORTED
+  cracking: NONE_REPORTED
+  abnormal_abrasion: NONE_REPORTED
+  strong_reaction: NONE_REPORTED
+  self_separation: NONE_REPORTED
+  free_arc_springback:
+    present: true
+    severity: LIGHT
+    disposition: ACCEPTABLE
+  cad_radius_correction: NOT_REQUIRED
+  status: PASS
+  exact_cycle_count: NOT_RECORDED
+production_selection:
+  horizontal_joint_clearance_mm: null
+  status: FULL_RING_PHYSICAL_VALIDATION_PENDING
+  full_ring_physical_status: PENDING
+  compression_ring_physical_status: PENDING
+  water_leak_status: PENDING
+candidate_definition:
+  lower_inner_radius_mm: 97.0
+  c030:
+    radial_clearance_mm_per_side: 0.30
+    skirt_outer_radius_mm: 96.70
+    skirt_outer_diameter_mm: 193.40
+    relative_fit: TIGHTEST_OF_THREE
+  c050:
+    radial_clearance_mm_per_side: 0.50
+    skirt_outer_radius_mm: 96.50
+    skirt_outer_diameter_mm: 193.00
+    relative_fit: MIDDLE_FULL_RING_TEST_CANDIDATE
+  c070:
+    radial_clearance_mm_per_side: 0.70
+    skirt_outer_radius_mm: 96.30
+    skirt_outer_diameter_mm: 192.60
+    relative_fit: LOOSEST_OF_THREE
+print_gate:
+  plate_01: READY_FIRST
+  plate_02: READY_AFTER_PLATE_01_INSPECTION
+  plate_03: HOLD_UNTIL_FULL_RING_PAIR_PASS
+  temporary_test_membrane: REFERENCE_ONLY
+  water_test: PENDING
+prohibitions:
+  - geometry_change_from_phase3ha
+  - radius_correction
+  - sideways_or_angled_print
+  - automatic_support
+  - ring_split_or_sectorization
+  - auxiliary_feet
+  - cad_brim
+  - production_clearance_selection_before_physical_test
