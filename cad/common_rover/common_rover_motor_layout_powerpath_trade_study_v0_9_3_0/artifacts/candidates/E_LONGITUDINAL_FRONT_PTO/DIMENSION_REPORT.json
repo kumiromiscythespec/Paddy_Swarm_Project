@@ -1,0 +1,60 @@
+{
+  "candidate_id": "E_LONGITUDINAL_FRONT_PTO",
+  "complete_fixed_width_mm": 290.0,
+  "complete_guarded_width_mm": 290.0,
+  "fixed_bounds_mm": {
+    "xlen": 290.0,
+    "xmax": 145.0,
+    "xmin": -145.0,
+    "ylen": 695.0,
+    "ymax": 300.0,
+    "ymin": -395.0,
+    "zlen": 170.0,
+    "zmax": 210.0,
+    "zmin": 40.0
+  },
+  "fixed_width_from_actual_solids": true,
+  "guard_width_from_actual_solids": true,
+  "guarded_bounds_mm": {
+    "xlen": 290.0,
+    "xmax": 145.0,
+    "xmin": -145.0,
+    "ylen": 695.0,
+    "ymax": 300.0,
+    "ymin": -395.0,
+    "zlen": 170.0,
+    "zmax": 210.0,
+    "zmin": 40.0
+  },
+  "maximum_height_mm": 210.0,
+  "motor_axis": "Y",
+  "motor_front_plate_xyz_left": [
+    105.0,
+    -180.0,
+    105.0
+  ],
+  "motor_front_plate_xyz_right": [
+    -105.0,
+    -180.0,
+    105.0
+  ],
+  "motor_removal_possible": true,
+  "motor_subsystem_fixed_width_mm": 250.1,
+  "motor_subsystem_guarded_width_mm": 260.1,
+  "service_bounds_mm": {
+    "xlen": 290.0,
+    "xmax": 145.0,
+    "xmin": -145.0,
+    "ylen": 695.0,
+    "ymax": 300.0,
+    "ymin": -395.0,
+    "zlen": 170.0,
+    "zmax": 210.0,
+    "zmin": 40.0
+  },
+  "service_may_temporarily_exceed_290": false,
+  "service_width_from_actual_solids": true,
+  "service_width_mm": 290.0,
+  "width_margin_to_290_mm": 0.0,
+  "width_margin_to_300_mm": 10.0
+}

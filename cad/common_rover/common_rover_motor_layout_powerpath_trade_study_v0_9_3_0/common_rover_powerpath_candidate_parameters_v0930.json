@@ -1,0 +1,95 @@
+{
+  "METAL_TORQUE_CLUTCH_TOLERANCE": "NOT_DERIVED_FROM_S2",
+  "S2_10P30": "NO_LOAD_PRINTED_SLIDE_REFERENCE_ONLY",
+  "document_id": "PS-CR-MOTOR-LAYOUT-POWERPATH-TRADE-STUDY-V0930",
+  "global_rules": {
+    "belt_90_degree_axis_change": "PROHIBITED",
+    "brake_or_mechanical_lock_during_pto": "REQUIRED",
+    "chain_90_degree_axis_change": "PROHIBITED",
+    "dog_clutch": "COAXIAL_ONLY",
+    "drive_pto_simultaneous": "PROHIBITED",
+    "left_right_common_shaft": "PROHIBITED",
+    "left_right_drive_independence": "REQUIRED",
+    "right_angle_mechanism_required": true
+  },
+  "powerpaths": {
+    "P1": {
+      "bearings": 8,
+      "belts": 2,
+      "chains": 0,
+      "gear_pairs": 0,
+      "motor_axis": "X",
+      "name": "LATERAL_DIRECT_COMMON_SELECTOR",
+      "note": "common pattern, never a common physical left-right shaft",
+      "pto": "INWARD_X_INDEPENDENT",
+      "right_angle": 0,
+      "selector_axis": "X",
+      "valid": true
+    },
+    "P2": {
+      "bearings": 12,
+      "belts": 2,
+      "chains": 0,
+      "gear_pairs": 0,
+      "motor_axis": "X",
+      "name": "LATERAL_DIRECT_SEPARATE_JACKSHAFTS",
+      "note": "separate DRIVE/PTO jackshaft candidates",
+      "pto": "INWARD_X_INDEPENDENT",
+      "right_angle": 0,
+      "selector_axis": "X",
+      "valid": true
+    },
+    "P3": {
+      "bearings": 12,
+      "belts": 2,
+      "chains": 0,
+      "gear_pairs": 2,
+      "motor_axis": "Y",
+      "name": "LONGITUDINAL_PLUS_BEVEL",
+      "note": "one explicit bevel pair per side",
+      "pto": "INWARD_X_INDEPENDENT",
+      "right_angle": 1,
+      "selector_axis": "X",
+      "valid": true
+    },
+    "P4": {
+      "bearings": 10,
+      "belts": 2,
+      "chains": 0,
+      "gear_pairs": 2,
+      "motor_axis": "Y",
+      "name": "LONGITUDINAL_FRONT_PTO",
+      "note": "PTO remains Y; DRIVE branch alone uses bevel",
+      "pto": "FORWARD_NEGATIVE_Y_INDEPENDENT",
+      "right_angle": 1,
+      "selector_axis": "Y",
+      "valid": true
+    },
+    "P5": {
+      "bearings": 10,
+      "belts": 0,
+      "chains": 0,
+      "gear_pairs": 2,
+      "motor_axis": "Z",
+      "name": "VERTICAL_PLUS_BEVEL",
+      "note": "vertical motor requires explicit bevel",
+      "pto": "INWARD_X_INDEPENDENT",
+      "right_angle": 1,
+      "selector_axis": "X",
+      "valid": true
+    },
+    "P6": {
+      "bearings": 8,
+      "belts": 0,
+      "chains": 0,
+      "gear_pairs": 2,
+      "motor_axis": "FUTURE_PRODUCT",
+      "name": "RIGHT_ANGLE_GEARMOTOR_ALTERNATIVE",
+      "note": "envelope-only future comparison; PURCHASE_HOLD",
+      "pto": "PRODUCT_SELECTION_HOLD",
+      "right_angle": 1,
+      "selector_axis": "X_OR_Y",
+      "valid": true
+    }
+  }
+}

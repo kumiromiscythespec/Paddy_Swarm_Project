@@ -1,0 +1,351 @@
+{
+  "authority_files": [
+    "rovers/common_rover/v2.29.3.9.1/axis_authority.json",
+    "rovers/common_rover/v2.29.3.9.1/fixed_body_dimension_authority.json",
+    "rovers/common_rover/v2.29.3.9.1/hardware_envelope_registry.json",
+    "rovers/common_rover/v2.29.3.9.1/component_registry.json",
+    "rovers/common_rover/v2.29.3.9.1/slot_zone_authority.json"
+  ],
+  "component_registry_parent": {
+    "automatic_reconciliation": "PROHIBITED",
+    "pinned_object_sha256": "2dccc...",
+    "source_used": "PINNED_AUTHORITY_REFERENCE",
+    "version": "v2.29.3.5",
+    "working_copy_line_ending_sensitive_sha256_observed": "7dbfa3..."
+  },
+  "coordinate_authority": {
+    "X": "lateral +left",
+    "Y": "longitudinal +rear; front is negative",
+    "Z": "up"
+  },
+  "current_authority_version": "v2.29.3.9.1",
+  "current_axes_mm": {
+    "cam": [
+      0,
+      -220,
+      106
+    ],
+    "hitch_left": [
+      53,
+      -244,
+      13
+    ],
+    "hitch_right": [
+      -53,
+      -244,
+      13
+    ],
+    "left_input": [
+      115,
+      -130,
+      93
+    ],
+    "left_motor": [
+      96,
+      -75,
+      96
+    ],
+    "left_output": [
+      116,
+      -297,
+      97
+    ],
+    "left_pto": [
+      116,
+      -337,
+      97
+    ],
+    "left_selector": [
+      116,
+      -317,
+      99
+    ],
+    "right_input": [
+      -115,
+      -130,
+      93
+    ],
+    "right_motor": [
+      -96,
+      -75,
+      96
+    ],
+    "right_output": [
+      -116,
+      -297,
+      97
+    ],
+    "right_pto": [
+      -116,
+      -337,
+      97
+    ],
+    "right_selector": [
+      -116,
+      -317,
+      99
+    ],
+    "servo": [
+      0,
+      -193,
+      109
+    ]
+  },
+  "current_pointer": "rovers/common_rover/v2.29.3.9.1",
+  "current_width_contract": {
+    "candidate_target_mm": 286,
+    "difference_recorded": true,
+    "hard_mm": 300,
+    "preferred_mm": 282,
+    "study_user_target_mm": 290
+  },
+  "design_authority_update": "PROHIBITED",
+  "document_id": "PS-CR-MOTOR-LAYOUT-POWERPATH-TRADE-STUDY-V0930",
+  "fixed_bodies": {
+    "BATTERY_CASSETTE": {
+      "bounds_mm": {
+        "x": [
+          -62.5,
+          62.5
+        ],
+        "y": [
+          20,
+          200
+        ],
+        "z": [
+          15,
+          135
+        ]
+      },
+      "size_mm": [
+        125,
+        180,
+        120
+      ]
+    },
+    "BATTERY_EXTRACTION_PROXY": {
+      "bounds_mm": {
+        "x": [
+          -66.5,
+          66.5
+        ],
+        "y": [
+          16,
+          204
+        ],
+        "z": [
+          150,
+          360
+        ]
+      },
+      "source": "inherited pinned v2.29.3.5 component registry"
+    },
+    "BBOX": {
+      "bounds_mm": {
+        "x": [
+          -75,
+          75
+        ],
+        "y": [
+          0,
+          220
+        ],
+        "z": [
+          0,
+          150
+        ]
+      },
+      "size_mm": [
+        150,
+        220,
+        150
+      ]
+    },
+    "CBOX": {
+      "bounds_mm": {
+        "x": [
+          -65,
+          65
+        ],
+        "y": [
+          -140,
+          0
+        ],
+        "z": [
+          0,
+          105
+        ]
+      },
+      "size_mm": [
+        130,
+        140,
+        105
+      ]
+    }
+  },
+  "frame": {
+    "front_crossmember_x": [
+      -69,
+      69
+    ],
+    "front_crossmember_y": [
+      -232,
+      -212
+    ],
+    "left_rail_x": [
+      69,
+      89
+    ],
+    "rail_y": [
+      -232,
+      0
+    ],
+    "rail_z": [
+      0,
+      20
+    ],
+    "right_rail_x": [
+      -89,
+      -69
+    ]
+  },
+  "hardware_envelopes": {
+    "current_motor_placeholder_left": {
+      "size_mm": [
+        18,
+        54,
+        52
+      ],
+      "x": [
+        87,
+        105
+      ],
+      "y": [
+        -102,
+        -48
+      ],
+      "z": [
+        70,
+        122
+      ]
+    },
+    "drainage_keep_outs": "8 inherited fixed zones; explicitly modeled",
+    "service_registry": "EMPTY_OR_EXCLUDED; v0.9.3.0 service envelopes are study-only",
+    "unit_mating_keep_out": {
+      "x": [
+        -72,
+        72
+      ],
+      "y": [
+        -380,
+        -246
+      ],
+      "z": [
+        0,
+        160
+      ]
+    }
+  },
+  "legacy_v0921_difference": {
+    "disposition": "NOT_AUTOMATICALLY_ADOPTED",
+    "legacy_axes": "+X forward, +Y left, +Z up",
+    "legacy_motor_z_mm": 370,
+    "legacy_total_width_mm": 290
+  },
+  "protected": {
+    "authority_pointers": [
+      {
+        "actual_sha256": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+        "expected_sha256": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+        "pass": true,
+        "path": "CURRENT_COMMON_ROVER_AUTHORITY.md"
+      },
+      {
+        "actual_sha256": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+        "expected_sha256": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+        "pass": true,
+        "path": "README.md"
+      },
+      {
+        "actual_sha256": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+        "expected_sha256": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+        "pass": true,
+        "path": "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      },
+      {
+        "actual_sha256": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9",
+        "expected_sha256": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9",
+        "pass": true,
+        "path": "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      }
+    ],
+    "protected_lanes": [
+      {
+        "actual_file_count": 45,
+        "actual_ledger_sha256": "0cb5a1acaa87fde7d36f8cea5f42df2b582f09e8a06ac16eca514377105b0768",
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "0cb5a1acaa87fde7d36f8cea5f42df2b582f09e8a06ac16eca514377105b0768",
+        "pass": true,
+        "path": "rovers/common_rover/v2.29.3.9.1"
+      },
+      {
+        "actual_file_count": 37,
+        "actual_ledger_sha256": "c6c73292a24b37647f65dc16bf5deacf5754af2ef6b17f7a6e0c49402f47bf3e",
+        "expected_file_count": 37,
+        "expected_ledger_sha256": "c6c73292a24b37647f65dc16bf5deacf5754af2ef6b17f7a6e0c49402f47bf3e",
+        "pass": true,
+        "path": "cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1"
+      },
+      {
+        "actual_file_count": 45,
+        "actual_ledger_sha256": "880d8b5ac46397c05f419a8344da19f6e710b135b32591c67d53ae1375d7d7bc",
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "880d8b5ac46397c05f419a8344da19f6e710b135b32591c67d53ae1375d7d7bc",
+        "pass": true,
+        "path": "cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2"
+      },
+      {
+        "actual_file_count": 55,
+        "actual_ledger_sha256": "d7cb3a99f02b87b9fea4623a60c5b758f1a8796a9514708edc84050321be58c1",
+        "expected_file_count": 55,
+        "expected_ledger_sha256": "d7cb3a99f02b87b9fea4623a60c5b758f1a8796a9514708edc84050321be58c1",
+        "pass": true,
+        "path": "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1"
+      },
+      {
+        "actual_file_count": 45,
+        "actual_ledger_sha256": "4e7bed750f1b090276ce40077067aac08ded50a5da3ec8b87f1c79f994e92f92",
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "4e7bed750f1b090276ce40077067aac08ded50a5da3ec8b87f1c79f994e92f92",
+        "pass": true,
+        "path": "cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2"
+      }
+    ],
+    "status": "PASS"
+  },
+  "registered_motor_to_input_perpendicular_mismatch_mm": 19.235384,
+  "slot_zone_authority": {
+    "input_y": [
+      -135,
+      -125
+    ],
+    "measurement_status": "HOLD",
+    "motor_adapter_y": [
+      -80,
+      -70
+    ],
+    "output_bridge_y": [
+      -222,
+      -212
+    ],
+    "servo_y": [
+      -210,
+      -200
+    ]
+  },
+  "track_proxy": {
+    "overall_width_mm": 290,
+    "source": "INHERITED_V090_TRANSFORMED_TRACK_PROXY",
+    "status": "COMPARISON_PROXY_NOT_CURRENT_EXACT_TRACK_SOLID"
+  }
+}

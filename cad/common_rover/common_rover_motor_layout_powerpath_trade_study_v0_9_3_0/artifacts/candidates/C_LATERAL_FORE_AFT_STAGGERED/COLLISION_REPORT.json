@@ -1,0 +1,361 @@
+{
+  "actual_shape_calculation": true,
+  "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+  "hard_collision": true,
+  "notes": "fore-aft stagger causes right track-envelope intersection",
+  "registered_input_axis_coaxial": true,
+  "registered_input_axis_perpendicular_mismatch_mm": 0.0,
+  "rows": [
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "CBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "FRAME",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "YES",
+      "environment": "TRACKS",
+      "hard_constraint_effect": "FAIL",
+      "intersection_volume_mm3": 82.081721,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BATTERY_EXTRACTION_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "UNIT_MATING_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "DRAINAGE_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_motor"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "YES",
+      "environment": "CBOX",
+      "hard_constraint_effect": "FAIL",
+      "intersection_volume_mm3": 202.570003,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "FRAME",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "TRACKS",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BATTERY_EXTRACTION_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "UNIT_MATING_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "DRAINAGE_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "fixed_power"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "CBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "FRAME",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "YES",
+      "environment": "TRACKS",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 3856.874559,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BATTERY_EXTRACTION_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "UNIT_MATING_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "DRAINAGE_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "motor_guard"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "CBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "FRAME",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "YES",
+      "environment": "TRACKS",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 917.670851,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BATTERY_EXTRACTION_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "UNIT_MATING_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "DRAINAGE_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "service"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "CBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BBOX",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "FRAME",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "YES",
+      "environment": "TRACKS",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 5508.161765,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "BATTERY_EXTRACTION_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "UNIT_MATING_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    },
+    {
+      "authorization": "NONE",
+      "calculation": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME",
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "collision": "NO",
+      "environment": "DRAINAGE_KEEP_OUT",
+      "hard_constraint_effect": "PASS",
+      "intersection_volume_mm3": 0.0,
+      "shape_group": "removal"
+    }
+  ],
+  "status": "FAIL"
+}

@@ -1,0 +1,856 @@
+{
+  "absolute_width_rule": "LESS_THAN_300_MM",
+  "candidates": {
+    "A_LATERAL_FRONT_DIRECT": {
+      "axis": "X",
+      "dimensions": {
+        "candidate_id": "A_LATERAL_FRONT_DIRECT",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 545.0,
+          "ymax": 300.0,
+          "ymin": -245.0,
+          "zlen": 186.0,
+          "zmax": 226.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 191.0,
+          "zmax": 231.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 231.0,
+        "motor_axis": "X",
+        "motor_front_plate_xyz_left": [
+          68.0,
+          -185.0,
+          105.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -68.0,
+          -185.0,
+          105.0
+        ],
+        "motor_removal_possible": true,
+        "motor_subsystem_fixed_width_mm": 276.2,
+        "motor_subsystem_guarded_width_mm": 286.2,
+        "service_bounds_mm": {
+          "xlen": 316.2,
+          "xmax": 158.1,
+          "xmin": -158.1,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 191.0,
+          "zmax": 231.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": true,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 316.2,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        68.0,
+        -185.0,
+        105.0
+      ],
+      "front_right": [
+        -68.0,
+        -185.0,
+        105.0
+      ],
+      "letter": "A",
+      "powerpath": "P1",
+      "rank": 1,
+      "rear_axes": [
+        "+X",
+        "-X"
+      ],
+      "status": "CONDITIONAL_PASS",
+      "summary": "front lateral motors, inward shafts, no right-angle stage",
+      "title": "LATERAL_FRONT_DIRECT"
+    },
+    "B_LATERAL_ABOVE_CBOX_DIRECT": {
+      "axis": "X",
+      "dimensions": {
+        "candidate_id": "B_LATERAL_ABOVE_CBOX_DIRECT",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 545.0,
+          "ymax": 300.0,
+          "ymin": -245.0,
+          "zlen": 200.0,
+          "zmax": 240.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 205.0,
+          "zmax": 245.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 245.0,
+        "motor_axis": "X",
+        "motor_front_plate_xyz_left": [
+          58.0,
+          -70.0,
+          180.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -58.0,
+          -70.0,
+          180.0
+        ],
+        "motor_removal_possible": false,
+        "motor_subsystem_fixed_width_mm": 256.2,
+        "motor_subsystem_guarded_width_mm": 266.2,
+        "service_bounds_mm": {
+          "xlen": 296.2,
+          "xmax": 148.1,
+          "xmin": -148.1,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 205.0,
+          "zmax": 245.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": true,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 296.2,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        58.0,
+        -70.0,
+        180.0
+      ],
+      "front_right": [
+        -58.0,
+        -70.0,
+        180.0
+      ],
+      "letter": "B",
+      "powerpath": "P1",
+      "rank": 4,
+      "rear_axes": [
+        "+X",
+        "-X"
+      ],
+      "status": "CONDITIONAL_PASS_SERVICE_HOLD",
+      "summary": "above-CBOX direct layout; track blocks outward removal sweep",
+      "title": "LATERAL_ABOVE_CBOX_DIRECT"
+    },
+    "C_LATERAL_FORE_AFT_STAGGERED": {
+      "axis": "X",
+      "dimensions": {
+        "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 545.0,
+          "ymax": 300.0,
+          "ymin": -245.0,
+          "zlen": 186.0,
+          "zmax": 226.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 191.0,
+          "zmax": 231.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 231.0,
+        "motor_axis": "X",
+        "motor_front_plate_xyz_left": [
+          68.0,
+          -185.0,
+          105.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -68.0,
+          -155.0,
+          105.0
+        ],
+        "motor_removal_possible": false,
+        "motor_subsystem_fixed_width_mm": 276.2,
+        "motor_subsystem_guarded_width_mm": 286.2,
+        "service_bounds_mm": {
+          "xlen": 316.2,
+          "xmax": 158.1,
+          "xmin": -158.1,
+          "ylen": 550.0,
+          "ymax": 300.0,
+          "ymin": -250.0,
+          "zlen": 191.0,
+          "zmax": 231.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": true,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 316.2,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        68.0,
+        -185.0,
+        105.0
+      ],
+      "front_right": [
+        -68.0,
+        -155.0,
+        105.0
+      ],
+      "letter": "C",
+      "powerpath": "P2",
+      "rank": 6,
+      "rear_axes": [
+        "+X",
+        "-X"
+      ],
+      "status": "FAIL_HARD_CONSTRAINT",
+      "summary": "fore-aft stagger causes right track-envelope intersection",
+      "title": "LATERAL_FORE_AFT_STAGGERED"
+    },
+    "D_LONGITUDINAL_SIDE_RAIL": {
+      "axis": "Y",
+      "dimensions": {
+        "candidate_id": "D_LONGITUDINAL_SIDE_RAIL",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 544.0,
+          "ymax": 300.0,
+          "ymin": -244.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 557.5,
+          "ymax": 300.0,
+          "ymin": -257.5,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 210.0,
+        "motor_axis": "Y",
+        "motor_front_plate_xyz_left": [
+          105.0,
+          -165.0,
+          105.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -105.0,
+          -165.0,
+          105.0
+        ],
+        "motor_removal_possible": true,
+        "motor_subsystem_fixed_width_mm": 250.1,
+        "motor_subsystem_guarded_width_mm": 260.1,
+        "service_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 557.5,
+          "ymax": 300.0,
+          "ymin": -257.5,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": false,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 290.0,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        105.0,
+        -165.0,
+        105.0
+      ],
+      "front_right": [
+        -105.0,
+        -165.0,
+        105.0
+      ],
+      "letter": "D",
+      "powerpath": "P3",
+      "rank": 3,
+      "rear_axes": [
+        "+Y",
+        "+Y"
+      ],
+      "status": "CONDITIONAL_PASS",
+      "summary": "side-rail longitudinal motors plus explicit bevel stage",
+      "title": "LONGITUDINAL_SIDE_RAIL"
+    },
+    "E_LONGITUDINAL_FRONT_PTO": {
+      "axis": "Y",
+      "dimensions": {
+        "candidate_id": "E_LONGITUDINAL_FRONT_PTO",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 695.0,
+          "ymax": 300.0,
+          "ymin": -395.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 695.0,
+          "ymax": 300.0,
+          "ymin": -395.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 210.0,
+        "motor_axis": "Y",
+        "motor_front_plate_xyz_left": [
+          105.0,
+          -180.0,
+          105.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -105.0,
+          -180.0,
+          105.0
+        ],
+        "motor_removal_possible": true,
+        "motor_subsystem_fixed_width_mm": 250.1,
+        "motor_subsystem_guarded_width_mm": 260.1,
+        "service_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 695.0,
+          "ymax": 300.0,
+          "ymin": -395.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": false,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 290.0,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        105.0,
+        -180.0,
+        105.0
+      ],
+      "front_right": [
+        -105.0,
+        -180.0,
+        105.0
+      ],
+      "letter": "E",
+      "powerpath": "P4",
+      "rank": 2,
+      "rear_axes": [
+        "+Y",
+        "+Y"
+      ],
+      "status": "CONDITIONAL_PASS",
+      "summary": "independent forward PTO shafts; DRIVE-only bevel transfer",
+      "title": "LONGITUDINAL_FRONT_PTO"
+    },
+    "F_VERTICAL_MOTOR": {
+      "axis": "Z",
+      "dimensions": {
+        "candidate_id": "F_VERTICAL_MOTOR",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 450.0,
+          "ymax": 300.0,
+          "ymin": -150.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 450.0,
+          "ymax": 300.0,
+          "ymin": -150.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 210.0,
+        "motor_axis": "Z",
+        "motor_front_plate_xyz_left": [
+          105.0,
+          -70.0,
+          130.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -105.0,
+          -70.0,
+          130.0
+        ],
+        "motor_removal_possible": true,
+        "motor_subsystem_fixed_width_mm": 255.5,
+        "motor_subsystem_guarded_width_mm": 265.5,
+        "service_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 450.0,
+          "ymax": 300.0,
+          "ymin": -150.0,
+          "zlen": 180.1,
+          "zmax": 220.1,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": false,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 290.0,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        105.0,
+        -70.0,
+        130.0
+      ],
+      "front_right": [
+        -105.0,
+        -70.0,
+        130.0
+      ],
+      "letter": "F",
+      "powerpath": "P5",
+      "rank": 5,
+      "rear_axes": [
+        "+Z",
+        "+Z"
+      ],
+      "status": "CONDITIONAL_PASS_HIGH_CG_HOLD",
+      "summary": "vertical comparison layout; bevel, weather, and CG penalties",
+      "title": "VERTICAL_MOTOR"
+    },
+    "G_CURRENT_REPOSITORY_LAYOUT_REPRODUCTION": {
+      "axis": "Y",
+      "dimensions": {
+        "candidate_id": "G_CURRENT_REPOSITORY_LAYOUT_REPRODUCTION",
+        "complete_fixed_width_mm": 290.0,
+        "complete_guarded_width_mm": 290.0,
+        "fixed_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 642.0,
+          "ymax": 300.0,
+          "ymin": -342.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "fixed_width_from_actual_solids": true,
+        "guard_width_from_actual_solids": true,
+        "guarded_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 642.0,
+          "ymax": 300.0,
+          "ymin": -342.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "maximum_height_mm": 210.0,
+        "motor_axis": "Y",
+        "motor_front_plate_xyz_left": [
+          96.0,
+          -105.45,
+          96.0
+        ],
+        "motor_front_plate_xyz_right": [
+          -96.0,
+          -105.45,
+          96.0
+        ],
+        "motor_removal_possible": true,
+        "motor_subsystem_fixed_width_mm": 232.1,
+        "motor_subsystem_guarded_width_mm": 242.1,
+        "service_bounds_mm": {
+          "xlen": 290.0,
+          "xmax": 145.0,
+          "xmin": -145.0,
+          "ylen": 642.0,
+          "ymax": 300.0,
+          "ymin": -342.0,
+          "zlen": 170.0,
+          "zmax": 210.0,
+          "zmin": 40.0
+        },
+        "service_may_temporarily_exceed_290": false,
+        "service_width_from_actual_solids": true,
+        "service_width_mm": 290.0,
+        "width_margin_to_290_mm": 0.0,
+        "width_margin_to_300_mm": 10.0
+      },
+      "front_left": [
+        96.0,
+        -105.45,
+        96.0
+      ],
+      "front_right": [
+        -96.0,
+        -105.45,
+        96.0
+      ],
+      "letter": "G",
+      "powerpath": "P2",
+      "rank": 7,
+      "rear_axes": [
+        "+Y",
+        "+Y"
+      ],
+      "status": "FAIL_HARD_CONSTRAINT",
+      "summary": "measured motor axis versus registered input axis is not coaxial",
+      "title": "CURRENT_REPOSITORY_LAYOUT_REPRODUCTION"
+    }
+  },
+  "coordinate_authority": {
+    "X": "lateral +left",
+    "Y": "longitudinal +rear; front is negative",
+    "Z": "up"
+  },
+  "document_id": "PS-CR-MOTOR-LAYOUT-POWERPATH-TRADE-STUDY-V0930",
+  "grid_searches": {
+    "A_LATERAL_FRONT_DIRECT": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 956,
+      "candidate_id": "A_LATERAL_FRONT_DIRECT",
+      "evaluated_count": 1190,
+      "grid": {
+        "target": [
+          68,
+          -185,
+          105
+        ],
+        "x": [
+          60,
+          72,
+          2
+        ],
+        "y": [
+          -205,
+          -160,
+          5
+        ],
+        "z": [
+          80,
+          160,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        68.0,
+        -185.0,
+        105.0
+      ],
+      "selected": [
+        68.0,
+        -185.0,
+        105.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "B_LATERAL_ABOVE_CBOX_DIRECT": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 2562,
+      "candidate_id": "B_LATERAL_ABOVE_CBOX_DIRECT",
+      "evaluated_count": 3213,
+      "grid": {
+        "target": [
+          58,
+          -70,
+          180
+        ],
+        "x": [
+          52,
+          68,
+          2
+        ],
+        "y": [
+          -120,
+          -20,
+          5
+        ],
+        "z": [
+          160,
+          240,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        58.0,
+        -70.0,
+        180.0
+      ],
+      "selected": [
+        58.0,
+        -70.0,
+        180.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "C_LATERAL_FORE_AFT_STAGGERED": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 1230,
+      "candidate_id": "C_LATERAL_FORE_AFT_STAGGERED",
+      "evaluated_count": 2448,
+      "grid": {
+        "stagger": [
+          15,
+          20,
+          25,
+          30
+        ],
+        "target": [
+          68,
+          -185,
+          105,
+          30
+        ],
+        "x": [
+          60,
+          70,
+          2
+        ],
+        "y": [
+          -200,
+          -175,
+          5
+        ],
+        "z": [
+          80,
+          160,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        64.0,
+        -190.0,
+        105.0,
+        25
+      ],
+      "selected": [
+        68.0,
+        -185.0,
+        105.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "D_LONGITUDINAL_SIDE_RAIL": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 612,
+      "candidate_id": "D_LONGITUDINAL_SIDE_RAIL",
+      "evaluated_count": 918,
+      "grid": {
+        "target": [
+          105,
+          -165,
+          105
+        ],
+        "x": [
+          95,
+          120,
+          5
+        ],
+        "y": [
+          -170,
+          -130,
+          5
+        ],
+        "z": [
+          80,
+          160,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        105.0,
+        -165.0,
+        105.0
+      ],
+      "selected": [
+        105.0,
+        -165.0,
+        105.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "E_LONGITUDINAL_FRONT_PTO": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 935,
+      "candidate_id": "E_LONGITUDINAL_FRONT_PTO",
+      "evaluated_count": 1122,
+      "grid": {
+        "target": [
+          105,
+          -180,
+          105
+        ],
+        "x": [
+          90,
+          115,
+          5
+        ],
+        "y": [
+          -200,
+          -150,
+          5
+        ],
+        "z": [
+          80,
+          160,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        105.0,
+        -180.0,
+        105.0
+      ],
+      "selected": [
+        105.0,
+        -180.0,
+        105.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "F_VERTICAL_MOTOR": {
+      "aabb_is_final_authority": false,
+      "approx_feasible_count": 1615,
+      "candidate_id": "F_VERTICAL_MOTOR",
+      "evaluated_count": 2261,
+      "grid": {
+        "target": [
+          105,
+          -70,
+          130
+        ],
+        "x": [
+          90,
+          120,
+          5
+        ],
+        "y": [
+          -130,
+          -40,
+          5
+        ],
+        "z": [
+          100,
+          180,
+          5
+        ]
+      },
+      "nearest_feasible_to_design_anchor": [
+        105.0,
+        -70.0,
+        130.0
+      ],
+      "selected": [
+        105.0,
+        -70.0,
+        130.0
+      ],
+      "selection_rule": "AABB_GRID_FILTER_THEN_CADQUERY_ACTUAL_SHAPE_VALIDATION"
+    },
+    "G_CURRENT_REPOSITORY_LAYOUT_REPRODUCTION": {
+      "approx_feasible_count": 0,
+      "candidate_id": "G_CURRENT_REPOSITORY_LAYOUT_REPRODUCTION",
+      "evaluated_count": 1,
+      "grid": {
+        "fixed": true,
+        "target": [
+          96,
+          -105.45,
+          96
+        ]
+      },
+      "selected": [
+        96.0,
+        -105.45,
+        96.0
+      ],
+      "selection_rule": "CURRENT_AUTHORITY_REPRODUCTION_FIXED"
+    }
+  },
+  "target_width_mm": 290
+}

@@ -1,0 +1,67 @@
+{
+  "DECISION_CLASS": "TOP_2_CANDIDATES_PHYSICAL_MOCKUP_REQUIRED",
+  "DESIGN_AUTHORITY": "UNCHANGED",
+  "FIELD_DEPLOYMENT": "NOT_APPROVED",
+  "MANUFACTURING": "HOLD",
+  "POWERED_TEST": "NOT_APPROVED",
+  "PURCHASE": "HOLD",
+  "RECOMMENDED_FIXED_WIDTH": 290.0,
+  "RECOMMENDED_GUARDED_WIDTH": 290.0,
+  "RECOMMENDED_HEIGHT": 231.0,
+  "RECOMMENDED_LAYOUT_FOR_NEXT_CAD": "A_LATERAL_FRONT_DIRECT",
+  "RECOMMENDED_MOTOR_AXIS": "X",
+  "RECOMMENDED_MOTOR_XYZ_LEFT": [
+    68.0,
+    -185.0,
+    105.0
+  ],
+  "RECOMMENDED_MOTOR_XYZ_RIGHT": [
+    -68.0,
+    -185.0,
+    105.0
+  ],
+  "RECOMMENDED_POWERPATH": "P1_LATERAL_DIRECT_COMMON_SELECTOR_PATTERN_LEFT_RIGHT_INDEPENDENT",
+  "RECOMMENDED_PTO_DIRECTION": "TWO_INDEPENDENT_INWARD_X_OUTPUTS",
+  "REJECTED_LAYOUTS": [
+    "C_LATERAL_FORE_AFT_STAGGERED",
+    "G_CURRENT_REPOSITORY_LAYOUT_REPRODUCTION"
+  ],
+  "REQUIRED_3D_PRINT_PARTS": [
+    "envelope mockup mounts",
+    "guard prototypes",
+    "sensor holders",
+    "cable guides",
+    "non-load-bearing alignment gauges"
+  ],
+  "REQUIRED_MEASUREMENTS": [
+    "motor uncertainty/repeatability",
+    "front plate thickness and pattern",
+    "vertical slot full geometry",
+    "terminal/cable connector sweep",
+    "bolt-head/tool envelope",
+    "60T bore/width/runout",
+    "bearing and shaft stack",
+    "track exact current solid",
+    "guard thickness",
+    "motor mass/CG",
+    "stall torque/current"
+  ],
+  "REQUIRED_NEW_METAL_PARTS": [
+    "independent left/right selector shafts",
+    "bearing support plates",
+    "20T/60T pulley hubs",
+    "shaft collars",
+    "mechanical brake/track lock",
+    "guards/load paths to aluminum frame"
+  ],
+  "REQUIRED_PURCHASED_PARTS": [
+    "HOLD: pulleys/belts",
+    "HOLD: bearings",
+    "HOLD: bevel gears for secondary",
+    "HOLD: metal dog clutch",
+    "HOLD: brake/lock",
+    "HOLD: sensors"
+  ],
+  "SECONDARY_LAYOUT": "E_LONGITUDINAL_FRONT_PTO",
+  "SECONDARY_POWERPATH": "P4_LONGITUDINAL_FRONT_PTO"
+}
