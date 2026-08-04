@@ -1,7 +1,7 @@
 command=python -B tests/test_powertrain_frame_joint_trade_study_v0934.py
 status=PASS
 csv_import_render=PASS_ARTIFACT_TOOL_8_OF_8
-Ran 58 tests in 8.143s
+Ran 61 tests in 11.836s
 OK
 physical_mockup=NOT_YET_PERFORMED
 actual_motor_plate=PHYSICAL_PASS_NO_LOAD
@@ -55,6 +55,8 @@ test_036_left_right_independence (__main__.V0934Contract.test_036_left_right_ind
 test_037_exact_step_count_and_reload (__main__.V0934Contract.test_037_exact_step_count_and_reload) ... ok
 test_038_exact_svg_count_and_validity (__main__.V0934Contract.test_038_exact_svg_count_and_validity) ... ok
 test_039_actual_physical_artifacts_present (__main__.V0934Contract.test_039_actual_physical_artifacts_present) ... ok
+test_039a_physical_history_artifacts_present (__main__.V0934Contract.test_039a_physical_history_artifacts_present) ... ok
+test_039aa_latest_physical_actual_values (__main__.V0934Contract.test_039aa_latest_physical_actual_values) ... ok
 test_039b_m5x16_m5x20_plan (__main__.V0934Contract.test_039b_m5x16_m5x20_plan) ... ok
 test_039c_previous_physical_result_preserved (__main__.V0934Contract.test_039c_previous_physical_result_preserved) ... ok
 test_040_csv_parse_contract (__main__.V0934Contract.test_040_csv_parse_contract) ... ok
@@ -67,8 +69,9 @@ test_046_machine_evidence (__main__.V0934Contract.test_046_machine_evidence) ...
 test_047_builder_verify (__main__.V0934Contract.test_047_builder_verify) ... ok
 test_048_csv_artifact_tool_marker_in_package (__main__.V0934Contract.test_048_csv_artifact_tool_marker_in_package) ... ok
 test_049_zip_standalone_contract_when_requested (__main__.V0934Contract.test_049_zip_standalone_contract_when_requested) ... ok
+test_050_no_obsolete_formal_references (__main__.V0934Contract.test_050_no_obsolete_formal_references) ... ok
 
 ----------------------------------------------------------------------
-Ran 58 tests in 8.143s
+Ran 61 tests in 11.836s
 
 OK

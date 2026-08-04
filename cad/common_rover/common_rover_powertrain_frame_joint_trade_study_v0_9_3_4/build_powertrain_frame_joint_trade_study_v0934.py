@@ -23,9 +23,10 @@ VERSION = "0.9.3.4"
 LANE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = LANE_DIR.parents[2]
 DOWNLOAD_DIR = Path(r"D:\Downloads")
-ZIP_PREFIX = "Paddy_Swarm_Common_Rover_v0_9_3_4_Powertrain_Frame_Joint_Trade_Study_"
+ZIP_PREFIX = "Paddy_Swarm_Common_Rover_v0_9_3_4_Physical_Naming_Patch_"
 EXPECTED_BRANCH = "agent/organize-untracked-cad-assets-20260725"
 ANCHOR = "198a708395df6e43556a744ae9c5629b50360e2f"
+PATCH_BASELINE_HEAD = "fe83cedb8c819449adeebfe178132269a96acee1"
 
 PARENT_DIRS = {
     "v0.9.3.0": REPO_ROOT / "cad/common_rover/common_rover_motor_layout_powerpath_trade_study_v0_9_3_0",
@@ -230,11 +231,17 @@ BASELINE_FILES = [
 ]
 PHYSICAL_ACTUAL_FILES = [
     "artifacts/physical_actual/ACTUAL_MOTOR_PLATE_STACK.step",
-    "artifacts/physical_actual/ACTUAL_GAP_3P8_3P9_REFERENCE.step",
-    "artifacts/physical_actual/ACTUAL_M5X16_2P5_TURN_REFERENCE.step",
     "artifacts/physical_actual/ACTUAL_HEIGHT_SIDE_VIEW.svg",
     "artifacts/physical_actual/ACTUAL_GAP_TABLE.svg",
 ]
+PHYSICAL_HISTORY_FILES = [
+    "artifacts/physical_history/PREVIOUS_GAP_3P8_3P9_TWO_NUT_REFERENCE.step",
+    "artifacts/physical_history/PREVIOUS_M5X16_2P5_TURN_REFERENCE.step",
+]
+OBSOLETE_PHYSICAL_PATHS = (
+    "artifacts/physical_actual/" + "ACTUAL_" + "GAP_3P8_3P9_REFERENCE.step",
+    "artifacts/physical_actual/" + "ACTUAL_" + "M5X16_2P5_TURN_REFERENCE.step",
+)
 COMPARISON_FILES = [
     "artifacts/comparison/A_B_OVERLAY_TOP.step",
     "artifacts/comparison/A_B_OVERLAY_SIDE.step",
@@ -264,8 +271,9 @@ LEGACY_PRESERVED_PATHS = {
     "artifacts/templates/A_BOLT_TOOL_ENVELOPE.svg",
     "artifacts/templates/B_TIE_PLATE_MEASUREMENT_REFERENCE_1_TO_1.svg",
 }
-PACKAGE_PATHS = tuple(ROOT_FILES + A_FILES + B_FILES + BASELINE_FILES + PHYSICAL_ACTUAL_FILES + COMPARISON_FILES)
-EXPECTED_LANE_PATHS = set(PACKAGE_PATHS) | LEGACY_PRESERVED_PATHS
+REVIEW_PRESERVED_PATHS = {"EXTRA_UNTRACKED_PATHS_REVIEW.txt"}
+PACKAGE_PATHS = tuple(ROOT_FILES + A_FILES + B_FILES + BASELINE_FILES + PHYSICAL_ACTUAL_FILES + PHYSICAL_HISTORY_FILES + COMPARISON_FILES)
+EXPECTED_LANE_PATHS = set(PACKAGE_PATHS) | LEGACY_PRESERVED_PATHS | REVIEW_PRESERVED_PATHS
 STEP_FILES = tuple(path for path in PACKAGE_PATHS if path.endswith(".step"))
 SVG_FILES = tuple(path for path in PACKAGE_PATHS if path.endswith(".svg"))
 CSV_FILES = tuple(path for path in PACKAGE_PATHS if path.endswith(".csv"))
@@ -403,12 +411,22 @@ def repository_audit(require_complete: bool = True) -> dict[str, Any]:
     branch = git("branch", "--show-current")
     head = git("rev-parse", "HEAD")
     git("cat-file", "-e", f"{ANCHOR}^{{commit}}")
+    git("cat-file", "-e", f"{PATCH_BASELINE_HEAD}^{{commit}}")
     ancestor = run(["git", "merge-base", "--is-ancestor", ANCHOR, head]).returncode == 0
+    commit_distance = int(git("rev-list", "--count", f"{ANCHOR}..{head}"))
     tracked = {line.replace("\\", "/") for line in git("diff", "--name-only").splitlines() if line}
     staged = {line.replace("\\", "/") for line in git("diff", "--cached", "--name-only").splitlines() if line}
     untracked = [line.replace("\\", "/") for line in git("ls-files", "--others", "--exclude-standard").splitlines() if line]
     lane_rel = LANE_DIR.relative_to(REPO_ROOT).as_posix()
     lane_untracked = sorted(path[len(lane_rel) + 1:] for path in untracked if path.startswith(lane_rel + "/"))
+    protected_tracked = {path for path in tracked if not path.startswith(lane_rel + "/")}
+    lane_dirty = {path[len(lane_rel) + 1:] for path in tracked if path.startswith(lane_rel + "/")}
+    committed_lane = {
+        path[len(lane_rel) + 1:]
+        for path in git("ls-tree", "-r", "--name-only", PATCH_BASELINE_HEAD, "--", lane_rel).splitlines()
+        if path.startswith(lane_rel + "/")
+    }
+    expected_lane_untracked = LEGACY_PRESERVED_PATHS | REVIEW_PRESERVED_PATHS | set(PHYSICAL_HISTORY_FILES)
     ignored = [line for line in git("ls-files", "--others", "--ignored", "--exclude-standard", "--", lane_rel).splitlines() if line]
     actual = lane_files()
     forbidden = [path for path in actual if "__pycache__" in path.lower() or path.lower().endswith((".pyc", ".pyo", ".fcstd", ".blend", ".tmp"))]
@@ -416,16 +434,20 @@ def repository_audit(require_complete: bool = True) -> dict[str, Any]:
     parents = parent_audit(True)
     checks = {
         "root": root.lower() == str(REPO_ROOT.resolve()).lower(), "branch": branch == EXPECTED_BRANCH,
-        "anchor_ancestor": ancestor, "tracked_diff_preserved": tracked == EXPECTED_TRACKED_DIFF,
+        "patch_head_exact": head == PATCH_BASELINE_HEAD, "anchor_ancestor": ancestor, "commit_distance_one": commit_distance == 1,
+        "protected_tracked_diff_preserved": protected_tracked == EXPECTED_TRACKED_DIFF,
+        "lane_dirty_scoped": lane_dirty.issubset(committed_lane | set(PACKAGE_PATHS)),
+        "committed_lane_contract": len(committed_lane) == 69,
         "staged_zero": not staged, "authority_hashes": pointers == AUTHORITY_POINTER_HASHES,
         "parent_protection": parents["status"] == "PASS", "lane_scope": set(actual).issubset(EXPECTED_LANE_PATHS),
-        "lane_git_scope_match": lane_untracked == actual, "lane_complete": actual == sorted(EXPECTED_LANE_PATHS) if require_complete else True,
+        "lane_untracked_exact": lane_untracked == sorted(expected_lane_untracked),
+        "lane_complete": actual == sorted(EXPECTED_LANE_PATHS) if require_complete else True,
         "ignored_zero": not ignored, "forbidden_zero": not forbidden,
     }
     if not all(checks.values()):
         raise RuntimeError({"repository_guard": checks, "actual": actual, "lane_untracked": lane_untracked, "ignored": ignored, "forbidden": forbidden})
-    return {"mode": "LIVE_REPOSITORY", "root": root, "branch": branch, "head": head, "anchor": ANCHOR, "anchor_ancestor": ancestor,
-            "commit_distance": int(git("rev-list", "--count", f"{ANCHOR}..{head}")), "tracked_diff": sorted(tracked), "staged_diff": sorted(staged),
+    return {"mode": "LIVE_REPOSITORY", "root": root, "branch": branch, "head": head, "anchor": ANCHOR, "patch_baseline_head": PATCH_BASELINE_HEAD, "anchor_ancestor": ancestor,
+            "commit_distance": commit_distance, "tracked_diff": sorted(tracked), "staged_diff": sorted(staged),
             "untracked_total": len(untracked), "lane_untracked_count": len(lane_untracked), "checks": checks, "status": "PASS"}
 
 
@@ -912,6 +934,8 @@ def readme_markdown() -> str:
 
 Standalone trade-study package comparing outboard crossmember end-tap joints and underside 3 mm full-width tie plates. It incorporates the latest two-plain-washer/one-height-nut M5×16 stack, the 4.3…4.5 mm gap range, full T-nut thread traversal, the primary H4P3…H4P5 height case, and a 24-hour creep plan. The superseded H3P8…H3P9 two-nut case remains historical. It contains 24 STEP files, 19 SVG files, eight CSV reports, source, tests, ledgers, and parent/source provenance.
 
+`artifacts/physical_actual/` contains only the latest stack STEP and latest gap/height SVGs. Superseded two-nut and approximately-2.5-turn STEP evidence is retained only under `artifacts/physical_history/` with `PREVIOUS_` names.
+
 Run in the validated CadQuery environment:
 
 ```text
@@ -1025,7 +1049,7 @@ def svg_payloads() -> dict[str, str]:
     return {
         A_FILES[8]: plan_view("A"), A_FILES[9]: front_view("A"), A_FILES[10]: side_view("A"), A_FILES[11]: joint_section("A", "front"), A_FILES[12]: joint_section("A", "rear"),
         B_FILES[9]: plan_view("B"), B_FILES[10]: front_view("B"), B_FILES[11]: side_view("B"), B_FILES[12]: joint_section("B", "front"), B_FILES[13]: joint_section("B", "rear"),
-        BASELINE_FILES[2]: baseline_svg(), PHYSICAL_ACTUAL_FILES[3]: physical_actual_svg("HEIGHT"), PHYSICAL_ACTUAL_FILES[4]: physical_actual_svg("GAPS"),
+        BASELINE_FILES[2]: baseline_svg(), PHYSICAL_ACTUAL_FILES[1]: physical_actual_svg("HEIGHT"), PHYSICAL_ACTUAL_FILES[2]: physical_actual_svg("GAPS"),
         COMPARISON_FILES[2]: comparison_svg("FRAME_LENGTH"), COMPARISON_FILES[3]: comparison_svg("CLEAR_WIDTH"), COMPARISON_FILES[4]: comparison_svg("UNDERSIDE_DROP"), COMPARISON_FILES[5]: comparison_svg("SERVICE_ACCESS"), COMPARISON_FILES[6]: comparison_svg("HEIGHT_CASE"), COMPARISON_FILES[7]: comparison_svg("M5_TEST"),
     }
 
@@ -1060,8 +1084,8 @@ def assembly_shapes(rel: str) -> list[cq.Shape]:
     if rel.endswith("INNER_CORNER_INTRUSION_PROXY.step"): return [*frame, *baseline_corner_shapes()]
     if rel.endswith("BASELINE_POWERTRAIN_FIXED.step"): return [*frame, *baseline_corner_shapes(), *fixed]
     if rel.endswith("ACTUAL_MOTOR_PLATE_STACK.step"): return [*frame, *actual_stack]
-    if rel.endswith("ACTUAL_GAP_3P8_3P9_REFERENCE.step"): return [*frame, *[shape for name, shape in previous_components.items() if name.endswith(("V0933_PLATE", "SPACER_NUT_ZONE"))]]
-    if rel.endswith("ACTUAL_M5X16_2P5_TURN_REFERENCE.step"):
+    if rel.endswith("PREVIOUS_GAP_3P8_3P9_TWO_NUT_REFERENCE.step"): return [*frame, *[shape for name, shape in previous_components.items() if name.endswith(("V0933_PLATE", "SPACER_NUT_ZONE"))]]
+    if rel.endswith("PREVIOUS_M5X16_2P5_TURN_REFERENCE.step"):
         m5 = [cylinder_z(2.5, 16.0, (x, POWERTRAIN_CENTER_Y + y, SIDE_RAIL_Z + 8.0)) for x in (-70.0, 70.0) for y in (-24.0, 24.0)]
         return [*frame, *previous_stack, *m5]
     if rel.endswith("A_B_OVERLAY_TOP.step"): return [*frame, *ties, *candidate_a_fastener_shapes(), *guarded]
@@ -1093,9 +1117,11 @@ def export_artifacts() -> None:
 
 
 def manifest_text() -> str:
-    lines = [f"document_id={DOCUMENT_ID}", f"version={VERSION}", f"path_count={len(PACKAGE_PATHS)}", "scope=V0934_ONLY", f"anchor={ANCHOR}", "authority_pointer=UNCHANGED", "recommendation=A_AND_B_PHYSICAL_MOCKUP_REQUIRED", "manufacturing=PROHIBITED", "power=PROHIBITED", ""]
+    lines = [f"document_id={DOCUMENT_ID}", f"version={VERSION}", f"path_count={len(PACKAGE_PATHS)}", "scope=V0934_ONLY", f"anchor={ANCHOR}", f"physical_naming_patch_head={PATCH_BASELINE_HEAD}", "authority_pointer=UNCHANGED", "physical_actual=LATEST_ONLY", "physical_history=SUPERSEDED_REFERENCE_ONLY", "recommendation=A_AND_B_PHYSICAL_MOCKUP_REQUIRED", "manufacturing=PROHIBITED", "power=PROHIBITED", ""]
     for rel in PACKAGE_PATHS:
-        if rel.endswith(".step"): role = "CAD_TRADE_STUDY_REFERENCE"
+        if rel in PHYSICAL_HISTORY_FILES: role = "HISTORICAL_PHYSICAL_REFERENCE_SUPERSEDED"
+        elif rel in PHYSICAL_ACTUAL_FILES: role = "LATEST_PHYSICAL_RESULT"
+        elif rel.endswith(".step"): role = "CAD_TRADE_STUDY_REFERENCE"
         elif rel.endswith(".svg"): role = "VIEW_OR_MEASUREMENT_REFERENCE_TEMPLATE"
         elif rel.endswith(".csv"): role = "TRADE_STUDY_TABLE"
         elif rel.endswith(".json"): role = "MACHINE_READABLE_CONTRACT"
@@ -1210,6 +1236,9 @@ def verify_evidence(base: Path = LANE_DIR) -> dict[str, Any]:
         "physical_derived": params["physical_result"]["minimum_gap_mm"] == 4.3 and params["physical_result"]["maximum_gap_mm"] == 4.5 and params["physical_result"]["gap_range_mm"] == 0.2 and params["physical_result"]["derived_nominal_gap_mm"] == 4.4 and params["physical_result"]["derived_nominal_plate_top_height_mm"] == 10.4,
         "m5_evidence": params["physical_result"]["m5x16_thread_engagement"] == "FULL_TNUT_THREAD_TRAVERSAL_USER_REPORTED" and params["physical_result"]["m5_thread_pitch"] == "MEASUREMENT_HOLD" and params["physical_result"]["m5_engagement_length_mm"] == "NOT_CALCULATED",
         "history_preserved": params["physical_result"]["previous_physical_result"]["status"] == "HISTORICAL_PHYSICAL_RESULT" and params["physical_result"]["previous_physical_result"]["gap_range_mm"] == 0.1,
+        "physical_actual_latest_only": len(PHYSICAL_ACTUAL_FILES) == 3 and all((base / rel).is_file() for rel in PHYSICAL_ACTUAL_FILES),
+        "physical_history_separated": len(PHYSICAL_HISTORY_FILES) == 2 and all((base / rel).is_file() for rel in PHYSICAL_HISTORY_FILES),
+        "obsolete_physical_paths_absent": all(not (base / rel).exists() for rel in OBSOLETE_PHYSICAL_PATHS),
         "creep_required": params["physical_result"]["creep_test_24h"]["status"] == "REQUIRED_BEFORE_BELT_TENSION",
         "no_load_status": params["approval"]["motor_plate_physical_fit"] == "PHYSICAL_PASS_NO_LOAD" and params["approval"]["powered_m5x16"] == "NOT_APPROVED",
         "y_sweep": len(sweep) == len(y_sweep_rows()) and float(min_row["minimum_fixed_clearance_mm"]) >= 10.0 and float(target_row["minimum_fixed_clearance_mm"]) >= 15.0,

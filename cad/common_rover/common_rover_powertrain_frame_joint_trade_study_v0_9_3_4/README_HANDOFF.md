@@ -2,6 +2,8 @@
 
 Standalone trade-study package comparing outboard crossmember end-tap joints and underside 3 mm full-width tie plates. It incorporates the latest two-plain-washer/one-height-nut M5×16 stack, the 4.3…4.5 mm gap range, full T-nut thread traversal, the primary H4P3…H4P5 height case, and a 24-hour creep plan. The superseded H3P8…H3P9 two-nut case remains historical. It contains 24 STEP files, 19 SVG files, eight CSV reports, source, tests, ledgers, and parent/source provenance.
 
+`artifacts/physical_actual/` contains only the latest stack STEP and latest gap/height SVGs. Superseded two-nut and approximately-2.5-turn STEP evidence is retained only under `artifacts/physical_history/` with `PREVIOUS_` names.
+
 Run in the validated CadQuery environment:
 
 ```text

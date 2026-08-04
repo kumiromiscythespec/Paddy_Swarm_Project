@@ -42,7 +42,9 @@ class V0934Contract(unittest.TestCase):
         if not B.live_repository():
             self.skipTest("standalone embedded evidence")
         B.git("cat-file", "-e", f"{B.ANCHOR}^{{commit}}")
+        B.git("cat-file", "-e", f"{B.PATCH_BASELINE_HEAD}^{{commit}}")
         self.assertEqual(B.run(["git", "merge-base", "--is-ancestor", B.ANCHOR, "HEAD"]).returncode, 0)
+        self.assertEqual(B.git("rev-parse", "HEAD"), B.PATCH_BASELINE_HEAD)
 
     def test_003_repository_guard(self) -> None:
         self.assertEqual(B.repository_audit(require_complete=True)["status"], "PASS")
@@ -303,8 +305,29 @@ class V0934Contract(unittest.TestCase):
         self.assertEqual((report["pass_count"], report["count"]), (19, 19))
 
     def test_039_actual_physical_artifacts_present(self) -> None:
-        self.assertEqual(len(B.PHYSICAL_ACTUAL_FILES), 5)
+        self.assertEqual(len(B.PHYSICAL_ACTUAL_FILES), 3)
         self.assertTrue(all((LANE / rel).is_file() for rel in B.PHYSICAL_ACTUAL_FILES))
+        self.assertTrue(all(rel.startswith("artifacts/physical_actual/") for rel in B.PHYSICAL_ACTUAL_FILES))
+
+    def test_039a_physical_history_artifacts_present(self) -> None:
+        self.assertEqual(len(B.PHYSICAL_HISTORY_FILES), 2)
+        self.assertTrue((LANE / "artifacts/physical_history").is_dir())
+        self.assertTrue(all((LANE / rel).is_file() for rel in B.PHYSICAL_HISTORY_FILES))
+        self.assertTrue(all(rel.startswith("artifacts/physical_history/PREVIOUS_") for rel in B.PHYSICAL_HISTORY_FILES))
+        self.assertTrue(all(not (LANE / rel).exists() for rel in B.OBSOLETE_PHYSICAL_PATHS))
+
+    def test_039aa_latest_physical_actual_values(self) -> None:
+        physical = self.params["physical_result"]
+        self.assertEqual((physical["minimum_gap_mm"], physical["maximum_gap_mm"], physical["gap_range_mm"]), (4.3, 4.5, 0.2))
+        self.assertEqual(physical["derived_nominal_gap_mm"], 4.4)
+        self.assertEqual(physical["m5x16_thread_engagement"], "FULL_TNUT_THREAD_TRAVERSAL_USER_REPORTED")
+        gap_svg = (LANE / "artifacts/physical_actual/ACTUAL_GAP_TABLE.svg").read_text(encoding="utf-8")
+        height_svg = (LANE / "artifacts/physical_actual/ACTUAL_HEIGHT_SIDE_VIEW.svg").read_text(encoding="utf-8")
+        self.assertIn("4.3", gap_svg)
+        self.assertIn("4.5", gap_svg)
+        self.assertIn("4.4", gap_svg)
+        self.assertIn("115.3", height_svg)
+        self.assertIn("115.5", height_svg)
 
     def test_039b_m5x16_m5x20_plan(self) -> None:
         comparison = self.params["m5_length_comparison"]
@@ -321,6 +344,7 @@ class V0934Contract(unittest.TestCase):
         self.assertEqual(history["supersession"], "SUPERSEDED_BY_TWO_WASHER_ONE_NUT_STACK")
         self.assertEqual(history["gaps_mm"], {"left_front": 3.8, "right_front": 3.9, "left_rear": 3.9, "right_rear": 3.9})
         self.assertEqual(history["m5_engagement_turns_approx"], 2.5)
+        self.assertTrue(all("PREVIOUS_" in rel for rel in B.PHYSICAL_HISTORY_FILES))
 
     def test_040_csv_parse_contract(self) -> None:
         self.assertEqual(len(B.CSV_FILES), 8)
@@ -366,6 +390,11 @@ class V0934Contract(unittest.TestCase):
         self.assertEqual(len(values), 69)
         self.assertTrue(all(value.startswith(prefix) for value in values))
         self.assertEqual([value[len(prefix):] for value in values], list(B.PACKAGE_PATHS))
+        relative = {value[len(prefix):] for value in values}
+        self.assertTrue(set(B.PHYSICAL_HISTORY_FILES).issubset(relative))
+        self.assertTrue(set(B.PHYSICAL_ACTUAL_FILES).issubset(relative))
+        self.assertTrue(set(B.OBSOLETE_PHYSICAL_PATHS).isdisjoint(relative))
+        self.assertTrue(B.REVIEW_PRESERVED_PATHS.isdisjoint(relative))
 
     def test_045_manifest_and_hashes(self) -> None:
         manifest = B.verify_manifest(); hashes = B.verify_hashes()
@@ -397,6 +426,8 @@ class V0934Contract(unittest.TestCase):
             names = archive.namelist()
             self.assertEqual(names, list(B.PACKAGE_PATHS))
             self.assertEqual(len(names), len(set(names)))
+            self.assertTrue(set(B.PHYSICAL_HISTORY_FILES).issubset(names))
+            self.assertTrue(set(B.OBSOLETE_PHYSICAL_PATHS).isdisjoint(names))
             self.assertFalse(any(PurePosixPath(name).is_absolute() or ".." in PurePosixPath(name).parts or "\\" in name for name in names))
             hashes = {}
             for line in archive.read("SHA256SUMS.txt").decode("utf-8").splitlines():
@@ -404,6 +435,16 @@ class V0934Contract(unittest.TestCase):
                     expected, rel = line.split("  ", 1); hashes[rel] = expected
             self.assertEqual(set(hashes), set(B.PACKAGE_PATHS) - {"SHA256SUMS.txt"})
             self.assertTrue(all(hashlib.sha256(archive.read(rel)).hexdigest() == expected for rel, expected in hashes.items()))
+
+    def test_050_no_obsolete_formal_references(self) -> None:
+        searchable_suffixes = {".py", ".md", ".json", ".csv", ".txt", ".svg"}
+        for rel in B.PACKAGE_PATHS:
+            path = LANE / rel
+            if path.suffix.lower() not in searchable_suffixes:
+                continue
+            text = path.read_text(encoding="utf-8")
+            for obsolete in B.OBSOLETE_PHYSICAL_PATHS:
+                self.assertNotIn(Path(obsolete).name, text, msg=rel)
 
 
 if __name__ == "__main__":
