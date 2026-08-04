@@ -1,0 +1,74 @@
+command=python -B tests/test_powertrain_frame_joint_trade_study_v0934.py
+status=PASS
+csv_import_render=PASS_ARTIFACT_TOOL_8_OF_8
+Ran 58 tests in 8.143s
+OK
+physical_mockup=NOT_YET_PERFORMED
+actual_motor_plate=PHYSICAL_PASS_NO_LOAD
+m5x16=PHYSICAL_PASS_NO_LOAD
+creep_24h=REQUIRED_BEFORE_BELT_TENSION
+powered_load=NOT_APPROVED
+full_output:
+test_001_identity (__main__.V0934Contract.test_001_identity) ... ok
+test_002_anchor_exists_and_is_ancestor (__main__.V0934Contract.test_002_anchor_exists_and_is_ancestor) ... ok
+test_003_repository_guard (__main__.V0934Contract.test_003_repository_guard) ... ok
+test_004_parent_lanes_unchanged (__main__.V0934Contract.test_004_parent_lanes_unchanged) ... ok
+test_005_source_reference_hashes (__main__.V0934Contract.test_005_source_reference_hashes) ... ok
+test_006_authority_unchanged (__main__.V0934Contract.test_006_authority_unchanged) ... ok
+test_007_reference_zip_sha256 (__main__.V0934Contract.test_007_reference_zip_sha256) ... ok
+test_008_motor_plate_physical_status (__main__.V0934Contract.test_008_motor_plate_physical_status) ... ok
+test_009_frame_width_exact (__main__.V0934Contract.test_009_frame_width_exact) ... ok
+test_010_powertrain_clear_width_exact (__main__.V0934Contract.test_010_powertrain_clear_width_exact) ... ok
+test_011_side_rail_positions_exact (__main__.V0934Contract.test_011_side_rail_positions_exact) ... ok
+test_012_profile_is_conservative_proxy (__main__.V0934Contract.test_012_profile_is_conservative_proxy) ... ok
+test_013_frame_proxy_bounds (__main__.V0934Contract.test_013_frame_proxy_bounds) ... ok
+test_014_baseline_intrusion_and_remaining_width (__main__.V0934Contract.test_014_baseline_intrusion_and_remaining_width) ... ok
+test_015_candidate_a_contract (__main__.V0934Contract.test_015_candidate_a_contract) ... ok
+test_016_candidate_a_separated_envelopes (__main__.V0934Contract.test_016_candidate_a_separated_envelopes) ... ok
+test_017_candidate_a_widths (__main__.V0934Contract.test_017_candidate_a_widths) ... ok
+test_018_candidate_a_anti_rotation_hold (__main__.V0934Contract.test_018_candidate_a_anti_rotation_hold) ... ok
+test_019_candidate_b_contract (__main__.V0934Contract.test_019_candidate_b_contract) ... ok
+test_020_candidate_b_drop_hold (__main__.V0934Contract.test_020_candidate_b_drop_hold) ... ok
+test_021_tie_plate_geometry (__main__.V0934Contract.test_021_tie_plate_geometry) ... ok
+test_022_tie_plate_environment_collisions_zero (__main__.V0934Contract.test_022_tie_plate_environment_collisions_zero) ... ok
+test_023_mud_and_drainage_remain_hold (__main__.V0934Contract.test_023_mud_and_drainage_remain_hold) ... ok
+test_024_actual_physical_dimensions (__main__.V0934Contract.test_024_actual_physical_dimensions) ... ok
+test_024_powertrain_motor_collision_zero (__main__.V0934Contract.test_024_powertrain_motor_collision_zero) ... ok
+test_024a_latest_two_washer_one_nut_stack (__main__.V0934Contract.test_024a_latest_two_washer_one_nut_stack) ... ok
+test_024b_actual_plate_fastener_spacer_collision_zero (__main__.V0934Contract.test_024b_actual_plate_fastener_spacer_collision_zero) ... ok
+test_025_actual_fasteners_and_alignment (__main__.V0934Contract.test_025_actual_fasteners_and_alignment) ... ok
+test_025_powertrain_pulley_collisions_zero (__main__.V0934Contract.test_025_powertrain_pulley_collisions_zero) ... ok
+test_026_plate_damage_none (__main__.V0934Contract.test_026_plate_damage_none) ... ok
+test_026_powertrain_belt_collisions_zero (__main__.V0934Contract.test_026_powertrain_belt_collisions_zero) ... ok
+test_027_m5_engagement_no_invented_mm (__main__.V0934Contract.test_027_m5_engagement_no_invented_mm) ... ok
+test_027_powertrain_guard_collisions_zero (__main__.V0934Contract.test_027_powertrain_guard_collisions_zero) ... ok
+test_028_height_cases_all_evaluated (__main__.V0934Contract.test_028_height_cases_all_evaluated) ... ok
+test_028_service_sweep_is_separate (__main__.V0934Contract.test_028_service_sweep_is_separate) ... ok
+test_029_y_sweep_performed_at_5mm (__main__.V0934Contract.test_029_y_sweep_performed_at_5mm) ... ok
+test_030_minimum_viable_frame (__main__.V0934Contract.test_030_minimum_viable_frame) ... ok
+test_031_target_frame (__main__.V0934Contract.test_031_target_frame) ... ok
+test_032_limiting_component_and_service (__main__.V0934Contract.test_032_limiting_component_and_service) ... ok
+test_033_repairability_scores (__main__.V0934Contract.test_033_repairability_scores) ... ok
+test_034_trade_recommendation (__main__.V0934Contract.test_034_trade_recommendation) ... ok
+test_035_fallback_not_modeled (__main__.V0934Contract.test_035_fallback_not_modeled) ... ok
+test_036_left_right_independence (__main__.V0934Contract.test_036_left_right_independence) ... ok
+test_037_exact_step_count_and_reload (__main__.V0934Contract.test_037_exact_step_count_and_reload) ... ok
+test_038_exact_svg_count_and_validity (__main__.V0934Contract.test_038_exact_svg_count_and_validity) ... ok
+test_039_actual_physical_artifacts_present (__main__.V0934Contract.test_039_actual_physical_artifacts_present) ... ok
+test_039b_m5x16_m5x20_plan (__main__.V0934Contract.test_039b_m5x16_m5x20_plan) ... ok
+test_039c_previous_physical_result_preserved (__main__.V0934Contract.test_039c_previous_physical_result_preserved) ... ok
+test_040_csv_parse_contract (__main__.V0934Contract.test_040_csv_parse_contract) ... ok
+test_041_physical_mockup_steps (__main__.V0934Contract.test_041_physical_mockup_steps) ... ok
+test_042_no_release_or_power (__main__.V0934Contract.test_042_no_release_or_power) ... ok
+test_043_exact_69_package_paths (__main__.V0934Contract.test_043_exact_69_package_paths) ... ok
+test_044_commit_paths_v0934_only (__main__.V0934Contract.test_044_commit_paths_v0934_only) ... ok
+test_045_manifest_and_hashes (__main__.V0934Contract.test_045_manifest_and_hashes) ... ok
+test_046_machine_evidence (__main__.V0934Contract.test_046_machine_evidence) ... ok
+test_047_builder_verify (__main__.V0934Contract.test_047_builder_verify) ... ok
+test_048_csv_artifact_tool_marker_in_package (__main__.V0934Contract.test_048_csv_artifact_tool_marker_in_package) ... ok
+test_049_zip_standalone_contract_when_requested (__main__.V0934Contract.test_049_zip_standalone_contract_when_requested) ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 8.143s
+
+OK

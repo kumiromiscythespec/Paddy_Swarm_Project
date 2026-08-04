@@ -1,0 +1,28 @@
+group,parameter,value,unit,evidence,status
+frame,FRAME_OUTER_WIDTH_X,180.0,mm,user current mockup,RECORDED_CANDIDATE
+frame,POWERTRAIN_CLEAR_WIDTH_X,100.0,mm,derived symmetric rails,RECORDED_CANDIDATE
+frame,SIDE_RAIL_WIDTH_X,40.0,mm,derived,CANDIDATE
+frame,SIDE_RAIL_HEIGHT_Z,20.0,mm,proxy,MEASUREMENT_HOLD
+frame,LEFT_RAIL_CENTER_X,-70.0,mm,derived contract,CANDIDATE
+frame,RIGHT_RAIL_CENTER_X,70.0,mm,derived contract,CANDIDATE
+frame,CROSSMEMBER_LENGTH_X,100.0,mm,inner-face span,CANDIDATE
+profile,PROFILE_EXACT_SECTION,,,not available,MEASUREMENT_HOLD
+profile,END_CENTER_HOLE_DIAMETER,,mm,unmeasured,MEASUREMENT_HOLD
+profile,M5_M6_TAP_COMPATIBILITY,,,unmeasured,MEASUREMENT_HOLD
+baseline,INNER_CORNER_BRACKET_INTRUSION,27.9,mm,approximate physical report,RECORDED_APPROXIMATE
+tie_plate,AVAILABLE_MATERIAL_AND_THICKNESS,3.0 candidate,mm,trade study,MATERIAL_SELECTION_HOLD
+physical_actual_latest,PETG_PLATE_THICKNESS,6.0,mm,latest user reported physical result,PHYSICAL_RECORDED
+physical_actual_latest,PLATE_BOTTOM_GAP_MIN,4.3,mm,latest user measured range,PHYSICAL_RECORDED
+physical_actual_latest,PLATE_BOTTOM_GAP_MAX,4.5,mm,latest user measured range,PHYSICAL_RECORDED
+physical_actual_latest,PLATE_BOTTOM_GAP_RANGE,0.2,mm,max minus min,PHYSICAL_DERIVED
+physical_actual_latest,DERIVED_NOMINAL_PLATE_BOTTOM_GAP,4.4,mm,representative midpoint; not independent measurement,DERIVED_NOMINAL
+physical_actual_latest,FRAME_TOP_TO_PLATE_TOP_MIN,10.3,mm,latest user reported,PHYSICAL_RECORDED
+physical_actual_latest,FRAME_TOP_TO_PLATE_TOP_MAX,10.5,mm,latest user reported,PHYSICAL_RECORDED
+physical_actual_latest,DERIVED_NOMINAL_FRAME_TOP_TO_PLATE_TOP,10.4,mm,representative midpoint; not independent measurement,DERIVED_NOMINAL
+physical_actual_latest,ADDITIONAL_PLAIN_WASHER_COUNT_PER_M5,2,count,latest physical stack,PHYSICAL_RECORDED
+physical_actual_latest,HEIGHT_ADJUSTMENT_NUT_COUNT_PER_M5,1,count,latest physical stack,PHYSICAL_RECORDED
+physical_actual_latest,M5X16_TNUT_THREAD_TRAVERSAL,FULL,,user reported physical confirmation,PHYSICAL_PASS_USER_REPORTED
+physical_history,PREVIOUS_GAP_RANGE,3.8_TO_3.9,mm,superseded physical result,HISTORICAL_PHYSICAL_RESULT
+physical_history,PREVIOUS_M5_TNUT_ENGAGEMENT,2.5,turns,superseded physical result,HISTORICAL_PHYSICAL_RESULT
+physical_actual,M5_THREAD_PITCH,,mm,not measured,MEASUREMENT_HOLD
+physical_actual,M5_ENGAGEMENT_LENGTH,,mm,must not infer without pitch,NOT_CALCULATED

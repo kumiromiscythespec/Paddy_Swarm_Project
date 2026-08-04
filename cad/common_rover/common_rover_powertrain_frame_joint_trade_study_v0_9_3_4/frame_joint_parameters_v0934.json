@@ -1,0 +1,530 @@
+{
+  "actual_height_case": {
+    "20t_axis_z_candidate_range_mm": [
+      115.3,
+      115.5
+    ],
+    "20t_to_60t_difference_range_mm": [
+      50.5,
+      50.7
+    ],
+    "60t_selector_axis_z_mm": 166.0,
+    "authority_update": "NOT_APPROVED",
+    "derived_nominal_20t_axis_z_mm": 115.4,
+    "derived_nominal_difference_mm": 50.6,
+    "derived_nominal_motor_front_plate_z_mm": 115.4,
+    "derived_nominal_plate_bottom_gap_mm": 4.4,
+    "id": "ACTUAL_H4P3_TO_H4P5_WASHER_NUT_STACK",
+    "motor_front_plate_z_candidate_range_mm": [
+      115.3,
+      115.5
+    ],
+    "plate_bottom_gap_range_mm": [
+      4.3,
+      4.5
+    ],
+    "total_z_increase_range_mm": [
+      10.3,
+      10.5
+    ]
+  },
+  "anchor": "198a708395df6e43556a744ae9c5629b50360e2f",
+  "approval": {
+    "aluminum_frame_protection": "PASS",
+    "authority_update": "NOT_APPROVED",
+    "belt_tension": "NOT_APPROVED",
+    "creep_test_24h": "REQUIRED_BEFORE_BELT_TENSION",
+    "field_deployment": "NOT_APPROVED",
+    "four_point_levelness": "PASS_AT_0P2MM_RANGE",
+    "frame_joint_cad": "TRADE_STUDY_ONLY",
+    "m5x16": "PHYSICAL_PASS_NO_LOAD",
+    "motor_plate_physical_fit": "PHYSICAL_PASS_NO_LOAD",
+    "motor_plate_v0933_print": "LATEST_PHYSICAL_TEST_REPORTED",
+    "powered_m5x16": "NOT_APPROVED",
+    "powered_rotation": "NOT_APPROVED",
+    "torque_load": "NOT_APPROVED"
+  },
+  "architecture": {
+    "common_left_right_shaft": false,
+    "drive_neutral_pto": true,
+    "left_right_independent_power": true
+  },
+  "baseline": {
+    "exact_fastener_pattern": "HOLD",
+    "exact_shape": "HOLD",
+    "inner_corner_intrusion_per_side_mm": 27.9,
+    "quantity_candidate": 4,
+    "remaining_width_mm": 44.2,
+    "status": "REJECT_CANDIDATE_IN_POWERTRAIN_ZONE"
+  },
+  "candidate_a": {
+    "M5_envelope": "COMPARISON_ONLY",
+    "M6_envelope": "COMPARISON_ONLY",
+    "central_intrusion_mm": 0.0,
+    "crossmember_span_mm": 100.0,
+    "end_tap_thread_size": "MEASUREMENT_HOLD",
+    "fixed_width_candidate_mm": {
+      "M5": 190.0,
+      "M6": 192.0
+    },
+    "id": "CROSSMEMBER_END_TAP_OUTBOARD_BOLT",
+    "inner_bracket": false,
+    "one_bolt_anti_rotation": "SECONDARY_MEASURE_REQUIRED",
+    "status": "CONDITIONAL_PASS_PROFILE_TAP_HOLD",
+    "temporary_tool_width_candidate_mm": {
+      "M5": 250.0,
+      "M6": 252.0
+    },
+    "two_bolt_layout": "PROFILE_MEASUREMENT_HOLD"
+  },
+  "candidate_b": {
+    "central_upper_intrusion_mm": 0.0,
+    "corner_radius_mm": 3.0,
+    "crossmember_span_mm": 100.0,
+    "fastener_head_drop_mm": "MEASUREMENT_HOLD",
+    "id": "UNDERSIDE_3MM_FULL_WIDTH_TIE_PLATE",
+    "inner_bracket": false,
+    "material_selection": "HOLD",
+    "plate_mm": [
+      180.0,
+      40.0,
+      3.0
+    ],
+    "plate_only_drop_mm": 3.0,
+    "quantity": 2,
+    "status": "CONDITIONAL_PASS_UNDERSIDE_CLEARANCE_HOLD",
+    "t_slot_fastener_coordinates": "MEASUREMENT_HOLD",
+    "total_underside_drop": "3.0_PLUS_FASTENER_HEAD_ENVELOPE"
+  },
+  "collision_summary": {
+    "actual_or_proxy_pass": true,
+    "fail_count": 0,
+    "rows": 33
+  },
+  "coordinate_system": {
+    "+X": "left",
+    "+Y": "rear",
+    "+Z": "up",
+    "-Y": "front"
+  },
+  "crossmember_y_search": {
+    "evaluated_count": 255,
+    "hard_min_fixed_clearance_mm": 10.0,
+    "minimum_viable": {
+      "extra_length_relative_to_current_mockup_mm": "MEASUREMENT_HOLD",
+      "frame_length_mm": "230.0",
+      "front_crossmember_center_y_mm": "-280.0",
+      "front_fixed_clearance_mm": "10.0",
+      "front_service_clearance_mm": "5.0",
+      "hard_collision": "NO",
+      "hard_min_10_pass": "YES",
+      "limiting_component": "60T_FIXED_GUARD_PROXY",
+      "limiting_guard": "PULLEY_GUARD_5MM_MARGIN",
+      "limiting_service_operation": "BELT_REMOVAL_AND_GUARD_TOOL_SWEEP",
+      "minimum_fixed_clearance_mm": "10.0",
+      "minimum_service_clearance_mm": "5.0",
+      "rear_crossmember_center_y_mm": "-90.0",
+      "rear_fixed_clearance_mm": "10.0",
+      "rear_service_clearance_mm": "5.0",
+      "status": "MINIMUM_VIABLE",
+      "target_15_pass": "NO"
+    },
+    "service_clearance": "SEPARATE_REPORT",
+    "step_mm": 5.0,
+    "target": {
+      "extra_length_relative_to_current_mockup_mm": "MEASUREMENT_HOLD",
+      "frame_length_mm": "240.0",
+      "front_crossmember_center_y_mm": "-285.0",
+      "front_fixed_clearance_mm": "15.0",
+      "front_service_clearance_mm": "10.0",
+      "hard_collision": "NO",
+      "hard_min_10_pass": "YES",
+      "limiting_component": "60T_FIXED_GUARD_PROXY",
+      "limiting_guard": "PULLEY_GUARD_5MM_MARGIN",
+      "limiting_service_operation": "BELT_REMOVAL_AND_GUARD_TOOL_SWEEP",
+      "minimum_fixed_clearance_mm": "15.0",
+      "minimum_service_clearance_mm": "10.0",
+      "rear_crossmember_center_y_mm": "-85.0",
+      "rear_fixed_clearance_mm": "15.0",
+      "rear_service_clearance_mm": "10.0",
+      "status": "TARGET",
+      "target_15_pass": "YES"
+    },
+    "target_fixed_clearance_mm": 15.0
+  },
+  "document_id": "PS-CR-V0934-POWERTRAIN-FRAME-JOINT-TRADE-STUDY",
+  "fallback": {
+    "C": "END_TAP_PLUS_SMALL_UNDERSIDE_ANTI_ROTATION_STRIP",
+    "D": "OUTBOARD_SIDE_GUSSET",
+    "status": "NOT_MODELED_UNLESS_A_AND_B_HARD_FAIL"
+  },
+  "frame": {
+    "crossmember_span_x_mm": 100.0,
+    "left_inner_face_x_mm": -50.0,
+    "left_rail_center_x_mm": -70.0,
+    "outer_boundary_x_mm": [
+      -90.0,
+      90.0
+    ],
+    "outer_width_x_mm": 180.0,
+    "powertrain_clear_width_x_mm": 100.0,
+    "profile_exact_section": "MEASUREMENT_HOLD",
+    "profile_orientation": "PHYSICAL_CONFIRMATION_REQUIRED",
+    "right_inner_face_x_mm": 50.0,
+    "right_rail_center_x_mm": 70.0,
+    "side_rail_height_z_mm": 20.0,
+    "side_rail_width_x_mm": 40.0
+  },
+  "height_case_priority": [
+    "ACTUAL_H4P3_TO_H4P5_WASHER_NUT_STACK",
+    "PREVIOUS_H3P8_TO_H3P9_TWO_NUT_STACK",
+    "H6",
+    "H8",
+    "H10"
+  ],
+  "height_case_selection": "ACTUAL_H4P3_TO_H4P5_WASHER_NUT_STACK",
+  "height_cases": {
+    "ACTUAL_H4P3_TO_H4P5_WASHER_NUT_STACK": {
+      "basis": "LATEST_USER_REPORTED_PHYSICAL_RESULT",
+      "increase": 10.4,
+      "motor_z": 115.4,
+      "priority": 1
+    },
+    "H10": {
+      "basis": "REFERENCE_ONLY",
+      "increase": 16.0,
+      "motor_z": 121.0,
+      "priority": 5
+    },
+    "H6": {
+      "basis": "REFERENCE_ONLY",
+      "increase": 12.0,
+      "motor_z": 117.0,
+      "priority": 3
+    },
+    "H8": {
+      "basis": "REFERENCE_ONLY",
+      "increase": 14.0,
+      "motor_z": 119.0,
+      "priority": 4
+    },
+    "PREVIOUS_H3P8_TO_H3P9_TWO_NUT_STACK": {
+      "basis": "HISTORICAL_PHYSICAL_RESULT",
+      "increase": 9.875,
+      "motor_z": 114.875,
+      "priority": 2
+    }
+  },
+  "m5_length_comparison": {
+    "M5x16": {
+      "engagement_length_mm": "NOT_CALCULATED",
+      "no_load_result": "PHYSICAL_PASS",
+      "powered_result": "NOT_APPROVED",
+      "stack": "TWO_PLAIN_WASHERS_PLUS_ONE_HEIGHT_ADJUSTMENT_NUT",
+      "thread_engagement": "FULL_TNUT_THREAD_TRAVERSAL_USER_REPORTED",
+      "thread_pitch": "MEASUREMENT_HOLD"
+    },
+    "M5x20": {
+      "bottom_out_risk": "MEASUREMENT_REQUIRED",
+      "expected_engagement": "MUST_NOT_BE_INVENTED",
+      "physical_test": "NOT_PERFORMED",
+      "priority": "LOWERED_BUT_NOT_CANCELLED"
+    },
+    "M5x25": {
+      "recommendation": "PROHIBITED_WITHOUT_BOTTOM_CLEARANCE_TEST",
+      "status": "LENGTH_HOLD"
+    }
+  },
+  "parent_protection": {
+    "parents": {
+      "v0.9.3.0": {
+        "checks": {
+          "exists": true,
+          "git_scope_exact": true,
+          "index_clean": true,
+          "ledger": true,
+          "path_count": true,
+          "worktree_clean": true
+        },
+        "git_mode": "TRACKED_LANE",
+        "ledger_sha256": "3528bc1192983fce3daeb5e543fe3f207fa59eb78615ddcde0643e73f9159199",
+        "path_count": 151,
+        "status": "PASS"
+      },
+      "v0.9.3.1": {
+        "checks": {
+          "exists": true,
+          "git_scope_exact": true,
+          "index_clean": true,
+          "ledger": true,
+          "path_count": true,
+          "worktree_clean": true
+        },
+        "git_mode": "TRACKED_LANE",
+        "ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "path_count": 46,
+        "status": "PASS"
+      },
+      "v0.9.3.3": {
+        "checks": {
+          "exists": true,
+          "git_scope_exact": true,
+          "index_clean": true,
+          "ledger": true,
+          "path_count": true,
+          "worktree_clean": true
+        },
+        "git_mode": "UNTRACKED_LANE",
+        "ledger_sha256": "2c0bd512c9e347ad1429fe0974948f64fe587f53ed616135d9c663b0814bb5be",
+        "path_count": 38,
+        "status": "PASS"
+      }
+    },
+    "reference_zip": "PASS",
+    "source_references": "PASS",
+    "status": "PASS"
+  },
+  "physical_result": {
+    "actual_m5_stack_top_to_bottom": [
+      "M5x16 screw head",
+      "existing captive washer stack",
+      "additional top plain flat washer",
+      "PETG 8-hole plate",
+      "one M5 height-adjustment nut",
+      "additional bottom plain flat washer",
+      "aluminum extrusion top surface",
+      "slot T-nut"
+    ],
+    "additional_plain_washer_count_per_m5": 2,
+    "aluminum_frame_indentation": "NONE",
+    "aluminum_protection_result": "PASS",
+    "bottom_adjustment_nut": "USED",
+    "bottom_plain_washer": "USED",
+    "creep_test_24h": {
+      "acceptance": {
+        "local_petg_indentation": "NONE",
+        "maximum_gap_range_mm": 0.2,
+        "new_aluminum_indentation": "NONE",
+        "nut_loosening": "NONE",
+        "petg_whitening": "NONE",
+        "plate_rocking": "NONE",
+        "washer_migration": "NONE"
+      },
+      "status": "REQUIRED_BEFORE_BELT_TENSION"
+    },
+    "derived_nominal_gap_mm": 4.4,
+    "derived_nominal_plate_top_height_mm": 10.4,
+    "direct_hex_nut_contact_to_aluminum": "NOT_USED_IN_LATEST_STACK",
+    "four_point_levelness": "PHYSICAL_PASS_NO_LOAD",
+    "four_point_levelness_range_mm": 0.2,
+    "gap_range_mm": 0.2,
+    "height_adjustment_nut_count_per_m5": 1,
+    "individual_corner_gaps_mm": "NOT_REPORTED_IN_LATEST_OVERRIDE",
+    "latest_physical_result": true,
+    "local_indentation": "NONE",
+    "m3_fastener": "M3x16",
+    "m3_head_washer_to_frame_contact": "NONE",
+    "m3_hole_alignment": "PHYSICAL_PASS",
+    "m5_area_whitening": "NONE",
+    "m5_engagement_length_mm": "NOT_CALCULATED",
+    "m5_fastener": "M5x16",
+    "m5_hole_alignment": "PHYSICAL_PASS",
+    "m5_thread_pitch": "MEASUREMENT_HOLD",
+    "m5x16_no_load_result": "PHYSICAL_PASS",
+    "m5x16_powered_or_belt_load": "NOT_APPROVED",
+    "m5x16_thread_engagement": "FULL_TNUT_THREAD_TRAVERSAL_USER_REPORTED",
+    "m5x20_comparison_priority": "LOWERED_BUT_NOT_CANCELLED",
+    "m5x20_physical_result": "NOT_TESTED",
+    "m5x25": "LENGTH_HOLD",
+    "maximum_gap_mm": 4.5,
+    "maximum_plate_top_height_mm": 10.5,
+    "minimum_gap_mm": 4.3,
+    "minimum_plate_top_height_mm": 10.3,
+    "motor_bracket_alignment": "PHYSICAL_PASS",
+    "motor_bracket_seating": "PHYSICAL_PASS_NO_LOAD",
+    "petg_plate_no_load_result": "PASS",
+    "petg_plate_thickness_mm": 6.0,
+    "plate_id": "PS_CR_V0933_MOTOR_BRACKET_8HOLE_FLAT_PLATE_PETG_T6",
+    "plate_rocking": "NONE",
+    "plate_visible_warp": "NONE",
+    "previous_physical_result": {
+      "average_gap_mm": 3.875,
+      "gap_range_mm": 0.1,
+      "gaps_mm": {
+        "left_front": 3.8,
+        "left_rear": 3.9,
+        "right_front": 3.9,
+        "right_rear": 3.9
+      },
+      "m5_engagement_turns_approx": 2.5,
+      "stack": "PREVIOUS_TWO_NUT_STACK",
+      "status": "HISTORICAL_PHYSICAL_RESULT",
+      "supersession": "SUPERSEDED_BY_TWO_WASHER_ONE_NUT_STACK"
+    },
+    "spacerless_direct_clamp": "REJECTED_DUE_TO_ALUMINUM_INDENTATION",
+    "tnut_thread_traversal": "FULL_THREAD_TRAVERSAL_CONFIRMED",
+    "tnut_thread_traversal_result": "PHYSICAL_PASS_USER_REPORTED",
+    "top_adjustment_nut": "NOT_USED_IN_LATEST_STACK",
+    "top_plain_washer": "USED"
+  },
+  "powertrain_y_envelopes_mm": {
+    "fixed_including_guard": [
+      -250.0,
+      -120.0
+    ],
+    "physical": [
+      -245.0,
+      -125.0
+    ],
+    "service": [
+      -255.0,
+      -115.0
+    ]
+  },
+  "recommendation": "A_AND_B_PHYSICAL_MOCKUP_REQUIRED",
+  "reference_zip_audit": {
+    "actual_sha256": "2832a60935e508f8287abf6d89576ae9f01a8e59926a242e599713cbba0e04a5",
+    "exists": true,
+    "path": "D:\\Downloads\\Paddy_Swarm_Common_Rover_v0_9_3_3_8Hole_Flat_Plate_20260804_155850.zip",
+    "sha256": "2832a60935e508f8287abf6d89576ae9f01a8e59926a242e599713cbba0e04a5",
+    "status": "PASS"
+  },
+  "source_reference_audit": {
+    "rows": [
+      {
+        "actual_sha256": "49e3489ef1c309bdb7cb5b0d73004eee3c38af4f14595c36eb78ebc22abad5b2",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/motor_reference/JGB37_520_MEASURED_FIXED_ENVELOPE.step",
+        "sha256": "49e3489ef1c309bdb7cb5b0d73004eee3c38af4f14595c36eb78ebc22abad5b2",
+        "source_id": "JGB37_FIXED",
+        "transform": "PARAMETER_REUSE_WORLD_PLACEMENT"
+      },
+      {
+        "actual_sha256": "4962b4956869bc7df81b49af6e8f11b512d0dc7d047992d424971cca2bbfae56",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/motor_reference/JGB37_520_MEASURED_WITH_BRACKET.step",
+        "sha256": "4962b4956869bc7df81b49af6e8f11b512d0dc7d047992d424971cca2bbfae56",
+        "source_id": "JGB37_BRACKET",
+        "transform": "PARAMETER_REUSE_WORLD_PLACEMENT"
+      },
+      {
+        "actual_sha256": "129507c28d61f9c3e85bd6b622cba44010157de7fa78c1294fce1cffba139dd4",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/motor_reference/JGB37_520_SERVICE_ENVELOPE.step",
+        "sha256": "129507c28d61f9c3e85bd6b622cba44010157de7fa78c1294fce1cffba139dd4",
+        "source_id": "JGB37_SERVICE",
+        "transform": "PARAMETER_REUSE_WORLD_PLACEMENT"
+      },
+      {
+        "actual_sha256": "cdf3dffb96f0910deb44b674174e716751d7a10a36e519e053f8439cc8387fc8",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/candidates/A_LATERAL_FRONT_DIRECT/MOTOR_POWERPATH.step",
+        "sha256": "cdf3dffb96f0910deb44b674174e716751d7a10a36e519e053f8439cc8387fc8",
+        "source_id": "A_POWERPATH",
+        "transform": "WORLD_AS_EXPORTED_REFERENCE"
+      },
+      {
+        "actual_sha256": "cabbfdfb3381c253f5c9107b554071a9ea2c6f42bd9b0cc887e9b3a32ea46efb",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/candidates/A_LATERAL_FRONT_DIRECT/ALL_FIXED_GUARDS.step",
+        "sha256": "cabbfdfb3381c253f5c9107b554071a9ea2c6f42bd9b0cc887e9b3a32ea46efb",
+        "source_id": "A_GUARDS",
+        "transform": "WORLD_AS_EXPORTED_REFERENCE"
+      },
+      {
+        "actual_sha256": "a6b2f1f482a92957fdc54fc68567a722a28ebbffdf3b2f7a214656e750c72fd1",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.0",
+        "pass": true,
+        "path": "artifacts/candidates/A_LATERAL_FRONT_DIRECT/BELT_REPLACEMENT_ACCESS.step",
+        "sha256": "a6b2f1f482a92957fdc54fc68567a722a28ebbffdf3b2f7a214656e750c72fd1",
+        "source_id": "A_BELT_SERVICE",
+        "transform": "WORLD_AS_EXPORTED_REFERENCE"
+      },
+      {
+        "actual_sha256": "b1c5ab1c651951ac694483e0bb5c10179e8299181123b1afe22208e4dddfc725",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.1",
+        "pass": true,
+        "path": "artifacts/assemblies/CANDIDATE_A_MOCKUP_ASSEMBLY.step",
+        "sha256": "b1c5ab1c651951ac694483e0bb5c10179e8299181123b1afe22208e4dddfc725",
+        "source_id": "A_MOCKUP",
+        "transform": "WORLD_AS_EXPORTED_REFERENCE"
+      },
+      {
+        "actual_sha256": "f72a91096c23035ff44e88587115207586a732e9f718a001509109a7d10ac285",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.1",
+        "pass": true,
+        "path": "artifacts/assemblies/CANDIDATE_A_SERVICE_SWEEP.step",
+        "sha256": "f72a91096c23035ff44e88587115207586a732e9f718a001509109a7d10ac285",
+        "source_id": "A_SERVICE",
+        "transform": "WORLD_AS_EXPORTED_REFERENCE"
+      },
+      {
+        "actual_sha256": "45bf57a7fd60488ba6826b826700b3dffe693befd362b8aaa8f3bf47cfcb8b66",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.3",
+        "pass": true,
+        "path": "artifacts/assemblies/PS_CR_V0933_8HOLE_FLAT_PLATE_PETG_T6.step",
+        "sha256": "45bf57a7fd60488ba6826b826700b3dffe693befd362b8aaa8f3bf47cfcb8b66",
+        "source_id": "V0933_PLATE",
+        "transform": "CENTER_XY_AT_MOTOR_DATUM_HEIGHT_CASE"
+      },
+      {
+        "actual_sha256": "a23d86465482b4ba1032a0ad8dfb63348ff9691b1f8f7299879b802105753cf5",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.3",
+        "pass": true,
+        "path": "artifacts/assemblies/PS_CR_V0933_PLATE_WITH_BRACKET_PROXY.step",
+        "sha256": "a23d86465482b4ba1032a0ad8dfb63348ff9691b1f8f7299879b802105753cf5",
+        "source_id": "V0933_BRACKET",
+        "transform": "CENTER_XY_AT_MOTOR_DATUM_HEIGHT_CASE"
+      },
+      {
+        "actual_sha256": "cd0d4669f8f33bb9216f95dbdf07bba2b3f298c3e043ebde96f22cee79a28c45",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.3",
+        "pass": true,
+        "path": "artifacts/assemblies/PS_CR_V0933_FULL_STACK_SPACER_H6_REFERENCE.step",
+        "sha256": "cd0d4669f8f33bb9216f95dbdf07bba2b3f298c3e043ebde96f22cee79a28c45",
+        "source_id": "V0933_H6",
+        "transform": "HEIGHT_CASE_REFERENCE_ONLY"
+      },
+      {
+        "actual_sha256": "af3113f3a6dd2dce53bc5df308190e118cde7f0ab4259c489b82c1f27e24a9f8",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.3",
+        "pass": true,
+        "path": "artifacts/assemblies/PS_CR_V0933_FULL_STACK_SPACER_H8_REFERENCE.step",
+        "sha256": "af3113f3a6dd2dce53bc5df308190e118cde7f0ab4259c489b82c1f27e24a9f8",
+        "source_id": "V0933_H8",
+        "transform": "HEIGHT_CASE_REFERENCE_ONLY"
+      },
+      {
+        "actual_sha256": "60383d35bd5b2868e7df1545591a6a2bbbd5b13112199a9161e60edf30d519fd",
+        "coordinate_mapping": "+X left, +Y rear, +Z up",
+        "parent": "v0.9.3.3",
+        "pass": true,
+        "path": "artifacts/assemblies/PS_CR_V0933_FULL_STACK_SPACER_H10_REFERENCE.step",
+        "sha256": "60383d35bd5b2868e7df1545591a6a2bbbd5b13112199a9161e60edf30d519fd",
+        "source_id": "V0933_H10",
+        "transform": "HEIGHT_CASE_REFERENCE_ONLY"
+      }
+    ],
+    "status": "PASS"
+  },
+  "template_status": "MEASUREMENT_REFERENCE_ONLY",
+  "template_warning": "NOT_FOR_DRILLING_UNTIL_PROFILE_MEASURED",
+  "version": "0.9.3.4"
+}
