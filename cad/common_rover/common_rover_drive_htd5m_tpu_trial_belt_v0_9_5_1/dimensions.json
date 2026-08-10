@@ -1,0 +1,57 @@
+{
+  "backing_authority": "REUSED_BELT_FAMILY_SOURCE",
+  "backing_mm": 2.2,
+  "belt_width_authority": "FULL_PULLEY_STANDARD_SOURCE",
+  "belt_width_mm": 15.0,
+  "calculations": {
+    "center_delta_from_measured_mm": {
+      "112": -2.867816672508525,
+      "113": -0.3270453813911445,
+      "114": 2.212561980006001
+    },
+    "derived_center_distance_mm": {
+      "112": 177.13218332749148,
+      "113": 179.67295461860886,
+      "114": 182.212561980006
+    },
+    "large_wrap_deg": 200.3713683833333,
+    "pitch_diameter_large_mm": 95.4929658551372,
+    "pitch_diameter_small_mm": 31.830988618379067,
+    "primary_length_deficit_mm": 0.6437632622170213,
+    "primary_nominal_installed_strain_percent": 0.11394040039238718,
+    "small_wrap_deg": 159.6286316166667,
+    "tangent_angle_deg": 10.18568419166665,
+    "theoretical_pitch_length_at_c180_mm": 565.643763262217
+  },
+  "center_distance_classification": "MEASURED / USER_REPORTED",
+  "center_distance_measured_mm": 180.0,
+  "classification": "DRIVE_BELT_PHYSICAL_FIT_PROTOTYPE",
+  "fallback_backing_comparisons_mm": [
+    2.0,
+    2.5,
+    3.0
+  ],
+  "fallback_backing_comparisons_used": false,
+  "field": false,
+  "large_pulley_teeth": 60,
+  "load_test": false,
+  "motor_test": false,
+  "pitch_mm": 5.0,
+  "powered_rotation": false,
+  "primary_belt_pitch_length_mm": 565.0,
+  "primary_belt_teeth": 113,
+  "profile": "HTD5M",
+  "profile_variant": "STANDARD",
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.drive_htd5m_tpu_trial_belt.dimensions.v0.9.5.1",
+  "secondary_long_length_mm": 570.0,
+  "secondary_long_teeth": 114,
+  "secondary_short_length_mm": 560.0,
+  "secondary_short_teeth": 112,
+  "small_pulley_teeth": 20,
+  "string_loop_user_reported_mm": 583.0,
+  "string_measurement_conflict": "PHYSICAL_BELT_TEST_REQUIRED",
+  "tensile_cord": "NONE",
+  "tooth_face_width_mm": 16.0,
+  "version": "0.9.5.1"
+}

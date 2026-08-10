@@ -1,0 +1,279 @@
+{
+  "assembly": {
+    "belt_designation": "113T / 565 mm",
+    "belt_path_self_intersection": false,
+    "center_distance_mm": 180.0,
+    "classification": "REFERENCE_ENVELOPE / NOT_POWERED",
+    "crossed_belt": false,
+    "frame_reference": "NOT_AVAILABLE_IN_PULLEY_SOURCE_COORDINATES",
+    "installed_path_length_mm": 565.643763262217,
+    "installed_tooth_count": 113,
+    "installed_tooth_pitch_mm": 5.005697020019619,
+    "nominal_installed_strain_percent": 0.11394040039238718,
+    "source_tooth_section_transport": "belt_family._straight_tooth EQUIVALENT_SECTION"
+  },
+  "belt_geometry": {
+    "coupon": {
+      "bounds_mm": [
+        65.00000020000002,
+        15.000000200000015,
+        4.250000200000015
+      ],
+      "edge_count": 156,
+      "face_count": 54,
+      "open_strip": true,
+      "pitch_length_mm": 60.0,
+      "profile_constants_direct_from_reused_module": true,
+      "solid_count": 1,
+      "teeth": 12,
+      "valid": true,
+      "volume_mm3": 2995.9549999999963
+    },
+    "nominal_scale": 1.0,
+    "print_orientation": "FLAT_XY / LOOP_AXIS_Z / TEETH_INWARD",
+    "tensile_cord": "NONE",
+    "variants": {
+      "112": {
+        "angular_pitch_deg": 3.2142857142857144,
+        "backing_mm": 2.2,
+        "bambu_a1_fit": true,
+        "belt_width_mm": 15.0,
+        "bounds_mm": [
+          182.7103084696079,
+          182.65353646292283,
+          15.136367800969845
+        ],
+        "closure_phase_error_deg": 0.0,
+        "datum_tooth": 1,
+        "edge_count": 1734,
+        "face_count": 602,
+        "label": "112-560",
+        "max_xy_mm": 182.7103084696079,
+        "pitch_length_mm": 560.0,
+        "pitch_radius_mm": 89.12676813146139,
+        "solid_count": 1,
+        "teeth": 112,
+        "valid": true,
+        "volume_mm3": 25358.857180321484,
+        "witness_interval_nominal_mm": 50.0,
+        "witness_interval_teeth": 10
+      },
+      "113": {
+        "angular_pitch_deg": 3.185840707964602,
+        "backing_mm": 2.2,
+        "bambu_a1_fit": true,
+        "belt_width_mm": 15.0,
+        "bounds_mm": [
+          184.30235258273655,
+          184.24508589384175,
+          15.130392215044854
+        ],
+        "closure_phase_error_deg": 0.0,
+        "datum_tooth": 1,
+        "edge_count": 1776,
+        "face_count": 615,
+        "label": "113-565",
+        "max_xy_mm": 184.30235258273655,
+        "pitch_length_mm": 565.0,
+        "pitch_radius_mm": 89.92254284692086,
+        "solid_count": 1,
+        "teeth": 113,
+        "valid": true,
+        "volume_mm3": 25583.082231925702,
+        "witness_interval_nominal_mm": 50.0,
+        "witness_interval_teeth": 10
+      },
+      "114": {
+        "angular_pitch_deg": 3.1578947368421053,
+        "backing_mm": 2.2,
+        "bambu_a1_fit": true,
+        "belt_width_mm": 15.0,
+        "bounds_mm": [
+          185.89439669586525,
+          185.83663532476075,
+          15.130800515836269
+        ],
+        "closure_phase_error_deg": 0.0,
+        "datum_tooth": 1,
+        "edge_count": 1680,
+        "face_count": 585,
+        "label": "114-570",
+        "max_xy_mm": 185.89439669586525,
+        "pitch_length_mm": 570.0,
+        "pitch_radius_mm": 90.71831756238035,
+        "solid_count": 1,
+        "teeth": 114,
+        "valid": true,
+        "volume_mm3": 25807.2901829851,
+        "witness_interval_nominal_mm": 50.0,
+        "witness_interval_teeth": 10
+      }
+    },
+    "xy_compensation_applied": false
+  },
+  "contact_analysis": {
+    "20T": {
+      "backing_to_pulley_tip_contact_volume_mm3": 230.50983933137707,
+      "classification": "EXPECTED_MATING_CONTACT / HOLD_PHYSICAL_COUPON",
+      "flange_axial_clearance_each_side_mm": 0.5,
+      "flange_collision": false,
+      "half_pitch_is_lower_overlap": true,
+      "selected_phase_offset_deg": 9.0,
+      "source_profile_nominal_radial_contact_band_mm": 0.25,
+      "tooth_common_volume_half_pitch_mm3": 158.13963740167395,
+      "tooth_common_volume_phase_zero_mm3": 1569.7393211831065
+    },
+    "60T": {
+      "backing_to_pulley_tip_contact_volume_mm3": 704.0915252646627,
+      "classification": "EXPECTED_MATING_CONTACT / HOLD_PHYSICAL_COUPON",
+      "flange_axial_clearance_each_side_mm": 0.5,
+      "flange_collision": false,
+      "half_pitch_is_lower_overlap": true,
+      "selected_phase_offset_deg": 3.0,
+      "source_profile_nominal_radial_contact_band_mm": 0.25,
+      "tooth_common_volume_half_pitch_mm3": 383.03317174401593,
+      "tooth_common_volume_phase_zero_mm3": 4767.992736691663
+    }
+  },
+  "profile_reuse": {
+    "belt_module": "belt_family",
+    "belt_module_sha256": "f9f6d3df5fb1cbca82e216297a483bbff0d1fbb9ecdb44d4e8b084f416dd7cc3",
+    "constants_copied_into_builder": false,
+    "direct_function_reuse": [
+      "belt_tooth_solids",
+      "belt_family._straight_tooth"
+    ],
+    "module": "htd5m_profile",
+    "sha256": "77f3e18eb14e2956213eddfc84529264585451c2014d0a8325229e368ede54e1",
+    "source_backing_thickness_mm": 2.2
+  },
+  "schema": "paddy_swarm.common_rover.drive_htd5m_tpu_trial_belt.geometry.v0.9.5.1",
+  "step_semantics": {
+    "cad/drive_20t_60t_c180_113t_reference.step": {
+      "bounds_mm": [
+        249.11549430919,
+        102.0,
+        28.0
+      ],
+      "edge_count": 2400,
+      "face_count": 840,
+      "solid_count": 5,
+      "valid": true,
+      "volume_mm3": 183263.3960817626
+    },
+    "cad/drive_htd5m_112t_560_tpu.step": {
+      "bounds_mm": [
+        182.65353646292198,
+        182.65353646292198,
+        15.100000099999999
+      ],
+      "edge_count": 1734,
+      "face_count": 602,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 25358.85718038561
+    },
+    "cad/drive_htd5m_113t_565_tpu.step": {
+      "bounds_mm": [
+        184.24508589384197,
+        184.24508589384197,
+        15.100000099999999
+      ],
+      "edge_count": 1776,
+      "face_count": 615,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 25583.082231927965
+    },
+    "cad/drive_htd5m_114t_570_tpu.step": {
+      "bounds_mm": [
+        185.83663532475998,
+        185.83663532475998,
+        15.100000099999999
+      ],
+      "edge_count": 1680,
+      "face_count": 585,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 25807.290183001507
+    },
+    "cad/drive_htd5m_12tooth_fit_coupon.step": {
+      "bounds_mm": [
+        65.0,
+        15.0,
+        4.250000000000383
+      ],
+      "edge_count": 156,
+      "face_count": 54,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 2995.954999998312
+    },
+    "cad/drive_htd5m_20t_reference.step": {
+      "bounds_mm": [
+        35.0,
+        35.0,
+        20.0
+      ],
+      "edge_count": 291,
+      "face_count": 127,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 15024.126151889493
+    },
+    "cad/drive_htd5m_60t_reference.step": {
+      "bounds_mm": [
+        102.0,
+        102.0,
+        20.0
+      ],
+      "edge_count": 729,
+      "face_count": 247,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 141972.61981628006
+    }
+  },
+  "stl_semantics": {
+    "cad/drive_htd5m_112t_560_tpu.stl": {
+      "bounds_mm": [
+        182.65353393554688,
+        182.59677124023438,
+        15.100000381469727
+      ],
+      "nonmanifold_edge_count": 0,
+      "triangles": 14890,
+      "watertight": true
+    },
+    "cad/drive_htd5m_113t_565_tpu.stl": {
+      "bounds_mm": [
+        184.24508666992188,
+        184.1878204345703,
+        15.100000381469727
+      ],
+      "nonmanifold_edge_count": 0,
+      "triangles": 15372,
+      "watertight": true
+    },
+    "cad/drive_htd5m_114t_570_tpu.stl": {
+      "bounds_mm": [
+        185.83663940429688,
+        185.77886962890625,
+        15.100000381469727
+      ],
+      "nonmanifold_edge_count": 0,
+      "triangles": 12838,
+      "watertight": true
+    },
+    "cad/drive_htd5m_12tooth_fit_coupon.stl": {
+      "bounds_mm": [
+        65.0,
+        15.0,
+        4.25
+      ],
+      "nonmanifold_edge_count": 0,
+      "triangles": 204,
+      "watertight": true
+    }
+  }
+}

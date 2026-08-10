@@ -1,0 +1,99 @@
+{
+  "coupon": {
+    "bounds_mm": [
+      65.00000020000002,
+      15.000000200000015,
+      4.250000200000015
+    ],
+    "edge_count": 156,
+    "face_count": 54,
+    "open_strip": true,
+    "pitch_length_mm": 60.0,
+    "profile_constants_direct_from_reused_module": true,
+    "solid_count": 1,
+    "teeth": 12,
+    "valid": true,
+    "volume_mm3": 2995.9549999999963
+  },
+  "nominal_scale": 1.0,
+  "print_orientation": "FLAT_XY / LOOP_AXIS_Z / TEETH_INWARD",
+  "tensile_cord": "NONE",
+  "variants": {
+    "112": {
+      "angular_pitch_deg": 3.2142857142857144,
+      "backing_mm": 2.2,
+      "bambu_a1_fit": true,
+      "belt_width_mm": 15.0,
+      "bounds_mm": [
+        182.7103084696079,
+        182.65353646292283,
+        15.136367800969845
+      ],
+      "closure_phase_error_deg": 0.0,
+      "datum_tooth": 1,
+      "edge_count": 1734,
+      "face_count": 602,
+      "label": "112-560",
+      "max_xy_mm": 182.7103084696079,
+      "pitch_length_mm": 560.0,
+      "pitch_radius_mm": 89.12676813146139,
+      "solid_count": 1,
+      "teeth": 112,
+      "valid": true,
+      "volume_mm3": 25358.857180321484,
+      "witness_interval_nominal_mm": 50.0,
+      "witness_interval_teeth": 10
+    },
+    "113": {
+      "angular_pitch_deg": 3.185840707964602,
+      "backing_mm": 2.2,
+      "bambu_a1_fit": true,
+      "belt_width_mm": 15.0,
+      "bounds_mm": [
+        184.30235258273655,
+        184.24508589384175,
+        15.130392215044854
+      ],
+      "closure_phase_error_deg": 0.0,
+      "datum_tooth": 1,
+      "edge_count": 1776,
+      "face_count": 615,
+      "label": "113-565",
+      "max_xy_mm": 184.30235258273655,
+      "pitch_length_mm": 565.0,
+      "pitch_radius_mm": 89.92254284692086,
+      "solid_count": 1,
+      "teeth": 113,
+      "valid": true,
+      "volume_mm3": 25583.082231925702,
+      "witness_interval_nominal_mm": 50.0,
+      "witness_interval_teeth": 10
+    },
+    "114": {
+      "angular_pitch_deg": 3.1578947368421053,
+      "backing_mm": 2.2,
+      "bambu_a1_fit": true,
+      "belt_width_mm": 15.0,
+      "bounds_mm": [
+        185.89439669586525,
+        185.83663532476075,
+        15.130800515836269
+      ],
+      "closure_phase_error_deg": 0.0,
+      "datum_tooth": 1,
+      "edge_count": 1680,
+      "face_count": 585,
+      "label": "114-570",
+      "max_xy_mm": 185.89439669586525,
+      "pitch_length_mm": 570.0,
+      "pitch_radius_mm": 90.71831756238035,
+      "solid_count": 1,
+      "teeth": 114,
+      "valid": true,
+      "volume_mm3": 25807.2901829851,
+      "witness_interval_nominal_mm": 50.0,
+      "witness_interval_teeth": 10
+    }
+  },
+  "xy_compensation_applied": false
+}

@@ -1,0 +1,43 @@
+test_001_repository_guard (__main__.Contract.test_001_repository_guard) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: could not open directory '.pytest_cache/': Permission denied
+warning: could not open directory '.pytest_cache/': Permission denied
+ok
+test_002_authority_unchanged (__main__.Contract.test_002_authority_unchanged) ... ok
+test_003_parent_v0950_unchanged (__main__.Contract.test_003_parent_v0950_unchanged) ... ok
+test_004_source_hashes (__main__.Contract.test_004_source_hashes) ... ok
+test_005_profile_pitch (__main__.Contract.test_005_profile_pitch) ... ok
+test_006_pulley_teeth (__main__.Contract.test_006_pulley_teeth) ... ok
+test_007_measured_center (__main__.Contract.test_007_measured_center) ... ok
+test_008_string_discrepancy_preserved (__main__.Contract.test_008_string_discrepancy_preserved) ... ok
+test_009_primary_exact (__main__.Contract.test_009_primary_exact) ... ok
+test_010_secondary_exact (__main__.Contract.test_010_secondary_exact) ... ok
+test_011_theoretical_path (__main__.Contract.test_011_theoretical_path) ... ok
+test_012_derived_center (__main__.Contract.test_012_derived_center) ... ok
+test_013_belt_width_source_authority (__main__.Contract.test_013_belt_width_source_authority) ... ok
+test_014_profile_reuse_direct (__main__.Contract.test_014_profile_reuse_direct) ... ok
+test_015_coupon_contract (__main__.Contract.test_015_coupon_contract) ... ok
+test_016_tooth_closure (__main__.Contract.test_016_tooth_closure) ... ok
+test_017_single_solids (__main__.Contract.test_017_single_solids) ... ok
+test_018_bambu_a1_fit (__main__.Contract.test_018_bambu_a1_fit) ... ok
+test_019_witness_and_datum (__main__.Contract.test_019_witness_and_datum) ... ok
+test_020_no_tensile_cord (__main__.Contract.test_020_no_tensile_cord) ... ok
+test_021_nominal_scale (__main__.Contract.test_021_nominal_scale) ... ok
+test_022_pulley_reference_hashes (__main__.Contract.test_022_pulley_reference_hashes) ... ok
+test_023_mating_phase (__main__.Contract.test_023_mating_phase) ... ok
+test_024_no_flange_collision (__main__.Contract.test_024_no_flange_collision) ... ok
+test_025_open_belt_path (__main__.Contract.test_025_open_belt_path) ... ok
+test_026_stl_watertight (__main__.Contract.test_026_stl_watertight) ... ok
+test_027_step_reload (__main__.Contract.test_027_step_reload) ... ok
+test_028_documents_and_svg (__main__.Contract.test_028_documents_and_svg) ... ok
+test_029_machine_readable (__main__.Contract.test_029_machine_readable) ... ok
+test_030_release_prohibitions (__main__.Contract.test_030_release_prohibitions) ... ok
+test_031_manifest_commit_paths_hashes (__main__.Contract.test_031_manifest_commit_paths_hashes) ... ok
+test_032_runtime_not_authority (__main__.Contract.test_032_runtime_not_authority) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 11.811s
+
+OK

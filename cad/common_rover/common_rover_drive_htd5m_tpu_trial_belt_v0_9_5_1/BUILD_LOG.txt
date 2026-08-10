@@ -1,0 +1,13 @@
+BUILD PASS
+version=0.9.5.1
+Python=3.12.13
+CadQuery=2.8.0
+branch=agent/organize-untracked-cad-assets-20260725
+HEAD=facb4f63c0d485a53fef48b602f97e0454e8548f
+preflight_untracked=1684
+outside_untracked=1631
+ignored_total=470
+source_profile_sha256=77f3e18eb14e2956213eddfc84529264585451c2014d0a8325229e368ede54e1
+primary=113T/565
+powered=NOT_APPROVED
+field=NOT_APPROVED

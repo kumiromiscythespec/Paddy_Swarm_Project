@@ -1,0 +1,31 @@
+{
+  "cad_pass": true,
+  "checks": {
+    "all_belts_a1_fit": true,
+    "all_belts_single_solid": true,
+    "all_stl_watertight": true,
+    "assembly_self_intersection_zero": true,
+    "authority_unmodified": true,
+    "center_distance_180_measured": true,
+    "closure_phase_zero": true,
+    "derived_center_below_measured": true,
+    "field_false": true,
+    "flange_collision_zero": true,
+    "half_pitch_phase_reduces_overlap": true,
+    "open_belt_not_crossed": true,
+    "optional_112_560_exact": true,
+    "pitch_5mm": true,
+    "powered_false": true,
+    "primary_113_565_exact": true,
+    "profile_hash_match": true,
+    "pulley_teeth_20_60": true,
+    "secondary_114_570_exact": true
+  },
+  "commercial_belt": "HOLD",
+  "field_deployment": "NOT_APPROVED",
+  "final_status": "DRIVE_HTD5M_TPU_TRIAL_BELT_ARTIFACTS_COMPLETE / USER_PHYSICAL_FIT_TEST_PENDING",
+  "powered_rotation": "NOT_APPROVED",
+  "primary_candidate": "DRIVE_HTD5M_113T_565",
+  "release": "HOLD",
+  "tpu_physical_fit": "USER_PHYSICAL_FIT_TEST_PENDING"
+}

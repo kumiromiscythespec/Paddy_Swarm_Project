@@ -1,0 +1,30 @@
+{
+  "precedence": "CENTER_DISTANCE_180_DOMINATES_STRING_583",
+  "records": [
+    {
+      "classification": "MEASURED / USER_REPORTED",
+      "measurement": "DRIVE_20T_TO_60T_CENTER_DISTANCE",
+      "priority": "MATHEMATICAL_AUTHORITY",
+      "value_mm": 180.0
+    },
+    {
+      "classification": "USER_REPORTED",
+      "difference_from_primary_mm": 18.0,
+      "measurement": "VINYL_STRING_LOOP",
+      "status": "PHYSICAL_BELT_TEST_REQUIRED",
+      "value_mm": 583.0
+    },
+    {
+      "classification": "SOURCE_CAD_AUTHORITY",
+      "measurement": "PULLEY_USABLE_BELT_WIDTH",
+      "source_tooth_face_mm": 16.0,
+      "value_mm": 15.0
+    },
+    {
+      "candidate": "95A_ONLY_IF_USER_SELECTED",
+      "classification": "USER_SETTING / HOLD",
+      "measurement": "TPU_SHORE_HARDNESS",
+      "value": null
+    }
+  ]
+}

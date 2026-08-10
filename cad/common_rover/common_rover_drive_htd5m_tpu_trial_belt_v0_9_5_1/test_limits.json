@@ -1,0 +1,23 @@
+{
+  "bambu_a1_xy_max_mm": 256.0,
+  "center_distance_measured_mm": 180.0,
+  "closure_phase_error_max_deg": 1e-09,
+  "failure_criteria": [
+    "PITCH_ACCUMULATION",
+    "TOOTH_PHASE_NOT_CLOSED",
+    "REPEATED_TOOTH_CLIMB",
+    "IMPOSSIBLE_INSTALLATION",
+    "HAND_ROTATION_BLOCKED",
+    "BACKING_TEAR",
+    "TOOTH_ROOT_CRACK",
+    "LARGE_PERMANENT_ELONGATION",
+    "IMMEDIATE_WALK_OFF"
+  ],
+  "field_deployment_approved": false,
+  "load_test_approved": false,
+  "manual_rotation_forward_pulley_turns": 20,
+  "manual_rotation_reverse_pulley_turns": 20,
+  "motor_test_approved": false,
+  "pitch_tolerance_mm": 1e-09,
+  "powered_rotation_approved": false
+}
