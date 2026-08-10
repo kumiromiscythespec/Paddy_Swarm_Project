@@ -1,0 +1,47 @@
+test_001_repository_guard (__main__.Contract.test_001_repository_guard) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: could not open directory '.pytest_cache/': Permission denied
+warning: could not open directory '.pytest_cache/': Permission denied
+ok
+test_002_authority_hashes (__main__.Contract.test_002_authority_hashes) ... ok
+test_003_parent_trees (__main__.Contract.test_003_parent_trees) ... ok
+test_004_v0951_found (__main__.Contract.test_004_v0951_found) ... ok
+test_005_unique_ids (__main__.Contract.test_005_unique_ids) ... ok
+test_006_units_explicit (__main__.Contract.test_006_units_explicit) ... ok
+test_007_classification_vocabulary (__main__.Contract.test_007_classification_vocabulary) ... ok
+test_008_cbox_print (__main__.Contract.test_008_cbox_print) ... ok
+test_009_cbox_lid_gap (__main__.Contract.test_009_cbox_lid_gap) ... ok
+test_010_cbox_raw_heights (__main__.Contract.test_010_cbox_raw_heights) ... ok
+test_011_cbox_statistics (__main__.Contract.test_011_cbox_statistics) ... ok
+test_012_cbox_waterproof_not_tested (__main__.Contract.test_012_cbox_waterproof_not_tested) ... ok
+test_013_bbox_ring_and_pad (__main__.Contract.test_013_bbox_ring_and_pad) ... ok
+test_014_battery_authority (__main__.Contract.test_014_battery_authority) ... ok
+test_015_lateral_measurements (__main__.Contract.test_015_lateral_measurements) ... ok
+test_016_terminal_orientation_history (__main__.Contract.test_016_terminal_orientation_history) ... ok
+test_017_image_report_wording (__main__.Contract.test_017_image_report_wording) ... ok
+test_018_bbox_body_physical_vs_cad (__main__.Contract.test_018_bbox_body_physical_vs_cad) ... ok
+test_019_terminal_dimensions (__main__.Contract.test_019_terminal_dimensions) ... ok
+test_020_terminal_protrusion (__main__.Contract.test_020_terminal_protrusion) ... ok
+test_021_terminal_pair (__main__.Contract.test_021_terminal_pair) ... ok
+test_022_harness_holds (__main__.Contract.test_022_harness_holds) ... ok
+test_023_frame_values (__main__.Contract.test_023_frame_values) ... ok
+test_024_h25_coupon_not_selected (__main__.Contract.test_024_h25_coupon_not_selected) ... ok
+test_025_h25_hand_rotation (__main__.Contract.test_025_h25_hand_rotation) ... ok
+test_026_h25_torque_reference (__main__.Contract.test_026_h25_torque_reference) ... ok
+test_027_drive_raw_measurements (__main__.Contract.test_027_drive_raw_measurements) ... ok
+test_028_drive_candidates (__main__.Contract.test_028_drive_candidates) ... ok
+test_029_commercial_hold (__main__.Contract.test_029_commercial_hold) ... ok
+test_030_powered_field_not_approved (__main__.Contract.test_030_powered_field_not_approved) ... ok
+test_031_no_cad_pass (__main__.Contract.test_031_no_cad_pass) ... ok
+test_032_no_cad_artifacts (__main__.Contract.test_032_no_cad_artifacts) ... ok
+test_033_json_valid (__main__.Contract.test_033_json_valid) ... ok
+test_034_numeric_exclusions_present (__main__.Contract.test_034_numeric_exclusions_present) ... ok
+test_035_manifest_commit_paths_hashes (__main__.Contract.test_035_manifest_commit_paths_hashes) ... ok
+test_036_authority_bytes_final (__main__.Contract.test_036_authority_bytes_final) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 2.018s
+
+OK

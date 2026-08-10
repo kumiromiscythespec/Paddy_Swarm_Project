@@ -1,0 +1,17 @@
+BUILD PASS
+version=0.9.5.2
+classification=PHYSICAL_MEASUREMENT_RECORD
+design_modification=NONE
+Python=3.12.13
+branch=agent/organize-untracked-cad-assets-20260725
+HEAD=facb4f63c0d485a53fef48b602f97e0454e8548f
+preflight_untracked=1712
+outside_untracked=1684
+ignored_total=470
+parent_lanes=7_PASS
+v0.9.5.1=FOUND_READ_ONLY_AUDIT_PASS
+record_count=129
+cad_artifacts=0
+cad_pass=NOT_EVALUATED_NO_DESIGN_CHANGE
+powered_rotation=NOT_APPROVED
+field_deployment=NOT_APPROVED

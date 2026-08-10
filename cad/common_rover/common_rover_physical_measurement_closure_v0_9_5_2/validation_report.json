@@ -1,0 +1,33 @@
+{
+  "cad_pass": "NOT_EVALUATED_NO_DESIGN_CHANGE",
+  "checks": {
+    "authority_unchanged": true,
+    "cbox_mean": true,
+    "cbox_mean_error": true,
+    "cbox_range": true,
+    "cbox_raw_preserved": true,
+    "classifications_closed": true,
+    "image_wording": true,
+    "lateral_difference": true,
+    "lateral_half_difference": true,
+    "lateral_total": true,
+    "measurement_ids_unique": true,
+    "no_cad_artifacts": true,
+    "no_field_pass": true,
+    "no_powered_pass": true,
+    "parents_unchanged": true,
+    "terminal_protrusion": true,
+    "torque_not_pass": true,
+    "torque_reference": true,
+    "units_explicit": true,
+    "unresolved_hold": true
+  },
+  "design_modification": "NONE",
+  "field_deployment": "NOT_APPROVED",
+  "final_status": "PHYSICAL_MEASUREMENTS_RECORDED / COMMIT_READY_NOT_STAGED",
+  "physical_pass_scope": "ONLY_EXPLICIT_USER_REPORTED_ITEMS / CANDIDATE_WHERE_SPECIFIED",
+  "powered_rotation": "NOT_APPROVED",
+  "record_count": 129,
+  "release": "HOLD",
+  "status": "PASS"
+}
