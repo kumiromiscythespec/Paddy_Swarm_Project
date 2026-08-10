@@ -1,0 +1,105 @@
+{
+  "rows": [
+    {
+      "class": "MEASURED",
+      "id": "FR-01",
+      "name": "UPPER_OUTER",
+      "value": [
+        540,
+        181
+      ]
+    },
+    {
+      "class": "MEASURED",
+      "id": "FR-02",
+      "name": "LOWER_OUTER",
+      "value": [
+        442,
+        181
+      ]
+    },
+    {
+      "class": "MEASURED",
+      "id": "FR-03",
+      "name": "STRUCTURAL_HEIGHT",
+      "value": 150
+    },
+    {
+      "class": "MEASURED",
+      "id": "FR-04",
+      "name": "UPPER_CLEAR",
+      "value": [
+        500,
+        100
+      ]
+    },
+    {
+      "class": "MEASURED",
+      "id": "FR-05",
+      "name": "LOWER_CLEAR",
+      "value": [
+        400,
+        140
+      ]
+    },
+    {
+      "class": "MEASURED_USER_REPORTED",
+      "id": "BAT-01",
+      "name": "BATTERY_BODY",
+      "value": [
+        150.9,
+        99.4,
+        92.5
+      ]
+    },
+    {
+      "class": "MEASURED_USER_REPORTED",
+      "id": "BAT-02",
+      "name": "BATTERY_MASS",
+      "value": 1.2
+    },
+    {
+      "class": "MEASURED_DIFFERENT_DATUM",
+      "id": "BAT-03",
+      "name": "INSERTION_PASSAGE",
+      "value": 108.0
+    },
+    {
+      "class": "MEASURED_USER_REPORTED",
+      "id": "TER-01",
+      "name": "PAIR_OUTER_SPAN",
+      "value": 29.5
+    },
+    {
+      "class": "MEASURED_USER_REPORTED",
+      "id": "TER-02",
+      "name": "INNER_GAP",
+      "value": 20.0
+    },
+    {
+      "class": "NOT_DERIVED",
+      "id": "TER-03",
+      "name": "INDIVIDUAL_WIDTH",
+      "value": null
+    },
+    {
+      "class": "DERIVED_CANDIDATE",
+      "id": "DER-01",
+      "name": "BBOX_INNER_Y",
+      "value": 107.6
+    },
+    {
+      "class": "DERIVED_CANDIDATE",
+      "id": "DER-02",
+      "name": "BBOX_Y_CLEAR_EACH",
+      "value": 4.1
+    },
+    {
+      "class": "DERIVED_CANDIDATE",
+      "id": "DER-03",
+      "name": "BBOX_PASSAGE_Z_CLEAR",
+      "value": 5.0
+    }
+  ],
+  "schema": "paddy_swarm.common_rover.bbox_cbox.measurement.v0.9.5.0"
+}

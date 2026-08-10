@@ -1,0 +1,45 @@
+{
+  "bbox": {
+    "cycles": 10,
+    "fit": [
+      "INSERT",
+      "REMOVE",
+      "SIDE_PLAY",
+      "TERMINAL_CLEARANCE",
+      "PAD_CONTACT",
+      "GRIP"
+    ],
+    "passage_mm": 108,
+    "service_envelope_max_mm": 103,
+    "water_stages": [
+      "VISUAL",
+      "EMPTY_SPLASH",
+      "EMPTY_STANDING_WATER",
+      "TEMPORARY_IMMERSION",
+      "PAPER_INSPECTION"
+    ]
+  },
+  "cbox": {
+    "frame_tolerance_adverse_mm": -1,
+    "gasket_coupon_mm": [
+      2.0,
+      2.5,
+      3.0
+    ],
+    "waterproof": "PHYSICAL_TEST_REQUIRED",
+    "width_candidates_mm": [
+      90,
+      92,
+      94
+    ]
+  },
+  "printer": {
+    "bed_mm": [
+      256,
+      256
+    ],
+    "material": "PETG",
+    "name": "Bambu A1",
+    "support_auto_detection_trusted": false
+  }
+}

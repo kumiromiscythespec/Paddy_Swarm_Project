@@ -1,0 +1,30 @@
+{
+  "bbox": {
+    "actual_pitch": "PHYSICAL_TEST_REQUIRED",
+    "angles_deg": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "direction": "-X",
+    "full_removal_cycles_required": 10,
+    "method": "PITCH_AND_SLIDE",
+    "reference_translation_minus_x_mm": [
+      0,
+      125,
+      195,
+      220
+    ],
+    "straight_only_required": false
+  },
+  "cbox": {
+    "bbox_removal_required_for_lid": false,
+    "fixed_during_bbox_service": true,
+    "lid_service_translation_plus_z_mm": [
+      0,
+      29.2,
+      59.2
+    ]
+  }
+}

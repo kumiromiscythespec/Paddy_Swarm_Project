@@ -1,0 +1,16 @@
+# Source trace
+
+Version: `0.9.5.0`  
+Classification: `BBOX_CBOX_PRINTABLE_PHYSICAL_PROTOTYPE`  
+Release: `HOLD`  
+Status: `BBOX_CBOX_PRINTABLE_PROTOTYPES_COMPLETE / PHYSICAL_FIT_AND_SEAL_TEST_PENDING`
+
+- `cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0/PHYSICAL_FRAME_REFERENCE.md` — `4cb8a3de90fc4b73489c96bf386f2bf49c7ba67f35939e731ce2e194bcdd9c86`
+- `cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0/BBOX_CBOX_ARCHITECTURE.md` — `9713df428e07244394e03615600be722a1cd4d58092df2b94fd156f7e03b3ebe`
+- `cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1/BBOX_CBOX_X_SERIAL_LAYOUT.md` — `3d71e8e515d03cb02120f8a88aed7d82fcb296c40b1dc7712a69fe4d1e109108`
+- `cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1/CBOX_ARCHITECTURE.md` — `87b8fa5d6bc9a6bbbf1b039c797e9752748f30e0b990fdfb10806dd66d9b6e40`
+- `cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/PHYSICAL_FRAME_150_RECORD.md` — `ded4855d2b1858fef2b64980a162f19f2476e9f23efcf4abe66e0e143ac38bf9`
+- `cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/BATTERY_INSERTION_CLEARANCE.md` — `3dc006813c0a61aca0a546c668d9bb39afb2e45c886f70d0e913929a05202695`
+- `cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3/BBOX_PITCH_AND_SLIDE_SERVICE.md` — `fb569fb3cf1997c9a8f6c149604c4a6d80b84313f4ff9f1acb0508cbb8ca19f6`
+- `cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3/BBOX_TOP_GUIDE_ARCHITECTURE.md` — `ff6928df68672ebbe38e6b8dc7e48a62f479b5c9b6123a3acc389fa479d59142`
+- `cad/common_rover/common_rover_h25a1_2s_full_hardware_fixture_v0_9_4_4/MANIFEST.txt` — `fb98f26a27a5b0abf39e29df3e688070a9991c140c17ec1ffaeef466821f7a69`

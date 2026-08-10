@@ -1,0 +1,10 @@
+BUILD PASS
+version=0.9.5.0
+Python=3.12.13
+CadQuery=2.8.0
+preflight_untracked=1631
+outside_untracked=1526
+parent_lanes=5_PASS
+waterproof=HOLD
+powered=NOT_APPROVED
+field=NOT_APPROVED

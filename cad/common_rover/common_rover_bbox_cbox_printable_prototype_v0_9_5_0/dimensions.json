@@ -1,0 +1,146 @@
+{
+  "battery": {
+    "insertion_clear_height_mm": 108.0,
+    "mass_kg": 1.2,
+    "product": "GOLDENMATE LiFePO4 12.8V 10Ah 128Wh",
+    "terminal_equipped_frame_pass": "PHYSICAL_PASS_USER_REPORTED",
+    "x_mm": 150.9,
+    "y_mm": 99.4,
+    "z_mm": 92.5
+  },
+  "bbox": {
+    "battery_x_free_nominal_mm": 22.7,
+    "battery_y_clear_each_mm": 4.1,
+    "battery_y_clear_total_mm": 8.2,
+    "bottom_mm": 3.2,
+    "designation": "BBOX_REAR_REMOVABLE_BATTERY_CASSETTE",
+    "final_terminal_cap_manufacturing": false,
+    "final_waterproof": false,
+    "idler_support": false,
+    "inner_x_nominal_mm": 173.6,
+    "inner_y_nominal_mm": 107.6,
+    "lower_body_height_mm": 97.5,
+    "outer_x_mm": 180.0,
+    "outer_y_mm": 114.0,
+    "rail_width_candidates_mm": [
+      130.0,
+      132.0,
+      134.0
+    ],
+    "removal_direction": "-X",
+    "service_envelope_z_mm": 103.0,
+    "service_motion": "PITCH_AND_SLIDE",
+    "service_ring_height_mm": 3.0,
+    "wall_mm": 3.2,
+    "wear_pad_replaceable": true,
+    "wear_pad_thickness_mm": 2.5
+  },
+  "cbox": {
+    "body_height_mm": 40.0,
+    "bolt_count": 16,
+    "bottom_mm": 3.2,
+    "compressed_gasket_reference_mm": 0.8,
+    "connector_panel_replaceable": true,
+    "designation": "CBOX_FRONT_HIGH_FIXED_UNIVERSAL_ELECTRONICS",
+    "final_electronics": "HOLD",
+    "independent_support": true,
+    "lid_thickness_mm": 4.2,
+    "max_unsupported_gasket_span_mm": 36.0,
+    "on_bbox": false,
+    "outer_x_mm": 180.0,
+    "selected_y_mm": 92.0,
+    "total_z_mm": 45.0,
+    "tray_removable": true,
+    "wall_mm": 3.2,
+    "waterproof": "PHYSICAL_TEST_REQUIRED",
+    "width_candidates_mm": [
+      90.0,
+      92.0,
+      94.0
+    ]
+  },
+  "cbox_width_comparison": [
+    {
+      "candidate": "Y90",
+      "clearance_each_at_minus_1mm_frame_mm": 4.5,
+      "implication": "MAX_SERVICE_MARGIN",
+      "internal_usable_y_mm": 83.6,
+      "nominal_clearance_each_mm": 5.0,
+      "outer_y_mm": 90.0,
+      "selected": false
+    },
+    {
+      "candidate": "Y92",
+      "clearance_each_at_minus_1mm_frame_mm": 3.5,
+      "implication": "BALANCED_SELECTED",
+      "internal_usable_y_mm": 85.6,
+      "nominal_clearance_each_mm": 4.0,
+      "outer_y_mm": 92.0,
+      "selected": true
+    },
+    {
+      "candidate": "Y94",
+      "clearance_each_at_minus_1mm_frame_mm": 2.5,
+      "implication": "HISTORY_MAX_VOLUME_LOW_MARGIN",
+      "internal_usable_y_mm": 87.6,
+      "nominal_clearance_each_mm": 3.0,
+      "outer_y_mm": 94.0,
+      "selected": false
+    }
+  ],
+  "coordinate_system": {
+    "+X": "front",
+    "+Y": "left",
+    "+Z": "up"
+  },
+  "frame": {
+    "alternative_190mm": "HOLD",
+    "lower_clear_mm": [
+      400.0,
+      140.0
+    ],
+    "lower_outer_mm": [
+      442.0,
+      181.0
+    ],
+    "physical_tolerance_mm": 1.0,
+    "status": "REOPENED_PRIMARY_COMPACT_BASELINE",
+    "structural_height_mm": 150.0,
+    "upper_clear_mm": [
+      500.0,
+      100.0
+    ],
+    "upper_outer_mm": [
+      540.0,
+      181.0
+    ],
+    "vertical_2020_mm": 110.0
+  },
+  "layout": {
+    "bbox_x_interval_mm": [
+      -190,
+      -10
+    ],
+    "cbox_x_interval_mm": [
+      10,
+      190
+    ],
+    "gap_mm": 20
+  },
+  "terminal": {
+    "exact_x_mm": null,
+    "exact_y_mm": null,
+    "individual_width_mm": null,
+    "inner_gap_mm": 20.0,
+    "opening_candidates_mm": [
+      33.5,
+      34.5,
+      35.5
+    ],
+    "pair_outer_span_mm": 29.5,
+    "preferred_candidate_mm": 34.5,
+    "protrusion_z_mm": null
+  },
+  "unit": "mm",
+  "version": "0.9.5.0"
+}

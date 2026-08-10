@@ -1,0 +1,353 @@
+{
+  "cad_count": 40,
+  "cbox_width_comparison": [
+    {
+      "candidate": "Y90",
+      "clearance_each_at_minus_1mm_frame_mm": 4.5,
+      "implication": "MAX_SERVICE_MARGIN",
+      "internal_usable_y_mm": 83.6,
+      "nominal_clearance_each_mm": 5.0,
+      "outer_y_mm": 90.0,
+      "selected": false
+    },
+    {
+      "candidate": "Y92",
+      "clearance_each_at_minus_1mm_frame_mm": 3.5,
+      "implication": "BALANCED_SELECTED",
+      "internal_usable_y_mm": 85.6,
+      "nominal_clearance_each_mm": 4.0,
+      "outer_y_mm": 92.0,
+      "selected": true
+    },
+    {
+      "candidate": "Y94",
+      "clearance_each_at_minus_1mm_frame_mm": 2.5,
+      "implication": "HISTORY_MAX_VOLUME_LOW_MARGIN",
+      "internal_usable_y_mm": 87.6,
+      "nominal_clearance_each_mm": 3.0,
+      "outer_y_mm": 94.0,
+      "selected": false
+    }
+  ],
+  "classification": "BBOX_CBOX_PRINTABLE_PHYSICAL_PROTOTYPE",
+  "field_deployment": false,
+  "interference": {
+    "actual_transform_rows_remain_hold": 6,
+    "all_zero_reference": true,
+    "method": "CADQUERY_ACTUAL_COMMON_VOLUME_REFERENCE_SOLIDS",
+    "physical_fit": "USER_TEST_PENDING",
+    "rows": [
+      {
+        "check": "BATTERY_VS_BBOX_SHELL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BATTERY_VS_RESTRAINT_PADS",
+        "common_volume_mm3": 0.0,
+        "status": "CONTROLLED_0P25_CLEARANCE_PHYSICAL_PENDING"
+      },
+      {
+        "check": "TERMINAL_W345_VS_SERVICE_RING",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_PARAMETRIC_ORIGIN_XY_HOLD"
+      },
+      {
+        "check": "BBOX_INSTALLED_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE_5MM_Z_13MM_Y_EACH"
+      },
+      {
+        "check": "BBOX_PITCH_SWEEP_VS_CBOX",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_PITCH_SWEEP_VS_CBOX_SUPPORT",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_GRIP_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "CBOX_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE_4MM_Y_EACH"
+      },
+      {
+        "check": "CBOX_LID_SERVICE_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_CONNECTOR_PANEL_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "CBOX_CONNECTOR_PANEL_VS_FRAME",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_RESTRAINT_PADS_VS_SHELL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_CONNECTOR_PANEL_VS_SHELL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "CBOX_TRAY_VS_SHELL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "CBOX_GASKET_VS_BODY",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_FACE_CONTACT_ONLY"
+      },
+      {
+        "check": "CBOX_GASKET_VS_LID",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_FACE_CONTACT_ONLY"
+      },
+      {
+        "check": "CBOX_CONNECTOR_PANEL_VS_SHELL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS_REFERENCE"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_CRAWLER_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_IDLER_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_KP000_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_SERVO_BRIDGE_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_SLIDE_CLUTCH_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      },
+      {
+        "check": "BBOX_SWEEP_VS_SCREW_HEAD_BOLT_TIP_REFERENCE",
+        "common_volume_mm3": 0.0,
+        "status": "HOLD_ACTUAL_TRANSFORMS_REFERENCE_ZERO"
+      }
+    ]
+  },
+  "parents": {
+    "parents": {
+      "common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1": {
+        "file_count": 68,
+        "manifest_count": 68,
+        "sha_entry_count": 67,
+        "status": "CAD_PASS",
+        "tree_sha256": "ebc85195613ebdcc59925b012eacfb02900ac379d0d3c3417e2e5a53b5dab210"
+      },
+      "common_rover_h25a1_2s_full_hardware_fixture_v0_9_4_4": {
+        "file_count": 59,
+        "manifest_count": 59,
+        "sha_entry_count": 58,
+        "status": "CAD_PASS",
+        "tree_sha256": "096b9cb753c1a049f2d33248ac905aeb0c3ea768c5bdbe6ceed98e99cec2fdbe"
+      },
+      "common_rover_physical_fit_closure_v0_9_4_2": {
+        "file_count": 57,
+        "manifest_count": 57,
+        "sha_entry_count": 56,
+        "status": "CAD_PASS",
+        "tree_sha256": "ccfa35a7e5ea2d1350fae7cc6ade9f40301f0582f1ecc76f9a3de5556dfe4fe7"
+      },
+      "common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0": {
+        "file_count": 43,
+        "manifest_count": 43,
+        "sha_entry_count": 42,
+        "status": "CAD_PASS",
+        "tree_sha256": "f7272fe63cc425e89e651bd413ed1822578ced912a8cf8504832457bccdfaa1b"
+      },
+      "common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3": {
+        "file_count": 66,
+        "manifest_count": 66,
+        "sha_entry_count": 65,
+        "status": "CAD_PASS",
+        "tree_sha256": "8b2bd9e87615c298435d3529727933e4ecb60bfdbf66275281583f0756a22b9b"
+      }
+    },
+    "status": "CAD_PASS"
+  },
+  "powered_rotation": false,
+  "printability": {
+    "all_fit": true,
+    "bed_mm": [
+      256,
+      256
+    ],
+    "large_shell_warping": "HIGH_RISK_BRIM_AND_TUNING_CANDIDATE",
+    "material": "PETG",
+    "plate_component_common_volume_mm3": {
+      "BBOX_PLATE_01": 0.0,
+      "CBOX_PLATE_02": 0.0
+    },
+    "plate_components_clear": true,
+    "printer": "Bambu A1",
+    "rows": {
+      "BBOX_CONNECTOR_PANEL": {
+        "bounds_mm": [
+          30.0,
+          50.0,
+          3.2
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "BBOX_LOWER_BODY": {
+        "bounds_mm": [
+          180.0,
+          114.0,
+          97.5
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "BBOX_PLATE_01": {
+        "bounds_mm": [
+          180.0,
+          114.0,
+          12.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "BBOX_RESTRAINT_KIT": {
+        "bounds_mm": [
+          118.0,
+          32.0,
+          12.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "BBOX_SERVICE_RING": {
+        "bounds_mm": [
+          180.0,
+          114.0,
+          3.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "BBOX_WEAR_PAD": {
+        "bounds_mm": [
+          72.0,
+          8.0,
+          2.5
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_BODY": {
+        "bounds_mm": [
+          180.0,
+          92.0,
+          40.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_CONNECTOR_PANEL": {
+        "bounds_mm": [
+          24.0,
+          44.0,
+          3.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_FRAME_INTERFACE": {
+        "bounds_mm": [
+          160.0,
+          76.0,
+          4.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_GASKET_COUPON": {
+        "bounds_mm": [
+          102.0,
+          24.0,
+          5.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_LID": {
+        "bounds_mm": [
+          180.0,
+          92.0,
+          4.2
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_PLATE_02": {
+        "bounds_mm": [
+          160.0,
+          143.0,
+          5.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "CBOX_TRAY": {
+        "bounds_mm": [
+          160.0,
+          72.0,
+          2.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "orientation": "BOTTOM_OR_FLAT_ON_PLATE_OPEN_UP",
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      }
+    },
+    "sealing_face_support_contact": false,
+    "slicer_confirmation": "USER_REQUIRED"
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.bbox_cbox.geometry.v0.9.5.0",
+  "step_count": 26,
+  "stl_count": 14,
+  "version": "0.9.5.0",
+  "waterproof_pass": false
+}

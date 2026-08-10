@@ -1,0 +1,21 @@
+{
+  "bbox": {
+    "connector_type": "HOLD",
+    "future_wear_materials": [
+      "POM",
+      "UHMW-PE"
+    ],
+    "primary_lock": "RESERVED_HOLD",
+    "safety_pin": "RESERVED_HOLD",
+    "service_ring_fastener": "M4_CANDIDATE_BROAD_BOSS",
+    "wear_pad_material": "PETG_PROTOTYPE"
+  },
+  "cbox": {
+    "electronics_pattern": "UNIVERSAL_M3_SLOT_GRID",
+    "gasket_material": "TPU95A_FUTURE_CANDIDATE",
+    "lid_fastener": "M4_CANDIDATE",
+    "lid_fastener_count": 16,
+    "max_unsupported_gasket_span_mm": 36,
+    "mount_primary": "METAL_BRACKET_REQUIRED"
+  }
+}

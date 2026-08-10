@@ -1,0 +1,53 @@
+test_001_exact_package (__main__.Contract.test_001_exact_package) ... ok
+test_002_manifest (__main__.Contract.test_002_manifest) ... ok
+test_003_frame_outer (__main__.Contract.test_003_frame_outer) ... ok
+test_004_frame_clear (__main__.Contract.test_004_frame_clear) ... ok
+test_005_battery (__main__.Contract.test_005_battery) ... ok
+test_006_battery_passage (__main__.Contract.test_006_battery_passage) ... ok
+test_007_terminal (__main__.Contract.test_007_terminal) ... ok
+test_008_terminal_candidates (__main__.Contract.test_008_terminal_candidates) ... ok
+test_009_bbox_envelope (__main__.Contract.test_009_bbox_envelope) ... ok
+test_010_bbox_split (__main__.Contract.test_010_bbox_split) ... ok
+test_011_bbox_cavity (__main__.Contract.test_011_bbox_cavity) ... ok
+test_012_bbox_motion (__main__.Contract.test_012_bbox_motion) ... ok
+test_013_bbox_modularity (__main__.Contract.test_013_bbox_modularity) ... ok
+test_014_bbox_rail_candidates (__main__.Contract.test_014_bbox_rail_candidates) ... ok
+test_015_cbox_envelope (__main__.Contract.test_015_cbox_envelope) ... ok
+test_016_cbox_width_table (__main__.Contract.test_016_cbox_width_table) ... ok
+test_017_cbox_independence (__main__.Contract.test_017_cbox_independence) ... ok
+test_018_cbox_lid_pattern (__main__.Contract.test_018_cbox_lid_pattern) ... ok
+test_019_layout (__main__.Contract.test_019_layout) ... ok
+test_020_interfaces (__main__.Contract.test_020_interfaces) ... ok
+test_021_separation (__main__.Contract.test_021_separation) ... ok
+test_022_pitch_sweep (__main__.Contract.test_022_pitch_sweep) ... ok
+test_023_cbox_lid_service (__main__.Contract.test_023_cbox_lid_service) ... ok
+test_024_interference_all_zero (__main__.Contract.test_024_interference_all_zero) ... ok
+test_025_interference_required_names (__main__.Contract.test_025_interference_required_names) ... ok
+test_026_transform_holds (__main__.Contract.test_026_transform_holds) ... ok
+test_027_printability (__main__.Contract.test_027_printability) ... ok
+test_028_step_reload (__main__.Contract.test_028_step_reload) ... ok
+test_029_stl_semantics (__main__.Contract.test_029_stl_semantics) ... ok
+test_030_svg_parse (__main__.Contract.test_030_svg_parse) ... ok
+test_031_no_terminal_cap_stl (__main__.Contract.test_031_no_terminal_cap_stl) ... ok
+test_032_parent_protection (__main__.Contract.test_032_parent_protection) ... ok
+test_033_authority_protection (__main__.Contract.test_033_authority_protection) ... ok
+test_034_repository_guard (__main__.Contract.test_034_repository_guard) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: could not open directory '.pytest_cache/': Permission denied
+ok
+test_035_commit_paths (__main__.Contract.test_035_commit_paths) ... ok
+test_036_sha256sums (__main__.Contract.test_036_sha256sums) ... ok
+test_037_release_gates (__main__.Contract.test_037_release_gates) ... ok
+test_038_no_operational_approval (__main__.Contract.test_038_no_operational_approval) ... ok
+test_039_missing_measurements (__main__.Contract.test_039_missing_measurements) ... ok
+test_040_result_forms (__main__.Contract.test_040_result_forms) ... ok
+test_041_water_test_stages (__main__.Contract.test_041_water_test_stages) ... ok
+test_042_no_destructive_git_source (__main__.Contract.test_042_no_destructive_git_source) ... ok
+test_043_final_status (__main__.Contract.test_043_final_status) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 5.840s
+
+OK

@@ -1,0 +1,26 @@
+{
+  "approvals": {
+    "field_deployment": false,
+    "powered_rotation": false
+  },
+  "bbox": {
+    "friction_only_lock": "REJECT",
+    "idler_support": false,
+    "load_path": "BATTERY_BROAD_FLOOR_RIBS_SHELL_SKID_METAL_FRAME",
+    "removal": "PITCH_AND_SLIDE_MINUS_X",
+    "terminal_module": "REPLACEABLE_CAP_AND_BLANK_PANEL",
+    "wear_surface": "REPLACEABLE_PAD_NOT_SEALING_FACE"
+  },
+  "cbox": {
+    "connector": "REPLACEABLE_BLANK",
+    "independent_of_bbox": true,
+    "load_path": "SHELL_REINFORCED_INTERFACE_METAL_BRACKET_2020_FRAME",
+    "petg_cantilever_primary_support": "REJECT",
+    "tray": "REMOVABLE_NO_SHELL_THROUGH_HOLES"
+  },
+  "separation": {
+    "bbox_removal_without_opening_cbox": true,
+    "cbox_load_through_bbox": false,
+    "shared_lid": false
+  }
+}
