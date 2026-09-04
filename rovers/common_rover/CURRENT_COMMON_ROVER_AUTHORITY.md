@@ -4,8 +4,18 @@ Document role: compatibility pointer retained under the historical
 `rovers/common_rover/` namespace. It summarizes, but does not duplicate, the
 repository-root primary pointer.
 
-Current authority:
+Current authority is composite and scoped.
+
+Base design lineage:
 **common_rover_inward_pto_coupling_cad_verified_v0_9_2_1**
+
+PTO direction physical override:
+**PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05_V001**
+
+Current physical PTO direction is left `-X` outward and right `+X` outward.
+The inward direction in the base lineage is superseded only for current
+as-built direction scope. PTO shafts, supports and torque paths remain
+independent; a common PTO shaft remains prohibited.
 
 Canonical entry point: repository-root `CURRENT_COMMON_ROVER_AUTHORITY.md`.
 
@@ -19,7 +29,8 @@ full-system actual-CAD verified. Physical fit, machining, shaft cutting, load
 and powered rotation remain HOLD.
 
 Status: `FUNCTIONAL_POWERTRAIN_CONTRACT_FIXED`;
-`INWARD_PTO_GEOMETRY_CONDITIONAL_PASS`;
+`INWARD_PTO_GEOMETRY_CONDITIONAL_PASS` (historical CAD evidence only);
+`PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY`;
 `CENTRAL_COUPLING_ACTUAL_CAD_VERIFIED`;
 `COUPLING_FULL_SWEEP_ACTUAL_CAD_VERIFIED`;
 `INDEPENDENT_DRY_FIT_JIG_READY`;

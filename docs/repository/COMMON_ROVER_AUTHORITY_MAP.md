@@ -4,11 +4,11 @@
 
 | Component | State | Primary path | Boundary |
 |---|---|---|---|
-| Overall design pointer | CURRENT, explicit design declaration | [`../../CURRENT_COMMON_ROVER_AUTHORITY.md`](../../CURRENT_COMMON_ROVER_AUTHORITY.md) | v0.9.2.1 inward-PTO design; not full-system physical authority |
+| Overall design pointer | CURRENT, composite/scoped declaration | [`../../CURRENT_COMMON_ROVER_AUTHORITY.md`](../../CURRENT_COMMON_ROVER_AUTHORITY.md) | v0.9.2.1 base design lineage plus 2026-09-05 outward PTO direction physical override; not full-system physical authority |
 | Physical dimensions | CURRENT_PHYSICAL_AUTHORITY | [`../../cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md`](../../cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md) | Direct/current as-built values; derived midpoints remain derived |
 | Frame physical geometry | CURRENT_PHYSICAL_AUTHORITY | same dated physical-dimensional authority | Rail spans/Z and static crawler clearance; absolute Y and dynamic behavior pending |
 | Front frame/PTO interface | CURRENT_DESIGN_AUTHORITY_CANDIDATE | [`../../cad/common_rover/frame/front_interface_dual_pto_20t_v002/DESIGN_AUTHORITY.md`](../../cad/common_rover/frame/front_interface_dual_pto_20t_v002/DESIGN_AUTHORITY.md) | CAD/contract PASS; physical manufacture/install/fit pending |
-| PTO | AUTHORITY_CONFLICT / scoped physical facts | [`PTO_AUTHORITY_MAP.md`](PTO_AUTHORITY_MAP.md) | Inward versus outward direction unresolved; final shaft/load/powered pending |
+| PTO direction | CURRENT_PHYSICAL_DIRECTION_AUTHORITY | [2026-09-05 outward authority](../../cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md) | PTO-L `-X`, PTO-R `+X`, outward; direction only. Final shaft length/projection/retention, torque and powered validation pending |
 | Drivetrain drive sprocket | CURRENT_SOURCE / PRINT_READY | [`../../cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/README.md`](../../cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/README.md) | Candidate-C carrier CAD/contract PASS; spacer stack and full physical validation pending |
 | Crawler tooth profile | CURRENT_BASELINE / HOLD_NEAR_PASS | [`../../cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001/CANDIDATE_C_PHYSICAL_RESULT.md`](../../cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001/CANDIDATE_C_PHYSICAL_RESULT.md) | Candidate B failed loose; C reduced play but is not full crawler PASS |
 | Crawler idler | CURRENT_DESIGN_CANDIDATE | [`../../cad/common_rover/drivetrain/crawler_idler_candidate_c_v001/README.md`](../../cad/common_rover/drivetrain/crawler_idler_candidate_c_v001/README.md) | CAD/contract PASS; slicer/physical pending |
@@ -20,6 +20,9 @@
 
 ## Physical facts that must remain scoped
 
+- PTO output direction is left `-X` outward and right `+X` outward. The inward
+  direction is physically space-rejected for the current as-built architecture.
+  This does not establish shaft length, retention, torque or powered authority.
 - Rail outside span 208–210 mm, inside span 168–170 mm; derived rail-center
   separation 188–190 mm. Absolute rail Y remains pending.
 - Left rail top/bottom Z255/Z235; right Z254/Z234.
@@ -38,7 +41,7 @@
 | Lane group | Classification | Reason retained |
 |---|---|---|
 | `front_drive_dual_pto_design_authority_v0_8*` | HISTORICAL / SUPERSEDED ancestry | Records early envelope, clearance, support/orientation and axial studies |
-| `common_rover_powertrain_frame_belt_design_authority_v0_9_0` through inward v0.9.2 | DESIGN ancestry | Establishes contracts leading to declared v0.9.2.1 |
+| `common_rover_powertrain_frame_belt_design_authority_v0_9_0` through inward v0.9.2.1 | DESIGN ancestry; inward direction SUPERSEDED | Establishes the preserved base contracts and CAD evidence; inward direction scope is superseded by the 2026-09-05 outward physical authority |
 | v0.9.3 motor-layout, mockup, bracket and frame-joint lanes | TRADE STUDY / VALIDATION EVIDENCE | Preserves rejected alternatives and measured candidate work |
 | v0.9.4–v0.9.5 integration and physical-measurement lanes | PHYSICAL / DESIGN PROVENANCE | Some observations are current inputs; integrated releases were not automatically promoted |
 | v0.9.6.x frame, drive, pulley, service and enclosure lanes | COMPONENT CANDIDATE / HOLD unless explicitly scoped above | Higher version numbers alone do not establish overall authority |
@@ -48,14 +51,19 @@
 
 No folder is renamed or moved by this publication.
 
-## Known authority conflicts
+## Resolved authority conflict
 
-1. PTO direction: declared inward v0.9.2.1 versus later outward v0.9.6.38
-   documentation/interface candidate.
-2. GoldenMate axis semantics: the earlier unordered 150.9/99.4/92.5 record is
+1. PTO direction: the former inward-v0.9.2.1 versus outward-v0.9.6.38 conflict
+   is `RESOLVED_OUTWARD` by the 2026-09-05 direction-only physical authority.
+   v0.9.6.38 remains supporting interface evidence, not a full release.
+
+## Remaining scoped authority conditions
+
+1. GoldenMate axis semantics: the earlier unordered 150.9/99.4/92.5 record is
    corrected by the later 150.9/65.5/92.5 body plus 99.4 terminal-height record.
-3. BBOX Z148/Z254 are direct observations but their exact CAD face/specimen
+2. BBOX Z148/Z254 are direct observations but their exact CAD face/specimen
    registration is unresolved; previous registered collisions are CAD conflicts,
    not physical-solid collisions.
-4. Later component CAD does not compose into a single promoted full-rover
-   authority. The root v0.9.2.1 pointer remains the explicit design declaration.
+3. Later component CAD does not compose into a single promoted full-rover
+   authority. v0.9.2.1 remains the base design lineage while the root pointer
+   applies the outward PTO direction as a scoped physical override.

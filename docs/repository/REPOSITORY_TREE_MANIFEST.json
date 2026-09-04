@@ -4,6 +4,8 @@
   "publication_branch": "agent/organize-untracked-cad-assets-20260725",
   "base_head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
   "publication_date": "2026-09-05",
+  "last_authority_update_date": "2026-09-05",
+  "pto_direction_authority_base_head": "2367a86bf3ffcb287d463452461ae48bd7debbdf",
   "authority_precedence": [
     "EXPLICIT_SCOPED_PHYSICAL_PASS_OR_DIRECT_MEASUREMENT",
     "CURRENT_AUTHORITY_DOCUMENT_WITHIN_SAME_SCOPE",
@@ -16,14 +18,14 @@
     {
       "component": "Common Rover overall design",
       "authority_type": "DESIGN_AUTHORITY",
-      "status": "EXPLICIT_CURRENT_POINTER; PHYSICAL_FIT_HOLD; LOAD_CAPACITY_HOLD; POWERED_TEST_NOT_APPROVED",
+      "status": "BASE_DESIGN_LINEAGE; PTO_DIRECTION_SCOPED_PHYSICAL_OVERRIDE_OUTWARD; PHYSICAL_FIT_HOLD; LOAD_CAPACITY_HOLD; POWERED_TEST_NOT_APPROVED",
       "path": "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1/common_rover_inward_pto_coupling_cad_verified_design_authority_v0921.md",
       "version": "v0.9.2.1",
       "physical_validation": "HOLD",
       "cad_validation": "CENTRAL_COUPLING_ACTUAL_CAD_VERIFIED; FULL_SWEEP_ACTUAL_CAD_VERIFIED; UPSTREAM_INHERITED_CONDITIONAL",
       "sha256": "6e182a4fd089788e2a82f7c3736afc66168ce20e19646d5d3b3bb839172b3cd9",
       "supersedes": "v0.9.2 central-coupling evidence",
-      "notes": "Declared root design pointer; later component lanes are not automatically promoted. PTO direction conflict exists."
+      "notes": "Preserved base design lineage. Its inward PTO direction is superseded by the 2026-09-05 scoped physical outward-direction authority; other later component lanes are not automatically promoted."
     },
     {
       "component": "Common Rover physical dimensions",
@@ -62,16 +64,28 @@
       "notes": "Nominal Ø10, measured bore 9.8, no keyway, dual set screws; torque and spacer selection pending."
     },
     {
-      "component": "PTO output direction candidate",
-      "authority_type": "AUTHORITY_CONFLICT",
+      "component": "PTO output direction",
+      "authority_type": "CURRENT_PHYSICAL_AUTHORITY",
+      "status": "OUTWARD_DIRECTION_PHYSICAL_AUTHORITY",
+      "path": "cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md",
+      "version": "2026-09-05-v001",
+      "physical_validation": "PASS_DIRECTION_ONLY; INWARD_PHYSICAL_SPACE_REJECTED",
+      "cad_validation": "v0.9.6.38 OUTWARD REFERENCE INTERFACE AVAILABLE; NO PRODUCTION CAD PROMOTION",
+      "sha256": "ce4085be01a82aa71d09d01e837379995e50e9b34ca12443f85cedb313d265af",
+      "supersedes": "v0.9.2.1 inward direction scope only",
+      "notes": "PTO-L -X outward, PTO-R +X outward. Exact shaft length, projection, bearing/product, retention, torque and powered validation remain HOLD."
+    },
+    {
+      "component": "PTO outward direction supporting interface evidence",
+      "authority_type": "SUPPORTING_CAD_INTERFACE_EVIDENCE",
       "status": "DUAL_INDEPENDENT_OUTBOARD_PTO_INTERFACE_FROZEN; REFERENCE_ONLY",
       "path": "cad/common_rover/common_rover_dual_outboard_pto_guard_interface_v0_9_6_38/PTO_INTERFACE_AUTHORITY.md",
       "version": "v0.9.6.38",
-      "physical_validation": "PHYSICAL_LAYOUT_CONSTRAINT_REFERENCED; PROMOTION_RECORD_ABSENT",
+      "physical_validation": "DIRECTION_CORROBORATED_BY_2026_09_05_PHYSICAL_AUTHORITY; OTHER_SCOPE_NOT_PROMOTED",
       "cad_validation": "REFERENCE_STEP_ONLY; TEST_LOG_PASS",
       "sha256": "02a837fdd3d058b4deef0d580e3a507ffa8431f405eee771f2ed4761b57e530a",
-      "supersedes": "Claims to supersede inward direction, but root v0.9.2.1 remains explicit current design pointer",
-      "notes": "Do not select inward or outward direction until authority precedence is explicitly resolved."
+      "supersedes": "None as a whole; direction statement supports the scoped physical authority",
+      "notes": "Reference/interface lane only. It is not production, manufacturing or full physical authority."
     },
     {
       "component": "Crawler drive carrier",
@@ -159,8 +173,15 @@
     }
   ],
   "authority_conflicts": [
-    "PTO_DIRECTION_INWARD_V0_9_2_1_VS_OUTWARD_V0_9_6_38",
     "BBOX_PHYSICAL_Z_POINTS_NOT_REGISTERED_TO_UNIQUE_CAD_FEATURES",
     "LATER_COMPONENT_LANES_NOT_PROMOTED_TO_ONE_FULL_ROVER_AUTHORITY"
+  ],
+  "resolved_authority_conflicts": [
+    {
+      "conflict": "PTO_DIRECTION_INWARD_V0_9_2_1_VS_OUTWARD_V0_9_6_38",
+      "status": "RESOLVED_OUTWARD",
+      "authority": "cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md",
+      "scope": "PTO output direction and inward physical-space rejection only"
+    }
   ]
 }

@@ -4,20 +4,35 @@ Document role: repository-root primary pointer for the explicitly declared
 Common Rover **design authority**. It is not a claim that every later component
 lane has been promoted to one physically validated rover.
 
-For the dated physical authority, component authorities, unresolved PTO
-direction conflict, and validation boundaries, start at
+For the dated physical authority, component authorities, resolved PTO
+direction decision, and validation boundaries, start at
 [`CHATGPT_PROJECT_INDEX.md`](CHATGPT_PROJECT_INDEX.md).
 
-Current authority:
+Current authority is composite and scoped.
+
+Base design lineage:
 **common_rover_inward_pto_coupling_cad_verified_v0_9_2_1**
 
 Canonical document:
 `cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1/common_rover_inward_pto_coupling_cad_verified_design_authority_v0921.md`
 
+PTO direction physical override:
+**PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05_V001**
+
+Canonical override document:
+`cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md`
+
+The inward PTO direction defined by v0.9.2.1 is superseded for the current
+as-built rover. Current physical PTO direction is left `-X` outward and right
+`+X` outward. The shafts, bearing/support arrangements and torque paths remain
+independent, and a common PTO shaft remains prohibited.
+
 Status:
 
 - `FUNCTIONAL_POWERTRAIN_CONTRACT_FIXED`
-- `INWARD_PTO_GEOMETRY_CONDITIONAL_PASS`
+- `INWARD_PTO_GEOMETRY_CONDITIONAL_PASS` (historical CAD evidence only)
+- `INWARD_PTO_DIRECTION_SUPERSEDED_BY_PHYSICAL_OUTWARD_DIRECTION`
+- `PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY`
 - `CENTRAL_COUPLING_ACTUAL_CAD_VERIFIED`
 - `COUPLING_FULL_SWEEP_ACTUAL_CAD_VERIFIED`
 - `INDEPENDENT_DRY_FIT_JIG_READY`
@@ -57,6 +72,9 @@ The v0.9.1 direction delta is:
 - left/right shafts, couplings and torque paths remain independent
 - a common PTO shaft remains prohibited
 
+These direction values are retained as design history. They are not the
+current as-built PTO direction after the 2026-09-05 scoped physical override.
+
 The v0.9.2 coupling delta supersedes the inference that the v0.9.1 geometric
 60 mm center gap is usable coupling engagement. Its exposed inward stub was
 only 0.5 mm per side. The conditional candidate uses independent 12.5 mm
@@ -77,11 +95,16 @@ GITHUB_MANUFACTURING_RELEASE = HOLD
 PURCHASE_STATUS = NOT_APPROVED
 FIELD_DEPLOYMENT_STATUS = NOT_APPROVED
 
-## Publication boundary
+## Scoped authority boundary
 
-Later preserved component lanes include an outboard-PTO interface candidate and
-new physical measurements. They are indexed without silently replacing this
-declared inward-PTO design authority. See
+The 2026-09-05 physical authority explicitly replaces v0.9.2.1 only in PTO
+output-direction scope. v0.9.2.1 remains the preserved base design lineage and
+historical CAD/coupling evidence. The matching outward statement in v0.9.6.38
+is supporting interface evidence; v0.9.6.38 as a whole is not promoted.
+
+Exact shaft length, projection, bearing/product, final bearing mount, shaft and
+pulley retention, axial spacer, guard production geometry, alignment tolerance,
+coupling/tool envelope, torque, powered operation, durability, mud/water test,
+manufacturing and field deployment remain HOLD or NOT_APPROVED. See
 [`docs/repository/PTO_AUTHORITY_MAP.md`](docs/repository/PTO_AUTHORITY_MAP.md)
-for the resulting `AUTHORITY_CONFLICT` and the physical facts that may safely
-be reused.
+for the direction authority and the remaining validation boundaries.

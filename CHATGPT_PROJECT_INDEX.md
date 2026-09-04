@@ -18,11 +18,11 @@ authority. `CAD_PASS` never means `PHYSICAL_AUTHORITY`.
 
 | Scope | Current entry | Status boundary |
 |---|---|---|
-| Common Rover design | [`CURRENT_COMMON_ROVER_AUTHORITY.md`](CURRENT_COMMON_ROVER_AUTHORITY.md) | Explicit pointer remains inward-PTO v0.9.2.1; physical fit/load/powered/field are HOLD |
+| Common Rover design | [`CURRENT_COMMON_ROVER_AUTHORITY.md`](CURRENT_COMMON_ROVER_AUTHORITY.md) | Composite/scoped authority: v0.9.2.1 base lineage plus 2026-09-05 outward PTO direction physical override; full physical fit/load/powered/field remain HOLD |
 | Physical dimensions | [`COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md`](cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md) | Direct and derived as-built measurements only; no powered/dynamic promotion |
 | Frame | [physical dimensional authority](cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md) and [Front Interface V002](cad/common_rover/frame/front_interface_dual_pto_20t_v002/DESIGN_AUTHORITY.md) | Physical rail/Z record is current; V002 is CAD/contract PASS with physical validation pending |
 | Drivetrain | [Candidate C keeperless V003](cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/README.md) | Print-ready CAD; spacer stack and powered validation pending |
-| PTO | [`docs/repository/PTO_AUTHORITY_MAP.md`](docs/repository/PTO_AUTHORITY_MAP.md) | Measured 20T envelope exists; direction has an authority conflict; output-shaft final length/projection, load and powered test are unresolved |
+| PTO | [`docs/repository/PTO_AUTHORITY_MAP.md`](docs/repository/PTO_AUTHORITY_MAP.md) | `OUTWARD_PHYSICAL_AUTHORITY`: PTO-L `-X`, PTO-R `+X`; direction only. Output-shaft final length/projection, retention, torque and powered test remain unresolved |
 | BBOX | [Compact Field BBOX V004 G065](cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/COMPACT_FIELD_BBOX_V004_G065_DESIGN_AUTHORITY.md) | G065 closed-dummy seal water PASS only; full-box/chimney/gland/global integration pending |
 | CBOX | [v0.9.6.32 design authority](cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32/docs/DESIGN_AUTHORITY.md) | CAD shell/carrier authority; lid, water, thermal, powered and installed Z remain HOLD |
 | CBOX mount | [Top-T-slot saddle V002](cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002/README.md) | Coupon print first; full saddle, fit and load remain HOLD |
@@ -36,6 +36,9 @@ The detailed component and historical map is
 
 ### PASS
 
+- PTO output direction, direction-only physical authority: PTO-L `-X` outward
+  and PTO-R `+X` outward. The inward arrangement is physically space-rejected
+  for the current as-built architecture; no other PTO scope is promoted.
 - Two physically modified MISUMI shafts were each shortened by 12.0 mm and fit fully in KP000; approximately 1 mm spare was reported and no frame/other interference was observed. This record belongs to the Candidate-C crawler torque path and is **not** silently relabelled as PTO output-shaft length authority.
 - The shortened physical key record is 19.7 mm minus 3.0 mm = 16.7 mm; length match PASS for the recorded Candidate-C drivetrain use.
 - BBOX G065 closed-dummy seal: 60-minute upright plus four >10-degree tilt directions PASS, witness dry, no leak. This is seal-section/perimeter evidence only.
@@ -44,13 +47,15 @@ The detailed component and historical map is
 
 ### FAIL
 
+- Inward PTO output placement is `PHYSICAL_SPACE_REJECTED` for the current
+  as-built architecture because the required two-support arrangement and actual
+  torque path do not leave sufficient inward space.
 - Candidate B crawler tooth fit is `FAIL_LOOSE`.
 - CBOX cross-saddle V001 side-wall/side-M5 rail interface is `PHYSICAL_FIT_FAIL`; V002 is the replacement candidate.
 - BBOX V003 G050 full-body groove is superseded unvalidated seal geometry; it was not the successful water-test specimen.
 
 ### HOLD
 
-- PTO direction precedence between the declared inward v0.9.2.1 authority and later outward v0.9.6.38 interface candidate.
 - PTO output-shaft exact final length, projection, retention, bearing/product selection, torque capacity and powered operation.
 - PTO P20/P22/P25 placement-gauge physical result sheets and P25 slide-fit coupon selection are blank/pending.
 - Full Common Rover integrated physical fit, powered test, load capacity, water/mud operation and field deployment.
@@ -59,7 +64,6 @@ The detailed component and historical map is
 
 ## Current blockers
 
-- `AUTHORITY_CONFLICT`: inward versus outward independent PTO direction. No chronology-based promotion is permitted.
 - No repository evidence uniquely ties the physically shortened MISUMI crawler shafts to the PTO output shafts.
 - Exact previous MISUMI shaft order length/SKU is unproven, so an exact reorder length is not published.
 - BBOX physical X/Y registration and exact interpretation of Z148/Z254 remain incomplete.
@@ -75,6 +79,10 @@ release, and deployment approval all remain pending or not approved.
 
 - Front-drive dual-PTO v0.8 through v0.8.5 are retained as design history.
 - v0.9.0 through v0.9.2 are retained as the ancestry of the declared v0.9.2.1 design authority.
+- The inward PTO direction in v0.9.2.1 is superseded in direction scope by the
+  2026-09-05 outward physical authority. Its CAD/coupling evidence remains
+  preserved history; v0.9.6.38 remains supporting direction/interface evidence,
+  not a full release.
 - Candidate/trade-study, temporary pulley, failed fit, and earlier BBOX/CBOX lanes remain in place and must not be mistaken for current physical authority.
 - BBOX V003 G050 full-body seal geometry is superseded by the V004 G065 design; only the tested G065 dummy result is physical water authority.
 - GoldenMate `99.4 mm` as a plan width is superseded; it is the measured terminal-inclusive vertical height. Current body mapping is 150.9 × 65.5 × 92.5 mm.
@@ -104,6 +112,7 @@ specimen, datum, and test scope. Blank result templates are never PASS.
 - [`CURRENT_COMMON_ROVER_AUTHORITY.md`](CURRENT_COMMON_ROVER_AUTHORITY.md)
 - [`docs/repository/COMMON_ROVER_AUTHORITY_MAP.md`](docs/repository/COMMON_ROVER_AUTHORITY_MAP.md)
 - [`docs/repository/PTO_AUTHORITY_MAP.md`](docs/repository/PTO_AUTHORITY_MAP.md)
+- [`cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md`](cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md)
 - [`docs/repository/REPOSITORY_STATE.md`](docs/repository/REPOSITORY_STATE.md)
 - [`docs/repository/UNTRACKED_CLASSIFICATION.md`](docs/repository/UNTRACKED_CLASSIFICATION.md)
 - [`docs/repository/UNTRACKED_FILE_AUDIT.json`](docs/repository/UNTRACKED_FILE_AUDIT.json)

@@ -1,0 +1,54 @@
+{
+  "schema": "PTO_DIRECTION_PHYSICAL_AUTHORITY_V1",
+  "authority_id": "PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05_V001",
+  "component": "Common Rover PTO output direction",
+  "authority_type": "CURRENT_PHYSICAL_AUTHORITY",
+  "status": "OUTWARD_DIRECTION_PHYSICAL_AUTHORITY",
+  "version": "2026-09-05-v001",
+  "decision_date": "2026-09-05",
+  "canonical_path": "cad/common_rover/pto/physical_authority/pto_outward_direction_physical_authority_2026_09_05_v001/PTO_OUTWARD_DIRECTION_PHYSICAL_AUTHORITY_2026_09_05.md",
+  "canonical_sha256": "ce4085be01a82aa71d09d01e837379995e50e9b34ca12443f85cedb313d265af",
+  "physical_validation": "PASS_DIRECTION_ONLY",
+  "directions": {
+    "left": "-X_OUTWARD",
+    "right": "+X_OUTWARD"
+  },
+  "inward_status": "PHYSICAL_SPACE_REJECTED",
+  "conflict_status": "RESOLVED_OUTWARD",
+  "architecture_retained": [
+    "DUAL_INDEPENDENT_PTO",
+    "TWO_SUPPORT_SHAFT_ARCHITECTURE",
+    "INDEPENDENT_BEARING_SUPPORT_AND_TORQUE_PATH",
+    "COMMON_PTO_SHAFT_PROHIBITED"
+  ],
+  "decision_basis": [
+    "TWO_SUPPORT_SHAFT_REQUIREMENT",
+    "ACTUAL_TORQUE_TRANSMISSION_PATH",
+    "AS_BUILT_PHYSICAL_SPACE_CONSTRAINT"
+  ],
+  "external_photo": {
+    "filename": "PXL_20260904_220538285.jpg",
+    "status": "USER_PROVIDED_EXTERNAL_EVIDENCE_NOT_STORED_IN_REPOSITORY",
+    "sha256": null
+  },
+  "supersedes": "v0.9.2.1 inward direction scope only",
+  "supporting_cad_evidence": "common_rover_dual_outboard_pto_guard_interface_v0_9_6_38 direction reference only",
+  "hold": [
+    "exact shaft length",
+    "shaft projection",
+    "bearing product/type",
+    "bearing final mount",
+    "shaft retention",
+    "pulley retention",
+    "axial spacer",
+    "guard production geometry",
+    "alignment tolerance",
+    "coupling/tool envelope",
+    "torque capacity",
+    "powered operation",
+    "durability",
+    "mud/water test",
+    "manufacturing",
+    "field deployment"
+  ]
+}
