@@ -1,0 +1,166 @@
+{
+  "schema": "PADDY_SWARM_REPOSITORY_AUTHORITY_MANIFEST_V1",
+  "project": "kumiromiscythespec/Paddy_Swarm_Project",
+  "publication_branch": "agent/organize-untracked-cad-assets-20260725",
+  "base_head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+  "publication_date": "2026-09-05",
+  "authority_precedence": [
+    "EXPLICIT_SCOPED_PHYSICAL_PASS_OR_DIRECT_MEASUREMENT",
+    "CURRENT_AUTHORITY_DOCUMENT_WITHIN_SAME_SCOPE",
+    "DATED_PHYSICAL_AUTHORITY_LANE_AND_SOURCE_TRACE",
+    "SHA256_MANIFEST_OR_IMMUTABLE_VALIDATION_EVIDENCE",
+    "CAD_AND_CONTRACT_VALIDATION",
+    "OLDER_DESIGN_CANDIDATE_OR_TRADE_STUDY"
+  ],
+  "authorities": [
+    {
+      "component": "Common Rover overall design",
+      "authority_type": "DESIGN_AUTHORITY",
+      "status": "EXPLICIT_CURRENT_POINTER; PHYSICAL_FIT_HOLD; LOAD_CAPACITY_HOLD; POWERED_TEST_NOT_APPROVED",
+      "path": "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1/common_rover_inward_pto_coupling_cad_verified_design_authority_v0921.md",
+      "version": "v0.9.2.1",
+      "physical_validation": "HOLD",
+      "cad_validation": "CENTRAL_COUPLING_ACTUAL_CAD_VERIFIED; FULL_SWEEP_ACTUAL_CAD_VERIFIED; UPSTREAM_INHERITED_CONDITIONAL",
+      "sha256": "6e182a4fd089788e2a82f7c3736afc66168ce20e19646d5d3b3bb839172b3cd9",
+      "supersedes": "v0.9.2 central-coupling evidence",
+      "notes": "Declared root design pointer; later component lanes are not automatically promoted. PTO direction conflict exists."
+    },
+    {
+      "component": "Common Rover physical dimensions",
+      "authority_type": "PHYSICAL_AUTHORITY",
+      "status": "COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01_CAPTURED",
+      "path": "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md",
+      "version": "2026-09-01_v001",
+      "physical_validation": "DIRECT_AND_DERIVED_SCOPED_MEASUREMENTS",
+      "cad_validation": "NO_CAD_MUTATION",
+      "sha256": "197568ac6bc2fd97f38a0621d5fc4dc3c636fd81f1a9c48a59305fd8e74d016d",
+      "supersedes": "BBOX/frame Z257 and older rail/drive-axis design assumptions for current as-built dimensions",
+      "notes": "Powered/dynamic/field validation remains pending; exact shaft reorder length is not established."
+    },
+    {
+      "component": "Front frame and dual PTO interface",
+      "authority_type": "CURRENT_DESIGN_AUTHORITY_CANDIDATE",
+      "status": "FRONT_INTERFACE_V002_READY; PHYSICAL_VALIDATION_PENDING",
+      "path": "cad/common_rover/frame/front_interface_dual_pto_20t_v002/DESIGN_AUTHORITY.md",
+      "version": "V002",
+      "physical_validation": "PENDING",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "8af35f6078e22e49783b879d4e7b6a2bb7d3573c3ed3fefb5289a48ac66e0118",
+      "supersedes": "V001 provisional PTO pulley envelope only",
+      "notes": "400 mm beam and independent half-shafts; manufacture and installed transform not proven."
+    },
+    {
+      "component": "PTO 20T pulley envelope",
+      "authority_type": "CURRENT_PHYSICAL_AUTHORITY",
+      "status": "PTO_20T_PHYSICAL_ENVELOPE_CAPTURED; PHYSICAL_VALIDATION_PENDING",
+      "path": "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001/physical_measurements.json",
+      "version": "PTO_20T_OD10_PHYSICAL_ENVELOPE_V001",
+      "physical_validation": "MEASURED_ENVELOPE_ONLY",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "189c663fe894242b8d4d7990aed0ee9a91ece8a9845426a18b3c64d691d013fb",
+      "supersedes": "Legacy Ø6.1 center as current PTO center",
+      "notes": "Nominal Ø10, measured bore 9.8, no keyway, dual set screws; torque and spacer selection pending."
+    },
+    {
+      "component": "PTO output direction candidate",
+      "authority_type": "AUTHORITY_CONFLICT",
+      "status": "DUAL_INDEPENDENT_OUTBOARD_PTO_INTERFACE_FROZEN; REFERENCE_ONLY",
+      "path": "cad/common_rover/common_rover_dual_outboard_pto_guard_interface_v0_9_6_38/PTO_INTERFACE_AUTHORITY.md",
+      "version": "v0.9.6.38",
+      "physical_validation": "PHYSICAL_LAYOUT_CONSTRAINT_REFERENCED; PROMOTION_RECORD_ABSENT",
+      "cad_validation": "REFERENCE_STEP_ONLY; TEST_LOG_PASS",
+      "sha256": "02a837fdd3d058b4deef0d580e3a507ffa8431f405eee771f2ed4761b57e530a",
+      "supersedes": "Claims to supersede inward direction, but root v0.9.2.1 remains explicit current design pointer",
+      "notes": "Do not select inward or outward direction until authority precedence is explicitly resolved."
+    },
+    {
+      "component": "Crawler drive carrier",
+      "authority_type": "CURRENT_SOURCE",
+      "status": "CANDIDATE_C_12T_MISUMI_KEEPERLESS_PRINT_READY; PHYSICAL_VALIDATION_PENDING",
+      "path": "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/DESIGN_AUTHORITY.md",
+      "version": "V003",
+      "physical_validation": "SPACER_STACK_PENDING; POWERED_PENDING",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "a10e1991659495392c329e0b8e1d682be1a6970de2d627f904856614a2955691",
+      "supersedes": "Obsolete printed keeper and older printed-center torque concepts",
+      "notes": "Torque path uses shortened 16.7 mm key and MISUMI metal pulley."
+    },
+    {
+      "component": "Crawler Candidate C tooth baseline",
+      "authority_type": "VALIDATION_EVIDENCE",
+      "status": "HOLD_NEAR_PASS",
+      "path": "cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001/CANDIDATE_C_PHYSICAL_RESULT.md",
+      "version": "V001",
+      "physical_validation": "REDUCED_PLAY; NOT_FULL_CRAWLER_PASS",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "4dd95562e5d2c6bf8f179b6ccd7a3ebefa20c3fbf65fdc322e03624ab1cade34",
+      "supersedes": "Candidate B FAIL_LOOSE as current tooth baseline",
+      "notes": "Some residual play; no reported crack or binding."
+    },
+    {
+      "component": "Crawler idler",
+      "authority_type": "CURRENT_DESIGN_AUTHORITY_CANDIDATE",
+      "status": "CANDIDATE_C_IDLER_PRINT_READY; PHYSICAL_VALIDATION_PENDING",
+      "path": "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001/README.md",
+      "version": "V001",
+      "physical_validation": "PENDING",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "dfd408a818a1624c66383fb6a8f71ba05b290ad4d784802a146fce6be9a7c266",
+      "supersedes": "No explicit physical idler predecessor",
+      "notes": "Slicer support judgement and physical test pending."
+    },
+    {
+      "component": "BBOX design",
+      "authority_type": "CURRENT_DESIGN_AUTHORITY",
+      "status": "LOCAL_BBOX_V004_CAD_PASS; FULL_BODY_PRINT_READY; FULL_LID_PRINT_READY",
+      "path": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/COMPACT_FIELD_BBOX_V004_G065_DESIGN_AUTHORITY.md",
+      "version": "V004_G065",
+      "physical_validation": "G065_DUMMY_SEAL_PASS_ONLY; FULL_BOX_PENDING",
+      "cad_validation": "CAD_PASS; CONTRACT_TEST_PASS",
+      "sha256": "efbda0e19d82b6e003ccf0c97e9cf9ae6892829448908bf94ed7a925ed21f969",
+      "supersedes": "V003 G050 unvalidated full-body seal geometry",
+      "notes": "Full-box, chimney/gland and global integration remain pending."
+    },
+    {
+      "component": "BBOX G065 seal",
+      "authority_type": "CURRENT_PHYSICAL_AUTHORITY",
+      "status": "COMPACT_SEAL_G065_WATER_PHYSICAL_PASS",
+      "path": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/physical_result.json",
+      "version": "V004_G065_RESULT",
+      "physical_validation": "60_MIN_UPRIGHT_AND_FOUR_TILT_DIRECTIONS_PASS_ON_CLOSED_DUMMY",
+      "cad_validation": "V004_LOCAL_CAD_PASS",
+      "sha256": "4d6ec2538a7300105af97183a88606c23efa30d08a84c478edbde36b1a210d59",
+      "supersedes": "No earlier full-body water PASS",
+      "notes": "Does not promote full V004 box or chimney/gland waterproofing."
+    },
+    {
+      "component": "CBOX enclosure",
+      "authority_type": "CURRENT_DESIGN_AUTHORITY",
+      "status": "CBOX_246x150x80_CAD_PASS; LID_PRINT_HOLD; WATER_NOT_YET; POWERED_NOT_YET",
+      "path": "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32/docs/DESIGN_AUTHORITY.md",
+      "version": "v0.9.6.32",
+      "physical_validation": "PENDING",
+      "cad_validation": "CAD_PASS; SHELL_AND_CARRIER_PRINT_APPROVED",
+      "sha256": "1e1ffcb1825bc319bfac214b7aa028efc088233e0dc5c8c99bb291e059c435f5",
+      "supersedes": "Older CBOX envelope concepts within this component scope",
+      "notes": "Physical current envelope is separately recorded as 150×246×80; installed Z remains HOLD."
+    },
+    {
+      "component": "GoldenMate BBOX packaging",
+      "authority_type": "CURRENT_PHYSICAL_AUTHORITY",
+      "status": "BATTERY_FIT_BBOX_PACKAGING_AUTHORITY_CAPTURED; FIELD_BBOX_CAD_REEVALUATION_REQUIRED",
+      "path": "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001/README.md",
+      "version": "V001",
+      "physical_validation": "TEMPORARY_SPECIMEN_INSERTION_AND_PRESENCE_PASS",
+      "cad_validation": "DOCUMENTATION_ONLY; NO_RELEASE_CAD",
+      "sha256": "dec3f413616b41b3ae47778b9d17c5de83fe7791bf0d24739cec97b39670c839",
+      "supersedes": "99.4 mm interpreted as battery plan width",
+      "notes": "Correct body mapping is 150.9×65.5×92.5 mm; 99.4 mm is terminal-inclusive height."
+    }
+  ],
+  "authority_conflicts": [
+    "PTO_DIRECTION_INWARD_V0_9_2_1_VS_OUTWARD_V0_9_6_38",
+    "BBOX_PHYSICAL_Z_POINTS_NOT_REGISTERED_TO_UNIQUE_CAD_FEATURES",
+    "LATER_COMPONENT_LANES_NOT_PROMOTED_TO_ONE_FULL_ROVER_AUTHORITY"
+  ]
+}

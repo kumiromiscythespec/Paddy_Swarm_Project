@@ -19,8 +19,16 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+.pytest_cache/
 .venv/
 venv/
+
+# Reproducible PS-MHT Phase 3IB diagnostic intermediates only.
+# Final/reference STL, STEP, audit JSON, manifests, and validation reports stay tracked.
+cad/ps_mht_v001/exports/preview/_diag*.stl
+cad/ps_mht_v001/exports/preview/_finaldiag*.stl
+cad/ps_mht_v001/exports/preview/_glue_*.stl
+cad/ps_mht_v001/exports/preview/_progress*.stl
 
 # Editor
 .vscode/
