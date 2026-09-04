@@ -1,0 +1,189 @@
+{
+  "battery": {
+    "cavity_mm": [
+      153.5,
+      102.0
+    ],
+    "label": [
+      12.8,
+      10.0,
+      128.0
+    ],
+    "mass_kg": 1.2,
+    "measured_body_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "product": "GOLDENMATE_LIFEPO4"
+  },
+  "bbox": {
+    "architecture": "OPEN_TOP_BATTERY_CRADLE",
+    "bottom_mm": 3.0,
+    "front": "OPEN",
+    "gasket": 0,
+    "gland": 0,
+    "lid": 0,
+    "outer_mm": [
+      156.5,
+      108.0,
+      25.0
+    ],
+    "primary_frame_retention": "25MM_WEBBING_OR_VELCRO_STRAPS",
+    "rear_terminal_opening_mm": 70.0,
+    "rear_wall_mm": [
+      3.0,
+      22.0
+    ],
+    "strap_passage_mm": [
+      28.0,
+      5.0
+    ],
+    "strap_quantity": 2,
+    "strap_width_mm": 25.0,
+    "strap_x_mm": [
+      -45.0,
+      45.0
+    ],
+    "terminal_side": "OPEN",
+    "wall_height_above_floor_mm": 22.0,
+    "wall_mm": 3.0,
+    "waterproof_claim": false,
+    "zip_ties": "ANTI_SHIFT_ONLY"
+  },
+  "cbox": {
+    "architecture": "OPEN_TOP_LOW_WALL_ELECTRONICS_TRAY",
+    "bottom_mm": 3.0,
+    "broad_open_cable_exits": true,
+    "frame_retention": "ZIP_TIES_OR_STRAPS_DRY_FIXTURE",
+    "gasket": 0,
+    "generic_zip_tie_slots": 6,
+    "gland": 0,
+    "height_max_mm": 30.0,
+    "length_max_mm": 230.0,
+    "lid": 0,
+    "outer_mm": [
+      220.0,
+      92.0,
+      25.0
+    ],
+    "wall_height_above_floor_mm": 22.0,
+    "wall_mm": 3.0,
+    "width_preferred_max_mm": 94.0,
+    "zip_tie_slot_mm": [
+      6.0,
+      3.0
+    ]
+  },
+  "classification": "DRY_TEST_FIXTURE_ONLY",
+  "electrical": {
+    "battery_to_cbox_mm": 1000,
+    "branch_fuse_a_optional": 5.0,
+    "control_mode": "SIGN_MAGNITUDE_PWM",
+    "encoder_conductors": 4,
+    "encoder_each_mm": 1000,
+    "encoder_vcc": "TBD_HOLD",
+    "fuse_holder": "OUTSIDE_BOX_STRAPPED_TO_FRAME",
+    "hardware_cut_min_a_dc": 10.0,
+    "hardware_cut_model": "HOLD",
+    "hardware_cut_required": true,
+    "left_motor_mm": 800,
+    "logic_mm": [
+      500,
+      600
+    ],
+    "main_conductor": "1.25sq_x_2C",
+    "main_fuse_a": 7.5,
+    "main_fuse_class": "DRY_TEST_ENGINEERING_CANDIDATE",
+    "power_signal_separation": "SEPARATE_AND_CROSS_APPROX_90_DEG_IF_NEEDED",
+    "right_motor_mm": 800,
+    "rotating_part_contact": false,
+    "service_loop_mm": [
+      150,
+      200
+    ],
+    "shared_logic_ground": true,
+    "topology": "BATTERY_FUSE_HARDWARE_CUT_STAR_DUAL_MD10C"
+  },
+  "esp32": {
+    "antenna_open_space": "REQUIRED",
+    "boot_en_access": "REQUIRED",
+    "cradle": "REUSE_EXISTING",
+    "direct_12p8v": false,
+    "physical_fit": "USER_CONFIRMED_GOOD",
+    "power": "SEPARATE_REGULATED_USB_5V",
+    "source_sha256": "a5107428c9f7d12dcbdbcf1cfb8e2438de41a947a5b61c95d2019c6feeaf0b45",
+    "usb_c_access": "REQUIRED"
+  },
+  "frame": {
+    "bbox_side_clearance_each_mm": 11.0,
+    "cbox_side_clearance_each_mm": 19.0,
+    "core_nominal_mm": 170.0,
+    "inner_width_reference_mm": 130.0,
+    "precision_hole_authority": false,
+    "v0966_physical_gates": "REQUIRED"
+  },
+  "gates": {
+    "dry_test_assembly": "CAD_COMPLETE_PHYSICAL_FIT_PENDING",
+    "field": "NOT_APPROVED",
+    "final_bbox_replaced": false,
+    "final_cbox_replaced": false,
+    "mud": "NOT_APPROVED",
+    "powered": "PHYSICAL_GATES_REQUIRED",
+    "rapid_bbox": "READY_TO_PRINT",
+    "rapid_cbox": "READY_TO_PRINT",
+    "water": "NOT_APPROVED",
+    "waterproof": "NONE"
+  },
+  "material": "PETG",
+  "md10c": {
+    "board_mm": [
+      75.0,
+      43.0
+    ],
+    "boss_od_mm": 8.0,
+    "center_service_gap_mm": 20.0,
+    "left_center_mm": [
+      -47.5,
+      0.0
+    ],
+    "m3_clearance_mm": 3.3,
+    "m3_physical_result": "GOOD_FIT",
+    "mount_pattern_mm": [
+      69.0,
+      35.0
+    ],
+    "petg_thread_primary": false,
+    "product": "CYTRON_MD10C_R3",
+    "quantity": 2,
+    "right_center_mm": [
+      47.5,
+      0.0
+    ],
+    "right_rotation_deg": 180.0,
+    "standoff_height_mm": 4.5,
+    "standoffs_per_board": 4
+  },
+  "print": {
+    "estimated_time": "HOLD_SLICER_NOT_RUN",
+    "hidden_ceiling": false,
+    "infill_percent": [
+      10,
+      15
+    ],
+    "layer_height_mm": 0.28,
+    "material": "PETG",
+    "order": [
+      "RAPID_CBOX",
+      "RAPID_BBOX"
+    ],
+    "orientation": "BOTTOM_FLAT",
+    "printer": "Bambu_A1",
+    "support": "NONE_CANDIDATE",
+    "top_bottom_layers": 4,
+    "walls": 3
+  },
+  "priority": "SPEED_OVER_WATERPROOF_OVER_APPEARANCE",
+  "units": "mm",
+  "version": "v0.9.6.7"
+}

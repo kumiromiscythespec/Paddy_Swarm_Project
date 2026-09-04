@@ -1,0 +1,50 @@
+{
+  "build_volume_mm": [
+    256.0,
+    256.0,
+    256.0
+  ],
+  "one_piece_240x246_base": "HOLD_NOT_GENERATED",
+  "parts": [
+    {
+      "a1_margin_mm": [
+        116.0,
+        224.7,
+        237.0
+      ],
+      "bbox_mm": [
+        140.0,
+        31.3,
+        19.0
+      ],
+      "material": "PETG",
+      "max_dimension_mm": 140.0,
+      "mud_trap": "NONE_OPEN_EDGES_AND_SIDE_ACCESS",
+      "orientation": "OUTBOARD_PAD_DOWN_SIDE_FLANGE_HORIZONTAL",
+      "part": "cbox_saddle_left",
+      "support": "OFF_PREFERRED"
+    },
+    {
+      "a1_margin_mm": [
+        116.0,
+        224.7,
+        237.0
+      ],
+      "bbox_mm": [
+        140.0,
+        31.3,
+        19.0
+      ],
+      "material": "PETG",
+      "max_dimension_mm": 140.0,
+      "mud_trap": "NONE_OPEN_EDGES_AND_SIDE_ACCESS",
+      "orientation": "OUTBOARD_PAD_DOWN_SIDE_FLANGE_HORIZONTAL",
+      "part": "cbox_saddle_right",
+      "support": "OFF_PREFERRED"
+    }
+  ],
+  "printer": "Bambu Lab A1",
+  "selected_printable_part_count": 2,
+  "slicer": "HOLD_SLICER_NOT_RUN",
+  "tpu_contact_pad": "OPTIONAL_FUTURE_NOT_REQUIRED"
+}

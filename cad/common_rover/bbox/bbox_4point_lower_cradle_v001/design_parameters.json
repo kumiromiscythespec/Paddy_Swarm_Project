@@ -1,0 +1,341 @@
+{
+  "architecture": {
+    "bbox_lid_is_structural_mount": false,
+    "bbox_lid_m4_used_for_frame_mount": false,
+    "bbox_modification_count": 0,
+    "fixed_left_right_bridge": false,
+    "independent_shoes": true,
+    "m5_per_shoe": 1,
+    "new_bbox_holes": 0,
+    "shoe_count": 4,
+    "total_m5": 4
+  },
+  "bbox": {
+    "body_bounds_mm": [
+      180.0,
+      96.0,
+      114.395
+    ],
+    "body_geometry_reference": "VALID_FOR_MECHANICAL_FIT_STUDY",
+    "bottom_face_area_mm2": 12312.0,
+    "bottom_z_mm": 0.0,
+    "floor_mm": 3.5,
+    "full_v004_60_min_water": "FAIL_UNRESOLVED_SLOW_INGRESS_USER_LATEST_RESULT",
+    "lower_body_core_footprint_mm": [
+      162.0,
+      76.0
+    ],
+    "lower_chamfer": "NONE",
+    "lower_corner_radius_mm": 0.0,
+    "lower_footprint_class": "ACTUAL_GENERATED_STEP",
+    "lower_taper": "NONE",
+    "m4_tower_centers_mm": [
+      [
+        -84,
+        -42
+      ],
+      [
+        -84,
+        0
+      ],
+      [
+        -84,
+        42
+      ],
+      [
+        0,
+        -42
+      ],
+      [
+        0,
+        42
+      ],
+      [
+        84,
+        -42
+      ],
+      [
+        84,
+        0
+      ],
+      [
+        84,
+        42
+      ]
+    ],
+    "m4_tower_count": 8,
+    "small_g065_dummy_water": "PASS",
+    "source": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/artifacts/compact_field_bbox_v004_g065_body.step",
+    "top_m4_tower_envelope_xy_mm": [
+      180.0,
+      96.0
+    ],
+    "top_tower_class": "ACTUAL_GENERATED_STEP_SEPARATE_FROM_LOWER_FOOTPRINT",
+    "wall_mm": 3.5,
+    "waterproof_authority": "SEPARATE_NOT_PROMOTED"
+  },
+  "clearance_candidates_mm": {
+    "c03": 0.3,
+    "c05": 0.5,
+    "c08": 0.8
+  },
+  "intersections": {
+    "battery_vertical_removal": "PASS_REFERENCE",
+    "battery_vertical_removal_to_cradle_mm3": 0,
+    "bbox_body_removal": "PASS_REFERENCE",
+    "bbox_body_removal_sweep_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox_lid_ear_minimum_clearance_mm": 24.5,
+    "bbox_lid_is_structural_mount": false,
+    "bbox_lid_m4_tool_path_mm3": 0,
+    "bbox_lid_m4_used_for_frame_mount": false,
+    "bbox_lid_minimum_clearance_mm": 25.597504272877853,
+    "bbox_lid_removal": "PASS_REFERENCE",
+    "bbox_lid_removal_sweep_mm3": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox_modification_count": 0,
+    "bbox_new_hole_count": 0,
+    "cbox_removal_sweep_mm3": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "cbox_saddle_minimum_clearance_mm": 7.0,
+    "cbox_service_path": "PASS_LOCAL_REFERENCE",
+    "chimney_minimum_clearance_mm": 28.94602261106005,
+    "cradle_to_bbox_body_mm3": 0,
+    "cradle_to_bbox_lid_mm3": 0,
+    "cradle_to_cbox_saddle_mm3": 0,
+    "cradle_to_chimney_mm3": 0,
+    "cradle_to_crawler_static_mm3": 0,
+    "cradle_to_gasket_mm3": 0,
+    "cradle_to_lid_m4_ears_mm3": 0,
+    "crawler_dynamic_clearance": "PHYSICAL_PENDING",
+    "crawler_static_minimum_clearance_mm": 15.5,
+    "fixed_left_right_bridge": false,
+    "global_bbox_xy_registration": "PHYSICAL_PENDING",
+    "lid_m4_tool_access": "PASS_REFERENCE"
+  },
+  "leveling": {
+    "mandatory": false,
+    "optional_shims_mm": [
+      0.5,
+      1.0
+    ],
+    "rail_difference_mm": 1.0
+  },
+  "placement": {
+    "body_bottom_global_z_mm": 148,
+    "class": "LOCAL_CENTERED_FIT_REFERENCE_GLOBAL_XY_PHYSICAL_PENDING",
+    "effective_left_right_support_spacing_mm": 66,
+    "front_rear_support_spacing_mm": 120,
+    "front_support_x_mm": 60.0,
+    "left_rail_to_body_bottom_drop_mm": 107,
+    "rear_cbox_reference_gap_mm": 1.0,
+    "rear_rail_mount_x_mm": -14.0,
+    "rear_support_x_mm": -60.0
+  },
+  "print": {
+    "first_print": "artifacts/bbox_lower_cradle_fit_coupon_c03.stl",
+    "orientation": "BROAD_OUTSIDE_XZ_FACE_DOWN",
+    "printer": "BAMBU_A1",
+    "shoe_material": "PETG",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "support": "OFF_CANDIDATE"
+  },
+  "retention": {
+    "lateral_location": "DESIGN_CANDIDATE",
+    "rollover": "PENDING",
+    "vertical_uplift": "FUTURE_CLIP_REQUIRED"
+  },
+  "shoe": {
+    "contact_area_per_shoe_mm2": 300.0,
+    "full_print": "HOLD_UNTIL_COUPON_PHYSICAL_PASS",
+    "lip_thickness_mm": 4.0,
+    "material": "PETG",
+    "root_relief_mm": 3.0,
+    "selected_clearance_mm": 0.5,
+    "support_ledge_depth_mm": 10.0,
+    "support_x_mm": 30.0,
+    "total_contact_area_mm2": 1200.0,
+    "vertical_lip_height_mm": 12.0
+  },
+  "source": {
+    "battery": {
+      "body_height_mm": 92.5,
+      "full_assembly_mass": "PHYSICAL_PENDING",
+      "known_internal_payload_mass": "1.2_KG",
+      "mass_kg": 1.2,
+      "plan_mm": [
+        150.9,
+        65.5
+      ],
+      "terminal_inclusive_height_mm": 99.4
+    },
+    "bbox": {
+      "body_bounds_mm": [
+        180.0,
+        96.0,
+        114.395
+      ],
+      "body_geometry_reference": "VALID_FOR_MECHANICAL_FIT_STUDY",
+      "bottom_face_area_mm2": 12312.0,
+      "bottom_z_mm": 0.0,
+      "floor_mm": 3.5,
+      "full_v004_60_min_water": "FAIL_UNRESOLVED_SLOW_INGRESS_USER_LATEST_RESULT",
+      "lower_body_core_footprint_mm": [
+        162.0,
+        76.0
+      ],
+      "lower_chamfer": "NONE",
+      "lower_corner_radius_mm": 0.0,
+      "lower_footprint_class": "ACTUAL_GENERATED_STEP",
+      "lower_taper": "NONE",
+      "m4_tower_centers_mm": [
+        [
+          -84,
+          -42
+        ],
+        [
+          -84,
+          0
+        ],
+        [
+          -84,
+          42
+        ],
+        [
+          0,
+          -42
+        ],
+        [
+          0,
+          42
+        ],
+        [
+          84,
+          -42
+        ],
+        [
+          84,
+          0
+        ],
+        [
+          84,
+          42
+        ]
+      ],
+      "m4_tower_count": 8,
+      "small_g065_dummy_water": "PASS",
+      "source": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/artifacts/compact_field_bbox_v004_g065_body.step",
+      "top_m4_tower_envelope_xy_mm": [
+        180.0,
+        96.0
+      ],
+      "top_tower_class": "ACTUAL_GENERATED_STEP_SEPARATE_FROM_LOWER_FOOTPRINT",
+      "wall_mm": 3.5,
+      "waterproof_authority": "SEPARATE_NOT_PROMOTED"
+    },
+    "cbox_v002_interface": {
+      "physical_result": "PHYSICAL_FIT_PASS_USER_REPORTED_THIS_TASK",
+      "redesign": "NONE",
+      "reused": "EXACT_BREP_SUBSET",
+      "source": "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002/artifacts/cbox_top_tslot_mount_coupon_v002.step"
+    },
+    "protected": {
+      "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {
+        "files": 55,
+        "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"
+      },
+      "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {
+        "files": 47,
+        "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"
+      },
+      "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {
+        "files": 37,
+        "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"
+      },
+      "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+        "files": 45,
+        "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+      },
+      "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002": {
+        "files": 47,
+        "sha256": "67c730bb936de3eef6e640828b9c404eb7ba03462b58e495bcb2fd50f1fb5f88"
+      },
+      "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+        "files": 18,
+        "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+      },
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+        "files": 66,
+        "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+      },
+      "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+        "files": 12,
+        "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+      },
+      "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+        "files": 12,
+        "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+      },
+      "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {
+        "files": 15,
+        "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"
+      },
+      "cad/common_rover/pto/pto_p25_slide_in_positioning_v002": {
+        "files": 36,
+        "sha256": "8abb0351db318a5f4ea31b1be7106a16b6228c7c71eb15b0185e66dfbaa7d6df"
+      }
+    },
+    "protected_source_changed_count": 0,
+    "rail": {
+      "center_spacing_mm": [
+        188,
+        190
+      ],
+      "inside_span_mm": [
+        168,
+        170
+      ],
+      "left_top_z_mm": 255,
+      "lip_profile": "PHYSICAL_PARTIAL",
+      "local_center_reference_mm": 189,
+      "outside_span_mm": [
+        208,
+        210
+      ],
+      "right_top_z_mm": 254,
+      "slot_depth_mm": 6.4,
+      "slot_entrance_mm": 6.4,
+      "slot_internal_max_mm": 10.8,
+      "top_face_width_class": "PHYSICAL_DERIVED",
+      "top_face_width_mm": 20
+    },
+    "registration": {
+      "bbox_body_bottom_z_mm": 148,
+      "bbox_xy": "LOCAL_CENTERED_FIT_REFERENCE_GLOBAL_XY_PHYSICAL_PENDING",
+      "body_bottom_z_class": "DIRECT_PHYSICAL_POINT_FEATURE_IDENTITY_PARTIAL",
+      "local_fit_only": true,
+      "v004_exact_top_vs_physical_z254": "UNRESOLVED_SPECIMEN_OR_FEATURE_CONFLICT"
+    }
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/BBOX_LOWER_CRADLE_COUPONS_PRINT_READY/FULL_4POINT_CRADLE_CAD_READY/FULL_CRADLE_PRINT_HOLD_UNTIL_COUPON_PASS/STRUCTURAL_LOAD_PHYSICAL_PENDING/UPLIFT_RETENTION_PENDING",
+  "tpu": {
+    "material": "CURRENT_PRINTABLE_TPU_SPECIMEN",
+    "shore_hardness": "PHYSICAL_PENDING",
+    "structural": false,
+    "thickness_mm": 1.0
+  },
+  "version": "BBOX_4POINT_LOWER_CRADLE_V001"
+}

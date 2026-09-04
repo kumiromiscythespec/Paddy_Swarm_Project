@@ -1,0 +1,121 @@
+{
+  "checks": [
+    {
+      "name": "version_correct",
+      "status": "PASS"
+    },
+    {
+      "name": "lane_name_correct",
+      "status": "PASS"
+    },
+    {
+      "name": "cad_artifact_count_zero",
+      "status": "PASS"
+    },
+    {
+      "name": "parent_lanes_unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "authority_unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "no_step",
+      "status": "PASS"
+    },
+    {
+      "name": "no_stl",
+      "status": "PASS"
+    },
+    {
+      "name": "no_3mf",
+      "status": "PASS"
+    },
+    {
+      "name": "no_gcode",
+      "status": "PASS"
+    },
+    {
+      "name": "no_cache",
+      "status": "PASS"
+    },
+    {
+      "name": "no_pyc",
+      "status": "PASS"
+    },
+    {
+      "name": "no_ignored_lane_file",
+      "status": "PASS"
+    },
+    {
+      "name": "no_path_traversal",
+      "status": "PASS"
+    },
+    {
+      "name": "commit_paths_lane_only",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256sums_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "json_parse",
+      "status": "PASS"
+    },
+    {
+      "name": "svg_xml_parse",
+      "status": "PASS"
+    },
+    {
+      "name": "measurement_classification_complete",
+      "status": "PASS"
+    },
+    {
+      "name": "torque_reproducible",
+      "status": "PASS"
+    },
+    {
+      "name": "radius_reproducible",
+      "status": "PASS"
+    },
+    {
+      "name": "center_distance_preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "tensioner_x_preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "offset_marked_approximate",
+      "status": "PASS"
+    },
+    {
+      "name": "112t_not_promoted_to_pass",
+      "status": "PASS"
+    },
+    {
+      "name": "113t_physical_pending",
+      "status": "PASS"
+    },
+    {
+      "name": "powered_not_approved",
+      "status": "PASS"
+    },
+    {
+      "name": "field_not_approved",
+      "status": "PASS"
+    }
+  ],
+  "classification": "PHYSICAL_FOLLOWUP_MEASUREMENT_ONLY",
+  "fail_count": 0,
+  "pass_count": 28,
+  "status": "PASS",
+  "version": "0.9.5.3"
+}

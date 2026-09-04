@@ -1,0 +1,34 @@
+{
+  "bbox_driver_notch_diameter_mm": 16.0,
+  "bounds_delta_mm": [
+    0.0,
+    11.220708820004749,
+    -5.828114720322139
+  ],
+  "cbox_support_interface_diff": "MINIMAL_LOCAL_M5_SERVICE_OPENINGS_BBOX_DRIVER_NOTCH_PLUS_4MM_NOMINAL_RISE_AND_0P303DEG_TILT",
+  "cbox_support_outer_xy_and_lip_profile": "PRESERVED_EXCEPT_OPEN_EDGE_BBOX_DRIVER_NOTCH",
+  "cbox_support_tilt_deg": 0.3031494437141273,
+  "contact_area_change_mm2": -120.29942248497355,
+  "contact_area_retained_percent": 97.25469140837578,
+  "fastener_interface_diff": "INTENTIONAL_SIDE_M5_X2_TO_TOP_VERTICAL_M5_X2",
+  "rail_interface_diff": "INTENTIONAL_SIDE_FLANGE_REMOVED_TOP_FOOT_ADDED",
+  "rail_interface_v001_local_volume_mm3": 2706.825746790526,
+  "rail_interface_v002_local_volume_mm3": 33258.23715145498,
+  "side_m5_v001_per_saddle": 2,
+  "side_m5_v002_per_saddle": 0,
+  "top_m5_v001_per_saddle": 0,
+  "top_m5_v002_per_saddle": 2,
+  "v001_bounds_mm": [
+    140.0,
+    31.3,
+    19.000000000002387
+  ],
+  "v001_contact_area_mm2": 4382.0,
+  "v001_source": "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001/cad/cbox_saddle_left.step",
+  "v002_bounds_mm": [
+    140.0,
+    42.52070882000475,
+    13.171885279680248
+  ],
+  "v002_contact_area_mm2": 4261.700577515026
+}

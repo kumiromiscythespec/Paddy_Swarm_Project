@@ -1,0 +1,392 @@
+{
+  "cad_reproducibility": {
+    "byte_identical": {
+      "artifacts/bbox_reference.step": true,
+      "artifacts/cbox_reference.step": true,
+      "artifacts/cbox_saddle_leveling_shim_0p5.step": true,
+      "artifacts/cbox_saddle_leveling_shim_0p5.stl": true,
+      "artifacts/cbox_saddle_leveling_shim_1p0.step": true,
+      "artifacts/cbox_saddle_leveling_shim_1p0.stl": true,
+      "artifacts/cbox_top_tslot_mount_coupon_v002.step": true,
+      "artifacts/cbox_top_tslot_mount_coupon_v002.stl": true,
+      "artifacts/cbox_top_tslot_saddle_left_v002.step": true,
+      "artifacts/cbox_top_tslot_saddle_left_v002.stl": true,
+      "artifacts/cbox_top_tslot_saddle_right_v002.step": true,
+      "artifacts/cbox_top_tslot_saddle_right_v002.stl": true,
+      "artifacts/cbox_top_tslot_v002_assembly.step": true,
+      "artifacts/upper_rail_reference.step": true,
+      "previews/bbox_clearance.svg": true,
+      "previews/cbox_support_section.svg": true,
+      "previews/m5_tnut_section.svg": true,
+      "previews/mount_coupon.svg": true,
+      "previews/rail_height_difference.svg": true,
+      "previews/top_tslot_mount_detail.svg": true,
+      "previews/v001_vs_v002_cross_section.svg": true,
+      "previews/v002_cross_section.svg": true,
+      "previews/v002_left_top.svg": true,
+      "previews/v002_right_top.svg": true
+    },
+    "count": 24,
+    "pass": true,
+    "pass_count": 24
+  },
+  "clearance": {
+    "bbox_driver_path_saddle_intersection_mm3": 0,
+    "bbox_lid_load_bearing": false,
+    "bbox_lid_m4_access_after_cbox_removal": "PASS_REFERENCE",
+    "bbox_minimum_vertical_clearance_mm": 7.86920845987629,
+    "bbox_modification_count": 0,
+    "cbox_assembly_reference_separation_class": "NUMERICAL_BREP_CONTACT_DISAMBIGUATION_NOT_PHYSICAL_SPACER",
+    "cbox_assembly_reference_separation_mm": 0.02,
+    "cbox_lowest_bottom_z_mm": 261.8692084598763,
+    "cbox_removal_path": "PASS_VERTICAL_REFERENCE_AFTER_RETENTION_RELEASE",
+    "cbox_removal_sweep_intersections_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cbox_to_bbox_intersection_mm3": 0,
+    "cbox_to_chimney_intersection_mm3": 0,
+    "chimney_service_access": "PASS_STATIC_REFERENCE_ACTUAL_TOOL_PENDING",
+    "clearance_increase_vs_v001_mm": 4.02020845987629,
+    "crawler_dynamic_clearance": "PHYSICAL_PENDING",
+    "global_front_interface_gate": "REFERENCE_ONLY_UNRESOLVED_TRANSFORM",
+    "left_local_saddle_to_crawler_static_clearance_mm": 74.0,
+    "m5_head_direct_cbox_load": false,
+    "right_local_saddle_to_crawler_static_clearance_mm": 74.0,
+    "saddle_to_bbox_intersection_mm3": 0,
+    "saddle_to_chimney_intersection_mm3": 0,
+    "saddle_to_crawler_intersection_mm3": 0,
+    "v001_bbox_clearance_mm": 3.849
+  },
+  "documentation_reproducibility": {
+    "CBOX_TOP_TSLOT_SADDLE_V002_DESIGN.md": true,
+    "FULL_SADDLE_PHYSICAL_TEST_PLAN.md": true,
+    "GLOBAL_INTEGRATION_HOLDS.md": true,
+    "LEVELING_SHIM_STRATEGY.md": true,
+    "MOUNT_COUPON_TEST_PLAN.md": true,
+    "README.md": true,
+    "TOP_TSLOT_M5_INTERFACE.md": true,
+    "UPPER_RAIL_PROFILE_AUDIT.md": true,
+    "V001_PHYSICAL_FIT_FAILURE_RECORD.md": true,
+    "V001_V002_GEOMETRY_DIFF.md": true
+  },
+  "geometry_diff": {
+    "bbox_driver_notch_diameter_mm": 16.0,
+    "bounds_delta_mm": [
+      0.0,
+      11.220708820004749,
+      -5.828114720322139
+    ],
+    "cbox_support_interface_diff": "MINIMAL_LOCAL_M5_SERVICE_OPENINGS_BBOX_DRIVER_NOTCH_PLUS_4MM_NOMINAL_RISE_AND_0P303DEG_TILT",
+    "cbox_support_outer_xy_and_lip_profile": "PRESERVED_EXCEPT_OPEN_EDGE_BBOX_DRIVER_NOTCH",
+    "cbox_support_tilt_deg": 0.3031494437141273,
+    "contact_area_change_mm2": -120.29942248497355,
+    "contact_area_retained_percent": 97.25469140837578,
+    "fastener_interface_diff": "INTENTIONAL_SIDE_M5_X2_TO_TOP_VERTICAL_M5_X2",
+    "rail_interface_diff": "INTENTIONAL_SIDE_FLANGE_REMOVED_TOP_FOOT_ADDED",
+    "rail_interface_v001_local_volume_mm3": 2706.825746790526,
+    "rail_interface_v002_local_volume_mm3": 33258.23715145498,
+    "side_m5_v001_per_saddle": 2,
+    "side_m5_v002_per_saddle": 0,
+    "top_m5_v001_per_saddle": 0,
+    "top_m5_v002_per_saddle": 2,
+    "v001_bounds_mm": [
+      140.0,
+      31.3,
+      19.000000000002387
+    ],
+    "v001_contact_area_mm2": 4382.0,
+    "v001_source": "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001/cad/cbox_saddle_left.step",
+    "v002_bounds_mm": [
+      140.0,
+      42.52070882000475,
+      13.171885279680248
+    ],
+    "v002_contact_area_mm2": 4261.700577515026
+  },
+  "quality": {
+    "actual_geometry": {
+      "cbox_support_plane_z_class": "NOMINAL_AT_LOCAL_RAIL_CENTER",
+      "cbox_support_plane_z_mm": 8.0,
+      "cbox_support_tilt_requested_deg": 0.3031494437141273,
+      "coupon_bounds_mm": [
+        40.0,
+        42.520708820005005,
+        13.171885279680232
+      ],
+      "coupon_full_interface_symmetric_difference_mm3": 0,
+      "fixed_left_right_bridge": false,
+      "left_bounds_mm": [
+        140.0,
+        42.5207088200054,
+        13.171885279680232
+      ],
+      "left_cbox_contact_actual": {
+        "contact_area_mm2": 4261.700577515069,
+        "lip_z_range_mm": [
+          13.156012485983,
+          13.171885279680232
+        ],
+        "normal": [
+          0.0,
+          -0.005290931232411053,
+          0.999986002925388
+        ],
+        "pad_z_range_mm": [
+          8.006349117478521,
+          8.156082471356235
+        ],
+        "tilt_deg": 0.30314944371421854
+      },
+      "left_length_mm": 140.0,
+      "m5_pitch_mm": 100.0,
+      "m5_pocket_left": {
+        "center_x_mm": -50.0,
+        "center_y_mm": 0.0,
+        "x_width_mm": 12.0,
+        "y_width_mm": 15.0
+      },
+      "m5_pocket_right": {
+        "center_x_mm": 50.0,
+        "center_y_mm": 0.0,
+        "x_width_mm": 12.0,
+        "y_width_mm": 15.0
+      },
+      "m5_through_left": {
+        "center_x_mm": -50.0,
+        "center_y_mm": 0.0,
+        "x_width_mm": 5.799999999999997,
+        "y_width_mm": 8.8
+      },
+      "m5_through_right": {
+        "center_x_mm": 50.0,
+        "center_y_mm": 0.0,
+        "x_width_mm": 5.799999999999997,
+        "y_width_mm": 8.8
+      },
+      "rail_contact_width_mm": 20.000000000002743,
+      "right_bounds_mm": [
+        140.0,
+        42.5259997512304,
+        12.843847543271043
+      ],
+      "right_cbox_contact_actual": {
+        "contact_area_mm2": 4261.70057751297,
+        "lip_z_range_mm": [
+          12.8279747495738,
+          12.843847543271
+        ],
+        "normal": [
+          0.0,
+          -0.005290931232411053,
+          0.999986002925388
+        ],
+        "pad_z_range_mm": [
+          7.843917528643812,
+          7.993650882521
+        ],
+        "tilt_deg": 0.30314944371421854
+      },
+      "right_length_mm": 140.0,
+      "shim_0p5_actual_thickness_mm": 0.5,
+      "shim_1p0_actual_thickness_mm": 1.0,
+      "side_m5_hole_count": 0,
+      "top_vertical_m5_per_saddle": 2
+    },
+    "actual_geometry_checks": {
+      "coupon_matches": true,
+      "left_length": true,
+      "m5_pitch": true,
+      "pocket_x": true,
+      "pocket_y": true,
+      "rail_contact_width": true,
+      "right_length": true,
+      "shim_0p5": true,
+      "shim_1p0": true,
+      "support_height": true,
+      "through_x": true,
+      "through_y": true
+    },
+    "step": {
+      "artifacts/bbox_reference.step": {
+        "bounds_mm": [
+          240.0,
+          190.0,
+          58.000000099999994
+        ],
+        "reload": "PASS",
+        "solids": 1
+      },
+      "artifacts/cbox_reference.step": {
+        "bounds_mm": [
+          152.0,
+          246.0,
+          80.0
+        ],
+        "reload": "PASS",
+        "solids": 1
+      },
+      "artifacts/cbox_saddle_leveling_shim_0p5.step": {
+        "bounds_mm": [
+          140.0,
+          20.0,
+          0.5
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/cbox_saddle_leveling_shim_1p0.step": {
+        "bounds_mm": [
+          140.0,
+          20.0,
+          1.0
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/cbox_top_tslot_mount_coupon_v002.step": {
+        "bounds_mm": [
+          40.0,
+          42.520708820005005,
+          13.171885279680232
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/cbox_top_tslot_saddle_left_v002.step": {
+        "bounds_mm": [
+          140.0,
+          42.5207088200054,
+          13.171885279680232
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/cbox_top_tslot_saddle_right_v002.step": {
+        "bounds_mm": [
+          140.0,
+          42.5259997512304,
+          12.843847543271043
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/cbox_top_tslot_v002_assembly.step": {
+        "bounds_mm": [
+          400.0,
+          259.5259997512,
+          109.16965777707998
+        ],
+        "reload": "PASS",
+        "solids": 9
+      },
+      "artifacts/upper_rail_reference.step": {
+        "bounds_mm": [
+          400.0,
+          209.0,
+          21.0
+        ],
+        "reload": "PASS",
+        "solids": 2
+      }
+    },
+    "stl": {
+      "artifacts/cbox_saddle_leveling_shim_0p5.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 1044,
+        "watertight": true
+      },
+      "artifacts/cbox_saddle_leveling_shim_1p0.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 1044,
+        "watertight": true
+      },
+      "artifacts/cbox_top_tslot_mount_coupon_v002.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 1102,
+        "watertight": true
+      },
+      "artifacts/cbox_top_tslot_saddle_left_v002.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 2456,
+        "watertight": true
+      },
+      "artifacts/cbox_top_tslot_saddle_right_v002.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 2456,
+        "watertight": true
+      }
+    }
+  },
+  "regression": {
+    "actual_step_geometry_required": true,
+    "requested_0p5_actual_0p6_rejected": true
+  },
+  "rise_study": [
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": -0.5,
+      "rise_mm": 4.0,
+      "status": "FAIL_OR_MARGINAL_PETG_SEAT"
+    },
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": 1.5,
+      "rise_mm": 6.0,
+      "status": "FAIL_OR_MARGINAL_PETG_SEAT"
+    },
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": 3.5,
+      "rise_mm": 8.0,
+      "status": "SELECTED_MINIMUM_PRACTICAL_CANDIDATE"
+    }
+  ],
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/TOP_T_SLOT_MOUNT_COUPON_PRINT_READY/FULL_LEFT_RIGHT_SADDLE_CAD_READY/FULL_SADDLE_PRINT_HOLD_UNTIL_COUPON_PASS/PHYSICAL_FIT_PENDING/LOAD_CAPACITY_PENDING"
+}

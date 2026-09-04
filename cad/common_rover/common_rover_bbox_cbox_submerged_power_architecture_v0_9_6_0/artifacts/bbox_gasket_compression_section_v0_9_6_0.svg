@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#17202a}.h{font-size:22px;font-weight:bold}.n{font-size:17px}.s{font-size:14px;fill:#566573}.d{stroke:#34495e;stroke-width:2;fill:none}.a{fill:#d6eaf8;stroke:#2874a6;stroke-width:2}.b{fill:#d5f5e3;stroke:#148f77;stroke-width:2}.c{fill:#fadbd8;stroke:#c0392b;stroke-width:2}</style>
+<text x="25" y="35" class="h">BBOX gasket compression section</text>
+<rect x="120" y="160" width="860" height="45" class="a"/><text x="145" y="190" class="n">one-piece PETG lid 4.2 mm</text>
+<rect x="240" y="205" width="620" height="55" class="b"/><text x="400" y="240" class="n">2.0 mm silicone → 1.5–1.6 mm target</text>
+<rect x="90" y="260" width="920" height="85" class="a"/><text x="145" y="310" class="n">integrated PETG flange; 6 mm continuous land</text>
+<line x1="195" y1="125" x2="195" y2="390" stroke="#c0392b" stroke-width="5"/><text x="75" y="420" class="n">M4 + metal strip/washer</text>
+<rect x="175" y="205" width="40" height="140" fill="#f9e79f" stroke="#9a7d0a" stroke-width="2"/><text x="235" y="380" class="n">metal compression stop REQUIRED; actual OD/ID/length/material HOLD</text>
+<text x="50" y="560" class="s">Fastener axis remains outside the closed gasket loop; no screw crosses the wet seal land.</text></svg>

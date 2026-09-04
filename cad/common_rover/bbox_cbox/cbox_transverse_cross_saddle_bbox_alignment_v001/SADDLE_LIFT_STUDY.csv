@@ -1,0 +1,4 @@
+lift_mm,left_support_z_mm,right_support_z_mm,cbox_lowest_bottom_z_mm,bbox_lid_vertical_clearance_mm,printed_section_assessment,status
+2.0,257.0,256.0,255.849,1.849,MARGINAL_THIN_SECTION,FAIL_LOWEST_Z_TARGET
+3.0,258.0,257.0,256.849,2.849,MARGINAL_THIN_SECTION,NOT_SELECTED
+4.0,259.0,258.0,257.849,3.849,PASS,SELECTED

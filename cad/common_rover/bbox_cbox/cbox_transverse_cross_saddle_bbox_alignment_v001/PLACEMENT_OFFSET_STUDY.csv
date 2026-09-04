@@ -1,0 +1,5 @@
+candidate,x_offset_mm,chimney_keepout_intersection_mm3,chimney_clearance_x_mm,front_free_x_corridor_500mm_reference_mm,rear_free_x_corridor_500mm_reference_mm,largest_continuous_free_x_corridor_mm,status
+OFFSET_0,0.0,194600.366724,-50.0,174.0,174.0,174.0,FAIL_CHIMNEY_INTERSECTION
+OFFSET_PLUS30,30.0,194600.366724,-50.0,144.0,204.0,204.0,FAIL_CHIMNEY_INTERSECTION
+OFFSET_MINUS30,-30.0,194600.366724,-50.0,204.0,144.0,204.0,FAIL_CHIMNEY_INTERSECTION
+OPTIMIZED_MINUS111,-111.0,0,10.0,285.0,63.0,285.0,PASS

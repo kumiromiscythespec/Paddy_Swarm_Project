@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#17202a} .d{stroke:#34495e;stroke-width:2;fill:none}.n{font-size:18px}.s{font-size:14px;fill:#566573}</style>
+<text x="30" y="35" class="n">H2.5-A1 24 h load reference — NOT A PRODUCTION DRAWING</text>
+<line x1="180" y1="210" x2="620" y2="210" class="d"/><circle cx="250" cy="210" r="25" fill="#d6eaf8" stroke="#2874a6" stroke-width="2"/>
+<line x1="250" y1="210" x2="600" y2="210" stroke="#117864" stroke-width="10"/><line x1="250" y1="160" x2="600" y2="160" class="d"/><line x1="250" y1="150" x2="250" y2="170" class="d"/><line x1="600" y1="150" x2="600" y2="170" class="d"/>
+<text x="405" y="145" class="n">70 mm (USER_REPORTED / MEASURED_REFERENCE)</text><line x1="600" y1="210" x2="600" y2="320" stroke="#c0392b" stroke-width="4"/><polygon points="600,330 590,310 610,310" fill="#c0392b"/>
+<text x="625" y="270" class="n">1.0 kg</text><text x="625" y="294" class="s">24 h; user reported</text>
+<text x="30" y="375" class="n">Nominal reference: T = m·g·r = 0.6864655 N·m (DERIVED_NOMINAL_REFERENCE)</text><text x="30" y="400" class="s">Lever/gravity angle was not measured; not PHYSICAL_MEASURED_TORQUE.</text></svg>

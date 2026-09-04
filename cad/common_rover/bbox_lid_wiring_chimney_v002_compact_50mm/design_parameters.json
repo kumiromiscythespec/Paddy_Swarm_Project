@@ -1,0 +1,115 @@
+{
+  "cable": {
+    "horizontal_exit": true,
+    "od_mm": 9.6,
+    "routing_physical_dry_fit": "PENDING",
+    "vendor_minimum_bend_radius": "HOLD"
+  },
+  "chimney": {
+    "external_xyz_mm": [
+      50.0,
+      45.0,
+      50.0
+    ],
+    "gland_center_above_lid_top_mm": 30.0,
+    "gland_direction": "CBOX_SIDE_POSITIVE_Y_HORIZONTAL",
+    "integral_with_lid": true,
+    "internal_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "rain_hood": {
+      "adjustment": "V001_PROJECTION_10_TO_V002_8_FOR_H50_PACKAGE",
+      "bottom_open": true,
+      "max_thickness_mm": 5.0,
+      "projection_mm": 8.0,
+      "retained": true,
+      "width_mm": 34.0
+    },
+    "wall_mm": 4.0
+  },
+  "classification": "COMPACT_CHIMNEY_LID_FIRST_PRINT_CANDIDATE",
+  "forbidden_claims": [
+    "WATERPROOF_PASS",
+    "FIELD_PASS",
+    "DROP_PASS",
+    "TPU_PROTECTION_PASS"
+  ],
+  "freeze": {
+    "direction_change": 0,
+    "fastening_geometry_change": 0,
+    "gasket_loop_change": 0,
+    "lid_outer_geometry": "UNCHANGED_BELOW_DRY_SIDE_OPENING",
+    "lid_sealing_surface_change": 0,
+    "m4x8_pattern_change": 0,
+    "seal_land_change": 0,
+    "shell_interface_change": 0
+  },
+  "parent": {
+    "lane": "cad/common_rover/bbox_lid_wiring_chimney_v001_above_water_gland",
+    "read_only": true
+  },
+  "physical_authority": {
+    "cable_od_mm": 9.6,
+    "date": "2026-08-25",
+    "gland_hole_authority_mm": 15.2,
+    "gland_hole_physical_fit": "PASS",
+    "gland_male_thread_od_mm": 14.9,
+    "observations": [
+      "INSERTION_POSSIBLE",
+      "FINGER_REMOVAL_POSSIBLE",
+      "NO_GRAVITY_DROP",
+      "REPEATED_PASS",
+      "NO_WHITENING_OR_CRACK",
+      "LOCKNUT_TIGHTENING_PASS",
+      "NO_ROTATION_ISSUE_AFTER_TIGHTENING"
+    ],
+    "waterproof_physical_validation": "NOT_PERFORMED"
+  },
+  "print": {
+    "first_print": "print/bbox_lid_wiring_chimney_v002_compact.stl",
+    "material": "PETG",
+    "orientation": "SEALING_UNDERSIDE_DOWN",
+    "printer": "Bambu Lab A1",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/COMPACT_CHIMNEY_LID_PRINT_READY/PHYSICAL_VALIDATION_PENDING",
+  "tool_access": {
+    "external_d40_reference": "DIMENSIONAL_REVIEW_ONLY_NOT_GUARANTEED_TOOL_CLEARANCE",
+    "full_wrench_envelope": "HOLD_ACTUAL_TOOL_ENVELOPE_REQUIRED",
+    "gland_insertion": "CAD_DIAMETRAL_PASS_AND_PHYSICAL_COUPON_PASS",
+    "gland_removal_without_lid_destruction": true,
+    "internal_clear_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "internal_review_envelope_xy_mm": [
+      34,
+      34
+    ]
+  },
+  "tpu_future": {
+    "cad_created": false,
+    "drainage_blocked": false,
+    "gland_removal_blocked": false,
+    "interface": "UNOBSTRUCTED_EXTERNAL_REFERENCE_ONLY",
+    "sealing_boundary_integration": false
+  },
+  "version": "PS-BBOX-LID-WIRING-CHIMNEY-V002-COMPACT-50MM",
+  "waterline": {
+    "bbox_lid_top_absolute_z_mm": 257.0,
+    "bbox_lid_top_datum_class": "DERIVED_MOUNT_ASSUMPTION_TOP_INSERT_LID_AT_MEASURED_FRAME_TOP",
+    "crawler_bottom_absolute_z_mm": 0.0,
+    "effective_waterline_class": "CONSERVATIVE_DESIGN_CALCULATION_NOT_FIELD_MEASUREMENT",
+    "effective_waterline_z_mm": 210.0,
+    "field_validation": "NOT_CLAIMED",
+    "frame_bottom_absolute_z_mm": 64.0,
+    "frame_top_absolute_z_mm": 257.0,
+    "gland_center_absolute_z_mm": 287.0,
+    "gland_center_margin_to_z150_mm": 137.0,
+    "gland_center_margin_to_z210_mm": 77.0,
+    "gland_hole_lower_edge_margin_to_z150_mm": 129.4,
+    "gland_hole_lower_edge_margin_to_z210_mm": 69.4,
+    "gland_hole_lowest_absolute_z_mm": 279.4
+  }
+}

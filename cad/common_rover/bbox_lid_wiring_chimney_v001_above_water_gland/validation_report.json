@@ -1,0 +1,238 @@
+{
+  "analysis": {
+    "a1_envelope_pass": true,
+    "chimney_base_joint_count": 0,
+    "coupon": [
+      {
+        "diametral_clearance_mm": 0.3,
+        "hole_d_mm": 15.2,
+        "id": "GH152",
+        "notches": 1
+      },
+      {
+        "diametral_clearance_mm": 0.6,
+        "hole_d_mm": 15.5,
+        "id": "GH155",
+        "notches": 2
+      },
+      {
+        "diametral_clearance_mm": 0.9,
+        "hole_d_mm": 15.8,
+        "id": "GH158",
+        "notches": 3
+      }
+    ],
+    "external_tool_hood_intersection_mm3": 0,
+    "external_tool_lid_intersection_mm3": 0,
+    "fastener_pattern_delta_mm3": 0,
+    "gasket_loop_change_count": 0,
+    "internal_tool_wall_intersection_mm3": 0,
+    "lid_bbox_mm": [
+      240.0,
+      190.0,
+      68.0
+    ],
+    "lid_solids": 1,
+    "lid_valid": true,
+    "parent_lid_sha256": "6947e3666d5d8f02439d7db09f9360750c6496d08b6143ac07bb1662e1aa5170",
+    "seal_land_delta_mm3": 0
+  },
+  "check_count": 27,
+  "checks": {
+    "a1": true,
+    "authority": true,
+    "battery_collision_zero": true,
+    "bend_hard": true,
+    "bend_target": true,
+    "cable_9p6": true,
+    "external_d35": true,
+    "external_depth35": true,
+    "fastener_delta_zero": true,
+    "gasket_change_zero": true,
+    "hole_15p5": true,
+    "hood": true,
+    "hood_tool_zero": true,
+    "integral": true,
+    "internal_clear": true,
+    "joint_zero": true,
+    "pad_flat": true,
+    "pad_ge5": true,
+    "protected": true,
+    "repro": true,
+    "seal_delta_zero": true,
+    "seal_support_zero": true,
+    "service_tool": true,
+    "step_reload": true,
+    "stl_quality": true,
+    "thread_14p9": true,
+    "water_trap_zero": true
+  },
+  "forbidden_statuses": [
+    "GLAND_FIT_PASS",
+    "TOOL_ACCESS_PHYSICAL_PASS",
+    "RAIN_PASS",
+    "SPLASH_PASS",
+    "UPRIGHT_WATER_PASS_NEW_LID",
+    "CAPSIZE_PASS",
+    "FIELD_PASS",
+    "DURABILITY_PASS"
+  ],
+  "pass_count": 27,
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "protected": {
+      "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test": {
+        "files": 21,
+        "sha256": "331f7ea46ef9ab26731d58300f658476bf919113960f10f5babaded1d47dcec8",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {
+        "files": 37,
+        "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0": {
+        "files": 40,
+        "sha256": "5b18fee1976e292a370f3ac56930544df711cd44d66075f9b6216af40a91c465",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27": {
+        "files": 54,
+        "sha256": "1079a028588d35564e9e7241dda645a120b570fe2cf4c8b607169138c5742701",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36": {
+        "files": 24,
+        "sha256": "33741f011a960bdbbf416ce8be51cb41c9663fbbe8dcbf9db28e5134fd4b0400",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0": {
+        "files": 43,
+        "sha256": "ecd753e02d6a9b88d763dd0da5f716aadfcd951961384bfd45f57a236f043242",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_top_insert_bbox_v0_9_6_37": {
+        "files": 38,
+        "sha256": "d205f4fdd92092e45c1323da69368819ad16dd22b44bd2a4c90bfc4423e8d3cd",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35": {
+        "files": 33,
+        "sha256": "a6b6757e46720c6559a617852c42bddecb4f3f7c5905ab0577a2eb99cd243dee",
+        "status": "UNCHANGED"
+      },
+      "rovers/common_rover/v2.29.3.9.1": {
+        "files": 45,
+        "sha256": "ab8c79b41c5a7eae3f45dc6cc79564882c84e2a412a61fef7384b28c49d07659",
+        "status": "UNCHANGED"
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": 31,
+    "compared": 31,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CHIMNEY_LID_PRINT_READY/ABOVE_WATER_GLAND_ARCHITECTURE_SELECTED/PHYSICAL_VALIDATION_PENDING",
+  "steps": [
+    {
+      "bbox_mm": [
+        240.0,
+        190.0,
+        68.0
+      ],
+      "path": "cad/bbox_lid_wiring_chimney_v001.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        240.0,
+        293.839,
+        138.895
+      ],
+      "path": "cad/bbox_lid_wiring_chimney_assembly.step",
+      "solids": 23,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        24.0,
+        30.5,
+        24.0
+      ],
+      "path": "cad/gland_14p9_reference.step",
+      "solids": 3,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        9.6,
+        131.339,
+        42.605
+      ],
+      "path": "cad/cable_9p6_route_reference.step",
+      "solids": 17,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        240.0,
+        197.5,
+        68.0
+      ],
+      "path": "cad/tool_access_reference.step",
+      "solids": 3,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        240.0,
+        197.5,
+        68.0
+      ],
+      "path": "cad/waterline_reference.step",
+      "solids": 3,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        80.0,
+        35.0,
+        5.0
+      ],
+      "path": "cad/gland_hole_coupon_gh152_155_158.step",
+      "solids": 1,
+      "valid": true
+    }
+  ],
+  "stls": {
+    "print/bbox_lid_wiring_chimney_v001.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 8772,
+      "watertight": true
+    },
+    "print/gland_hole_coupon_gh152_155_158.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 2016,
+      "watertight": true
+    }
+  },
+  "version": "PS-BBOX-LID-WIRING-CHIMNEY-V001"
+}

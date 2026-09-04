@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430">
+<rect width="1100" height="430" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#17202a}.h{font-size:20px;font-weight:bold}.n{font-size:17px}.s{font-size:14px}.line{stroke:#abb2b9;stroke-width:1}</style>
+<text x="25" y="32" class="h">DRIVE HTD5M candidate matrix — measurement status only</text>
+<line x1="20" y1="55" x2="1080" y2="55" class="line"/><text x="35" y="82" class="h">Candidate</text><text x="300" y="82" class="h">Physical state</text><text x="570" y="82" class="h">Decision</text>
+<line x1="20" y1="100" x2="1080" y2="100" class="line"/><text x="35" y="135" class="n">112T / 560 mm TPU</text><text x="300" y="135" class="n">20F + 20R complete</text><text x="570" y="135" class="n">CONDITIONAL_FAIL_TOOTH_LIFT</text><text x="570" y="158" class="s">Localized 20T lift; pulley-only recovery</text>
+<line x1="20" y1="180" x2="1080" y2="180" class="line"/><text x="35" y="215" class="n">113T / 565 mm TPU</text><text x="300" y="215" class="n">NOT TESTED</text><text x="570" y="215" class="n">PHYSICAL_TEST_PENDING</text>
+<line x1="20" y1="245" x2="1080" y2="245" class="line"/><text x="35" y="280" class="n">114T / 570 mm TPU</text><text x="300" y="280" class="n">NOT TESTED</text><text x="570" y="280" class="n">PHYSICAL_TEST_PENDING</text>
+<line x1="20" y1="310" x2="1080" y2="310" class="line"/><text x="35" y="345" class="n">Commercial belt</text><text x="300" y="345" class="n">NOT APPROVED</text><text x="570" y="345" class="n">HOLD</text>
+<text x="25" y="405" class="s">No powered or field approval is implied by this matrix.</text></svg>

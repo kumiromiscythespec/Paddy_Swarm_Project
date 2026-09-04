@@ -1,0 +1,172 @@
+{
+  "architecture": {
+    "bbox_load_bearing": false,
+    "cbox_load_on_m5_head": false,
+    "cbox_orientation": "TRANSVERSE_LONG_AXIS_Y",
+    "fixed_cross_rail_bridge": false,
+    "left_right_independent": true,
+    "side_m5_hole_count": 0,
+    "top_vertical_m5": true,
+    "top_vertical_m5_per_saddle": 2
+  },
+  "clearance": {
+    "bbox_driver_path_saddle_intersection_mm3": 0,
+    "bbox_lid_load_bearing": false,
+    "bbox_lid_m4_access_after_cbox_removal": "PASS_REFERENCE",
+    "bbox_minimum_vertical_clearance_mm": 7.86920845987629,
+    "bbox_modification_count": 0,
+    "cbox_assembly_reference_separation_class": "NUMERICAL_BREP_CONTACT_DISAMBIGUATION_NOT_PHYSICAL_SPACER",
+    "cbox_assembly_reference_separation_mm": 0.02,
+    "cbox_lowest_bottom_z_mm": 261.8692084598763,
+    "cbox_removal_path": "PASS_VERTICAL_REFERENCE_AFTER_RETENTION_RELEASE",
+    "cbox_removal_sweep_intersections_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cbox_to_bbox_intersection_mm3": 0,
+    "cbox_to_chimney_intersection_mm3": 0,
+    "chimney_service_access": "PASS_STATIC_REFERENCE_ACTUAL_TOOL_PENDING",
+    "clearance_increase_vs_v001_mm": 4.02020845987629,
+    "crawler_dynamic_clearance": "PHYSICAL_PENDING",
+    "global_front_interface_gate": "REFERENCE_ONLY_UNRESOLVED_TRANSFORM",
+    "left_local_saddle_to_crawler_static_clearance_mm": 74.0,
+    "m5_head_direct_cbox_load": false,
+    "right_local_saddle_to_crawler_static_clearance_mm": 74.0,
+    "saddle_to_bbox_intersection_mm3": 0,
+    "saddle_to_chimney_intersection_mm3": 0,
+    "saddle_to_crawler_intersection_mm3": 0,
+    "v001_bbox_clearance_mm": 3.849
+  },
+  "geometry_diff": {
+    "bbox_driver_notch_diameter_mm": 16.0,
+    "bounds_delta_mm": [
+      0.0,
+      11.220708820004749,
+      -5.828114720322139
+    ],
+    "cbox_support_interface_diff": "MINIMAL_LOCAL_M5_SERVICE_OPENINGS_BBOX_DRIVER_NOTCH_PLUS_4MM_NOMINAL_RISE_AND_0P303DEG_TILT",
+    "cbox_support_outer_xy_and_lip_profile": "PRESERVED_EXCEPT_OPEN_EDGE_BBOX_DRIVER_NOTCH",
+    "cbox_support_tilt_deg": 0.3031494437141273,
+    "contact_area_change_mm2": -120.29942248497355,
+    "contact_area_retained_percent": 97.25469140837578,
+    "fastener_interface_diff": "INTENTIONAL_SIDE_M5_X2_TO_TOP_VERTICAL_M5_X2",
+    "rail_interface_diff": "INTENTIONAL_SIDE_FLANGE_REMOVED_TOP_FOOT_ADDED",
+    "rail_interface_v001_local_volume_mm3": 2706.825746790526,
+    "rail_interface_v002_local_volume_mm3": 33258.23715145498,
+    "side_m5_v001_per_saddle": 2,
+    "side_m5_v002_per_saddle": 0,
+    "top_m5_v001_per_saddle": 0,
+    "top_m5_v002_per_saddle": 2,
+    "v001_bounds_mm": [
+      140.0,
+      31.3,
+      19.000000000002387
+    ],
+    "v001_contact_area_mm2": 4382.0,
+    "v001_source": "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001/cad/cbox_saddle_left.step",
+    "v002_bounds_mm": [
+      140.0,
+      42.52070882000475,
+      13.171885279680248
+    ],
+    "v002_contact_area_mm2": 4261.700577515026
+  },
+  "hardware": {
+    "head_and_tnut_dimensions": "PHYSICAL_MEASUREMENT_PENDING",
+    "head_envelope_class": "REPOSITORY_CANDIDATE_NOT_PHYSICAL_AUTHORITY",
+    "head_envelope_mm": [
+      10.0,
+      4.0
+    ],
+    "known": "M5x16 + T-nut achieved full thread traversal in a DIFFERENT no-load stack",
+    "known_class": "PHYSICAL_PASS_USER_REPORTED_DIFFERENT_ASSEMBLY",
+    "pocket_class": "GENEROUS_SERVICE_CANDIDATE_COUPON_GATE",
+    "pocket_mm": [
+      12.0,
+      4.5
+    ],
+    "reason": "No reliable exact T-nut/head dimensions found; do not fabricate a precision reference.",
+    "repository_source": "cad/common_rover/common_rover_powertrain_frame_joint_trade_study_v0_9_3_4",
+    "through_hole_class": "CAD_CLEARANCE_CANDIDATE",
+    "through_hole_mm": 5.8,
+    "tnut_reference_step_generated": false
+  },
+  "print": {
+    "first_print": "artifacts/cbox_top_tslot_mount_coupon_v002.stl",
+    "orientation": "RAIL_CONTACT_FACE_DOWN",
+    "printer": "BAMBU_A1",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "support": "OFF"
+  },
+  "rail": {
+    "complete_profile": "PENDING",
+    "height_class": "PHYSICAL_DIRECT_TOP_MINUS_BOTTOM",
+    "height_mm": 20.0,
+    "profile_source": "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/physical_dimensions_2026_09_01.json",
+    "project_profile_name": "2040_USER_CONTEXT_BUT_COMPLETE_PROFILE_IDENTITY_PENDING",
+    "source_class": "PHYSICAL_DIRECT_PLUS_PHYSICAL_DERIVED",
+    "top_face_width_class": "PHYSICAL_DERIVED_FROM_OUTSIDE_MINUS_INSIDE_SPANS",
+    "top_face_width_mm": 20.0,
+    "top_slot_center_class": "CAD_REFERENCE_SYMMETRY_PHYSICAL_CONFIRMATION_PENDING",
+    "top_slot_center_local_y_mm": 0.0,
+    "top_slot_count": 1,
+    "top_slot_count_class": "PHYSICAL_PARTIAL_SINGLE_TOP_SLOT_TASK_CONTEXT"
+  },
+  "rise_study": [
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": -0.5,
+      "rise_mm": 4.0,
+      "status": "FAIL_OR_MARGINAL_PETG_SEAT"
+    },
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": 1.5,
+      "rise_mm": 6.0,
+      "status": "FAIL_OR_MARGINAL_PETG_SEAT"
+    },
+    {
+      "nominal_head_top_clearance_to_cbox_mm": 0.5,
+      "pocket_depth_mm": 4.5,
+      "remaining_petg_below_pocket_mm": 3.5,
+      "rise_mm": 8.0,
+      "status": "SELECTED_MINIMUM_PRACTICAL_CANDIDATE"
+    }
+  ],
+  "saddle": {
+    "full_print": "HOLD_UNTIL_TOP_T_SLOT_COUPON_PASS",
+    "left_support_global_z_mm": 263.0,
+    "length_mm": 140.0,
+    "m5_pitch_mm": 100.0,
+    "m5_x_mm": [
+      -50.0,
+      50.0
+    ],
+    "material": "PETG",
+    "pocket_depth_mm": 4.5,
+    "pocket_plan_mm": [
+      12.0,
+      15.0
+    ],
+    "right_support_global_z_mm": 262.0,
+    "support_rise_mm": 8.0,
+    "through_slot_mm": [
+      5.8,
+      8.8
+    ]
+  },
+  "slot": {
+    "class": "PHYSICAL_DIRECT",
+    "depth_mm": 6.4,
+    "entrance_mm": 6.4,
+    "internal_max_mm": 10.8,
+    "lip_profile": "PHYSICAL_PARTIAL"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/TOP_T_SLOT_MOUNT_COUPON_PRINT_READY/FULL_LEFT_RIGHT_SADDLE_CAD_READY/FULL_SADDLE_PRINT_HOLD_UNTIL_COUPON_PASS/PHYSICAL_FIT_PENDING/LOAD_CAPACITY_PENDING",
+  "version": "CBOX_TRANSVERSE_TOP_TSLOT_INDEPENDENT_SADDLE_V002"
+}

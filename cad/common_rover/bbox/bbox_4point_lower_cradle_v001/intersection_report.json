@@ -1,0 +1,47 @@
+{
+  "battery_vertical_removal": "PASS_REFERENCE",
+  "battery_vertical_removal_to_cradle_mm3": 0,
+  "bbox_body_removal": "PASS_REFERENCE",
+  "bbox_body_removal_sweep_mm3": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "bbox_lid_ear_minimum_clearance_mm": 24.5,
+  "bbox_lid_is_structural_mount": false,
+  "bbox_lid_m4_tool_path_mm3": 0,
+  "bbox_lid_m4_used_for_frame_mount": false,
+  "bbox_lid_minimum_clearance_mm": 25.597504272877853,
+  "bbox_lid_removal": "PASS_REFERENCE",
+  "bbox_lid_removal_sweep_mm3": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bbox_modification_count": 0,
+  "bbox_new_hole_count": 0,
+  "cbox_removal_sweep_mm3": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "cbox_saddle_minimum_clearance_mm": 7.0,
+  "cbox_service_path": "PASS_LOCAL_REFERENCE",
+  "chimney_minimum_clearance_mm": 28.94602261106005,
+  "cradle_to_bbox_body_mm3": 0,
+  "cradle_to_bbox_lid_mm3": 0,
+  "cradle_to_cbox_saddle_mm3": 0,
+  "cradle_to_chimney_mm3": 0,
+  "cradle_to_crawler_static_mm3": 0,
+  "cradle_to_gasket_mm3": 0,
+  "cradle_to_lid_m4_ears_mm3": 0,
+  "crawler_dynamic_clearance": "PHYSICAL_PENDING",
+  "crawler_static_minimum_clearance_mm": 15.5,
+  "fixed_left_right_bridge": false,
+  "global_bbox_xy_registration": "PHYSICAL_PENDING",
+  "lid_m4_tool_access": "PASS_REFERENCE"
+}

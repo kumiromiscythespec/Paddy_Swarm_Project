@@ -1,0 +1,97 @@
+{
+  "forbidden_claims": [
+    "WATERPROOF_PASS",
+    "RAIN_PASS",
+    "TILT_PASS",
+    "DROP_PASS",
+    "FIELD_PASS"
+  ],
+  "geometry": {
+    "chimney_height_mm": 50.0,
+    "chimney_internal_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "chimney_outer_xyz_mm": [
+      50.0,
+      45.0,
+      50.0
+    ],
+    "counterbore_depth_mm": 6.6,
+    "flat_seat_diameter_mm": 27.0,
+    "gland_center_above_lid_top_mm": 30.0,
+    "gland_direction": "CBOX_SIDE_POSITIVE_Y_HORIZONTAL",
+    "gland_hole_mm": 15.2,
+    "local_stack_mm": 9.0,
+    "locknut_reference_od_mm": 24.0,
+    "normal_wall_mm": 4.0,
+    "rain_hood_projection_mm": 8.0,
+    "recess_entry_diameter_mm": 30.0,
+    "recess_side": "INTERNAL_ONLY",
+    "selected_local_wall_mm": 2.4,
+    "transition_r_mm": 1.5
+  },
+  "mechanical_access": {
+    "actual_service_method": "USED_FOR_COUPON_PASS",
+    "coupon_locknut_engagement": "PASS",
+    "full_lid_tool_access": "PHYSICAL_VALIDATION_PENDING",
+    "generic_d40_proxy_design_blocker": false
+  },
+  "parent": {
+    "lane": "cad/common_rover/bbox_lid_wiring_chimney_v003_local_gland_recess",
+    "read_only": true
+  },
+  "physical_selection": {
+    "coupon_gland_fit": "PASS",
+    "coupon_locknut_thread_engagement": "PASS",
+    "full_lid_physical_sealing": "NOT_AUTHORIZED_BY_COUPON",
+    "gasket_included_depth": "APPROPRIATE_OBSERVED",
+    "gland_hole_authority_mm": 15.2,
+    "gland_hole_physical_fit": "PASS",
+    "selected_local_gland_wall_mm": 2.4,
+    "selection_authority": "FULL_LID_CAD_AUTHORIZED",
+    "thinner_wall_required": false
+  },
+  "print": {
+    "first_print": "print/bbox_lid_wiring_chimney_v003_local_wall_2p4.stl",
+    "material": "PETG",
+    "printer": "Bambu Lab A1",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "protected": {
+    "cable_routing_architecture_change": 0,
+    "external_gland_sealing_face_change": 0,
+    "fastening_geometry_change": 0,
+    "gasket_loop_change": 0,
+    "lid_outer_change": 0,
+    "lid_sealing_surface_change": 0,
+    "m4x8_pattern_change": 0,
+    "seal_land_change": 0,
+    "shell_interface_change": 0
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/FULL_LID_2P4_PRINT_READY/SELECTED_LOCAL_GLAND_WALL_2P4/PHYSICAL_VALIDATION_PENDING",
+  "version": "PS-BBOX-CHIMNEY-V003-FULL-LID-2P4-AUTHORITY",
+  "waterline": {
+    "authority_class": "DERIVED_PHYSICAL_DATUM_PENDING",
+    "bbox_lid_top_absolute_z_mm": 257.0,
+    "bbox_lid_top_datum_class": "DERIVED_MOUNT_ASSUMPTION_TOP_INSERT_LID_AT_MEASURED_FRAME_TOP",
+    "crawler_bottom_absolute_z_mm": 0.0,
+    "effective_waterline_class": "CONSERVATIVE_DESIGN_CALCULATION_NOT_FIELD_MEASUREMENT",
+    "effective_waterline_z_mm": 210.0,
+    "field_validation": "NOT_CLAIMED",
+    "frame_bottom_absolute_z_mm": 64.0,
+    "frame_top_absolute_z_mm": 257.0,
+    "gland_center_absolute_z_mm": 287.0,
+    "gland_center_margin_to_z150_mm": 137.0,
+    "gland_center_margin_to_z210_mm": 77.0,
+    "gland_hole_lower_edge_margin_to_z150_mm": 129.4,
+    "gland_hole_lower_edge_margin_to_z210_mm": 69.4,
+    "gland_hole_lowest_absolute_z_mm": 279.4,
+    "next_measurement_required": [
+      "LID_TOP_Z",
+      "GLAND_CENTER_Z",
+      "GLAND_HOLE_LOWEST_Z",
+      "CHIMNEY_TOP_Z"
+    ]
+  }
+}

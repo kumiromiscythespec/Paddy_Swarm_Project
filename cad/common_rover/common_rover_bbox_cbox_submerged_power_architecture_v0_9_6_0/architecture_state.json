@@ -1,0 +1,64 @@
+{
+  "bbox_contents": [
+    "battery",
+    "battery female terminals",
+    "short flexible leads",
+    "positive main fuse",
+    "internal terminal protector",
+    "internal strain relief"
+  ],
+  "bbox_excluded": [
+    "motor drivers",
+    "MCU",
+    "Raspberry Pi",
+    "servo driver",
+    "wireless radio",
+    "charging electronics"
+  ],
+  "bbox_role": "SUBMERGED BATTERY CASSETTE",
+  "cbox_zones": [
+    "POWER ENTRY",
+    "MAIN DISTRIBUTION",
+    "DRIVER L",
+    "DRIVER R",
+    "LOW-VOLTAGE / SIGNAL RESERVE"
+  ],
+  "gates": {
+    "bbox_empty_seal_test": "READY_TO_PRINT",
+    "bbox_gland_penetration": "HOLD_ACTUAL_GLANDLESS_TEST_FIRST",
+    "bbox_live_battery_water_test": "NOT_APPROVED",
+    "bbox_submerged_architecture": "CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING",
+    "branch_fuse_rating": "HOLD",
+    "cbox_drive_zone_layout": "ARCHITECTURE_COMPLETE_COMPONENT_FIT_PENDING",
+    "cbox_waterproof": "NOT_TESTED",
+    "connector_current_rating": "HOLD",
+    "field_deployment": "NOT_APPROVED",
+    "main_fuse_rating": "HOLD",
+    "powered_drive": "NOT_APPROVED",
+    "wire_gauge": "HOLD"
+  },
+  "penetrations": {
+    "external_terminal_cap": 0,
+    "power_cable": 1,
+    "primary_lid_seam": 1,
+    "seal_test_power_cable": 0,
+    "submerged_disconnect": 0,
+    "vent": 0
+  },
+  "power_topology": [
+    "BATTERY",
+    "MAIN_FUSE",
+    "BBOX_PIGTAIL",
+    "ABOVE_WATER_CONNECTOR",
+    "HARDWARE_MASTER_DISCONNECT",
+    "POWER_DISTRIBUTION",
+    "DRIVER_L_AND_R",
+    "MOTORS_L_AND_R"
+  ],
+  "routing": {
+    "crossing": "APPROXIMATELY_90_DEGREES_PREFERRED",
+    "left_upper_frame": "POWER_HARNESS_CANDIDATE",
+    "right_upper_frame": "SIGNAL_HARNESS_CANDIDATE"
+  },
+  "version": "0.9.6.0"
+}

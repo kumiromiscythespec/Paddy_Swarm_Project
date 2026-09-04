@@ -1,0 +1,326 @@
+{
+  "bbox_protected": {
+    "chimney_delta": 0,
+    "load_role": "WATERPROOF_LID_AND_SEAL_RETENTION_ONLY",
+    "local_wall_mm": 2.4,
+    "m4_pattern_delta": 0,
+    "pg9_delta": 0,
+    "pg9_hole_mm": 15.2,
+    "sealing_delta": 0,
+    "source": "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority",
+    "source_sha256": "11582cab5641591f385b521252fe2feeb3f43bba7ed0e72c3591c56bf5ab5c9c"
+  },
+  "cbox": {
+    "added_saddle_x_beyond_source_shell_mm": 0.0,
+    "left_right_support_z_mm": [
+      259.0,
+      258.0
+    ],
+    "long_axis": "Y",
+    "overhang_each_side_range_mm": [
+      18.0,
+      19.0
+    ],
+    "physical_body_x_envelope_mm": 150.0,
+    "physical_body_xyz_mm": [
+      150.0,
+      246.0,
+      80.0
+    ],
+    "resulting_frame_following_tilt_deg": 0.303149,
+    "retention": "PHYSICAL_PENDING",
+    "selected_mount_x_envelope_mm": 152.0,
+    "selected_x_offset_mm": -111.0,
+    "short_axis": "X",
+    "source_body_outer_mm": [
+      246.0,
+      150.0,
+      80.0
+    ],
+    "source_lane": "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32",
+    "source_total_rotated_bbox_xyz_mm": [
+      152.0,
+      246.0,
+      80.0
+    ]
+  },
+  "clearance": {
+    "bbox_cbox_open_passage": 0,
+    "bbox_chimney_delta": 0,
+    "bbox_lid_fastener_blocked_count": 0,
+    "bbox_lid_vertical_clearance_mm": 3.849,
+    "bbox_m4_pattern_delta": 0,
+    "bbox_new_holes": 0,
+    "bbox_sealing_geometry_delta": 0,
+    "cbox_lowest_bottom_z_mm": 257.849208,
+    "cbox_manual_removal": "PASS_VERTICAL_AFTER_RETENTION_RELEASE",
+    "cbox_primary_load_to_bbox_lid": false,
+    "cbox_saddle_to_front_interface_intersection_mm3": 0,
+    "cbox_to_bbox_actual_intersection_mm3": 0,
+    "cbox_to_chimney_keepout_intersection_mm3": 0,
+    "cbox_vertical_removal_sweep_intersections_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "chimney_tool_access": "PASS",
+    "diagonal_brace_required": false,
+    "frame_preload_required": false,
+    "minimum_front_interface_z_clearance_mm": 39.0,
+    "minimum_static_crawler_z_clearance_mm": 63.0,
+    "pg9_access": "PASS",
+    "primary_load_path": "CBOX_TO_INDEPENDENT_SADDLES_TO_UPPER_RAILS_TO_FRAME",
+    "saddle_removal": "PASS",
+    "saddle_to_bbox_intersection_mm3": 0,
+    "saddle_to_chimney_intersection_mm3": 0,
+    "saddle_to_crawler_intersection_mm3": 0,
+    "selected_lift_mm": 4.0,
+    "selected_x_offset_mm": -111.0
+  },
+  "holds": [
+    "CBOX_RETENTION_PHYSICAL_PENDING",
+    "SADDLE_RAIL_FIT_PHYSICAL_PENDING",
+    "CBOX_LOAD_PHYSICAL_PENDING",
+    "CRAWLER_DYNAMIC_CLEARANCE_PENDING",
+    "CLUTCH_FINAL_GEOMETRY_PENDING",
+    "500MM_FRAME_PHYSICAL_PENDING",
+    "SIDE_T_SLOT_FASTENER_STACK_PHYSICAL_PENDING",
+    "SLICER_NOT_RUN",
+    "FIELD_VALIDATION_PENDING"
+  ],
+  "lift_study": [
+    {
+      "bbox_lid_vertical_clearance_mm": 1.849,
+      "cbox_lowest_bottom_z_mm": 255.849,
+      "left_support_z_mm": 257.0,
+      "lift_mm": 2.0,
+      "printed_section_assessment": "MARGINAL_THIN_SECTION",
+      "right_support_z_mm": 256.0,
+      "status": "FAIL_LOWEST_Z_TARGET"
+    },
+    {
+      "bbox_lid_vertical_clearance_mm": 2.849,
+      "cbox_lowest_bottom_z_mm": 256.849,
+      "left_support_z_mm": 258.0,
+      "lift_mm": 3.0,
+      "printed_section_assessment": "MARGINAL_THIN_SECTION",
+      "right_support_z_mm": 257.0,
+      "status": "NOT_SELECTED"
+    },
+    {
+      "bbox_lid_vertical_clearance_mm": 3.849,
+      "cbox_lowest_bottom_z_mm": 257.849,
+      "left_support_z_mm": 259.0,
+      "lift_mm": 4.0,
+      "printed_section_assessment": "PASS",
+      "right_support_z_mm": 258.0,
+      "status": "SELECTED"
+    }
+  ],
+  "local_coordinate": {
+    "classification": "LOCAL_ASSEMBLY_DATUM_NOT_ABSOLUTE_VEHICLE_Y_AUTHORITY",
+    "nominal_model_centers_mm": [
+      94.5,
+      -94.5
+    ],
+    "y0": "MIDPOINT_BETWEEN_CURRENT_UPPER_RAIL_CENTERS_AT_SELECTED_STATION"
+  },
+  "offsets": [
+    {
+      "candidate": "OFFSET_0",
+      "chimney_clearance_x_mm": -50.0,
+      "chimney_keepout_intersection_mm3": 194600.366724,
+      "front_free_x_corridor_500mm_reference_mm": 174.0,
+      "largest_continuous_free_x_corridor_mm": 174.0,
+      "rear_free_x_corridor_500mm_reference_mm": 174.0,
+      "status": "FAIL_CHIMNEY_INTERSECTION",
+      "x_offset_mm": 0.0
+    },
+    {
+      "candidate": "OFFSET_PLUS30",
+      "chimney_clearance_x_mm": -50.0,
+      "chimney_keepout_intersection_mm3": 194600.366724,
+      "front_free_x_corridor_500mm_reference_mm": 144.0,
+      "largest_continuous_free_x_corridor_mm": 204.0,
+      "rear_free_x_corridor_500mm_reference_mm": 204.0,
+      "status": "FAIL_CHIMNEY_INTERSECTION",
+      "x_offset_mm": 30.0
+    },
+    {
+      "candidate": "OFFSET_MINUS30",
+      "chimney_clearance_x_mm": -50.0,
+      "chimney_keepout_intersection_mm3": 194600.366724,
+      "front_free_x_corridor_500mm_reference_mm": 204.0,
+      "largest_continuous_free_x_corridor_mm": 204.0,
+      "rear_free_x_corridor_500mm_reference_mm": 144.0,
+      "status": "FAIL_CHIMNEY_INTERSECTION",
+      "x_offset_mm": -30.0
+    },
+    {
+      "candidate": "OPTIMIZED_MINUS111",
+      "chimney_clearance_x_mm": 10.0,
+      "chimney_keepout_intersection_mm3": 0,
+      "front_free_x_corridor_500mm_reference_mm": 285.0,
+      "largest_continuous_free_x_corridor_mm": 285.0,
+      "rear_free_x_corridor_500mm_reference_mm": 63.0,
+      "status": "PASS",
+      "x_offset_mm": -111.0
+    }
+  ],
+  "physical_authority": {
+    "absolute_upper_rail_axis_y": "PHYSICAL_PENDING",
+    "bbox_lid_highest_z_mm": 254.0,
+    "crawler_left_right_highest_z_mm": [
+      181.0,
+      180.0
+    ],
+    "left_rail_top_bottom_mm": [
+      255.0,
+      235.0
+    ],
+    "rail_center_nominal_class": "DERIVED_MIDPOINT_ONLY",
+    "rail_center_nominal_mm": 189.0,
+    "rail_center_range_mm": [
+      188.0,
+      190.0
+    ],
+    "rail_inside_range_mm": [
+      168.0,
+      170.0
+    ],
+    "rail_outside_range_mm": [
+      208.0,
+      210.0
+    ],
+    "rail_width_mm": 20.0,
+    "right_rail_top_bottom_mm": [
+      254.0,
+      234.0
+    ],
+    "source": "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/physical_dimensions_2026_09_01.json",
+    "source_schema": "COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_V001"
+  },
+  "printability": {
+    "build_volume_mm": [
+      256.0,
+      256.0,
+      256.0
+    ],
+    "one_piece_240x246_base": "HOLD_NOT_GENERATED",
+    "parts": [
+      {
+        "a1_margin_mm": [
+          116.0,
+          224.7,
+          237.0
+        ],
+        "bbox_mm": [
+          140.0,
+          31.3,
+          19.0
+        ],
+        "material": "PETG",
+        "max_dimension_mm": 140.0,
+        "mud_trap": "NONE_OPEN_EDGES_AND_SIDE_ACCESS",
+        "orientation": "OUTBOARD_PAD_DOWN_SIDE_FLANGE_HORIZONTAL",
+        "part": "cbox_saddle_left",
+        "support": "OFF_PREFERRED"
+      },
+      {
+        "a1_margin_mm": [
+          116.0,
+          224.7,
+          237.0
+        ],
+        "bbox_mm": [
+          140.0,
+          31.3,
+          19.0
+        ],
+        "material": "PETG",
+        "max_dimension_mm": 140.0,
+        "mud_trap": "NONE_OPEN_EDGES_AND_SIDE_ACCESS",
+        "orientation": "OUTBOARD_PAD_DOWN_SIDE_FLANGE_HORIZONTAL",
+        "part": "cbox_saddle_right",
+        "support": "OFF_PREFERRED"
+      }
+    ],
+    "printer": "Bambu Lab A1",
+    "selected_printable_part_count": 2,
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "tpu_contact_pad": "OPTIONAL_FUTURE_NOT_REQUIRED"
+  },
+  "saddle": {
+    "architecture": "VARIANT_A_DUAL_INDEPENDENT_RAIL_SADDLES",
+    "equal_left_right_nominal_geometry": true,
+    "fastener_physical_selection": "PENDING",
+    "frame_preload_required": false,
+    "length_x_mm": 140.0,
+    "lift_mm": 4.0,
+    "m5_clearance_mm": 5.7,
+    "mandatory_leveling_shim": false,
+    "material": "PETG",
+    "optional_leveling_shim_mm": [
+      0.5,
+      1.0
+    ],
+    "outboard_contact_local_y_mm": [
+      1.2,
+      32.5
+    ],
+    "side_attachment": "M5_CLEARANCE_SIDE_SLOT_TO_STANDARD_T_NUT_CANDIDATE"
+  },
+  "service": {
+    "bbox_to_cbox_open_passage": false,
+    "permanent_adhesive": false,
+    "sequence": [
+      "RELEASE_CBOX_RETENTION",
+      "LIFT_REMOVE_CBOX",
+      "REMOVE_SADDLES_IF_REQUIRED",
+      "ACCESS_BBOX_M4",
+      "REMOVE_BBOX_LID_NORMALLY"
+    ]
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CBOX_TRANSVERSE_CROSS_SADDLE_PRINT_READY/BBOX_V003_PROTECTED/PHYSICAL_VALIDATION_PENDING",
+  "variants": [
+    {
+      "bbox_load": "NONE",
+      "bbox_service": "PASS",
+      "manual_removal": "PASS_VERTICAL",
+      "max_print_dimension_mm": 140.0,
+      "parts": 2,
+      "rail_range_tolerance": "PASS_INDEPENDENT",
+      "reason": "No cross-rail preload, no bridge over BBOX, two compact prints.",
+      "score": 96,
+      "status": "SELECTED",
+      "variant": "A_DUAL_INDEPENDENT_RAIL_SADDLES"
+    },
+    {
+      "bbox_load": "NONE",
+      "bbox_service": "PASS",
+      "manual_removal": "PASS_VERTICAL",
+      "max_print_dimension_mm": 50.0,
+      "parts": 4,
+      "rail_range_tolerance": "PASS_INDEPENDENT",
+      "reason": "Best local adaptation but doubles part/fastener count and needs CBOX floor rigidity test.",
+      "score": 86,
+      "status": "CONDITIONAL_PASS_NOT_SELECTED",
+      "variant": "B_FOUR_CORNER_SADDLE_BLOCKS"
+    },
+    {
+      "bbox_load": "NONE_WITH_2MM_GAP",
+      "bbox_service": "PASS_WITH_DRIVER_HOLES",
+      "manual_removal": "PASS_AFTER_CBOX_REMOVAL",
+      "max_print_dimension_mm": 112.0,
+      "parts": 2,
+      "rail_range_tolerance": "PASS_SLOTTED_188_TO_190",
+      "reason": "Bridge is service-sensitive, close to lid, and less tolerant of 1mm rail Z offset.",
+      "score": 62,
+      "status": "HOLD_NOT_SELECTED",
+      "variant": "C_SPLIT_ADJUSTABLE_CROSS_BRIDGE"
+    }
+  ],
+  "version": "CBOX_TRANSVERSE_CROSS_SADDLE_BBOX_ALIGNMENT_V001"
+}

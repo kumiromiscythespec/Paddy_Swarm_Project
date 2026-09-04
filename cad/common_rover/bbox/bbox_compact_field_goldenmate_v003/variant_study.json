@@ -1,0 +1,99 @@
+{
+  "complete_candidates": {
+    "COMPACT_A": {
+      "battery_extraction": "PASS",
+      "class": "MINIMUM_PRACTICAL_FIELD",
+      "core_external_mm": [
+        161.0,
+        75.0,
+        111.5
+      ],
+      "internal": [
+        154.0,
+        68.0,
+        108.0
+      ],
+      "pad": 1.0,
+      "print_impact": "LOW",
+      "restraint_space": "CONDITIONAL",
+      "result": "REFERENCE_ONLY",
+      "terminal_to_lid_inner_mm": 8.495,
+      "terminal_to_rim_mm": 7.6,
+      "x_per_side_mm": 1.55,
+      "x_total_clearance_mm": 3.1,
+      "y_per_side_mm": 1.25,
+      "y_total_clearance_mm": 2.5
+    },
+    "COMPACT_B": {
+      "battery_extraction": "PASS",
+      "class": "BALANCED_SELECTED",
+      "core_external_mm": [
+        162.0,
+        76.0,
+        113.5
+      ],
+      "internal": [
+        155.0,
+        69.0,
+        110.0
+      ],
+      "pad": 1.0,
+      "print_impact": "BALANCED",
+      "restraint_space": "PASS",
+      "result": "SELECTED",
+      "terminal_to_lid_inner_mm": 10.495,
+      "terminal_to_rim_mm": 9.6,
+      "x_per_side_mm": 2.05,
+      "x_total_clearance_mm": 4.1,
+      "y_per_side_mm": 1.75,
+      "y_total_clearance_mm": 3.5
+    },
+    "COMPACT_C": {
+      "battery_extraction": "PASS",
+      "class": "HIGH_SERVICE_CLEARANCE",
+      "core_external_mm": [
+        165.0,
+        78.0,
+        115.5
+      ],
+      "internal": [
+        158.0,
+        71.0,
+        112.0
+      ],
+      "pad": 1.5,
+      "print_impact": "HIGHEST_OF_THREE",
+      "restraint_space": "PASS",
+      "result": "REFERENCE_ONLY",
+      "terminal_to_lid_inner_mm": 11.995,
+      "terminal_to_rim_mm": 11.1,
+      "x_per_side_mm": 3.55,
+      "x_total_clearance_mm": 7.1,
+      "y_per_side_mm": 2.75,
+      "y_total_clearance_mm": 5.5
+    }
+  },
+  "screened_pad_mm": [
+    0,
+    1.0,
+    1.5
+  ],
+  "screened_x_mm": [
+    153,
+    154,
+    155,
+    158
+  ],
+  "screened_y_mm": [
+    67,
+    68,
+    69,
+    71
+  ],
+  "screened_z_mm": [
+    108,
+    110,
+    112
+  ],
+  "selected": "COMPACT_B"
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#17202a}.h{font-size:22px;font-weight:bold}.n{font-size:17px}.s{font-size:14px;fill:#566573}.d{stroke:#34495e;stroke-width:2;fill:none}.a{fill:#d6eaf8;stroke:#2874a6;stroke-width:2}.b{fill:#d5f5e3;stroke:#148f77;stroke-width:2}.c{fill:#fadbd8;stroke:#c0392b;stroke-width:2}</style>
+<text x="25" y="35" class="h">BBOX blank gland landing reference</text>
+<rect x="150" y="120" width="760" height="400" rx="20" class="a"/><rect x="180" y="190" width="150" height="190" class="b"/><text x="190" y="285" class="n">BLANK GLAND LAND</text>
+<circle cx="255" cy="285" r="42" fill="none" stroke="#c0392b" stroke-dasharray="8 6" stroke-width="2"/><text x="380" y="250" class="n">rear-upper wall / no through-hole</text><text x="380" y="285" class="n">actual cable OD + gland dimensions required</text>
+<text x="380" y="320" class="n">first seal-test penetration count = 0</text><text x="120" y="585" class="s">Dashed circle is a future measurement zone only, not a drill template.</text></svg>

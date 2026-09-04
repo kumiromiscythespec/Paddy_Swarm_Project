@@ -1,0 +1,8 @@
+phase,test,target,status,visible_water,tissue_wetting,gasket_displacement,lid_shift,shell_crack
+W0,DRY_INSPECTION,shell/lid/gasket/fastener/stop inspection,NOT_TESTED,,,,,
+W1,DRY_COMPRESSION,"uniform compression, no rocking or center lift",NOT_TESTED,,,,,
+W2,SPLASH_TEST,empty enclosure only,NOT_TESTED,,,,,
+W3,SHALLOW_SUBMERSION,lid seam below water,NOT_TESTED,,,,,
+W4,100MM_HEAD,100 mm water above lid,NOT_TESTED,,,,,
+W5,200MM_HEAD,200 mm water above lid,NOT_TESTED,,,,,
+W6,200MM_HEAD_24H,200 mm water above lid for 24 h,NOT_TESTED,,,,,

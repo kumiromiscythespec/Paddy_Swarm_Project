@@ -1,0 +1,12 @@
+Common Rover v0.9.6.0 internal validation
+python=3.12.13
+cadquery=2.8.0
+stl_validator=BUILTIN_TRIANGLE_EDGE_AUDIT
+checks=28
+passed=28
+failed=0
+step_stl_svg=10/10 PASS
+parents=3/3 PASS
+authority=4/4 PASS
+reproducibility=12/12 PASS
+result=PASS

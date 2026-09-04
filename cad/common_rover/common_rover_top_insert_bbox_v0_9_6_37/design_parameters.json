@@ -1,0 +1,149 @@
+{
+  "battery": {
+    "body_collision_mm3": 0,
+    "dummy_fit": "PHYSICAL_PASS",
+    "height_clearance_mm": 6.0,
+    "insertion_direction": "+Z_TOP",
+    "lower_cavity_clearance_x_per_side_mm": 7.0,
+    "lower_cavity_clearance_y_front_rear_mm": [
+      3.799999999999997,
+      2.799999999999997
+    ],
+    "nominal_repository_reference_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "physical_height_mm": 99.0,
+    "production_keepout_xyz_mm": [
+      102.0,
+      99.4,
+      99.0
+    ],
+    "sweep_collision_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "terminal_side": "TOP",
+    "top_opening_clearance_x_per_side_mm": 4.0,
+    "top_opening_clearance_y_front_rear_mm": [
+      0.8,
+      9.8
+    ]
+  },
+  "body": {
+    "bbox_mm": [
+      122.0,
+      122.0,
+      109.0
+    ],
+    "frame_clearance_per_side_mm": [
+      1.0,
+      1.5
+    ],
+    "front_floor_mm": 4.0,
+    "inner_upper_xyz_mm": [
+      116.0,
+      116.0,
+      75.0
+    ],
+    "outer_xyz_mm": [
+      122.0,
+      122.0,
+      109.0
+    ],
+    "primary_valid": true,
+    "rear_relief": {
+      "body_intersection_mm3": 0,
+      "depth_mm": 10.0,
+      "form": "SELF_SUPPORTING_TRIANGULAR_REAR_BOTTOM_RELIEF",
+      "height_mm": 24.0,
+      "roof_mm": 4.0
+    },
+    "top_opening_xy_mm": [
+      110.0,
+      110.0
+    ],
+    "wall_mm": 3.0
+  },
+  "classification": "TOP_INSERT_BBOX_PRODUCTION_FIRST_PRINT_CANDIDATE",
+  "lid_gasket_cable": {
+    "cable_od_mm": 9.6,
+    "channel_lateral_clearance_per_side_mm": 1.2000000000000002,
+    "channel_width_mm": 12.0,
+    "compressed_gasket_body_intersection_mm3": 0,
+    "compressed_gasket_lid_intersection_mm3": 0,
+    "fastener": "M4_HEAT_SET_INSERT_PATTERN_CANDIDATE",
+    "fastener_count": 8,
+    "fastener_gasket_intersection_mm3": 0,
+    "gasket_closed_loop": true,
+    "gasket_compression_percent": [
+      20.0,
+      25.0
+    ],
+    "gasket_xyz_mm": [
+      118.0,
+      118.0,
+      3.0
+    ],
+    "gland_pad_od_mm": 24.0,
+    "groove_depth_mm": 2.3,
+    "lid_bbox_mm": [
+      122.0,
+      122.0,
+      11.0
+    ],
+    "lid_body_intersection_mm3": 0,
+    "lid_plate_mm": 7.0,
+    "nominal_compression_percent_at_hard_stop": 23.333,
+    "seal_land_mm": 6.0,
+    "waterproof_penetration_d_mm": 0.0
+  },
+  "measurement_authority": {
+    "arithmetic_131_minus_24_mm": 107.0,
+    "arithmetic_discrepancy_mm": 2.0,
+    "axis_mapping": "Z_131_CONFIRMED_XY_ORDER_NEUTRALIZED_BY_SQUARE_PLAN",
+    "cable_od_mm": 9.6,
+    "frame_internal_height_mm": 131.0,
+    "frame_plan_raw_unordered_mm": [
+      124.0,
+      125.0
+    ],
+    "governing_cad_height_mm": 109.0,
+    "rear_idler_interference_height_mm": 24.0,
+    "user_effective_height_mm": 109.0
+  },
+  "printability": {
+    "all_parts_within_build_volume": true,
+    "body_orientation": "BOTTOM_DOWN_TOP_OPEN",
+    "body_support": "OFF_PREFERRED",
+    "build_volume_mm": [
+      256.0,
+      256.0,
+      256.0
+    ],
+    "printer": "Bambu Lab A1",
+    "rear_relief_overhang": "45_DEG_SELF_SUPPORTING_CANDIDATE",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "release": {
+    "first_print_filename": "artifacts/bbox_top_insert_body.stl",
+    "first_print_status": "READY_FOR_PHYSICAL_FIRST_PRINT",
+    "holds": [
+      "REAR_RELIEF_PHYSICAL_DEPTH_CONFIRMATION",
+      "LID_INSERT_PATTERN_PHYSICAL_CONFIRMATION",
+      "GASKET_COMPRESSION_PHYSICAL_CONFIRMATION",
+      "CABLE_GLAND_DRILLING_NOT_RELEASED",
+      "HOLD_SLICER_NOT_RUN",
+      "WATER_TEST_NOT_RUN"
+    ],
+    "production_step": "COMPLETE_3",
+    "production_stl": "COMPLETE_3"
+  },
+  "status": "CAD_COMPLETE/CONTRACT_TEST_PASS/BBOX_BASIC_BODY_PRINT_READY/TOP_BATTERY_ARCHITECTURE_PRESERVED/PRODUCTION_STEP_STL_COMPLETE/REAR_BOTTOM_RELIEF_COMPLETE/TOP_TERMINAL_CABLE_9P6_RECORDED/FIRST_BODY_PRINT_READY/PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.37"
+}

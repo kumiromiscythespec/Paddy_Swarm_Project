@@ -1,0 +1,22 @@
+{
+  "esp32_cradle_exact_source_sha": "a5107428c9f7d12dcbdbcf1cfb8e2438de41a947a5b61c95d2019c6feeaf0b45",
+  "final_waterproof_authority": false,
+  "sources": [
+    {
+      "path": "cad/common_rover/common_rover_dry_drive_battery_tray_v0_9_6_3/build_dry_drive_battery_tray_v0_9_6_3.py",
+      "sha256": "056361ec2676e3e6a3a7edf3ea36c8230bc8de7a1ac637eafb8c73abd0e72f9d"
+    },
+    {
+      "path": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/build_cbox_drive_electrical_physical_integration_v0_9_6_2.py",
+      "sha256": "c90e111c563763b0f9aedc62e6d33e09843b8d80b61ec0bb5ac303d5e9c74cfb"
+    },
+    {
+      "path": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/artifacts/cbox_drive_v0_9_6_2_esp32_cradle.step",
+      "sha256": "a5107428c9f7d12dcbdbcf1cfb8e2438de41a947a5b61c95d2019c6feeaf0b45"
+    },
+    {
+      "path": "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6/build_narrow_frame_independent_drive_v0_9_6_6.py",
+      "sha256": "2139e64fefc5776449885728bf81f2745557646adb6d5cd9233dd6a34720af29"
+    }
+  ]
+}

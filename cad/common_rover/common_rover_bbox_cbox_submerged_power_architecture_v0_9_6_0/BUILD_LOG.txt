@@ -1,0 +1,10 @@
+Common Rover v0.9.6.0 build
+classification=SUBMERGED_POWER_ARCHITECTURE + EMPTY_WATERPROOF_PROTOTYPE
+python=3.12.13
+cadquery=2.8.0
+generated_path_count=40
+cad_artifact_count=5
+svg_count=5
+seal_test_cable_penetration_count=0
+git_write=NONE
+result=PASS

@@ -1,0 +1,19 @@
+{
+  "bbox_bottom_fully_supported": "YES/NO",
+  "bbox_lowers_vertically_onto_ledge": "PASS/FAIL",
+  "bbox_upward_movement_with_clip": "NONE/SMALL/LARGE",
+  "bbox_vertical_removal_after_clip_removal": "PASS/FAIL",
+  "clip_body_clearance": "GOOD/TIGHT/LOOSE",
+  "clip_fastener_accessible": "PASS/FAIL",
+  "clip_installs_after_bbox_seating": "PASS/FAIL",
+  "clip_removal": "PASS/FAIL",
+  "final": "V002_SUPPORT_CLIP_COUPON_PHYSICAL_PASS/ADJUST_CLIP/REDESIGN_REQUIRED",
+  "fixed_lip_interference": "NONE/YES",
+  "lid_ear_interference": "NONE/YES",
+  "lid_interference": "NONE/YES",
+  "petg_whitening": "NONE/YES",
+  "retention_clip_candidate": "R05/R08/R10",
+  "support_coupon_rail_mount": "PASS/FAIL",
+  "title": "BBOX V002 SUPPORT + REMOVABLE CLIP TEST",
+  "uplift_gap_mm": null
+}

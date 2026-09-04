@@ -1,0 +1,3 @@
+# BBOX chimney V004 drainage-biased gland
+
+The mount top follows the outward/downward axis slope (5° or 7°), the gasket surround is not inward-sloping, and no horizontal dead-water shelf, cup or reverse lip is introduced immediately around the gland. A new drip lip was intentionally omitted because the analytic path is already continuous and a lip would add an unvalidated gland/cable obstruction. CAD intersection is zero for gland body–hood, gland body–lid, cable–lid and reference locknut–lid. This is not a rain/pooling PASS; place water on the coupon's upper gland region and observe actual drainage.

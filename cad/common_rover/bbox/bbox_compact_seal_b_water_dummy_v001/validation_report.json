@@ -1,0 +1,279 @@
+{
+  "authority_status": "SEAL_GEOMETRY_AUDIT_COMPLETE/COUPON_A_ACTUAL_G055_DRY_PASS/COUPON_B_ACTUAL_G065_DRY_PASS/G065_SELECTED_FOR_PRIMARY_WATER_TEST/FULL_BBOX_GROOVE_G050_UNVALIDATED/FULL_BBOX_PRINT_HOLD",
+  "exports": {
+    "depths": {
+      "G055": {
+        "actual_depth_mm": 0.5500000000000007,
+        "groove_bottom_z_mm": 27.95,
+        "groove_floor_area_mm2": 460.1137112681324,
+        "groove_floor_wires": 2,
+        "rim_z_mm": 28.5
+      },
+      "G065": {
+        "actual_depth_mm": 0.6499999999999986,
+        "groove_bottom_z_mm": 27.85,
+        "groove_floor_area_mm2": 460.1137112681324,
+        "groove_floor_wires": 2,
+        "rim_z_mm": 28.5
+      }
+    },
+    "step": {
+      "artifacts/selected_full_bbox_seal_section_reference.step": {
+        "bbox_mm": [
+          60.0,
+          25.0,
+          13.0
+        ],
+        "solids": 4,
+        "valid": true,
+        "volume_mm3": 4743.175169
+      },
+      "artifacts/water_dummy_common_lid.step": {
+        "bbox_mm": [
+          80.0,
+          80.0,
+          8.0
+        ],
+        "self_interference": {
+          "fault_count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 50251.557429
+      },
+      "artifacts/water_dummy_g055_assembly.step": {
+        "bbox_mm": [
+          80.0,
+          80.0,
+          37.395
+        ],
+        "solids": 4,
+        "valid": true,
+        "volume_mm3": 91618.157459
+      },
+      "artifacts/water_dummy_g055_body.step": {
+        "bbox_mm": [
+          80.0,
+          80.0,
+          29.395
+        ],
+        "self_interference": {
+          "fault_count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 40449.053944
+      },
+      "artifacts/water_dummy_g055_gasket_reference.step": {
+        "bbox_mm": [
+          59.7,
+          57.7,
+          1.8
+        ],
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 557.546087
+      },
+      "artifacts/water_dummy_g065_assembly.step": {
+        "bbox_mm": [
+          80.0,
+          80.0,
+          37.395
+        ],
+        "solids": 4,
+        "valid": true,
+        "volume_mm3": 91572.146088
+      },
+      "artifacts/water_dummy_g065_body.step": {
+        "bbox_mm": [
+          80.0,
+          80.0,
+          29.395
+        ],
+        "self_interference": {
+          "fault_count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 40403.042572
+      },
+      "artifacts/water_dummy_g065_gasket_reference.step": {
+        "bbox_mm": [
+          59.7,
+          57.7,
+          1.8
+        ],
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 557.546087
+      },
+      "artifacts/witness_paper_reference.step": {
+        "bbox_mm": [
+          45.0,
+          40.0,
+          0.2
+        ],
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 360.0
+      }
+    },
+    "stl": {
+      "artifacts/water_dummy_common_lid.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 3196,
+        "watertight": true
+      },
+      "artifacts/water_dummy_g055_body.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 7868,
+        "watertight": true
+      },
+      "artifacts/water_dummy_g065_body.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 7868,
+        "watertight": true
+      }
+    }
+  },
+  "geometry": {
+    "G055": {
+      "actual_depth_mm": 0.5500000000000007,
+      "assembled_bbox_mm": [
+        80.0,
+        80.0,
+        37.395
+      ],
+      "body_bbox_mm": [
+        80.0,
+        80.0,
+        29.395
+      ],
+      "body_volume_mm3": 40449.05394356801,
+      "calculated_compression_mm": 0.355,
+      "calculated_compression_percent": 19.72222222222222,
+      "corner_delta_outside_requested_groove_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "groove_bottom_z_mm": 27.95,
+      "groove_floor_area_mm2": 460.1137112681313,
+      "groove_floor_wires": 2,
+      "internal_dry_volume_mm3": 75495.20227354344,
+      "lid_bbox_mm": [
+        80.0,
+        80.0,
+        8.0
+      ],
+      "lid_volume_mm3": 50251.557428756416,
+      "m4_hole_edge_to_nominal_cord_mm": 6.766068747318501,
+      "radii_mm": [
+        2.25,
+        3.9,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "requested_depth_mm": 0.55,
+      "rigid_closure_intersection_mm3": 0,
+      "rim_z_mm": 28.5,
+      "tower_to_groove_mm": 2.866068747318503,
+      "witness_intersection_mm3": 0
+    },
+    "G065": {
+      "actual_depth_mm": 0.6499999999999986,
+      "assembled_bbox_mm": [
+        80.0,
+        80.0,
+        37.395
+      ],
+      "body_bbox_mm": [
+        80.0,
+        80.0,
+        29.395
+      ],
+      "body_volume_mm3": 40403.04257244115,
+      "calculated_compression_mm": 0.2549999999999999,
+      "calculated_compression_percent": 14.16666666666666,
+      "corner_delta_outside_requested_groove_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "groove_bottom_z_mm": 27.85,
+      "groove_floor_area_mm2": 460.1137112681313,
+      "groove_floor_wires": 2,
+      "internal_dry_volume_mm3": 75495.20227354344,
+      "lid_bbox_mm": [
+        80.0,
+        80.0,
+        8.0
+      ],
+      "lid_volume_mm3": 50251.557428756416,
+      "m4_hole_edge_to_nominal_cord_mm": 6.766068747318505,
+      "radii_mm": [
+        2.25,
+        3.9,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "requested_depth_mm": 0.65,
+      "rigid_closure_intersection_mm3": 0,
+      "rim_z_mm": 28.5,
+      "tower_to_groove_mm": 2.866068747318503,
+      "witness_intersection_mm3": 0
+    }
+  },
+  "reproducibility": {
+    "byte_identical": {
+      "artifacts/selected_full_bbox_seal_section_reference.step": true,
+      "artifacts/water_dummy_common_lid.step": true,
+      "artifacts/water_dummy_common_lid.stl": true,
+      "artifacts/water_dummy_g055_assembly.step": true,
+      "artifacts/water_dummy_g055_body.step": true,
+      "artifacts/water_dummy_g055_body.stl": true,
+      "artifacts/water_dummy_g055_gasket_reference.step": true,
+      "artifacts/water_dummy_g065_assembly.step": true,
+      "artifacts/water_dummy_g065_body.step": true,
+      "artifacts/water_dummy_g065_body.stl": true,
+      "artifacts/water_dummy_g065_gasket_reference.step": true,
+      "artifacts/witness_paper_reference.step": true,
+      "previews/corner_gasket_path.svg": true,
+      "previews/m4_compression_layout.svg": true,
+      "previews/seal_b_section.svg": true,
+      "previews/water_dummy_side_section.svg": true,
+      "previews/water_dummy_top_view.svg": true,
+      "previews/witness_paper_location.svg": true
+    },
+    "count": 18,
+    "pass": true,
+    "pass_count": 18,
+    "step_header_policy": "normalized FILE_NAME, generic PRODUCT and occurrence labels; geometry/entity references unchanged"
+  },
+  "status": "PASS"
+}

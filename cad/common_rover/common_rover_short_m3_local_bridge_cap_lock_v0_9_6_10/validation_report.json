@@ -1,0 +1,98 @@
+{
+  "classification": "SHORT_M3_LOCAL_BRIDGE_CAP_LOCK_CORRECTION",
+  "collision": {
+    "intended_contacts_excluded": [
+      "CAP_TO_HUB_SEAT",
+      "REAR_WASHER_TO_BRIDGE_REAR_FACE",
+      "YOKE_POSITIVE_STOP",
+      "M4_TO_COLLAR"
+    ],
+    "known_all_zero": true,
+    "known_unintended": {
+      "m3_cap_intersection_mm3": 0.0,
+      "m3_guard_intersection_mm3": 0.0,
+      "m3_m4_intersection_mm3": 0.0,
+      "m3_main_intersection_mm3": 0.0,
+      "m3_yoke_a_intersection_mm3": 0.0,
+      "m3_yoke_b_intersection_mm3": 0.0,
+      "tool_cap_intersection_mm3": 0.0,
+      "tool_frame_intersection_mm3": 0.0,
+      "tool_guard_intersection_mm3": 0.0,
+      "tool_kp000_intersection_mm3": 0.0,
+      "tool_m4_intersection_mm3": 0.0,
+      "tool_main_intersection_mm3": 0.0,
+      "tool_spacer_intersection_mm3": 0.0,
+      "tool_yoke_a_intersection_mm3": 0.0,
+      "tool_yoke_b_intersection_mm3": 0.0
+    },
+    "method": "CADQUERY_COMMON_VOLUME_SHORT_M3_LOCAL_BRIDGE_AND_REAR_SERVICE_WINDOW",
+    "physical_holds": [
+      "BRIDGE_VARIANT",
+      "M3_NUT_THICKNESS",
+      "M3_WASHER_THICKNESS",
+      "THREAD_PROJECTION",
+      "REAR_TOOL_REAL_ENVELOPE",
+      "REACTION_YOKE_VARIANT",
+      "FULL_LOAD_TORQUE"
+    ],
+    "rear_component_clearance": "CAD_REFERENCE_PASS_PHYSICAL_HOLD"
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_YOKE_AND_LOCAL_BRIDGE_COUPON",
+    "local_bridge_coupon": "READY_FOR_PHYSICAL_COUPON",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_YET_APPROVED",
+    "reaction_yoke": "PHYSICAL_PASS_REQUIRED",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "water": "NOT_APPROVED"
+  },
+  "geometry": {
+    "all_primary_valid": true,
+    "bridge_reference_solids": 2,
+    "cap_bounds_mm": [
+      54.0,
+      54.0,
+      5.5
+    ],
+    "cap_parent_volume_difference_mm3": 0.0,
+    "coupon_all_valid": true,
+    "coupon_solids": 6,
+    "guard_parent_volume_difference_mm3": 0.0,
+    "m3_cap_intersection_mm3": 0.0,
+    "m3_guard_intersection_mm3": 0.0,
+    "m3_hardware_axial_mm": 27.9,
+    "m3_m4_intersection_mm3": 0.0,
+    "m3_main_intersection_mm3": 0.0,
+    "m3_yoke_a_intersection_mm3": 0.0,
+    "m3_yoke_b_intersection_mm3": 0.0,
+    "main_bounds_mm": [
+      76.94,
+      76.94,
+      48.0
+    ],
+    "main_solids": 1,
+    "petg_rotating_axial_mm": 48.0,
+    "protected_external_missing_mm3": 0.0,
+    "tool_cap_intersection_mm3": 0.0,
+    "tool_frame_intersection_mm3": 0.0,
+    "tool_guard_intersection_mm3": 0.0,
+    "tool_kp000_intersection_mm3": 0.0,
+    "tool_m4_intersection_mm3": 0.0,
+    "tool_main_intersection_mm3": 0.0,
+    "tool_spacer_intersection_mm3": 0.0,
+    "tool_yoke_a_intersection_mm3": 0.0,
+    "tool_yoke_b_intersection_mm3": 0.0,
+    "total_assembly_axial_mm": 55.4,
+    "yoke_parent_volume_difference_mm3": 0.0
+  },
+  "local_bridge": "B7_B8_B9_READY_FOR_COUPON",
+  "m3_authority": "20P5MM_M3_PHYSICAL_AUTHORITY_RECORDED",
+  "protected_12t": "FROZEN",
+  "reaction_yoke": "PRESERVED",
+  "rear_service_window": "COMPLETE_CAD_REFERENCE_PHYSICAL_HOLD",
+  "reinforced_guard": "PRESERVED",
+  "result": "SHORT_M3_LOCAL_BRIDGE_CAP_LOCK_COMPLETE",
+  "v0969_full_body_throughbolt": "SUPERSEDED",
+  "version": "v0.9.6.10"
+}

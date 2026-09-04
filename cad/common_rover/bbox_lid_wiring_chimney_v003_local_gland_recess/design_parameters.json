@@ -1,0 +1,105 @@
+{
+  "candidates": [
+    {
+      "actual_counterbore_depth_from_v002_inner_face_mm": 7.0,
+      "authority": "PHYSICAL_VALIDATION_PENDING",
+      "id": "A",
+      "local_effective_wall_mm": 2.0,
+      "nominal_thread_residual_mm": 2.8,
+      "requested_recess_depth_from_4mm_wall_mm": 2.0
+    },
+    {
+      "actual_counterbore_depth_from_v002_inner_face_mm": 6.8,
+      "authority": "PHYSICAL_VALIDATION_PENDING",
+      "id": "B",
+      "local_effective_wall_mm": 2.2,
+      "nominal_thread_residual_mm": 2.6,
+      "requested_recess_depth_from_4mm_wall_mm": 1.8
+    },
+    {
+      "actual_counterbore_depth_from_v002_inner_face_mm": 6.6,
+      "authority": "PHYSICAL_VALIDATION_PENDING",
+      "id": "C",
+      "local_effective_wall_mm": 2.4,
+      "nominal_thread_residual_mm": 2.4,
+      "requested_recess_depth_from_4mm_wall_mm": 1.6
+    }
+  ],
+  "forbidden_claims": [
+    "LOCKNUT_PHYSICAL_PASS",
+    "WATERPROOF_PASS",
+    "DROP_PASS",
+    "FIELD_PASS"
+  ],
+  "full_lid": {
+    "candidate_wall_mm": 2.2,
+    "generated": true,
+    "status": "HOLD_PENDING_LOCAL_RECESS_PHYSICAL_VALIDATION"
+  },
+  "parent": {
+    "lane": "cad/common_rover/bbox_lid_wiring_chimney_v002_compact_50mm",
+    "read_only": true
+  },
+  "physical_authority": {
+    "cable_od_mm": 9.6,
+    "cable_routing": "PASS",
+    "failure_cause": "LOCAL_WALL_TOO_THICK",
+    "gland_hole_mm": 15.2,
+    "gland_hole_physical_fit": "PASS",
+    "locknut_outer_envelope_mm_approx": 24.0,
+    "locknut_thickness_mm_approx": 4.6,
+    "locknut_thread_engagement": "FAIL",
+    "male_thread_length_mm_approx": 9.4
+  },
+  "primary_candidate_mm": 2.2,
+  "print": {
+    "combined_plate": "print/coupon_local_wall_triplet.stl",
+    "first_print_order": [
+      "print/coupon_local_wall_2p4.stl",
+      "print/coupon_local_wall_2p2.stl",
+      "print/coupon_local_wall_2p0.stl"
+    ],
+    "material": "PETG",
+    "printer": "Bambu Lab A1",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "recess": {
+    "depth_contract_note": "REQUESTED_DEPTH_IS_REDUCTION_FROM_4MM_NOMINAL_WALL; ACTUAL_CAD_COUNTERBORE_DEPTH_INCLUDES_UNCHANGED_V002_5MM_EXTERNAL_PAD",
+    "diameter_mm": 30.0,
+    "external_face": "FLAT_UNRECESSED_UNCHANGED",
+    "flat_floor_clear_diameter_mm": 27.0,
+    "floor": "FLAT",
+    "mouth_diameter_mm": 30.0,
+    "side": "INTERNAL_ONLY",
+    "target_fillet_mm": 1.5,
+    "v002_actual_local_stack_mm": 9.0,
+    "v002_external_pad_mm": 5.0
+  },
+  "selection_policy": "PREFER_2P4_IF_FULL_PASS_ELSE_2P2_ELSE_2P0_IF_REQUIRED",
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/LOCAL_RECESS_COUPONS_PRINT_READY/PHYSICAL_VALIDATION_PENDING/FULL_LID_HOLD_PENDING_LOCAL_RECESS_PHYSICAL_VALIDATION",
+  "v002_freeze": {
+    "cable_routing_architecture_change": 0,
+    "chimney_internal_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "chimney_outer_xyz_mm": [
+      50.0,
+      45.0,
+      50.0
+    ],
+    "fastening_geometry_change": 0,
+    "gasket_loop_change": 0,
+    "gland_center_above_lid_top_mm": 30.0,
+    "gland_direction": "CBOX_SIDE_POSITIVE_Y_HORIZONTAL",
+    "gland_hole_mm": 15.2,
+    "lid_outer_change": 0,
+    "lid_sealing_surface_change": 0,
+    "m4x8_pattern_change": 0,
+    "normal_wall_mm": 4.0,
+    "rain_hood_projection_mm": 8.0,
+    "seal_land_change": 0,
+    "shell_interface_change": 0
+  },
+  "version": "PS-BBOX-CHIMNEY-V003-LOCAL-GLAND-RECESS"
+}

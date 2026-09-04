@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>.t{font:700 28px sans-serif;fill:#102a43}.h{font:700 18px sans-serif;fill:#243b53}.m{font:15px monospace;fill:#334e68}.b{fill:#d8f3dc;stroke:#2d6a4f;stroke-width:3}.l{fill:#caf0f8;stroke:#0077b6;stroke-width:3}.g{fill:#ffe8a1;stroke:#d98300;stroke-width:3}.r{fill:#ffe3e3;stroke:#c92a2a;stroke-width:3}.d{fill:none;stroke:#334e68;stroke-width:2;stroke-dasharray:8 6}.a{stroke:#c92a2a;stroke-width:3;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c92a2a"/></marker></defs>
+<rect width="1200" height="760" fill="#f8fafc"/><text x="42" y="48" class="t">Exact sealing boundary section</text>
+<rect x="90" y="470" width="360" height="120" class="b"/><rect x="130" y="300" width="40" height="170" class="b"/><rect x="370" y="300" width="40" height="170" class="b"/>
+<rect x="122" y="270" width="296" height="30" class="g"/><rect x="80" y="110" width="380" height="160" class="l"/>
+<line x1="130" y1="330" x2="410" y2="330" class="d"/><text x="520" y="150" class="h">Existing lid reference</text><text x="520" y="205" class="m">216 × 166 × nominal 16</text><text x="520" y="270" class="h">Existing gasket, exact STEP</text><text x="520" y="310" class="m">204 × 154 × 3; 8 mm ring</text><text x="520" y="375" class="h">Continuous dummy rim</text><text x="520" y="415" class="m">outer 200 × 150 / inner 192 × 142</text><text x="520" y="455" class="m">added=0 / removed=0 in 1 mm section</text><text x="520" y="520" class="h">Source drip notches intentionally closed</text><text x="520" y="560" class="m">no closure holes invented</text>
+
+<text x="42" y="730" class="m">PS-BBOX-WATER-DUMMY-V001 · SEALING_BOUNDARY_TEST · PHYSICAL RESULT NOT YET</text></svg>

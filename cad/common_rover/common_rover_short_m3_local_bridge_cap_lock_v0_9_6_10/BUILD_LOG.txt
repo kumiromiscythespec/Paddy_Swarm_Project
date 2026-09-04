@@ -1,0 +1,11 @@
+version=v0.9.6.10
+classification=SHORT_M3_LOCAL_BRIDGE_CAP_LOCK_CORRECTION
+python=3.12.13
+cadquery=2.8.0
+paths=43
+step=4
+stl=3
+svg=8
+m3_under_head_mm=20.5
+bridge_primary=B8_8.0mm
+full_body_throughbolt=SUPERSEDED

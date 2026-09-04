@@ -1,0 +1,73 @@
+{
+  "classification": "TEMP_HTD5M_60T_DOUBLE_SIDED_SPLIT_CLAMP",
+  "freeze": {
+    "belt_plane_mm": 10.0,
+    "flange_count": 2,
+    "flange_od_mm": 102.0,
+    "pitch_family": "HTD5M",
+    "pitch_mm": 5.0,
+    "rim_min_radial_mm": 8.946482927568603,
+    "spacing_deg": 6.0,
+    "spoke_width_mm": 10.0,
+    "spokes": 6,
+    "teeth": 60,
+    "tooth_face_width_mm": 16.0
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "first_print": "DOUBLE_CLAMP_COUPONS_ONLY",
+    "full_pulley": "HOLD_PHYSICAL_COUPON_WINNER",
+    "full_torque": "NOT_APPROVED",
+    "maximum": "TEMP_PULLEY_DUAL_MOTOR_DRY_LOW_LOAD_PASS",
+    "mud": "NOT_APPROVED",
+    "powered": "HOLD_PHYSICAL_CLAMP_PASS",
+    "water": "NOT_APPROVED"
+  },
+  "hardware": {
+    "front_m4": 2,
+    "petg_tapped_threads": 0,
+    "printed_stack_mm": 14.0,
+    "rear_m4": 2,
+    "threaded_length_authority_mm": 21.0,
+    "total_m4": 4
+  },
+  "hub": {
+    "bore_candidates_mm": [
+      10.1,
+      10.2,
+      10.3
+    ],
+    "front_band_mm": 10.0,
+    "neutral_band_mm": 6.0,
+    "od_mm": 34.0,
+    "primary_bore_candidate_mm": 10.2,
+    "rear_band_mm": 10.0,
+    "shaft_nominal_mm": 10.0,
+    "split_width_mm": 1.3,
+    "width_mm": 26.0
+  },
+  "original_60t_authority": {
+    "file": "cad/drive_htd5m_60t_reference.step",
+    "lane": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1",
+    "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+  },
+  "parent": {
+    "files_sha256": {
+      "artifacts/temp_htd5m_60t_split_clamp_pulley_v0_9_6_21.step": "1f4f15cf04614b02b92cf7afca34fc8bb25fe0e356ffc3be87ef7cd04b8bbd2d",
+      "artifacts/temp_htd5m_60t_split_clamp_pulley_v0_9_6_21.stl": "e782977d6079e170e69c02663d48b603024ad46b959713f58236be1fe7a0bb74",
+      "build_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21.py": "7656436e04846d253071537b8db865576d587511769ddb9337aa891277b94350",
+      "design_parameters.json": "e5fb3cb10ad389e4042246a2e18c1be183b6503324c204a5833231b33ce188e8",
+      "tests/test_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21_contract.py": "cc1dab8aa8d84c2adaf59221ed1478a1754e98256e8615b400c671e14c28ca62",
+      "validation_report.json": "a114206e31b9972a793c79799e8895b92e8a98cbc1577044232343b7de54212c"
+    },
+    "lane": "cad/common_rover/common_rover_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21"
+  },
+  "scope": {
+    "crawler_guard_modification_count": 0,
+    "drive_idler_modification_count": 0,
+    "p20653_modification_count": 0,
+    "top_roller_modification_count": 0
+  },
+  "status": "TEMP_HTD5M_60T_DOUBLE_SPLIT_CLAMP_CAD_COMPLETE/V09621_PHYSICAL_CLAMP_SHORTFALL_RECORDED/60T_TOOTH_FLANGE_RIM_SPOKES_EXACTLY_PRESERVED/CENTRAL_HUB_ONLY_REVISED/FRONT_M4X2_REAR_M4X2_READY/M4X21_PACKAGING_READY/DOUBLE_CLAMP_COUPONS_READY/P20653_SCOPE_UNCHANGED/DRY_DUAL_MOTOR_FIXTURE_READY_FOR_PHYSICAL_CLAMP_TEST/POWERED_USE_PENDING_PHYSICAL_CLAMP_PASS/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.22"
+}

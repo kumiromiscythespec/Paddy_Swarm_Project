@@ -1,0 +1,279 @@
+{
+  "check_count": 48,
+  "checks": {
+    "all_protected_hashes_unchanged": true,
+    "battery_body_height_92p5": true,
+    "battery_chimney_positive": true,
+    "battery_lid_contact_zero": true,
+    "battery_long_150p9": true,
+    "battery_m4_positive": true,
+    "battery_plan_intersection_zero": true,
+    "battery_removal_sweep_pass": true,
+    "battery_terminal_height_99p4": true,
+    "battery_width_65p5": true,
+    "body_a1_fit": true,
+    "body_valid": true,
+    "cable_crosses_gasket_false": true,
+    "cbox_cross_saddle_unchanged": true,
+    "chimney_wall_2p4_exact_reuse": true,
+    "compact_perimeter_new": true,
+    "floor_3p5": true,
+    "front_interface_reference_only": true,
+    "full_body_stl_absent": true,
+    "full_box_print_hold": true,
+    "full_lid_stl_absent": true,
+    "gasket_1p8": true,
+    "gasket_path_continuous": true,
+    "global_gate_separate": true,
+    "hardstop_present": true,
+    "lid_a1_fit": true,
+    "lid_not_restraint": true,
+    "lid_valid": true,
+    "m4_compression": true,
+    "main_cable_9p6": true,
+    "new_non_chimney_wall_holes_zero": true,
+    "old_99p4_plan_width_false": true,
+    "pg9_15p2_exact_reuse": true,
+    "seal_physical_pending": true,
+    "selected_variant_b": true,
+    "service_zone_abstract": true,
+    "status_exact": true,
+    "strap_nonpenetrating": true,
+    "strap_physical_pending": true,
+    "temporary_source_unresolved_recorded": true,
+    "terminal_end_unobstructed": true,
+    "terminal_lid_positive": true,
+    "terminal_rim_at_least_6": true,
+    "tpu_nonstructural": true,
+    "wall_3p5": true,
+    "waterproof_pending": true,
+    "x_clearance_positive": true,
+    "y_clearance_positive": true
+  },
+  "pass_count": 48,
+  "protected_end": {
+    "cad/common_rover/bbox/bbox_field_box_goldenmate_v001": {
+      "files": 1,
+      "sha256": "c9010845e8ab4680a273d1ddd7464c9231ec71d0b4d9aee2a412fc5677d42332"
+    },
+    "cad/common_rover/bbox/bbox_tall_field_body_goldenmate_v002": {
+      "files": 1,
+      "sha256": "82f3e9ae2c9f61c0291783a9bb1845cf143a3677f1217ed046739b6821ff63c4"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+      "files": 45,
+      "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+    },
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+      "files": 18,
+      "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+    },
+    "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {
+      "files": 37,
+      "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481"
+    },
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+      "files": 66,
+      "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+    },
+    "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003": {
+      "files": 29,
+      "sha256": "4e25c6f456aaae2aedd147cdb2d1bfd8268715f507184dbea2432d1ac0a114cf"
+    },
+    "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001": {
+      "files": 28,
+      "sha256": "89f3878136014c68a03ba7b15615db23e2c0bacbb0626446c450e9143658f87a"
+    },
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+      "files": 12,
+      "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+    },
+    "cad/common_rover/physical_authority/common_rover_electrical_hardware_physical_authority_v001": {
+      "files": 11,
+      "sha256": "22169c9bca3cb63c5b7c6f5707e2cc49a57770cde6b3404e5dcf5d4d3f1676c0"
+    },
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+      "files": 12,
+      "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+    }
+  },
+  "result": "PASS",
+  "step_reload": {
+    "artifacts/COMPACT_A_reference_assembly.step": {
+      "bbox": [
+        180.0,
+        104.0,
+        170.395
+      ],
+      "solids": 3,
+      "valid": true,
+      "volume": 1377589.3991
+    },
+    "artifacts/COMPACT_B_reference_assembly.step": {
+      "bbox": [
+        180.0,
+        104.0,
+        172.395
+      ],
+      "solids": 3,
+      "valid": true,
+      "volume": 1382128.5639
+    },
+    "artifacts/COMPACT_C_reference_assembly.step": {
+      "bbox": [
+        180.0,
+        104.0,
+        174.395
+      ],
+      "solids": 3,
+      "valid": true,
+      "volume": 1388937.2749
+    },
+    "artifacts/battery_removal_sweep.step": {
+      "bbox": [
+        150.9,
+        65.5,
+        169.4
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 1674341.13
+    },
+    "artifacts/battery_terminal_keepout.step": {
+      "bbox": [
+        42.0,
+        65.5,
+        18.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 49518.0
+    },
+    "artifacts/compact_field_bbox_assembly.step": {
+      "bbox": [
+        180.0,
+        128.5,
+        172.395
+      ],
+      "solids": 10,
+      "valid": true,
+      "volume": 1345546.2925
+    },
+    "artifacts/compact_field_bbox_body_selected.step": {
+      "bbox": [
+        180.0,
+        96.0,
+        114.395
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 234636.9401
+    },
+    "artifacts/compact_field_bbox_lid_selected.step": {
+      "bbox": [
+        180.0,
+        104.0,
+        58.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 165026.9939
+    },
+    "artifacts/compact_seal_coupon_A.step": {
+      "bbox": [
+        92.0,
+        28.0,
+        8.895
+      ],
+      "solids": 3,
+      "valid": true,
+      "volume": 15171.2381
+    },
+    "artifacts/compact_seal_coupon_B.step": {
+      "bbox": [
+        92.0,
+        28.0,
+        8.895
+      ],
+      "solids": 3,
+      "valid": true,
+      "volume": 15167.4581
+    },
+    "artifacts/goldenmate_corrected_battery_reference.step": {
+      "bbox": [
+        150.9,
+        65.5,
+        99.4
+      ],
+      "solids": 2,
+      "valid": true,
+      "volume": 928727.775
+    },
+    "artifacts/main_cable_reference.step": {
+      "bbox": [
+        9.6,
+        80.0,
+        9.6
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 5790.5836
+    },
+    "artifacts/selected_battery_support.step": {
+      "bbox": [
+        126.0,
+        71.0,
+        101.9
+      ],
+      "solids": 7,
+      "valid": true,
+      "volume": 13236.0
+    },
+    "artifacts/selected_tpu_pad.step": {
+      "bbox": [
+        126.0,
+        55.0,
+        1.0
+      ],
+      "solids": 2,
+      "valid": true,
+      "volume": 3300.0
+    },
+    "artifacts/service_hardware_reserved_zone.step": {
+      "bbox": [
+        25.0,
+        20.0,
+        12.0
+      ],
+      "solids": 1,
+      "valid": true,
+      "volume": 6000.0
+    }
+  },
+  "stl_quality": {
+    "artifacts/compact_seal_coupon_A.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "faces": 1580,
+      "vertices": 792,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "artifacts/compact_seal_coupon_B.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "faces": 1580,
+      "vertices": 792,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "artifacts/selected_tpu_pad.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "faces": 24,
+      "vertices": 16,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  }
+}

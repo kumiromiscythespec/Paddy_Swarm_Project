@@ -1,0 +1,83 @@
+{
+  "bbox": "READY_TO_PRINT",
+  "cbox": "READY_TO_PRINT",
+  "collision": {
+    "known_all_zero": true,
+    "known_unintended": {
+      "BATTERY_VS_BBOX": 0.0,
+      "ESP32_CRADLE_VS_CBOX": 0.0,
+      "MD10C_L_VS_CBOX": 0.0,
+      "MD10C_L_VS_R": 0.0,
+      "MD10C_R_VS_CBOX": 0.0
+    },
+    "method": "CADQUERY_COMMON_VOLUME_REFERENCE_DATUMS",
+    "physical_pending": [
+      "FRAME_STRAP_FIT",
+      "REAL_MD10C_MAX_HEIGHT",
+      "ACTUAL_CABLE_SWEEP",
+      "ROTATING_PART_CABLE_CLEARANCE",
+      "V0966_DRIVETRAIN_GATES"
+    ]
+  },
+  "dry_test_assembly": "PHYSICAL_FIT_PENDING",
+  "field": "NOT_APPROVED",
+  "geometry": {
+    "all_primary_valid": true,
+    "battery_bbox_intersection_mm3": 0.0,
+    "battery_bounds_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "bbox_bounds_mm": [
+      156.5,
+      108.0,
+      25.0
+    ],
+    "bbox_cavity_mm": [
+      153.5,
+      102.0
+    ],
+    "bbox_strap_passages": 4,
+    "bbox_terminal_opening_mm": 70.0,
+    "bbox_volume_mm3": 71860.4,
+    "board_clearance_reference_mm": 170.0,
+    "broad_cable_exit_count": 5,
+    "cbox_bounds_mm": [
+      220.0,
+      92.0,
+      25.0
+    ],
+    "cbox_volume_mm3": 92736.4,
+    "esp32_cradle_cbox_intersection_mm3": 0.0,
+    "esp32_cradle_source_bounds_mm": [
+      63.6,
+      16.1,
+      33.0
+    ],
+    "generic_zip_tie_slots": 6,
+    "known_unintended_all_zero": true,
+    "m3_standoff_count": 8,
+    "md10c_center_gap_mm": 20.0,
+    "md10c_left_bounds_mm": [
+      75.0,
+      43.0,
+      18.0
+    ],
+    "md10c_left_cbox_intersection_mm3": 0.0,
+    "md10c_mutual_intersection_mm3": 0.0,
+    "md10c_right_bounds_mm": [
+      75.0,
+      43.0,
+      18.0
+    ],
+    "md10c_right_cbox_intersection_mm3": 0.0
+  },
+  "mud": "NOT_APPROVED",
+  "powered_gate": "PENDING",
+  "result": "RAPID_DRY_BBOX_CBOX_COMPLETE",
+  "temporary_harness": "DEFINED",
+  "version": "v0.9.6.7",
+  "water": "NOT_APPROVED",
+  "waterproof": "NONE"
+}

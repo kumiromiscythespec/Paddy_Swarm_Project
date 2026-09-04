@@ -1,0 +1,40 @@
+{
+  "body_bbox_mm": [
+    180.0,
+    96.0,
+    114.395
+  ],
+  "body_orientation": "FLOOR_DOWN",
+  "body_support": "OFF_CANDIDATE_SLICER_REVIEW_PENDING",
+  "build_volume_mm": [
+    256,
+    256,
+    256
+  ],
+  "coupon_A_bbox_mm": [
+    92.0,
+    28.0,
+    8.895
+  ],
+  "coupon_B_bbox_mm": [
+    92.0,
+    28.0,
+    8.895
+  ],
+  "first_print": "artifacts/compact_seal_coupon_A.stl",
+  "full_box_print": "HOLD_UNTIL_SEAL_COUPON_PHYSICAL_PASS",
+  "lid_bbox_mm": [
+    180.0,
+    104.0,
+    58.0
+  ],
+  "lid_orientation": "SEAL_FACE_DOWN_CANDIDATE",
+  "lid_support": "OFF_CANDIDATE_SLICER_REVIEW_PENDING",
+  "printer": "Bambu Lab A1",
+  "slicer": "HOLD_SLICER_NOT_RUN",
+  "tpu_bbox_mm": [
+    126.0,
+    55.0,
+    1.0
+  ]
+}

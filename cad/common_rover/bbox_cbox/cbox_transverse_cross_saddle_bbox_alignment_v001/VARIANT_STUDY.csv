@@ -1,0 +1,4 @@
+variant,parts,rail_range_tolerance,bbox_load,bbox_service,manual_removal,max_print_dimension_mm,score,status,reason
+A_DUAL_INDEPENDENT_RAIL_SADDLES,2,PASS_INDEPENDENT,NONE,PASS,PASS_VERTICAL,140.0,96,SELECTED,"No cross-rail preload, no bridge over BBOX, two compact prints."
+B_FOUR_CORNER_SADDLE_BLOCKS,4,PASS_INDEPENDENT,NONE,PASS,PASS_VERTICAL,50.0,86,CONDITIONAL_PASS_NOT_SELECTED,Best local adaptation but doubles part/fastener count and needs CBOX floor rigidity test.
+C_SPLIT_ADJUSTABLE_CROSS_BRIDGE,2,PASS_SLOTTED_188_TO_190,NONE_WITH_2MM_GAP,PASS_WITH_DRIVER_HOLES,PASS_AFTER_CBOX_REMOVAL,112.0,62,HOLD_NOT_SELECTED,"Bridge is service-sensitive, close to lid, and less tolerant of 1mm rail Z offset."

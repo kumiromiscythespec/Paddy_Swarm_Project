@@ -1,0 +1,12 @@
+{
+  "failure_mode": "FIXED_LOCATING_LIP_INSTALLATION_ENVELOPE_CONFLICT",
+  "intentional_fixed_lip_removed_volume_mm3": 1575.0,
+  "permanent_fixed_lip_height_mm": 0.0,
+  "protected_arm_symmetric_difference_mm3": 0,
+  "rail_interface_symmetric_difference_mm3": 0,
+  "support_ledge_symmetric_difference_mm3": 0,
+  "v001_four_shoe_bbox_insertion": "PHYSICAL_FAIL",
+  "v001_rail_m5_fit": "PHYSICAL_FIT_PASS",
+  "v001_single_shoe_local_interface": "PHYSICAL_FIT_PASS",
+  "v001_source": "cad/common_rover/bbox/bbox_4point_lower_cradle_v001"
+}

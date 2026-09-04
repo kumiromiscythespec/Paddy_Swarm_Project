@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>.t{font:700 28px sans-serif;fill:#102a43}.h{font:700 18px sans-serif;fill:#243b53}.m{font:15px monospace;fill:#334e68}.b{fill:#d8f3dc;stroke:#2d6a4f;stroke-width:3}.l{fill:#caf0f8;stroke:#0077b6;stroke-width:3}.g{fill:#ffe8a1;stroke:#d98300;stroke-width:3}.r{fill:#ffe3e3;stroke:#c92a2a;stroke-width:3}.d{fill:none;stroke:#334e68;stroke-width:2;stroke-dasharray:8 6}.a{stroke:#c92a2a;stroke-width:3;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c92a2a"/></marker></defs>
+<rect width="1200" height="760" fill="#f8fafc"/><text x="42" y="48" class="t">Submersion test stages</text>
+<rect x="95" y="175" width="760" height="430" rx="30" class="l"/><rect x="255" y="275" width="440" height="250" class="b"/><line x1="80" y1="275" x2="900" y2="275" class="d"/><line x1="80" y1="375" x2="900" y2="375" class="d"/><line x1="80" y1="475" x2="900" y2="475" class="d"/><text x="910" y="280" class="m">50 mm / 10 min</text><text x="910" y="380" class="m">100 mm / 30 min</text><text x="910" y="480" class="m">150 mm / 60 min, then 8 h</text><text x="250" y="655" class="m">witness: FRONT / RIGHT / REAR / LEFT / CENTER</text><text x="870" y="585" class="h">150 mm: 1.471 kPa gauge</text>
+
+<text x="42" y="730" class="m">ANY WITNESS-PAPER DROP = FAIL_LEAK · NO ELECTRONICS · CODEX CANNOT ISSUE PHYSICAL PASS</text></svg>

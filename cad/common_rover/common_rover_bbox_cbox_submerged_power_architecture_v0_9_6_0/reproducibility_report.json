@@ -1,0 +1,68 @@
+{
+  "method": "INDEPENDENT_CLEAN_OUTPUT_BYTE_COMPARISON",
+  "pass_count": 12,
+  "rows": {
+    "architecture_state.json": {
+      "byte_equal": true,
+      "original": "59f3896716474aa8bfb4c4401dbfbe797c6993b62dc769b670cafc996986fa18",
+      "rebuild": "59f3896716474aa8bfb4c4401dbfbe797c6993b62dc769b670cafc996986fa18"
+    },
+    "artifacts/bbox_gasket_compression_section_v0_9_6_0.svg": {
+      "byte_equal": true,
+      "original": "66d41385f2ffd5831d744ef36363ee18c67446d90cd02581a459cb07bc4ce1c5",
+      "rebuild": "66d41385f2ffd5831d744ef36363ee18c67446d90cd02581a459cb07bc4ce1c5"
+    },
+    "artifacts/bbox_gasket_cut_template_v0_9_6_0.svg": {
+      "byte_equal": true,
+      "original": "0d57576a693c0e618d416b5d3127bc58db21d3edbd1c33c79689dcc8fa402c48",
+      "rebuild": "0d57576a693c0e618d416b5d3127bc58db21d3edbd1c33c79689dcc8fa402c48"
+    },
+    "artifacts/bbox_gland_land_reference_v0_9_6_0.svg": {
+      "byte_equal": true,
+      "original": "750cd4864f949557d7dbcecd6121ddf433b217a6ea978e3fe2a9140d0298de00",
+      "rebuild": "750cd4864f949557d7dbcecd6121ddf433b217a6ea978e3fe2a9140d0298de00"
+    },
+    "artifacts/bbox_power_routing_architecture_v0_9_6_0.svg": {
+      "byte_equal": true,
+      "original": "ef36c6b73b3ee5d0d456512f18813edbc73d696ca4c09e25d6c2d94e573d9b0c",
+      "rebuild": "ef36c6b73b3ee5d0d456512f18813edbc73d696ca4c09e25d6c2d94e573d9b0c"
+    },
+    "artifacts/bbox_submerged_seal_test_assembly_v0_9_6_0.step": {
+      "byte_equal": true,
+      "original": "665b13e927a4a5b4bc3e2232323caead16440cb65f36f036b0a60f103a390497",
+      "rebuild": "665b13e927a4a5b4bc3e2232323caead16440cb65f36f036b0a60f103a390497"
+    },
+    "artifacts/bbox_submerged_seal_test_lid_v0_9_6_0.step": {
+      "byte_equal": true,
+      "original": "90b8056041a07eeda089e9e5dcbf4c819a97e52b8e7e5b9fb5b0cad4e1e450de",
+      "rebuild": "90b8056041a07eeda089e9e5dcbf4c819a97e52b8e7e5b9fb5b0cad4e1e450de"
+    },
+    "artifacts/bbox_submerged_seal_test_lid_v0_9_6_0.stl": {
+      "byte_equal": true,
+      "original": "5b1a308f02a8aadd7ed378a897530670d7becca105544e5fca789ed939013ec6",
+      "rebuild": "5b1a308f02a8aadd7ed378a897530670d7becca105544e5fca789ed939013ec6"
+    },
+    "artifacts/bbox_submerged_seal_test_lower_v0_9_6_0.step": {
+      "byte_equal": true,
+      "original": "2434727b7a90af1abe14a8571a6cfe830a48045cd3bda80db19b5cbd272046f4",
+      "rebuild": "2434727b7a90af1abe14a8571a6cfe830a48045cd3bda80db19b5cbd272046f4"
+    },
+    "artifacts/bbox_submerged_seal_test_lower_v0_9_6_0.stl": {
+      "byte_equal": true,
+      "original": "84569c99931c0995e7f970fea1a9ee191ee9cacbfaf033c410a07197abe1a475",
+      "rebuild": "84569c99931c0995e7f970fea1a9ee191ee9cacbfaf033c410a07197abe1a475"
+    },
+    "artifacts/cbox_drive_electrical_zone_layout_v0_9_6_0.svg": {
+      "byte_equal": true,
+      "original": "dd0537711deac1684a5cbb3b96581c78285721ab0952559b8f11b3366f91dae4",
+      "rebuild": "dd0537711deac1684a5cbb3b96581c78285721ab0952559b8f11b3366f91dae4"
+    },
+    "design_parameters.json": {
+      "byte_equal": true,
+      "original": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271",
+      "rebuild": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271"
+    }
+  },
+  "status": "PASS",
+  "total": 12
+}

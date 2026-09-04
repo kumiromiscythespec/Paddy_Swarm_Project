@@ -1,0 +1,10 @@
+Common Rover v0.9.5.3 contract validation
+classification=PHYSICAL_FOLLOWUP_MEASUREMENT_ONLY
+internal_checks=28
+passed=28
+failed=0
+cad_artifact_count=0
+authority=4/4 PASS
+parents=8/8 PASS
+result=PASS
+final_status=PHYSICAL_FOLLOWUP_MEASUREMENTS_RECORDED / COMMIT_READY_NOT_STAGED

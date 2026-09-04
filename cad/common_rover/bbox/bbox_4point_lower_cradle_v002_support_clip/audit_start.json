@@ -1,0 +1,29 @@
+{
+  "branch": "agent/organize-untracked-cad-assets-20260725",
+  "dirty": {
+    "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+    "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+    "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+    "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+  },
+  "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+  "outside_untracked_bytes_sha256": "d2cd8fcfb996b9d70981ee7c37a9562e7763a32d1b5bca84789277ffaabd7126",
+  "outside_untracked_count": 4550,
+  "outside_untracked_paths_sha256": "46ff9550151763230aeba79a8cb80d116bbd21930a825302957e76be6a8e91f4",
+  "protected": {
+    "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {"files": 55, "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"},
+    "cad/common_rover/bbox/bbox_4point_lower_cradle_v001": {"files": 61, "sha256": "cb87853088a5bd70f551657dc3f1687e44a7d11a8e075c34398716c8e3d09938"},
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {"files": 47, "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"},
+    "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {"files": 37, "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"},
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {"files": 45, "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"},
+    "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002": {"files": 47, "sha256": "67c730bb936de3eef6e640828b9c404eb7ba03462b58e495bcb2fd50f1fb5f88"},
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {"files": 18, "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"},
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {"files": 66, "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"},
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {"files": 12, "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"},
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {"files": 12, "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"},
+    "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {"files": 15, "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"},
+    "cad/common_rover/pto/pto_p25_slide_in_positioning_v002": {"files": 36, "sha256": "8abb0351db318a5f4ea31b1be7106a16b6228c7c71eb15b0185e66dfbaa7d6df"}
+  },
+  "repository": "D:\\Paddy_Swarm_Project",
+  "staged_count": 0
+}

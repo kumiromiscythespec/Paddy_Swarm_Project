@@ -1,0 +1,348 @@
+{
+  "checks": {
+    "architecture_selected": "PASS",
+    "authority_conflict_recorded": "PASS",
+    "automatic_swap_not_current": "PASS",
+    "battery_connector_hold": "PASS",
+    "cbox_direction_hold": "PASS",
+    "cbox_lock_hold": "PASS",
+    "cbox_stroke_hold": "PASS",
+    "charging_hardware_hold": "PASS",
+    "display_only_geometry": "PASS",
+    "forbidden_physical_pass_absent": "PASS",
+    "manual_top_insert_remove": "PASS",
+    "no_synthetic_unified_bbox": "PASS",
+    "operation_modes_4": "PASS",
+    "protected_principles_8": "PASS",
+    "rear_slide_preserved": "PASS",
+    "step_reload_6": "PASS",
+    "step_solid_counts": "PASS",
+    "svg_valid_6": "PASS",
+    "water_dummy_print_not_yet_reference": "PASS",
+    "water_dummy_unmodified": "PASS"
+  },
+  "classification": "TOP_SERVICE_MANUAL_SWAP_PLUS_AUTONOMOUS_CONTACT_CHARGING_ARCHITECTURE",
+  "final": [
+    "ARCHITECTURE_SELECTED",
+    "CAD_CONCEPT_COMPLETE",
+    "PHYSICAL_VALIDATION_PENDING"
+  ],
+  "parameters": {
+    "architecture": {
+      "automatic_cassette_swap_current": false,
+      "current_standard": [
+        "TOP_SERVICE_MANUAL_SWAP",
+        "AUTONOMOUS_CONTACT_CHARGING"
+      ],
+      "manual_top_swap": true,
+      "normal_battery_removal": false,
+      "rear_slide": "SUPERSEDED_AS_PRIMARY_ARCHITECTURE_PRESERVED_FOR_RESEARCH"
+    },
+    "authority_conflicts": {
+      "cbox_v0_9_6_32": {
+        "cbox_body_mm": [
+          246.0,
+          150.0,
+          80.0
+        ],
+        "cbox_total_print_bbox_mm": [
+          246.0,
+          152.0,
+          80.0
+        ],
+        "status": "LATEST_MODULAR_CBOX_LOCAL_GEOMETRY_AUTHORITY",
+        "z_placement": "HOLD_NO_UNAMBIGUOUS_TRANSFORM"
+      },
+      "fixed_core_v228": {
+        "bbox_body_nominal_mm": [
+          200.0,
+          150.0,
+          120.0
+        ],
+        "gasket_nominal_mm": [
+          204.0,
+          154.0,
+          3.0
+        ],
+        "lid_nominal_mm": [
+          216.0,
+          166.0,
+          16.0
+        ],
+        "status": "CURRENT_FIXED_CORE_AUDIT_FACTS_NOT_AUTOMATICALLY_MERGED"
+      },
+      "resolution": "AUTHORITY_CONFLICT_RECORDED_NO_SYNTHETIC_UNIFIED_DIMENSION",
+      "submerged_v0_9_6_0": {
+        "bbox_lower_shell_mm": [
+          200.0,
+          130.0,
+          97.0
+        ],
+        "cbox_external_mm": [
+          180.0,
+          92.0,
+          45.0
+        ],
+        "gasket_outer_mm": [
+          186.0,
+          116.0,
+          2.0
+        ],
+        "lid_mm": [
+          200.0,
+          130.0,
+          4.2
+        ],
+        "status": "SUBMERGED_PROTOTYPE_AUTHORITY_NOT_AUTOMATICALLY_MERGED"
+      }
+    },
+    "battery_physical_reference": {
+      "authority": "V0_9_6_0_PHYSICAL_MEASUREMENT_CLOSURE_REFERENCE",
+      "body_mm": [
+        150.9,
+        99.4,
+        92.5
+      ],
+      "capacity_ah": 10.0,
+      "energy_wh": 128.0,
+      "mass_kg": 1.2,
+      "product": "GOLDENMATE LiFePO4",
+      "voltage_v": 12.8
+    },
+    "cbox_service": {
+      "automatic_actuation": false,
+      "cable_service_loop": "HOLD",
+      "direction": "HOLD",
+      "display_only_operating_z_mm": 140.0,
+      "display_only_symmetric_offsets_mm": [
+        -280.0,
+        280.0
+      ],
+      "first_candidate": "LATERAL_SERVICE_SLIDE",
+      "lock": "HOLD",
+      "rail": "HOLD",
+      "secondary": "HINGE_UP",
+      "stroke_mm": "HOLD"
+    },
+    "classification": "TOP_SERVICE_MANUAL_SWAP_PLUS_AUTONOMOUS_CONTACT_CHARGING_ARCHITECTURE",
+    "concept_geometry": {
+      "battery_sweep_display_height_mm": 212.5,
+      "bbox_display_reference_mm": [
+        200.0,
+        150.0,
+        120.0
+      ],
+      "charging_contact_display_keepout_mm": [
+        80.0,
+        60.0,
+        50.0
+      ],
+      "classification": "TRANSPARENT_REFERENCE_ONLY_NOT_POSITION_STROKE_OR_HARDWARE_AUTHORITY",
+      "station_display": {
+        "approach_length_mm": 700.0,
+        "guide_height_mm": 100.0,
+        "guide_span_mm": 400.0
+      }
+    },
+    "current_water_dummy_v001": {
+      "modified": false,
+      "rear_slide_validation": false,
+      "role": "PRINTED_SHELL_TOP_SEAL_DEVELOPMENT_REFERENCE",
+      "status_reference": [
+        "CAD_PASS",
+        "CONTRACT_PASS",
+        "PRINT_NOT_YET"
+      ]
+    },
+    "holds": [
+      "EXACT_BBOX_DIMENSIONAL_AUTHORITY_CONFLICT",
+      "TOP_LID_FINAL_GEOMETRY",
+      "TOP_GASKET_COMPRESSION",
+      "CBOX_LATERAL_SLIDE_DIRECTION",
+      "CBOX_REQUIRED_SERVICE_STROKE",
+      "SERVICE_LOCK_MECHANISM",
+      "CBOX_CABLE_SERVICE_LOOP",
+      "BATTERY_POWER_CONNECTOR",
+      "CHARGING_CONTACT_HARDWARE",
+      "CHARGING_VOLTAGE_CURRENT",
+      "CHARGING_STATION_DOCKING_TOLERANCE",
+      "MUD_WATER_CONTAMINATION_RESISTANCE",
+      "PHYSICAL_WATERPROOF_TEST",
+      "ACTUAL_BATTERY_SWAP_ERGONOMICS",
+      "CBOX_FRAME_MOTOR_PTO_CRAWLER_INTERFERENCE_TRANSFORMS"
+    ],
+    "operation_modes": {
+      "A": "NORMAL_LOW_MEDIUM_LOAD_BATTERY_INSTALLED_AUTONOMOUS_CONTACT_CHARGING",
+      "B": "HIGH_LOAD_BUSY_SEASON_AUTONOMOUS_CHARGING_PRIMARY_MANUAL_TOP_SWAP_SUPPLEMENTAL",
+      "C": "SERVICE_FAILURE_STOP_ISOLATE_MOVE_CBOX_OPEN_TOP_MANUAL_REPLACE",
+      "D": "FUTURE_AUTOMATIC_SWAP_NOT_CURRENT_BASELINE"
+    },
+    "protected_principles": [
+      "HIGH_MOUNTED_DUAL_MOTOR_4WD_ARCHITECTURE",
+      "BBOX_CBOX_SEPARATION",
+      "REMOVABLE_BATTERY_CASSETTE_CONCEPT",
+      "LIFEPO4_12_8V_CURRENT_PROTOTYPE_BATTERY_AUTHORITY",
+      "INDEPENDENT_LEFT_RIGHT_DRIVE",
+      "CURRENT_CRAWLER_AND_PTO_ARCHITECTURE",
+      "CURRENT_SEALING_TEST_HISTORY",
+      "EXISTING_REAR_SLIDE_RESEARCH_ARTIFACTS"
+    ],
+    "status": "ARCHITECTURE_DECISION_RECORDED/TOP_SERVICE_MANUAL_SWAP_SELECTED/AUTONOMOUS_CONTACT_CHARGING_SELECTED/REAR_SLIDE_PRIMARY_ARCHITECTURE_SUPERSEDED/BATTERY_TRANSPORTER_ROLE_REDEFINED/AUTHORITY_CONFLICT_RECORDED/CAD_CONCEPT_PASS/CONTRACT_TEST_PASS/ARCHITECTURE_SELECTED/CAD_CONCEPT_COMPLETE/PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+    "version": "v0.9.6.35"
+  },
+  "repository_guard": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "outside_untracked": [
+      3153,
+      "53787a71cf5af242f020aa51ec5ef93ec8c16371727f6b07d851f70728b5bceb"
+    ],
+    "protected": {
+      "aggregate_sha256": "c4adc57e39ac24f5ec5cff4fc234a0424ca09626e8d827374a0c4c575436565a",
+      "file_count": 1540,
+      "focus": {
+        "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test": {
+          "count": 21,
+          "tree_sha256": "331f7ea46ef9ab26731d58300f658476bf919113960f10f5babaded1d47dcec8"
+        },
+        "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0": {
+          "count": 40,
+          "tree_sha256": "5b18fee1976e292a370f3ac56930544df711cd44d66075f9b6216af40a91c465"
+        },
+        "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27": {
+          "count": 54,
+          "tree_sha256": "1079a028588d35564e9e7241dda645a120b570fe2cf4c8b607169138c5742701"
+        },
+        "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32": {
+          "count": 28,
+          "tree_sha256": "4792b7db682d02e78ab88bdd8642f42b6805a6773782f4bcc36f2ff3427bc516"
+        },
+        "interfaces/power/bbox_battery_cassette/v001": {
+          "count": 5,
+          "tree_sha256": "61e5c3c7ee6c05b8a0dce5f07e816e8119bd343797761e5f64a2874f8c070376"
+        },
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out": {
+          "count": 74,
+          "tree_sha256": "a84530203d35e06bec22f00215cd7649f45ab1aad70028bc0cda89a7ee979f28"
+        }
+      },
+      "lane_count": 35
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": {
+      "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test/validation_report.json": "311b5991d4233804547b72404f5451c7767c460304a06c6c029f502b3d4099b5",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/ARCHITECTURE_AUTHORITY.md": "b198289fd95879342170dc5e5fda92f11a5dfe3048336f8824c9b2859e71e063",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/design_parameters.json": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271",
+      "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27/DESIGN_AUTHORITY.md": "1129e5fbc8cc044fa835e9b66a72cab66e1f839201d64888802b6d1fcc8368df",
+      "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27/REAR_SLIDE_ARCHITECTURE.md": "e7e2b85b61c42d19756f5acca7e00c44365d11790da1fd3f67d6f7cb47e42315",
+      "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27/design_parameters.json": "e89f8b00dd0dba0a795da1e465b14f9b7a3970a6e5174dcec8ff052cf8860dfa",
+      "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32/data/design_parameters.json": "1e37c756c736300d586329a18e7ac43aa969eee3d6215a09bd91eb6f6f7c3b60",
+      "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32/docs/DESIGN_AUTHORITY.md": "1e1ffcb1825bc319bfac214b7aa028efc088233e0dc5c8c99bb291e059c435f5",
+      "interfaces/power/bbox_battery_cassette/v001/README.md": "0463ff3e69cf5569a9711c0c71ef3c6566be1469c85af351062459c98c6fcacd",
+      "rovers/common_rover/v2.28/paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py": "aa8de0ddc9537fd5f8e75a4c41bc98975749aac4e9abd2419993e73d92df2201"
+    },
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "ARCHITECTURE_DECISION_RECORDED/TOP_SERVICE_MANUAL_SWAP_SELECTED/AUTONOMOUS_CONTACT_CHARGING_SELECTED/REAR_SLIDE_PRIMARY_ARCHITECTURE_SUPERSEDED/BATTERY_TRANSPORTER_ROLE_REDEFINED/AUTHORITY_CONFLICT_RECORDED/CAD_CONCEPT_PASS/CONTRACT_TEST_PASS/ARCHITECTURE_SELECTED/CAD_CONCEPT_COMPLETE/PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+  "step_reload": {
+    "battery_vertical_extraction_swept_envelope_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        150.9,
+        99.4,
+        212.5
+      ],
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "bbox_top_service_concept_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        200.0,
+        150.0,
+        120.0
+      ],
+      "reload": "PASS",
+      "solid_count": 2
+    },
+    "cbox_operating_position_reference_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        246.0,
+        152.0,
+        220.0
+      ],
+      "reload": "PASS",
+      "solid_count": 2
+    },
+    "cbox_service_position_reference_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        806.0,
+        152.0,
+        220.0
+      ],
+      "reload": "PASS",
+      "solid_count": 4
+    },
+    "charging_contact_conceptual_keepout_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        80.0,
+        60.0,
+        50.0
+      ],
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "station_docking_conceptual_envelope_v0_9_6_35.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        430.0,
+        715.0,
+        210.0
+      ],
+      "reload": "PASS",
+      "solid_count": 4
+    }
+  },
+  "svg_validation": {
+    "ARCHITECTURE_BEFORE_AFTER.svg": {
+      "bytes": 1874,
+      "xml_valid": true
+    },
+    "AUTONOMOUS_CONTACT_CHARGING_SEQUENCE.svg": {
+      "bytes": 2182,
+      "xml_valid": true
+    },
+    "BATTERY_TRANSPORTER_ROLE.svg": {
+      "bytes": 1713,
+      "xml_valid": true
+    },
+    "MANUAL_BATTERY_SWAP_SEQUENCE.svg": {
+      "bytes": 2436,
+      "xml_valid": true
+    },
+    "NORMAL_OPERATION_LAYOUT.svg": {
+      "bytes": 1530,
+      "xml_valid": true
+    },
+    "WATERPROOF_BOUNDARY_UPDATE.svg": {
+      "bytes": 1845,
+      "xml_valid": true
+    }
+  },
+  "version": "v0.9.6.35"
+}

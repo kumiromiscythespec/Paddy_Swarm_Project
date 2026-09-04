@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#17202a}.n{font-size:18px}.s{font-size:14px;fill:#566573}.d{stroke:#34495e;stroke-width:2;fill:none}</style>
+<text x="30" y="35" class="n">DRIVE tensioner physical reference — NOT A PRODUCTION DRAWING</text><line x1="120" y1="360" x2="840" y2="360" class="d"/>
+<circle cx="120" cy="360" r="32" fill="#d6eaf8" stroke="#2874a6" stroke-width="3"/><circle cx="840" cy="360" r="90" fill="#d5f5e3" stroke="#148f77" stroke-width="3"/>
+<circle cx="404" cy="180" r="51.8" fill="#fadbd8" stroke="#c0392b" stroke-width="3"/><text x="83" y="415" class="n">20T (0,0)</text><text x="790" y="475" class="n">60T (180,0)</text>
+<text x="335" y="105" class="n">Tensioner X=71.0 mm</text><text x="330" y="130" class="s">perpendicular magnitude ≈45 mm; sign unassigned</text><text x="350" y="185" class="n">OD 25.9 mm</text>
+<line x1="120" y1="405" x2="840" y2="405" class="d"/><line x1="120" y1="395" x2="120" y2="415" class="d"/><line x1="840" y1="395" x2="840" y2="415" class="d"/><text x="410" y="445" class="n">180.0 mm MEASURED</text>
+<line x1="404" y1="180" x2="404" y2="360" stroke="#922b21" stroke-dasharray="8 5" stroke-width="2"/><text x="425" y="275" class="n">≈45 mm</text><text x="30" y="500" class="s">BACKSIDE contact; X is primary physical reference. FINAL_TENSIONER_POSITION = HOLD.</text></svg>

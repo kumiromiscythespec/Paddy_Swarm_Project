@@ -1,0 +1,59 @@
+{
+  "ballast_plate_reference_mm": [
+    244.0,
+    196.0,
+    4.0
+  ],
+  "body": {
+    "bottom_mm": 5.0,
+    "height_mm": 70.0,
+    "outer_xy_mm": [
+      200.0,
+      150.0
+    ],
+    "wall_mm": 4.0
+  },
+  "closure_holes": {
+    "dummy": 0,
+    "source": 0,
+    "state": "EXACT_EMPTY_PATTERN_PHYSICAL_CLOSURE_HOLD"
+  },
+  "gasket_inner_xy_mm": [
+    188.0,
+    138.0
+  ],
+  "gasket_mm": [
+    204.0,
+    154.0,
+    3.0
+  ],
+  "hydrostatic": {
+    "depth_m": 0.15,
+    "g_m_s2": 9.80665,
+    "rho_kg_m3": 1000.0
+  },
+  "lid_actual_source_bbox_mm": [
+    216.0,
+    166.0,
+    18.5
+  ],
+  "lid_nominal_mm": [
+    216.0,
+    166.0,
+    16.0
+  ],
+  "source_notch_policy": "CLOSED_BY_WATER_DUMMY_NO_PENETRATION_TASK_OVERRIDE",
+  "tower": {
+    "centers_abs_xy_mm": [
+      116.0,
+      92.0
+    ],
+    "count": 4,
+    "cross_section_mm": [
+      12.0,
+      12.0
+    ],
+    "top_z_mm": 95.5
+  },
+  "version": "PS-BBOX-WATER-DUMMY-V001"
+}

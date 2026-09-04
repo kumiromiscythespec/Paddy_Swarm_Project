@@ -1,0 +1,56 @@
+{
+  "architecture": "H2.5-A1 / 2S collar-based shaft retention",
+  "classification": "PHYSICAL_FOLLOWUP_MEASUREMENT_ONLY",
+  "gates": {
+    "field_deployment": "NOT_APPROVED",
+    "full_sprocket": "HOLD",
+    "powered_rotation": "NOT_APPROVED",
+    "static_retention": "STRONG_PHYSICAL_CANDIDATE"
+  },
+  "hardware_reference": {
+    "classification": "CAD_REFERENCE",
+    "collar_axial_width_mm": 3.0,
+    "collar_id_mm": 10.1,
+    "collar_od_mm": 15.9,
+    "full_axial_envelope_mm": 8.8,
+    "full_hardware_radial_envelope_mm": 20.0,
+    "m4_set_screw_count": 2,
+    "set_screw_angle_deg": 90.0
+  },
+  "nominal_torque_reference": {
+    "classification": "DERIVED_NOMINAL_REFERENCE",
+    "gravity_m_s2": 9.80665,
+    "lever_m": 0.07,
+    "mass_kg": 1.0,
+    "not_classified_as": "PHYSICAL_MEASURED_TORQUE",
+    "value_n_m": 0.6864655000000001
+  },
+  "previous_short_duration_reference": {
+    "classification": "SOURCE_REFERENCE",
+    "initial_shaft_shift": "NONE_REPORTED",
+    "lever_distance_mm": 70.0,
+    "load_mass_kg": 1.2,
+    "nominal_torque_n_m": 0.8237586,
+    "promotion_to_24h_pass": false
+  },
+  "test": {
+    "collar_rotation": "NONE_REPORTED",
+    "duration_h": {
+      "classification": "USER_REPORTED",
+      "value": 24.0
+    },
+    "lever_distance_mm": {
+      "classification": "USER_REPORTED / MEASURED_REFERENCE",
+      "value": 70.0
+    },
+    "load_mass_kg": {
+      "classification": "USER_REPORTED / MEASURED_REFERENCE",
+      "value": 1.0
+    },
+    "result": "PHYSICAL_PASS_USER_REPORTED",
+    "shaft_shift": "NONE",
+    "visible_crack": "NONE_REPORTED",
+    "visible_petg_creep": "NONE_REPORTED"
+  },
+  "version": "0.9.5.3"
+}

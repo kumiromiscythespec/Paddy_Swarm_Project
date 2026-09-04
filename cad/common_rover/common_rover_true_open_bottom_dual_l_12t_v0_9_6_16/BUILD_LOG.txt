@@ -1,0 +1,10 @@
+version=v0.9.6.16
+classification=TRUE_OPEN_BOTTOM_DUAL_L_12T
+python=3.12.13
+cadquery=2.8.0
+paths=36
+step=4
+stl=3
+svg=3
+main_z_min_mm=-22.0
+old_regression=PASS_EXPECTED_FAIL

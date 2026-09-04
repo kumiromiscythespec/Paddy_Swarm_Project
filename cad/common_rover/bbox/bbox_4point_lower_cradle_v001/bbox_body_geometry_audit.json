@@ -1,0 +1,64 @@
+{
+  "body_bounds_mm": [
+    180.0,
+    96.0,
+    114.395
+  ],
+  "body_geometry_reference": "VALID_FOR_MECHANICAL_FIT_STUDY",
+  "bottom_face_area_mm2": 12312.0,
+  "bottom_z_mm": 0.0,
+  "floor_mm": 3.5,
+  "full_v004_60_min_water": "FAIL_UNRESOLVED_SLOW_INGRESS_USER_LATEST_RESULT",
+  "lower_body_core_footprint_mm": [
+    162.0,
+    76.0
+  ],
+  "lower_chamfer": "NONE",
+  "lower_corner_radius_mm": 0.0,
+  "lower_footprint_class": "ACTUAL_GENERATED_STEP",
+  "lower_taper": "NONE",
+  "m4_tower_centers_mm": [
+    [
+      -84,
+      -42
+    ],
+    [
+      -84,
+      0
+    ],
+    [
+      -84,
+      42
+    ],
+    [
+      0,
+      -42
+    ],
+    [
+      0,
+      42
+    ],
+    [
+      84,
+      -42
+    ],
+    [
+      84,
+      0
+    ],
+    [
+      84,
+      42
+    ]
+  ],
+  "m4_tower_count": 8,
+  "small_g065_dummy_water": "PASS",
+  "source": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/artifacts/compact_field_bbox_v004_g065_body.step",
+  "top_m4_tower_envelope_xy_mm": [
+    180.0,
+    96.0
+  ],
+  "top_tower_class": "ACTUAL_GENERATED_STEP_SEPARATE_FROM_LOWER_FOOTPRINT",
+  "wall_mm": 3.5,
+  "waterproof_authority": "SEPARATE_NOT_PROMOTED"
+}

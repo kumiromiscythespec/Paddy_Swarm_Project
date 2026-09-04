@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>.t{font:700 28px sans-serif;fill:#102a43}.h{font:700 18px sans-serif;fill:#243b53}.m{font:15px monospace;fill:#334e68}.rail{fill:#adb5bd;stroke:#495057;stroke-width:3}.cbox{fill:#caf0f8;stroke:#0077b6;stroke-width:3}.bbox{fill:#d8f3dc;stroke:#2d6a4f;stroke-width:3}.saddle{fill:#ffe8a1;stroke:#d98300;stroke-width:3}.keep{fill:#ffe3e3;stroke:#c92a2a;stroke-width:3;fill-opacity:.5}.d{fill:none;stroke:#334e68;stroke-width:2;stroke-dasharray:8 6}.a{stroke:#c92a2a;stroke-width:3;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c92a2a"/></marker></defs>
+<rect width="1200" height="760" fill="#f8fafc"/><text x="42" y="48" class="t">SIDE VIEW — BBOX clearance and rearward CBOX</text><rect x="110" y="480" width="520" height="44" class="rail"/><rect x="145" y="464" width="285" height="16" class="saddle"/>
+<rect x="120" y="306" width="300" height="158" class="cbox"/><rect x="430" y="430" width="380" height="50" class="bbox"/>
+<rect x="610" y="320" width="95" height="110" class="keep"/><path d="M425 450H610" class="d"/>
+<text x="845" y="325" class="m">lid top Z254</text><text x="845" y="360" class="m">CBOX global bottom Z257.85</text>
+<text x="845" y="395" class="m">minimum vertical gap 3.85</text><text x="845" y="430" class="m">chimney X gap 10</text>
+<text x="42" y="730" class="m">CBOX_TRANSVERSE_CROSS_SADDLE_BBOX_ALIGNMENT_V001 · LOCAL Y0 · PHYSICAL VALIDATION PENDING</text></svg>

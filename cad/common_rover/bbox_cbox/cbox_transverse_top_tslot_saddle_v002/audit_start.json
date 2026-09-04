@@ -1,0 +1,26 @@
+{
+  "branch": "agent/organize-untracked-cad-assets-20260725",
+  "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+  "outside_untracked_count": 4442,
+  "outside_untracked_paths_sha256": "a4d9050b8b982174c38f6e6a492f1de63d7482eefdc50562ffaec0d1596d0436",
+  "dirty": {
+    "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+    "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+    "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+    "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+  },
+  "protected": {
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {"files": 45, "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"},
+    "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {"files": 15, "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"},
+    "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32": {"files": 28, "sha256": "4792b7db682d02e78ab88bdd8642f42b6805a6773782f4bcc36f2ff3427bc516"},
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {"files": 47, "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"},
+    "cad/common_rover/bbox_lid_wiring_chimney_v004_drainage_biased_gland": {"files": 27, "sha256": "7c08b27d629ad800c9a5caa55357466dd1413f740027f30cce7303ee2fe1de25"},
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {"files": 18, "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"},
+    "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {"files": 37, "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481"},
+    "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {"files": 55, "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"},
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {"files": 66, "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"},
+    "cad/common_rover/frame/front_interface_dual_pto_20t_v002": {"files": 26, "sha256": "3bc425b0e857dc921f602d7fd594d9c60e0d6f70640498483ed8aa2260534d28"},
+    "cad/common_rover/pto/pto_p25_slide_in_positioning_v002": {"files": 36, "sha256": "8abb0351db318a5f4ea31b1be7106a16b6228c7c71eb15b0185e66dfbaa7d6df"},
+    "cad/common_rover/common_rover_powertrain_frame_joint_trade_study_v0_9_3_4": {"files": 87, "sha256": "15c50a0c49e1a08d08fce397aab2aabbdffc63306e1f5bcdaff9cc6abc450dba"}
+  }
+}

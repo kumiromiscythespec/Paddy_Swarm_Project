@@ -1,0 +1,390 @@
+{
+  "depth_regression": [
+    {
+      "plus_010_negative_rejected": true,
+      "requested_mm": 0.5,
+      "step_actual_mm": 0.5,
+      "stl_actual_mm": 0.5
+    },
+    {
+      "plus_010_negative_rejected": true,
+      "requested_mm": 0.55,
+      "step_actual_mm": 0.5499999999999972,
+      "stl_actual_mm": 0.5499999999999972
+    },
+    {
+      "plus_010_negative_rejected": true,
+      "requested_mm": 0.65,
+      "step_actual_mm": 0.6500000000000057,
+      "stl_actual_mm": 0.6500000000000057
+    }
+  ],
+  "geometry": {
+    "actual_step_geometry": {
+      "actual_depth_mm": 0.6500000000000057,
+      "floor_area_mm2": 947.3137112681278,
+      "floor_wires": 2,
+      "floor_z_mm": 112.85,
+      "rim_z_mm": 113.5
+    },
+    "battery": {
+      "body_height_mm": 92.5,
+      "long_mm": 150.9,
+      "mass_kg": 1.2,
+      "terminal_inclusive_height_mm": 99.4,
+      "width_mm": 65.5
+    },
+    "battery_clearance_total_xy_mm": [
+      4.1,
+      3.5
+    ],
+    "battery_to_body_mm3": 0,
+    "battery_to_chimney_mm": 25.394999999999996,
+    "battery_to_chimney_mm3": 0,
+    "battery_to_lid_mm3": 0,
+    "battery_to_m4_tower_mm": 3.0103986446980686,
+    "battery_to_m4_tower_mm3": 0,
+    "body_added_volume_mm3": 0,
+    "body_bounds_mm": [
+      180.0,
+      96.0,
+      114.395
+    ],
+    "body_outside_groove_difference_mm3": 0,
+    "body_removed_volume_mm3": 165.57621935726402,
+    "body_valid": true,
+    "chimney_above_lid_difference_mm3": 0,
+    "chimney_local_wall_mm": 2.4,
+    "chimney_pg9_mm": 15.2,
+    "cord_diameter_mm": 1.8,
+    "floor_mm": 3.5,
+    "full_corner_region_difference_mm3": [
+      0,
+      41.04750000000008,
+      0,
+      0
+    ],
+    "full_corner_region_difference_reason": "Chimney mouth inside the seal; chimney presence is an allowed difference. Seal-wall region is independently zero-diff.",
+    "gasket_length_mm": 451.1017672705389,
+    "gasket_to_body_mm3": 0,
+    "groove_width_mm": 2.1,
+    "hard_stop_mm": 0.894999999999996,
+    "internal_mm": [
+      155,
+      69,
+      110
+    ],
+    "lid_added_volume_mm3": 3192.0,
+    "lid_bounds_mm": [
+      180.0,
+      104.0,
+      58.0
+    ],
+    "lid_bridge_bounds_mm": [
+      42.0,
+      9.5,
+      8.0
+    ],
+    "lid_missing_seal_land_mm3": 0,
+    "lid_outside_local_bridge_difference_mm3": 0,
+    "lid_removed_volume_mm3": 0,
+    "lid_valid": true,
+    "local_interface_adjustment": "LID_Z0_TO_8_ONLY; GASKET_LAND_RESTORED; GROOVE_ROOFS_REMOVED",
+    "lower_chimney_opening_after_mm": [
+      42,
+      27.5
+    ],
+    "lower_chimney_opening_before_mm": [
+      42,
+      37
+    ],
+    "m4_centers_mm": [
+      [
+        -84,
+        -42
+      ],
+      [
+        -84,
+        0
+      ],
+      [
+        -84,
+        42
+      ],
+      [
+        0,
+        -42
+      ],
+      [
+        0,
+        42
+      ],
+      [
+        84,
+        -42
+      ],
+      [
+        84,
+        0
+      ],
+      [
+        84,
+        42
+      ]
+    ],
+    "m4_count": 8,
+    "m4_hole_to_gasket_min_mm": 1.8999999999999915,
+    "m4_to_gasket_mm3": 0,
+    "nominal_compression_mm": 0.2550000000000039,
+    "nominal_compression_percent": 14.166666666666883,
+    "parent_lid_missing_seal_land_mm3": 44.09999999999993,
+    "parent_naive_g065_gasket_overlap_mm3": 18.406303962365424,
+    "radii_mm": {
+      "centerline": 4.95,
+      "inner": 3.9,
+      "outer": 6
+    },
+    "removal_fixed_body_mm3": 0,
+    "requested_depth_mm": 0.65,
+    "rigid_closure_mm3": 0,
+    "seal_corner_differences_mm3": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seal_straight_section_difference_mm3": 0,
+    "source_g050": {
+      "actual_depth_mm": 0.5,
+      "floor_area_mm2": 947.3137112681281,
+      "floor_wires": 2,
+      "floor_z_mm": 113.0,
+      "rim_z_mm": 113.5
+    },
+    "source_g065": {
+      "actual_depth_mm": 0.6499999999999986,
+      "groove_bottom_z_mm": 27.85,
+      "groove_floor_area_mm2": 460.1137112681324,
+      "groove_floor_wires": 2,
+      "rim_z_mm": 28.5
+    },
+    "terminal_to_lid_mm": 10.49499999999999,
+    "terminal_to_rim_mm": 9.6,
+    "tpu_bounds_mm": [
+      126.0,
+      55.0,
+      1.0
+    ],
+    "vertical_removal_condition": "LID_REMOVED_AND_STRAP_RELEASED",
+    "wall_mm": 3.5
+  },
+  "quality": {
+    "step": {
+      "artifacts/battery_removal_sweep.step": {
+        "bounds_mm": [
+          150.9,
+          65.5,
+          169.4
+        ],
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/battery_terminal_keepout.step": {
+        "bounds_mm": [
+          42.0,
+          65.5,
+          18.0
+        ],
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/chimney_reference.step": {
+        "bounds_mm": [
+          50.0,
+          53.0,
+          50.0
+        ],
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/compact_field_bbox_v004_g065_assembly.step": {
+        "bounds_mm": [
+          180.0,
+          128.5,
+          172.395
+        ],
+        "solids": 11,
+        "valid": true
+      },
+      "artifacts/compact_field_bbox_v004_g065_body.step": {
+        "bounds_mm": [
+          180.0,
+          96.0,
+          114.395
+        ],
+        "self_interference": {
+          "fault_count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/compact_field_bbox_v004_g065_lid.step": {
+        "bounds_mm": [
+          180.0,
+          104.0,
+          58.0
+        ],
+        "self_interference": {
+          "fault_count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/g065_seal_section_reference.step": {
+        "bounds_mm": [
+          4.0,
+          15.0,
+          6.0
+        ],
+        "solids": 2,
+        "valid": true
+      },
+      "artifacts/goldenmate_battery_reference.step": {
+        "bounds_mm": [
+          150.9,
+          65.5,
+          99.4
+        ],
+        "solids": 2,
+        "valid": true
+      },
+      "artifacts/main_cable_reference.step": {
+        "bounds_mm": [
+          9.6,
+          80.0,
+          9.6
+        ],
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/strap_and_anchor_reservation_reference.step": {
+        "bounds_mm": [
+          126.0,
+          71.0,
+          101.9
+        ],
+        "solids": 7,
+        "valid": true
+      },
+      "artifacts/tpu_runners.step": {
+        "bounds_mm": [
+          126.0,
+          55.0,
+          1.0
+        ],
+        "solids": 2,
+        "valid": true
+      },
+      "artifacts/v003_g050_seal_reference.step": {
+        "bounds_mm": [
+          4.0,
+          15.0,
+          6.0
+        ],
+        "solids": 2,
+        "valid": true
+      },
+      "artifacts/water_dummy_g065_seal_reference.step": {
+        "bounds_mm": [
+          4.0,
+          15.0,
+          6.0
+        ],
+        "solids": 2,
+        "valid": true
+      }
+    },
+    "step_depth": {
+      "actual_depth_mm": 0.6500000000000057,
+      "floor_area_mm2": 947.3137112681281,
+      "floor_wires": 2,
+      "floor_z_mm": 112.85,
+      "rim_z_mm": 113.5
+    },
+    "stl": {
+      "artifacts/compact_field_bbox_v004_g065_body.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 13556,
+        "watertight": true
+      },
+      "artifacts/compact_field_bbox_v004_g065_lid.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 22076,
+        "watertight": true
+      },
+      "artifacts/tpu_runners.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 24,
+        "watertight": true
+      }
+    },
+    "stl_depth": {
+      "actual_depth_mm": 0.6500000000000057,
+      "encoding": "ASCII_9_DECIMAL_VERTEX",
+      "floor_z_mm": 112.85,
+      "rim_z_mm": 113.5
+    }
+  },
+  "reproducibility": {
+    "byte_identical": {
+      "artifacts/battery_removal_sweep.step": true,
+      "artifacts/battery_terminal_keepout.step": true,
+      "artifacts/chimney_reference.step": true,
+      "artifacts/compact_field_bbox_v004_g065_assembly.step": true,
+      "artifacts/compact_field_bbox_v004_g065_body.step": true,
+      "artifacts/compact_field_bbox_v004_g065_body.stl": true,
+      "artifacts/compact_field_bbox_v004_g065_lid.step": true,
+      "artifacts/compact_field_bbox_v004_g065_lid.stl": true,
+      "artifacts/g065_seal_section_reference.step": true,
+      "artifacts/goldenmate_battery_reference.step": true,
+      "artifacts/main_cable_reference.step": true,
+      "artifacts/strap_and_anchor_reservation_reference.step": true,
+      "artifacts/tpu_runners.step": true,
+      "artifacts/tpu_runners.stl": true,
+      "artifacts/v003_g050_seal_reference.step": true,
+      "artifacts/water_dummy_g065_seal_reference.step": true,
+      "previews/battery_lid_clearance.svg": true,
+      "previews/battery_removal.svg": true,
+      "previews/chimney_clearance.svg": true,
+      "previews/g050_vs_g065_section.svg": true,
+      "previews/g065_full_box_seal_section.svg": true,
+      "previews/v004_front.svg": true,
+      "previews/v004_side.svg": true,
+      "previews/v004_top.svg": true
+    },
+    "count": 24,
+    "pass_count": 24,
+    "step_metadata": "Canonical FILE_NAME, generic PRODUCT and NAUO labels only; no geometry rewriting"
+  },
+  "status": "COMPACT_SEAL_G065_WATER_PHYSICAL_PASS/LOCAL_BBOX_V004_CAD_PASS/CONTRACT_TEST_PASS/FULL_BODY_PRINT_READY/FULL_LID_PRINT_READY/FULL_BBOX_WATERPROOF_PHYSICAL_PENDING/GLOBAL_VEHICLE_INTEGRATION_PHYSICAL_PENDING"
+}

@@ -1,0 +1,32 @@
+{
+  "coupon": {
+    "coupon_sits_flat": "PASS/FAIL",
+    "final": "TOP_T_SLOT_COUPON_PHYSICAL_PASS/ADJUST/FAIL",
+    "m5_threads_normally": "PASS/FAIL",
+    "petg": "NONE/WHITENING/CRACK",
+    "rail_damage": "NONE/MARK/GOUGE",
+    "rocking": "NONE/SMALL/FAIL",
+    "screw_head_below_cbox_plane": "YES/NO",
+    "tightens_against_rail": "PASS/FAIL",
+    "tnut_inserts": "PASS/FAIL",
+    "tool_access": "PASS/FAIL",
+    "top_m5_aligns_with_slot": "PASS/FAIL",
+    "upper_rail_identified": null
+  },
+  "full_saddles_after_coupon_pass": {
+    "bbox_lid_access": "PASS/FAIL",
+    "cbox_dry_placement": "PASS/FAIL",
+    "cbox_lateral_fit": "PASS/TIGHT/LOOSE",
+    "cbox_removable": "YES/NO",
+    "cbox_to_bbox_contact": "NONE/YES",
+    "chimney_access": "PASS/FAIL",
+    "crawler_static_contact": "NONE/YES",
+    "four_m5_tnut_fasteners": "PASS/FAIL",
+    "left_rail_fit": "PASS/FAIL",
+    "manual_light_shake": "PASS/FAIL",
+    "petg_damage": "NONE/WHITENING/CRACK",
+    "rail_height_difference": "NO_ISSUE/SHIM_REQUIRED/FAIL",
+    "right_rail_fit": "PASS/FAIL",
+    "static_cbox_support": "PASS/FAIL"
+  }
+}

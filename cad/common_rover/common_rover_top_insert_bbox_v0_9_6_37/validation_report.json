@@ -1,0 +1,349 @@
+{
+  "analysis": {
+    "battery": {
+      "body_collision_mm3": 0,
+      "dummy_fit": "PHYSICAL_PASS",
+      "height_clearance_mm": 6.0,
+      "insertion_direction": "+Z_TOP",
+      "lower_cavity_clearance_x_per_side_mm": 7.0,
+      "lower_cavity_clearance_y_front_rear_mm": [
+        3.799999999999997,
+        2.799999999999997
+      ],
+      "nominal_repository_reference_mm": [
+        150.9,
+        99.4,
+        92.5
+      ],
+      "physical_height_mm": 99.0,
+      "production_keepout_xyz_mm": [
+        102.0,
+        99.4,
+        99.0
+      ],
+      "sweep_collision_mm3": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_side": "TOP",
+      "top_opening_clearance_x_per_side_mm": 4.0,
+      "top_opening_clearance_y_front_rear_mm": [
+        0.8,
+        9.8
+      ]
+    },
+    "body": {
+      "bbox_mm": [
+        122.0,
+        122.0,
+        109.0
+      ],
+      "frame_clearance_per_side_mm": [
+        1.0,
+        1.5
+      ],
+      "front_floor_mm": 4.0,
+      "inner_upper_xyz_mm": [
+        116.0,
+        116.0,
+        75.0
+      ],
+      "outer_xyz_mm": [
+        122.0,
+        122.0,
+        109.0
+      ],
+      "primary_valid": true,
+      "rear_relief": {
+        "body_intersection_mm3": 0,
+        "depth_mm": 10.0,
+        "form": "SELF_SUPPORTING_TRIANGULAR_REAR_BOTTOM_RELIEF",
+        "height_mm": 24.0,
+        "roof_mm": 4.0
+      },
+      "top_opening_xy_mm": [
+        110.0,
+        110.0
+      ],
+      "wall_mm": 3.0
+    },
+    "lid_gasket_cable": {
+      "cable_od_mm": 9.6,
+      "channel_lateral_clearance_per_side_mm": 1.2000000000000002,
+      "channel_width_mm": 12.0,
+      "compressed_gasket_body_intersection_mm3": 0,
+      "compressed_gasket_lid_intersection_mm3": 0,
+      "fastener": "M4_HEAT_SET_INSERT_PATTERN_CANDIDATE",
+      "fastener_count": 8,
+      "fastener_gasket_intersection_mm3": 0,
+      "gasket_closed_loop": true,
+      "gasket_compression_percent": [
+        20.0,
+        25.0
+      ],
+      "gasket_xyz_mm": [
+        118.0,
+        118.0,
+        3.0
+      ],
+      "gland_pad_od_mm": 24.0,
+      "groove_depth_mm": 2.3,
+      "lid_bbox_mm": [
+        122.0,
+        122.0,
+        11.0
+      ],
+      "lid_body_intersection_mm3": 0,
+      "lid_plate_mm": 7.0,
+      "nominal_compression_percent_at_hard_stop": 23.333,
+      "seal_land_mm": 6.0,
+      "waterproof_penetration_d_mm": 0.0
+    },
+    "measurement_authority": {
+      "arithmetic_131_minus_24_mm": 107.0,
+      "arithmetic_discrepancy_mm": 2.0,
+      "axis_mapping": "Z_131_CONFIRMED_XY_ORDER_NEUTRALIZED_BY_SQUARE_PLAN",
+      "cable_od_mm": 9.6,
+      "frame_internal_height_mm": 131.0,
+      "frame_plan_raw_unordered_mm": [
+        124.0,
+        125.0
+      ],
+      "governing_cad_height_mm": 109.0,
+      "rear_idler_interference_height_mm": 24.0,
+      "user_effective_height_mm": 109.0
+    },
+    "printability": {
+      "all_parts_within_build_volume": true,
+      "body_orientation": "BOTTOM_DOWN_TOP_OPEN",
+      "body_support": "OFF_PREFERRED",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        256.0
+      ],
+      "printer": "Bambu Lab A1",
+      "rear_relief_overhang": "45_DEG_SELF_SUPPORTING_CANDIDATE",
+      "slicer": "HOLD_SLICER_NOT_RUN"
+    },
+    "release": {
+      "first_print_filename": "artifacts/bbox_top_insert_body.stl",
+      "first_print_status": "READY_FOR_PHYSICAL_FIRST_PRINT",
+      "holds": [
+        "REAR_RELIEF_PHYSICAL_DEPTH_CONFIRMATION",
+        "LID_INSERT_PATTERN_PHYSICAL_CONFIRMATION",
+        "GASKET_COMPRESSION_PHYSICAL_CONFIRMATION",
+        "CABLE_GLAND_DRILLING_NOT_RELEASED",
+        "HOLD_SLICER_NOT_RUN",
+        "WATER_TEST_NOT_RUN"
+      ],
+      "production_step": "COMPLETE_3",
+      "production_stl": "COMPLETE_3"
+    }
+  },
+  "artifact_counts": {
+    "step": 6,
+    "stl": 3,
+    "svg": 9
+  },
+  "artifacts": {
+    "step": {
+      "artifacts/bbox_battery_fit_assembly.step": {
+        "bbox_mm": [
+          122.0,
+          122.0,
+          120.0
+        ],
+        "reload": "PASS",
+        "solid_count": 4,
+        "valid": true
+      },
+      "artifacts/bbox_frame_envelope_reference.step": {
+        "bbox_mm": [
+          125.5,
+          126.5,
+          132.5
+        ],
+        "reload": "PASS",
+        "solid_count": 2,
+        "valid": true
+      },
+      "artifacts/bbox_rear_idler_extension_reference.step": {
+        "bbox_mm": [
+          122.0,
+          122.2,
+          109.0
+        ],
+        "reload": "PASS",
+        "solid_count": 2,
+        "valid": true
+      },
+      "artifacts/bbox_top_insert_body.step": {
+        "bbox_mm": [
+          122.0,
+          122.0,
+          109.0
+        ],
+        "reload": "PASS",
+        "solid_count": 1,
+        "valid": true
+      },
+      "artifacts/bbox_top_insert_gasket.step": {
+        "bbox_mm": [
+          118.0,
+          118.0,
+          3.0
+        ],
+        "reload": "PASS",
+        "solid_count": 1,
+        "valid": true
+      },
+      "artifacts/bbox_top_insert_lid.step": {
+        "bbox_mm": [
+          122.0,
+          122.0,
+          11.0
+        ],
+        "reload": "PASS",
+        "solid_count": 1,
+        "valid": true
+      }
+    },
+    "stl": {
+      "artifacts/bbox_top_insert_body.stl": {
+        "bad_edge_count": 0,
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "manifold": true,
+        "reload": "PASS",
+        "triangle_count": 4752,
+        "watertight": true
+      },
+      "artifacts/bbox_top_insert_gasket.stl": {
+        "bad_edge_count": 0,
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "manifold": true,
+        "reload": "PASS",
+        "triangle_count": 1720,
+        "watertight": true
+      },
+      "artifacts/bbox_top_insert_lid.stl": {
+        "bad_edge_count": 0,
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "manifold": true,
+        "reload": "PASS",
+        "triangle_count": 9194,
+        "watertight": true
+      }
+    }
+  },
+  "checks": {
+    "a1_part_envelopes": "PASS",
+    "arithmetic_107_recorded": "PASS",
+    "authority_4_of_4": "PASS",
+    "battery_body_collision_zero": "PASS",
+    "battery_height_99_recorded": "PASS",
+    "battery_insertion_sweep_zero": "PASS",
+    "battery_terminal_top": "PASS",
+    "body_frame_clearance_positive": "PASS",
+    "cable_od_9p6": "PASS",
+    "compressed_gasket_body_intersection_zero": "PASS",
+    "compressed_gasket_lid_intersection_zero": "PASS",
+    "effective_height_109_recorded": "PASS",
+    "fastener_gasket_intersection_zero": "PASS",
+    "field": "NOT_YET",
+    "first_body_print": "READY_FOR_PHYSICAL_FIRST_PRINT",
+    "gasket_closed_loop": "PASS",
+    "gasket_compression": "HOLD_PHYSICAL_VALIDATION",
+    "height_131_recorded": "PASS",
+    "lid_body_intersection_zero": "PASS",
+    "no_lower_electrical_penetration": "PASS",
+    "powered_water": "PROHIBITED",
+    "protected_lanes": "PASS",
+    "rear_interference_24_recorded": "PASS",
+    "rear_relief_body_intersection_zero": "PASS",
+    "rear_side_battery_door_absent": "PASS",
+    "repository_guard": "PASS",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "square_plan_axis_neutral": "PASS",
+    "step_reload_6_of_6": "PASS",
+    "stl_3_watertight_manifold": "PASS",
+    "water": "NOT_YET"
+  },
+  "classification": "TOP_INSERT_BBOX_PRODUCTION_FIRST_PRINT_CANDIDATE",
+  "final_classification": "PRODUCTION_CAD_COMPLETE_FIRST_BODY_PRINT_READY_PHYSICAL_VALIDATION_PENDING",
+  "first_print": "artifacts/bbox_top_insert_body.stl",
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "focus_trees": {
+      "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test": {
+        "file_count": 21,
+        "status": "UNCHANGED",
+        "tree_sha256": "331f7ea46ef9ab26731d58300f658476bf919113960f10f5babaded1d47dcec8"
+      },
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0": {
+        "file_count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "5b18fee1976e292a370f3ac56930544df711cd44d66075f9b6216af40a91c465"
+      },
+      "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36": {
+        "file_count": 24,
+        "status": "UNCHANGED",
+        "tree_sha256": "33741f011a960bdbbf416ce8be51cb41c9663fbbe8dcbf9db28e5134fd4b0400"
+      },
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_dual_ejector_service_v0_9_6_37": {
+        "file_count": 23,
+        "status": "UNCHANGED",
+        "tree_sha256": "c29880dd62333ae4905bcb1be93687ab8e86c9add31373d177224522e2485f47"
+      },
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35": {
+        "file_count": 33,
+        "status": "UNCHANGED",
+        "tree_sha256": "a6b6757e46720c6559a617852c42bddecb4f3f7c5905ab0577a2eb99cd243dee"
+      }
+    },
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_expected_paths": 38,
+    "outside_untracked": [
+      3233,
+      "44891b2f58105248ebbda00381c1849991af17e596be14880d5ac454de82bcb8"
+    ],
+    "protected_lanes": {
+      "aggregate_sha256": "c359f0edc5e2a6e1974b18efdb7f6f1426c6bf0b5234678281f85041002573d0",
+      "file_count": 1635,
+      "lane_count": 38,
+      "status": "UNCHANGED"
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": {
+      "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test/build_bbox_water_dummy_v001.py": "2bcb65ba5f87749915fb3b521ed4d8cac7aec3aee640d243a2b3187085affebf",
+      "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test/validation_report.json": "311b5991d4233804547b72404f5451c7767c460304a06c6c029f502b3d4099b5",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/design_parameters.json": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271",
+      "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36/design_parameters.json": "8ff5782a380bb75de2a88a84084e5feec05d3a757766b6ff57ec4b7a8a41e5d4",
+      "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36/validation_report.json": "ba12550868f083462406130983f86700a3306648b7439ca2e52b0987399683ca",
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35/design_parameters.json": "be89b1c79f8d12b5e0bf1ba39aba7c3e99c56379c6b33a463b994d6a4b49fc85",
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35/validation_report.json": "9959b584fe550da5094520fb368e3d9dd15ce3ec8081693d57f32808edbe2984"
+    },
+    "staged_count": 0,
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "CAD_COMPLETE/CONTRACT_TEST_PASS/BBOX_BASIC_BODY_PRINT_READY/TOP_BATTERY_ARCHITECTURE_PRESERVED/PRODUCTION_STEP_STL_COMPLETE/REAR_BOTTOM_RELIEF_COMPLETE/TOP_TERMINAL_CABLE_9P6_RECORDED/FIRST_BODY_PRINT_READY/PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.37"
+}

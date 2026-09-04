@@ -1,0 +1,22 @@
+{
+  "chimney_gland_full_box_waterproof": "PHYSICAL_PENDING",
+  "classification": "COMPACT_SEAL_G065_WATER_PHYSICAL_PASS",
+  "cord_mm": 1.8,
+  "front_tilt_gt10_deg": "PASS",
+  "full_v004_waterproof": "PHYSICAL_PENDING",
+  "gasket_movement": "NONE",
+  "groove_actual_mm": 0.65,
+  "groove_width_mm": 2.1,
+  "hard_stop_mm": 0.895,
+  "leak": "NONE",
+  "left_tilt_gt10_deg": "PASS",
+  "paper_tear_cause": "ADHESIVE_HANDLING",
+  "petg_damage": "NONE",
+  "rear_tilt_gt10_deg": "PASS",
+  "right_tilt_gt10_deg": "PASS",
+  "source": "USER_PHYSICAL_RESULT_IN_V004_TASK",
+  "specimen": "WATER_DUMMY_G065",
+  "upright_60_min": "PASS",
+  "witness": "COMPLETELY_DRY",
+  "witness_paper_tear": "TEST_ARTIFACT_NOT_WATER_INGRESS"
+}

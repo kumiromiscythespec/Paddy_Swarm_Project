@@ -1,0 +1,41 @@
+{
+  "coupon": {
+    "bbox_inserts": "PASS/TIGHT/LOOSE/FAIL",
+    "bbox_removal": "PASS/FAIL",
+    "bottom_supported": "YES/NO",
+    "candidate": "C03/C05/C08",
+    "final": "CRADLE_SHOE_COUPON_PHYSICAL_PASS/ADJUST/FAIL",
+    "lid_contact": "NONE/YES",
+    "lid_m4_ear_contact": "NONE/YES",
+    "m5_tnut": "PASS/FAIL",
+    "petg": "NONE/WHITENING/CRACK",
+    "rail_mounting": "PASS/FAIL",
+    "selected_clearance_mm": "0.3/0.5/0.8/NONE",
+    "side_play": "NONE/SMALL/LARGE",
+    "sits_flat": "PASS/SMALL_ROCK/FAIL",
+    "tpu_pad": "PASS/TOO_THICK/TOO_THIN/NOT_TESTED",
+    "vertical_lip": "NORMAL/TOO_TIGHT/NONE"
+  },
+  "full_after_coupon_pass": {
+    "all_four_m5": "PASS/FAIL",
+    "battery_1p2kg_static": "PASS/FAIL",
+    "battery_vertical_removal": "YES/NO",
+    "cbox_interference": "NONE/YES",
+    "chimney_interference": "NONE/YES",
+    "crawler_static": "NONE/YES",
+    "empty_bbox_static": "PASS/FAIL",
+    "front_left": "PASS/FAIL",
+    "front_right": "PASS/FAIL",
+    "lateral_movement": "NONE/SMALL/LARGE",
+    "lid_m4_access": "PASS/FAIL",
+    "lid_removable": "YES/NO",
+    "manual_light_shake": "PASS/FAIL",
+    "petg": "NONE/WHITENING/CRACK",
+    "rear_left": "PASS/FAIL",
+    "rear_right": "PASS/FAIL",
+    "rests_on_all_four": "YES/NO",
+    "rocking": "NONE/SMALL/FAIL",
+    "tpu_pads": "PASS/FAIL",
+    "uplift_rollover": "NOT_QUALIFIED"
+  }
+}

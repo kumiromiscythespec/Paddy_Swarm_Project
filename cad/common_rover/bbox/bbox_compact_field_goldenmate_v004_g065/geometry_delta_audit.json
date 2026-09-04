@@ -1,0 +1,38 @@
+{
+  "body_added_volume_mm3": 0,
+  "body_outside_groove_difference_mm3": 0,
+  "body_removed_volume_mm3": 165.57621935726402,
+  "chimney_above_lid_difference_mm3": 0,
+  "full_corner_region_difference_mm3": [
+    0,
+    41.04750000000008,
+    0,
+    0
+  ],
+  "full_corner_region_difference_reason": "Chimney mouth inside the seal; chimney presence is an allowed difference. Seal-wall region is independently zero-diff.",
+  "lid_added_volume_mm3": 3192.0,
+  "lid_bridge_bounds_mm": [
+    42.0,
+    9.5,
+    8.0
+  ],
+  "lid_outside_local_bridge_difference_mm3": 0,
+  "lid_removed_volume_mm3": 0,
+  "lower_chimney_opening_after_mm": [
+    42,
+    27.5
+  ],
+  "lower_chimney_opening_before_mm": [
+    42,
+    37
+  ],
+  "parent_lid_missing_seal_land_mm3": 44.09999999999993,
+  "parent_naive_g065_gasket_overlap_mm3": 18.406303962365424,
+  "seal_corner_differences_mm3": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "seal_straight_section_difference_mm3": 0
+}

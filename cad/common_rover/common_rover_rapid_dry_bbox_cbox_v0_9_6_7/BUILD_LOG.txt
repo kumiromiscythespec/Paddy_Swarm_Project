@@ -1,0 +1,10 @@
+version=v0.9.6.7
+classification=DRY_TEST_FIXTURE_ONLY
+python=3.12.13
+cadquery=2.8.0
+paths=40
+step=9
+stl=2
+svg=5
+json=5
+print_time=HOLD_SLICER_NOT_RUN

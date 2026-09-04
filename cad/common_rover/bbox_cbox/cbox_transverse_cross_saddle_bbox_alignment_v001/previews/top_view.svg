@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>.t{font:700 28px sans-serif;fill:#102a43}.h{font:700 18px sans-serif;fill:#243b53}.m{font:15px monospace;fill:#334e68}.rail{fill:#adb5bd;stroke:#495057;stroke-width:3}.cbox{fill:#caf0f8;stroke:#0077b6;stroke-width:3}.bbox{fill:#d8f3dc;stroke:#2d6a4f;stroke-width:3}.saddle{fill:#ffe8a1;stroke:#d98300;stroke-width:3}.keep{fill:#ffe3e3;stroke:#c92a2a;stroke-width:3;fill-opacity:.5}.d{fill:none;stroke:#334e68;stroke-width:2;stroke-dasharray:8 6}.a{stroke:#c92a2a;stroke-width:3;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c92a2a"/></marker></defs>
+<rect width="1200" height="760" fill="#f8fafc"/><text x="42" y="48" class="t">TOP VIEW — selected independent saddles</text><rect x="130" y="155" width="380" height="390" class="bbox"/><text x="245" y="350" class="h">BBOX v003</text>
+<rect x="120" y="115" width="520" height="460" class="rail" fill-opacity=".20"/><rect x="105" y="100" width="300" height="490" class="cbox"/><text x="165" y="330" class="h">CBOX 150×246</text>
+<rect x="130" y="105" width="280" height="42" class="saddle"/><rect x="130" y="543" width="280" height="42" class="saddle"/>
+<rect x="440" y="300" width="90" height="105" class="keep"/><text x="555" y="340" class="m">chimney keep-out</text>
+<text x="690" y="170" class="m">selected X offset -111 mm</text><text x="690" y="205" class="m">CBOX long axis Y</text>
+<text x="690" y="240" class="m">mandatory 0 / ±30 collide</text><text x="690" y="275" class="m">no cross-rail bridge</text>
+<text x="42" y="730" class="m">CBOX_TRANSVERSE_CROSS_SADDLE_BBOX_ALIGNMENT_V001 · LOCAL Y0 · PHYSICAL VALIDATION PENDING</text></svg>

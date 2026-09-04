@@ -1,0 +1,154 @@
+{
+  "architecture": {
+    "cbox_side": "POSITIVE_Y_REFERENCE",
+    "chimney_base_joint_count": 0,
+    "gland": "ABOVE_NORMAL_WATERLINE",
+    "orientation": "HORIZONTAL_TOWARD_CBOX",
+    "primary_submersion_seal": false,
+    "selected": "BBOX_LID_INTEGRATED_WIRING_CHIMNEY",
+    "separate_base_gasket": false,
+    "service_cap": false
+  },
+  "boundaries": {
+    "gland_continuous_full_submersion": "NOT_PRIMARY_REQUIREMENT",
+    "primary": [
+      "BBOX_SHELL",
+      "LID",
+      "RUBBER_CORD_GASKET"
+    ],
+    "secondary": [
+      "RAISED_CHIMNEY",
+      "CABLE_GLAND",
+      "EXTERNAL_CABLE"
+    ]
+  },
+  "cable": {
+    "drip_loop": true,
+    "hard_bend_radius_candidate_mm": 28.8,
+    "od_mm": 9.6,
+    "secondary_retention": "REMOVABLE_GUIDE_OR_VELCRO_HOLD",
+    "service_length_mm": 900,
+    "target_bend_radius_mm": 38.4,
+    "vendor_minimum_bend_radius": "HOLD"
+  },
+  "chimney": {
+    "external_xyz_mm": [
+      50.0,
+      45.0,
+      60.0
+    ],
+    "gland_center_above_lid_top_mm": 35.0,
+    "hood_bottom_open": true,
+    "hood_max_thickness_mm": 4.0,
+    "hood_projection_mm": 10.0,
+    "hood_width_mm": 36.0,
+    "initial_height_50_adjustment_reason": "D40_TOOL_KEEP_OUT_VS_HOOD",
+    "integral_with_lid": true,
+    "internal_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "wall_mm": 4.0,
+    "water_trap_count": 0
+  },
+  "classification": "ABOVE_WATER_GLAND_ARCHITECTURE_FIRST_PRINT_CANDIDATE",
+  "freeze": {
+    "dry_side_opening_only": true,
+    "fastener_pattern_change": 0,
+    "gasket_loop_change": 0,
+    "parent": "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8",
+    "parent_lid_sha256": "6947e3666d5d8f02439d7db09f9360750c6496d08b6143ac07bb1662e1aa5170",
+    "seal_land_change": 0
+  },
+  "gland": {
+    "candidate_status": "NEW_PHYSICAL_CANDIDATE",
+    "coupon_candidates": [
+      {
+        "diametral_clearance_mm": 0.3,
+        "hole_d_mm": 15.2,
+        "id": "GH152",
+        "notches": 1
+      },
+      {
+        "diametral_clearance_mm": 0.6,
+        "hole_d_mm": 15.5,
+        "id": "GH155",
+        "notches": 2
+      },
+      {
+        "diametral_clearance_mm": 0.9,
+        "hole_d_mm": 15.8,
+        "id": "GH158",
+        "notches": 3
+      }
+    ],
+    "mount_hole_candidate_mm": 15.5,
+    "nut_seal_not_thread_interference": true,
+    "pad_added_thickness_mm": 5.0,
+    "pad_surface": "PLANAR",
+    "pad_total_local_thickness_mm": 9.0,
+    "pad_xy_mm": [
+      30.0,
+      30.0
+    ]
+  },
+  "measurements": {
+    "cable_od_mm": 9.6,
+    "gland_male_thread_od_mm": 14.9,
+    "gland_standard": "NOT_INFERRED",
+    "lid_absolute_transform": "HOLD",
+    "waterline_ground_z_historical_mm": 150.0
+  },
+  "physical_water_test_authority": {
+    "bbox_shell": "WATER_PASS_OBSERVED",
+    "cable_gland_full_submersion": "FAIL_MINOR_LEAK",
+    "leak_region": "GLAND_LOCALIZED",
+    "microscopic_path": "UNKNOWN",
+    "rubber_cord_top_gasket": "WATER_PASS_OBSERVED",
+    "screw_nut_lid_compression": "WATER_PASS_OBSERVED",
+    "submerged_tilt_gt_10_deg": "NO_LEAK_OBSERVED"
+  },
+  "print": {
+    "build_volume_mm": [
+      256.0,
+      256.0,
+      256.0
+    ],
+    "first_print": "print/gland_hole_coupon_gh152_155_158.stl",
+    "orientation": "SEALING_UNDERSIDE_DOWN",
+    "printer": "Bambu Lab A1",
+    "second_print": "print/bbox_lid_wiring_chimney_v001.stl",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "support_on_seal_face": 0
+  },
+  "service": {
+    "battery_extraction_permanent_collision": 0,
+    "lid_chimney_removed_together": true,
+    "manual_cbox_side_placement": true,
+    "manual_top_battery_swap": true
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CHIMNEY_LID_PRINT_READY/ABOVE_WATER_GLAND_ARCHITECTURE_SELECTED/PHYSICAL_VALIDATION_PENDING",
+  "tool_access": {
+    "cbox_service_position": "REMOVED_TO_SIDE",
+    "external_radial_keepout_d_mm": 40.0,
+    "external_service_depth_mm": 35.0,
+    "internal_clear_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "lid_underside_access": true,
+    "minimum_internal_xy_mm": [
+      34,
+      34
+    ]
+  },
+  "version": "PS-BBOX-LID-WIRING-CHIMNEY-V001",
+  "waterline": {
+    "absolute_waterline_clearance": "PHYSICAL_HOLD_ASSEMBLY_TRANSFORM_MISSING",
+    "preferred_margin_mm": 40,
+    "relative_margin_mm": 30.0,
+    "relative_requirement_plane_above_lid_top_mm": 5,
+    "requirement": "GLAND_CENTER_GT_MAX_NORMAL_UPRIGHT_WATERLINE",
+    "target_margin_mm": 30
+  }
+}

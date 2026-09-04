@@ -1,0 +1,229 @@
+{
+  "cap": {
+    "broad_seating": true,
+    "outer_diameter_mm": 54.0,
+    "primary_torque_path": false,
+    "role": "YOKE_CONTAINMENT_LOAD_SPREAD_DEBRIS_EXCLUSION_CANDIDATE_CAP_RETENTION",
+    "snap_fingers": 0,
+    "thickness_mm": 5.5
+  },
+  "classification": "SHORT_M3_LOCAL_BRIDGE_CAP_LOCK_CORRECTION",
+  "collar": {
+    "id_mm": 10.1,
+    "od_mm": 15.9,
+    "width_mm": 3.0
+  },
+  "envelopes": {
+    "full_assembly_axial_mm": 55.4,
+    "m3_hardware_axial_mm": 27.9,
+    "petg_rotating_axial_mm": 48.0,
+    "protected_sprocket_body_axial_mm": 44.0,
+    "rear_nut_inside_44mm_claim": false
+  },
+  "fastener": {
+    "adhesive": false,
+    "angles_deg": [
+      45.0,
+      225.0
+    ],
+    "count": 2,
+    "exact_nut_and_washer": "HOLD_PHYSICAL_MEASUREMENT",
+    "front_heads": true,
+    "front_washer_candidate": true,
+    "full_44mm_throughbolt": false,
+    "hidden_captive_nut": false,
+    "hole_diameter_mm": 3.4,
+    "pcd_mm": 46.0,
+    "petg_thread": false,
+    "primary_torque_path": false,
+    "rear_nuts": true,
+    "rear_nuts_accessible": true,
+    "rear_washers": true,
+    "snap": false,
+    "thread_engagement": "PHYSICAL_PENDING_FULL_NUT_ENGAGEMENT_REQUIRED"
+  },
+  "full_capture": {
+    "A": "REJECT_TOO_TIGHT",
+    "B": "PHYSICAL_PRIMARY_PASS",
+    "C": "REJECT_TOO_LOOSE",
+    "collar_pocket_diameter_mm": 16.2,
+    "hardware_cavity_radius_mm": 20.4,
+    "selected": "B"
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_YOKE_AND_LOCAL_BRIDGE_COUPON",
+    "local_bridge_coupon": "READY_FOR_PHYSICAL_COUPON",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_YET_APPROVED",
+    "reaction_yoke": "PHYSICAL_PASS_REQUIRED",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "water": "NOT_APPROVED"
+  },
+  "guard": {
+    "allowed_upper_wall_mm": [
+      4.5,
+      5.0
+    ],
+    "connector_max_protrusion_mm": 5.1,
+    "connector_vertical_margin_mm": 3.9,
+    "current_height_mm": 6.0,
+    "current_margin_class": "INSUFFICIENT",
+    "current_vertical_margin_mm": 0.9,
+    "current_wall_mm": 4.0,
+    "dynamic_pass": false,
+    "failed_root_mm": 4.0,
+    "frame_clearance_measured_mm": 4.4,
+    "frame_clearance_target_mm": 4.0,
+    "frame_facing_surface": "AXIAL_POSITION_FROZEN",
+    "frame_facing_surface_z_mm": -26.0,
+    "lateral_shift_static_path": "NO_DIRECT_PATH_OVER_9MM_TOP_CAD_REFERENCE",
+    "link_body_height_mm": 24.1,
+    "link_facing_wall": "NEAR_VERTICAL_NO_INWARD_RAMP",
+    "max_lateral_shift_mm": 1.8,
+    "new_height_mm": 9.0,
+    "preserved_from": "v0.9.6.9",
+    "root_gusset_class": "R3_CLASS",
+    "root_gusset_radial_run_mm": 3.0,
+    "root_mm": 6.0,
+    "selected_upper_wall_mm": 5.0,
+    "top_edge_radius_mm": 1.0
+  },
+  "local_bridge": {
+    "absolute_petg_stack_max_mm": 15.5,
+    "architecture": "SHORT_M3_LOCAL_THROUGH_BOLT_WITH_OPEN_REAR_SERVICE_WINDOW",
+    "broad_pad_mm": [
+      15.0,
+      15.0
+    ],
+    "cap_mm": 5.5,
+    "count": 2,
+    "design_primary": "B8",
+    "design_primary_mm": 8.0,
+    "integrated_with_one_piece_hub": true,
+    "petg_stack_mm": {
+      "B7": 12.5,
+      "B8": 13.5,
+      "B9": 14.5
+    },
+    "physical_selection": "THICKEST_SAFE_FUNCTIONAL_BRIDGE_PENDING",
+    "preferred_petg_stack_max_mm": 14.5,
+    "primary_torque_path": false,
+    "remaining_hardware_budget_mm": {
+      "B7": 8.0,
+      "B8": 7.0,
+      "B9": 6.0
+    },
+    "root_fillet_class": "R2P5_CLASS_LARGEST_COLLISION_FREE",
+    "root_fillet_mm": 2.5,
+    "thin_cantilever": false,
+    "variants_mm": {
+      "B7": 7.0,
+      "B8": 8.0,
+      "B9": 9.0
+    }
+  },
+  "m3_physical": {
+    "available_for_immediate_prototype": true,
+    "longer_hypothetical_screw_assumed": false,
+    "overall_reference_mm": 27.9,
+    "status": "MEASURED_USER_PHYSICAL_AUTHORITY",
+    "under_head_usable_length_mm": 20.5
+  },
+  "m4": {
+    "count": 2,
+    "full_radial_envelope_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "qualification": "1.0KG_AT_70MM_24H_NO_SHAFT_SHIFT",
+    "separation_deg": 90.0,
+    "type": "HEADED_M4",
+    "unchanged": true,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "pitch": {
+    "difference_mm": 0.0,
+    "physical_result": "PHYSICAL_MATCH",
+    "spacing_difference_deg": 0.0,
+    "status": "FROZEN"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "reaction_yoke": {
+    "architecture": "LOW_PROFILE_U_SHAPED_REACTION_BRIDGE",
+    "design_primary_bridge_mm": 3.5,
+    "direct_overlap_max_mm": 3.7,
+    "hammer_required": false,
+    "insertion": "FRONT_AXIAL_PRESENTATION_THEN_SHORT_RADIAL_SEATING_SLIDE",
+    "low_profile_bridge": true,
+    "physical_selection": "THICKEST_RELIABLE_FIT_PENDING",
+    "positive_stop": true,
+    "preserved_from": "v0.9.6.9",
+    "primary_torque_path": true,
+    "quantity_per_sprocket": 2,
+    "removable": true,
+    "roof_role": "RETENTION_AND_GEOMETRY_BRIDGE_NOT_SOLE_TORQUE_MEMBER",
+    "service_notch": true,
+    "side_shoulders": "THICK_BROAD_REACTION_SURFACES",
+    "solid_overhead_block": false,
+    "variant_remaining_clearance_mm": {
+      "Y1": 1.0,
+      "Y2": 0.8,
+      "Y3": 0.6
+    },
+    "variants_mm": {
+      "Y1": 3.3,
+      "Y2": 3.5,
+      "Y3": 3.7
+    }
+  },
+  "service_window": {
+    "clearance_status": "CAD_REFERENCE_PASS_PHYSICAL_HOLD",
+    "count": 2,
+    "depth_to_bridge_mm": 30.5,
+    "diameter_mm": 12.4,
+    "hidden_cavity": false,
+    "open_to_rear": true,
+    "rear_nut_accessible": true,
+    "rear_nut_removable": true,
+    "rear_nut_visible": true,
+    "tool_reference_diameter_mm": 11.2
+  },
+  "spacer": {
+    "chamfer_mm": 0.35,
+    "clearance_class": "PHYSICAL_MEASURED_4P4MM",
+    "frame_guard_clearance_mm": 4.4,
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "other_checks": "PHYSICAL_PENDING",
+    "thickness_mm": 8.0,
+    "width_conservative_mm": 295.0,
+    "width_nominal_mm": 294.0
+  },
+  "units": "mm",
+  "v0969_full_body_throughbolt": {
+    "body_mm": 44.0,
+    "cap_mm": 5.5,
+    "classification": "SUPERSEDED_BEFORE_PHYSICAL_ACCEPTANCE",
+    "full_body_through": false,
+    "minimum_petg_only_mm": 49.5,
+    "shortfall_before_rear_hardware_mm": 29.0,
+    "status": "GEOMETRICALLY_IMPOSSIBLE_WITH_AVAILABLE_M3"
+  },
+  "version": "v0.9.6.10"
+}

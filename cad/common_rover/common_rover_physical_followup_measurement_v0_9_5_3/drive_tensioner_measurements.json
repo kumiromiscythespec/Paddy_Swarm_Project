@@ -1,0 +1,58 @@
+{
+  "classification": "PHYSICAL_FOLLOWUP_MEASUREMENT_ONLY",
+  "contact": {
+    "classification": "IMAGE_OBSERVED / USER_REPORTED_CONTEXT",
+    "side": "BACKSIDE"
+  },
+  "coordinate_reference": {
+    "20t_center_mm": [
+      0.0,
+      0.0
+    ],
+    "60t_center_mm": [
+      180.0,
+      0.0
+    ],
+    "roller_od_mm": {
+      "classification": "MEASURED / USER_REPORTED",
+      "value": 25.9
+    },
+    "roller_radius_mm": {
+      "classification": "DERIVED",
+      "value": 12.95
+    },
+    "tensioner_perpendicular_magnitude_mm": {
+      "approximate": true,
+      "classification": "APPROX_MEASURED / USER_REPORTED_APPROX",
+      "sign": "UNASSIGNED",
+      "value": 45.0
+    },
+    "tensioner_x_mm": {
+      "classification": "MEASURED / USER_REPORTED",
+      "value": 71.0
+    }
+  },
+  "derived_center_distances_mm": {
+    "20t_to_tensioner": {
+      "classification": "DERIVED_REFERENCE",
+      "display": "approximately 84.1",
+      "value": 84.05950273467003
+    },
+    "60t_to_tensioner": {
+      "classification": "DERIVED_REFERENCE",
+      "display": "approximately 117.9",
+      "value": 117.92370414806346
+    }
+  },
+  "final_position": "HOLD",
+  "future_adjustment_candidates_mm": {
+    "classification": "NOT_MEASURED / DESIGN_RECOMMENDATION_ONLY",
+    "values": [
+      43.0,
+      45.0,
+      47.0
+    ]
+  },
+  "position_status": "PRIMARY_PHYSICAL_REFERENCE_POSITION",
+  "version": "0.9.5.3"
+}

@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 3.422,
+  "errors": 0,
+  "failures": 0,
+  "pass": true,
+  "skipped": 0,
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/TOP_T_SLOT_MOUNT_COUPON_PRINT_READY/FULL_LEFT_RIGHT_SADDLE_CAD_READY/FULL_SADDLE_PRINT_HOLD_UNTIL_COUPON_PASS/PHYSICAL_FIT_PENDING/LOAD_CAPACITY_PENDING",
+  "tests_run": 100
+}

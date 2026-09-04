@@ -1,0 +1,18 @@
+{
+  "known_all_zero": true,
+  "known_unintended": {
+    "BATTERY_VS_BBOX": 0.0,
+    "ESP32_CRADLE_VS_CBOX": 0.0,
+    "MD10C_L_VS_CBOX": 0.0,
+    "MD10C_L_VS_R": 0.0,
+    "MD10C_R_VS_CBOX": 0.0
+  },
+  "method": "CADQUERY_COMMON_VOLUME_REFERENCE_DATUMS",
+  "physical_pending": [
+    "FRAME_STRAP_FIT",
+    "REAL_MD10C_MAX_HEIGHT",
+    "ACTUAL_CABLE_SWEEP",
+    "ROTATING_PART_CABLE_CLEARANCE",
+    "V0966_DRIVETRAIN_GATES"
+  ]
+}

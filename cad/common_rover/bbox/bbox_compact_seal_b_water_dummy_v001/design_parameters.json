@@ -1,0 +1,182 @@
+{
+  "authority_status": "SEAL_GEOMETRY_AUDIT_COMPLETE/COUPON_A_ACTUAL_G055_DRY_PASS/COUPON_B_ACTUAL_G065_DRY_PASS/G065_SELECTED_FOR_PRIMARY_WATER_TEST/FULL_BBOX_GROOVE_G050_UNVALIDATED/FULL_BBOX_PRINT_HOLD",
+  "cad_depth_tolerance_mm": 1e-06,
+  "cad_status": "CAD_PASS/CONTRACT_TEST_PASS/G055_G065_WATER_DUMMY_PRINT_READY/WATER_PHYSICAL_TEST_PENDING",
+  "chimney": false,
+  "dummy": {
+    "cavity_mm": [
+      55.0,
+      53.0,
+      25.0
+    ],
+    "cord_diameter_mm": 1.8,
+    "floor_mm": 3.5,
+    "groove_width_mm": 2.1,
+    "hard_stop_gap_mm": 0.895,
+    "lid_bottom_z_mm": 29.395,
+    "lid_mm": 8.0,
+    "m4_centers_mm": [
+      [
+        -34.0,
+        -34.0
+      ],
+      [
+        -34.0,
+        34.0
+      ],
+      [
+        34.0,
+        -34.0
+      ],
+      [
+        34.0,
+        34.0
+      ]
+    ],
+    "m4_hole_diameter_mm": 4.5,
+    "m4_tower_diameter_mm": 12,
+    "parent_straight_run_contraction_mm": [
+      100.0,
+      16.0
+    ],
+    "plan_mm": [
+      80.0,
+      80.0
+    ],
+    "radii_mm": {
+      "centerline": 4.95,
+      "flange": 8.0,
+      "groove_inner": 3.9,
+      "groove_outer": 6.0,
+      "lid": 8.0,
+      "rim_opening": 4.0
+    },
+    "rim_z_mm": 28.5,
+    "wall_mm": 3.5
+  },
+  "external_pressure_boundary_penetrations": 0,
+  "full_bbox_print": "HOLD",
+  "gasket": {
+    "centerline_perimeter_mm": 219.10176727053897,
+    "joint_location": "STRAIGHT_SECTION_NOT_CORNER",
+    "joint_method": "PHYSICAL_OPERATOR_METHOD_PENDING",
+    "nominal_cut_length_mm": 219.1,
+    "reference": "UNCOMPRESSED_OD1P8; lid overlap is intended elastic interference, not a rigid-part collision",
+    "rough_cut_then_trim_mm": 222.0
+  },
+  "metrics": {
+    "G055": {
+      "actual_depth_mm": 0.5500000000000007,
+      "assembled_bbox_mm": [
+        80.0,
+        80.0,
+        37.395
+      ],
+      "body_bbox_mm": [
+        80.0,
+        80.0,
+        29.395
+      ],
+      "body_volume_mm3": 40449.05394356801,
+      "calculated_compression_mm": 0.355,
+      "calculated_compression_percent": 19.72222222222222,
+      "corner_delta_outside_requested_groove_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "groove_bottom_z_mm": 27.95,
+      "groove_floor_area_mm2": 460.1137112681313,
+      "groove_floor_wires": 2,
+      "internal_dry_volume_mm3": 75495.20227354344,
+      "lid_bbox_mm": [
+        80.0,
+        80.0,
+        8.0
+      ],
+      "lid_volume_mm3": 50251.557428756416,
+      "m4_hole_edge_to_nominal_cord_mm": 6.766068747318501,
+      "radii_mm": [
+        2.25,
+        3.9,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "requested_depth_mm": 0.55,
+      "rigid_closure_intersection_mm3": 0,
+      "rim_z_mm": 28.5,
+      "tower_to_groove_mm": 2.866068747318503,
+      "witness_intersection_mm3": 0
+    },
+    "G065": {
+      "actual_depth_mm": 0.6499999999999986,
+      "assembled_bbox_mm": [
+        80.0,
+        80.0,
+        37.395
+      ],
+      "body_bbox_mm": [
+        80.0,
+        80.0,
+        29.395
+      ],
+      "body_volume_mm3": 40403.04257244115,
+      "calculated_compression_mm": 0.2549999999999999,
+      "calculated_compression_percent": 14.16666666666666,
+      "corner_delta_outside_requested_groove_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "groove_bottom_z_mm": 27.85,
+      "groove_floor_area_mm2": 460.1137112681313,
+      "groove_floor_wires": 2,
+      "internal_dry_volume_mm3": 75495.20227354344,
+      "lid_bbox_mm": [
+        80.0,
+        80.0,
+        8.0
+      ],
+      "lid_volume_mm3": 50251.557428756416,
+      "m4_hole_edge_to_nominal_cord_mm": 6.766068747318505,
+      "radii_mm": [
+        2.25,
+        3.9,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "requested_depth_mm": 0.65,
+      "rigid_closure_intersection_mm3": 0,
+      "rim_z_mm": 28.5,
+      "tower_to_groove_mm": 2.866068747318503,
+      "witness_intersection_mm3": 0
+    }
+  },
+  "physical_mapping": {
+    "Coupon_A": {
+      "actual_depth_mm": 0.5500000000000007,
+      "documented_depth_mm": 0.45,
+      "dry_physical": "PASS"
+    },
+    "Coupon_B": {
+      "actual_depth_mm": 0.6499999999999995,
+      "documented_depth_mm": 0.55,
+      "dry_physical": "PASS"
+    },
+    "full_body": {
+      "actual_depth_mm": 0.5,
+      "physical_seal": "NOT_TESTED"
+    }
+  },
+  "primary": "G065",
+  "promotion": "No existing full-box modification. Physical winner requires a NEW corrected full-box lane.",
+  "variants": {
+    "G055": 0.55,
+    "G065": 0.65
+  },
+  "water_physical_test": "PENDING"
+}

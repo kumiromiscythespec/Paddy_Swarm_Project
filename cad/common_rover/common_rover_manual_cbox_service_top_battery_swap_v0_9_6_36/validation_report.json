@@ -1,0 +1,185 @@
+{
+  "checks": {
+    "all_slide_items_not_required": "PASS",
+    "automatic_battery_swap_false": "PASS",
+    "autonomous_contact_charging_preserved": "PASS",
+    "battery_extraction_feasible": "PASS",
+    "battery_extraction_vertical": "PASS",
+    "battery_height_98p9_exact": "PASS",
+    "cbox_dimension_order_preserved": "PASS",
+    "cbox_physical_exact": "PASS",
+    "forbidden_passes_absent": "PASS",
+    "frame_hand_access_confirmed": "PASS",
+    "frame_remeasurement_required": "PASS",
+    "initial_users_type_1_2": "PASS",
+    "no_step_stl": "PASS",
+    "priority_returned": "PASS",
+    "safety_not_relaxed": "PASS",
+    "service_cable_900_exact": "PASS",
+    "slide_mechanism_not_required": "PASS",
+    "svg_valid_5": "PASS"
+  },
+  "classification": "INITIAL_FREEWARE_MANUAL_CBOX_SIDE_PLACEMENT_TOP_BATTERY_SWAP",
+  "final": [
+    "ARCHITECTURE_SIMPLIFIED",
+    "INITIAL_FREEWARE_BASELINE_SELECTED",
+    "PHYSICAL_VALIDATION_CONTINUES"
+  ],
+  "parameters": {
+    "automatic_battery_swap": false,
+    "autonomous_contact_charging": true,
+    "battery_extraction": "MANUAL_VERTICAL_TOP",
+    "battery_height_authority": "USER_CALIPER_MEASUREMENT",
+    "battery_physical_height_mm": 98.9,
+    "battery_vertical_extraction": "PHYSICALLY_FEASIBLE",
+    "cbox_manual_side_placement": "PHYSICALLY_FEASIBLE",
+    "cbox_physical_dimension_order": "AS_REPORTED_NO_AXIS_REASSIGNMENT",
+    "cbox_physical_mm": [
+      150.0,
+      246.0,
+      80.0
+    ],
+    "cbox_service_cable_authority": "USER_PHYSICAL_PLACEMENT_REFERENCE",
+    "cbox_service_cable_mm": 900.0,
+    "cbox_service_method": "MANUAL_SIDE_PLACEMENT",
+    "cbox_slide_mechanism_required": false,
+    "classification": "INITIAL_FREEWARE_MANUAL_CBOX_SIDE_PLACEMENT_TOP_BATTERY_SWAP",
+    "development_priority": [
+      "DRIVETRAIN_TORQUE_TRANSMISSION",
+      "CRAWLER_DRY_RUN",
+      "SEALING_BOUNDARY"
+    ],
+    "frame_hand_access": "PHYSICALLY_CONFIRMED",
+    "frame_internal_dimensions": "REMEASUREMENT_REQUIRED",
+    "initial_freeware_primary_users": [
+      "TYPE_1",
+      "TYPE_2"
+    ],
+    "initial_freeware_standard": [
+      "MANUAL_CBOX_SIDE_PLACEMENT",
+      "CBOX_SERVICE_CABLE_900MM",
+      "MANUAL_TOP_BATTERY_SWAP",
+      "AUTONOMOUS_CONTACT_CHARGING"
+    ],
+    "minimum_physical_vertical_extraction_travel_reference_mm": 98.9,
+    "not_required_mechanisms": {
+      "CBOX_AUTOMATIC_ACTUATOR": "NOT_REQUIRED",
+      "CBOX_HINGE_GEOMETRY": "NOT_REQUIRED",
+      "CBOX_LATERAL_SERVICE_SLIDE": "NOT_REQUIRED_FOR_INITIAL_FREEWARE",
+      "CBOX_SERVICE_POSITION_LOCK": "NOT_REQUIRED",
+      "CBOX_SLIDE_DIRECTION": "NOT_REQUIRED",
+      "CBOX_SLIDE_RAIL": "NOT_REQUIRED",
+      "CBOX_SLIDE_STROKE": "NOT_REQUIRED"
+    },
+    "remaining_holds": [
+      "EXACT_BBOX_DIMENSIONAL_AUTHORITY_CONFLICT",
+      "BBOX_TOP_LID_FINAL_GEOMETRY",
+      "TOP_GASKET_COMPRESSION",
+      "BATTERY_POWER_CONNECTOR",
+      "CBOX_NORMAL_POSITION_RETENTION_DETAIL",
+      "CABLE_RETENTION_DETAIL",
+      "CHARGING_CONTACT_HARDWARE",
+      "CHARGING_CURRENT",
+      "DOCKING_TOLERANCE",
+      "WATERPROOF_PHYSICAL_TEST",
+      "POWERED_DRY_RUN",
+      "KEYED_HUB_PHYSICAL_VALIDATION",
+      "FRAME_INTERNAL_DIMENSIONS_REMEASUREMENT_REQUIRED"
+    ],
+    "safety_minimums": [
+      "FUSE",
+      "POWER_ISOLATION",
+      "POLARITY_PROTECTION",
+      "STRAIN_RELIEF",
+      "CABLE_ENTANGLEMENT_PREVENTION",
+      "WATERPROOF_BOUNDARY",
+      "EXPOSED_LIVE_CONDUCTOR_PREVENTION"
+    ],
+    "status": "ARCHITECTURE_UPDATE_PASS/CBOX_MANUAL_SIDE_PLACEMENT_PHYSICAL_FEASIBILITY_PASS/CBOX_900MM_SERVICE_CABLE_PHYSICAL_REFERENCE_RECORDED/BATTERY_98P9MM_PHYSICAL_HEIGHT_RECORDED/BATTERY_VERTICAL_EXTRACTION_PHYSICALLY_FEASIBLE/FRAME_HAND_ACCESS_PHYSICALLY_CONFIRMED/INITIAL_FREEWARE_USER_SCOPE_SELECTED/AUTONOMOUS_CONTACT_CHARGING_PRESERVED/CONTRACT_TEST_PASS/ARCHITECTURE_SIMPLIFIED/INITIAL_FREEWARE_BASELINE_SELECTED/PHYSICAL_VALIDATION_CONTINUES/COMMIT_READY_NOT_STAGED",
+    "user_philosophy": [
+      "SELF_BUILD",
+      "SELF_REPAIR",
+      "USER_DISCRETION",
+      "FIELD_ADJUSTMENT"
+    ],
+    "version": "v0.9.6.36"
+  },
+  "repository_guard": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "outside_untracked": [
+      3186,
+      "d972fd6c0e026de38e555a4584a5c64d379f6c9dd92460da860f3462179f2a3d"
+    ],
+    "protected": {
+      "aggregate_sha256": "ef7efc6aa3c4300fba45e1385a72d596ab103f1ccfabbfc546969a94be1954fb",
+      "file_count": 1573,
+      "focus": {
+        "cad/common_rover/bbox_water_dummy_v001_full_size_seal_submersion_test": {
+          "count": 21,
+          "tree_sha256": "331f7ea46ef9ab26731d58300f658476bf919113960f10f5babaded1d47dcec8"
+        },
+        "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27": {
+          "count": 54,
+          "tree_sha256": "1079a028588d35564e9e7241dda645a120b570fe2cf4c8b607169138c5742701"
+        },
+        "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31": {
+          "count": 20,
+          "tree_sha256": "8065cefb36cef1dfb823a989185a67534f7eebdfd432fd5a664b364cc9053a72"
+        },
+        "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34": {
+          "count": 36,
+          "tree_sha256": "121ae43e71aa732e601e67595401284f8953e4f55bde71dbd3340646e452451d"
+        },
+        "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35": {
+          "count": 33,
+          "tree_sha256": "a6b6757e46720c6559a617852c42bddecb4f3f7c5905ab0577a2eb99cd243dee"
+        }
+      },
+      "lane_count": 36
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": {
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35/ARCHITECTURE_DECISION.md": "ca68886d2f692f5e40a15a5ba52a9e5f70cb93357a20c7b549c575530e51f5f5",
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35/design_parameters.json": "be89b1c79f8d12b5e0bf1ba39aba7c3e99c56379c6b33a463b994d6a4b49fc85",
+      "cad/common_rover/common_rover_top_service_manual_swap_autonomous_contact_charging_v0_9_6_35/validation_report.json": "9959b584fe550da5094520fb368e3d9dd15ce3ec8081693d57f32808edbe2984"
+    },
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "ARCHITECTURE_UPDATE_PASS/CBOX_MANUAL_SIDE_PLACEMENT_PHYSICAL_FEASIBILITY_PASS/CBOX_900MM_SERVICE_CABLE_PHYSICAL_REFERENCE_RECORDED/BATTERY_98P9MM_PHYSICAL_HEIGHT_RECORDED/BATTERY_VERTICAL_EXTRACTION_PHYSICALLY_FEASIBLE/FRAME_HAND_ACCESS_PHYSICALLY_CONFIRMED/INITIAL_FREEWARE_USER_SCOPE_SELECTED/AUTONOMOUS_CONTACT_CHARGING_PRESERVED/CONTRACT_TEST_PASS/ARCHITECTURE_SIMPLIFIED/INITIAL_FREEWARE_BASELINE_SELECTED/PHYSICAL_VALIDATION_CONTINUES/COMMIT_READY_NOT_STAGED",
+  "svg_validation": {
+    "BATTERY_SWAP_SEQUENCE.svg": {
+      "bytes": 2515,
+      "xml_valid": true
+    },
+    "BATTERY_TOP_EXTRACTION_98P9.svg": {
+      "bytes": 1489,
+      "xml_valid": true
+    },
+    "CBOX_MANUAL_SIDE_PLACEMENT.svg": {
+      "bytes": 1456,
+      "xml_valid": true
+    },
+    "INITIAL_FREEWARE_USER_TYPES.svg": {
+      "bytes": 1867,
+      "xml_valid": true
+    },
+    "SERVICE_CABLE_900MM.svg": {
+      "bytes": 1440,
+      "xml_valid": true
+    }
+  },
+  "version": "v0.9.6.36"
+}

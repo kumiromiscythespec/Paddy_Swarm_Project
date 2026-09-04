@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820"><rect width="1200" height="820" fill="#f8fafc"/><style>text{font-family:Arial,sans-serif;fill:#152e47;font-size:18px}</style><text x="30" y="40" style="font-size:27px">V003 G050 vs V004 G065</text><text x="30" y="75">Left: unvalidated actual G050. Right: promoted actual G065.</text><svg x="20" y="120"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="560.0"
+   height="490.0"
+
+>
+    <g transform="scale(27.999999999999993, -27.999999999999993)   translate(-27.785714285714295,-117.21428571428571)" stroke-width="0.01875"  fill="none">
+       <!-- hidden lines -->
+       <g  stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.01875,0.01875" >
+
+       </g>
+
+       <!-- solid lines -->
+       <g  stroke="rgb(0,0,0)" fill="none">
+			<path d="M37.000000000000014,113.5 L37.000000000000014,113.0 " />
+			<path d="M34.500000000000014,113.5 L34.500000000000014,110.5 " />
+			<path d="M34.500000000000014,113.5 L34.90000000000002,113.5 " />
+			<path d="M34.90000000000001,113.5 L34.90000000000001,113.0 " />
+			<path d="M34.90000000000001,113.0 L37.000000000000014,113.0 " />
+			<path d="M37.000000000000014,113.5 L43.000000000000014,113.5 " />
+			<path d="M43.000000000000014,113.5 L43.000000000000014,110.5 " />
+			<path d="M34.500000000000014,110.5 L43.000000000000014,110.5 " />
+			<path d="M28.500000000000014,114.395 L43.500000000000014,114.395 " />
+			<path d="M43.500000000000014,114.395 L43.500000000000014,116.5 " />
+			<path d="M28.50000000000001,114.395 L28.50000000000001,116.5 " />
+			<path d="M28.500000000000014,116.5 L43.500000000000014,116.5 " />
+
+       </g>
+    </g>
+    
+</svg>
+<svg x="620" y="120"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="560.0"
+   height="490.0"
+
+>
+    <g transform="scale(27.999999999999993, -27.999999999999993)   translate(-27.785714285714295,-117.21428571428571)" stroke-width="0.01875"  fill="none">
+       <!-- hidden lines -->
+       <g  stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.01875,0.01875" >
+
+       </g>
+
+       <!-- solid lines -->
+       <g  stroke="rgb(0,0,0)" fill="none">
+			<path d="M37.000000000000014,113.5 L37.000000000000014,112.85 " />
+			<path d="M37.000000000000014,113.5 L43.000000000000014,113.5 " />
+			<path d="M43.000000000000014,113.5 L43.000000000000014,110.5 " />
+			<path d="M34.500000000000014,110.5 L43.000000000000014,110.5 " />
+			<path d="M34.500000000000014,113.5 L34.500000000000014,110.5 " />
+			<path d="M34.500000000000014,113.5 L34.90000000000002,113.5 " />
+			<path d="M34.90000000000002,112.85 L34.90000000000001,113.5 " />
+			<path d="M34.90000000000002,112.85 L37.000000000000014,112.85 " />
+			<path d="M28.500000000000014,114.395 L43.500000000000014,114.395 " />
+			<path d="M43.500000000000014,114.395 L43.500000000000014,116.5 " />
+			<path d="M28.50000000000001,114.395 L28.50000000000001,116.5 " />
+			<path d="M28.500000000000014,116.5 L43.500000000000014,116.5 " />
+
+       </g>
+    </g>
+    
+</svg>
+<text x="30" y="650">Old floor Z113.000000; new floor Z112.850000; unchanged rim Z113.500000.</text><text x="30" y="679">Actual groove depth +0.150000. All parents remain read-only.</text><text x="30" y="708">Four mid-boss groove roofs removed to avoid nominal-cord interference.</text><text x="30" y="800" font-size="14">Actual BRep outlines | mm | G065 dummy water PASS; full V004 box water test PENDING</text></svg>

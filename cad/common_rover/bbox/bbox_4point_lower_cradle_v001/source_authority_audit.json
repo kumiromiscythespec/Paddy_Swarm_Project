@@ -1,0 +1,160 @@
+{
+  "battery": {
+    "body_height_mm": 92.5,
+    "full_assembly_mass": "PHYSICAL_PENDING",
+    "known_internal_payload_mass": "1.2_KG",
+    "mass_kg": 1.2,
+    "plan_mm": [
+      150.9,
+      65.5
+    ],
+    "terminal_inclusive_height_mm": 99.4
+  },
+  "bbox": {
+    "body_bounds_mm": [
+      180.0,
+      96.0,
+      114.395
+    ],
+    "body_geometry_reference": "VALID_FOR_MECHANICAL_FIT_STUDY",
+    "bottom_face_area_mm2": 12312.0,
+    "bottom_z_mm": 0.0,
+    "floor_mm": 3.5,
+    "full_v004_60_min_water": "FAIL_UNRESOLVED_SLOW_INGRESS_USER_LATEST_RESULT",
+    "lower_body_core_footprint_mm": [
+      162.0,
+      76.0
+    ],
+    "lower_chamfer": "NONE",
+    "lower_corner_radius_mm": 0.0,
+    "lower_footprint_class": "ACTUAL_GENERATED_STEP",
+    "lower_taper": "NONE",
+    "m4_tower_centers_mm": [
+      [
+        -84,
+        -42
+      ],
+      [
+        -84,
+        0
+      ],
+      [
+        -84,
+        42
+      ],
+      [
+        0,
+        -42
+      ],
+      [
+        0,
+        42
+      ],
+      [
+        84,
+        -42
+      ],
+      [
+        84,
+        0
+      ],
+      [
+        84,
+        42
+      ]
+    ],
+    "m4_tower_count": 8,
+    "small_g065_dummy_water": "PASS",
+    "source": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/artifacts/compact_field_bbox_v004_g065_body.step",
+    "top_m4_tower_envelope_xy_mm": [
+      180.0,
+      96.0
+    ],
+    "top_tower_class": "ACTUAL_GENERATED_STEP_SEPARATE_FROM_LOWER_FOOTPRINT",
+    "wall_mm": 3.5,
+    "waterproof_authority": "SEPARATE_NOT_PROMOTED"
+  },
+  "cbox_v002_interface": {
+    "physical_result": "PHYSICAL_FIT_PASS_USER_REPORTED_THIS_TASK",
+    "redesign": "NONE",
+    "reused": "EXACT_BREP_SUBSET",
+    "source": "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002/artifacts/cbox_top_tslot_mount_coupon_v002.step"
+  },
+  "protected": {
+    "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {
+      "files": 55,
+      "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"
+    },
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {
+      "files": 47,
+      "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"
+    },
+    "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {
+      "files": 37,
+      "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+      "files": 45,
+      "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002": {
+      "files": 47,
+      "sha256": "67c730bb936de3eef6e640828b9c404eb7ba03462b58e495bcb2fd50f1fb5f88"
+    },
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+      "files": 18,
+      "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+    },
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+      "files": 66,
+      "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+    },
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+      "files": 12,
+      "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+    },
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+      "files": 12,
+      "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+    },
+    "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {
+      "files": 15,
+      "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"
+    },
+    "cad/common_rover/pto/pto_p25_slide_in_positioning_v002": {
+      "files": 36,
+      "sha256": "8abb0351db318a5f4ea31b1be7106a16b6228c7c71eb15b0185e66dfbaa7d6df"
+    }
+  },
+  "protected_source_changed_count": 0,
+  "rail": {
+    "center_spacing_mm": [
+      188,
+      190
+    ],
+    "inside_span_mm": [
+      168,
+      170
+    ],
+    "left_top_z_mm": 255,
+    "lip_profile": "PHYSICAL_PARTIAL",
+    "local_center_reference_mm": 189,
+    "outside_span_mm": [
+      208,
+      210
+    ],
+    "right_top_z_mm": 254,
+    "slot_depth_mm": 6.4,
+    "slot_entrance_mm": 6.4,
+    "slot_internal_max_mm": 10.8,
+    "top_face_width_class": "PHYSICAL_DERIVED",
+    "top_face_width_mm": 20
+  },
+  "registration": {
+    "bbox_body_bottom_z_mm": 148,
+    "bbox_xy": "LOCAL_CENTERED_FIT_REFERENCE_GLOBAL_XY_PHYSICAL_PENDING",
+    "body_bottom_z_class": "DIRECT_PHYSICAL_POINT_FEATURE_IDENTITY_PARTIAL",
+    "local_fit_only": true,
+    "v004_exact_top_vs_physical_z254": "UNRESOLVED_SPECIMEN_OR_FEATURE_CONFLICT"
+  }
+}

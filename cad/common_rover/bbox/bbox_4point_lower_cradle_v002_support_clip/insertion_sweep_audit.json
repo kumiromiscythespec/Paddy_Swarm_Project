@@ -1,0 +1,34 @@
+{
+  "all_four_seated": true,
+  "bbox_removal_after_clip_removal": "PASS_REFERENCE",
+  "seated_contact_area_per_shoe_mm2": [
+    300.0000000001535,
+    300.0000000001535,
+    344.66019417485194,
+    344.66019417485194
+  ],
+  "sweep_offsets_mm": [
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "v001_conservative_final_insertion_intersection_mm3": 5894.424000000002,
+  "v001_four_shoe_vertical_insertion": "FAIL_PHYSICAL_AND_CONSERVATIVE_CAD",
+  "v002_actual_assembly_intersections_mm3": {
+    "0": 0,
+    "20": 0,
+    "40": 0,
+    "60": 0,
+    "80": 0
+  },
+  "v002_conservative_intersections_mm3": {
+    "0": 0,
+    "20": 0,
+    "40": 0,
+    "60": 0,
+    "80": 0
+  },
+  "v002_four_shoe_vertical_insertion": "PASS_REFERENCE"
+}

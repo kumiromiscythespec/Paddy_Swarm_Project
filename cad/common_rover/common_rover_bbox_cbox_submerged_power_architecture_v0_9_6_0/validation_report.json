@@ -1,0 +1,138 @@
+{
+  "artifact_validation": {
+    "rows": {
+      "artifacts/bbox_gasket_compression_section_v0_9_6_0.svg": {
+        "status": "PASS",
+        "xml_parse": "PASS"
+      },
+      "artifacts/bbox_gasket_cut_template_v0_9_6_0.svg": {
+        "status": "PASS",
+        "xml_parse": "PASS"
+      },
+      "artifacts/bbox_gland_land_reference_v0_9_6_0.svg": {
+        "status": "PASS",
+        "xml_parse": "PASS"
+      },
+      "artifacts/bbox_power_routing_architecture_v0_9_6_0.svg": {
+        "status": "PASS",
+        "xml_parse": "PASS"
+      },
+      "artifacts/bbox_submerged_seal_test_assembly_v0_9_6_0.step": {
+        "parse": "PASS",
+        "status": "PASS",
+        "valid": true,
+        "volume_mm3": 377817.53485839826
+      },
+      "artifacts/bbox_submerged_seal_test_lid_v0_9_6_0.step": {
+        "parse": "PASS",
+        "status": "PASS",
+        "valid": true,
+        "volume_mm3": 108343.51968308103
+      },
+      "artifacts/bbox_submerged_seal_test_lid_v0_9_6_0.stl": {
+        "absolute_signed_volume_mm3": 108343.6999300652,
+        "nonmanifold_edges": 0,
+        "parse": "PASS",
+        "status": "PASS",
+        "triangles": 6620,
+        "unique_edges": 9930,
+        "watertight": true
+      },
+      "artifacts/bbox_submerged_seal_test_lower_v0_9_6_0.step": {
+        "parse": "PASS",
+        "status": "PASS",
+        "valid": true,
+        "volume_mm3": 264269.46650755295
+      },
+      "artifacts/bbox_submerged_seal_test_lower_v0_9_6_0.stl": {
+        "absolute_signed_volume_mm3": 264266.67063968396,
+        "nonmanifold_edges": 0,
+        "parse": "PASS",
+        "status": "PASS",
+        "triangles": 9244,
+        "unique_edges": 13866,
+        "watertight": true
+      },
+      "artifacts/cbox_drive_electrical_zone_layout_v0_9_6_0.svg": {
+        "status": "PASS",
+        "xml_parse": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "authority_audit": "PASS",
+  "checks": {
+    "absolute_height": "PASS",
+    "artifacts": "PASS",
+    "authority": "PASS",
+    "battery_dimensions": "PASS",
+    "battery_removal_corridor": "PASS",
+    "battery_water_not_approved": "PASS",
+    "blank_gland_land": "PASS",
+    "bolt_cuts": "PASS",
+    "continuous_gasket": "PASS",
+    "correct_lane": "PASS",
+    "external_terminal_cap_zero": "PASS",
+    "flange_width": "PASS",
+    "gasket_width": "PASS",
+    "idler_clearance": "PASS",
+    "insertion_108": "PASS",
+    "installed_height": "PASS",
+    "integrated_flange": "PASS",
+    "m4_count": "PASS",
+    "m4_outside_gasket": "PASS",
+    "no_lid_service_penetration": "PASS",
+    "no_seal_test_cable_penetration": "PASS",
+    "parents": "PASS",
+    "powered_not_approved": "PASS",
+    "reproducibility": "PASS",
+    "submerged_connectors_zero": "PASS",
+    "terminal_rear_down": "PASS",
+    "v0953": "PASS",
+    "version": "PASS"
+  },
+  "classification": "SUBMERGED_POWER_ARCHITECTURE + EMPTY_WATERPROOF_PROTOTYPE",
+  "final_status": "BBOX_CBOX_SUBMERGED_POWER_ARCHITECTURE_COMPLETE / EMPTY_WATERPROOF_PROTOTYPE_READY / PHYSICAL_VALIDATION_PENDING / COMMIT_READY_NOT_STAGED",
+  "geometry": {
+    "assembly_bounds_mm": [
+      200.0,
+      130.0,
+      102.7
+    ],
+    "assembly_valid": true,
+    "battery_main_cavity_clearance_each_mm": 4.099999999999994,
+    "battery_top_throat_clearance_each_mm": 2.299999999999997,
+    "blank_gland_land": true,
+    "bolt_count": 12,
+    "bolt_cuts_clear": true,
+    "cadquery_version": "2.8.0",
+    "frame_minus_tolerance_clearance_each_mm": 4.5,
+    "frame_nominal_clearance_each_mm": 5.0,
+    "gasket_hole_common_volume_mm3": 0.0,
+    "gasket_path_solid_count": 1,
+    "gasket_valid": true,
+    "gland_through_hole_count": 0,
+    "installed_height_mm": 102.7,
+    "lid_bounds_mm": [
+      200.0,
+      130.0,
+      4.2
+    ],
+    "lid_valid": true,
+    "lower_bounds_mm": [
+      200.0,
+      130.0,
+      97.0
+    ],
+    "lower_valid": true,
+    "minimum_bolt_edge_ligament_mm": 1.2999999999999998,
+    "minimum_bolt_to_gasket_gap_mm": 1.2999999999999972,
+    "seal_land_width_mm": 6.0
+  },
+  "parent_audit": "PASS",
+  "pass_count": 28,
+  "status": "PASS",
+  "total": 28,
+  "v0953_protection": "PASS",
+  "version": "0.9.6.0"
+}

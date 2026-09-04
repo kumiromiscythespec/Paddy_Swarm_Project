@@ -1,0 +1,388 @@
+{
+  "analysis": {
+    "authority": {
+      "hashes": {
+        "interfaces/power/bbox_battery_cassette/v001/README.md": "0463ff3e69cf5569a9711c0c71ef3c6566be1469c85af351062459c98c6fcacd",
+        "rovers/common_rover/v2.28/paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py": "aa8de0ddc9537fd5f8e75a4c41bc98975749aac4e9abd2419993e73d92df2201",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-BDY.step": "ae9d49061d7df010d2ce66ff0e125f7db06cc6ce4e6b031f95da6a69c711f6b4",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-GSK.step": "93f3652c0c81c76aac581b854aa5f4540a4211fcb630364a9584a2ce29c84393",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-LID.step": "0cf3b955166cf97c6b1b18b181db507b560c996de7c8011bb86aa817cdd202aa"
+      },
+      "nominal_interface_mm": {
+        "body": [
+          200.0,
+          150.0,
+          120.0
+        ],
+        "gasket": [
+          204.0,
+          154.0,
+          3.0
+        ],
+        "lid": [
+          216.0,
+          166.0,
+          16.0
+        ]
+      },
+      "selection": "UNIQUE_MATCH_TO_USER_NOMINAL_AND_V228_FIXED_CORE",
+      "source_builder": "rovers/common_rover/v2.28/paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py",
+      "source_closure_hole_count": 0,
+      "source_notch_classification": "DRIP_RESISTANT_ONLY_NOT_WATERPROOF",
+      "source_step_bbox_mm": {
+        "body": [
+          200.0,
+          162.0,
+          120.0
+        ],
+        "gasket": [
+          204.0,
+          154.0,
+          3.0
+        ],
+        "lid": [
+          216.0,
+          166.0,
+          18.5
+        ]
+      },
+      "source_steps": [
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-BDY.step",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-LID.step",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-GSK.step"
+      ],
+      "task_override": "CLOSE_SOURCE_WIRE_NOTCH_ZONES_NO_PENETRATIONS",
+      "trees": {
+        "interfaces/power/bbox_battery_cassette/v001": {
+          "count": 5,
+          "tree_sha256": "61e5c3c7ee6c05b8a0dce5f07e816e8119bd343797761e5f64a2874f8c070376"
+        },
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out": {
+          "count": 74,
+          "tree_sha256": "a84530203d35e06bec22f00215cd7649f45ab1aad70028bc0cda89a7ee979f28"
+        }
+      }
+    },
+    "ballast": {
+      "lid_top_z_mm": 91.5,
+      "load_path": "BALLAST_PLATE_REFERENCE_TO_FOUR_TOWERS_TO_INTEGRAL_CORNER_CONNECTORS_TO_BODY",
+      "physical_fixing": "HOLD",
+      "plate_reference_mm": [
+        244.0,
+        196.0,
+        4.0
+      ],
+      "plate_to_lid_clearance_mm": 4.0,
+      "tower_above_lid_mm": 4.0,
+      "tower_bolt_intersection_count": 0,
+      "tower_centers_xy_mm": [
+        [
+          -116.0,
+          -92.0
+        ],
+        [
+          -116.0,
+          92.0
+        ],
+        [
+          116.0,
+          -92.0
+        ],
+        [
+          116.0,
+          92.0
+        ]
+      ],
+      "tower_count": 4,
+      "tower_cross_section_mm": [
+        12.0,
+        12.0
+      ],
+      "tower_lid_clearance_each_mm": [
+        3.605551275463989,
+        3.605551275463989,
+        3.605551275463989,
+        3.605551275463989
+      ],
+      "tower_lid_clearance_min_mm": 3.605551275463989,
+      "tower_lid_intersection_each_mm3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tower_top_z_mm": 95.5
+    },
+    "body": {
+      "bottom_mm": 5.0,
+      "closed_bottom": true,
+      "estimated_petg_mass_g": 651.4048439999997,
+      "height_mm": 70.0,
+      "main_vessel_outer_xy_mm": [
+        200.0,
+        150.0
+      ],
+      "material_volume_mm3": 512917.1999999997,
+      "overall_with_integral_towers_xyz_mm": [
+        244.0,
+        196.0,
+        95.5
+      ],
+      "penetration_count": 0,
+      "primary_shape_valid": true,
+      "wall_mm": 4.0
+    },
+    "geometric_id": {
+      "bottom_intersection": 0,
+      "count": 3,
+      "location": "EXTERNAL_POSITIVE_X_POSITIVE_Y_TOWER_MID_HEIGHT",
+      "seal_land_intersection": 0,
+      "tower_top_load_face_intersection": 0,
+      "type": "ONE_ISOLATED_PLUS_DOUBLE_MICRO_NOTCH"
+    },
+    "hydrostatic": {
+      "ballast_value": "CAD_REFERENCE_ONLY_NO_SAFETY_FACTOR",
+      "buoyancy_equivalent_kgf": 2.8809774748054036,
+      "buoyancy_force_n": 28.25273775330041,
+      "displaced_volume_l": 2.8809774748054036,
+      "displaced_volume_mm3": 2880977.4748054035,
+      "displacement_basis": "ACTUAL_CAD_EXTERIOR_BODY_TOWERS_CONNECTORS_GASKET_LID",
+      "g_m_s2": 9.80665,
+      "gauge_pressure_kpa": 1.4709975,
+      "reference_depth_m": 0.15,
+      "water_density_kg_m3": 1000.0
+    },
+    "printability": {
+      "a1_fit": true,
+      "build_plate_mm": [
+        256.0,
+        256.0
+      ],
+      "critical_support_count": 0,
+      "material": "PETG",
+      "new_internal_closed_support_space_count": 0,
+      "orientation": "BOTTOM_DOWN_OPEN_UP",
+      "part_footprint_mm": [
+        244.0,
+        196.0
+      ],
+      "printer": "Bambu A1",
+      "slicer": "HOLD_SLICER_NOT_RUN",
+      "support_on_seal_land": 0
+    },
+    "seal": {
+      "bolt_alignment": "PASS_EXACT_EMPTY_SOURCE_PATTERN_NO_HOLES_INVENTED",
+      "closure_hole_count_dummy": 0,
+      "closure_hole_count_source": 0,
+      "dummy_rim_section_area_mm2": 2736.0,
+      "gasket_bbox_mm": [
+        204.0,
+        154.0,
+        3.0
+      ],
+      "gasket_body_interference_mm3": 0,
+      "gasket_rim_overlap_mm3_at_nominal_1mm": 2736.0,
+      "lid_bbox_mm": [
+        216.0,
+        166.0,
+        18.5
+      ],
+      "lid_body_interference_mm3": 0,
+      "lid_gasket_interference_mm3": 0,
+      "lid_nominal_contract_mm": [
+        216.0,
+        166.0,
+        16.0
+      ],
+      "regression_added_mm3_at_1mm_section": 0,
+      "regression_removed_mm3_at_1mm_section": 0,
+      "source_drip_notches_closed_by_task": true,
+      "source_drip_notches_reproduced": false,
+      "source_rim_inner_xy_mm": [
+        192.0,
+        142.0
+      ],
+      "source_rim_outer_xy_mm": [
+        200.0,
+        150.0
+      ],
+      "source_rim_section_area_mm2": 2736.0,
+      "source_rim_width_mm": 4.0
+    }
+  },
+  "checks": {
+    "a1_fit": "PASS",
+    "ballast_plate_lid_clearance_ge_3": "PASS",
+    "body_main_outer_xy_authority": "PASS",
+    "bottom_ge_5": "PASS",
+    "closed_bottom_no_penetrations": "PASS",
+    "closure_alignment_empty_exact": "PASS",
+    "critical_support_zero": "PASS",
+    "displacement_actual_cad": "PASS",
+    "dummy_height_70": "PASS",
+    "gasket_nominal_placement": "PASS",
+    "hydrostatic_reference": "PASS",
+    "lid_interference_zero": "PASS",
+    "physical_pass_not_claimed": "PASS",
+    "primary_shape_valid": "PASS",
+    "seal_interface_exact": "PASS",
+    "source_notches_closed": "PASS",
+    "step_reload": "PASS",
+    "stl_watertight_manifold": "PASS",
+    "tower_bolt_intersection_zero": "PASS",
+    "tower_count_4": "PASS",
+    "tower_lid_clearance_ge_3": "PASS",
+    "tower_lid_intersection_zero": "PASS",
+    "wall_ge_4": "PASS"
+  },
+  "classification": "SEALING_BOUNDARY_TEST",
+  "holds": [
+    "HOLD_ACTUAL_CLOSURE_METHOD",
+    "HOLD_LID_COMPRESSION_UNIFORMITY",
+    "HOLD_GASKET_COMPRESSION",
+    "HOLD_BALLAST_FIXING",
+    "HOLD_BALLAST_PHYSICAL_MASS",
+    "HOLD_SLICER_NOT_RUN",
+    "PHYSICAL_LEAK_RESULT_NOT_YET",
+    "LOAD_POWERED_WATER_MUD_FIELD_PRODUCTION_NOT_APPROVED"
+  ],
+  "repository_guard": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "outside_untracked": [
+      3132,
+      "47b10cb36a45eec7401622a7490cb86652f2800deb872c3dd36af190e78fb112"
+    ],
+    "protected_lanes": {
+      "aggregate_sha256": "c4adc57e39ac24f5ec5cff4fc234a0424ca09626e8d827374a0c4c575436565a",
+      "file_count": 1540,
+      "focus": {
+        "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32": {
+          "count": 28,
+          "tree_sha256": "4792b7db682d02e78ab88bdd8642f42b6805a6773782f4bcc36f2ff3427bc516"
+        },
+        "cad/common_rover/common_rover_generic_keyed_industrial_torque_core_comparison_v0_9_6_33": {
+          "count": 30,
+          "tree_sha256": "b0e1d30421c78c201658f5a410ecfaedd570c1121804a9ea26470884ec212496"
+        },
+        "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34": {
+          "count": 36,
+          "tree_sha256": "121ae43e71aa732e601e67595401284f8953e4f55bde71dbd3340646e452451d"
+        }
+      },
+      "lane_count": 35
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_authority": {
+      "hashes": {
+        "interfaces/power/bbox_battery_cassette/v001/README.md": "0463ff3e69cf5569a9711c0c71ef3c6566be1469c85af351062459c98c6fcacd",
+        "rovers/common_rover/v2.28/paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py": "aa8de0ddc9537fd5f8e75a4c41bc98975749aac4e9abd2419993e73d92df2201",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-BDY.step": "ae9d49061d7df010d2ce66ff0e125f7db06cc6ce4e6b031f95da6a69c711f6b4",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-GSK.step": "93f3652c0c81c76aac581b854aa5f4540a4211fcb630364a9584a2ce29c84393",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-LID.step": "0cf3b955166cf97c6b1b18b181db507b560c996de7c8011bb86aa817cdd202aa"
+      },
+      "nominal_interface_mm": {
+        "body": [
+          200.0,
+          150.0,
+          120.0
+        ],
+        "gasket": [
+          204.0,
+          154.0,
+          3.0
+        ],
+        "lid": [
+          216.0,
+          166.0,
+          16.0
+        ]
+      },
+      "selection": "UNIQUE_MATCH_TO_USER_NOMINAL_AND_V228_FIXED_CORE",
+      "source_builder": "rovers/common_rover/v2.28/paddy_swarm_v228_2_dual_pto_output_fix_cadquery.py",
+      "source_closure_hole_count": 0,
+      "source_notch_classification": "DRIP_RESISTANT_ONLY_NOT_WATERPROOF",
+      "source_step_bbox_mm": {
+        "body": [
+          200.0,
+          162.0,
+          120.0
+        ],
+        "gasket": [
+          204.0,
+          154.0,
+          3.0
+        ],
+        "lid": [
+          216.0,
+          166.0,
+          18.5
+        ]
+      },
+      "source_steps": [
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-BDY.step",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-LID.step",
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out/step/PS-RV227-BBOX-GSK.step"
+      ],
+      "task_override": "CLOSE_SOURCE_WIRE_NOTCH_ZONES_NO_PENETRATIONS",
+      "trees": {
+        "interfaces/power/bbox_battery_cassette/v001": {
+          "count": 5,
+          "tree_sha256": "61e5c3c7ee6c05b8a0dce5f07e816e8119bd343797761e5f64a2874f8c070376"
+        },
+        "rovers/common_rover/v2.28/rover_v228_2_dual_pto_output_fix_out": {
+          "count": 74,
+          "tree_sha256": "a84530203d35e06bec22f00215cd7649f45ab1aad70028bc0cda89a7ee979f28"
+        }
+      }
+    },
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/PRINT_READY/SEALING_BOUNDARY_TEST/AUTHORITY_UNIQUE_MATCH_V228/CONTINUOUS_RIM_EXACT/SOURCE_DRIP_NOTCHES_CLOSED_BY_TASK/NO_CLOSURE_HOLES_INVENTED/PHYSICAL_LEAK_RESULT_NOT_YET/BALLAST_FIXING_HOLD/CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+  "step_reload": {
+    "bbox_water_dummy_assembly_reference.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        244.0,
+        196.0,
+        99.5
+      ],
+      "reload": "PASS",
+      "solid_count": 4
+    },
+    "bbox_water_dummy_v001.step": {
+      "all_valid": true,
+      "bbox_mm": [
+        244.0,
+        196.0,
+        95.5
+      ],
+      "reload": "PASS",
+      "solid_count": 1
+    }
+  },
+  "stl_quality": {
+    "bbox_water_dummy_v001.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 204,
+      "watertight": true
+    }
+  },
+  "version": "PS-BBOX-WATER-DUMMY-V001"
+}

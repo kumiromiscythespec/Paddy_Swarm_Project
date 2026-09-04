@@ -1,0 +1,75 @@
+{
+  "classification": "TEMP_HTD5M_60T_SYMMETRIC_DOUBLE_SPLIT_CLAMP",
+  "ears": {
+    "front_z_mm": [
+      -6.2,
+      6.8
+    ],
+    "mirror_plane_z_mm": 10.0,
+    "outward_projection_each_mm": 6.2,
+    "rear_z_mm": [
+      13.2,
+      26.2
+    ],
+    "stack_each_mm": 14.0
+  },
+  "frozen": {
+    "belt_plane_mm": 10.0,
+    "face_mm": 16.0,
+    "flange_od_mm": 102.0,
+    "flanges": 2,
+    "pitch_mm": 5.0,
+    "spacing_deg": 6.0,
+    "spoke_width_mm": 10.0,
+    "spokes": 6,
+    "teeth": 60
+  },
+  "gates": {
+    "first_print": "COUPONS_ONLY",
+    "full_torque": "NOT_APPROVED",
+    "physical_clamp": "HOLD",
+    "powered": "NOT_APPROVED"
+  },
+  "hardware": {
+    "clearance_mm": 4.5,
+    "front_m4": 2,
+    "petg_threads": 0,
+    "rear_m4": 2,
+    "threaded_length_mm": 21.0
+  },
+  "hub": {
+    "bands_mm": [
+      10.0,
+      6.0,
+      10.0
+    ],
+    "bore_candidates_mm": [
+      10.1,
+      10.2,
+      10.3
+    ],
+    "neutral_od_mm": 28.0,
+    "od_mm": 34.0,
+    "split_mm": 1.3,
+    "width_mm": 26.0
+  },
+  "parent": {
+    "files_sha256": {
+      "artifacts/double_split_clamp_b1010_v0_9_6_22.stl": "9dc0748ea656b2a55a9890a13eb58dedd70c941ff2136bc360354eca420c7a7d",
+      "artifacts/temp_htd5m_60t_double_split_clamp_v0_9_6_22.step": "6b31a0cd6e202ff3694416bf223d9083761a7002785cb4736b976070e4302afb",
+      "artifacts/temp_htd5m_60t_double_split_clamp_v0_9_6_22.stl": "a52b9cf01168bcfc9146c9711bda47fe04d1c09225ebe5cf80fd5e92223c40f8",
+      "build_temp_htd5m_60t_double_split_clamp_v0_9_6_22.py": "7bc52e23c08f0d53097525e7f7c8e5e134ad705cca2277a06ff2391fc71c681c",
+      "design_parameters.json": "d07fc27d5ff87085626cfa6fd373ab5273fa54b115e848fd075fc7ad622b7c37",
+      "tests/test_temp_htd5m_60t_double_split_clamp_v0_9_6_22_contract.py": "48c22e97658e5060e85847dca96d3d390f8e4f3b5a9eb21f3f33e29133bf6408",
+      "validation_report.json": "4bd9928c49be27b21ae7f4308d229ad8c8df0b9bedae533c7eaccd925f5ba7db"
+    },
+    "lane": "cad/common_rover/common_rover_temp_htd5m_60t_double_split_clamp_v0_9_6_22"
+  },
+  "source": {
+    "artifact": "cad/drive_htd5m_60t_reference.step",
+    "lane": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1",
+    "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+  },
+  "status": "TEMP_HTD5M_60T_SYMMETRIC_DOUBLE_SPLIT_CLAMP_CAD_COMPLETE/V09622_REAR_EAR_VISUAL_FUNCTIONAL_SHORTFALL_RECORDED/FRONT_REAR_EXTERNAL_EARS_AXIALLY_SYMMETRIC/60T_TOOTH_FLANGE_RIM_SPOKES_PROTECTED/CENTRAL_HUB_ONLY_REVISED/FRONT_M4X2_REAR_M4X2_READY/M4X21_PACKAGING_READY/THREE_SYMMETRIC_EAR_COUPONS_READY/P20653_SCOPE_UNCHANGED/PHYSICAL_CLAMP_TEST_REQUIRED/POWERED_USE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.23"
+}

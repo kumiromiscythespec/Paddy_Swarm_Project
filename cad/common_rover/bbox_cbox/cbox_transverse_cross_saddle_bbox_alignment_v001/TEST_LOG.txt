@@ -1,0 +1,16 @@
+extra_001_all_builder_checks: PASS
+extra_002_bbox_copy_exact: PASS
+extra_003_cbox_long_y: PASS
+extra_004_exact_paths: PASS
+extra_005_front_copy_exact: PASS
+extra_006_holds_retained: PASS
+extra_007_no_absolute_y_promotion: PASS
+extra_008_no_bbox_load: PASS
+extra_009_no_one_piece_base: PASS
+extra_010_physical_lane: PASS
+extra_011_printable_pair: PASS
+extra_012_staged_zero: PASS
+extra_013_step_count: PASS
+extra_014_svg_count: PASS
+extra_015_variant_a: PASS
+TOTAL: 59/59 PASS

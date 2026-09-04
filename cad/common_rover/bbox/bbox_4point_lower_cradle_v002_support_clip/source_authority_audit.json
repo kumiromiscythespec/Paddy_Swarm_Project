@@ -1,0 +1,93 @@
+{
+  "battery": {
+    "body_height_mm": 92.5,
+    "full_loaded_bbox_mass": "PHYSICAL_PENDING",
+    "mass_kg": 1.2,
+    "plan_mm": [
+      150.9,
+      65.5
+    ],
+    "terminal_inclusive_height_mm": 99.4
+  },
+  "bbox": {
+    "body_geometry": "VALID_FOR_MECHANICAL_FIT_STUDY",
+    "lower_body_mm": [
+      162.0,
+      76.0
+    ],
+    "source": "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065",
+    "upper_tower_envelope_mm": [
+      180.0,
+      96.0
+    ],
+    "waterproof_authority": "SEPARATE_NOT_PROMOTED"
+  },
+  "cbox_v002": {
+    "rail_interface": "EXACT_V001_PASSED_BREP_REUSE",
+    "source": "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002"
+  },
+  "p25": {
+    "clutch_geometry_invented": false,
+    "corridor_policy": "CLIPS_LOCAL_WITHIN_V001_FRONT_SHOE_XY_REFERENCE",
+    "geometry_imported": false,
+    "source": "cad/common_rover/pto/pto_p25_slide_in_positioning_v002"
+  },
+  "protected": {
+    "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {
+      "files": 55,
+      "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"
+    },
+    "cad/common_rover/bbox/bbox_4point_lower_cradle_v001": {
+      "files": 61,
+      "sha256": "cb87853088a5bd70f551657dc3f1687e44a7d11a8e075c34398716c8e3d09938"
+    },
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {
+      "files": 47,
+      "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"
+    },
+    "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {
+      "files": 37,
+      "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+      "files": 45,
+      "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002": {
+      "files": 47,
+      "sha256": "67c730bb936de3eef6e640828b9c404eb7ba03462b58e495bcb2fd50f1fb5f88"
+    },
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+      "files": 18,
+      "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+    },
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+      "files": 66,
+      "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+    },
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+      "files": 12,
+      "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+    },
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+      "files": 12,
+      "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+    },
+    "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {
+      "files": 15,
+      "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"
+    },
+    "cad/common_rover/pto/pto_p25_slide_in_positioning_v002": {
+      "files": 36,
+      "sha256": "8abb0351db318a5f4ea31b1be7106a16b6228c7c71eb15b0185e66dfbaa7d6df"
+    }
+  },
+  "protected_source_changed_count": 0,
+  "v001": {
+    "failure_mode": "FIXED_LOCATING_LIP_INSTALLATION_ENVELOPE_CONFLICT",
+    "four_shoe_bbox_insertion": "PHYSICAL_FAIL",
+    "rail_mount": "PHYSICAL_FIT_PASS",
+    "single_shoe_local_interface": "PHYSICAL_FIT_PASS",
+    "source": "cad/common_rover/bbox/bbox_4point_lower_cradle_v001"
+  }
+}

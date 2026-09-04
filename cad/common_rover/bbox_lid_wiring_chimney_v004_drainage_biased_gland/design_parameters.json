@@ -1,0 +1,205 @@
+{
+  "architecture": {
+    "axis_direction": "POSITIVE_Y_OUTWARD_AND_NEGATIVE_Z_DOWNWARD",
+    "candidate_angles_deg": [
+      5.0,
+      7.0
+    ],
+    "exterior_gasket_seat": "FLAT_PERPENDICULAR_TO_GLAND_AXIS",
+    "interior_locknut_seat": "FLAT_PARALLEL_TO_EXTERIOR_SEAT",
+    "local_integrated_wedge_pad": true,
+    "primary_angle_deg": 7.0,
+    "purpose": "BASELINE_WATERPROOFING_PLUS_PASSIVE_DRAINAGE_FAIL_SAFE",
+    "whole_chimney_angled": false,
+    "whole_lid_angled": false
+  },
+  "candidates": {
+    "5": {
+      "angle_deg": 5.0,
+      "axis_vector_xyz": [
+        0.0,
+        0.996194698,
+        -0.087155743
+      ],
+      "bbox_mm": [
+        240.0,
+        190.0,
+        58.0
+      ],
+      "cable_to_lid_intersection_mm3": 0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "external_bore_center_xyz_mm": [
+        0.0,
+        67.490867,
+        37.790826
+      ],
+      "gasket_seat_perpendicularity_error_deg": 0.0,
+      "gland_body_to_hood_intersection_mm3": 0,
+      "gland_body_to_lid_intersection_mm3": 0,
+      "internal_bore_center_xyz_mm": [
+        0.0,
+        65.1,
+        38.0
+      ],
+      "locknut_seat_perpendicularity_error_deg": 0.0,
+      "locknut_to_lid_intersection_mm3": 0,
+      "measured_effective_wall_along_axis_mm": 2.4,
+      "mount_has_horizontal_dead_water_shelf": false,
+      "mount_top_surface_outward_drop_deg": 5.0,
+      "outward_run_mm": 2.390867,
+      "recess_top_to_roof_clearance_mm": 1.477494,
+      "seat_parallelism_error_deg": 0.0,
+      "solids": 1,
+      "valid": true,
+      "vertical_drop_mm": 0.209174
+    },
+    "7": {
+      "angle_deg": 7.0,
+      "axis_vector_xyz": [
+        0.0,
+        0.992546152,
+        -0.121869343
+      ],
+      "bbox_mm": [
+        240.0,
+        190.0,
+        58.0
+      ],
+      "cable_to_lid_intersection_mm3": 0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "external_bore_center_xyz_mm": [
+        0.0,
+        67.482111,
+        37.707514
+      ],
+      "gasket_seat_perpendicularity_error_deg": 0.0,
+      "gland_body_to_hood_intersection_mm3": 0,
+      "gland_body_to_lid_intersection_mm3": 0,
+      "internal_bore_center_xyz_mm": [
+        0.0,
+        65.1,
+        38.0
+      ],
+      "locknut_seat_perpendicularity_error_deg": 0.0,
+      "locknut_to_lid_intersection_mm3": 0,
+      "measured_effective_wall_along_axis_mm": 2.4,
+      "mount_has_horizontal_dead_water_shelf": false,
+      "mount_top_surface_outward_drop_deg": 7.0,
+      "outward_run_mm": 2.382111,
+      "recess_top_to_roof_clearance_mm": 1.301377,
+      "seat_parallelism_error_deg": 0.0,
+      "solids": 1,
+      "valid": true,
+      "vertical_drop_mm": 0.292486
+    }
+  },
+  "drainage": {
+    "cup_shaped_pocket": false,
+    "horizontal_dead_water_shelf_immediately_above_gland": false,
+    "inward_sloping_gasket_surround": false,
+    "physical_water_flow_validation": "PENDING_COUPON",
+    "reason_no_drip_edge": "NOT_REQUIRED_BY_CAD_PATH_AND_AVOIDS_NEW_GLAND_CABLE_INTERFERENCE",
+    "reverse_lip": false,
+    "tiny_drip_edge_added": false,
+    "top_local_surface_slopes_outward_downward": true
+  },
+  "forbidden_claims": [
+    "V004_WATERPROOF_PASS",
+    "RAIN_PASS",
+    "WET_CABLE_PASS",
+    "FIELD_PASS"
+  ],
+  "geometry": {
+    "cable_diameter_mm": 9.6,
+    "chimney_internal_xy_mm": [
+      42.0,
+      37.0
+    ],
+    "chimney_outer_xyz_mm": [
+      50.0,
+      45.0,
+      50.0
+    ],
+    "flat_locknut_seat_effective_diameter_mm": 27.0,
+    "gland_hole_diameter_mm": 15.2,
+    "internal_gland_center_above_lid_top_mm": 30.0,
+    "local_effective_wall_along_axis_mm": 2.4,
+    "local_mount_cross_section_xz_mm": [
+      30.0,
+      30.0
+    ],
+    "normal_wall_mm": 4.0,
+    "rain_hood_projection_mm": 8.0,
+    "recess_entry_diameter_mm": 30.0,
+    "transition_r_class_mm": 1.5
+  },
+  "parents": {
+    "full_lid_2p4_authority": "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority",
+    "local_gland_recess_authority": "cad/common_rover/bbox_lid_wiring_chimney_v003_local_gland_recess",
+    "read_only": true
+  },
+  "physical_baseline": {
+    "above_water_gland_architecture": "PHYSICAL_PASS",
+    "bbox_upright_water_test": "PASS",
+    "internal_water_ingress": "NONE",
+    "tilt_front_10deg_plus": "PASS",
+    "tilt_left_10deg_plus": "PASS",
+    "tilt_rear_10deg_plus": "PASS",
+    "tilt_right_10deg_plus": "PASS",
+    "vertical_v003_fallback_authority": "VALID"
+  },
+  "print": {
+    "first_print": "print/gland_angle_7deg_coupon.stl",
+    "full_lid": "print/HOLD_bbox_lid_wiring_chimney_v004_7deg_full_lid.stl",
+    "full_lid_status": "FULL_LID_HOLD_PENDING_ANGLED_GLAND_PHYSICAL_COUPON",
+    "material": "PETG",
+    "printer": "Bambu Lab A1",
+    "second_print_if_required": "print/gland_angle_5deg_coupon.stl",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "protected_delta": {
+    "bbox_shell_interface_change_mm3": 0.0,
+    "chimney_footprint_change_mm3": 0.0,
+    "chimney_height_change_mm": 0.0,
+    "delta_inside_local_mask_mm3": 1381.526139,
+    "delta_outside_local_mask_mm3": 0.0,
+    "gasket_loop_change_mm3": 0,
+    "gland_hole_diameter_change_mm": 0.0,
+    "lid_outer_geometry_outside_local_change_mm3": 0.0,
+    "m4x8_pattern_change_mm3": 0,
+    "rain_hood_change_mm3": 0,
+    "rain_hood_projection_change_mm": 0.0,
+    "seal_land_change_mm3": 0,
+    "total_local_revision_delta_mm3": 1381.526139
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/DRAINAGE_BIASED_GLAND_COUPONS_PRINT_READY/ANGLED_GLAND_PHYSICAL_VALIDATION_PENDING",
+  "tool_access": {
+    "actual_tool_envelope": "HOLD_ACTUAL_TOOL_ENVELOPE_REQUIRED",
+    "cad_reference_intersection_zero": true,
+    "finger_installation_candidate": true,
+    "flat_seat_diameter_mm": 27.0,
+    "locknut_reference_diameter_mm": 24.0,
+    "recess_entry_diameter_mm": 30.0
+  },
+  "version": "PS-BBOX-CHIMNEY-V004-DRAINAGE-BIASED-GLAND",
+  "waterline": {
+    "absolute_mount_datum_class": "DERIVED_FROM_CAD_AND_TOP_INSERT_Z257_ASSUMPTION",
+    "angle_deg": 7.0,
+    "chimney_top_absolute_z_mm": 307.0,
+    "external_gland_center_absolute_z_mm": 286.707514,
+    "internal_gland_center_absolute_z_mm": 287.0,
+    "lid_top_absolute_z_mm": 257.0,
+    "lowest_edge_margin_above_z150_mm": 129.164163,
+    "lowest_edge_margin_above_z210_mm": 69.164163,
+    "lowest_external_gland_hole_edge_absolute_z_mm": 279.164163,
+    "model_external_center_z_mm": 37.707514,
+    "model_internal_center_z_mm": 38.0,
+    "model_vertical_drop_mm": 0.292486,
+    "physical_baseline_class": "PHYSICAL_PASS_SEPARATE_FROM_DERIVED_Z",
+    "relative_geometry_class": "CAD",
+    "z150_class": "CAD_DESIGN_TARGET",
+    "z210_class": "DERIVED_DESIGN_SCENARIO_NOT_PHYSICAL_MUD_MEASUREMENT"
+  }
+}

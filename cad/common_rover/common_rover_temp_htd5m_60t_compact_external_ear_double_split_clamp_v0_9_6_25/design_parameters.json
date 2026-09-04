@@ -1,0 +1,74 @@
+{
+  "classification": "TEMP_HTD5M_60T_COMPACT_EXTERNAL_EAR_DOUBLE_SPLIT_CLAMP",
+  "ear": {
+    "front_z_mm": [
+      -15.3,
+      7.0
+    ],
+    "minimum_thickness_mm": 5.0,
+    "rear_z_mm": [
+      19.0,
+      41.3
+    ],
+    "root_fillet_mm": 4.0,
+    "root_min_load_section_mm2": 88.89999999999999
+  },
+  "frozen": {
+    "belt_plane_mm": 10.0,
+    "face_mm": 16.0,
+    "flange_od_mm": 102.0,
+    "flange_thickness_mm": 2.0,
+    "flanges": 2,
+    "pitch_mm": 5.0,
+    "spacing_deg": 6.0,
+    "spoke_width_mm": 10.0,
+    "spokes": 6,
+    "teeth": 60
+  },
+  "gates": {
+    "clamp_force": "HOLD",
+    "first_print": "COUPONS_ONLY",
+    "physical_strength": "HOLD",
+    "powered": "NOT_APPROVED",
+    "torque": "HOLD"
+  },
+  "hardware": {
+    "clearance_mm": 4.5,
+    "front_m4": 2,
+    "head_envelope_mm": 12.0,
+    "petg_threads": 0,
+    "printed_stack_mm": 14.0,
+    "rear_m4": 2,
+    "service_envelope_mm": 14.0,
+    "threaded_length_mm": 21.0
+  },
+  "parent": {
+    "files_sha256": {
+      "artifacts/double_split_clamp_b1010_v0_9_6_24.stl": "850b5c71c41ea4397a14aa9adb5900a705efb377b5846a96a08a7aeff503bba6",
+      "artifacts/temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24.step": "ca23b6a27b3ff4f9dec11fede7cb10dfcd6989a9d758f0bc08a9ecaa9ef5c1d3",
+      "artifacts/temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24.stl": "fb4d7dd73224142d4b7296accac8a9d14a083ff042b4a97de6ad9d0874ca8b77",
+      "build_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24.py": "5f6b3f64f53a5f800ff93e93518eab545664b0ca98af9bf08d966aa8e5689c9a",
+      "design_parameters.json": "d51502e6b423b1c1d5835f256fd2c774fab0a81f68c0056f4317de89b532227b",
+      "tests/test_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24_contract.py": "bda359a2f739dc626733bb36c787e81f0611e5654eb349d8c3f2694dcd19c7a9",
+      "validation_report.json": "a83543a73a4f00e8e754c567007bb0c1655ec6748d14fb739ad2a9cdb660f8a6"
+    },
+    "lane": "cad/common_rover/common_rover_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24"
+  },
+  "projection": {
+    "datum": "HUB_END_FACE_TO_OUTERMOST_EAR_EDGE",
+    "ideal_mm": 8.8,
+    "increment_mm": 0.5,
+    "range_mm": [
+      8.8,
+      16.8
+    ],
+    "selected_mm": 15.3
+  },
+  "source": {
+    "artifact": "cad/drive_htd5m_60t_reference.step",
+    "lane": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1",
+    "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+  },
+  "status": "TEMP_HTD5M_60T_COMPACT_EXTERNAL_EAR_DOUBLE_SPLIT_CLAMP_CAD_COMPLETE/PROJECTION_RANGE_8_8_TO_16_8_EVALUATED/SHORTEST_PASSING_PROJECTION_SELECTED/ALL_FOUR_M4_HOLES_FULLY_EXTERNAL/WASHER_HEAD_NUT_TOOL_ACCESS_PRESERVED/EAR_STRENGTH_GEOMETRY_PRESERVED/60T_FUNCTIONAL_GEOMETRY_FROZEN/COUPONS_READY_FOR_PHYSICAL_TEST/POWERED_USE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.25"
+}

@@ -1,0 +1,224 @@
+{
+  "battery": {
+    "battery_bottom_to_terminal_top_mm": 99.4,
+    "body_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "body_to_idler_clearance_mm_approx": 10.0,
+    "female_receptacle_outer_width_mm": 10.6,
+    "insertion_removal": "PHYSICAL_PASS",
+    "label_capacity_ah": 10.0,
+    "label_energy_wh": 128.0,
+    "label_voltage_v": 12.8,
+    "male_tab_mm": [
+      6.3,
+      0.7
+    ],
+    "mass_kg": 1.2,
+    "product": "GOLDENMATE LiFePO4",
+    "terminal_inner_gap_mm": 20.0,
+    "terminal_orientation": "REARWARD / DOWNWARD",
+    "terminal_outer_span_mm": 29.5,
+    "terminal_protrusion_mm_derived": 6.9,
+    "terminal_to_rear_wall_clearance_mm": 37.0
+  },
+  "bbox": {
+    "absolute_height_limit_mm": 108.0,
+    "body_to_service_ring_seam": "ELIMINATED",
+    "compression_stop_reservation_od_mm": 5.0,
+    "energy_storage_only": true,
+    "external_terminal_cap_seam_count": 0,
+    "flange_width_mm": 130.0,
+    "floor_mm": 3.2,
+    "frame_minus_tolerance_clearance_each_mm": 4.5,
+    "frame_nominal_clearance_each_mm": 5.0,
+    "gasket_compressed_mm": 1.5,
+    "gasket_compression_percent": 25.0,
+    "gasket_hardness_shore_a": "approximately 30-50",
+    "gasket_inner_mm": [
+      174.0,
+      104.0
+    ],
+    "gasket_material": "SOLID SILICONE SHEET",
+    "gasket_nominal_thickness_mm": 2.0,
+    "gasket_outer_mm": [
+      186.0,
+      116.0
+    ],
+    "geometry_status": "CONDITIONAL_GEOMETRY_PASS / HOLD_ACTUAL_COMPRESSION_STOP_DIMENSIONS",
+    "gland_land": "BLANK / NO THROUGH-HOLE",
+    "installed_height_mm": 102.7,
+    "integrated_flange_thickness_mm": 4.0,
+    "lid_mm": [
+      200.0,
+      130.0,
+      4.2
+    ],
+    "lid_service_penetrations": 0,
+    "lower_shell_outer_mm": [
+      200.0,
+      130.0,
+      97.0
+    ],
+    "m4_clearance_diameter_mm": 4.4,
+    "m4_count": 12,
+    "main_body_outer_mm": [
+      180.0,
+      114.0,
+      93.0
+    ],
+    "main_cavity_mm": [
+      173.6,
+      107.6
+    ],
+    "maximum_adjacent_bolt_span_mm": 64.5,
+    "minimum_bolt_edge_ligament_mm": 1.3,
+    "minimum_bolt_to_gasket_gap_mm": 1.3,
+    "minimum_stop_edge_ligament_mm": 1.0,
+    "minimum_stop_to_gasket_gap_mm": 1.0,
+    "role": "SUBMERGED BATTERY CASSETTE",
+    "seal_land_minimum_mm": 5.0,
+    "seal_land_width_mm": 6.0,
+    "seal_test_cable_penetrations": 0,
+    "submerged_connector_count": 0,
+    "top_throat_mm": [
+      174.0,
+      104.0
+    ],
+    "wall_mm": 3.2
+  },
+  "cbox": {
+    "body_height_mm": 40.0,
+    "component_hole_patterns": "HOLD",
+    "compressed_gasket_reference_mm": 0.8,
+    "external_mm": [
+      180.0,
+      92.0,
+      45.0
+    ],
+    "internal_tray_mm": [
+      160.0,
+      72.0,
+      2.4
+    ],
+    "lid_mm": 4.2,
+    "m4_candidate_count": 16,
+    "role": "ABOVE-WATER CONTROL / POWER DISTRIBUTION BOX",
+    "thermal_limit": "HOLD",
+    "waterproof": "NOT_TESTED",
+    "zones": [
+      "POWER ENTRY",
+      "MAIN DISTRIBUTION",
+      "DRIVER L",
+      "DRIVER R",
+      "LOW-VOLTAGE / SIGNAL RESERVE"
+    ]
+  },
+  "classification": "SUBMERGED_POWER_ARCHITECTURE + EMPTY_WATERPROOF_PROTOTYPE",
+  "frame": {
+    "battery_insertion_height_mm": 108.0,
+    "frame_190mm": "HOLD",
+    "frame_bottom_to_ground_mm": 68.0,
+    "frame_width_tolerance_mm": 1.0,
+    "height_mm": 150.0,
+    "lower_clear_mm": [
+      400.0,
+      140.0
+    ],
+    "lower_outer_mm": [
+      442.0,
+      181.0
+    ],
+    "upper_clear_mm": [
+      500.0,
+      100.0
+    ],
+    "upper_outer_mm": [
+      540.0,
+      181.0
+    ]
+  },
+  "m4_pattern": [
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 1,
+      "x_mm": -96.5,
+      "y_mm": -61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 2,
+      "x_mm": -32.0,
+      "y_mm": -61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 3,
+      "x_mm": 32.0,
+      "y_mm": -61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 4,
+      "x_mm": 96.5,
+      "y_mm": -61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 5,
+      "x_mm": -96.5,
+      "y_mm": 61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 6,
+      "x_mm": -32.0,
+      "y_mm": 61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 7,
+      "x_mm": 32.0,
+      "y_mm": 61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 8,
+      "x_mm": 96.5,
+      "y_mm": 61.5
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 9,
+      "x_mm": -96.5,
+      "y_mm": -20.0
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 10,
+      "x_mm": -96.5,
+      "y_mm": 20.0
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 11,
+      "x_mm": 96.5,
+      "y_mm": -20.0
+    },
+    {
+      "classification": "DESIGN_CANDIDATE",
+      "index": 12,
+      "x_mm": 96.5,
+      "y_mm": 20.0
+    }
+  ],
+  "print_plate": {
+    "bambu_a1_fit": true,
+    "plate_01": "LOWER_SHELL_BOTTOM_DOWN",
+    "plate_02": "LID_EXTERIOR_DOWN_SEAL_FACE_UP"
+  },
+  "unit": "mm",
+  "version": "0.9.6.0"
+}

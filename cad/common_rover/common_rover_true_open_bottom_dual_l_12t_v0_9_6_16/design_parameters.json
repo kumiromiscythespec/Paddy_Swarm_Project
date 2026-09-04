@@ -1,0 +1,142 @@
+{
+  "classification": "TRUE_OPEN_BOTTOM_DUAL_L_12T",
+  "dual_l": {
+    "clearance_mm": 0.45,
+    "engagement_width_mm": 12.0,
+    "hook_count": 2,
+    "hook_thickness_mm": 4.0,
+    "minimum_overlap_mm": 2.5,
+    "nominal_overlap_mm": 2.75,
+    "opposed_deg": 180.0,
+    "receiver_count": 2,
+    "root_mm": 6.0,
+    "root_radius_class_mm": 2.0,
+    "slide_travel_mm": 3.0,
+    "stop_key": "EXTERNAL_REMOVABLE_REVERSE_SLIDE_BLOCK_NON_TORQUE"
+  },
+  "failure_record": {
+    "BELT_SIDE_ENTRY": "BLOCKED_BY_LOWER_FLANGE",
+    "FULL_V09615_PRINT": "REJECT",
+    "V09615_LOWER_ANNULAR_FLANGE": "PRESENT_IN_EXPORTED_STL",
+    "V09615_NO_CONTINUOUS_LOWER_RING_TEST": "FALSE_PASS_VALIDATION_BUG"
+  },
+  "gates": {
+    "Y3_full_fit": "HOLD",
+    "actual_belt_section": "PHYSICAL_HOLD",
+    "dual_l_vibration": "HOLD",
+    "field": "NOT_APPROVED",
+    "first_test": "BELT_SIDE_ENTRY",
+    "guard_non_annular_replacement": "HOLD",
+    "mud": "HOLD",
+    "physical_print": "FULL_12T_READY_FOR_ONE_PHYSICAL_PRINT",
+    "powered": "NOT_YET_APPROVED",
+    "powered_belt": "HOLD",
+    "shaft_cut": "HOLD",
+    "stop_key_lifetime": "HOLD",
+    "torque": "HOLD",
+    "water": "HOLD"
+  },
+  "old_exported_stl_authority": {
+    "bounds_z_mm": [
+      -26.0,
+      22.0
+    ],
+    "inner_radius_mm": 29.47,
+    "outer_radius_mm": 38.47,
+    "override": "EXPORTED_STL_EVIDENCE_OVERRIDES_OLD_INTERNAL_VALIDATION",
+    "section_z_mm": [
+      -25.5,
+      -24.5,
+      -23.5,
+      -22.5
+    ]
+  },
+  "parent_lane": "cad/common_rover/common_rover_dual_l_slide_rimless_hub_v0_9_6_15",
+  "preserved": {
+    "B_collar_pocket_diameter_mm": 16.2,
+    "B_hardware_cavity_radius_mm": 20.4,
+    "Y3_full_physical_fit": "HOLD",
+    "Y3_head_top_space_mm": 4.3,
+    "Y3_height_mm": 3.7,
+    "Y3_vertical_margin_mm": 0.6,
+    "YW30_receiver_width_mm": 15.5,
+    "grub_screw_count": 0,
+    "guard_authority": "H9_UPPER5_ROOT6_R3_TOPR1_FRAME_CLEARANCE4P4",
+    "guard_authority_values_preserved": true,
+    "guard_axial_shift_mm": 4.0,
+    "guard_candidate_frame_clearance_mm": 8.4,
+    "guard_physical_function": "HOLD_DYNAMIC_VALIDATION_OF_SEGMENTED_GUARD",
+    "guard_segment_count": 12,
+    "headed_m4_count": 2,
+    "headed_m4_separation_deg": 90.0,
+    "integrated_annular_guard_geometry": "SUPERSEDED_BY_12_LOCAL_NONANNULAR_GUARD_SEGMENTS",
+    "pitch": {
+      "difference_mm": 0.0,
+      "physical_result": "PHYSICAL_MATCH",
+      "spacing_difference_deg": 0.0,
+      "status": "FROZEN"
+    },
+    "protected_12t": {
+      "axial_width_mm": 44.0,
+      "buried_root_overlap_mm": 4.0,
+      "outer_body": "ONE_PIECE",
+      "phase_deg": 15.0,
+      "pitch_diameter_mm": 76.3943726841,
+      "root_radius_mm": 29.47,
+      "root_width_mm": 9.5,
+      "spacing_deg": 30.0,
+      "split_teeth": false,
+      "teeth": 12,
+      "tip_radius_mm": 33.07,
+      "tip_width_mm": 7.5,
+      "tooth_root_radial_service_holes": 0
+    }
+  },
+  "printability": {
+    "bed_adhesion": "USE_BAMBU_STUDIO_BRIM_IF_REQUIRED_DO_NOT_RESTORE_FLANGE",
+    "large_lower_disc": false,
+    "long_closed_internal_support": false,
+    "material": "PETG",
+    "printer": "BAMBU_A1",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "trapped_support": false
+  },
+  "removed_hardware": {
+    "hidden_captive_nut_count": 0,
+    "m3_bridge_count": 0,
+    "m3_count": 0,
+    "m3_seat_count": 0,
+    "nut_count": 0,
+    "washer_count": 0
+  },
+  "true_open_bottom": {
+    "actual_belt_section": "PHYSICAL_HOLD",
+    "belt_side_entry_geometry": "OPEN_CANDIDATE",
+    "final_main_min_z_mm": -22.0,
+    "minimum_z_rule_mm": -22.05,
+    "near_bottom_annular_pair": "FORBIDDEN",
+    "old_level_sections": "NONE_REQUIRED",
+    "removal_radius_mm": [
+      29.47,
+      38.47
+    ],
+    "removal_z_mm": [
+      -26.0,
+      -22.0
+    ]
+  },
+  "units": "mm",
+  "validation": {
+    "internal_only_validation_forbidden": true,
+    "method": "EXACT_EXPORTED_BINARY_STL_TRIANGLE_PLANE_SECTION_LOOP_ANALYZER",
+    "near_bottom_section_z_mm": -21.5,
+    "old_section_z_mm": [
+      -25.5,
+      -24.5,
+      -23.5,
+      -22.5
+    ],
+    "parent_regression_required": true
+  },
+  "version": "v0.9.6.16"
+}

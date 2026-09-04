@@ -1,0 +1,9 @@
+Common Rover v0.9.5.3 measurement-only build
+version=0.9.5.3
+lane=cad/common_rover/common_rover_physical_followup_measurement_v0_9_5_3
+generated_path_count=25
+cad_artifact_count=0
+design_geometry_change=NONE
+repository_write_scope=NEW_LANE_ONLY
+git_write=NONE
+result=PASS

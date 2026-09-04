@@ -1,0 +1,494 @@
+{
+  "checks": {
+    "all_four_holes_fully_external": "PASS",
+    "belt_plane_unchanged": "PASS",
+    "flange_change_zero": "PASS",
+    "front_rear_true_symmetry": "PASS",
+    "hardware_collision_zero": "PASS",
+    "m4_21_packaging": "PASS_CANDIDATE",
+    "parent_v09623": "PASS",
+    "physical_clamp": "HOLD",
+    "powered": "NOT_APPROVED",
+    "protected_lanes": "PASS",
+    "rim_change_zero": "PASS",
+    "seat_coverage": "PASS",
+    "slicer": "HOLD",
+    "source_60t": "PASS",
+    "spoke_visible_change_zero": "PASS",
+    "step_reload": "PASS",
+    "stl_watertight": "PASS",
+    "three_bores": "PASS",
+    "tooth_change_zero": "PASS",
+    "washer_nut_driver_access": "PASS"
+  },
+  "classification": "TEMP_HTD5M_60T_EXTERNAL_EAR_DOUBLE_SPLIT_CLAMP",
+  "geometry": {
+    "ear_symmetry": {
+      "axial_mirror_pass": true,
+      "external_ear_not_internal_boss": true,
+      "front_axial_height_mm": 25.0,
+      "front_outward_projection_mm": 18.0,
+      "front_stack_mm": 14.0,
+      "front_x_extent_mm": [
+        1.5,
+        35.5
+      ],
+      "front_z_mm": [
+        -18.0,
+        7.0
+      ],
+      "minimum_thickness_front_mm": 5.0,
+      "minimum_thickness_rear_mm": 5.0,
+      "mirror_plane_z_mm": 13.0,
+      "projection_difference_mm": 0.0,
+      "rear_axial_height_mm": 25.0,
+      "rear_outward_projection_mm": 18.0,
+      "rear_stack_mm": 14.0,
+      "rear_x_extent_mm": [
+        1.5,
+        35.5
+      ],
+      "rear_z_mm": [
+        19.0,
+        44.0
+      ],
+      "root_fillet_front_mm": 4.0,
+      "root_fillet_rear_mm": 4.0,
+      "stack_difference_mm": 0.0
+    },
+    "freeze_regression": {
+      "belt_plane_final_mm": 10.0,
+      "belt_plane_parent_mm": 10.0,
+      "flange_change": 0,
+      "hub_modification_envelope": {
+        "aabb_max_mm": [
+          36.5,
+          21.0,
+          45.0
+        ],
+        "aabb_min_mm": [
+          1.0,
+          -21.0,
+          -19.0
+        ],
+        "central_cylinder_radius_mm": 17.05
+      },
+      "hub_only_revision": true,
+      "outside_added_mm3": 0,
+      "outside_removed_mm3": 0,
+      "rim_change": 0,
+      "ring_added_mm3": 0,
+      "ring_removed_mm3": 0,
+      "spoke_source_primitive_reused": true,
+      "spoke_visible_change_outside_envelope": 0,
+      "tooth_change": 0
+    },
+    "hardware_access": {
+      "all_four_holes_fully_external": true,
+      "external_access_intersection_mm3": 0,
+      "front_centers_mm": [
+        [
+          13.5,
+          0.0,
+          -10.0
+        ],
+        [
+          27.5,
+          0.0,
+          -10.0
+        ]
+      ],
+      "front_m4_count": 2,
+      "hole_center_outside_hub_face_mm": 10.0,
+      "hole_edge_clearance_to_hub_face_mm": 7.75,
+      "minimum_seat_coverage_ratio": 1.0,
+      "rear_centers_mm": [
+        [
+          13.5,
+          0.0,
+          36.0
+        ],
+        [
+          27.5,
+          0.0,
+          36.0
+        ]
+      ],
+      "rear_m4_count": 2,
+      "seat_and_tool_clearance_to_hub_face_mm": 3.0,
+      "seat_and_tool_diameter_mm": 14.0,
+      "seat_edge_margin_mm": 1.0,
+      "tool_pair_gap_mm": 0.0,
+      "total_m4_count": 4,
+      "washer_nut_driver_access_clear": true,
+      "washer_pair_gap_mm": 5.0
+    },
+    "hardware_stack": {
+      "architecture": "THROUGH_M4/INTEGRATED_HEAD_OR_METAL_WASHER/PETG_EAR/METAL_WASHER/METAL_NUT",
+      "bore_to_m4_ligament_mm": 6.15,
+      "clearance_hole_mm": 4.5,
+      "front_printed_stack_mm": 14.0,
+      "hardware_envelope_intersection_mm3": 0,
+      "hidden_nut_ceiling": false,
+      "integrated_head_od_envelope_mm": 12.0,
+      "nut_candidate_mm": 3.2,
+      "petg_tapped_thread_count": 0,
+      "rear_printed_stack_mm": 14.0,
+      "stack_used_candidate_mm": 19.599999999999998,
+      "thread_remaining_candidate_mm": 1.4000000000000021,
+      "threaded_length_mm": 21.0,
+      "visible_thread_pitch_candidate": 2.000000000000003,
+      "washer_candidate_each_mm": 1.2,
+      "washer_od_candidate_mm": 9.0
+    },
+    "hub": {
+      "bore_candidates_mm": [
+        10.1,
+        10.2,
+        10.3
+      ],
+      "continuous_coaxial_bore": true,
+      "front_active_band_z_mm": [
+        0.0,
+        10.0
+      ],
+      "midplane_z_mm": 13.0,
+      "neutral_band_z_mm": [
+        10.0,
+        16.0
+      ],
+      "neutral_od_mm": 28.0,
+      "od_mm": 34.0,
+      "primary_bore_candidate_mm": 10.2,
+      "rear_active_band_z_mm": [
+        16.0,
+        26.0
+      ],
+      "shaft_nominal_mm": 10.0,
+      "split_material_remaining_mm": 12.7,
+      "split_width_mm": 1.3,
+      "width_mm": 26.0
+    },
+    "mesh": {
+      "artifacts/double_split_clamp_b1010_v0_9_6_24.stl": {
+        "bad_edge_count": 0,
+        "bore_mesh": {
+          "bore_to_m4_min_mm": 6.2,
+          "continuous_coaxial_bore": true,
+          "ear_min_mm": 5.0,
+          "effective_max_mm": 10.100001,
+          "effective_min_mm": 10.099219,
+          "front_split_gap_mm": 1.3,
+          "m4_clearance_mm": 4.5,
+          "neutral_wall_min_mm": 8.95,
+          "rear_split_gap_mm": 1.3,
+          "target_mm": 10.1
+        },
+        "bounds_mm": [
+          [
+            -28.382687,
+            -32.0,
+            -18.0
+          ],
+          [
+            35.5,
+            32.0,
+            44.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          63.882687000000004,
+          64.0,
+          62.0
+        ],
+        "triangles": 15906,
+        "watertight": true
+      },
+      "artifacts/double_split_clamp_b1020_v0_9_6_24.stl": {
+        "bad_edge_count": 0,
+        "bore_mesh": {
+          "bore_to_m4_min_mm": 6.15,
+          "continuous_coaxial_bore": true,
+          "ear_min_mm": 5.0,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199211,
+          "front_split_gap_mm": 1.3,
+          "m4_clearance_mm": 4.5,
+          "neutral_wall_min_mm": 8.9,
+          "rear_split_gap_mm": 1.3,
+          "target_mm": 10.2
+        },
+        "bounds_mm": [
+          [
+            -28.382687,
+            -32.0,
+            -18.0
+          ],
+          [
+            35.5,
+            32.0,
+            44.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          63.882687000000004,
+          64.0,
+          62.0
+        ],
+        "triangles": 15890,
+        "watertight": true
+      },
+      "artifacts/double_split_clamp_b1030_v0_9_6_24.stl": {
+        "bad_edge_count": 0,
+        "bore_mesh": {
+          "bore_to_m4_min_mm": 6.1,
+          "continuous_coaxial_bore": true,
+          "ear_min_mm": 5.0,
+          "effective_max_mm": 10.300001,
+          "effective_min_mm": 10.299202,
+          "front_split_gap_mm": 1.3,
+          "m4_clearance_mm": 4.5,
+          "neutral_wall_min_mm": 8.85,
+          "rear_split_gap_mm": 1.3,
+          "target_mm": 10.3
+        },
+        "bounds_mm": [
+          [
+            -28.382687,
+            -32.0,
+            -18.0
+          ],
+          [
+            35.5,
+            32.0,
+            44.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          63.882687000000004,
+          64.0,
+          62.0
+        ],
+        "triangles": 15890,
+        "watertight": true
+      },
+      "artifacts/double_split_clamp_coupon_triplet_v0_9_6_24.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -110.382683,
+            -32.0,
+            -18.0
+          ],
+          [
+            117.5,
+            32.0,
+            44.0
+          ]
+        ],
+        "component_count": 3,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          227.882683,
+          64.0,
+          62.0
+        ],
+        "triangles": 47686,
+        "watertight": true
+      },
+      "artifacts/temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24.stl": {
+        "bad_edge_count": 0,
+        "bore_mesh": {
+          "bore_to_m4_min_mm": 6.15,
+          "continuous_coaxial_bore": true,
+          "ear_min_mm": 5.0,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199211,
+          "front_split_gap_mm": 1.3,
+          "m4_clearance_mm": 4.5,
+          "neutral_wall_min_mm": 8.9,
+          "rear_split_gap_mm": 1.3,
+          "target_mm": 10.2
+        },
+        "bounds_mm": [
+          [
+            -51.0,
+            -51.0,
+            -18.0
+          ],
+          [
+            51.0,
+            51.0,
+            44.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          102.0,
+          102.0,
+          62.0
+        ],
+        "triangles": 17366,
+        "watertight": true
+      }
+    },
+    "physical": {
+      "axial_pull_improvement": "EXPECTED_NOT_PHYSICALLY_VERIFIED",
+      "powered": "NOT_APPROVED",
+      "release_after_test": "REQUIRED",
+      "states": [
+        "A_NO_M4",
+        "B_FRONT_M4X2",
+        "C_REAR_M4X2",
+        "D_FRONT_REAR_M4X4"
+      ]
+    },
+    "print": {
+      "first_print": "COUPONS_ONLY_FULL_60T_PROHIBITED_FIRST",
+      "material": "PETG",
+      "printer": "Bambu Lab A1",
+      "support": "HOLD_SLICER_ORIENTATION_AND_SUPPORT_NOT_RUN"
+    },
+    "pulley": {
+      "belt_plane_mm": 10.0,
+      "flange_count": 2,
+      "flange_od_mm": 102.0,
+      "flange_thickness_mm": 2.0,
+      "overall_dimensions_mm": [
+        102.0,
+        102.0,
+        62.0
+      ],
+      "pitch_family": "HTD5M",
+      "pitch_mm": 5.0,
+      "solid_count": 1,
+      "spacing_deg": 6.0,
+      "spoke_count": 6,
+      "spoke_width_mm": 10.0,
+      "tooth_count": 60,
+      "tooth_face_width_mm": 16.0,
+      "valid": true
+    },
+    "step_import": {
+      "artifacts/temp_htd5m_60t_external_ear_double_split_clamp_hardware_reference_v0_9_6_24.step": {
+        "solid_count": 30,
+        "valid": true
+      },
+      "artifacts/temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24.step": {
+        "solid_count": 1,
+        "valid": true
+      }
+    }
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "cache": [],
+    "checks": {
+      "authority_4_of_4": true,
+      "branch": true,
+      "complete": true,
+      "forbidden_zero": true,
+      "head": true,
+      "lane_cache_zero": true,
+      "lane_scope": true,
+      "outside_untracked_preserved": true,
+      "parent_files": true,
+      "protected_lanes": true,
+      "repository": true,
+      "source": true,
+      "staged_zero": true,
+      "tracked_dirty_preserved": true
+    },
+    "forbidden": [],
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_files": 46,
+    "outside_untracked": [
+      2620,
+      "5e6ede0ccce08fb6f370da7df074498e84f05b1b1d59b07ff5b92a1f73aaacab"
+    ],
+    "parent_sha256": {
+      "artifacts/symmetric_double_split_clamp_b1010_v0_9_6_23.stl": "ae8bd990fc4d7d41bb676c7dd669819109f45e4176988df160aed40b75609396",
+      "artifacts/temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23.step": "6769bf23836fc109c39115a66cb6327b76a1867fa76a3f6862015a5e3c713598",
+      "artifacts/temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23.stl": "6d00d773e5e75e5981586426d7b134aa9ae10e135310540a1d92077c2ad01142",
+      "build_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23.py": "5159c8b7fe740fb006c0f5cdeb497a203d588374d9d6da92c1c10c7c9c1b21ef",
+      "design_parameters.json": "5acbbda980f8993d707a7ae353e4cba794509c3a756c6a3200d3c502411865fb",
+      "tests/test_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23_contract.py": "8775e1d0fece74624f25e6fe9de1190c46df34acfbefe3de47ce8926da10b0ac",
+      "validation_report.json": "7d63ef9e7f40f9d4d5834c02767450520460d445fbedd0ca38fc786fbb971ef1"
+    },
+    "protected_lanes": {
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "count": 33,
+        "status": "UNCHANGED",
+        "tree_sha256": "3e0a550c7d9faa38fae8d106e60b91467788e18533d23063156070d1259615b8"
+      },
+      "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "e632689b54678455adec6758b2420bcf0ed4a2bd8ade8d229d80087275a4630e"
+      },
+      "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+        "count": 53,
+        "status": "UNCHANGED",
+        "tree_sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+      },
+      "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "fcab7a320e371504767153d1167c6c7f5416b84a8edd28e7331f988b01998373"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "9d0d0eb92b759be81ed61a69d89a1888adbb4b88fcd66e63b14a056d59966300"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_double_split_clamp_v0_9_6_22": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "29b8ff01eea737001885ade0ae9876debbf83d0a1ed6cea6c91de60ce48668ca"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "1f8d01cda3ca2b049dcffdda17b1f0c15b2c8de809cef476a157b941ddf4edc9"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "214a215578f1f43013fe70e73203ddeb4b58e52c792322052a0504bcfad8921e"
+      },
+      "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16": {
+        "count": 37,
+        "status": "UNCHANGED",
+        "tree_sha256": "fe514d3a9c1ca21bca92beee738ff1ed1b6d47fd2cdb2f2aa59866584303ea56"
+      },
+      "cad/common_rover/common_rover_y3_reaction_shoe_v0_9_6_19": {
+        "count": 34,
+        "status": "UNCHANGED",
+        "tree_sha256": "ede454f33bbd1030c0e744de0fda9614d86d201f89a7ebdc17e8a468bbfedb7a"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "TEMP_HTD5M_60T_EXTERNAL_EAR_DOUBLE_SPLIT_CLAMP_CAD_COMPLETE/V09623_PARTIAL_HARDWARE_EXPOSURE_CORRECTED/FRONT_REAR_M4_HOLES_FULLY_EXTERNAL/FRONT_REAR_WASHER_SEATS_FULLY_EXPOSED/FRONT_REAR_TOOL_ACCESS_CLEAR/TRUE_HUB_MIDPLANE_SYMMETRY/60T_TOOTH_FLANGE_RIM_SPOKES_PROTECTED/CENTRAL_HUB_EARS_ONLY_REVISED/FRONT_M4X2_REAR_M4X2_READY/M4X21_PACKAGING_READY/THREE_EXTERNAL_EAR_COUPONS_READY/PHYSICAL_CLAMP_TEST_REQUIRED/POWERED_USE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.24"
+}

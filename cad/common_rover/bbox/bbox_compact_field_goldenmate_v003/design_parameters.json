@@ -1,0 +1,304 @@
+{
+  "authority_precedence": "GOLDENMATE_CORRECTED_AXIS_V001_OVERRIDES_OLDER_XYZ",
+  "battery_authority": {
+    "body_height_mm": 92.5,
+    "long_mm": 150.9,
+    "mass_kg": 1.2,
+    "terminal_inclusive_height_mm": 99.4,
+    "width_mm": 65.5
+  },
+  "chimney": {
+    "compact_lid_perimeter": "NEW_PHYSICAL_WATERPROOF_PENDING",
+    "local_geometry_reuse": "EXACT_PROTECTED_PRIMITIVES_RELOCATED",
+    "local_wall_mm": 2.4,
+    "pg9_hole_mm": 15.2,
+    "positions": {
+      "A_SELECTED_OPPOSITE_TERMINALS": [
+        -50.0,
+        -14.5
+      ],
+      "B_TERMINAL_END": [
+        50.0,
+        -14.5
+      ],
+      "C_OFFSET_CORNER": [
+        -50.0,
+        -4.5
+      ]
+    },
+    "selected": "A_SELECTED_OPPOSITE_TERMINALS",
+    "source": "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority"
+  },
+  "floor_selected_mm": 3.5,
+  "floor_study_mm": [
+    3.0,
+    3.5,
+    4.0
+  ],
+  "front_interface": "REFERENCE_ONLY_GLOBAL_INTEGRATION_HOLD",
+  "full_box_print": "HOLD_UNTIL_SEAL_COUPON_PHYSICAL_PASS",
+  "global_vehicle_transform": "PHYSICAL_PENDING",
+  "main_cable_od_mm": 9.6,
+  "old_99p4_as_plan_width": false,
+  "protected_start": {
+    "cad/common_rover/bbox/bbox_field_box_goldenmate_v001": {
+      "files": 1,
+      "sha256": "c9010845e8ab4680a273d1ddd7464c9231ec71d0b4d9aee2a412fc5677d42332"
+    },
+    "cad/common_rover/bbox/bbox_tall_field_body_goldenmate_v002": {
+      "files": 1,
+      "sha256": "82f3e9ae2c9f61c0291783a9bb1845cf143a3677f1217ed046739b6821ff63c4"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+      "files": 45,
+      "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+    },
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+      "files": 18,
+      "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+    },
+    "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {
+      "files": 37,
+      "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481"
+    },
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+      "files": 66,
+      "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+    },
+    "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003": {
+      "files": 29,
+      "sha256": "4e25c6f456aaae2aedd147cdb2d1bfd8268715f507184dbea2432d1ac0a114cf"
+    },
+    "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001": {
+      "files": 28,
+      "sha256": "89f3878136014c68a03ba7b15615db23e2c0bacbb0626446c450e9143658f87a"
+    },
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+      "files": 12,
+      "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+    },
+    "cad/common_rover/physical_authority/common_rover_electrical_hardware_physical_authority_v001": {
+      "files": 11,
+      "sha256": "22169c9bca3cb63c5b7c6f5707e2cc49a57770cde6b3404e5dcf5d4d3f1676c0"
+    },
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+      "files": 12,
+      "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+    }
+  },
+  "seal": {
+    "cord_mm": 1.8,
+    "exact_v002_perimeter_reused": false,
+    "external_vertical_m4_count": 8,
+    "groove_depth_mm": 0.5,
+    "groove_width_mm": 2.1,
+    "hardstop_gap_mm": 0.895,
+    "path_continuous": true,
+    "physical_pass": "PENDING",
+    "source": "V002_REUSED_DESIGN_PRINCIPLE"
+  },
+  "selected": "COMPACT_B",
+  "selected_dimensions": {
+    "body_overall": [
+      180.0,
+      96.0,
+      114.395
+    ],
+    "core_body_external": [
+      162.0,
+      76.0,
+      113.5
+    ],
+    "internal": [
+      155.0,
+      69.0,
+      110.0
+    ],
+    "lid_base": [
+      180.0,
+      96.0,
+      8.0
+    ],
+    "pad": 1.0
+  },
+  "service_reserved_volume_mm3": 6000.0,
+  "service_reserved_zone_mm": [
+    25.0,
+    20.0,
+    12.0
+  ],
+  "status": "LOCAL_BBOX_CAD_PASS/CONTRACT_TEST_PASS/SEAL_COUPON_PRINT_READY/FULL_BBOX_CAD_READY/FULL_BBOX_PRINT_HOLD_UNTIL_COUPON_PASS/GLOBAL_VEHICLE_INTEGRATION_PHYSICAL_PENDING/WATERPROOF_PHYSICAL_PENDING",
+  "strap_physical_fit": "PENDING",
+  "strap_selected_mm": 20.0,
+  "strap_width_study_mm": [
+    15.0,
+    20.0,
+    25.0
+  ],
+  "support_architecture_study": [
+    "A_BODY_FLOOR_TPU_PADS_STRAP",
+    "B_END_SHOES_STRAP",
+    "C_LIGHT_CRADLE_STRAP"
+  ],
+  "support_selected": "A_BODY_FLOOR_REPLACEABLE_TPU_PADS_20MM_STRAP",
+  "temporary_bbox": {
+    "body_bottom_global_z_mm": 144.0,
+    "cad_source": "UNRESOLVED",
+    "external_mm": [
+      155.0,
+      71.9,
+      110.0
+    ],
+    "internal_mm": [
+      152.0,
+      65.5,
+      104.0
+    ],
+    "left_reference_gap_mm": 55.0,
+    "physical_fit": "PASS",
+    "right_reference_gap_mm": 0.0,
+    "rim_global_z_mm": 254.0,
+    "x_ref_to_front_mm": 345.0,
+    "x_ref_to_rear_mm": 500.0
+  },
+  "temporary_cad_source_audit": {
+    "physical_dimensions_remain_authoritative": true,
+    "result": "UNRESOLVED",
+    "screened": [
+      {
+        "cad_bbox_mm": [
+          122.0,
+          122.0,
+          109.0
+        ],
+        "residual_vs_temp_mm": [
+          -33.0,
+          50.1,
+          -1.0
+        ],
+        "source": "common_rover_top_insert_bbox_v0_9_6_37"
+      },
+      {
+        "cad_bbox_mm": [
+          156.5,
+          108.0,
+          25.0
+        ],
+        "residual_vs_temp_mm": [
+          1.5,
+          36.1,
+          -85.0
+        ],
+        "source": "common_rover_rapid_dry_test_bbox_cbox_v0_9_6_7"
+      },
+      {
+        "cad_bbox_mm": [
+          157.5,
+          110.0,
+          29.0
+        ],
+        "residual_vs_temp_mm": [
+          2.5,
+          38.1,
+          -81.0
+        ],
+        "source": "common_rover_dry_drive_battery_tray_v0_9_6_3"
+      }
+    ]
+  },
+  "terminal_xy": "PARTIALLY_UNRESOLVED_FULL_TERMINAL_END_KEEP_OUT_USED",
+  "tpu_role": "NONSTRUCTURAL_REPLACEABLE_BOTTOM_RUNNERS_WITH_OPEN_DRYING_PATH",
+  "tpu_selected_mm": 1.0,
+  "tpu_study_mm": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "variants": {
+    "COMPACT_A": {
+      "battery_extraction": "PASS",
+      "class": "MINIMUM_PRACTICAL_FIELD",
+      "core_external_mm": [
+        161.0,
+        75.0,
+        111.5
+      ],
+      "internal": [
+        154.0,
+        68.0,
+        108.0
+      ],
+      "pad": 1.0,
+      "print_impact": "LOW",
+      "restraint_space": "CONDITIONAL",
+      "result": "REFERENCE_ONLY",
+      "terminal_to_lid_inner_mm": 8.495,
+      "terminal_to_rim_mm": 7.6,
+      "x_per_side_mm": 1.55,
+      "x_total_clearance_mm": 3.1,
+      "y_per_side_mm": 1.25,
+      "y_total_clearance_mm": 2.5
+    },
+    "COMPACT_B": {
+      "battery_extraction": "PASS",
+      "class": "BALANCED_SELECTED",
+      "core_external_mm": [
+        162.0,
+        76.0,
+        113.5
+      ],
+      "internal": [
+        155.0,
+        69.0,
+        110.0
+      ],
+      "pad": 1.0,
+      "print_impact": "BALANCED",
+      "restraint_space": "PASS",
+      "result": "SELECTED",
+      "terminal_to_lid_inner_mm": 10.495,
+      "terminal_to_rim_mm": 9.6,
+      "x_per_side_mm": 2.05,
+      "x_total_clearance_mm": 4.1,
+      "y_per_side_mm": 1.75,
+      "y_total_clearance_mm": 3.5
+    },
+    "COMPACT_C": {
+      "battery_extraction": "PASS",
+      "class": "HIGH_SERVICE_CLEARANCE",
+      "core_external_mm": [
+        165.0,
+        78.0,
+        115.5
+      ],
+      "internal": [
+        158.0,
+        71.0,
+        112.0
+      ],
+      "pad": 1.5,
+      "print_impact": "HIGHEST_OF_THREE",
+      "restraint_space": "PASS",
+      "result": "REFERENCE_ONLY",
+      "terminal_to_lid_inner_mm": 11.995,
+      "terminal_to_rim_mm": 11.1,
+      "x_per_side_mm": 3.55,
+      "x_total_clearance_mm": 7.1,
+      "y_per_side_mm": 2.75,
+      "y_total_clearance_mm": 5.5
+    }
+  },
+  "version": "PS-COMMON-ROVER-COMPACT-FIELD-BBOX-V003",
+  "wall_selected_mm": 3.5,
+  "wall_study_mm": [
+    3.0,
+    3.2,
+    3.5
+  ],
+  "waterline": {
+    "context_only": true,
+    "target_global_z_mm": 150.0,
+    "temporary_body_below_mm": 6.0
+  },
+  "waterproof": "PHYSICAL_PENDING"
+}

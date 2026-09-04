@@ -1,0 +1,3 @@
+# BBOX chimney V004 drainage-biased gland
+
+Coupon: (1) print 7°; (2) insert PG9; (3) confirm gasket fully flat; (4) fully engage and flat-seat locknut; (5) check cross-thread tendency; (6) inspect whitening/cracking; (7) tighten without gland rotation; (8) route cable downward; (9) place water above gland and confirm outward/downward flow; (10) confirm no persistent gasket puddle. If tool or cable access is marginal, repeat with 5°. After selection/full-lid print: install PG9/gasket/locknut/cable, mount real BBOX, then upright, front, rear, left, right, rain/splash and wet-cable tests; inspect pooling and compare with vertical V003. Stop on any leak or damage.

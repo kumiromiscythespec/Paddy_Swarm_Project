@@ -1,0 +1,163 @@
+{
+  "architecture": {
+    "automatic_cassette_swap_current": false,
+    "current_standard": [
+      "TOP_SERVICE_MANUAL_SWAP",
+      "AUTONOMOUS_CONTACT_CHARGING"
+    ],
+    "manual_top_swap": true,
+    "normal_battery_removal": false,
+    "rear_slide": "SUPERSEDED_AS_PRIMARY_ARCHITECTURE_PRESERVED_FOR_RESEARCH"
+  },
+  "authority_conflicts": {
+    "cbox_v0_9_6_32": {
+      "cbox_body_mm": [
+        246.0,
+        150.0,
+        80.0
+      ],
+      "cbox_total_print_bbox_mm": [
+        246.0,
+        152.0,
+        80.0
+      ],
+      "status": "LATEST_MODULAR_CBOX_LOCAL_GEOMETRY_AUTHORITY",
+      "z_placement": "HOLD_NO_UNAMBIGUOUS_TRANSFORM"
+    },
+    "fixed_core_v228": {
+      "bbox_body_nominal_mm": [
+        200.0,
+        150.0,
+        120.0
+      ],
+      "gasket_nominal_mm": [
+        204.0,
+        154.0,
+        3.0
+      ],
+      "lid_nominal_mm": [
+        216.0,
+        166.0,
+        16.0
+      ],
+      "status": "CURRENT_FIXED_CORE_AUDIT_FACTS_NOT_AUTOMATICALLY_MERGED"
+    },
+    "resolution": "AUTHORITY_CONFLICT_RECORDED_NO_SYNTHETIC_UNIFIED_DIMENSION",
+    "submerged_v0_9_6_0": {
+      "bbox_lower_shell_mm": [
+        200.0,
+        130.0,
+        97.0
+      ],
+      "cbox_external_mm": [
+        180.0,
+        92.0,
+        45.0
+      ],
+      "gasket_outer_mm": [
+        186.0,
+        116.0,
+        2.0
+      ],
+      "lid_mm": [
+        200.0,
+        130.0,
+        4.2
+      ],
+      "status": "SUBMERGED_PROTOTYPE_AUTHORITY_NOT_AUTOMATICALLY_MERGED"
+    }
+  },
+  "battery_physical_reference": {
+    "authority": "V0_9_6_0_PHYSICAL_MEASUREMENT_CLOSURE_REFERENCE",
+    "body_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "capacity_ah": 10.0,
+    "energy_wh": 128.0,
+    "mass_kg": 1.2,
+    "product": "GOLDENMATE LiFePO4",
+    "voltage_v": 12.8
+  },
+  "cbox_service": {
+    "automatic_actuation": false,
+    "cable_service_loop": "HOLD",
+    "direction": "HOLD",
+    "display_only_operating_z_mm": 140.0,
+    "display_only_symmetric_offsets_mm": [
+      -280.0,
+      280.0
+    ],
+    "first_candidate": "LATERAL_SERVICE_SLIDE",
+    "lock": "HOLD",
+    "rail": "HOLD",
+    "secondary": "HINGE_UP",
+    "stroke_mm": "HOLD"
+  },
+  "classification": "TOP_SERVICE_MANUAL_SWAP_PLUS_AUTONOMOUS_CONTACT_CHARGING_ARCHITECTURE",
+  "concept_geometry": {
+    "battery_sweep_display_height_mm": 212.5,
+    "bbox_display_reference_mm": [
+      200.0,
+      150.0,
+      120.0
+    ],
+    "charging_contact_display_keepout_mm": [
+      80.0,
+      60.0,
+      50.0
+    ],
+    "classification": "TRANSPARENT_REFERENCE_ONLY_NOT_POSITION_STROKE_OR_HARDWARE_AUTHORITY",
+    "station_display": {
+      "approach_length_mm": 700.0,
+      "guide_height_mm": 100.0,
+      "guide_span_mm": 400.0
+    }
+  },
+  "current_water_dummy_v001": {
+    "modified": false,
+    "rear_slide_validation": false,
+    "role": "PRINTED_SHELL_TOP_SEAL_DEVELOPMENT_REFERENCE",
+    "status_reference": [
+      "CAD_PASS",
+      "CONTRACT_PASS",
+      "PRINT_NOT_YET"
+    ]
+  },
+  "holds": [
+    "EXACT_BBOX_DIMENSIONAL_AUTHORITY_CONFLICT",
+    "TOP_LID_FINAL_GEOMETRY",
+    "TOP_GASKET_COMPRESSION",
+    "CBOX_LATERAL_SLIDE_DIRECTION",
+    "CBOX_REQUIRED_SERVICE_STROKE",
+    "SERVICE_LOCK_MECHANISM",
+    "CBOX_CABLE_SERVICE_LOOP",
+    "BATTERY_POWER_CONNECTOR",
+    "CHARGING_CONTACT_HARDWARE",
+    "CHARGING_VOLTAGE_CURRENT",
+    "CHARGING_STATION_DOCKING_TOLERANCE",
+    "MUD_WATER_CONTAMINATION_RESISTANCE",
+    "PHYSICAL_WATERPROOF_TEST",
+    "ACTUAL_BATTERY_SWAP_ERGONOMICS",
+    "CBOX_FRAME_MOTOR_PTO_CRAWLER_INTERFERENCE_TRANSFORMS"
+  ],
+  "operation_modes": {
+    "A": "NORMAL_LOW_MEDIUM_LOAD_BATTERY_INSTALLED_AUTONOMOUS_CONTACT_CHARGING",
+    "B": "HIGH_LOAD_BUSY_SEASON_AUTONOMOUS_CHARGING_PRIMARY_MANUAL_TOP_SWAP_SUPPLEMENTAL",
+    "C": "SERVICE_FAILURE_STOP_ISOLATE_MOVE_CBOX_OPEN_TOP_MANUAL_REPLACE",
+    "D": "FUTURE_AUTOMATIC_SWAP_NOT_CURRENT_BASELINE"
+  },
+  "protected_principles": [
+    "HIGH_MOUNTED_DUAL_MOTOR_4WD_ARCHITECTURE",
+    "BBOX_CBOX_SEPARATION",
+    "REMOVABLE_BATTERY_CASSETTE_CONCEPT",
+    "LIFEPO4_12_8V_CURRENT_PROTOTYPE_BATTERY_AUTHORITY",
+    "INDEPENDENT_LEFT_RIGHT_DRIVE",
+    "CURRENT_CRAWLER_AND_PTO_ARCHITECTURE",
+    "CURRENT_SEALING_TEST_HISTORY",
+    "EXISTING_REAR_SLIDE_RESEARCH_ARTIFACTS"
+  ],
+  "status": "ARCHITECTURE_DECISION_RECORDED/TOP_SERVICE_MANUAL_SWAP_SELECTED/AUTONOMOUS_CONTACT_CHARGING_SELECTED/REAR_SLIDE_PRIMARY_ARCHITECTURE_SUPERSEDED/BATTERY_TRANSPORTER_ROLE_REDEFINED/AUTHORITY_CONFLICT_RECORDED/CAD_CONCEPT_PASS/CONTRACT_TEST_PASS/ARCHITECTURE_SELECTED/CAD_CONCEPT_COMPLETE/PHYSICAL_VALIDATION_PENDING/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.35"
+}

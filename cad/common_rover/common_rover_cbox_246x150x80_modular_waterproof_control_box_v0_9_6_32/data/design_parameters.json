@@ -1,0 +1,238 @@
+{
+  "carrier": {
+    "architecture": "REMOVABLE_UNIVERSAL_GRID_SLOTS_ZIP_TIE_SLOTS",
+    "bbox_mm": [
+      208.0,
+      112.0,
+      4.0
+    ],
+    "blind_boss_hole_vs_floor_mm3": 0,
+    "bottom_clearance_mm": 6.0,
+    "carrier_vs_shell_installed_mm3": 0,
+    "component_specific_hole_release": false,
+    "installed_bottom_z_mm": 11.0,
+    "mounting_boss_count": 6,
+    "routing_corridor_each_side_mm": [
+      15.0,
+      15.0
+    ],
+    "throat_removal_margin_each_side_mm": [
+      6.0,
+      7.0
+    ]
+  },
+  "classification": "CBOX_246X150X80_MODULAR_WATERPROOF_CONTROL_BOX",
+  "electrical": {
+    "bbox_roles": [
+      "LiFePO4_12.8V_BATTERY",
+      "MAIN_FUSE_AT_BATTERY_POSITIVE",
+      "CBOX_POWER_OUTPUT"
+    ],
+    "bbox_to_cbox_conductor_count": 2,
+    "bbox_to_cbox_conductors": [
+      "+12.8V",
+      "GND"
+    ],
+    "cbox_roles": [
+      "POWER_DISTRIBUTION",
+      "SAFETY_RELAY",
+      "MD10C_L",
+      "MD10C_R",
+      "DC_DC_12_TO_5",
+      "ESP32",
+      "SIGNAL_TERMINAL",
+      "ENCODER",
+      "FUTURE_SENSOR"
+    ],
+    "estop_current_path": "ESTOP_CONTACT_TO_RELAY_COIL_ONLY",
+    "md10c_driver_gap_target_mm": 20.0,
+    "motor_main_current_through_estop": false,
+    "power_logic_corridors_separate": true,
+    "thermal": "CBOX_THERMAL_VALIDATION_PENDING"
+  },
+  "first_print": {
+    "carrier": "artifacts/electronics_carrier_v0_9_6_32.stl",
+    "quantity_each": 1,
+    "shell": "artifacts/cbox_shell_v0_9_6_32.stl"
+  },
+  "gasket": {
+    "compression_candidates_percent": [
+      20.0,
+      22.5,
+      25.0
+    ],
+    "fastener_intersection_mm3": 0,
+    "fastener_minimum_separation_mm": 3.25,
+    "fastener_rows": [
+      {
+        "center_xy_mm": [
+          -117.5,
+          -70.0
+        ],
+        "index": 1,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 6.077723
+      },
+      {
+        "center_xy_mm": [
+          -117.5,
+          70.0
+        ],
+        "index": 2,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 6.077723
+      },
+      {
+        "center_xy_mm": [
+          117.5,
+          -70.0
+        ],
+        "index": 3,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 6.077723
+      },
+      {
+        "center_xy_mm": [
+          117.5,
+          70.0
+        ],
+        "index": 4,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 6.077723
+      },
+      {
+        "center_xy_mm": [
+          0.0,
+          -72.5
+        ],
+        "index": 5,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 3.25
+      },
+      {
+        "center_xy_mm": [
+          0.0,
+          72.5
+        ],
+        "index": 6,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 3.25
+      },
+      {
+        "center_xy_mm": [
+          -120.5,
+          0.0
+        ],
+        "index": 7,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 4.25
+      },
+      {
+        "center_xy_mm": [
+          120.5,
+          0.0
+        ],
+        "index": 8,
+        "intersection_mm3": 0,
+        "minimum_separation_mm": 4.25
+      }
+    ],
+    "land_minimum_width_mm": 12.0,
+    "nominal_thickness_mm": 2.0,
+    "radial_width_mm": 3.0,
+    "reference_compression_percent": 22.5,
+    "solid_count": 1,
+    "type": "CLOSED_LOOP_SOLID_SILICONE_CANDIDATE"
+  },
+  "lid": {
+    "bbox_mm": [
+      246.0,
+      150.0,
+      5.8
+    ],
+    "cable_attached": false,
+    "compression_stop_geometry": "METAL_STOP_RETROFIT_RESERVATION_AROUND_8_HOLES",
+    "electrical_penetration_count": 0,
+    "estop_mounted": false,
+    "fastening_points_candidate": 8,
+    "print_gate": "HOLD_AFTER_SHELL_CARRIER_PHYSICAL_LAYOUT"
+  },
+  "placement": {
+    "bbox_extraction_envelope_vs_cbox_mm3": 0,
+    "bbox_structural_lid_penetration_count": 0,
+    "bbox_to_cbox_minimum_distance_mm": 8.0,
+    "bbox_to_cbox_nominal_contact_mm3": 0,
+    "cbox_z_placement": "HOLD_NO_UNAMBIGUOUS_CURRENT_FRAME_BBOX_UPPER_BRIDGE_TRANSFORM",
+    "crawler_collision": "UNKNOWN_HOLD_NO_CURRENT_TRANSFORM",
+    "frame_collision": "HOLD_CBOX_Z_PLACEMENT",
+    "frame_plan_envelope": "PASS_REFERENCE_246x150_WITHIN_540x181_OUTER_ONLY",
+    "local_stack_gap_mm": 8.0,
+    "motor_transmission_collision": "UNKNOWN_HOLD_NO_CURRENT_TRANSFORM",
+    "pto_collision": "UNKNOWN_HOLD_NO_CURRENT_TRANSFORM",
+    "turtle_shell_collision": "UNKNOWN_HOLD_SOURCE_NOT_FOUND",
+    "upper_bridge_mount": "HOLD_NO_NEW_FRAME_HOLES"
+  },
+  "print": {
+    "build_area_mm": [
+      256.0,
+      256.0
+    ],
+    "carrier_margin_total_mm": [
+      48.0,
+      144.0
+    ],
+    "hard_contract_mm": [
+      248.0,
+      152.0
+    ],
+    "lid_margin_total_mm": [
+      10.0,
+      106.0
+    ],
+    "printer": "Bambu Lab A1",
+    "shell_margin_total_mm": [
+      10.0,
+      104.0
+    ],
+    "shell_no_split": true,
+    "waterproof_glued_seam_count": 0
+  },
+  "seal_firewall": {
+    "blind_fastener_vs_wet_cavity_mm3": 0,
+    "floor_penetration_count": 0,
+    "gland_through_hole_count": 0,
+    "lid_electrical_penetration_count": 0
+  },
+  "shell": {
+    "body_outer_mm": [
+      246.0,
+      150.0,
+      80.0
+    ],
+    "bottom_closed_top_open": true,
+    "corner_radius_mm": 12.0,
+    "floor_min_mm": 5.0,
+    "floor_penetration_count": 0,
+    "gland_field_local_wall_mm": 8.0,
+    "gland_through_hole_count": 0,
+    "main_cavity_mm": [
+      238.0,
+      142.0,
+      67.0
+    ],
+    "removal_throat_mm": [
+      220.0,
+      126.0
+    ],
+    "solid_count": 1,
+    "total_print_bbox_mm": [
+      246.0,
+      152.0,
+      80.0
+    ],
+    "valid": true,
+    "wall_min_mm": 4.0
+  },
+  "status": "CBOX_246x150x80_CAD_PASS/A1_SINGLE_PIECE_PRINTABLE/BBOX_TO_CBOX_TWO_WIRE_POWER_INTERFACE/BBOX_LID_STRUCTURAL_INDEPENDENCE/REMOVABLE_UNIVERSAL_CARRIER/POWER_LOGIC_ZONING_DEFINED/GLAND_FIELDS_SOLID_NO_HOLES/LID_PENETRATION_ZERO/SEALED_FLOOR_PENETRATION_ZERO/EXTERNAL_ESTOP_ARCHITECTURE/SHELL_PRINT_APPROVED/CARRIER_PRINT_APPROVED/LID_PRINT_HOLD/WATER_NOT_YET/THERMAL_NOT_YET/POWERED_NOT_YET/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.32"
+}
