@@ -1,0 +1,101 @@
+{
+  "document_id": "PS-CR-V0934-POWERTRAIN-FRAME-JOINT-TRADE-STUDY",
+  "rows": [
+    {
+      "evidence": "user current mockup",
+      "group": "frame",
+      "parameter": "FRAME_OUTER_WIDTH_X",
+      "status": "RECORDED_CANDIDATE",
+      "unit": "mm",
+      "value": "180.0"
+    },
+    {
+      "evidence": "derived symmetric rails",
+      "group": "frame",
+      "parameter": "POWERTRAIN_CLEAR_WIDTH_X",
+      "status": "RECORDED_CANDIDATE",
+      "unit": "mm",
+      "value": "100.0"
+    },
+    {
+      "evidence": "derived",
+      "group": "frame",
+      "parameter": "SIDE_RAIL_WIDTH_X",
+      "status": "CANDIDATE",
+      "unit": "mm",
+      "value": "40.0"
+    },
+    {
+      "evidence": "proxy",
+      "group": "frame",
+      "parameter": "SIDE_RAIL_HEIGHT_Z",
+      "status": "MEASUREMENT_HOLD",
+      "unit": "mm",
+      "value": "20.0"
+    },
+    {
+      "evidence": "derived contract",
+      "group": "frame",
+      "parameter": "LEFT_RAIL_CENTER_X",
+      "status": "CANDIDATE",
+      "unit": "mm",
+      "value": "-70.0"
+    },
+    {
+      "evidence": "derived contract",
+      "group": "frame",
+      "parameter": "RIGHT_RAIL_CENTER_X",
+      "status": "CANDIDATE",
+      "unit": "mm",
+      "value": "70.0"
+    },
+    {
+      "evidence": "inner-face span",
+      "group": "frame",
+      "parameter": "CROSSMEMBER_LENGTH_X",
+      "status": "CANDIDATE",
+      "unit": "mm",
+      "value": "100.0"
+    },
+    {
+      "evidence": "not available",
+      "group": "profile",
+      "parameter": "PROFILE_EXACT_SECTION",
+      "status": "MEASUREMENT_HOLD",
+      "unit": "",
+      "value": ""
+    },
+    {
+      "evidence": "unmeasured",
+      "group": "profile",
+      "parameter": "END_CENTER_HOLE_DIAMETER",
+      "status": "MEASUREMENT_HOLD",
+      "unit": "mm",
+      "value": ""
+    },
+    {
+      "evidence": "unmeasured",
+      "group": "profile",
+      "parameter": "M5_M6_TAP_COMPATIBILITY",
+      "status": "MEASUREMENT_HOLD",
+      "unit": "",
+      "value": ""
+    },
+    {
+      "evidence": "approximate physical report",
+      "group": "baseline",
+      "parameter": "INNER_CORNER_BRACKET_INTRUSION",
+      "status": "RECORDED_APPROXIMATE",
+      "unit": "mm",
+      "value": "27.9"
+    },
+    {
+      "evidence": "trade study",
+      "group": "tie_plate",
+      "parameter": "AVAILABLE_MATERIAL_AND_THICKNESS",
+      "status": "MATERIAL_SELECTION_HOLD",
+      "unit": "mm",
+      "value": "3.0 candidate"
+    }
+  ]
+}

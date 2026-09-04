@@ -1,0 +1,38 @@
+{
+  "bbox": {
+    "layout": "BBOX_REAR_CBOX_FRONT_X_SERIAL",
+    "lid_wear_contact": false,
+    "load_path": "FRAME_SUPPORT_TO_BBOX_STRUCTURAL_SHOULDER",
+    "motion": "BBOX_PITCH_AND_SLIDE_SERVICE_MOTION"
+  },
+  "clutch": {
+    "axis": "Y",
+    "guide": "TWO_TRANSVERSE_2020_CONTACT_LINES",
+    "operating_reaction": "MECHANICAL_STOP_TO_FRAME",
+    "positions": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ]
+  },
+  "h25a1": {
+    "cover_primary_torque": false,
+    "insertion": "OPEN_TOP_OR_SIDE_SERVICE_CAPTURE_POCKET",
+    "torque_path": "SHAFT_SET_SCREWS_METAL_COLLAR_CONTROLLED_METAL_FEATURES_REPLACEABLE_REACTION_KEY_PETG_HUB_12T",
+    "washer_primary_torque_feature": false
+  },
+  "pto": {
+    "architecture": "COMMON_PTO_HS_1TO1",
+    "axis": "Y",
+    "driven_teeth": 20,
+    "driver_teeth": 20,
+    "powered": false,
+    "ratio": 1.0,
+    "support": "KP000_DOUBLE_SUPPORT"
+  },
+  "servo": {
+    "continuous_belt_reaction": false,
+    "count": 2,
+    "support": "SERVO_METAL_PLATE_TNUT_2020_MAIN_FRAME"
+  }
+}

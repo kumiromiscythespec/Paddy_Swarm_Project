@@ -1,0 +1,128 @@
+{
+  "bbox": {
+    "battery_margin_x_total": 29.099999999999994,
+    "battery_margin_y_total": 14.599999999999994,
+    "clearance_x_each": 10.0,
+    "geometry": "STEPPED_REFERENCE_ENVELOPE_NOT_WATERPROOF_SHELL",
+    "terminal_overhead_clearance": [
+      7.0,
+      13.0
+    ]
+  },
+  "buoyancy": {
+    "bbox_mass": "HOLD",
+    "buoyant_force_n_range": [
+      8.592625956600001,
+      9.8000207046
+    ],
+    "net_downward_kgf_excluding_bbox_mass_range": [
+      0.20067599999999985,
+      0.32379599999999986
+    ],
+    "partial_displacement_l_range": [
+      0.8762040000000001,
+      0.9993240000000001
+    ]
+  },
+  "cbox": {
+    "electronics": "HOLD",
+    "geometry": "UNIVERSAL_ELECTRONICS_ENVELOPE"
+  },
+  "cg_sensitivity": {
+    "battery_center_z_range": [
+      147.55,
+      153.55
+    ],
+    "known_battery_mass_kg": 1.2,
+    "known_battery_x_moment_kg_mm": -120.0,
+    "layout_a_battery_center_x": -100.0,
+    "total_rover_cg": "HOLD_UNKNOWN_COMPONENT_MASSES",
+    "upper_unknown_masses_vertical_shift": 40.0
+  },
+  "classification": "PHYSICAL_INTEGRATION_REVISION",
+  "diagonal": {
+    "concept_center_distance": 213.78493866500511,
+    "delta_x": 98.0,
+    "final_cut_length": null,
+    "final_cut_status": "HOLD_ACTUAL_PIVOT_ROTATION_CENTER_AND_END_OFFSETS",
+    "pivot_hardware": "M6",
+    "pivot_nominal": [
+      32.0,
+      20.0,
+      20.0
+    ],
+    "sole_friction_lock": "NOT_APPROVED",
+    "structural_height": 190.0
+  },
+  "frame_bounds": {
+    "150": {
+      "x": 540.0,
+      "y": 181.0,
+      "z": 150.0,
+      "zmax": 218.0,
+      "zmin": 68.0
+    },
+    "190": {
+      "x": 540.0,
+      "y": 181.0,
+      "z": 190.0,
+      "zmax": 258.0,
+      "zmin": 68.0
+    }
+  },
+  "h25a1_2s": {
+    "body_solid_count": 1,
+    "collar_pocket_candidates": [
+      16.0,
+      16.1,
+      16.2
+    ],
+    "external_12t_volume_delta": 0.0,
+    "radial_tooth_root_access": false,
+    "reaction_key": "A2_DUAL_REPLACEABLE_REACTION_KEY",
+    "reaction_slot_candidates": [
+      4.1,
+      4.2,
+      4.3
+    ]
+  },
+  "layout": {
+    "bbox_interval_x": [
+      -190.0,
+      -10.0
+    ],
+    "cbox_interval_x": [
+      10.0,
+      190.0
+    ],
+    "central_gap": 20.0,
+    "end_clearance_each": 10.0,
+    "layout_b": "REJECT_FRONT_DRIVETRAIN_SERVICE_CONGESTION",
+    "selected": "LAYOUT_A_BBOX_REAR_CBOX_FRONT",
+    "vertical_stacking": false,
+    "x_serial": true
+  },
+  "parent_audit": {
+    "expected_hashes": {
+      "MANIFEST.txt": "fbb9d00eda9dda979e3dfcb4596d987260fc79dd6f0160cdf40512fbf438a984",
+      "SHA256SUMS.txt": "0bfd7afed7b19543e811a1e08bb98aa8c8151a46465d3254702361ea50794fe5",
+      "build_common_rover_physical_integration_v0940.py": "15bc112e287c8b8f42fafbe6f9b64d1db677fcda6e49b8056bf88db7e0164cd3",
+      "geometry_manifest.json": "06c2785bf772912a3019a59004586ddad136d3e58320682c376d93f9f1add198",
+      "tests/test_common_rover_physical_integration_v0940.py": "ae648f03f0752acf3837e0184104986510c336b4f176631bded6d6da381acbdb",
+      "validation_report.json": "13cdca78fc4a12a29ba5128ecf366cb986fdf635b6f73751af1604fba314f5d5"
+    },
+    "file_count": 43,
+    "hashes": {
+      "MANIFEST.txt": "fbb9d00eda9dda979e3dfcb4596d987260fc79dd6f0160cdf40512fbf438a984",
+      "SHA256SUMS.txt": "0bfd7afed7b19543e811a1e08bb98aa8c8151a46465d3254702361ea50794fe5",
+      "build_common_rover_physical_integration_v0940.py": "15bc112e287c8b8f42fafbe6f9b64d1db677fcda6e49b8056bf88db7e0164cd3",
+      "geometry_manifest.json": "06c2785bf772912a3019a59004586ddad136d3e58320682c376d93f9f1add198",
+      "tests/test_common_rover_physical_integration_v0940.py": "ae648f03f0752acf3837e0184104986510c336b4f176631bded6d6da381acbdb",
+      "validation_report.json": "13cdca78fc4a12a29ba5128ecf366cb986fdf635b6f73751af1604fba314f5d5"
+    },
+    "path": "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0",
+    "status": "CAD_PASS"
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.integration.v0.9.4.1"
+}

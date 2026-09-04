@@ -1,0 +1,103 @@
+status=PASS
+Ran 93 tests in 52.408s
+OK
+powered_rotation=NOT_APPROVED
+full_output:
+test_001_version (__main__.TestH24Contract.test_001_version) ... ok
+test_002_mechanism (__main__.TestH24Contract.test_002_mechanism) ... ok
+test_003_exact_75_paths (__main__.TestH24Contract.test_003_exact_75_paths) ... ok
+test_004_exact_lane_files (__main__.TestH24Contract.test_004_exact_lane_files) ... ok
+test_005_source_count (__main__.TestH24Contract.test_005_source_count) ... ok
+test_006_step_count (__main__.TestH24Contract.test_006_step_count) ... ok
+test_007_stl_count (__main__.TestH24Contract.test_007_stl_count) ... ok
+test_008_svg_count (__main__.TestH24Contract.test_008_svg_count) ... ok
+test_009_manifest_contract (__main__.TestH24Contract.test_009_manifest_contract) ... ok
+test_010_manifest_count (__main__.TestH24Contract.test_010_manifest_count) ... ok
+test_011_hash_count (__main__.TestH24Contract.test_011_hash_count) ... ok
+test_012_parent_version (__main__.TestH24Contract.test_012_parent_version) ... ok
+test_013_parent_count (__main__.TestH24Contract.test_013_parent_count) ... ok
+test_014_parent_ledger (__main__.TestH24Contract.test_014_parent_ledger) ... ok
+test_015_parent_zip (__main__.TestH24Contract.test_015_parent_zip) ... ok
+test_016_parent_failure (__main__.TestH24Contract.test_016_parent_failure) ... ok
+test_017_authority_unchanged (__main__.TestH24Contract.test_017_authority_unchanged) ... ok
+test_018_tooth_count (__main__.TestH24Contract.test_018_tooth_count) ... ok
+test_019_phase_spacing (__main__.TestH24Contract.test_019_phase_spacing) ... ok
+test_020_source_radii (__main__.TestH24Contract.test_020_source_radii) ... ok
+test_021_source_widths (__main__.TestH24Contract.test_021_source_widths) ... ok
+test_022_external_conflict_flag (__main__.TestH24Contract.test_022_external_conflict_flag) ... ok
+test_023_external_conflict_volume (__main__.TestH24Contract.test_023_external_conflict_volume) ... ok
+test_024_external_bbox (__main__.TestH24Contract.test_024_external_bbox) ... ok
+test_025_bbox_raw_tolerance (__main__.TestH24Contract.test_025_bbox_raw_tolerance) ... ok
+test_026_all_variants_valid_single (__main__.TestH24Contract.test_026_all_variants_valid_single) ... ok
+test_027_all_variants_record_access_conflict (__main__.TestH24Contract.test_027_all_variants_record_access_conflict) ... ok
+test_028_front_angles (__main__.TestH24Contract.test_028_front_angles) ... ok
+test_029_rear_angles (__main__.TestH24Contract.test_029_rear_angles) ... ok
+test_030_layouts (__main__.TestH24Contract.test_030_layouts) ... ok
+test_031_c0_preferred (__main__.TestH24Contract.test_031_c0_preferred) ... ok
+test_032_c0_spread (__main__.TestH24Contract.test_032_c0_spread) ... ok
+test_033_c15_spread (__main__.TestH24Contract.test_033_c15_spread) ... ok
+test_034_c30_spread (__main__.TestH24Contract.test_034_c30_spread) ... ok
+test_035_no_pocket_intersections (__main__.TestH24Contract.test_035_no_pocket_intersections) ... ok
+test_036_measured_high_nut (__main__.TestH24Contract.test_036_measured_high_nut) ... ok
+test_037_af_candidates (__main__.TestH24Contract.test_037_af_candidates) ... ok
+test_038_depth_candidates (__main__.TestH24Contract.test_038_depth_candidates) ... ok
+test_039_coupon_solids (__main__.TestH24Contract.test_039_coupon_solids) ... ok
+test_040_set_screw_contract (__main__.TestH24Contract.test_040_set_screw_contract) ... ok
+test_041_tip_hold (__main__.TestH24Contract.test_041_tip_hold) ... ok
+test_042_no_headed_interface (__main__.TestH24Contract.test_042_no_headed_interface) ... ok
+test_043_access_candidates (__main__.TestH24Contract.test_043_access_candidates) ... ok
+test_044_selected_access (__main__.TestH24Contract.test_044_selected_access) ... ok
+test_045_access_35_passes_wall (__main__.TestH24Contract.test_045_access_35_passes_wall) ... ok
+test_046_access_40_fails_wall (__main__.TestH24Contract.test_046_access_40_fails_wall) ... ok
+test_047_access_45_fails_wall (__main__.TestH24Contract.test_047_access_45_fails_wall) ... ok
+test_048_selected_access_wall (__main__.TestH24Contract.test_048_selected_access_wall) ... ok
+test_049_tool_measurement_hold (__main__.TestH24Contract.test_049_tool_measurement_hold) ... ok
+test_050_recess_candidates (__main__.TestH24Contract.test_050_recess_candidates) ... ok
+test_051_selected_recess (__main__.TestH24Contract.test_051_selected_recess) ... ok
+test_052_total_radial_path (__main__.TestH24Contract.test_052_total_radial_path) ... ok
+test_053_nut_engagement (__main__.TestH24Contract.test_053_nut_engagement) ... ok
+test_054_nut_to_shaft (__main__.TestH24Contract.test_054_nut_to_shaft) ... ok
+test_055_first_contact_protrusion (__main__.TestH24Contract.test_055_first_contact_protrusion) ... ok
+test_056_selected_outer_radius (__main__.TestH24Contract.test_056_selected_outer_radius) ... ok
+test_057_selected_penetration (__main__.TestH24Contract.test_057_selected_penetration) ... ok
+test_058_recess_tip_holds (__main__.TestH24Contract.test_058_recess_tip_holds) ... ok
+test_059_flush_conflicts_but_recesses_clear (__main__.TestH24Contract.test_059_flush_conflicts_but_recesses_clear) ... ok
+test_060_set_screw_link_zero (__main__.TestH24Contract.test_060_set_screw_link_zero) ... ok
+test_061_access_link_conflict_detected (__main__.TestH24Contract.test_061_access_link_conflict_detected) ... ok
+test_062_internal_tool_link_conflict_detected (__main__.TestH24Contract.test_062_internal_tool_link_conflict_detected) ... ok
+test_063_set_screw_guide_zero (__main__.TestH24Contract.test_063_set_screw_guide_zero) ... ok
+test_064_set_screw_bearing_zero (__main__.TestH24Contract.test_064_set_screw_bearing_zero) ... ok
+test_065_set_screw_m4_zero (__main__.TestH24Contract.test_065_set_screw_m4_zero) ... ok
+test_066_high_nut_pairs_zero (__main__.TestH24Contract.test_066_high_nut_pairs_zero) ... ok
+test_067_global_registration_hold (__main__.TestH24Contract.test_067_global_registration_hold) ... ok
+test_068_actual_tool_hold (__main__.TestH24Contract.test_068_actual_tool_hold) ... ok
+test_069_reaction_wall (__main__.TestH24Contract.test_069_reaction_wall) ... ok
+test_070_adjacent_wall (__main__.TestH24Contract.test_070_adjacent_wall) ... ok
+test_071_m4_wall (__main__.TestH24Contract.test_071_m4_wall) ... ok
+test_072_bore_wall (__main__.TestH24Contract.test_072_bore_wall) ... ok
+test_073_retainer_contract (__main__.TestH24Contract.test_073_retainer_contract) ... ok
+test_074_shaft_unmodified (__main__.TestH24Contract.test_074_shaft_unmodified) ... ok
+test_075_no_vendor_dependency (__main__.TestH24Contract.test_075_no_vendor_dependency) ... ok
+test_076_design_failure_recorded (__main__.TestH24Contract.test_076_design_failure_recorded) ... ok
+test_077_artifact_pass (__main__.TestH24Contract.test_077_artifact_pass) ... ok
+test_078_body_physical_blocked (__main__.TestH24Contract.test_078_body_physical_blocked) ... ok
+test_079_no_physical_pass (__main__.TestH24Contract.test_079_no_physical_pass) ... ok
+test_080_power_not_approved (__main__.TestH24Contract.test_080_power_not_approved) ... ok
+test_081_field_not_approved (__main__.TestH24Contract.test_081_field_not_approved) ... ok
+test_082_torque_not_tested (__main__.TestH24Contract.test_082_torque_not_tested) ... ok
+test_083_creep_required (__main__.TestH24Contract.test_083_creep_required) ... ok
+test_084_spare_rate (__main__.TestH24Contract.test_084_spare_rate) ... ok
+test_085_release_holds (__main__.TestH24Contract.test_085_release_holds) ... ok
+test_086_commit_paths_exact (__main__.TestH24Contract.test_086_commit_paths_exact) ... ok
+test_087_commit_lane_only (__main__.TestH24Contract.test_087_commit_lane_only) ... ok
+test_088_parent_not_in_commit (__main__.TestH24Contract.test_088_parent_not_in_commit) ... ok
+test_089_docs_remove_headed_hardware (__main__.TestH24Contract.test_089_docs_remove_headed_hardware) ... ok
+test_090_docs_require_link_removal_for_service (__main__.TestH24Contract.test_090_docs_require_link_removal_for_service) ... ok
+test_091_runtime_repo_guard (__main__.TestH24Contract.test_091_runtime_repo_guard) ... ok
+test_092_runtime_parent_guard (__main__.TestH24Contract.test_092_runtime_parent_guard) ... ok
+test_093_optional_zip_contract (__main__.TestH24Contract.test_093_optional_zip_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 93 tests in 52.408s
+
+OK

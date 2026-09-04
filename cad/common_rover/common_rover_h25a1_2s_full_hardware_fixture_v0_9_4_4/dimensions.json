@@ -1,0 +1,78 @@
+{
+  "classification": "PHYSICAL_HARDWARE_FIT_FIXTURE",
+  "collar_id_mm": 10.1,
+  "collar_od_mm": 15.9,
+  "collar_width_mm": 3.0,
+  "derived": {
+    "centered_axial_margin_each_side_mm": 17.6,
+    "centered_link_side_protrusion_mm": 4.8,
+    "hardware_to_root_theoretical_margin_mm": 9.47,
+    "link_side_status": "BLOCKED_UNLESS_PHYSICAL_AXIAL_REGISTRATION_VALIDATED",
+    "link_width_reference_mm": 53.6,
+    "minimum_remaining_petg_wall_mm": 5.37,
+    "neutral_fixture": {
+      "axial_mm": 9.2,
+      "final": false,
+      "radial_mm": 20.4,
+      "reaction_mm": 4.2,
+      "shaft_mm": 10.3,
+      "washer_mm": 9.2
+    },
+    "reaction_key_radial_allocation_mm": 3.5,
+    "reaction_shank_candidates_mm": [
+      4.1,
+      4.2,
+      4.3
+    ],
+    "service_axial_candidates_mm": [
+      9.0,
+      9.2,
+      9.4
+    ],
+    "service_radial_candidates_mm": [
+      20.2,
+      20.4,
+      20.6
+    ],
+    "shaft_clearance_candidates_mm": [
+      10.2,
+      10.3,
+      10.4
+    ],
+    "washer_relief_candidates_mm": [
+      9.0,
+      9.2,
+      9.4
+    ]
+  },
+  "full_axial_width_mm": 8.8,
+  "full_radial_envelope_mm": 20.0,
+  "measurement_classification": "MEASURED_USER_REPORTED",
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "external_geometry_delta_mm": 0.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "radial_tooth_root_access_holes": 0,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5
+  },
+  "screw_head_height_mm": 2.8,
+  "screw_head_max_od_mm": 6.8,
+  "set_screw_angle_deg": 90.0,
+  "set_screw_length_mm": 4.0,
+  "set_screw_major_od_measured_mm": 3.8,
+  "set_screw_nominal": "M4",
+  "set_screw_projection_mm": 1.0,
+  "set_screw_qty": 2,
+  "target_shaft_mm": 10.0,
+  "thread_pitch": null,
+  "version": "0.9.4.4",
+  "washer_max_od_mm": 8.8,
+  "washer_stack_mm": 1.8
+}

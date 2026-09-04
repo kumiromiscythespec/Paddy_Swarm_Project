@@ -1,0 +1,93 @@
+status=PASS
+Ran 83 tests in 44.379s
+OK
+expected_design_status=FAIL_RECORDED
+full_output:
+test_001_version (__main__.TestH23Contract.test_001_version) ... ok
+test_002_mechanism (__main__.TestH23Contract.test_002_mechanism) ... ok
+test_003_exact_70_formal_paths (__main__.TestH23Contract.test_003_exact_70_formal_paths) ... ok
+test_004_exact_lane_files (__main__.TestH23Contract.test_004_exact_lane_files) ... ok
+test_005_source_count (__main__.TestH23Contract.test_005_source_count) ... ok
+test_006_step_count (__main__.TestH23Contract.test_006_step_count) ... ok
+test_007_stl_count (__main__.TestH23Contract.test_007_stl_count) ... ok
+test_008_svg_count (__main__.TestH23Contract.test_008_svg_count) ... ok
+test_009_manifest_contract (__main__.TestH23Contract.test_009_manifest_contract) ... ok
+test_010_manifest_count (__main__.TestH23Contract.test_010_manifest_count) ... ok
+test_011_hash_count (__main__.TestH23Contract.test_011_hash_count) ... ok
+test_012_parent_count (__main__.TestH23Contract.test_012_parent_count) ... ok
+test_013_parent_ledger (__main__.TestH23Contract.test_013_parent_ledger) ... ok
+test_014_parent_zip (__main__.TestH23Contract.test_014_parent_zip) ... ok
+test_015_parent_lane (__main__.TestH23Contract.test_015_parent_lane) ... ok
+test_016_authority_unchanged (__main__.TestH23Contract.test_016_authority_unchanged) ... ok
+test_017_12t (__main__.TestH23Contract.test_017_12t) ... ok
+test_018_phase (__main__.TestH23Contract.test_018_phase) ... ok
+test_019_spacing (__main__.TestH23Contract.test_019_spacing) ... ok
+test_020_source_radii (__main__.TestH23Contract.test_020_source_radii) ... ok
+test_021_source_widths (__main__.TestH23Contract.test_021_source_widths) ... ok
+test_022_external_flag (__main__.TestH23Contract.test_022_external_flag) ... ok
+test_023_external_diff (__main__.TestH23Contract.test_023_external_diff) ... ok
+test_024_external_bbox (__main__.TestH23Contract.test_024_external_bbox) ... ok
+test_024a_raw_bbox_within_kernel_tolerance (__main__.TestH23Contract.test_024a_raw_bbox_within_kernel_tolerance) ... ok
+test_025_all_variants_valid_single_solid (__main__.TestH23Contract.test_025_all_variants_valid_single_solid) ... ok
+test_026_all_variant_external_diffs_zero (__main__.TestH23Contract.test_026_all_variant_external_diffs_zero) ... ok
+test_027_front_angles (__main__.TestH23Contract.test_027_front_angles) ... ok
+test_028_rear_angles (__main__.TestH23Contract.test_028_rear_angles) ... ok
+test_029_alternating (__main__.TestH23Contract.test_029_alternating) ... ok
+test_030_no_continuous_fracture (__main__.TestH23Contract.test_030_no_continuous_fracture) ... ok
+test_031_layouts (__main__.TestH23Contract.test_031_layouts) ... ok
+test_032_c0_preferred (__main__.TestH23Contract.test_032_c0_preferred) ... ok
+test_033_c0_common_plane (__main__.TestH23Contract.test_033_c0_common_plane) ... ok
+test_034_c15_spread (__main__.TestH23Contract.test_034_c15_spread) ... ok
+test_035_c30_spread (__main__.TestH23Contract.test_035_c30_spread) ... ok
+test_036_pockets_do_not_intersect (__main__.TestH23Contract.test_036_pockets_do_not_intersect) ... ok
+test_037_measured_nut (__main__.TestH23Contract.test_037_measured_nut) ... ok
+test_038_nut_count (__main__.TestH23Contract.test_038_nut_count) ... ok
+test_039_af_grid (__main__.TestH23Contract.test_039_af_grid) ... ok
+test_040_depth_grid (__main__.TestH23Contract.test_040_depth_grid) ... ok
+test_041_coupon_solids (__main__.TestH23Contract.test_041_coupon_solids) ... ok
+test_042_m3x25 (__main__.TestH23Contract.test_042_m3x25) ... ok
+test_043_head_is_conservative_envelope (__main__.TestH23Contract.test_043_head_is_conservative_envelope) ... ok
+test_044_washer_od (__main__.TestH23Contract.test_044_washer_od) ... ok
+test_045_washer_unknowns_hold (__main__.TestH23Contract.test_045_washer_unknowns_hold) ... ok
+test_046_seat_candidates (__main__.TestH23Contract.test_046_seat_candidates) ... ok
+test_047_washer_exceeds_root_gap (__main__.TestH23Contract.test_047_washer_exceeds_root_gap) ... ok
+test_048_neither_seat_fits_gap (__main__.TestH23Contract.test_048_neither_seat_fits_gap) ... ok
+test_049_no_full_washer_support (__main__.TestH23Contract.test_049_no_full_washer_support) ... ok
+test_050_washer_link_conflict_detected (__main__.TestH23Contract.test_050_washer_link_conflict_detected) ... ok
+test_051_m3_reach_depends_on_thickness (__main__.TestH23Contract.test_051_m3_reach_depends_on_thickness) ... ok
+test_052_provisional_m3_is_short (__main__.TestH23Contract.test_052_provisional_m3_is_short) ... ok
+test_053_head_path_blocked (__main__.TestH23Contract.test_053_head_path_blocked) ... ok
+test_054_functional_cut_rejected (__main__.TestH23Contract.test_054_functional_cut_rejected) ... ok
+test_055_reaction_wall (__main__.TestH23Contract.test_055_reaction_wall) ... ok
+test_056_adjacent_wall (__main__.TestH23Contract.test_056_adjacent_wall) ... ok
+test_057_m4_wall (__main__.TestH23Contract.test_057_m4_wall) ... ok
+test_058_bore_wall (__main__.TestH23Contract.test_058_bore_wall) ... ok
+test_059_retainer_contract (__main__.TestH23Contract.test_059_retainer_contract) ... ok
+test_059a_body_markings_modeled (__main__.TestH23Contract.test_059a_body_markings_modeled) ... ok
+test_059b_retainer_markings_modeled (__main__.TestH23Contract.test_059b_retainer_markings_modeled) ... ok
+test_060_shaft_unmodified (__main__.TestH23Contract.test_060_shaft_unmodified) ... ok
+test_061_generic_hardware (__main__.TestH23Contract.test_061_generic_hardware) ... ok
+test_062_design_failure_is_explicit (__main__.TestH23Contract.test_062_design_failure_is_explicit) ... ok
+test_063_artifact_contract_passes (__main__.TestH23Contract.test_063_artifact_contract_passes) ... ok
+test_064_sprocket_print_blocked (__main__.TestH23Contract.test_064_sprocket_print_blocked) ... ok
+test_065_no_physical_pass (__main__.TestH23Contract.test_065_no_physical_pass) ... ok
+test_066_power_not_approved (__main__.TestH23Contract.test_066_power_not_approved) ... ok
+test_067_field_not_approved (__main__.TestH23Contract.test_067_field_not_approved) ... ok
+test_068_torque_not_tested (__main__.TestH23Contract.test_068_torque_not_tested) ... ok
+test_069_spare_rate (__main__.TestH23Contract.test_069_spare_rate) ... ok
+test_070_release_holds (__main__.TestH23Contract.test_070_release_holds) ... ok
+test_071_reference_registration_holds (__main__.TestH23Contract.test_071_reference_registration_holds) ... ok
+test_072_commit_paths_exact (__main__.TestH23Contract.test_072_commit_paths_exact) ... ok
+test_073_commit_paths_lane_only (__main__.TestH23Contract.test_073_commit_paths_lane_only) ... ok
+test_074_parent_not_in_commit_paths (__main__.TestH23Contract.test_074_parent_not_in_commit_paths) ... ok
+test_075_docs_record_failure (__main__.TestH23Contract.test_075_docs_record_failure) ... ok
+test_076_docs_record_coupon_only (__main__.TestH23Contract.test_076_docs_record_coupon_only) ... ok
+test_077_docs_record_no_power (__main__.TestH23Contract.test_077_docs_record_no_power) ... ok
+test_078_runtime_repository_guard (__main__.TestH23Contract.test_078_runtime_repository_guard) ... ok
+test_079_runtime_parent_guard (__main__.TestH23Contract.test_079_runtime_parent_guard) ... ok
+test_080_optional_zip_contract (__main__.TestH23Contract.test_080_optional_zip_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 83 tests in 44.379s
+
+OK

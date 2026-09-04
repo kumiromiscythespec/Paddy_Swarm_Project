@@ -1,0 +1,67 @@
+{
+  "bbox": {
+    "actual_pitch": "PHYSICAL_TEST_REQUIRED",
+    "name": "BBOX_PITCH_AND_SLIDE_SERVICE_MOTION",
+    "reference_pitch_deg": [
+      0.0,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "selected_x_direction": "-X_REFERENCE",
+    "sequence": [
+      "SYSTEM_OFF",
+      "DISCONNECT_CONNECTOR",
+      "RELEASE_SAFETY_RETAINER",
+      "RELEASE_PRIMARY_LOCK",
+      "GRIP_BOTTOM",
+      "LIFT_LOWER_SIDE",
+      "APPROACH_TOP_GUIDE_TO_FRAME_UNDERSIDE",
+      "APPLY_SMALL_PITCH",
+      "SLIDE_SELECTED_X",
+      "COMPLETE_REMOVAL"
+    ],
+    "test_grid": {
+      "103": [
+        "STRAIGHT_X_REMOVAL",
+        "PITCH_AND_SLIDE",
+        "TOP_CONTACT",
+        "LOWER_GRIP_ACCESS",
+        "SNAGGING",
+        "FRAME_SCRATCH",
+        "REQUIRED_PITCH_APPROX",
+        "SERVICE_EFFORT"
+      ],
+      "105": [
+        "STRAIGHT_X_REMOVAL",
+        "PITCH_AND_SLIDE",
+        "TOP_CONTACT",
+        "LOWER_GRIP_ACCESS",
+        "SNAGGING",
+        "FRAME_SCRATCH",
+        "REQUIRED_PITCH_APPROX",
+        "SERVICE_EFFORT"
+      ],
+      "107": [
+        "STRAIGHT_X_REMOVAL",
+        "PITCH_AND_SLIDE",
+        "TOP_CONTACT",
+        "LOWER_GRIP_ACCESS",
+        "SNAGGING",
+        "FRAME_SCRATCH",
+        "REQUIRED_PITCH_APPROX",
+        "SERVICE_EFFORT"
+      ]
+    }
+  },
+  "clutch": {
+    "axis": "Y",
+    "motor_state_for_shift": "OFF_ZERO_ROTATION",
+    "powered_test": false,
+    "sequence": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ]
+  }
+}

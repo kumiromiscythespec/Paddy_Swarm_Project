@@ -1,0 +1,61 @@
+command=python -B tests/test_common_rover_four_point_set_screw_drive_sprocket_v09371.py
+status=PASS
+Ran 49 tests in 6.889s
+OK
+physical_test=NOT_YET_PERFORMED
+powered_rotation=NOT_APPROVED
+full_output:
+test_001_exact_formal_paths (__main__.Contract.test_001_exact_formal_paths) ... ok
+test_002_repository_guard (__main__.Contract.test_002_repository_guard) ... ok
+test_003_parent_lane_byte_protection (__main__.Contract.test_003_parent_lane_byte_protection) ... ok
+test_004_authority_protection (__main__.Contract.test_004_authority_protection) ... ok
+test_005_parent_and_source_trace (__main__.Contract.test_005_parent_and_source_trace) ... ok
+test_006_h0_physical_failure_is_recorded (__main__.Contract.test_006_h0_physical_failure_is_recorded) ... ok
+test_007_h2_has_no_physical_pass (__main__.Contract.test_007_h2_has_no_physical_pass) ... ok
+test_008_tooth_count_phase_spacing (__main__.Contract.test_008_tooth_count_phase_spacing) ... ok
+test_009_tooth_dimensions_preserved (__main__.Contract.test_009_tooth_dimensions_preserved) ... ok
+test_010_positive_root_union_preserved (__main__.Contract.test_010_positive_root_union_preserved) ... ok
+test_011_external_geometry_difference_zero (__main__.Contract.test_011_external_geometry_difference_zero) ... ok
+test_012_external_bounding_box_preserved (__main__.Contract.test_012_external_bounding_box_preserved) ... ok
+test_013_three_bore_variants (__main__.Contract.test_013_three_bore_variants) ... ok
+test_014_all_sprockets_are_one_valid_solid (__main__.Contract.test_014_all_sprockets_are_one_valid_solid) ... ok
+test_015_four_high_nuts_cardinal_axes (__main__.Contract.test_015_four_high_nuts_cardinal_axes) ... ok
+test_016_all_high_nuts_share_axial_plane (__main__.Contract.test_016_all_high_nuts_share_axial_plane) ... ok
+test_017_opposing_pairs_and_symmetry (__main__.Contract.test_017_opposing_pairs_and_symmetry) ... ok
+test_018_high_nut_dimensions_remain_unconfirmed (__main__.Contract.test_018_high_nut_dimensions_remain_unconfirmed) ... ok
+test_019_six_pocket_coupon_candidates (__main__.Contract.test_019_six_pocket_coupon_candidates) ... ok
+test_020_coupon_loading_pushout_and_m3_access (__main__.Contract.test_020_coupon_loading_pushout_and_m3_access) ... ok
+test_021_pocket_selection_is_physical_hold (__main__.Contract.test_021_pocket_selection_is_physical_hold) ... ok
+test_022_high_nuts_and_pockets_do_not_intersect_each_other (__main__.Contract.test_022_high_nuts_and_pockets_do_not_intersect_each_other) ... ok
+test_023_high_nuts_fit_pockets (__main__.Contract.test_023_high_nuts_fit_pockets) ... ok
+test_024_pockets_clear_m4_holes (__main__.Contract.test_024_pockets_clear_m4_holes) ... ok
+test_025_minimum_reaction_walls (__main__.Contract.test_025_minimum_reaction_walls) ... ok
+test_026_m3x16_contract (__main__.Contract.test_026_m3x16_contract) ... ok
+test_027_retracted_screws_clear_shaft (__main__.Contract.test_027_retracted_screws_clear_shaft) ... ok
+test_028_initial_and_nominal_reach_shaft_surface (__main__.Contract.test_028_initial_and_nominal_reach_shaft_surface) ... ok
+test_029_set_screws_pass_body_and_nuts (__main__.Contract.test_029_set_screws_pass_body_and_nuts) ... ok
+test_030_set_screws_clear_link_guide_bearing (__main__.Contract.test_030_set_screws_clear_link_guide_bearing) ... ok
+test_031_four_tool_envelopes_clear_local_geometry (__main__.Contract.test_031_four_tool_envelopes_clear_local_geometry) ... ok
+test_032_installed_frame_tool_access_is_not_falsely_passed (__main__.Contract.test_032_installed_frame_tool_access_is_not_falsely_passed) ... ok
+test_033_retainer_interface_contract (__main__.Contract.test_033_retainer_interface_contract) ... ok
+test_034_retainer_solids_valid_and_nonintersecting (__main__.Contract.test_034_retainer_solids_valid_and_nonintersecting) ... ok
+test_035_retainer_drainage_and_coverage (__main__.Contract.test_035_retainer_drainage_and_coverage) ... ok
+test_036_bearing_link_and_guide_envelopes_clear (__main__.Contract.test_036_bearing_link_and_guide_envelopes_clear) ... ok
+test_037_no_irreversible_shaft_machining (__main__.Contract.test_037_no_irreversible_shaft_machining) ... ok
+test_038_no_single_manufacturer_dependency (__main__.Contract.test_038_no_single_manufacturer_dependency) ... ok
+test_039_assembly_sequence_is_exact (__main__.Contract.test_039_assembly_sequence_is_exact) ... ok
+test_040_petg_spare_rule (__main__.Contract.test_040_petg_spare_rule) ... ok
+test_041_metal_migration_interface (__main__.Contract.test_041_metal_migration_interface) ... ok
+test_042_release_states (__main__.Contract.test_042_release_states) ... ok
+test_043_all_steps_reload (__main__.Contract.test_043_all_steps_reload) ... ok
+test_044_all_stls_are_single_watertight_components (__main__.Contract.test_044_all_stls_are_single_watertight_components) ... ok
+test_045_svgs_parse (__main__.Contract.test_045_svgs_parse) ... ok
+test_046_validation_is_cad_pass_only (__main__.Contract.test_046_validation_is_cad_pass_only) ... ok
+test_047_manifest_and_hash_ledgers (__main__.Contract.test_047_manifest_and_hash_ledgers) ... ok
+test_048_commit_paths_are_exact_new_lane_only (__main__.Contract.test_048_commit_paths_are_exact_new_lane_only) ... ok
+test_049_optional_handoff_zip (__main__.Contract.test_049_optional_handoff_zip) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 6.889s
+
+OK

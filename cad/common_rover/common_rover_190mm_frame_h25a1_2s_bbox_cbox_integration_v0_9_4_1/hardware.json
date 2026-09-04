@@ -1,0 +1,60 @@
+{
+  "collar": {
+    "id": 10.1,
+    "od": 15.9,
+    "type": "SOLID_SET_SCREW_SHAFT_COLLAR",
+    "width": 3.0
+  },
+  "collar_pockets": [
+    16.0,
+    16.1,
+    16.2
+  ],
+  "cover": {
+    "candidates": [
+      "M4x16",
+      "M4x20",
+      "M4x25"
+    ],
+    "compression_sleeve": "STRONGLY_RECOMMENDED",
+    "final": "HOLD_STACK",
+    "first": "M4x20"
+  },
+  "kp000": {
+    "axis_height": 18.5,
+    "axis_tolerance": 0.5,
+    "bore": 10.0,
+    "collar_protrusion": 6.0,
+    "crawler_count": 8,
+    "depth_y": 17.0,
+    "height_z": 35.0,
+    "mount_hole_center": 53.0,
+    "pto_related_count": 4,
+    "total": 12,
+    "width_x": 67.0
+  },
+  "pivot": {
+    "actual_rotation_center": "HOLD",
+    "fastener": "M6",
+    "nominal_envelope": [
+      32,
+      20,
+      20
+    ],
+    "slot": 6
+  },
+  "reaction_slots": [
+    4.1,
+    4.2,
+    4.3
+  ],
+  "set_screws": {
+    "angle": 90.0,
+    "length": 4.0,
+    "major_od_measured": 3.8,
+    "nominal": "M4",
+    "pitch": "HOLD",
+    "projection": 1.0,
+    "quantity": 2
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "document_id": "PS-CR-V0933-MOTOR-BRACKET-8HOLE-FLAT-PLATE",
+  "rows": [
+    {
+      "category": "physical_fit",
+      "evidence": "physical",
+      "parameter": "M3_CLEARANCE_HOLE_DIAMETER",
+      "status": "PASS / JUST_FIT",
+      "unit": "mm",
+      "value": "3.4"
+    },
+    {
+      "category": "reference_only",
+      "evidence": "physical",
+      "parameter": "M4_CLEARANCE_REFERENCE_DIAMETER",
+      "status": "PASS / JUST_FIT_REFERENCE_ONLY",
+      "unit": "mm",
+      "value": "4.2"
+    },
+    {
+      "category": "measured",
+      "evidence": "measured",
+      "parameter": "BRACKET_OUTER_X",
+      "status": "RECORDED",
+      "unit": "mm",
+      "value": "40.2"
+    },
+    {
+      "category": "measured",
+      "evidence": "measured",
+      "parameter": "BRACKET_OUTER_Y",
+      "status": "RECORDED",
+      "unit": "mm",
+      "value": "40.0"
+    },
+    {
+      "category": "reference",
+      "evidence": "measured candidate",
+      "parameter": "BRACKET_THICKNESS_REFERENCE",
+      "status": "REFERENCE",
+      "unit": "mm",
+      "value": "3.1"
+    },
+    {
+      "category": "hold",
+      "evidence": "unmeasured",
+      "parameter": "BRACKET_CORNER_RADIUS",
+      "status": "MEASUREMENT_HOLD",
+      "unit": "mm",
+      "value": ""
+    },
+    {
+      "category": "physical",
+      "evidence": "physical center distance",
+      "parameter": "BRACKET_HOLE_PITCH_X",
+      "status": "CONFIRMED",
+      "unit": "mm",
+      "value": "24.0"
+    },
+    {
+      "category": "physical",
+      "evidence": "physical center distance",
+      "parameter": "BRACKET_HOLE_PITCH_Y",
+      "status": "CONFIRMED",
+      "unit": "mm",
+      "value": "30.0"
+    },
+    {
+      "category": "nominal",
+      "evidence": "2040 nominal",
+      "parameter": "FRAME_TOP_WIDTH_X",
+      "status": "REFERENCE",
+      "unit": "mm",
+      "value": "40.0"
+    },
+    {
+      "category": "hold",
+      "evidence": "comparison only",
+      "parameter": "M5_SPACER_STACK_HEIGHT",
+      "status": "PHYSICAL_MEASUREMENT_HOLD",
+      "unit": "mm",
+      "value": "6|8|10"
+    }
+  ]
+}

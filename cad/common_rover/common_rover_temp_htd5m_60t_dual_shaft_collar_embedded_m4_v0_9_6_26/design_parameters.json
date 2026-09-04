@@ -1,0 +1,84 @@
+{
+  "classification": "TEMP_HTD5M_60T_DUAL_SHAFT_COLLAR_EMBEDDED_M4",
+  "counts": {
+    "continuous_1_3mm_split": 0,
+    "cover": 0,
+    "external_petg_clamp_ears": 0,
+    "m4_per_collar": 2,
+    "metal_shaft_collars": 2,
+    "petg_split_clamp": 0,
+    "petg_tapped_primary_threads": 0,
+    "reaction_shoe": 0,
+    "total_m4": 4
+  },
+  "frozen": {
+    "belt_plane_z_mm": 10.0,
+    "face_mm": 16.0,
+    "flange_od_mm": 102.0,
+    "flange_thickness_mm": 2.0,
+    "flanges": 2,
+    "pitch_mm": 5.0,
+    "spacing_deg": 6.0,
+    "spoke_width_mm": 10.0,
+    "spokes": 6,
+    "teeth": 60
+  },
+  "gates": {
+    "coupon": "REQUIRED_FIRST",
+    "full_pulley": "PROVISIONAL",
+    "hand_rotation": "HOLD_AFTER_PHYSICAL_COUPON",
+    "powered": "NOT_APPROVED"
+  },
+  "hub": {
+    "guide_bore_candidates_mm": [
+      10.1,
+      10.2,
+      10.3
+    ],
+    "od_mm": 50.0,
+    "pocket_candidates_mm": [
+      16.0,
+      16.2,
+      16.4
+    ],
+    "pocket_depth_mm": 5.5,
+    "primary_guide_bore_mm": 10.2,
+    "primary_pocket_mm": 16.2,
+    "proud_mm": 0.3,
+    "width_mm": 26.0
+  },
+  "parent": {
+    "lane": "cad/common_rover/common_rover_temp_htd5m_60t_compact_external_ear_double_split_clamp_v0_9_6_25",
+    "tree": {
+      "count": 42,
+      "sha256": "1a00f38cb6a70c62698bd87ba8f3e18950cae471576c08d9e907e6bb9adcac64"
+    }
+  },
+  "physical_collar": {
+    "authority": "PHYSICAL_MEASURED_COLLAR_AUTHORITY",
+    "count": 2,
+    "m4_each": 2,
+    "m4_head_od_mm": 8.8,
+    "od_mm": 15.8,
+    "outer_to_head_top_mm": 11.0,
+    "width_mm": 5.8
+  },
+  "reaction": {
+    "backlash_each_side_deg": 2.766,
+    "combined_differential_deg": 5.532,
+    "combined_first_contact_deg": 2.766,
+    "hardware_envelope_r_mm": 18.9,
+    "head_radial_clearance_mm": 0.35,
+    "outer_ligament_mm": 5.0,
+    "pocket_width_mm": 9.5,
+    "service_envelope_r_mm": 20.0,
+    "shoulder_min_mm": 5.0
+  },
+  "source": {
+    "artifact": "cad/drive_htd5m_60t_reference.step",
+    "lane": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1",
+    "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+  },
+  "status": "TEMP_HTD5M_60T_DUAL_SHAFT_COLLAR_EMBEDDED_M4_CAD_COMPLETE/V09625_PETG_SPLIT_CLAMP_ARCHITECTURE_RETIRED/DUAL_METAL_SHAFT_COLLAR_ARCHITECTURE_COMPLETE/NO_COVER/NO_REACTION_SHOE/M4_HEAD_REACTION_POCKETS_COMPLETE/LEFT_RIGHT_AXIAL_SANDWICH_COMPLETE/60T_FUNCTIONAL_GEOMETRY_FROZEN/COLLAR_FIT_COUPONS_READY/FULL_PULLEY_PRINT_PENDING_PHYSICAL_COLLAR_FIT/POWERED_USE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.26"
+}

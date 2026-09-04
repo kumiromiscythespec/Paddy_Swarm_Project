@@ -1,0 +1,22 @@
+test_001_package_and_hash_contract (__main__.Contract.test_001_package_and_hash_contract) ... ok
+test_002_frame_outer (__main__.Contract.test_002_frame_outer) ... ok
+test_003_frame_clear_and_height (__main__.Contract.test_003_frame_clear_and_height) ... ok
+test_004_z_datums (__main__.Contract.test_004_z_datums) ... ok
+test_004b_frame_cad_bounds (__main__.Contract.test_004b_frame_cad_bounds) ... ok
+test_005_pto_ratio (__main__.Contract.test_005_pto_ratio) ... ok
+test_006_bearing_update (__main__.Contract.test_006_bearing_update) ... ok
+test_007_collar (__main__.Contract.test_007_collar) ... ok
+test_008_protected_12t (__main__.Contract.test_008_protected_12t) ... ok
+test_009_no_radial_access (__main__.Contract.test_009_no_radial_access) ... ok
+test_010_box_contracts (__main__.Contract.test_010_box_contracts) ... ok
+test_011_release_fail_closed (__main__.Contract.test_011_release_fail_closed) ... ok
+test_012_missing_measurements_not_zeroed (__main__.Contract.test_012_missing_measurements_not_zeroed) ... ok
+test_013_authority_unchanged (__main__.Contract.test_013_authority_unchanged) ... ok
+test_014_git_staged_zero (__main__.Contract.test_014_git_staged_zero) ... ok
+test_015_commit_paths_exact (__main__.Contract.test_015_commit_paths_exact) ... ok
+test_016_standalone_cad_rebuild (__main__.Contract.test_016_standalone_cad_rebuild) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.530s
+
+OK

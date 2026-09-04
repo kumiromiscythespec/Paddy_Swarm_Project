@@ -1,0 +1,6 @@
+BUILD PASS
+version=0.9.4.2
+Python=3.12.13
+CadQuery=2.8.0
+preflight_untracked=1401
+parents=CAD_PASS

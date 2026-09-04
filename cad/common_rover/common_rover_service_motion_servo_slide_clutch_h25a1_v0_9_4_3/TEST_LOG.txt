@@ -1,0 +1,44 @@
+test_001_exact_package (__main__.Contract.test_001_exact_package) ... ok
+test_002_manifest (__main__.Contract.test_002_manifest) ... ok
+test_003_frame_baseline (__main__.Contract.test_003_frame_baseline) ... ok
+test_004_battery (__main__.Contract.test_004_battery) ... ok
+test_005_bbox_motion (__main__.Contract.test_005_bbox_motion) ... ok
+test_006_waterproof_lid_not_wear_surface (__main__.Contract.test_006_waterproof_lid_not_wear_surface) ... ok
+test_007_bottom_grip (__main__.Contract.test_007_bottom_grip) ... ok
+test_008_service_test_grid (__main__.Contract.test_008_service_test_grid) ... ok
+test_009_h25_known_dimensions (__main__.Contract.test_009_h25_known_dimensions) ... ok
+test_010_captive_washer (__main__.Contract.test_010_captive_washer) ... ok
+test_011_coupon_classification (__main__.Contract.test_011_coupon_classification) ... ok
+test_012_no_final_v2_fixture_stl (__main__.Contract.test_012_no_final_v2_fixture_stl) ... ok
+test_013_protected_12t (__main__.Contract.test_013_protected_12t) ... ok
+test_014_servo_candidate (__main__.Contract.test_014_servo_candidate) ... ok
+test_015_servo_measurements_hold (__main__.Contract.test_015_servo_measurements_hold) ... ok
+test_016_slide_axis_source_resolution (__main__.Contract.test_016_slide_axis_source_resolution) ... ok
+test_017_three_positions (__main__.Contract.test_017_three_positions) ... ok
+test_018_guides_carriage_shoes (__main__.Contract.test_018_guides_carriage_shoes) ... ok
+test_019_servo_does_not_hold_belt_load (__main__.Contract.test_019_servo_does_not_hold_belt_load) ... ok
+test_020_linkage_sensor (__main__.Contract.test_020_linkage_sensor) ... ok
+test_021_pto_compatibility (__main__.Contract.test_021_pto_compatibility) ... ok
+test_022_interference_reference (__main__.Contract.test_022_interference_reference) ... ok
+test_023_step_reload (__main__.Contract.test_023_step_reload) ... ok
+test_024_stl_semantics (__main__.Contract.test_024_stl_semantics) ... ok
+test_025_svg_documents (__main__.Contract.test_025_svg_documents) ... ok
+test_026_parent_protection (__main__.Contract.test_026_parent_protection) ... ok
+test_027_authority_protection (__main__.Contract.test_027_authority_protection) ... ok
+test_028_repository_guard (__main__.Contract.test_028_repository_guard) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: could not open directory '.pytest_cache/': Permission denied
+ok
+test_029_commit_paths (__main__.Contract.test_029_commit_paths) ... ok
+test_030_sha256sums (__main__.Contract.test_030_sha256sums) ... ok
+test_031_measurement_holds (__main__.Contract.test_031_measurement_holds) ... ok
+test_032_release_gates (__main__.Contract.test_032_release_gates) ... ok
+test_033_source_trace (__main__.Contract.test_033_source_trace) ... ok
+test_034_no_git_mutation_in_source (__main__.Contract.test_034_no_git_mutation_in_source) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.224s
+
+OK

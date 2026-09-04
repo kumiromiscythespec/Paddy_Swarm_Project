@@ -1,0 +1,30 @@
+{
+  "bambu_a1_bed_mm": [
+    256,
+    256
+  ],
+  "crawler_test": false,
+  "creep_hours": 24,
+  "failure": [
+    "SHAFT_COLLAR_SLIP",
+    "COLLAR_ROTATION",
+    "M4_BACKOUT",
+    "WASHER_PETG_DIG",
+    "KEY_CRACK",
+    "KEY_PERMANENT_CRUSH",
+    "PETG_WHITENING",
+    "PETG_CRACK",
+    "PERMANENT_EXCESSIVE_PLAY",
+    "FIXTURE_SPLIT",
+    "CANNOT_REMOVE_HARDWARE"
+  ],
+  "field": false,
+  "minimum_petg_wall_target_mm": 3.0,
+  "powered_rotation": false,
+  "static_torque_nm": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "stop_on_first_failure": true
+}

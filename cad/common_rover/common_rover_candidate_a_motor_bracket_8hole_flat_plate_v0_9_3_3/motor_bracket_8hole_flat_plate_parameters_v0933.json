@@ -1,0 +1,410 @@
+{
+  "anchor": "198a708395df6e43556a744ae9c5629b50360e2f",
+  "approval": {
+    "authority_pointer": "UNCHANGED",
+    "belt_tension": "NOT_APPROVED",
+    "fastener_torque": "HOLD",
+    "field_deployment": "NOT_APPROVED",
+    "flat_plate_cad": "CONDITIONAL_PASS_CANDIDATE",
+    "petg_print": "READY_FOR_SINGLE_PART_NO_LOAD_FIT_TEST",
+    "powered_rotation": "NOT_APPROVED",
+    "torque_load": "NOT_APPROVED"
+  },
+  "centerline": "COINCIDENT",
+  "coordinate_system": {
+    "common_rover": {
+      "+X": "left",
+      "+Y": "rear",
+      "+Z": "up"
+    },
+    "plate_local": {
+      "bottom": "Z=0",
+      "origin": "XY_CENTER"
+    }
+  },
+  "design_principle": "SIMPLE_REPAIRABLE_FLAT_PLATE",
+  "document_id": "PS-CR-V0933-MOTOR-BRACKET-8HOLE-FLAT-PLATE",
+  "features_not_used": {
+    "blind_hole": false,
+    "boss": false,
+    "counterbore": false,
+    "countersink": false,
+    "cradle": false,
+    "direct_thread": false,
+    "functional_surface_text": false,
+    "heat_set_insert": false,
+    "motor_retention": false,
+    "nut_pocket": false,
+    "rib": false,
+    "stepped_geometry": false
+  },
+  "geometry_report": {
+    "actual_volume_mm3": 19283.323065,
+    "checks": {
+      "all_holes_through": true,
+      "bounds": true,
+      "exact_eight_holes": true,
+      "hole_intersections_zero": true,
+      "metal_bounds": true,
+      "minimum_ligament": true,
+      "only_blank_minus_eight_holes": true,
+      "same_xy": true,
+      "single_solid": true,
+      "top_bottom_planar": true
+    },
+    "expected_volume_mm3": 19283.323065,
+    "hole_count": 8,
+    "ligaments": {
+      "m3_x_mm": 7.3,
+      "m3_y_mm": 23.3,
+      "m5_x_mm": 8.15,
+      "m5_y_mm": 7.15
+    },
+    "metal_bounds_mm": {
+      "xlen": 42.0,
+      "xmax": 21.0,
+      "xmin": -21.0,
+      "ylen": 80.0,
+      "ymax": 40.0,
+      "ymin": -40.0,
+      "zlen": 3.0,
+      "zmax": 3.0,
+      "zmin": 0.0
+    },
+    "minimum_edge_ligament_mm": 7.15,
+    "pairwise": [
+      {
+        "center_distance_mm": 24.0,
+        "edge_gap_mm": 20.6,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 30.0,
+        "edge_gap_mm": 26.6,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 38.41874542459709,
+        "edge_gap_mm": 35.01874542459709,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 15.132745950421556,
+        "edge_gap_mm": 10.582745950421558,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 26.627053911388696,
+        "edge_gap_mm": 22.077053911388695,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 45.044422518220834,
+        "edge_gap_mm": 40.49442251822084,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 50.08991914547278,
+        "edge_gap_mm": 45.53991914547278,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 38.41874542459709,
+        "edge_gap_mm": 35.01874542459709,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 30.0,
+        "edge_gap_mm": 26.6,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 26.627053911388696,
+        "edge_gap_mm": 22.077053911388695,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 15.132745950421556,
+        "edge_gap_mm": 10.582745950421558,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 50.08991914547278,
+        "edge_gap_mm": 45.53991914547278,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 45.044422518220834,
+        "edge_gap_mm": 40.49442251822084,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 24.0,
+        "edge_gap_mm": 20.6,
+        "types": "M3-M3"
+      },
+      {
+        "center_distance_mm": 45.044422518220834,
+        "edge_gap_mm": 40.49442251822084,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 50.08991914547278,
+        "edge_gap_mm": 45.53991914547278,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 15.132745950421556,
+        "edge_gap_mm": 10.582745950421558,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 26.627053911388696,
+        "edge_gap_mm": 22.077053911388695,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 50.08991914547278,
+        "edge_gap_mm": 45.53991914547278,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 45.044422518220834,
+        "edge_gap_mm": 40.49442251822084,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 26.627053911388696,
+        "edge_gap_mm": 22.077053911388695,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 15.132745950421556,
+        "edge_gap_mm": 10.582745950421558,
+        "types": "M3-M5"
+      },
+      {
+        "center_distance_mm": 20.0,
+        "edge_gap_mm": 14.3,
+        "types": "M5-M5"
+      },
+      {
+        "center_distance_mm": 60.0,
+        "edge_gap_mm": 54.3,
+        "types": "M5-M5"
+      },
+      {
+        "center_distance_mm": 63.245553203367585,
+        "edge_gap_mm": 57.54555320336758,
+        "types": "M5-M5"
+      },
+      {
+        "center_distance_mm": 63.245553203367585,
+        "edge_gap_mm": 57.54555320336758,
+        "types": "M5-M5"
+      },
+      {
+        "center_distance_mm": 60.0,
+        "edge_gap_mm": 54.3,
+        "types": "M5-M5"
+      },
+      {
+        "center_distance_mm": 20.0,
+        "edge_gap_mm": 14.3,
+        "types": "M5-M5"
+      }
+    ],
+    "pairwise_hole_intersection_max_volume_mm3": 0.0,
+    "pairwise_minimum_center_distance_mm": 15.132746,
+    "pairwise_minimum_edge_gap_mm": 10.582746,
+    "petg_metal_xy_identical": true,
+    "planar_face_z_mm": [
+      0.0,
+      3.0,
+      6.0
+    ],
+    "plate_bounds_mm": {
+      "xlen": 42.0,
+      "xmax": 21.0,
+      "xmin": -21.0,
+      "ylen": 80.0,
+      "ymax": 40.0,
+      "ymin": -40.0,
+      "zlen": 6.0,
+      "zmax": 6.0,
+      "zmin": 0.0
+    },
+    "plate_to_hole_void_residual_max_volume_mm3": 0.0,
+    "solid_count": 1,
+    "status": "PASS",
+    "top_bottom_planar": true,
+    "volume_delta_mm3": 0.0
+  },
+  "height": {
+    "candidate_a_motor_and_20T_old_z_mm": 105.0,
+    "candidate_motor_and_20T_z_mm": [
+      117.0,
+      119.0,
+      121.0
+    ],
+    "existing_60T_and_selector_z_mm": 166.0,
+    "spacer_H10_total_z_increase_mm": 16.0,
+    "spacer_H6_total_z_increase_mm": 12.0,
+    "spacer_H8_total_z_increase_mm": 14.0,
+    "status": "REVALIDATION_REQUIRED"
+  },
+  "holes": {
+    "M3": {
+      "coordinates_mm": [
+        [
+          -12.0,
+          -15.0
+        ],
+        [
+          12.0,
+          -15.0
+        ],
+        [
+          -12.0,
+          15.0
+        ],
+        [
+          12.0,
+          15.0
+        ]
+      ],
+      "count": 4,
+      "diameter_mm": 3.4,
+      "pitch_mm": [
+        24.0,
+        30.0
+      ]
+    },
+    "M5": {
+      "coordinates_mm": [
+        [
+          -10.0,
+          -30.0
+        ],
+        [
+          10.0,
+          -30.0
+        ],
+        [
+          -10.0,
+          30.0
+        ],
+        [
+          10.0,
+          30.0
+        ]
+      ],
+      "count": 4,
+      "diameter_mm": 5.7,
+      "pitch_mm": [
+        20.0,
+        60.0
+      ]
+    },
+    "all": "STRAIGHT_THROUGH_CLEARANCE",
+    "total": 8
+  },
+  "left_part": "IDENTICAL",
+  "metal_plate_status": "DRILLING_REFERENCE_ONLY",
+  "parent_protection": {
+    "parents": {
+      "v0.9.3.1": {
+        "checks": {
+          "exists": true,
+          "file_count": true,
+          "full_ledger": true,
+          "index_clean": true,
+          "tracked_contract": true,
+          "worktree_clean": true
+        },
+        "file_count": 46,
+        "ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "status": "PASS"
+      },
+      "v0.9.3.2": {
+        "checks": {
+          "exists": true,
+          "file_count": true,
+          "full_ledger": true,
+          "index_clean": true,
+          "tracked_contract": true,
+          "worktree_clean": true
+        },
+        "file_count": 39,
+        "ledger_sha256": "116f3283a634a80f61284f0a46a99f0ac07de2f5d8ebdd457faa64fafa2b77da",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "physical_fit": {
+    "M3_3P4": "PASS / JUST_FIT",
+    "M4_4P2": "PASS / JUST_FIT_REFERENCE_ONLY",
+    "M4_holes_in_plate": 0
+  },
+  "plate": {
+    "corner_radius_mm": 3.0,
+    "flat_base_z0": true,
+    "metal_reference_thickness_mm": 3.0,
+    "petg_thickness_mm": 6.0,
+    "planar_top_bottom": true,
+    "size_mm": [
+      42.0,
+      80.0
+    ],
+    "solid_count": 1
+  },
+  "print": {
+    "bambu_a1_fit": true,
+    "brim": "NOT_REQUIRED_CANDIDATE",
+    "infill_percent_candidate": [
+      50,
+      100
+    ],
+    "layer_height_mm": 0.2,
+    "material": "PETG",
+    "nozzle_mm": 0.4,
+    "orientation": "FLAT_ON_BUILD_PLATE",
+    "status": "RECOMMENDED_MOCKUP_ONLY",
+    "support": "NONE",
+    "top_bottom_layers_min": 6,
+    "wall_loops_min": 5
+  },
+  "proxies": {
+    "bracket_corner_radius": "MEASUREMENT_HOLD",
+    "bracket_mm": [
+      40.2,
+      40.0,
+      3.1
+    ],
+    "frame_mm": [
+      40.0,
+      120.0,
+      20.0
+    ],
+    "frame_slot_center_x_mm": [
+      -10.0,
+      10.0
+    ],
+    "t_slot_exact_profile": "MEASUREMENT_HOLD"
+  },
+  "quantity_required": 2,
+  "right_part": "IDENTICAL",
+  "spacer": {
+    "M3_nut_exact_envelope": "MEASUREMENT_HOLD",
+    "M5_nut_exact_envelope": "MEASUREMENT_HOLD",
+    "comparison_heights_mm": [
+      6.0,
+      8.0,
+      10.0
+    ],
+    "status": "PHYSICAL_MEASUREMENT_HOLD"
+  },
+  "supersession": "V0932_M4_DIRECT_THREAD_VARIANTS=SUPERSEDED_BY_V0933_M3_M5_THROUGH_HOLE_FLAT_PLATE",
+  "version": "0.9.3.3"
+}

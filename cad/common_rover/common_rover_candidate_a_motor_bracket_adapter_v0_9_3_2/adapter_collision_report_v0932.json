@@ -1,0 +1,166 @@
+{
+  "checks": {
+    "bracket_frame_centerline_coincident": true,
+    "identical_left_right_part": true,
+    "m4_bottom_floor_ge_1": true,
+    "m4_m5_intersection_zero": true,
+    "m4_outer_residual_ge_5": true,
+    "tool_bracket_intersection_zero": true,
+    "washer_bracket_intersection_zero": true,
+    "washer_plate_edge_margin_ge_5": true
+  },
+  "clearances_mm": {
+    "m4_blind_floor": 1.0,
+    "m4_c370_to_plate_edge_x": 7.15,
+    "m4_c370_to_plate_edge_y": 23.15,
+    "tool_to_bracket_footprint": 4.5,
+    "washer_to_bracket_footprint": 5.25,
+    "washer_to_plate_edge_x": 6.25,
+    "washer_to_plate_edge_y": 5.25
+  },
+  "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+  "m4_m5_rows": [
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 1,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 1,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 1,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 1,
+      "m5": 4,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 2,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 2,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 2,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 2,
+      "m5": 4,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 3,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 3,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 3,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 3,
+      "m5": 4,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 4,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 4,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 4,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m4": 4,
+      "m5": 4,
+      "pass": true
+    }
+  ],
+  "method": "CADQUERY_ACTUAL_COMMON_VOLUME_PLUS_ANALYTIC_BOUNDARY_CLEARANCE",
+  "status": "PASS",
+  "tool_bracket_rows": [
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 4,
+      "pass": true
+    }
+  ],
+  "washer_bracket_rows": [
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 1,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 2,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 3,
+      "pass": true
+    },
+    {
+      "intersection_volume_mm3": 0.0,
+      "m5": 4,
+      "pass": true
+    }
+  ]
+}

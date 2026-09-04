@@ -1,0 +1,16 @@
+# Source trace
+
+Version: `0.9.4.4`  
+Classification: `PHYSICAL_HARDWARE_FIT_FIXTURE`  
+Release: `HOLD`  
+Status: `H25A1_V2_PHYSICAL_TEST_ARTIFACTS_COMPLETE / USER_PHYSICAL_TEST_PENDING`
+
+- `cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3/H25A1_FULL_HARDWARE_MEASUREMENT_SHEET.md` — `1846ae296fa2953a7d6e27f119f07fdf0aba7775684787fec9a583fa7e08fc75`
+- `cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3/H25A1_FULL_HARDWARE_FIT_ARCHITECTURE.md` — `e972ed4d6b1c796c0110d2422256712193085d727a89c47939c0f4c36658d5de`
+- `cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/H25A1_COLLAR_COUPON_SPEC.md` — `f41854cb039e1c8a59bbc1db37f13ee396e525151a1d750bddf990dd02385c83`
+- `cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/H25A1_REACTION_COUPON_SPEC.md` — `914dca1a4953147b91bcbfbdc41acdac4f7cfb88e4ae6567e6d9c39e62c1cc61`
+- `cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0/H0_H23_H24_FAILURE_HISTORY.md` — `8023e48512fd208df1641fee3de405930081a7ae29b3f0189f6804aafa248030`
+- `cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0/H25A1_DESIGN_SPEC.md` — `a5190b94736b44848ac2516f58fb6de3ac7cddd7a5611aa09cd661927187bf25`
+- `cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1/PHYSICAL_FAILURE_INPUT.md` — `af7834749337cfd0ffdd858c1b3d6567dbff7ee44a3c1f7eff59131af1a4a852`
+- `cad/common_rover/common_rover_staggered_alternating_deep_nut_drive_sprocket_v0_9_3_7_2/DESIGN_REVIEW.md` — `0d0318b4aad609dc8cda0e5f87e30a58d899789072b48e4b6bbbfea0780c572e`
+- `cad/common_rover/common_rover_staggered_deep_nut_set_screw_drive_sprocket_v0_9_3_7_3/EXTERNAL_GEOMETRY_COMPARISON.md` — `2cf9e085800fd9857a0749845ca25d02c3b0394120ad479436ac8fc88494b095`

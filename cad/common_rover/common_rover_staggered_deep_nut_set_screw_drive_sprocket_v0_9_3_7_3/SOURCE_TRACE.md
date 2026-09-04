@@ -1,0 +1,3 @@
+# SOURCE_TRACE
+
+Read-only parent `cad/common_rover/common_rover_staggered_alternating_deep_nut_drive_sprocket_v0_9_3_7_2`: 70 files, ledger `dde423ac06eb85672b6e868117467af443c0de7c28fd49714109fd7d3bcba6fd`, builder `eb022f735c11705bc944dd2397b1a7dd8cf303e6814d6cc8d77ca04ee2c0a917`, manifest `f846fcdd732443f45b59e157cab5967456f3e8f20c8931c9d2087b5b65a65492`, test `d3abf13846d0dac987bdd9f65e50558e4626af2b45497af1c066e81f0630abbb`, ZIP `c51daddb48d1940ac0b27613a47917cb3280d5ffe3f23920dc826815b4581565`. External 12T source is reached through the protected parent chain.

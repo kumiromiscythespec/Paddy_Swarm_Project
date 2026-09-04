@@ -1,0 +1,29 @@
+test_001_package (__main__.T.test_001_package) ... ok
+test_002_frame_outer (__main__.T.test_002_frame_outer) ... ok
+test_003_frame_clear (__main__.T.test_003_frame_clear) ... ok
+test_004_frame_height (__main__.T.test_004_frame_height) ... ok
+test_005_datums (__main__.T.test_005_datums) ... ok
+test_006_battery (__main__.T.test_006_battery) ... ok
+test_007_terminal_pass (__main__.T.test_007_terminal_pass) ... ok
+test_008_dummy (__main__.T.test_008_dummy) ... ok
+test_009_shims (__main__.T.test_009_shims) ... ok
+test_010_dummy_bounds (__main__.T.test_010_dummy_bounds) ... ok
+test_010b_printability (__main__.T.test_010b_printability) ... ok
+test_011_collar (__main__.T.test_011_collar) ... ok
+test_012_screws (__main__.T.test_012_screws) ... ok
+test_013_reaction (__main__.T.test_013_reaction) ... ok
+test_014_protected (__main__.T.test_014_protected) ... ok
+test_015_bearing (__main__.T.test_015_bearing) ... ok
+test_016_kp000 (__main__.T.test_016_kp000) ... ok
+test_017_release (__main__.T.test_017_release) ... ok
+test_018_gate (__main__.T.test_018_gate) ... ok
+test_019_parents (__main__.T.test_019_parents) ... ok
+test_020_authority (__main__.T.test_020_authority) ... ok
+test_021_staged (__main__.T.test_021_staged) ... ok
+test_022_commit_paths (__main__.T.test_022_commit_paths) ... ok
+test_023_standalone (__main__.T.test_023_standalone) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 4.089s
+
+OK

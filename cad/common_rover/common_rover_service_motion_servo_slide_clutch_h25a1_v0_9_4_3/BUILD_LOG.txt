@@ -1,0 +1,9 @@
+BUILD PASS
+version=0.9.4.3
+Python=3.12.13
+CadQuery=2.8.0
+preflight_untracked=1467
+outside_untracked=1401
+parent_v0942=57_HASH_AND_24_TEST_PASS
+slide_axis=Y_PARENT_CONSISTENT
+physical_release=HOLD

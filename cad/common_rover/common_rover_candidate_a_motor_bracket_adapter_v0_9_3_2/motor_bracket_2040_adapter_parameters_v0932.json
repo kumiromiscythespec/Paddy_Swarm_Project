@@ -1,0 +1,445 @@
+{
+  "authority_pointer": "UNCHANGED",
+  "bracket": {
+    "coordinates_mm": [
+      [
+        -12.0,
+        -15.0
+      ],
+      [
+        12.0,
+        -15.0
+      ],
+      [
+        -12.0,
+        15.0
+      ],
+      [
+        12.0,
+        15.0
+      ]
+    ],
+    "corner_radius": "MEASUREMENT_HOLD",
+    "hole_diameter_measured_mm": 4.0,
+    "outer_mm": [
+      40.2,
+      40.0
+    ],
+    "pitch_mm": [
+      24.0,
+      30.0
+    ],
+    "thickness_proxy_mm": 3.1
+  },
+  "centerline": "COINCIDENT",
+  "collision_report": {
+    "checks": {
+      "bracket_frame_centerline_coincident": true,
+      "identical_left_right_part": true,
+      "m4_bottom_floor_ge_1": true,
+      "m4_m5_intersection_zero": true,
+      "m4_outer_residual_ge_5": true,
+      "tool_bracket_intersection_zero": true,
+      "washer_bracket_intersection_zero": true,
+      "washer_plate_edge_margin_ge_5": true
+    },
+    "clearances_mm": {
+      "m4_blind_floor": 1.0,
+      "m4_c370_to_plate_edge_x": 7.15,
+      "m4_c370_to_plate_edge_y": 23.15,
+      "tool_to_bracket_footprint": 4.5,
+      "washer_to_bracket_footprint": 5.25,
+      "washer_to_plate_edge_x": 6.25,
+      "washer_to_plate_edge_y": 5.25
+    },
+    "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+    "m4_m5_rows": [
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 1,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 1,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 1,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 1,
+        "m5": 4,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 2,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 2,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 2,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 2,
+        "m5": 4,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 3,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 3,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 3,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 3,
+        "m5": 4,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 4,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 4,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 4,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m4": 4,
+        "m5": 4,
+        "pass": true
+      }
+    ],
+    "method": "CADQUERY_ACTUAL_COMMON_VOLUME_PLUS_ANALYTIC_BOUNDARY_CLEARANCE",
+    "status": "PASS",
+    "tool_bracket_rows": [
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 4,
+        "pass": true
+      }
+    ],
+    "washer_bracket_rows": [
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 1,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 2,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 3,
+        "pass": true
+      },
+      {
+        "intersection_volume_mm3": 0.0,
+        "m5": 4,
+        "pass": true
+      }
+    ]
+  },
+  "coordinate_system": {
+    "X": "2040_width",
+    "Y": "2040_length",
+    "Z": "plate_thickness",
+    "base": "Z0",
+    "origin": "plate_center",
+    "top": "Z8"
+  },
+  "coupon": {
+    "blind_depth_mm": 7.0,
+    "diameters_mm": [
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.2
+    ],
+    "labels": "TOP_ENGRAVED",
+    "thickness_mm": 8.0
+  },
+  "dimension_report": {
+    "a1_build_volume_mm": [
+      256.0,
+      256.0,
+      256.0
+    ],
+    "bounds_mm": {
+      "C360": {
+        "xlen": 42.0,
+        "xmax": 21.0,
+        "xmin": -21.0,
+        "ylen": 80.0,
+        "ymax": 40.0,
+        "ymin": -40.0,
+        "zlen": 8.0,
+        "zmax": 8.0,
+        "zmin": 0.0
+      },
+      "C370": {
+        "xlen": 42.0,
+        "xmax": 21.0,
+        "xmin": -21.0,
+        "ylen": 80.0,
+        "ymax": 40.0,
+        "ymin": -40.0,
+        "zlen": 8.0,
+        "zmax": 8.0,
+        "zmin": 0.0
+      },
+      "COUPON": {
+        "xlen": 130.0,
+        "xmax": 65.0,
+        "xmin": -65.0,
+        "ylen": 38.0,
+        "ymax": 19.0,
+        "ymin": -19.0,
+        "zlen": 8.0,
+        "zmax": 8.0,
+        "zmin": 0.0
+      }
+    },
+    "bracket_hole_coordinates_mm": [
+      [
+        -12.0,
+        -15.0
+      ],
+      [
+        12.0,
+        -15.0
+      ],
+      [
+        -12.0,
+        15.0
+      ],
+      [
+        12.0,
+        15.0
+      ]
+    ],
+    "bracket_pitch_mm": [
+      24.0,
+      30.0
+    ],
+    "corner_radius_mm": 3.0,
+    "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+    "frame_hole_coordinates_mm": [
+      [
+        -10.0,
+        -30.0
+      ],
+      [
+        10.0,
+        -30.0
+      ],
+      [
+        -10.0,
+        30.0
+      ],
+      [
+        10.0,
+        30.0
+      ]
+    ],
+    "frame_pitch_mm": [
+      20.0,
+      60.0
+    ],
+    "m4_blind_depth_mm": 7.0,
+    "m4_bottom_floor_mm": 1.0,
+    "m4_variants_mm": {
+      "C360": 3.6,
+      "C370": 3.7
+    },
+    "m5_through_hole_mm": 5.7,
+    "plate_mm": [
+      42.0,
+      80.0,
+      8.0
+    ],
+    "print_orientation": "FLAT_ON_BUILD_PLATE_BASE_Z0",
+    "quantity": "2_IDENTICAL_PARTS_AFTER_ONE_PART_FIT_VALIDATION",
+    "status": "PASS",
+    "support_required": false
+  },
+  "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+  "frame": {
+    "proxy_mm": [
+      40.0,
+      120.0,
+      20.0
+    ],
+    "reusable_exact_profile": "NOT_FOUND_USE_SIMPLE_PROXY",
+    "slot_center_coordinates_x_mm": [
+      -10.0,
+      10.0
+    ],
+    "slot_center_pitch_x_mm": 20.0,
+    "t_slot_exact_profile": "MEASUREMENT_HOLD",
+    "top_width_x_mm": 40.0
+  },
+  "frame_holes": {
+    "coordinates_mm": [
+      [
+        -10.0,
+        -30.0
+      ],
+      [
+        10.0,
+        -30.0
+      ],
+      [
+        -10.0,
+        30.0
+      ],
+      [
+        10.0,
+        30.0
+      ]
+    ],
+    "counterbore": "NONE",
+    "countersink": "NONE",
+    "diameter_mm": 5.7,
+    "pitch_mm": [
+      20.0,
+      60.0
+    ]
+  },
+  "height_impact": {
+    "adapter_z_stack_increase_mm": 8.0,
+    "integration_status": "HEIGHT_REVALIDATION_REQUIRED",
+    "new_motor_front_plate_z_candidate_mm": 113.0,
+    "old_motor_front_plate_z_mm": 105.0
+  },
+  "m5": {
+    "M5x25": "LENGTH_HOLD",
+    "available_lengths_mm": [
+      12,
+      16,
+      20,
+      25
+    ],
+    "backup": "M5x20",
+    "captive_washer": true,
+    "head_height_envelope_mm": 6.5,
+    "measured_head_washer_diameter_mm": 8.7,
+    "measured_head_washer_height_mm": 6.0,
+    "measured_major_diameter_mm": 4.7,
+    "primary": "M5x16",
+    "thread_nominal": "M5",
+    "tool_keep_out_mm": 11.0,
+    "washer_keep_out_mm": 9.5,
+    "washer_removable": false
+  },
+  "old_cradle_jig_status": "DEPRECATED_BY_V0932_ADAPTER_PLATE",
+  "parent_protection": {
+    "anchor": "198a708395df6e43556a744ae9c5629b50360e2f",
+    "checks": {
+      "anchor_exists_and_ancestor": true,
+      "parent_exact_46_files": true,
+      "parent_exact_46_tracked": true,
+      "parent_full_ledger": true,
+      "parent_index_clean": true,
+      "parent_sha_entries": true,
+      "parent_sha_mismatches_zero": true,
+      "parent_worktree_clean": true
+    },
+    "commit_distance": 0,
+    "current_head": "198a708395df6e43556a744ae9c5629b50360e2f",
+    "mode": "LIVE_REPOSITORY",
+    "parent_full_lane_ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+    "parent_path_count": 46,
+    "parent_sha_entries": 45,
+    "status": "PASS"
+  },
+  "part": {
+    "identical_left_right": true,
+    "name": "PS_CR_V0932_MOTOR_BRACKET_TO_2040_ADAPTER",
+    "outer_corner_radius_mm": 3.0,
+    "plate_mm": [
+      42.0,
+      80.0,
+      8.0
+    ],
+    "print_orientation": "FLAT_ON_BUILD_PLATE",
+    "quantity": 2
+  },
+  "physical_fit": "NOT_YET_PERFORMED",
+  "status": "CONDITIONAL_PASS_CANDIDATE",
+  "variants": {
+    "C360": {
+      "blind_depth_mm": 7.0,
+      "pilot_mm": 3.6
+    },
+    "C370": {
+      "blind_depth_mm": 7.0,
+      "pilot_mm": 3.7
+    },
+    "direct_thread_in_petg": "NO_LOAD_MOCKUP_ONLY",
+    "powered_use": "NOT_APPROVED"
+  },
+  "version": "0.9.3.2"
+}

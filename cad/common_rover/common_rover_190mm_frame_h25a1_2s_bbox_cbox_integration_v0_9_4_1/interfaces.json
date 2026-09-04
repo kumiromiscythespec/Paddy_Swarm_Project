@@ -1,0 +1,34 @@
+{
+  "bbox": {
+    "connector": "HIGH_MANUAL_WATERPROOF_HOLD",
+    "idler_support": false,
+    "load_path": "FRAME_DEDICATED_RAIL_SKID_BBOX",
+    "retention": [
+      "REAR_HARD_STOP",
+      "PRIMARY_LOCK",
+      "INDEPENDENT_SAFETY_PIN"
+    ]
+  },
+  "cbox": {
+    "load_path": "FRAME_INDEPENDENT_SUPPORT_CBOX",
+    "loads_bbox": false
+  },
+  "h25a1_2s": {
+    "cover_primary_torque": false,
+    "load_path": "SHAFT_TWO_M4_SET_SCREWS_METAL_COLLAR_DUAL_REACTION_KEY_PETG_HUB_INTEGRAL_12T",
+    "radial_tooth_root_access": false
+  },
+  "pto": {
+    "axis": "Y",
+    "cantilever": "PROHIBITED",
+    "driven_teeth": 20,
+    "driver_teeth": 20,
+    "ratio": 1.0,
+    "support": "METAL_PLATE_KP000_SHAFT_KP000_METAL_PLATE",
+    "transform": "HOLD"
+  },
+  "service": {
+    "bbox_axis": "-X",
+    "layout": "LAYOUT_A_BBOX_REAR_CBOX_FRONT"
+  }
+}

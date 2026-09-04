@@ -1,0 +1,5 @@
+NO POWER. NO BELT TENSION. NO TORQUE LOAD.
+This package permits one PETG part to be printed for a hand-tight, no-load physical fit check only.
+POWERED_ROTATION=NOT_APPROVED
+FIELD_DEPLOYMENT=NOT_APPROVED
+AUTHORITY_POINTER=UNCHANGED

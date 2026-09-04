@@ -1,0 +1,175 @@
+{
+  "battery": {
+    "body_z": 92.5,
+    "capacity_ah": 10.0,
+    "chemistry": "LiFePO4",
+    "energy_wh": 128.0,
+    "label_claim": "IP67",
+    "maker": "GOLDENMATE",
+    "mass_kg": 1.2,
+    "terminal_geometry": "HOLD",
+    "terminal_top_ground": 225.0,
+    "voltage": 12.8,
+    "x": 150.9,
+    "y": 99.4
+  },
+  "bbox": {
+    "blind_mate": false,
+    "center_x": -100.0,
+    "idler_support": false,
+    "local_top_y": 94.0,
+    "local_top_z": 25.7,
+    "main_z": 105.0,
+    "max_z": 130.7,
+    "normal_swap_lid_open": false,
+    "removal_axis": "-X",
+    "status": "CONDITIONAL_PASS_ENVELOPE_ONLY",
+    "waterproof_release": "HOLD",
+    "x": 180.0,
+    "y": 114.0
+  },
+  "bearing_6000": {
+    "central_clearance": 12.0,
+    "diametral_clearance": 0.1,
+    "od": 25.9,
+    "physical_fit": "PENDING",
+    "seat": 26.0
+  },
+  "cbox": {
+    "center_x": 100.0,
+    "electronics": "HOLD",
+    "fixed": true,
+    "independent_support": true,
+    "status": "CAD_PASS_ENVELOPE_ONLY",
+    "x": 180.0,
+    "y": 94.0,
+    "z": 45.0
+  },
+  "classification": "PHYSICAL_INTEGRATION_REVISION",
+  "collar": {
+    "id": 10.1,
+    "od": 15.9,
+    "type": "SOLID_SET_SCREW_SHAFT_COLLAR",
+    "width": 3.0
+  },
+  "diagonal": {
+    "concept_center_distance": 213.78493866500511,
+    "delta_x": 98.0,
+    "final_cut_length": null,
+    "final_cut_status": "HOLD_ACTUAL_PIVOT_ROTATION_CENTER_AND_END_OFFSETS",
+    "pivot_hardware": "M6",
+    "pivot_nominal": [
+      32.0,
+      20.0,
+      20.0
+    ],
+    "sole_friction_lock": "NOT_APPROVED",
+    "structural_height": 190.0
+  },
+  "kp000": {
+    "axis_height": 18.5,
+    "axis_tolerance": 0.5,
+    "bore": 10.0,
+    "collar_protrusion": 6.0,
+    "crawler_count": 8,
+    "depth_y": 17.0,
+    "height_z": 35.0,
+    "mount_hole_center": 53.0,
+    "pto_related_count": 4,
+    "total": 12,
+    "width_x": 67.0
+  },
+  "layout": {
+    "bbox_interval_x": [
+      -190.0,
+      -10.0
+    ],
+    "cbox_interval_x": [
+      10.0,
+      190.0
+    ],
+    "central_gap": 20.0,
+    "end_clearance_each": 10.0,
+    "layout_b": "REJECT_FRONT_DRIVETRAIN_SERVICE_CONGESTION",
+    "selected": "LAYOUT_A_BBOX_REAR_CBOX_FRONT",
+    "vertical_stacking": false,
+    "x_serial": true
+  },
+  "new_frame": {
+    "height": 190.0,
+    "increment": 40.0,
+    "internal_effective_z": 130.7,
+    "lower_clear_x": 400.0,
+    "lower_clear_y": 140.0,
+    "lower_outer_x": 442.0,
+    "lower_outer_y": 181.0,
+    "upper_clear_x": 500.0,
+    "upper_clear_y": 100.0,
+    "upper_outer_x": 540.0,
+    "upper_outer_y": 181.0,
+    "vertical_2020": 150.0
+  },
+  "old_frame": {
+    "height": 150.0,
+    "internal_effective_z": 90.7,
+    "lower_clear_x": 400.0,
+    "lower_clear_y": 140.0,
+    "lower_outer_x": 442.0,
+    "lower_outer_y": 181.0,
+    "upper_clear_x": 500.0,
+    "upper_clear_y": 100.0,
+    "upper_outer_x": 540.0,
+    "upper_outer_y": 181.0,
+    "vertical_2020": 110.0
+  },
+  "set_screws": {
+    "angle": 90.0,
+    "length": 4.0,
+    "major_od_measured": 3.8,
+    "nominal": "M4",
+    "pitch": "HOLD",
+    "projection": 1.0,
+    "quantity": 2
+  },
+  "sprocket_12t": {
+    "axial_width": 44.0,
+    "embed_depth": 4.0,
+    "phase": 15.0,
+    "pitch_diameter": 76.3943726841,
+    "root_radius": 29.47,
+    "root_width": 9.5,
+    "spacing": 30.0,
+    "teeth": 12,
+    "tip_radius": 33.07,
+    "tip_width": 7.5
+  },
+  "version": "0.9.4.1",
+  "z_datum": {
+    "absolute_new_top": "HOLD",
+    "ground": 0.0,
+    "new_top_range": [
+      252.0,
+      258.0
+    ],
+    "new_upper_inside_range": [
+      232.0,
+      238.0
+    ],
+    "scenario_a_bottom": 68.0,
+    "scenario_a_new_top": 258.0,
+    "scenario_a_old_top": 218.0,
+    "scenario_b_new_top": 252.0,
+    "scenario_b_old_top": 212.0,
+    "support_surface_range": [
+      101.3,
+      107.3
+    ],
+    "terminal_overhead_clearance_range": [
+      7.0,
+      13.0
+    ],
+    "terminal_top": 225.0,
+    "terminal_vs_reported_old_top_deficit": 13.0,
+    "waterline": 150.0
+  }
+}

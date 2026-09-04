@@ -1,0 +1,3 @@
+# SOURCE_TRACE
+
+Parent `cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1` ledger `fde4ee1b4c2499c08e564f3baad49dd6073e79b5456a28216c630173e0bb0280`; builder `3af26c2dddc660232918c1bbfae417e6a9d42440e6d8db34dd9da9746bb0e34c`; manifest `71ed45e1240493ce51895a6ce9516c928701977b7fc49b8c3d9168685458b28e`; test `dedc47cc5e188fbf98b9c49f3eb831d0b14b743efd9d190f9b12b887397cb478`; ZIP `f4a2d7b1b2c00856778d37d5842ce28816936f98951867af5fad5533c6f0aea0`. Parent is read-only.

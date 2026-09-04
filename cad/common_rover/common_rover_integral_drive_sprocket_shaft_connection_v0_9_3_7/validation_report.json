@@ -1,0 +1,131 @@
+{
+  "STEP": {
+    "count": 9,
+    "pass_count": 9,
+    "rows": [
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_v0_9_3_7.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_source_comparison_v0_9_3_7.step",
+        "solids": 2
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_h0_split_clamp_top_v0_9_3_7.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_h0_split_clamp_bottom_v0_9_3_7.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_h0_assembly_v0_9_3_7.step",
+        "solids": 34
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_h0_exploded_v0_9_3_7.step",
+        "solids": 34
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_shaft_bore_coupon_v0_9_3_7.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_h1_parameter_hold_reference_v0_9_3_7.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/common_rover_crawler_sprocket_12t_integral_s0_bearing_shaft_envelope_assembly_v0_9_3_7.step",
+        "solids": 38
+      }
+    ],
+    "status": "PASS"
+  },
+  "STL": {
+    "count": 4,
+    "pass_count": 4,
+    "rows": [
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 3952,
+        "pass": true,
+        "path": "artifacts/stl/common_rover_crawler_sprocket_12t_integral_s0_v0_9_3_7.stl",
+        "volume_mm3": 126230.65252928087,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 4536,
+        "pass": true,
+        "path": "artifacts/stl/common_rover_crawler_sprocket_12t_integral_s0_h0_split_clamp_top_v0_9_3_7.stl",
+        "volume_mm3": 5583.907055960303,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 3904,
+        "pass": true,
+        "path": "artifacts/stl/common_rover_crawler_sprocket_12t_integral_s0_h0_split_clamp_bottom_v0_9_3_7.stl",
+        "volume_mm3": 5753.3206113755705,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 28864,
+        "pass": true,
+        "path": "artifacts/stl/common_rover_crawler_sprocket_12t_integral_s0_shaft_bore_coupon_v0_9_3_7.stl",
+        "volume_mm3": 26937.644770505456,
+        "watertight": true
+      }
+    ],
+    "status": "PASS"
+  },
+  "SVG": {
+    "count": 2,
+    "pass_count": 2,
+    "rows": [
+      {
+        "pass": true,
+        "path": "artifacts/svg/common_rover_crawler_sprocket_12t_integral_s0_shaft_connection_overview_v0_9_3_7.svg"
+      },
+      {
+        "pass": true,
+        "path": "artifacts/svg/common_rover_crawler_sprocket_12t_integral_s0_load_path_v0_9_3_7.svg"
+      }
+    ],
+    "status": "PASS"
+  },
+  "classification": "S0_BASELINE_INTEGRAL_DRIVE_SPROCKET",
+  "document_id": "PS-CR-V0937-INTEGRAL-DRIVE-SPROCKET-SHAFT-CONNECTION-S0",
+  "durability": "NOT_TESTED",
+  "geometry": {
+    "checks": {
+      "12T": true,
+      "envelope_clear": true,
+      "external_tooth_equal": true,
+      "h0_two_halves": true,
+      "no_irreversible_shaft": true,
+      "no_petg_set_screw": true,
+      "one_piece": true,
+      "positive_root": true
+    },
+    "status": "PASS"
+  },
+  "physical_fit": "REQUIRED",
+  "powered_rotation": "NOT_APPROVED",
+  "status": "PASS"
+}

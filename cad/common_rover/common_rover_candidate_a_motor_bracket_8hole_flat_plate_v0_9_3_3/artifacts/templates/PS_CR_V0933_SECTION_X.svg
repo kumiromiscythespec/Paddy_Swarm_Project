@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="90mm" viewBox="-90 -20 180 90">
+<title>SECTION X</title><desc>Units mm; SCALE 1:1; print 100%; fit to page OFF; automatic scaling OFF.</desc>
+<style>text{font-family:Arial,sans-serif;font-size:3px;fill:#111} .o{fill:none;stroke:#111;stroke-width:.35} .c{fill:none;stroke:#137;stroke-width:.2;stroke-dasharray:2 1} .m3{fill:none;stroke:#087;stroke-width:.35} .m5{fill:none;stroke:#b40;stroke-width:.35} .d{fill:none;stroke:#555;stroke-width:.18}</style>
+<text x="-85" y="-14">SECTION X · PETG T6 · ALL HOLES STRAIGHT THROUGH</text>
+<rect class="o" x="-21.0" y="0" width="42" height="6"/>
+<rect x="-13.7" y="0" width="3.4" height="6" fill="white" stroke="#137" stroke-width=".2"/>
+<rect x="10.3" y="0" width="3.4" height="6" fill="white" stroke="#137" stroke-width=".2"/>
+<rect x="-12.85" y="0" width="5.7" height="6" fill="white" stroke="#137" stroke-width=".2"/>
+<rect x="7.15" y="0" width="5.7" height="6" fill="white" stroke="#137" stroke-width=".2"/>
+<path class="d" d="M -30 0 H -36 M -30 6 H -36 M -33 0 V 6"/><text x="-42" y="4">6 mm</text>
+<text x="-35" y="14">FLAT BASE Z=0 · PLANAR TOP Z=6 · NO BLIND FEATURES</text>
+<line x1="-25" y1="60" x2="25" y2="60" stroke="#111" stroke-width="1"/><line x1="-25" y1="58" x2="-25" y2="62" stroke="#111"/><line x1="25" y1="58" x2="25" y2="62" stroke="#111"/><text x="-8" y="57">50 mm CHECK BAR</text><text x="-38" y="67">SCALE 100% · FIT OFF · AUTOSCALE OFF</text>
+</svg>

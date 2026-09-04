@@ -1,0 +1,119 @@
+{
+  "cad_count": 19,
+  "classification": "SERVICE_AND_DRIVETRAIN_ARCHITECTURE",
+  "full_hardware": {
+    "final_v2_fixture_stl_generated": false,
+    "hold_datums": [
+      "WASHER_HEAD_X",
+      "WASHER_HEAD_Y"
+    ],
+    "known_solids": [
+      "COLLAR",
+      "M4_SET_SCREW_X",
+      "M4_SET_SCREW_Y"
+    ]
+  },
+  "interference": {
+    "all_zero": true,
+    "method": "CADQUERY_ACTUAL_SHAPE_COMMON_VOLUME_ON_PARAMETRIC_RESERVED_ENVELOPES",
+    "physical_transform_status": "HOLD_ACTUAL_SERVO_AND_CLUTCH_MEASUREMENTS",
+    "rows": [
+      {
+        "check": "BBOX_SWEEP_SERVO_BRIDGE",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "BBOX_SWEEP_CLUTCH",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "BBOX_SWEEP_CBOX",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "SERVO_BRIDGE_PTO",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "SERVO_BRIDGE_BELT",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "CLUTCH_CBOX",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      }
+    ]
+  },
+  "parent_audit": {
+    "lanes": {
+      "cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1": {
+        "file_count": 68,
+        "hashes": {
+          "MANIFEST.txt": "879697e31b9ab4595c2c13c17741ca46e6d14d6137de4d0cac91cc32b90397e5",
+          "SHA256SUMS.txt": "9446ff0205256762757396be582c8cbb46b3c2131aa8d150903e8b1297ac26aa",
+          "geometry_manifest.json": "99bf05d5c13cb958983f3c2c8c167f2bc7d62ec254d9fef19f3c811384355451",
+          "validation_report.json": "9f79843e750884f96c9aa04dc123a87b8c6e006fa2c5f50be652abe453c74c53"
+        },
+        "path": "cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1",
+        "status": "CAD_PASS"
+      },
+      "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2": {
+        "file_count": 57,
+        "hashes": {
+          "MANIFEST.txt": "a983a48c6f9394a9f90b112b3f1f7e2f89dbdc70a34044e4d4711bf6cf6adf4a",
+          "SHA256SUMS.txt": "e0033d12141e805b11ec53dbe5c2de5e65fecb46a1a87a1b9f30b9113cce82b1",
+          "build_common_rover_physical_fit_closure_v0942.py": "3356276d37bee8f7e84c82c9ada8b128c45206148952a0c3137d526590259172",
+          "geometry_manifest.json": "c9a9ce48fba8318ff0d41155c2cb47ec5a5b6beb3d688385ef0ba8f9cd90408c",
+          "tests/test_common_rover_physical_fit_closure_v0942.py": "a6f5a0adce49bc71797175f337fe964a7dae3a13f87c4a815cbb0692db8609f3",
+          "validation_report.json": "37d2da249ab66238b4ecc715550a45d7ef7a6a427fc533cb09c75248031d1da8"
+        },
+        "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2",
+        "status": "CAD_PASS"
+      },
+      "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0": {
+        "file_count": 43,
+        "hashes": {
+          "MANIFEST.txt": "fbb9d00eda9dda979e3dfcb4596d987260fc79dd6f0160cdf40512fbf438a984",
+          "SHA256SUMS.txt": "0bfd7afed7b19543e811a1e08bb98aa8c8151a46465d3254702361ea50794fe5",
+          "geometry_manifest.json": "06c2785bf772912a3019a59004586ddad136d3e58320682c376d93f9f1add198",
+          "validation_report.json": "13cdca78fc4a12a29ba5128ecf366cb986fdf635b6f73751af1604fba314f5d5"
+        },
+        "path": "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0",
+        "status": "CAD_PASS"
+      }
+    },
+    "status": "CAD_PASS",
+    "v0942_baseline_verify": "57_FILES_HASH_PASS_STANDALONE_11_PASS_CONTRACT_24_PASS"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "external_geometry_delta_mm": 0.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "radial_access_holes": false,
+    "root_overlap_mm": 4.0,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.service_servo_clutch.geometry.v0.9.4.3",
+  "slide_axis": {
+    "basis": "PARENT_V0941_PTO_AXIS_Y_AND_V08_INWARD_COAXIAL_SELECTOR",
+    "final_coordinate": null,
+    "selected": "Y"
+  },
+  "step_contract": "RELOAD_VALID_AND_BYTE_REPRODUCIBLE_AFTER_TIMESTAMP_NORMALIZATION",
+  "step_count": 16,
+  "stl_contract": "BINARY_ALL_TRIANGLES_POSITIVE_AND_BYTE_REPRODUCIBLE",
+  "stl_count": 3
+}

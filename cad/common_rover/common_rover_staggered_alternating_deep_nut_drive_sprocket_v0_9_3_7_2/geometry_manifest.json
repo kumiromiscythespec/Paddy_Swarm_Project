@@ -1,0 +1,469 @@
+{
+  "analysis": {
+    "coupons": {
+      "deep_af": [
+        5.1,
+        5.15,
+        5.2,
+        5.25,
+        5.3,
+        5.35
+      ],
+      "deep_lengths": [
+        13.1,
+        13.2,
+        13.3
+      ],
+      "front_solid_count": 1,
+      "rear_solid_count": 1,
+      "washer_solid_count": 1
+    },
+    "functional_head_path": {
+      "final_minus_external_mm3": 0.0,
+      "parent_minus_external_mm3": 10.99232818157589,
+      "status": "REJECT_EXTERNAL_GEOMETRY_CHANGE"
+    },
+    "insertion": {
+      "alternating": true,
+      "continuous_fracture": false,
+      "front_angles": [
+        0,
+        180
+      ],
+      "rear_angles": [
+        90,
+        270
+      ]
+    },
+    "layouts": {
+      "C0": {
+        "axial_contact_spread_mm": 0.0,
+        "central_web_candidate_mm": 0.0,
+        "front_center_z_mm": 0.0,
+        "front_slot_depth_mm": 22.0,
+        "offset_mm": 0.0,
+        "pocket_pairwise_max_mm3": 0.0,
+        "rear_center_z_mm": -0.0,
+        "rear_slot_depth_mm": 22.0,
+        "same_contact_plane": true,
+        "selection": "PREFERRED_GEOMETRY"
+      },
+      "C15": {
+        "axial_contact_spread_mm": 3.0,
+        "central_web_candidate_mm": 3.0,
+        "front_center_z_mm": 1.5,
+        "front_slot_depth_mm": 20.5,
+        "offset_mm": 1.5,
+        "pocket_pairwise_max_mm3": 0.0,
+        "rear_center_z_mm": -1.5,
+        "rear_slot_depth_mm": 20.5,
+        "same_contact_plane": false,
+        "selection": "COMPARISON_ONLY_AXIAL_CONTACT_SPREAD"
+      },
+      "C30": {
+        "axial_contact_spread_mm": 6.0,
+        "central_web_candidate_mm": 6.0,
+        "front_center_z_mm": 3.0,
+        "front_slot_depth_mm": 19.0,
+        "offset_mm": 3.0,
+        "pocket_pairwise_max_mm3": 0.0,
+        "rear_center_z_mm": -3.0,
+        "rear_slot_depth_mm": 19.0,
+        "same_contact_plane": false,
+        "selection": "COMPARISON_ONLY_AXIAL_CONTACT_SPREAD"
+      }
+    },
+    "parent": {
+      "bounds": {
+        "xlen": 65.827477,
+        "xmax": 32.913738,
+        "xmin": -32.913738,
+        "ylen": 65.827477,
+        "ymax": 32.913738,
+        "ymin": -32.913738,
+        "zlen": 44.0,
+        "zmax": 22.0,
+        "zmin": -22.0
+      }
+    },
+    "references": {
+      "belt": "HOLD_COORDINATE_REGISTRATION_REQUIRED",
+      "frame": "HOLD_COORDINATE_REGISTRATION_REQUIRED",
+      "pulley60": "HOLD_COORDINATE_REGISTRATION_REQUIRED"
+    },
+    "screw": {
+      "hardware_to_bearing_mm3": 0.0,
+      "hardware_to_guide_mm3": 0.0,
+      "hardware_to_link_mm3": 567.5360122717555,
+      "head_path_blocked_by_preserved_body_mm3": 114.81750641998048,
+      "length_mm": 25.0,
+      "provisional_shaft_gap_mm": 0.2699999999999996,
+      "provisional_tip_radius_mm": 5.27,
+      "provisional_washer_thickness_mm": 0.8,
+      "required_washer_thickness_for_contact_mm": 0.5300000000000011,
+      "tip_shape_status": "HOLD_MEASUREMENT_REQUIRED"
+    },
+    "variants": {
+      "C0-B101": {
+        "bore_mm": 10.1,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.0,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C0",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C0-B102": {
+        "bore_mm": 10.2,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C0",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C0-B103": {
+        "bore_mm": 10.3,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C0",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C15-B101": {
+        "bore_mm": 10.1,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.0,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C15",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C15-B102": {
+        "bore_mm": 10.2,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C15",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C15-B103": {
+        "bore_mm": 10.3,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C15",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C30-B101": {
+        "bore_mm": 10.1,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.0,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C30",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C30-B102": {
+        "bore_mm": 10.2,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C30",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      },
+      "C30-B103": {
+        "bore_mm": 10.3,
+        "bounds": {
+          "xlen": 65.827477,
+          "xmax": 32.913739,
+          "xmin": -32.913739,
+          "ylen": 65.827477,
+          "ymax": 32.913739,
+          "ymin": -32.913739,
+          "zlen": 44.000001,
+          "zmax": 22.000001,
+          "zmin": -22.000001
+        },
+        "final_minus_external_mm3": 0.0,
+        "layout": "C30",
+        "parent_minus_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true
+      }
+    },
+    "walls": {
+      "adjacent_mm": 7.228294503496046,
+      "pocket_to_bore_mm": 3.049999999999999,
+      "pocket_to_m4_mm": 3.1964574340740723,
+      "reaction_mm": 3.778232418848514
+    },
+    "washer": {
+      "full_support": false,
+      "od_mm": 6.8,
+      "root_gap_width_mm": 6.001047559182917,
+      "seat_candidates": {
+        "7.0": {
+          "fits_intertooth_root_gap": false,
+          "sagitta_support_gap_mm": 0.20857658964622416
+        },
+        "7.2": {
+          "fits_intertooth_root_gap": false,
+          "sagitta_support_gap_mm": 0.22071111975540703
+        }
+      },
+      "tangent_support_gap_mm": 0.19678869683068,
+      "washer_to_guide_mm3": 0.0,
+      "washer_to_link_mm3": 90.47786842338645
+    }
+  },
+  "authority_files_changed": false,
+  "axial_layout_variants": {
+    "C0": 0.0,
+    "C15": 1.5,
+    "C30": 3.0
+  },
+  "bbox_boolean_rounding_delta_max_mm": 1.0000000010279564e-06,
+  "bbox_comparison_tolerance_mm": 2e-06,
+  "body_markings": [
+    "H2.3",
+    "V09372",
+    "A1",
+    "F",
+    "R",
+    "L/R COMMON",
+    "P3AF26C2D",
+    "BORE_CANDIDATE",
+    "AXIAL_LAYOUT_CANDIDATE"
+  ],
+  "bore_variants": {
+    "B101": 10.1,
+    "B102": 10.2,
+    "B103": 10.3
+  },
+  "current_branch": "agent/organize-untracked-cad-assets-20260725",
+  "current_head": "facb4f63c0d485a53fef48b602f97e0454e8548f",
+  "design_name": "common_rover_staggered_alternating_deep_nut_drive_sprocket_v0_9_3_7_2",
+  "design_status": "FAIL_M3X25_HEAD_WASHER_INTERFACE_WITH_PRESERVED_EXTERNAL_GEOMETRY",
+  "external_tooth_geometry_changed": false,
+  "field_deployment_status": "NOT_APPROVED",
+  "final_external_bbox": {
+    "xlen": 65.827477,
+    "xmax": 32.913738,
+    "xmin": -32.913738,
+    "ylen": 65.827477,
+    "ymax": 32.913738,
+    "ymin": -32.913738,
+    "zlen": 44.0,
+    "zmax": 22.0,
+    "zmin": -22.0
+  },
+  "final_full_bbox_raw": {
+    "xlen": 65.827477,
+    "xmax": 32.913739,
+    "xmin": -32.913739,
+    "ylen": 65.827477,
+    "ymax": 32.913739,
+    "ymin": -32.913739,
+    "zlen": 44.000001,
+    "zmax": 22.000001,
+    "zmin": -22.000001
+  },
+  "final_minus_parent_external_volume": 0.0,
+  "final_sprocket_solid_count": 1,
+  "front_insert_angles": [
+    0,
+    180
+  ],
+  "front_retainer": true,
+  "high_nut_af_candidates": [
+    5.1,
+    5.15,
+    5.2,
+    5.25,
+    5.3,
+    5.35
+  ],
+  "high_nut_af_measured": 5.2,
+  "high_nut_count": 4,
+  "high_nut_length_clearance_candidates": [
+    13.1,
+    13.2,
+    13.3
+  ],
+  "high_nut_length_measured": 13.0,
+  "high_nut_thread": "M3",
+  "marking_status": "CAD_MODELED",
+  "mechanism_name": "H2.3_STAGGERED_ALTERNATING_DEEP_NUT_HEAD_CLAMP",
+  "minimum_adjacent_pocket_wall": 7.228294503496046,
+  "minimum_pocket_to_bore_wall": 3.049999999999999,
+  "minimum_pocket_to_m4_wall": 3.1964574340740723,
+  "minimum_reaction_wall": 3.778232418848514,
+  "minimum_washer_seat_wall": 0.0,
+  "parent_audit": {
+    "checks": {
+      "builder": true,
+      "ledger": true,
+      "manifest": true,
+      "test": true,
+      "zip": true
+    },
+    "count": 44,
+    "ledger": "fde4ee1b4c2499c08e564f3baad49dd6073e79b5456a28216c630173e0bb0280",
+    "status": "PASS"
+  },
+  "parent_external_bbox": {
+    "xlen": 65.827477,
+    "xmax": 32.913738,
+    "xmin": -32.913738,
+    "ylen": 65.827477,
+    "ymax": 32.913738,
+    "ymin": -32.913738,
+    "zlen": 44.0,
+    "zmax": 22.0,
+    "zmin": -22.0
+  },
+  "parent_lane": "cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1",
+  "parent_ledger_sha256": "fde4ee1b4c2499c08e564f3baad49dd6073e79b5456a28216c630173e0bb0280",
+  "parent_minus_final_external_volume": 0.0,
+  "parent_version": "0.9.3.7.1",
+  "parent_zip_sha256": "f4a2d7b1b2c00856778d37d5842ce28816936f98951867af5fad5533c6f0aea0",
+  "petg_spare_rate_percent": 100,
+  "phase_degrees": 15.0,
+  "physical_test_status": "REQUIRED",
+  "powered_rotation_status": "NOT_APPROVED",
+  "print_release": "COUPONS_ONLY_SPROCKET_STL_NOT_APPROVED",
+  "rear_insert_angles": [
+    90,
+    270
+  ],
+  "rear_retainer": true,
+  "release": {
+    "BELT_TENSION": "NOT_APPROVED",
+    "GITHUB_EXECUTABLE_CAD_RELEASE": "HOLD",
+    "GITHUB_MANUFACTURING_RELEASE": "HOLD",
+    "H23_CAD": "FAIL",
+    "H23_CREEP": "REQUIRED",
+    "H23_PHYSICAL_FIT": "BLOCKED_PENDING_GEOMETRY_CORRECTION",
+    "PURCHASE_STATUS": "NOT_APPROVED",
+    "TORQUE_LOAD": "NOT_APPROVED"
+  },
+  "retainer_fastener_count": 4,
+  "retainer_fastener_size": "M4",
+  "retainer_markings": [
+    "F",
+    "R",
+    "A1",
+    "V09372",
+    "L/R"
+  ],
+  "retainer_pcd": 24.0,
+  "screw_count": 4,
+  "screw_length": 25.0,
+  "screw_size": "M3",
+  "screw_type": "HEADED_GENERIC_ENVELOPE",
+  "shaft_irreversible_machining_required": false,
+  "single_manufacturer_dependency": false,
+  "sprocket_midplane": 0.0,
+  "stl_watertight": true,
+  "tooth_axial_width": 44.0,
+  "tooth_count": 12,
+  "tooth_root_radius": 29.47,
+  "tooth_root_width": 9.5,
+  "tooth_spacing_degrees": 30.0,
+  "tooth_tip_radius": 33.07,
+  "tooth_tip_width": 7.5,
+  "torque_capacity_status": "NOT_TESTED",
+  "version": "0.9.3.7.2",
+  "washer_inner_diameter_status": "HOLD_MEASUREMENT_REQUIRED",
+  "washer_outer_diameter_measured": 6.8,
+  "washer_seat_diameter_candidates": [
+    7.0,
+    7.2
+  ],
+  "washer_thickness_status": "HOLD_MEASUREMENT_REQUIRED"
+}

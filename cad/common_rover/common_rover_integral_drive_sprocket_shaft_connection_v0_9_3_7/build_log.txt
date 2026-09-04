@@ -1,0 +1,8 @@
+command=python -B build_common_rover_integral_drive_sprocket_shaft_connection_v0937.py --refresh-artifacts
+status=PASS
+formal_paths=32
+step=9/9
+stl=4/4
+svg=2/2
+physical_test=REQUIRED
+powered_rotation=NOT_APPROVED

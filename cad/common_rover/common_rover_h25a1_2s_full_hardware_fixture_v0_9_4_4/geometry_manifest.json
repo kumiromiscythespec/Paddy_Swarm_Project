@@ -1,0 +1,193 @@
+{
+  "cad_count": 20,
+  "classification": "PHYSICAL_HARDWARE_FIT_FIXTURE",
+  "external_geometry_delta_mm": 0.0,
+  "full_12t_sprocket_stl_generated": false,
+  "interference": {
+    "all_zero": true,
+    "axial": {
+      "centered_side_protrusion_mm": 4.8,
+      "hardware_width_mm": 8.8,
+      "hub_width_mm": 44.0,
+      "link_status": "BLOCKED_UNLESS_PHYSICAL_AXIAL_REGISTRATION_VALIDATED",
+      "link_width_mm": 53.6,
+      "margin_each_side_mm": 17.6
+    },
+    "method": "CADQUERY_ACTUAL_COMMON_VOLUME_FOR_REFERENCE_SOLIDS",
+    "physical_fit_status": "USER_TEST_PENDING",
+    "rows": [
+      {
+        "check": "HARDWARE_VS_PROTECTED_ROOT",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "HARDWARE_VS_REACTION_KEY_ZONE",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "WASHERS_VS_FIXTURE_BODY",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "HEADS_VS_FIXTURE_BODY",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "FULL_HARDWARE_VS_FIXTURE_BODY",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "FULL_HARDWARE_VS_INSTALLED_REACTION_KEYS",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "INSTALLED_REACTION_KEYS_MUTUAL",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "INSTALLED_REACTION_KEYS_VS_FIXTURE_BODY",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      },
+      {
+        "check": "REACTION_KEY_ZONE_VS_PROTECTED_ROOT",
+        "common_volume_mm3": 0.0,
+        "status": "CAD_PASS"
+      }
+    ],
+    "wall_by_candidate": [
+      {
+        "reaction_allocation_mm": 3.5,
+        "remaining_petg_wall_mm": 5.77,
+        "service_radius_mm": 20.2,
+        "target_ge_3": true
+      },
+      {
+        "reaction_allocation_mm": 3.5,
+        "remaining_petg_wall_mm": 5.57,
+        "service_radius_mm": 20.4,
+        "target_ge_3": true
+      },
+      {
+        "reaction_allocation_mm": 3.5,
+        "remaining_petg_wall_mm": 5.37,
+        "service_radius_mm": 20.6,
+        "target_ge_3": true
+      }
+    ]
+  },
+  "parents": {
+    "runtime_reproduction": {
+      "v0942": "11_STANDALONE_PASS_24_TEST_PASS",
+      "v0943": "19_ARTIFACT_BYTE_PASS_34_TEST_PASS"
+    },
+    "status": "CAD_PASS",
+    "v0942": {
+      "file_count": 57,
+      "hashes": {
+        "MANIFEST.txt": "a983a48c6f9394a9f90b112b3f1f7e2f89dbdc70a34044e4d4711bf6cf6adf4a",
+        "SHA256SUMS.txt": "e0033d12141e805b11ec53dbe5c2de5e65fecb46a1a87a1b9f30b9113cce82b1",
+        "build_common_rover_physical_fit_closure_v0942.py": "3356276d37bee8f7e84c82c9ada8b128c45206148952a0c3137d526590259172",
+        "geometry_manifest.json": "c9a9ce48fba8318ff0d41155c2cb47ec5a5b6beb3d688385ef0ba8f9cd90408c",
+        "tests/test_common_rover_physical_fit_closure_v0942.py": "a6f5a0adce49bc71797175f337fe964a7dae3a13f87c4a815cbb0692db8609f3",
+        "validation_report.json": "37d2da249ab66238b4ecc715550a45d7ef7a6a427fc533cb09c75248031d1da8"
+      },
+      "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2",
+      "status": "CAD_PASS"
+    },
+    "v0943": {
+      "file_count": 66,
+      "hashes": {
+        "MANIFEST.txt": "af588b754f41ae049463312b123c33d5c22be91eb15864a6207ebe5600f16d15",
+        "SHA256SUMS.txt": "55a46db50ceaf311ebe788f858a45752a2a8296c475b9bb140a9ab069df70fa0",
+        "build_common_rover_service_servo_clutch_v0943.py": "04b256b0e4e4dcc70c343226026579f11a7b738464fe08bdb42abf838d0fb8e2",
+        "geometry_manifest.json": "fe8e5ef60a6d221a4479a3379e0baf27ee5b716c3d365c8d9ddb7a12781e2dee",
+        "tests/test_common_rover_service_servo_clutch_v0943.py": "31c0a65d006807a295905bd3c23a97ec7d06bf5a476a768319a72231f3d63fef",
+        "validation_report.json": "fcc789a77013a54f877bf4a734d4c77d4b4f4341419d8bc93cb0d4f10cae7e26"
+      },
+      "path": "cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3",
+      "status": "CAD_PASS"
+    }
+  },
+  "printability": {
+    "all_fit": true,
+    "bed_mm": [
+      256,
+      256
+    ],
+    "printer": "Bambu A1",
+    "rows": {
+      "FIT_COUPON": {
+        "bounds_mm": [
+          150.0,
+          58.0,
+          12.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "PLATE_01": {
+        "bounds_mm": [
+          205.267,
+          116.0,
+          12.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "PLATE_02": {
+        "bounds_mm": [
+          216.248,
+          84.0,
+          16.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "REACTION_KEY": {
+        "bounds_mm": [
+          28.248,
+          17.8,
+          4.4
+        ],
+        "fits_bambu_a1_xy": true,
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      },
+      "STATIC_BODY": {
+        "bounds_mm": [
+          84.0,
+          84.0,
+          16.0
+        ],
+        "fits_bambu_a1_xy": true,
+        "support": "SUPPORT_FREE_CANDIDATE_SLICER_CONFIRMATION_REQUIRED"
+      }
+    },
+    "slicer_support_generation": "USER_CONFIRM_REQUIRED"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "external_geometry_delta_mm": 0.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "radial_tooth_root_access_holes": 0,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.h25a1.full_hardware_fixture.geometry.v0.9.4.4",
+  "step_count": 12,
+  "stl_count": 8
+}

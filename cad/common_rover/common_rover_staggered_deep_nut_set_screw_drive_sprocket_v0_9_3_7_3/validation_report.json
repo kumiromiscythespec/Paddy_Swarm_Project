@@ -1,0 +1,10 @@
+{
+  "artifact_contract": "PASS",
+  "design_status": "FAIL_ACCESS_BORE_EXTERNAL_ROOT_AND_LINK_CONTRACT",
+  "document_id": "PS-CR-V09373-H24-STAGGERED-DEEP-NUT-SET-SCREW",
+  "global_assembly": "HOLD",
+  "local_geometry": "FAIL_ACCESS_BORE_LINK",
+  "physical_fit": "BLOCKED_PENDING_GEOMETRY_CORRECTION",
+  "powered_rotation": "NOT_APPROVED",
+  "status": "FAIL"
+}

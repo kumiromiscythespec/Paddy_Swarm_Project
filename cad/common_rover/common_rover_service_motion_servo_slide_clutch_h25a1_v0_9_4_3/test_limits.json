@@ -1,0 +1,28 @@
+{
+  "bbox_physical_pass_required": true,
+  "bbox_reference_pitch_deg": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "clutch_force_test": [
+    "BREAKAWAY",
+    "AVERAGE",
+    "APPROACH_DRIVE_STOP",
+    "APPROACH_PTO_STOP"
+  ],
+  "clutch_powered": false,
+  "field": false,
+  "h25_static_torque_future_nm": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "h25_v2_test_blocked": true,
+  "powered_rotation": false,
+  "top_contact_allowed": [
+    "NONE",
+    "LIGHT_AT_REPLACEABLE_GUIDE_ONLY"
+  ]
+}

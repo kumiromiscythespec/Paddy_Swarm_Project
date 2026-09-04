@@ -1,0 +1,463 @@
+{
+  "checks": {
+    "belt_plane_change_zero": "PASS",
+    "collar_proud": "PASS",
+    "cover_zero": "PASS",
+    "dual_metal_collars": "PASS",
+    "external_ears_zero": "PASS",
+    "flange_change_zero": "PASS",
+    "guide_bore": "PASS",
+    "hardware_intersection_zero": "PASS",
+    "head_clearance": "PASS",
+    "m4_total": "PASS",
+    "outer_ligament": "PASS",
+    "physical_authority_exact": "PASS",
+    "powered": "NOT_APPROVED",
+    "primary_pocket": "PASS",
+    "reaction_shoe_zero": "PASS",
+    "reaction_shoulder": "PASS",
+    "real_axial_retention_load": "PHYSICAL_HOLD",
+    "real_collar_friction": "PHYSICAL_HOLD",
+    "real_creep": "PHYSICAL_HOLD",
+    "real_m4_torque": "PHYSICAL_HOLD",
+    "real_petg_reaction_strength": "PHYSICAL_HOLD",
+    "real_shaft_torque_capacity": "PHYSICAL_HOLD",
+    "rim_change_zero": "PASS",
+    "service_envelope": "PASS",
+    "split_clamp_zero": "PASS",
+    "spoke_change_zero": "PASS",
+    "step_reload": "PASS",
+    "stl_watertight": "PASS",
+    "tooth_change_zero": "PASS"
+  },
+  "classification": "TEMP_HTD5M_60T_DUAL_SHAFT_COLLAR_EMBEDDED_M4",
+  "geometry": {
+    "architecture": {
+      "continuous_1_3mm_split": 0,
+      "cover": 0,
+      "external_petg_clamp_ears": 0,
+      "m4_per_collar": 2,
+      "metal_shaft_collars": 2,
+      "petg_split_clamp": 0,
+      "petg_tapped_primary_threads": 0,
+      "reaction_shoe": 0,
+      "retired": [
+        "EXTERNAL_PETG_EARS",
+        "FRONT_REAR_PETG_CLAMP_BANDS",
+        "CONTINUOUS_1_3MM_SPLIT",
+        "PETG_COMPRESSION_CLAMP",
+        "M4_WASHER_NUT_EAR_STACK",
+        "B1010_B1020_B1030_SPLIT_CLAMP_COUPONS"
+      ],
+      "sequence": [
+        "LEFT_METAL_SHAFT_COLLAR",
+        "CENTRAL_PETG_60T_REACTION_HUB",
+        "RIGHT_METAL_SHAFT_COLLAR"
+      ],
+      "total_m4": 4
+    },
+    "axial_retention_path": [
+      "PULLEY_LEFT_FACE",
+      "LEFT_METAL_COLLAR",
+      "D10_STEEL_SHAFT",
+      "RIGHT_METAL_COLLAR",
+      "PULLEY_RIGHT_FACE"
+    ],
+    "axial_sandwich": {
+      "cad_reference_axial_play_mm": 0.0,
+      "left_migration_blocked_by": "LEFT_METAL_SHAFT_COLLAR",
+      "optional_shim": "ONLY_IF_PHYSICAL_PLAY_REQUIRES",
+      "preload": "PHYSICAL_HOLD_NO_DESTRUCTIVE_PRELOAD",
+      "right_migration_blocked_by": "RIGHT_METAL_SHAFT_COLLAR"
+    },
+    "exported_dimensions": {
+      "collar_pocket_depth_mm": 5.5,
+      "collar_pocket_id_mm": 16.2,
+      "guide_bore_mesh_effective_max_mm": 10.200001,
+      "guide_bore_mesh_effective_min_mm": 10.199206,
+      "guide_bore_target_mm": 10.2,
+      "m4_reaction_pocket_width_mm": 9.5,
+      "m4_service_radial_envelope_mm": 20.0,
+      "measurement_basis": "EXPORTED_STL_VERTEX_GUIDE_BORE_PLUS_EXACT_CAD_CUTTER_CONTRACT",
+      "minimum_petg_outer_ligament_mm": 5.0,
+      "minimum_reaction_shoulder_mm": 5.0
+    },
+    "freeze_regression": {
+      "belt_plane_change_mm": 0.0,
+      "flange_change": 0,
+      "hub_only_revision": true,
+      "modification_envelope_radius_mm": 30.1,
+      "outside_added_mm3": 0,
+      "outside_removed_mm3": 0,
+      "rim_change": 0,
+      "ring_added_mm3": 0,
+      "ring_removed_mm3": 0,
+      "spoke_change_outside_local_hub": 0,
+      "tooth_change": 0
+    },
+    "hub": {
+      "collar_pocket_candidates_mm": [
+        16.0,
+        16.2,
+        16.4
+      ],
+      "collar_pocket_depth_mm": 5.5,
+      "collar_proud_mm": 0.3,
+      "guide_bore_candidates_mm": [
+        10.1,
+        10.2,
+        10.3
+      ],
+      "left_collar_z_mm": [
+        -0.3,
+        5.5
+      ],
+      "od_mm": 50.0,
+      "primary_collar_pocket_mm": 16.2,
+      "primary_guide_bore_mm": 10.2,
+      "right_collar_z_mm": [
+        20.5,
+        26.3
+      ],
+      "root_fillet_class_mm": 5.0,
+      "width_mm": 26.0
+    },
+    "mesh": {
+      "artifacts/collar_fit_cp160_v0_9_6_26.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -25.0,
+            -25.0,
+            0.0
+          ],
+          [
+            25.0,
+            25.0,
+            26.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          50.0,
+          50.0,
+          26.0
+        ],
+        "guide_bore_mesh": {
+          "continuous_coaxial_bore": true,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199206,
+          "target_mm": 10.2
+        },
+        "triangles": 3712,
+        "watertight": true
+      },
+      "artifacts/collar_fit_cp162_v0_9_6_26.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -25.0,
+            -25.0,
+            0.0
+          ],
+          [
+            25.0,
+            25.0,
+            26.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          50.0,
+          50.0,
+          26.0
+        ],
+        "guide_bore_mesh": {
+          "continuous_coaxial_bore": true,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199206,
+          "target_mm": 10.2
+        },
+        "triangles": 3664,
+        "watertight": true
+      },
+      "artifacts/collar_fit_cp164_v0_9_6_26.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -25.0,
+            -25.0,
+            0.0
+          ],
+          [
+            25.0,
+            25.0,
+            26.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          50.0,
+          50.0,
+          26.0
+        ],
+        "guide_bore_mesh": {
+          "continuous_coaxial_bore": true,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199206,
+          "target_mm": 10.2
+        },
+        "triangles": 3624,
+        "watertight": true
+      },
+      "artifacts/guide_bore_triplet_v0_9_6_26.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -41.0,
+            -11.0,
+            0.0
+          ],
+          [
+            41.0,
+            11.0,
+            8.0
+          ]
+        ],
+        "component_count": 3,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          82.0,
+          22.0,
+          8.0
+        ],
+        "triangles": 6048,
+        "watertight": true
+      },
+      "artifacts/temp_htd5m_60t_dual_shaft_collar_embedded_m4_provisional_v0_9_6_26.stl": {
+        "bad_edge_count": 0,
+        "bounds_mm": [
+          [
+            -51.0,
+            -51.0,
+            0.0
+          ],
+          [
+            51.0,
+            51.0,
+            26.0
+          ]
+        ],
+        "component_count": 1,
+        "degenerate_triangle_count": 0,
+        "extents_mm": [
+          102.0,
+          102.0,
+          26.0
+        ],
+        "guide_bore_mesh": {
+          "continuous_coaxial_bore": true,
+          "effective_max_mm": 10.200001,
+          "effective_min_mm": 10.199206,
+          "target_mm": 10.2
+        },
+        "triangles": 11852,
+        "watertight": true
+      }
+    },
+    "physical_collar_authority": {
+      "classification": "PHYSICAL_MEASURED_COLLAR_AUTHORITY",
+      "collar_od_mm": 15.8,
+      "collar_width_mm": 5.8,
+      "m4_head_od_mm": 8.8,
+      "m4_relationship": "APPROXIMATELY_90_DEG_PHYSICAL_AUTHORITY",
+      "max_radial_projection_from_collar_outer_to_head_top_mm": 11.0,
+      "shaft_nominal_mm": 10.0
+    },
+    "physical_holds": {
+      "actual_tool_access": "PHYSICAL_HOLD",
+      "powered": "NOT_APPROVED",
+      "real_axial_retention_load": "PHYSICAL_HOLD",
+      "real_collar_friction": "PHYSICAL_HOLD",
+      "real_creep": "PHYSICAL_HOLD",
+      "real_m4_torque": "PHYSICAL_HOLD",
+      "real_petg_reaction_strength": "PHYSICAL_HOLD",
+      "real_shaft_torque_capacity": "PHYSICAL_HOLD"
+    },
+    "print": {
+      "axis": "Z",
+      "first_print": "COLLAR_FIT_CP160_CP162_CP164_ONLY",
+      "material": "PETG",
+      "printer": "Bambu Lab A1",
+      "slicer": "HOLD_SLICER_NOT_RUN",
+      "support_audit": "OPEN_AXIAL_POCKETS_NO_COVER_NO_ROOF; FLANGE_UNDERSIDE_MANUAL_REVIEW_REQUIRED"
+    },
+    "pulley": {
+      "belt_plane_z_mm": 10.0,
+      "flange_count": 2,
+      "flange_od_mm": 102.0,
+      "flange_thickness_mm": 2.0,
+      "overall_dimensions_mm": [
+        102.0,
+        102.0,
+        26.0
+      ],
+      "pitch_mm": 5.0,
+      "solid_count": 1,
+      "spacing_deg": 6.0,
+      "spoke_count": 6,
+      "spoke_width_mm": 10.0,
+      "tooth_count": 60,
+      "tooth_face_width_mm": 16.0,
+      "valid": true
+    },
+    "reaction": {
+      "combined_first_contact_estimate_deg": 2.766,
+      "combined_worst_differential_phase_deg": 5.532,
+      "exact_screw_phase": "PHYSICAL_HOLD_APPROXIMATELY_90_DEG",
+      "hardware_radial_envelope_mm": 18.9,
+      "head_pocket_width_mm": 9.5,
+      "head_radial_clearance_mm": 0.35,
+      "left_angular_backlash_estimate_deg": 2.766,
+      "locations_left": 2,
+      "locations_right": 2,
+      "locations_total": 4,
+      "m4_envelope_intersection_mm3": 0,
+      "outer_ligament_mm": 5.0,
+      "reaction_shoulder_minimum_mm": 5.0,
+      "right_angular_backlash_estimate_deg": 2.766,
+      "service_radial_envelope_mm": 20.0,
+      "tool_access": "HOLD_ACTUAL_L_KEY_ENVELOPE_REQUIRED"
+    },
+    "step_import": {
+      "artifacts/temp_htd5m_60t_dual_shaft_collar_embedded_m4_provisional_v0_9_6_26.step": {
+        "solid_count": 1,
+        "valid": true
+      },
+      "artifacts/temp_htd5m_60t_dual_shaft_collar_hardware_reference_v0_9_6_26.step": {
+        "solid_count": 12,
+        "valid": true
+      }
+    },
+    "torque_path": [
+      "HTD5M_BELT",
+      "60T_TOOTH_RING",
+      "RIM",
+      "6_SPOKES",
+      "PETG_REACTION_HUB",
+      "M4_HEAD_REACTION_POCKETS",
+      "M4_X4",
+      "METAL_COLLARS_X2",
+      "D10_STEEL_SHAFT"
+    ]
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "cache": [],
+    "checks": {
+      "authority_4_of_4": true,
+      "branch": true,
+      "complete": true,
+      "forbidden_zero": true,
+      "head": true,
+      "lane_cache_zero": true,
+      "lane_scope": true,
+      "outside_untracked_preserved": true,
+      "parent_v09625": true,
+      "protected_lanes": true,
+      "repository": true,
+      "source": true,
+      "staged_zero": true,
+      "tracked_dirty_preserved": true
+    },
+    "forbidden": [],
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_files": 45,
+    "outside_untracked": [
+      2708,
+      "e566d9b730a4cc902ea862191c995019c84f607f69faaf4eaea313885633df14"
+    ],
+    "protected_lanes": {
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "count": 33,
+        "status": "UNCHANGED",
+        "tree_sha256": "3e0a550c7d9faa38fae8d106e60b91467788e18533d23063156070d1259615b8"
+      },
+      "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "e632689b54678455adec6758b2420bcf0ed4a2bd8ade8d229d80087275a4630e"
+      },
+      "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+        "count": 53,
+        "status": "UNCHANGED",
+        "tree_sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+      },
+      "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "fcab7a320e371504767153d1167c6c7f5416b84a8edd28e7331f988b01998373"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "9d0d0eb92b759be81ed61a69d89a1888adbb4b88fcd66e63b14a056d59966300"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_compact_external_ear_double_split_clamp_v0_9_6_25": {
+        "count": 42,
+        "status": "UNCHANGED",
+        "tree_sha256": "1a00f38cb6a70c62698bd87ba8f3e18950cae471576c08d9e907e6bb9adcac64"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_double_split_clamp_v0_9_6_22": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "29b8ff01eea737001885ade0ae9876debbf83d0a1ed6cea6c91de60ce48668ca"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24": {
+        "count": 46,
+        "status": "UNCHANGED",
+        "tree_sha256": "b09600fae8ee56f5ab97fab966818d20119329cbadf8de9d0f54b0d614306c55"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "1f8d01cda3ca2b049dcffdda17b1f0c15b2c8de809cef476a157b941ddf4edc9"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "214a215578f1f43013fe70e73203ddeb4b58e52c792322052a0504bcfad8921e"
+      },
+      "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16": {
+        "count": 37,
+        "status": "UNCHANGED",
+        "tree_sha256": "fe514d3a9c1ca21bca92beee738ff1ed1b6d47fd2cdb2f2aa59866584303ea56"
+      },
+      "cad/common_rover/common_rover_y3_reaction_shoe_v0_9_6_19": {
+        "count": 34,
+        "status": "UNCHANGED",
+        "tree_sha256": "ede454f33bbd1030c0e744de0fda9614d86d201f89a7ebdc17e8a468bbfedb7a"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "TEMP_HTD5M_60T_DUAL_SHAFT_COLLAR_EMBEDDED_M4_CAD_COMPLETE/V09625_PETG_SPLIT_CLAMP_ARCHITECTURE_RETIRED/DUAL_METAL_SHAFT_COLLAR_ARCHITECTURE_COMPLETE/NO_COVER/NO_REACTION_SHOE/M4_HEAD_REACTION_POCKETS_COMPLETE/LEFT_RIGHT_AXIAL_SANDWICH_COMPLETE/60T_FUNCTIONAL_GEOMETRY_FROZEN/COLLAR_FIT_COUPONS_READY/FULL_PULLEY_PRINT_PENDING_PHYSICAL_COLLAR_FIT/POWERED_USE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.26"
+}

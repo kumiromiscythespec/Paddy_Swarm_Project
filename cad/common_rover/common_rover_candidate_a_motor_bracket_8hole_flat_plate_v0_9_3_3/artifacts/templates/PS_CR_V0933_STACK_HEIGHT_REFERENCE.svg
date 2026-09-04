@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="150mm" viewBox="-90 -75 180 150">
+<title>STACK HEIGHT REFERENCE</title><desc>Units mm; SCALE 1:1; print 100%; fit to page OFF; automatic scaling OFF.</desc>
+<style>text{font-family:Arial,sans-serif;font-size:3px;fill:#111} .o{fill:none;stroke:#111;stroke-width:.35} .c{fill:none;stroke:#137;stroke-width:.2;stroke-dasharray:2 1} .m3{fill:none;stroke:#087;stroke-width:.35} .m5{fill:none;stroke:#b40;stroke-width:.35} .d{fill:none;stroke:#555;stroke-width:.18}</style>
+<text x="-85" y="-68">H6 / H8 / H10 COMPARISON ONLY · PHYSICAL_MEASUREMENT_HOLD</text>
+<rect class="o" x="-65" y="30" width="40" height="20"/><text x="-63" y="47">2040 proxy</text>
+<rect class="d" x="-60" y="24.0" width="2" height="6.0"/><rect class="d" x="-32" y="24.0" width="2" height="6.0"/>
+<rect class="o" x="-66" y="18.0" width="42" height="6"/><rect class="o" x="-65" y="14.899999999999999" width="40.2" height="3.1"/>
+<text x="-63" y="9.0">H6: +12 mm</text>
+<rect class="o" x="-15" y="30" width="40" height="20"/><text x="-13" y="47">2040 proxy</text>
+<rect class="d" x="-10" y="22.0" width="2" height="8.0"/><rect class="d" x="18" y="22.0" width="2" height="8.0"/>
+<rect class="o" x="-16" y="16.0" width="42" height="6"/><rect class="o" x="-15" y="12.899999999999999" width="40.2" height="3.1"/>
+<text x="-13" y="7.0">H8: +14 mm</text>
+<rect class="o" x="35" y="30" width="40" height="20"/><text x="37" y="47">2040 proxy</text>
+<rect class="d" x="40" y="20.0" width="2" height="10.0"/><rect class="d" x="68" y="20.0" width="2" height="10.0"/>
+<rect class="o" x="34" y="14.0" width="42" height="6"/><rect class="o" x="35" y="10.899999999999999" width="40.2" height="3.1"/>
+<text x="37" y="5.0">H10: +16 mm</text>
+<text x="-80" y="64">M3/M5 NUT, WASHER, TOOL ENVELOPES = MEASUREMENT_HOLD</text>
+<line x1="-25" y1="60" x2="25" y2="60" stroke="#111" stroke-width="1"/><line x1="-25" y1="58" x2="-25" y2="62" stroke="#111"/><line x1="25" y1="58" x2="25" y2="62" stroke="#111"/><text x="-8" y="57">50 mm CHECK BAR</text><text x="-38" y="67">SCALE 100% · FIT OFF · AUTOSCALE OFF</text>
+</svg>

@@ -1,0 +1,396 @@
+{
+  "analysis": {
+    "bore": {
+      "corrected_mm": 10.1,
+      "original_mm": 10.3,
+      "radial_hub_to_nearest_bolt_wall_mm": 4.750000000000001
+    },
+    "corrected_drive": {
+      "bounds": {
+        "xlen": 65.82747698902787,
+        "xmax": 32.91373849451394,
+        "xmin": -32.913738494513936,
+        "ylen": 65.82747698902789,
+        "ymax": 32.91373849451394,
+        "ymin": -32.91373849451394,
+        "zlen": 44.0,
+        "zmax": 22.0,
+        "zmin": -22.0
+      },
+      "solids": 1,
+      "volume_mm3": 126626.3665575943
+    },
+    "floating": {
+      "drive_solids": 1,
+      "guide_link_solids": 1,
+      "idler_solids": 1,
+      "retainer_solids": 1
+    },
+    "guide": {
+      "angle_rows": [
+        {
+          "angle_deg_from_vertical": 35.0,
+          "lateral_normal_fraction": 0.8191520442889918,
+          "recommended": false,
+          "slope_run_mm": 0.7002075382097097,
+          "top_width_before_apex_fillet_mm": 1.7997924617902903,
+          "vertical_normal_fraction": 0.573576436351046
+        },
+        {
+          "angle_deg_from_vertical": 40.0,
+          "lateral_normal_fraction": 0.766044443118978,
+          "recommended": true,
+          "slope_run_mm": 0.8390996311772799,
+          "top_width_before_apex_fillet_mm": 1.6609003688227202,
+          "vertical_normal_fraction": 0.6427876096865393
+        },
+        {
+          "angle_deg_from_vertical": 45.0,
+          "lateral_normal_fraction": 0.7071067811865476,
+          "recommended": false,
+          "slope_run_mm": 0.9999999999999999,
+          "top_width_before_apex_fillet_mm": 1.5,
+          "vertical_normal_fraction": 0.7071067811865476
+        }
+      ],
+      "apex_radius_mm": 0.75,
+      "centered_tooth_collision_mm3": 0.0,
+      "displaced_tooth_contact_mm3": 1.6476701437037962,
+      "forward_reverse_equivalent": true,
+      "height_mm": 3.0,
+      "left_right_symmetric": true,
+      "lower_height_mm": 2.0,
+      "lower_percent": 66.66666666666667,
+      "roller_collision_mm3": 0.0,
+      "roller_envelope_axial_width_mm": 44.0,
+      "roller_envelope_od_mm": 50.0,
+      "screw_collision_mm3": 0.0,
+      "sprocket_tooth_collision_mm3": 0.0,
+      "upper_height_mm": 1.0,
+      "upper_percent": 33.333333333333336
+    },
+    "original_drive": {
+      "bounds": {
+        "xlen": 65.82747698902787,
+        "xmax": 32.91373849451394,
+        "xmin": -32.913738494513936,
+        "ylen": 65.82747698902789,
+        "ymax": 32.91373849451394,
+        "ymin": -32.91373849451394,
+        "zlen": 44.0,
+        "zmax": 22.0,
+        "zmin": -22.0
+      },
+      "solids": 1,
+      "volume_mm3": 126485.37187930121
+    },
+    "preservation": {
+      "axis_unchanged": [
+        0.0,
+        0.0
+      ],
+      "bolt_pattern_unchanged": true,
+      "idler_bearing_seat_unchanged": 26.2,
+      "link_pitch_unchanged": true,
+      "outside_diameter_unchanged": 66.14,
+      "pitch_diameter_unchanged": 76.39437268410977,
+      "tooth_count_unchanged": true
+    },
+    "retainer": {
+      "inner_race_collision_mm3": 0.0,
+      "shaft_collision_mm3": 0.0,
+      "shield_keepout_status": "PROVISIONAL_ENVELOPE_PHYSICAL_MEASUREMENT_REQUIRED",
+      "shield_proxy_collision_mm3": 0.0
+    }
+  },
+  "approval": {
+    "authority_update": "NOT_APPROVED",
+    "axle_bore_10p1": "CAD_COMPLETE_PENDING_PRINTED_FIT",
+    "bearing_retainer": "PHYSICAL_COUPON_REQUIRED",
+    "bearing_seat": "PHYSICAL_COUPON_REQUIRED",
+    "belt_tension": "NOT_APPROVED",
+    "crawler_tracking_patch": "PHYSICAL_TEST_READY",
+    "field_deployment": "NOT_APPROVED",
+    "full_loop_hand_rotation": "CONDITIONAL_PASS",
+    "manufacturing": "NOT_APPROVED",
+    "mud_test": "NOT_APPROVED",
+    "powered_rotation": "NOT_APPROVED",
+    "recovery_guide": "PHYSICAL_COUPON_REQUIRED",
+    "torque_load": "NOT_APPROVED",
+    "water_test": "NOT_APPROVED"
+  },
+  "authority_update": "NOT_APPROVED",
+  "axle_coupon": {
+    "cad_nominal_diameters_mm": [
+      10.0,
+      10.1,
+      10.2
+    ],
+    "main_design_mm": 10.1,
+    "markings": [
+      "AXLE 10.0",
+      "AXLE 10.1",
+      "AXLE 10.2",
+      "FIT TEST ONLY"
+    ]
+  },
+  "bearing": {
+    "coupon_cad_commands_mm": [
+      25.7,
+      25.8,
+      25.9,
+      26.0
+    ],
+    "coupon_warning": "CAD_COMMAND_IS_NOT_AS_PRINTED_RESULT; MEASURE_EACH COUPON",
+    "measured_outer_diameter_mm_approx": 25.9,
+    "model": "6000-2RS_SOURCE_CANDIDATE",
+    "printed_seat_diameter_mm_approx": [
+      26.1,
+      26.2
+    ],
+    "retainer": {
+      "actual_shield_od": "MEASUREMENT_HOLD",
+      "adhesive_primary": false,
+      "contact_inner_diameter_mm": 25.0,
+      "m3_count_candidate": 3,
+      "shield_keepout_od_mm_provisional": 24.0,
+      "status": "PHYSICAL_COUPON_REQUIRED",
+      "type": "REMOVABLE_OUTER_RACE_ONLY"
+    },
+    "seat_change": "PHYSICAL_COUPON_REQUIRED",
+    "source_seat_cad_mm": 26.2,
+    "target_as_printed_bores_mm": [
+      25.7,
+      25.8,
+      25.9,
+      26.0
+    ]
+  },
+  "bore_classification": {
+    "bearing_seat": {
+      "cad_mm": 26.2,
+      "change": "HOLD_PENDING_COUPON",
+      "class": "BEARING_OUTER_RACE_INTERFACE"
+    },
+    "drive_sprocket_center": {
+      "apply_10p1": true,
+      "class": "ROTATING_CLEARANCE_BORE",
+      "corrected_cad_mm": 10.1,
+      "original_cad_mm": 10.3
+    },
+    "idler_bearing_inner_race": {
+      "apply_10p1": false,
+      "class": "BEARING_INNER_RACE_INTERFACE",
+      "nominal_mm": 10.0
+    },
+    "idler_center_relief": {
+      "apply_10p1": false,
+      "cad_mm": 12.0,
+      "class": "NON_AXLE_REFERENCE_HOLE"
+    }
+  },
+  "document_id": "PS-CR-V0935-CRAWLER-TRACKING-RETENTION-PATCH",
+  "expected_head": "facb4f63c0d485a53fef48b602f97e0454e8548f",
+  "guide": {
+    "corrected": {
+      "angle_candidates_deg": [
+        35.0,
+        40.0,
+        45.0
+      ],
+      "angle_definition": "DEGREES_FROM_VERTICAL",
+      "apex_radius_mm": 0.75,
+      "clearance_candidates_per_side_mm": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "forward_reverse": "EQUIVALENT",
+      "height_mm": 3.0,
+      "left_right": "SYMMETRIC",
+      "lower_angle_max_deg": 5.0,
+      "lower_percent": 66.66666666666667,
+      "lower_retention_height_mm": 2.0,
+      "recommended_clearance_per_side_mm": 0.4,
+      "recommended_provisional_angle_deg": 40.0,
+      "upper_percent": 33.333333333333336,
+      "upper_recovery_height_mm": 1.0
+    },
+    "original": {
+      "classification": "VERTICAL_WALL_WITH_BROAD_FLAT_TOP",
+      "clearance_per_side_mm": 1.2,
+      "height_mm": 3.0,
+      "length_mm": 8.0,
+      "thickness_mm": 2.5,
+      "tip_radius_xy_mm": 0.6,
+      "top_width_mm": 2.5
+    }
+  },
+  "parent_protection": {
+    "lanes": {
+      "cad/common_rover/common_rover_candidate_a_motor_bracket_8hole_flat_plate_v0_9_3_3": {
+        "expected_file_count": 38,
+        "expected_ledger_sha256": "2c0bd512c9e347ad1429fe0974948f64fe587f53ed616135d9c663b0814bb5be",
+        "file_count": 38,
+        "ledger_sha256": "2c0bd512c9e347ad1429fe0974948f64fe587f53ed616135d9c663b0814bb5be",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_candidate_a_motor_bracket_adapter_v0_9_3_2": {
+        "expected_file_count": 39,
+        "expected_ledger_sha256": "116f3283a634a80f61284f0a46a99f0ac07de2f5d8ebdd457faa64fafa2b77da",
+        "file_count": 39,
+        "ledger_sha256": "116f3283a634a80f61284f0a46a99f0ac07de2f5d8ebdd457faa64fafa2b77da",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_candidate_a_physical_mockup_v0_9_3_1": {
+        "expected_file_count": 46,
+        "expected_ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "file_count": 46,
+        "ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1": {
+        "expected_file_count": 55,
+        "expected_ledger_sha256": "a0bbc43837432e7b152dc85f9e36c9a77f2e4a815e063e9ca25a0efa6052b84e",
+        "file_count": 55,
+        "ledger_sha256": "a0bbc43837432e7b152dc85f9e36c9a77f2e4a815e063e9ca25a0efa6052b84e",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2": {
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a",
+        "file_count": 45,
+        "ledger_sha256": "3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_motor_layout_powerpath_trade_study_v0_9_3_0": {
+        "expected_file_count": 151,
+        "expected_ledger_sha256": "3528bc1192983fce3daeb5e543fe3f207fa59eb78615ddcde0643e73f9159199",
+        "file_count": 151,
+        "ledger_sha256": "3528bc1192983fce3daeb5e543fe3f207fa59eb78615ddcde0643e73f9159199",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1": {
+        "expected_file_count": 37,
+        "expected_ledger_sha256": "1670e3a2553ff4495022e8c3b45afcc1e534c886229d899fd6405d81c190c95d",
+        "file_count": 37,
+        "ledger_sha256": "1670e3a2553ff4495022e8c3b45afcc1e534c886229d899fd6405d81c190c95d",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0": {
+        "expected_file_count": 38,
+        "expected_ledger_sha256": "e6480973c32b76cbaf8c4cdb404f7a8ec1d2f9e4c48780bda8a416416c6421f6",
+        "file_count": 38,
+        "ledger_sha256": "e6480973c32b76cbaf8c4cdb404f7a8ec1d2f9e4c48780bda8a416416c6421f6",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_powertrain_frame_joint_trade_study_v0_9_3_4": {
+        "expected_file_count": 87,
+        "expected_ledger_sha256": "8d7d4cd1201af8f1f7e50ff4b46642a022e240f4c8ab85bacf1f80b9b654a9a3",
+        "file_count": 87,
+        "ledger_sha256": "8d7d4cd1201af8f1f7e50ff4b46642a022e240f4c8ab85bacf1f80b9b654a9a3",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2": {
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "f61e6c3379496d4a742edffb4b7ef56e12002098cf9b0143ae934a602e3d7cac",
+        "file_count": 45,
+        "ledger_sha256": "f61e6c3379496d4a742edffb4b7ef56e12002098cf9b0143ae934a602e3d7cac",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "physical_result": {
+    "bearing_od_mm_approx": 25.9,
+    "bearing_outer_race_movement": "CONFIRMED",
+    "cause": "LINK_TORSION_OR_LATERAL_DISPLACEMENT_PRIMARY",
+    "complete_derailment": 0,
+    "engagement": "GENERALLY_GOOD",
+    "full_loop_assembled": true,
+    "hand_rotations_approx": 20,
+    "lateral_play": "SMALL",
+    "one_axle_held_turn": "LINK_TWIST_AND_LATERAL_BIAS",
+    "printed_seat_mm_approx": [
+      26.1,
+      26.2
+    ],
+    "right_turn_event": "INNER_LINK_TOOTH_CLIMBED_GUIDE"
+  },
+  "preserved": {
+    "link_count_source_candidate": 40,
+    "link_pitch_mm": 20.0,
+    "link_screw_pattern": "UNCHANGED",
+    "link_tread_block": "UNCHANGED",
+    "loop_nominal_length_mm": 800.0,
+    "pitch_diameter_mm": 76.39437268410977,
+    "roller_centers": "UNCHANGED_NOT_REMATERIALIZED",
+    "sprocket_od_mm": 66.14,
+    "tooth_axial_width_mm": 44.0,
+    "tooth_count": 12,
+    "tooth_tangential_width_mm": 7.5
+  },
+  "selected_source_audit": {
+    "checks": {
+      "fully_tracked": true,
+      "key_hashes": true,
+      "ledger": true
+    },
+    "file_count": 24,
+    "key_hashes": {
+      "source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py": "9a15fbd05f2972090faba594e010c55b16b2fb226b2a944b8962bc398dbc268e",
+      "stl/petg/DRIVE_SPROCKET_V0131_INTEGRATED_B10_3_PCD24_M4.stl": "c97775e441fe25ad029bedccb7890a8e9661418da10fcab2bcbf968ea0a493e2",
+      "stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+      "stl/petg/STANDARD_V0125_WIDE_46_LINK.stl": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a"
+    },
+    "ledger_sha256": "c8df27c908ce60a2b7f4d6bfde10c264dc1074b367e5eb0579535aab1bf955ed",
+    "selected": "cad/crawler_h1/track_module/pretest_candidate_v0_1",
+    "status": "PASS",
+    "tracked": true
+  },
+  "source_candidates": [
+    {
+      "builder": "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py",
+      "candidate": "CRAWLER_H1_PRETEST_V0_1",
+      "classification": "PRETEST_PHYSICAL_CANDIDATE",
+      "evidence": "12T/20mm/10.3mm drive bore/26.2mm bearing seat and exact printed STL ledger match physical report",
+      "generated": [
+        "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/DRIVE_SPROCKET_V0131_INTEGRATED_B10_3_PCD24_M4.stl",
+        "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+        "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl"
+      ],
+      "git_state": "TRACKED_24_OF_24",
+      "parameter": "cad/crawler_h1/track_module/pretest_candidate_v0_1/manifest/pretest_candidate_contract.json",
+      "path": "cad/crawler_h1/track_module/pretest_candidate_v0_1",
+      "selection": "SELECTED",
+      "test": "cad/crawler_h1/track_module/pretest_candidate_v0_1/tests/test_pretest_package.py"
+    },
+    {
+      "builder": "legacy rover generator set",
+      "candidate": "COMMON_ROVER_V2_27",
+      "classification": "LEGACY_COMMON_ROVER_REFERENCE",
+      "evidence": "axle/sprocket reference exists but no matching 20mm link and guide contract",
+      "generated": [
+        "rovers/common_rover/v2.27/rover_v227_out/stl/PS-RV227-AXLE-SPROCKET-S.stl"
+      ],
+      "git_state": "TRACKED",
+      "parameter": "legacy rover configuration",
+      "path": "rovers/common_rover/v2.27",
+      "selection": "REJECTED_AS_PRINT_SOURCE",
+      "test": "legacy test set"
+    },
+    {
+      "builder": "multiple authority builders",
+      "candidate": "COMMON_ROVER_V08_TO_V0921",
+      "classification": "AUTHORITY_ENVELOPE_NOT_PRINT_SOURCE",
+      "evidence": "inverse-trapezoid crawler placement is defined but printable sprocket/link/guide details are absent",
+      "generated": [],
+      "git_state": "UNTRACKED_LANES",
+      "parameter": "crawler envelope only",
+      "path": "cad/common_rover/front_drive_dual_pto_design_authority_v0_8 .. common_rover_inward_pto_coupling_cad_verified_v0_9_2_1",
+      "selection": "REJECTED_AS_PRINT_SOURCE",
+      "test": "authority contracts"
+    }
+  ],
+  "version": "0.9.3.5"
+}

@@ -1,0 +1,52 @@
+{
+  "bbox": {
+    "B1": {
+      "cycles": 10,
+      "height": 103
+    },
+    "B2": {
+      "cycles": 5,
+      "height": 105
+    },
+    "B3": {
+      "cycles": 5,
+      "height": 107
+    },
+    "recommended_clearance": [
+      3,
+      5
+    ],
+    "record": [
+      "TOP",
+      "LEFT",
+      "RIGHT",
+      "FRONT_REAR",
+      "SNAGGING",
+      "CONTACT"
+    ]
+  },
+  "collar_fit": [
+    "CANNOT_INSERT",
+    "PRESS_FIT",
+    "SNUG",
+    "SLIGHT_PLAY",
+    "EXCESSIVE_PLAY",
+    "REMOVABLE_WITHOUT_DAMAGE"
+  ],
+  "field": false,
+  "powered_rotation": false,
+  "static_fail": [
+    "SHAFT_SLIP",
+    "COLLAR_ROTATION",
+    "SCREW_MOVEMENT",
+    "KEY_DAMAGE",
+    "PETG_WHITENING",
+    "CRACK",
+    "PERMANENT_PLAY"
+  ],
+  "static_torque_nm": [
+    0.25,
+    0.5,
+    0.75
+  ]
+}

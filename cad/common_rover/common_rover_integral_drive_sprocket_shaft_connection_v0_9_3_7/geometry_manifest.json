@@ -1,0 +1,337 @@
+{
+  "analysis": {
+    "axis": {
+      "final_center_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "h0_center_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "source_center_xy_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    "coupon": {
+      "bores_mm": [
+        10.0,
+        10.1,
+        10.2
+      ],
+      "markings": [
+        "10.0",
+        "10.1",
+        "10.2",
+        "S0 SHAFT FIT ONLY NO POWER"
+      ],
+      "solid_count": 1
+    },
+    "envelopes": {
+      "bearing_axial_position": "DERIVED_REFERENCE_HOLD_ACTUAL_STACK_MEASUREMENT_REQUIRED",
+      "bearing_to_collar_mm3": 0.0,
+      "h0_to_bearing_mm3": 0.0,
+      "h0_to_collar_mm3": 0.0,
+      "h0_to_link_keepout_mm3": 0.0,
+      "h0_to_shield_mm3": 0.0,
+      "hardware_to_bearing_mm3": 0.0,
+      "hardware_to_link_keepout_mm3": 0.0,
+      "hardware_to_shield_mm3": 0.0,
+      "shield_od_status": "PROVISIONAL_MEASUREMENT_REQUIRED"
+    },
+    "final_sprocket": {
+      "bounds_mm": {
+        "xlen": 65.82747698902787,
+        "xmax": 32.91373849451394,
+        "xmin": -32.913738494513936,
+        "ylen": 65.82747698902789,
+        "ymax": 32.91373849451394,
+        "ymin": -32.91373849451394,
+        "zlen": 44.0,
+        "zmax": 22.000000000000004,
+        "zmin": -22.0
+      },
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 126240.0331280098
+    },
+    "h0": {
+      "bottom_solid_count": 1,
+      "bottom_valid": true,
+      "half_intersection_mm3": 0.0,
+      "m4_shank_sprocket_hub_intersection_mm3": 0.0,
+      "m5_shank_clamp_intersection_mm3": 0.0,
+      "pilot_radial_clearance_mm": 0.09999999999999964,
+      "shaft_bottom_intersection_mm3": 0.0,
+      "shaft_top_intersection_mm3": 0.0,
+      "solid_count": 2,
+      "split_gap_mm": 0.6,
+      "top_solid_count": 1,
+      "top_valid": true
+    },
+    "source": {
+      "bounds_mm": {
+        "xlen": 65.82747698902787,
+        "xmax": 32.91373849451394,
+        "xmin": -32.913738494513936,
+        "ylen": 65.82747698902789,
+        "ymax": 32.91373849451394,
+        "ymin": -32.91373849451394,
+        "zlen": 44.0,
+        "zmax": 22.000000000000004,
+        "zmin": -22.0
+      },
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 126485.37187930118
+    },
+    "tooth": {
+      "angles_deg": [
+        15.0,
+        45.0,
+        75.0,
+        105.0,
+        135.0,
+        165.0,
+        195.0,
+        225.0,
+        255.0,
+        285.0,
+        315.0,
+        345.0
+      ],
+      "body_intersection_per_tooth_mm3": 1923.371595360251,
+      "count": 12,
+      "external_final_minus_source_mm3": 0.0,
+      "external_source_minus_final_mm3": 0.0,
+      "minimum_required_mm3": 100.0,
+      "spacing_deg": 30.0
+    }
+  },
+  "authority_files_changed": false,
+  "axial_fastener_count": 4,
+  "axial_fastener_size": "M4",
+  "buried_root_extension_dimensions": {
+    "new_extension_added_by_v0937": false,
+    "source_embed_depth_mm": 4.0,
+    "source_embed_radius_mm": 25.47,
+    "source_embed_width_mm": 13.0
+  },
+  "buried_root_extension_used": true,
+  "clamp_bolt_count": 2,
+  "clamp_bolt_size": "M5",
+  "clamp_type": "H0_TWO_PIECE_SPLIT_CLAMP_FLANGE",
+  "classification": "S0_BASELINE_INTEGRAL_DRIVE_SPROCKET",
+  "current_branch": "agent/organize-untracked-cad-assets-20260725",
+  "current_head": "facb4f63c0d485a53fef48b602f97e0454e8548f",
+  "design_name": "common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7",
+  "direct_petg_set_screw_used": false,
+  "external_mesh_geometry_changed": false,
+  "external_mesh_scope": "TOOTH_AND_OUTER_RING_R_GE_ROOT_RADIUS_IDENTICAL; CENTRAL_H0_INTERFACE_RECESS_ADDED",
+  "final_bore_dimensions": {
+    "h0_clamp_bore_mm": 10.1,
+    "recess_depth_mm": 2.5,
+    "sprocket_h0_pilot_recess_mm": 15.2,
+    "sprocket_through_bore_mm": 10.3
+  },
+  "final_external_bounding_box": {
+    "xlen": 65.82747698902787,
+    "xmax": 32.91373849451394,
+    "xmin": -32.913738494513936,
+    "ylen": 65.82747698902789,
+    "ymax": 32.91373849451394,
+    "ymin": -32.91373849451394,
+    "zlen": 44.0,
+    "zmax": 22.000000000000004,
+    "zmin": -22.0
+  },
+  "final_hub_dimensions": {
+    "h0_axial_length_mm": 14.0,
+    "h0_body_radius_mm": 18.0,
+    "pilot_od_mm": 15.0,
+    "sprocket_axial_width_mm": 44.0,
+    "sprocket_hub_radius_mm": 18.0
+  },
+  "final_pitch_parameter": {
+    "link_pitch_record_mm": 20.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_record_mm": 76.3943726841,
+    "spacing_deg": 30.0
+  },
+  "final_sprocket_solid_count": 1,
+  "final_tooth_axial_width": 44.0,
+  "final_tooth_count": 12,
+  "final_tooth_tip_width": 7.5,
+  "guide_geometry_changed": false,
+  "h0_solid_count": 2,
+  "h1_metal_hub": {
+    "bolt_pattern_final": "HOLD",
+    "manufacturing_release": "HOLD",
+    "pilot_clearance_mm": null,
+    "pilot_diameter_mm": null,
+    "template": "SPROCKET_SIDE_REFERENCE_ONLY_NO_METAL_PRODUCT_GEOMETRY",
+    "verified_dimensions_found": false
+  },
+  "link_geometry_changed": false,
+  "physical_test_status": "REQUIRED",
+  "pilot_clearance": {
+    "diametral_mm": 0.1999999999999993,
+    "status": "H0_PRINTED_CANDIDATE_PHYSICAL_TEST_REQUIRED"
+  },
+  "pilot_diameter": 15.0,
+  "powered_rotation_status": "NOT_APPROVED",
+  "protected_lane_audit": {
+    "lanes": {
+      "cad/common_rover/common_rover_candidate_a_motor_bracket_8hole_flat_plate_v0_9_3_3": {
+        "expected_file_count": 38,
+        "expected_ledger_sha256": "2c0bd512c9e347ad1429fe0974948f64fe587f53ed616135d9c663b0814bb5be",
+        "file_count": 38,
+        "ledger_sha256": "2c0bd512c9e347ad1429fe0974948f64fe587f53ed616135d9c663b0814bb5be",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_candidate_a_motor_bracket_adapter_v0_9_3_2": {
+        "expected_file_count": 39,
+        "expected_ledger_sha256": "116f3283a634a80f61284f0a46a99f0ac07de2f5d8ebdd457faa64fafa2b77da",
+        "file_count": 39,
+        "ledger_sha256": "116f3283a634a80f61284f0a46a99f0ac07de2f5d8ebdd457faa64fafa2b77da",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_candidate_a_physical_mockup_v0_9_3_1": {
+        "expected_file_count": 46,
+        "expected_ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "file_count": 46,
+        "ledger_sha256": "2f58d6fddab3c9c0f3deed09188974d3642dcdc89e94b0240eec869a7de770f8",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_crawler_guide_clearance_retest_coupon_v0_9_3_6": {
+        "expected_file_count": 30,
+        "expected_ledger_sha256": "2d5171c309e77a1634f0c559761319eaf893cc7e321a60347dae57a0cb420ab8",
+        "file_count": 30,
+        "ledger_sha256": "2d5171c309e77a1634f0c559761319eaf893cc7e321a60347dae57a0cb420ab8",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_crawler_tracking_retention_patch_v0_9_3_5": {
+        "expected_file_count": 34,
+        "expected_ledger_sha256": "93e1fae749a19c8f428f02091dec9dcf1363bbe09cd5e5f30e0acf21caeb73b1",
+        "file_count": 34,
+        "ledger_sha256": "93e1fae749a19c8f428f02091dec9dcf1363bbe09cd5e5f30e0acf21caeb73b1",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1": {
+        "expected_file_count": 55,
+        "expected_ledger_sha256": "a0bbc43837432e7b152dc85f9e36c9a77f2e4a815e063e9ca25a0efa6052b84e",
+        "file_count": 55,
+        "ledger_sha256": "a0bbc43837432e7b152dc85f9e36c9a77f2e4a815e063e9ca25a0efa6052b84e",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2": {
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a",
+        "file_count": 45,
+        "ledger_sha256": "3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_motor_layout_powerpath_trade_study_v0_9_3_0": {
+        "expected_file_count": 151,
+        "expected_ledger_sha256": "3528bc1192983fce3daeb5e543fe3f207fa59eb78615ddcde0643e73f9159199",
+        "file_count": 151,
+        "ledger_sha256": "3528bc1192983fce3daeb5e543fe3f207fa59eb78615ddcde0643e73f9159199",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1": {
+        "expected_file_count": 37,
+        "expected_ledger_sha256": "1670e3a2553ff4495022e8c3b45afcc1e534c886229d899fd6405d81c190c95d",
+        "file_count": 37,
+        "ledger_sha256": "1670e3a2553ff4495022e8c3b45afcc1e534c886229d899fd6405d81c190c95d",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0": {
+        "expected_file_count": 38,
+        "expected_ledger_sha256": "e6480973c32b76cbaf8c4cdb404f7a8ec1d2f9e4c48780bda8a416416c6421f6",
+        "file_count": 38,
+        "ledger_sha256": "e6480973c32b76cbaf8c4cdb404f7a8ec1d2f9e4c48780bda8a416416c6421f6",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_powertrain_frame_joint_trade_study_v0_9_3_4": {
+        "expected_file_count": 87,
+        "expected_ledger_sha256": "8d7d4cd1201af8f1f7e50ff4b46642a022e240f4c8ab85bacf1f80b9b654a9a3",
+        "file_count": 87,
+        "ledger_sha256": "8d7d4cd1201af8f1f7e50ff4b46642a022e240f4c8ab85bacf1f80b9b654a9a3",
+        "status": "PASS"
+      },
+      "cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2": {
+        "expected_file_count": 45,
+        "expected_ledger_sha256": "f61e6c3379496d4a742edffb4b7ef56e12002098cf9b0143ae934a602e3d7cac",
+        "file_count": 45,
+        "ledger_sha256": "f61e6c3379496d4a742edffb4b7ef56e12002098cf9b0143ae934a602e3d7cac",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "selected_shaft_bore": 10.1,
+  "shaft_bore_candidates": [
+    10.0,
+    10.1,
+    10.2
+  ],
+  "shaft_irreversible_machining_required": false,
+  "shaft_nominal_diameter": 10.0,
+  "source_audit": {
+    "checks": {
+      "fully_tracked": true,
+      "ledger": true,
+      "source_code_hash": true,
+      "source_drive_stl_hash": true
+    },
+    "file_count": 24,
+    "ledger_sha256": "c8df27c908ce60a2b7f4d6bfde10c264dc1074b367e5eb0579535aab1bf955ed",
+    "path": "cad/crawler_h1/track_module/pretest_candidate_v0_1",
+    "status": "PASS",
+    "tracked": true
+  },
+  "source_bore_dimensions": {
+    "drive_through_bore_mm": 10.3
+  },
+  "source_commit": "facb4f63c0d485a53fef48b602f97e0454e8548f",
+  "source_external_bounding_box": {
+    "xlen": 65.82747698902787,
+    "xmax": 32.91373849451394,
+    "xmin": -32.913738494513936,
+    "ylen": 65.82747698902789,
+    "ymax": 32.91373849451394,
+    "ymin": -32.91373849451394,
+    "zlen": 44.0,
+    "zmax": 22.000000000000004,
+    "zmin": -22.0
+  },
+  "source_file_paths": [
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/upstream/contracts/crawler_h1_v0_13_1_design_contract.json",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/upstream/reports/crawler_h1_v0_13_1_validation_report.json",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/DRIVE_SPROCKET_V0131_INTEGRATED_B10_3_PCD24_M4.stl",
+    "cad/common_rover/common_rover_crawler_tracking_retention_patch_v0_9_3_5/build_crawler_tracking_retention_patch_v0935.py",
+    "cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2/build_shaft_fit_calibration_v0922.py"
+  ],
+  "source_hub_dimensions": {
+    "axial_width_mm": 44.0,
+    "bolt_count": 4,
+    "bolt_hole_mm": 4.4,
+    "bolt_pcd_mm": 24.0,
+    "bolt_phase_deg": 45.0,
+    "radius_mm": 18.0
+  },
+  "source_pitch_parameter": {
+    "link_pitch_record_mm": 20.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_record_mm": 76.3943726841,
+    "spacing_deg": 30.0
+  },
+  "source_solid_count": 1,
+  "source_tooth_axial_width": 44.0,
+  "source_tooth_count": 12,
+  "source_tooth_tip_width": 7.5,
+  "union_method": "SOURCE_V0131_POSITIVE_VOLUME_EMBEDDED_ROOT_BOOLEAN_UNION_THEN_CLEAN",
+  "version": "0.9.3.7"
+}

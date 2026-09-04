@@ -1,0 +1,52 @@
+command=python -B tests/test_crawler_tracking_retention_patch_v0935.py
+status=PASS
+Ran 40 tests in 7.902s
+OK
+powered_rotation=NOT_APPROVED
+physical_test=NOT_YET_PERFORMED
+full_output:
+test_001_identity_and_exact_paths (__main__.V0935Contract.test_001_identity_and_exact_paths) ... ok
+test_002_repository_guard (__main__.V0935Contract.test_002_repository_guard) ... ok
+test_003_parent_lanes_unchanged (__main__.V0935Contract.test_003_parent_lanes_unchanged) ... ok
+test_004_selected_source_unchanged (__main__.V0935Contract.test_004_selected_source_unchanged) ... ok
+test_005_source_selection_evidence (__main__.V0935Contract.test_005_source_selection_evidence) ... ok
+test_006_physical_result (__main__.V0935Contract.test_006_physical_result) ... ok
+test_007_tooth_pitch_od_preserved (__main__.V0935Contract.test_007_tooth_pitch_od_preserved) ... ok
+test_008_link_count_and_loop_preserved (__main__.V0935Contract.test_008_link_count_and_loop_preserved) ... ok
+test_009_axle_bore_classification (__main__.V0935Contract.test_009_axle_bore_classification) ... ok
+test_010_corrected_main_bore_exact_10p1 (__main__.V0935Contract.test_010_corrected_main_bore_exact_10p1) ... ok
+test_011_axle_axis_concentricity_unchanged (__main__.V0935Contract.test_011_axle_axis_concentricity_unchanged) ... ok
+test_012_idler_bearing_interface_unchanged (__main__.V0935Contract.test_012_idler_bearing_interface_unchanged) ... ok
+test_013_axle_coupon_candidates_and_markings (__main__.V0935Contract.test_013_axle_coupon_candidates_and_markings) ... ok
+test_014_original_guide_geometry_recorded (__main__.V0935Contract.test_014_original_guide_geometry_recorded) ... ok
+test_015_retention_and_recovery_zone_percentages (__main__.V0935Contract.test_015_retention_and_recovery_zone_percentages) ... ok
+test_016_guide_angle_candidates (__main__.V0935Contract.test_016_guide_angle_candidates) ... ok
+test_017_apex_radius (__main__.V0935Contract.test_017_apex_radius) ... ok
+test_018_clearance_candidates (__main__.V0935Contract.test_018_clearance_candidates) ... ok
+test_019_centered_link_collision_zero (__main__.V0935Contract.test_019_centered_link_collision_zero) ... ok
+test_020_displaced_link_contacts_recovery_face (__main__.V0935Contract.test_020_displaced_link_contacts_recovery_face) ... ok
+test_021_left_right_symmetry (__main__.V0935Contract.test_021_left_right_symmetry) ... ok
+test_022_forward_reverse_equivalence (__main__.V0935Contract.test_022_forward_reverse_equivalence) ... ok
+test_023_recommended_surface_normal_is_lateral_primary (__main__.V0935Contract.test_023_recommended_surface_normal_is_lateral_primary) ... ok
+test_024_bearing_measurements_recorded (__main__.V0935Contract.test_024_bearing_measurements_recorded) ... ok
+test_025_bearing_coupon_candidates_separate_cad_and_print (__main__.V0935Contract.test_025_bearing_coupon_candidates_separate_cad_and_print) ... ok
+test_026_retainer_clear_of_inner_race_shield_and_shaft (__main__.V0935Contract.test_026_retainer_clear_of_inner_race_shield_and_shaft) ... ok
+test_027_retainer_remains_physical_hold (__main__.V0935Contract.test_027_retainer_remains_physical_hold) ... ok
+test_028_no_new_thin_wall (__main__.V0935Contract.test_028_no_new_thin_wall) ... ok
+test_029_no_floating_part_solids (__main__.V0935Contract.test_029_no_floating_part_solids) ... ok
+test_030_step_reload (__main__.V0935Contract.test_030_step_reload) ... ok
+test_031_stl_manifold (__main__.V0935Contract.test_031_stl_manifold) ... ok
+test_032_svg_parse (__main__.V0935Contract.test_032_svg_parse) ... ok
+test_033_no_power_or_manufacturing_approval (__main__.V0935Contract.test_033_no_power_or_manufacturing_approval) ... ok
+test_034_commit_paths_exact_new_lane (__main__.V0935Contract.test_034_commit_paths_exact_new_lane) ... ok
+test_035_manifest_and_hashes (__main__.V0935Contract.test_035_manifest_and_hashes) ... ok
+test_036_machine_evidence (__main__.V0935Contract.test_036_machine_evidence) ... ok
+test_037_builder_verify (__main__.V0935Contract.test_037_builder_verify) ... ok
+test_038_physical_test_plan_contract (__main__.V0935Contract.test_038_physical_test_plan_contract) ... ok
+test_039_remaining_measurements_not_fabricated (__main__.V0935Contract.test_039_remaining_measurements_not_fabricated) ... ok
+test_040_zip_contract_when_requested (__main__.V0935Contract.test_040_zip_contract_when_requested) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 7.902s
+
+OK

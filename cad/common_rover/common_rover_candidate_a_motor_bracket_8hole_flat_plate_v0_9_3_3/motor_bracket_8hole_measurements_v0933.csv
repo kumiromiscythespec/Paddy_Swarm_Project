@@ -1,0 +1,11 @@
+category,parameter,value,unit,evidence,status
+physical_fit,M3_CLEARANCE_HOLE_DIAMETER,3.4,mm,physical,PASS / JUST_FIT
+reference_only,M4_CLEARANCE_REFERENCE_DIAMETER,4.2,mm,physical,PASS / JUST_FIT_REFERENCE_ONLY
+measured,BRACKET_OUTER_X,40.2,mm,measured,RECORDED
+measured,BRACKET_OUTER_Y,40.0,mm,measured,RECORDED
+reference,BRACKET_THICKNESS_REFERENCE,3.1,mm,measured candidate,REFERENCE
+hold,BRACKET_CORNER_RADIUS,,mm,unmeasured,MEASUREMENT_HOLD
+physical,BRACKET_HOLE_PITCH_X,24.0,mm,physical center distance,CONFIRMED
+physical,BRACKET_HOLE_PITCH_Y,30.0,mm,physical center distance,CONFIRMED
+nominal,FRAME_TOP_WIDTH_X,40.0,mm,2040 nominal,REFERENCE
+hold,M5_SPACER_STACK_HEIGHT,6|8|10,mm,comparison only,PHYSICAL_MEASUREMENT_HOLD

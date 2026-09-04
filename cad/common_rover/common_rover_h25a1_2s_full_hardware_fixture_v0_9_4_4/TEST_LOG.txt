@@ -1,0 +1,49 @@
+test_001_exact_package (__main__.Contract.test_001_exact_package) ... ok
+test_002_manifest (__main__.Contract.test_002_manifest) ... ok
+test_003_collar (__main__.Contract.test_003_collar) ... ok
+test_004_set_screws (__main__.Contract.test_004_set_screws) ... ok
+test_005_washer (__main__.Contract.test_005_washer) ... ok
+test_006_head (__main__.Contract.test_006_head) ... ok
+test_007_full_envelopes (__main__.Contract.test_007_full_envelopes) ... ok
+test_008_radial_margin (__main__.Contract.test_008_radial_margin) ... ok
+test_009_axial_margin (__main__.Contract.test_009_axial_margin) ... ok
+test_010_washer_candidates (__main__.Contract.test_010_washer_candidates) ... ok
+test_011_radial_candidates (__main__.Contract.test_011_radial_candidates) ... ok
+test_012_axial_candidates (__main__.Contract.test_012_axial_candidates) ... ok
+test_013_reaction_candidates (__main__.Contract.test_013_reaction_candidates) ... ok
+test_014_shaft_candidates (__main__.Contract.test_014_shaft_candidates) ... ok
+test_015_minimum_wall (__main__.Contract.test_015_minimum_wall) ... ok
+test_016_link_width_blocker (__main__.Contract.test_016_link_width_blocker) ... ok
+test_017_protected_geometry (__main__.Contract.test_017_protected_geometry) ... ok
+test_018_no_protected_change (__main__.Contract.test_018_no_protected_change) ... ok
+test_019_failure_inheritance (__main__.Contract.test_019_failure_inheritance) ... ok
+test_020_full_hardware_required (__main__.Contract.test_020_full_hardware_required) ... ok
+test_021_washer_not_torque_path (__main__.Contract.test_021_washer_not_torque_path) ... ok
+test_022_reaction_key_replaceable_and_spared (__main__.Contract.test_022_reaction_key_replaceable_and_spared) ... ok
+test_023_interference (__main__.Contract.test_023_interference) ... ok
+test_024_printability (__main__.Contract.test_024_printability) ... ok
+test_025_step_reload (__main__.Contract.test_025_step_reload) ... ok
+test_026_stl_semantics (__main__.Contract.test_026_stl_semantics) ... ok
+test_027_svgs (__main__.Contract.test_027_svgs) ... ok
+test_028_torque_plan (__main__.Contract.test_028_torque_plan) ... ok
+test_029_creep (__main__.Contract.test_029_creep) ... ok
+test_030_physical_gates (__main__.Contract.test_030_physical_gates) ... ok
+test_031_release_gates (__main__.Contract.test_031_release_gates) ... ok
+test_032_nonblocking_missing (__main__.Contract.test_032_nonblocking_missing) ... ok
+test_033_parent_protection (__main__.Contract.test_033_parent_protection) ... ok
+test_034_authority_protection (__main__.Contract.test_034_authority_protection) ... ok
+test_035_repository_guard (__main__.Contract.test_035_repository_guard) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: could not open directory '.pytest_cache/': Permission denied
+ok
+test_036_commit_paths (__main__.Contract.test_036_commit_paths) ... ok
+test_037_sha256sums (__main__.Contract.test_037_sha256sums) ... ok
+test_038_result_form (__main__.Contract.test_038_result_form) ... ok
+test_039_no_git_mutation_source (__main__.Contract.test_039_no_git_mutation_source) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 6.144s
+
+OK

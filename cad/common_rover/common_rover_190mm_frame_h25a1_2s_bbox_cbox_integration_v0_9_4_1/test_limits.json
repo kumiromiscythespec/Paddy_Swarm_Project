@@ -1,0 +1,37 @@
+{
+  "bbox": {
+    "dry_cycles": 20,
+    "dummy_mass_kg": 1.2,
+    "lock_cycles": 20,
+    "pin_cycles": 20,
+    "water_tests": [
+      "EMPTY",
+      "WEIGHTED",
+      "PARTIAL_SUBMERSION",
+      "TEMPORARY_FULL_SUBMERSION"
+    ]
+  },
+  "h25a1_2s": {
+    "fail": [
+      "SHAFT_SLIP",
+      "COLLAR_ROTATION",
+      "SCREW_LOOSENING",
+      "KEY_CRUSH",
+      "PETG_DAMAGE",
+      "HARDWARE_INTERFERENCE"
+    ],
+    "forward_turns": 20,
+    "hold_hours": 24,
+    "reverse_turns": 20,
+    "torque_nm": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "side_hardware": {
+    "conditional_max": 4.0,
+    "over_4": "BLOCK",
+    "preferred_max": 3.0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "rows": [
+    {
+      "classification": "MEASURED",
+      "id": "F001",
+      "name": "FRAME_UPPER_OUTER",
+      "value": [
+        540,
+        181
+      ]
+    },
+    {
+      "classification": "MEASURED",
+      "id": "F002",
+      "name": "FRAME_LOWER_OUTER",
+      "value": [
+        442,
+        181
+      ]
+    },
+    {
+      "classification": "MEASURED",
+      "id": "F003",
+      "name": "FRAME_STRUCTURAL_HEIGHT",
+      "value": 150
+    },
+    {
+      "classification": "VALID_MEASUREMENT_DIFFERENT_DATUM",
+      "id": "F004",
+      "name": "PREVIOUS_INTERNAL_Z",
+      "use": "DO_NOT_USE_AS_BBOX_INSERTION_HEIGHT",
+      "value": 90.7
+    },
+    {
+      "classification": "MEASURED",
+      "id": "F005",
+      "name": "BATTERY_INSERTION_CLEAR_HEIGHT",
+      "value": 108
+    },
+    {
+      "classification": "MEASURED",
+      "id": "B001",
+      "name": "BATTERY_BODY",
+      "value": [
+        150.9,
+        99.4,
+        92.5
+      ]
+    },
+    {
+      "classification": "MEASURED",
+      "id": "B002",
+      "name": "BATTERY_MASS",
+      "value": 1.2
+    },
+    {
+      "classification": "USER_REPORTED",
+      "id": "B003",
+      "name": "BATTERY_WITH_TERMINALS_INSERTION",
+      "value": "PHYSICAL_PASS"
+    },
+    {
+      "classification": "MEASURED",
+      "id": "H001",
+      "name": "COLLAR",
+      "value": [
+        15.9,
+        10.1,
+        3.0
+      ]
+    },
+    {
+      "classification": "MEASURED_USER_CONFIRMED",
+      "id": "H002",
+      "name": "SET_SCREWS",
+      "value": {
+        "angle": 90,
+        "length": 4,
+        "projection": 1,
+        "quantity": 2
+      }
+    },
+    {
+      "classification": "MEASURED",
+      "id": "R001",
+      "name": "BEARING_6000_OD",
+      "value": 25.9
+    },
+    {
+      "classification": "MEASURED",
+      "id": "K001",
+      "name": "KP000_HOLE_CENTER",
+      "value": 53.0
+    }
+  ],
+  "schema": "paddy_swarm.common_rover.measurement_ledger.v0.9.4.2"
+}

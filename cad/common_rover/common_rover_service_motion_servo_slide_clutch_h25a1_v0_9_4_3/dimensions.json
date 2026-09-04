@@ -1,0 +1,163 @@
+{
+  "battery": {
+    "insertion_clear_height_mm": 108.0,
+    "mass_kg": 1.2,
+    "terminal_equipped_pass": "PHYSICAL_PASS_USER_REPORTED",
+    "x_mm": 150.9,
+    "y_mm": 99.4,
+    "z_mm": 92.5
+  },
+  "bbox": {
+    "bottom_grip": "RECESSED_BOTTOM_GRIP",
+    "dummy_mm": [
+      180.0,
+      114.0,
+      103.0
+    ],
+    "final_pitch": "PHYSICAL_TEST_REQUIRED",
+    "physical_dummy_results": "USER_TEST_PENDING",
+    "pull_lip_depth_class_mm": [
+      15.0,
+      20.0
+    ],
+    "pull_lip_dimension_classification": "REFERENCE_ONLY",
+    "reference_pitch_deg": [
+      0.0,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "service_motion": "BBOX_PITCH_AND_SLIDE_SERVICE_MOTION",
+    "straight_x_only": false,
+    "test_heights_mm": [
+      103.0,
+      105.0,
+      107.0
+    ],
+    "top_guide": "REPLACEABLE_WEAR_PAD_ON_STRUCTURAL_SHOULDER",
+    "waterproof_lid_as_wear_surface": false
+  },
+  "classification": "SERVICE_AND_DRIVETRAIN_ARCHITECTURE",
+  "clutch": {
+    "architecture": "FRAME_INTEGRATED_SLIDE_CLUTCH",
+    "axis_basis": "PARENT_V0941_PTO_AXIS_Y_AND_V08_INWARD_COAXIAL_SELECTOR",
+    "carriage": "METAL_PRIMARY_STRUCTURE",
+    "contact_lines": 2,
+    "coordinate_and_stroke": "HOLD_PHYSICAL_MEASUREMENT",
+    "display_state_offset_mm": 6.0,
+    "guide": "TWO_TRANSVERSE_2020_CONTACT_LINES",
+    "linkage": "SERVO_HORN_ADJUSTABLE_ROD_CLEVIS_CARRIAGE",
+    "operating_reaction": "MECHANICAL_STOP_TO_FRAME",
+    "positions": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "sensor_reservation": "HALL_PLUS_MAGNET_DRIVE_NEUTRAL_PTO",
+    "servo_continuous_belt_load_holding": false,
+    "servo_torque": "HOLD_FORCE_STROKE_HORN",
+    "shoes": "REPLACEABLE_POLYMER",
+    "simultaneous_drive_pto": "MECHANICALLY_PROHIBITED",
+    "slide_axis": "Y",
+    "x_axis_comparison": "NOT_SELECTED_FOR_PARENT_CONSISTENCY"
+  },
+  "frame": {
+    "frame_190": "ALTERNATIVE_HOLD",
+    "lower_clear_mm": [
+      400.0,
+      140.0
+    ],
+    "lower_outer_mm": [
+      442.0,
+      181.0
+    ],
+    "status": "REOPENED_PRIMARY_COMPACT_BASELINE",
+    "structural_height_mm": 150.0,
+    "upper_clear_mm": [
+      500.0,
+      100.0
+    ],
+    "upper_outer_mm": [
+      540.0,
+      181.0
+    ],
+    "vertical_2020_mm": 110.0
+  },
+  "h25a1": {
+    "captive_washer_required": true,
+    "collar": {
+      "classification": "MEASURED",
+      "id_mm": 10.1,
+      "od_mm": 15.9,
+      "width_mm": 3.0
+    },
+    "existing_collar_coupons_mm": [
+      16.0,
+      16.1,
+      16.2
+    ],
+    "existing_shank_classification": "SCREW_SHANK_CLEARANCE_COUPONS",
+    "existing_shank_coupons_mm": [
+      4.1,
+      4.2,
+      4.3
+    ],
+    "full_hardware_dimensions": "HOLD",
+    "set_screws": {
+      "angle_deg": 90.0,
+      "length_mm": 4.0,
+      "major_od_mm": 3.8,
+      "nominal": "M4",
+      "pitch": null,
+      "projection_mm": 1.0,
+      "quantity": 2
+    },
+    "unknowns": {
+      "full_hardware_axial_width_mm": null,
+      "head_height_mm": null,
+      "screw_head_max_od_mm": null,
+      "surface_to_radial_max_mm": null,
+      "washer_max_od_mm": null,
+      "washer_stack_thickness_mm": null
+    },
+    "v2_print": "BLOCKED_MEASUREMENT_REQUIRED"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "external_geometry_delta_mm": 0.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "radial_access_holes": false,
+    "root_overlap_mm": 4.0,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5
+  },
+  "pto": {
+    "architecture": "COMMON_PTO_HS_1TO1",
+    "axis": "Y",
+    "driven_teeth": 20,
+    "driver_teeth": 20,
+    "powered": false,
+    "ratio": 1.0,
+    "support": "KP000_DOUBLE_SUPPORT"
+  },
+  "servo": {
+    "bridge": "SERVO_BRIDGE_2020",
+    "bridge_axis": "Y_TRANSVERSE",
+    "bridge_x": "PARAMETRIC_ADJUSTABLE",
+    "count_candidate": 2,
+    "final_model": null,
+    "generic_display_envelope": "PARAMETRIC_REFERENCE_NOT_COMPONENT_DIMENSION",
+    "load_path": "SERVO_METAL_PLATE_TNUT_2020_MAIN_FRAME",
+    "petg_sole_reaction_mount": false,
+    "plate_adjustment_allowance_mm": [
+      -15.0,
+      15.0
+    ]
+  },
+  "version": "0.9.4.3"
+}

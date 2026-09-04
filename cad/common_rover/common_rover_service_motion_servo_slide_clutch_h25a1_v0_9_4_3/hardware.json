@@ -1,0 +1,59 @@
+{
+  "clutch": {
+    "final_material": "HOLD",
+    "hall_sensor_model": null,
+    "magnet_model": null,
+    "metal_carriage": true,
+    "replaceable_shoes": true
+  },
+  "h25a1_full_hardware_envelope": {
+    "cad_marker_policy": "UNKNOWN_WASHER_HEAD_EXTENTS_ARE_DATUM_MARKERS_NOT_GUESSED_SOLIDS",
+    "captive_washer_required": true,
+    "collar": {
+      "classification": "MEASURED",
+      "id_mm": 10.1,
+      "od_mm": 15.9,
+      "width_mm": 3.0
+    },
+    "existing_collar_coupons_mm": [
+      16.0,
+      16.1,
+      16.2
+    ],
+    "existing_shank_classification": "SCREW_SHANK_CLEARANCE_COUPONS",
+    "existing_shank_coupons_mm": [
+      4.1,
+      4.2,
+      4.3
+    ],
+    "full_hardware_dimensions": "HOLD",
+    "set_screws": {
+      "angle_deg": 90.0,
+      "length_mm": 4.0,
+      "major_od_mm": 3.8,
+      "nominal": "M4",
+      "pitch": null,
+      "projection_mm": 1.0,
+      "quantity": 2
+    },
+    "unknowns": {
+      "full_hardware_axial_width_mm": null,
+      "head_height_mm": null,
+      "screw_head_max_od_mm": null,
+      "surface_to_radial_max_mm": null,
+      "washer_max_od_mm": null,
+      "washer_stack_thickness_mm": null
+    },
+    "v2_print": "BLOCKED_MEASUREMENT_REQUIRED"
+  },
+  "servo": {
+    "body_xyz": null,
+    "horn_radius": null,
+    "model": null,
+    "mount_holes": null,
+    "output_center": null,
+    "rated_torque": null,
+    "voltage": null,
+    "waterproof": null
+  }
+}

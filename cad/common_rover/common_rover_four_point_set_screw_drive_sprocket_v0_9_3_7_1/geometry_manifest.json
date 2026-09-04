@@ -1,0 +1,346 @@
+{
+  "analysis": {
+    "coupon": {
+      "af_candidates_mm": [
+        5.1,
+        5.15,
+        5.2,
+        5.25,
+        5.3,
+        5.35
+      ],
+      "engraved_markings": [
+        "AF5.10",
+        "AF5.15",
+        "AF5.20",
+        "AF5.25",
+        "AF5.30",
+        "AF5.35"
+      ],
+      "m3_access_count": 6,
+      "pushout_access_count": 6,
+      "same_axial_loading_direction": true,
+      "solid_count": 1,
+      "valid": true
+    },
+    "envelopes": {
+      "h2_to_bearing_mm3": 0.0,
+      "high_nut_to_bearing_mm3": 0.0,
+      "m4_hardware_to_bearing_mm3": 0.0,
+      "m4_hardware_to_guide_mm3": 0.0,
+      "m4_hardware_to_link_mm3": 0.0,
+      "retainer_to_link_keepout_mm3": 0.0,
+      "sprocket_link_contact_zone": "EXPECTED_ENGAGEMENT_NOT_INTERFERENCE"
+    },
+    "high_nut": {
+      "adjacent_pocket_wall_min_mm": 3.8341819538006177,
+      "axes_deg": [
+        0.0,
+        90.0,
+        180.0,
+        270.0
+      ],
+      "center_z_mm": 18.9,
+      "count": 4,
+      "m4_hole_wall_min_mm": 3.1964574340740723,
+      "nut_to_h2_body_mm3": 0.0,
+      "outer_wall_min_mm": 3.7045763070322906,
+      "pairwise_max_intersection_mm3": 0.0,
+      "pocket_pairwise_max_intersection_mm3": 0.0,
+      "pocket_to_m4_hole_mm3": 0.0,
+      "selected_pocket_af_mm": 5.25,
+      "selected_status": "PHYSICAL_COUPON_REQUIRED"
+    },
+    "parent": {
+      "bounds_mm": {
+        "xlen": 65.827477,
+        "xmax": 32.913738,
+        "xmin": -32.913738,
+        "ylen": 65.827477,
+        "ymax": 32.913738,
+        "ymin": -32.913738,
+        "zlen": 44.0,
+        "zmax": 22.0,
+        "zmin": -22.0
+      },
+      "solid_count": 1,
+      "valid": true
+    },
+    "retainer": {
+      "covers_radial_interval_mm": [
+        5.4,
+        20.0
+      ],
+      "drain_count": 4,
+      "engraved_markings": [
+        "H2-4P",
+        "A1",
+        "V09371",
+        "P14FB",
+        "L/R"
+      ],
+      "h2_intersection_mm3": 0.0,
+      "nut_intersection_mm3": 0.0,
+      "t2p5_solid_count": 1,
+      "t2p5_valid": true,
+      "t3p0_solid_count": 1,
+      "t3p0_valid": true
+    },
+    "set_screw": {
+      "INITIAL_CONTACT": {
+        "bearing_intersection_mm3": 0.0,
+        "guide_intersection_mm3": 0.0,
+        "h2_body_intersection_mm3": 0.0,
+        "link_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "shaft_intersection_mm3": 0.0,
+        "tip_radius_mm": 5.0
+      },
+      "NOMINAL_CLAMPED": {
+        "bearing_intersection_mm3": 0.0,
+        "guide_intersection_mm3": 0.0,
+        "h2_body_intersection_mm3": 0.0,
+        "link_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "shaft_intersection_mm3": 0.7665730847198693,
+        "tip_radius_mm": 4.9375
+      },
+      "RETRACTED": {
+        "bearing_intersection_mm3": 0.0,
+        "guide_intersection_mm3": 0.0,
+        "h2_body_intersection_mm3": 0.0,
+        "link_intersection_mm3": 0.0,
+        "nut_intersection_mm3": 0.0,
+        "shaft_intersection_mm3": 0.0,
+        "tip_radius_mm": 6.5
+      }
+    },
+    "set_screw_state_contract": {
+      "classification": "DERIVED_CONCEPTUAL_RIGID_CAD_OVERLAP_NOT_PHYSICAL_INDENTATION_APPROVAL",
+      "derivation": "M3_COARSE_PITCH_0P5_MM_X_ONE_EIGHTH_TURN",
+      "nominal_preload_travel_mm": 0.0625
+    },
+    "tool": {
+      "bearing_intersection_mm3": 0.0,
+      "count": 4,
+      "frame_status": "HOLD_INSTALLED_FRAME_TOOL_ENVELOPE_REGISTRATION_REQUIRED",
+      "guide_intersection_mm3": 0.0,
+      "h2_body_intersection_mm3": 0.0,
+      "link_intersection_mm3": 0.0
+    },
+    "tooth": {
+      "angles_deg": [
+        15.0,
+        45.0,
+        75.0,
+        105.0,
+        135.0,
+        165.0,
+        195.0,
+        225.0,
+        255.0,
+        285.0,
+        315.0,
+        345.0
+      ],
+      "count": 12,
+      "phase_deg": 15.0,
+      "positive_root_intersection_mm3": 1923.371595360251,
+      "spacing_deg": 30.0
+    },
+    "variants": {
+      "H2-B101": {
+        "bore_mm": 10.1,
+        "bounds_mm": {
+          "xlen": 65.827477,
+          "xmax": 32.913738,
+          "xmin": -32.913738,
+          "ylen": 65.827477,
+          "ymax": 32.913738,
+          "ymin": -32.913738,
+          "zlen": 44.0,
+          "zmax": 22.0,
+          "zmin": -22.0
+        },
+        "final_minus_parent_external_mm3": 0.0,
+        "parent_minus_final_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true,
+        "volume_mm3": 129004.5193942101
+      },
+      "H2-B102": {
+        "bore_mm": 10.2,
+        "bounds_mm": {
+          "xlen": 65.827477,
+          "xmax": 32.913738,
+          "xmin": -32.913738,
+          "ylen": 65.827477,
+          "ymax": 32.913738,
+          "ymin": -32.913738,
+          "zlen": 44.0,
+          "zmax": 22.0,
+          "zmin": -22.0
+        },
+        "final_minus_parent_external_mm3": 0.0,
+        "parent_minus_final_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true,
+        "volume_mm3": 128936.20957172554
+      },
+      "H2-B103": {
+        "bore_mm": 10.3,
+        "bounds_mm": {
+          "xlen": 65.827477,
+          "xmax": 32.913738,
+          "xmin": -32.913738,
+          "ylen": 65.827477,
+          "ymax": 32.913738,
+          "ymin": -32.913738,
+          "zlen": 44.0,
+          "zmax": 22.0,
+          "zmin": -22.0
+        },
+        "final_minus_parent_external_mm3": 0.0,
+        "parent_minus_final_external_mm3": 0.0,
+        "solid_count": 1,
+        "valid": true,
+        "volume_mm3": 128867.21773204113
+      }
+    }
+  },
+  "authority_files_changed": false,
+  "bore_variants": {
+    "H2-B101": 10.1,
+    "H2-B102": 10.2,
+    "H2-B103": 10.3
+  },
+  "classification": "S0_INTEGRAL_SPROCKET_H2_SHAFT_CONNECTION",
+  "current_branch": "agent/organize-untracked-cad-assets-20260725",
+  "current_head": "facb4f63c0d485a53fef48b602f97e0454e8548f",
+  "design_name": "common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1",
+  "external_tooth_geometry_changed": false,
+  "field_deployment_status": "NOT_APPROVED",
+  "final_external_bbox": {
+    "xlen": 65.827477,
+    "xmax": 32.913738,
+    "xmin": -32.913738,
+    "ylen": 65.827477,
+    "ymax": 32.913738,
+    "ymin": -32.913738,
+    "zlen": 44.0,
+    "zmax": 22.0,
+    "zmin": -22.0
+  },
+  "final_minus_parent_external_volume": 0.0,
+  "final_sprocket_solid_count": 1,
+  "h0_status": "REJECT_TORQUE_TRANSMISSION",
+  "h2_status": "PHYSICAL_TEST_REQUIRED",
+  "high_nut_af_candidates": [
+    5.1,
+    5.15,
+    5.2,
+    5.25,
+    5.3,
+    5.35
+  ],
+  "high_nut_af_default": 5.2,
+  "high_nut_af_status": "USER_REPORTED_UNCONFIRMED_DIMENSION",
+  "high_nut_axes_degrees": [
+    0.0,
+    90.0,
+    180.0,
+    270.0
+  ],
+  "high_nut_batch_id": "HOLD_USER_ENTRY_REQUIRED",
+  "high_nut_count": 4,
+  "high_nut_length_default": 9.8,
+  "high_nut_length_status": "USER_REPORTED_UNCONFIRMED_DIMENSION",
+  "high_nut_thread": "M3",
+  "mechanism_name": "H2_HOME_CENTER_FOUR_POINT_SET_SCREW_HUB",
+  "parent_audit": {
+    "checks": {
+      "builder_sha256": true,
+      "lane_ledger": true,
+      "manifest_sha256": true,
+      "source_sha256": true,
+      "zip_exists": true,
+      "zip_sha256": true
+    },
+    "file_count": 32,
+    "ledger_sha256": "9dc63fbb0fcdd0bde4e6c56ce6a26b6e76d4e1a8c34f32c844672532a2f23b33",
+    "path": "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7",
+    "status": "PASS"
+  },
+  "parent_external_bbox": {
+    "xlen": 65.827477,
+    "xmax": 32.913738,
+    "xmin": -32.913738,
+    "ylen": 65.827477,
+    "ymax": 32.913738,
+    "ymin": -32.913738,
+    "zlen": 44.0,
+    "zmax": 22.0,
+    "zmin": -22.0
+  },
+  "parent_lane": "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7",
+  "parent_minus_final_external_volume": 0.0,
+  "parent_source_paths": [
+    "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7/geometry_manifest.json",
+    "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7/build_common_rover_integral_drive_sprocket_shaft_connection_v0937.py",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py",
+    "D:\\Downloads\\Paddy_Swarm_Common_Rover_Integral_Drive_Sprocket_Shaft_Connection_v0_9_3_7_20260805_115503.zip"
+  ],
+  "parent_source_sha256": {
+    "parent_builder": "14fb36d0b734cfbd29422e14d13482bc528ebd76e3b7b55dad2ce4346ea3faf5",
+    "parent_lane_ledger": "9dc63fbb0fcdd0bde4e6c56ce6a26b6e76d4e1a8c34f32c844672532a2f23b33",
+    "parent_manifest": "e32b552063cb176396c9cc1d60496196935f8607b08f86ee63eac6b5d3386bd2",
+    "parent_zip": "07711bd7e9fe431487cdd2db4ae40530b6b41a83668d122f28c6e6a14b9cb63f",
+    "v0131_source": "9a15fbd05f2972090faba594e010c55b16b2fb226b2a944b8962bc398dbc268e"
+  },
+  "parent_version": "0.9.3.7",
+  "petg_spare_rate_percent": 100,
+  "phase_degrees": 15.0,
+  "physical_failure": {
+    "classification": "USER_REPORTED",
+    "h0_slip": true,
+    "result": "PHYSICAL_FAIL_SLIP"
+  },
+  "physical_test_status": "REQUIRED",
+  "pitch_diameter_record": 76.3943726841,
+  "powered_rotation_status": "NOT_APPROVED",
+  "release": {
+    "BELT_TENSION": "NOT_APPROVED",
+    "GITHUB_EXECUTABLE_CAD_RELEASE": "HOLD",
+    "GITHUB_MANUFACTURING_RELEASE": "HOLD",
+    "H0_TORQUE_TRANSMISSION": "PHYSICAL_FAIL",
+    "H2_PHYSICAL_FIT": "REQUIRED",
+    "H2_TORQUE_CAPACITY": "NOT_TESTED",
+    "PURCHASE_STATUS": "NOT_APPROVED",
+    "SHAFT_IRREVERSIBLE_MACHINING": "NOT_REQUIRED",
+    "TORQUE_LOAD": "NOT_APPROVED"
+  },
+  "retainer_fastener_count": 4,
+  "retainer_fastener_size": "M4",
+  "retainer_pcd": 24.0,
+  "retainer_plate_thickness_candidates": [
+    2.5,
+    3.0
+  ],
+  "retainer_solid_count": 1,
+  "set_screw_count": 4,
+  "set_screw_length": 16.0,
+  "set_screw_nominal_preload_travel": 0.0625,
+  "set_screw_size": "M3",
+  "set_screw_tip_type": "CUP_POINT_REFERENCE_ENVELOPE",
+  "shaft_irreversible_machining_required": false,
+  "single_manufacturer_dependency": false,
+  "stl_watertight": true,
+  "tooth_axial_width": 44.0,
+  "tooth_count": 12,
+  "tooth_root_radius": 29.47,
+  "tooth_root_width": 9.5,
+  "tooth_spacing_degrees": 30.0,
+  "tooth_tip_radius": 33.07,
+  "tooth_tip_width": 7.5,
+  "version": "0.9.3.7.1"
+}

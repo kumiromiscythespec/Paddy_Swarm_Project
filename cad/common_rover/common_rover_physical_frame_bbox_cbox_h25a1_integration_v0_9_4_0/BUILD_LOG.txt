@@ -1,0 +1,6 @@
+BUILD PASS
+version=0.9.4.0
+classification=PHYSICAL_INTEGRATION_REFERENCE
+preflight_untracked_total=1276
+CadQuery=2.8.0
+Python=3.12.13

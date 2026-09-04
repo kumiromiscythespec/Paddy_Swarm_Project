@@ -1,0 +1,171 @@
+{
+  "STEP": {
+    "count": 11,
+    "pass_count": 11,
+    "rows": [
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-B101-INTEGRAL-12T-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-B102-INTEGRAL-12T-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-B103-INTEGRAL-12T-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-HIGH-NUT-RETAINER-T2P5-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-HIGH-NUT-RETAINER-T3P0-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-HIGH-NUT-POCKET-COUPON-V09371.step",
+        "solids": 1
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-ASSEMBLY-RETRACTED-V09371.step",
+        "solids": 34
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-ASSEMBLY-INITIAL-CONTACT-V09371.step",
+        "solids": 34
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-ASSEMBLY-NOMINAL-CLAMPED-V09371.step",
+        "solids": 34
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-ASSEMBLY-EXPLODED-V09371.step",
+        "solids": 32
+      },
+      {
+        "pass": true,
+        "path": "artifacts/step/PS-CR-H2-ASSEMBLY-TOOL-ACCESS-V09371.step",
+        "solids": 38
+      }
+    ],
+    "status": "PASS"
+  },
+  "STL": {
+    "count": 6,
+    "pass_count": 6,
+    "rows": [
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 9510,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-B101-INTEGRAL-12T-V09371.stl",
+        "volume_mm3": 128991.13465700815,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 9510,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-B102-INTEGRAL-12T-V09371.stl",
+        "volume_mm3": 128922.8570611766,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 9464,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-B103-INTEGRAL-12T-V09371.stl",
+        "volume_mm3": 128853.86093310117,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 18060,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-HIGH-NUT-RETAINER-T2P5-V09371.stl",
+        "volume_mm3": 2655.370305291294,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 18060,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-HIGH-NUT-RETAINER-T3P0-V09371.stl",
+        "volume_mm3": 3187.3031074280225,
+        "watertight": true
+      },
+      {
+        "components": 1,
+        "degenerate_triangles": 0,
+        "faces": 37782,
+        "pass": true,
+        "path": "artifacts/stl/PS-CR-H2-HIGH-NUT-POCKET-COUPON-V09371.stl",
+        "volume_mm3": 35701.24086492592,
+        "watertight": true
+      }
+    ],
+    "status": "PASS"
+  },
+  "SVG": {
+    "count": 4,
+    "pass_count": 4,
+    "rows": [
+      {
+        "pass": true,
+        "path": "artifacts/svg/PS-CR-H2-FOUR-POINT-OVERVIEW-V09371.svg"
+      },
+      {
+        "pass": true,
+        "path": "artifacts/svg/PS-CR-H2-HIGH-NUT-POCKET-SECTION-V09371.svg"
+      },
+      {
+        "pass": true,
+        "path": "artifacts/svg/PS-CR-H2-TIGHTENING-SEQUENCE-V09371.svg"
+      },
+      {
+        "pass": true,
+        "path": "artifacts/svg/PS-CR-H2-LOAD-PATH-V09371.svg"
+      }
+    ],
+    "status": "PASS"
+  },
+  "classification": "S0_INTEGRAL_SPROCKET_H2_SHAFT_CONNECTION",
+  "document_id": "PS-CR-V09371-H2-FOUR-POINT-SET-SCREW-SPROCKET",
+  "geometry": {
+    "checks": {
+      "coupon": true,
+      "envelopes": true,
+      "external": true,
+      "nut_fit": true,
+      "nut_layout": true,
+      "release": true,
+      "retainer": true,
+      "screws": true,
+      "solids": true,
+      "tool": true,
+      "tooth": true,
+      "walls": true
+    },
+    "status": "PASS"
+  },
+  "physical_fit": "REQUIRED",
+  "powered_rotation": "NOT_APPROVED",
+  "status": "PASS",
+  "torque_capacity": "NOT_TESTED"
+}

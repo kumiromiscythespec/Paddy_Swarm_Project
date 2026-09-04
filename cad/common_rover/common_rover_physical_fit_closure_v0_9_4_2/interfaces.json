@@ -1,0 +1,20 @@
+{
+  "bbox_dummy": {
+    "actual_battery_after_dummy_pass_only": true,
+    "final_load_path": "FRAME_DEDICATED_SUPPORT_RAIL_SKID_BBOX",
+    "idler_level": "PASSAGE_DATUM_ONLY",
+    "load_bearing": false,
+    "purpose": "OUTER_ENVELOPE_PASSAGE_GAUGE",
+    "removal": "-X"
+  },
+  "frame_decision": {
+    "150": "PRIMARY_IF_103_PHYSICAL_PASS_WITH_3_TO_5_MM_PRACTICAL_CLEARANCE",
+    "190": "HIGH_CLEARANCE_ALTERNATIVE_HOLD"
+  },
+  "h25a1": {
+    "fixture": "STATIC_ONLY",
+    "load_path": "SHAFT_TWO_M4_METAL_COLLAR_REPLACEABLE_REACTION_KEY_HUB_12T",
+    "powered": false,
+    "radial_tooth_root_hole": false
+  }
+}

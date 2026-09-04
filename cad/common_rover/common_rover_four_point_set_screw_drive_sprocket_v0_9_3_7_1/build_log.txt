@@ -1,0 +1,11 @@
+command=python -B build_common_rover_four_point_set_screw_drive_sprocket_v09371.py --refresh-artifacts
+phase_1_high_nut_coupon=PASS
+phase_2_retainer_plates=PASS
+phase_3_h2_bore_variants=PASS
+phase_4_assemblies=PASS
+step=11/11
+stl=6/6
+svg=4/4
+geometry=PASS
+physical_test=REQUIRED
+powered_rotation=NOT_APPROVED

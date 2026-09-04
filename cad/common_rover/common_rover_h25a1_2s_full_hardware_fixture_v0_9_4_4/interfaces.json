@@ -1,0 +1,22 @@
+{
+  "cover_bolts_primary_torque_path": false,
+  "designation": "H25A1_2S_DUAL_SET_SCREW_REACTION_KEY",
+  "fixture": {
+    "bearing_fit": false,
+    "external_reaction": "FIXTURE_BODY_TO_BENCH_HAND_TOOL",
+    "neutral_mm": 10.3,
+    "shaft_hole_candidates_mm": [
+      10.2,
+      10.3,
+      10.4
+    ]
+  },
+  "full_hardware_insertion": "OPEN_TOP_AXIAL_WITH_OPEN_BACK_PUSH_THROUGH",
+  "full_sprocket": {
+    "field": false,
+    "manufacturing": "HOLD",
+    "powered": false
+  },
+  "load_path": "PHI10_SHAFT_M4X2_METAL_COLLAR_TWO_METAL_REACTION_FEATURES_REPLACEABLE_KEY_PETG_HUB_12T",
+  "washer_primary_torque_path": false
+}

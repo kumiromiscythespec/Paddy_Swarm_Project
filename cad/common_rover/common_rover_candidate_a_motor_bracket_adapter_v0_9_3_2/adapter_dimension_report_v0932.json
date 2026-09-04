@@ -1,0 +1,104 @@
+{
+  "a1_build_volume_mm": [
+    256.0,
+    256.0,
+    256.0
+  ],
+  "bounds_mm": {
+    "C360": {
+      "xlen": 42.0,
+      "xmax": 21.0,
+      "xmin": -21.0,
+      "ylen": 80.0,
+      "ymax": 40.0,
+      "ymin": -40.0,
+      "zlen": 8.0,
+      "zmax": 8.0,
+      "zmin": 0.0
+    },
+    "C370": {
+      "xlen": 42.0,
+      "xmax": 21.0,
+      "xmin": -21.0,
+      "ylen": 80.0,
+      "ymax": 40.0,
+      "ymin": -40.0,
+      "zlen": 8.0,
+      "zmax": 8.0,
+      "zmin": 0.0
+    },
+    "COUPON": {
+      "xlen": 130.0,
+      "xmax": 65.0,
+      "xmin": -65.0,
+      "ylen": 38.0,
+      "ymax": 19.0,
+      "ymin": -19.0,
+      "zlen": 8.0,
+      "zmax": 8.0,
+      "zmin": 0.0
+    }
+  },
+  "bracket_hole_coordinates_mm": [
+    [
+      -12.0,
+      -15.0
+    ],
+    [
+      12.0,
+      -15.0
+    ],
+    [
+      -12.0,
+      15.0
+    ],
+    [
+      12.0,
+      15.0
+    ]
+  ],
+  "bracket_pitch_mm": [
+    24.0,
+    30.0
+  ],
+  "corner_radius_mm": 3.0,
+  "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+  "frame_hole_coordinates_mm": [
+    [
+      -10.0,
+      -30.0
+    ],
+    [
+      10.0,
+      -30.0
+    ],
+    [
+      -10.0,
+      30.0
+    ],
+    [
+      10.0,
+      30.0
+    ]
+  ],
+  "frame_pitch_mm": [
+    20.0,
+    60.0
+  ],
+  "m4_blind_depth_mm": 7.0,
+  "m4_bottom_floor_mm": 1.0,
+  "m4_variants_mm": {
+    "C360": 3.6,
+    "C370": 3.7
+  },
+  "m5_through_hole_mm": 5.7,
+  "plate_mm": [
+    42.0,
+    80.0,
+    8.0
+  ],
+  "print_orientation": "FLAT_ON_BUILD_PLATE_BASE_Z0",
+  "quantity": "2_IDENTICAL_PARTS_AFTER_ONE_PART_FIT_VALIDATION",
+  "status": "PASS",
+  "support_required": false
+}

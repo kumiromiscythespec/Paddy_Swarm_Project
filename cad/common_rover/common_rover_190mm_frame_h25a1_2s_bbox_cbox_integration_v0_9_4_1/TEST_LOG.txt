@@ -1,0 +1,29 @@
+test_001_package (__main__.Contract.test_001_package) ... ok
+test_002_old_frame (__main__.Contract.test_002_old_frame) ... ok
+test_003_new_frame (__main__.Contract.test_003_new_frame) ... ok
+test_004_xy_unchanged (__main__.Contract.test_004_xy_unchanged) ... ok
+test_005_internal_z (__main__.Contract.test_005_internal_z) ... ok
+test_006_z_conflict (__main__.Contract.test_006_z_conflict) ... ok
+test_007_waterline (__main__.Contract.test_007_waterline) ... ok
+test_008_diagonal (__main__.Contract.test_008_diagonal) ... ok
+test_009_pto (__main__.Contract.test_009_pto) ... ok
+test_010_kp000 (__main__.Contract.test_010_kp000) ... ok
+test_011_bearing (__main__.Contract.test_011_bearing) ... ok
+test_012_collar (__main__.Contract.test_012_collar) ... ok
+test_013_two_screws (__main__.Contract.test_013_two_screws) ... ok
+test_014_protected_12t (__main__.Contract.test_014_protected_12t) ... ok
+test_015_battery (__main__.Contract.test_015_battery) ... ok
+test_016_bbox_contract (__main__.Contract.test_016_bbox_contract) ... ok
+test_017_x_serial (__main__.Contract.test_017_x_serial) ... ok
+test_018_top_reserved (__main__.Contract.test_018_top_reserved) ... ok
+test_019_fail_closed (__main__.Contract.test_019_fail_closed) ... ok
+test_020_parent (__main__.Contract.test_020_parent) ... ok
+test_021_authority (__main__.Contract.test_021_authority) ... ok
+test_022_staged_zero (__main__.Contract.test_022_staged_zero) ... ok
+test_023_commit_paths (__main__.Contract.test_023_commit_paths) ... ok
+test_024_standalone_rebuild (__main__.Contract.test_024_standalone_rebuild) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 4.018s
+
+OK

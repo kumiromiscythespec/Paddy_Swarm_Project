@@ -1,0 +1,6 @@
+# Common Rover TEMP HTD5M 60T v0.9.6.21
+
+Classification: `TEMP_HTD5M_60T_SPLIT_CLAMP_PULLEY`  
+Status: `TEMP_HTD5M_60T_SPLIT_CLAMP_PULLEY_CAD_COMPLETE/EXACT_WORKING_60T_TOOTH_GEOMETRY_REUSED/Ø10_SPLIT_CLAMP_READY/BORE_COUPONS_READY/P20653_SCOPE_UNCHANGED/DRY_DUAL_MOTOR_TEST_FIXTURE_READY_FOR_PHYSICAL_FIT/FULL_TORQUE_NOT_APPROVED/COMMIT_READY_NOT_STAGED`
+
+Active repository lane: `cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1`。Builder: `build_common_rover_drive_htd5m_tpu_trial_belt_v0951.py` SHA `2d51ca23ca1d2dfa445f5ad45d76fd244ebdbb78984d27123979e3d95a1d2924`。Artifact: `cad/drive_htd5m_60t_reference.step` SHA `bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256`。Protected profile SHA `77f3e18eb14e2956213eddfc84529264585451c2014d0a8325229e368ede54e1`。Original lineage module SHAはdesign_parameters.jsonへ固定しました。旧coupon laneやabstract 60T envelopeは採用していません。

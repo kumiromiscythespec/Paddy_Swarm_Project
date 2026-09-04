@@ -1,0 +1,77 @@
+{
+  "document_id": "PS-CR-V0932-MOTOR-BRACKET-TO-2040-ADAPTER",
+  "rows": [
+    {
+      "classification": "MEASURED_CONFIRMED",
+      "measurement_id": "BRACKET_OUTER_X",
+      "notes": "conservative rectangular footprint",
+      "source": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 40.2
+    },
+    {
+      "classification": "MEASURED_CONFIRMED",
+      "measurement_id": "BRACKET_OUTER_Y",
+      "notes": "conservative rectangular footprint",
+      "source": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "classification": "MEASURED_CONFIRMED",
+      "measurement_id": "BRACKET_HOLE_PITCH_X",
+      "notes": "center-to-center, not outer dimension",
+      "source": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 24.0
+    },
+    {
+      "classification": "MEASURED_CONFIRMED",
+      "measurement_id": "BRACKET_HOLE_PITCH_Y",
+      "notes": "center-to-center",
+      "source": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 30.0
+    },
+    {
+      "classification": "MEASURED_CONFIRMED",
+      "measurement_id": "BRACKET_HOLE_DIAMETER",
+      "notes": "M4 candidate",
+      "source": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 4.0
+    },
+    {
+      "classification": "DERIVED_FROM_MEASURED_PITCH",
+      "measurement_id": "BRACKET_HOLE_COORDINATES",
+      "notes": "four holes",
+      "source": "CENTERED_PATTERN",
+      "unit": "mm",
+      "value": "X=+/-12;Y=+/-15"
+    },
+    {
+      "classification": "CANDIDATE",
+      "measurement_id": "BRACKET_THICKNESS_PROXY",
+      "notes": "not manufacturing authority",
+      "source": "V0931_MOTOR_BRACKET_ENVELOPE",
+      "unit": "mm",
+      "value": 3.1
+    },
+    {
+      "classification": "MEASUREMENT_HOLD",
+      "measurement_id": "BRACKET_CORNER_RADIUS",
+      "notes": "proxy uses no corner radius",
+      "source": "NOT_MEASURED",
+      "unit": "mm",
+      "value": "HOLD"
+    },
+    {
+      "classification": "CAD_CONTRACT",
+      "measurement_id": "BRACKET_FRAME_CENTERLINE",
+      "notes": "local origins coincide",
+      "source": "V0932",
+      "unit": "text",
+      "value": "COINCIDENT"
+    }
+  ]
+}

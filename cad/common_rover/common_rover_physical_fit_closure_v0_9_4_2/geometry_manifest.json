@@ -1,0 +1,104 @@
+{
+  "classification": "PHYSICAL_FIT_VALIDATION_PREPARATION",
+  "coupon_bounds": {
+    "collar": [
+      72,
+      28,
+      6.6
+    ],
+    "reaction": [
+      72,
+      28,
+      6.6
+    ]
+  },
+  "dummy_bounds": {
+    "x": 180.0,
+    "y": 114.0,
+    "z": 103.0
+  },
+  "dummy_parts": {
+    "assembled_stl": "REFERENCE_ONLY_DO_NOT_PRINT_MONOLITHIC",
+    "bottom": "PRINT_FLAT_SUPPORT_FREE",
+    "open_sides": true,
+    "posts_x4": "PRINT_LAID_FLAT_SUPPORT_FREE",
+    "roof": "NONE",
+    "top": "PRINT_FLAT_SUPPORT_FREE_FLIP_FOR_ASSEMBLY"
+  },
+  "fixture": {
+    "bounds": [
+      50.0,
+      50.0,
+      8.0
+    ],
+    "collar_pocket": 16.1,
+    "dual_slot": 4.2,
+    "mount_holes": 2,
+    "shaft_bore": 10.5,
+    "static_only": true
+  },
+  "frame_bounds": {
+    "x": 540.0,
+    "y": 181.0,
+    "z": 150.0,
+    "zmax": 218.0,
+    "zmin": 68.0
+  },
+  "h25a1": {
+    "external_12t_difference": 0.0,
+    "radial_keepout": 8.95,
+    "radial_tooth_root_hole": false
+  },
+  "parents": {
+    "v0940": {
+      "file_count": 43,
+      "hashes": {
+        "MANIFEST.txt": "fbb9d00eda9dda979e3dfcb4596d987260fc79dd6f0160cdf40512fbf438a984",
+        "SHA256SUMS.txt": "0bfd7afed7b19543e811a1e08bb98aa8c8151a46465d3254702361ea50794fe5"
+      },
+      "path": "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0",
+      "status": "CAD_PASS"
+    },
+    "v0941": {
+      "file_count": 68,
+      "hashes": {
+        "MANIFEST.txt": "879697e31b9ab4595c2c13c17741ca46e6d14d6137de4d0cac91cc32b90397e5",
+        "SHA256SUMS.txt": "9446ff0205256762757396be582c8cbb46b3c2131aa8d150903e8b1297ac26aa",
+        "build_common_rover_190mm_integration_v0941.py": "fb9cf99aec4275cdc8b1f0fe548826e3be10a8e9fabecb745b616bd736ebe425",
+        "geometry_manifest.json": "99bf05d5c13cb958983f3c2c8c167f2bc7d62ec254d9fef19f3c811384355451",
+        "tests/test_common_rover_190mm_integration_v0941.py": "5cb0c1e034a8e03d4d5f15e5f9f6fe4aa62cc494fa2c4d97bb75c9a4faabd598",
+        "validation_report.json": "9f79843e750884f96c9aa04dc123a87b8c6e006fa2c5f50be652abe453c74c53"
+      },
+      "path": "cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1",
+      "status": "CAD_PASS"
+    }
+  },
+  "printability": {
+    "all_designated_print_files_fit": true,
+    "bed_xy": [
+      256,
+      256
+    ],
+    "largest_print_footprint_xy": [
+      200,
+      134
+    ],
+    "monolithic_dummy_stl": "REFERENCE_ONLY",
+    "printer": "Bambu A1",
+    "support": "NOT_REQUIRED_CANDIDATE"
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.physical_fit.v0.9.4.2",
+  "shim_bounds": [
+    {
+      "height": 2.0,
+      "x": 180.0,
+      "y": 114.0
+    },
+    {
+      "height": 4.0,
+      "x": 180.0,
+      "y": 114.0
+    }
+  ]
+}

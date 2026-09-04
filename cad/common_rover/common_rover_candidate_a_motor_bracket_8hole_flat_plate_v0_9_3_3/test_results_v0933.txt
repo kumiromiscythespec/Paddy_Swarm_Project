@@ -1,0 +1,53 @@
+command=python -B tests/test_motor_bracket_8hole_flat_plate_v0933.py
+status=PASS
+Ran 42 tests in 3.706s
+OK
+physical_fit=NOT_YET_PERFORMED
+full_output:
+test_001_document_identity (__main__.V0933Contract.test_001_document_identity) ... ok
+test_002_anchor_exists_and_is_ancestor (__main__.V0933Contract.test_002_anchor_exists_and_is_ancestor) ... ok
+test_003_repository_guard (__main__.V0933Contract.test_003_repository_guard) ... ok
+test_004_parent_lanes_protected (__main__.V0933Contract.test_004_parent_lanes_protected) ... ok
+test_005_authority_pointer_unchanged (__main__.V0933Contract.test_005_authority_pointer_unchanged) ... ok
+test_006_flat_plate_size_and_radius (__main__.V0933Contract.test_006_flat_plate_size_and_radius) ... ok
+test_007_petg_and_metal_thicknesses (__main__.V0933Contract.test_007_petg_and_metal_thicknesses) ... ok
+test_008_m3_contract (__main__.V0933Contract.test_008_m3_contract) ... ok
+test_009_m5_contract (__main__.V0933Contract.test_009_m5_contract) ... ok
+test_010_exactly_eight_holes_and_no_m4 (__main__.V0933Contract.test_010_exactly_eight_holes_and_no_m4) ... ok
+test_011_physical_fit_records (__main__.V0933Contract.test_011_physical_fit_records) ... ok
+test_012_all_features_are_straight_through (__main__.V0933Contract.test_012_all_features_are_straight_through) ... ok
+test_013_no_unsupported_features (__main__.V0933Contract.test_013_no_unsupported_features) ... ok
+test_014_single_solid (__main__.V0933Contract.test_014_single_solid) ... ok
+test_015_planar_top_bottom_and_flat_z0 (__main__.V0933Contract.test_015_planar_top_bottom_and_flat_z0) ... ok
+test_016_all_eight_holes_fully_through (__main__.V0933Contract.test_016_all_eight_holes_fully_through) ... ok
+test_017_blank_minus_only_eight_holes_volume (__main__.V0933Contract.test_017_blank_minus_only_eight_holes_volume) ... ok
+test_018_pairwise_hole_intersections_zero (__main__.V0933Contract.test_018_pairwise_hole_intersections_zero) ... ok
+test_019_edge_ligaments (__main__.V0933Contract.test_019_edge_ligaments) ... ok
+test_020_pair_distances (__main__.V0933Contract.test_020_pair_distances) ... ok
+test_021_petg_metal_xy_identical_thickness_only (__main__.V0933Contract.test_021_petg_metal_xy_identical_thickness_only) ... ok
+test_022_left_right_identical_single_stl (__main__.V0933Contract.test_022_left_right_identical_single_stl) ... ok
+test_023_frame_proxy_contract (__main__.V0933Contract.test_023_frame_proxy_contract) ... ok
+test_024_bracket_proxy_contract (__main__.V0933Contract.test_024_bracket_proxy_contract) ... ok
+test_025_spacer_sweep_is_hold (__main__.V0933Contract.test_025_spacer_sweep_is_hold) ... ok
+test_026_height_impact (__main__.V0933Contract.test_026_height_impact) ... ok
+test_027_print_contract (__main__.V0933Contract.test_027_print_contract) ... ok
+test_028_stl_reload_flat_and_a1_fit (__main__.V0933Contract.test_028_stl_reload_flat_and_a1_fit) ... ok
+test_029_exact_eight_step_files_reload (__main__.V0933Contract.test_029_exact_eight_step_files_reload) ... ok
+test_030_two_identical_plates_step (__main__.V0933Contract.test_030_two_identical_plates_step) ... ok
+test_031_svg_contract (__main__.V0933Contract.test_031_svg_contract) ... ok
+test_032_dxf_contract (__main__.V0933Contract.test_032_dxf_contract) ... ok
+test_033_physical_procedure_exact_twenty_no_power (__main__.V0933Contract.test_033_physical_procedure_exact_twenty_no_power) ... ok
+test_034_no_power_or_load_approval (__main__.V0933Contract.test_034_no_power_or_load_approval) ... ok
+test_035_v0932_supersession_record (__main__.V0933Contract.test_035_v0932_supersession_record) ... ok
+test_036_exact_38_paths (__main__.V0933Contract.test_036_exact_38_paths) ... ok
+test_037_commit_paths_v0933_only (__main__.V0933Contract.test_037_commit_paths_v0933_only) ... ok
+test_038_manifest_exact (__main__.V0933Contract.test_038_manifest_exact) ... ok
+test_039_sha256_ledger (__main__.V0933Contract.test_039_sha256_ledger) ... ok
+test_040_machine_evidence (__main__.V0933Contract.test_040_machine_evidence) ... ok
+test_041_builder_verify (__main__.V0933Contract.test_041_builder_verify) ... ok
+test_042_zip_standalone_contract_when_requested (__main__.V0933Contract.test_042_zip_standalone_contract_when_requested) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 3.706s
+
+OK

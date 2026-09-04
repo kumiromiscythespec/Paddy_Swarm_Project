@@ -1,0 +1,68 @@
+{
+  "clamp": {
+    "bore_candidates_mm": [
+      10.1,
+      10.2,
+      10.3
+    ],
+    "m4_count": 2,
+    "metal_nut_count": 2,
+    "metal_washer_min_count": 4,
+    "petg_primary_thread": false,
+    "primary_bore_candidate_mm": 10.2,
+    "shaft_nominal_mm": 10.0,
+    "split_width_mm": 1.3
+  },
+  "classification": "TEMP_HTD5M_60T_SPLIT_CLAMP_PULLEY",
+  "gates": {
+    "field": "NOT_APPROVED",
+    "first_print": "COUPONS_ONLY",
+    "full_pulley_print": "AFTER_COUPON_SELECTION",
+    "full_torque": "NOT_APPROVED",
+    "hand_rotation": "AFTER_STATIC_PASS",
+    "mud": "NOT_APPROVED",
+    "short_dry_power": "AFTER_ALL_STATIC_AND_HAND_GATES",
+    "static_fit": "PHYSICAL_HOLD",
+    "water": "NOT_APPROVED"
+  },
+  "pulley": {
+    "flange_count": 2,
+    "flange_od_mm": 102.0,
+    "pitch_family": "HTD5M",
+    "pitch_mm": 5.0,
+    "profile_modification_count": 0,
+    "spacing_deg": 6.0,
+    "spoke_width_mm": 10.0,
+    "spokes": 6,
+    "teeth": 60,
+    "tooth_face_width_mm": 16.0
+  },
+  "scope": {
+    "belt_redesign_count": 0,
+    "crawler_guard_modification_count": 0,
+    "drive_20t_modification_count": 0,
+    "frame_redesign_count": 0,
+    "p20653_modification_count": 0
+  },
+  "source": {
+    "artifact": "cad/drive_htd5m_60t_reference.step",
+    "builder": "build_common_rover_drive_htd5m_tpu_trial_belt_v0951.py",
+    "lane": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1",
+    "original_lineage": {
+      "full_pulley_common.py": "cc4e894275c32d2e37c101367ec9bda7f124e9cf374ca53c011afda11f4a78de",
+      "pulley_60t_standard_dummy.py": "0a9d8e905df54b2594c420374eabc7678a6d95da231cb1f83bce15b64c864ec3",
+      "source_root": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1"
+    },
+    "sha256": {
+      "build_common_rover_drive_htd5m_tpu_trial_belt_v0951.py": "2d51ca23ca1d2dfa445f5ad45d76fd244ebdbb78984d27123979e3d95a1d2924",
+      "cad/drive_20t_60t_c180_113t_reference.step": "29c0a32423c4656211a903ccc19af635be2797901d67a8ffa01921b23d5ed1f6",
+      "cad/drive_htd5m_20t_reference.step": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+      "cad/drive_htd5m_60t_reference.step": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+      "pulley_geometry.json": "ff153d6de38d722746f3470ffc709137f5ae1458a00028006dbe7e0f64cfbf62",
+      "source_reuse_snapshot/htd5m_profile.py": "77f3e18eb14e2956213eddfc84529264585451c2014d0a8325229e368ede54e1",
+      "validation_report.json": "134a0b21208a019f8ffbcb450b20482104268b5359f6fae6a0f02be91d4915ee"
+    }
+  },
+  "status": "TEMP_HTD5M_60T_SPLIT_CLAMP_PULLEY_CAD_COMPLETE/EXACT_WORKING_60T_TOOTH_GEOMETRY_REUSED/Ø10_SPLIT_CLAMP_READY/BORE_COUPONS_READY/P20653_SCOPE_UNCHANGED/DRY_DUAL_MOTOR_TEST_FIXTURE_READY_FOR_PHYSICAL_FIT/FULL_TORQUE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.21"
+}

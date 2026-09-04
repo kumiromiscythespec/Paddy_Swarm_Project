@@ -1,0 +1,10 @@
+{
+  "+X": "front",
+  "+Y": "left",
+  "+Z": "up",
+  "absolute_frame_top": "HOLD_DATUM_CONFLICT",
+  "angle": "degree",
+  "ground_z": 0,
+  "unit": "mm",
+  "waterline_z": 150
+}

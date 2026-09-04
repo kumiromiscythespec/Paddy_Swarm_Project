@@ -1,0 +1,3 @@
+# DESIGN_REVIEW
+
+C0/3.5 mm/B102 minimizes internal change: nominal1.0 mm recessed set screws clear local link and guide/bearing/M4/nut/pocket checks pass. However the Ø3.5 through access void and internal tool path each intersect the conservative curved root/link envelope by about0.499080 mm3, violating two mandatory zero-intersection checks and the zero external-volume contract. Ø4.0/4.5 also fail the3 mm wall. Global transforms and tip measurements remain HOLD, but the local mandatory conflict alone is sufficient for FAIL. `H2.4_CAD = FAIL_ACCESS_BORE_LINK_CLEARANCE`; `H2.4_PHYSICAL_FIT = BLOCKED_PENDING_GEOMETRY_CORRECTION`; `GLOBAL_ASSEMBLY_INTERFERENCE = HOLD`; `PHYSICAL_PASS` is not granted; `POWERED_ROTATION = NOT_APPROVED`.

@@ -1,0 +1,205 @@
+{
+  "boxes": {
+    "bbox": {
+      "architecture": "SEALED_REMOVABLE_BATTERY_CASSETTE",
+      "axis": "X",
+      "blind_mate": false,
+      "cad_object": "MAX_AVAILABLE_ZONE_NOT_FINAL_BOX",
+      "dimensions": "HOLD",
+      "normal_swap_lid_open": false
+    },
+    "cbox": {
+      "architecture": "ABOVE_BBOX_INDEPENDENT_BRIDGE",
+      "cad_object": "COMPARISON_ZONE_NOT_FINAL_BOX",
+      "final_height": "HOLD",
+      "height_comparison": [
+        40,
+        50
+      ],
+      "outer_y_limit": 94
+    },
+    "old": {
+      "body": [
+        200,
+        150,
+        120
+      ],
+      "gasket": [
+        204,
+        154,
+        3
+      ],
+      "inside_current_frame": "FAIL",
+      "lid": [
+        216,
+        166,
+        16
+      ]
+    }
+  },
+  "classification": "PHYSICAL_INTEGRATION_REFERENCE",
+  "coordinate_system": {
+    "+X": "front",
+    "+Y": "left",
+    "+Z": "up",
+    "ground_z": 0,
+    "unit": "mm",
+    "waterline_z": 150
+  },
+  "crawler": {
+    "bearing": {
+      "central_clearance": 12.0,
+      "od_measured": 25.9,
+      "seat_trial": 26.0
+    },
+    "d26_updated_stl_found": false,
+    "lower_roller_count_per_side": 4,
+    "roller_axial_width_reference": 44,
+    "roller_od_reference": 50,
+    "roller_station_registration": "HOLD"
+  },
+  "frame": {
+    "bottom_z": 68.0,
+    "height": 150.0,
+    "lower_clear_x": 400.0,
+    "lower_clear_y": 140.0,
+    "lower_outer_x": 442.0,
+    "lower_outer_y": 181.0,
+    "tolerance": 1.0,
+    "top_z": 218.0,
+    "upper_clear_x": 500.0,
+    "upper_clear_y": 100.0,
+    "upper_outer_x": 540.0,
+    "upper_outer_y": 181.0,
+    "waterline_z": 150.0
+  },
+  "frame_cad_bounds": {
+    "x": 540.0,
+    "y": 181.0,
+    "z": 150.0,
+    "zmax": 218.0,
+    "zmin": 68.0
+  },
+  "frame_material": {
+    "2020": {
+      "100": 2,
+      "110": 4,
+      "180": 4
+    },
+    "2040": {
+      "400": 4
+    },
+    "vertical_100": "SUPERSEDED",
+    "vertical_110": "ADOPTED"
+  },
+  "h25a1": {
+    "antirotation_selected": "A2_REPLACEABLE_REACTION_KEY_ENVELOPE",
+    "antirotation_status": "HOLD_ACTUAL_SCREW_PROJECTION_AND_SHEAR",
+    "collar": {
+      "apparent_threaded_hole": 3.7,
+      "bore": 10.1,
+      "od": 15.9,
+      "width": 3.0
+    },
+    "compression_sleeve": "STRONGLY_RECOMMENDED",
+    "cover_fastener_candidates": [
+      16,
+      20,
+      25
+    ],
+    "external_12t": {
+      "axial_width": 44.0,
+      "embed_depth": 4.0,
+      "phase": 15.0,
+      "pitch_diameter": 76.3943726841,
+      "root_radius": 29.47,
+      "root_width": 9.5,
+      "tip_radius": 33.07,
+      "tip_width": 7.5,
+      "tooth_count": 12
+    },
+    "first_comparison": 20,
+    "friction_only": "REJECT",
+    "outer_volume_delta_mm3": 0.0,
+    "pocket_coupon_diameters": [
+      16.0,
+      16.1,
+      16.2
+    ],
+    "radial_tooth_root_access_hole": false,
+    "variant": "H2.5-A1_CAPTURED_SET_SCREW_COLLAR_HUB"
+  },
+  "integration_bounds": {
+    "x": 541.913738494514,
+    "y": 278.6,
+    "z": 220.0
+  },
+  "kp000": {
+    "axis_height": 18.5,
+    "axis_tol": 0.5,
+    "bore": 10.0,
+    "collar_protrusion": 6.0,
+    "crawler_count": 8,
+    "depth_y": 17.0,
+    "height_z": 35.0,
+    "mockup_total": 12,
+    "mount_hole_centers": "HOLD",
+    "opposite_protrusion": "HOLD",
+    "pto_other_count": 4,
+    "width_x": 67.0
+  },
+  "pto": {
+    "axis": "Y",
+    "driven_teeth": 20,
+    "driver_teeth": 20,
+    "load_path": "METAL_PLATE_KP000_METAL_SHAFT_KP000_METAL_PLATE",
+    "name": "COMMON_PTO_HS_1TO1",
+    "powered_rotation": "NOT_APPROVED",
+    "ratio": 1.0,
+    "transform": "HOLD"
+  },
+  "release": "HOLD",
+  "schema": "paddy_swarm.common_rover.physical_integration.v0.9.4.0",
+  "source_audit": [
+    {
+      "file_count": 75,
+      "path": "cad/common_rover/common_rover_staggered_deep_nut_set_screw_drive_sprocket_v0_9_3_7_3",
+      "sha256_tree": "a31c29d757d2d634e556134d79246c19f3d86e1b5b877c6761bd46569fc51f1c"
+    },
+    {
+      "file_count": 44,
+      "path": "cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1",
+      "sha256_tree": "4ef93d17cd6b5fe85354330685f75ccb931724ae3112e186d9c7171ce59ccd54"
+    },
+    {
+      "file_count": 34,
+      "path": "cad/common_rover/common_rover_crawler_tracking_retention_patch_v0_9_3_5",
+      "sha256_tree": "f0128a6e66c50a8bc108d0baafaca3eca0bc26e2075b57f20af3a31e0d267d19"
+    },
+    {
+      "file_count": 30,
+      "path": "cad/common_rover/common_rover_crawler_guide_clearance_retest_coupon_v0_9_3_6",
+      "sha256_tree": "6bb0fccc043057a38bdb0f367900631d27d5cc20863661ef2bdc71c7e2d1ac72"
+    },
+    {
+      "file_count": 20,
+      "path": "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_3",
+      "sha256_tree": "a74e8117eb9d07993f7ae6e21feaced9b784e9bc4d792818955aefc09fba003b"
+    }
+  ],
+  "triangular_extension": {
+    "difference_x": 98.0,
+    "front_registration": "DERIVED_CANDIDATE_HOLD_PHYSICAL_DATUM_CONFIRMATION",
+    "pivot_joint": [
+      32,
+      20,
+      20
+    ],
+    "sole_final_lock": "NOT_APPROVED"
+  },
+  "water": {
+    "buoyancy": "HOLD_BBOX_DIMS_AND_MASS",
+    "internal_contact": "NOT_ALLOWED",
+    "shell_contact": "ALLOWED"
+  }
+}

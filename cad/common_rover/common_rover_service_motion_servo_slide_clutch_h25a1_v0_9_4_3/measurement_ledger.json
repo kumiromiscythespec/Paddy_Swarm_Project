@@ -1,0 +1,183 @@
+{
+  "rows": [
+    {
+      "classification": "MEASURED",
+      "id": "M001",
+      "name": "FRAME_STRUCTURAL_HEIGHT",
+      "value": 150.0
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M002",
+      "name": "BATTERY_INSERTION_CLEAR_HEIGHT",
+      "value": 108.0
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M003",
+      "name": "BATTERY_BODY_XYZ",
+      "value": [
+        150.9,
+        99.4,
+        92.5
+      ]
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M004",
+      "name": "BATTERY_MASS",
+      "value": 1.2
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M005",
+      "name": "COLLAR_OD",
+      "value": 15.9
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M006",
+      "name": "COLLAR_ID",
+      "value": 10.1
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M007",
+      "name": "COLLAR_WIDTH",
+      "value": 3.0
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M008",
+      "name": "SET_SCREW_COUNT",
+      "value": 2
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M009",
+      "name": "SET_SCREW_ANGLE",
+      "value": 90.0
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M010",
+      "name": "SET_SCREW_LENGTH",
+      "value": 4.0
+    },
+    {
+      "classification": "MEASURED",
+      "id": "M011",
+      "name": "SET_SCREW_PROJECTION",
+      "value": 1.0
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H001",
+      "name": "WASHER_MAX_OD",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H002",
+      "name": "WASHER_STACK_THICKNESS",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H003",
+      "name": "SCREW_HEAD_MAX_OD",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H004",
+      "name": "SCREW_HEAD_HEIGHT",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H005",
+      "name": "FULL_HARDWARE_AXIAL_WIDTH",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H006",
+      "name": "CENTER_TO_RADIAL_MAX_ENVELOPE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H007",
+      "name": "SERVO_BODY_XYZ",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H008",
+      "name": "SERVO_MOUNT_HOLES",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H009",
+      "name": "SERVO_OUTPUT_CENTER",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H010",
+      "name": "SERVO_HORN_RADIUS",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H011",
+      "name": "SERVO_VOLTAGE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H012",
+      "name": "SERVO_RATED_TORQUE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H013",
+      "name": "SERVO_WATERPROOF",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H014",
+      "name": "CLUTCH_DRIVE_COORDINATE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H015",
+      "name": "CLUTCH_NEUTRAL_COORDINATE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H016",
+      "name": "CLUTCH_PTO_COORDINATE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H017",
+      "name": "CLUTCH_TOTAL_STROKE",
+      "value": null
+    },
+    {
+      "classification": "HOLD_MEASUREMENT_REQUIRED",
+      "id": "H018",
+      "name": "CLUTCH_MANUAL_LINEAR_FORCE",
+      "value": null
+    }
+  ],
+  "schema": "paddy_swarm.common_rover.service_servo_clutch.measurements.v0.9.4.3"
+}

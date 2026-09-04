@@ -1,0 +1,125 @@
+{
+  "battery": {
+    "capacity_ah": 10.0,
+    "chemistry": "LiFePO4",
+    "energy_wh": 128.0,
+    "label_claim": "IP67",
+    "maker": "GOLDENMATE",
+    "mass_kg": 1.2,
+    "terminals": "PRESENT",
+    "voltage": 12.8,
+    "with_terminals_in_108_passage": "PHYSICAL_PASS_USER_REPORTED",
+    "x": 150.9,
+    "y": 99.4,
+    "z": 92.5
+  },
+  "bbox_dummy": {
+    "construction": "SPLIT_SKELETON_GAUGE",
+    "nominal_clearances": [
+      5.0,
+      3.0,
+      1.0
+    ],
+    "physical_fit": "PENDING_USER_TEST",
+    "removal": "-X",
+    "shims": [
+      2.0,
+      4.0
+    ],
+    "test_heights": [
+      103.0,
+      105.0,
+      107.0
+    ],
+    "waterproof": false,
+    "x": 180.0,
+    "y": 114.0,
+    "z": 103.0
+  },
+  "bearing": {
+    "central_clearance": 12.0,
+    "od": 25.9,
+    "seat": 26.0
+  },
+  "classification": "PHYSICAL_FIT_VALIDATION_PREPARATION",
+  "collar": {
+    "id": 10.1,
+    "od": 15.9,
+    "pockets": [
+      16.0,
+      16.1,
+      16.2
+    ],
+    "type": "SOLID_SET_SCREW_SHAFT_COLLAR",
+    "width": 3.0
+  },
+  "frame": {
+    "lower_clear_x": 400.0,
+    "lower_clear_y": 140.0,
+    "lower_outer_x": 442.0,
+    "lower_outer_y": 181.0,
+    "status": "REOPENED_PRIMARY_COMPACT_BASELINE",
+    "structural_height": 150.0,
+    "tolerance": 1.0,
+    "upper_clear_x": 500.0,
+    "upper_clear_y": 100.0,
+    "upper_outer_x": 540.0,
+    "upper_outer_y": 181.0,
+    "vertical_2020": 110.0
+  },
+  "kp000": {
+    "mount_hole_center": 53.0,
+    "policy": "INHERITED_NO_NEW_MANUFACTURING_CAD"
+  },
+  "protected_sprocket": {
+    "axial_width": 44.0,
+    "external_difference": 0.0,
+    "phase": 15.0,
+    "pitch_diameter": 76.3943726841,
+    "root_overlap": 4.0,
+    "root_radius": 29.47,
+    "root_width": 9.5,
+    "spacing": 30.0,
+    "teeth": 12,
+    "tip_radius": 33.07,
+    "tip_width": 7.5
+  },
+  "rail_gauges": [
+    130,
+    132,
+    134
+  ],
+  "reaction": {
+    "candidate": "A2_DUAL_REPLACEABLE_REACTION_KEY",
+    "final": "HOLD_PHYSICAL_TEST",
+    "fixture_slot": 4.2,
+    "slots": [
+      4.1,
+      4.2,
+      4.3
+    ]
+  },
+  "set_screws": {
+    "angle": 90.0,
+    "length": 4.0,
+    "major_od": 3.8,
+    "nominal": "M4",
+    "pitch": "HOLD",
+    "projection": 1.0,
+    "quantity": 2,
+    "radial_keepout": 8.95
+  },
+  "version": "0.9.4.2",
+  "z_record": {
+    "absolute_frame_z": "HOLD",
+    "battery_insertion_clear_classification": "MEASURED",
+    "battery_insertion_clear_height": 108.0,
+    "conflict": 6.0,
+    "derived_top": 218.0,
+    "ground_to_bottom_measured": 68.0,
+    "later_reported_top": 212.0,
+    "previous_internal_z": 90.7,
+    "previous_internal_z_classification": "VALID_MEASUREMENT_DIFFERENT_DATUM",
+    "previous_internal_z_use": "DO_NOT_USE_AS_BBOX_INSERTION_HEIGHT"
+  }
+}

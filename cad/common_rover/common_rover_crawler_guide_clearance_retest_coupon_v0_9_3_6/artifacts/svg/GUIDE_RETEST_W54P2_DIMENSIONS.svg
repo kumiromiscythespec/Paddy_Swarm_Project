@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8,4 L0,0 L0,8 Z" fill="#245"/></marker></defs>
+<rect width="100%" height="100%" fill="#f7f8fa"/><text x="40" y="48" font-family="sans-serif" font-size="28" font-weight="bold">Guide retest W54P2 dimensions</text>
+<text x="40" y="78" font-family="sans-serif" font-size="16" fill="#a22">FIT TEST ONLY · NO POWER · NO LOAD</text><text x="80" y="195" font-family="sans-serif" font-size="22">A35</text>
+<rect x="439.2" y="165" width="321.59999999999997" height="70" fill="#9cc" opacity="0.55"/>
+<path d="M413.4,245 L437.4,245 L437.4,195 L405.89066078056305,170 L413.4,195 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<path d="M762.6,245 L786.6,245 L786.6,195 L794.109339219437,170 L762.6,195 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<line x1="437.4" y1="265" x2="762.6" y2="265" stroke="#245" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="600.0" y="290" text-anchor="middle" font-family="sans-serif" font-size="18">lower/slope-start inner spacing 54.2 mm</text><text x="80" y="350" font-family="sans-serif" font-size="22">A40</text>
+<rect x="439.2" y="320" width="321.59999999999997" height="70" fill="#9cc" opacity="0.55"/>
+<path d="M413.4,400 L437.4,400 L437.4,350 L399.6405165970224,325 L413.4,350 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<path d="M762.6,400 L786.6,400 L786.6,350 L800.3594834029776,325 L762.6,350 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<line x1="437.4" y1="420" x2="762.6" y2="420" stroke="#245" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="600.0" y="445" text-anchor="middle" font-family="sans-serif" font-size="18">lower/slope-start inner spacing 54.2 mm</text><text x="80" y="505" font-family="sans-serif" font-size="22">A45</text>
+<rect x="439.2" y="475" width="321.59999999999997" height="70" fill="#9cc" opacity="0.55"/>
+<path d="M413.4,555 L437.4,555 L437.4,505 L392.4,480 L413.4,505 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<path d="M762.6,555 L786.6,555 L786.6,505 L807.6,480 L762.6,505 Z" fill="#e79" stroke="#713" stroke-width="2"/>
+<line x1="437.4" y1="575" x2="762.6" y2="575" stroke="#245" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="600.0" y="600" text-anchor="middle" font-family="sans-serif" font-size="18">lower/slope-start inner spacing 54.2 mm</text><text x="40" y="650" font-family="sans-serif" font-size="18">Physical proxy 53.6 mm · guide width L/R 4.0 mm · outer span 62.2 mm · nominal clearance 0.3 mm/side</text></svg>

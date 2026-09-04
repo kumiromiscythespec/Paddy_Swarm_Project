@@ -1,0 +1,6 @@
+coupon_first=PASS
+step=24/24
+stl=11/11
+svg=5/5
+design_status=FAIL_M3X25_HEAD_WASHER_INTERFACE_WITH_PRESERVED_EXTERNAL_GEOMETRY
+physical_test=COUPONS_ONLY

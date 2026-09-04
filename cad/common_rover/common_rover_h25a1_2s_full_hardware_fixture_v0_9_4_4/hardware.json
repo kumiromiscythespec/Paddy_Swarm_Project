@@ -1,0 +1,57 @@
+{
+  "actual": {
+    "collar_id_mm": 10.1,
+    "collar_od_mm": 15.9,
+    "collar_width_mm": 3.0,
+    "full_axial_width_mm": 8.8,
+    "full_radial_envelope_mm": 20.0,
+    "screw_head_height_mm": 2.8,
+    "screw_head_max_od_mm": 6.8,
+    "set_screw_angle_deg": 90.0,
+    "set_screw_length_mm": 4.0,
+    "set_screw_major_od_measured_mm": 3.8,
+    "set_screw_nominal": "M4",
+    "set_screw_projection_mm": 1.0,
+    "set_screw_qty": 2,
+    "thread_pitch": null,
+    "washer_max_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "failure_history": {
+    "H0": "PHYSICAL_FAIL_SLIP_PETG_FRICTION_CLAMP_REJECTED",
+    "H2.3": "FAIL_OD6P8_WASHER_EXCEEDS_6P001_ROOT_GAP_AND_LINK_INTERFERENCE",
+    "H2.4": "FAIL_RADIAL_ACCESS_REMOVES_0P499080075_MM3_PROTECTED_ROOT_LINK",
+    "absolute_rules": [
+      "NO_PETG_FRICTION_ONLY_SHAFT_CLAMP",
+      "NO_RADIAL_TOOTH_ROOT_SERVICE_HOLE",
+      "NO_PROTECTED_12T_EXTERNAL_CHANGE",
+      "NO_FORCED_WASHER_PASSAGE_THROUGH_ROOT"
+    ]
+  },
+  "full_assembly_required": [
+    "COLLAR",
+    "M4_X",
+    "M4_Y",
+    "CAPTIVE_WASHER_X",
+    "CAPTIVE_WASHER_Y",
+    "HEAD_X",
+    "HEAD_Y"
+  ],
+  "reaction_key": {
+    "body_width_mm": 17.8,
+    "head_reaction_land_relief_mm": 6.9,
+    "installed_center_offset_mm": 22.95,
+    "neutral_final": false,
+    "neutral_mm": 4.2,
+    "replaceable": true,
+    "spare_ratio": 1.0,
+    "variants_mm": [
+      4.1,
+      4.2,
+      4.3
+    ],
+    "washer_relief_mm": 9.2
+  },
+  "reference_geometry": "MEASURED_MAXIMA_WITH_SYMMETRIC_PARAMETRIC_PLACEMENT",
+  "remaining_asymmetry_hold": true
+}

@@ -1,0 +1,46 @@
+command=python -B tests/test_motor_bracket_adapter_v0932.py
+status=PASS
+Ran 35 tests in 3.691s
+OK
+physical_fit=NOT_YET_PERFORMED
+full_output:
+test_001_identity_and_release_class (__main__.MotorBracketAdapterV0932Contract.test_001_identity_and_release_class) ... ok
+test_002_v0931_commit_exists_and_is_ancestor (__main__.MotorBracketAdapterV0932Contract.test_002_v0931_commit_exists_and_is_ancestor) ... ok
+test_003_parent_v0931_hash_state_is_unchanged (__main__.MotorBracketAdapterV0932Contract.test_003_parent_v0931_hash_state_is_unchanged) ... ok
+test_004_authority_pointer_is_unchanged (__main__.MotorBracketAdapterV0932Contract.test_004_authority_pointer_is_unchanged) ... ok
+test_005_plate_dimensions_and_corner_radius_are_exact (__main__.MotorBracketAdapterV0932Contract.test_005_plate_dimensions_and_corner_radius_are_exact) ... ok
+test_006_bracket_outer_dimensions_are_measured_values (__main__.MotorBracketAdapterV0932Contract.test_006_bracket_outer_dimensions_are_measured_values) ... ok
+test_007_twenty_four_is_hole_center_pitch_not_outer_size (__main__.MotorBracketAdapterV0932Contract.test_007_twenty_four_is_hole_center_pitch_not_outer_size) ... ok
+test_008_bracket_hole_coordinates_are_exact (__main__.MotorBracketAdapterV0932Contract.test_008_bracket_hole_coordinates_are_exact) ... ok
+test_009_frame_slot_pitch_and_coordinates_are_exact (__main__.MotorBracketAdapterV0932Contract.test_009_frame_slot_pitch_and_coordinates_are_exact) ... ok
+test_010_frame_hole_pitch_and_coordinates_are_exact (__main__.MotorBracketAdapterV0932Contract.test_010_frame_hole_pitch_and_coordinates_are_exact) ... ok
+test_011_m5_through_hole_and_keepouts_are_exact (__main__.MotorBracketAdapterV0932Contract.test_011_m5_through_hole_and_keepouts_are_exact) ... ok
+test_012_measured_m5_fastener_is_recorded (__main__.MotorBracketAdapterV0932Contract.test_012_measured_m5_fastener_is_recorded) ... ok
+test_013_m5_length_candidates_are_not_released (__main__.MotorBracketAdapterV0932Contract.test_013_m5_length_candidates_are_not_released) ... ok
+test_014_m4_c360_and_c370_are_exact (__main__.MotorBracketAdapterV0932Contract.test_014_m4_c360_and_c370_are_exact) ... ok
+test_015_m4_blind_holes_leave_actual_bottom_material (__main__.MotorBracketAdapterV0932Contract.test_015_m4_blind_holes_leave_actual_bottom_material) ... ok
+test_016_coupon_has_all_eight_labeled_candidates (__main__.MotorBracketAdapterV0932Contract.test_016_coupon_has_all_eight_labeled_candidates) ... ok
+test_017_all_m4_m5_actual_shape_intersections_are_zero (__main__.MotorBracketAdapterV0932Contract.test_017_all_m4_m5_actual_shape_intersections_are_zero) ... ok
+test_018_washer_and_tool_keepouts_do_not_intersect_bracket (__main__.MotorBracketAdapterV0932Contract.test_018_washer_and_tool_keepouts_do_not_intersect_bracket) ... ok
+test_019_washer_plate_edge_margin_is_at_least_five (__main__.MotorBracketAdapterV0932Contract.test_019_washer_plate_edge_margin_is_at_least_five) ... ok
+test_020_m4_outer_residual_is_sufficient (__main__.MotorBracketAdapterV0932Contract.test_020_m4_outer_residual_is_sufficient) ... ok
+test_021_bracket_and_frame_centerlines_coincide (__main__.MotorBracketAdapterV0932Contract.test_021_bracket_and_frame_centerlines_coincide) ... ok
+test_022_frame_proxy_does_not_invent_t_slot_profile (__main__.MotorBracketAdapterV0932Contract.test_022_frame_proxy_does_not_invent_t_slot_profile) ... ok
+test_023_left_and_right_use_one_identical_part (__main__.MotorBracketAdapterV0932Contract.test_023_left_and_right_use_one_identical_part) ... ok
+test_024_all_three_stls_reload_flat_and_fit_a1 (__main__.MotorBracketAdapterV0932Contract.test_024_all_three_stls_reload_flat_and_fit_a1) ... ok
+test_025_all_seven_step_assemblies_reload (__main__.MotorBracketAdapterV0932Contract.test_025_all_seven_step_assemblies_reload) ... ok
+test_026_all_eight_svgs_are_one_to_one_contracts (__main__.MotorBracketAdapterV0932Contract.test_026_all_eight_svgs_are_one_to_one_contracts) ... ok
+test_027_height_impact_is_hold_not_authority_update (__main__.MotorBracketAdapterV0932Contract.test_027_height_impact_is_hold_not_authority_update) ... ok
+test_028_physical_procedure_has_seventeen_steps (__main__.MotorBracketAdapterV0932Contract.test_028_physical_procedure_has_seventeen_steps) ... ok
+test_029_old_cradle_is_deprecated_only_in_new_lane (__main__.MotorBracketAdapterV0932Contract.test_029_old_cradle_is_deprecated_only_in_new_lane) ... ok
+test_030_no_power_load_or_authority_approval (__main__.MotorBracketAdapterV0932Contract.test_030_no_power_load_or_authority_approval) ... ok
+test_031_exact_39_path_contract_and_commit_scope (__main__.MotorBracketAdapterV0932Contract.test_031_exact_39_path_contract_and_commit_scope) ... ok
+test_032_manifest_and_hash_ledgers_are_exact (__main__.MotorBracketAdapterV0932Contract.test_032_manifest_and_hash_ledgers_are_exact) ... ok
+test_033_repository_lifecycle_guard (__main__.MotorBracketAdapterV0932Contract.test_033_repository_lifecycle_guard) ... ok
+test_034_machine_readable_evidence_contract (__main__.MotorBracketAdapterV0932Contract.test_034_machine_readable_evidence_contract) ... ok
+test_035_zip_scope_hashes_and_standalone_contract (__main__.MotorBracketAdapterV0932Contract.test_035_zip_scope_hashes_and_standalone_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 3.691s
+
+OK

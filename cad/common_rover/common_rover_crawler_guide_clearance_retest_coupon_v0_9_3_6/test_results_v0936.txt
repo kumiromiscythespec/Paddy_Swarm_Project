@@ -1,0 +1,48 @@
+command=python -B tests/test_crawler_guide_clearance_retest_v0936.py
+status=PASS
+Ran 36 tests in 35.352s
+OK
+physical_test=NOT_YET_PERFORMED
+final_selection=HOLD
+full_output:
+test_001_identity_and_exact_paths (__main__.V0936Contract.test_001_identity_and_exact_paths) ... ok
+test_002_repository_guard (__main__.V0936Contract.test_002_repository_guard) ... ok
+test_003_parent_v0935_unchanged (__main__.V0936Contract.test_003_parent_v0935_unchanged) ... ok
+test_004_selected_source_unchanged (__main__.V0936Contract.test_004_selected_source_unchanged) ... ok
+test_005_physical_width_and_guide_width (__main__.V0936Contract.test_005_physical_width_and_guide_width) ... ok
+test_006_source_width_comparison_hold (__main__.V0936Contract.test_006_source_width_comparison_hold) ... ok
+test_007_old_coupon_supersession (__main__.V0936Contract.test_007_old_coupon_supersession) ... ok
+test_008_preserved_architecture (__main__.V0936Contract.test_008_preserved_architecture) ... ok
+test_009_exact_three_stl_outputs (__main__.V0936Contract.test_009_exact_three_stl_outputs) ... ok
+test_010_three_plates_nine_stations (__main__.V0936Contract.test_010_three_plates_nine_stations) ... ok
+test_011_exact_spacing_values (__main__.V0936Contract.test_011_exact_spacing_values) ... ok
+test_012_each_plate_has_exact_three_angles (__main__.V0936Contract.test_012_each_plate_has_exact_three_angles) ... ok
+test_013_w54p2_only_54p2 (__main__.V0936Contract.test_013_w54p2_only_54p2) ... ok
+test_014_w54p4_only_54p4 (__main__.V0936Contract.test_014_w54p4_only_54p4) ... ok
+test_015_w54p6_only_54p6 (__main__.V0936Contract.test_015_w54p6_only_54p6) ... ok
+test_016_exact_guide_widths (__main__.V0936Contract.test_016_exact_guide_widths) ... ok
+test_017_outer_spans (__main__.V0936Contract.test_017_outer_spans) ... ok
+test_018_nominal_clearances (__main__.V0936Contract.test_018_nominal_clearances) ... ok
+test_019_measurement_planes_recorded (__main__.V0936Contract.test_019_measurement_planes_recorded) ... ok
+test_020_guide_section_contract (__main__.V0936Contract.test_020_guide_section_contract) ... ok
+test_021_apex_radius_and_no_shelf (__main__.V0936Contract.test_021_apex_radius_and_no_shelf) ... ok
+test_022_centered_proxy_collision_zero (__main__.V0936Contract.test_022_centered_proxy_collision_zero) ... ok
+test_023_symmetry_and_direction_equivalence (__main__.V0936Contract.test_023_symmetry_and_direction_equivalence) ... ok
+test_024_no_disconnected_guides_or_floating_markings (__main__.V0936Contract.test_024_no_disconnected_guides_or_floating_markings) ... ok
+test_025_markings_match_geometry (__main__.V0936Contract.test_025_markings_match_geometry) ... ok
+test_026_dimension_csv_exact (__main__.V0936Contract.test_026_dimension_csv_exact) ... ok
+test_027_source_comparison_csv (__main__.V0936Contract.test_027_source_comparison_csv) ... ok
+test_028_step_reload (__main__.V0936Contract.test_028_step_reload) ... ok
+test_029_stl_watertight_single_component (__main__.V0936Contract.test_029_stl_watertight_single_component) ... ok
+test_030_svg_parse (__main__.V0936Contract.test_030_svg_parse) ... ok
+test_031_manifest_and_hashes (__main__.V0936Contract.test_031_manifest_and_hashes) ... ok
+test_032_commit_paths_exact_new_lane (__main__.V0936Contract.test_032_commit_paths_exact_new_lane) ... ok
+test_033_builder_verify (__main__.V0936Contract.test_033_builder_verify) ... ok
+test_034_no_power_manufacturing_or_authority_approval (__main__.V0936Contract.test_034_no_power_manufacturing_or_authority_approval) ... ok
+test_035_provisional_first_test_only (__main__.V0936Contract.test_035_provisional_first_test_only) ... ok
+test_036_zip_contract_when_requested (__main__.V0936Contract.test_036_zip_contract_when_requested) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 35.352s
+
+OK

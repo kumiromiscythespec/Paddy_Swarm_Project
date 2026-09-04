@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-01",
+      "name": "COLLAR_OD_MM",
+      "value": 15.9
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-02",
+      "name": "COLLAR_ID_MM",
+      "value": 10.1
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-03",
+      "name": "COLLAR_WIDTH_MM",
+      "value": 3.0
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-04",
+      "name": "SET_SCREW_QTY",
+      "value": 2
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-05",
+      "name": "SET_SCREW_ANGLE_DEG",
+      "value": 90.0
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-06",
+      "name": "SET_SCREW_NOMINAL",
+      "value": "M4"
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-07",
+      "name": "SET_SCREW_MAJOR_OD_MEASURED_MM",
+      "value": 3.8
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-08",
+      "name": "SET_SCREW_LENGTH_MM",
+      "value": 4.0
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-09",
+      "name": "SET_SCREW_PROJECTION_MM",
+      "value": 1.0
+    },
+    {
+      "classification": "HOLD",
+      "id": "H25-10",
+      "name": "THREAD_PITCH",
+      "value": null
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-11",
+      "name": "WASHER_MAX_OD_MM",
+      "value": 8.8
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-12",
+      "name": "WASHER_STACK_MM",
+      "value": 1.8
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-13",
+      "name": "SCREW_HEAD_MAX_OD_MM",
+      "value": 6.8
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-14",
+      "name": "SCREW_HEAD_HEIGHT_MM",
+      "value": 2.8
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-15",
+      "name": "FULL_RADIAL_ENVELOPE_MM",
+      "value": 20.0
+    },
+    {
+      "classification": "MEASURED_USER_REPORTED",
+      "id": "H25-16",
+      "name": "FULL_AXIAL_WIDTH_MM",
+      "value": 8.8
+    },
+    {
+      "classification": "DERIVED",
+      "id": "DER-01",
+      "name": "ROOT_MINUS_HARDWARE",
+      "value": 9.47
+    },
+    {
+      "classification": "DERIVED",
+      "id": "DER-02",
+      "name": "CENTERED_AXIAL_MARGIN_EACH_SIDE",
+      "value": 17.6
+    },
+    {
+      "classification": "DERIVED_CANDIDATE",
+      "id": "DER-03",
+      "name": "MIN_REMAINING_PETG_WALL_R206",
+      "value": 5.37
+    },
+    {
+      "classification": "DERIVED_BLOCKED",
+      "id": "DER-04",
+      "name": "LINK_CENTERED_SIDE_PROTRUSION",
+      "value": 4.8
+    }
+  ],
+  "schema": "paddy_swarm.common_rover.h25a1.full_hardware_fixture.measurements.v0.9.4.4"
+}
