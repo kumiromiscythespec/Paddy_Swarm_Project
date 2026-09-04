@@ -1,0 +1,34 @@
+{
+  "official_order": [
+    "PHASE3IC_D01",
+    "PHASE3IC_D02",
+    "PHASE3IC_D03",
+    "PHASE3ID_D04D",
+    "PHASE3ID_D05D"
+  ],
+  "old_phase3ic_d04_d05_excluded": true,
+  "D04D": {
+    "base": "PHASE3IC_D03_EXACT",
+    "added": [
+      "POSITIVE_DOWNCHUTE",
+      "DRIP_NOSE",
+      "POSITIVE_RECEIVER",
+      "OPEN_VERTICAL_CHANNEL",
+      "BOTTOM_DISCHARGE",
+      "OPEN_WICK_ROUTES",
+      "REAR_SPINE"
+    ],
+    "volume_increment_mm3": 52379.70886868413
+  },
+  "D05D": {
+    "base": "PHASE3ID_D04D_EXACT",
+    "added": [
+      "UNCHANGED_STACKING_GUIDES",
+      "GUIDE_RAMPS",
+      "FINAL_TOP_BAND"
+    ],
+    "volume_increment_mm3": 10745.26261874102
+  },
+  "later_feature_removal_count": 0,
+  "d05d_corrected_full_equivalent": true
+}

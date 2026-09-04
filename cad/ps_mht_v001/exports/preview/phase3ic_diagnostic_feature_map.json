@@ -1,0 +1,78 @@
+{
+  "progression": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05"
+  ],
+  "strictly_additive_feature_authority": true,
+  "stages": {
+    "D01": {
+      "name": "PHASE3IC_DIAG_01_WET_CORE_MAIN_WALL",
+      "features": [
+        "REAL_SUMP_FLOOR",
+        "MAIN_OUTER_WALL",
+        "CONTINUOUS_INNER_DAM",
+        "CENTRAL_OPENING",
+        "REAR_WEIR_BOUNDARY",
+        "THREE_PORT_CUTS",
+        "LOWER_STRUCTURE",
+        "UPPER_MAIN_BAND"
+      ],
+      "added_from_previous": [
+        "BASELINE_WET_CORE"
+      ]
+    },
+    "D02": {
+      "name": "PHASE3IC_DIAG_02_PLUS_CRADLE_BUTTRESSES",
+      "features": [
+        "D01_ALL",
+        "THREE_MAIN_PADS",
+        "SIX_SIDE_PADS",
+        "NINE_FLOOR_CONNECTED_BUTTRESSES"
+      ],
+      "added_from_previous": [
+        "CRADLE_PADS_AND_BUTTRESSES"
+      ]
+    },
+    "D03": {
+      "name": "PHASE3IC_DIAG_03_PLUS_RETENTION_LUGS",
+      "features": [
+        "D02_ALL",
+        "SIX_RETENTION_LUGS",
+        "SIX_5P6MM_TEARDROP_HOLES"
+      ],
+      "added_from_previous": [
+        "RETENTION_LUGS_AND_ROPE_HOLES"
+      ]
+    },
+    "D04": {
+      "name": "PHASE3IC_DIAG_04_PLUS_REAR_CASCADE_AND_WICK",
+      "features": [
+        "D03_ALL",
+        "THREE_OPEN_WICK_ROUTES",
+        "OPEN_REAR_CASCADE",
+        "OPEN_CHUTE",
+        "INTEGRATED_REAR_SIDE_WALLS"
+      ],
+      "added_from_previous": [
+        "REAR_CASCADE_AND_WICK"
+      ]
+    },
+    "D05": {
+      "name": "PHASE3IC_DIAG_05_PLUS_STACKING_GUIDES_FULL_EQUIVALENT",
+      "features": [
+        "D04_ALL",
+        "THREE_DRY_STACKING_GUIDES",
+        "THREE_GUIDE_RAMPS",
+        "FINAL_TOP_BAND_EQUIVALENT"
+      ],
+      "added_from_previous": [
+        "STACKING_GUIDES_AND_RAMPS"
+      ]
+    }
+  },
+  "bambu_studio_result": "PENDING",
+  "print_status": "SLICER_DIAGNOSTIC_ONLY_DO_NOT_PRINT"
+}

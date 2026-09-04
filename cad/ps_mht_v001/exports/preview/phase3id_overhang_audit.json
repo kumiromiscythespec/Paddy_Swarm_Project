@@ -1,0 +1,24 @@
+{
+  "features": {
+    "downchute_inlet": "SELF_SUPPORTING",
+    "downchute_side_walls": "SELF_SUPPORTING",
+    "drip_nose_underside": "SELF_SUPPORTING",
+    "receiver_mouth": "SHORT_BRIDGE_8MM_OR_LESS",
+    "receiver_side_walls": "SELF_SUPPORTING",
+    "receiver_to_vertical_channel_transition": "SELF_SUPPORTING",
+    "lower_vertical_channel": "SELF_SUPPORTING",
+    "bottom_discharge_ramp": "SELF_SUPPORTING",
+    "stacking_guides": "SELF_SUPPORTING",
+    "retention_lugs": "SELF_SUPPORTING",
+    "cradle": "SELF_SUPPORTING"
+  },
+  "unsupported_prohibited_count": 0,
+  "horizontal_bridge_over_8mm_count": 0,
+  "airborne_start_count": 0,
+  "cad_support_dependency": false,
+  "maximum_surface_angle_from_vertical_deg": 45.0,
+  "registered_vertical_orientation_required": true,
+  "sideways_print_prohibited": true,
+  "split_print_prohibited": true,
+  "bambu_studio_review_pending": true
+}

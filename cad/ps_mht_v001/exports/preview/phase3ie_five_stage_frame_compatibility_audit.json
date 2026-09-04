@@ -1,0 +1,87 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-E",
+  "audit": "FIVE_STAGE_30DEG_FRAME_COMPATIBILITY",
+  "status": "FRAME_CLOCKING_CONFLICT",
+  "rotation_revision": {
+    "previous_rotation_deg": 60.0,
+    "previous_status": "REJECTED_BY_DROP_CORRIDOR_COLLISION",
+    "authorized_rotation_deg": 30.0
+  },
+  "authority_basis": {
+    "rear_service_direction_local": "-X",
+    "rear_service_local_angle_deg": 180.0,
+    "rear_2020_post_center_xy_mm": [-150.0, 0.0],
+    "rear_2020_post_section_mm": [20.0, 20.0],
+    "interface_probe_radius_mm": 100.0,
+    "modeled_fastener_interface": false,
+    "source_records": [
+      "reference/integrated_stage_references_phase3ia.py",
+      "reference/interstage_cascade_references_phase3id.py",
+      "docs/PHASE3IA_ARCHITECTURE.md"
+    ]
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "absolute_rotation_deg": 0.0,
+      "fixed_interface_absolute_angle_deg": 180.0,
+      "interface_probe_xy_mm": [-100.0, 0.0],
+      "distance_to_post_center_mm": 50.0,
+      "planar_distance_to_post_box_mm": 40.0,
+      "same_fixed_post_axis": true
+    },
+    {
+      "stage": 2,
+      "absolute_rotation_deg": 30.0,
+      "fixed_interface_absolute_angle_deg": 210.0,
+      "interface_probe_xy_mm": [-86.60254, -50.0],
+      "distance_to_post_center_mm": 80.741798,
+      "planar_distance_to_post_box_mm": 66.717979,
+      "same_fixed_post_axis": false
+    },
+    {
+      "stage": 3,
+      "absolute_rotation_deg": 60.0,
+      "fixed_interface_absolute_angle_deg": 240.0,
+      "interface_probe_xy_mm": [-50.0, -86.60254],
+      "distance_to_post_center_mm": 132.287566,
+      "planar_distance_to_post_box_mm": 118.186079,
+      "same_fixed_post_axis": false
+    },
+    {
+      "stage": 4,
+      "absolute_rotation_deg": 90.0,
+      "fixed_interface_absolute_angle_deg": 270.0,
+      "interface_probe_xy_mm": [0.0, -100.0],
+      "distance_to_post_center_mm": 180.277564,
+      "planar_distance_to_post_box_mm": 166.43317,
+      "same_fixed_post_axis": false
+    },
+    {
+      "stage": 5,
+      "absolute_rotation_deg": 120.0,
+      "fixed_interface_absolute_angle_deg": 300.0,
+      "interface_probe_xy_mm": [50.0, -86.60254],
+      "distance_to_post_center_mm": 217.944947,
+      "planar_distance_to_post_box_mm": 204.860804,
+      "same_fixed_post_axis": false
+    }
+  ],
+  "compatibility": {
+    "all_five_stages_align_to_one_fixed_post": false,
+    "conflicting_stages": [2, 3, 4, 5],
+    "fastener_tool_envelope": "UNRESOLVED_NO_MODELED_FASTENER_INTERFACE",
+    "hose_and_wiring_envelope": "UNRESOLVED_NO_MODELED_ROUTING_INTERFACE",
+    "clocking_gauge_vs_post": "UNRESOLVED_PENDING_FRAME_INTERFACE_SELECTION",
+    "frame_compatibility_pass_declared": false
+  },
+  "authorized_next_design_required": [
+    "SEPARATE_CIRCUMFERENTIAL_FIXING_COLLAR",
+    "ROTATIONALLY_SYMMETRIC_CLAMP_RING",
+    "HEIGHT_SPECIFIC_POST_BRACKETS",
+    "SEPARATE_NONROTATING_FRAME_INTERFACE"
+  ],
+  "automatic_redesign_performed": false,
+  "formal_step_stl_zip_generation_allowed": false
+}

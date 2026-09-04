@@ -1,0 +1,11 @@
+{
+  "stream_envelope_volume_mm3": 1391.046586556119,
+  "captured_intersection_volume_mm3": 1391.046586556119,
+  "uncaptured_volume_mm3": 0.0,
+  "receiver_planar_envelope_contains_stream": true,
+  "central_dry_opening_intersection_solid_count": 0,
+  "central_dry_opening_clear": true,
+  "nominal_air_gap_mm": 6.0,
+  "reference_only": true,
+  "cfd_performed": false
+}

@@ -1,0 +1,31 @@
+{
+  "phase3ib_status": "HISTORICAL_FAILED_BASELINE",
+  "phase3ic_corrected_volume_mm3": 674999.0259665871,
+  "phase3ib_legacy_volume_mm3": 619150.9792340593,
+  "volume_difference_mm3": 55848.046732527786,
+  "bbox_difference_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "center_of_mass_difference_mm": [
+    -0.17833520331048947,
+    -7.000387447174117e-06,
+    3.8174186733127584
+  ],
+  "added_complete_lug_count": 6,
+  "penetrating_rope_hole_count": 6,
+  "changed_regions": [
+    "RETENTION_LUG_BOOLEAN_ONLY"
+  ],
+  "sump_dimensions_unchanged": true,
+  "inner_dam_dimensions_unchanged": true,
+  "overflow_dimensions_unchanged": true,
+  "water_volume_phase3ic_l": 0.38482642145356655,
+  "water_volume_phase3ib_l": 0.3848264183344072,
+  "water_volume_difference_l": 3.1191593152470885e-09,
+  "stacking_guides_unchanged": true,
+  "port_recess_mm": 2.0,
+  "maximum_xy_mm": 236.62478053439682,
+  "within_238mm": true
+}

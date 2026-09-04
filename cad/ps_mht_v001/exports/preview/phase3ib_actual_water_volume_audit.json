@@ -1,0 +1,47 @@
+{
+  "method": "ANNULAR_CAVITY_MINUS_COMPLETE_PRINTED_PHASE3IB_SOLID",
+  "virtual_phase3ia_volume_inherited": false,
+  "selected_depth_mm": 22.0,
+  "selected_candidate": "d22",
+  "candidates": {
+    "d20": {
+      "depth_mm": 20.0,
+      "water_surface_z_mm": 24.0,
+      "actual_retained_volume_l": 0.3493715083417495,
+      "inner_dam_top_margin_mm": 7.0,
+      "outer_wall_top_margin_mm": 146.0,
+      "overflow_crest_relation": "BELOW_SELECTED_CREST",
+      "wick_entry_margin_mm": 4.0,
+      "low_water_leak_opening_count": 0,
+      "within_target_range": false,
+      "within_preferred_range": false,
+      "printed_intrusions_subtracted": true
+    },
+    "d21": {
+      "depth_mm": 21.0,
+      "water_surface_z_mm": 25.0,
+      "actual_retained_volume_l": 0.36708931739464035,
+      "inner_dam_top_margin_mm": 6.0,
+      "outer_wall_top_margin_mm": 145.0,
+      "overflow_crest_relation": "BELOW_SELECTED_CREST",
+      "wick_entry_margin_mm": 3.0,
+      "low_water_leak_opening_count": 0,
+      "within_target_range": true,
+      "within_preferred_range": false,
+      "printed_intrusions_subtracted": true
+    },
+    "d22": {
+      "depth_mm": 22.0,
+      "water_surface_z_mm": 26.0,
+      "actual_retained_volume_l": 0.3848264183344072,
+      "inner_dam_top_margin_mm": 5.0,
+      "outer_wall_top_margin_mm": 144.0,
+      "overflow_crest_relation": "COINCIDENT",
+      "wick_entry_margin_mm": 2.0,
+      "low_water_leak_opening_count": 0,
+      "within_target_range": true,
+      "within_preferred_range": true,
+      "printed_intrusions_subtracted": true
+    }
+  }
+}

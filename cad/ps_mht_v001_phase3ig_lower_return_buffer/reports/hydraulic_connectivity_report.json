@@ -1,0 +1,22 @@
+{
+  "ordered_path": [
+    "LOWEST_STAGE_THREE_DROPS",
+    "TERMINAL_COLLECTION_TRAY",
+    "VENTED_DOWNCOMER",
+    "BOTTOM_DIFFUSER_PLENUM",
+    "UPWARD_DISPLACEMENT_TANK",
+    "OPPOSITE_WIDE_WEIR",
+    "OPEN_GUTTER_AIR_BREAK",
+    "INDEPENDENT_25MM_HOSE",
+    "CENTRAL_TROUGH"
+  ],
+  "path_continuous": true,
+  "downcomer_top_vented": true,
+  "bottom_discharge_horizontal": true,
+  "normal_overflow_air_break": true,
+  "siphon_path_present": false,
+  "returns_merged_before_trough": false,
+  "small_diffuser_holes_present": false,
+  "internal_baffle_status": "INTERNAL_BAFFLE_RESERVED",
+  "dye_test_required": true
+}

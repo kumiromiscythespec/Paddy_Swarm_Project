@@ -1,0 +1,73 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-G",
+  "status": "CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING",
+  "prototype_only": true,
+  "status_lines": [
+    "BOTTOM_INLET_TOP_OVERFLOW_IMPLEMENTED",
+    "VENTED_DOWNCOMER_IMPLEMENTED",
+    "REMOVABLE_DIFFUSER_IMPLEMENTED",
+    "WIDE_WEIR_IMPLEMENTED",
+    "OPEN_GUTTER_AIR_BREAK_IMPLEMENTED",
+    "EMERGENCY_OVERFLOW_IMPLEMENTED",
+    "CLEANOUT_INTERFACE_IMPLEMENTED",
+    "TERMINAL_COLLECTION_TRAY_IMPLEMENTED",
+    "THIRTY_DEGREE_STAGE_ROTATION_PRESERVED",
+    "DRY_CORE_PRESERVED",
+    "FOUR_RETURN_LINES_PRESERVED",
+    "INTERNAL_BAFFLE_RESERVED",
+    "FITTING_DIMENSIONS_PENDING",
+    "COLOR_DYE_TEST_PENDING",
+    "WATERTIGHT_COUPON_TEST_PENDING",
+    "BAMBU_STUDIO_REVIEW_PENDING",
+    "FULL_TANK_PRINT_PROHIBITED",
+    "FULL_TERMINAL_TRAY_PRINT_PROHIBITED",
+    "PHYSICAL_VALIDATION_PENDING"
+  ],
+  "print_allowed_after_slicer_review": [
+    "plate_01_wall_floor_watertight_coupon_phase3ig.stl",
+    "plate_02_downcomer_diffuser_coupon_phase3ig.stl",
+    "plate_03_wide_weir_gutter_coupon_phase3ig.stl",
+    "plate_04_emergency_overflow_coupon_phase3ig.stl",
+    "plate_05_cleanout_drain_pad_coupon_phase3ig.stl",
+    "plate_06_terminal_tray_sector_coupon_phase3ig.stl",
+    "plate_07_tank_positioning_coupon_phase3ig.stl"
+  ],
+  "hold_do_not_print": [
+    "hold_lower_buffer_tank_full_phase3ig.stl",
+    "hold_terminal_collection_tray_full_phase3ig.stl",
+    "hold_lower_return_full_assembly_phase3ig.stl"
+  ],
+  "reference_do_not_slice": [
+    "phase3ig_lower_buffer_tank_reference.step",
+    "phase3ig_terminal_collection_tray_reference.step",
+    "phase3ig_downcomer_reference.step",
+    "phase3ig_diffuser_reference.step",
+    "phase3ig_normal_overflow_reference.step",
+    "phase3ig_emergency_overflow_reference.step",
+    "phase3ig_lower_return_reference_assembly.step",
+    "phase3ig_four_tower_reference_layout.step"
+  ],
+  "d08_optional_transparent_container_adapter": {
+    "status": "DIMENSION_PENDING_REFERENCE_ONLY_NO_CAD_INSTANTIATED",
+    "reason": "TRANSPARENT_CONTAINER_DIMENSIONS_NOT_MEASURED"
+  },
+  "fitting_selection": null,
+  "cleanout_bore_selection": null,
+  "full_tank_print_approved": false,
+  "full_terminal_tray_print_approved": false,
+  "phase3if_full_module_print_approved": false,
+  "test_results": {
+    "new_phase3ig": {
+      "passed": 92,
+      "failed": 0
+    },
+    "existing_phase1_through_phase3if_and_linked_sump": {
+      "test_files": 99,
+      "passed": 687,
+      "failed": 0,
+      "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS"
+    }
+  },
+  "git_mutation_operations_performed": false
+}

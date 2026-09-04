@@ -1,0 +1,15 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-B",
+  "interfaces": {
+    "central_dry_opening": {"diameter_mm": 100.0, "wet_penetration_below_z26_count": 0},
+    "annular_inner_dam": {"inner_diameter_mm": 100.0, "outer_diameter_mm": 109.6, "top_z_mm": 31.0, "continuous_angle_deg": 360.0},
+    "netpot": {"flange_outer_diameter_mm": 108.0, "flange_thickness_mm": 4.0, "overall_height_mm": 68.0, "maximum_body_outer_diameter_mm": 78.6, "passage_diameter_mm": 80.5},
+    "wick": {"entry_bottom_z_mm": 28.0, "open_width_mm": 16.0, "minimum_depth_mm": 8.0, "closed_tube": false},
+    "overflow": {"type": "OPEN_REAR_WEIR", "crest_z_mm": 26.0, "width_mm": 30.0, "minimum_throat_mm": 8.0},
+    "rope": {"commercial_nominal_diameter_mm": 5.0, "cad_hole_width_mm": 5.6, "shape": "SELF_SUPPORTING_TEARDROP"},
+    "keeper": {"outer_diameter_mm": 108.0, "inner_diameter_mm": 90.0, "arc_deg": 165.0, "thickness_mm": 4.5, "optional": true},
+    "dry_stacking": {"segments": 3, "segment_angle_deg": 40.0, "height_mm": 6.0, "inner_diameter_mm": 201.0, "c050_reference_only": true}
+  }
+}
+

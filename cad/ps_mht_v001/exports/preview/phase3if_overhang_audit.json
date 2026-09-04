@@ -1,0 +1,17 @@
+{
+  "classification": {
+    "standpipe_walls": "SELF_SUPPORTING_VERTICAL",
+    "three_v_notches_per_pipe": "SELF_SUPPORTING_45_DEG_FLANKS",
+    "landing_ramps": "SELF_SUPPORTING_14_DEG_FROM_HORIZONTAL_RAMP",
+    "floor_bores": "OPEN_VERTICAL_NO_INTERNAL_SUPPORT",
+    "top_clocking_datum": "TOP_BAND_CONNECTED_SELF_SUPPORTING",
+    "bottom_clocking_datum": "WALL_CONNECTED_SELF_SUPPORTING",
+    "stacking_guides": "TOP_BAND_CONNECTED_45_DEG_RAMP"
+  },
+  "maximum_surface_angle_deg": 45.0,
+  "horizontal_bridge_over_8mm_count": 0,
+  "airborne_start_count": 0,
+  "unsupported_prohibited_count": 0,
+  "cad_support_dependency": false,
+  "bambu_studio_review": "PENDING"
+}

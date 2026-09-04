@@ -1,0 +1,46 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-D",
+  "authority_builder": "build_integrated_stage_phase3id",
+  "diagnostic_authority": {
+    "D01": "PHASE3IC_D01_EXACT",
+    "D02": "PHASE3IC_D02_EXACT",
+    "D03": "PHASE3IC_D03_EXACT",
+    "D04D": "D03_PLUS_POSITIVE_CASCADE_AND_WICK",
+    "D05D": "D04D_PLUS_STACKING_GUIDES",
+    "corrected_full": "D05D_SAME_BUILDER_SAME_FLAGS"
+  },
+  "hydraulic_interface": {
+    "upper_outlet_local_z_mm": 6.0,
+    "lower_receiver_top_z_mm": 170.0,
+    "stage_offset_z_mm": 170.0,
+    "air_gap_mm": 6.0,
+    "drip_nose_width_mm": 30.0,
+    "receiver_width_mm": 46.0,
+    "receiver_outer_radius_mm": 118.0,
+    "vertical_channel_clear_width_mm": 32.0,
+    "bottom_discharge_z_mm": 28.0,
+    "central_hole_as_water_route": false
+  },
+  "assembly_tolerance": {
+    "tangential_translation_mm": [-2.0, 2.0],
+    "radial_translation_mm": [-2.0, 2.0],
+    "rotational_misalignment_deg": [-2.0, 2.0],
+    "combined_worst_tangential_shift_mm": 5.7000980142,
+    "remaining_margin_mm": 2.2999019858
+  },
+  "limits": {
+    "minimum_z_mm": 0.0,
+    "maximum_z_mm": 170.0,
+    "maximum_xy_mm": 238.0,
+    "maximum_rear_radius_mm": 118.5,
+    "minimum_retained_volume_l": 0.35,
+    "maximum_retained_volume_l": 0.45
+  },
+  "physical_status": {
+    "bambu_studio": "PENDING",
+    "hydraulic_flow": "PENDING",
+    "full_stage_print": "PROHIBITED"
+  }
+}
+

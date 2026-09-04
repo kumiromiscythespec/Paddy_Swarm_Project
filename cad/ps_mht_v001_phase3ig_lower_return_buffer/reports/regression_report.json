@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "phase3id": {
+      "sha_list": "D:\\Paddy_Swarm_Project\\cad\\ps_mht_v001\\commit\\phase3id_SHA256SUMS.txt",
+      "entry_count": 51,
+      "missing": [],
+      "mismatches": [],
+      "all_unchanged": true
+    },
+    "phase3if": {
+      "sha_list": "D:\\Paddy_Swarm_Project\\cad\\ps_mht_v001\\commit\\phase3if_SHA256SUMS.txt",
+      "entry_count": 53,
+      "missing": [],
+      "mismatches": [],
+      "all_unchanged": true
+    }
+  },
+  "all_unchanged": true,
+  "git_mutation_operations_performed": false,
+  "pytest": {
+    "new_phase3ig": {
+      "passed": 92,
+      "failed": 0
+    },
+    "existing_phase1_through_phase3if_and_linked_sump": {
+      "test_files": 99,
+      "passed": 687,
+      "failed": 0,
+      "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS"
+    },
+    "combined_passed": 779
+  }
+}

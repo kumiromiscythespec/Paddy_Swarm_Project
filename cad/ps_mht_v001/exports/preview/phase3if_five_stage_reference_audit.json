@@ -1,0 +1,52 @@
+{
+  "reference_only": true,
+  "solid_count": 59,
+  "stage_count": 5,
+  "stage_absolute_rotations_deg": [
+    0.0,
+    30.0,
+    60.0,
+    90.0,
+    120.0
+  ],
+  "plant_port_absolute_angles_deg": [
+    [
+      0.0,
+      120.0,
+      240.0
+    ],
+    [
+      30.0,
+      150.0,
+      270.0
+    ],
+    [
+      60.0,
+      180.0,
+      300.0
+    ],
+    [
+      90.0,
+      210.0,
+      330.0
+    ],
+    [
+      120.0,
+      240.0,
+      0.0
+    ]
+  ],
+  "contains": [
+    "FIVE_PHASE3IF_MODULES",
+    "TWELVE_DROP_CORRIDORS",
+    "NON_ROTATING_CENTRAL_2020_REFERENCE",
+    "BOTTOM_CENTERING_PUCK_REFERENCE",
+    "REMOVABLE_TOP_CAP_REFERENCE",
+    "REAR_2020_POST",
+    "LOWER_AND_UPPER_METAL_BRACKET_REFERENCES",
+    "FIFTEEN_NETPOT_REFERENCES",
+    "FIFTEEN_KEEPER_REFERENCES",
+    "FIVE_WATER_SURFACES",
+    "CLOCKING_GAUGE_USE_POSITION"
+  ]
+}

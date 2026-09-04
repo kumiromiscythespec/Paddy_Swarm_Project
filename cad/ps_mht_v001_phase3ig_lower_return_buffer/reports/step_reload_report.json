@@ -1,0 +1,82 @@
+{
+  "phase3ig_lower_buffer_tank_reference.step": {
+    "size_x_mm": 240.0,
+    "size_y_mm": 146.0,
+    "size_z_mm": 105.0,
+    "solid_count": 1,
+    "volume_mm3": 346894.8238392811,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_terminal_collection_tray_reference.step": {
+    "size_x_mm": 230.0,
+    "size_y_mm": 230.00000000000003,
+    "size_z_mm": 28.0,
+    "solid_count": 1,
+    "volume_mm3": 387215.0277758085,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_downcomer_reference.step": {
+    "size_x_mm": 31.500000099999994,
+    "size_y_mm": 31.0,
+    "size_z_mm": 131.50000010000002,
+    "solid_count": 1,
+    "volume_mm3": 36951.182191464875,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_diffuser_reference.step": {
+    "size_x_mm": 32.00000000000057,
+    "size_y_mm": 112.0,
+    "size_z_mm": 30.000000000000156,
+    "solid_count": 1,
+    "volume_mm3": 26219.965805080792,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_normal_overflow_reference.step": {
+    "size_x_mm": 30.0,
+    "size_y_mm": 118.0,
+    "size_z_mm": 22.0,
+    "solid_count": 1,
+    "volume_mm3": 17399.999999999996,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_emergency_overflow_reference.step": {
+    "size_x_mm": 30.0,
+    "size_y_mm": 10.0,
+    "size_z_mm": 15.0,
+    "solid_count": 1,
+    "volume_mm3": 1860.0,
+    "all_solids_valid": true,
+    "expected_solid_count": 1,
+    "reload_valid": true
+  },
+  "phase3ig_lower_return_reference_assembly.step": {
+    "size_x_mm": 890.0,
+    "size_y_mm": 890.0,
+    "size_z_mm": 190.0,
+    "solid_count": 10,
+    "volume_mm3": 1721162.899611584,
+    "all_solids_valid": true,
+    "expected_solid_count": 10,
+    "reload_valid": true
+  },
+  "phase3ig_four_tower_reference_layout.step": {
+    "size_x_mm": 1350.0,
+    "size_y_mm": 1350.0,
+    "size_z_mm": 1000.0,
+    "solid_count": 9,
+    "volume_mm3": 63606795.57348212,
+    "all_solids_valid": true,
+    "expected_solid_count": 9,
+    "reload_valid": true
+  }
+}

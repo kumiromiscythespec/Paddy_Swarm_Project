@@ -1,0 +1,53 @@
+{
+  "sump_type": "ANNULAR_OPEN_CLEANABLE_SUMP",
+  "selected_depth_mm": 20.0,
+  "target_volume_l": {
+    "minimum": 0.35,
+    "preferred": 0.4,
+    "maximum": 0.45
+  },
+  "candidates": {
+    "d18": {
+      "depth_mm": 18.0,
+      "actual_water_volume_l": 0.3464628853589865,
+      "remaining_to_0_45_l": 0.1035371146410135,
+      "distance_below_overflow_crest_mm": 2.0,
+      "water_mass_kg_reference": 0.3464628853589865,
+      "center_of_mass_mm": [
+        0.25884664427481757,
+        -1.3981598261923559e-07,
+        13.024356006884265
+      ],
+      "solid_count": 1,
+      "within_target_range": false
+    },
+    "d19": {
+      "depth_mm": 19.0,
+      "actual_water_volume_l": 0.3657671183825616,
+      "remaining_to_0_45_l": 0.08423288161743842,
+      "distance_below_overflow_crest_mm": 1.0,
+      "water_mass_kg_reference": 0.3657671183825616,
+      "center_of_mass_mm": [
+        0.2589731836800644,
+        -1.324909013509746e-07,
+        13.524455743036517
+      ],
+      "solid_count": 1,
+      "within_target_range": true
+    },
+    "d20": {
+      "depth_mm": 20.0,
+      "actual_water_volume_l": 0.38507135140613546,
+      "remaining_to_0_45_l": 0.06492864859386455,
+      "distance_below_overflow_crest_mm": 0.0,
+      "water_mass_kg_reference": 0.38507135140613546,
+      "center_of_mass_mm": [
+        0.2590870358464115,
+        -1.259002476207635e-07,
+        14.024545479379011
+      ],
+      "solid_count": 1,
+      "within_target_range": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "lower_module_z_mm": [
+    0.0,
+    170.0
+  ],
+  "upper_module_z_mm": [
+    170.0,
+    340.0
+  ],
+  "upper_water_surface_global_z_mm": 196.0,
+  "upper_outlet_tip_local_z_mm": 6.0,
+  "upper_outlet_tip_global_z_mm": 176.0,
+  "lower_receiver_top_global_z_mm": 170.0,
+  "nominal_air_gap_mm": 6.0,
+  "measured_air_gap_mm": 5.999999900000006,
+  "lower_upper_full_intersection_volume_mm3": 0,
+  "receiver_upper_bottom_intersection_volume_mm3": 0,
+  "outlet_receiver_intersection_volume_mm3": 0,
+  "receiver_2020_post_intersection_volume_mm3": 0,
+  "receiver_netpot_intersection_volumes_mm3": [
+    0,
+    0,
+    0
+  ],
+  "receiver_netpot_clear": true,
+  "full_modules_clear": true,
+  "receiver_upper_bottom_clear": true,
+  "outlet_receiver_clear": true,
+  "receiver_2020_post_clear": true,
+  "stream_envelope_captured": true,
+  "central_dry_opening_clear": true,
+  "drip_nose_centerline_radius_mm": 106.0,
+  "receiver_outer_radius_mm": 118.0,
+  "maximum_xy_mm": 236.62478053439682,
+  "within_238mm": true,
+  "reference_only": true
+}

@@ -1,0 +1,56 @@
+project: PS-MHT-V001
+phase: 3I-C
+process: Envelope-Neutral Pot Retention and Floating-Region Isolation
+status:
+  - PHASE3IB_RETENTION_BOOLEAN_DEFECT_RECORDED
+  - PHASE3IB_ARTIFACTS_FROZEN
+  - PHASE3IC_CORRECTED_FULL_AUTHORITY_CREATED
+  - COMPLETE_RETENTION_LUGS_IMPLEMENTED
+  - ENVELOPE_NEUTRAL_KEEPER_V2_READY
+  - PROGRESSIVE_DIAGNOSTIC_STLS_READY
+  - BAMBU_STUDIO_DIAGNOSTIC_PENDING
+  - PHYSICAL_PRINT_PENDING
+phase3ib:
+  status: HISTORICAL_FAILED_BASELINE
+  official_artifacts_count: 46
+  mutation: PROHIBITED
+  retention_lug_boolean:
+    intended: SIX_COMPLETE_LUGS
+    actual_increment_mm3: 0.021438298
+    result: FAILED_OR_NEAR_TANGENTIAL_FUSE
+corrected_builder:
+  function: build_integrated_stage_corrected_phase3ic
+  optional_order: [cradle_buttresses, retention_lugs, cascade_and_wick, stacking_guides]
+  d05_equals: PHASE3IC_CORRECTED_FULL
+  d05_does_not_equal: PHASE3IB_HISTORICAL_FULL
+retention_lug:
+  count: 6
+  boolean: INDIVIDUAL_NET_LUG_NORMAL_FUSE_NO_GLUE
+  connection: EXISTING_FLOOR_CONNECTED_SIDE_BUTTRESS
+  minimum_connection_overlap_mm: 0.8
+  actual_connection_overlap_mm: 0.85
+  rope_hole_width_mm: 5.6
+  rope_hole_shape: SELF_SUPPORTING_TEARDROP
+keeper_v2:
+  architecture: HORSESHOE_FLANGE_LOAD_SPREADER_V2
+  outer_diameter_mm: 107.0
+  inner_diameter_mm: 90.0
+  thickness_mm: 5.0
+  retained_arc_deg: 180.0
+  rope_notch_count: 2
+  rope_notch_width_mm: 5.6
+  rope_notch_depth_mm: 4.0
+  rope_notch_root_radius_mm: 2.8
+diagnostics:
+  stages: [D01, D02, D03, D04, D05]
+  stl_status: SLICER_DIAGNOSTIC_ONLY_DO_NOT_PRINT
+  bambu_studio_result: PENDING
+not_declared:
+  - FLOATING_REGION_SOURCE_IDENTIFIED
+  - FLOATING_REGION_FIXED
+  - FULL_STAGE_PRINT_APPROVED
+  - NETPOT_RETENTION_PASS
+  - SUMP_WATERTIGHT
+  - OVERFLOW_PASS
+  - PRODUCTION_READY
+

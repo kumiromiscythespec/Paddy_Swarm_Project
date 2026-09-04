@@ -1,0 +1,13 @@
+{
+  "architecture": "CONTINUOUS_ANNULAR_INNER_DAM",
+  "continuous_angle_deg": 360.0,
+  "inner_diameter_mm": 100.0,
+  "wall_thickness_mm": 4.8,
+  "minimum_wall_thickness_mm": 4.5,
+  "outer_diameter_mm": 109.6,
+  "selected_top_z_mm": 31.0,
+  "floor_fusion_intersection_volume_mm3": 6321.387073847232,
+  "root_fillet_radius_mm": 3.0,
+  "solid_count": 1,
+  "central_clear_opening_diameter_mm": 100.0
+}

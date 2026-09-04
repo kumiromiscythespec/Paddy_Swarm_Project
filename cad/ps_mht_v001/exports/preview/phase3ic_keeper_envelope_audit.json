@@ -1,0 +1,31 @@
+{
+  "architecture": "HORSESHOE_FLANGE_LOAD_SPREADER_V2",
+  "outer_diameter_mm": 107.0,
+  "measured_xy_bbox_mm": [
+    53.500000000000014,
+    107.0
+  ],
+  "inner_diameter_mm": 90.0,
+  "thickness_mm": 5.0,
+  "retained_arc_deg": 180.0,
+  "radial_contact_width_mm": 8.5,
+  "notch_count": 2,
+  "notch_width_mm": 5.6,
+  "notch_depth_mm": 4.0,
+  "notch_structural_root_width_mm": 12.0,
+  "notch_edge_radius_mm": 2.8,
+  "top_bottom_chamfer_mm": 0.6,
+  "flange_outer_diameter_mm": 108.0,
+  "keeper_within_flange_envelope": true,
+  "installed_netpot_envelope_before_mm": 237.21534220615763,
+  "installed_netpot_envelope_with_keeper_mm": 237.21534220615763,
+  "envelope_increase_mm": 0.0,
+  "maximum_allowed_total_xy_mm": 238.0,
+  "plant_center_open": true,
+  "rope_installs_from_above": true,
+  "printed_snap_features": false,
+  "solid_count": 1,
+  "valid": true,
+  "print_orientation": "FLAT_Z_THICKNESS",
+  "support": "NONE"
+}

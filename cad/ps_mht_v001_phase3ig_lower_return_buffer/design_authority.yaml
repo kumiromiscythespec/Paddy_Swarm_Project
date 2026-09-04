@@ -1,0 +1,30 @@
+phase: PHASE_3IG
+status: CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING
+prototype_only: true
+supervising_architecture: BOTTOM_INLET_UPWARD_DISPLACEMENT_WIDE_WEIR_OPEN_GUTTER
+fixed:
+  relative_rotation_deg: 30
+  tower_count_initial: 4
+  tower_count_expandable: 8
+  dry_core_is_dry: true
+  tank_floor_penetration_count: 0
+  pre_trough_return_merge_count: 0
+forbidden:
+  - SIXTY_DEGREE_STAGE_ROTATION
+  - EXTERNAL_DOWNCHUTE
+  - PHASE3ID_U_CHANNEL
+  - PER_STAGE_REAR_FIXATION
+  - CENTRAL_DRY_CORE_WATER_ROUTE
+  - TANK_FLOOR_PIPE_PENETRATION
+  - PRINTED_ONLY_LOAD_SUPPORT
+  - FINE_DIFFUSER_HOLES
+  - RETURN_MANIFOLD_BEFORE_TROUGH
+selected:
+  mast: SUS_SF-20_20_SF9-202
+  mast_measured_mm: [19.9, 19.9]
+pending:
+  outlet_fitting: DIMENSION_PENDING
+  cleanout_fitting: DIMENSION_PENDING
+  trough_inner_geometry: PHYSICAL_MEASUREMENT_PENDING
+  production_release: PHYSICAL_VALIDATION_PENDING
+

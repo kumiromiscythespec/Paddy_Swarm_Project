@@ -1,0 +1,18 @@
+{
+  "features": {
+    "main_lower_pad_buttress": "FLOOR_CONNECTED_MAX_22_DEG_FROM_VERTICAL",
+    "side_pad_buttresses": "FLOOR_CONNECTED_MAX_10_DEG_FROM_VERTICAL",
+    "retention_lugs": "FLOOR_AND_SIDE_BUTTRESS_CONNECTED",
+    "rope_teardrop_roof": "SELF_SUPPORTING_45_DEG",
+    "wick_channel": "OPEN_TOP_FLOOR_CONNECTED_RAMP",
+    "overflow_chute": "OPEN_AND_FLOOR_CONNECTED",
+    "stacking_guides": "TOP_BAND_CONNECTED_45_DEG_RAMP",
+    "inner_dam": "VERTICAL_WITH_R3_ROOT",
+    "outer_wall": "VERTICAL_WITH_R3_ROOT"
+  },
+  "maximum_unsupported_surface_angle_from_vertical_deg": 45.0,
+  "horizontal_bridge_over_8mm_count": 0,
+  "airborne_feature_count": 0,
+  "cad_support_dependency": false,
+  "bambu_studio_review_pending": true
+}

@@ -1,0 +1,20 @@
+{
+  "architecture": "FLOOR_CONNECTED_THREE_PAD_BUTTRESS_CRADLE",
+  "pad_count_per_port": 3,
+  "main_pad_tangential_width_mm": 40.0,
+  "main_pad_contact_depth_mm": 10.0,
+  "side_pad_tangential_width_mm": 20.0,
+  "side_pad_contact_depth_mm": 10.0,
+  "floor_connected_buttress_count_per_port": 3,
+  "all_buttresses_floor_connected": true,
+  "main_wall_connection_where_possible": true,
+  "minimum_root_width_mm": 10.0,
+  "root_fillet_class_mm": 4.0,
+  "maximum_unsupported_surface_angle_from_vertical_deg": 22.0,
+  "maximum_horizontal_bridge_mm": 8.0,
+  "complete_independent_ring_count": 0,
+  "airborne_start_count": 0,
+  "body_passage_diameter_mm": 80.5,
+  "flange_diameter_mm": 108.0,
+  "pot_bottom_contacts_sump_floor": false
+}

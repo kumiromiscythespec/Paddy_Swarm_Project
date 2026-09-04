@@ -1,0 +1,59 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-B",
+  "bambu_studio_review": "PENDING",
+  "sequence": [
+    "BAMBU_REVIEW_PLATE_01_FULL",
+    "BAMBU_REVIEW_PLATE_03_CRADLE",
+    "CONFIRM_NO_FLOATING_OR_SUPPORT_DEPENDENCY",
+    "PRINT_PLATE_02_SUMP",
+    "TEST_WATERTIGHTNESS_CAPACITY_OVERFLOW",
+    "PRINT_PLATE_03_CRADLE",
+    "TEST_REAL_POT_ROPE_AND_OPTIONAL_KEEPER",
+    "MOVE_FULL_STAGE_TO_PRINT_CANDIDATE_ONLY_AFTER_ALL_PASS"
+  ],
+  "items": [
+    {
+      "file_name": "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ib.stl",
+      "part": "INTEGRATED_STAGE_FULL_CORRECTED",
+      "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+      "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+      "do_not_print_before": "ALL_PHASE3IB_COUPON_PHYSICAL_TESTS_PASS"
+    },
+    {
+      "file_name": "plate_02_full_annular_sump_coupon_phase3ib.stl",
+      "part": "FULL_ANNULAR_SUMP_COUPON",
+      "status": "READY_FIRST_AFTER_BAMBU_REVIEW",
+      "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+      "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+    },
+    {
+      "file_name": "plate_03_single_port_cradle_coupon_phase3ib.stl",
+      "part": "SINGLE_PORT_CRADLE_SECTOR_COUPON",
+      "status": "READY_AFTER_SUMP_COUPON_SLICER_PASS",
+      "orientation": "VERTICAL_Z_SECTOR_FLOOR_ON_BUILD_PLATE",
+      "do_not_print_before": "SUMP_COUPON_SLICER_AND_PHYSICAL_BOUNDARY_PASS"
+    },
+    {
+      "file_name": "plate_04_c_shaped_flange_keeper_phase3ib.stl",
+      "part": "OPTIONAL_C_SHAPED_FLANGE_KEEPER",
+      "status": "READY_AFTER_CRADLE_COUPON_REVIEW",
+      "orientation": "FLAT",
+      "do_not_print_before": "CRADLE_COUPON_SLICER_PASS"
+    }
+  ],
+  "phase3ia_prohibited": [
+    "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+    "plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl"
+  ],
+  "reference_only_not_for_print": [
+    "ps_mht_v001_integrated_stage_assembly_reference_phase3ib.step",
+    "ps_mht_v001_actual_water_volume_reference_phase3ib.step"
+  ],
+  "physical_state": {
+    "sump_watertight": false,
+    "overflow_pass": false,
+    "netpot_retention_pass": false,
+    "full_stage_print_approved": false
+  }
+}

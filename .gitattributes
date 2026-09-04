@@ -13,3 +13,6 @@ cad/common_rover/v2_29_3_9_1_executable_cad_seed/** text eol=lf
 *.py whitespace=-trailing-space
 *.txt whitespace=-blank-at-eof
 *.csv whitespace=-blank-at-eof
+*.json whitespace=-blank-at-eof
+*.yaml whitespace=-blank-at-eof
+*.yml whitespace=-blank-at-eof

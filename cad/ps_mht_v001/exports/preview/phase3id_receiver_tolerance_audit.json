@@ -1,0 +1,100 @@
+{
+  "receiver_nominal_width_mm": 46.0,
+  "drip_nose_width_mm": 30.0,
+  "nominal_margin_per_side_mm": 8.0,
+  "rotation_shift_at_106mm_mm": 3.7000980142279785,
+  "combined_worst_tangential_shift_mm": 5.7000980142279785,
+  "cases": {
+    "X_PLUS_2": {
+      "radial_shift_mm": -2.0,
+      "tangential_shift_mm": 0.0,
+      "stream_radial_range_mm": [
+        103.2,
+        104.8
+      ],
+      "stream_max_abs_tangential_mm": 15.0,
+      "remaining_tangential_margin_mm": 8.0,
+      "pass": true
+    },
+    "X_MINUS_2": {
+      "radial_shift_mm": 2.0,
+      "tangential_shift_mm": 0.0,
+      "stream_radial_range_mm": [
+        107.2,
+        108.8
+      ],
+      "stream_max_abs_tangential_mm": 15.0,
+      "remaining_tangential_margin_mm": 8.0,
+      "pass": true
+    },
+    "Y_PLUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": 2.0,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 17.0,
+      "remaining_tangential_margin_mm": 6.0,
+      "pass": true
+    },
+    "Y_MINUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": -2.0,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 17.0,
+      "remaining_tangential_margin_mm": 6.0,
+      "pass": true
+    },
+    "ROT_PLUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": 3.7000980142279785,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 18.70009801422798,
+      "remaining_tangential_margin_mm": 4.299901985772021,
+      "pass": true
+    },
+    "ROT_MINUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": -3.7000980142279785,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 18.70009801422798,
+      "remaining_tangential_margin_mm": 4.299901985772021,
+      "pass": true
+    },
+    "Y_PLUS_2_ROT_PLUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": 5.7000980142279785,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 20.70009801422798,
+      "remaining_tangential_margin_mm": 2.2999019857720207,
+      "pass": true
+    },
+    "Y_MINUS_2_ROT_MINUS_2": {
+      "radial_shift_mm": 0.0,
+      "tangential_shift_mm": -5.7000980142279785,
+      "stream_radial_range_mm": [
+        105.2,
+        106.8
+      ],
+      "stream_max_abs_tangential_mm": 20.70009801422798,
+      "remaining_tangential_margin_mm": 2.2999019857720207,
+      "pass": true
+    }
+  },
+  "all_cases_pass": true,
+  "analysis_type": "SIMPLE_PLANAR_FALLING_STREAM_ENVELOPE_REFERENCE_NOT_CFD",
+  "cfd_performed": false
+}

@@ -1,0 +1,51 @@
+"""Phase 3I-C keeper and one-object diagnostic slicer manifest."""
+
+from __future__ import annotations
+
+
+def build_print_manifest_phase3ic() -> dict[str, object]:
+    diagnostics = [
+        "phase3ic_diag_01_wet_core_main_wall.stl",
+        "phase3ic_diag_02_plus_cradle_buttresses.stl",
+        "phase3ic_diag_03_plus_retention_lugs.stl",
+        "phase3ic_diag_04_plus_rear_cascade_and_wick.stl",
+        "phase3ic_diag_05_plus_stacking_guides_full_equivalent.stl",
+    ]
+    return {
+        "project": "PS-MHT-V001",
+        "phase": "3I-C",
+        "bambu_studio_diagnostic": "PENDING",
+        "keeper": {
+            "file_name": "plate_01_horseshoe_flange_keeper_v2_phase3ic.stl",
+            "status": "READY_FIRST_LOW_COST_PHYSICAL_FIT",
+            "quantity_initial": 1,
+            "support": "NONE",
+            "brim": "NONE_DEFAULT",
+            "print_alone": True,
+            "orientation": "FLAT",
+            "filament": "PETG_BASIC",
+            "nozzle_mm": 0.4,
+        },
+        "corrected_full": {
+            "file_name": "plate_02_integrated_stage_full_corrected_SLICER_REVIEW_ONLY_phase3ic.stl",
+            "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+            "do_not_print_before": "D01_TO_D05_BAMBU_DIAGNOSTIC_AND_PHYSICAL_COUPON_GATES_PASS",
+        },
+        "diagnostics": [
+            {
+                "stage": f"D{index:02d}",
+                "file_name": name,
+                "status": "SLICER_DIAGNOSTIC_ONLY_DO_NOT_PRINT",
+                "object_count_per_new_project": 1,
+                "print": False,
+            }
+            for index, name in enumerate(diagnostics, start=1)
+        ],
+        "phase3ib": {
+            "full_stage": "PROHIBITED_HISTORICAL_FAILED_BASELINE",
+            "sump_coupon": "UNCHANGED_READY_AFTER_OWN_BAMBU_REVIEW",
+            "cradle_coupon": "HOLD_UNTIL_DIAGNOSTIC_RESULT",
+            "artifacts_mutable": False,
+        },
+    }
+

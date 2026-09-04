@@ -1,0 +1,63 @@
+{
+  "selected_recess_mm": 2.0,
+  "selection_rule": "SMALLEST_CANDIDATE_MEETING_ALL_GEOMETRIC_LIMITS",
+  "candidates": {
+    "r02": {
+      "recess_mm": 2.0,
+      "installed_netpot_maximum_xy_mm": 237.21534220615763,
+      "printed_stage_maximum_xy_mm": 236.62478053439682,
+      "pot_stage_intersection_volume_mm3": 0,
+      "pot_pair_intersection_volume_mm3": [
+        0,
+        0,
+        0
+      ],
+      "within_238mm": true,
+      "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+      "root_wick_access_width_mm": 16.0
+    },
+    "r03": {
+      "recess_mm": 3.0,
+      "installed_netpot_maximum_xy_mm": 235.2184494035587,
+      "printed_stage_maximum_xy_mm": 236.62478053439682,
+      "pot_stage_intersection_volume_mm3": 2147.448319972195,
+      "pot_pair_intersection_volume_mm3": [
+        0,
+        0,
+        0
+      ],
+      "within_238mm": true,
+      "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+      "root_wick_access_width_mm": 16.0
+    },
+    "r04": {
+      "recess_mm": 4.0,
+      "installed_netpot_maximum_xy_mm": 233.2268146387414,
+      "printed_stage_maximum_xy_mm": 236.62478053439682,
+      "pot_stage_intersection_volume_mm3": 4178.241021412201,
+      "pot_pair_intersection_volume_mm3": [
+        0,
+        0,
+        0
+      ],
+      "within_238mm": true,
+      "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+      "root_wick_access_width_mm": 16.0
+    },
+    "r05": {
+      "recess_mm": 5.0,
+      "installed_netpot_maximum_xy_mm": 231.23849436631667,
+      "printed_stage_maximum_xy_mm": 236.62478053439682,
+      "pot_stage_intersection_volume_mm3": 6094.217726240722,
+      "pot_pair_intersection_volume_mm3": [
+        0,
+        0,
+        0
+      ],
+      "within_238mm": true,
+      "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+      "root_wick_access_width_mm": 16.0
+    }
+  },
+  "inner_diameter_measurements_used_for_external_envelope": false
+}

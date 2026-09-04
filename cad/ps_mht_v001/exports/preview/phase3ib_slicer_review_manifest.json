@@ -1,0 +1,151 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-B",
+  "status": "BAMBU_STUDIO_REVIEW_PENDING",
+  "full_stl_status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+  "cad_precheck": {
+    "one_solid": true,
+    "maximum_xy_pass": true,
+    "floor_connected_cradle": true,
+    "floor_connected_lugs": true,
+    "airborne_start_candidate_count": 0,
+    "horizontal_bridge_over_8mm_candidate_count": 0
+  },
+  "bambu_studio_results": {
+    "floating_region_warning": "PENDING_BAMBU_STUDIO",
+    "support_off": {
+      "detached_islands": "PENDING_BAMBU_STUDIO",
+      "unanchored_bridge_lines": "PENDING_BAMBU_STUDIO",
+      "wall_interruption": "PENDING_BAMBU_STUDIO",
+      "thin_independent_towers": "PENDING_BAMBU_STUDIO"
+    },
+    "automatic_support": {
+      "generated_at_cradle": "PENDING_BAMBU_STUDIO",
+      "generated_inside_sump": "PENDING_BAMBU_STUDIO",
+      "generated_at_retention_lugs": "PENDING_BAMBU_STUDIO",
+      "generated_at_stacking_guides": "PENDING_BAMBU_STUDIO"
+    },
+    "support_dependency": "PENDING_BAMBU_STUDIO"
+  },
+  "print_manifest": {
+    "project": "PS-MHT-V001",
+    "phase": "3I-B",
+    "bambu_studio_review": "PENDING",
+    "sequence": [
+      "BAMBU_REVIEW_PLATE_01_FULL",
+      "BAMBU_REVIEW_PLATE_03_CRADLE",
+      "CONFIRM_NO_FLOATING_OR_SUPPORT_DEPENDENCY",
+      "PRINT_PLATE_02_SUMP",
+      "TEST_WATERTIGHTNESS_CAPACITY_OVERFLOW",
+      "PRINT_PLATE_03_CRADLE",
+      "TEST_REAL_POT_ROPE_AND_OPTIONAL_KEEPER",
+      "MOVE_FULL_STAGE_TO_PRINT_CANDIDATE_ONLY_AFTER_ALL_PASS"
+    ],
+    "items": [
+      {
+        "file_name": "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ib.stl",
+        "part": "INTEGRATED_STAGE_FULL_CORRECTED",
+        "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+        "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+        "do_not_print_before": "ALL_PHASE3IB_COUPON_PHYSICAL_TESTS_PASS"
+      },
+      {
+        "file_name": "plate_02_full_annular_sump_coupon_phase3ib.stl",
+        "part": "FULL_ANNULAR_SUMP_COUPON",
+        "status": "READY_FIRST_AFTER_BAMBU_REVIEW",
+        "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+        "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+      },
+      {
+        "file_name": "plate_03_single_port_cradle_coupon_phase3ib.stl",
+        "part": "SINGLE_PORT_CRADLE_SECTOR_COUPON",
+        "status": "READY_AFTER_SUMP_COUPON_SLICER_PASS",
+        "orientation": "VERTICAL_Z_SECTOR_FLOOR_ON_BUILD_PLATE",
+        "do_not_print_before": "SUMP_COUPON_SLICER_AND_PHYSICAL_BOUNDARY_PASS"
+      },
+      {
+        "file_name": "plate_04_c_shaped_flange_keeper_phase3ib.stl",
+        "part": "OPTIONAL_C_SHAPED_FLANGE_KEEPER",
+        "status": "READY_AFTER_CRADLE_COUPON_REVIEW",
+        "orientation": "FLAT",
+        "do_not_print_before": "CRADLE_COUPON_SLICER_PASS"
+      }
+    ],
+    "phase3ia_prohibited": [
+      "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+      "plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl"
+    ],
+    "reference_only_not_for_print": [
+      "ps_mht_v001_integrated_stage_assembly_reference_phase3ib.step",
+      "ps_mht_v001_actual_water_volume_reference_phase3ib.step"
+    ],
+    "physical_state": {
+      "sump_watertight": false,
+      "overflow_pass": false,
+      "netpot_retention_pass": false,
+      "full_stage_print_approved": false
+    }
+  },
+  "mesh_summary": {
+    "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ib.stl": {
+      "point_count": 16355,
+      "triangle_count": 32722,
+      "size_x": 233.31239318847656,
+      "size_y": 229.20851135253906,
+      "size_z": 170.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.0001889933997199832,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    },
+    "plate_02_full_annular_sump_coupon_phase3ib.stl": {
+      "point_count": 14706,
+      "triangle_count": 29412,
+      "size_x": 233.31239318847656,
+      "size_y": 227.8554229736328,
+      "size_z": 40.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.00027934639043654814,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    },
+    "plate_03_single_port_cradle_coupon_phase3ib.stl": {
+      "point_count": 5566,
+      "triangle_count": 11132,
+      "size_x": 89.63357162475586,
+      "size_y": 163.83041381835938,
+      "size_z": 145.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.0001889933997199832,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    },
+    "plate_04_c_shaped_flange_keeper_phase3ib.stl": {
+      "point_count": 492,
+      "triangle_count": 980,
+      "size_x": 48.12632131576538,
+      "size_y": 107.07604217529297,
+      "size_z": 4.5,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.2139797129239014,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    }
+  },
+  "not_declared": [
+    "BAMBU_STUDIO_PASS",
+    "FULL_STAGE_PRINT_APPROVED"
+  ]
+}

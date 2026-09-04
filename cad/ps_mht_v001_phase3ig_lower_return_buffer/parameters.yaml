@@ -1,0 +1,66 @@
+project: PS-MHT-V001
+phase: 3I-G
+process: LOWER_RETURN_BUFFER_UPFLOW_PROTOTYPE_AND_TERMINAL_COLLECTION_INTERFACE
+authority:
+  inherited_phase3if_sha_list: cad/ps_mht_v001/commit/phase3if_SHA256SUMS.txt
+  inherited_phase3id_sha_list: cad/ps_mht_v001/commit/phase3id_SHA256SUMS.txt
+  stage_relative_rotation_deg: 30.0
+  stage_absolute_rotations_deg: [0.0, 30.0, 60.0, 90.0, 120.0]
+  central_dry_core_diameter_mm: 100.0
+  central_dry_core_water_route: PROHIBITED
+mast:
+  type: SUS_SF-20_20_SF9-202
+  measured_x_mm: 19.9
+  measured_y_mm: 19.9
+  twist: NONE_OBSERVED
+  straightness: PASS_PHYSICAL_OBSERVATION
+tank:
+  maximum_envelope_mm: [240.0, 146.0, 105.0]
+  body_length_mm: 220.0
+  body_width_mm: 134.0
+  wall_mm: 3.0
+  floor_mm: 4.0
+  outer_corner_radius_mm: 18.0
+  normal_water_z_mm: 82.0
+  emergency_water_z_mm: 94.0
+  normal_working_volume_target_l: [2.0, 2.5]
+hydraulic:
+  downcomer_clear_bore_mm: 25.0
+  downcomer_wall_mm: 3.0
+  outlet_target_above_inner_floor_mm: 15.0
+  outlet_cad_above_inner_floor_mm: 15.5
+  outlet_cad_adjustment_reason: RETAIN_3MM_WALL_AROUND_25MM_CLEAR_BORE
+  diffuser_envelope_mm: [112.0, 32.0, 30.0]
+  diffuser_slot_mm: [100.0, 9.0]
+  normal_weir_width_mm: 112.0
+  emergency_overflow_width_mm: 30.0
+  internal_baffle: INTERNAL_BAFFLE_RESERVED
+terminal_tray:
+  envelope_mm: [230.0, 230.0, 28.0]
+  central_rounded_square_opening_mm: 30.0
+  slope_percent: 3.5
+  landing_angles_deg: [60.0, 180.0, 300.0]
+frame:
+  radial_leg_angles_deg: [0.0, 90.0, 180.0, 270.0]
+  provisional_leg_length_mm: 445.0
+  tank_axis_between_legs_deg: 45.0
+  primary_load_path: METAL_SHELF_AND_METAL_BASE
+return:
+  independent_hose_per_tower: true
+  hose_nominal_id_mm: 25.0
+  provisional_hose_length_mm: [350.0, 500.0]
+  merge_before_central_trough: false
+pending:
+  normal_outlet_fitting: DIMENSION_PENDING
+  drain_fitting: DIMENSION_PENDING
+  trough_inner_floor_and_sloped_walls: PHYSICAL_MEASUREMENT_PENDING
+  internal_baffle_need: COLOR_DYE_TEST_PENDING
+print:
+  printer: BAMBU_LAB_A1
+  material: WHITE_PETG
+  diagnostics_d01_d07: SLICER_REVIEW_REQUIRED_BEFORE_PRINT
+  full_tank: HOLD_DO_NOT_PRINT
+  full_tray: HOLD_DO_NOT_PRINT
+  full_assembly: HOLD_DO_NOT_PRINT
+  phase3if_full_module: DO_NOT_PRINT
+

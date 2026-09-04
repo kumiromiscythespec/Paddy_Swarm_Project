@@ -1,0 +1,27 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-F",
+  "dry_core": {
+    "opening_diameter_mm": 100.0,
+    "wet_boundary_contact": false,
+    "water_route": false,
+    "installed_reference_puck_outer_diameter_mm": 98.0,
+    "selected_puck_outer_diameter_mm": null,
+    "selected_mast_type": null,
+    "selected_mast_clearance_mm": null
+  },
+  "frame": {
+    "central_mast_center_xy_mm": [0.0, 0.0],
+    "rear_post_center_xy_mm": [-150.0, 0.0],
+    "bracket_primary_material": "METAL",
+    "printed_parts_are_primary_load_structure": false,
+    "per_stage_fasteners": false
+  },
+  "hydraulic": {
+    "relative_rotation_deg": 30.0,
+    "overflow_angles_local_deg": [30.0, 150.0, 270.0],
+    "landing_angles_local_deg": [60.0, 180.0, 300.0],
+    "corridor_stretch_diameter_mm": 22.0,
+    "minimum_frame_radial_margin_with_translation_mm": 18.0
+  }
+}

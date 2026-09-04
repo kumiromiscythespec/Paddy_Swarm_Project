@@ -1,0 +1,1233 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-A",
+  "process_name": "PHASE_3IA_INTEGRATED_WET_BASE_MODULE",
+  "status": [
+    "INTEGRATED_STAGE_ARCHITECTURE_COMPLETE",
+    "FULL_STL_READY_FOR_BAMBU_STUDIO_REVIEW",
+    "LOWER_60MM_COUPON_READY_AFTER_SLICER_REVIEW",
+    "PHYSICAL_PRINT_PENDING"
+  ],
+  "cadquery_version": "2.8.0",
+  "repository_generation_audit": {
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "198a708395df6e43556a744ae9c5629b50360e2f",
+    "status_short": [
+      " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M README.md",
+      " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "?? cad/Paddy_Vacuum_Siphon_Primer_v0_1_package/",
+      "?? cad/common_rover/common_rover_candidate_a_motor_bracket_adapter_v0_9_3_2/",
+      "?? cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1/",
+      "?? cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2/",
+      "?? cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1/",
+      "?? cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0/",
+      "?? cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_3/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_4/",
+      "?? cad/common_rover/front_drive_dual_pto_design_authority_v0_8_5/",
+      "?? cad/paddy_vacuum_siphon_primer_v0_1/",
+      "?? cad/ps_mht_v001/build_phase3ia.py",
+      "?? cad/ps_mht_v001/commit/commit_manifest_phase3ia.txt",
+      "?? cad/ps_mht_v001/commit/phase3ia_SHA256SUMS.txt",
+      "?? cad/ps_mht_v001/common/phase3ia_nonregression.py",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_ARCHITECTURE.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_LOWER_60MM_COUPON_TEST_PLAN.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_NETPOT_INSTALLATION.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_PHYSICAL_RESULT_SHEET.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_SLICER_REVIEW_CHECKLIST.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_SUPERSESSION_RECORD.md",
+      "?? cad/ps_mht_v001/docs/PHASE3IA_WATER_AND_OVERFLOW_TEST_PLAN.md",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_netpot_envelope_audit.json",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_nonregression_audit.json",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_overhang_audit.json",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_slicer_review_manifest.json",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_validation_report.json",
+      "?? cad/ps_mht_v001/exports/preview/phase3ia_water_volume_audit.json",
+      "?? cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_assembly_reference_phase3ia.step",
+      "?? cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_full_reference_phase3ia.step",
+      "?? cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_lower_60mm_coupon_phase3ia.step",
+      "?? cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_water_volume_reference_phase3ia.step",
+      "?? cad/ps_mht_v001/exports/stl/plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+      "?? cad/ps_mht_v001/exports/stl/plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl",
+      "?? cad/ps_mht_v001/phase3ia_state.py",
+      "?? cad/ps_mht_v001/print_manifest_phase3ia.py",
+      "?? cad/ps_mht_v001/reference/integrated_stage_references_phase3ia.py",
+      "?? cad/ps_mht_v001/specs/ps_mht_phase3ia_integrated_stage.yaml",
+      "?? cad/ps_mht_v001/specs/ps_mht_phase3ia_interfaces.json",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_artifacts_and_nonregression.py",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_entry_state.py",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_integrated_geometry.py",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_netpot_envelope.py",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_print_and_overhang.py",
+      "?? cad/ps_mht_v001/tests/test_phase3ia_water_and_overflow.py",
+      "?? cad/ps_mht_v001/tools/run_validation_phase3ia.cmd",
+      "?? cad/ps_mht_v001/tower_module/integrated_wet_base_stage_phase3ia.py",
+      "?? tests/"
+    ],
+    "working_tree_diff_bytes": 8287,
+    "working_tree_diff_sha256": "649ec5928e27bc9bfeb13ec517fb318c4eb6857a60ea73b7e18cd68cd47a4bc0",
+    "staged_diff_bytes": 0,
+    "staged_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_diff_empty": true,
+    "files_at_least_95mb": [],
+    "large_file_scan_scope": "WORKTREE_EXCLUDING_DOT_GIT"
+  },
+  "phase3h_physical_results": {
+    "c050_arc": {
+      "radial_clearance_mm_per_side": 0.5,
+      "assembly": "PASS",
+      "repeated_cycles": "PASS_EXACT_COUNT_NOT_RECORDED",
+      "springback": "LIGHT_ACCEPTABLE",
+      "preferred_pairing_orientation": "HOLE_1",
+      "whitening": "NONE",
+      "cracking": "NONE"
+    },
+    "c050_full_ring": {
+      "lower_receiver_inner_diameter_mm": {
+        "deg_0": 194.0,
+        "deg_45": 194.0,
+        "deg_90": 194.0,
+        "deg_135": 194.0
+      },
+      "lower_outer_diameter_mm": {
+        "deg_0": 200.0,
+        "deg_45": 200.0,
+        "deg_90": 201.0,
+        "deg_135": 200.0
+      },
+      "lower_outer_ovality_mm": 1.0,
+      "upper_skirt_outer_diameter_mm": {
+        "deg_0": 192.5,
+        "deg_45": 193.0,
+        "deg_90": 192.5,
+        "deg_135": 192.5
+      },
+      "upper_skirt_ovality_mm": 0.5,
+      "repeated_cycles": 20,
+      "whitening_after_cycles": "NONE",
+      "cracking_after_cycles": "NONE",
+      "abnormal_wear_after_cycles": "NONE",
+      "mechanical_status": "PASS",
+      "use_in_phase3ia": "DRY_STACKING_REFERENCE_ONLY"
+    },
+    "compression_ring_v1": {
+      "printed_quantity": 1,
+      "lateral_centering": "FAIL",
+      "second_ring_print_required": false,
+      "status": "SUPERSEDED_BY_PHASE_3IA"
+    }
+  },
+  "supersession": {
+    "old_wet_joint_production_architecture": "SUPERSEDED",
+    "compression_ring_v1": "SUPERSEDED_BY_PHASE_3IA",
+    "compression_ring_v2": "NOT_IMPLEMENTED",
+    "second_compression_ring_print": "NOT_REQUIRED"
+  },
+  "geometry": {
+    "architecture": "ANNULAR_OPEN_CLEANABLE_SUMP_OPEN_TOP_GRAVITY_CRADLE",
+    "module_height_mm": 170.0,
+    "nominal_body_outer_diameter_mm": 200.0,
+    "maximum_allowed_xy_mm": 238.0,
+    "full_envelope_mm": [
+      218.3123903671984,
+      229.2085166320939,
+      170.0000001
+    ],
+    "full_maximum_radial_xy_mm": 236.62478053439682,
+    "coupon_envelope_mm": [
+      218.3123902671984,
+      229.2085166320939,
+      60.0000001
+    ],
+    "solid_count": 1,
+    "coupon_solid_count": 1,
+    "volume_mm3": 556716.2216344195,
+    "petg_reference_mass_g": 707.0296014757128,
+    "center_of_mass_mm": [
+      1.5582618235961188,
+      7.950568452887495e-08,
+      58.58380392371923
+    ],
+    "floor_contact_annular_area_mm2": 23561.94490192345,
+    "walls_mm": {
+      "upper_nominal": 3.6,
+      "upper_minimum": 3.2,
+      "lower_structural": 4.8,
+      "sump_floor": 4.0,
+      "port_root": 6.0,
+      "top_band": 4.5
+    },
+    "closed_waterways": 0,
+    "uncleanable_cavities": 0,
+    "print_orientation": "VERTICAL_Z",
+    "sideways_printing": false,
+    "segmentation": false
+  },
+  "selected_recess_mm": 2.0,
+  "water_volume_audit": {
+    "sump_type": "ANNULAR_OPEN_CLEANABLE_SUMP",
+    "selected_depth_mm": 20.0,
+    "target_volume_l": {
+      "minimum": 0.35,
+      "preferred": 0.4,
+      "maximum": 0.45
+    },
+    "candidates": {
+      "d18": {
+        "depth_mm": 18.0,
+        "actual_water_volume_l": 0.3464628853589865,
+        "remaining_to_0_45_l": 0.1035371146410135,
+        "distance_below_overflow_crest_mm": 2.0,
+        "water_mass_kg_reference": 0.3464628853589865,
+        "center_of_mass_mm": [
+          0.25884664427481757,
+          -1.3981598261923559e-07,
+          13.024356006884265
+        ],
+        "solid_count": 1,
+        "within_target_range": false
+      },
+      "d19": {
+        "depth_mm": 19.0,
+        "actual_water_volume_l": 0.3657671183825616,
+        "remaining_to_0_45_l": 0.08423288161743842,
+        "distance_below_overflow_crest_mm": 1.0,
+        "water_mass_kg_reference": 0.3657671183825616,
+        "center_of_mass_mm": [
+          0.2589731836800644,
+          -1.324909013509746e-07,
+          13.524455743036517
+        ],
+        "solid_count": 1,
+        "within_target_range": true
+      },
+      "d20": {
+        "depth_mm": 20.0,
+        "actual_water_volume_l": 0.38507135140613546,
+        "remaining_to_0_45_l": 0.06492864859386455,
+        "distance_below_overflow_crest_mm": 0.0,
+        "water_mass_kg_reference": 0.38507135140613546,
+        "center_of_mass_mm": [
+          0.2590870358464115,
+          -1.259002476207635e-07,
+          14.024545479379011
+        ],
+        "solid_count": 1,
+        "within_target_range": true
+      }
+    }
+  },
+  "selected_water_depth_mm": 20.0,
+  "netpot_envelope_audit": {
+    "selected_recess_mm": 2.0,
+    "selection_rule": "SMALLEST_CANDIDATE_MEETING_ALL_GEOMETRIC_LIMITS",
+    "candidates": {
+      "r02": {
+        "recess_mm": 2.0,
+        "installed_netpot_maximum_xy_mm": 237.21534220615763,
+        "printed_stage_maximum_xy_mm": 236.62478053439682,
+        "pot_stage_intersection_volume_mm3": 0,
+        "pot_pair_intersection_volume_mm3": [
+          0,
+          0,
+          0
+        ],
+        "within_238mm": true,
+        "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+        "root_wick_access_width_mm": 16.0
+      },
+      "r03": {
+        "recess_mm": 3.0,
+        "installed_netpot_maximum_xy_mm": 235.2184494035587,
+        "printed_stage_maximum_xy_mm": 236.62478053439682,
+        "pot_stage_intersection_volume_mm3": 2147.448319972195,
+        "pot_pair_intersection_volume_mm3": [
+          0,
+          0,
+          0
+        ],
+        "within_238mm": true,
+        "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+        "root_wick_access_width_mm": 16.0
+      },
+      "r04": {
+        "recess_mm": 4.0,
+        "installed_netpot_maximum_xy_mm": 233.2268146387414,
+        "printed_stage_maximum_xy_mm": 236.62478053439682,
+        "pot_stage_intersection_volume_mm3": 4178.241021412201,
+        "pot_pair_intersection_volume_mm3": [
+          0,
+          0,
+          0
+        ],
+        "within_238mm": true,
+        "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+        "root_wick_access_width_mm": 16.0
+      },
+      "r05": {
+        "recess_mm": 5.0,
+        "installed_netpot_maximum_xy_mm": 231.23849436631667,
+        "printed_stage_maximum_xy_mm": 236.62478053439682,
+        "pot_stage_intersection_volume_mm3": 6094.217726240722,
+        "pot_pair_intersection_volume_mm3": [
+          0,
+          0,
+          0
+        ],
+        "within_238mm": true,
+        "tool_free_removal_geometry": "OPEN_TOP_NO_PRINTED_RETENTION",
+        "root_wick_access_width_mm": 16.0
+      }
+    },
+    "inner_diameter_measurements_used_for_external_envelope": false
+  },
+  "overflow_audit": {
+    "type": "OPEN_WEIR",
+    "width_mm": 25.0,
+    "crest_height_above_sump_floor_mm": 20.0,
+    "minimum_open_throat_mm": 8.0,
+    "minimum_geometric_open_area_mm2": 200.0,
+    "closed_siphon": false,
+    "small_diameter_drain": false,
+    "flow_review": {
+      "0.5_L_min": "GEOMETRIC_AREA_AVAILABLE_PHYSICAL_TEST_PENDING",
+      "1.0_L_min": "GEOMETRIC_AREA_AVAILABLE_PHYSICAL_TEST_PENDING",
+      "2.0_L_min_transient": "PHYSICAL_OVERFLOW_TEST_REQUIRED"
+    },
+    "cfd_performed": false
+  },
+  "overhang_audit": {
+    "features": {
+      "plant_port_upper_opening": "SELF_SUPPORTING_45_OR_LESS",
+      "flange_seat_underside": "SLICER_REVIEW_REQUIRED",
+      "port_cradle_inside": "SLICER_REVIEW_REQUIRED",
+      "root_wick_passage": "SELF_SUPPORTING_45_OR_LESS",
+      "sump_inner_wall": "SELF_SUPPORTING_45_OR_LESS",
+      "sump_outer_wall": "SELF_SUPPORTING_45_OR_LESS",
+      "rear_channel": "SELF_SUPPORTING_45_OR_LESS",
+      "overflow_weir": "SELF_SUPPORTING_45_OR_LESS",
+      "stacking_guide": "SELF_SUPPORTING_45_OR_LESS",
+      "port_gusset_root": "SELF_SUPPORTING_45_OR_LESS",
+      "sump_floor_wall_transition": "SELF_SUPPORTING_45_OR_LESS",
+      "top_stiffening_band": "SELF_SUPPORTING_45_OR_LESS"
+    },
+    "unsupported_prohibited_count": 0,
+    "automatic_support_dependency": false,
+    "bambu_studio_review_pending": true
+  },
+  "assembly_reference": {
+    "reference_only": true,
+    "solid_count": 9,
+    "contains": [
+      "ONE_INTEGRATED_STAGE",
+      "THREE_MEASURED_NETPOT_ENVELOPES",
+      "SELECTED_NORMAL_WATER_VOLUME",
+      "OPEN_OVERFLOW_PATH",
+      "UPPER_AND_LOWER_STACKING_DATUMS",
+      "REAR_2020_POST"
+    ],
+    "coordinate_conversion": {
+      "legacy_rear_frame_direction": "+Y",
+      "phase3ia_rear_service_direction": "-X",
+      "rotation_about_z_deg": 90.0
+    }
+  },
+  "step_round_trip_validation": {
+    "ps_mht_v001_integrated_stage_full_reference_phase3ia.step": {
+      "size_x": 218.31239036719217,
+      "size_y": 229.20851663205656,
+      "size_z": 170.0000001,
+      "solid_count": 1,
+      "volume_mm3": 556716.22431981,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_integrated_stage_lower_60mm_coupon_phase3ia.step": {
+      "size_x": 218.31239026719214,
+      "size_y": 229.20851663205656,
+      "size_z": 60.0000001,
+      "solid_count": 1,
+      "volume_mm3": 337276.9360260777,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_integrated_stage_assembly_reference_phase3ia.step": {
+      "size_x": 278.607565276223,
+      "size_y": 231.66743692217062,
+      "size_z": 498.0,
+      "solid_count": 9,
+      "volume_mm3": 2375828.162495764,
+      "all_solids_valid": true
+    },
+    "ps_mht_v001_integrated_stage_water_volume_reference_phase3ia.step": {
+      "size_x": 910.3829818721456,
+      "size_y": 190.4000002,
+      "size_z": 20.000000200000002,
+      "solid_count": 4,
+      "volume_mm3": 1482372.6962012493,
+      "all_solids_valid": true
+    }
+  },
+  "stl_mesh_validation": {
+    "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl": {
+      "point_count": 11281,
+      "triangle_count": 22582,
+      "size_x": 218.31239318847656,
+      "size_y": 229.20851135253906,
+      "size_z": 170.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.00010126053820867879,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_PLUS_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    },
+    "plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl": {
+      "point_count": 9953,
+      "triangle_count": 19906,
+      "size_x": 218.31239318847656,
+      "size_y": 229.20851135253906,
+      "size_z": 60.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.00010126053820867879,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_PLUS_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    }
+  },
+  "slicer_review_manifest": {
+    "project": "PS-MHT-V001",
+    "phase": "3I-A",
+    "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+    "bambu_studio_review": "BAMBU_STUDIO_REVIEW_PENDING",
+    "print_manifest": {
+      "project": "PS-MHT-V001",
+      "phase": "3I-A",
+      "bambu_studio_review": "PENDING",
+      "items": [
+        {
+          "file_name": "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+          "part": "INTEGRATED_STAGE_FULL",
+          "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+          "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+          "single_object": true,
+          "automatic_support_dependency": false,
+          "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+        },
+        {
+          "file_name": "plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl",
+          "part": "INTEGRATED_STAGE_LOWER_60MM_COUPON",
+          "status": "READY_FIRST_AFTER_SLICER_REVIEW",
+          "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+          "single_object": true,
+          "automatic_support_dependency": false,
+          "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+        }
+      ],
+      "not_printed": [
+        "SECOND_COMPRESSION_RING",
+        "COMPRESSION_RING_V2",
+        "TEMPORARY_MEMBRANE",
+        "ASSEMBLY_REFERENCE",
+        "WATER_VOLUME_REFERENCE"
+      ],
+      "physical_state": {
+        "full_stage_print_approved": false,
+        "water_tight": false,
+        "overflow_pass": false,
+        "plant_ready": false,
+        "production_ready": false
+      }
+    },
+    "cad_reference_mass_g": 707.0296014757128,
+    "estimated_print_time_h": "PENDING_BAMBU_STUDIO",
+    "estimated_filament_weight_g": "PENDING_BAMBU_STUDIO",
+    "review_items": [
+      {
+        "id": 1,
+        "item": "XY envelope <=238mm",
+        "status": "CAD_PASS"
+      },
+      {
+        "id": 2,
+        "item": "Z height 170mm",
+        "status": "CAD_PASS"
+      },
+      {
+        "id": 3,
+        "item": "A1 placement",
+        "status": "CAD_PASS_SLICER_CONFIRM_PENDING"
+      },
+      {
+        "id": 4,
+        "item": "single object",
+        "status": "CAD_PASS"
+      },
+      {
+        "id": 5,
+        "item": "single component",
+        "status": "MESH_PASS"
+      },
+      {
+        "id": 6,
+        "item": "closed manifold",
+        "status": "MESH_PASS"
+      },
+      {
+        "id": 7,
+        "item": "non-manifold edge zero",
+        "status": "MESH_PASS"
+      },
+      {
+        "id": 8,
+        "item": "boundary edge zero",
+        "status": "MESH_PASS"
+      },
+      {
+        "id": 9,
+        "item": "degenerate triangle zero",
+        "status": "MESH_PASS"
+      },
+      {
+        "id": 10,
+        "item": "automatic support locations",
+        "status": "PENDING_BAMBU_STUDIO"
+      },
+      {
+        "id": 11,
+        "item": "long airborne bridges",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 12,
+        "item": "thin isolated islands",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 13,
+        "item": "internal support removability",
+        "status": "PENDING_BAMBU_STUDIO"
+      },
+      {
+        "id": 14,
+        "item": "wall interruption",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 15,
+        "item": "sump floor continuity",
+        "status": "CAD_PASS_LAYER_CONFIRM_PENDING"
+      },
+      {
+        "id": 16,
+        "item": "port upper opening",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 17,
+        "item": "rear channel",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 18,
+        "item": "overflow weir",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 19,
+        "item": "estimated print time",
+        "status": "PENDING_BAMBU_STUDIO"
+      },
+      {
+        "id": 20,
+        "item": "estimated filament weight",
+        "status": "PENDING_BAMBU_STUDIO"
+      },
+      {
+        "id": 21,
+        "item": "abrupt layer area changes",
+        "status": "PENDING_LAYER_REVIEW"
+      },
+      {
+        "id": 22,
+        "item": "no Y-axis slender independent wall",
+        "status": "PENDING_LAYER_REVIEW"
+      }
+    ],
+    "mesh_summary": {
+      "point_count": 11281,
+      "triangle_count": 22582,
+      "size_x": 218.31239318847656,
+      "size_y": 229.20851135253906,
+      "size_z": 170.0,
+      "connected_component_count": 1,
+      "boundary_or_nonmanifold_edge_count": 0,
+      "closed_manifold": true,
+      "degenerate_triangle_count": 0,
+      "minimum_triangle_double_area_mm2": 0.00010126053820867879,
+      "self_intersection_detected": false,
+      "self_intersection_basis": "VALID_OCCT_BREP_PLUS_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+    }
+  },
+  "print_status": {
+    "full": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+    "coupon": "READY_FIRST_AFTER_SLICER_REVIEW",
+    "bambu_studio": "BAMBU_STUDIO_REVIEW_PENDING"
+  },
+  "non_regression": {
+    "phase3h_exports": {
+      "expected": {
+        "ps_mht_v001_phase3ha_delivery.zip": "0f6fd9098a901eca8c6a3f0e945ebe6034c40ad6660c8803c50edfd551f197d6",
+        "preview/horizontal_joint_isometric_phase3ha.svg": "3a174c273e42aa05f8bf746852311b71fc9ad51b258dc1f33fccb5ddc0fe3cbc",
+        "preview/horizontal_joint_section_phase3ha.svg": "abf3cd23434d744cd323633a74da9eb2d91f8af0e43f49303b091a13078ab5a5",
+        "preview/phase3ha_validation_report.json": "432cd293039f57348a44f26e15c1408f5679b968c66922337ac42251e471141d",
+        "preview/phase3hb_nonregression_audit.json": "53f2b7bfce309768ee53181617227e9b6a36a721c4e154f3adfc407c4ae1482c",
+        "preview/phase3hb_validation_report.json": "71c74a9425b9162f4fd77e8fddac7e3f4b42590ed50610c607733e467c5045c7",
+        "preview/print_manifest_phase3ha.json": "6fd98de5f62e6a8adda5bcac079e2436423d01bfa8cdb27129fa1994025715db",
+        "preview/print_manifest_phase3hb.json": "02b93d7711998a0c97c435654e831a01aafebd07df72b5e4fb83f5a437fea4df",
+        "step/full_ring_joint_pair_c050_reference_phase3ha.step": "2e61af0d9a6b6c4f628653be26735c808fcda580de15d998d8f4b9e2ebb4f7db",
+        "step/horizontal_joint_arc_coupon_c030_phase3ha.step": "6485e03769b3befe418ec35bd6d9a88f066f416d846ac1f9de2cabca2c8db6f0",
+        "step/horizontal_joint_arc_coupon_c050_phase3ha.step": "9c4926f9d3268dfce3927f598eef575b442a4a44d657cf6e560eaf276a72e53e",
+        "step/horizontal_joint_arc_coupon_c070_phase3ha.step": "d8bb9c77f4279ed6648f5e74d8f6f602632b6c1a563ddc5e666fc435a74af59a",
+        "step/horizontal_joint_compression_assembly_reference_phase3ha.step": "95362dd8b26274e3beff46bed045c0602db0a521636569ce6d2fa2255aa0f5ad",
+        "step/horizontal_joint_compression_ring_phase3ha.step": "5a5fd51c9f30dfed1429a9dce97e63dab479247156e388eca8bec1d7fd0d85d3",
+        "step/ps_mht_v001_compression_ring_reference_phase3hb.step": "3c54496007721e642a84623bc3536c051d590d3a3f0c7d5fe197d9878e831097",
+        "step/ps_mht_v001_full_ring_lower_c050_phase3hb.step": "f03d2eb4e80ee9974f8fca49d2e1f0333f4a435f0b66f170922d83ae20ff7324",
+        "step/ps_mht_v001_full_ring_pair_c050_reference_phase3hb.step": "b4d7f71fda2a798752efc2d89731e73cd73a29dd6927cc2377d824b340233814",
+        "step/ps_mht_v001_full_ring_upper_c050_phase3hb.step": "f0c9ac261f98c58a4adfa61dc24a6016f3a69e41d692649b235dfa017213b7e9",
+        "step/temporary_test_membrane_reference_phase3ha.step": "ad39df77f9a8972495547ff3442d804fd886b251f3fcf0e62237504e650dbfab",
+        "stl/horizontal_joint_arc_coupon_c030_phase3ha.stl": "f3d15ee13fb51c1d28d7967f396267ff60d6487ab8b925f5da4492669e6e5b89",
+        "stl/horizontal_joint_arc_coupon_c050_phase3ha.stl": "6787d6a52d742c2d17f48564675789a37c52bfffb85f348a4c602773ac321144",
+        "stl/horizontal_joint_arc_coupon_c070_phase3ha.stl": "8ec7de5b0b2afe905cd5d295e3a3754bc9df3f94fd35ea1aebf6427e250f2b38",
+        "stl/horizontal_joint_compression_ring_phase3ha.stl": "124a9c08c623c9a689c44151493d48e21ac311d8f8d0daf5986a89505e2fd2b7",
+        "stl/plate_01_full_ring_lower_c050_phase3hb.stl": "c175b7aec2065f7d19db73e1e398d040094f04f2a950d34338c1e65acc62ad06",
+        "stl/plate_02_full_ring_upper_c050_phase3hb.stl": "56ef478a3e76e6f162166acbf515434c9cabee6dac76c53e039f823365c3510f",
+        "stl/plate_03_compression_ring_HOLD_phase3hb.stl": "124a9c08c623c9a689c44151493d48e21ac311d8f8d0daf5986a89505e2fd2b7"
+      },
+      "actual": {
+        "ps_mht_v001_phase3ha_delivery.zip": "0f6fd9098a901eca8c6a3f0e945ebe6034c40ad6660c8803c50edfd551f197d6",
+        "preview/horizontal_joint_isometric_phase3ha.svg": "3a174c273e42aa05f8bf746852311b71fc9ad51b258dc1f33fccb5ddc0fe3cbc",
+        "preview/horizontal_joint_section_phase3ha.svg": "abf3cd23434d744cd323633a74da9eb2d91f8af0e43f49303b091a13078ab5a5",
+        "preview/phase3ha_validation_report.json": "432cd293039f57348a44f26e15c1408f5679b968c66922337ac42251e471141d",
+        "preview/phase3hb_nonregression_audit.json": "53f2b7bfce309768ee53181617227e9b6a36a721c4e154f3adfc407c4ae1482c",
+        "preview/phase3hb_validation_report.json": "71c74a9425b9162f4fd77e8fddac7e3f4b42590ed50610c607733e467c5045c7",
+        "preview/print_manifest_phase3ha.json": "6fd98de5f62e6a8adda5bcac079e2436423d01bfa8cdb27129fa1994025715db",
+        "preview/print_manifest_phase3hb.json": "02b93d7711998a0c97c435654e831a01aafebd07df72b5e4fb83f5a437fea4df",
+        "step/full_ring_joint_pair_c050_reference_phase3ha.step": "2e61af0d9a6b6c4f628653be26735c808fcda580de15d998d8f4b9e2ebb4f7db",
+        "step/horizontal_joint_arc_coupon_c030_phase3ha.step": "6485e03769b3befe418ec35bd6d9a88f066f416d846ac1f9de2cabca2c8db6f0",
+        "step/horizontal_joint_arc_coupon_c050_phase3ha.step": "9c4926f9d3268dfce3927f598eef575b442a4a44d657cf6e560eaf276a72e53e",
+        "step/horizontal_joint_arc_coupon_c070_phase3ha.step": "d8bb9c77f4279ed6648f5e74d8f6f602632b6c1a563ddc5e666fc435a74af59a",
+        "step/horizontal_joint_compression_assembly_reference_phase3ha.step": "95362dd8b26274e3beff46bed045c0602db0a521636569ce6d2fa2255aa0f5ad",
+        "step/horizontal_joint_compression_ring_phase3ha.step": "5a5fd51c9f30dfed1429a9dce97e63dab479247156e388eca8bec1d7fd0d85d3",
+        "step/ps_mht_v001_compression_ring_reference_phase3hb.step": "3c54496007721e642a84623bc3536c051d590d3a3f0c7d5fe197d9878e831097",
+        "step/ps_mht_v001_full_ring_lower_c050_phase3hb.step": "f03d2eb4e80ee9974f8fca49d2e1f0333f4a435f0b66f170922d83ae20ff7324",
+        "step/ps_mht_v001_full_ring_pair_c050_reference_phase3hb.step": "b4d7f71fda2a798752efc2d89731e73cd73a29dd6927cc2377d824b340233814",
+        "step/ps_mht_v001_full_ring_upper_c050_phase3hb.step": "f0c9ac261f98c58a4adfa61dc24a6016f3a69e41d692649b235dfa017213b7e9",
+        "step/temporary_test_membrane_reference_phase3ha.step": "ad39df77f9a8972495547ff3442d804fd886b251f3fcf0e62237504e650dbfab",
+        "stl/horizontal_joint_arc_coupon_c030_phase3ha.stl": "f3d15ee13fb51c1d28d7967f396267ff60d6487ab8b925f5da4492669e6e5b89",
+        "stl/horizontal_joint_arc_coupon_c050_phase3ha.stl": "6787d6a52d742c2d17f48564675789a37c52bfffb85f348a4c602773ac321144",
+        "stl/horizontal_joint_arc_coupon_c070_phase3ha.stl": "8ec7de5b0b2afe905cd5d295e3a3754bc9df3f94fd35ea1aebf6427e250f2b38",
+        "stl/horizontal_joint_compression_ring_phase3ha.stl": "124a9c08c623c9a689c44151493d48e21ac311d8f8d0daf5986a89505e2fd2b7",
+        "stl/plate_01_full_ring_lower_c050_phase3hb.stl": "c175b7aec2065f7d19db73e1e398d040094f04f2a950d34338c1e65acc62ad06",
+        "stl/plate_02_full_ring_upper_c050_phase3hb.stl": "56ef478a3e76e6f162166acbf515434c9cabee6dac76c53e039f823365c3510f",
+        "stl/plate_03_compression_ring_HOLD_phase3hb.stl": "124a9c08c623c9a689c44151493d48e21ac311d8f8d0daf5986a89505e2fd2b7"
+      },
+      "artifact_count": 26,
+      "unchanged": true
+    },
+    "phase3pa_netpot_calibration_exports": {
+      "expected": {
+        "ps_mht_v001_phase3pa_delivery.zip": "eae7182dd8611d4562e9e9aa53fb1a1202759545399a089f9eb75b2c36f949a7",
+        "preview/phase3pa_existing_port_function_ring_audit.json": "0aa6c01eac9da107e01b177103aff71623c791a4dfb5445d2bcdddb58f406563",
+        "preview/phase3pa_m4_fastener_envelope_audit.json": "e7197ee5b7bc21d8049a6722b32a46309cea839aa47c5e93a13cc7374f91ce9f",
+        "preview/phase3pa_maximum_diameter_audit.json": "47af53767c7a58a2c4f098a98f1597243cded8a769110f7d56ad1b62aeea7cad",
+        "preview/phase3pa_ring_outer_diameter_comparison.json": "70125c8e5c87980711dfd707189fa47b778da7a93a752f15a1f5b5e7234861ff",
+        "preview/phase3pa_validation_report.json": "0b7575c18ad5887100ff4272809e7749f5430e2065f97c6f56df2aaf84ccaf12",
+        "preview/print_manifest_phase3pa.json": "50439033a8c7a20fc7491db737a39530d6e4034fcbd4d7edfcbe3d96b888af13",
+        "preview/ps_mht_v001_netpot_fit_isometric_phase3pa.svg": "8028a1da9ae58d24926286a2f8466469a8a17a5c60b4fd92454aaf458d7b7105",
+        "preview/ps_mht_v001_netpot_fit_section_phase3pa.svg": "c4afc0ac2104262fbe13b4c25e857989290090008ed8832a9e607d07c674433f",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.step": "757976b4eb843d67fe603817dfd71ad48ff4b51fed4692040cb76590bc1cdf27",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.step": "85a4b9119c8e6f5c0cbc2e74da021fdf95f05feb5433811686cc9ecd726d0b6f",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.step": "b399177bde6166c46ab7d21b40e408d7c199de116b0f4b04ec5de97046931300",
+        "step/ps_mht_v001_siawadeky_netpot_reference_envelope_phase3pa.step": "11f5fb1ce6d9b2f999de6126415bdf2b155187661a7439ef30c4651805200023",
+        "stl/plate_01_netpot_fit_c805_phase3pa.stl": "5643ed03be19ee5aa9236836a06182df546219b93bf1229ff3320c7ea130b728",
+        "stl/plate_02_netpot_fit_c800_phase3pa.stl": "0577b94d5b3c430ea4d5a7d4e684776db700feeb667ca2d5793cd42c655e2c57",
+        "stl/plate_03_netpot_fit_c810_phase3pa.stl": "52ec18bc1c0bcacad1664badbb2c14ef8b434e3eb885a85d255faa4b04955241",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.stl": "0577b94d5b3c430ea4d5a7d4e684776db700feeb667ca2d5793cd42c655e2c57",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.stl": "5643ed03be19ee5aa9236836a06182df546219b93bf1229ff3320c7ea130b728",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.stl": "52ec18bc1c0bcacad1664badbb2c14ef8b434e3eb885a85d255faa4b04955241"
+      },
+      "actual": {
+        "ps_mht_v001_phase3pa_delivery.zip": "eae7182dd8611d4562e9e9aa53fb1a1202759545399a089f9eb75b2c36f949a7",
+        "preview/phase3pa_existing_port_function_ring_audit.json": "0aa6c01eac9da107e01b177103aff71623c791a4dfb5445d2bcdddb58f406563",
+        "preview/phase3pa_m4_fastener_envelope_audit.json": "e7197ee5b7bc21d8049a6722b32a46309cea839aa47c5e93a13cc7374f91ce9f",
+        "preview/phase3pa_maximum_diameter_audit.json": "47af53767c7a58a2c4f098a98f1597243cded8a769110f7d56ad1b62aeea7cad",
+        "preview/phase3pa_ring_outer_diameter_comparison.json": "70125c8e5c87980711dfd707189fa47b778da7a93a752f15a1f5b5e7234861ff",
+        "preview/phase3pa_validation_report.json": "0b7575c18ad5887100ff4272809e7749f5430e2065f97c6f56df2aaf84ccaf12",
+        "preview/print_manifest_phase3pa.json": "50439033a8c7a20fc7491db737a39530d6e4034fcbd4d7edfcbe3d96b888af13",
+        "preview/ps_mht_v001_netpot_fit_isometric_phase3pa.svg": "8028a1da9ae58d24926286a2f8466469a8a17a5c60b4fd92454aaf458d7b7105",
+        "preview/ps_mht_v001_netpot_fit_section_phase3pa.svg": "c4afc0ac2104262fbe13b4c25e857989290090008ed8832a9e607d07c674433f",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.step": "757976b4eb843d67fe603817dfd71ad48ff4b51fed4692040cb76590bc1cdf27",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.step": "85a4b9119c8e6f5c0cbc2e74da021fdf95f05feb5433811686cc9ecd726d0b6f",
+        "step/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.step": "b399177bde6166c46ab7d21b40e408d7c199de116b0f4b04ec5de97046931300",
+        "step/ps_mht_v001_siawadeky_netpot_reference_envelope_phase3pa.step": "11f5fb1ce6d9b2f999de6126415bdf2b155187661a7439ef30c4651805200023",
+        "stl/plate_01_netpot_fit_c805_phase3pa.stl": "5643ed03be19ee5aa9236836a06182df546219b93bf1229ff3320c7ea130b728",
+        "stl/plate_02_netpot_fit_c800_phase3pa.stl": "0577b94d5b3c430ea4d5a7d4e684776db700feeb667ca2d5793cd42c655e2c57",
+        "stl/plate_03_netpot_fit_c810_phase3pa.stl": "52ec18bc1c0bcacad1664badbb2c14ef8b434e3eb885a85d255faa4b04955241",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c800_phase3pa.stl": "0577b94d5b3c430ea4d5a7d4e684776db700feeb667ca2d5793cd42c655e2c57",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c805_phase3pa.stl": "5643ed03be19ee5aa9236836a06182df546219b93bf1229ff3320c7ea130b728",
+        "stl/ps_mht_v001_netpot_seat_fit_coupon_c810_phase3pa.stl": "52ec18bc1c0bcacad1664badbb2c14ef8b434e3eb885a85d255faa4b04955241"
+      },
+      "artifact_count": 19,
+      "unchanged": true
+    },
+    "authoritative_sources": {
+      "expected": {
+        "cad/ps_mht_v001/tower_module/horizontal_ring_joint_phase3ha.py": "b1632e070cd76c9db2fba02ec6a9fd2d8323f8fc9db2f1f488486056166e9cc0",
+        "cad/ps_mht_v001/test_fixtures/horizontal_joint_compression_fixture_phase3ha.py": "2a803a530eb7f17234a74c33e14635d6c9095212f9af77d1f3922e2cf3aea2d7",
+        "cad/ps_mht_v001/reference/temporary_test_membrane_phase3ha.py": "64f8d1c3639100a14db93a79be3a1c9384f0a51521f7d36f147f5cc399ee8ae8",
+        "cad/ps_mht_v001/reference/full_ring_pair_phase3hb.py": "e11f9e5a82b7e3cf37b0ab1fb92103bcf5ea371270d47b7b01317c20bbb770b4",
+        "cad/ps_mht_v001/build_phase3ha.py": "893d55ce2b8c98690daa8cf089748c498238ab531debde784b4c832e96b981a5",
+        "cad/ps_mht_v001/build_phase3hb.py": "6fe1f8a7c46170d3787840d075947a9786e9bba3466d4d5beca5f3179644e09c",
+        "cad/ps_mht_v001/parameters.py": "e223f80b924ed7a1ac71816494f2ebfe9be7ac5f97a28618b9878bc992ab6ef3",
+        "cad/ps_mht_v001/reference/siawadeky_netpot_measurements_phase3pa.py": "7e733171f84b00755c1eb13579ed1440a147cab7ea6ec7ecf5075b57e9de3b73",
+        "cad/ps_mht_v001/reference/siawadeky_netpot_reference_envelope_phase3pa.py": "b84e136023e6bac1d828bce45ecd4863114f07b6fdc2e05fb2d232aab066b0a6"
+      },
+      "actual": {
+        "cad/ps_mht_v001/tower_module/horizontal_ring_joint_phase3ha.py": "b1632e070cd76c9db2fba02ec6a9fd2d8323f8fc9db2f1f488486056166e9cc0",
+        "cad/ps_mht_v001/test_fixtures/horizontal_joint_compression_fixture_phase3ha.py": "2a803a530eb7f17234a74c33e14635d6c9095212f9af77d1f3922e2cf3aea2d7",
+        "cad/ps_mht_v001/reference/temporary_test_membrane_phase3ha.py": "64f8d1c3639100a14db93a79be3a1c9384f0a51521f7d36f147f5cc399ee8ae8",
+        "cad/ps_mht_v001/reference/full_ring_pair_phase3hb.py": "e11f9e5a82b7e3cf37b0ab1fb92103bcf5ea371270d47b7b01317c20bbb770b4",
+        "cad/ps_mht_v001/build_phase3ha.py": "893d55ce2b8c98690daa8cf089748c498238ab531debde784b4c832e96b981a5",
+        "cad/ps_mht_v001/build_phase3hb.py": "6fe1f8a7c46170d3787840d075947a9786e9bba3466d4d5beca5f3179644e09c",
+        "cad/ps_mht_v001/parameters.py": "e223f80b924ed7a1ac71816494f2ebfe9be7ac5f97a28618b9878bc992ab6ef3",
+        "cad/ps_mht_v001/reference/siawadeky_netpot_measurements_phase3pa.py": "7e733171f84b00755c1eb13579ed1440a147cab7ea6ec7ecf5075b57e9de3b73",
+        "cad/ps_mht_v001/reference/siawadeky_netpot_reference_envelope_phase3pa.py": "b84e136023e6bac1d828bce45ecd4863114f07b6fdc2e05fb2d232aab066b0a6"
+      },
+      "artifact_count": 9,
+      "unchanged": true
+    },
+    "linked_sump": {
+      "manifest_sha256_expected": "c300b1e77fe0c0721747e39e176982d37058358c63d143b46020948fad391bbe",
+      "manifest_sha256_actual": "c300b1e77fe0c0721747e39e176982d37058358c63d143b46020948fad391bbe",
+      "manifest_unchanged": true,
+      "expected": {
+        "cad/ps_mht_v001/indoor_test_rig/__init__.py": "ddf2bbe9b4fb92b54006e5b1deaa5c287f574c84d29e482a13fad673b7ec4b40",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/__init__.py": "f8df6631668818689fc3e141dd80ddfdb5f21df723e678aeaec81610696b6a45",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/build_phase4tlsa.py": "0f32afd5161c416626a9b7f86cb19c0007f7ee1790605619c6ab80310d72dcc5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/baseline_sha256_before_phase4tlsa.json": "9a8d2e9f3be5b7d29438175e6a8417c1b040667811765a30bd026305baab8dd0",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_combined.txt": "1e4c6280291a5c567d36325e2bbec7eca6d6b8eb271a2acf3b7e17fb897dab38",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_linked_sump_phase4tlsa.txt": "6435a25dfaa517e806f8f7cdaa9f632386eee08beb8f5a6034ea8c3520cc9d79",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_ps_mht_baseline_before_linked_sump.txt": "494026aff4adfc3af38c7041222363963f7a90fdfc39f1d9bd76d348a9cfe552",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/repository_commit_audit.json": "798922cdf91fa1e118790d67782e781388ef9ff9d6004f37162b4b51f3b1d45a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/diagrams.py": "4159c824ad664ffadc3439dca5f36da0a4d281ed5e9f01dc4f7b3423dafd9243",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ARCHITECTURE.md": "a71ce6ce44e6a0fa31d44d286c9f5aafb01c2414e65c1020297dd7dd1b427904",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ASSEMBLY_SEQUENCE.md": "ea0fda70247fe45de11a6d22c847aca61f30512d85ab72fe53c87d0c2be7e84c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_BOM_PENDING.md": "f6b08bfb35f605c1259b5c260d83ccedd652775cdb7f59590ead39b92d3e6963",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_CLEANING_PLAN.md": "3bbf9e79e8645dd418758e87ac7b6af09dd8d60f41dd0264a7c5d1219dd51880",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ISOLATION_PROCEDURE.md": "522861503c7a100dafe443307eadd9ee35b10db8e81ba402a440c897ec0093d5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_MEASUREMENT_SHEET.md": "7ab6a828416c1c0997374bc8d7132dff98fbcb56fbc9baeffcc949777adc1631",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_PUMP_TEST_PLAN.md": "055b7ef245ae851ca7db6ebb1d5cc4e5d80a5f0a2704e78e7d86040e58c5ccb9",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ROOM_LAYOUT.md": "3c6f14e51d9ce72fc659d0acfa6eb3b60b1212e63335567f7f5b919c0cf4de70",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_SAFETY_AND_OVERFLOW.md": "4642d8e2c18b13b861d19a702c1a5a43c03dbc466bc3438c7d44af6371189dbb",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_WATER_BALANCE.md": "10bfaa459b10a5596c08674c5bfea1cd427ced9da6cb8a0f2c7d0b8ee1136b4c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/circulation_pump_power_meter_wiring_phase4tlsa.svg": "0e753381123e443110bd390ebecd923b4b5fdcf26d2dfe331fc2ff903c92c72d",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/daytime_water_path_phase4tlsa.svg": "61b98b902240e95d99445316ff1c75cd4f5622d92b479011bfd9f0b65d8043ad",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/emergency_overflow_phase4tlsa.svg": "5cc65e313115a8653062a7bf5178b2c2b675e7be36ec4f68cd92be4d3c32f7cd",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/individual_isolation_phase4tlsa.svg": "bf160a5d21e40ab497fc6dff113ef9ba7c29ea0165f1a89902f2f38727f8209e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/nighttime_water_path_phase4tlsa.svg": "f2a186dd1c5663c86779300cb52211a6f0e0dfeb9c292d4df7f0f51c4dad1e7a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/parallel_sumps_4tower_phase4tlsa.svg": "87a4ced4a53035a05965e52db8c86fafb7db0518b40e67ed9d952c246a2aca47",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/parallel_sumps_8tower_expansion_phase4tlsa.svg": "84f98eb05daf4098b9558e8be3b559d23314daecf78cad1a6c69a5656616c8db",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_commit_audit.json": "798922cdf91fa1e118790d67782e781388ef9ff9d6004f37162b4b51f3b1d45a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_interface_audit.json": "c9ba5d267cf683b58c35c47d8977ab65c8077c23a14bca496cc18fa9e2da24f6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_room_layout_audit.json": "11aa4617a6e2afbd398fac6529f66700f224066aa458f61c08e3e9248de939f4",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_validation_report.json": "68a4d6a1a2aad23c46cf0fa22d1f9141cb9d889e58418cd70f3bb660004690eb",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_water_balance.json": "852b4050a7938e322464833e2c3de76ab4e2de3c97d287425b153c86a938d44c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/print_manifest_phase4tlsa.json": "76b1f373c6fbf266e7018335c5549e65f9dcfafaf4c863aca530bb8788f9d9d6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/rear_trunk_service_route_phase4tlsa.svg": "afd3a5108e7f93ee079463730204b142da77dd07019e79eaaa30f66456298c5a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/room_height_section_phase4tlsa.svg": "1616e238521cf16e070645593be46f7f0d2de4ea376dbf047608bb9c1739c39f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_4tower_zone_reference.step": "a42191f1444b20599dcdf4c0f723906dbde66e7213ddb3565633d032e37d0fde",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_8tower_zone_reference.step": "bf8a9183def3c92bc9c485b9c06ec91c3f50c099313813bde6705587520d7cbe",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_isolation_reference.step": "77967ca3087cb38129030bab3042d50be4fe71f476806458a5f63ba4a3d8702d",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_local_sump_reference.step": "9e6728d08699e11dccbaba884ab0cc5b44cf30ca2b026484c020e053c38472e8",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_pump_well_reference.step": "68c790a10a2f86b6066f3d1dd8005c7598fb233670c53108ec6b8504aba56ba8",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_support_deck_reference.step": "1dbf249f95e37694f9a35c884cc80bebb8fc5b0d3f0e30582910c97cd224539e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/parameters.py": "e0c70bc19241a39e44473d19bfed10f6b940f12951e014319bc14d9dd0d1f29f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/reference_cad.py": "cf505b46b106a094119165255f8f94f17e9fe5b18646def0f11a519ba216efba",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/specs/ps_mht_8t_linked_sump_interfaces.json": "cf0258641ace845c08bfd168b78b8c015e1ce7cb8fb026bda3570d7d93c4be2f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/specs/ps_mht_8t_linked_sump_v001.yaml": "47ef2461e2712870642031bdfc809b54e2e9345d00c2f4f3f1793ac7f87c0405",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_isolation.py": "b494cf4529a99a5f7f5b29a8a9eadf8388c60dce85cb7946f43ce774077134e6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_layout.py": "2a59faec173080d4fd8b560bb55f9a90a59e58ea8caf7e9a6f2ca9b2085698f2",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_reference_cad.py": "7ecce11fe3dbf201abbfbeafe6267aa81ea5e729d9e971e751a0fd88308e8598",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_safety.py": "21570391e94c758d864e59c09d7f4243750552b74973c0cd8619e56a933b4e1e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_spec.py": "b55612952f637e885a04053abf84d1631ae2606c258860bafcf58f5d08bbc1a5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_water_balance.py": "e40446d5ab1195fede903b0153a2953938999640d37a31e7248c64dd298b9878",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tools/run_validation_ps_mht_8t_linked_sump_v001.cmd": "10b6b5def192e44b873d0d55a527a633df2217e4c5b93690aa24e09576370a18",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/water_balance.py": "26837792c2bbfe30d3b3f57bada0cf8a392431908bcfbd717dee305b1a0cf4e9"
+      },
+      "actual": {
+        "cad/ps_mht_v001/indoor_test_rig/__init__.py": "ddf2bbe9b4fb92b54006e5b1deaa5c287f574c84d29e482a13fad673b7ec4b40",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/__init__.py": "f8df6631668818689fc3e141dd80ddfdb5f21df723e678aeaec81610696b6a45",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/build_phase4tlsa.py": "0f32afd5161c416626a9b7f86cb19c0007f7ee1790605619c6ab80310d72dcc5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/baseline_sha256_before_phase4tlsa.json": "9a8d2e9f3be5b7d29438175e6a8417c1b040667811765a30bd026305baab8dd0",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_combined.txt": "1e4c6280291a5c567d36325e2bbec7eca6d6b8eb271a2acf3b7e17fb897dab38",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_linked_sump_phase4tlsa.txt": "6435a25dfaa517e806f8f7cdaa9f632386eee08beb8f5a6034ea8c3520cc9d79",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/commit_manifest_ps_mht_baseline_before_linked_sump.txt": "494026aff4adfc3af38c7041222363963f7a90fdfc39f1d9bd76d348a9cfe552",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/commit/repository_commit_audit.json": "798922cdf91fa1e118790d67782e781388ef9ff9d6004f37162b4b51f3b1d45a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/diagrams.py": "4159c824ad664ffadc3439dca5f36da0a4d281ed5e9f01dc4f7b3423dafd9243",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ARCHITECTURE.md": "a71ce6ce44e6a0fa31d44d286c9f5aafb01c2414e65c1020297dd7dd1b427904",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ASSEMBLY_SEQUENCE.md": "ea0fda70247fe45de11a6d22c847aca61f30512d85ab72fe53c87d0c2be7e84c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_BOM_PENDING.md": "f6b08bfb35f605c1259b5c260d83ccedd652775cdb7f59590ead39b92d3e6963",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_CLEANING_PLAN.md": "3bbf9e79e8645dd418758e87ac7b6af09dd8d60f41dd0264a7c5d1219dd51880",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ISOLATION_PROCEDURE.md": "522861503c7a100dafe443307eadd9ee35b10db8e81ba402a440c897ec0093d5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_MEASUREMENT_SHEET.md": "7ab6a828416c1c0997374bc8d7132dff98fbcb56fbc9baeffcc949777adc1631",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_PUMP_TEST_PLAN.md": "055b7ef245ae851ca7db6ebb1d5cc4e5d80a5f0a2704e78e7d86040e58c5ccb9",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_ROOM_LAYOUT.md": "3c6f14e51d9ce72fc659d0acfa6eb3b60b1212e63335567f7f5b919c0cf4de70",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_SAFETY_AND_OVERFLOW.md": "4642d8e2c18b13b861d19a702c1a5a43c03dbc466bc3438c7d44af6371189dbb",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/docs/PS_MHT_8T_LINKED_SUMP_WATER_BALANCE.md": "10bfaa459b10a5596c08674c5bfea1cd427ced9da6cb8a0f2c7d0b8ee1136b4c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/circulation_pump_power_meter_wiring_phase4tlsa.svg": "0e753381123e443110bd390ebecd923b4b5fdcf26d2dfe331fc2ff903c92c72d",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/daytime_water_path_phase4tlsa.svg": "61b98b902240e95d99445316ff1c75cd4f5622d92b479011bfd9f0b65d8043ad",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/emergency_overflow_phase4tlsa.svg": "5cc65e313115a8653062a7bf5178b2c2b675e7be36ec4f68cd92be4d3c32f7cd",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/individual_isolation_phase4tlsa.svg": "bf160a5d21e40ab497fc6dff113ef9ba7c29ea0165f1a89902f2f38727f8209e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/nighttime_water_path_phase4tlsa.svg": "f2a186dd1c5663c86779300cb52211a6f0e0dfeb9c292d4df7f0f51c4dad1e7a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/parallel_sumps_4tower_phase4tlsa.svg": "87a4ced4a53035a05965e52db8c86fafb7db0518b40e67ed9d952c246a2aca47",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/parallel_sumps_8tower_expansion_phase4tlsa.svg": "84f98eb05daf4098b9558e8be3b559d23314daecf78cad1a6c69a5656616c8db",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_commit_audit.json": "798922cdf91fa1e118790d67782e781388ef9ff9d6004f37162b4b51f3b1d45a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_interface_audit.json": "c9ba5d267cf683b58c35c47d8977ab65c8077c23a14bca496cc18fa9e2da24f6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_room_layout_audit.json": "11aa4617a6e2afbd398fac6529f66700f224066aa458f61c08e3e9248de939f4",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_validation_report.json": "68a4d6a1a2aad23c46cf0fa22d1f9141cb9d889e58418cd70f3bb660004690eb",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/phase4tlsa_water_balance.json": "852b4050a7938e322464833e2c3de76ab4e2de3c97d287425b153c86a938d44c",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/print_manifest_phase4tlsa.json": "76b1f373c6fbf266e7018335c5549e65f9dcfafaf4c863aca530bb8788f9d9d6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/rear_trunk_service_route_phase4tlsa.svg": "afd3a5108e7f93ee079463730204b142da77dd07019e79eaaa30f66456298c5a",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/preview/room_height_section_phase4tlsa.svg": "1616e238521cf16e070645593be46f7f0d2de4ea376dbf047608bb9c1739c39f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_4tower_zone_reference.step": "a42191f1444b20599dcdf4c0f723906dbde66e7213ddb3565633d032e37d0fde",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_8tower_zone_reference.step": "bf8a9183def3c92bc9c485b9c06ec91c3f50c099313813bde6705587520d7cbe",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_isolation_reference.step": "77967ca3087cb38129030bab3042d50be4fe71f476806458a5f63ba4a3d8702d",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_local_sump_reference.step": "9e6728d08699e11dccbaba884ab0cc5b44cf30ca2b026484c020e053c38472e8",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_pump_well_reference.step": "68c790a10a2f86b6066f3d1dd8005c7598fb233670c53108ec6b8504aba56ba8",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/exports/step/ps_mht_8t_linked_sump_support_deck_reference.step": "1dbf249f95e37694f9a35c884cc80bebb8fc5b0d3f0e30582910c97cd224539e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/parameters.py": "e0c70bc19241a39e44473d19bfed10f6b940f12951e014319bc14d9dd0d1f29f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/reference_cad.py": "cf505b46b106a094119165255f8f94f17e9fe5b18646def0f11a519ba216efba",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/specs/ps_mht_8t_linked_sump_interfaces.json": "cf0258641ace845c08bfd168b78b8c015e1ce7cb8fb026bda3570d7d93c4be2f",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/specs/ps_mht_8t_linked_sump_v001.yaml": "47ef2461e2712870642031bdfc809b54e2e9345d00c2f4f3f1793ac7f87c0405",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_isolation.py": "b494cf4529a99a5f7f5b29a8a9eadf8388c60dce85cb7946f43ce774077134e6",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_layout.py": "2a59faec173080d4fd8b560bb55f9a90a59e58ea8caf7e9a6f2ca9b2085698f2",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_reference_cad.py": "7ecce11fe3dbf201abbfbeafe6267aa81ea5e729d9e971e751a0fd88308e8598",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_safety.py": "21570391e94c758d864e59c09d7f4243750552b74973c0cd8619e56a933b4e1e",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_spec.py": "b55612952f637e885a04053abf84d1631ae2606c258860bafcf58f5d08bbc1a5",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tests/test_linked_sump_water_balance.py": "e40446d5ab1195fede903b0153a2953938999640d37a31e7248c64dd298b9878",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/tools/run_validation_ps_mht_8t_linked_sump_v001.cmd": "10b6b5def192e44b873d0d55a527a633df2217e4c5b93690aa24e09576370a18",
+        "cad/ps_mht_v001/indoor_test_rig/ps_mht_8t_linked_sump_v001/water_balance.py": "26837792c2bbfe30d3b3f57bada0cf8a392431908bcfbd717dee305b1a0cf4e9"
+      },
+      "artifact_count_in_manifest": 52,
+      "unchanged": true
+    },
+    "all_unchanged": true
+  },
+  "automated_tests": {
+    "execution_mode": "ONE_TEST_FILE_PER_FRESH_OCCT_PROCESS",
+    "existing_ps_mht": 366,
+    "linked_sump": 40,
+    "new_phase3ia": 48,
+    "total_passed": 454,
+    "all_passed": true,
+    "files": [
+      {
+        "file": "test_actual_index_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_actual_m4_geometry.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_assembly_validity.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_gasket_geometry.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_interface_fastener_alignment.py",
+        "passed": 9,
+        "returncode": 0
+      },
+      {
+        "file": "test_invalid_interface_rotation.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_module_interfaces.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_netpot_adapter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_parameters.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase2_print_envelope.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_complete_passage.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a1_m3_cartridge.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3a_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_artifacts.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_coupons_and_fixture.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_entry_state.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ha_horizontal_joint_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3hb_entry_state.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3hb_full_ring_geometry.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3hb_nonregression.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3hb_print_manifest.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3hb_print_orientation.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_artifacts_and_nonregression.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_entry_state.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_integrated_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_netpot_envelope.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_print_and_overhang.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3ia_water_and_overflow.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fastener_audit.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_fit_coupons.py",
+        "passed": 12,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_flange_support.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_maximum_diameter.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_measurements.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_no_finalization.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3pa_reference_envelope.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_annular_nut_ring.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_artifacts.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r1_shell_frame_fusion.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_annular_nut_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_index_geometry.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_minimum_features.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_no_deprecated_parts.py",
+        "passed": 4,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_port_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_print_envelope.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3r_self_supporting_opening.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_print_manifest.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa1_selected_plate_api.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa2_full_length_geometry.py",
+        "passed": 11,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_artifacts.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_capture_ring.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_contact_area.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_no_premature_hardware.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_port_printability.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_print_orientation.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_seam_cycle.py",
+        "passed": 8,
+        "returncode": 0
+      },
+      {
+        "file": "test_phase3sa_sector_geometry.py",
+        "passed": 7,
+        "returncode": 0
+      },
+      {
+        "file": "test_plant_port_geometry.py",
+        "passed": 10,
+        "returncode": 0
+      },
+      {
+        "file": "test_port_service_clearance.py",
+        "passed": 5,
+        "returncode": 0
+      },
+      {
+        "file": "test_print_envelope.py",
+        "passed": 3,
+        "returncode": 0
+      },
+      {
+        "file": "test_root_zone_envelopes.py",
+        "passed": 6,
+        "returncode": 0
+      },
+      {
+        "file": "test_linked_sump_isolation.py",
+        "passed": 7,
+        "returncode": 0,
+        "suite": "linked_sump"
+      },
+      {
+        "file": "test_linked_sump_layout.py",
+        "passed": 6,
+        "returncode": 0,
+        "suite": "linked_sump"
+      },
+      {
+        "file": "test_linked_sump_reference_cad.py",
+        "passed": 6,
+        "returncode": 0,
+        "suite": "linked_sump"
+      },
+      {
+        "file": "test_linked_sump_safety.py",
+        "passed": 7,
+        "returncode": 0,
+        "suite": "linked_sump"
+      },
+      {
+        "file": "test_linked_sump_spec.py",
+        "passed": 7,
+        "returncode": 0,
+        "suite": "linked_sump"
+      },
+      {
+        "file": "test_linked_sump_water_balance.py",
+        "passed": 7,
+        "returncode": 0,
+        "suite": "linked_sump"
+      }
+    ]
+  },
+  "git": {
+    "read_only_commands_executed": [
+      "git rev-parse --abbrev-ref HEAD",
+      "git rev-parse HEAD",
+      "git status --short",
+      "git diff",
+      "git diff --cached"
+    ],
+    "prohibited_commands_executed": [],
+    "mutation_operations_performed": false
+  },
+  "not_declared": [
+    "FULL_STAGE_PRINT_APPROVED",
+    "WATER_TIGHT",
+    "OVERFLOW_PASS",
+    "PLANT_READY",
+    "PRODUCTION_READY",
+    "READY_FOR_80_TOWERS"
+  ],
+  "non_regression_after_tests": {
+    "phase3h_exports": true,
+    "phase3pa_netpot_calibration_exports": true,
+    "authoritative_sources": true,
+    "linked_sump": true
+  },
+  "generated_files": [
+    "cad/ps_mht_v001/commit/commit_manifest_phase3ia.txt",
+    "cad/ps_mht_v001/commit/phase3ia_SHA256SUMS.txt",
+    "cad/ps_mht_v001/exports/preview/phase3ia_netpot_envelope_audit.json",
+    "cad/ps_mht_v001/exports/preview/phase3ia_nonregression_audit.json",
+    "cad/ps_mht_v001/exports/preview/phase3ia_overhang_audit.json",
+    "cad/ps_mht_v001/exports/preview/phase3ia_slicer_review_manifest.json",
+    "cad/ps_mht_v001/exports/preview/phase3ia_validation_report.json",
+    "cad/ps_mht_v001/exports/preview/phase3ia_water_volume_audit.json",
+    "cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_assembly_reference_phase3ia.step",
+    "cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_full_reference_phase3ia.step",
+    "cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_lower_60mm_coupon_phase3ia.step",
+    "cad/ps_mht_v001/exports/step/ps_mht_v001_integrated_stage_water_volume_reference_phase3ia.step",
+    "cad/ps_mht_v001/exports/stl/plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+    "cad/ps_mht_v001/exports/stl/plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl"
+  ],
+  "commit_manifest": "cad/ps_mht_v001/commit/commit_manifest_phase3ia.txt",
+  "sha256_list": "cad/ps_mht_v001/commit/phase3ia_SHA256SUMS.txt",
+  "delivery_zip": "D:\\Downloads\\PS_MHT_V001_PHASE3IA_INTEGRATED_WET_BASE_20260804_151914.zip"
+}

@@ -1,0 +1,34 @@
+project: PS-MHT-V001
+phase: 3I-F
+process: NON_ROTATING_DRY_CORE_FRAME_INTERFACE_FOR_30_DEGREE_DIRECT_DROP_STACK
+stage_relative_rotation_deg: 30.0
+stage_absolute_rotations_deg: [0, 30, 60, 90, 120]
+central_dry_opening_diameter_mm: 100.0
+maximum_installed_dry_core_radius_mm: 49.0
+reference_mast:
+  type: 2020_ALUMINUM_EXTRUSION
+  nominal_width_mm: 20.0
+  selected: null
+  physical_measurement: PENDING
+bottom_puck:
+  outer_diameter_candidates_mm: [98.0, 98.5, 99.0]
+  selected_outer_diameter_mm: null
+  reference_export_candidate_mm: 98.0
+  thickness_mm: 10.0
+top_cap:
+  selected_dimensions: null
+  reference_export_candidate_outer_diameter_mm: 98.0
+  thickness_mm: 10.0
+brackets:
+  primary_structure: METAL_FLAT_PLATE_REFERENCE
+  span_mm: 170.0
+  fasteners: M5_TNUT_AND_BOLT
+load_path:
+  vertical: MODULE_STACK_TO_BASE
+  mast: LATERAL_TILT_LIGHT_PRELOAD_ONLY
+print_status:
+  fit_coupon: READY_FIRST_LOW_COST_FIT_TEST
+  puck: HOLD_UNTIL_PHYSICAL_FIT_SELECTED
+  cap: HOLD_UNTIL_MAST_AND_FIT_SELECTED
+  full_module: SLICER_REVIEW_ONLY_DO_NOT_PRINT
+

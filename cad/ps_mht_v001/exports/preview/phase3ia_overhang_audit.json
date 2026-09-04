@@ -1,0 +1,19 @@
+{
+  "features": {
+    "plant_port_upper_opening": "SELF_SUPPORTING_45_OR_LESS",
+    "flange_seat_underside": "SLICER_REVIEW_REQUIRED",
+    "port_cradle_inside": "SLICER_REVIEW_REQUIRED",
+    "root_wick_passage": "SELF_SUPPORTING_45_OR_LESS",
+    "sump_inner_wall": "SELF_SUPPORTING_45_OR_LESS",
+    "sump_outer_wall": "SELF_SUPPORTING_45_OR_LESS",
+    "rear_channel": "SELF_SUPPORTING_45_OR_LESS",
+    "overflow_weir": "SELF_SUPPORTING_45_OR_LESS",
+    "stacking_guide": "SELF_SUPPORTING_45_OR_LESS",
+    "port_gusset_root": "SELF_SUPPORTING_45_OR_LESS",
+    "sump_floor_wall_transition": "SELF_SUPPORTING_45_OR_LESS",
+    "top_stiffening_band": "SELF_SUPPORTING_45_OR_LESS"
+  },
+  "unsupported_prohibited_count": 0,
+  "automatic_support_dependency": false,
+  "bambu_studio_review_pending": true
+}

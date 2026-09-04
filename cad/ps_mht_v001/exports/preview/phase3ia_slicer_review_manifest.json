@@ -1,0 +1,174 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-A",
+  "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+  "bambu_studio_review": "BAMBU_STUDIO_REVIEW_PENDING",
+  "print_manifest": {
+    "project": "PS-MHT-V001",
+    "phase": "3I-A",
+    "bambu_studio_review": "PENDING",
+    "items": [
+      {
+        "file_name": "plate_01_integrated_stage_full_SLICER_REVIEW_ONLY_phase3ia.stl",
+        "part": "INTEGRATED_STAGE_FULL",
+        "status": "SLICER_REVIEW_ONLY_DO_NOT_PRINT",
+        "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+        "single_object": true,
+        "automatic_support_dependency": false,
+        "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+      },
+      {
+        "file_name": "plate_02_integrated_stage_lower_60mm_coupon_phase3ia.stl",
+        "part": "INTEGRATED_STAGE_LOWER_60MM_COUPON",
+        "status": "READY_FIRST_AFTER_SLICER_REVIEW",
+        "orientation": "VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE",
+        "single_object": true,
+        "automatic_support_dependency": false,
+        "do_not_print_before": "BAMBU_STUDIO_REVIEW_PASS"
+      }
+    ],
+    "not_printed": [
+      "SECOND_COMPRESSION_RING",
+      "COMPRESSION_RING_V2",
+      "TEMPORARY_MEMBRANE",
+      "ASSEMBLY_REFERENCE",
+      "WATER_VOLUME_REFERENCE"
+    ],
+    "physical_state": {
+      "full_stage_print_approved": false,
+      "water_tight": false,
+      "overflow_pass": false,
+      "plant_ready": false,
+      "production_ready": false
+    }
+  },
+  "cad_reference_mass_g": 707.0296014757128,
+  "estimated_print_time_h": "PENDING_BAMBU_STUDIO",
+  "estimated_filament_weight_g": "PENDING_BAMBU_STUDIO",
+  "review_items": [
+    {
+      "id": 1,
+      "item": "XY envelope <=238mm",
+      "status": "CAD_PASS"
+    },
+    {
+      "id": 2,
+      "item": "Z height 170mm",
+      "status": "CAD_PASS"
+    },
+    {
+      "id": 3,
+      "item": "A1 placement",
+      "status": "CAD_PASS_SLICER_CONFIRM_PENDING"
+    },
+    {
+      "id": 4,
+      "item": "single object",
+      "status": "CAD_PASS"
+    },
+    {
+      "id": 5,
+      "item": "single component",
+      "status": "MESH_PASS"
+    },
+    {
+      "id": 6,
+      "item": "closed manifold",
+      "status": "MESH_PASS"
+    },
+    {
+      "id": 7,
+      "item": "non-manifold edge zero",
+      "status": "MESH_PASS"
+    },
+    {
+      "id": 8,
+      "item": "boundary edge zero",
+      "status": "MESH_PASS"
+    },
+    {
+      "id": 9,
+      "item": "degenerate triangle zero",
+      "status": "MESH_PASS"
+    },
+    {
+      "id": 10,
+      "item": "automatic support locations",
+      "status": "PENDING_BAMBU_STUDIO"
+    },
+    {
+      "id": 11,
+      "item": "long airborne bridges",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 12,
+      "item": "thin isolated islands",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 13,
+      "item": "internal support removability",
+      "status": "PENDING_BAMBU_STUDIO"
+    },
+    {
+      "id": 14,
+      "item": "wall interruption",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 15,
+      "item": "sump floor continuity",
+      "status": "CAD_PASS_LAYER_CONFIRM_PENDING"
+    },
+    {
+      "id": 16,
+      "item": "port upper opening",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 17,
+      "item": "rear channel",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 18,
+      "item": "overflow weir",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 19,
+      "item": "estimated print time",
+      "status": "PENDING_BAMBU_STUDIO"
+    },
+    {
+      "id": 20,
+      "item": "estimated filament weight",
+      "status": "PENDING_BAMBU_STUDIO"
+    },
+    {
+      "id": 21,
+      "item": "abrupt layer area changes",
+      "status": "PENDING_LAYER_REVIEW"
+    },
+    {
+      "id": 22,
+      "item": "no Y-axis slender independent wall",
+      "status": "PENDING_LAYER_REVIEW"
+    }
+  ],
+  "mesh_summary": {
+    "point_count": 11281,
+    "triangle_count": 22582,
+    "size_x": 218.31239318847656,
+    "size_y": 229.20851135253906,
+    "size_z": 170.0,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "degenerate_triangle_count": 0,
+    "minimum_triangle_double_area_mm2": 0.00010126053820867879,
+    "self_intersection_detected": false,
+    "self_intersection_basis": "VALID_OCCT_BREP_PLUS_CLOSED_SINGLE_COMPONENT_ZERO_DEGENERATE_MESH"
+  }
+}

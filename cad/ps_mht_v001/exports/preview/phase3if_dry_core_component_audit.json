@@ -1,0 +1,53 @@
+{
+  "architecture": "NON_ROTATING_DRY_CORE_FRAME_INTERFACE",
+  "central_opening_diameter_mm": 100.0,
+  "maximum_installed_frame_radius_mm": 49.0,
+  "mast_candidates": [
+    "2020_ALUMINUM_EXTRUSION",
+    "ROUND_METAL_TUBE_OD20",
+    "ROUND_METAL_TUBE_OD25",
+    "ROUND_METAL_TUBE_OD30",
+    "THREADED_ROD_REFERENCE_ONLY"
+  ],
+  "selected_mast_type": null,
+  "reference_mast_type": "2020_ALUMINUM_EXTRUSION_NOMINAL_20X20_UNMEASURED",
+  "mast_physical_measurement": "PENDING",
+  "reference_mast_nominal_width_mm": 20.0,
+  "reference_mast_diagonal_mm": 28.284271247461902,
+  "selected_puck_outer_diameter_mm": null,
+  "puck_outer_diameter_candidates_mm": [
+    98.0,
+    98.5,
+    99.0
+  ],
+  "installed_reference_puck_outer_diameter_mm": 98.0,
+  "installed_reference_puck_is_production_selection": false,
+  "selected_mast_clearance_mm": null,
+  "reference_mast_clearance_mm": 21.0,
+  "puck_solid_count": 1,
+  "top_cap_solid_count": 1,
+  "fit_coupon_solid_count": 3,
+  "fit_coupon_bbox_mm": [
+    212.25,
+    197.75,
+    10.0
+  ],
+  "fit_coupon_a1_pass": true,
+  "coupon_only_candidates_over_49mm_radius": [
+    98.5,
+    99.0
+  ],
+  "installed_candidate_within_49mm_radius": true,
+  "vertical_load_path": "MODULE_STACK_TO_BASE_NOT_SUSPENDED_FROM_MAST",
+  "mast_loads": [
+    "LATERAL_RESTRAINT",
+    "TILT_RESTRAINT",
+    "LIGHT_TOP_PRELOAD",
+    "SEPARATION_RESTRAINT"
+  ],
+  "petg_primary_bending_member": false,
+  "bracket_primary_structure": "METAL_FLAT_PLATE_REFERENCE_M5_TNUT_FASTENERS",
+  "tool_removable": true,
+  "printed_threads": false,
+  "watertight_part": false
+}

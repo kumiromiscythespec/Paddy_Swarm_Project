@@ -1,0 +1,83 @@
+{
+  "gauge": {
+    "type": "REMOVABLE_30_DEGREE_STACK_CLOCKING_GAUGE",
+    "candidate_inner_diameters_mm": [
+      201.5,
+      202.0,
+      202.5
+    ],
+    "selected_inner_diameter_mm": null,
+    "selection_status": "PHYSICAL_CALIBRATION_PENDING",
+    "reference_export_candidate_inner_diameter_mm": 202.0,
+    "reference_export_is_production_selection": false,
+    "radial_width_mm": 12.0,
+    "thickness_mm": 3.8,
+    "arc_span_deg": 220.0,
+    "open_gap_deg": 140.0,
+    "maximum_allowed_outer_diameter_mm": 228.0,
+    "lower_datum_notch_angle_deg": 0.0,
+    "upper_plus_30_pointer_angle_deg": 30.0,
+    "pointer_difference_deg": 30.0,
+    "wrong_zero_warning_angle_deg": 0.0,
+    "wrong_60_warning_angle_deg": 60.0,
+    "flat_print": true,
+    "support_required": false,
+    "load_bearing": false,
+    "watertight_part": false,
+    "remove_after_alignment": true,
+    "candidates": [
+      {
+        "inner_diameter_mm": 201.5,
+        "outer_diameter_mm": 225.5,
+        "solid_count": 1,
+        "bbox_mm": [
+          151.31277115996915,
+          225.5,
+          3.8
+        ]
+      },
+      {
+        "inner_diameter_mm": 202.0,
+        "outer_diameter_mm": 226.0,
+        "solid_count": 1,
+        "bbox_mm": [
+          151.64827619580154,
+          226.0,
+          3.8
+        ]
+      },
+      {
+        "inner_diameter_mm": 202.5,
+        "outer_diameter_mm": 226.5,
+        "solid_count": 1,
+        "bbox_mm": [
+          151.983781231632,
+          226.5,
+          3.8
+        ]
+      }
+    ]
+  },
+  "fit_coupon": {
+    "candidate_inner_diameters_mm": [
+      201.5,
+      202.0,
+      202.5
+    ],
+    "arc_span_deg": 30.0,
+    "thickness_mm": 3.8,
+    "identification_hole_counts": [
+      1,
+      2,
+      3
+    ],
+    "solid_count": 3,
+    "bbox_mm": [
+      15.450010088232176,
+      200.4931041931697,
+      3.8
+    ],
+    "a1_envelope_pass": true,
+    "print_status": "READY_FIRST_LOW_COST_FIT_TEST"
+  }
+}

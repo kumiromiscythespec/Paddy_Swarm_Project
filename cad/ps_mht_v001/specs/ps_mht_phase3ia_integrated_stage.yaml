@@ -1,0 +1,76 @@
+schema_version: 1
+project: PS-MHT-V001
+phase: Phase_3I-A
+process_name: PHASE_3IA_INTEGRATED_WET_BASE_MODULE
+status:
+  - INTEGRATED_STAGE_ARCHITECTURE_COMPLETE
+  - FULL_STL_READY_FOR_BAMBU_STUDIO_REVIEW
+  - LOWER_60MM_COUPON_READY_AFTER_SLICER_REVIEW
+  - PHYSICAL_PRINT_PENDING
+architecture:
+  stage: ONE_PIECE_360_DEGREE_INTEGRATED_WET_BASE
+  sump: ANNULAR_OPEN_CLEANABLE_SUMP
+  pot_support: OPEN_TOP_GRAVITY_CRADLE
+  interstage_interface: DRY_POSITIONING_ONLY
+  interstage_watertight_required: false
+  compression_ring: SUPERSEDED_BY_PHASE_3IA
+dimensions_mm:
+  module_height: 170.0
+  nominal_body_outer_diameter: 200.0
+  maximum_total_xy_envelope: 238.0
+  upper_general_wall_nominal: 3.6
+  upper_general_wall_minimum: 3.2
+  lower_structural_band_wall: 4.8
+  sump_floor: 4.0
+  port_root_minimum: 6.0
+  top_stiffening_band_height: 10.0
+  top_stiffening_band_wall: 4.5
+netpot:
+  count: 3
+  angles_deg: [0.0, 120.0, 240.0]
+  axis_angle_deg: 27.0
+  measured_flange_outer_diameter_mm: 108.0
+  measured_flange_thickness_mm: 4.0
+  measured_overall_height_mm: 68.0
+  measured_maximum_body_outer_diameter_mm: 78.6
+  selected_body_passage_diameter_mm: 80.5
+  selected_recess_mm: 2.0
+  installed_maximum_xy_mm: 237.21534220615763
+sump:
+  outer_radius_mm: 96.0
+  inner_radius_mm: 50.0
+  central_opening_diameter_mm: 100.0
+  operating_depth_candidates_mm: [18.0, 19.0, 20.0]
+  selected_operating_depth_mm: 20.0
+  selected_actual_volume_l: 0.38507135140613546
+  target_operating_volume_l: [0.35, 0.40, 0.45]
+water_paths:
+  root_wick_passage: OPEN_VISIBLE_CLEANABLE
+  root_wick_passage_width_mm: 16.0
+  rear_channel: OPEN_TOP_AND_INTERIOR
+  rear_channel_width_mm: 25.0
+  overflow: OPEN_WEIR
+  overflow_width_mm: 25.0
+  overflow_crest_above_sump_floor_mm: 20.0
+  minimum_open_throat_mm: 8.0
+stacking_guide:
+  segment_count: 3
+  segment_angle_deg: 40.0
+  guide_height_mm: 6.0
+  guide_inner_diameter_mm: 201.0
+  dry_clearance_reference_mm_per_side: 0.50
+print:
+  orientation: VERTICAL_Z_SUMP_FLOOR_ON_BUILD_PLATE
+  sideways: PROHIBITED
+  tilted: PROHIBITED
+  segmentation: PROHIBITED
+  automatic_support_dependency: PROHIBITED
+  full_stl: SLICER_REVIEW_ONLY_DO_NOT_PRINT
+  lower_60mm_coupon: READY_FIRST_AFTER_SLICER_REVIEW
+  bambu_studio_review: PENDING
+not_yet_declared:
+  - FULL_STAGE_PRINT_APPROVED
+  - WATER_TIGHT
+  - OVERFLOW_PASS
+  - PLANT_READY
+  - PRODUCTION_READY

@@ -1,0 +1,27 @@
+{
+  "project": "PS-MHT-V001",
+  "phase": "3I-C",
+  "status": "BAMBU_STUDIO_DIAGNOSTIC_PENDING",
+  "load_rule": "ONE_DIAGNOSTIC_STL_AS_ONE_OBJECT_IN_A_NEW_PROJECT",
+  "comparison_order": [
+    "PHASE3IC_DIAG_01_WET_CORE_MAIN_WALL",
+    "PHASE3IC_DIAG_02_PLUS_CRADLE_BUTTRESSES",
+    "PHASE3IC_DIAG_03_PLUS_RETENTION_LUGS",
+    "PHASE3IC_DIAG_04_PLUS_REAR_CASCADE_AND_WICK",
+    "PHASE3IC_DIAG_05_PLUS_STACKING_GUIDES_FULL_EQUIVALENT"
+  ],
+  "cad_precheck": {
+    "all_diagnostics_one_solid": true,
+    "all_diagnostics_closed_single_component": true
+  },
+  "bambu_studio_results": {
+    "first_stage_with_floating_region_warning": "PENDING",
+    "support_off_review": "PENDING",
+    "automatic_support_review": "PENDING",
+    "screen_captures": "PENDING"
+  },
+  "not_declared": [
+    "FLOATING_REGION_SOURCE_IDENTIFIED",
+    "FLOATING_REGION_FIXED"
+  ]
+}

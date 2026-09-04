@@ -1,0 +1,109 @@
+{
+  "plate_01_wall_floor_watertight_coupon_phase3ig.stl": {
+    "point_count": 352,
+    "triangle_count": 700,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 80.0,
+    "size_y_mm": 55.0,
+    "size_z_mm": 24.0,
+    "a1_envelope_pass": true
+  },
+  "plate_02_downcomer_diffuser_coupon_phase3ig.stl": {
+    "point_count": 610,
+    "triangle_count": 1220,
+    "connected_component_count": 2,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 66.5,
+    "size_y_mm": 112.0,
+    "size_z_mm": 55.0,
+    "a1_envelope_pass": true
+  },
+  "plate_03_wide_weir_gutter_coupon_phase3ig.stl": {
+    "point_count": 16,
+    "triangle_count": 28,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 30.0,
+    "size_y_mm": 118.0,
+    "size_z_mm": 22.0,
+    "a1_envelope_pass": true
+  },
+  "plate_04_emergency_overflow_coupon_phase3ig.stl": {
+    "point_count": 32,
+    "triangle_count": 56,
+    "connected_component_count": 2,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 30.0,
+    "size_y_mm": 144.0,
+    "size_z_mm": 22.0,
+    "a1_envelope_pass": true
+  },
+  "plate_05_cleanout_drain_pad_coupon_phase3ig.stl": {
+    "point_count": 16,
+    "triangle_count": 24,
+    "connected_component_count": 2,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 122.5,
+    "size_y_mm": 12.0,
+    "size_z_mm": 45.0,
+    "a1_envelope_pass": true
+  },
+  "plate_06_terminal_tray_sector_coupon_phase3ig.stl": {
+    "point_count": 280,
+    "triangle_count": 556,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 110.00000000000009,
+    "size_y_mm": 95.0,
+    "size_z_mm": 28.0,
+    "a1_envelope_pass": true
+  },
+  "plate_07_tank_positioning_coupon_phase3ig.stl": {
+    "point_count": 48,
+    "triangle_count": 92,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 120.0,
+    "size_y_mm": 36.0,
+    "size_z_mm": 14.0,
+    "a1_envelope_pass": true
+  },
+  "hold_lower_buffer_tank_full_phase3ig.stl": {
+    "point_count": 598,
+    "triangle_count": 1192,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 240.0,
+    "size_y_mm": 146.0,
+    "size_z_mm": 105.0
+  },
+  "hold_terminal_collection_tray_full_phase3ig.stl": {
+    "point_count": 1715,
+    "triangle_count": 3434,
+    "connected_component_count": 1,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 229.88661193847656,
+    "size_y_mm": 229.88661193847656,
+    "size_z_mm": 28.0
+  },
+  "hold_lower_return_full_assembly_phase3ig.stl": {
+    "point_count": 3558,
+    "triangle_count": 7092,
+    "connected_component_count": 10,
+    "boundary_or_nonmanifold_edge_count": 0,
+    "closed_manifold": true,
+    "size_x_mm": 890.0,
+    "size_y_mm": 890.0,
+    "size_z_mm": 190.0
+  }
+}

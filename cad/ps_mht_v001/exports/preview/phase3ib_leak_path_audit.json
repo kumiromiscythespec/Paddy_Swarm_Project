@@ -1,0 +1,23 @@
+{
+  "normal_water_surface_z_mm": 26.0,
+  "central_opening_penetrations_below_normal_water": 0,
+  "external_penetrations_below_normal_water": 0,
+  "pot_external_penetrations_below_normal_water": 0,
+  "dry_stacking_interface_wet_paths": 0,
+  "rear_frame_fastener_wet_paths": 0,
+  "intended_lowest_outlets": [
+    "OPEN_REAR_WEIR"
+  ],
+  "intended_lowest_outlet_count": 1,
+  "wick_external_entry_bottom_z_mm": 28.0,
+  "wick_entry_margin_above_water_mm": 2.0,
+  "closed_waterways": 0,
+  "closed_drain_holes": 0,
+  "audit_basis": [
+    "CONTINUOUS_360_DEGREE_INNER_DAM",
+    "CONTINUOUS_OUTER_WALL_BELOW_OVERFLOW_CREST",
+    "PORT_AND_NETPOT_VOIDS_BOTTOM_ABOVE_NORMAL_WATER_SURFACE",
+    "WICK_ROUTE_IS_ADDITIVE_OPEN_RAMP_NOT_SUBTRACTIVE_WALL_HOLE"
+  ],
+  "status": "CAD_BOUNDARY_PASS_PHYSICAL_WATERTIGHTNESS_PENDING"
+}

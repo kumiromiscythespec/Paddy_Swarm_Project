@@ -1,0 +1,14 @@
+{
+  "normal_water_surface_z_mm": 26.0,
+  "intended_outlet_count": 3,
+  "intended_outlet_type": "VERTICAL_BORE_INSIDE_OPEN_OVERFLOW_STANDPIPE",
+  "simple_floor_hole_count": 0,
+  "central_opening_used_for_distribution": false,
+  "central_opening_penetrations": 0,
+  "external_wall_penetrations_below_water_surface": 0,
+  "closed_siphon_count": 0,
+  "horizontal_drain_count": 0,
+  "below_z0_nozzle_count": 0,
+  "physical_watertightness": "PENDING",
+  "status": "CAD_BOUNDARY_PASS_PHYSICAL_WATERTIGHTNESS_PENDING"
+}

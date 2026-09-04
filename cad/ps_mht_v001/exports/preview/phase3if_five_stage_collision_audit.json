@@ -1,0 +1,41 @@
+{
+  "stage_rotations_deg": [
+    0.0,
+    30.0,
+    60.0,
+    90.0,
+    120.0
+  ],
+  "stage_pair_intersections_mm3": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "intersections_mm3": {
+    "drop_corridors_vs_central_mast": 0,
+    "drop_corridors_vs_bottom_puck": 0,
+    "drop_corridors_vs_top_cap": 0,
+    "drop_corridors_vs_lower_bracket": 0,
+    "drop_corridors_vs_upper_bracket": 0,
+    "central_mast_vs_netpots": 0,
+    "central_mast_vs_root_assumed_region": 0,
+    "bottom_puck_vs_water": 0,
+    "top_cap_vs_water": 0,
+    "rear_post_vs_netpots": 0,
+    "lower_bracket_vs_netpots": 0,
+    "upper_bracket_vs_netpots": 0
+  },
+  "all_unintended_intersections_zero": true,
+  "drop_corridor_count": 12,
+  "minimum_tolerance_radial_margin_to_frame_mm": 18.0,
+  "thirty_degree_rotation_unobstructed": true,
+  "upward_disassembly": "PASS_AFTER_REMOVING_TOP_BRACKET_AND_TOP_CAP",
+  "upper_bracket_removable": true,
+  "clocking_gauge_role": "ANGULAR_ALIGNMENT_ONLY",
+  "central_mast_role": "RADIAL_AND_LATERAL_ALIGNMENT_ONLY",
+  "upper_tank_envelope": "NOT_PROVIDED_NO_PHYSICAL_LOAD_ASSUMED",
+  "obvious_modeled_upper_tank_collision": false,
+  "tool_access_reference": "TOP_AND_BOTTOM_BRACKETS_OUTSIDE_STACK_Z_ENVELOPE",
+  "physical_frame_validation": "PENDING"
+}

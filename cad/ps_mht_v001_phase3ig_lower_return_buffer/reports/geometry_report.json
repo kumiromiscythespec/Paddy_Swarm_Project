@@ -1,0 +1,152 @@
+{
+  "phase": "3I-G",
+  "process": "LOWER_RETURN_BUFFER_UPFLOW_PROTOTYPE_AND_TERMINAL_COLLECTION_INTERFACE",
+  "status": "CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING",
+  "status_lines": [
+    "BOTTOM_INLET_TOP_OVERFLOW_IMPLEMENTED",
+    "VENTED_DOWNCOMER_IMPLEMENTED",
+    "REMOVABLE_DIFFUSER_IMPLEMENTED",
+    "WIDE_WEIR_IMPLEMENTED",
+    "OPEN_GUTTER_AIR_BREAK_IMPLEMENTED",
+    "EMERGENCY_OVERFLOW_IMPLEMENTED",
+    "CLEANOUT_INTERFACE_IMPLEMENTED",
+    "TERMINAL_COLLECTION_TRAY_IMPLEMENTED",
+    "THIRTY_DEGREE_STAGE_ROTATION_PRESERVED",
+    "DRY_CORE_PRESERVED",
+    "FOUR_RETURN_LINES_PRESERVED",
+    "INTERNAL_BAFFLE_RESERVED",
+    "FITTING_DIMENSIONS_PENDING",
+    "COLOR_DYE_TEST_PENDING",
+    "WATERTIGHT_COUPON_TEST_PENDING",
+    "BAMBU_STUDIO_REVIEW_PENDING",
+    "FULL_TANK_PRINT_PROHIBITED",
+    "FULL_TERMINAL_TRAY_PRINT_PROHIBITED",
+    "PHYSICAL_VALIDATION_PENDING"
+  ],
+  "parts": {
+    "tank": {
+      "solid_count": 1,
+      "valid": true,
+      "size_x_mm": 240.0,
+      "size_y_mm": 146.0,
+      "size_z_mm": 105.0,
+      "volume_mm3": 346894.82383928215
+    },
+    "tray": {
+      "solid_count": 1,
+      "valid": true,
+      "size_x_mm": 230.00000000000003,
+      "size_y_mm": 230.00000000000003,
+      "size_z_mm": 28.0,
+      "volume_mm3": 387215.0281472472
+    },
+    "downcomer": {
+      "solid_count": 1,
+      "valid": true,
+      "size_x_mm": 31.500000099999994,
+      "size_y_mm": 31.0,
+      "size_z_mm": 131.5000001,
+      "volume_mm3": 36951.157615355834
+    },
+    "diffuser": {
+      "solid_count": 1,
+      "valid": true,
+      "size_x_mm": 32.000000000000014,
+      "size_y_mm": 112.0,
+      "size_z_mm": 30.000000000000014,
+      "volume_mm3": 26219.96580508331
+    }
+  },
+  "tank_max_envelope_mm": [
+    240.0,
+    146.0,
+    105.0
+  ],
+  "tray_max_envelope_mm": [
+    230.0,
+    230.0,
+    28.0
+  ],
+  "normal_weir_effective_width_mm": 112.0,
+  "emergency_overflow_clear_width_mm": 30.0,
+  "downcomer_clear_bore_mm": 25.0,
+  "downcomer_outlet_target_z_above_inner_floor_mm": 15.0,
+  "downcomer_outlet_cad_z_above_inner_floor_mm": 15.5,
+  "diffuser_envelope_mm": [
+    112.0,
+    32.0,
+    30.0
+  ],
+  "diffuser_slot_mm": [
+    100.0,
+    9.0
+  ],
+  "tray_slope_percent": 3.5,
+  "tray_landing_angles_deg": [
+    60.0,
+    180.0,
+    300.0
+  ],
+  "intersections_mm3": {
+    "tank_vs_radial_legs": 0,
+    "tank_vs_mast": 0,
+    "tray_vs_mast": 0,
+    "diffuser_vs_downcomer": 0
+  },
+  "inherited_actual_component_intersections_mm3": {
+    "tank_vs_actual_phase3if_stage": 0,
+    "tray_vs_actual_phase3if_stage": 0,
+    "tray_vs_actual_netpots": 0,
+    "tray_vs_actual_retention_keepers": 0,
+    "tray_vs_actual_bottom_puck": 0,
+    "tank_vs_measured_mast_reference": 0,
+    "downcomer_vs_measured_mast_reference": 0,
+    "tray_vs_measured_mast_reference": 0
+  },
+  "all_inherited_actual_component_intersections_zero": true,
+  "removal_path": {
+    "required_sequence": "REMOVE_TRAY_AND_DOWNCOMER_THEN_LIFT_AND_MOVE_OUTWARD_ALONG_45_DEG_GAP",
+    "positions": {
+      "installed": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 0
+      },
+      "lifted_110mm_after_tray_removal": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 3220.8781084361244
+      },
+      "outward_100mm_after_tray_removal": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 0
+      }
+    },
+    "path_clear_after_required_disassembly": true
+  },
+  "four_tower_layout": {
+    "tower_center_spacing_x_mm": 1150.0,
+    "tower_center_spacing_y_mm": 1150.0,
+    "tower_to_trough_center_mm": 813.1727983645296,
+    "tank_gutter_outlet_inset_toward_trough_mm": 335.0,
+    "trough_boundary_radius_on_diagonal_mm": 332.3401871576773,
+    "straight_outlet_to_trough_envelope_gap_mm": 145.83261120685233,
+    "provisional_hose_cut_length_range_mm": [
+      350.0,
+      500.0
+    ],
+    "routing_note": "USE_MONOTONIC_DESCENDING_SERVICE_CURVE; STRAIGHT_GAP_IS_NOT_HOSE_CUT_LENGTH",
+    "return_line_count": 4,
+    "pre_trough_manifold_present": false
+  },
+  "intended_contacts": [
+    "TANK_BOTTOM_TO_METAL_SHELF",
+    "DOWNCOMER_TO_DIFFUSER_CAPTURE_INTERFACE_WITH_0P3MM_RADIAL_CLEARANCE"
+  ],
+  "printed_parts_primary_load_path": false,
+  "primary_load_path": "MODULE_STACK_TO_METAL_BASE_AND_METAL_SHELF",
+  "central_dry_core_used_for_water": false,
+  "tank_floor_penetrations": 0,
+  "full_module_print_status": "DO_NOT_PRINT"
+}

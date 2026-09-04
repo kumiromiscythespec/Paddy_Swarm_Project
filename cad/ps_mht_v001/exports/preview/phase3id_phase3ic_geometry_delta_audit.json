@@ -1,0 +1,36 @@
+{
+  "phase3ic_status": "HISTORICAL_HYDRAULICALLY_INCOMPLETE",
+  "phase3ic_d01_unchanged": true,
+  "phase3ic_d02_unchanged": true,
+  "phase3ic_d03_unchanged": true,
+  "phase3ic_keeper_v2_unchanged_by_sha_authority": true,
+  "phase3ic_complete_retention_lugs_unchanged": true,
+  "phase3ic_cradle_unchanged": true,
+  "sump_dimensions_unchanged": true,
+  "inner_dam_dimensions_unchanged": true,
+  "port_geometry_unchanged": true,
+  "port_recess_mm": 2.0,
+  "stacking_guides_unchanged": true,
+  "changed_regions": [
+    "INCOMPLETE_REAR_CASCADE_REPLACED_BY_POSITIVE_OPEN_INTERSTAGE_PATH"
+  ],
+  "phase3id_volume_mm3": 704734.9314386528,
+  "phase3ic_historical_volume_mm3": 674999.0259665871,
+  "volume_difference_mm3": 29735.90547206567,
+  "bbox_difference_mm": [
+    1.2911099209181316,
+    0.0,
+    9.999999406318238e-08
+  ],
+  "center_of_mass_difference_mm": [
+    -4.4021690403096985,
+    8.623114336412809e-05,
+    1.9985347720130733
+  ],
+  "phase3ic_retained_volume_l": 0.38482642145356655,
+  "phase3id_retained_volume_l": 0.38480309340841823,
+  "retained_volume_difference_l": -2.3328045148318655e-05,
+  "water_surface_z_mm": 26.0,
+  "maximum_xy_mm": 236.62478053439682,
+  "within_238mm": true
+}

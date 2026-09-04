@@ -1,0 +1,12 @@
+{
+  "upper_outlet_local_z_mm": 6.0,
+  "upper_outlet_global_z_mm": 176.0,
+  "lower_receiver_top_global_z_mm": 170.0,
+  "nominal_air_gap_mm": 6.0,
+  "measured_air_gap_mm": 5.999999900000006,
+  "outlet_receiver_intersection_volume_mm3": 0,
+  "parts_contact": false,
+  "capillary_bridge_geometry_present": false,
+  "siphon_geometry_present": false,
+  "status": "PASS_PHYSICAL_FLOW_PENDING"
+}

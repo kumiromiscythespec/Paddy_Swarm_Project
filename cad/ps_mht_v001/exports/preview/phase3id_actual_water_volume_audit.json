@@ -1,0 +1,16 @@
+{
+  "method": "ANNULAR_CAVITY_MINUS_COMPLETE_PRINTED_PHASE3ID_SOLID",
+  "selected_water_depth_mm": 22.0,
+  "selected_water_surface_z_mm": 26.0,
+  "actual_retained_volume_l": 0.38480309340841823,
+  "target_min_l": 0.35,
+  "preferred_range_l": [
+    0.38,
+    0.42
+  ],
+  "target_max_l": 0.45,
+  "within_target_range": true,
+  "within_preferred_range": true,
+  "all_printed_intrusions_subtracted": true,
+  "water_level_changed": false
+}

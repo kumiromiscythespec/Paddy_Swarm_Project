@@ -1,0 +1,75 @@
+{
+  "architecture": "RECESSED_OPEN_DOWNCHUTE_WITH_DRIP_NOSE_TO_POSITIVE_FLARED_RECEIVER_MOUTH",
+  "central_hole_as_water_route": false,
+  "upper_downchute": {
+    "clear_width_mm": 29.6,
+    "minimum_clear_width_mm": 28.0,
+    "radial_depth_mm": 10.0,
+    "side_wall_thickness_mm": 3.2,
+    "side_wall_height_mm": 8.0,
+    "inlet_crest_z_mm": 26.0,
+    "outlet_tip_z_mm": 6.0,
+    "tip_centerline_radius_mm": 106.0,
+    "terminal_edge_thickness_mm": 1.6,
+    "surface_tension_break": true,
+    "open_for_brush_cleaning": true,
+    "solid_count_before_body_fuse": 1
+  },
+  "lower_receiver": {
+    "nominal_tangential_mouth_width_mm": 46.0,
+    "minimum_mouth_width_mm": 44.0,
+    "inner_radius_mm": 101.5,
+    "outer_radius_mm": 118.0,
+    "top_z_mm": 170.0,
+    "mouth_floor_z_mm": 165.6,
+    "side_wall_total_height_mm": 12.0,
+    "side_wall_thickness_mm": 3.2,
+    "nominal_margin_per_side_mm": 8.0,
+    "solid_count_before_channel_fuse": 1
+  },
+  "lower_vertical_channel": {
+    "clear_width_mm": 32.0,
+    "minimum_clear_width_mm": 30.0,
+    "radial_depth_mm": 13.0,
+    "wall_thickness_mm": 3.2,
+    "open_direction": "REAR_OUTWARD",
+    "brush_minimum_width_mm": 12.0,
+    "top_transition_z_mm": 158.0,
+    "solid_count_before_route_fuse": 1
+  },
+  "bottom_discharge": {
+    "outlet_z_mm": 28.0,
+    "clear_width_mm": 30.0,
+    "ramp_angle_from_vertical_deg": 45.0,
+    "direction": "INTO_ANNULAR_SUMP",
+    "central_hole_direction": false,
+    "solid_count_before_route_fuse": 1
+  },
+  "water_boundary": {
+    "intended_route": [
+      "ANNULAR_SUMP",
+      "REAR_OVERFLOW_CREST_Z26",
+      "OPEN_DOWNCHUTE",
+      "DRIP_NOSE_Z6",
+      "SIX_MM_AIR_GAP",
+      "POSITIVE_RECEIVER_Z170",
+      "OPEN_REAR_VERTICAL_CHANNEL",
+      "INWARD_BOTTOM_DISCHARGE_Z28",
+      "LOWER_ANNULAR_SUMP"
+    ],
+    "central_hole_as_water_route": false,
+    "central_hole_status": "DRY_OPENING",
+    "external_penetrations_below_water_surface": 0,
+    "central_hole_penetrations_below_water_surface": 0,
+    "closed_channel_count": 0,
+    "closed_pipe_count": 0,
+    "siphon_path_present": false,
+    "brush_access_minimum_width_mm": 12.0,
+    "bottom_discharge_direction": "INTO_ANNULAR_SUMP",
+    "bottom_discharge_toward_central_hole": false,
+    "bottom_discharge_toward_external_wall": false,
+    "physical_flow_result": "PENDING"
+  },
+  "corrected_full_solid_count": 1,
+  "corrected_full_valid": true
+}

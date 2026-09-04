@@ -1,0 +1,239 @@
+{
+  "rotation": {
+    "relative_rotation_deg": 30.0,
+    "operationally_selected_relative_angle_deg": 30.0,
+    "contract": "RELATIVE_ROTATION_MOD_120_EQUALS_30",
+    "accepted_relative_angles_deg": [
+      30.0,
+      150.0,
+      270.0
+    ],
+    "rejected_relative_angles_deg": [
+      0.0,
+      60.0,
+      90.0,
+      120.0,
+      180.0,
+      240.0,
+      300.0
+    ],
+    "accepted_checks": {
+      "30": true,
+      "150": true,
+      "270": true
+    },
+    "rejected_checks": {
+      "0": false,
+      "60": false,
+      "90": false,
+      "120": false,
+      "180": false,
+      "240": false,
+      "300": false
+    },
+    "five_stage_absolute_rotations_deg": [
+      0.0,
+      30.0,
+      60.0,
+      90.0,
+      120.0
+    ],
+    "previous_60deg_status": "REJECTED_BY_DROP_CORRIDOR_COLLISION"
+  },
+  "standpipes": {
+    "architecture": "THREE_OPEN_OVERFLOW_STANDPIPES",
+    "count": 3,
+    "angles_local_deg": [
+      30.0,
+      150.0,
+      270.0
+    ],
+    "center_radius_mm": 80.0,
+    "clear_bore_diameter_mm": 12.0,
+    "outside_diameter_mm": 18.0,
+    "nominal_wall_thickness_mm": 3.0,
+    "minimum_required_wall_thickness_mm": 2.8,
+    "notch_count_per_pipe": 3,
+    "notch_width_mm": 9.0,
+    "notch_bottom_z_mm": 26.0,
+    "crown_top_z_mm": 30.0,
+    "floor_bore_diameter_mm": 12.0,
+    "outlet_water_break_axial_thickness_mm": 0.8,
+    "projection_below_z0_mm": 0.0,
+    "rounded_bottom_lip": false,
+    "single_pipe_minimum_flow_area_mm2": 113.09733552923255,
+    "pipes": [
+      {
+        "angle_deg": 30.0,
+        "solid_count": 1,
+        "floor_intersection_volume_mm3": 28.274333882308163,
+        "notch_count": 3
+      },
+      {
+        "angle_deg": 150.0,
+        "solid_count": 1,
+        "floor_intersection_volume_mm3": 28.27433388230818,
+        "notch_count": 3
+      },
+      {
+        "angle_deg": 270.0,
+        "solid_count": 1,
+        "floor_intersection_volume_mm3": 28.27433388230818,
+        "notch_count": 3
+      }
+    ],
+    "physical_flow_test": "PENDING",
+    "cfd_performed": false
+  },
+  "landings": {
+    "count": 3,
+    "angles_local_deg": [
+      60.0,
+      180.0,
+      300.0
+    ],
+    "center_radius_mm": 80.0,
+    "tangential_width_mm": 30.0,
+    "effective_capture_width_mm": 32.0,
+    "capture_shoulder_reason": "ONE_MM_FLOOR_SUPPORTED_SHOULDERS_CONTAIN_D22_AT_2MM_PLUS_2DEG_WITHOUT_EXCEEDING_30MM_MAIN_RAMP",
+    "radial_length_mm": 30.0,
+    "maximum_height_above_floor_mm": 8.0,
+    "surface_angle_deg": 14.931417178137552,
+    "discharge_direction": "INTO_ANNULAR_SUMP_TANGENTIALLY",
+    "floor_connected": true,
+    "inner_dam_connected": false,
+    "outer_wall_leak_path": false,
+    "expanded_corridor_diameter_mm": 22.0,
+    "radial_capture_margin_mm": 2.0,
+    "tangential_capture_margin_mm": 0.2074731968090724,
+    "tolerance_cases": [
+      {
+        "name": "NOMINAL",
+        "contained": true
+      },
+      {
+        "name": "X_PLUS_2",
+        "contained": true
+      },
+      {
+        "name": "X_MINUS_2",
+        "contained": true
+      },
+      {
+        "name": "Y_PLUS_2",
+        "contained": true
+      },
+      {
+        "name": "Y_MINUS_2",
+        "contained": true
+      },
+      {
+        "name": "ROT_PLUS_2",
+        "contained": true
+      },
+      {
+        "name": "ROT_MINUS_2",
+        "contained": true
+      },
+      {
+        "name": "TAN_PLUS_2_ROT_PLUS_2",
+        "contained": true
+      },
+      {
+        "name": "TAN_MINUS_2_ROT_MINUS_2",
+        "contained": true
+      },
+      {
+        "name": "RAD_PLUS_2_ROT_PLUS_2",
+        "contained": true
+      },
+      {
+        "name": "RAD_MINUS_2_ROT_MINUS_2",
+        "contained": true
+      }
+    ],
+    "all_cases_contained": true,
+    "cfd_capture_pass_declared": false
+  },
+  "drop_corridors": {
+    "corridor_count": 3,
+    "stretch_diameter_mm": 22.0,
+    "intersections_mm3": {
+      "lower_netpot_references": 0,
+      "lower_cradles": 0,
+      "lower_retention_lugs": 0,
+      "lower_keeper_references": 0,
+      "lower_wick_paths": 0,
+      "lower_inner_dam": 0,
+      "lower_vertical_ribs": 0,
+      "lower_central_dry_opening": 0,
+      "rear_2020_frame_reference": 0,
+      "root_holding_mesh_assumed_regions": 0,
+      "stacking_guides": 0,
+      "outer_wall": 0
+    },
+    "all_unintended_intersections_zero": true,
+    "central_hole_intersection_mm3": 0
+  },
+  "correct_wrong": {
+    "correct_rotation_deg": 30.0,
+    "wrong_rotation_deg": 0.0,
+    "collision_rotation_deg": 60.0,
+    "correct_center_offsets_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrong_nearest_center_offsets_mm": [
+      41.41104721640332,
+      41.41104721640332,
+      41.41104721640332
+    ],
+    "collision_center_offsets_mm": [
+      41.41104721640332,
+      41.41104721640332,
+      41.41104721640332
+    ],
+    "correct_all_three_aligned": true,
+    "wrong_aligned_count": 0,
+    "hydraulically_equivalent_accepted_deg": [
+      150.0,
+      270.0
+    ],
+    "correct_reference_only": true,
+    "wrong_reference_only": true,
+    "collision_reference_only": true,
+    "correct_reference_solid_count": 20,
+    "wrong_reference_solid_count": 20,
+    "collision_reference_solid_count": 20,
+    "upper_translation_z_mm": 170.0,
+    "stage_functional_xy_envelope_limit_mm": 238.0,
+    "external_rear_post_excluded_from_functional_envelope": true
+  },
+  "blockage": {
+    "cases": {
+      "normal": {
+        "open_count": 3,
+        "minimum_geometric_flow_area_mm2": 339.29200658769764
+      },
+      "single_blockage": {
+        "open_count": 2,
+        "minimum_geometric_flow_area_mm2": 226.1946710584651
+      },
+      "double_blockage": {
+        "open_count": 1,
+        "minimum_geometric_flow_area_mm2": 113.09733552923255
+      }
+    },
+    "single_pipe_clear_bore_diameter_mm": 12.0,
+    "v_notch_clear_width_mm": 9.0,
+    "normal_water_surface_z_mm": 26.0,
+    "outer_wall_top_freeboard_mm": 144.0,
+    "flow_rates_l_min": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "flow_pass": "PHYSICAL_TEST_PENDING"
+  }
+}

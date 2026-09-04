@@ -1,0 +1,9 @@
+{
+  "previous_status": "FRAME_CLOCKING_CONFLICT",
+  "legacy_fixing": "SUPERSEDED_BY_NON_ROTATING_DRY_CORE_FRAME",
+  "per_stage_rear_brackets": false,
+  "central_mast_non_rotating": true,
+  "lower_and_upper_metal_links": true,
+  "resolved_in_cad": true,
+  "physical_validation": "PENDING"
+}

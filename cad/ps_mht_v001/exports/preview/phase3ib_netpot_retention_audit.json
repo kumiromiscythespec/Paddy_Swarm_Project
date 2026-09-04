@@ -1,0 +1,22 @@
+{
+  "positive_retention": "COMMERCIAL_5MM_VINYL_ROPE",
+  "lug_count_per_port": 2,
+  "lug_root_thickness_mm": 11.8,
+  "lug_root_fillet_class_mm": 4.0,
+  "lug_floor_connected": true,
+  "lug_main_wall_or_side_buttress_connected": true,
+  "rope_nominal_diameter_mm": 5.0,
+  "rope_hole_candidates_mm": [
+    5.4,
+    5.6,
+    5.8
+  ],
+  "selected_rope_hole_width_mm": 5.6,
+  "rope_hole_shape": "SELF_SUPPORTING_TEARDROP",
+  "maximum_horizontal_unsupported_span_mm": 5.6,
+  "rope_path_crosses_plant_center": false,
+  "rope_path_local_flange_offset_mm": 45.0,
+  "keeper_optional": true,
+  "cord_alone_retains_pot": true,
+  "physical_retention_test": "PENDING"
+}

@@ -1,0 +1,27 @@
+{
+  "method": "REAL_ANNULAR_CAVITY_MINUS_COMPLETE_PHASE3IE_PRINTED_SOLID_AND_OPEN_DRAIN_COLUMNS",
+  "selected_depth_mm": 22.0,
+  "water_surface_z_mm": 26.0,
+  "actual_retained_volume_l": 0.35744984645537603,
+  "target_range_l": [
+    0.35,
+    0.45
+  ],
+  "preferred_range_l": [
+    0.37,
+    0.42
+  ],
+  "within_target_range": true,
+  "within_preferred_range": false,
+  "water_level_raised_to_solve_volume": false,
+  "subtracted_features": [
+    "THREE_STANDPIPE_WALLS",
+    "THREE_LANDING_RAMPS",
+    "INNER_DAM",
+    "CRADLES",
+    "RETENTION_LUGS",
+    "WICK_PATHS",
+    "RIBS",
+    "OPEN_DRAIN_COLUMNS"
+  ]
+}

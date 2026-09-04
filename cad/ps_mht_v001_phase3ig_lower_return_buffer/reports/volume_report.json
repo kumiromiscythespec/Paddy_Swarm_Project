@@ -1,0 +1,18 @@
+{
+  "tank_internal_capacity_to_top_l": 2.693353287773321,
+  "tank_normal_working_volume_l": 2.0735400178362497,
+  "tank_emergency_level_volume_l": 2.3969208543251566,
+  "tank_normal_to_emergency_reserve_l": 0.3233808364889068,
+  "tank_freeboard_volume_above_emergency_l": 0.2964324334481643,
+  "four_tower_transient_reserve_l": 1.2935233459556272,
+  "five_stage_four_tower_retained_water_l": 7.14899692,
+  "maximum_pump_stop_return_l": 7.14899692,
+  "trough_outer_plan_area_mm2": 286700.0,
+  "trough_level_rise_lower_bound_mm": 24.935461876525984,
+  "trough_level_rise_upper_bound_mm": null,
+  "trough_upper_bound_reason": "INNER_FLOOR_AND_SLOPED_WALL_DIMENSIONS_PHYSICAL_MEASUREMENT_PENDING",
+  "trough_final_depth_lower_bound_mm": 109.93546187652598,
+  "trough_remaining_freeboard_upper_bound_mm": 85.06453812347402,
+  "trough_remaining_freeboard_lower_bound_mm": null,
+  "normal_target_2_to_2_5_l": true
+}

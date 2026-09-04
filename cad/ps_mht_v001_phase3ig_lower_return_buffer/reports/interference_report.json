@@ -1,0 +1,43 @@
+{
+  "modeled_intersections_mm3": {
+    "tank_vs_radial_legs": 0,
+    "tank_vs_mast": 0,
+    "tray_vs_mast": 0,
+    "diffuser_vs_downcomer": 0
+  },
+  "inherited_actual_component_intersections_mm3": {
+    "tank_vs_actual_phase3if_stage": 0,
+    "tray_vs_actual_phase3if_stage": 0,
+    "tray_vs_actual_netpots": 0,
+    "tray_vs_actual_retention_keepers": 0,
+    "tray_vs_actual_bottom_puck": 0,
+    "tank_vs_measured_mast_reference": 0,
+    "downcomer_vs_measured_mast_reference": 0,
+    "tray_vs_measured_mast_reference": 0
+  },
+  "all_unintended_intersections_zero": true,
+  "downcomer_diffuser_interface_overlap_mm3": 0,
+  "downcomer_diffuser_interface": "REMOVABLE_WITH_0P3MM_RADIAL_CLEARANCE",
+  "tank_removal_path": {
+    "required_sequence": "REMOVE_TRAY_AND_DOWNCOMER_THEN_LIFT_AND_MOVE_OUTWARD_ALONG_45_DEG_GAP",
+    "positions": {
+      "installed": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 0
+      },
+      "lifted_110mm_after_tray_removal": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 3220.8781084361244
+      },
+      "outward_100mm_after_tray_removal": {
+        "radial_legs_mm3": 0,
+        "mast_mm3": 0,
+        "tray_mm3_if_tray_not_removed": 0
+      }
+    },
+    "path_clear_after_required_disassembly": true
+  },
+  "basis": "ACTUAL_PHASE3IF_STAGE_NETPOT_KEEPER_PUCK_GEOMETRY_AND_MEASURED_19P9MM_MAST_REFERENCE"
+}

@@ -1,0 +1,88 @@
+{
+  "stages": {
+    "D01": {
+      "solid_count": 1,
+      "all_solids_valid": true,
+      "bbox_mm": [
+        218.3123903671984,
+        229.2085166320939,
+        164.0000002
+      ],
+      "volume_mm3": 487113.5409201226,
+      "volume_added_from_previous_mm3": 487113.5409201226,
+      "z_min_registered_to_zero": true,
+      "print_orientation": "MODULE_AXIS_VERTICAL_Z_FLOOR_ON_BUILD_PLATE"
+    },
+    "D02": {
+      "solid_count": 1,
+      "all_solids_valid": true,
+      "bbox_mm": [
+        218.31239046719838,
+        229.2085168320939,
+        164.0000002
+      ],
+      "volume_mm3": 585833.9125292195,
+      "volume_added_from_previous_mm3": 98720.37160909694,
+      "z_min_registered_to_zero": true,
+      "print_orientation": "MODULE_AXIS_VERTICAL_Z_FLOOR_ON_BUILD_PLATE"
+    },
+    "D03": {
+      "solid_count": 1,
+      "all_solids_valid": true,
+      "bbox_mm": [
+        218.31239046719838,
+        229.2085168320939,
+        164.0000002
+      ],
+      "volume_mm3": 641609.9599512276,
+      "volume_added_from_previous_mm3": 55776.04742200812,
+      "z_min_registered_to_zero": true,
+      "print_orientation": "MODULE_AXIS_VERTICAL_Z_FLOOR_ON_BUILD_PLATE"
+    },
+    "D04": {
+      "solid_count": 1,
+      "all_solids_valid": true,
+      "bbox_mm": [
+        233.3123903671984,
+        229.2085168320939,
+        164.0000002
+      ],
+      "volume_mm3": 664253.770155943,
+      "volume_added_from_previous_mm3": 22643.81020471535,
+      "z_min_registered_to_zero": true,
+      "print_orientation": "MODULE_AXIS_VERTICAL_Z_FLOOR_ON_BUILD_PLATE"
+    },
+    "D05": {
+      "solid_count": 1,
+      "all_solids_valid": true,
+      "bbox_mm": [
+        233.3123903671984,
+        229.2085168320939,
+        170.0000001
+      ],
+      "volume_mm3": 674999.0259665871,
+      "volume_added_from_previous_mm3": 10745.255810644128,
+      "z_min_registered_to_zero": true,
+      "print_orientation": "MODULE_AXIS_VERTICAL_Z_FLOOR_ON_BUILD_PLATE"
+    }
+  },
+  "feature_progression": [
+    "WET_CORE",
+    "CRADLE",
+    "RETENTION",
+    "CASCADE_AND_WICK",
+    "STACKING_GUIDES"
+  ],
+  "d05_phase3ic_corrected_full_equivalence": {
+    "brep_volume_difference_mm3": 0.0,
+    "bbox_difference_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solid_count_d05": 1,
+    "solid_count_phase3ic_corrected_full": 1,
+    "same_shape_object_authority": true,
+    "within_tolerance": true
+  }
+}

@@ -1,0 +1,69 @@
+project: PS-MHT-V001
+phase: 3I-D
+process: POSITIVE_INTERSTAGE_OPEN_CASCADE_INTERFACE
+status:
+  - PHASE3IC_INTERSTAGE_PATH_DEFECT_RECORDED
+  - POSITIVE_OPEN_CASCADE_IMPLEMENTED
+  - TWO_STAGE_CASCADE_REFERENCE_READY
+  - TWO_STAGE_CASCADE_COUPONS_READY
+  - UPDATED_PROGRESSIVE_DIAGNOSTIC_STLS_READY
+  - BAMBU_STUDIO_REVIEW_PENDING
+  - HYDRAULIC_FLOW_TEST_PENDING
+  - FULL_STAGE_PRINT_PROHIBITED
+frozen_phase3ic:
+  status: HISTORICAL_HYDRAULICALLY_INCOMPLETE
+  official_artifacts: 46
+  mutation: PROHIBITED
+  d01_d03: EXACT_REUSE
+  keeper_v2: UNCHANGED
+  old_d04_d05_full_print: PROHIBITED
+fixed:
+  module_height_mm: 170.0
+  body_outer_diameter_mm: 200.0
+  maximum_total_xy_mm: 238.0
+  port_recess_mm: 2.0
+  water_surface_z_mm: 26.0
+  water_depth_mm: 22.0
+  central_hole_water_route: false
+upper_downchute:
+  type: RECESSED_OPEN_DOWNCHUTE_WITH_DRIP_NOSE
+  clear_width_mm: 29.6
+  inlet_crest_z_mm: 26.0
+  outlet_tip_z_mm: 6.0
+  drip_nose_centerline_radius_mm: 106.0
+  terminal_edge_thickness_mm: 1.6
+  side_wall_thickness_mm: 3.2
+  open_for_brush_cleaning: true
+lower_receiver:
+  type: POSITIVE_FLARED_RECEIVER_MOUTH
+  nominal_tangential_width_mm: 46.0
+  inner_radius_mm: 101.5
+  outer_radius_mm: 118.0
+  maximum_outer_radius_mm: 118.5
+  top_z_mm: 170.0
+  mouth_floor_z_mm: 165.6
+  nominal_margin_per_side_mm: 8.0
+lower_channel:
+  type: OPEN_REAR_OUTWARD_U_CHANNEL
+  clear_width_mm: 32.0
+  radial_depth_mm: 13.0
+  wall_thickness_mm: 3.2
+  brush_minimum_width_mm: 12.0
+  bottom_discharge_z_mm: 28.0
+  discharge_direction: INTO_ANNULAR_SUMP
+assembly:
+  upper_stage_offset_z_mm: 170.0
+  upper_outlet_global_z_mm: 176.0
+  lower_receiver_top_global_z_mm: 170.0
+  nominal_air_gap_mm: 6.0
+  tolerances:
+    tangential_translation_mm: 2.0
+    radial_translation_mm: 2.0
+    rotational_deg: 2.0
+  cfd_performed: false
+print:
+  orientation: MODULE_AXIS_VERTICAL_Z
+  support_dependency: false
+  full_stage: SLICER_REVIEW_ONLY_DO_NOT_PRINT
+  coupons: HOLD_UNTIL_BAMBU_REVIEW
+

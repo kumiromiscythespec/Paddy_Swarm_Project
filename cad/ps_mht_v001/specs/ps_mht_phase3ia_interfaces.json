@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project": "PS-MHT-V001",
+  "phase": "3I-A",
+  "coordinate_system": {
+    "units": {"length": "mm", "angle": "degree"},
+    "up": "+Z",
+    "build_plate": "Z=0",
+    "module_axis": "Z",
+    "front": "+X",
+    "left": "+Y",
+    "rear_service": "-X",
+    "legacy_frame_rear": "+Y",
+    "legacy_frame_reference_rotation_about_z_deg": 90.0
+  },
+  "plant_ports": {
+    "count": 3,
+    "azimuth_deg": [0.0, 120.0, 240.0],
+    "axis_elevation_deg": 27.0,
+    "body_passage_diameter_mm": 80.5,
+    "selected_radial_recess_mm": 2.0,
+    "retention": "GRAVITY_OPEN_TOP",
+    "small_snap": false
+  },
+  "wet_base": {
+    "sump": "ANNULAR_OPEN_CLEANABLE",
+    "central_opening_diameter_mm": 100.0,
+    "selected_operating_depth_mm": 20.0,
+    "overflow": "OPEN_WEIR_TO_NEXT_STAGE",
+    "closed_waterway_count": 0
+  },
+  "interstage": {
+    "function": "DRY_POSITIONING_ONLY",
+    "watertight": false,
+    "guide_segments": 3,
+    "guide_inner_diameter_mm": 201.0,
+    "rear_frame_is_primary_lateral_support": true
+  }
+}
