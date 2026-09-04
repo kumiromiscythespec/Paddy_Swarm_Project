@@ -1,0 +1,28 @@
+DOCUMENT_ID=PS-CR-ROBUST-AXIAL-TOLERANCE-V0085
+EXPECTED_FILE_COUNT=24
+STATUS=NOT_FOR_MANUFACTURING
+ROOT=ZIP_ROOT
+common_rover_robust_axial_tolerance_design_authority_v0085.md	FILE
+common_rover_robust_axial_tolerance_parameters_v0085.json	FILE
+common_rover_tolerance_model_correction_v0085.md	FILE
+common_rover_robust_search_candidates_v0085.csv	FILE
+common_rover_robust_candidate_ranking_v0085.csv	FILE
+common_rover_boundary_sensitivity_v0085.csv	FILE
+common_rover_axial_stack_v0085.csv	FILE
+common_rover_interference_matrix_v0085.csv	FILE
+common_rover_interference_report_v0085.json	FILE
+common_rover_validation_v0085.json	FILE
+common_rover_remeasurement_sheet_v0085.md	FILE
+common_rover_remeasurement_sheet_v0085.csv	FILE
+build_common_rover_robust_axial_tolerance_v0085.py	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-RECOMMENDED.step	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-ALTERNATIVE-A.step	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-ALTERNATIVE-B.step	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-OVERVIEW.svg	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-TOLERANCE-SECTION.svg	FILE
+artifacts/PS-CR-ROBUST-AXIAL-V0085-CENTER-CLEARANCE.svg	FILE
+tests/test_common_rover_robust_axial_tolerance_v0085_contract.py	FILE
+README_HANDOFF.md	FILE
+MANIFEST.txt	FILE
+SHA256SUMS.txt	FILE
+test_results_v0085.txt	FILE

@@ -1,0 +1,36 @@
+{
+  "schema": "GOLDENMATE_BATTERY_PHYSICAL_DIMENSION_AUTHORITY_V001",
+  "product": {
+    "manufacturer": "GoldenMate",
+    "chemistry": "LiFePO4",
+    "purchase_record": {"voltage_v": 12.8, "capacity_ah": 10.0, "energy_wh": 128.0}
+  },
+  "physical_direct": {
+    "battery_long_mm": 150.9,
+    "battery_short_width_mm": 65.5,
+    "battery_body_height_mm": 92.5,
+    "battery_bottom_to_terminal_highest_mm": 99.4,
+    "battery_mass_kg": 1.2,
+    "terminal_tab_width_mm": 6.3,
+    "terminal_tab_thickness_mm": 0.7,
+    "female_receptacle_outer_width_mm": 10.6
+  },
+  "formal_geometry": {
+    "battery_plan_envelope_mm": [150.9, 65.5],
+    "battery_body_vertical_height_mm": 92.5,
+    "battery_terminal_inclusive_height_mm": 99.4
+  },
+  "semantic_contract": {
+    "99.4_as_battery_plan_width": false,
+    "65.5_as_battery_short_width": true,
+    "92.5_as_body_height": true,
+    "99.4_as_terminal_inclusive_height": true,
+    "old_99p4_as_plan_width_status": "SUPERSEDED_AXIS_INTERPRETATION",
+    "old_measurements_false": false
+  },
+  "source": {
+    "type": "USER_PHYSICAL_MEASUREMENT",
+    "date": "2026-09-02",
+    "attachment_sha256": "c2f27445a4fcb5ee8eed0291b50d48845f6170db16416e56864d15d77c1b765d"
+  }
+}

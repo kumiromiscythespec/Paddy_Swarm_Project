@@ -1,0 +1,105 @@
+{
+  "allowed_edges": [
+    [
+      "LEFT_MOTOR",
+      "LEFT_DRIVE_CLUTCH"
+    ],
+    [
+      "RIGHT_MOTOR",
+      "RIGHT_DRIVE_CLUTCH"
+    ],
+    [
+      "LEFT_DRIVE_CLUTCH",
+      "LEFT_TRACK"
+    ],
+    [
+      "RIGHT_DRIVE_CLUTCH",
+      "RIGHT_TRACK"
+    ],
+    [
+      "LEFT_DRIVE_CLUTCH",
+      "LEFT_PTO_JACKSHAFT"
+    ],
+    [
+      "RIGHT_DRIVE_CLUTCH",
+      "RIGHT_PTO_JACKSHAFT"
+    ],
+    [
+      "LEFT_PTO_JACKSHAFT",
+      "LEFT_PTO_OUTPUT"
+    ],
+    [
+      "RIGHT_PTO_JACKSHAFT",
+      "RIGHT_PTO_OUTPUT"
+    ],
+    [
+      "LEFT_PTO_OUTPUT",
+      "LEFT_PTO_SHAFT_STUB"
+    ],
+    [
+      "RIGHT_PTO_OUTPUT",
+      "RIGHT_PTO_SHAFT_STUB"
+    ],
+    [
+      "LEFT_PTO_SHAFT_STUB",
+      "LEFT_PTO_COUPLING"
+    ],
+    [
+      "RIGHT_PTO_SHAFT_STUB",
+      "RIGHT_PTO_COUPLING"
+    ],
+    [
+      "LEFT_PTO_COUPLING",
+      "LEFT_WORK_UNIT_INPUT"
+    ],
+    [
+      "RIGHT_PTO_COUPLING",
+      "RIGHT_WORK_UNIT_INPUT"
+    ]
+  ],
+  "common_pto_shaft": false,
+  "document_id": "PS-CR-INWARD-PTO-COUPLING-V092",
+  "left_right_independent": true,
+  "nodes": [
+    "LEFT_MOTOR",
+    "RIGHT_MOTOR",
+    "LEFT_DRIVE_CLUTCH",
+    "RIGHT_DRIVE_CLUTCH",
+    "LEFT_PTO_JACKSHAFT",
+    "RIGHT_PTO_JACKSHAFT",
+    "LEFT_PTO_OUTPUT",
+    "RIGHT_PTO_OUTPUT",
+    "LEFT_PTO_SHAFT_STUB",
+    "RIGHT_PTO_SHAFT_STUB",
+    "LEFT_PTO_COUPLING",
+    "RIGHT_PTO_COUPLING",
+    "LEFT_WORK_UNIT_INPUT",
+    "RIGHT_WORK_UNIT_INPUT",
+    "LEFT_TRACK",
+    "RIGHT_TRACK"
+  ],
+  "prohibited_edges": [
+    [
+      "LEFT_PTO_JACKSHAFT",
+      "RIGHT_PTO_JACKSHAFT"
+    ],
+    [
+      "LEFT_PTO_OUTPUT",
+      "RIGHT_PTO_OUTPUT"
+    ],
+    [
+      "LEFT_PTO_COUPLING",
+      "RIGHT_PTO_COUPLING"
+    ],
+    [
+      "LEFT_MOTOR",
+      "RIGHT_PTO_JACKSHAFT"
+    ],
+    [
+      "RIGHT_MOTOR",
+      "LEFT_PTO_JACKSHAFT"
+    ]
+  ],
+  "third_pto_motor": false,
+  "unit_present_and_unit_id_are_separate": true
+}

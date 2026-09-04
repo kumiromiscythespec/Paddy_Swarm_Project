@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "BEAM_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 20.0
+    },
+    "BELT_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 62.5
+    },
+    "KP000_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 11.510864
+    },
+    "PULLEY_TO_BEAM": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 6.1
+    },
+    "PULLEY_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 22.6
+    },
+    "PULLEY_TO_KP000": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 10.0
+    },
+    "SETSCREW_SWEEP_TO_BEAM": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 2.1
+    },
+    "SETSCREW_SWEEP_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 18.6
+    },
+    "SETSCREW_SWEEP_TO_KP000": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 22.9
+    },
+    "TOOL_TO_KP000": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 21.119186
+    },
+    "UNIT_MOUNT_TO_BELT": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 7.5
+    },
+    "UNIT_MOUNT_TO_CRAWLER": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 31.048349
+    },
+    "UNIT_MOUNT_TO_PULLEY": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 13.200758
+    },
+    "UNIT_MOUNT_TO_PULLEY_KEEPOUT": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 6.185467
+    },
+    "UNIT_MOUNT_TO_SETSCREW_TOOL": {
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 42.443083
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cad_artifact_count": 0,
+  "classification": "DOCUMENTATION_ONLY",
+  "expected_path_count": 15,
+  "files": [
+    "COMMIT_PATHS.txt",
+    "COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01.md",
+    "MISUMI_SHAFT_KEY_PROCUREMENT_UPDATE_2026_09_01.md",
+    "PROPOSED_BOM_UPDATE.md",
+    "PROPOSED_CURRENT_AUTHORITY_UPDATE.md",
+    "README.md",
+    "SHA256SUMS.txt",
+    "authority_sources.md",
+    "build_common_rover_physical_dimensional_authority_2026_09_01_v001.py",
+    "historical_dimension_precedence_audit.md",
+    "manifest.json",
+    "misumi_shaft_key_procurement_update_2026_09_01.json",
+    "physical_dimensions_2026_09_01.json",
+    "tests/test_common_rover_physical_dimensional_authority_2026_09_01_v001.py",
+    "validation_report.md"
+  ],
+  "lane": "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001",
+  "schema": "COMMON_ROVER_PHYSICAL_AUTHORITY_MANIFEST_V001",
+  "status": "COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_2026_09_01_CAPTURED / MISUMI_SHAFT_KEY_PHYSICAL_UPDATE_CAPTURED / PROCUREMENT_UPDATE_PARTIAL / NO_CAD_MUTATION / NO_GIT_MUTATION",
+  "version": "2026-09-01_v001"
+}

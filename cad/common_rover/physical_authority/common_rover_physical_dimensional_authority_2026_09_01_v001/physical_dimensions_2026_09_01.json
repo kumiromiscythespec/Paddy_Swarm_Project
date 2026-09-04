@@ -1,0 +1,309 @@
+{
+  "bbox": {
+    "assembled_envelope_height": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "254 - 148 = 106.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 106.0
+    },
+    "body_lowest_z": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Measured lowest BBOX body point from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 148.0
+    },
+    "fit_statement": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "Not a rigid zero-offset mounting constraint.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "APPROXIMATELY_FLUSH_WITHIN_1MM_AS_BUILT_VARIATION"
+    },
+    "lid_highest_z": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Measured highest BBOX lid point from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 254.0
+    },
+    "lid_to_left_rail_top": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "Left rail top is 1 mm above BBOX lid.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 1.0
+    },
+    "lid_to_right_rail_top": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "Right rail top and BBOX lid share measured Z254.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 0.0
+    }
+  },
+  "cbox_implication_only": {
+    "candidate_floor_lower_bound": {
+      "classification": "DESIGN_TARGET_ONLY",
+      "note": "181 + 10; not a released floor or Cross Base design.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 191.0
+    },
+    "cross_saddle": {
+      "classification": "HOLD",
+      "note": "No CBOX support geometry is created.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "NOT_DESIGNED_IN_THIS_TASK"
+    },
+    "one_piece_bbox_cbox_base": {
+      "classification": "HOLD",
+      "note": "Documentation task does not authorize a one-piece base.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "HOLD"
+    }
+  },
+  "coordinate_basis": {
+    "absolute_upper_rail_axis_y": {
+      "classification": "PHYSICAL_PENDING",
+      "note": "Span measurements establish relative geometry only; no absolute Y datum was measured.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": null
+    },
+    "z_zero": {
+      "classification": "PHYSICAL_DATUM",
+      "note": "CRAWLER_BOTTOM / FLOOR = Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 0.0
+    }
+  },
+  "crawler": {
+    "left_highest_z": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Static as-built crawler highest point from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 181.0
+    },
+    "left_rail_bottom_to_crawler_top": {
+      "classification": "PHYSICAL_DERIVED_STATIC_CLEARANCE",
+      "note": "235 - 181 = 54; not powered or dynamic clearance.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 54.0
+    },
+    "right_highest_z": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Static as-built crawler highest point from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 180.0
+    },
+    "right_rail_bottom_to_crawler_top": {
+      "classification": "PHYSICAL_DERIVED_STATIC_CLEARANCE",
+      "note": "234 - 180 = 54; not powered or dynamic clearance.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 54.0
+    }
+  },
+  "drive_axis_existing_record": {
+    "left_center_z": {
+      "classification": "DIRECT_PHYSICAL_REUSED",
+      "note": "Referenced from front_interface_dual_pto_20t_v001/V002.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 122.0
+    },
+    "nominal_midpoint_z": {
+      "classification": "DERIVED_MIDPOINT_REUSED",
+      "note": "(122 + 123) / 2; current PTO design datum.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 122.5
+    },
+    "right_center_z": {
+      "classification": "DIRECT_PHYSICAL_REUSED",
+      "note": "Referenced from front_interface_dual_pto_20t_v001/V002.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 123.0
+    }
+  },
+  "frame_y": {
+    "rail_center_span_midpoint": {
+      "classification": "DERIVED_MIDPOINT",
+      "note": "Midpoint of 188..190; not a direct measurement and not authority for Y=±94.5.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 189.0
+    },
+    "rail_center_span_range": {
+      "classification": "PHYSICAL_DERIVED_RANGE",
+      "note": "(208 + 168) / 2 = 188 and (210 + 170) / 2 = 190.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": [
+        188.0,
+        190.0
+      ]
+    },
+    "rail_inside_span_range": {
+      "classification": "DIRECT_PHYSICAL_RANGE",
+      "note": "User-measured left-to-right upper-rail inside span.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": [
+        168.0,
+        170.0
+      ]
+    },
+    "rail_outside_span_range": {
+      "classification": "DIRECT_PHYSICAL_RANGE",
+      "note": "User-measured left-to-right upper-rail outside span.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": [
+        208.0,
+        210.0
+      ]
+    },
+    "rail_width_each_from_208_168": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "(208 - 168) / 2 = 20.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 20.0
+    },
+    "rail_width_each_from_210_170": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "(210 - 170) / 2 = 20.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 20.0
+    }
+  },
+  "frame_z": {
+    "left_rail_height": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "255 - 235 = 20.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 20.0
+    },
+    "left_right_vertical_offset": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "Observed as-built top and bottom offset, left above right.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 1.0
+    },
+    "left_upper_rail_bottom": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Left upper rail bottom from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 235.0
+    },
+    "left_upper_rail_top": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Left upper rail top from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 255.0
+    },
+    "nominal_rail_top_midpoint": {
+      "classification": "DERIVED_MIDPOINT",
+      "note": "Midpoint only; raw 255/254 values remain authoritative.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 254.5
+    },
+    "right_rail_height": {
+      "classification": "PHYSICAL_DERIVED",
+      "note": "254 - 234 = 20.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 20.0
+    },
+    "right_upper_rail_bottom": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Right upper rail bottom from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 234.0
+    },
+    "right_upper_rail_top": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Right upper rail top from Z0.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 254.0
+    }
+  },
+  "release_limits": {
+    "cad_mutation": {
+      "classification": "NO_CAD_MUTATION",
+      "note": "No STEP, STL, SVG, DXF or CAD source is generated or modified.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "NONE"
+    },
+    "dynamic_crawler_clearance": {
+      "classification": "PHYSICAL_PENDING",
+      "note": "Static 54 mm result cannot be promoted to powered clearance.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "PENDING"
+    },
+    "full_powered_field_validation": {
+      "classification": "PHYSICAL_PENDING",
+      "note": "No powered, water, mud or field validation is performed.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "PENDING"
+    }
+  },
+  "schema": "COMMON_ROVER_PHYSICAL_DIMENSIONAL_AUTHORITY_V001",
+  "version": "2026-09-01_v001"
+}

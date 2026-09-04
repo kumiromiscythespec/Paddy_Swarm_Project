@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f8fafc"/><style>.h{font:30px sans-serif;font-weight:700;fill:#0f172a}.t{font:20px sans-serif;fill:#0f172a}.s{font:17px monospace;fill:#334155}.ring{fill:#f59e0b;fill-rule:evenodd;stroke:#92400e;stroke-width:3}.ref{fill:#94a3b8;stroke:#475569;stroke-width:2}.dim{stroke:#dc2626;stroke-width:2;marker-start:url(#a);marker-end:url(#a)}.hold{fill:#b91c1c;font:17px monospace}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#dc2626"/></marker></defs>
+<text x="55" y="60" class="h">PTO axial shim test set V001</text>
+<path class="ring" d="M260 340a120 120 0 1 0 240 0a120 120 0 1 0-240 0 M324 340a56 56 0 1 1 112 0a56 56 0 1 1-112 0"/>
+<line x1="260" y1="500" x2="500" y2="500" class="dim"/><text x="325" y="535" class="s">OD 13.8</text>
+<line x1="324" y1="340" x2="436" y2="340" class="dim"/><text x="342" y="325" class="s">ID 10.2</text>
+<g transform="translate(650 175)"><rect x="0" y="120" width="105" height="150" class="ref"/><rect x="105" y="145" width="12" height="100" fill="#10b981"/><rect x="117" y="135" width="8" height="120" fill="#f59e0b"/><rect x="125" y="105" width="180" height="180" class="ref"/><line x1="-20" y1="195" x2="330" y2="195" stroke="#2563eb" stroke-width="8"/><text x="0" y="315" class="s">rotating inner face → shim → pulley</text><text x="0" y="350" class="s">T = 0.5 / 1.0 exact CAD</text></g>
+<text x="55" y="645" class="hold">PHYSICAL_CONTACT_FACE_PENDING · ACTUAL_PRINTED_THICKNESS_PENDING</text>
+</svg>

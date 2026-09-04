@@ -1,0 +1,84 @@
+{
+  "baseline": "V0.8",
+  "baseline_hash_source": "EMBEDDED_CANONICAL_V008_HASHES",
+  "baseline_metrics": {
+    "candidate_interference_fail_count": 0,
+    "component_count": 79,
+    "drive_belt_to_frame_mm": 15.5,
+    "drive_belt_to_front_track_diagonal_mm": 15.5,
+    "drive_belt_to_root_2040_mm": 25.5,
+    "hold_count": 51,
+    "pto_60t_to_kp000_mm": 11.0,
+    "pto_belt_to_2020_diagonal_mm": 70.0,
+    "pto_belt_to_frame_mm": 5.5,
+    "pto_belt_to_front_crossbar_mm": 71.53,
+    "pto_outer_end_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "solid_count": 79,
+    "step_width_mm": 290.0,
+    "track_dynamic_to_upper_structure_mm": 10.0
+  },
+  "baseline_reproduced": true,
+  "baseline_verify_result": "PASS_FOR_ENVELOPE_AUTHORITY_WITH_HOLDS_NOT_FOR_MANUFACTURING",
+  "cadquery_version": "2.8.0",
+  "document_id": "PS-CR-FRONT-DRIVE-DUAL-PTO-BELT-CLEARANCE-V0081",
+  "python_version": "3.12.13",
+  "repository_verification_at_generation": "PASS",
+  "v008_hash_mismatch_count": 0,
+  "v008_hash_mismatches": [],
+  "v008_path_hashes": {
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-INSPECTION.step": {
+      "actual_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+      "expected_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-OVERVIEW.svg": {
+      "actual_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+      "expected_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/build_common_rover_front_drive_dual_pto_v008.py": {
+      "actual_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+      "expected_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_aluminum_allocation_v008.csv": {
+      "actual_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+      "expected_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_design_authority_v008.md": {
+      "actual_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+      "expected_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_matrix_v008.csv": {
+      "actual_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+      "expected_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_report_v008.json": {
+      "actual_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+      "expected_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_parameters_v008.json": {
+      "actual_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+      "expected_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+      "match": true
+    },
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_validation_v008.json": {
+      "actual_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+      "expected_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+      "match": true
+    },
+    "tests/test_common_rover_front_drive_dual_pto_v008_contract.py": {
+      "actual_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+      "expected_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+      "match": true
+    }
+  },
+  "verification_date": "2026-07-30"
+}

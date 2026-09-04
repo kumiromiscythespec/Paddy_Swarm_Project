@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<style>text{font-family:Arial,sans-serif;fill:#0b2545}.t{font-size:30px;font-weight:700}.h{font-size:23px;font-weight:700}.s{font-size:16px}.axis{stroke:#19376d;stroke-width:3}.part{stroke:#134b2c;stroke-width:2}.pulley{fill:#ffe6a7;stroke:#a65f00;stroke-width:3}.warn{fill:#b40000;font-size:17px;font-weight:700}.frame{fill:#f7f9fc;stroke:#ccd6e2;stroke-width:2}</style>
+<rect width="1400" height="900" fill="#f2f5f9"/>
+<text x="35" y="48" class="t">Common Rover v0.8.5 independent tolerance search</text>
+<text x="35" y="78" class="warn">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+<rect x="35" y="105" width="1330" height="225" class="frame"/>
+<text x="55" y="152" class="h">Recommended · robust priority</text>
+<line x1="160" y1="220" x2="1240" y2="220" class="axis"/>
+<rect x="602.55" y="185" width="60" height="70" fill="#70c173" class="part"/>
+<rect x="737.45" y="185" width="60" height="70" fill="#70c173" class="part"/>
+<circle cx="493.2125" cy="220" r="40" class="pulley"/><circle cx="906.7875" cy="220" r="40" class="pulley"/>
+<rect x="323.875" y="185" width="60" height="70" fill="#70c173" class="part"/>
+<rect x="1016.125" y="185" width="60" height="70" fill="#70c173" class="part"/>
+<text x="55" y="285" class="s">Y +/- 19.0/58.25/97.5 · center N/R 9.0/7.0</text>
+<text x="720" y="285" class="s">belt R min 8.25 · pulley R min 11.25 · output 33.0</text>
+
+<rect x="35" y="355" width="1330" height="205" class="frame"/>
+<text x="55" y="397" class="h">Alternative A</text>
+<line x1="160" y1="465" x2="1240" y2="465" class="axis"/>
+<rect x="602.55" y="430" width="60" height="70" fill="#69b7df" class="part"/>
+<rect x="737.45" y="430" width="60" height="70" fill="#69b7df" class="part"/>
+<circle cx="494.1" cy="465" r="40" class="pulley"/><circle cx="905.9" cy="465" r="40" class="pulley"/>
+<rect x="325.65000000000003" y="430" width="60" height="70" fill="#69b7df" class="part"/>
+<rect x="1014.3499999999999" y="430" width="60" height="70" fill="#69b7df" class="part"/>
+<text x="55" y="530" class="s">Y +/- 19.0/58.0/97.0 · center N/R 9.0/7.0</text>
+<text x="720" y="530" class="s">belt R min 8.0 · pulley R min 11.0 · output 33.5</text>
+
+<rect x="35" y="585" width="1330" height="205" class="frame"/>
+<text x="55" y="627" class="h">Alternative B</text>
+<line x1="160" y1="695" x2="1240" y2="695" class="axis"/>
+<rect x="602.55" y="660" width="60" height="70" fill="#c0a3e8" class="part"/>
+<rect x="737.45" y="660" width="60" height="70" fill="#c0a3e8" class="part"/>
+<circle cx="494.1" cy="695" r="40" class="pulley"/><circle cx="905.9" cy="695" r="40" class="pulley"/>
+<rect x="324.76250000000005" y="660" width="60" height="70" fill="#c0a3e8" class="part"/>
+<rect x="1015.2375" y="660" width="60" height="70" fill="#c0a3e8" class="part"/>
+<text x="55" y="760" class="s">Y +/- 19.0/58.0/97.25 · center N/R 9.0/7.0</text>
+<text x="720" y="760" class="s">belt R min 8.0 · pulley R min 11.0 · output 33.25</text>
+
+<text x="35" y="845" class="s">All displayed residuals include opposite protrusion 6 mm and independent-error interval maxima.</text>
+</svg>

@@ -1,0 +1,1138 @@
+{
+  "authority": {
+    "envelope_geometry": "CONDITIONAL_PASS_WITH_HOLDS",
+    "field_deployment": "NOT_APPROVED",
+    "hole_pattern": "PART_MEASUREMENT_REQUIRED",
+    "machining": "HOLD",
+    "measurement_integration": "CONDITIONAL_PASS",
+    "physical_fit": "HOLD",
+    "pulley_bore_fit": "FAIL_PROVISIONAL"
+  },
+  "axial_length": {
+    "housing_only_inner_face_abs_y_mm": 5.5,
+    "inner_axis_abs_y_mm": 14.0,
+    "outer_axis_abs_y_mm": 87.5,
+    "output_end_abs_y_mm": 145.0,
+    "preliminary_coverage_range_mm": [
+      139.5,
+      145.5
+    ],
+    "provisional_insert_toward_center_face_abs_y_mm": -0.5,
+    "released_installed_length_range_mm": null,
+    "stock_evaluation": {
+      "300_mm_stock": "CANDIDATE_CAN_COVER_PRELIMINARY_RANGE_IF_FINAL_LENGTH_LTE_300",
+      "400_mm_stock": "CANDIDATE_CAN_COVER_PRELIMINARY_RANGE_IF_FINAL_LENGTH_LTE_400",
+      "cutting": "HOLD",
+      "preferred_stock": "300_MM_MINIMUM_OFFCUT_CANDIDATE_NOT_RELEASED",
+      "total_1400_mm": "INVENTORY_TOTAL_NOT_INSTALLED_SHAFT_LENGTH"
+    },
+    "upper_bound_status": "HOLD_COUPLING_COLLARS_RESERVE_AND_TOTAL_KP000_ENVELOPE"
+  },
+  "classification_counts": {
+    "CONFIRMED_PROVISIONAL": 28,
+    "MEASUREMENT_CONFLICT": 3,
+    "NOMINAL_PART_SIZE": 4,
+    "NOT_FOR_MANUFACTURING": 2,
+    "PART_MEASUREMENT_REQUIRED": 14,
+    "REINTERPRETED": 3,
+    "SEMANTIC_CONFLICT": 1
+  },
+  "discrepancy_status": "CONDITIONAL_PASS_DISCREPANCIES_FAIL_CLOSED",
+  "document_id": "PS-CR-MEASUREMENT-INTEGRATION-V0083",
+  "fixed_architecture": {
+    "boxes": "CBOX_FRONT_BBOX_REAR_HIGH_MOUNTED_NON_STRUCTURAL",
+    "clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "common_pto_shaft": "PROHIBITED",
+    "crawler": "INVERTED_TRAPEZOID",
+    "motor_count": 2,
+    "motor_shafts": "INWARD",
+    "pto_architecture": "TWO_INDEPENDENT_LATERAL_SHAFTS",
+    "pto_axes": "LATERAL",
+    "pto_count": 2,
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "support_plate": {
+      "height_mm": 140.0,
+      "hole_pattern": "PART_MEASUREMENT_REQUIRED",
+      "left_right_independent": true,
+      "material": "A5052-P_CANDIDATE",
+      "outline": "P3_TRIANGULAR_LOAD_PATH_FLAT_PLATE",
+      "thickness_mm": 5.0,
+      "width_mm": 95.0
+    },
+    "total_width_candidate_mm": 290.0,
+    "total_width_limit_mm": 300.0,
+    "transmission": "FRONT_CONCENTRATED",
+    "v0081_candidate": "S2-REF-T5-BP2.00-OP5.50",
+    "v0082_candidate": "P3-A5052-T5"
+  },
+  "kp000_cad": {
+    "bore_status": "REJECT_RULER_VALUE_USE_NOMINAL_PENDING_CALIPER",
+    "bore_used_for_cad_mm": 10.0,
+    "grease_port": "NONE",
+    "hole_geometry_in_step": "OMITTED_LOCATION_UNKNOWN_DIAMETER_ONLY_IN_METADATA",
+    "housing_depth_mm": 17.0,
+    "insert_protrusion_one_side_mm": 6.0,
+    "insert_set_screw_count": 2,
+    "mount_hole_center_distance_mm": null,
+    "mount_hole_count": 2,
+    "mount_hole_diameter_mm": 8.0,
+    "mount_hole_shape": "ROUND_PROVISIONAL",
+    "overall_height_mm": 35.0,
+    "overall_width_mm": 67.0,
+    "reported_ruler_bore_mm": 11.0,
+    "shaft_center_height_mm": 18.5,
+    "shaft_center_height_tolerance_mm": 0.5,
+    "total_axial_envelope_mm": null
+  },
+  "measurements": [
+    {
+      "cad_use": "UPDATE_ENVELOPE",
+      "cad_value": 67.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U001",
+      "parameter": "KP000_OVERALL_WIDTH_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 67.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "UPDATE_ENVELOPE",
+      "cad_value": 35.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U002",
+      "parameter": "KP000_OVERALL_HEIGHT_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 35.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "UPDATE_ENVELOPE",
+      "cad_value": 17.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U003",
+      "parameter": "KP000_HOUSING_DEPTH_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 17.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "UPDATE_AXIS_RELATION",
+      "cad_value": 18.5,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U004",
+      "parameter": "KP000_SHAFT_CENTER_HEIGHT_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 18.5,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "CANDIDATE_TOLERANCE_ONLY",
+      "cad_value": 0.5,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U005",
+      "parameter": "KP000_SHAFT_CENTER_HEIGHT_TOL_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 0.5,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "METADATA_ONLY",
+      "cad_value": 2,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U006",
+      "parameter": "KP000_MOUNT_HOLE_COUNT_PER_UNIT",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 2,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "DIAMETER_METADATA_ONLY",
+      "cad_value": 8.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U007",
+      "parameter": "KP000_MOUNT_HOLE_DIAMETER_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 8.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "UPDATE_PROVISIONAL_ENVELOPE",
+      "cad_value": 6.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U008",
+      "parameter": "KP000_INSERT_PROTRUSION_ONE_SIDE_MM",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 6.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "UPDATE_SIMPLIFIED_MODEL",
+      "cad_value": 2,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U009",
+      "parameter": "KP000_INSERT_SET_SCREW_COUNT",
+      "part": "KP000",
+      "reason": "User measurement integrated provisionally; not manufacturing authority.",
+      "remeasurement_gate": "",
+      "reported_value": 2,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "METADATA_ONLY",
+      "cad_value": "ROUND_PROVISIONAL",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U010",
+      "parameter": "KP000_MOUNT_HOLE_SHAPE",
+      "part": "KP000",
+      "reason": "Shape known; centers unknown.",
+      "remeasurement_gate": "",
+      "reported_value": "ROUND_PROVISIONAL",
+      "unit": ""
+    },
+    {
+      "cad_use": "OMIT_HOLE_LOCATION",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U011",
+      "parameter": "KP000_MOUNT_HOLE_CENTER_DISTANCE_MM",
+      "part": "KP000",
+      "reason": "Center distance is required before any hole placement.",
+      "remeasurement_gate": "CRITICAL_1",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "AXIAL_STACK_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U012",
+      "parameter": "KP000_TOTAL_AXIAL_ENVELOPE_MM",
+      "part": "KP000",
+      "reason": "Opposite insert projection and full envelope are missing.",
+      "remeasurement_gate": "CRITICAL_2",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "NO_GREASE_NIPPLE_GEOMETRY",
+      "cad_value": "NONE",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U013",
+      "parameter": "KP000_GREASE_PORT",
+      "part": "KP000",
+      "reason": "User reports no grease nipple.",
+      "remeasurement_gate": "",
+      "reported_value": "NONE",
+      "unit": ""
+    },
+    {
+      "cad_use": "CAD_BORE_NOMINAL_PENDING_CALIPER",
+      "cad_value": 10.0,
+      "classification": "NOMINAL_PART_SIZE",
+      "measurement_id": "U014",
+      "parameter": "KP000_BORE_NOMINAL_MM",
+      "part": "KP000",
+      "reason": "10 mm shaft passes with almost no play.",
+      "remeasurement_gate": "CRITICAL_3",
+      "reported_value": 10.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "REJECT_FROM_CAD",
+      "cad_value": "",
+      "classification": "MEASUREMENT_CONFLICT",
+      "measurement_id": "U015",
+      "parameter": "KP000_REPORTED_RULER_BORE_MM",
+      "part": "KP000",
+      "reason": "Ruler value conflicts with nominal bearing and observed 10 mm fit.",
+      "remeasurement_gate": "CRITICAL_3",
+      "reported_value": 11.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_B",
+      "cad_value": 100.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U016",
+      "parameter": "PULLEY_FLANGE_MAX_OD_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 100.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_A_AND_B",
+      "cad_value": 20.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U017",
+      "parameter": "PULLEY_AXIAL_TOTAL_WIDTH_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 20.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_B_COMPONENT",
+      "cad_value": 2.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U018",
+      "parameter": "PULLEY_FLANGE_THICKNESS_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 2.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_B_SEMANTIC_HOLD",
+      "cad_value": 96.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U019",
+      "parameter": "PULLEY_TOOTHED_BODY_OD_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 96.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_B_PROVISIONAL",
+      "cad_value": 17.0,
+      "classification": "REINTERPRETED",
+      "measurement_id": "U020",
+      "parameter": "PULLEY_TOOTH_FACE_WIDTH_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 17.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "REJECT_FROM_CAD",
+      "cad_value": "",
+      "classification": "SEMANTIC_CONFLICT",
+      "measurement_id": "U021",
+      "parameter": "PULLEY_REPORTED_TOOTH_WIDTH_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 3.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FIT_AUDIT_ONLY",
+      "cad_value": "",
+      "classification": "MEASUREMENT_CONFLICT",
+      "measurement_id": "U022",
+      "parameter": "PULLEY_REPORTED_BORE_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "CRITICAL_4",
+      "reported_value": 11.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "MODEL_A_SAFETY_AUTHORITY",
+      "cad_value": 120.0,
+      "classification": "NOT_FOR_MANUFACTURING",
+      "measurement_id": "U023",
+      "parameter": "PULLEY_ROTATION_SAFETY_ENVELOPE_OD_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "User measurement or safety-envelope input; semantic status retained.",
+      "remeasurement_gate": "",
+      "reported_value": 120.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "HUB_GEOMETRY_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U024",
+      "parameter": "PULLEY_CENTER_HUB_OD_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "Hub OD missing.",
+      "remeasurement_gate": "CRITICAL_5",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "AXIAL_STACK_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U025",
+      "parameter": "PULLEY_CENTER_HUB_WIDTH_MM",
+      "part": "PTO_60T_PULLEY",
+      "reason": "Hub axial width missing.",
+      "remeasurement_gate": "CRITICAL_6",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "PROTOTYPE_ONLY",
+      "cad_value": "SINGLE_SET_SCREW",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U026",
+      "parameter": "PULLEY_FIXING_METHOD",
+      "part": "PTO_60T_PULLEY",
+      "reason": "Not accepted for load.",
+      "remeasurement_gate": "",
+      "reported_value": "SINGLE_SET_SCREW",
+      "unit": ""
+    },
+    {
+      "cad_use": "FIT_AUDIT_AND_CAD",
+      "cad_value": 10.0,
+      "classification": "NOMINAL_PART_SIZE",
+      "measurement_id": "U027",
+      "parameter": "PTO_SHAFT_NOMINAL_DIAMETER_MM",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": 10.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "INVENTORY_ONLY",
+      "cad_value": 2,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U028",
+      "parameter": "PTO_SHAFT_STOCK_400MM_COUNT",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": 2,
+      "unit": "count"
+    },
+    {
+      "cad_use": "INVENTORY_ONLY",
+      "cad_value": 2,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U029",
+      "parameter": "PTO_SHAFT_STOCK_300MM_COUNT",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": 2,
+      "unit": "count"
+    },
+    {
+      "cad_use": "TOTAL_INVENTORY_ONLY",
+      "cad_value": 1400.0,
+      "classification": "REINTERPRETED",
+      "measurement_id": "U030",
+      "parameter": "PTO_SHAFT_TOTAL_STOCK_LENGTH_MM",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": 1400.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FIXATION_AUDIT",
+      "cad_value": "NONE",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U031",
+      "parameter": "PTO_SHAFT_KEYWAY",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": "NONE",
+      "unit": ""
+    },
+    {
+      "cad_use": "FIXATION_AUDIT",
+      "cad_value": "NONE",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U032",
+      "parameter": "PTO_SHAFT_D_FLAT",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": "NONE",
+      "unit": ""
+    },
+    {
+      "cad_use": "QUALITATIVE_FIT_EVIDENCE",
+      "cad_value": "ALMOST_NONE",
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U033",
+      "parameter": "PTO_SHAFT_REPORTED_PLAY",
+      "part": "PTO_SHAFT",
+      "reason": "Inventory or fit information; no cut length authority.",
+      "remeasurement_gate": "",
+      "reported_value": "ALMOST_NONE",
+      "unit": ""
+    },
+    {
+      "cad_use": "CUT_LENGTH_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U034",
+      "parameter": "PTO_SHAFT_INSTALLED_LENGTH_LEFT_MM",
+      "part": "PTO_SHAFT",
+      "reason": "Do not use stock total as installed length.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "HOLD",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "CUT_LENGTH_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U035",
+      "parameter": "PTO_SHAFT_INSTALLED_LENGTH_RIGHT_MM",
+      "part": "PTO_SHAFT",
+      "reason": "Do not use stock total as installed length.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "HOLD",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "ALIGNMENT_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U036",
+      "parameter": "PTO_SHAFT_AXIAL_PLAY",
+      "part": "PTO_SHAFT",
+      "reason": "Quantitative axial play missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FASTENER_ENVELOPE",
+      "cad_value": 8.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U037",
+      "parameter": "FASTENER_HEAD_DIAMETER_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 8.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FASTENER_ENVELOPE",
+      "cad_value": 4.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U038",
+      "parameter": "FASTENER_HEAD_HEIGHT_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 4.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FASTENER_ENVELOPE",
+      "cad_value": 5.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U039",
+      "parameter": "FASTENER_NUT_HEIGHT_REPORTED_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 5.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FASTENER_ENVELOPE",
+      "cad_value": 10.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U040",
+      "parameter": "FASTENER_WASHER_OD_REPORTED_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 10.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "REJECT_PENDING_REMEASUREMENT",
+      "cad_value": "",
+      "classification": "MEASUREMENT_CONFLICT",
+      "measurement_id": "U041",
+      "parameter": "FASTENER_WASHER_THICKNESS_REPORTED_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 4.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "T_NUT_ENVELOPE",
+      "cad_value": 10.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U042",
+      "parameter": "T_SLOT_NUT_WIDTH_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 10.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "THREAD_CANDIDATE_ONLY",
+      "cad_value": "M5_CANDIDATE",
+      "classification": "NOMINAL_PART_SIZE",
+      "measurement_id": "U043",
+      "parameter": "T_SLOT_BOLT_NOMINAL",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": "M5_CANDIDATE",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "LIKELY_LENGTH_NOT_DIAMETER",
+      "cad_value": 14.0,
+      "classification": "REINTERPRETED",
+      "measurement_id": "U044",
+      "parameter": "T_SLOT_BOLT_REPORTED_14MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 14.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "T_SLOT_ENVELOPE",
+      "cad_value": 12.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U045",
+      "parameter": "T_SLOT_INTERNAL_WIDTH_REPORTED_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "User measurement retained with semantic classification.",
+      "remeasurement_gate": "",
+      "reported_value": 12.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FRAME_INTERFACE_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U046",
+      "parameter": "T_SLOT_NARROW_OPENING_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "Narrow entrance controls T-nut insertion.",
+      "remeasurement_gate": "CRITICAL_8",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "FRAME_INTERFACE_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U047",
+      "parameter": "T_SLOT_DEPTH_MM",
+      "part": "FASTENER_T_SLOT",
+      "reason": "Slot depth missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "NOT_LOCAL_TOOL_ENVELOPE",
+      "cad_value": 196.0,
+      "classification": "NOT_FOR_MANUFACTURING",
+      "measurement_id": "U048",
+      "parameter": "HEX_KEY_TOTAL_LENGTH_MM",
+      "part": "TOOL",
+      "reason": "Total or nominal tool size does not establish local swept envelope.",
+      "remeasurement_gate": "",
+      "reported_value": 196.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "REFERENCE_ONLY",
+      "cad_value": 96.0,
+      "classification": "CONFIRMED_PROVISIONAL",
+      "measurement_id": "U049",
+      "parameter": "HEX_KEY_LENGTH_WITHOUT_GRIP_MM",
+      "part": "TOOL",
+      "reason": "Total or nominal tool size does not establish local swept envelope.",
+      "remeasurement_gate": "",
+      "reported_value": 96.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "WRENCH_SIZE_NOT_OUTER_DIAMETER",
+      "cad_value": 8.0,
+      "classification": "NOMINAL_PART_SIZE",
+      "measurement_id": "U050",
+      "parameter": "SOCKET_REPORTED_SIZE_MM",
+      "part": "TOOL",
+      "reason": "Total or nominal tool size does not establish local swept envelope.",
+      "remeasurement_gate": "",
+      "reported_value": 8.0,
+      "unit": "mm"
+    },
+    {
+      "cad_use": "TOOL_ACCESS_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U051",
+      "parameter": "HEX_KEY_ACROSS_FLATS_MM",
+      "part": "TOOL",
+      "reason": "Local tool envelope is missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "TOOL_ACCESS_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U052",
+      "parameter": "HEX_KEY_SHORT_ARM_MM",
+      "part": "TOOL",
+      "reason": "Local tool envelope is missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "TOOL_ACCESS_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U053",
+      "parameter": "HEX_KEY_BEND_RADIUS_MM",
+      "part": "TOOL",
+      "reason": "Local tool envelope is missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "TOOL_ACCESS_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U054",
+      "parameter": "SOCKET_ACTUAL_OUTER_DIAMETER_MM",
+      "part": "TOOL",
+      "reason": "Local tool envelope is missing.",
+      "remeasurement_gate": "CRITICAL_10",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    },
+    {
+      "cad_use": "TOOL_ACCESS_HOLD",
+      "cad_value": "",
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "measurement_id": "U055",
+      "parameter": "RATCHET_HEAD_ENVELOPE",
+      "part": "TOOL",
+      "reason": "Local tool envelope is missing.",
+      "remeasurement_gate": "HIGH",
+      "reported_value": "PART_MEASUREMENT_REQUIRED",
+      "unit": "mm"
+    }
+  ],
+  "protected_parents": {
+    "v008": {
+      "hashes": {
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-INSPECTION.step": {
+          "actual_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+          "expected_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-OVERVIEW.svg": {
+          "actual_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+          "expected_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/build_common_rover_front_drive_dual_pto_v008.py": {
+          "actual_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+          "expected_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_aluminum_allocation_v008.csv": {
+          "actual_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+          "expected_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_design_authority_v008.md": {
+          "actual_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+          "expected_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_matrix_v008.csv": {
+          "actual_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+          "expected_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_report_v008.json": {
+          "actual_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+          "expected_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_parameters_v008.json": {
+          "actual_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+          "expected_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_validation_v008.json": {
+          "actual_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+          "expected_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+          "match": true
+        },
+        "tests/test_common_rover_front_drive_dual_pto_v008_contract.py": {
+          "actual_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+          "expected_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+          "match": true
+        }
+      },
+      "path_count": 10,
+      "status": "PASS_EMBEDDED_CANONICAL_HASH_SET"
+    },
+    "v0081": {
+      "hashes": {
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/MANIFEST.txt": {
+          "actual_sha256": "274f4201024c02d8841a38f44ccdffe3c02b737ca9d9848da6157a2fb1a7e1ea",
+          "expected_sha256": "274f4201024c02d8841a38f44ccdffe3c02b737ca9d9848da6157a2fb1a7e1ea",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/README_HANDOFF.md": {
+          "actual_sha256": "1075568caa0dd91ca0203efa61e25dba62a104c2e8fed7db2d0f9fbdd397b8b5",
+          "expected_sha256": "1075568caa0dd91ca0203efa61e25dba62a104c2e8fed7db2d0f9fbdd397b8b5",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/SHA256SUMS.txt": {
+          "actual_sha256": "7933f18b7bf951b2efe403d1999fbc5baf64184ac0c4de93758f36013b7038a4",
+          "expected_sha256": "7933f18b7bf951b2efe403d1999fbc5baf64184ac0c4de93758f36013b7038a4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-ALTERNATIVE-A-MIN-CHANGE.step": {
+          "actual_sha256": "d63e2507d013c679fd9b99ee6163c0b087865efa95af94821700a977910754f4",
+          "expected_sha256": "d63e2507d013c679fd9b99ee6163c0b087865efa95af94821700a977910754f4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-ALTERNATIVE-B-PLATE6.step": {
+          "actual_sha256": "fad11eca06f1dbb9c3239f91c225dea79fd35917e701695bded9ed1daddf0128",
+          "expected_sha256": "fad11eca06f1dbb9c3239f91c225dea79fd35917e701695bded9ed1daddf0128",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-INSPECTION.step": {
+          "actual_sha256": "31f9d8457fa8c29f7b366002e42ff2d3a9aff586c326fdf7e36d5f3a2f3d597e",
+          "expected_sha256": "31f9d8457fa8c29f7b366002e42ff2d3a9aff586c326fdf7e36d5f3a2f3d597e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-OVERVIEW.svg": {
+          "actual_sha256": "30ba6d1c098ee2587fc070514a122c640aaca7bec8c3ed0dcf702e146021a9a0",
+          "expected_sha256": "30ba6d1c098ee2587fc070514a122c640aaca7bec8c3ed0dcf702e146021a9a0",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/build_common_rover_front_drive_dual_pto_v0081.py": {
+          "actual_sha256": "605b61d2d9d228c98e23017cbcd92f546a40a84536776378d476954e8d64e38a",
+          "expected_sha256": "605b61d2d9d228c98e23017cbcd92f546a40a84536776378d476954e8d64e38a",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_aluminum_allocation_v0081.csv": {
+          "actual_sha256": "f306713f4b1d3d91d3e9d217ff87a5b98c472bc5f5f09731ee6dfe7d37a0a609",
+          "expected_sha256": "f306713f4b1d3d91d3e9d217ff87a5b98c472bc5f5f09731ee6dfe7d37a0a609",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_baseline_v0081.json": {
+          "actual_sha256": "ac48cd657f0112feecdd47baa6471aef1a9afb5973ee478ddeabdf281027456a",
+          "expected_sha256": "ac48cd657f0112feecdd47baa6471aef1a9afb5973ee478ddeabdf281027456a",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_candidate_ranking_v0081.csv": {
+          "actual_sha256": "7e76c61a4ada9abf602450657823fa6e9096114de826b139c7e09e376c237700",
+          "expected_sha256": "7e76c61a4ada9abf602450657823fa6e9096114de826b139c7e09e376c237700",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_design_authority_v0081.md": {
+          "actual_sha256": "14278cdb96f025c4aa3b348dbfb0c77e9aad8966862eaf44634d701b11d3c0a4",
+          "expected_sha256": "14278cdb96f025c4aa3b348dbfb0c77e9aad8966862eaf44634d701b11d3c0a4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_interference_matrix_v0081.csv": {
+          "actual_sha256": "b9d008c73d0ad1a4038d96db3b47abd023d76e3f14662278db42996062a63e96",
+          "expected_sha256": "b9d008c73d0ad1a4038d96db3b47abd023d76e3f14662278db42996062a63e96",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_interference_report_v0081.json": {
+          "actual_sha256": "cc713f7f9802f481998deaa375cbcb32c982ebd3a45480ef876846396116cba4",
+          "expected_sha256": "cc713f7f9802f481998deaa375cbcb32c982ebd3a45480ef876846396116cba4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_parameters_v0081.json": {
+          "actual_sha256": "e84071c3bef8ac4a1e65df8ad7caf4cb80e1caa8c59698d676cc82a7be4bf461",
+          "expected_sha256": "e84071c3bef8ac4a1e65df8ad7caf4cb80e1caa8c59698d676cc82a7be4bf461",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_search_candidates_v0081.csv": {
+          "actual_sha256": "2a48b8e614e75a98a8fa6a87bd841eea5714a9d14cfb3e8372c920f1eea120ae",
+          "expected_sha256": "2a48b8e614e75a98a8fa6a87bd841eea5714a9d14cfb3e8372c920f1eea120ae",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_validation_v0081.json": {
+          "actual_sha256": "d096894c58c01768a97a38820dcc90d9fd20554184a84d12c858273a97a337d5",
+          "expected_sha256": "d096894c58c01768a97a38820dcc90d9fd20554184a84d12c858273a97a337d5",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/test_results_v0081.txt": {
+          "actual_sha256": "e645b41d30600252cce54ee93d892233e9f1b57ede04c11dce7ce4813f71aa85",
+          "expected_sha256": "e645b41d30600252cce54ee93d892233e9f1b57ede04c11dce7ce4813f71aa85",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/tests/test_common_rover_front_drive_dual_pto_v0081_contract.py": {
+          "actual_sha256": "f76b288de233ff0f370f2dd18a47b8e208e97a2a0e1646cf375c44a351fd81ee",
+          "expected_sha256": "f76b288de233ff0f370f2dd18a47b8e208e97a2a0e1646cf375c44a351fd81ee",
+          "match": true
+        }
+      },
+      "path_count": 19,
+      "status": "PASS_EMBEDDED_CANONICAL_HASH_SET"
+    },
+    "v0082": {
+      "hashes": {
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/MANIFEST.txt": {
+          "actual_sha256": "f013ba803dabbf659cbbdb5077dba65512dc671cc100b4f2772db0f2c5f07145",
+          "expected_sha256": "f013ba803dabbf659cbbdb5077dba65512dc671cc100b4f2772db0f2c5f07145",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/README_HANDOFF.md": {
+          "actual_sha256": "9d512c7ff8f9504b5c80b060a1bdf3631831c72bfe49d3a80aedcc6ceedba571",
+          "expected_sha256": "9d512c7ff8f9504b5c80b060a1bdf3631831c72bfe49d3a80aedcc6ceedba571",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/SHA256SUMS.txt": {
+          "actual_sha256": "58d91597d25d39488607b6d811b1cedefa48515fea02d0d1036da291fb1e9bfa",
+          "expected_sha256": "58d91597d25d39488607b6d811b1cedefa48515fea02d0d1036da291fb1e9bfa",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-ASSEMBLY.step": {
+          "actual_sha256": "68c3fa5bb6c2c0eea9bfba09fc2e3b47f5874a2b4eec92f026129255244e21a9",
+          "expected_sha256": "68c3fa5bb6c2c0eea9bfba09fc2e3b47f5874a2b4eec92f026129255244e21a9",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-DIMENSIONS.svg": {
+          "actual_sha256": "db5a1a603058c2fd737ed28a07a9d87db816f3b65c02fba8121ace51ed8b97e9",
+          "expected_sha256": "db5a1a603058c2fd737ed28a07a9d87db816f3b65c02fba8121ace51ed8b97e9",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-FRONT.svg": {
+          "actual_sha256": "83069d263debc4f6007f2cb5261513054cffa1e788fa581e4709bfc39e81596e",
+          "expected_sha256": "83069d263debc4f6007f2cb5261513054cffa1e788fa581e4709bfc39e81596e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-LEFT.dxf": {
+          "actual_sha256": "b066cb4683fe6c9ddf37fb155b7160b7204fa968792e5d224f0a294dbd327e51",
+          "expected_sha256": "b066cb4683fe6c9ddf37fb155b7160b7204fa968792e5d224f0a294dbd327e51",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-LEFT.step": {
+          "actual_sha256": "266bcdcf9c890e1e4fe19c074995ce71f356e8aea731b5478e2b763d91dc92be",
+          "expected_sha256": "266bcdcf9c890e1e4fe19c074995ce71f356e8aea731b5478e2b763d91dc92be",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-OVERVIEW.svg": {
+          "actual_sha256": "0cbe2839ead26f739c2d32cbf0de3ff59d0cea83e4af07da5757130d9e83b693",
+          "expected_sha256": "0cbe2839ead26f739c2d32cbf0de3ff59d0cea83e4af07da5757130d9e83b693",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-RIGHT.dxf": {
+          "actual_sha256": "380664445fb1f39d1b980ca36695c65814a318fccbfc956676413c874169b7b4",
+          "expected_sha256": "380664445fb1f39d1b980ca36695c65814a318fccbfc956676413c874169b7b4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-RIGHT.step": {
+          "actual_sha256": "954798198db055111b3177ce42c36d17bd31ab6af1fc014de1949a48759ee3fd",
+          "expected_sha256": "954798198db055111b3177ce42c36d17bd31ab6af1fc014de1949a48759ee3fd",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-SIDE.svg": {
+          "actual_sha256": "65a39d6fdbe83c7da23c879cdf1c4890e551843b612b3af06dd9de6d8d79059e",
+          "expected_sha256": "65a39d6fdbe83c7da23c879cdf1c4890e551843b612b3af06dd9de6d8d79059e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-TOP.svg": {
+          "actual_sha256": "8f6a1933864473463250f73a4181a9b1adddde81a3a2ef0fe76f6dc4a8b1e9b3",
+          "expected_sha256": "8f6a1933864473463250f73a4181a9b1adddde81a3a2ef0fe76f6dc4a8b1e9b3",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/build_common_rover_kp000_support_plate_v0082.py": {
+          "actual_sha256": "4cefc32f0279637b9c7d4ea0ed87aefee973be669d035785e8970aa63e6f160e",
+          "expected_sha256": "4cefc32f0279637b9c7d4ea0ed87aefee973be669d035785e8970aa63e6f160e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_candidates_v0082.csv": {
+          "actual_sha256": "54d9aac85d6ea5cf2b055a4081d30454ece0480315fba27e23b4e5d71f152a78",
+          "expected_sha256": "54d9aac85d6ea5cf2b055a4081d30454ece0480315fba27e23b4e5d71f152a78",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_design_authority_v0082.md": {
+          "actual_sha256": "f8be3bd02d5d5e2e9f0572b11e16e032dde73b6fe786a47d08631a32d3bed1f4",
+          "expected_sha256": "f8be3bd02d5d5e2e9f0572b11e16e032dde73b6fe786a47d08631a32d3bed1f4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_fasteners_v0082.csv": {
+          "actual_sha256": "d361cd5097bd06cf2b689cddf0775d3148616f8f9b83eeef6693f88fb1df209e",
+          "expected_sha256": "d361cd5097bd06cf2b689cddf0775d3148616f8f9b83eeef6693f88fb1df209e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_interference_report_v0082.json": {
+          "actual_sha256": "5d4ec97e1d08c54068a4241bad1ab25d2e29dd04d8daa63301083c3d12237885",
+          "expected_sha256": "5d4ec97e1d08c54068a4241bad1ab25d2e29dd04d8daa63301083c3d12237885",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_parameters_v0082.json": {
+          "actual_sha256": "bae83a71225ef9bbcf2e02ea04ad9f475c9be42f9e7352172908700ecd8f12da",
+          "expected_sha256": "bae83a71225ef9bbcf2e02ea04ad9f475c9be42f9e7352172908700ecd8f12da",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_ranking_v0082.csv": {
+          "actual_sha256": "a5fcfeb3c542e6c758c5591b12b53607511e281748d0eaa580146b19824d76b6",
+          "expected_sha256": "a5fcfeb3c542e6c758c5591b12b53607511e281748d0eaa580146b19824d76b6",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_strength_report_v0082.json": {
+          "actual_sha256": "f1c6672bc823fe00d954859ab34f3dfa9a0b344476942672b7c49841d0c111d3",
+          "expected_sha256": "f1c6672bc823fe00d954859ab34f3dfa9a0b344476942672b7c49841d0c111d3",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_tool_access_v0082.csv": {
+          "actual_sha256": "5528da976bb4adca4b584db0beb5dff070770cb971f32ca34070b502505342fe",
+          "expected_sha256": "5528da976bb4adca4b584db0beb5dff070770cb971f32ca34070b502505342fe",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/common_rover_kp000_support_plate_validation_v0082.json": {
+          "actual_sha256": "9a327ad295375ffffa4fae94251c6073aabc44ac48d96012415a19d5c477893f",
+          "expected_sha256": "9a327ad295375ffffa4fae94251c6073aabc44ac48d96012415a19d5c477893f",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/kp000_support_plate_measurement_sheet_v0082.csv": {
+          "actual_sha256": "0bed46db81b8c21cfad43008c475f636a663df136342d1229a6770f785ea17df",
+          "expected_sha256": "0bed46db81b8c21cfad43008c475f636a663df136342d1229a6770f785ea17df",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/kp000_support_plate_measurement_sheet_v0082.md": {
+          "actual_sha256": "bec387bd9316187f065caaa3993ad198c8dd2f2eff5c5f4e45dc6a5b9577319a",
+          "expected_sha256": "bec387bd9316187f065caaa3993ad198c8dd2f2eff5c5f4e45dc6a5b9577319a",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/test_results_v0082.txt": {
+          "actual_sha256": "ba3cc392afbf1b6000fa2622fa49878662a12f290be867b43307a0242487fec0",
+          "expected_sha256": "ba3cc392afbf1b6000fa2622fa49878662a12f290be867b43307a0242487fec0",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2/tests/test_common_rover_kp000_support_plate_v0082_contract.py": {
+          "actual_sha256": "3c9c34ccb1f2e7721fdc9713db9ab8d21f49d589c4ea3af8b05a968553cd2beb",
+          "expected_sha256": "3c9c34ccb1f2e7721fdc9713db9ab8d21f49d589c4ea3af8b05a968553cd2beb",
+          "match": true
+        }
+      },
+      "path_count": 27,
+      "status": "PASS_EMBEDDED_CANONICAL_HASH_SET"
+    }
+  },
+  "pulley_models": [
+    {
+      "axial_width_mm": 20.0,
+      "bore_mm": null,
+      "bore_status": "CALIPER_REMEASUREMENT_REQUIRED",
+      "model_id": "MODEL_A_CONSERVATIVE",
+      "rotation_envelope_od_mm": 120.0,
+      "safety_authority": true
+    },
+    {
+      "axial_total_width_mm": 20.0,
+      "component_sum_conflict_mm": 1.0,
+      "component_sum_mm": 21.0,
+      "fixing_method": "SINGLE_SET_SCREW",
+      "flange_max_od_mm": 100.0,
+      "flange_thickness_each_mm": 2.0,
+      "hub_od_mm": null,
+      "hub_width_mm": null,
+      "model_id": "MODEL_B_MEASURED_PROVISIONAL",
+      "reported_bore_mm": 11.0,
+      "status": "PROVISIONAL_SEMANTIC_AND_BORE_HOLD",
+      "tooth_face_width_mm": 17.0,
+      "tooth_face_width_status": "REINTERPRETED_FROM_REPORTED_OD",
+      "toothed_body_od_mm": 96.0,
+      "toothed_body_od_status": "SEMANTIC_CONFIRMATION_REQUIRED"
+    }
+  ],
+  "release_holds": [
+    "KP000_HOLE_CENTER_DISTANCE",
+    "KP000_TOTAL_AXIAL_ENVELOPE",
+    "KP000_ACTUAL_BORE",
+    "PULLEY_ACTUAL_BORE",
+    "PULLEY_HUB_OD_AND_WIDTH",
+    "PULLEY_COMPONENT_WIDTH_CONFLICT",
+    "T_SLOT_OPENING",
+    "BOLT_THREAD",
+    "TOOL_LOCAL_ENVELOPES",
+    "INSTALLED_SHAFT_LENGTHS"
+  ],
+  "schema": "paddy_swarm.common_rover.measurement_integration.v0.8.3",
+  "shaft": {
+    "axial_play": "PART_MEASUREMENT_REQUIRED",
+    "d_flat": "NONE",
+    "installed_length_left_mm": null,
+    "installed_length_right_mm": null,
+    "keyway": "NONE",
+    "nominal_diameter_mm": 10.0,
+    "stock": [
+      {
+        "count": 2,
+        "length_mm": 400.0
+      },
+      {
+        "count": 2,
+        "length_mm": 300.0
+      }
+    ],
+    "total_stock_length_mm": 1400.0,
+    "total_stock_semantics": "INVENTORY_TOTAL_NOT_INSTALLED_SHAFT_LENGTH"
+  },
+  "source": {
+    "integration_date": "2026-07-31",
+    "prior_v0082_filled_measurement_values": 0,
+    "prior_v0082_measurement_rows": 60,
+    "type": "USER_PROVIDED_MEASUREMENTS"
+  },
+  "support_plate_non_regression": {
+    "axis_center_from_base_change_mm": 1.0,
+    "height_mm": 140.0,
+    "hole_pattern": "PART_MEASUREMENT_REQUIRED",
+    "kp000_depth_increase_from_v0082_envelope_mm": 2.0,
+    "kp000_height_change_mm": 0.0,
+    "kp000_width_increase_from_v0082_envelope_mm": 22.0,
+    "left_right_independent": true,
+    "material": "A5052-P_CANDIDATE",
+    "mount_holes_in_geometry": false,
+    "outline": "P3_TRIANGULAR_LOAD_PATH_FLAT_PLATE",
+    "plate_side_margin_each_mm": 14.0,
+    "set_screw_access": "HOLD_ANGULAR_POSITION_REQUIRED",
+    "thickness_mm": 5.0,
+    "width_mm": 95.0
+  }
+}

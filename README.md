@@ -4,6 +4,8 @@
 
 Paddy Swarm Project / 田んぼロボット群プロジェクトは、小規模・家族経営の稲作現場で、人間の負担が大きい作業を小型ロボット群で少しずつ減らすことを目指す試作プロジェクトです。
 
+ChatGPTまたはGitHub上で現在のauthority、物理試験結果、HOLD、過去案を確認する場合は、最初に [`CHATGPT_PROJECT_INDEX.md`](CHATGPT_PROJECT_INDEX.md) を読んでください。Common Roverの明示的なdesign-authority入口は [`CURRENT_COMMON_ROVER_AUTHORITY.md`](CURRENT_COMMON_ROVER_AUTHORITY.md) のまま維持しています。
+
 現段階の目的は、完成品ロボットの販売ではありません。  
 まずは **Grade 0** として、3Dプリント用データ、組み立て説明、試験手順、安全ガイド、失敗ログを公開し、興味を持った人が小さく安全に試せる状態を作ります。
 
@@ -211,4 +213,31 @@ Paddy Swarm Project / 田んぼロボット群プロジェクトは、小規模�
 
 ## Common Rover design authority
 
-Current authority: **v2.29.3.9.1**. Start at `CURRENT_COMMON_ROVER_AUTHORITY.md`.
+Current authority:
+**common_rover_inward_pto_coupling_cad_verified_v0_9_2_1**.
+Start at `CURRENT_COMMON_ROVER_AUTHORITY.md`.
+
+The current contract keeps two motors, two independent PTO ports and left/right
+DRIVE / NEUTRAL / PTO slide clutches. It uses two DRIVE belts and two PTO belts
+(4本のHTD belts total). The protected v0.9.1 candidate moved both powertrains
+to outboard pods and directed the independent PTO outputs inward. v0.9.2.1
+retains the v0.9.2 independent 12.5 mm stubs, ends at Y=+18/-18, 36 mm end
+gap and SMALL coupling envelope, while replacing fixed expected-clearance
+evidence with named CadQuery Shapes, actual Boolean intersections, OCP
+distances and nearest points in the central coupling region. Its no-load
+dry-fit jig uses two independent uncut shaft references; a common PTO shaft
+remains prohibited.
+
+The central coupling and its full 0–10 mm sweep are actual-CAD verified
+candidates. Frame, belt, clutch, pulley, track and other upstream powertrain
+geometry remain inherited conditional; the repository does not claim
+full-system actual-CAD verification. Physical fit, load capacity, machining,
+powered testing, manufacturing and field deployment remain HOLD/NOT_APPROVED.
+
+Work-unit presence sensing, ID, power and communication move to a high
+interface. PTO cannot start without `UNIT_PRESENT`. KP000 direct-to-2040
+mounting is prohibited; a metal support plate is required. The envelope
+candidate retains four non-crossing belt corridors, OD120 PTO safety envelopes,
+PTO bottom Z>=200 mm and total width below 300 mm. Actual coupling selection,
+motor, L-bracket, holes, shaft cuts, machining, load, powered rotation and
+physical fit remain HOLD. Manufacturing and field deployment are not approved.

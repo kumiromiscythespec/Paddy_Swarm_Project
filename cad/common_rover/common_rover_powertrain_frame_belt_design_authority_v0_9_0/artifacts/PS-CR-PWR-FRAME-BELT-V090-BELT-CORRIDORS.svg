@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Four independent HTD belt corridors</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · PHYSICAL 15 · NOMINAL 21 · SAFETY 31 · no shared belts</text>
+<rect x="45" y="125" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="157" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">LEFT DRIVE</text>
+<circle cx="195" cy="260" r="27" fill="none" stroke="#2676d2" stroke-width="8"/>
+<circle cx="605" cy="270" r="63" fill="none" stroke="#2676d2" stroke-width="12"/>
+<path d="M 195 230 L 605 205 M 195 290 L 605 333" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 195 230 L 605 205 M 195 290 L 605 333" stroke="#2676d2" stroke-width="5"/>
+<rect x="815" y="125" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="157" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">RIGHT DRIVE</text>
+<circle cx="965" cy="260" r="27" fill="none" stroke="#2676d2" stroke-width="8"/>
+<circle cx="1375" cy="270" r="63" fill="none" stroke="#2676d2" stroke-width="12"/>
+<path d="M 965 230 L 1375 205 M 965 290 L 1375 333" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 965 230 L 1375 205 M 965 290 L 1375 333" stroke="#2676d2" stroke-width="5"/>
+<rect x="45" y="395" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="427" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">LEFT PTO</text>
+<circle cx="195" cy="530" r="27" fill="none" stroke="#f39c35" stroke-width="8"/>
+<circle cx="605" cy="540" r="63" fill="none" stroke="#f39c35" stroke-width="12"/>
+<path d="M 195 500 L 605 475 M 195 560 L 605 603" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 195 500 L 605 475 M 195 560 L 605 603" stroke="#f39c35" stroke-width="5"/>
+<rect x="815" y="395" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="427" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">RIGHT PTO</text>
+<circle cx="965" cy="530" r="27" fill="none" stroke="#f39c35" stroke-width="8"/>
+<circle cx="1375" cy="540" r="63" fill="none" stroke="#f39c35" stroke-width="12"/>
+<path d="M 965 500 L 1375 475 M 965 560 L 1375 603" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 965 500 L 1375 475 M 965 560 L 1375 603" stroke="#f39c35" stroke-width="5"/>
+<rect x="45" y="665" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="697" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Installation / removal paths</text>
+<circle cx="195" cy="800" r="27" fill="none" stroke="#d62728" stroke-width="8"/>
+<circle cx="605" cy="810" r="63" fill="none" stroke="#d62728" stroke-width="12"/>
+<path d="M 195 770 L 605 745 M 195 830 L 605 873" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 195 770 L 605 745 M 195 830 L 605 873" stroke="#d62728" stroke-width="5"/>
+<rect x="815" y="665" width="730" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="697" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Tensioner / guard / tool keep-out</text>
+<circle cx="965" cy="800" r="27" fill="none" stroke="#f1c40f" stroke-width="8"/>
+<circle cx="1375" cy="810" r="63" fill="none" stroke="#f1c40f" stroke-width="12"/>
+<path d="M 965 770 L 1375 745 M 965 830 L 1375 873" stroke="#d62728" stroke-width="20" opacity=".25"/>
+<path d="M 965 770 L 1375 745 M 965 830 L 1375 873" stroke="#f1c40f" stroke-width="5"/>
+</svg>

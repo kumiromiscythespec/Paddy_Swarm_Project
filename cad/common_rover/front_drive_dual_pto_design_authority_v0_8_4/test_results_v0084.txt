@@ -1,0 +1,42 @@
+DOCUMENT_ID=PS-CR-KP000-AXIAL-STACK-V0084
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cad\python.exe -B tests/test_common_rover_kp000_axial_stack_v0084_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_twenty_four_package_paths (__main__.CommonRoverV0084Contract.test_001_exact_twenty_four_package_paths) ... ok
+test_002_v008_to_v0083_parent_sha_protection (__main__.CommonRoverV0084Contract.test_002_v008_to_v0083_parent_sha_protection) ... ok
+test_003_v0083_baseline_reproduction (__main__.CommonRoverV0084Contract.test_003_v0083_baseline_reproduction) ... ok
+test_004_fixed_architecture (__main__.CommonRoverV0084Contract.test_004_fixed_architecture) ... ok
+test_005_kp000_measured_envelope_and_orientation_terms (__main__.CommonRoverV0084Contract.test_005_kp000_measured_envelope_and_orientation_terms) ... ok
+test_006_stage_one_sixteen_orientation_combinations (__main__.CommonRoverV0084Contract.test_006_stage_one_sixteen_orientation_combinations) ... ok
+test_007_simple_dual_inward_flip_collision_detected (__main__.CommonRoverV0084Contract.test_007_simple_dual_inward_flip_collision_detected) ... ok
+test_008_stage_order_and_candidate_counts (__main__.CommonRoverV0084Contract.test_008_stage_order_and_candidate_counts) ... ok
+test_009_recommended_candidate_is_first_passing_stage (__main__.CommonRoverV0084Contract.test_009_recommended_candidate_is_first_passing_stage) ... ok
+test_010_recommended_orientations_and_positions (__main__.CommonRoverV0084Contract.test_010_recommended_orientations_and_positions) ... ok
+test_011_alternatives_limited_and_ordered (__main__.CommonRoverV0084Contract.test_011_alternatives_limited_and_ordered) ... ok
+test_012_four_bearing_belt_intersections_zero (__main__.CommonRoverV0084Contract.test_012_four_bearing_belt_intersections_zero) ... ok
+test_013_four_bearing_pulley_intersections_zero (__main__.CommonRoverV0084Contract.test_013_four_bearing_pulley_intersections_zero) ... ok
+test_014_inner_mutual_and_support_intersections_zero (__main__.CommonRoverV0084Contract.test_014_inner_mutual_and_support_intersections_zero) ... ok
+test_015_belt_nominal_and_residual_gates (__main__.CommonRoverV0084Contract.test_015_belt_nominal_and_residual_gates) ... ok
+test_016_pulley_120_clearance_gate (__main__.CommonRoverV0084Contract.test_016_pulley_120_clearance_gate) ... ok
+test_017_total_width_and_pto_end_limits (__main__.CommonRoverV0084Contract.test_017_total_width_and_pto_end_limits) ... ok
+test_018_support_plate_non_regression_and_no_hole_release (__main__.CommonRoverV0084Contract.test_018_support_plate_non_regression_and_no_hole_release) ... ok
+test_019_tool_access_is_simplified_and_held (__main__.CommonRoverV0084Contract.test_019_tool_access_is_simplified_and_held) ... ok
+test_020_axial_stack_seventeen_items_per_side (__main__.CommonRoverV0084Contract.test_020_axial_stack_seventeen_items_per_side) ... ok
+test_021_shaft_length_range_and_stock_semantics (__main__.CommonRoverV0084Contract.test_021_shaft_length_range_and_stock_semantics) ... ok
+test_022_robustness_full_factorial_and_classification (__main__.CommonRoverV0084Contract.test_022_robustness_full_factorial_and_classification) ... ok
+test_023_robust_alternative_and_intermediate_limit (__main__.CommonRoverV0084Contract.test_023_robust_alternative_and_intermediate_limit) ... ok
+test_024_step_semantic_geometry_three_of_three (__main__.CommonRoverV0084Contract.test_024_step_semantic_geometry_three_of_three) ... ok
+test_025_svg_warnings_and_key_values (__main__.CommonRoverV0084Contract.test_025_svg_warnings_and_key_values) ... ok
+test_026_manifest_sha_and_cache_contract (__main__.CommonRoverV0084Contract.test_026_manifest_sha_and_cache_contract) ... ok
+test_027_verify_is_read_only_and_release_states (__main__.CommonRoverV0084Contract.test_027_verify_is_read_only_and_release_states) ... ok
+test_028_download_zip_delivery_lifecycle (__main__.CommonRoverV0084Contract.test_028_download_zip_delivery_lifecycle) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 3.049s
+
+OK

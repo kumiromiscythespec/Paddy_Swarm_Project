@@ -1,0 +1,28 @@
+DOCUMENT_ID=PS-CR-KP000-AXIAL-STACK-V0084
+EXPECTED_FILE_COUNT=24
+STATUS=NOT_FOR_MANUFACTURING
+ROOT=ZIP_ROOT
+common_rover_kp000_axial_stack_design_authority_v0084.md	FILE
+common_rover_kp000_axial_stack_parameters_v0084.json	FILE
+common_rover_kp000_orientation_candidates_v0084.csv	FILE
+common_rover_kp000_axial_search_candidates_v0084.csv	FILE
+common_rover_kp000_candidate_ranking_v0084.csv	FILE
+common_rover_kp000_robustness_sensitivity_v0084.csv	FILE
+common_rover_kp000_axial_stack_v0084.csv	FILE
+common_rover_kp000_interference_matrix_v0084.csv	FILE
+common_rover_kp000_interference_report_v0084.json	FILE
+common_rover_kp000_validation_v0084.json	FILE
+common_rover_kp000_remeasurement_sheet_v0084.md	FILE
+common_rover_kp000_remeasurement_sheet_v0084.csv	FILE
+build_common_rover_kp000_axial_stack_v0084.py	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-RECOMMENDED.step	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-ALTERNATIVE-A.step	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-ALTERNATIVE-B.step	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-OVERVIEW.svg	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-SECTION.svg	FILE
+artifacts/PS-CR-KP000-AXIAL-STACK-V0084-CENTRAL-CLEARANCE.svg	FILE
+tests/test_common_rover_kp000_axial_stack_v0084_contract.py	FILE
+README_HANDOFF.md	FILE
+MANIFEST.txt	FILE
+SHA256SUMS.txt	FILE
+test_results_v0084.txt	FILE

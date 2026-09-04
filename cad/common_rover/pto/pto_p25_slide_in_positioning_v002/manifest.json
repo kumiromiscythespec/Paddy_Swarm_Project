@@ -1,0 +1,59 @@
+{
+  "count": 36,
+  "exact_paths": [
+    "2040_PHYSICAL_SLOT_MEASUREMENTS.md",
+    "COMMIT_PATHS.txt",
+    "P25_SLIDE_IN_V002_DESIGN.md",
+    "PHYSICAL_RESULT_SHEET.md",
+    "PHYSICAL_TEST_PLAN.md",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SLIDE_FIT_VARIANT_MATRIX.md",
+    "STRUCTURAL_LOAD_HOLD.md",
+    "artifacts/2040_physical_slot_reference.step",
+    "artifacts/2040_slide_fit_coupon_A.step",
+    "artifacts/2040_slide_fit_coupon_A.stl",
+    "artifacts/2040_slide_fit_coupon_B.step",
+    "artifacts/2040_slide_fit_coupon_B.stl",
+    "artifacts/2040_slide_fit_coupon_C.step",
+    "artifacts/2040_slide_fit_coupon_C.stl",
+    "artifacts/p25_slide_in_positioning_block_B_provisional.step",
+    "artifacts/p25_slide_in_positioning_block_B_provisional.stl",
+    "artifacts/p25_slide_reference_assembly.step",
+    "audit_start.json",
+    "build_p25_slide_in_positioning_v002.py",
+    "contract_test_report.json",
+    "design_parameters.json",
+    "manifest.json",
+    "physical_result_template.json",
+    "previews/coupon_A_section.svg",
+    "previews/coupon_B_section.svg",
+    "previews/coupon_C_section.svg",
+    "previews/coupon_comparison.svg",
+    "previews/p25_slide_block.svg",
+    "previews/p25_working_datum.svg",
+    "previews/slot_cross_section.svg",
+    "repository_audit.json",
+    "source_authority_audit.json",
+    "tests/test_p25_slide_in_positioning_v002.py",
+    "validation_report.json"
+  ],
+  "lane": "cad/common_rover/pto/pto_p25_slide_in_positioning_v002",
+  "logical_design_steps": [
+    "artifacts/2040_slide_fit_coupon_A.step",
+    "artifacts/2040_slide_fit_coupon_B.step",
+    "artifacts/2040_slide_fit_coupon_C.step",
+    "artifacts/p25_slide_in_positioning_block_B_provisional.step"
+  ],
+  "printable_stl": [
+    "artifacts/2040_slide_fit_coupon_A.stl",
+    "artifacts/2040_slide_fit_coupon_B.stl",
+    "artifacts/2040_slide_fit_coupon_C.stl",
+    "artifacts/p25_slide_in_positioning_block_B_provisional.stl"
+  ],
+  "reference_steps_not_printable": [
+    "artifacts/2040_physical_slot_reference.step",
+    "artifacts/p25_slide_reference_assembly.step"
+  ],
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/2040_SLIDE_FIT_COUPONS_PRINT_READY/P25_SLIDE_B_PROVISIONAL_PRINT_READY/PHYSICAL_FIT_SELECTION_PENDING/STRUCTURAL_LOAD_AUTHORITY_PENDING"
+}

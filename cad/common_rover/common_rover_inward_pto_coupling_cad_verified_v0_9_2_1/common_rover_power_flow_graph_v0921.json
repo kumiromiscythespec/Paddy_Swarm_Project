@@ -1,0 +1,38 @@
+{
+  "coupling_disengaged_unit_input_reachable": false,
+  "document_id": "PS-CR-INWARD-PTO-CAD-VERIFIED-V0921",
+  "left_path": [
+    "LEFT_MOTOR",
+    "LEFT_PTO_SHAFT",
+    "LEFT_PTO_STUB",
+    "LEFT_COUPLING",
+    "LEFT_WORK_UNIT_INPUT"
+  ],
+  "left_right_independent": true,
+  "neutral_unit_input_reachable": false,
+  "prohibited_edges": [
+    [
+      "LEFT_PTO_SHAFT",
+      "RIGHT_PTO_SHAFT"
+    ],
+    [
+      "LEFT_PTO_STUB",
+      "RIGHT_PTO_STUB"
+    ],
+    [
+      "LEFT_COUPLING",
+      "RIGHT_COUPLING"
+    ]
+  ],
+  "prohibited_nodes": [
+    "COMMON_PTO_SHAFT",
+    "COMMON_DUMMY_SHAFT"
+  ],
+  "right_path": [
+    "RIGHT_MOTOR",
+    "RIGHT_PTO_SHAFT",
+    "RIGHT_PTO_STUB",
+    "RIGHT_COUPLING",
+    "RIGHT_WORK_UNIT_INPUT"
+  ]
+}

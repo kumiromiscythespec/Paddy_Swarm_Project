@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<style>
+text{font-family:Arial,sans-serif;fill:#0b2545} .t{font-size:30px;font-weight:700} .h{font-size:23px;font-weight:700} .s{font-size:16px}
+.axis{stroke:#19376d;stroke-width:3} .part{stroke:#134b2c;stroke-width:2} .pulley{fill:#ffe6a7;stroke:#a65f00;stroke-width:3}
+.warn{fill:#b40000;font-size:17px;font-weight:700} .frame{fill:#f7f9fc;stroke:#ccd6e2;stroke-width:2}
+</style>
+<rect width="1400" height="900" fill="#f2f5f9"/>
+<text x="35" y="48" class="t">Common Rover v0.8.4 KP000 axial search</text>
+<text x="35" y="78" class="warn">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+<rect x="35" y="105" width="1330" height="235" class="frame"/>
+
+<text x="55" y="160" class="h">Recommended · Stage 2 minimum change</text>
+<line x1="163" y1="230" x2="1237" y2="230" class="axis"/>
+<rect x="613.5" y="192" width="62" height="76" fill="#70c173" class="part"/>
+<rect x="724.5" y="192" width="62" height="76" fill="#70c173" class="part"/>
+<circle cx="526.1" cy="230" r="42" class="pulley"/>
+<circle cx="873.9" cy="230" r="42" class="pulley"/>
+<rect x="345.25" y="192" width="62" height="76" fill="#70c173" class="part"/>
+<rect x="992.75" y="192" width="62" height="76" fill="#70c173" class="part"/>
+<text x="55" y="300" class="s">inner +/-15.0 | pulley +/-47.0 | outer +/-87.5 | center 1.0</text>
+<text x="700" y="300" class="s">belt N/R 13.0/8.0 | pulley N/R 13.5/11.0</text>
+
+<rect x="35" y="365" width="1330" height="205" class="frame"/>
+
+<text x="55" y="410" class="h">Alternative A · Stage 4 robust all 756</text>
+<line x1="163" y1="480" x2="1237" y2="480" class="axis"/>
+<rect x="613.5" y="442" width="62" height="76" fill="#69b7df" class="part"/>
+<rect x="724.5" y="442" width="62" height="76" fill="#69b7df" class="part"/>
+<circle cx="503.9" cy="480" r="42" class="pulley"/>
+<circle cx="896.1" cy="480" r="42" class="pulley"/>
+<rect x="332.3" y="442" width="62" height="76" fill="#69b7df" class="part"/>
+<rect x="1005.7" y="442" width="62" height="76" fill="#69b7df" class="part"/>
+<text x="55" y="550" class="s">inner +/-15.0 | pulley +/-53.0 | outer +/-91.0 | center 1.0</text>
+<text x="700" y="550" class="s">belt N/R 19.0/14.0 | pulley N/R 19.5/17.0</text>
+
+<rect x="35" y="595" width="1330" height="205" class="frame"/>
+
+<text x="55" y="640" class="h">Alternative B · Stage 3 robust through 3 mm</text>
+<line x1="163" y1="710" x2="1237" y2="710" class="axis"/>
+<rect x="613.5" y="672" width="62" height="76" fill="#c0a3e8" class="part"/>
+<rect x="724.5" y="672" width="62" height="76" fill="#c0a3e8" class="part"/>
+<circle cx="515.0" cy="710" r="42" class="pulley"/>
+<circle cx="885.0" cy="710" r="42" class="pulley"/>
+<rect x="345.25" y="672" width="62" height="76" fill="#c0a3e8" class="part"/>
+<rect x="992.75" y="672" width="62" height="76" fill="#c0a3e8" class="part"/>
+<text x="55" y="780" class="s">inner +/-15.0 | pulley +/-50.0 | outer +/-87.5 | center 1.0</text>
+<text x="700" y="780" class="s">belt N/R 16.0/11.0 | pulley N/R 16.5/14.0</text>
+
+<text x="35" y="850" class="s">C = collar toward center; O = collar toward outside. Pulley circle is OD120 safety authority.</text>
+</svg>

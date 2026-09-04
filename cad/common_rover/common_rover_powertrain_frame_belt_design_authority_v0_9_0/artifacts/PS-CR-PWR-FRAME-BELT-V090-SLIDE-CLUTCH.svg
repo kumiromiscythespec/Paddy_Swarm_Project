@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Mechanical slide clutch functional contract</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · DRIVE and PTO simultaneous engagement is mechanically prohibited</text>
+<rect x="45" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">DRIVE state</text>
+<line x1="145" y1="320" x2="675" y2="320" stroke="#333" stroke-width="12"/>
+<rect x="190" y="275" width="75" height="90" fill="#2676d2" opacity=".7"/>
+<rect x="555" y="275" width="75" height="90" fill="#f39c35" opacity=".7"/>
+<rect x="465" y="285" width="85" height="70" fill="#2676d2" stroke="#5b2c83" stroke-width="4"/>
+<text x="325" y="410" font-family="Arial" font-size="17">mandatory NEUTRAL gap · power-loss → NEUTRAL</text>
+<rect x="815" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">NEUTRAL state</text>
+<line x1="915" y1="320" x2="1445" y2="320" stroke="#333" stroke-width="12"/>
+<rect x="960" y="275" width="75" height="90" fill="#2676d2" opacity=".7"/>
+<rect x="1325" y="275" width="75" height="90" fill="#f39c35" opacity=".7"/>
+<rect x="1167" y="285" width="85" height="70" fill="#8e60bd" stroke="#5b2c83" stroke-width="4"/>
+<text x="1095" y="410" font-family="Arial" font-size="17">mandatory NEUTRAL gap · power-loss → NEUTRAL</text>
+<rect x="45" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">PTO state</text>
+<line x1="145" y1="710" x2="675" y2="710" stroke="#333" stroke-width="12"/>
+<rect x="190" y="665" width="75" height="90" fill="#2676d2" opacity=".7"/>
+<rect x="555" y="665" width="75" height="90" fill="#f39c35" opacity=".7"/>
+<rect x="325" y="675" width="85" height="70" fill="#f39c35" stroke="#5b2c83" stroke-width="4"/>
+<text x="325" y="800" font-family="Arial" font-size="17">mandatory NEUTRAL gap · power-loss → NEUTRAL</text>
+<rect x="815" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Full-stroke / stops / actuator</text>
+<line x1="915" y1="710" x2="1445" y2="710" stroke="#333" stroke-width="12"/>
+<rect x="960" y="665" width="75" height="90" fill="#2676d2" opacity=".7"/>
+<rect x="1325" y="665" width="75" height="90" fill="#f39c35" opacity=".7"/>
+<rect x="1167" y="675" width="85" height="70" fill="#8e60bd" stroke="#5b2c83" stroke-width="4"/>
+<text x="1095" y="800" font-family="Arial" font-size="17">mandatory NEUTRAL gap · power-loss → NEUTRAL</text>
+</svg>

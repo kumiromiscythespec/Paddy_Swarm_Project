@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Wiring: work-unit power, data and umbilical route</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · No connector in low PTO zone · no route through belts or tracks</text>
+<rect x="55" y="130" width="1490" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="73" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Work unit → protected riser</text>
+<rect x="125" y="250" width="170" height="70" fill="#9aa3ad"/>
+<rect x="1225" y="200" width="180" height="90" fill="#6aaed6"/>
+<path d="M 295 285 L 575 285 L 575 205 L 1225 245" fill="none" stroke="#64c7e8" stroke-width="12"/>
+<path d="M 575 205 Q 605 345 655 220" fill="none" stroke="#1b8eb3" stroke-width="5"/>
+<circle cx="775" cy="285" r="45" fill="none" stroke="#f39c35" stroke-width="12"/>
+<text x="825" y="310" font-family="Arial" font-size="17">rotation and belt keep-outs</text>
+<rect x="55" y="400" width="1490" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="73" y="432" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Upper interface → CBOX</text>
+<rect x="125" y="520" width="170" height="70" fill="#9aa3ad"/>
+<rect x="1225" y="470" width="180" height="90" fill="#6aaed6"/>
+<path d="M 295 555 L 575 555 L 575 475 L 1225 515" fill="none" stroke="#64c7e8" stroke-width="12"/>
+<path d="M 575 475 Q 605 615 655 490" fill="none" stroke="#1b8eb3" stroke-width="5"/>
+<circle cx="775" cy="555" r="45" fill="none" stroke="#f39c35" stroke-width="12"/>
+<text x="825" y="580" font-family="Arial" font-size="17">rotation and belt keep-outs</text>
+<rect x="55" y="670" width="1490" height="235" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="73" y="702" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Power / sensor separation and drip loops</text>
+<rect x="125" y="790" width="170" height="70" fill="#9aa3ad"/>
+<rect x="1225" y="740" width="180" height="90" fill="#6aaed6"/>
+<path d="M 295 825 L 575 825 L 575 745 L 1225 785" fill="none" stroke="#64c7e8" stroke-width="12"/>
+<path d="M 575 745 Q 605 885 655 760" fill="none" stroke="#1b8eb3" stroke-width="5"/>
+<circle cx="775" cy="825" r="45" fill="none" stroke="#f39c35" stroke-width="12"/>
+<text x="825" y="850" font-family="Arial" font-size="17">rotation and belt keep-outs</text>
+</svg>

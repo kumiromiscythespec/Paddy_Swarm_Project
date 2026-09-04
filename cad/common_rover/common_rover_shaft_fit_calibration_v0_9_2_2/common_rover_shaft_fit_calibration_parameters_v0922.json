@@ -1,0 +1,180 @@
+{
+  "D_REF_ACTUAL": 10.1,
+  "D_REF_CAD": 10.1,
+  "D_REF_CAD_STATUS": "RESOLVED_FROM_AUDITED_60T_SOURCE",
+  "GLOBAL_SCALE_CORRECTION": "PROHIBITED",
+  "identification": {
+    "count_mapping": "P0/S0=1 through P5=6 and S6=7",
+    "embossed_text": false,
+    "floating_text": false,
+    "method": "GEOMETRIC_HOLES"
+  },
+  "plates": {
+    "A": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "B": [
+      "S0",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "C": [
+      "P1",
+      "P2",
+      "P3",
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "build_volume_mm": [
+      256.0,
+      256.0,
+      256.0
+    ],
+    "first_print": "PLATE-C"
+  },
+  "positioning_candidates": [
+    {
+      "bore_mm": 9.9,
+      "id": "P0",
+      "offset_mm": -0.2
+    },
+    {
+      "bore_mm": 10.0,
+      "id": "P1",
+      "offset_mm": -0.1
+    },
+    {
+      "bore_mm": 10.1,
+      "id": "P2",
+      "offset_mm": 0.0
+    },
+    {
+      "bore_mm": 10.2,
+      "id": "P3",
+      "offset_mm": 0.1
+    },
+    {
+      "bore_mm": 10.3,
+      "id": "P4",
+      "offset_mm": 0.2
+    },
+    {
+      "bore_mm": 10.4,
+      "id": "P5",
+      "offset_mm": 0.3
+    }
+  ],
+  "reference_source_audit": {
+    "D_REF_ACTUAL_mm": 10.1,
+    "D_REF_CAD_mm": 10.1,
+    "bore_axis": "Z",
+    "bore_chamfer": "NONE_IN_SOURCE_CAD",
+    "component_id": "PS-HTD5M-PULLEY-60T-STD-DUMMY-V001",
+    "elephant_foot_relief": "NONE_IN_SOURCE_CAD",
+    "global_xy_scale": false,
+    "live_source_check": "NOT_AVAILABLE_STANDALONE_EMBEDDED_EVIDENCE_USED",
+    "mesh_angular_tolerance": 0.1,
+    "mesh_tolerance_mm": 0.01,
+    "pitch_scale": false,
+    "print_bed_face": "LOWER_FLANGE",
+    "scale_transform": "NONE",
+    "source_hashes": {
+      "artifacts/PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+      "artifacts/PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.stl": "2577b0cd8575a961e527c47e304036a4072245ef051f91c5eccf3e1adbac42f7",
+      "full_pulley_common.py": "cc4e894275c32d2e37c101367ec9bda7f124e9cf374ca53c011afda11f4a78de",
+      "htd5m_full_pulley_dummy_geometry_report.json": "80470c1b9d72d9d6ac35d2c8d15d15722b268d143004048915273de32f1d0a7c",
+      "pulley_60t_standard_dummy.py": "0a9d8e905df54b2594c420374eabc7678a6d95da231cb1f83bce15b64c864ec3"
+    },
+    "source_root": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1",
+    "status": "RESOLVED",
+    "support": "NOT_REQUIRED"
+  },
+  "schema": "PS-CR-SHAFT-FIT-CALIBRATION-V0922",
+  "sliding_candidates": [
+    {
+      "bore_mm": 10.1,
+      "id": "S0",
+      "offset_mm": 0.0
+    },
+    {
+      "bore_mm": 10.2,
+      "id": "S1",
+      "offset_mm": 0.1
+    },
+    {
+      "bore_mm": 10.3,
+      "id": "S2",
+      "offset_mm": 0.2
+    },
+    {
+      "bore_mm": 10.4,
+      "id": "S3",
+      "offset_mm": 0.3
+    },
+    {
+      "bore_mm": 10.5,
+      "id": "S4",
+      "offset_mm": 0.4
+    },
+    {
+      "bore_mm": 10.6,
+      "id": "S5",
+      "offset_mm": 0.5
+    },
+    {
+      "bore_mm": 10.7,
+      "id": "S6",
+      "offset_mm": 0.6
+    }
+  ],
+  "sliding_sleeve": {
+    "OD_mm": 20.0,
+    "bore_axis_print": "Z",
+    "entry_exit_chamfer_mm": 0.4,
+    "length_mm": 20.0,
+    "support": "NONE"
+  },
+  "split_clamp": {
+    "axial_length_mm": 20.0,
+    "fastener_clearance_mm": 3.4,
+    "fastener_count": 2,
+    "hard_stop": "PLANAR_LANDS_CONTACT",
+    "interface": "NO_LOAD_TEST_CANDIDATE",
+    "outer_xyz_mm": [
+      50.0,
+      20.0,
+      20.0
+    ],
+    "print_orientation": "SPLIT_FACE_ON_BED",
+    "split_plane": "THROUGH_SHAFT_AXIS",
+    "support": "NONE"
+  },
+  "statuses": {
+    "AUTHORITY_POINTER": "UNCHANGED_V0_9_2_1",
+    "FIELD_DEPLOYMENT": "NOT_APPROVED",
+    "FIT_CALIBRATION_COUPONS": "READY_FOR_PRINT",
+    "LOAD_CAPACITY": "HOLD",
+    "MACHINING": "HOLD",
+    "MANUFACTURING": "HOLD",
+    "PHYSICAL_FIT": "HOLD",
+    "POSITIONING_FIT_SELECTION": "PHYSICAL_TEST_REQUIRED",
+    "POWERED_TEST": "NOT_APPROVED",
+    "SLIDING_FIT_SELECTION": "PHYSICAL_TEST_REQUIRED"
+  },
+  "stl_export": {
+    "angular_tolerance": 0.1,
+    "tolerance_mm": 0.02
+  },
+  "units": "mm"
+}

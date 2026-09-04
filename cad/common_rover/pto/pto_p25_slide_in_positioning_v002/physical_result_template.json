@@ -1,0 +1,52 @@
+{
+  "coupons": {
+    "A": {
+      "aluminum_damage": "NONE/MARK/GOUGE",
+      "hand_force": "LIGHT/MODERATE/TOO_TIGHT",
+      "petg_damage": "NONE/WHITENING/SHAVING/CRACK",
+      "result": "PASS/FAIL/PENDING",
+      "side_play": "NONE/SMALL/LARGE",
+      "slides_100_mm_if_available": "PASS/FAIL/NOT_AVAILABLE",
+      "slides_in_from_extrusion_end": null,
+      "vertical_pull_out": "NONE/YES"
+    },
+    "B": {
+      "aluminum_damage": "NONE/MARK/GOUGE",
+      "hand_force": "LIGHT/MODERATE/TOO_TIGHT",
+      "petg_damage": "NONE/WHITENING/SHAVING/CRACK",
+      "result": "PASS/FAIL/PENDING",
+      "side_play": "NONE/SMALL/LARGE",
+      "slides_100_mm_if_available": "PASS/FAIL/NOT_AVAILABLE",
+      "slides_in_from_extrusion_end": null,
+      "vertical_pull_out": "NONE/YES"
+    },
+    "C": {
+      "aluminum_damage": "NONE/MARK/GOUGE",
+      "hand_force": "LIGHT/MODERATE/TOO_TIGHT",
+      "petg_damage": "NONE/WHITENING/SHAVING/CRACK",
+      "result": "PASS/FAIL/PENDING",
+      "side_play": "NONE/SMALL/LARGE",
+      "slides_100_mm_if_available": "PASS/FAIL/NOT_AVAILABLE",
+      "slides_in_from_extrusion_end": null,
+      "vertical_pull_out": "NONE/YES"
+    }
+  },
+  "p25_after_selection": {
+    "20t_to_60t_mm": null,
+    "actual_working_length_mm": null,
+    "can_reach_kp000_position": "PENDING",
+    "datum_repeatability_mm": null,
+    "kp000_to_60t_mm": null,
+    "removal": "PENDING",
+    "slides_into_2040": "PENDING",
+    "structural_load": "NOT_TESTED",
+    "tool_access": "PENDING"
+  },
+  "physical_slot_mm": {
+    "depth": 6.4,
+    "entrance": 6.4,
+    "internal": 10.8
+  },
+  "selected": "A/B/C/NONE/PENDING",
+  "selection_rule": "TIGHTEST_THAT_HAND_SLIDES_WITHOUT_BINDING_OR_DAMAGE_AND_WITH_ACCEPTABLE_PLAY"
+}

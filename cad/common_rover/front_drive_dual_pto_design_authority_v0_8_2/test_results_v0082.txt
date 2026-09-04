@@ -1,0 +1,40 @@
+DOCUMENT_ID=PS-CR-KP000-SUPPORT-PLATE-V0082
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cad\python.exe -B tests/test_common_rover_kp000_support_plate_v0082_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_package_paths (__main__.CommonRoverV0082Contract.test_001_exact_package_paths) ... ok
+test_002_v008_and_v0081_protected_hashes (__main__.CommonRoverV0082Contract.test_002_v008_and_v0081_protected_hashes) ... ok
+test_003_parent_candidate_and_fixed_coordinates (__main__.CommonRoverV0082Contract.test_003_parent_candidate_and_fixed_coordinates) ... ok
+test_004_fixed_architecture (__main__.CommonRoverV0082Contract.test_004_fixed_architecture) ... ok
+test_005_independent_metal_plates_and_thickness (__main__.CommonRoverV0082Contract.test_005_independent_metal_plates_and_thickness) ... ok
+test_006_measurement_sheet_contract (__main__.CommonRoverV0082Contract.test_006_measurement_sheet_contract) ... ok
+test_007_existing_values_not_promoted_to_measurements (__main__.CommonRoverV0082Contract.test_007_existing_values_not_promoted_to_measurements) ... ok
+test_008_four_outlines_and_four_materials (__main__.CommonRoverV0082Contract.test_008_four_outlines_and_four_materials) ... ok
+test_009_recommended_and_alternatives (__main__.CommonRoverV0082Contract.test_009_recommended_and_alternatives) ... ok
+test_010_hole_patterns_not_for_manufacturing (__main__.CommonRoverV0082Contract.test_010_hole_patterns_not_for_manufacturing) ... ok
+test_011_v0081_clearance_non_regression (__main__.CommonRoverV0082Contract.test_011_v0081_clearance_non_regression) ... ok
+test_012_intersections_zero (__main__.CommonRoverV0082Contract.test_012_intersections_zero) ... ok
+test_013_width_and_pto_ends (__main__.CommonRoverV0082Contract.test_013_width_and_pto_ends) ... ok
+test_014_tool_access_candidate_and_hold (__main__.CommonRoverV0082Contract.test_014_tool_access_candidate_and_hold) ... ok
+test_015_fastener_comparison_and_hybrid (__main__.CommonRoverV0082Contract.test_015_fastener_comparison_and_hybrid) ... ok
+test_016_alignment_and_assembly (__main__.CommonRoverV0082Contract.test_016_alignment_and_assembly) ... ok
+test_017_load_cases_and_required_parameters (__main__.CommonRoverV0082Contract.test_017_load_cases_and_required_parameters) ... ok
+test_018_strength_is_analytical_only (__main__.CommonRoverV0082Contract.test_018_strength_is_analytical_only) ... ok
+test_019_deflection_clearance_coupling (__main__.CommonRoverV0082Contract.test_019_deflection_clearance_coupling) ... ok
+test_020_dxf_and_svg_warnings (__main__.CommonRoverV0082Contract.test_020_dxf_and_svg_warnings) ... ok
+test_021_step_semantic_geometry (__main__.CommonRoverV0082Contract.test_021_step_semantic_geometry) ... ok
+test_022_manifest_and_sha256s (__main__.CommonRoverV0082Contract.test_022_manifest_and_sha256s) ... ok
+test_023_no_cache_or_forbidden_large_file (__main__.CommonRoverV0082Contract.test_023_no_cache_or_forbidden_large_file) ... ok
+test_024_builder_verify_is_read_only (__main__.CommonRoverV0082Contract.test_024_builder_verify_is_read_only) ... ok
+test_025_environment_and_release_holds (__main__.CommonRoverV0082Contract.test_025_environment_and_release_holds) ... ok
+test_026_validation_contract (__main__.CommonRoverV0082Contract.test_026_validation_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 2.450s
+
+OK

@@ -1,0 +1,24 @@
+DOCUMENT_ID=PS-CR-MEASUREMENT-INTEGRATION-V0083
+EXPECTED_FILE_COUNT=20
+STATUS=NOT_FOR_MANUFACTURING
+ROOT=ZIP_ROOT
+common_rover_measurement_integration_design_authority_v0083.md	FILE
+common_rover_measurement_integration_v0083.json	FILE
+common_rover_measurement_discrepancy_report_v0083.json	FILE
+common_rover_measurement_recheck_sheet_v0083.md	FILE
+common_rover_measurement_recheck_sheet_v0083.csv	FILE
+common_rover_shaft_bore_fit_audit_v0083.csv	FILE
+common_rover_pto_axial_stack_v0083.csv	FILE
+common_rover_pulley_fixation_comparison_v0083.csv	FILE
+common_rover_measurement_interference_report_v0083.json	FILE
+common_rover_measurement_validation_v0083.json	FILE
+build_common_rover_measurement_integration_v0083.py	FILE
+artifacts/PS-CR-MEASUREMENT-V0083-KP000-SIMPLIFIED.step	FILE
+artifacts/PS-CR-MEASUREMENT-V0083-ASSEMBLY.step	FILE
+artifacts/PS-CR-MEASUREMENT-V0083-OVERVIEW.svg	FILE
+artifacts/PS-CR-MEASUREMENT-V0083-CRITICAL-DIMENSIONS.svg	FILE
+tests/test_common_rover_measurement_integration_v0083_contract.py	FILE
+README_HANDOFF.md	FILE
+MANIFEST.txt	FILE
+SHA256SUMS.txt	FILE
+test_results_v0083.txt	FILE

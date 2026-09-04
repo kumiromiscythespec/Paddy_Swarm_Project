@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<style>text{font-family:Arial,sans-serif;fill:#0b2545}.t{font-size:30px;font-weight:700}.h{font-size:24px;font-weight:700}.s{font-size:18px}.bad{fill:#ffd1d1;stroke:#b40000;stroke-width:3}.good{fill:#d7f4da;stroke:#197333;stroke-width:3}.warn{fill:#b40000;font-size:17px;font-weight:700}</style>
+<rect width="1400" height="900" fill="#f5f7fb"/>
+<text x="35" y="48" class="t">v0.8.5 bilateral center-clearance correction</text>
+<text x="35" y="78" class="warn">NOT_FOR_MANUFACTURING · zero residual is FAIL</text>
+<rect x="55" y="125" width="620" height="620" class="bad"/>
+<text x="85" y="175" class="h">v0.8.4 recommendation · FAIL under new model</text>
+<text x="85" y="280" class="s">Nominal center clearance = 1.0 mm</text>
+<text x="85" y="340" class="s">Independent centerward errors = 1 + 1 mm</text>
+<text x="85" y="410" class="h">Residual = −1.0 mm</text>
+<text x="85" y="480" class="s">Old shared-error result cannot be reused.</text>
+<rect x="725" y="125" width="620" height="620" class="good"/>
+<text x="755" y="175" class="h">v0.8.5 recommendation · CONDITIONAL</text>
+<text x="755" y="280" class="s">Nominal center clearance = 9.0 mm</text>
+<text x="755" y="340" class="s">Independent centerward errors = 1 + 1 mm</text>
+<text x="755" y="410" class="h">Residual = 7.0 mm</text>
+<text x="755" y="480" class="s">Nominal target ≥5 and residual target ≥3 are met.</text>
+<text x="755" y="550" class="s">Physical dry fit remains HOLD.</text>
+</svg>

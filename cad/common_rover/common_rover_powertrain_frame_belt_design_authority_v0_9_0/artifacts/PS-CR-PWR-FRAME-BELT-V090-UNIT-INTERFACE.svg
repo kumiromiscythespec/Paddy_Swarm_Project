@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">High work-unit electrical interface</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · Sensor and connector stay above BBOX and outside low PTO</text>
+<rect x="45" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">E1 CBOX front upper</text>
+<rect x="145" y="330" width="250" height="100" fill="#6aaed6" opacity=".7"/>
+<rect x="455" y="205" width="150" height="70" fill="#65c18c" stroke="#267a46" stroke-width="3"/>
+<circle cx="635" cy="380" r="55" fill="#f39c35" opacity=".75"/>
+<path d="M 530 275 L 625 340" stroke="#64c7e8" stroke-width="10"/>
+<text x="150" y="460" font-family="Arial" font-size="16">UNIT_PRESENT ≠ UNIT_ID · no present → PTO disabled</text>
+<rect x="815" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">E2 upper bridge · recommended</text>
+<rect x="915" y="330" width="250" height="100" fill="#6aaed6" opacity=".7"/>
+<rect x="1225" y="205" width="150" height="70" fill="#65c18c" stroke="#267a46" stroke-width="3"/>
+<circle cx="1405" cy="380" r="55" fill="#f39c35" opacity=".75"/>
+<path d="M 1300 275 L 1395 340" stroke="#64c7e8" stroke-width="10"/>
+<text x="920" y="460" font-family="Arial" font-size="16">UNIT_PRESENT ≠ UNIT_ID · no present → PTO disabled</text>
+<rect x="45" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">E3 independent pod</text>
+<rect x="145" y="720" width="250" height="100" fill="#6aaed6" opacity=".7"/>
+<rect x="455" y="595" width="150" height="70" fill="#65c18c" stroke="#267a46" stroke-width="3"/>
+<circle cx="635" cy="770" r="55" fill="#f39c35" opacity=".75"/>
+<path d="M 530 665 L 625 730" stroke="#64c7e8" stroke-width="10"/>
+<text x="150" y="850" font-family="Arial" font-size="16">UNIT_PRESENT ≠ UNIT_ID · no present → PTO disabled</text>
+<rect x="815" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">UNIT_PRESENT sensor + separate UNIT_ID</text>
+<rect x="915" y="720" width="250" height="100" fill="#6aaed6" opacity=".7"/>
+<rect x="1225" y="595" width="150" height="70" fill="#65c18c" stroke="#267a46" stroke-width="3"/>
+<circle cx="1405" cy="770" r="55" fill="#f39c35" opacity=".75"/>
+<path d="M 1300 665 L 1395 730" stroke="#64c7e8" stroke-width="10"/>
+<text x="920" y="850" font-family="Arial" font-size="16">UNIT_PRESENT ≠ UNIT_ID · no present → PTO disabled</text>
+</svg>

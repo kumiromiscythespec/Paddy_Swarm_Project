@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "KP000_ALL_TO_CRAWLER": {
+      "bbox_clearance_mm": 6.5,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 11.510864
+    },
+    "PTO_BEAM_TO_CRAWLER": {
+      "bbox_clearance_mm": 20.0,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 20.0
+    },
+    "PTO_PULLEY_ALL_TO_CRAWLER": {
+      "bbox_clearance_mm": 22.5,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 22.5
+    },
+    "UNIT_MOUNT_TO_BELT_KEEPOUT_ALL": {
+      "bbox_clearance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 7.5
+    },
+    "UNIT_MOUNT_TO_CRAWLER": {
+      "bbox_clearance_mm": 30.0,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 31.048349
+    },
+    "UNIT_MOUNT_TO_PULLEY_KEEPOUT_ALL": {
+      "bbox_clearance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_clearance_mm": 7.071068
+    }
+  },
+  "method": "conservative_axis_aligned_crawler_and_service_envelopes"
+}

@@ -1,0 +1,11 @@
+priority,item_id,component,dimension,current_value,instrument,resolution,method,gate
+CRITICAL,C01,KP000,opposite-side protrusion each unit,UNKNOWN; 0..6 interval,CALIPER,0.1 mm,Measure both axial faces and mark collar direction.,ROBUSTNESS_RELEASE
+CRITICAL,C02,KP000,mounting-hole center distance,HOLD,CALIPER,0.1 mm,Outer-edge span minus diameter or inner-edge span plus diameter.,PLATE_HOLE_PATTERN
+CRITICAL,C03,KP000,total axial envelope,HOLD,CALIPER,0.1 mm,Measure each of four units.,PHYSICAL_STACK
+CRITICAL,C04,60T,bore and shaft fit,reported 11; FAIL_PROVISIONAL,BORE_GAUGE,0.01 mm,Measure clock positions and 10 mm shaft fit.,PULLEY_FIT
+CRITICAL,C05,60T,radial runout,0..1.5 interval,DIAL_INDICATOR,0.05 mm,Measure on centered representative hub.,PULLEY_RESIDUAL
+CRITICAL,C06,ASSEMBLY,six independent Y placement errors,+/-1 interval each,HEIGHT/DEPTH_GAUGE,0.1 mm,"Measure left/right inner, pulley and outer faces independently.",BOUNDARY_MODEL
+HIGH,H01,FRAME,deflection toward belt,0..2 interval,DIAL_GAUGE,0.1 mm,Approved static fixture only.,BELT_RESIDUAL
+HIGH,H02,BELT,lateral wander,0..2 interval,VIDEO/GAUGE,0.1 mm,No powered test without approval.,BELT_RESIDUAL
+HIGH,H03,TOOL,working envelope,HOLD,CALIPER,0.1 mm,"Short arm, bend, socket OD and ratchet head.",SERVICE_ACCESS
+HIGH,H04,OUTPUT,collar/coupling/retaining/cap stack,HOLD,CALIPER,0.1 mm,Measure selected parts face-to-face.,SHAFT_CUT

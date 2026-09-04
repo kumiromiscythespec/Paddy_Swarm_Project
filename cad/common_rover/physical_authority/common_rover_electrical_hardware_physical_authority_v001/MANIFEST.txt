@@ -1,0 +1,12 @@
+COMMIT_PATHS.txt
+ELECTRICAL_HARDWARE_PHYSICAL_AUTHORITY.md
+MANIFEST.txt
+MEASUREMENT_GAPS.md
+README.md
+SHA256SUMS.txt
+SOURCE_TRACEABILITY.md
+electrical_hardware_authority.json
+electronics_inventory.csv
+tests/test_electrical_hardware_physical_authority_v001.py
+validation_report.json
+

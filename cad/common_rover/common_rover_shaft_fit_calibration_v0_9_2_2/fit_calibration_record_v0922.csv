@@ -1,0 +1,14 @@
+test_date,operator,printer,material,nozzle,layer_height,slicer_profile,sample_id,sample_type,nominal_bore_cad_mm,offset_from_reference_mm,print_orientation,shaft_location,shaft_diameter_0deg_mm,shaft_diameter_90deg_mm,entry_fit,full_depth_fit,twist_required,straight_slide_possible,slide_force_subjective,radial_play_visible,radial_play_sound,self_drop,cap_stop_reached,shaft_surface_damage,disassembly_possible,burr_present,burr_removed_after_initial_test,selected,rejection_reason,photo_ids,notes,physical_status
+,,,,,,,P0,POSITIONING_SPLIT_CLAMP,9.90,-0.20,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,P1,POSITIONING_SPLIT_CLAMP,10.00,-0.10,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,P2,POSITIONING_SPLIT_CLAMP,10.10,+0.00,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,P3,POSITIONING_SPLIT_CLAMP,10.20,+0.10,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,P4,POSITIONING_SPLIT_CLAMP,10.30,+0.20,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,P5,POSITIONING_SPLIT_CLAMP,10.40,+0.30,SPLIT_FACE_ON_BED,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S0,SLIDING_SLEEVE,10.10,+0.00,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S1,SLIDING_SLEEVE,10.20,+0.10,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S2,SLIDING_SLEEVE,10.30,+0.20,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S3,SLIDING_SLEEVE,10.40,+0.30,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S4,SLIDING_SLEEVE,10.50,+0.40,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S5,SLIDING_SLEEVE,10.60,+0.50,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED
+,,,,,,,S6,SLIDING_SLEEVE,10.70,+0.60,BORE_AXIS_Z,,,,,,,,,,,,,,,,,HOLD,,,,PHYSICAL_TEST_NOT_PERFORMED

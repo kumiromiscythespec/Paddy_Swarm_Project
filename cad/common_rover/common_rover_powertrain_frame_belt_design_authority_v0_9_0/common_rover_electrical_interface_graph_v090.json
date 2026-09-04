@@ -1,0 +1,83 @@
+{
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090",
+  "edges": [
+    [
+      "CBOX",
+      "FRONT_UNIT_ELECTRICAL_INTERFACE"
+    ],
+    [
+      "FRONT_UNIT_ELECTRICAL_INTERFACE",
+      "UNIT_PRESENT_SENSOR"
+    ],
+    [
+      "FRONT_UNIT_ELECTRICAL_INTERFACE",
+      "UNIT_ID_INTERFACE"
+    ],
+    [
+      "FRONT_UNIT_ELECTRICAL_INTERFACE",
+      "UNIT_POWER_INTERFACE"
+    ],
+    [
+      "FRONT_UNIT_ELECTRICAL_INTERFACE",
+      "UNIT_DATA_INTERFACE"
+    ],
+    [
+      "UNIT_PRESENT_SENSOR",
+      "WORK_UNIT"
+    ],
+    [
+      "UNIT_ID_INTERFACE",
+      "WORK_UNIT"
+    ],
+    [
+      "UNIT_POWER_INTERFACE",
+      "WORK_UNIT"
+    ],
+    [
+      "UNIT_DATA_INTERFACE",
+      "WORK_UNIT"
+    ]
+  ],
+  "fail_safe_on_unit_present_loss": [
+    "MOTOR_COMMAND_ZERO",
+    "PTO_TORQUE_DISABLED",
+    "FAULT_LOG",
+    "HUMAN_INTERVENTION_REQUIRED"
+  ],
+  "forbidden_edges": [
+    "CBOX_DIRECTLY_THROUGH_BELT_CORRIDOR",
+    "SENSOR_ATTACHED_TO_ROTATING_PTO_SHAFT",
+    "UNIT_CONNECTOR_BELOW_SAFE_WATER_ZONE",
+    "POWER_CONNECTOR_CARRYING_MECHANICAL_LOAD"
+  ],
+  "nodes": [
+    "CBOX",
+    "FRONT_UNIT_ELECTRICAL_INTERFACE",
+    "UNIT_PRESENT_SENSOR",
+    "UNIT_ID_INTERFACE",
+    "UNIT_POWER_INTERFACE",
+    "UNIT_DATA_INTERFACE",
+    "WORK_UNIT"
+  ],
+  "pto_enable_interlock": [
+    "UNIT_PRESENT_TRUE",
+    "UNIT_ID_VALID_TRUE",
+    "CONNECTOR_LOCKED_TRUE_CANDIDATE",
+    "CLUTCH_POSITION_PTO",
+    "LEFT_DRIVE_DISENGAGED",
+    "RIGHT_DRIVE_DISENGAGED",
+    "VEHICLE_SPEED_ZERO",
+    "MOTOR_COMMAND_ZERO_BEFORE_ENGAGEMENT",
+    "UNIT_FAULT_FALSE"
+  ],
+  "signals": [
+    "UNIT_POWER_POSITIVE",
+    "UNIT_POWER_RETURN",
+    "UNIT_PRESENT",
+    "UNIT_ID",
+    "UNIT_DATA_HIGH",
+    "UNIT_DATA_LOW",
+    "UNIT_FAULT",
+    "SHIELD_FRAME_REFERENCE_CANDIDATE"
+  ]
+}

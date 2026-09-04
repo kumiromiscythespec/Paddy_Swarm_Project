@@ -1,0 +1,84 @@
+{
+  "baseline": {
+    "drive_belt_to_frame_mm": 15.5,
+    "pto_belt_to_frame_mm": 15.0,
+    "pto_belt_to_full_kp000_worst_residual_mm": 3.0,
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "pulley_to_full_kp000_worst_mm": 8.5,
+    "pulley_to_housing_mm": 14.5,
+    "source": "PROTECTED_V0083_BASELINE_AUTHORITY",
+    "status": "PASS",
+    "total_width_mm": 290.0
+  },
+  "candidates": [
+    {
+      "belt_nominal_min_mm": 13.0,
+      "belt_residual_min_mm": 8.0,
+      "candidate_id": "S2-INCC-OUTOO-SHIFT01.00",
+      "center_clearance_mm": 1.0,
+      "intersection_count": 0,
+      "matrix_check_count": 19,
+      "pto_ends_y_mm": [
+        -145.0,
+        145.0
+      ],
+      "pulley_clearance_min_mm": 13.5,
+      "pulley_residual_min_mm": 11.0,
+      "total_width_mm": 290.0
+    },
+    {
+      "belt_nominal_min_mm": 19.0,
+      "belt_residual_min_mm": 14.0,
+      "candidate_id": "S4-IN01.00-P06.00-OUT+03.5",
+      "center_clearance_mm": 1.0,
+      "intersection_count": 0,
+      "matrix_check_count": 19,
+      "pto_ends_y_mm": [
+        -145.0,
+        145.0
+      ],
+      "pulley_clearance_min_mm": 19.5,
+      "pulley_residual_min_mm": 17.0,
+      "total_width_mm": 290.0
+    },
+    {
+      "belt_nominal_min_mm": 16.0,
+      "belt_residual_min_mm": 11.0,
+      "candidate_id": "S3-IN01-P+03",
+      "center_clearance_mm": 1.0,
+      "intersection_count": 0,
+      "matrix_check_count": 19,
+      "pto_ends_y_mm": [
+        -145.0,
+        145.0
+      ],
+      "pulley_clearance_min_mm": 16.5,
+      "pulley_residual_min_mm": 14.0,
+      "total_width_mm": 290.0
+    }
+  ],
+  "document_id": "PS-CR-KP000-AXIAL-STACK-V0084",
+  "holds": [
+    "ACTUAL_TOOL_ENVELOPE_REQUIRED",
+    "KP000_OPPOSITE_PROTRUSION_REQUIRED",
+    "PULLEY_RUNOUT_REQUIRED",
+    "PULLEY_BORE_REQUIRED",
+    "PHYSICAL_DRY_FIT_REQUIRED"
+  ],
+  "non_regression": {
+    "aluminum_inventory_constraint": "NO_SINGLE_MEMBER_OVER_400_MM",
+    "box_and_battery_removal": "PRESERVED",
+    "box_bottom_min_z_mm": 200.0,
+    "drive_belt_frame_mm": 15.5,
+    "inverse_trapezoid_crawler": true,
+    "pto_belt_frame_mm": 15.0,
+    "slide_clutch_full_stroke": "PRESERVED_ABSTRACT_ENVELOPE",
+    "total_width_mm": 290.0,
+    "track_dynamic_upper_mm": 10.0
+  },
+  "safety_authority": "PULLEY_ROTATION_SAFETY_OD_120_MM",
+  "status": "NOT_FOR_MANUFACTURING"
+}

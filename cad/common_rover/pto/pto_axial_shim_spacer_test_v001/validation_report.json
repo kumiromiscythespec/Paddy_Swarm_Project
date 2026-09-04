@@ -1,0 +1,98 @@
+{
+  "checks": {
+    "T0p5_inner_face_contact": true,
+    "T0p5_pulley_face_contact": true,
+    "T0p5_shaft_clear": true,
+    "T0p5_stationary_zero": true,
+    "T1p0_inner_face_contact": true,
+    "T1p0_pulley_face_contact": true,
+    "T1p0_shaft_clear": true,
+    "T1p0_stationary_zero": true,
+    "authority_id": true,
+    "authority_od": true,
+    "authority_reference_t8": true,
+    "features_absent": true,
+    "front_v002_unchanged": true,
+    "no_conflicting_current_dimensions": true,
+    "only_thickness_differs": true,
+    "pto_authority_unchanged": true,
+    "radial_margin_positive": true,
+    "single_solid_t0p5": true,
+    "single_solid_t1p0": true,
+    "spacer_source_unchanged": true,
+    "t0p5_bbox": true,
+    "t0p5_exact": true,
+    "t1p0_bbox": true,
+    "t1p0_exact": true,
+    "test_plate_six_solids": true,
+    "valid_t0p5": true,
+    "valid_t1p0": true,
+    "volume_t0p5": true,
+    "volume_t1p0": true
+  },
+  "contract_check_count": 29,
+  "contract_fail_count": 0,
+  "contract_pass_count": 29,
+  "holds": [
+    "ACTUAL_PRINTED_THICKNESS_PENDING",
+    "PHYSICAL_CONTACT_FACE_PENDING",
+    "OPERATING_AXIAL_CLEARANCE_PENDING",
+    "PTO_SPACER_PHYSICAL_AUTHORITY_PENDING",
+    "POWERED_TEST_PENDING"
+  ],
+  "quality": {
+    "steps": [
+      {
+        "file": "pto_axial_shim_ID10p2_OD13p8_T0p5.step",
+        "solid_count": 1,
+        "valid": true
+      },
+      {
+        "file": "pto_axial_shim_ID10p2_OD13p8_T1p0.step",
+        "solid_count": 1,
+        "valid": true
+      },
+      {
+        "file": "pto_axial_shim_stack_reference.step",
+        "solid_count": 14,
+        "valid": true
+      }
+    ],
+    "stls": [
+      {
+        "bad_edges": 0,
+        "degenerate_triangles": 0,
+        "faces": 2016,
+        "file": "pto_axial_shim_ID10p2_OD13p8_T0p5.stl",
+        "inconsistent_edges": 0,
+        "manifold": true,
+        "vertices": 1008,
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "bad_edges": 0,
+        "degenerate_triangles": 0,
+        "faces": 2016,
+        "file": "pto_axial_shim_ID10p2_OD13p8_T1p0.stl",
+        "inconsistent_edges": 0,
+        "manifold": true,
+        "vertices": 1008,
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "bad_edges": 0,
+        "degenerate_triangles": 0,
+        "faces": 12096,
+        "file": "pto_axial_shim_test_plate_3x_each.stl",
+        "inconsistent_edges": 0,
+        "manifold": true,
+        "vertices": 6048,
+        "watertight": true,
+        "winding_consistent": true
+      }
+    ]
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/PTO_AXIAL_SHIM_TEST_SET_PRINT_READY/PTO_SPACER_PHYSICAL_AUTHORITY_PENDING"
+}

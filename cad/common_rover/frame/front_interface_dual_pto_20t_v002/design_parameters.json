@@ -1,0 +1,127 @@
+{
+  "future_failover_options_not_implemented": [
+    "D_FLAT_SHAFT",
+    "KEYED_PULLEY",
+    "CLAMP_HUB",
+    "SPLIT_CLAMP_ADAPTER"
+  ],
+  "holds": [
+    "SETSCREW_THREAD_STANDARD_PHYSICAL_PENDING",
+    "OPERATING_AXIAL_CLEARANCE_PHYSICAL_PENDING",
+    "PTO_SPACER_PHYSICAL_SELECTION_PENDING",
+    "PTO_TORQUE_TRANSFER_PHYSICAL_PENDING",
+    "SHAFT_PROTRUSION_PHYSICAL_PENDING",
+    "UNIT_LOAD_PHYSICAL_PENDING"
+  ],
+  "keepouts": {
+    "belt_corridor_delta_mm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "belt_corridor_v001": [
+      22.5,
+      102.5,
+      25.0,
+      45.0
+    ],
+    "belt_corridor_v002": [
+      22.5,
+      102.5,
+      25.0,
+      45.0
+    ],
+    "local_adjustment_mm": [
+      10.0,
+      20.0
+    ],
+    "pulley_axial_width_mm": 33.0,
+    "pulley_radius_mm": 22.4,
+    "unit_input_center_x_mm": 120.0,
+    "unit_input_envelope": [
+      60.0,
+      30.0
+    ]
+  },
+  "protected_v001": {
+    "beam_length_mm": 400.0,
+    "diagonal_brace_count": 0,
+    "drive_axis_z_mm": 122.5,
+    "frame_500_status": "REFERENCE_FRAME_ENVELOPE_DESIGN_CANDIDATE_NOT_PHYSICAL_AUTHORITY",
+    "kp000_pair_spacing_mm": 50.0,
+    "kp000_total": 4,
+    "pto_axis_z_mm": 122.5,
+    "shaft_center_gap_mm": 60.0,
+    "tree_sha256": "06e80eaeea3a56724625d51f6e351b4c9dcc13db80536d530c73015c2b6306ce",
+    "unit_mount_y_mm": [
+      -75.0,
+      75.0
+    ],
+    "unit_mount_z_mm": [
+      55.0,
+      185.0
+    ]
+  },
+  "pulley": {
+    "authority_lane": "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001",
+    "center_plane_abs_y_mm": 130.0,
+    "current_pto_pulley_source": "PHYSICAL_ENVELOPE_2026_08_30",
+    "derived_overall_axial_width_mm": 23.0,
+    "far_face_abs_y_mm": 141.5,
+    "flange_od_mm": 34.8,
+    "flange_thickness_each_mm": 1.6,
+    "housing_to_near_face_mm": 10.0,
+    "individual_tooth_width_mm": 1.5,
+    "installed_shaft_protrusion": "PHYSICAL_PENDING",
+    "keyway": "ABSENT",
+    "left_center_y_mm": 130.0,
+    "near_face_abs_y_mm": 118.5,
+    "old_pto_bore_6p1_interface": "ABSENT",
+    "operating_axial_clearance": "PHYSICAL_VALIDATION_PENDING",
+    "outer_kp000_reference_plane_abs_y_mm": 100.0,
+    "overhang_from_outer_kp000_plane_mm": 30.0,
+    "pitch_mm": 5.0,
+    "pto_setscrew_torque_capacity": "PHYSICAL_VALIDATION_PENDING",
+    "right_center_y_mm": -130.0,
+    "setscrew_360_sweep_radius_mm": 21.4,
+    "setscrew_angular_spacing_deg": 90.0,
+    "setscrew_center_from_selected_end_face_mm": 15.1,
+    "setscrew_count": 2,
+    "setscrew_hole_measured_approx_mm": 4.4,
+    "setscrew_installed_length": "PHYSICAL_PENDING",
+    "setscrew_radial_protrusion_candidate_mm": 4.0,
+    "setscrew_thread_standard": "PHYSICAL_PENDING",
+    "shaft_bore_measured_mm": 9.8,
+    "shaft_nominal_mm": 10.0,
+    "shaft_protrusion": "PHYSICAL_PENDING",
+    "source": "USER_PHYSICAL_MEASUREMENTS_2026_08_30",
+    "spacer_candidate_mm": 0.5,
+    "static_geometric_min_spacer_from_kp000_mm": 0.0,
+    "tooth_count": 20,
+    "tooth_geometry_class": "PHYSICAL_CLEARANCE_ENVELOPE_NOT_EXACT_TOOTH_PROFILE",
+    "tooth_region_max_od_mm": 30.5,
+    "toothed_body_axial_width_mm": 19.8,
+    "torque_path": "SHAFT_TO_DUAL_SETSCREWS_TO_PTO_20T_PULLEY",
+    "type": "HTD5M_20T_PHYSICAL_CLEARANCE_ENVELOPE",
+    "units": "mm",
+    "version": "PTO_20T_OD10_PHYSICAL_ENVELOPE_V001"
+  },
+  "setscrew": {
+    "count": 2,
+    "plane_abs_y_mm": 133.6,
+    "service_order": [
+      "REMOVE_WORK_UNIT",
+      "REMOVE_BELT",
+      "INDEX_SETSCREW_UP",
+      "LOOSEN_DUAL_SETSCREWS",
+      "SLIDE_PULLEY",
+      "SERVICE_SHAFT_KP000"
+    ],
+    "spacing_deg": 90.0,
+    "thread_standard": "PHYSICAL_PENDING",
+    "torque_transfer": "PHYSICAL_PENDING"
+  },
+  "status": "PTO_20T_PHYSICAL_ENVELOPE_CAPTURED/CAD_PASS/CONTRACT_TEST_PASS/FRONT_INTERFACE_V002_READY/PHYSICAL_VALIDATION_PENDING",
+  "version": "FRONT_INTERFACE_DUAL_PTO_20T_V002"
+}

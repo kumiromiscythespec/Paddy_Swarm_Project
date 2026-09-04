@@ -1,0 +1,206 @@
+{
+  "architecture": "B_SHORT_STROKE_SELECTOR_WITH_INDEPENDENT_JACKSHAFTS",
+  "document_id": "PS-CR-OUTBOARD-INWARD-V091",
+  "forbidden_edges": [
+    [
+      "LEFT_INWARD_PTO_OUTPUT",
+      "RIGHT_INWARD_PTO_OUTPUT"
+    ],
+    [
+      "RIGHT_INWARD_PTO_OUTPUT",
+      "LEFT_INWARD_PTO_OUTPUT"
+    ],
+    [
+      "LEFT_PTO_SHAFT",
+      "RIGHT_PTO_SHAFT"
+    ],
+    [
+      "RIGHT_PTO_SHAFT",
+      "LEFT_PTO_SHAFT"
+    ]
+  ],
+  "left_output_direction": "-Y",
+  "nodes": [
+    "LEFT_MOTOR",
+    "LEFT_SLIDE_CLUTCH",
+    "LEFT_DRIVE_DOG",
+    "LEFT_DRIVE_JACKSHAFT",
+    "LEFT_DRIVE_20T",
+    "LEFT_DRIVE_BELT",
+    "LEFT_TRACK_DRIVE_60T",
+    "LEFT_TRACK_SHAFT",
+    "LEFT_TRACK",
+    "LEFT_PTO_DOG",
+    "LEFT_PTO_JACKSHAFT",
+    "LEFT_PTO_20T",
+    "LEFT_PTO_BELT",
+    "LEFT_PTO_60T",
+    "LEFT_PTO_SHAFT",
+    "LEFT_INWARD_PTO_OUTPUT",
+    "RIGHT_MOTOR",
+    "RIGHT_SLIDE_CLUTCH",
+    "RIGHT_DRIVE_DOG",
+    "RIGHT_DRIVE_JACKSHAFT",
+    "RIGHT_DRIVE_20T",
+    "RIGHT_DRIVE_BELT",
+    "RIGHT_TRACK_DRIVE_60T",
+    "RIGHT_TRACK_SHAFT",
+    "RIGHT_TRACK",
+    "RIGHT_PTO_DOG",
+    "RIGHT_PTO_JACKSHAFT",
+    "RIGHT_PTO_20T",
+    "RIGHT_PTO_BELT",
+    "RIGHT_PTO_60T",
+    "RIGHT_PTO_SHAFT",
+    "RIGHT_INWARD_PTO_OUTPUT"
+  ],
+  "right_output_direction": "+Y",
+  "states": {
+    "DRIVE": {
+      "edges": [
+        [
+          "LEFT_MOTOR",
+          "LEFT_SLIDE_CLUTCH"
+        ],
+        [
+          "LEFT_SLIDE_CLUTCH",
+          "LEFT_DRIVE_DOG"
+        ],
+        [
+          "LEFT_DRIVE_DOG",
+          "LEFT_DRIVE_JACKSHAFT"
+        ],
+        [
+          "LEFT_DRIVE_JACKSHAFT",
+          "LEFT_DRIVE_20T"
+        ],
+        [
+          "LEFT_DRIVE_20T",
+          "LEFT_DRIVE_BELT"
+        ],
+        [
+          "LEFT_DRIVE_BELT",
+          "LEFT_TRACK_DRIVE_60T"
+        ],
+        [
+          "LEFT_TRACK_DRIVE_60T",
+          "LEFT_TRACK_SHAFT"
+        ],
+        [
+          "LEFT_TRACK_SHAFT",
+          "LEFT_TRACK"
+        ],
+        [
+          "RIGHT_MOTOR",
+          "RIGHT_SLIDE_CLUTCH"
+        ],
+        [
+          "RIGHT_SLIDE_CLUTCH",
+          "RIGHT_DRIVE_DOG"
+        ],
+        [
+          "RIGHT_DRIVE_DOG",
+          "RIGHT_DRIVE_JACKSHAFT"
+        ],
+        [
+          "RIGHT_DRIVE_JACKSHAFT",
+          "RIGHT_DRIVE_20T"
+        ],
+        [
+          "RIGHT_DRIVE_20T",
+          "RIGHT_DRIVE_BELT"
+        ],
+        [
+          "RIGHT_DRIVE_BELT",
+          "RIGHT_TRACK_DRIVE_60T"
+        ],
+        [
+          "RIGHT_TRACK_DRIVE_60T",
+          "RIGHT_TRACK_SHAFT"
+        ],
+        [
+          "RIGHT_TRACK_SHAFT",
+          "RIGHT_TRACK"
+        ]
+      ],
+      "pto_output_reachable": false,
+      "track_output_reachable": true
+    },
+    "NEUTRAL": {
+      "edges": [],
+      "pto_output_reachable": false,
+      "track_output_reachable": false
+    },
+    "PTO": {
+      "edges": [
+        [
+          "LEFT_MOTOR",
+          "LEFT_SLIDE_CLUTCH"
+        ],
+        [
+          "LEFT_SLIDE_CLUTCH",
+          "LEFT_PTO_DOG"
+        ],
+        [
+          "LEFT_PTO_DOG",
+          "LEFT_PTO_JACKSHAFT"
+        ],
+        [
+          "LEFT_PTO_JACKSHAFT",
+          "LEFT_PTO_20T"
+        ],
+        [
+          "LEFT_PTO_20T",
+          "LEFT_PTO_BELT"
+        ],
+        [
+          "LEFT_PTO_BELT",
+          "LEFT_PTO_60T"
+        ],
+        [
+          "LEFT_PTO_60T",
+          "LEFT_PTO_SHAFT"
+        ],
+        [
+          "LEFT_PTO_SHAFT",
+          "LEFT_INWARD_PTO_OUTPUT"
+        ],
+        [
+          "RIGHT_MOTOR",
+          "RIGHT_SLIDE_CLUTCH"
+        ],
+        [
+          "RIGHT_SLIDE_CLUTCH",
+          "RIGHT_PTO_DOG"
+        ],
+        [
+          "RIGHT_PTO_DOG",
+          "RIGHT_PTO_JACKSHAFT"
+        ],
+        [
+          "RIGHT_PTO_JACKSHAFT",
+          "RIGHT_PTO_20T"
+        ],
+        [
+          "RIGHT_PTO_20T",
+          "RIGHT_PTO_BELT"
+        ],
+        [
+          "RIGHT_PTO_BELT",
+          "RIGHT_PTO_60T"
+        ],
+        [
+          "RIGHT_PTO_60T",
+          "RIGHT_PTO_SHAFT"
+        ],
+        [
+          "RIGHT_PTO_SHAFT",
+          "RIGHT_INWARD_PTO_OUTPUT"
+        ]
+      ],
+      "pto_output_reachable": true,
+      "track_output_reachable": false
+    }
+  },
+  "status": "FUNCTIONAL_POWERTRAIN_CONTRACT_FIXED"
+}

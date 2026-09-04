@@ -1,0 +1,211 @@
+{
+  "belt_count": 4,
+  "corridors": {
+    "LEFT_DRIVE_BELT": {
+      "belt_angle_deg": 21.038,
+      "belt_center_distance_mm": 139.284,
+      "belt_installation_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "belt_length": "PART_SELECTION_HOLD",
+      "belt_removal_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "guard_reservation": {
+        "exists": true,
+        "width_mm": 35.0
+      },
+      "kind": "DRIVE",
+      "large_pulley_center_xyz_mm": [
+        130.0,
+        119.0,
+        320.0
+      ],
+      "nominal_belt_sweep": {
+        "exists": true,
+        "width_mm": 21.0
+      },
+      "physical_belt": {
+        "exists": true,
+        "width_mm": 15.0
+      },
+      "safety_belt_sweep": {
+        "exists": true,
+        "width_mm": 31.0
+      },
+      "side": "LEFT",
+      "small_pulley_center_xyz_mm": [
+        0.0,
+        119.0,
+        370.0
+      ],
+      "small_pulley_wrap_deg": 153.579,
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tensioner_sweep": {
+        "exists": true,
+        "radius_mm": 18.0
+      },
+      "tool_keep_out": {
+        "clearance_mm": 10.0,
+        "exists": true
+      }
+    },
+    "LEFT_PTO_BELT": {
+      "belt_angle_deg": 26.565,
+      "belt_center_distance_mm": 111.803,
+      "belt_installation_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "belt_length": "PART_SELECTION_HOLD",
+      "belt_removal_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "guard_reservation": {
+        "exists": true,
+        "width_mm": 35.0
+      },
+      "kind": "PTO",
+      "large_pulley_center_xyz_mm": [
+        100.0,
+        58.25,
+        320.0
+      ],
+      "nominal_belt_sweep": {
+        "exists": true,
+        "width_mm": 21.0
+      },
+      "physical_belt": {
+        "exists": true,
+        "width_mm": 15.0
+      },
+      "safety_belt_sweep": {
+        "exists": true,
+        "width_mm": 31.0
+      },
+      "side": "LEFT",
+      "small_pulley_center_xyz_mm": [
+        0.0,
+        58.25,
+        370.0
+      ],
+      "small_pulley_wrap_deg": 146.918,
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tensioner_sweep": {
+        "exists": true,
+        "radius_mm": 18.0
+      },
+      "tool_keep_out": {
+        "clearance_mm": 10.0,
+        "exists": true
+      }
+    },
+    "RIGHT_DRIVE_BELT": {
+      "belt_angle_deg": 21.038,
+      "belt_center_distance_mm": 139.284,
+      "belt_installation_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "belt_length": "PART_SELECTION_HOLD",
+      "belt_removal_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "guard_reservation": {
+        "exists": true,
+        "width_mm": 35.0
+      },
+      "kind": "DRIVE",
+      "large_pulley_center_xyz_mm": [
+        130.0,
+        -119.0,
+        320.0
+      ],
+      "nominal_belt_sweep": {
+        "exists": true,
+        "width_mm": 21.0
+      },
+      "physical_belt": {
+        "exists": true,
+        "width_mm": 15.0
+      },
+      "safety_belt_sweep": {
+        "exists": true,
+        "width_mm": 31.0
+      },
+      "side": "RIGHT",
+      "small_pulley_center_xyz_mm": [
+        0.0,
+        -119.0,
+        370.0
+      ],
+      "small_pulley_wrap_deg": 153.579,
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tensioner_sweep": {
+        "exists": true,
+        "radius_mm": 18.0
+      },
+      "tool_keep_out": {
+        "clearance_mm": 10.0,
+        "exists": true
+      }
+    },
+    "RIGHT_PTO_BELT": {
+      "belt_angle_deg": 26.565,
+      "belt_center_distance_mm": 111.803,
+      "belt_installation_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "belt_length": "PART_SELECTION_HOLD",
+      "belt_removal_path": {
+        "direction": "+X_THEN_+Z",
+        "exists": true
+      },
+      "guard_reservation": {
+        "exists": true,
+        "width_mm": 35.0
+      },
+      "kind": "PTO",
+      "large_pulley_center_xyz_mm": [
+        100.0,
+        -58.25,
+        320.0
+      ],
+      "nominal_belt_sweep": {
+        "exists": true,
+        "width_mm": 21.0
+      },
+      "physical_belt": {
+        "exists": true,
+        "width_mm": 15.0
+      },
+      "safety_belt_sweep": {
+        "exists": true,
+        "width_mm": 31.0
+      },
+      "side": "RIGHT",
+      "small_pulley_center_xyz_mm": [
+        0.0,
+        -58.25,
+        370.0
+      ],
+      "small_pulley_wrap_deg": 146.918,
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tensioner_sweep": {
+        "exists": true,
+        "radius_mm": 18.0
+      },
+      "tool_keep_out": {
+        "clearance_mm": 10.0,
+        "exists": true
+      }
+    }
+  },
+  "design_order": "POWERTRAIN_BELTS_TENSIONER_TOOL_WIRING_THEN_FRAME",
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090"
+}

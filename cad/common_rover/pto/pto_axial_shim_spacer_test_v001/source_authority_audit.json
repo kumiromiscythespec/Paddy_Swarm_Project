@@ -1,0 +1,19 @@
+{
+  "all_protected_unchanged": true,
+  "conflicting_current_dimensions": false,
+  "repository_guard": {
+    "actual": {
+      "front_v002": "70dc32b445f8a12e5d5afcc20d6191e72131a3e55979683a2befef4c8cf0921e",
+      "pto_20t": "cd22d671d55559eeac1d1e532bb141d454264dcd3afeb76668fd711cb9cd613f",
+      "spacer_source_file": "620da83acc57e3424c241af271020480b2166ec540b382b74851c66821ad0d6f",
+      "spacer_source_lane": "9827c9cf2c736113881b0594f57fbdb5a3fc4720d692088f12fc16d8e7d86660"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "staged": 0
+  },
+  "selected_id_mm": 10.2,
+  "selected_od_mm": 13.8,
+  "selected_spacer_source": "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9/SPACER_8MM_PHYSICAL_UPDATE.md",
+  "selected_spacer_source_sha256": "620da83acc57e3424c241af271020480b2166ec540b382b74851c66821ad0d6f"
+}

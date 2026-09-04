@@ -1,0 +1,169 @@
+{
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090",
+  "nodes": [
+    "LEFT_MOTOR",
+    "LEFT_CLUTCH_SLIDER",
+    "LEFT_DRIVE_DOG",
+    "LEFT_PTO_DOG",
+    "LEFT_DRIVE_20T",
+    "LEFT_PTO_20T",
+    "LEFT_DRIVE_BELT",
+    "LEFT_PTO_BELT",
+    "LEFT_DRIVE_60T",
+    "LEFT_PTO_60T",
+    "LEFT_TRACK_SHAFT",
+    "LEFT_PTO_SHAFT",
+    "LEFT_TRACK",
+    "LEFT_PTO_OUTPUT",
+    "RIGHT_MOTOR",
+    "RIGHT_CLUTCH_SLIDER",
+    "RIGHT_DRIVE_DOG",
+    "RIGHT_PTO_DOG",
+    "RIGHT_DRIVE_20T",
+    "RIGHT_PTO_20T",
+    "RIGHT_DRIVE_BELT",
+    "RIGHT_PTO_BELT",
+    "RIGHT_DRIVE_60T",
+    "RIGHT_PTO_60T",
+    "RIGHT_TRACK_SHAFT",
+    "RIGHT_PTO_SHAFT",
+    "RIGHT_TRACK",
+    "RIGHT_PTO_OUTPUT"
+  ],
+  "prohibited": [
+    "SIMULTANEOUS_DRIVE_AND_PTO",
+    "PTO_WHILE_TRAVELLING",
+    "SHIFT_WHILE_MOTOR_ROTATING"
+  ],
+  "states": {
+    "DRIVE": {
+      "active_edges": [
+        [
+          "LEFT_MOTOR",
+          "LEFT_CLUTCH_SLIDER"
+        ],
+        [
+          "LEFT_CLUTCH_SLIDER",
+          "LEFT_DRIVE_DOG"
+        ],
+        [
+          "LEFT_DRIVE_DOG",
+          "LEFT_DRIVE_20T"
+        ],
+        [
+          "LEFT_DRIVE_20T",
+          "LEFT_DRIVE_BELT"
+        ],
+        [
+          "LEFT_DRIVE_BELT",
+          "LEFT_DRIVE_60T"
+        ],
+        [
+          "LEFT_DRIVE_60T",
+          "LEFT_TRACK_SHAFT"
+        ],
+        [
+          "LEFT_TRACK_SHAFT",
+          "LEFT_TRACK"
+        ],
+        [
+          "RIGHT_MOTOR",
+          "RIGHT_CLUTCH_SLIDER"
+        ],
+        [
+          "RIGHT_CLUTCH_SLIDER",
+          "RIGHT_DRIVE_DOG"
+        ],
+        [
+          "RIGHT_DRIVE_DOG",
+          "RIGHT_DRIVE_20T"
+        ],
+        [
+          "RIGHT_DRIVE_20T",
+          "RIGHT_DRIVE_BELT"
+        ],
+        [
+          "RIGHT_DRIVE_BELT",
+          "RIGHT_DRIVE_60T"
+        ],
+        [
+          "RIGHT_DRIVE_60T",
+          "RIGHT_TRACK_SHAFT"
+        ],
+        [
+          "RIGHT_TRACK_SHAFT",
+          "RIGHT_TRACK"
+        ]
+      ],
+      "motor_to_pto": false,
+      "motor_to_track": true
+    },
+    "NEUTRAL": {
+      "active_edges": [],
+      "motor_to_pto": false,
+      "motor_to_track": false
+    },
+    "PTO": {
+      "active_edges": [
+        [
+          "LEFT_MOTOR",
+          "LEFT_CLUTCH_SLIDER"
+        ],
+        [
+          "LEFT_CLUTCH_SLIDER",
+          "LEFT_PTO_DOG"
+        ],
+        [
+          "LEFT_PTO_DOG",
+          "LEFT_PTO_20T"
+        ],
+        [
+          "LEFT_PTO_20T",
+          "LEFT_PTO_BELT"
+        ],
+        [
+          "LEFT_PTO_BELT",
+          "LEFT_PTO_60T"
+        ],
+        [
+          "LEFT_PTO_60T",
+          "LEFT_PTO_SHAFT"
+        ],
+        [
+          "LEFT_PTO_SHAFT",
+          "LEFT_PTO_OUTPUT"
+        ],
+        [
+          "RIGHT_MOTOR",
+          "RIGHT_CLUTCH_SLIDER"
+        ],
+        [
+          "RIGHT_CLUTCH_SLIDER",
+          "RIGHT_PTO_DOG"
+        ],
+        [
+          "RIGHT_PTO_DOG",
+          "RIGHT_PTO_20T"
+        ],
+        [
+          "RIGHT_PTO_20T",
+          "RIGHT_PTO_BELT"
+        ],
+        [
+          "RIGHT_PTO_BELT",
+          "RIGHT_PTO_60T"
+        ],
+        [
+          "RIGHT_PTO_60T",
+          "RIGHT_PTO_SHAFT"
+        ],
+        [
+          "RIGHT_PTO_SHAFT",
+          "RIGHT_PTO_OUTPUT"
+        ]
+      ],
+      "motor_to_pto": true,
+      "motor_to_track": false
+    }
+  }
+}

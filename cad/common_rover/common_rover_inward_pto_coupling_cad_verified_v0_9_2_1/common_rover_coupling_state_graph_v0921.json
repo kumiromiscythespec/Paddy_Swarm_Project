@@ -1,0 +1,86 @@
+{
+  "allowed_forward": [
+    [
+      "ABSENT",
+      "UNIT_INSERTING"
+    ],
+    [
+      "UNIT_INSERTING",
+      "UNIT_LOCKED"
+    ],
+    [
+      "UNIT_LOCKED",
+      "COUPLING_DISENGAGED"
+    ],
+    [
+      "COUPLING_DISENGAGED",
+      "COUPLING_ENGAGING"
+    ],
+    [
+      "COUPLING_ENGAGING",
+      "COUPLING_ENGAGED"
+    ],
+    [
+      "COUPLING_ENGAGED",
+      "PTO_READY"
+    ],
+    [
+      "PTO_READY",
+      "PTO_ACTIVE"
+    ]
+  ],
+  "allowed_stop": [
+    [
+      "PTO_ACTIVE",
+      "PTO_READY"
+    ],
+    [
+      "PTO_READY",
+      "COUPLING_DISENGAGING"
+    ],
+    [
+      "COUPLING_DISENGAGING",
+      "COUPLING_DISENGAGED"
+    ],
+    [
+      "COUPLING_DISENGAGED",
+      "UNIT_LOCKED"
+    ],
+    [
+      "UNIT_LOCKED",
+      "ABSENT"
+    ]
+  ],
+  "assembly_state_mapping": {
+    "ABSENT": "DF2_SLEEVES_RETRACTED",
+    "COUPLING_DISENGAGED": "DF4_UNIT_LOCKED",
+    "COUPLING_DISENGAGING": "DF7_DISENGAGING",
+    "COUPLING_ENGAGED": "DF6_ENGAGED",
+    "COUPLING_ENGAGING": "DF5_PARTIAL",
+    "FAULT": "MOTOR_ZERO_NEUTRAL_HUMAN_INTERVENTION",
+    "PTO_ACTIVE": "NO_POWERED_TEST_CAD_STATE_ONLY",
+    "PTO_READY": "DF6_ENGAGED",
+    "UNIT_INSERTING": "DF3_UNIT_INSERTING",
+    "UNIT_LOCKED": "DF4_UNIT_LOCKED"
+  },
+  "document_id": "PS-CR-INWARD-PTO-CAD-VERIFIED-V0921",
+  "fault_action": "MOTOR_COMMAND_ZERO;CLUTCH_NEUTRAL;PTO_DISABLED;HUMAN_INTERVENTION_REQUIRED",
+  "signals": {
+    "LEFT_PTO_COUPLING_ENGAGED": "SEPARATE_LEFT_FEEDBACK",
+    "RIGHT_PTO_COUPLING_ENGAGED": "SEPARATE_RIGHT_FEEDBACK",
+    "UNIT_ID": "SEPARATE_IDENTITY",
+    "UNIT_PRESENT": "SEPARATE_PHYSICAL_PRESENCE"
+  },
+  "states": [
+    "ABSENT",
+    "UNIT_INSERTING",
+    "UNIT_LOCKED",
+    "COUPLING_DISENGAGED",
+    "COUPLING_ENGAGING",
+    "COUPLING_ENGAGED",
+    "PTO_READY",
+    "PTO_ACTIVE",
+    "COUPLING_DISENGAGING",
+    "FAULT"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "allowed_transitions": [
+    [
+      "ABSENT",
+      "UNIT_INSERTING",
+      "FRONT_INSERTION_STARTED"
+    ],
+    [
+      "UNIT_INSERTING",
+      "UNIT_LOCKED",
+      "MECHANICAL_LOCK_CONFIRMED"
+    ],
+    [
+      "UNIT_LOCKED",
+      "COUPLING_DISENGAGED",
+      "COUPLINGS_RETRACTED"
+    ],
+    [
+      "COUPLING_DISENGAGED",
+      "COUPLING_ENGAGING",
+      "MOTOR_ZERO_AND_ENGAGE_REQUEST"
+    ],
+    [
+      "COUPLING_ENGAGING",
+      "COUPLING_ENGAGED",
+      "REQUIRED_COUPLINGS_CONFIRMED"
+    ],
+    [
+      "COUPLING_ENGAGED",
+      "PTO_READY",
+      "PTO_ENABLE_CONDITIONS_TRUE"
+    ],
+    [
+      "PTO_READY",
+      "PTO_ACTIVE",
+      "PTO_START_COMMAND"
+    ],
+    [
+      "PTO_ACTIVE",
+      "PTO_READY",
+      "PTO_STOPPED"
+    ],
+    [
+      "PTO_READY",
+      "COUPLING_DISENGAGING",
+      "DISENGAGE_REQUEST"
+    ],
+    [
+      "COUPLING_DISENGAGING",
+      "COUPLING_DISENGAGED",
+      "RETRACTED_CONFIRMED"
+    ],
+    [
+      "COUPLING_DISENGAGED",
+      "UNIT_LOCKED",
+      "COUPLING_GUARDS_SAFE"
+    ],
+    [
+      "UNIT_LOCKED",
+      "ABSENT",
+      "LOCK_RELEASE_AND_UNIT_REMOVED"
+    ]
+  ],
+  "document_id": "PS-CR-INWARD-PTO-COUPLING-V092",
+  "energized_testing": "HOLD",
+  "fault_transition": {
+    "action": "MOTOR_COMMAND_ZERO_CLUTCH_NEUTRAL_PTO_DISABLED_HUMAN_INTERVENTION",
+    "from": "ANY",
+    "to": "FAULT"
+  },
+  "pto_enable_conditions": {
+    "drive_clutches_disengaged": true,
+    "fault_active": false,
+    "mechanical_lock_confirmed": true,
+    "motor_speed_zero_before_switching": true,
+    "required_coupling_mask": "NONE_LEFT_ONLY_RIGHT_ONLY_BOTH",
+    "required_couplings_confirmed": true,
+    "unit_id_valid": true,
+    "unit_present": true,
+    "unused_input_protected": true,
+    "vehicle_speed_zero": true
+  },
+  "signals": {
+    "LEFT_COUPLING_ENGAGED": "INDEPENDENT_LEFT_FEEDBACK",
+    "RIGHT_COUPLING_ENGAGED": "INDEPENDENT_RIGHT_FEEDBACK",
+    "UNIT_ID": "COMPATIBILITY_IDENTITY_ONLY",
+    "UNIT_PRESENT": "PHYSICAL_PRESENCE_ONLY"
+  },
+  "states": [
+    "ABSENT",
+    "UNIT_INSERTING",
+    "UNIT_LOCKED",
+    "COUPLING_DISENGAGED",
+    "COUPLING_ENGAGING",
+    "COUPLING_ENGAGED",
+    "PTO_READY",
+    "PTO_ACTIVE",
+    "COUPLING_DISENGAGING",
+    "FAULT"
+  ]
+}

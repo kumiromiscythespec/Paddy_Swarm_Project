@@ -1,0 +1,313 @@
+{
+  "allowances_mm": {
+    "assembly_tolerance_mm": 1.0,
+    "axial_play_mm": [
+      -1.0,
+      1.0
+    ],
+    "belt_lateral_wander_allowance_mm": 2.0,
+    "frame_deflection_allowance_mm": 2.0,
+    "total_provisional_allowance_mm": 5.0
+  },
+  "alternative_candidates": [
+    {
+      "added_part_count": 2,
+      "aluminum_2020_stock_used": 7,
+      "aluminum_2040_stock_used": 7,
+      "belt_intersection_count": 0,
+      "belt_to_wiring_mm": 19.5,
+      "candidate_id": "S2-REF-T5-BP0.00-OP1.50",
+      "clutch_intersection_count": 0,
+      "drive_belt_shift_mm": 0.0,
+      "drive_nominal_clearance_mm": 15.5,
+      "drive_residual_clearance_mm": 10.5,
+      "fastener_intersection_count": 0,
+      "fastener_orientation": "REVERSED_AWAY_FROM_BELT",
+      "fastener_style": "STANDARD_REVERSED",
+      "inner_kp000_shift_inward_mm": 0.0,
+      "inner_support_center_gap_mm": 7.0,
+      "inner_support_thickness_mm": 5.0,
+      "inner_support_type": "METAL_PLATE_5MM_CANDIDATE",
+      "left_pto_outer_end_y_mm": 145.0,
+      "outer_kp000_shift_outward_mm": 1.5,
+      "pto_belt_shift_mm": 0.0,
+      "pto_nominal_clearance_mm": 13.0,
+      "pto_residual_clearance_mm": 8.0,
+      "pulley_60t_to_fixed_mm": 11.0,
+      "rejection_reason": "",
+      "right_pto_outer_end_y_mm": -145.0,
+      "score": 1145.5,
+      "search_resolution": "REFINED_0.25_MM",
+      "search_stage": "STAGE_2_INNER_SUPPORT_AND_FASTENERS",
+      "serviceability_score": 10.0,
+      "status": "CONDITIONAL_PASS",
+      "tool_access_intersection_count": 0,
+      "total_width_mm": 290.0,
+      "total_y_change_mm": 1.5,
+      "track_intersection_count": 0,
+      "track_outer_margin_mm": 8.5
+    },
+    {
+      "added_part_count": 2,
+      "aluminum_2020_stock_used": 7,
+      "aluminum_2040_stock_used": 7,
+      "belt_intersection_count": 0,
+      "belt_to_wiring_mm": 22.0,
+      "candidate_id": "S2-REF-T6-BP2.50-OP6.00",
+      "clutch_intersection_count": 0,
+      "drive_belt_shift_mm": 0.0,
+      "drive_nominal_clearance_mm": 15.5,
+      "drive_residual_clearance_mm": 10.5,
+      "fastener_intersection_count": 0,
+      "fastener_orientation": "REVERSED_AWAY_FROM_BELT",
+      "fastener_style": "STANDARD_REVERSED",
+      "inner_kp000_shift_inward_mm": 0.0,
+      "inner_support_center_gap_mm": 6.0,
+      "inner_support_thickness_mm": 6.0,
+      "inner_support_type": "METAL_PLATE_6MM_CANDIDATE",
+      "left_pto_outer_end_y_mm": 145.0,
+      "outer_kp000_shift_outward_mm": 6.0,
+      "pto_belt_shift_mm": 2.5,
+      "pto_nominal_clearance_mm": 15.0,
+      "pto_residual_clearance_mm": 10.0,
+      "pulley_60t_to_fixed_mm": 13.5,
+      "rejection_reason": "",
+      "right_pto_outer_end_y_mm": -145.0,
+      "score": 1164.5,
+      "search_resolution": "REFINED_0.25_MM",
+      "search_stage": "STAGE_2_INNER_SUPPORT_AND_FASTENERS",
+      "serviceability_score": 10.0,
+      "status": "CONDITIONAL_PASS",
+      "tool_access_intersection_count": 0,
+      "total_width_mm": 290.0,
+      "total_y_change_mm": 8.5,
+      "track_intersection_count": 0,
+      "track_outer_margin_mm": 8.5
+    }
+  ],
+  "authority_status": "V008_DIFFERENTIAL_AUTHORITY_WITH_PHYSICAL_HOLDS",
+  "baseline_candidate": {
+    "belt_envelope_y_width_mm": 31.0,
+    "drive_belt_plane_abs_y_mm": 119.0,
+    "drive_frame_clearance_mm": 15.5,
+    "inner_kp000_center_abs_y_mm": 14.0,
+    "kp000_axial_envelope_mm": 15.0,
+    "outer_fastener_center_abs_y_mm": 70.0,
+    "outer_kp000_center_abs_y_mm": 82.0,
+    "pto_belt_plane_abs_y_mm": 45.0,
+    "pto_outer_end_abs_y_mm": 145.0,
+    "pulley_axial_envelope_mm": 25.0,
+    "support_2020_y_thickness_mm": 20.0,
+    "total_width_mm": 290.0,
+    "track_outer_abs_y_mm": 143.0
+  },
+  "box_bottom_comparison": {
+    "selected": "Z200_UNCHANGED",
+    "z200": {
+      "status": "NON_REGRESSION_BASELINE",
+      "track_dynamic_clearance_mm": 10.0
+    },
+    "z210_reference": {
+      "status": "REFERENCE_ONLY_NOT_BELT_CLEARANCE_SOLUTION",
+      "track_dynamic_clearance_mm": 20.0
+    }
+  },
+  "document_id": "PS-CR-FRONT-DRIVE-DUAL-PTO-BELT-CLEARANCE-V0081",
+  "field_deployment": "NOT_APPROVED",
+  "final_gates": {
+    "aluminum_cutting": "HOLD",
+    "drilling": "HOLD",
+    "field_deployment": "NOT_APPROVED",
+    "load_test": "HOLD",
+    "manufacturing_release": "HOLD",
+    "physical_fit": "HOLD",
+    "water_mud_test": "HOLD"
+  },
+  "fixed_v008_architecture": {
+    "absolute_total_width_mm": 299.0,
+    "battery_cassette_size_mm": {
+      "x": 125.0,
+      "y": 180.0,
+      "z": 120.0
+    },
+    "bbox_size_mm": {
+      "x": 150.0,
+      "y": 220.0,
+      "z": 150.0
+    },
+    "belt_standard": "HTD_5M_STANDARD_15MM",
+    "box_arrangement": "CBOX_FRONT_BBOX_REAR_SHORT_FACES_OPPOSED",
+    "box_bottom_z_mm": 200.0,
+    "box_structural_role": "PROHIBITED",
+    "box_top_max_z_mm": 350.0,
+    "cbox_size_mm": {
+      "x": 130.0,
+      "y": 140.0,
+      "z": 105.0
+    },
+    "central_lower_structure_max_width_mm": 180.0,
+    "clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "common_pto_shaft": "PROHIBITED",
+    "coordinate_system": {
+      "+X": "FRONT",
+      "+Y": "LEFT",
+      "+Z": "UP",
+      "ground_z_mm": 0.0,
+      "length_unit": "mm"
+    },
+    "crawler_each_side": {
+      "front_upper_drive_wheel": 1,
+      "lower_roller_candidates": [
+        3,
+        4
+      ],
+      "rear_upper_idler": 1,
+      "step_roller_count": 4
+    },
+    "crawler_geometry": "INVERTED_TRAPEZOID_TOP_LONGER",
+    "lower_2040_candidate_mm": 260.0,
+    "motor_axis_z_mm": 370.0,
+    "motor_count": 2,
+    "motor_height_meaning": "MOTOR_SHAFT_CENTER_HEIGHT",
+    "motor_shaft_directions": {
+      "left": "-Y_INWARD",
+      "right": "+Y_INWARD"
+    },
+    "pto_architecture": "TWO_INDEPENDENT_LATERAL_SHAFTS",
+    "pto_axis_z_mm": 370.0,
+    "pto_count": 2,
+    "pto_output_directions": {
+      "left": "+Y",
+      "right": "-Y"
+    },
+    "pulley_60t_safety_diameter_mm": 120.0,
+    "pulley_teeth": {
+      "driven": 60,
+      "driver": 20
+    },
+    "simultaneous_same_side_drive_pto": "PROHIBITED",
+    "single_aluminum_member_max_mm": 400.0,
+    "target_total_width_mm": [
+      286.0,
+      290.0
+    ],
+    "track_width_each_mm": 55.0,
+    "upper_2040_candidate_mm": 400.0
+  },
+  "hold_items": [
+    "MEASURED_BELT_LATERAL_WANDER",
+    "ACTUAL_MOTOR_AND_SHAFT",
+    "ACTUAL_20T_60T_WIDTH_FLANGE_RUNOUT",
+    "ACTUAL_KP000_AND_LOAD_RATING",
+    "5MM_METAL_PLATE_MATERIAL_STRENGTH_AND_HOLE_PATTERN",
+    "ACTUAL_FASTENER_STACK",
+    "ACTUAL_TOOL_ENVELOPE",
+    "ACTUAL_TENSIONER_FULL_RANGE",
+    "ACTUAL_CRAWLER_COVER_AND_TRACK_RUNOUT",
+    "BBOX_EFFECTIVE_INTERIOR",
+    "STRUCTURAL_AND_TORSION_CALCULATION"
+  ],
+  "manufacturing_release": "HOLD",
+  "physical_fit": "HOLD",
+  "recommended_candidate": {
+    "added_part_count": 2,
+    "aluminum_2020_stock_used": 7,
+    "aluminum_2040_stock_used": 7,
+    "belt_intersection_count": 0,
+    "belt_to_wiring_mm": 21.5,
+    "candidate_id": "S2-REF-T5-BP2.00-OP5.50",
+    "clutch_intersection_count": 0,
+    "drive_belt_shift_mm": 0.0,
+    "drive_nominal_clearance_mm": 15.5,
+    "drive_residual_clearance_mm": 10.5,
+    "fastener_intersection_count": 0,
+    "fastener_orientation": "REVERSED_AWAY_FROM_BELT",
+    "fastener_style": "STANDARD_REVERSED",
+    "inner_kp000_shift_inward_mm": 0.0,
+    "inner_support_center_gap_mm": 7.0,
+    "inner_support_thickness_mm": 5.0,
+    "inner_support_type": "METAL_PLATE_5MM_CANDIDATE",
+    "left_pto_outer_end_y_mm": 145.0,
+    "outer_kp000_shift_outward_mm": 5.5,
+    "pto_belt_shift_mm": 2.0,
+    "pto_nominal_clearance_mm": 15.0,
+    "pto_residual_clearance_mm": 10.0,
+    "pulley_60t_to_fixed_mm": 13.0,
+    "rejection_reason": "",
+    "right_pto_outer_end_y_mm": -145.0,
+    "score": 1167.5,
+    "search_resolution": "REFINED_0.25_MM",
+    "search_stage": "STAGE_2_INNER_SUPPORT_AND_FASTENERS",
+    "serviceability_score": 10.0,
+    "status": "CONDITIONAL_PASS",
+    "tool_access_intersection_count": 0,
+    "total_width_mm": 290.0,
+    "total_y_change_mm": 7.5,
+    "track_intersection_count": 0,
+    "track_outer_margin_mm": 8.5
+  },
+  "schema": "paddy_swarm.common_rover.front_drive_dual_pto_belt_clearance.v0.8.1",
+  "search": {
+    "candidate_count_by_stage": {
+      "STAGE_1_DRIVE_Y_POSITION": 21,
+      "STAGE_1_Y_POSITION_ONLY": 486,
+      "STAGE_2_INNER_SUPPORT_AND_FASTENERS": 1812
+    },
+    "conditional_pass_count_by_stage": {
+      "STAGE_2_INNER_SUPPORT_AND_FASTENERS": 730
+    },
+    "rejection_reason_counts": {
+      "BELT_WIRING_LT_15": 126,
+      "DRIVE_ENVELOPE_OUTSIDE_TRACK_WIDTH": 2,
+      "DRIVE_NOMINAL_LT_13": 8,
+      "DRIVE_RESIDUAL_LT_8": 8,
+      "LEFT_RIGHT_INNER_SUPPORT_COLLISION": 126,
+      "NONZERO_INTERSECTION": 217,
+      "PTO_NOMINAL_LT_13": 1580,
+      "PTO_RESIDUAL_LT_8": 1580,
+      "PULLEY_FIXED_LT_10": 347
+    },
+    "selected_ids": {
+      "alternative_a": "S2-REF-T5-BP0.00-OP1.50",
+      "alternative_b": "S2-REF-T6-BP2.50-OP6.00",
+      "recommended": "S2-REF-T5-BP2.00-OP5.50"
+    },
+    "stage_1_max_nominal_clearance_mm": 9.5,
+    "stage_1_max_residual_clearance_mm": 4.5,
+    "stage_1_raw_max_nominal_including_rejected_mm": 15.5,
+    "stage_1_raw_max_residual_including_rejected_mm": 10.5,
+    "stage_1_result": "FAIL_CANNOT_REACH_13_AND_8",
+    "stage_2_result": "CONDITIONAL_PASS",
+    "stages_3_to_6": "NOT_EXECUTED_STAGE_2_SATISFIED_TARGET",
+    "total_candidate_count": 2319
+  },
+  "selected_delta": {
+    "drive_belt_plane_abs_y_mm": 119.0,
+    "fastener_orientation": "AWAY_FROM_BELT",
+    "inner_kp000_axis_abs_y_mm": 14.0,
+    "inner_support": "5MM_METAL_PLATE_CANDIDATE",
+    "outer_kp000_axis_abs_y_mm": 87.5,
+    "outer_support_shift_outward_mm": 5.5,
+    "pto_belt_plane_abs_y_mm": 47.0,
+    "pto_belt_shift_outward_mm": 2.0,
+    "pto_outer_end_y_mm": {
+      "left": 145.0,
+      "right": -145.0
+    },
+    "total_width_mm": 290.0
+  },
+  "targets": {
+    "belt_nominal_minimum_mm": 13.0,
+    "belt_nominal_preferred_mm": 15.0,
+    "belt_residual_minimum_mm": 8.0,
+    "belt_to_wiring_candidate_mm": 15.0,
+    "pto_outer_end_abs_max_mm": 145.0,
+    "pulley_60t_to_fixed_minimum_mm": 10.0,
+    "total_width_strict_max_mm": 300.0,
+    "track_upper_structure_non_regression_mm": 10.0
+  }
+}

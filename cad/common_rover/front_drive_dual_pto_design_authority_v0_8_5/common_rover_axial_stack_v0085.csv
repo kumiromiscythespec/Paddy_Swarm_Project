@@ -1,0 +1,35 @@
+side,order,item,classification,min_mm,max_mm,role,release_state
+LEFT,1,central reserve,HOLD,0,6,shaft start,HOLD
+LEFT,2,inner support plate,NOMINAL,5,5,P3-A5052-T5,CANDIDATE_ONLY
+LEFT,3,inner KP000 housing,MEASURED,17,17,Y center shifted,CANDIDATE_ONLY
+LEFT,4,inner known collar,MEASURED,6,6,ORIENTATION_C,CANDIDATE_ONLY
+LEFT,5,inner opposite protrusion,HOLD,0,6,sensitivity authority,HOLD
+LEFT,6,inner shaft collar,HOLD,0,6,axial retention,HOLD
+LEFT,7,spacer A,HOLD,0,4,no KP000 contact location,HOLD
+LEFT,8,60T axial envelope,MEASURED_CONFLICT,20,21,reported total versus components,HOLD
+LEFT,9,spacer B,HOLD,0,4,outer clearance,HOLD
+LEFT,10,outer shaft collar,HOLD,0,6,axial retention,HOLD
+LEFT,11,outer KP000 housing,MEASURED,17,17,Y center shifted,CANDIDATE_ONLY
+LEFT,12,outer known collar,MEASURED,6,6,ORIENTATION_O,CANDIDATE_ONLY
+LEFT,13,outer opposite protrusion,HOLD,0,6,sensitivity authority,HOLD
+LEFT,14,output reserve,POSITION_DERIVED,33.0,33.0,to Y=145,CANDIDATE_ONLY
+LEFT,15,coupling reserve,HOLD,0,,part not selected,HOLD
+LEFT,16,retaining reserve,HOLD,0,,method not released,HOLD
+LEFT,17,PTO output end,NOMINAL_BOUNDARY,145,145,absolute Y limit,CANDIDATE_ONLY
+RIGHT,1,central reserve,HOLD,0,6,shaft start,HOLD
+RIGHT,2,inner support plate,NOMINAL,5,5,P3-A5052-T5,CANDIDATE_ONLY
+RIGHT,3,inner KP000 housing,MEASURED,17,17,Y center shifted,CANDIDATE_ONLY
+RIGHT,4,inner known collar,MEASURED,6,6,ORIENTATION_C,CANDIDATE_ONLY
+RIGHT,5,inner opposite protrusion,HOLD,0,6,sensitivity authority,HOLD
+RIGHT,6,inner shaft collar,HOLD,0,6,axial retention,HOLD
+RIGHT,7,spacer A,HOLD,0,4,no KP000 contact location,HOLD
+RIGHT,8,60T axial envelope,MEASURED_CONFLICT,20,21,reported total versus components,HOLD
+RIGHT,9,spacer B,HOLD,0,4,outer clearance,HOLD
+RIGHT,10,outer shaft collar,HOLD,0,6,axial retention,HOLD
+RIGHT,11,outer KP000 housing,MEASURED,17,17,Y center shifted,CANDIDATE_ONLY
+RIGHT,12,outer known collar,MEASURED,6,6,ORIENTATION_O,CANDIDATE_ONLY
+RIGHT,13,outer opposite protrusion,HOLD,0,6,sensitivity authority,HOLD
+RIGHT,14,output reserve,POSITION_DERIVED,33.0,33.0,to Y=145,CANDIDATE_ONLY
+RIGHT,15,coupling reserve,HOLD,0,,part not selected,HOLD
+RIGHT,16,retaining reserve,HOLD,0,,method not released,HOLD
+RIGHT,17,PTO output end,NOMINAL_BOUNDARY,145,145,absolute Y limit,CANDIDATE_ONLY

@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 2.964,
+  "errors": 0,
+  "failures": 0,
+  "pass": true,
+  "skipped": 0,
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/2040_SLIDE_FIT_COUPONS_PRINT_READY/P25_SLIDE_B_PROVISIONAL_PRINT_READY/PHYSICAL_FIT_SELECTION_PENDING/STRUCTURAL_LOAD_AUTHORITY_PENDING",
+  "tests_run": 81
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f8fafc"/><text x="55" y="62" font-family="sans-serif" font-size="30" font-weight="700" fill="#0f172a">Front Interface V001 — top view</text>
+<style>.b{fill:#64748b;stroke:#334155;stroke-width:2}.k{fill:#10b981;stroke:#047857;stroke-width:2}.p{fill:#f59e0b;stroke:#b45309;stroke-width:2}.r{fill:none;stroke:#ef4444;stroke-width:3;stroke-dasharray:10 8}.m{fill:#2563eb;stroke:#1e40af;stroke-width:2}.t{font:20px sans-serif;fill:#0f172a}.s{font:16px monospace;fill:#334155}</style>
+<g transform="translate(100 105)">
+<rect x="400" y="0" width="40" height="400" class="b"/><text x="450" y="25" class="s">2040 × 400 beam</text>
+<rect x="365" y="40" width="110" height="70" class="m"/><rect x="365" y="290" width="110" height="70" class="m"/>
+<circle cx="420" cy="60" r="16" class="k"/><circle cx="420" cy="110" r="16" class="k"/><circle cx="420" cy="290" r="16" class="k"/><circle cx="420" cy="340" r="16" class="k"/>
+<circle cx="420" cy="30" r="23" class="p"/><circle cx="420" cy="370" r="23" class="p"/>
+<rect x="443" y="17" width="180" height="26" class="r"/><rect x="443" y="357" width="180" height="26" class="r"/>
+<rect x="480" y="120" width="145" height="160" fill="none" stroke="#2563eb" stroke-width="8"/>
+<text x="660" y="32" class="t">forward belt corridor</text><text x="660" y="372" class="t">forward belt corridor</text>
+<text x="650" y="160" class="t">4-point unit-load portal</text><text x="650" y="195" class="s">PTO shafts do not carry unit weight</text>
+<text x="15" y="215" class="t">RIGHT PTO</text><text x="785" y="215" class="t">LEFT PTO</text>
+</g></svg>

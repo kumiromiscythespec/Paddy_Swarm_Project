@@ -1,0 +1,57 @@
+{
+  "GLOBAL_SCALE_CORRECTION": "PROHIBITED",
+  "PHYSICAL_TEST_STATUS": "PHYSICAL_TEST_NOT_PERFORMED_FOR_V0922_COUPONS",
+  "center_gap_gauges_mm": [
+    {
+      "actual": 34.6,
+      "nominal": 35.0
+    },
+    {
+      "actual": 35.5,
+      "nominal": 36.0
+    },
+    {
+      "actual": 36.6,
+      "nominal": 37.0
+    }
+  ],
+  "current_U_block": {
+    "diametral_play_after_entry_mm": 1.4,
+    "entry": "LOCALLY_TIGHT",
+    "entry_tightness": "LOCAL_PRINT_ARTIFACT",
+    "radial_positioning": "FAIL",
+    "rough_support": "USABLE_NO_LOAD_ONLY"
+  },
+  "dimension_bar": {
+    "Z_only_error": false,
+    "clear_XY_direction_difference": false,
+    "long_XY_typical_error_mm": "-0.2_TO_-0.3",
+    "short_10mm_error_mm": "-0.1_TO_-0.2",
+    "single_worst_error_mm": -0.4,
+    "thickness_5mm_actual_mm": 5.0
+  },
+  "reference_60T": {
+    "actual_bore_measurements_mm": [
+      10.1,
+      10.1,
+      10.1,
+      10.1
+    ],
+    "axial_motion": "SNUG_TWIST_ASSISTED_SLIDE",
+    "free_sliding_sleeve": "TOO_TIGHT_CANDIDATE",
+    "positioning_reference": "GOOD",
+    "radial_play": "NOT_OBSERVED",
+    "shaft_rotated_90deg_same": true
+  },
+  "source": "USER_PHYSICAL_INPUT_2026-08-02",
+  "stub_gauges_mm": [
+    {
+      "actual": 12.4,
+      "nominal": 12.5
+    },
+    {
+      "actual": 12.5,
+      "nominal": 12.5
+    }
+  ]
+}

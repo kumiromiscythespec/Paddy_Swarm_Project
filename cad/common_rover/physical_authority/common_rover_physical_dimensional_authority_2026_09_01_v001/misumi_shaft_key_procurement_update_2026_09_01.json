@@ -1,0 +1,151 @@
+{
+  "key": {
+    "effective_length": {
+      "classification": "PHYSICAL_DERIVED_REUSED",
+      "note": "19.7 - 3.0 = 16.7.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 16.7
+    },
+    "length_match": {
+      "classification": "DIRECT_PHYSICAL_RESULT_REUSED",
+      "note": "Existing manual forward/reverse physical record retained.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "state",
+      "value": "PASS"
+    },
+    "original_physical_length": {
+      "classification": "DIRECT_PHYSICAL_REUSED",
+      "note": "Existing keeperless drivetrain record.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 19.7
+    },
+    "purchase_nominal_product": {
+      "classification": "PROCUREMENT_EVIDENCE_PENDING",
+      "note": "19.7 mm physical length does not independently prove a nominal 20 mm order.",
+      "source_date": "2026-09-01",
+      "source_type": "REPOSITORY_SEARCH",
+      "unit": "product_code",
+      "value": null
+    },
+    "removed_length": {
+      "classification": "DIRECT_PHYSICAL_REUSED",
+      "note": "Non-engaging overhang removed in existing record.",
+      "source_date": "PRE_2026_09_01_RECORD_REUSED",
+      "source_type": "EXISTING_REPOSITORY_PHYSICAL_RECORD",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  "schema": "MISUMI_SHAFT_KEY_PROCUREMENT_UPDATE_2026_09_01",
+  "shaft": {
+    "axial_spare_approx": {
+      "classification": "DIRECT_PHYSICAL_APPROXIMATE",
+      "note": "Approximately 1 mm axial spare was observed.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 1.0
+    },
+    "final_shaft_absolute_length": {
+      "classification": "PHYSICAL_PENDING",
+      "note": "Direct measurement or authoritative order evidence is still required.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": null
+    },
+    "frame_or_other_interference": {
+      "classification": "DIRECT_PHYSICAL_RESULT",
+      "note": "No frame or other interference was observed in the physical fit.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "NONE_OBSERVED"
+    },
+    "future_exact_order_length": {
+      "classification": "PROCUREMENT_HOLD",
+      "note": "Do not infer 133 mm from the unconfirmed 145 mm purchase candidate.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": null
+    },
+    "future_order_rule": {
+      "classification": "PROCUREMENT_RULE_READY",
+      "note": "Apply only after the prior order record or direct remaining length is confirmed.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "rule",
+      "value": "ACTUAL_PRIOR_PURCHASED_LENGTH_MINUS_12_PER_SHAFT"
+    },
+    "kp000_full_insertion": {
+      "classification": "DIRECT_PHYSICAL_RESULT",
+      "note": "Both shortened shafts fit completely in KP000.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "state",
+      "value": "PASS"
+    },
+    "prior_ordered_length": {
+      "classification": "PROCUREMENT_EVIDENCE_PENDING",
+      "note": "145 mm is not promoted because the source explicitly marks it as a purchase candidate.",
+      "source_date": "2026-09-01",
+      "source_type": "REPOSITORY_SEARCH",
+      "unit": "mm",
+      "value": null
+    },
+    "prior_purchase_product": {
+      "classification": "PROCUREMENT_EVIDENCE_PENDING",
+      "note": "AHFGKR10-145-KA4-A20 appears only as PURCHASE_CANDIDATE / physical NOT_YET.",
+      "source_date": "2026-09-01",
+      "source_type": "REPOSITORY_SEARCH",
+      "unit": "product_code",
+      "value": null
+    },
+    "quantity": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Two independent shafts were physically updated.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "pieces",
+      "value": 2
+    },
+    "removed_each": {
+      "classification": "DIRECT_PHYSICAL",
+      "note": "Each shaft was shortened by 12.0 mm.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": 12.0
+    },
+    "shaft_protrusion_final": {
+      "classification": "PHYSICAL_PENDING",
+      "note": "Approximately 1 mm spare is not a final released protrusion.",
+      "source_date": "2026-09-01",
+      "source_type": "USER_PHYSICAL_MEASUREMENT",
+      "unit": "mm",
+      "value": null
+    }
+  },
+  "status": {
+    "classification": "PARTIAL",
+    "note": "Physical shortening is authoritative, but the prior purchased shaft SKU/order length and the purchased key nominal are not uniquely evidenced in repository records.",
+    "source_date": "2026-09-01",
+    "source_type": "USER_PHYSICAL_MEASUREMENT",
+    "unit": "state",
+    "value": "PROCUREMENT_UPDATE_PARTIAL"
+  },
+  "torque_path": {
+    "classification": "CURRENT_AUTHORITY_UNCHANGED",
+    "note": "This documentation update makes no drivetrain geometry change.",
+    "source_date": "2026-09-01",
+    "source_type": "USER_PHYSICAL_MEASUREMENT",
+    "unit": "architecture",
+    "value": "SHAFT_TO_KEY_TO_MISUMI_METAL_PULLEY_TO_EXACT_GROOVE1_C1_TO_PRINTED_CARRIER_TO_CANDIDATE_C_12T"
+  }
+}

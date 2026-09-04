@@ -1,0 +1,58 @@
+DOCUMENT_ID=PS-CR-PWR-FRAME-BELT-V090
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cadquery-280-py312\python.exe -B tests/test_common_rover_powertrain_frame_belt_v090_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_thirty_eight_paths (__main__.CommonRoverV090Contract.test_001_exact_thirty_eight_paths) ... ok
+test_002_parent_v008_to_v0085_protection (__main__.CommonRoverV090Contract.test_002_parent_v008_to_v0085_protection) ... ok
+test_003_v0085_baseline_and_handoff_preserved (__main__.CommonRoverV090Contract.test_003_v0085_baseline_and_handoff_preserved) ... ok
+test_004_design_authority_pointers_and_git_scope (__main__.CommonRoverV090Contract.test_004_design_authority_pointers_and_git_scope) ... warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+ok
+test_005_fixed_counts (__main__.CommonRoverV090Contract.test_005_fixed_counts) ... ok
+test_006_no_common_pto_shaft_and_no_third_motor (__main__.CommonRoverV090Contract.test_006_no_common_pto_shaft_and_no_third_motor) ... ok
+test_007_slide_clutch_minimum_components (__main__.CommonRoverV090Contract.test_007_slide_clutch_minimum_components) ... ok
+test_008_clutch_states_and_allowed_operating_states (__main__.CommonRoverV090Contract.test_008_clutch_states_and_allowed_operating_states) ... ok
+test_009_prohibited_mixed_and_unknown_states (__main__.CommonRoverV090Contract.test_009_prohibited_mixed_and_unknown_states) ... ok
+test_010_drive_power_graph_left_and_right (__main__.CommonRoverV090Contract.test_010_drive_power_graph_left_and_right) ... ok
+test_011_pto_power_graph_left_and_right (__main__.CommonRoverV090Contract.test_011_pto_power_graph_left_and_right) ... ok
+test_012_neutral_power_graph_disconnected (__main__.CommonRoverV090Contract.test_012_neutral_power_graph_disconnected) ... ok
+test_013_four_independent_belt_corridors (__main__.CommonRoverV090Contract.test_013_four_independent_belt_corridors) ... ok
+test_014_physical_nominal_safety_and_guard_envelopes (__main__.CommonRoverV090Contract.test_014_physical_nominal_safety_and_guard_envelopes) ... ok
+test_015_install_remove_tensioner_contracts (__main__.CommonRoverV090Contract.test_015_install_remove_tensioner_contracts) ... ok
+test_016_belt_first_frame_order (__main__.CommonRoverV090Contract.test_016_belt_first_frame_order) ... ok
+test_017_search_stages_and_candidate_count (__main__.CommonRoverV090Contract.test_017_search_stages_and_candidate_count) ... ok
+test_018_architecture_a_b_comparison (__main__.CommonRoverV090Contract.test_018_architecture_a_b_comparison) ... ok
+test_019_high_mid_low_height_candidates (__main__.CommonRoverV090Contract.test_019_high_mid_low_height_candidates) ... ok
+test_020_recommended_candidate_and_architecture (__main__.CommonRoverV090Contract.test_020_recommended_candidate_and_architecture) ... ok
+test_021_pto_water_mud_and_standard_height (__main__.CommonRoverV090Contract.test_021_pto_water_mud_and_standard_height) ... ok
+test_022_total_width_under_300 (__main__.CommonRoverV090Contract.test_022_total_width_under_300) ... ok
+test_023_frame_member_limit_and_split_rails (__main__.CommonRoverV090Contract.test_023_frame_member_limit_and_split_rails) ... ok
+test_024_belt_obstacle_intersections_zero (__main__.CommonRoverV090Contract.test_024_belt_obstacle_intersections_zero) ... ok
+test_025_clutch_full_stroke_and_sweeps_clear (__main__.CommonRoverV090Contract.test_025_clutch_full_stroke_and_sweeps_clear) ... ok
+test_026_pto_rotation_electrical_and_umbilical_clear (__main__.CommonRoverV090Contract.test_026_pto_rotation_electrical_and_umbilical_clear) ... ok
+test_027_kp000_support_contract (__main__.CommonRoverV090Contract.test_027_kp000_support_contract) ... ok
+test_028_boxes_bottom_and_serial_order (__main__.CommonRoverV090Contract.test_028_boxes_bottom_and_serial_order) ... ok
+test_029_inverse_trapezoid_crawler_retained (__main__.CommonRoverV090Contract.test_029_inverse_trapezoid_crawler_retained) ... ok
+test_030_high_electrical_interface (__main__.CommonRoverV090Contract.test_030_high_electrical_interface) ... ok
+test_031_presence_sensor_and_id_are_separate (__main__.CommonRoverV090Contract.test_031_presence_sensor_and_id_are_separate) ... ok
+test_032_pto_enable_requires_presence_and_safe_state (__main__.CommonRoverV090Contract.test_032_pto_enable_requires_presence_and_safe_state) ... ok
+test_033_wiring_avoids_belts_rotation_and_tracks (__main__.CommonRoverV090Contract.test_033_wiring_avoids_belts_rotation_and_tracks) ... ok
+test_034_release_states (__main__.CommonRoverV090Contract.test_034_release_states) ... ok
+test_035_superseded_contract_recorded (__main__.CommonRoverV090Contract.test_035_superseded_contract_recorded) ... ok
+test_036_step_semantic_geometry_eight_of_eight (__main__.CommonRoverV090Contract.test_036_step_semantic_geometry_eight_of_eight) ... ok
+test_037_svg_contract_and_warning (__main__.CommonRoverV090Contract.test_037_svg_contract_and_warning) ... ok
+test_038_manifest_hash_and_cache_contract (__main__.CommonRoverV090Contract.test_038_manifest_hash_and_cache_contract) ... ok
+test_039_validation_all_fixed_checks_pass (__main__.CommonRoverV090Contract.test_039_validation_all_fixed_checks_pass) ... ok
+test_040_download_zip_delivery_lifecycle (__main__.CommonRoverV090Contract.test_040_download_zip_delivery_lifecycle) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 9.239s
+
+OK

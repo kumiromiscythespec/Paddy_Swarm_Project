@@ -1,0 +1,31 @@
+DOCUMENT_ID=PS-CR-KP000-SUPPORT-PLATE-V0082
+EXPECTED_FILE_COUNT=27
+ROOT=ZIP_ROOT
+STATUS=NOT_FOR_MANUFACTURING
+common_rover_kp000_support_plate_design_authority_v0082.md	FILE
+common_rover_kp000_support_plate_parameters_v0082.json	FILE
+kp000_support_plate_measurement_sheet_v0082.md	FILE
+kp000_support_plate_measurement_sheet_v0082.csv	FILE
+common_rover_kp000_support_plate_candidates_v0082.csv	FILE
+common_rover_kp000_support_plate_ranking_v0082.csv	FILE
+common_rover_kp000_support_plate_strength_report_v0082.json	FILE
+common_rover_kp000_support_plate_interference_report_v0082.json	FILE
+common_rover_kp000_support_plate_tool_access_v0082.csv	FILE
+common_rover_kp000_support_plate_fasteners_v0082.csv	FILE
+common_rover_kp000_support_plate_validation_v0082.json	FILE
+build_common_rover_kp000_support_plate_v0082.py	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-ASSEMBLY.step	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-LEFT.step	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-RIGHT.step	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-LEFT.dxf	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-RIGHT.dxf	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-OVERVIEW.svg	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-TOP.svg	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-FRONT.svg	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-SIDE.svg	FILE
+artifacts/PS-CR-KP000-SUPPORT-PLATE-V0082-DIMENSIONS.svg	FILE
+tests/test_common_rover_kp000_support_plate_v0082_contract.py	FILE
+README_HANDOFF.md	FILE
+MANIFEST.txt	FILE
+SHA256SUMS.txt	FILE
+test_results_v0082.txt	FILE

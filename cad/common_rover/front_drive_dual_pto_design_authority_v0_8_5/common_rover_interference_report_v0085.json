@@ -1,0 +1,58 @@
+{
+  "cad_clearances_recommended_mm": {
+    "belt_inner_nominal_mm": 14.25,
+    "belt_inner_safety_mm": 8.25,
+    "belt_outer_nominal_mm": 14.25,
+    "belt_outer_safety_mm": 8.25,
+    "center_nominal_mm": 9.0,
+    "pulley_inner_nominal_mm": 14.75,
+    "pulley_outer_nominal_mm": 14.75,
+    "support_mutual_mm": 33.0
+  },
+  "document_id": "PS-CR-ROBUST-AXIAL-TOLERANCE-V0085",
+  "holds": [
+    "ACTUAL_TOOL_ENVELOPE_REQUIRED",
+    "PHYSICAL_DRY_FIT_REQUIRED",
+    "PULLEY_BORE_REQUIRED"
+  ],
+  "non_regression": {
+    "box_bottom_min_z_mm": 200.0,
+    "clutch": "PRESERVED",
+    "drive_belt_frame_mm": 15.5,
+    "pto_belt_frame_mm": 15.0,
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "track_upper_mm": 10.0,
+    "width_mm": 290.0
+  },
+  "recommended_candidate_id": "G-IN5.00-P11.25-OUT10.00",
+  "selected_candidates": [
+    {
+      "candidate_id": "G-IN5.00-P11.25-OUT10.00",
+      "intersection_count": 0,
+      "output_reserve_mm": 33.0,
+      "worst_belt_residual_mm": 8.25,
+      "worst_center_residual_mm": 7.0,
+      "worst_pulley_residual_mm": 11.25
+    },
+    {
+      "candidate_id": "G-IN5.00-P11.00-OUT09.50",
+      "intersection_count": 0,
+      "output_reserve_mm": 33.5,
+      "worst_belt_residual_mm": 8.0,
+      "worst_center_residual_mm": 7.0,
+      "worst_pulley_residual_mm": 11.0
+    },
+    {
+      "candidate_id": "G-IN5.00-P11.00-OUT09.75",
+      "intersection_count": 0,
+      "output_reserve_mm": 33.25,
+      "worst_belt_residual_mm": 8.0,
+      "worst_center_residual_mm": 7.0,
+      "worst_pulley_residual_mm": 11.0
+    }
+  ],
+  "status": "NOT_FOR_MANUFACTURING"
+}

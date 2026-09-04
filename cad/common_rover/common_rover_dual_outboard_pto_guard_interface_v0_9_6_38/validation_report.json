@@ -1,0 +1,212 @@
+{
+  "check_count": 30,
+  "checks": {
+    "authority_4_unchanged": true,
+    "common_shaft_prohibited": true,
+    "drive_pto_simultaneous_prohibited": true,
+    "dual_pto_count_2": true,
+    "frame_worst_case_205": true,
+    "guard_bottom_lower_rear_open": true,
+    "guard_mandatory": true,
+    "guard_not_sealed_box": true,
+    "guard_top_front_outboard": true,
+    "guarded_width_200_258": true,
+    "guarded_width_205_263": true,
+    "historical_inward_record_preserved": true,
+    "left_outward_negative_x": true,
+    "left_right_independent": true,
+    "lock_brake_required": true,
+    "not_for_manufacturing": true,
+    "per_side_pulley_zone_20": true,
+    "per_side_stack_29": true,
+    "production_cad_zero": true,
+    "protected_lanes_unchanged": true,
+    "reference_step_5_reload": true,
+    "registered_ceiling_286_preserved": true,
+    "reproducibility": true,
+    "right_outward_positive_x": true,
+    "shaft_torque_only": true,
+    "slide_clutch_production_cad_zero": true,
+    "superseded_reason_recorded": true,
+    "svg_8": true,
+    "target_width_265_pass": true,
+    "work_unit_load_on_hitch_guide": true
+  },
+  "classification": "DOCUMENTATION_AND_INTERFACE_FREEZE_REFERENCE_ONLY",
+  "holds": [
+    "SHAFT_DIAMETER",
+    "BEARING_PRODUCT",
+    "PULLEY_PRODUCT_AND_RETENTION",
+    "GUARD_CLEARANCE_AND_PRODUCTION_GEOMETRY",
+    "SLIDE_CLUTCH_PRODUCTION_CAD",
+    "PHYSICAL_MUD_DRAINAGE_TEST",
+    "POWERED_TEST",
+    "MANUFACTURING",
+    "FIELD_DEPLOYMENT"
+  ],
+  "pass_count": 30,
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "protected_trees": {
+      "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1": {
+        "file_count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "fc0e459370be39f24a98d477a750a7c48e5533b85947432a0d80556d788e093a"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2": {
+        "file_count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "d716d23899f0ccbe2fc39872e06db57072d27cbcf2cbbb971356e16d67e69ef0"
+      },
+      "cad/common_rover/common_rover_motor_layout_powerpath_trade_study_v0_9_3_0": {
+        "file_count": 151,
+        "status": "UNCHANGED",
+        "tree_sha256": "98d11ae279ad888e1f2aeda1353b84701757d2de1c13113f099bce7d74311541"
+      },
+      "cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1": {
+        "file_count": 37,
+        "status": "UNCHANGED",
+        "tree_sha256": "70ff56f30f406b0471220d3c2698f060f0697afc6518fe4af62fc4729f5ab5fd"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8": {
+        "file_count": 9,
+        "status": "UNCHANGED",
+        "tree_sha256": "9404869a0335e3a4c80f26a8982d781ff7c61ac633d428ca42e93b30527ababe"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1": {
+        "file_count": 19,
+        "status": "UNCHANGED",
+        "tree_sha256": "177a74fd172c4985a645666265be34ed4cf09201a3afea7925554c4d138d7246"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_2": {
+        "file_count": 27,
+        "status": "UNCHANGED",
+        "tree_sha256": "013ba76408bd13f8cef72e3adbb0abc9348535b240dee1e432ee159d5d3c159c"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_3": {
+        "file_count": 20,
+        "status": "UNCHANGED",
+        "tree_sha256": "581e16461ed22ded0969f7137943a0bf31b6084777f2170f043bde53a3e21d3b"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_4": {
+        "file_count": 24,
+        "status": "UNCHANGED",
+        "tree_sha256": "82f26da21c29b7cb4ec712f780a1d6c7690af3f0c9ca6a7a45ef86cec5991a87"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_5": {
+        "file_count": 24,
+        "status": "UNCHANGED",
+        "tree_sha256": "2ae05cc9c7a3befd5b4f7e316d16e12da803b896800022bfaaf45b44e18d0a7a"
+      },
+      "rovers/common_rover/v2.29.3.9.1": {
+        "file_count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "ab8c79b41c5a7eae3f45dc6cc79564882c84e2a412a61fef7384b28c49d07659"
+      }
+    },
+    "staged": []
+  },
+  "reproducibility": {
+    "byte_identical": 23,
+    "compared": 23,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "CONDITIONAL_INTERFACE_PASS_DOCUMENTATION_COMPLETE_NOT_FOR_MANUFACTURING",
+  "step_audit": {
+    "all_reload_pass": true,
+    "count": 5,
+    "rows": [
+      {
+        "bbox_mm": [
+          200.0,
+          160.0,
+          20.0
+        ],
+        "classification": "REFERENCE_ONLY_NOT_PRODUCTION_CAD",
+        "path": "reference/FRAME_200_REFERENCE.step",
+        "reload": true,
+        "solid_count": 4
+      },
+      {
+        "bbox_mm": [
+          205.0,
+          160.0,
+          20.0
+        ],
+        "classification": "REFERENCE_ONLY_NOT_PRODUCTION_CAD",
+        "path": "reference/FRAME_205_REFERENCE.step",
+        "reload": true,
+        "solid_count": 4
+      },
+      {
+        "bbox_mm": [
+          263.0,
+          160.0,
+          61.0
+        ],
+        "classification": "REFERENCE_ONLY_NOT_PRODUCTION_CAD",
+        "path": "reference/DUAL_OUTBOARD_PTO_20MM_ZONE.step",
+        "reload": true,
+        "solid_count": 12
+      },
+      {
+        "bbox_mm": [
+          263.0,
+          160.0,
+          68.0
+        ],
+        "classification": "REFERENCE_ONLY_NOT_PRODUCTION_CAD",
+        "path": "reference/GUARD_265MM_ENVELOPE_REFERENCE.step",
+        "reload": true,
+        "solid_count": 18
+      },
+      {
+        "bbox_mm": [
+          263.0,
+          160.0,
+          78.0
+        ],
+        "classification": "REFERENCE_ONLY_NOT_PRODUCTION_CAD",
+        "path": "reference/PTO_WORK_UNIT_INTERFACE_REFERENCE.step",
+        "reload": true,
+        "solid_count": 15
+      }
+    ]
+  },
+  "version": "v0.9.6.38",
+  "width_results_mm": {
+    "frame_200_extra_margin_vs_worst_case": 5.0,
+    "frame_candidates": [
+      200.0,
+      205.0
+    ],
+    "frame_worst_case": 205.0,
+    "guarded_reference": [
+      258.0,
+      263.0
+    ],
+    "per_side": {
+      "gap_candidate": 2.0,
+      "guard_candidate": 3.0,
+      "pulley_usable_authority": 20.0,
+      "retention_candidate": 4.0,
+      "total": 29.0
+    },
+    "pulley_body_only": [
+      240.0,
+      245.0
+    ],
+    "registered_ceiling": 286.0,
+    "target": 265.0,
+    "worst_case_ceiling_margin": 23.0,
+    "worst_case_target_margin": 2.0
+  }
+}

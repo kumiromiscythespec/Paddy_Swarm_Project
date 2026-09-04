@@ -1,0 +1,244 @@
+{
+  "analysis_class": "CONSERVATIVE_SIMPLIFIED_CANTILEVER_COMPARISON",
+  "document_id": "PS-CR-KP000-SUPPORT-PLATE-V0082",
+  "formulas": {
+    "bending_stress_mpa": "6*F*L/(b*t^2)",
+    "candidate_safety_factor": "minimum_candidate_yield/bending_stress",
+    "clearance_after_plate_deflection_mm": "v0081_residual_clearance - plate_deflection_toward_belt",
+    "effective_force_n": "belt_load*shock + abs(torque_Nmm)/60 + side_load + abs(axial_load)",
+    "tip_deflection_mm": "4*F*L^3/(E*b*t^3)"
+  },
+  "load_authority": "HYPOTHETICAL_COMPARISON_LOADS_ONLY",
+  "load_cases": [
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 100.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "effective_comparison_force_n": 116.6667,
+      "load_case": "LC1",
+      "pto_torque_nm": 1.0,
+      "shock_factor": 1.0
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 200.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "effective_comparison_force_n": 333.3333,
+      "load_case": "LC2",
+      "pto_torque_nm": 2.0,
+      "shock_factor": 1.5
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 300.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "effective_comparison_force_n": 683.3333,
+      "load_case": "LC3",
+      "pto_torque_nm": 5.0,
+      "shock_factor": 2.0
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 200.0,
+      "coupling_side_load_n": 100.0,
+      "direction": "COUPLING_SIDE_LOAD_SIMULTANEOUS",
+      "effective_comparison_force_n": 433.3333,
+      "load_case": "LC4",
+      "pto_torque_nm": 2.0,
+      "shock_factor": 1.5
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 300.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "REVERSE_SIGN",
+      "effective_comparison_force_n": 683.3333,
+      "load_case": "LC5",
+      "pto_torque_nm": -5.0,
+      "shock_factor": 2.0
+    }
+  ],
+  "material_inputs": {
+    "A5052": {
+      "availability": "VERIFY_LOCAL_SUPPLIER",
+      "corrosion": "GOOD_CANDIDATE",
+      "density_kg_mm3": 2.68e-06,
+      "elastic_modulus_mpa": 69000.0,
+      "label": "A5052-P candidate",
+      "machining": "GOOD",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 5.0,
+      "yield_min_mpa": 140.0,
+      "yield_range_mpa": [
+        140.0,
+        195.0
+      ]
+    },
+    "A6061": {
+      "availability": "VERIFY_ALLOY_AND_TEMPER",
+      "corrosion": "GOOD_WITH_FINISH_CANDIDATE",
+      "density_kg_mm3": 2.7e-06,
+      "elastic_modulus_mpa": 69000.0,
+      "label": "A6061-series or equivalent candidate",
+      "machining": "GOOD",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 5.0,
+      "yield_min_mpa": 240.0,
+      "yield_range_mpa": [
+        240.0,
+        276.0
+      ]
+    },
+    "STEEL": {
+      "availability": "VERIFY_GRADE_AND_THICKNESS",
+      "corrosion": "COATING_AND_GALVANIC_ISOLATION_REQUIRED",
+      "density_kg_mm3": 7.85e-06,
+      "elastic_modulus_mpa": 205000.0,
+      "label": "General structural steel candidate 4.5 mm",
+      "machining": "GOOD_BUT_MASS_HIGHER",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 4.5,
+      "yield_min_mpa": 235.0,
+      "yield_range_mpa": [
+        235.0,
+        275.0
+      ]
+    },
+    "STEEL3": {
+      "availability": "VERIFY_GRADE",
+      "corrosion": "COATING_REQUIRED",
+      "density_kg_mm3": 7.85e-06,
+      "elastic_modulus_mpa": 205000.0,
+      "label": "General structural steel candidate 3 mm",
+      "machining": "GOOD_BUT_RUST_CONTROL_REQUIRED",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 3.0,
+      "yield_min_mpa": 235.0,
+      "yield_range_mpa": [
+        235.0,
+        275.0
+      ]
+    }
+  },
+  "not_calculated_as_pass": [
+    "hole_bearing",
+    "hole_edge_tearout",
+    "bolt_shear",
+    "bolt_tension",
+    "t_nut_slip",
+    "frame_connection_rotation",
+    "fatigue",
+    "mud_corrosion"
+  ],
+  "physical_authority": "NOT_FOR_MANUFACTURING",
+  "recommended_60t_clearance_after_deflection_mm": 12.8068,
+  "recommended_candidate": "P3-A5052-T5",
+  "recommended_clearance_after_deflection_mm": 9.8068,
+  "recommended_deflection_mm": 0.1932,
+  "recommended_minimum_safety_factor": 2.0218,
+  "release_blockers": [
+    "ACTUAL_LOADS",
+    "MATERIAL_CERTIFICATE_AND_TEMPER",
+    "ACTUAL_HOLE_PATTERN",
+    "BOLT_PRELOAD",
+    "T_NUT_SLIP_LIMIT",
+    "FRAME_CONNECTION_STIFFNESS",
+    "BELT_TRACKING_ALLOWANCE"
+  ],
+  "required_inputs": [
+    "BELT_RADIAL_LOAD_N",
+    "PTO_TORQUE_NM",
+    "COUPLING_SIDE_LOAD_N",
+    "AXIAL_LOAD_N",
+    "SHOCK_FACTOR",
+    "SUPPORT_PLATE_MATERIAL",
+    "SUPPORT_PLATE_THICKNESS",
+    "FRAME_CONNECTION_STIFFNESS",
+    "BOLT_PRELOAD",
+    "T_NUT_SLIP_LIMIT"
+  ],
+  "selected_candidates": {
+    "P2-A6061-T5": {
+      "added_parts": 2,
+      "candidate_id": "P2-A6061-T5",
+      "candidate_safety_factor": 2.439,
+      "fastener_count": 6,
+      "frame_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "kp000_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "manufacturability": "SIMPLE_FLAT_PLATE",
+      "material": "A6061-series or equivalent candidate",
+      "minimum_edge_distance": 10.0,
+      "minimum_hole_spacing": 20.0,
+      "nominal_belt_clearance": 15.0,
+      "outline_type": "LOWER_EXTENSION",
+      "plate_deflection": 0.385,
+      "plate_height": 130.0,
+      "plate_mass": 0.12504,
+      "plate_width": 75.0,
+      "rejection_reason": "",
+      "removable_as_unit": "YES_CANDIDATE",
+      "residual_belt_clearance": 9.615,
+      "serviceability": 8,
+      "shaft_center_deflection": 0.385,
+      "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+      "thickness": 5.0,
+      "tool_clearance": 12.0
+    },
+    "P3-A5052-T5": {
+      "added_parts": 2,
+      "candidate_id": "P3-A5052-T5",
+      "candidate_safety_factor": 2.0218,
+      "fastener_count": 6,
+      "frame_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "kp000_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+      "material": "A5052-P candidate",
+      "minimum_edge_distance": 10.0,
+      "minimum_hole_spacing": 20.0,
+      "nominal_belt_clearance": 15.0,
+      "outline_type": "INTEGRAL_TRIANGULAR_GUSSET",
+      "plate_deflection": 0.1932,
+      "plate_height": 140.0,
+      "plate_mass": 0.12119,
+      "plate_width": 95.0,
+      "rejection_reason": "",
+      "removable_as_unit": "YES_CANDIDATE",
+      "residual_belt_clearance": 9.8068,
+      "serviceability": 9,
+      "shaft_center_deflection": 0.1932,
+      "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+      "thickness": 5.0,
+      "tool_clearance": 14.0
+    },
+    "P3-STEEL-T4.5": {
+      "added_parts": 2,
+      "candidate_id": "P3-STEEL-T4.5",
+      "candidate_safety_factor": 2.749,
+      "fastener_count": 6,
+      "frame_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "kp000_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+      "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+      "material": "General structural steel candidate 4.5 mm",
+      "minimum_edge_distance": 10.0,
+      "minimum_hole_spacing": 20.0,
+      "nominal_belt_clearance": 15.0,
+      "outline_type": "INTEGRAL_TRIANGULAR_GUSSET",
+      "plate_deflection": 0.0892,
+      "plate_height": 140.0,
+      "plate_mass": 0.31948,
+      "plate_width": 95.0,
+      "rejection_reason": "",
+      "removable_as_unit": "YES_CANDIDATE",
+      "residual_belt_clearance": 9.9108,
+      "serviceability": 9,
+      "shaft_center_deflection": 0.0892,
+      "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+      "thickness": 4.5,
+      "tool_clearance": 14.0
+    }
+  },
+  "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY"
+}

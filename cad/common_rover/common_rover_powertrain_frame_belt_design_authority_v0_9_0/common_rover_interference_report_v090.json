@@ -1,0 +1,252 @@
+{
+  "all_required_intersections_zero": true,
+  "authority": "CADQUERY_PARAMETRIC_ENVELOPE_CANDIDATE",
+  "belt_checks": [
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 4.75,
+      "intersection_count": 0,
+      "obstacle_id": "FRAME",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 8.75,
+      "intersection_count": 0,
+      "obstacle_id": "FASTENERS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 3.5,
+      "intersection_count": 0,
+      "obstacle_id": "SUPPORT_PLATES",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 97.5,
+      "intersection_count": 0,
+      "obstacle_id": "WIRING",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 100.362,
+      "intersection_count": 0,
+      "obstacle_id": "SENSORS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 37.348,
+      "intersection_count": 0,
+      "obstacle_id": "CLUTCH_ACTUATOR",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 124.391,
+      "intersection_count": 0,
+      "obstacle_id": "BOX_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_DRIVE_BELT",
+      "distance_mm": 50.456,
+      "intersection_count": 0,
+      "obstacle_id": "TRACK_DYNAMIC",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 4.75,
+      "intersection_count": 0,
+      "obstacle_id": "FRAME",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 8.75,
+      "intersection_count": 0,
+      "obstacle_id": "FASTENERS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 3.5,
+      "intersection_count": 0,
+      "obstacle_id": "SUPPORT_PLATES",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 97.5,
+      "intersection_count": 0,
+      "obstacle_id": "WIRING",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 100.362,
+      "intersection_count": 0,
+      "obstacle_id": "SENSORS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 37.348,
+      "intersection_count": 0,
+      "obstacle_id": "CLUTCH_ACTUATOR",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 124.391,
+      "intersection_count": 0,
+      "obstacle_id": "BOX_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_DRIVE_BELT",
+      "distance_mm": 50.456,
+      "intersection_count": 0,
+      "obstacle_id": "TRACK_DYNAMIC",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 5.0,
+      "intersection_count": 0,
+      "obstacle_id": "FRAME",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 9.0,
+      "intersection_count": 0,
+      "obstacle_id": "FASTENERS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 21.25,
+      "intersection_count": 0,
+      "obstacle_id": "SUPPORT_PLATES",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 36.75,
+      "intersection_count": 0,
+      "obstacle_id": "WIRING",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 69.476,
+      "intersection_count": 0,
+      "obstacle_id": "SENSORS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 37.054,
+      "intersection_count": 0,
+      "obstacle_id": "CLUTCH_ACTUATOR",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 106.087,
+      "intersection_count": 0,
+      "obstacle_id": "BOX_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "LEFT_PTO_BELT",
+      "distance_mm": 79.067,
+      "intersection_count": 0,
+      "obstacle_id": "TRACK_DYNAMIC",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 5.0,
+      "intersection_count": 0,
+      "obstacle_id": "FRAME",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 9.0,
+      "intersection_count": 0,
+      "obstacle_id": "FASTENERS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 21.25,
+      "intersection_count": 0,
+      "obstacle_id": "SUPPORT_PLATES",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 36.75,
+      "intersection_count": 0,
+      "obstacle_id": "WIRING",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 69.476,
+      "intersection_count": 0,
+      "obstacle_id": "SENSORS",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 37.054,
+      "intersection_count": 0,
+      "obstacle_id": "CLUTCH_ACTUATOR",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 106.087,
+      "intersection_count": 0,
+      "obstacle_id": "BOX_SUPPORT",
+      "status": "PASS"
+    },
+    {
+      "belt_id": "RIGHT_PTO_BELT",
+      "distance_mm": 79.067,
+      "intersection_count": 0,
+      "obstacle_id": "TRACK_DYNAMIC",
+      "status": "PASS"
+    }
+  ],
+  "clutch_checks_mm": {
+    "ACTUATOR_SWEEP_VS_FRAME": 145.436,
+    "CLUTCH_FULL_STROKE_VS_BELTS": 9.0,
+    "CLUTCH_FULL_STROKE_VS_FRAME": 90.689,
+    "SHIFT_FORK_SWEEP_VS_BELTS": 13.195
+  },
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090",
+  "intersection_count": 0,
+  "physical_fit": "HOLD",
+  "pto_checks_mm": {
+    "PTO_ROTATION_VS_ELECTRICAL": 72.004,
+    "PTO_ROTATION_VS_FRAME": 5.0,
+    "PTO_ROTATION_VS_UNIT_UMBILICAL": 36.857
+  },
+  "pto_rotation_bottom_z_mm": 260.0,
+  "total_width_mm": 290.0,
+  "unit_checks_mm": {
+    "UNIT_CONNECTOR_VS_BELT_KEEP_OUT": 72.004,
+    "UNIT_SENSOR_VS_BELT_KEEP_OUT": 69.476,
+    "UNIT_UMBILICAL_VS_ROTATING_PARTS": 36.857,
+    "UNIT_UMBILICAL_VS_TRACK_DYNAMIC": 153.32
+  }
+}

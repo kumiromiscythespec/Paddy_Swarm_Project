@@ -1,0 +1,73 @@
+{
+  "authority": {
+    "conflicting_current_dimensions": false,
+    "existing_reference_thickness_mm": 8.0,
+    "selected_id_mm": 10.2,
+    "selected_od_mm": 13.8,
+    "source": "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9/SPACER_8MM_PHYSICAL_UPDATE.md",
+    "source_class": "LATEST_REPOSITORY_PHYSICAL_SPACER_CROSS_SECTION_REFERENCE"
+  },
+  "baseline_no_part_mm": 0.0,
+  "candidates": [
+    {
+      "edge_break_mm": 0.0,
+      "id_mm": 10.2,
+      "od_mm": 13.8,
+      "thickness_mm": 0.5
+    },
+    {
+      "edge_break_mm": 0.0,
+      "id_mm": 10.2,
+      "od_mm": 13.8,
+      "thickness_mm": 1.0
+    }
+  ],
+  "features_absent": [
+    "KEYWAY",
+    "SET_SCREW",
+    "BOLT_HOLE",
+    "TAB",
+    "KEEPER_GEOMETRY",
+    "CHAMFER"
+  ],
+  "function": "AXIAL_SHIM_SPACER_PHYSICAL_TEST_PART",
+  "holds": [
+    "ACTUAL_PRINTED_THICKNESS_PENDING",
+    "PHYSICAL_CONTACT_FACE_PENDING",
+    "OPERATING_AXIAL_CLEARANCE_PENDING",
+    "PTO_SPACER_PHYSICAL_AUTHORITY_PENDING",
+    "POWERED_TEST_PENDING"
+  ],
+  "not_functions": [
+    "TORQUE_TRANSFER",
+    "KEY",
+    "LOCKING_COLLAR",
+    "BEARING_RETAINER",
+    "STRUCTURAL_FRAME_SPACER",
+    "PULLEY_CLAMP"
+  ],
+  "optional_cross_check": "TWO_PRINTED_T0P5; MEASURE_ACTUAL_TOTAL; DO_NOT_ASSUME_EXACT_T1P0",
+  "print": {
+    "actual_printed_thickness": "PHYSICAL_MEASUREMENT_REQUIRED",
+    "brim": "ONLY_IF_SLICER_REQUIRES",
+    "cad_id_authority": "UNCHANGED",
+    "material_candidate": "PETG_PROTOTYPE_ONLY",
+    "orientation": "FLAT_ON_BUILD_PLATE_AXIS_VERTICAL",
+    "slicer_elephant_foot_compensation": "USER_SLICER_SETTING",
+    "support": "NONE"
+  },
+  "stack": {
+    "contact": "BEARING_INNER_RING_ROTATING_FACE_TO_SHIM_TO_PTO_PULLEY_ROTATING_FACE",
+    "exact_contact_face": "PHYSICAL_CONTACT_FACE_PENDING",
+    "front_v002_changed": false,
+    "stationary_contacts_prohibited": [
+      "KP000_HOUSING",
+      "BEARING_OUTER_RING",
+      "2040_FRAME",
+      "STATIONARY_BRACKET"
+    ]
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/PTO_AXIAL_SHIM_TEST_SET_PRINT_READY/PTO_SPACER_PHYSICAL_AUTHORITY_PENDING",
+  "units": "mm",
+  "version": "PTO_AXIAL_SHIM_SPACER_TEST_V001"
+}

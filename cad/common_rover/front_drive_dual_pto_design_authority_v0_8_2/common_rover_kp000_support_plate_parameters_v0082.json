@@ -1,0 +1,542 @@
+{
+  "alternative_ids": [
+    "P2-A6061-T5",
+    "P3-STEEL-T4.5"
+  ],
+  "assembly_sequence": [
+    "Loosely fasten left and right plates independently.",
+    "Loosely fasten each KP000 to its plate.",
+    "Pass each independent PTO shaft through its inner and outer KP000 pair.",
+    "Rotate each shaft by hand.",
+    "Adjust until binding is minimized; limits remain ALIGNMENT_LIMIT_HOLD.",
+    "Snug plate-to-frame fasteners.",
+    "Tighten KP000 fasteners incrementally and diagonally.",
+    "Tighten plate-to-frame fasteners.",
+    "Rotate each shaft again and record the change.",
+    "Install the 60T pulley and axial collars.",
+    "Install the belt.",
+    "Recheck shaft rotation and center movement under candidate belt tension."
+  ],
+  "authority": {
+    "analytical_strength": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+    "envelope_geometry": "CONDITIONAL_PASS_CANDIDATE",
+    "field_deployment": "NOT_APPROVED",
+    "hole_pattern": "PART_MEASUREMENT_REQUIRED",
+    "manufacturing": "HOLD",
+    "material_selection": "HOLD",
+    "physical_fit": "HOLD"
+  },
+  "candidate_count": 16,
+  "document_id": "PS-CR-KP000-SUPPORT-PLATE-V0082",
+  "environment": {
+    "bearing_grease_access": "PART_MEASUREMENT_REQUIRED",
+    "crevice_corrosion": "HOLD_FINISH_AND_SPACER_SELECTION",
+    "drain_downward": true,
+    "galvanic_isolation": "REQUIRED",
+    "mud_guard": "OPTIONAL_HOLD_OUTSIDE_BELT_ENVELOPE",
+    "stainless_on_aluminum": "ISOLATION_WASHER_OR_COATING_REQUIRED",
+    "water_trap": "PROHIBITED_CANDIDATE"
+  },
+  "existing_evidence": {
+    "60t_rotation_safety_envelope_diameter_mm": 120.0,
+    "actual_kp000_manufacturer_drawing_found": false,
+    "actual_kp000_photo_found": false,
+    "actual_purchase_record_found": false,
+    "kp000_existing_geometry": {
+      "status": "UNVERIFIED_CANDIDATE_ENVELOPE_NOT_MEASUREMENT",
+      "value_mm": [
+        45.0,
+        15.0,
+        35.0
+      ]
+    },
+    "pto_shaft_existing_nominal_mm": {
+      "status": "UNVERIFIED_CANDIDATE_NOT_MEASUREMENT",
+      "value": 10.0
+    },
+    "user_reported_60t_dimension_meaning": "CALIBRATION_PENDING",
+    "user_reported_60t_max_dimension_mm": 102.0
+  },
+  "fastener_recommendation": {
+    "final_selection": "HOLD_PART_LOAD_AND_MATERIAL_REQUIRED",
+    "kp000_to_plate": "F2_CAPTIVE_INSERT_CANDIDATE",
+    "plate_to_frame": "F5_T_NUT_CANDIDATE"
+  },
+  "fixed_architecture": {
+    "battery_cassette_mm": [
+      125.0,
+      180.0,
+      120.0
+    ],
+    "bbox_mm": [
+      150.0,
+      220.0,
+      150.0
+    ],
+    "box_arrangement": "CBOX_FRONT_BBOX_REAR_SHORT_FACES_OPPOSED",
+    "box_bottom_min_z_mm": 200.0,
+    "box_structural_role": "PROHIBITED",
+    "cbox_mm": [
+      130.0,
+      140.0,
+      105.0
+    ],
+    "clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "common_pto_shaft": "PROHIBITED",
+    "crawler": "INVERTED_TRAPEZOID_INDEPENDENT_LEFT_RIGHT",
+    "motor_count": 2,
+    "motor_shaft_directions": {
+      "left": "-Y_INWARD",
+      "right": "+Y_INWARD"
+    },
+    "pto_architecture": "TWO_INDEPENDENT_LATERAL_SHAFTS",
+    "pto_count": 2,
+    "pto_output_directions": {
+      "left": "+Y",
+      "right": "-Y"
+    },
+    "simultaneous_drive_pto": "PROHIBITED",
+    "single_aluminum_member_max_mm": 400.0,
+    "track_width_each_mm": 55.0
+  },
+  "load_cases": [
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 100.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "load_case": "LC1",
+      "pto_torque_nm": 1.0,
+      "shock_factor": 1.0
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 200.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "load_case": "LC2",
+      "pto_torque_nm": 2.0,
+      "shock_factor": 1.5
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 300.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "FORWARD",
+      "load_case": "LC3",
+      "pto_torque_nm": 5.0,
+      "shock_factor": 2.0
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 200.0,
+      "coupling_side_load_n": 100.0,
+      "direction": "COUPLING_SIDE_LOAD_SIMULTANEOUS",
+      "load_case": "LC4",
+      "pto_torque_nm": 2.0,
+      "shock_factor": 1.5
+    },
+    {
+      "axial_load_n": 0.0,
+      "belt_radial_load_n": 300.0,
+      "coupling_side_load_n": 0.0,
+      "direction": "REVERSE_SIGN",
+      "load_case": "LC5",
+      "pto_torque_nm": -5.0,
+      "shock_factor": 2.0
+    }
+  ],
+  "material_candidates": {
+    "A5052": {
+      "availability": "VERIFY_LOCAL_SUPPLIER",
+      "corrosion": "GOOD_CANDIDATE",
+      "density_kg_mm3": 2.68e-06,
+      "elastic_modulus_mpa": 69000.0,
+      "label": "A5052-P candidate",
+      "machining": "GOOD",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 5.0,
+      "yield_min_mpa": 140.0,
+      "yield_range_mpa": [
+        140.0,
+        195.0
+      ]
+    },
+    "A6061": {
+      "availability": "VERIFY_ALLOY_AND_TEMPER",
+      "corrosion": "GOOD_WITH_FINISH_CANDIDATE",
+      "density_kg_mm3": 2.7e-06,
+      "elastic_modulus_mpa": 69000.0,
+      "label": "A6061-series or equivalent candidate",
+      "machining": "GOOD",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 5.0,
+      "yield_min_mpa": 240.0,
+      "yield_range_mpa": [
+        240.0,
+        276.0
+      ]
+    },
+    "STEEL": {
+      "availability": "VERIFY_GRADE_AND_THICKNESS",
+      "corrosion": "COATING_AND_GALVANIC_ISOLATION_REQUIRED",
+      "density_kg_mm3": 7.85e-06,
+      "elastic_modulus_mpa": 205000.0,
+      "label": "General structural steel candidate 4.5 mm",
+      "machining": "GOOD_BUT_MASS_HIGHER",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 4.5,
+      "yield_min_mpa": 235.0,
+      "yield_range_mpa": [
+        235.0,
+        275.0
+      ]
+    },
+    "STEEL3": {
+      "availability": "VERIFY_GRADE",
+      "corrosion": "COATING_REQUIRED",
+      "density_kg_mm3": 7.85e-06,
+      "elastic_modulus_mpa": 205000.0,
+      "label": "General structural steel candidate 3 mm",
+      "machining": "GOOD_BUT_RUST_CONTROL_REQUIRED",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 3.0,
+      "yield_min_mpa": 235.0,
+      "yield_range_mpa": [
+        235.0,
+        275.0
+      ]
+    }
+  },
+  "measurement_count": 60,
+  "outline_candidates": {
+    "P1": {
+      "area_factor": 0.95,
+      "effective_cantilever_mm": 55.0,
+      "effective_width_mm": 50.0,
+      "height_mm": 90.0,
+      "manufacturability": "SIMPLE_FLAT_PLATE",
+      "name": "MINIMUM_RECTANGLE",
+      "serviceability": 6,
+      "tool_clearance_mm": 8.0,
+      "width_mm": 65.0
+    },
+    "P2": {
+      "area_factor": 0.95,
+      "effective_cantilever_mm": 45.0,
+      "effective_width_mm": 75.0,
+      "height_mm": 130.0,
+      "manufacturability": "SIMPLE_FLAT_PLATE",
+      "name": "LOWER_EXTENSION",
+      "serviceability": 8,
+      "tool_clearance_mm": 12.0,
+      "width_mm": 75.0
+    },
+    "P3": {
+      "area_factor": 0.68,
+      "effective_cantilever_mm": 38.0,
+      "effective_width_mm": 90.0,
+      "height_mm": 140.0,
+      "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+      "name": "INTEGRAL_TRIANGULAR_GUSSET",
+      "serviceability": 9,
+      "tool_clearance_mm": 14.0,
+      "width_mm": 95.0
+    },
+    "P4": {
+      "area_factor": 0.82,
+      "effective_cantilever_mm": 48.0,
+      "effective_width_mm": 70.0,
+      "height_mm": 120.0,
+      "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+      "name": "FLAT_SERVICE_NOTCHED_PLATE",
+      "serviceability": 10,
+      "tool_clearance_mm": 11.0,
+      "width_mm": 80.0
+    }
+  },
+  "plate_contract": {
+    "continuous_center_plate": "PROHIBITED",
+    "edge_distance_rule_mm": 10.0,
+    "hole_geometry_status": "PARAMETRIC_PLACEHOLDERS_NOT_FOR_MANUFACTURING",
+    "hole_spacing_rule_mm": 20.0,
+    "left_right_independent": true,
+    "load_bearing_printed_plate": "PROHIBITED",
+    "mirrored_hole_pattern": true,
+    "recommended_candidate": "P3-A5052-T5",
+    "recommended_material": {
+      "availability": "VERIFY_LOCAL_SUPPLIER",
+      "corrosion": "GOOD_CANDIDATE",
+      "density_kg_mm3": 2.68e-06,
+      "elastic_modulus_mpa": 69000.0,
+      "label": "A5052-P candidate",
+      "machining": "GOOD",
+      "property_source": "PARAMETRIC_CANDIDATE_INPUT_NOT_MATERIAL_CERTIFICATE",
+      "thickness_mm": 5.0,
+      "yield_min_mpa": 140.0,
+      "yield_range_mpa": [
+        140.0,
+        195.0
+      ]
+    },
+    "recommended_outline": {
+      "area_factor": 0.68,
+      "effective_cantilever_mm": 38.0,
+      "effective_width_mm": 90.0,
+      "height_mm": 140.0,
+      "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+      "name": "INTEGRAL_TRIANGULAR_GUSSET",
+      "serviceability": 9,
+      "tool_clearance_mm": 14.0,
+      "width_mm": 95.0
+    },
+    "shaft_alignment_limit": "ALIGNMENT_LIMIT_HOLD",
+    "thickness_mm": 5.0
+  },
+  "protected_parents": {
+    "v008": {
+      "hashes": {
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-INSPECTION.step": {
+          "actual_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+          "expected_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-OVERVIEW.svg": {
+          "actual_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+          "expected_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/build_common_rover_front_drive_dual_pto_v008.py": {
+          "actual_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+          "expected_sha256": "2d44b5fefdf32dd916c5a9cb61e153d6dabfbcffd6b20120b67b43c7eed8a3e7",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_aluminum_allocation_v008.csv": {
+          "actual_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+          "expected_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_design_authority_v008.md": {
+          "actual_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+          "expected_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_matrix_v008.csv": {
+          "actual_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+          "expected_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_report_v008.json": {
+          "actual_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+          "expected_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_parameters_v008.json": {
+          "actual_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+          "expected_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_validation_v008.json": {
+          "actual_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+          "expected_sha256": "903f69f5a87f18ebd49e97d30aa46813a9f1a793a678ac0ca39da7140ecec3c7",
+          "match": true
+        },
+        "tests/test_common_rover_front_drive_dual_pto_v008_contract.py": {
+          "actual_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+          "expected_sha256": "4f6e9aea39e2c501a959f3fecfd6f24e8fe130976563ac786cea72b14722a78b",
+          "match": true
+        }
+      },
+      "label": "V0.8",
+      "path_count": 10,
+      "status": "PASS_EMBEDDED_CANONICAL_HASH_SET"
+    },
+    "v0081": {
+      "hashes": {
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/MANIFEST.txt": {
+          "actual_sha256": "274f4201024c02d8841a38f44ccdffe3c02b737ca9d9848da6157a2fb1a7e1ea",
+          "expected_sha256": "274f4201024c02d8841a38f44ccdffe3c02b737ca9d9848da6157a2fb1a7e1ea",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/README_HANDOFF.md": {
+          "actual_sha256": "1075568caa0dd91ca0203efa61e25dba62a104c2e8fed7db2d0f9fbdd397b8b5",
+          "expected_sha256": "1075568caa0dd91ca0203efa61e25dba62a104c2e8fed7db2d0f9fbdd397b8b5",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/SHA256SUMS.txt": {
+          "actual_sha256": "7933f18b7bf951b2efe403d1999fbc5baf64184ac0c4de93758f36013b7038a4",
+          "expected_sha256": "7933f18b7bf951b2efe403d1999fbc5baf64184ac0c4de93758f36013b7038a4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-ALTERNATIVE-A-MIN-CHANGE.step": {
+          "actual_sha256": "d63e2507d013c679fd9b99ee6163c0b087865efa95af94821700a977910754f4",
+          "expected_sha256": "d63e2507d013c679fd9b99ee6163c0b087865efa95af94821700a977910754f4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-ALTERNATIVE-B-PLATE6.step": {
+          "actual_sha256": "fad11eca06f1dbb9c3239f91c225dea79fd35917e701695bded9ed1daddf0128",
+          "expected_sha256": "fad11eca06f1dbb9c3239f91c225dea79fd35917e701695bded9ed1daddf0128",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-INSPECTION.step": {
+          "actual_sha256": "31f9d8457fa8c29f7b366002e42ff2d3a9aff586c326fdf7e36d5f3a2f3d597e",
+          "expected_sha256": "31f9d8457fa8c29f7b366002e42ff2d3a9aff586c326fdf7e36d5f3a2f3d597e",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V0081-OVERVIEW.svg": {
+          "actual_sha256": "30ba6d1c098ee2587fc070514a122c640aaca7bec8c3ed0dcf702e146021a9a0",
+          "expected_sha256": "30ba6d1c098ee2587fc070514a122c640aaca7bec8c3ed0dcf702e146021a9a0",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/build_common_rover_front_drive_dual_pto_v0081.py": {
+          "actual_sha256": "605b61d2d9d228c98e23017cbcd92f546a40a84536776378d476954e8d64e38a",
+          "expected_sha256": "605b61d2d9d228c98e23017cbcd92f546a40a84536776378d476954e8d64e38a",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_aluminum_allocation_v0081.csv": {
+          "actual_sha256": "f306713f4b1d3d91d3e9d217ff87a5b98c472bc5f5f09731ee6dfe7d37a0a609",
+          "expected_sha256": "f306713f4b1d3d91d3e9d217ff87a5b98c472bc5f5f09731ee6dfe7d37a0a609",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_baseline_v0081.json": {
+          "actual_sha256": "ac48cd657f0112feecdd47baa6471aef1a9afb5973ee478ddeabdf281027456a",
+          "expected_sha256": "ac48cd657f0112feecdd47baa6471aef1a9afb5973ee478ddeabdf281027456a",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_candidate_ranking_v0081.csv": {
+          "actual_sha256": "7e76c61a4ada9abf602450657823fa6e9096114de826b139c7e09e376c237700",
+          "expected_sha256": "7e76c61a4ada9abf602450657823fa6e9096114de826b139c7e09e376c237700",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_design_authority_v0081.md": {
+          "actual_sha256": "14278cdb96f025c4aa3b348dbfb0c77e9aad8966862eaf44634d701b11d3c0a4",
+          "expected_sha256": "14278cdb96f025c4aa3b348dbfb0c77e9aad8966862eaf44634d701b11d3c0a4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_interference_matrix_v0081.csv": {
+          "actual_sha256": "b9d008c73d0ad1a4038d96db3b47abd023d76e3f14662278db42996062a63e96",
+          "expected_sha256": "b9d008c73d0ad1a4038d96db3b47abd023d76e3f14662278db42996062a63e96",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_interference_report_v0081.json": {
+          "actual_sha256": "cc713f7f9802f481998deaa375cbcb32c982ebd3a45480ef876846396116cba4",
+          "expected_sha256": "cc713f7f9802f481998deaa375cbcb32c982ebd3a45480ef876846396116cba4",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_parameters_v0081.json": {
+          "actual_sha256": "e84071c3bef8ac4a1e65df8ad7caf4cb80e1caa8c59698d676cc82a7be4bf461",
+          "expected_sha256": "e84071c3bef8ac4a1e65df8ad7caf4cb80e1caa8c59698d676cc82a7be4bf461",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_search_candidates_v0081.csv": {
+          "actual_sha256": "2a48b8e614e75a98a8fa6a87bd841eea5714a9d14cfb3e8372c920f1eea120ae",
+          "expected_sha256": "2a48b8e614e75a98a8fa6a87bd841eea5714a9d14cfb3e8372c920f1eea120ae",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/common_rover_front_drive_dual_pto_validation_v0081.json": {
+          "actual_sha256": "d096894c58c01768a97a38820dcc90d9fd20554184a84d12c858273a97a337d5",
+          "expected_sha256": "d096894c58c01768a97a38820dcc90d9fd20554184a84d12c858273a97a337d5",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/test_results_v0081.txt": {
+          "actual_sha256": "e645b41d30600252cce54ee93d892233e9f1b57ede04c11dce7ce4813f71aa85",
+          "expected_sha256": "e645b41d30600252cce54ee93d892233e9f1b57ede04c11dce7ce4813f71aa85",
+          "match": true
+        },
+        "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_1/tests/test_common_rover_front_drive_dual_pto_v0081_contract.py": {
+          "actual_sha256": "f76b288de233ff0f370f2dd18a47b8e208e97a2a0e1646cf375c44a351fd81ee",
+          "expected_sha256": "f76b288de233ff0f370f2dd18a47b8e208e97a2a0e1646cf375c44a351fd81ee",
+          "match": true
+        }
+      },
+      "label": "V0.8.1",
+      "path_count": 19,
+      "status": "PASS_EMBEDDED_CANONICAL_HASH_SET"
+    }
+  },
+  "recommended_candidate": {
+    "added_parts": 2,
+    "candidate_id": "P3-A5052-T5",
+    "candidate_safety_factor": 2.0218,
+    "fastener_count": 6,
+    "frame_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+    "kp000_hole_pattern_status": "PART_MEASUREMENT_REQUIRED",
+    "manufacturability": "FLAT_PROFILE_CUT_NO_BENDING",
+    "material": "A5052-P candidate",
+    "minimum_edge_distance": 10.0,
+    "minimum_hole_spacing": 20.0,
+    "nominal_belt_clearance": 15.0,
+    "outline_type": "INTEGRAL_TRIANGULAR_GUSSET",
+    "plate_deflection": 0.1932,
+    "plate_height": 140.0,
+    "plate_mass": 0.12119,
+    "plate_width": 95.0,
+    "rejection_reason": "",
+    "removable_as_unit": "YES_CANDIDATE",
+    "residual_belt_clearance": 9.8068,
+    "serviceability": 9,
+    "shaft_center_deflection": 0.1932,
+    "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+    "thickness": 5.0,
+    "tool_clearance": 14.0
+  },
+  "replacement_sequence": [
+    "Recheck shaft rotation and center movement under candidate belt tension.",
+    "Install the belt.",
+    "Install the 60T pulley and axial collars.",
+    "Rotate each shaft again and record the change.",
+    "Tighten plate-to-frame fasteners.",
+    "Tighten KP000 fasteners incrementally and diagonally.",
+    "Snug plate-to-frame fasteners.",
+    "Adjust until binding is minimized; limits remain ALIGNMENT_LIMIT_HOLD.",
+    "Rotate each shaft by hand.",
+    "Pass each independent PTO shaft through its inner and outer KP000 pair.",
+    "Loosely fasten each KP000 to its plate.",
+    "Loosely fasten left and right plates independently."
+  ],
+  "schema": "paddy_swarm.common_rover.kp000_support_plate.v0.8.2",
+  "tool_access": {
+    "actual_tool_envelope": "PART_MEASUREMENT_REQUIRED",
+    "nominal_candidate_clearance_mm": 14.0,
+    "strategy": "ACTIVE_TOOL_INSERTION_ALONG_X",
+    "target_mm": 10.0
+  },
+  "v0081_fixed_candidate": {
+    "candidate_id": "S2-REF-T5-BP2.00-OP5.50",
+    "drive_belt_fasteners_mm": 19.5,
+    "drive_belt_frame_mm": 15.5,
+    "drive_belt_plane_y_mm": [
+      -119.0,
+      119.0
+    ],
+    "drive_residual_mm": 10.5,
+    "inner_kp000_axis_y_mm": [
+      -14.0,
+      14.0
+    ],
+    "inner_support_plate_thickness_mm": 5.0,
+    "outer_kp000_axis_y_mm": [
+      -87.5,
+      87.5
+    ],
+    "pto_60t_fixed_mm": 13.0,
+    "pto_belt_fasteners_mm": 20.0,
+    "pto_belt_frame_mm": 15.0,
+    "pto_belt_plane_y_mm": [
+      -47.0,
+      47.0
+    ],
+    "pto_belt_wiring_mm": 21.5,
+    "pto_output_end_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "pto_residual_mm": 10.0,
+    "total_width_mm": 290.0,
+    "track_dynamic_upper_mm": 10.0
+  }
+}

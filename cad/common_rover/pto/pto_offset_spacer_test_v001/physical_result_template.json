@@ -1,0 +1,51 @@
+{
+  "candidates": {
+    "P20": {
+      "20t_interference": "PENDING",
+      "frame_interference": "PENDING",
+      "kp000_interference": "PENDING",
+      "minimum_full_rotation_clearance_mm": null,
+      "photo_id": null,
+      "printed_actual_length_mm": null,
+      "remaining_clutch_corridor_mm": null,
+      "result": "HOLD",
+      "static_60t_clearance_mm": null,
+      "tool_access": "PENDING"
+    },
+    "P22": {
+      "20t_interference": "PENDING",
+      "frame_interference": "PENDING",
+      "kp000_interference": "PENDING",
+      "minimum_full_rotation_clearance_mm": null,
+      "photo_id": null,
+      "printed_actual_length_mm": null,
+      "remaining_clutch_corridor_mm": null,
+      "result": "HOLD",
+      "static_60t_clearance_mm": null,
+      "tool_access": "PENDING"
+    },
+    "P25": {
+      "20t_interference": "PENDING",
+      "frame_interference": "PENDING",
+      "kp000_interference": "PENDING",
+      "minimum_full_rotation_clearance_mm": null,
+      "photo_id": null,
+      "printed_actual_length_mm": null,
+      "remaining_clutch_corridor_mm": null,
+      "result": "HOLD",
+      "static_60t_clearance_mm": null,
+      "tool_access": "PENDING"
+    }
+  },
+  "gauges_removed_before_rotation": "PENDING",
+  "identified_face_A": null,
+  "identified_face_B": null,
+  "independently_secured_assembly": "PENDING",
+  "kp000_flush_to_intended_datum": "PENDING",
+  "measured_offset_direction": null,
+  "member_end_local_datum_used": "PENDING",
+  "promotion": "PHYSICAL_TEST_PENDING",
+  "selected_shortest_candidate": null,
+  "selection_reason": null,
+  "structural_load_authority": "NOT_APPROVED"
+}

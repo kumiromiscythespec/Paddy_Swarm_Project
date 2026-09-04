@@ -1,0 +1,22 @@
+Common Rover v0.9.2 deterministic verification record
+document_id=PS-CR-INWARD-PTO-COUPLING-V092
+validation=63/63 PASS
+interference=27/27 PASS intersections=0
+step_and_dummy_semantic=7/7 PASS
+svg_documents=7/7 PASS
+csv_tables=12/12 STRUCTURAL_VERIFICATION_REQUIRED_AFTER_GENERATION
+parent_v008_to_v0085=124 paths protected
+parent_v090=38 paths protected
+parent_v091=37 paths protected
+package_paths=45
+contract_tests=55/55 PASS
+geometry_envelope=CONDITIONAL_PASS_CANDIDATE
+physical_fit=HOLD
+coupling_part_selection=CRITICAL_HOLD
+shaft_cutting=HOLD
+machining=HOLD
+load_test=HOLD
+powered_rotation=HOLD
+water_mud_test=HOLD
+field_deployment=NOT_APPROVED
+manufacturing=NOT_FOR_MANUFACTURING

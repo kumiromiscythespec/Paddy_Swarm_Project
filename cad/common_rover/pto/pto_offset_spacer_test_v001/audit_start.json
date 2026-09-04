@@ -1,0 +1,114 @@
+{
+  "repository": "D:\\Paddy_Swarm_Project",
+  "branch": "agent/organize-untracked-cad-assets-20260725",
+  "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+  "staged_count": 0,
+  "tracked_dirty_count": 4,
+  "untracked_count": 4355,
+  "untracked_paths_sha256": "fe5ad1027923de57f3daeab462ff71c6ac8a91cc7816050a733a95ad5090790f",
+  "untracked_bytes_sha256": "8c4b8c29624b687c90008cec4fad15b21bc6900f764538bd900191ab941bb9f9",
+  "dirty": {
+    "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+    "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+    "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+    "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+  },
+  "protected": {
+    "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {
+      "files": 55,
+      "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"
+    },
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v003": {
+      "files": 46,
+      "sha256": "53fc8b3504a6f856ee110a669cf561221d5c6ff1b7f60b27186b00c9fdff9c70"
+    },
+    "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {
+      "files": 47,
+      "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"
+    },
+    "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {
+      "files": 37,
+      "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"
+    },
+    "cad/common_rover/bbox/bbox_field_box_goldenmate_v001": {
+      "files": 1,
+      "sha256": "c9010845e8ab4680a273d1ddd7464c9231ec71d0b4d9aee2a412fc5677d42332"
+    },
+    "cad/common_rover/bbox/bbox_tall_field_body_goldenmate_v002": {
+      "files": 1,
+      "sha256": "82f3e9ae2c9f61c0291783a9bb1845cf143a3677f1217ed046739b6821ff63c4"
+    },
+    "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+      "files": 45,
+      "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+    },
+    "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+      "files": 18,
+      "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+    },
+    "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {
+      "files": 37,
+      "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481"
+    },
+    "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+      "files": 53,
+      "sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+    },
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+      "files": 66,
+      "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+    },
+    "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26": {
+      "files": 45,
+      "sha256": "c8954045f43a1d82440c169d3c60380eda08ee88b401aa44c95b2dd903ee267e"
+    },
+    "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003": {
+      "files": 29,
+      "sha256": "4e25c6f456aaae2aedd147cdb2d1bfd8268715f507184dbea2432d1ac0a114cf"
+    },
+    "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001": {
+      "files": 28,
+      "sha256": "89f3878136014c68a03ba7b15615db23e2c0bacbb0626446c450e9143658f87a"
+    },
+    "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001": {
+      "files": 29,
+      "sha256": "77be5e617d5e8c3a27ee5246d3b12b065759c5a83ee033470823c8c19688b601"
+    },
+    "cad/common_rover/frame/front_interface_dual_pto_20t_v001": {
+      "files": 30,
+      "sha256": "62f630cc61c2c34f41db4adf9638a32bfd45e24c3069b24bea254a89155a2952"
+    },
+    "cad/common_rover/frame/front_interface_dual_pto_20t_v002": {
+      "files": 26,
+      "sha256": "3bc425b0e857dc921f602d7fd594d9c60e0d6f70640498483ed8aa2260534d28"
+    },
+    "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+      "files": 12,
+      "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+    },
+    "cad/common_rover/physical_authority/common_rover_electrical_hardware_physical_authority_v001": {
+      "files": 11,
+      "sha256": "22169c9bca3cb63c5b7c6f5707e2cc49a57770cde6b3404e5dcf5d4d3f1676c0"
+    },
+    "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+      "files": 12,
+      "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+    },
+    "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {
+      "files": 15,
+      "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"
+    },
+    "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001": {
+      "files": 20,
+      "sha256": "db7eaab1f104a97be7676aa058704c4bc1f049c8d6b14e6017cd05fc56aab3f1"
+    },
+    "cad/common_rover/pto/pto_axial_shim_spacer_test_v001": {
+      "files": 21,
+      "sha256": "0fd3d0c4f0d22b77a30a042efed6b517b57755a493f2496c0a8572faf6266723"
+    },
+    "cad/common_rover/pto_servo_sliding_idler_clutch_v001": {
+      "files": 39,
+      "sha256": "52c15cae54dbe8d4d336556df95b74b070b9ae40109271eb4d62dae4f1c78a43"
+    }
+  }
+}

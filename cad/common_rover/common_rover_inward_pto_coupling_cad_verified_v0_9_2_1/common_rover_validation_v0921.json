@@ -1,0 +1,163 @@
+{
+  "authority_update_gate": "PASS",
+  "check_count": 38,
+  "checks": [
+    {
+      "name": "parent_baseline_pass",
+      "passed": true
+    },
+    {
+      "name": "named_shapes_unique",
+      "passed": true
+    },
+    {
+      "name": "required_named_shapes_exist",
+      "passed": true
+    },
+    {
+      "name": "canaries_all_pass",
+      "passed": true
+    },
+    {
+      "name": "canary_overlap",
+      "passed": true
+    },
+    {
+      "name": "canary_touch",
+      "passed": true
+    },
+    {
+      "name": "canary_gap_5",
+      "passed": true
+    },
+    {
+      "name": "canary_gap_10",
+      "passed": true
+    },
+    {
+      "name": "canary_sweep_collision",
+      "passed": true
+    },
+    {
+      "name": "actual_rows_nonempty",
+      "passed": true
+    },
+    {
+      "name": "actual_intersection_api",
+      "passed": true
+    },
+    {
+      "name": "actual_distance_api",
+      "passed": true
+    },
+    {
+      "name": "actual_nearest_points",
+      "passed": true
+    },
+    {
+      "name": "central_no_error",
+      "passed": true
+    },
+    {
+      "name": "central_no_fail",
+      "passed": true
+    },
+    {
+      "name": "retracted_tested",
+      "passed": true
+    },
+    {
+      "name": "partial_tested",
+      "passed": true
+    },
+    {
+      "name": "engaged_tested",
+      "passed": true
+    },
+    {
+      "name": "full_sweep_tested",
+      "passed": true
+    },
+    {
+      "name": "sweep_interval_le_0_5",
+      "passed": true
+    },
+    {
+      "name": "sampled_sweep_no_error",
+      "passed": true
+    },
+    {
+      "name": "sampled_sweep_no_fail",
+      "passed": true
+    },
+    {
+      "name": "two_test_shafts",
+      "passed": true
+    },
+    {
+      "name": "no_continuous_test_shaft",
+      "passed": true
+    },
+    {
+      "name": "dry_fit_center_gap_36",
+      "passed": true
+    },
+    {
+      "name": "left_stub_12_5",
+      "passed": true
+    },
+    {
+      "name": "right_stub_12_5",
+      "passed": true
+    },
+    {
+      "name": "stroke_10",
+      "passed": true
+    },
+    {
+      "name": "engagement_reference_8",
+      "passed": true
+    },
+    {
+      "name": "engagement_overlap_satisfies",
+      "passed": true
+    },
+    {
+      "name": "dry_fit_states_nine",
+      "passed": true
+    },
+    {
+      "name": "independent_unit_inputs",
+      "passed": true
+    },
+    {
+      "name": "total_width_under_300",
+      "passed": true
+    },
+    {
+      "name": "physical_fit_hold",
+      "passed": true
+    },
+    {
+      "name": "load_capacity_hold",
+      "passed": true
+    },
+    {
+      "name": "powered_test_not_approved",
+      "passed": true
+    },
+    {
+      "name": "manufacturing_hold",
+      "passed": true
+    },
+    {
+      "name": "field_not_approved",
+      "passed": true
+    }
+  ],
+  "document_id": "PS-CR-INWARD-PTO-CAD-VERIFIED-V0921",
+  "failed_checks": [],
+  "failed_count": 0,
+  "passed_count": 38,
+  "status": "PASS"
+}

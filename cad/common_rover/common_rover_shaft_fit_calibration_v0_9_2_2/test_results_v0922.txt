@@ -1,0 +1,16 @@
+Common Rover v0.9.2.2 generated contract evidence
+builder_verify_expected: PASS
+package_path_contract: 45/45 PASS
+positioning_candidates: 6/6 PASS
+sliding_candidates: 7/7 PASS
+individual_STL_reload: 19/19 PASS
+plate_STL_reload: 3/3 PASS
+STEP_reload: 3/3 PASS
+actual_A_B_shape_contracts: 13/13 PASS
+plate_A_B_minimum_spacing: >=10mm PASS
+contract_test: 50/50 PASS
+authority_pointer: UNCHANGED_V0_9_2_1
+physical_test: NOT_PERFORMED
+selection: PHYSICAL_TEST_REQUIRED
+powered_test: NOT_APPROVED
+manufacturing: HOLD

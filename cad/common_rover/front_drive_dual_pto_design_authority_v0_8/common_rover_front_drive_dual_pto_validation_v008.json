@@ -1,0 +1,3451 @@
+{
+  "authority_status": "FIXED_SPEC_WITH_LAYOUT_AND_MEASUREMENT_HOLDS",
+  "component_registry": [
+    {
+      "bbox_mm": [
+        125.0,
+        180.0,
+        120.0
+      ],
+      "center_mm": [
+        -212.5,
+        0.0,
+        275.0
+      ],
+      "component_id": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        125.0,
+        180.0,
+        120.0
+      ],
+      "center_mm": [
+        -75.0,
+        0.0,
+        275.0
+      ],
+      "component_id": "BATTERY_CASSETTE_REFERENCE",
+      "role": "FIXED_EXTERNAL_DIMENSION_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        150.0,
+        220.0,
+        150.0
+      ],
+      "center_mm": [
+        -75.0,
+        0.0,
+        275.0
+      ],
+      "component_id": "BBOX",
+      "role": "FIXED_EXTERNAL_DIMENSION_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        150.0,
+        220.0,
+        50.0
+      ],
+      "center_mm": [
+        -75.0,
+        0.0,
+        375.0
+      ],
+      "component_id": "BBOX_LID_SERVICE_ENVELOPE",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        -135.0,
+        0.0,
+        190.0
+      ],
+      "component_id": "BOX_SUPPORT_2020_1",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        -15.0,
+        0.0,
+        190.0
+      ],
+      "component_id": "BOX_SUPPORT_2020_2",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        35.0,
+        0.0,
+        190.0
+      ],
+      "component_id": "BOX_SUPPORT_2020_3",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        145.0,
+        0.0,
+        190.0
+      ],
+      "component_id": "BOX_SUPPORT_2020_4",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        130.0,
+        140.0,
+        105.0
+      ],
+      "center_mm": [
+        85.0,
+        0.0,
+        252.5
+      ],
+      "component_id": "CBOX",
+      "role": "FIXED_EXTERNAL_DIMENSION_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        130.0,
+        140.0,
+        50.0
+      ],
+      "center_mm": [
+        85.0,
+        0.0,
+        330.0
+      ],
+      "component_id": "CBOX_LID_SERVICE_ENVELOPE",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        390.0,
+        70.0,
+        350.0
+      ],
+      "component_id": "FASTENER_RESERVED_PTO_SUPPORT_LEFT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        390.0,
+        -70.0,
+        350.0
+      ],
+      "component_id": "FASTENER_RESERVED_PTO_SUPPORT_RIGHT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        250.0,
+        68.0,
+        246.0
+      ],
+      "component_id": "FASTENER_RESERVED_ROOT_LEFT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        250.0,
+        -68.0,
+        246.0
+      ],
+      "component_id": "FASTENER_RESERVED_ROOT_RIGHT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        280.0,
+        84.0,
+        147.0
+      ],
+      "component_id": "FASTENER_RESERVED_TRACK_FRONT_LEFT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        280.0,
+        -84.0,
+        147.0
+      ],
+      "component_id": "FASTENER_RESERVED_TRACK_FRONT_RIGHT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        -120.0,
+        84.0,
+        147.0
+      ],
+      "component_id": "FASTENER_RESERVED_TRACK_REAR_LEFT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "center_mm": [
+        -120.0,
+        -84.0,
+        147.0
+      ],
+      "component_id": "FASTENER_RESERVED_TRACK_REAR_RIGHT",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        140.0,
+        31.0,
+        300.0
+      ],
+      "center_mm": [
+        290.0,
+        119.0,
+        245.0
+      ],
+      "component_id": "LEFT_DRIVE_BELT_ENVELOPE",
+      "role": "SAFETY_SWEEP_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        35.0,
+        20.0,
+        35.0
+      ],
+      "center_mm": [
+        267.0,
+        119.0,
+        262.5
+      ],
+      "component_id": "LEFT_DRIVE_TENSIONER_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        70.0,
+        55.0,
+        70.0
+      ],
+      "center_mm": [
+        300.0,
+        115.5,
+        155.0
+      ],
+      "component_id": "LEFT_FRONT_UPPER_DRIVE_WHEEL",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        0.0,
+        115.5,
+        45.0
+      ],
+      "component_id": "LEFT_LOWER_ROLLER_1",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        70.0,
+        115.5,
+        45.0
+      ],
+      "component_id": "LEFT_LOWER_ROLLER_2",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        140.0,
+        115.5,
+        45.0
+      ],
+      "component_id": "LEFT_LOWER_ROLLER_3",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        210.0,
+        115.5,
+        45.0
+      ],
+      "component_id": "LEFT_LOWER_ROLLER_4",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        60.0,
+        70.0,
+        60.0
+      ],
+      "center_mm": [
+        205.0,
+        105.0,
+        370.0
+      ],
+      "component_id": "LEFT_MOTOR_RESERVED_ENVELOPE",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        165.747,
+        67.1565,
+        20.0
+      ],
+      "center_mm": [
+        330.0,
+        44.0,
+        230.0
+      ],
+      "component_id": "LEFT_PTO_2020_DIAGONAL",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        170.0,
+        20.0,
+        20.0
+      ],
+      "center_mm": [
+        335.0,
+        68.0,
+        230.0
+      ],
+      "component_id": "LEFT_PTO_2020_SPAR",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        120.0,
+        25.0,
+        120.0
+      ],
+      "center_mm": [
+        390.0,
+        45.0,
+        370.0
+      ],
+      "component_id": "LEFT_PTO_60T_ROTATION_ENVELOPE",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        220.0,
+        31.0,
+        120.0
+      ],
+      "center_mm": [
+        340.0,
+        45.0,
+        370.0
+      ],
+      "component_id": "LEFT_PTO_BELT_ENVELOPE",
+      "role": "SAFETY_SWEEP_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        15.0,
+        35.0
+      ],
+      "center_mm": [
+        390.0,
+        14.0,
+        370.0
+      ],
+      "component_id": "LEFT_PTO_INNER_KP000_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        10.0
+      ],
+      "center_mm": [
+        390.0,
+        14.0,
+        350.0
+      ],
+      "component_id": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        20.0,
+        110.0
+      ],
+      "center_mm": [
+        390.0,
+        14.0,
+        295.0
+      ],
+      "component_id": "LEFT_PTO_INNER_VERTICAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        15.0,
+        35.0
+      ],
+      "center_mm": [
+        390.0,
+        82.0,
+        370.0
+      ],
+      "component_id": "LEFT_PTO_OUTER_KP000_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        10.0
+      ],
+      "center_mm": [
+        390.0,
+        82.0,
+        350.0
+      ],
+      "component_id": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        20.0,
+        110.0
+      ],
+      "center_mm": [
+        390.0,
+        82.0,
+        295.0
+      ],
+      "component_id": "LEFT_PTO_OUTER_VERTICAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        34.0,
+        55.5,
+        34.0
+      ],
+      "center_mm": [
+        390.0,
+        117.25,
+        370.0
+      ],
+      "component_id": "LEFT_PTO_OUTPUT_SHAFT_AND_COUPLING_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        40.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        250.0,
+        68.0,
+        215.0
+      ],
+      "component_id": "LEFT_PTO_ROOT_METAL_GUSSET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        35.0
+      ],
+      "center_mm": [
+        325.0,
+        45.0,
+        409.5
+      ],
+      "component_id": "LEFT_PTO_TENSIONER_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        70.0,
+        55.0,
+        70.0
+      ],
+      "center_mm": [
+        -100.0,
+        115.5,
+        155.0
+      ],
+      "component_id": "LEFT_REAR_UPPER_IDLER",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        60.0,
+        50.0
+      ],
+      "center_mm": [
+        245.0,
+        62.0,
+        370.0
+      ],
+      "component_id": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        64.1421,
+        20.0,
+        64.1421
+      ],
+      "center_mm": [
+        255.0,
+        78.0,
+        85.0
+      ],
+      "component_id": "LEFT_TRACK_FRONT_DIAGONAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        260.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        100.0,
+        78.0,
+        40.0
+      ],
+      "component_id": "LEFT_TRACK_LOWER_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        99.7129,
+        20.0,
+        67.4831
+      ],
+      "center_mm": [
+        -75.0,
+        78.0,
+        85.0
+      ],
+      "component_id": "LEFT_TRACK_REAR_DIAGONAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        400.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        80.0,
+        78.0,
+        130.0
+      ],
+      "component_id": "LEFT_TRACK_UPPER_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        400.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        50.0,
+        68.0,
+        180.0
+      ],
+      "component_id": "LEFT_UPPER_MAIN_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        420.0,
+        0.0,
+        230.0
+      ],
+      "component_id": "PTO_FRONT_2020_CROSSBAR",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        40.0,
+        156.0,
+        20.0
+      ],
+      "center_mm": [
+        250.0,
+        0.0,
+        230.0
+      ],
+      "component_id": "PTO_ROOT_2040_CROSSMEMBER",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        40.0,
+        156.0,
+        40.0
+      ],
+      "center_mm": [
+        -140.0,
+        0.0,
+        180.0
+      ],
+      "component_id": "REAR_2040_CROSSMEMBER",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        140.0,
+        31.0,
+        300.0
+      ],
+      "center_mm": [
+        290.0,
+        -119.0,
+        245.0
+      ],
+      "component_id": "RIGHT_DRIVE_BELT_ENVELOPE",
+      "role": "SAFETY_SWEEP_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        35.0,
+        20.0,
+        35.0
+      ],
+      "center_mm": [
+        267.0,
+        -119.0,
+        262.5
+      ],
+      "component_id": "RIGHT_DRIVE_TENSIONER_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        70.0,
+        55.0,
+        70.0
+      ],
+      "center_mm": [
+        300.0,
+        -115.5,
+        155.0
+      ],
+      "component_id": "RIGHT_FRONT_UPPER_DRIVE_WHEEL",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        0.0,
+        -115.5,
+        45.0
+      ],
+      "component_id": "RIGHT_LOWER_ROLLER_1",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        70.0,
+        -115.5,
+        45.0
+      ],
+      "component_id": "RIGHT_LOWER_ROLLER_2",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        140.0,
+        -115.5,
+        45.0
+      ],
+      "component_id": "RIGHT_LOWER_ROLLER_3",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        55.0,
+        50.0
+      ],
+      "center_mm": [
+        210.0,
+        -115.5,
+        45.0
+      ],
+      "component_id": "RIGHT_LOWER_ROLLER_4",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        60.0,
+        70.0,
+        60.0
+      ],
+      "center_mm": [
+        205.0,
+        -105.0,
+        370.0
+      ],
+      "component_id": "RIGHT_MOTOR_RESERVED_ENVELOPE",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        165.747,
+        67.1565,
+        20.0
+      ],
+      "center_mm": [
+        330.0,
+        -44.0,
+        230.0
+      ],
+      "component_id": "RIGHT_PTO_2020_DIAGONAL",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        170.0,
+        20.0,
+        20.0
+      ],
+      "center_mm": [
+        335.0,
+        -68.0,
+        230.0
+      ],
+      "component_id": "RIGHT_PTO_2020_SPAR",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        120.0,
+        25.0,
+        120.0
+      ],
+      "center_mm": [
+        390.0,
+        -45.0,
+        370.0
+      ],
+      "component_id": "RIGHT_PTO_60T_ROTATION_ENVELOPE",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        220.0,
+        31.0,
+        120.0
+      ],
+      "center_mm": [
+        340.0,
+        -45.0,
+        370.0
+      ],
+      "component_id": "RIGHT_PTO_BELT_ENVELOPE",
+      "role": "SAFETY_SWEEP_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        15.0,
+        35.0
+      ],
+      "center_mm": [
+        390.0,
+        -14.0,
+        370.0
+      ],
+      "component_id": "RIGHT_PTO_INNER_KP000_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        10.0
+      ],
+      "center_mm": [
+        390.0,
+        -14.0,
+        350.0
+      ],
+      "component_id": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        20.0,
+        110.0
+      ],
+      "center_mm": [
+        390.0,
+        -14.0,
+        295.0
+      ],
+      "component_id": "RIGHT_PTO_INNER_VERTICAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        15.0,
+        35.0
+      ],
+      "center_mm": [
+        390.0,
+        -82.0,
+        370.0
+      ],
+      "component_id": "RIGHT_PTO_OUTER_KP000_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        10.0
+      ],
+      "center_mm": [
+        390.0,
+        -82.0,
+        350.0
+      ],
+      "component_id": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        20.0,
+        20.0,
+        110.0
+      ],
+      "center_mm": [
+        390.0,
+        -82.0,
+        295.0
+      ],
+      "component_id": "RIGHT_PTO_OUTER_VERTICAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        34.0,
+        55.5,
+        34.0
+      ],
+      "center_mm": [
+        390.0,
+        -117.25,
+        370.0
+      ],
+      "component_id": "RIGHT_PTO_OUTPUT_SHAFT_AND_COUPLING_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        40.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        250.0,
+        -68.0,
+        215.0
+      ],
+      "component_id": "RIGHT_PTO_ROOT_METAL_GUSSET_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        45.0,
+        20.0,
+        35.0
+      ],
+      "center_mm": [
+        325.0,
+        -45.0,
+        409.5
+      ],
+      "component_id": "RIGHT_PTO_TENSIONER_RESERVED",
+      "role": "NON_AUTHORITY_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        70.0,
+        55.0,
+        70.0
+      ],
+      "center_mm": [
+        -100.0,
+        -115.5,
+        155.0
+      ],
+      "component_id": "RIGHT_REAR_UPPER_IDLER",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        50.0,
+        60.0,
+        50.0
+      ],
+      "center_mm": [
+        245.0,
+        -62.0,
+        370.0
+      ],
+      "component_id": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        64.1421,
+        20.0,
+        64.1421
+      ],
+      "center_mm": [
+        255.0,
+        -78.0,
+        85.0
+      ],
+      "component_id": "RIGHT_TRACK_FRONT_DIAGONAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        260.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        100.0,
+        -78.0,
+        40.0
+      ],
+      "component_id": "RIGHT_TRACK_LOWER_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        99.7129,
+        20.0,
+        67.4831
+      ],
+      "center_mm": [
+        -75.0,
+        -78.0,
+        85.0
+      ],
+      "component_id": "RIGHT_TRACK_REAR_DIAGONAL_2020",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        400.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        80.0,
+        -78.0,
+        130.0
+      ],
+      "component_id": "RIGHT_TRACK_UPPER_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        400.0,
+        20.0,
+        40.0
+      ],
+      "center_mm": [
+        50.0,
+        -68.0,
+        180.0
+      ],
+      "component_id": "RIGHT_UPPER_MAIN_2040",
+      "role": "CANDIDATE_FRAME_OR_RUNNING_GEAR_REFERENCE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        480.0,
+        55.0,
+        175.0
+      ],
+      "center_mm": [
+        100.0,
+        115.5,
+        97.5
+      ],
+      "component_id": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+      "role": "DYNAMIC_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        480.0,
+        55.0,
+        175.0
+      ],
+      "center_mm": [
+        100.0,
+        -115.5,
+        97.5
+      ],
+      "component_id": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+      "role": "DYNAMIC_RESERVED_ENVELOPE",
+      "solid_count": 1,
+      "valid": true
+    }
+  ],
+  "document_id": "PS-CR-FRONT-DRIVE-DUAL-PTO-DESIGN-AUTHORITY-V008",
+  "documents": {
+    "PS-CR-FRONT-DRIVE-DUAL-PTO-V008-OVERVIEW.svg": {
+      "byte_sha256": "b3c8e83eb5baa75944d55f3cab9fb4b24d6f2efffe18d57e5bbc1d2c3c2e4b89",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 4870
+    },
+    "common_rover_front_drive_dual_pto_aluminum_allocation_v008.csv": {
+      "byte_sha256": "13f3bb78f883a5ad9ccefbec3a264389333b30d632e3c77c6bd0c01222c933ab",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 2205
+    },
+    "common_rover_front_drive_dual_pto_design_authority_v008.md": {
+      "byte_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 13573
+    },
+    "common_rover_front_drive_dual_pto_interference_matrix_v008.csv": {
+      "byte_sha256": "8d9b962a879ac210fe36c3e6cf336b8956f904ce2746799c8b0f8bc2d08d0197",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 11500
+    },
+    "common_rover_front_drive_dual_pto_interference_report_v008.json": {
+      "byte_sha256": "dbc8cc70d4dc1fa8ac1ceee0673b7452c658b3d4cedfd2407ae62dfdbf75302e",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 61615
+    },
+    "common_rover_front_drive_dual_pto_parameters_v008.json": {
+      "byte_sha256": "de6400838f25f157c9392a26ded5b3acfb3d7868d028d8e2a4ae5fff49dc0175",
+      "reproducibility": "BYTE_IDENTICAL",
+      "size_bytes": 14164
+    }
+  },
+  "expected_path_count": 10,
+  "expected_paths": [
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-INSPECTION.step",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/artifacts/PS-CR-FRONT-DRIVE-DUAL-PTO-V008-OVERVIEW.svg",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/build_common_rover_front_drive_dual_pto_v008.py",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_aluminum_allocation_v008.csv",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_design_authority_v008.md",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_matrix_v008.csv",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_interference_report_v008.json",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_parameters_v008.json",
+    "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_validation_v008.json",
+    "tests/test_common_rover_front_drive_dual_pto_v008_contract.py"
+  ],
+  "fixed_authority_checks": {
+    "both_boxes_bottom_gte_200": true,
+    "boxes_not_structural": true,
+    "cbox_bbox_short_faces_opposed": true,
+    "clutch_states_exact": true,
+    "crawler_inverted_trapezoid": true,
+    "field_deployment_not_approved": true,
+    "motor_axes_inward": true,
+    "motor_axis_gte_bbox_top": true,
+    "motor_count_2": true,
+    "pto_axis_gte_motor_axis": true,
+    "pto_count_2": true,
+    "pto_forward_of_motor": true,
+    "same_side_drive_pto_simultaneous_prohibited": true,
+    "single_member_max_lte_400": true,
+    "upper_2040_longer_than_lower": true
+  },
+  "geometry": {
+    "all_components_valid": true,
+    "artifact_semantic_signature": {
+      "bbox_mm": [
+        725.0,
+        290.0,
+        420.0
+      ],
+      "center_mm": [
+        87.5,
+        0.0,
+        220.0
+      ],
+      "solid_count": 79,
+      "solids": [
+        {
+          "bbox_mm": [
+            125.0,
+            180.0,
+            120.0
+          ],
+          "center_mm": [
+            -212.5,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 2700000.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            156.0,
+            40.0
+          ],
+          "center_mm": [
+            -140.0,
+            0.0,
+            180.0
+          ],
+          "volume_mm3": 249600.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            -135.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            -120.0,
+            -84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            -120.0,
+            84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            -100.0,
+            -115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            -100.0,
+            115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            99.713,
+            20.0,
+            67.483
+          ],
+          "center_mm": [
+            -75.0,
+            -78.0,
+            85.0
+          ],
+          "volume_mm3": 41182.52
+        },
+        {
+          "bbox_mm": [
+            125.0,
+            180.0,
+            120.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 2700000.0
+        },
+        {
+          "bbox_mm": [
+            150.0,
+            220.0,
+            150.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 4950000.0
+        },
+        {
+          "bbox_mm": [
+            150.0,
+            220.0,
+            50.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            375.0
+          ],
+          "volume_mm3": 1650000.0
+        },
+        {
+          "bbox_mm": [
+            99.713,
+            20.0,
+            67.483
+          ],
+          "center_mm": [
+            -75.0,
+            78.0,
+            85.0
+          ],
+          "volume_mm3": 41182.52
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            -15.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            0.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            0.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            35.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            50.0,
+            -68.0,
+            180.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            50.0,
+            68.0,
+            180.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            70.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            70.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            80.0,
+            -78.0,
+            130.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            80.0,
+            78.0,
+            130.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            130.0,
+            140.0,
+            105.0
+          ],
+          "center_mm": [
+            85.0,
+            0.0,
+            252.5
+          ],
+          "volume_mm3": 1911000.0
+        },
+        {
+          "bbox_mm": [
+            130.0,
+            140.0,
+            50.0
+          ],
+          "center_mm": [
+            85.0,
+            0.0,
+            330.0
+          ],
+          "volume_mm3": 910000.0
+        },
+        {
+          "bbox_mm": [
+            480.0,
+            55.0,
+            175.0
+          ],
+          "center_mm": [
+            100.0,
+            -115.5,
+            97.5
+          ],
+          "volume_mm3": 3946250.0
+        },
+        {
+          "bbox_mm": [
+            260.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            100.0,
+            -78.0,
+            40.0
+          ],
+          "volume_mm3": 208000.0
+        },
+        {
+          "bbox_mm": [
+            260.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            100.0,
+            78.0,
+            40.0
+          ],
+          "volume_mm3": 208000.0
+        },
+        {
+          "bbox_mm": [
+            480.0,
+            55.0,
+            175.0
+          ],
+          "center_mm": [
+            100.0,
+            115.5,
+            97.5
+          ],
+          "volume_mm3": 3946250.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            140.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            140.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            145.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            60.0,
+            70.0,
+            60.0
+          ],
+          "center_mm": [
+            205.0,
+            -105.0,
+            370.0
+          ],
+          "volume_mm3": 197920.34
+        },
+        {
+          "bbox_mm": [
+            60.0,
+            70.0,
+            60.0
+          ],
+          "center_mm": [
+            205.0,
+            105.0,
+            370.0
+          ],
+          "volume_mm3": 197920.34
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            210.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            210.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            60.0,
+            50.0
+          ],
+          "center_mm": [
+            245.0,
+            -62.0,
+            370.0
+          ],
+          "volume_mm3": 150000.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            60.0,
+            50.0
+          ],
+          "center_mm": [
+            245.0,
+            62.0,
+            370.0
+          ],
+          "volume_mm3": 150000.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            250.0,
+            -68.0,
+            215.0
+          ],
+          "volume_mm3": 32000.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            250.0,
+            -68.0,
+            246.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            250.0,
+            0.0,
+            230.0
+          ],
+          "volume_mm3": 124800.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            250.0,
+            68.0,
+            215.0
+          ],
+          "volume_mm3": 32000.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            250.0,
+            68.0,
+            246.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            64.142,
+            20.0,
+            64.142
+          ],
+          "center_mm": [
+            255.0,
+            -78.0,
+            85.0
+          ],
+          "volume_mm3": 28284.27
+        },
+        {
+          "bbox_mm": [
+            64.142,
+            20.0,
+            64.142
+          ],
+          "center_mm": [
+            255.0,
+            78.0,
+            85.0
+          ],
+          "volume_mm3": 28284.27
+        },
+        {
+          "bbox_mm": [
+            35.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            267.0,
+            -119.0,
+            262.5
+          ],
+          "volume_mm3": 24500.0
+        },
+        {
+          "bbox_mm": [
+            35.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            267.0,
+            119.0,
+            262.5
+          ],
+          "volume_mm3": 24500.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            280.0,
+            -84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            280.0,
+            84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            140.0,
+            31.0,
+            300.0
+          ],
+          "center_mm": [
+            290.0,
+            -119.0,
+            245.0
+          ],
+          "volume_mm3": 496959.43
+        },
+        {
+          "bbox_mm": [
+            140.0,
+            31.0,
+            300.0
+          ],
+          "center_mm": [
+            290.0,
+            119.0,
+            245.0
+          ],
+          "volume_mm3": 496959.43
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            300.0,
+            -115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            300.0,
+            115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            325.0,
+            -45.0,
+            409.5
+          ],
+          "volume_mm3": 31500.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            325.0,
+            45.0,
+            409.5
+          ],
+          "volume_mm3": 31500.0
+        },
+        {
+          "bbox_mm": [
+            165.747,
+            67.157,
+            20.0
+          ],
+          "center_mm": [
+            330.0,
+            -44.0,
+            230.0
+          ],
+          "volume_mm3": 66817.96
+        },
+        {
+          "bbox_mm": [
+            165.747,
+            67.157,
+            20.0
+          ],
+          "center_mm": [
+            330.0,
+            44.0,
+            230.0
+          ],
+          "volume_mm3": 66817.96
+        },
+        {
+          "bbox_mm": [
+            170.0,
+            20.0,
+            20.0
+          ],
+          "center_mm": [
+            335.0,
+            -68.0,
+            230.0
+          ],
+          "volume_mm3": 68000.0
+        },
+        {
+          "bbox_mm": [
+            170.0,
+            20.0,
+            20.0
+          ],
+          "center_mm": [
+            335.0,
+            68.0,
+            230.0
+          ],
+          "volume_mm3": 68000.0
+        },
+        {
+          "bbox_mm": [
+            220.0,
+            31.0,
+            120.0
+          ],
+          "center_mm": [
+            340.0,
+            -45.0,
+            370.0
+          ],
+          "volume_mm3": 443066.91
+        },
+        {
+          "bbox_mm": [
+            220.0,
+            31.0,
+            120.0
+          ],
+          "center_mm": [
+            340.0,
+            45.0,
+            370.0
+          ],
+          "volume_mm3": 443066.91
+        },
+        {
+          "bbox_mm": [
+            34.0,
+            55.5,
+            34.0
+          ],
+          "center_mm": [
+            390.0,
+            -117.25,
+            370.0
+          ],
+          "volume_mm3": 50389.58
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            390.0,
+            -70.0,
+            350.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            120.0,
+            25.0,
+            120.0
+          ],
+          "center_mm": [
+            390.0,
+            -45.0,
+            370.0
+          ],
+          "volume_mm3": 282743.34
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            120.0,
+            25.0,
+            120.0
+          ],
+          "center_mm": [
+            390.0,
+            45.0,
+            370.0
+          ],
+          "volume_mm3": 282743.34
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            390.0,
+            70.0,
+            350.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            34.0,
+            55.5,
+            34.0
+          ],
+          "center_mm": [
+            390.0,
+            117.25,
+            370.0
+          ],
+          "volume_mm3": 50389.58
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            420.0,
+            0.0,
+            230.0
+          ],
+          "volume_mm3": 62400.0
+        }
+      ],
+      "total_volume_mm3": 30943821.94
+    },
+    "candidate_width_mm": 290.0,
+    "candidate_width_within_299": true,
+    "component_count": 79,
+    "model_semantic_signature": {
+      "bbox_mm": [
+        725.0,
+        290.0,
+        420.0
+      ],
+      "center_mm": [
+        87.5,
+        0.0,
+        220.0
+      ],
+      "solid_count": 79,
+      "solids": [
+        {
+          "bbox_mm": [
+            125.0,
+            180.0,
+            120.0
+          ],
+          "center_mm": [
+            -212.5,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 2700000.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            156.0,
+            40.0
+          ],
+          "center_mm": [
+            -140.0,
+            0.0,
+            180.0
+          ],
+          "volume_mm3": 249600.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            -135.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            -120.0,
+            -84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            -120.0,
+            84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            -100.0,
+            -115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            -100.0,
+            115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            99.713,
+            20.0,
+            67.483
+          ],
+          "center_mm": [
+            -75.0,
+            -78.0,
+            85.0
+          ],
+          "volume_mm3": 41182.52
+        },
+        {
+          "bbox_mm": [
+            125.0,
+            180.0,
+            120.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 2700000.0
+        },
+        {
+          "bbox_mm": [
+            150.0,
+            220.0,
+            150.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            275.0
+          ],
+          "volume_mm3": 4950000.0
+        },
+        {
+          "bbox_mm": [
+            150.0,
+            220.0,
+            50.0
+          ],
+          "center_mm": [
+            -75.0,
+            0.0,
+            375.0
+          ],
+          "volume_mm3": 1650000.0
+        },
+        {
+          "bbox_mm": [
+            99.713,
+            20.0,
+            67.483
+          ],
+          "center_mm": [
+            -75.0,
+            78.0,
+            85.0
+          ],
+          "volume_mm3": 41182.52
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            -15.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            0.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            0.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            35.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            50.0,
+            -68.0,
+            180.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            50.0,
+            68.0,
+            180.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            70.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            70.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            80.0,
+            -78.0,
+            130.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            400.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            80.0,
+            78.0,
+            130.0
+          ],
+          "volume_mm3": 320000.0
+        },
+        {
+          "bbox_mm": [
+            130.0,
+            140.0,
+            105.0
+          ],
+          "center_mm": [
+            85.0,
+            0.0,
+            252.5
+          ],
+          "volume_mm3": 1911000.0
+        },
+        {
+          "bbox_mm": [
+            130.0,
+            140.0,
+            50.0
+          ],
+          "center_mm": [
+            85.0,
+            0.0,
+            330.0
+          ],
+          "volume_mm3": 910000.0
+        },
+        {
+          "bbox_mm": [
+            480.0,
+            55.0,
+            175.0
+          ],
+          "center_mm": [
+            100.0,
+            -115.5,
+            97.5
+          ],
+          "volume_mm3": 3946250.0
+        },
+        {
+          "bbox_mm": [
+            260.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            100.0,
+            -78.0,
+            40.0
+          ],
+          "volume_mm3": 208000.0
+        },
+        {
+          "bbox_mm": [
+            260.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            100.0,
+            78.0,
+            40.0
+          ],
+          "volume_mm3": 208000.0
+        },
+        {
+          "bbox_mm": [
+            480.0,
+            55.0,
+            175.0
+          ],
+          "center_mm": [
+            100.0,
+            115.5,
+            97.5
+          ],
+          "volume_mm3": 3946250.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            140.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            140.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            145.0,
+            0.0,
+            190.0
+          ],
+          "volume_mm3": 62400.0
+        },
+        {
+          "bbox_mm": [
+            60.0,
+            70.0,
+            60.0
+          ],
+          "center_mm": [
+            205.0,
+            -105.0,
+            370.0
+          ],
+          "volume_mm3": 197920.34
+        },
+        {
+          "bbox_mm": [
+            60.0,
+            70.0,
+            60.0
+          ],
+          "center_mm": [
+            205.0,
+            105.0,
+            370.0
+          ],
+          "volume_mm3": 197920.34
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            210.0,
+            -115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            55.0,
+            50.0
+          ],
+          "center_mm": [
+            210.0,
+            115.5,
+            45.0
+          ],
+          "volume_mm3": 107992.25
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            60.0,
+            50.0
+          ],
+          "center_mm": [
+            245.0,
+            -62.0,
+            370.0
+          ],
+          "volume_mm3": 150000.0
+        },
+        {
+          "bbox_mm": [
+            50.0,
+            60.0,
+            50.0
+          ],
+          "center_mm": [
+            245.0,
+            62.0,
+            370.0
+          ],
+          "volume_mm3": 150000.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            250.0,
+            -68.0,
+            215.0
+          ],
+          "volume_mm3": 32000.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            250.0,
+            -68.0,
+            246.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            250.0,
+            0.0,
+            230.0
+          ],
+          "volume_mm3": 124800.0
+        },
+        {
+          "bbox_mm": [
+            40.0,
+            20.0,
+            40.0
+          ],
+          "center_mm": [
+            250.0,
+            68.0,
+            215.0
+          ],
+          "volume_mm3": 32000.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            250.0,
+            68.0,
+            246.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            64.142,
+            20.0,
+            64.142
+          ],
+          "center_mm": [
+            255.0,
+            -78.0,
+            85.0
+          ],
+          "volume_mm3": 28284.27
+        },
+        {
+          "bbox_mm": [
+            64.142,
+            20.0,
+            64.142
+          ],
+          "center_mm": [
+            255.0,
+            78.0,
+            85.0
+          ],
+          "volume_mm3": 28284.27
+        },
+        {
+          "bbox_mm": [
+            35.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            267.0,
+            -119.0,
+            262.5
+          ],
+          "volume_mm3": 24500.0
+        },
+        {
+          "bbox_mm": [
+            35.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            267.0,
+            119.0,
+            262.5
+          ],
+          "volume_mm3": 24500.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            280.0,
+            -84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            280.0,
+            84.0,
+            147.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            140.0,
+            31.0,
+            300.0
+          ],
+          "center_mm": [
+            290.0,
+            -119.0,
+            245.0
+          ],
+          "volume_mm3": 496959.43
+        },
+        {
+          "bbox_mm": [
+            140.0,
+            31.0,
+            300.0
+          ],
+          "center_mm": [
+            290.0,
+            119.0,
+            245.0
+          ],
+          "volume_mm3": 496959.43
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            300.0,
+            -115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            70.0,
+            55.0,
+            70.0
+          ],
+          "center_mm": [
+            300.0,
+            115.5,
+            155.0
+          ],
+          "volume_mm3": 211664.81
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            325.0,
+            -45.0,
+            409.5
+          ],
+          "volume_mm3": 31500.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            35.0
+          ],
+          "center_mm": [
+            325.0,
+            45.0,
+            409.5
+          ],
+          "volume_mm3": 31500.0
+        },
+        {
+          "bbox_mm": [
+            165.747,
+            67.157,
+            20.0
+          ],
+          "center_mm": [
+            330.0,
+            -44.0,
+            230.0
+          ],
+          "volume_mm3": 66817.96
+        },
+        {
+          "bbox_mm": [
+            165.747,
+            67.157,
+            20.0
+          ],
+          "center_mm": [
+            330.0,
+            44.0,
+            230.0
+          ],
+          "volume_mm3": 66817.96
+        },
+        {
+          "bbox_mm": [
+            170.0,
+            20.0,
+            20.0
+          ],
+          "center_mm": [
+            335.0,
+            -68.0,
+            230.0
+          ],
+          "volume_mm3": 68000.0
+        },
+        {
+          "bbox_mm": [
+            170.0,
+            20.0,
+            20.0
+          ],
+          "center_mm": [
+            335.0,
+            68.0,
+            230.0
+          ],
+          "volume_mm3": 68000.0
+        },
+        {
+          "bbox_mm": [
+            220.0,
+            31.0,
+            120.0
+          ],
+          "center_mm": [
+            340.0,
+            -45.0,
+            370.0
+          ],
+          "volume_mm3": 443066.91
+        },
+        {
+          "bbox_mm": [
+            220.0,
+            31.0,
+            120.0
+          ],
+          "center_mm": [
+            340.0,
+            45.0,
+            370.0
+          ],
+          "volume_mm3": 443066.91
+        },
+        {
+          "bbox_mm": [
+            34.0,
+            55.5,
+            34.0
+          ],
+          "center_mm": [
+            390.0,
+            -117.25,
+            370.0
+          ],
+          "volume_mm3": 50389.58
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            -82.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            390.0,
+            -70.0,
+            350.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            120.0,
+            25.0,
+            120.0
+          ],
+          "center_mm": [
+            390.0,
+            -45.0,
+            370.0
+          ],
+          "volume_mm3": 282743.34
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            -14.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            14.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            120.0,
+            25.0,
+            120.0
+          ],
+          "center_mm": [
+            390.0,
+            45.0,
+            370.0
+          ],
+          "volume_mm3": 282743.34
+        },
+        {
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "center_mm": [
+            390.0,
+            70.0,
+            350.0
+          ],
+          "volume_mm3": 512.0
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            20.0,
+            110.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            295.0
+          ],
+          "volume_mm3": 44000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            20.0,
+            10.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            350.0
+          ],
+          "volume_mm3": 9000.0
+        },
+        {
+          "bbox_mm": [
+            45.0,
+            15.0,
+            35.0
+          ],
+          "center_mm": [
+            390.0,
+            82.0,
+            370.0
+          ],
+          "volume_mm3": 23625.0
+        },
+        {
+          "bbox_mm": [
+            34.0,
+            55.5,
+            34.0
+          ],
+          "center_mm": [
+            390.0,
+            117.25,
+            370.0
+          ],
+          "volume_mm3": 50389.58
+        },
+        {
+          "bbox_mm": [
+            20.0,
+            156.0,
+            20.0
+          ],
+          "center_mm": [
+            420.0,
+            0.0,
+            230.0
+          ],
+          "volume_mm3": 62400.0
+        }
+      ],
+      "total_volume_mm3": 30943821.94
+    },
+    "semantic_geometry_reproducible": true,
+    "step_byte_sha256": "fcad5fe47ae8a4f02c44235a73cbe2ca35a9cf616dc707acb84100e00313f41b",
+    "step_size_bytes": 1271444
+  },
+  "interference": {
+    "all_checked_candidate_minimum_clearances_satisfied": true,
+    "all_required_candidate_solid_intersections_zero": true,
+    "candidate_zero_intersection_check_count": 33,
+    "conditional_pass_count": 0,
+    "fail_count": 0,
+    "hold_count": 51,
+    "physical_release": "NOT_APPROVED",
+    "reason": "Actual motor, clutch, pulley widths/flanges, KP000, coupling, tensioner, fasteners, belt sway and track dynamics are unmeasured."
+  },
+  "material_allocation": {
+    "2020_available": 8,
+    "2020_candidate_stock_used": 8,
+    "2040_available": 8,
+    "2040_candidate_stock_used": 7,
+    "candidate_shortage": 0,
+    "cutting_release": "HOLD",
+    "member_over_400_count": 0,
+    "non_extrusion_connector_hardware": "ADDITIONAL_PURCHASE_REQUIRED_COUNT_AND_SIZE_PENDING",
+    "status": "CONDITIONAL_PASS_LAYOUT_CANDIDATE"
+  },
+  "overall_validation": "PASS_FOR_ENVELOPE_AUTHORITY_WITH_HOLDS_NOT_FOR_MANUFACTURING",
+  "release_status": "NOT_APPROVED",
+  "schema": "paddy_swarm.common_rover.front_drive_dual_pto_validation.v0.8"
+}

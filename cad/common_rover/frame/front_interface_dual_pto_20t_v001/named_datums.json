@@ -1,0 +1,59 @@
+{
+  "FRONT_INTERFACE_ORIGIN": [
+    0.0,
+    0.0,
+    122.5
+  ],
+  "PTO_LEFT_AXIS": {
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "point": [
+      0.0,
+      50.0,
+      122.5
+    ],
+    "segment_y": [
+      30.0,
+      160.0
+    ]
+  },
+  "PTO_RIGHT_AXIS": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "point": [
+      0.0,
+      -50.0,
+      122.5
+    ],
+    "segment_y": [
+      -160.0,
+      -30.0
+    ]
+  },
+  "UNIT_MOUNT_LOWER_LEFT": [
+    60.0,
+    75.0,
+    55.0
+  ],
+  "UNIT_MOUNT_LOWER_RIGHT": [
+    60.0,
+    -75.0,
+    55.0
+  ],
+  "UNIT_MOUNT_UPPER_LEFT": [
+    60.0,
+    75.0,
+    185.0
+  ],
+  "UNIT_MOUNT_UPPER_RIGHT": [
+    60.0,
+    -75.0,
+    185.0
+  ]
+}

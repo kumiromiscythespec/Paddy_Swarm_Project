@@ -1,0 +1,81 @@
+{
+  "schema": "BBOX_INSTALLED_TRANSFORM_FRONT_INTERFACE_AUDIT_VALIDATION_V001",
+  "date": "2026-09-02",
+  "repository": {
+    "path": "D:/Paddy_Swarm_Project",
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "start_head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "end_head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "start_staged_count": 0,
+    "start_tracked_dirty_count": 4,
+    "start_untracked_count": 4146,
+    "expected_end_staged_count": 0,
+    "expected_end_tracked_dirty_count": 4,
+    "expected_end_untracked_count": 4158,
+    "git_mutation": "NONE"
+  },
+  "contract_values_mm": {
+    "physical_bbox_height": 106.0,
+    "reported_cad_body_bottom": 175.105,
+    "direct_physical_body_bottom": 148.0,
+    "reported_body_bottom_delta": 27.105,
+    "exact_cad_combined_height": 128.895,
+    "cad_minus_physical_combined_height": 22.895
+  },
+  "checks": {
+    "branch_exact": "PASS",
+    "head_exact": "PASS",
+    "staged_zero": "PASS",
+    "physical_height_254_minus_148_exact": "PASS",
+    "reported_175p105_preserved": "PASS",
+    "reported_27p105_preserved": "PASS",
+    "v002_step_valid_one_solid": "PASS",
+    "v002_bounds_exact": "PASS",
+    "v003_step_valid_one_solid": "PASS",
+    "v003_bounds_exact": "PASS",
+    "join_uses_mating_datums": "PASS",
+    "join_transform_exact": "PASS",
+    "combined_height_exact": "PASS",
+    "z254_not_reinterpreted": "PASS",
+    "z148_not_reinterpreted": "PASS",
+    "physical_point_ambiguity_recorded": "PASS",
+    "physical_xy_not_invented": "PASS",
+    "front_interface_cad_physical_separated": "PASS",
+    "collision_classified_cad_registered": "PASS",
+    "collision_recheck_blocked_when_unresolved": "PASS",
+    "measurement_plan_complete_A_to_L": "PASS",
+    "protected_source_modification_count_zero": "PASS",
+    "manufacturing_stl_count_zero": "PASS",
+    "release_cad_count_zero": "PASS",
+    "h108_not_promoted": "PASS",
+    "single_allowed_outcome": "PASS"
+  },
+  "counts": {
+    "checks": 26,
+    "pass": 26,
+    "fail": 0,
+    "protected_source_modification_count": 0,
+    "manufacturing_stl_count": 0,
+    "release_cad_count": 0,
+    "lane_exact_path_count": 12
+  },
+  "protected_tree_sha256_start_end": {
+    "bbox_v002_body": ["ddc50160ccd29a3c106f74c5d8625bde8d3bb4f1b4eb9adcb7c37efa4a1c24ab", "ddc50160ccd29a3c106f74c5d8625bde8d3bb4f1b4eb9adcb7c37efa4a1c24ab"],
+    "bbox_v003_lid": ["253647717f05ed47329301b784a8247a41f6faa70d17411e05f990c4db305563", "253647717f05ed47329301b784a8247a41f6faa70d17411e05f990c4db305563"],
+    "physical_dimensions_2026_09_01": ["9ff7d7fba15ce534fcaa03ae8f26a2baf6a19b8f7d6c690264c5df778ce95bef", "9ff7d7fba15ce534fcaa03ae8f26a2baf6a19b8f7d6c690264c5df778ce95bef"],
+    "electrical_hardware": ["399696652b73ee5069d086d21987223c8058f0e203e9b3062cda744bea613724", "399696652b73ee5069d086d21987223c8058f0e203e9b3062cda744bea613724"],
+    "bbox_field_report": ["a6f7315c203ae6c8829cdaf9de6238dc0c727eed8f845aba6b98d736d9112068", "a6f7315c203ae6c8829cdaf9de6238dc0c727eed8f845aba6b98d736d9112068"],
+    "bbox_tall_report": ["823f675ee469c14be3b1fb9df7166f48017c2a7652782123d4e512cf3a2631ce", "823f675ee469c14be3b1fb9df7166f48017c2a7652782123d4e512cf3a2631ce"],
+    "cross_saddle": ["9f05064864ceaf097f6e8380ebd25c1c316ff28fddad51b60b490a4613dc1c5e", "9f05064864ceaf097f6e8380ebd25c1c316ff28fddad51b60b490a4613dc1c5e"],
+    "front_interface_v001": ["8e632083b97e4ba1db54eb200211937afde0f75ae8820a6b8cc631e2138d9e15", "8e632083b97e4ba1db54eb200211937afde0f75ae8820a6b8cc631e2138d9e15"],
+    "front_interface_v002": ["3285298bbe0849ed21c77c854256d1afcc305833f5aa70ec16021d1e581ac9e9", "3285298bbe0849ed21c77c854256d1afcc305833f5aa70ec16021d1e581ac9e9"],
+    "narrow_frame_v0_9_6_6": ["34ea5b62f94ac10714471b3a9bb8c53131745707428fac84f6cb4226e8ec7dea", "34ea5b62f94ac10714471b3a9bb8c53131745707428fac84f6cb4226e8ec7dea"]
+  },
+  "collision_recheck": {
+    "permitted": false,
+    "performed": false,
+    "reason": "BBOX physical XY and Front Interface installed transform are unresolved"
+  },
+  "result": "PASS",
+  "final_status": "TRANSFORM_PARTIAL_PHYSICAL_MEASUREMENT_REQUIRED"
+}

@@ -1,0 +1,146 @@
+{
+  "checks": [
+    {
+      "check_id": "LEFT_DRIVE_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.5,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "RIGHT_DRIVE_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.5,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "LEFT_PTO_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "RIGHT_PTO_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "LEFT_PTO_BELT_VS_FASTENERS",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "RIGHT_PTO_BELT_VS_FASTENERS",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "LEFT_PTO_BELT_VS_KP000_WORST_PROTRUSION",
+      "intersection_count": 0,
+      "minimum_distance_mm": 3.0,
+      "status": "HOLD_LOW_CLEARANCE"
+    },
+    {
+      "check_id": "RIGHT_PTO_BELT_VS_KP000_WORST_PROTRUSION",
+      "intersection_count": 0,
+      "minimum_distance_mm": 3.0,
+      "status": "HOLD_LOW_CLEARANCE"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_INNER_KP000_HOUSING_ONLY_LEFT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.5,
+      "status": "CONDITIONAL_PASS"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_INNER_KP000_HOUSING_ONLY_RIGHT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.5,
+      "status": "CONDITIONAL_PASS"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_INNER_INSERT_WORST_LEFT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 8.5,
+      "status": "FAIL_PROVISIONAL_CLEARANCE_LT_10"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_INNER_INSERT_WORST_RIGHT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 8.5,
+      "status": "FAIL_PROVISIONAL_CLEARANCE_LT_10"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_SUPPORT_PLATE_LEFT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.5,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "MODEL_A_60T_VS_SUPPORT_PLATE_RIGHT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.5,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "LEFT_SUPPORT_VS_RIGHT_SUPPORT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 23.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "TOOL_X_INSERTION_MARGIN_LEFT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.0,
+      "status": "HOLD_ACTUAL_TOOL"
+    },
+    {
+      "check_id": "TOOL_X_INSERTION_MARGIN_RIGHT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.0,
+      "status": "HOLD_ACTUAL_TOOL"
+    },
+    {
+      "check_id": "TRACK_LEFT_DYNAMIC_VS_UPPER",
+      "intersection_count": 0,
+      "minimum_distance_mm": 10.0,
+      "status": "PASS_CANDIDATE"
+    },
+    {
+      "check_id": "TRACK_RIGHT_DYNAMIC_VS_UPPER",
+      "intersection_count": 0,
+      "minimum_distance_mm": 10.0,
+      "status": "PASS_CANDIDATE"
+    }
+  ],
+  "document_id": "PS-CR-MEASUREMENT-INTEGRATION-V0083",
+  "holds": [
+    "KP000_TOTAL_AXIAL_ENVELOPE",
+    "INSERT_PROTRUSION_DIRECTION",
+    "SHAFT_COLLAR_WIDTH",
+    "PULLEY_HUB_DIMENSIONS",
+    "COUPLING_AND_OUTPUT_RESERVE",
+    "ACTUAL_TOOL_ENVELOPE"
+  ],
+  "safety_pulley_model": "MODEL_A_CONSERVATIVE",
+  "summary": {
+    "candidate_total_width_mm": 290.0,
+    "check_count": 19,
+    "fail_provisional_count": 2,
+    "four_belt_intersection_count": 0,
+    "hold_count": 4,
+    "intersection_count": 0,
+    "kp000_belt_worst_clearance_mm": 3.0,
+    "physical_total_width": "HOLD_PENDING_COMPLETE_AXIAL_STACK",
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "pulley_kp000_housing_only_mm": 14.5,
+    "pulley_kp000_worst_provisional_mm": 8.5,
+    "rotation_safety_envelope_od_mm": 120.0,
+    "support_plate_belt_mm": 15.0
+  }
+}

@@ -2,3 +2,14 @@
 .gitattributes text eol=lf
 rovers/common_rover/v2.29.3.9.1/** text eol=lf
 cad/common_rover/v2_29_3_9_1_executable_cad_seed/** text eol=lf
+
+# Preserve byte-oriented/generated text geometry without rewriting exporter
+# whitespace. Markdown permits two trailing spaces as an explicit line break.
+*.step -whitespace
+*.stp -whitespace
+*.svg -whitespace
+*.dxf -whitespace
+*.md whitespace=-trailing-space
+*.py whitespace=-trailing-space
+*.txt whitespace=-blank-at-eof
+*.csv whitespace=-blank-at-eof

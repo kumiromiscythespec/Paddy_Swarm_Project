@@ -1,0 +1,1649 @@
+{
+  "authority_status": "FIXED_SPEC_WITH_LAYOUT_AND_MEASUREMENT_HOLDS",
+  "candidate_model": {
+    "60t_safety_diameter_mm": 120.0,
+    "belt_envelope_count": 4,
+    "belt_names": [
+      "LEFT_DRIVE_BELT_ENVELOPE",
+      "RIGHT_DRIVE_BELT_ENVELOPE",
+      "LEFT_PTO_BELT_ENVELOPE",
+      "RIGHT_PTO_BELT_ENVELOPE"
+    ],
+    "belt_windows_and_keepouts": {
+      "LEFT_DRIVE_BELT_WINDOW": "OUTBOARD_OF_ROOT_2040",
+      "LEFT_PTO_BELT_KEEP_OUT_ZONE": "CENTRAL_LEFT_ABOVE_HORIZONTAL_FRAME",
+      "RIGHT_DRIVE_BELT_WINDOW": "OUTBOARD_OF_ROOT_2040",
+      "RIGHT_PTO_BELT_KEEP_OUT_ZONE": "CENTRAL_RIGHT_ABOVE_HORIZONTAL_FRAME"
+    },
+    "component_count": 79
+  },
+  "checks": [
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_DRIVE_BELT_ENVELOPE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_TRACK_FRONT_DIAGONAL_2020"
+          },
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_TRACK_UPPER_2040"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_PTO_2020_SPAR"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_PTO_ROOT_METAL_GUSSET_RESERVED"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_UPPER_MAIN_2040"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Candidate envelope has no solid intersection; actual belt length, flange width, axial stacking and sway remain unknown.",
+      "requirement": "LEFT_DRIVE_BELT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_PTO_BELT_ENVELOPE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_INNER_VERTICAL_2020"
+          },
+          {
+            "distance_mm": 11.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 11.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_VERTICAL_2020"
+          },
+          {
+            "distance_mm": 33.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 5.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "PTO horizontal frame is below the 120 mm pulley envelope; actual belt and tensioner data are still required.",
+      "requirement": "LEFT_PTO_BELT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_DRIVE_BELT_ENVELOPE_VS_FASTENERS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_LEFT"
+          },
+          {
+            "distance_mm": 33.3723,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_LEFT"
+          },
+          {
+            "distance_mm": 120.5695,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_LEFT"
+          },
+          {
+            "distance_mm": 167.8622,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_RIGHT"
+          },
+          {
+            "distance_mm": 183.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_RIGHT"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Representative keep-outs only; installed hardware must be measured.",
+      "requirement": "LEFT_DRIVE_BELT_ENVELOPE ∩ FASTENERS = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_PTO_BELT_ENVELOPE_VS_FASTENERS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_LEFT"
+          },
+          {
+            "distance_mm": 95.0686,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_LEFT"
+          },
+          {
+            "distance_mm": 95.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_RIGHT"
+          },
+          {
+            "distance_mm": 133.2968,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_RIGHT"
+          },
+          {
+            "distance_mm": 184.3386,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_LEFT"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 5.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Representative keep-outs only; installed hardware must be measured.",
+      "requirement": "LEFT_PTO_BELT_ENVELOPE ∩ FASTENERS = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_SLIDE_CLUTCH_FULL_STROKE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_DIAGONAL"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_SPAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "All three states are covered by a placeholder full-stroke box.",
+      "requirement": "SLIDE_CLUTCH_LEFT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "TRACK_LEFT_DYNAMIC_ENVELOPE_VS_UPPER_STRUCTURE",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_1"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_2"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_3"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_4"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_LEFT_DYNAMIC_ENVELOPE",
+            "target": "LEFT_UPPER_MAIN_2040"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 10.0,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "Candidate prism is clear, but measured track runout, mud, idling adjustment and guard thickness are absent.",
+      "requirement": "TRACK_LEFT_DYNAMIC_ENVELOPE ∩ UPPER_STRUCTURE = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_DRIVE_BELT_ENVELOPE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_TRACK_FRONT_DIAGONAL_2020"
+          },
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_TRACK_UPPER_2040"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_2020_SPAR"
+          },
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_ROOT_METAL_GUSSET_RESERVED"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Candidate envelope has no solid intersection; actual belt length, flange width, axial stacking and sway remain unknown.",
+      "requirement": "RIGHT_DRIVE_BELT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_PTO_BELT_ENVELOPE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_VERTICAL_2020"
+          },
+          {
+            "distance_mm": 11.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 11.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_VERTICAL_2020"
+          },
+          {
+            "distance_mm": 33.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 5.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "PTO horizontal frame is below the 120 mm pulley envelope; actual belt and tensioner data are still required.",
+      "requirement": "RIGHT_PTO_BELT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_DRIVE_BELT_ENVELOPE_VS_FASTENERS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_RIGHT"
+          },
+          {
+            "distance_mm": 33.3723,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_RIGHT"
+          },
+          {
+            "distance_mm": 120.5695,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_RIGHT"
+          },
+          {
+            "distance_mm": 167.8622,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_LEFT"
+          },
+          {
+            "distance_mm": 183.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_LEFT"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Representative keep-outs only; installed hardware must be measured.",
+      "requirement": "RIGHT_DRIVE_BELT_ENVELOPE ∩ FASTENERS = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_PTO_BELT_ENVELOPE_VS_FASTENERS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 5.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_RIGHT"
+          },
+          {
+            "distance_mm": 95.0686,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_RIGHT"
+          },
+          {
+            "distance_mm": 95.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_PTO_SUPPORT_LEFT"
+          },
+          {
+            "distance_mm": 133.2968,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_ROOT_LEFT"
+          },
+          {
+            "distance_mm": 184.3386,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "FASTENER_RESERVED_TRACK_FRONT_RIGHT"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 5.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Representative keep-outs only; installed hardware must be measured.",
+      "requirement": "RIGHT_PTO_BELT_ENVELOPE ∩ FASTENERS = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_VS_FRAME",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "All three states are covered by a placeholder full-stroke box.",
+      "requirement": "SLIDE_CLUTCH_RIGHT_ENVELOPE ∩ FRAME = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "TRACK_RIGHT_DYNAMIC_ENVELOPE_VS_UPPER_STRUCTURE",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_1"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_2"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_3"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_4"
+          },
+          {
+            "distance_mm": 10.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "TRACK_RIGHT_DYNAMIC_ENVELOPE",
+            "target": "REAR_2040_CROSSMEMBER"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 10.0,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "Candidate prism is clear, but measured track runout, mud, idling adjustment and guard thickness are absent.",
+      "requirement": "TRACK_RIGHT_DYNAMIC_ENVELOPE ∩ UPPER_STRUCTURE = 0",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_DRIVE_BELT_VS_ROOT_2040",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 25.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Drive belt routed outboard of shortened root crossmember.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_DRIVE_BELT_VS_ROOT_2040",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 25.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 25.5,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Drive belt routed outboard of shortened root crossmember.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_DRIVE_BELT_VS_FRONT_TRACK_DIAGONAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_TRACK_FRONT_DIAGONAL_2020"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Track diagonal is inboard of the drive belt plane.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_DRIVE_BELT_VS_FRONT_TRACK_DIAGONAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_TRACK_FRONT_DIAGONAL_2020"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Track diagonal is inboard of the drive belt plane.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_DRIVE_BELT_VS_TRACK_CONNECTING_POSTS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_TRACK_FRONT_DIAGONAL_2020"
+          },
+          {
+            "distance_mm": 276.8252,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_DRIVE_BELT_ENVELOPE",
+            "target": "LEFT_TRACK_REAR_DIAGONAL_2020"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Both diagonal connecting posts are included.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_DRIVE_BELT_VS_TRACK_CONNECTING_POSTS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_TRACK_FRONT_DIAGONAL_2020"
+          },
+          {
+            "distance_mm": 276.8252,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_DRIVE_BELT_ENVELOPE",
+            "target": "RIGHT_TRACK_REAR_DIAGONAL_2020"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.5,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Both diagonal connecting posts are included.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_PTO_BELT_VS_2020_DIAGONAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 70.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "LEFT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 70.0,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Diagonal is vertically below the PTO belt sweep.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_PTO_BELT_VS_2020_DIAGONAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 70.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "RIGHT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 70.0,
+        "recommended_clearance_mm": 10.0,
+        "required_minimum_clearance_mm": 8.0
+      },
+      "note": "Diagonal is vertically below the PTO belt sweep.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_PTO_BELT_VS_FRONT_CROSSBAR",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 71.5295,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_BELT_ENVELOPE",
+            "target": "PTO_FRONT_2020_CROSSBAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 71.5295,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Front crossbar is vertically below the pulley envelope.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_PTO_BELT_VS_FRONT_CROSSBAR",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 71.5295,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_BELT_ENVELOPE",
+            "target": "PTO_FRONT_2020_CROSSBAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 71.5295,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "Front crossbar is vertically below the pulley envelope.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "LEFT_PTO_PULLEY_VS_KP000",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 11.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_60T_ROTATION_ENVELOPE",
+            "target": "LEFT_PTO_INNER_KP000_RESERVED"
+          },
+          {
+            "distance_mm": 17.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_PTO_60T_ROTATION_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_KP000_RESERVED"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 11.0,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "The 60T pulley is between two independent bearing reservations.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "RIGHT_PTO_PULLEY_VS_KP000",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 11.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_60T_ROTATION_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_KP000_RESERVED"
+          },
+          {
+            "distance_mm": 17.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_PTO_60T_ROTATION_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_KP000_RESERVED"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 11.0,
+        "recommended_clearance_mm": 8.0,
+        "required_minimum_clearance_mm": 5.0
+      },
+      "note": "The 60T pulley is between two independent bearing reservations.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "CBOX_LID_SERVICE_VS_POWER_COMPONENTS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 27.0088,
+            "intersection_volume_mm3": 0.0,
+            "subject": "CBOX_LID_SERVICE_ENVELOPE",
+            "target": "LEFT_MOTOR_RESERVED_ENVELOPE"
+          },
+          {
+            "distance_mm": 27.0088,
+            "intersection_volume_mm3": 0.0,
+            "subject": "CBOX_LID_SERVICE_ENVELOPE",
+            "target": "RIGHT_MOTOR_RESERVED_ENVELOPE"
+          },
+          {
+            "distance_mm": 70.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "CBOX_LID_SERVICE_ENVELOPE",
+            "target": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE"
+          },
+          {
+            "distance_mm": 70.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "CBOX_LID_SERVICE_ENVELOPE",
+            "target": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 27.0088,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "Only a 50 mm vertical service reservation is represented.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "BBOX_LID_SERVICE_VS_POWER_COMPONENTS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 175.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BBOX_LID_SERVICE_ENVELOPE",
+            "target": "LEFT_MOTOR_RESERVED_ENVELOPE"
+          },
+          {
+            "distance_mm": 175.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BBOX_LID_SERVICE_ENVELOPE",
+            "target": "RIGHT_MOTOR_RESERVED_ENVELOPE"
+          },
+          {
+            "distance_mm": 220.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BBOX_LID_SERVICE_ENVELOPE",
+            "target": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE"
+          },
+          {
+            "distance_mm": 220.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BBOX_LID_SERVICE_ENVELOPE",
+            "target": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 175.0,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "Actual lid hinges, latches and removal height are unknown.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "SIMPLIFIED_CANDIDATE_ENVELOPE",
+      "check_id": "BATTERY_CASSETTE_REAR_REMOVAL_PATH_VS_STRUCTURE",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_minimum_clearance_satisfied": true,
+        "closest_pairs": [
+          {
+            "distance_mm": 15.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+            "target": "LEFT_UPPER_MAIN_2040"
+          },
+          {
+            "distance_mm": 15.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+            "target": "REAR_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 15.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+            "target": "RIGHT_UPPER_MAIN_2040"
+          },
+          {
+            "distance_mm": 15.8114,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_1"
+          },
+          {
+            "distance_mm": 125.8968,
+            "intersection_volume_mm3": 0.0,
+            "subject": "BATTERY_CASSETTE_REAR_REMOVAL_ENVELOPE",
+            "target": "BOX_SUPPORT_2020_2"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 15.0,
+        "recommended_clearance_mm": null,
+        "required_minimum_clearance_mm": 0.0
+      },
+      "note": "Rearward path after the BBOX rear face is represented.",
+      "requirement": "NO_SOLID_INTERSECTION_IN_CANDIDATE_ENVELOPE_MODEL",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "LEFT_CLUTCH_STATE_DRIVE",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_DIAGONAL"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_SPAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "LEFT_CLUTCH_STATE_NEUTRAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_DIAGONAL"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_SPAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "LEFT_CLUTCH_STATE_PTO",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_DIAGONAL"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "LEFT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_2020_SPAR"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_DRIVE_TENSIONER_MINIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_PTO_TENSIONER_MINIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_DRIVE_TENSIONER_NOMINAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_PTO_TENSIONER_NOMINAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_DRIVE_TENSIONER_MAXIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "LEFT_PTO_TENSIONER_MAXIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "RIGHT_CLUTCH_STATE_DRIVE",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "RIGHT_CLUTCH_STATE_NEUTRAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "PLACEHOLDER_FULL_STROKE_ENVELOPE",
+      "check_id": "RIGHT_CLUTCH_STATE_PTO",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [
+          {
+            "distance_mm": 97.5,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_OUTER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 97.8277,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 103.9339,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "LEFT_PTO_INNER_METAL_BEARING_BRACKET_RESERVED"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "PTO_ROOT_2040_CROSSMEMBER"
+          },
+          {
+            "distance_mm": 105.0,
+            "intersection_volume_mm3": 0.0,
+            "subject": "RIGHT_SLIDE_CLUTCH_FULL_STROKE_ENVELOPE",
+            "target": "RIGHT_PTO_2020_DIAGONAL"
+          }
+        ],
+        "intersection_count": 0,
+        "intersection_volume_mm3": 0.0,
+        "minimum_distance_mm": 97.5
+      },
+      "note": "Candidate full-stroke reserve is clear; dog geometry, stroke and engagement length are unmeasured.",
+      "requirement": "NO_FRAME_CONTACT_AND_SINGLE_STATE_ENGAGEMENT",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_DRIVE_TENSIONER_MINIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_PTO_TENSIONER_MINIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_DRIVE_TENSIONER_NOMINAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_PTO_TENSIONER_NOMINAL",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_DRIVE_TENSIONER_MAXIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "RESERVED_VOLUME_ONLY",
+      "check_id": "RIGHT_PTO_TENSIONER_MAXIMUM",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "closest_pairs": [],
+        "intersection_count": null,
+        "intersection_volume_mm3": null,
+        "minimum_distance_mm": null
+      },
+      "note": "Tensioner geometry and travel are not available.",
+      "requirement": "FULL_TENSIONER_RANGE_CLEAR_OF_FRAME_AND_BELT_GUARD",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "CANDIDATE_END_PLANE",
+      "check_id": "PTO_LEFT_OUTER_END_Y",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "absolute_limit_mm": 150.0,
+        "candidate_margin_to_absolute_mm": 5.0,
+        "candidate_y_mm": 145.0,
+        "target_limit_mm": 145.0
+      },
+      "note": "Coupling, pin, cap and fastener protrusions are unmeasured.",
+      "requirement": "PTO_LEFT_OUTER_END_Y < 150",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "CANDIDATE_END_PLANE",
+      "check_id": "PTO_RIGHT_OUTER_END_Y",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "absolute_limit_mm": 150.0,
+        "candidate_margin_to_absolute_mm": 5.0,
+        "candidate_y_mm": -145.0,
+        "target_limit_mm": 145.0
+      },
+      "note": "Coupling, pin, cap and fastener protrusions are unmeasured.",
+      "requirement": "ABS(PTO_RIGHT_OUTER_END_Y) < 150",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "CANDIDATE_ENVELOPES_ONLY",
+      "check_id": "TOTAL_WIDTH_WITH_FASTENERS",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_margin_to_hard_maximum_mm": 9.0,
+        "candidate_width_mm": 290.0,
+        "hard_maximum_mm": 299.0,
+        "target_range_mm": [
+          286.0,
+          290.0
+        ]
+      },
+      "note": "Track spikes, real couplings, bolt heads, latches and guards must be added before width release.",
+      "requirement": "TOTAL_WIDTH_WITH_FASTENERS <= 299 AND < 300",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "EXTERNAL_DIMENSION_COMPARISON_ONLY",
+      "check_id": "BBOX_EFFECTIVE_INTERIOR_VS_CASSETTE",
+      "classification": "HOLD / FIELD_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "actual_effective_interior_mm": null,
+        "bbox_external_minus_cassette_mm": {
+          "x": 25.0,
+          "y": 40.0,
+          "z": 30.0
+        },
+        "minimum_effective_interior_mm": {
+          "x": 129.0,
+          "y": 184.0,
+          "z": 125.0
+        }
+      },
+      "note": "Wall, lid, gasket, base, guide, contact and latch consume space.",
+      "requirement": "BBOX_EFFECTIVE_INTERIOR >= 129 X 184 X 125",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "CANDIDATE_TRACK_PRISM",
+      "check_id": "BOX_BOTTOM_TO_TRACK_DYNAMIC",
+      "classification": "HOLD / FIELD_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "candidate_clearance_mm": 15.0,
+        "minimum_mm": 10.0,
+        "recommended_mm": 20.0
+      },
+      "note": "Candidate meets minimum but not recommendation; dynamic data absent.",
+      "requirement": "CLEARANCE >= 10; RECOMMENDED >= 20",
+      "unknown_physical_dimensions": true
+    },
+    {
+      "authority_scope": "ERROR_BUDGET_RECORDED_NOT_PHYSICALLY_VALIDATED",
+      "check_id": "AXIAL_PLAY_FRAME_ERROR_AND_DEFORMATION",
+      "classification": "HOLD / PART_MEASUREMENT_REQUIRED",
+      "metrics": {
+        "axial_play_mm": [
+          -1.0,
+          1.0
+        ],
+        "belt_lateral_sway_mm": null,
+        "frame_assembly_error_mm": [
+          -1.0,
+          1.0
+        ],
+        "frame_deformation_mm": 2.0,
+        "track_dynamic_runout_mm": null
+      },
+      "note": "Known numeric allowances are recorded; unknown sway/runout blocks release.",
+      "requirement": "CHECK +/-1 AXIAL PLAY, +/-1 FRAME ERROR, 2 MM DEFORMATION",
+      "unknown_physical_dimensions": true
+    }
+  ],
+  "conditional_pass_checks": [],
+  "document_id": "PS-CR-FRONT-DRIVE-DUAL-PTO-DESIGN-AUTHORITY-V008",
+  "failed_checks": [],
+  "hold_checks": [
+    "LEFT_DRIVE_BELT_ENVELOPE_VS_FRAME",
+    "LEFT_PTO_BELT_ENVELOPE_VS_FRAME",
+    "LEFT_DRIVE_BELT_ENVELOPE_VS_FASTENERS",
+    "LEFT_PTO_BELT_ENVELOPE_VS_FASTENERS",
+    "LEFT_SLIDE_CLUTCH_FULL_STROKE_VS_FRAME",
+    "TRACK_LEFT_DYNAMIC_ENVELOPE_VS_UPPER_STRUCTURE",
+    "RIGHT_DRIVE_BELT_ENVELOPE_VS_FRAME",
+    "RIGHT_PTO_BELT_ENVELOPE_VS_FRAME",
+    "RIGHT_DRIVE_BELT_ENVELOPE_VS_FASTENERS",
+    "RIGHT_PTO_BELT_ENVELOPE_VS_FASTENERS",
+    "RIGHT_SLIDE_CLUTCH_FULL_STROKE_VS_FRAME",
+    "TRACK_RIGHT_DYNAMIC_ENVELOPE_VS_UPPER_STRUCTURE",
+    "LEFT_DRIVE_BELT_VS_ROOT_2040",
+    "RIGHT_DRIVE_BELT_VS_ROOT_2040",
+    "LEFT_DRIVE_BELT_VS_FRONT_TRACK_DIAGONAL",
+    "RIGHT_DRIVE_BELT_VS_FRONT_TRACK_DIAGONAL",
+    "LEFT_DRIVE_BELT_VS_TRACK_CONNECTING_POSTS",
+    "RIGHT_DRIVE_BELT_VS_TRACK_CONNECTING_POSTS",
+    "LEFT_PTO_BELT_VS_2020_DIAGONAL",
+    "RIGHT_PTO_BELT_VS_2020_DIAGONAL",
+    "LEFT_PTO_BELT_VS_FRONT_CROSSBAR",
+    "RIGHT_PTO_BELT_VS_FRONT_CROSSBAR",
+    "LEFT_PTO_PULLEY_VS_KP000",
+    "RIGHT_PTO_PULLEY_VS_KP000",
+    "CBOX_LID_SERVICE_VS_POWER_COMPONENTS",
+    "BBOX_LID_SERVICE_VS_POWER_COMPONENTS",
+    "BATTERY_CASSETTE_REAR_REMOVAL_PATH_VS_STRUCTURE",
+    "LEFT_CLUTCH_STATE_DRIVE",
+    "LEFT_CLUTCH_STATE_NEUTRAL",
+    "LEFT_CLUTCH_STATE_PTO",
+    "LEFT_DRIVE_TENSIONER_MINIMUM",
+    "LEFT_PTO_TENSIONER_MINIMUM",
+    "LEFT_DRIVE_TENSIONER_NOMINAL",
+    "LEFT_PTO_TENSIONER_NOMINAL",
+    "LEFT_DRIVE_TENSIONER_MAXIMUM",
+    "LEFT_PTO_TENSIONER_MAXIMUM",
+    "RIGHT_CLUTCH_STATE_DRIVE",
+    "RIGHT_CLUTCH_STATE_NEUTRAL",
+    "RIGHT_CLUTCH_STATE_PTO",
+    "RIGHT_DRIVE_TENSIONER_MINIMUM",
+    "RIGHT_PTO_TENSIONER_MINIMUM",
+    "RIGHT_DRIVE_TENSIONER_NOMINAL",
+    "RIGHT_PTO_TENSIONER_NOMINAL",
+    "RIGHT_DRIVE_TENSIONER_MAXIMUM",
+    "RIGHT_PTO_TENSIONER_MAXIMUM",
+    "PTO_LEFT_OUTER_END_Y",
+    "PTO_RIGHT_OUTER_END_Y",
+    "TOTAL_WIDTH_WITH_FASTENERS",
+    "BBOX_EFFECTIVE_INTERIOR_VS_CASSETTE",
+    "BOX_BOTTOM_TO_TRACK_DYNAMIC",
+    "AXIAL_PLAY_FRAME_ERROR_AND_DEFORMATION"
+  ],
+  "model_scope": "SIMPLIFIED_ENVELOPE_CANDIDATE; ZERO INTERSECTION DOES NOT OVERRIDE PART_MEASUREMENT_REQUIRED",
+  "release_status": "NOT_APPROVED",
+  "schema": "paddy_swarm.common_rover.front_drive_dual_pto_interference_report.v0.8",
+  "summary": {
+    "all_checked_candidate_minimum_clearances_satisfied": true,
+    "all_required_candidate_solid_intersections_zero": true,
+    "candidate_zero_intersection_check_count": 33,
+    "conditional_pass_count": 0,
+    "fail_count": 0,
+    "hold_count": 51,
+    "physical_release": "NOT_APPROVED",
+    "reason": "Actual motor, clutch, pulley widths/flanges, KP000, coupling, tensioner, fasteners, belt sway and track dynamics are unmeasured."
+  }
+}

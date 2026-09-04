@@ -1,0 +1,17 @@
+part_name,quantity,approximate_bounding_size_mm,recommended_orientation,support_requirement,material_candidate,warning,expected_purpose
+LEFT_STUB_POSITIONING_BLOCK,1,38x12x32,flat side down,none,PETG,NO_LOAD_JIG_SLOT; NOT_A_MANUFACTURING_HOLE,locate uncut left shaft independently
+RIGHT_STUB_POSITIONING_BLOCK,1,38x12x32,flat side down,none,PETG,NO_LOAD_JIG_SLOT; NOT_A_MANUFACTURING_HOLE,locate uncut right shaft independently
+INBOARD_FACE_REFERENCE,2,45x2x45,face flat,none,PETG,NOMINAL_GEOMETRY_REFERENCE_ONLY,bearing inboard face reference
+CENTER_GAP_GAUGE_35,1,28x35x11,flat,none,PETG,NOT_A_TOLERANCE_GAUGE,comparison only
+CENTER_GAP_GAUGE_36,1,28x36x11,flat,none,PETG,CENTER_GAP_REFERENCE; NO_LOAD_ONLY,nominal center gap check
+CENTER_GAP_GAUGE_37,1,28x37x11,flat,none,PETG,NOT_A_TOLERANCE_GAUGE,comparison only
+STUB_GAUGE_12P5,2,28x12.5x16,stop face down,none,PETG,NOMINAL_GEOMETRY_REFERENCE_ONLY,12.5mm stub reference
+SLIDING_SLEEVE_DUMMY,2,20x10x20,axis vertical,none,PETG,DUMMY_CLEARANCE_NOT_PRODUCT_FIT,manual 0/5/10mm travel check
+COUPLING_BODY_DUMMY,2,24x25x24,axis vertical,none,PETG,NOT_FOR_TORQUE,SMALL body envelope
+CENTRAL_UNIT_BRIDGE_DUMMY,4,70x44x10 max,split flat,none,PETG,NO_LOAD_GEOMETRY_DUMMY,front insertion and independent input supports
+ALIGNMENT_GUIDE,2,75x4x12,flat,none,PETG,HAND_FIT_ONLY,front insertion reference
+MECHANICAL_LOCK_DUMMY,1,18x32x18,flat,none,PETG,NO_LOAD_ONLY,sequence confirmation
+COUPLING_POSITION_FLAG,2,5x2x25,flat,none,PETG,SENSOR_TARGET_DUMMY,retracted/partial/engaged indication
+GUARD_CLEARANCE_GAUGE,2,38x3x38,flat,none,PETG,NOT_A_GUARD,guard clearance reference
+WARNING_PLATE,3,72x22x4,text up,none,PETG,NOT_FOR_MANUFACTURING,mandatory no-load labeling
+LEFT_TEST_SHAFT / RIGHT_TEST_SHAFT,2,OD10x300 stock,not printed,not applicable,existing stock only,DO_NOT_CUT; NO_POWERED_ROTATION,two physically independent uncut shaft references

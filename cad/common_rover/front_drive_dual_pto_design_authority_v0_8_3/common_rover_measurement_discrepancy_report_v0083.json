@@ -1,0 +1,157 @@
+{
+  "classification_counts": {
+    "MEASUREMENT_CONFLICT": 5,
+    "NOT_FOR_MANUFACTURING": 1,
+    "PART_MEASUREMENT_REQUIRED": 1,
+    "REINTERPRETED": 4,
+    "SEMANTIC_CONFLICT": 1
+  },
+  "discrepancy_count": 12,
+  "document_id": "PS-CR-MEASUREMENT-INTEGRATION-V0083",
+  "forbidden_cad_promotions": [
+    "KP000_BORE_11_MM",
+    "PULLEY_TOOTHED_DIAMETER_17_MM",
+    "PULLEY_HUB_DIAMETER_96_MM",
+    "T_SLOT_BOLT_DIAMETER_14_MM",
+    "TOOL_LOCAL_ENVELOPE_196_MM",
+    "WASHER_THICKNESS_4_MM",
+    "INSTALLED_PTO_SHAFT_LENGTH_1400_MM"
+  ],
+  "items": [
+    {
+      "classification": "MEASUREMENT_CONFLICT",
+      "discrepancy_id": "D001",
+      "manufacturing_effect": "HOLD",
+      "reported_values": [
+        "NOMINAL_10_MM",
+        "RULER_11_MM",
+        "10_MM_SHAFT_ALMOST_NO_PLAY"
+      ],
+      "resolution": "USE_NOMINAL_10_FOR_CAD_ONLY_PENDING_CALIPER; REJECT_11_RULER_VALUE",
+      "topic": "KP000_BORE"
+    },
+    {
+      "classification": "MEASUREMENT_CONFLICT",
+      "discrepancy_id": "D002",
+      "manufacturing_effect": "FAIL_PROVISIONAL_FOR_LOAD",
+      "reported_values": [
+        "SHAFT_10_MM",
+        "PULLEY_BORE_11_MM"
+      ],
+      "resolution": "1.0_MM_DIAMETRAL_CLEARANCE_AND_0.5_MM_RADIAL_ECCENTRICITY_AUDIT",
+      "topic": "PULLEY_BORE_VS_SHAFT"
+    },
+    {
+      "classification": "REINTERPRETED",
+      "discrepancy_id": "D003",
+      "manufacturing_effect": "SEMANTIC_CONFIRMATION_REQUIRED",
+      "reported_values": [
+        "TOOTHED_BODY_OD_96_MM",
+        "TOOTH_FACE_WIDTH_17_MM"
+      ],
+      "resolution": "96_IS_RADIAL_OD_CANDIDATE; 17_IS_AXIAL_FACE_WIDTH_CANDIDATE",
+      "topic": "PULLEY_DIAMETER_VS_FACE_WIDTH"
+    },
+    {
+      "classification": "SEMANTIC_CONFLICT",
+      "discrepancy_id": "D004",
+      "manufacturing_effect": "HOLD",
+      "reported_values": [
+        "17_MM_FACE_WIDTH",
+        "3_MM_REPORTED_TOOTH_WIDTH"
+      ],
+      "resolution": "DO_NOT_USE_3_MM_UNTIL_FEATURE_IS_IDENTIFIED",
+      "topic": "PULLEY_REPORTED_TOOTH_WIDTH"
+    },
+    {
+      "classification": "MEASUREMENT_CONFLICT",
+      "difference_mm": 1.0,
+      "discrepancy_id": "D005",
+      "manufacturing_effect": "HOLD",
+      "reported_values": [
+        "TOTAL_20_MM",
+        "2_PLUS_17_PLUS_2_EQUALS_21_MM"
+      ],
+      "resolution": "USE_20_MM_OUTER_TOTAL_FOR_ENVELOPE; COMPONENTS_NON_ADDITIVE_PENDING_REMEASUREMENT",
+      "topic": "PULLEY_AXIAL_COMPONENT_SUM"
+    },
+    {
+      "classification": "REINTERPRETED",
+      "discrepancy_id": "D006",
+      "manufacturing_effect": "THREAD_MAJOR_DIAMETER_REMEASUREMENT_REQUIRED",
+      "reported_values": [
+        "M5_CANDIDATE",
+        "14_MM_REPORTED"
+      ],
+      "resolution": "14_MM_IS_LIKELY_BOLT_LENGTH_NOT_DIAMETER",
+      "topic": "T_SLOT_BOLT_14_MM"
+    },
+    {
+      "classification": "NOT_FOR_MANUFACTURING",
+      "discrepancy_id": "D007",
+      "manufacturing_effect": "LOCAL_TOOL_DIMENSIONS_REQUIRED",
+      "reported_values": [
+        "TOTAL_LENGTH_196_MM"
+      ],
+      "resolution": "DO_NOT_USE_TOTAL_LENGTH_AS_LOCAL_CLEARANCE_ENVELOPE",
+      "topic": "HEX_KEY_196_MM"
+    },
+    {
+      "classification": "MEASUREMENT_CONFLICT",
+      "discrepancy_id": "D008",
+      "manufacturing_effect": "FASTENER_STACK_HOLD",
+      "reported_values": [
+        "OD_10_MM",
+        "THICKNESS_4_MM"
+      ],
+      "resolution": "REMEASURE_AND_CONFIRM_PART_IDENTITY",
+      "topic": "WASHER_THICKNESS"
+    },
+    {
+      "classification": "REINTERPRETED",
+      "discrepancy_id": "D009",
+      "manufacturing_effect": "CUT_LENGTH_HOLD",
+      "reported_values": [
+        "400_X_2_PLUS_300_X_2_EQUALS_1400_MM"
+      ],
+      "resolution": "INVENTORY_TOTAL_ONLY; NEVER_USE_AS_ONE_INSTALLED_SHAFT_LENGTH",
+      "topic": "PTO_SHAFT_1400_MM"
+    },
+    {
+      "classification": "PART_MEASUREMENT_REQUIRED",
+      "discrepancy_id": "D010",
+      "manufacturing_effect": "PULLEY_CLEARANCE_AND_STACK_HOLD",
+      "reported_values": [
+        "HOUSING_DEPTH_17_MM",
+        "ONE_SIDE_INSERT_6_MM",
+        "OTHER_SIDE_UNKNOWN"
+      ],
+      "resolution": "TOTAL_AXIAL_ENVELOPE_CANNOT_BE_DERIVED",
+      "topic": "KP000_AXIAL_ENVELOPE"
+    },
+    {
+      "classification": "REINTERPRETED",
+      "discrepancy_id": "D011",
+      "manufacturing_effect": "TOOL_ENVELOPE_HOLD",
+      "reported_values": [
+        "SOCKET_SIZE_8_MM"
+      ],
+      "resolution": "8_MM_IS_NOMINAL_FASTENER_SIZE_NOT_SOCKET_OUTER_DIAMETER",
+      "topic": "SOCKET_8_MM"
+    },
+    {
+      "classification": "MEASUREMENT_CONFLICT",
+      "difference_mm": 2.0,
+      "discrepancy_id": "D012",
+      "manufacturing_effect": "NO_REDUCTION_OF_SAFETY_ENVELOPE",
+      "reported_values": [
+        "PRIOR_MAX_102_MM_MEANING_PENDING",
+        "CURRENT_FLANGE_OD_100_MM"
+      ],
+      "resolution": "RETAIN_120_MM_SAFETY_ENVELOPE; CONFIRM_SAME_PART_AND_MEASUREMENT_METHOD",
+      "topic": "PULLEY_PRIOR_102_VS_CURRENT_100"
+    }
+  ],
+  "source": "USER_PROVIDED_MEASUREMENTS_2026-07-31",
+  "status": "CONDITIONAL_PASS_DISCREPANCIES_FAIL_CLOSED"
+}

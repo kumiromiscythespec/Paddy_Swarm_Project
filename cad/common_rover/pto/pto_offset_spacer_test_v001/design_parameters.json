@@ -1,0 +1,410 @@
+{
+  "candidates": [
+    {
+      "available_clutch_corridor_mm": null,
+      "axis_status": "N/A_GAUGE_DOES_NOT_DEFINE_VERIFIED_KP000_ATTACHMENT",
+      "clutch_corridor_status": "DATUM_MEASUREMENTS_PENDING",
+      "conditional_corridor_change_vs_p20_mm": 0.0,
+      "conditional_corridor_expression": "C0 - 20.0",
+      "corridor_condition": "ONLY IF same fixed boundary and positive offset consumes same-axis corridor; direction and C0 unmeasured",
+      "id": "P20",
+      "installed_interference": "HOLD_MISSING_REGISTERED_GEOMETRY",
+      "interference_pairs": {
+        "60T_TO_20T": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_FRAME": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KNOWN_DRIVETRAIN": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KP000": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_PTO_SHAFT": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        }
+      },
+      "minimum_installed_static_clearance_mm": null,
+      "nominal_residual_mm": 3.0,
+      "physical_selection": "PHYSICAL_TEST_PENDING",
+      "pto_axis_local_x_mm": null,
+      "residual_class": "DERIVED_NOMINAL_CLEARANCE_NOT_PHYSICAL_NOT_INSTALLED_CAD",
+      "role": "MINIMUM_SPACE_CANDIDATE",
+      "structural_status": "NOT_APPROVED",
+      "tool_and_service": {
+        "20T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "20T_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "60T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "FUTURE_TENSIONING": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_BOLT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "PULLEY_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "SHAFT_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "T_NUT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "WRENCH_HEX_KEY": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING"
+      },
+      "working_offset_mm": 20.0
+    },
+    {
+      "available_clutch_corridor_mm": null,
+      "axis_status": "N/A_GAUGE_DOES_NOT_DEFINE_VERIFIED_KP000_ATTACHMENT",
+      "clutch_corridor_status": "DATUM_MEASUREMENTS_PENDING",
+      "conditional_corridor_change_vs_p20_mm": -2.0,
+      "conditional_corridor_expression": "C0 - 22.0",
+      "corridor_condition": "ONLY IF same fixed boundary and positive offset consumes same-axis corridor; direction and C0 unmeasured",
+      "id": "P22",
+      "installed_interference": "HOLD_MISSING_REGISTERED_GEOMETRY",
+      "interference_pairs": {
+        "60T_TO_20T": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_FRAME": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KNOWN_DRIVETRAIN": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KP000": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_PTO_SHAFT": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        }
+      },
+      "minimum_installed_static_clearance_mm": null,
+      "nominal_residual_mm": 5.0,
+      "physical_selection": "PHYSICAL_TEST_PENDING",
+      "pto_axis_local_x_mm": null,
+      "residual_class": "DERIVED_NOMINAL_CLEARANCE_NOT_PHYSICAL_NOT_INSTALLED_CAD",
+      "role": "BALANCED_CANDIDATE",
+      "structural_status": "NOT_APPROVED",
+      "tool_and_service": {
+        "20T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "20T_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "60T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "FUTURE_TENSIONING": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_BOLT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "PULLEY_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "SHAFT_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "T_NUT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "WRENCH_HEX_KEY": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING"
+      },
+      "working_offset_mm": 22.0
+    },
+    {
+      "available_clutch_corridor_mm": null,
+      "axis_status": "N/A_GAUGE_DOES_NOT_DEFINE_VERIFIED_KP000_ATTACHMENT",
+      "clutch_corridor_status": "DATUM_MEASUREMENTS_PENDING",
+      "conditional_corridor_change_vs_p20_mm": -5.0,
+      "conditional_corridor_expression": "C0 - 25.0",
+      "corridor_condition": "ONLY IF same fixed boundary and positive offset consumes same-axis corridor; direction and C0 unmeasured",
+      "id": "P25",
+      "installed_interference": "HOLD_MISSING_REGISTERED_GEOMETRY",
+      "interference_pairs": {
+        "60T_TO_20T": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_FRAME": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KNOWN_DRIVETRAIN": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_KP000": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        },
+        "60T_TO_PTO_SHAFT": {
+          "intersection_mm3": null,
+          "minimum_mm": null,
+          "status": "HOLD_MISSING_INSTALLED_TRANSFORMS"
+        }
+      },
+      "minimum_installed_static_clearance_mm": null,
+      "nominal_residual_mm": 8.0,
+      "physical_selection": "PHYSICAL_TEST_PENDING",
+      "pto_axis_local_x_mm": null,
+      "residual_class": "DERIVED_NOMINAL_CLEARANCE_NOT_PHYSICAL_NOT_INSTALLED_CAD",
+      "role": "HIGHER_CLEARANCE_CANDIDATE",
+      "structural_status": "NOT_APPROVED",
+      "tool_and_service": {
+        "20T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "20T_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "60T_BELT_PATH": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "FUTURE_TENSIONING": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_BOLT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "KP000_SETSCREW": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "PULLEY_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "SHAFT_REMOVAL": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "T_NUT": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING",
+        "WRENCH_HEX_KEY": "HOLD_ACTUAL_INTERFACE_AND_TOOL_PATH_PENDING"
+      },
+      "working_offset_mm": 25.0
+    }
+  ],
+  "final_clutch_solid_created": false,
+  "final_selected_length_mm": null,
+  "geometry": {
+    "60t_physical_envelope_actual_od_mm": 100.1,
+    "clutch_solid_count": 0,
+    "derived_overhang_mm": 17.0,
+    "frame_end_local_x_mm": 0.0,
+    "frame_reference_bounds_mm": [
+      500.0,
+      20.0,
+      40.0
+    ],
+    "gauge_mounting_hole_count": 0,
+    "gauge_shaft_hole_count": 0,
+    "gauges": {
+      "P20": {
+        "bench_contact_status": "INTENDED_DATUM_DEMONSTRATION_ONLY_NOT_INSTALLATION",
+        "bench_frame_gauge_distance_mm": 0.0,
+        "bench_frame_gauge_overlap_mm3": 0,
+        "bounds_mm": [
+          20.000000200000002,
+          18.000000200000002,
+          8.0000002
+        ],
+        "engraving_removed_mm3": 24.480000000001382,
+        "face_areas_mm2": [
+          144.0,
+          144.0
+        ],
+        "face_x_mm": [
+          0.0,
+          20.0
+        ],
+        "length_mm": 20.0,
+        "measurement_patch_first_layer_avoidance_mm": 2.0,
+        "measurement_patch_y_mm": [
+          -5,
+          5
+        ],
+        "measurement_patch_z_mm": [
+          2,
+          6
+        ],
+        "volume_mm3": 2855.5199999999986
+      },
+      "P22": {
+        "bench_contact_status": "INTENDED_DATUM_DEMONSTRATION_ONLY_NOT_INSTALLATION",
+        "bench_frame_gauge_distance_mm": 0.0,
+        "bench_frame_gauge_overlap_mm3": 0,
+        "bounds_mm": [
+          22.00000020000001,
+          18.000000200000006,
+          8.000000200000002
+        ],
+        "engraving_removed_mm3": 22.56000000000131,
+        "face_areas_mm2": [
+          144.0,
+          144.0
+        ],
+        "face_x_mm": [
+          0.0,
+          22.0
+        ],
+        "length_mm": 22.0,
+        "measurement_patch_first_layer_avoidance_mm": 2.0,
+        "measurement_patch_y_mm": [
+          -5,
+          5
+        ],
+        "measurement_patch_z_mm": [
+          2,
+          6
+        ],
+        "volume_mm3": 3145.4399999999987
+      },
+      "P25": {
+        "bench_contact_status": "INTENDED_DATUM_DEMONSTRATION_ONLY_NOT_INSTALLATION",
+        "bench_frame_gauge_distance_mm": 0.0,
+        "bench_frame_gauge_overlap_mm3": 0,
+        "bounds_mm": [
+          25.00000020000001,
+          18.000000200000006,
+          8.000000200000002
+        ],
+        "engraving_removed_mm3": 22.5600000000004,
+        "face_areas_mm2": [
+          144.0,
+          144.0
+        ],
+        "face_x_mm": [
+          0.0,
+          25.0
+        ],
+        "length_mm": 25.0,
+        "measurement_patch_first_layer_avoidance_mm": 2.0,
+        "measurement_patch_y_mm": [
+          -5,
+          5
+        ],
+        "measurement_patch_z_mm": [
+          2,
+          6
+        ],
+        "volume_mm3": 3577.4399999999996
+      }
+    },
+    "height_mm": 8,
+    "kp_physical_reference_actual_x_mm": 66.1,
+    "l_bracket_count": 0,
+    "load_transfer_function": false,
+    "material": "PETG",
+    "measurement_face_area_mm2": 144,
+    "minimum_text_edge_to_end_mm": 4.55,
+    "support": "OFF",
+    "text_depth_mm": 0.6,
+    "triangular_joint_count": 0,
+    "width_mm": 18,
+    "working_chamfer_mm": 0,
+    "working_direction": "GAUGE_LOCAL_X"
+  },
+  "global_vehicle_x_used": false,
+  "part_class": "NON_LOAD_BEARING_PLACEMENT_GAUGE",
+  "physical_clearance": "PHYSICAL_TEST_PENDING",
+  "powered": "NOT_APPROVED",
+  "printer": "BAMBU_A1",
+  "slicer": "HOLD_SLICER_NOT_RUN",
+  "source": {
+    "20t": {
+      "cad_axial_actual_mm": 23.0,
+      "cad_flange_actual_mm": 34.8,
+      "classification": "CURRENT_PHYSICAL_OBSERVATION; source34.8 is earlier independent measurement reference, not inferred here",
+      "interference_dominant": false,
+      "latest_observation": "PHYSICAL_FIT_OBSERVATION: relevant ring outside no larger than KP000",
+      "new_exact_od_inferred_from_observation": null,
+      "shaft": "nominal10; source bore measurement9.8 remains distinct; do not claim bore fit from CAD",
+      "source": "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001/artifacts/pto_20t_od10_physical_envelope.step"
+    },
+    "60t": {
+      "cad_axial_actual_mm": 26.0,
+      "cad_max_actual_mm": 102.0,
+      "cad_minus_physical_mm": 1.9000000000000057,
+      "cad_source": "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/artifacts/temp_htd5m_60t_dual_shaft_collar_embedded_m4_provisional_v0_9_6_26.step",
+      "envelope": "100.1 diameter physical radial reference;26 axial DISPLAY/CAD_REFERENCE_ONLY",
+      "installed_exact_source_identity": "NOT_PROVEN; latest found v09626 is PROVISIONAL, not an installation record",
+      "not_included": "runout, actual axial stack and installed hardware projections need measurement",
+      "physical_class": "PHYSICAL_DIRECT_LATEST_USER_TASK",
+      "physical_max_mm": 100.1
+    },
+    "decisive_evidence": "physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001/FRONT_INTERFACE_PHYSICAL_STATUS_AUDIT.md: full front-interface registration NOT_PROVEN",
+    "direction_of_controlled_installation_offset": "PHYSICAL_CONFIRMATION_PENDING",
+    "frame_length_status": "REFERENCE_FRAME_ENVELOPE_DESIGN_CANDIDATE_NOT_PHYSICAL_AUTHORITY",
+    "front_l_bracket": "REJECTED_FOR_CURRENT_PHYSICAL_ASSEMBLY",
+    "installed_transform": "PHYSICAL_PENDING; do not derive it from front-interface old global origin",
+    "interface_proven": false,
+    "kp000": {
+      "cad_minus_physical_mm": 0.9000000000000057,
+      "cad_source": "cad/common_rover/frame/front_interface_dual_pto_20t_v001/build_front_interface_dual_pto_20t_v001.py:kp000",
+      "cad_span_actual_mm": 67.0,
+      "other_reference_dimensions_mm": {
+        "axial_depth": 17,
+        "axis_height": 18.5,
+        "height": 35,
+        "nominal_bore": 10
+      },
+      "physical_class": "PHYSICAL_DIRECT_LATEST_USER_TASK",
+      "physical_span_mm": 66.1,
+      "reference_limits": "Simplified housing; mounting holes, collar projection, hole-to-end offsets and current physical pose NOT established"
+    },
+    "old_shim": {
+      "cross_section_mm": [
+        10.2,
+        13.8
+      ],
+      "function": "rotating inner-race to PTO pulley axial shim; NOT evidence for20/22/25 placement spacer",
+      "lane": "cad/common_rover/pto/pto_axial_shim_spacer_test_v001",
+      "thicknesses_mm": [
+        0.5,
+        1.0
+      ]
+    },
+    "primary_local_datum": "500_MM_MEMBER_END_FACE_LOCAL_X0",
+    "primary_use": "FIT_POSITION_CLEARANCE_TEST_NON_LOAD_BEARING_GAUGE",
+    "search_scope": [
+      "cad/common_rover/frame",
+      "cad/common_rover/pto",
+      "cad/common_rover/drivetrain",
+      "cad/common_rover/physical_authority",
+      "current narrow-frame lane",
+      "v09626 60T lane",
+      "v0951 DRIVE source"
+    ],
+    "search_terms": [
+      "KP000",
+      "PTO",
+      "20T",
+      "60T",
+      "front interface",
+      "front output",
+      "shaft",
+      "slide clutch",
+      "clutch",
+      "500 mm frame",
+      "2040",
+      "current drivetrain",
+      "physical assembly",
+      "spacer",
+      "axial shim",
+      "bearing support"
+    ],
+    "second_mounting_face": "PHYSICAL_IDENTIFICATION_PENDING",
+    "shaft_key": {
+      "cut_length": "HOLD_NOT_RELEASED",
+      "display_length_mm": 40,
+      "drive_effective_key_mm": 16.7,
+      "drive_path": "SHAFT_KEY_MISUMI_GROOVE1_CANDIDATE_C_UNCHANGED",
+      "new_key_or_bore_geometry_created": false,
+      "pto_nominal_diameter_mm": 10,
+      "pto_path": "EXISTING_DUAL_SETSCREW_20T_REFERENCE_NOT_MODIFIED",
+      "source": "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001/physical_measurements.json"
+    },
+    "slide_clutch": {
+      "final_envelope": "PHYSICAL_PENDING_CAD_PENDING",
+      "old_servo_idler": "Different ON/OFF mechanism; not a final slide-clutch authority",
+      "solid_created": false
+    },
+    "source_step_sha256": {
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/artifacts/temp_htd5m_60t_dual_shaft_collar_embedded_m4_provisional_v0_9_6_26.step": "ba88d9c807ba749329e66fa3e5f6101ffb125259142e7aa035cb3d21f27ced3d",
+      "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/cad/candidate_C_12T_misumi_groove1_keeperless.step": "86532a8b70387f67e26de929dd061d85bd5efc4a21699251971b16a5f62952fd",
+      "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001/artifacts/pto_20t_od10_physical_envelope.step": "cb32441a0ae5b54df101248b9d5c6b90c9c250229f88aa4e27d3a8f8272e3d9f"
+    },
+    "structural_load_authority": "NOT_APPROVED"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/PLACEMENT_GAUGE_PRINT_READY/STRUCTURAL_SPACER_INTERFACE_PENDING/PHYSICAL_CLEARANCE_TEST_PENDING/SLIDE_CLUTCH_FINAL_ENVELOPE_PENDING",
+  "structural_load_authority": "NOT_APPROVED",
+  "version": "PTO_FRONT_OUTPUT_OFFSET_SPACER_TEST_V001"
+}

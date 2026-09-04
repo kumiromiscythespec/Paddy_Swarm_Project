@@ -1,0 +1,38 @@
+DOCUMENT_ID=PS-CR-MEASUREMENT-INTEGRATION-V0083
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cad\python.exe -B tests/test_common_rover_measurement_integration_v0083_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_twenty_package_paths (__main__.CommonRoverV0083Contract.test_001_exact_twenty_package_paths) ... ok
+test_002_parent_hashes_protected (__main__.CommonRoverV0083Contract.test_002_parent_hashes_protected) ... ok
+test_003_fixed_architecture_and_parent_candidates (__main__.CommonRoverV0083Contract.test_003_fixed_architecture_and_parent_candidates) ... ok
+test_004_measurement_classifications (__main__.CommonRoverV0083Contract.test_004_measurement_classifications) ... ok
+test_005_forbidden_values_not_promoted (__main__.CommonRoverV0083Contract.test_005_forbidden_values_not_promoted) ... ok
+test_006_kp000_updated_envelope (__main__.CommonRoverV0083Contract.test_006_kp000_updated_envelope) ... ok
+test_007_no_manufacturing_hole_geometry (__main__.CommonRoverV0083Contract.test_007_no_manufacturing_hole_geometry) ... ok
+test_008_two_pulley_models_and_safety_authority (__main__.CommonRoverV0083Contract.test_008_two_pulley_models_and_safety_authority) ... ok
+test_009_discrepancy_report (__main__.CommonRoverV0083Contract.test_009_discrepancy_report) ... ok
+test_010_shaft_bore_fit_audit (__main__.CommonRoverV0083Contract.test_010_shaft_bore_fit_audit) ... ok
+test_011_pulley_fixation_comparison (__main__.CommonRoverV0083Contract.test_011_pulley_fixation_comparison) ... ok
+test_012_critical_remeasurement_gate (__main__.CommonRoverV0083Contract.test_012_critical_remeasurement_gate) ... ok
+test_013_axial_stack_both_sides (__main__.CommonRoverV0083Contract.test_013_axial_stack_both_sides) ... ok
+test_014_shaft_length_range_and_stock_semantics (__main__.CommonRoverV0083Contract.test_014_shaft_length_range_and_stock_semantics) ... ok
+test_015_support_plate_non_regression (__main__.CommonRoverV0083Contract.test_015_support_plate_non_regression) ... ok
+test_016_intersections_and_clearance_holds (__main__.CommonRoverV0083Contract.test_016_intersections_and_clearance_holds) ... ok
+test_017_width_and_pto_ends (__main__.CommonRoverV0083Contract.test_017_width_and_pto_ends) ... ok
+test_018_step_semantic_geometry (__main__.CommonRoverV0083Contract.test_018_step_semantic_geometry) ... ok
+test_019_svg_warnings_and_critical_values (__main__.CommonRoverV0083Contract.test_019_svg_warnings_and_critical_values) ... ok
+test_020_manifest_and_sha256s (__main__.CommonRoverV0083Contract.test_020_manifest_and_sha256s) ... ok
+test_021_no_cache_or_large_forbidden_file (__main__.CommonRoverV0083Contract.test_021_no_cache_or_large_forbidden_file) ... ok
+test_022_builder_verify_read_only (__main__.CommonRoverV0083Contract.test_022_builder_verify_read_only) ... ok
+test_023_release_states (__main__.CommonRoverV0083Contract.test_023_release_states) ... ok
+test_024_validation_contract (__main__.CommonRoverV0083Contract.test_024_validation_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 2.578s
+
+OK

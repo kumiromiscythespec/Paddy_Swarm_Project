@@ -1,0 +1,47 @@
+{
+  "authority_id": "COMMON_ROVER_ELECTRICAL_HARDWARE_PHYSICAL_AUTHORITY_V001",
+  "status": "DOCUMENTATION_COMPLETE/ELECTRICAL_HARDWARE_AUTHORITY_RECORDED/PHYSICAL_GAPS_REMAIN",
+  "validation_date": "2026-09-01",
+  "contract": {
+    "expected_checks": 31,
+    "result": "PASS",
+    "cad_generated": false,
+    "existing_tracked_files_modified_by_task": 0,
+    "preexisting_untracked_files_modified_by_task": 0,
+    "staged_count": 0
+  },
+  "classification_guards": {
+    "physical_direct_has_repository_or_user_source": "PASS",
+    "md10c_datasheet_not_promoted_to_physical": "PASS",
+    "cable_9p6_not_identified_as_2pnct": "PASS",
+    "service_900_not_classed_physical_direct": "PASS",
+    "battery_body_not_battery_cassette": "PASS",
+    "current_cbox_not_old_cbox": "PASS",
+    "unknown_dimensions_pending": "PASS",
+    "old_90p7_not_used_as_insertion_clearance": "PASS"
+  },
+  "repository_guard": {
+    "repository": "D:/Paddy_Swarm_Project",
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "preexisting_tracked_dirty_count": 4,
+    "preexisting_untracked_file_count": 4133,
+    "preexisting_untracked_content_digest_sha256": "22d0f97b11ab4df86e0f60b61d2c169709233fe08b0d0ce89ce6636a75b02a3f",
+    "authority_file_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    }
+  },
+  "output_contract": {
+    "documentation_only": true,
+    "json_count": 2,
+    "markdown_count": 4,
+    "csv_count": 1,
+    "python_test_count": 1,
+    "cad_step_stl_dxf_count": 0,
+    "exact_lane_path_count": 11
+  },
+  "remaining_state": "PHYSICAL_VALIDATION_COMPLETE_NOT_CLAIMED"
+}

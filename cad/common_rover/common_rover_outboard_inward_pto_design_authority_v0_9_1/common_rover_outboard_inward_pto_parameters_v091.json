@@ -1,0 +1,589 @@
+{
+  "alternatives": [
+    {
+      "architecture": "B",
+      "belt_layout": "B5",
+      "belt_to_fastener_clearance_mm": 10.0,
+      "belt_to_fixed_clearance_mm": 11.5,
+      "belt_to_kp000_clearance_mm": 10.0,
+      "belt_to_l_bracket_clearance_mm": 10.0,
+      "candidate_id": "S9-B5-F2040A-FRAMEC-PTOX210-Z330-PY85.0-DY40.0-LX70-GAP50-C3",
+      "center_pto_end_gap_mm": 50.0,
+      "clutch_full_stroke_to_belt_clearance_mm": 10.0,
+      "clutch_full_stroke_to_fixed_clearance_mm": 12.0,
+      "coupling_candidate": "C3",
+      "drive_20t_center_xyz_mm": [
+        0.0,
+        125.0,
+        370.0
+      ],
+      "drive_60t_center_xyz_mm": [
+        150.0,
+        125.0,
+        320.0
+      ],
+      "drive_belt_plane_abs_y_mm": 125.0,
+      "drive_belt_plane_offset_from_pto_mm": 40.0,
+      "drive_pto_belt_safety_gap_mm": 9.0,
+      "frame_front_end_x_mm": 80.0,
+      "frame_layout": "FRAME-C",
+      "frame_rail_abs_y_mm": 48.0,
+      "frame_section": "F2040-A",
+      "frame_section_yz_mm": [
+        20.0,
+        40.0
+      ],
+      "high_electrical_interface_bottom_z_mm": 440.0,
+      "high_electrical_interface_center_xyz_mm": [
+        180.0,
+        0.0,
+        455.0
+      ],
+      "hold_reason": "MANUAL_CLAMP_TOOL_AND_MUD_SEAL_VALIDATION_REQUIRED",
+      "inner_kp000_abs_y_mm": 45.0,
+      "kp000_full_half_depth_mm": 14.5,
+      "l_bracket_near_face_x_mm": 220.0,
+      "l_bracket_placement": "FORE_AFT_X_OUTSIDE_BELT",
+      "l_bracket_size": "L_LARGE",
+      "l_bracket_x_offset_from_pto_mm": 70.0,
+      "l_bracket_z_offset_mm": 60.0,
+      "left_inward_pto_end_y_mm": 25.0,
+      "max_member_length_mm": 350.0,
+      "motor_body_xyz_mm": [
+        100.0,
+        65.0,
+        85.0
+      ],
+      "motor_center_xyz_mm": [
+        -60.0,
+        100.0,
+        370.0
+      ],
+      "motor_envelope": "MOTOR_MEDIUM",
+      "outer_kp000_abs_y_mm": 125.0,
+      "physical_fit": "HOLD",
+      "pto_20t_center_xyz_mm": [
+        0.0,
+        85.0,
+        370.0
+      ],
+      "pto_60t_actual_side_clearance_each_mm": 15.5,
+      "pto_60t_axial_width_mm": 20.0,
+      "pto_60t_center_xyz_mm": [
+        150.0,
+        85.0,
+        330.0
+      ],
+      "pto_60t_safety_axial_width_mm": 31.0,
+      "pto_60t_safety_od_mm": 120.0,
+      "pto_60t_safety_to_kp000_each_mm": 10.0,
+      "pto_axis_z_mm": 330.0,
+      "pto_belt_plane_abs_y_mm": 85.0,
+      "pto_rotation_bottom_z_mm": 270.0,
+      "pto_rotation_to_fastener_clearance_mm": 10.0,
+      "pto_rotation_to_fixed_clearance_mm": 10.0,
+      "pto_rotation_to_l_bracket_clearance_mm": 10.0,
+      "pto_x_offset_from_motor_mm": 210.0,
+      "right_inward_pto_end_y_mm": -25.0,
+      "search_stage": 9,
+      "selection": "ALTERNATIVE_A",
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "support_plate_outline_xz_mm": [
+        95.0,
+        140.0
+      ],
+      "support_plate_thickness_mm": 5.0,
+      "total_width_with_all_envelopes_mm": 290.0,
+      "water_mud_margin_mm": 70.0
+    },
+    {
+      "architecture": "B",
+      "belt_layout": "B4",
+      "belt_to_fastener_clearance_mm": 10.0,
+      "belt_to_fixed_clearance_mm": 14.0,
+      "belt_to_kp000_clearance_mm": 10.0,
+      "belt_to_l_bracket_clearance_mm": 10.0,
+      "candidate_id": "S9-B4-F2040A-FRAMED-PTOX220-Z300-PY87.5-DY40.0-LX75-GAP70-C5",
+      "center_pto_end_gap_mm": 70.0,
+      "clutch_full_stroke_to_belt_clearance_mm": 10.0,
+      "clutch_full_stroke_to_fixed_clearance_mm": 12.0,
+      "coupling_candidate": "C5",
+      "drive_20t_center_xyz_mm": [
+        0.0,
+        125.0,
+        370.0
+      ],
+      "drive_60t_center_xyz_mm": [
+        150.0,
+        125.0,
+        320.0
+      ],
+      "drive_belt_plane_abs_y_mm": 127.5,
+      "drive_belt_plane_offset_from_pto_mm": 40.0,
+      "drive_pto_belt_safety_gap_mm": 9.0,
+      "frame_front_end_x_mm": 80.0,
+      "frame_layout": "FRAME-D",
+      "frame_rail_abs_y_mm": 48.0,
+      "frame_section": "F2040-A",
+      "frame_section_yz_mm": [
+        20.0,
+        40.0
+      ],
+      "high_electrical_interface_bottom_z_mm": 440.0,
+      "high_electrical_interface_center_xyz_mm": [
+        180.0,
+        0.0,
+        455.0
+      ],
+      "hold_reason": "ADDED_SUBFRAME_AND_LOW_MUD_MARGIN",
+      "inner_kp000_abs_y_mm": 45.0,
+      "kp000_full_half_depth_mm": 14.5,
+      "l_bracket_near_face_x_mm": 220.0,
+      "l_bracket_placement": "FORE_AFT_X_OUTSIDE_BELT",
+      "l_bracket_size": "L_LARGE",
+      "l_bracket_x_offset_from_pto_mm": 70.0,
+      "l_bracket_z_offset_mm": 60.0,
+      "left_inward_pto_end_y_mm": 35.0,
+      "max_member_length_mm": 350.0,
+      "motor_body_xyz_mm": [
+        100.0,
+        65.0,
+        85.0
+      ],
+      "motor_center_xyz_mm": [
+        -60.0,
+        100.0,
+        370.0
+      ],
+      "motor_envelope": "MOTOR_MEDIUM",
+      "outer_kp000_abs_y_mm": 125.0,
+      "physical_fit": "HOLD",
+      "pto_20t_center_xyz_mm": [
+        0.0,
+        85.0,
+        370.0
+      ],
+      "pto_60t_actual_side_clearance_each_mm": 15.5,
+      "pto_60t_axial_width_mm": 20.0,
+      "pto_60t_center_xyz_mm": [
+        160.0,
+        87.5,
+        300.0
+      ],
+      "pto_60t_safety_axial_width_mm": 31.0,
+      "pto_60t_safety_od_mm": 120.0,
+      "pto_60t_safety_to_kp000_each_mm": 10.0,
+      "pto_axis_z_mm": 300.0,
+      "pto_belt_plane_abs_y_mm": 87.5,
+      "pto_rotation_bottom_z_mm": 240.0,
+      "pto_rotation_to_fastener_clearance_mm": 10.0,
+      "pto_rotation_to_fixed_clearance_mm": 10.0,
+      "pto_rotation_to_l_bracket_clearance_mm": 10.0,
+      "pto_x_offset_from_motor_mm": 220.0,
+      "right_inward_pto_end_y_mm": -35.0,
+      "search_stage": 9,
+      "selection": "ALTERNATIVE_B",
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "support_plate_outline_xz_mm": [
+        95.0,
+        140.0
+      ],
+      "support_plate_thickness_mm": 5.0,
+      "total_width_with_all_envelopes_mm": 295.0,
+      "water_mud_margin_mm": 40.0
+    }
+  ],
+  "belt": {
+    "drive_count": 2,
+    "physical_width_mm": 15.0,
+    "pto_20t_60t_same_y_plane_each_side": true,
+    "pto_count": 2,
+    "safety_width_mm": 31.0,
+    "standard": "HTD_5M",
+    "total_count": 4,
+    "twist_count": 0
+  },
+  "central_bay": {
+    "actual_coupling_dimensions": "HOLD",
+    "candidate_id": "CENTRAL_WORK_UNIT_PTO_BAY_C1_GAP60",
+    "end_gap_mm": 60.0,
+    "installation_direction": "+X_FRONT_APPROACH",
+    "left_end_y_mm": 30.0,
+    "left_right_coupling_intersection_count": 0,
+    "left_right_shaft_intersection_count": 0,
+    "mechanical_only": true,
+    "minimum_gap_mm": 30.0,
+    "removal_direction": "-X_AFTER_DISENGAGEMENT",
+    "right_end_y_mm": -30.0,
+    "target_gap_mm": 50.0
+  },
+  "clearance_contract": {
+    "belt_fixed_absolute_mm": 5.0,
+    "belt_fixed_target_mm": 8.0,
+    "belt_l_bracket_absolute_mm": 5.0,
+    "belt_l_bracket_target_mm": 8.0,
+    "clutch_belt_absolute_mm": 8.0,
+    "clutch_belt_target_mm": 10.0,
+    "clutch_fixed_absolute_mm": 5.0,
+    "clutch_fixed_target_mm": 8.0,
+    "pto_fixed_absolute_mm": 8.0,
+    "pto_fixed_target_mm": 10.0,
+    "pto_l_bracket_absolute_mm": 8.0,
+    "pto_l_bracket_target_mm": 10.0
+  },
+  "coupling_actual_measurements": "NOT_AVAILABLE",
+  "direction_delta": {
+    "left_right_couplings_independent": true,
+    "left_right_outputs_directly_connected": false,
+    "left_right_torque_paths_independent": true,
+    "v090": {
+      "left": "+Y",
+      "meaning": "OUTWARD",
+      "right": "-Y"
+    },
+    "v091": {
+      "left": "-Y",
+      "meaning": "INWARD",
+      "right": "+Y"
+    }
+  },
+  "document_id": "PS-CR-OUTBOARD-INWARD-V091",
+  "electrical": {
+    "bottom_z_mm": 440.0,
+    "candidate_id": "E2_FRONT_UPPER_ELECTRICAL_BRIDGE",
+    "center_xyz_mm": [
+      180.0,
+      0.0,
+      455.0
+    ],
+    "central_bay_connector": "PROHIBITED",
+    "functions": [
+      "UNIT_PRESENT_SENSOR",
+      "UNIT_ID_INTERFACE",
+      "UNIT_POWER_INTERFACE",
+      "UNIT_DATA_INTERFACE",
+      "UNIT_FAULT"
+    ],
+    "route": "WORK_UNIT_TO_PROTECTED_VERTICAL_RISER_TO_E2_TO_CBOX"
+  },
+  "fixed_contract": {
+    "architecture": "B_SHORT_STROKE_SELECTOR_WITH_INDEPENDENT_JACKSHAFTS",
+    "box_bottom_min_z_mm": 200.0,
+    "box_order": "CBOX_FRONT_BBOX_REAR_SERIAL",
+    "box_structural_role": "PROHIBITED",
+    "central_pto_bay_role": "MECHANICAL_ONLY",
+    "common_pto_shaft": "PROHIBITED",
+    "crawler": "LEFT_RIGHT_INDEPENDENT_INVERSE_TRAPEZOID",
+    "drive_belt_count": 2,
+    "drive_pto_simultaneous": "MECHANICALLY_PROHIBITED",
+    "kp000_direct_to_2040": "PROHIBITED",
+    "kp000_mounting_ears_required": 2,
+    "motor_axis_direction": {
+      "left": "-Y",
+      "right": "+Y"
+    },
+    "motor_axis_z_mm": 370.0,
+    "motor_count": 2,
+    "pto_architecture": "LEFT_RIGHT_INDEPENDENT_NO_COMMON_SHAFT",
+    "pto_belt_count": 2,
+    "pto_output_direction": {
+      "left": "-Y",
+      "right": "+Y"
+    },
+    "pto_port_count": 2,
+    "pto_while_travelling": "PROHIBITED",
+    "single_frame_member_max_mm": 400.0,
+    "slide_clutch_count": 2,
+    "slide_clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "switch_while_motor_rotating": "PROHIBITED",
+    "third_pto_motor": "PROHIBITED",
+    "total_belt_count": 4,
+    "total_width_limit_mm": 300.0,
+    "unit_present_required_for_pto": true
+  },
+  "frame": {
+    "load_path": "PTO_60T_TO_SHAFT_TO_TWO_KP000_TO_COMMON_A5052_PLATES_TO_F2040A_TO_SPLIT_CROSSMEMBERS",
+    "member_length_limit_mm": 400.0,
+    "recommended_orientation": {
+      "candidate_id": "F2040-A",
+      "y_thickness_mm": 20.0,
+      "z_height_mm": 40.0
+    },
+    "rejected_width_orientation": {
+      "candidate_id": "F2040-B",
+      "reason": "BELT_FIXED_CLEARANCE_1.5MM_LT_5MM",
+      "y_thickness_mm": 40.0,
+      "z_height_mm": 20.0
+    },
+    "section_2020_mm": [
+      20.0,
+      20.0
+    ],
+    "section_2040_mm": [
+      20.0,
+      40.0
+    ],
+    "selected_layout": "FRAME-E"
+  },
+  "kp000": {
+    "direct_to_2040": "PROHIBITED",
+    "full_half_depth_sensitivity_mm": 14.5,
+    "hole_center_distance": "HOLD",
+    "housing_axial_depth_y_mm": 17.0,
+    "insert_protrusion_mm": 6.0,
+    "mounting_ear_count": 2,
+    "mounting_width_x_mm": 67.0,
+    "nominal_bore_mm": 10.0
+  },
+  "l_brackets": {
+    "actual_dimensions": "HOLD",
+    "envelopes": [
+      {
+        "id": "L_SMALL",
+        "leg_length_mm": 20.0,
+        "thickness_mm": 3.0,
+        "width_mm": 20.0
+      },
+      {
+        "id": "L_MEDIUM",
+        "leg_length_mm": 30.0,
+        "thickness_mm": 4.0,
+        "width_mm": 30.0
+      },
+      {
+        "id": "L_LARGE",
+        "leg_length_mm": 40.0,
+        "thickness_mm": 5.0,
+        "width_mm": 40.0
+      }
+    ],
+    "includes": [
+      "BRACKET_BODY",
+      "BOLT_HEADS",
+      "WASHERS",
+      "T_NUTS",
+      "NUT_ENVELOPE",
+      "TOOL_INSERTION",
+      "TOOL_ROTATION_SWEEP"
+    ]
+  },
+  "manufacturing_holds": [
+    "ACTUAL_MOTOR_ENVELOPE",
+    "MOTOR_MOUNT_HOLE_PATTERN",
+    "L_BRACKET_ACTUAL_DIMENSIONS_AND_RATING",
+    "KP000_HOLE_CENTER_DISTANCE",
+    "COUPLING_OD_LENGTH_STROKE_TORQUE",
+    "SUPPORT_PLATE_MACHINING",
+    "MANUFACTURING_HOLE_RELEASE",
+    "SHAFT_CUTTING",
+    "LOAD_TEST",
+    "WATER_MUD_TEST",
+    "FIELD_DEPLOYMENT"
+  ],
+  "motor_actual_measurements": "NOT_AVAILABLE",
+  "motor_envelopes": [
+    {
+      "id": "MOTOR_SMALL",
+      "x_mm": 80.0,
+      "y_mm": 50.0,
+      "z_mm": 70.0
+    },
+    {
+      "id": "MOTOR_MEDIUM",
+      "x_mm": 100.0,
+      "y_mm": 65.0,
+      "z_mm": 85.0
+    },
+    {
+      "id": "MOTOR_LARGE",
+      "x_mm": 120.0,
+      "y_mm": 80.0,
+      "z_mm": 100.0
+    }
+  ],
+  "parent": {
+    "handoff_zip_sha256": "d6f4fe041617fa3153894365c2d71f86af964a1c1da78de9964fe63b2e9c9756",
+    "lane": "cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0",
+    "ledger_sha256": "e6480973c32b76cbaf8c4cdb404f7a8ec1d2f9e4c48780bda8a416416c6421f6",
+    "path_count": 38,
+    "protected_v008_to_v0085_path_count": 124
+  },
+  "pto_60t": {
+    "axial_width_mm": 20.0,
+    "between_two_bearings": true,
+    "minimum_side_clearance_mm": 5.0,
+    "preferred_total_reservation_mm": 40.0,
+    "safety_od_mm": 120.0,
+    "safety_radius_mm": 60.0,
+    "target_side_clearance_mm": 8.0
+  },
+  "recommended": {
+    "architecture": "B",
+    "belt_layout": "B1",
+    "belt_to_fastener_clearance_mm": 10.0,
+    "belt_to_fixed_clearance_mm": 11.5,
+    "belt_to_kp000_clearance_mm": 10.0,
+    "belt_to_l_bracket_clearance_mm": 10.0,
+    "candidate_id": "S9-B1-F2040A-FRAMEE-PTOX210-Z320-PY85.0-DY40.0-LX70-GAP60-C1",
+    "center_pto_end_gap_mm": 60.0,
+    "clutch_full_stroke_to_belt_clearance_mm": 10.0,
+    "clutch_full_stroke_to_fixed_clearance_mm": 12.0,
+    "coupling_candidate": "C1",
+    "drive_20t_center_xyz_mm": [
+      0.0,
+      125.0,
+      370.0
+    ],
+    "drive_60t_center_xyz_mm": [
+      150.0,
+      125.0,
+      320.0
+    ],
+    "drive_belt_plane_abs_y_mm": 125.0,
+    "drive_belt_plane_offset_from_pto_mm": 40.0,
+    "drive_pto_belt_safety_gap_mm": 9.0,
+    "frame_front_end_x_mm": 80.0,
+    "frame_layout": "FRAME-E",
+    "frame_rail_abs_y_mm": 48.0,
+    "frame_section": "F2040-A",
+    "frame_section_yz_mm": [
+      20.0,
+      40.0
+    ],
+    "high_electrical_interface_bottom_z_mm": 440.0,
+    "high_electrical_interface_center_xyz_mm": [
+      180.0,
+      0.0,
+      455.0
+    ],
+    "inner_kp000_abs_y_mm": 45.0,
+    "kp000_full_half_depth_mm": 14.5,
+    "l_bracket_near_face_x_mm": 220.0,
+    "l_bracket_placement": "FORE_AFT_X_OUTSIDE_BELT",
+    "l_bracket_size": "L_LARGE",
+    "l_bracket_x_offset_from_pto_mm": 70.0,
+    "l_bracket_z_offset_mm": 60.0,
+    "left_inward_pto_end_y_mm": 30.0,
+    "max_member_length_mm": 350.0,
+    "motor_body_xyz_mm": [
+      100.0,
+      65.0,
+      85.0
+    ],
+    "motor_center_xyz_mm": [
+      -60.0,
+      100.0,
+      370.0
+    ],
+    "motor_envelope": "MOTOR_MEDIUM",
+    "outer_kp000_abs_y_mm": 125.0,
+    "physical_fit": "HOLD",
+    "pto_20t_center_xyz_mm": [
+      0.0,
+      85.0,
+      370.0
+    ],
+    "pto_60t_actual_side_clearance_each_mm": 15.5,
+    "pto_60t_axial_width_mm": 20.0,
+    "pto_60t_center_xyz_mm": [
+      150.0,
+      85.0,
+      320.0
+    ],
+    "pto_60t_safety_axial_width_mm": 31.0,
+    "pto_60t_safety_od_mm": 120.0,
+    "pto_60t_safety_to_kp000_each_mm": 10.0,
+    "pto_axis_z_mm": 320.0,
+    "pto_belt_plane_abs_y_mm": 85.0,
+    "pto_rotation_bottom_z_mm": 260.0,
+    "pto_rotation_to_fastener_clearance_mm": 10.0,
+    "pto_rotation_to_fixed_clearance_mm": 10.0,
+    "pto_rotation_to_l_bracket_clearance_mm": 10.0,
+    "pto_x_offset_from_motor_mm": 210.0,
+    "right_inward_pto_end_y_mm": -30.0,
+    "search_stage": 9,
+    "status": "CONDITIONAL_PASS_CANDIDATE",
+    "support_plate_outline_xz_mm": [
+      95.0,
+      140.0
+    ],
+    "support_plate_thickness_mm": 5.0,
+    "total_width_with_all_envelopes_mm": 290.0,
+    "water_mud_margin_mm": 60.0
+  },
+  "release_states": {
+    "belt_corridors": "CONDITIONAL_PASS_CANDIDATE",
+    "central_pto_bay": "CONDITIONAL_PASS_CANDIDATE",
+    "field_deployment": "NOT_APPROVED",
+    "frame_layout": "CONDITIONAL_PASS_CANDIDATE",
+    "functional_powertrain_contract": "FIXED",
+    "inward_pto": "CONDITIONAL_PASS_CANDIDATE",
+    "manufacturing": "HOLD",
+    "outboard_powertrain_pod": "CONDITIONAL_PASS_CANDIDATE",
+    "physical_fit": "HOLD",
+    "shaft_cutting": "HOLD",
+    "support_plate_machining": "HOLD"
+  },
+  "search": {
+    "candidate_count": 704,
+    "order": [
+      "STAGE_0",
+      "STAGE_1",
+      "STAGE_2",
+      "STAGE_3",
+      "STAGE_4",
+      "STAGE_5",
+      "STAGE_6",
+      "STAGE_7",
+      "STAGE_8",
+      "STAGE_9",
+      "STAGE_10"
+    ],
+    "selection_priority": [
+      "POWER_PATHS",
+      "BELT_INTERSECTIONS",
+      "BELT_FIXED_CLEARANCE",
+      "PTO_FIXED_CLEARANCE",
+      "CLUTCH_CLEARANCE",
+      "60T_BETWEEN_BEARINGS",
+      "CENTRAL_SHAFT_COLLISION",
+      "CENTRAL_BAY",
+      "TOTAL_WIDTH",
+      "PTO_BOTTOM",
+      "E2",
+      "SERVICE",
+      "LOAD_PATH",
+      "PART_COUNT"
+    ],
+    "stage_10_required": false,
+    "stage_counts": {
+      "stage_0": 1,
+      "stage_1": 1,
+      "stage_10": 0,
+      "stage_2": 15,
+      "stage_3": 54,
+      "stage_4": 10,
+      "stage_5": 204,
+      "stage_6": 8,
+      "stage_7": 55,
+      "stage_8": 30,
+      "stage_9": 326
+    }
+  },
+  "status": [
+    "FUNCTIONAL_POWERTRAIN_CONTRACT_FIXED",
+    "OUTBOARD_POD_CONDITIONAL_PASS",
+    "INWARD_PTO_CONDITIONAL_PASS",
+    "FRAME_LAYOUT_CONDITIONAL_PASS",
+    "BELT_CORRIDORS_CONDITIONAL_PASS",
+    "CENTRAL_PTO_BAY_CONDITIONAL_PASS_OR_HOLD",
+    "PHYSICAL_FIT_HOLD",
+    "NOT_FOR_MANUFACTURING",
+    "FIELD_DEPLOYMENT_NOT_APPROVED"
+  ],
+  "title": "Common Rover v0.9.1 Outboard Pod / Inward Independent PTO"
+}

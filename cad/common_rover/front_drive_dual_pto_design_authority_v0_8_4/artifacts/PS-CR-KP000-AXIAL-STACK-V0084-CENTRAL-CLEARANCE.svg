@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<style>
+text{font-family:Arial,sans-serif;fill:#0b2545} .t{font-size:30px;font-weight:700} .h{font-size:24px;font-weight:700} .s{font-size:18px}
+.bad{fill:#ffd1d1;stroke:#b40000;stroke-width:3} .good{fill:#d7f4da;stroke:#197333;stroke-width:3} .warn{fill:#b40000;font-size:17px;font-weight:700}
+</style>
+<rect width="1400" height="900" fill="#f5f7fb"/>
+<text x="35" y="48" class="t">v0.8.4 inner KP000 central-clearance gate</text>
+<text x="35" y="78" class="warn">NOT_FOR_MANUFACTURING · opposite protrusion and assembly tolerance require measurement</text>
+<rect x="55" y="125" width="620" height="620" class="bad"/>
+<text x="85" y="175" class="h">Simple dual inward flip · REJECT</text>
+<rect x="228" y="300" width="145" height="160" fill="#70c173"/>
+<rect x="357" y="330" width="55" height="100" fill="#f2b36d"/>
+<rect x="303" y="330" width="55" height="100" fill="#f2b36d"/>
+<rect x="397" y="300" width="145" height="160" fill="#70c173"/>
+<text x="85" y="535" class="s">center distance 28 − housing 17 − collars 6 − 6</text>
+<text x="85" y="585" class="h">= −1.0 mm overlap candidate</text>
+<text x="85" y="635" class="s">Orientation-only Stage 1 cannot be accepted.</text>
+<rect x="725" y="125" width="620" height="620" class="good"/>
+<text x="755" y="175" class="h">Stage 2 recommendation · CONDITIONAL</text>
+<rect x="898" y="300" width="145" height="160" fill="#70c173"/>
+<rect x="1027" y="330" width="55" height="100" fill="#f2b36d"/>
+<rect x="1081" y="330" width="55" height="100" fill="#f2b36d"/>
+<rect x="1120" y="300" width="145" height="160" fill="#70c173"/>
+<text x="755" y="535" class="s">center distance 30 − housing 17 − collars 6 − 6</text>
+<text x="755" y="585" class="h">= 1.0 mm nominal clearance</text>
+<text x="755" y="635" class="s">Each inner KP000 moves 1.0 mm outward.</text>
+<text x="755" y="680" class="s">Physical PASS remains HOLD pending dry fit.</text>
+</svg>

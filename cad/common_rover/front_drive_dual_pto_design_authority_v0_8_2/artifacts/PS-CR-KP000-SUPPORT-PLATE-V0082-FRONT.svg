@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="100%" height="100%" fill="#f5f7fa"/>
+<style>.h{font:700 25px Arial;fill:#132238}.s{font:15px Arial;fill:#1c2b39}.w{font:700 15px Arial;fill:#a31212}.p{fill:#6abf69;stroke:#174f2b;stroke-width:2}.e{fill:none;stroke:#d85d5d;stroke-width:2}.f{fill:#8299a6;stroke:#263d48;stroke-width:2}.d{stroke:#1e3d65;stroke-width:2;fill:none}.g{stroke:#8796a5;stroke-dasharray:7 5;fill:none}</style>
+<text x="35" y="42" class="h">V0.8.2 front view</text>
+<text x="35" y="68" class="w">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+
+<text x="55" y="115" class="h">FRONT VIEW (+X looking rearward)</text>
+<polygon points="170,640 360,640 360,420 316,180 214,180 170,420" class="p"/>
+<polygon points="840,640 1030,640 1030,420 986,180 884,180 840,420" class="p"/>
+<circle cx="265" cy="250" r="15" fill="white" stroke="#263d48"/>
+<circle cx="935" cy="250" r="15" fill="white" stroke="#263d48"/>
+<line x1="265" y1="250" x2="935" y2="250" class="g"/>
+<text x="470" y="238" class="s">PTO axis Z=370 candidate</text>
+<text x="170" y="690" class="s">P3 flat triangular load path; no bending process. Hole centers remain measurement-driven.</text>
+
+</svg>

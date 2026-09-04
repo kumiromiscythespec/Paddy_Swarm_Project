@@ -1,0 +1,24 @@
+Common Rover v0.9.2.1 deterministic build verification
+document_id=PS-CR-INWARD-PTO-CAD-VERIFIED-V0921
+validation=38/38 PASS
+canary=6/6 PASS
+actual_shape_matrix=138/138 PASS
+actual_shape_fail=0
+actual_shape_error=0
+sampled_sweep_calculations=420
+sampled_sweep_fail=0
+sampled_sweep_error=0
+step_stl_semantics=20/20 PASS
+parent_v092_baseline=PASS
+parent_v092_ledger=3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a
+central_coupling_actual_cad=PASS
+upstream_powertrain_actual_cad=INHERITED_CONDITIONAL
+physical_test=PHYSICAL_TEST_NOT_PERFORMED
+physical_fit=HOLD
+load_capacity=HOLD
+shaft_cutting=HOLD
+shaft_end_machining=HOLD
+support_plate_machining=HOLD
+powered_test=NOT_APPROVED
+manufacturing=HOLD
+field_deployment=NOT_APPROVED

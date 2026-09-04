@@ -1,0 +1,6 @@
+status=CAD_PASS/CONTRACT_TEST_PASS/PTO_AXIAL_SHIM_TEST_SET_PRINT_READY/PTO_SPACER_PHYSICAL_AUTHORITY_PENDING
+internal_contract=29/29 PASS
+standalone_contract_tests=35/35 PASS
+step_reload=3/3 PASS
+stl_topology=3/3 PASS
+reproducibility=17/17 BYTE_IDENTICAL

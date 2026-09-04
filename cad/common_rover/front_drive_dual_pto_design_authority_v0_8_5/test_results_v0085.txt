@@ -1,0 +1,42 @@
+DOCUMENT_ID=PS-CR-ROBUST-AXIAL-TOLERANCE-V0085
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cadquery-280-py312\python.exe -B tests/test_common_rover_robust_axial_tolerance_v0085_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_twenty_four_paths (__main__.CommonRoverV0085Contract.test_001_exact_twenty_four_paths) ... ok
+test_002_parent_v008_to_v0084_protection (__main__.CommonRoverV0085Contract.test_002_parent_v008_to_v0084_protection) ... ok
+test_003_v0084_baseline_reproduced_and_preserved (__main__.CommonRoverV0085Contract.test_003_v0084_baseline_reproduced_and_preserved) ... ok
+test_004_fixed_architecture (__main__.CommonRoverV0085Contract.test_004_fixed_architecture) ... ok
+test_005_old_shared_error_model_superseded (__main__.CommonRoverV0085Contract.test_005_old_shared_error_model_superseded) ... ok
+test_006_independent_six_placement_errors (__main__.CommonRoverV0085Contract.test_006_independent_six_placement_errors) ... ok
+test_007_search_count_and_ranges (__main__.CommonRoverV0085Contract.test_007_search_count_and_ranges) ... ok
+test_008_required_r1_r2_r3_evaluated (__main__.CommonRoverV0085Contract.test_008_required_r1_r2_r3_evaluated) ... ok
+test_009_ranking_uses_robust_priority_not_stage (__main__.CommonRoverV0085Contract.test_009_ranking_uses_robust_priority_not_stage) ... ok
+test_010_recommended_positions_and_orientations (__main__.CommonRoverV0085Contract.test_010_recommended_positions_and_orientations) ... ok
+test_011_alternatives_max_two_and_robust (__main__.CommonRoverV0085Contract.test_011_alternatives_max_two_and_robust) ... ok
+test_012_center_nominal_and_bilateral_residual (__main__.CommonRoverV0085Contract.test_012_center_nominal_and_bilateral_residual) ... ok
+test_013_belt_nominal_and_independent_residual (__main__.CommonRoverV0085Contract.test_013_belt_nominal_and_independent_residual) ... ok
+test_014_pulley_nominal_and_independent_residual (__main__.CommonRoverV0085Contract.test_014_pulley_nominal_and_independent_residual) ... ok
+test_015_opposite_protrusion_zero_through_six_boundary_pass (__main__.CommonRoverV0085Contract.test_015_opposite_protrusion_zero_through_six_boundary_pass) ... ok
+test_016_boundary_decomposition_is_authoritative (__main__.CommonRoverV0085Contract.test_016_boundary_decomposition_is_authoritative) ... ok
+test_017_monte_carlo_not_pass_authority (__main__.CommonRoverV0085Contract.test_017_monte_carlo_not_pass_authority) ... ok
+test_018_width_pto_ends_and_output_reserve (__main__.CommonRoverV0085Contract.test_018_width_pto_ends_and_output_reserve) ... ok
+test_019_support_plate_and_no_hole_release (__main__.CommonRoverV0085Contract.test_019_support_plate_and_no_hole_release) ... ok
+test_020_tool_frame_fastener_non_intersection (__main__.CommonRoverV0085Contract.test_020_tool_frame_fastener_non_intersection) ... ok
+test_021_axial_stack_and_shaft_length_hold (__main__.CommonRoverV0085Contract.test_021_axial_stack_and_shaft_length_hold) ... ok
+test_022_cad_envelope_distances_match_interval_nominals (__main__.CommonRoverV0085Contract.test_022_cad_envelope_distances_match_interval_nominals) ... ok
+test_023_step_semantic_geometry_three_of_three (__main__.CommonRoverV0085Contract.test_023_step_semantic_geometry_three_of_three) ... ok
+test_024_svg_and_authority_warnings (__main__.CommonRoverV0085Contract.test_024_svg_and_authority_warnings) ... ok
+test_025_manifest_hash_and_cache_contract (__main__.CommonRoverV0085Contract.test_025_manifest_hash_and_cache_contract) ... ok
+test_026_verify_read_only_and_release_states (__main__.CommonRoverV0085Contract.test_026_verify_read_only_and_release_states) ... ok
+test_027_validation_all_fixed_checks_pass (__main__.CommonRoverV0085Contract.test_027_validation_all_fixed_checks_pass) ... ok
+test_028_download_zip_delivery_lifecycle (__main__.CommonRoverV0085Contract.test_028_download_zip_delivery_lifecycle) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 4.094s
+
+OK

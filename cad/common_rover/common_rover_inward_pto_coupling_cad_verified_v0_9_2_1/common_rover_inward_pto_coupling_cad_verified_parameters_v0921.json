@@ -1,0 +1,170 @@
+{
+  "actual_cad_summary": {
+    "maximum_intersection_volume_mm3": 0.0,
+    "minimum_clearance_overall_mm": 0.0,
+    "minimum_clearance_pair": "CAD-0009",
+    "minimum_clearance_position_mm": 0.0,
+    "minimum_clearance_state": "RETRACTED",
+    "total_clear": 124,
+    "total_contact": 14,
+    "total_error": 0,
+    "total_fail": 0,
+    "total_intersect": 0,
+    "total_pairs_tested": 138,
+    "total_pass": 138,
+    "total_states": 5,
+    "worst_intersection_pair": "CAD-0001"
+  },
+  "authority_scope": {
+    "actual_cad_full_system_verified": false,
+    "central_coupling": "ACTUAL_CAD_VERIFIED_CANDIDATE",
+    "full_sweep": "ACTUAL_CAD_VERIFIED_CANDIDATE",
+    "upstream_powertrain": "INHERITED_CONDITIONAL_PARAMETRIC_SHAPE_RECONSTRUCTION"
+  },
+  "baseline_v092": {
+    "belt_fixed_clearance_mm": 11.5,
+    "candidate_id": "S12-C1-SMALL-STUB12.5-SHIFT00-GAP36-RES2-S1-E1",
+    "center_shaft_end_gap_mm": 36.0,
+    "clutch_belt_clearance_mm": 10.0,
+    "clutch_fixed_clearance_mm": 12.0,
+    "coupling_body_length_mm": 25.0,
+    "coupling_od_mm": 20.0,
+    "e2_bottom_z_mm": 440.0,
+    "e2_center_x_mm": 180.0,
+    "e2_center_z_mm": 455.0,
+    "engagement_margin_mm": 2.5,
+    "geometry_reserve_mm": 2.0,
+    "left_inner_bearing_inboard_face_y_mm": 30.5,
+    "left_shaft_end_y_mm": 18.0,
+    "left_stub_length_mm": 12.5,
+    "pto_bottom_z_mm": 260.0,
+    "pto_fixed_clearance_mm": 10.0,
+    "required_engagement_mm": 8.0,
+    "right_inner_bearing_inboard_face_y_mm": -30.5,
+    "right_shaft_end_y_mm": -18.0,
+    "right_stub_length_mm": 12.5,
+    "sleeve_stroke_mm": 10.0,
+    "total_width_mm": 290.0
+  },
+  "central_coupling": {
+    "center_gap_mm": 36.0,
+    "coupling_body_length_mm": 25.0,
+    "coupling_od_mm": 20.0,
+    "dummy_bore_mm": 11.2,
+    "dummy_clearance": "DUMMY_CLEARANCE_NOT_PRODUCT_FIT",
+    "engagement_margin_mm": 2.5,
+    "engagement_overlap_at_10mm_mm": 10.0,
+    "geometry_reserve_mm": 2.0,
+    "left_shaft_end_y_mm": 18.0,
+    "left_stub_length_mm": 12.5,
+    "required_engagement_reference_mm": 8.0,
+    "right_shaft_end_y_mm": -18.0,
+    "right_stub_length_mm": 12.5,
+    "sleeve_stroke_mm": 10.0
+  },
+  "clearance_engine": {
+    "distance_api": "OCP.BRepExtrema_DistShapeShape",
+    "distance_tolerance_mm": 0.05,
+    "error_fallback": "ERROR_NEVER_PASS",
+    "intersection_api": "CadQuery.Shape.intersect",
+    "intersection_volume_tolerance_mm3": 0.01
+  },
+  "document_id": "PS-CR-INWARD-PTO-CAD-VERIFIED-V0921",
+  "dry_fit_jig": {
+    "center_gap_gauges_mm": [
+      35.0,
+      36.0,
+      37.0
+    ],
+    "material_candidate": "PETG_NO_LOAD_ONLY",
+    "print_bed": "BAMBU_LAB_A1",
+    "shaft_stock_length_mm": 300.0,
+    "single_continuous_shaft_used": false,
+    "states": [
+      "DF0_PARTS",
+      "DF1_SHAFTS_POSITIONED",
+      "DF2_SLEEVES_RETRACTED",
+      "DF3_UNIT_INSERTING",
+      "DF4_UNIT_LOCKED",
+      "DF5_PARTIAL",
+      "DF6_ENGAGED",
+      "DF7_DISENGAGING",
+      "DF8_REMOVABLE"
+    ],
+    "stub_gauge_mm": 12.5,
+    "test_shaft_count": 2
+  },
+  "e2_interface": {
+    "bottom_z_mm": 440.0,
+    "center_x_mm": 180.0,
+    "center_z_mm": 455.0,
+    "signals_separate": [
+      "UNIT_PRESENT",
+      "UNIT_ID",
+      "LEFT_PTO_COUPLING_ENGAGED",
+      "RIGHT_PTO_COUPLING_ENGAGED"
+    ]
+  },
+  "fixed_contract": {
+    "architecture": "B_SHORT_STROKE_SELECTOR_INDEPENDENT_JACKSHAFTS",
+    "clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "common_pto_shaft": "PROHIBITED",
+    "drive_belt_count": 2,
+    "drive_pto_simultaneous": "PROHIBITED",
+    "left_motor_axis": "-Y",
+    "left_pto_output": "-Y",
+    "motor_count": 2,
+    "pto_60t_between_two_bearings": true,
+    "pto_60t_width_mm": 20.0,
+    "pto_axis_z_mm": 320.0,
+    "pto_belt_count": 2,
+    "pto_count": 2,
+    "pto_independent": true,
+    "pto_safety_od_mm": 120.0,
+    "pto_while_travelling": "PROHIBITED",
+    "right_motor_axis": "+Y",
+    "right_pto_output": "+Y",
+    "shift_while_motor_rotating": "PROHIBITED",
+    "slide_clutch_count": 2,
+    "total_belt_count": 4,
+    "total_width_mm": 290.0
+  },
+  "full_sweep_summary": {
+    "actual_pair_calculations": 420,
+    "engagement_overlap_at_10mm_mm": 10.0,
+    "first_collision_position_mm": null,
+    "minimum_clearance_over_full_sweep_mm": 5.0,
+    "minimum_clearance_position_mm": 0.0,
+    "required_engagement_reference_mm": 8.0,
+    "sample_positions_each_side": 21,
+    "sampling_interval_mm": 0.5,
+    "sweep_method": "CONTINUOUS_CONSERVATIVE_SOLID_PLUS_0P5MM_ACTUAL_SAMPLES",
+    "total_error": 0,
+    "total_fail": 0,
+    "worst_pair": "LEFT_COUPLING_SLEEVE_SAMPLE::CENTRAL_ALIGNMENT_GUIDE_LEFT"
+  },
+  "parent_ledger_sha256": "3dd904563cb579e57191ef4cee92cfc866fcf415b418c87eb1d7e535947de67a",
+  "parent_version": "0.9.2",
+  "parent_zip_sha256": "88fe5c98ac8b1391ac56e162fe49a4e42036a565a918899f535b88268f7c0ced",
+  "release_gates": {
+    "field_deployment": "NOT_APPROVED",
+    "load_capacity": "HOLD",
+    "manufacturing": "HOLD",
+    "not_for_manufacturing": true,
+    "physical_fit": "HOLD",
+    "powered_test": "NOT_APPROVED",
+    "shaft_cutting": "HOLD",
+    "shaft_end_machining": "HOLD",
+    "support_plate_machining": "HOLD"
+  },
+  "runtime": {
+    "cadquery": "2.8.0",
+    "ocp": "7.9.3.1",
+    "python": "3.12.13"
+  },
+  "version": "0.9.2.1"
+}

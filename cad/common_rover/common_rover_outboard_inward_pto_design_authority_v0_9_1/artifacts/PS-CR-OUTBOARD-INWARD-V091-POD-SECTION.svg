@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
+  <marker id="dot" markerWidth="8" markerHeight="8" refX="4" refY="4"><circle cx="4" cy="4" r="3" fill="#0f766e"/></marker>
+</defs>
+<style>
+  .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#94a3b8;stroke-width:2}
+  .title{font:700 27px sans-serif;fill:#0f172a}
+  .head{font:700 18px sans-serif;fill:#0f172a}
+  .text{font:14px sans-serif;fill:#1e293b}.small{font:12px monospace;fill:#334155}
+  .drive{fill:#3b82f6;stroke:#1d4ed8;stroke-width:2}
+  .pto{fill:#f59e0b;stroke:#b45309;stroke-width:2}
+  .clutch{fill:#a855f7;stroke:#7e22ce;stroke-width:2}
+  .motor{fill:#374151;stroke:#111827;stroke-width:2}
+  .frame{fill:#cbd5e1;stroke:#64748b;stroke-width:2}
+  .bracket{fill:#92400e;stroke:#451a03;stroke-width:2}
+  .support{fill:#d4a72c;stroke:#7c5c0b;stroke-width:2}
+  .bay{fill:#22c55e;stroke:#15803d;stroke-width:2}
+  .e2{fill:#67e8f9;stroke:#0891b2;stroke-width:2}
+  .safety{fill:#ef4444;fill-opacity:.22;stroke:#dc2626;stroke-width:2;stroke-dasharray:7 5}
+  .hold{fill:#fef3c7;stroke:#d97706;stroke-width:2}.fail{fill:#fee2e2;stroke:#dc2626;stroke-width:2}
+  .arrow{stroke:#111827;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  .measure{stroke:#0f766e;stroke-width:2;fill:none;marker-start:url(#dot);marker-end:url(#dot)}
+</style>
+<rect class="bg" width="1600" height="740"/>
+<text class="title" x="35" y="50">Left and right outboard powertrain pods</text>
+<text class="small" x="35" y="75">PS-CR-OUTBOARD-INWARD-V091 · mm · candidate envelopes · not physical measurements</text>
+<g transform="translate(35,95)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">8. left outboard pod</text><rect class="motor" x="22" y="58" width="70" height="42" rx="7"/><rect class="clutch" x="112" y="58" width="62" height="42" rx="7"/><rect class="pto" x="195" y="58" width="72" height="42" rx="7"/><rect class="pto" x="290" y="47" width="72" height="64" rx="32"/><rect class="bay" x="385" y="58" width="65" height="42" rx="7"/><path class="arrow" d="M92 79H108M174 79H191M267 79H286M362 79H381"/><text class="small" x="20" y="185">motor shaft -Y</text><text class="small" x="20" y="200">PTO output -Y</text><text class="small" x="20" y="215">inner end +30</text></g><g transform="translate(545,95)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">9. right outboard pod</text><rect class="motor" x="22" y="58" width="70" height="42" rx="7"/><rect class="clutch" x="112" y="58" width="62" height="42" rx="7"/><rect class="pto" x="195" y="58" width="72" height="42" rx="7"/><rect class="pto" x="290" y="47" width="72" height="64" rx="32"/><rect class="bay" x="385" y="58" width="65" height="42" rx="7"/><path class="arrow" d="M92 79H108M174 79H191M267 79H286M362 79H381"/><text class="small" x="20" y="185">motor shaft +Y</text><text class="small" x="20" y="200">PTO output +Y</text><text class="small" x="20" y="215">inner end -30</text></g><g transform="translate(1055,95)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">10. left PTO path</text><rect class="motor" x="22" y="58" width="70" height="42" rx="7"/><rect class="clutch" x="112" y="58" width="62" height="42" rx="7"/><rect class="pto" x="195" y="58" width="72" height="42" rx="7"/><rect class="pto" x="290" y="47" width="72" height="64" rx="32"/><rect class="bay" x="385" y="58" width="65" height="42" rx="7"/><path class="arrow" d="M92 79H108M174 79H191M267 79H286M362 79H381"/><text class="small" x="20" y="185">motor→clutch→PTO dog</text><text class="small" x="20" y="200">20T→belt→60T</text><text class="small" x="20" y="215">independent shaft</text></g><g transform="translate(35,370)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">11. right PTO path</text><rect class="motor" x="22" y="58" width="70" height="42" rx="7"/><rect class="clutch" x="112" y="58" width="62" height="42" rx="7"/><rect class="pto" x="195" y="58" width="72" height="42" rx="7"/><rect class="pto" x="290" y="47" width="72" height="64" rx="32"/><rect class="bay" x="385" y="58" width="65" height="42" rx="7"/><path class="arrow" d="M92 79H108M174 79H191M267 79H286M362 79H381"/><text class="small" x="20" y="185">mirrored independent path</text><text class="small" x="20" y="200">no cross-edge</text><text class="small" x="20" y="215">C1 sleeve</text></g><g transform="translate(545,370)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">12. DRIVE path</text><rect class="motor" x="22" y="58" width="70" height="42" rx="7"/><rect class="clutch" x="112" y="58" width="62" height="42" rx="7"/><rect class="pto" x="195" y="58" width="72" height="42" rx="7"/><rect class="pto" x="290" y="47" width="72" height="64" rx="32"/><rect class="bay" x="385" y="58" width="65" height="42" rx="7"/><path class="arrow" d="M92 79H108M174 79H191M267 79H286M362 79H381"/><text class="small" x="20" y="185">separate belt at ±125</text><text class="small" x="20" y="200">track-only in DRIVE</text><text class="small" x="20" y="215">PTO unreachable</text></g><g transform="translate(1055,370)"><rect class="panel" x="0" y="0" width="475" height="240" rx="14"/><text class="head" x="18" y="30">19. KP000 support plate</text><rect class="frame" x="60" y="55" width="42" height="110"/><rect class="support" x="130" y="42" width="12" height="138"/><circle class="safety" cx="255" cy="110" r="64"/><rect class="bracket" x="350" y="145" width="78" height="25"/><path class="measure" d="M105 190H190"/><text class="small" x="20" y="185">two ears</text><text class="small" x="20" y="200">95×140×5 envelope</text><text class="small" x="20" y="215">holes HOLD</text></g>
+<rect class="hold" x="35" y="670" width="1530" height="42" rx="8"/>
+<text class="head" x="55" y="698">HOLD: physical fit / motor / L-bracket / coupling / holes / shaft cuts · NOT_FOR_MANUFACTURING · FIELD NOT_APPROVED</text>
+</svg>

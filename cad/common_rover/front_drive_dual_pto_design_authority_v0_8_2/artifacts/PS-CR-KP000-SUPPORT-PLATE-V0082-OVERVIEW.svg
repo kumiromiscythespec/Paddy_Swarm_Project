@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="100%" height="100%" fill="#f5f7fa"/>
+<style>.h{font:700 25px Arial;fill:#132238}.s{font:15px Arial;fill:#1c2b39}.w{font:700 15px Arial;fill:#a31212}.p{fill:#6abf69;stroke:#174f2b;stroke-width:2}.e{fill:none;stroke:#d85d5d;stroke-width:2}.f{fill:#8299a6;stroke:#263d48;stroke-width:2}.d{stroke:#1e3d65;stroke-width:2;fill:none}.g{stroke:#8796a5;stroke-dasharray:7 5;fill:none}</style>
+<text x="35" y="42" class="h">Common Rover v0.8.2 — KP000 support plate</text>
+<text x="35" y="68" class="w">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+
+<rect x="35" y="95" width="1130" height="420" fill="white" stroke="#cad4df"/>
+<text x="55" y="125" class="h">Front support assembly (X horizontal, Z vertical)</text>
+<polygon points="170,440 360,440 360,300 316,160 214,160 170,300" class="p"/>
+<polygon points="840,440 1030,440 1030,300 986,160 884,160 840,300" class="p"/>
+<rect x="225" y="185" width="80" height="65" class="f"/>
+<rect x="895" y="185" width="80" height="65" class="f"/>
+<circle cx="265" cy="215" r="10" fill="white" stroke="#263d48"/>
+<circle cx="935" cy="215" r="10" fill="white" stroke="#263d48"/>
+<rect x="390" y="145" width="160" height="260" class="e"/>
+<rect x="650" y="145" width="160" height="260" class="e"/>
+<text x="390" y="430" class="s">LEFT PTO belt Y=+47</text>
+<text x="650" y="430" class="s">RIGHT PTO belt Y=-47</text>
+<line x1="360" y1="280" x2="390" y2="280" class="d"/><text x="365" y="270" class="s">15 mm</text>
+<line x1="810" y1="280" x2="840" y2="280" class="d"/><text x="815" y="270" class="s">15 mm</text>
+<rect x="35" y="540" width="1130" height="235" fill="white" stroke="#cad4df"/>
+<text x="55" y="575" class="h">Selected candidate</text>
+<text x="55" y="610" class="s">P3-A5052-T5 · triangular load-path flat plate · left/right independent</text>
+<text x="55" y="640" class="s">KP000 holes and frame holes are parametric placeholders. F2/F5 hybrid fastening remains HOLD.</text>
+<text x="55" y="670" class="s">Tool insertion redirected along X: nominal candidate clearance 14 mm; actual tools must be measured.</text>
+<text x="55" y="700" class="s">PTO residual 10 mm; analytical plate deflection is subtracted separately in the strength report.</text>
+<text x="55" y="730" class="s">Total width 290 mm · PTO ends +/-145 mm · no belt placement re-search was performed.</text>
+
+</svg>

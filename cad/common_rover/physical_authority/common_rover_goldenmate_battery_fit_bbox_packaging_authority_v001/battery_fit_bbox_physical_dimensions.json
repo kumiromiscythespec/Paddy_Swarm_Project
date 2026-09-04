@@ -1,0 +1,54 @@
+{
+  "schema": "BATTERY_FIT_TEMPORARY_BBOX_PHYSICAL_PACKAGING_AUTHORITY_V001",
+  "specimen_id": "BATTERY_FIT_TEMPORARY_BBOX",
+  "specimen_relations": {
+    "is_waterproof_v002_specimen": false,
+    "v003_lid_fit": "PHYSICAL_PENDING"
+  },
+  "global_z_mm": {
+    "body_true_lowest": {"value": 144.0, "class": "PHYSICAL_DIRECT"},
+    "body_rim": {"value": 254.0, "class": "PHYSICAL_DIRECT"},
+    "external_height": {"value": 110.0, "class": "PHYSICAL_DERIVED", "formula": "254-144"},
+    "flat_lid_top": {"value": null, "class": "NOT_MEASURED"},
+    "chimney_top": {"value": null, "class": "NOT_MEASURED"},
+    "gland_cable_highest": {"value": null, "class": "NOT_MEASURED"}
+  },
+  "x_registration_mm": {
+    "x_ref_to_bbox_front": {"value": 345.0, "class": "PHYSICAL_DIRECT"},
+    "x_ref_to_bbox_rear": {"value": 500.0, "class": "PHYSICAL_DIRECT"},
+    "external_x_length": {"value": 155.0, "class": "PHYSICAL_DERIVED", "formula": "500-345"},
+    "x_ref_feature_identity": "INCOMPLETE",
+    "transform_status": "PARTIAL_PHYSICAL"
+  },
+  "y_registration_mm": {
+    "left_upper_rail_inner_to_bbox_left": {"value": 55.0, "class": "PHYSICAL_DIRECT"},
+    "bbox_right_to_right_upper_rail_inner": {"value": 0.0, "class": "PHYSICAL_DIRECT"},
+    "absolute_vehicle_y": {"value": null, "class": "PHYSICAL_PENDING"}
+  },
+  "envelope_mm": {
+    "external_y_width": {"value": 71.9, "class": "PHYSICAL_DIRECT"},
+    "internal_x_usable": {"value": 152.0, "class": "PHYSICAL_DIRECT"},
+    "internal_y_usable": {"value": 65.5, "class": "PHYSICAL_DIRECT"},
+    "internal_z_usable": {"value": 104.0, "class": "PHYSICAL_DIRECT"}
+  },
+  "physical_fit": {
+    "battery_insertion": "PHYSICAL_FIT_PASS",
+    "battery_present_in_box": "PHYSICAL_FIT_PASS",
+    "terminal_below_rim_mm": {"value": 3.0, "class": "PHYSICAL_DIRECT", "precision": "FIELD_APPROXIMATE"}
+  },
+  "clearance_mm": {
+    "x_total_nominal": 1.1,
+    "x_each_if_centered": 0.55,
+    "y_total_nominal": 0.0,
+    "body_z_margin": 11.5,
+    "terminal_z_margin_derived": 4.6,
+    "measured_vs_derived_terminal_margin_residual": 1.6
+  },
+  "semantic_contract": {
+    "temp_bbox_waterproof_pass": false,
+    "temp_bbox_v003_lid_pass": false,
+    "battery_fit_pass": true,
+    "internal_y_status": "PHYSICAL_MINIMUM_SUCCESSFUL_SPECIMEN",
+    "internal_x_status": "PHYSICAL_SUCCESSFUL_SPECIMEN"
+  }
+}

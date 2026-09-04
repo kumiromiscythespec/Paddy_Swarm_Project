@@ -1,0 +1,37 @@
+{
+  "check_count": 22,
+  "checks": {
+    "body_width": true,
+    "clearance_not_exact_teeth": true,
+    "dual_setscrew_torque_path": true,
+    "flange_od": true,
+    "flange_thickness": true,
+    "keyway_absent": true,
+    "measured_bore": true,
+    "measured_shape_single_solid": true,
+    "measured_shape_valid": true,
+    "nominal_shaft": true,
+    "old_6p1_absent": true,
+    "old_source_hash": true,
+    "overall_width_derived": true,
+    "physical_source": true,
+    "setscrew_center": true,
+    "setscrew_count": true,
+    "setscrew_spacing": true,
+    "setscrew_thread_pending": true,
+    "spacer_candidates": true,
+    "static_zero": true,
+    "tooth_region_od": true,
+    "tooth_width": true
+  },
+  "fail_count": 0,
+  "holds": [
+    "SETSCREW_THREAD_STANDARD_PHYSICAL_PENDING",
+    "OPERATING_AXIAL_CLEARANCE_PHYSICAL_PENDING",
+    "PTO_SPACER_PHYSICAL_SELECTION_PENDING",
+    "PTO_TORQUE_TRANSFER_PHYSICAL_PENDING",
+    "SHAFT_PROTRUSION_PHYSICAL_PENDING"
+  ],
+  "pass_count": 22,
+  "status": "PTO_20T_PHYSICAL_ENVELOPE_CAPTURED/CAD_PASS/CONTRACT_TEST_PASS/PHYSICAL_VALIDATION_PENDING"
+}

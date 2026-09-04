@@ -1,0 +1,33 @@
+{
+  "candidates": [
+    {
+      "minimum_overhang_from_outer_bearing_plane_mm": 20.0,
+      "minimum_pulley_center_abs_y_mm": 120.0,
+      "operating_status": "PHYSICAL_PENDING",
+      "service_clearance_mm": 0.0,
+      "shaft_usage_increase_mm": 0.0,
+      "static_pulley_kp000": "PASS"
+    },
+    {
+      "minimum_overhang_from_outer_bearing_plane_mm": 20.5,
+      "minimum_pulley_center_abs_y_mm": 120.5,
+      "operating_status": "PHYSICAL_PENDING",
+      "service_clearance_mm": 0.5,
+      "shaft_usage_increase_mm": 0.5,
+      "static_pulley_kp000": "PASS"
+    },
+    {
+      "minimum_overhang_from_outer_bearing_plane_mm": 21.0,
+      "minimum_pulley_center_abs_y_mm": 121.0,
+      "operating_status": "PHYSICAL_PENDING",
+      "service_clearance_mm": 1.0,
+      "shaft_usage_increase_mm": 1.0,
+      "static_pulley_kp000": "PASS"
+    }
+  ],
+  "recommended_first_physical_candidate_mm": 0.5,
+  "selection": "PTO_SPACER_PHYSICAL_SELECTION_PENDING",
+  "unresolved_retention_service_stack_after_0p5_candidate_mm": 9.5,
+  "v002_reference_housing_to_near_face_mm": 10.0,
+  "v002_reference_pulley_plane_abs_y_mm": 130.0
+}

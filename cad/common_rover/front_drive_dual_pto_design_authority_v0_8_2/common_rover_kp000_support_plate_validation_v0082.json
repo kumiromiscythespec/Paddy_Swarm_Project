@@ -1,0 +1,479 @@
+{
+  "candidate_count": 16,
+  "document_id": "PS-CR-KP000-SUPPORT-PLATE-V0082",
+  "field_deployment": "NOT_APPROVED",
+  "fixed_check_count": 23,
+  "fixed_check_pass_count": 23,
+  "fixed_checks": {
+    "all_intersections_zero": true,
+    "candidate_safety_factor_gte_2": true,
+    "clutch_three_states": true,
+    "deflected_60t_clearance_gte_10": true,
+    "deflected_belt_clearance_gte_8": true,
+    "field_not_approved": true,
+    "hole_pattern_not_for_manufacturing": true,
+    "independent_plates": true,
+    "manufacturing_hold": true,
+    "metal_plate": true,
+    "no_common_pto_shaft": true,
+    "parent_candidate_fixed": true,
+    "pto_60t_fixed_non_regression": true,
+    "pto_belt_frame_non_regression": true,
+    "pto_ends_within_145": true,
+    "pto_residual_non_regression": true,
+    "recommended_thickness_5": true,
+    "tool_intersections_zero": true,
+    "two_independent_ptos": true,
+    "two_motors": true,
+    "v0081_protected": true,
+    "v008_protected": true,
+    "width_non_regression": true
+  },
+  "geometry": {
+    "assembly": {
+      "artifact_signature": {
+        "bbox_mm": [
+          600.0,
+          290.0,
+          420.0
+        ],
+        "solid_count": 26,
+        "solid_signatures": [
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            11152.65,
+            10.0,
+            142.0,
+            10.0
+          ],
+          [
+            11152.65,
+            10.0,
+            142.0,
+            10.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            44000.0,
+            20.0,
+            20.0,
+            110.0
+          ],
+          [
+            44000.0,
+            20.0,
+            20.0,
+            110.0
+          ],
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ],
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ],
+          [
+            72000.0,
+            180.0,
+            20.0,
+            20.0
+          ],
+          [
+            124800.0,
+            156.0,
+            40.0,
+            20.0
+          ],
+          [
+            282743.34,
+            120.0,
+            25.0,
+            120.0
+          ],
+          [
+            282743.34,
+            120.0,
+            25.0,
+            120.0
+          ],
+          [
+            320000.0,
+            400.0,
+            20.0,
+            40.0
+          ],
+          [
+            320000.0,
+            400.0,
+            20.0,
+            40.0
+          ],
+          [
+            818400.0,
+            220.0,
+            31.0,
+            120.0
+          ],
+          [
+            818400.0,
+            220.0,
+            31.0,
+            120.0
+          ],
+          [
+            1911000.0,
+            130.0,
+            140.0,
+            105.0
+          ],
+          [
+            4620000.0,
+            480.0,
+            55.0,
+            175.0
+          ],
+          [
+            4620000.0,
+            480.0,
+            55.0,
+            175.0
+          ],
+          [
+            4950000.0,
+            150.0,
+            220.0,
+            150.0
+          ]
+        ],
+        "total_volume_mm3": 19459508.96
+      },
+      "semantic_geometry_reproducible": true,
+      "source_signature": {
+        "bbox_mm": [
+          600.0,
+          290.0,
+          420.0
+        ],
+        "solid_count": 26,
+        "solid_signatures": [
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            500.0,
+            10.0,
+            5.0,
+            10.0
+          ],
+          [
+            11152.65,
+            10.0,
+            142.0,
+            10.0
+          ],
+          [
+            11152.65,
+            10.0,
+            142.0,
+            10.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            23625.0,
+            45.0,
+            15.0,
+            35.0
+          ],
+          [
+            44000.0,
+            20.0,
+            20.0,
+            110.0
+          ],
+          [
+            44000.0,
+            20.0,
+            20.0,
+            110.0
+          ],
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ],
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ],
+          [
+            72000.0,
+            180.0,
+            20.0,
+            20.0
+          ],
+          [
+            124800.0,
+            156.0,
+            40.0,
+            20.0
+          ],
+          [
+            282743.34,
+            120.0,
+            25.0,
+            120.0
+          ],
+          [
+            282743.34,
+            120.0,
+            25.0,
+            120.0
+          ],
+          [
+            320000.0,
+            400.0,
+            20.0,
+            40.0
+          ],
+          [
+            320000.0,
+            400.0,
+            20.0,
+            40.0
+          ],
+          [
+            818400.0,
+            220.0,
+            31.0,
+            120.0
+          ],
+          [
+            818400.0,
+            220.0,
+            31.0,
+            120.0
+          ],
+          [
+            1911000.0,
+            130.0,
+            140.0,
+            105.0
+          ],
+          [
+            4620000.0,
+            480.0,
+            55.0,
+            175.0
+          ],
+          [
+            4620000.0,
+            480.0,
+            55.0,
+            175.0
+          ],
+          [
+            4950000.0,
+            150.0,
+            220.0,
+            150.0
+          ]
+        ],
+        "total_volume_mm3": 19459508.96
+      },
+      "step_sha256": "68c3fa5bb6c2c0eea9bfba09fc2e3b47f5874a2b4eec92f026129255244e21a9",
+      "step_size_bytes": 495474
+    },
+    "left": {
+      "artifact_signature": {
+        "bbox_mm": [
+          95.0,
+          5.0,
+          140.0
+        ],
+        "solid_count": 1,
+        "solid_signatures": [
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ]
+        ],
+        "total_volume_mm3": 56308.49
+      },
+      "semantic_geometry_reproducible": true,
+      "source_signature": {
+        "bbox_mm": [
+          95.0,
+          5.0,
+          140.0
+        ],
+        "solid_count": 1,
+        "solid_signatures": [
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ]
+        ],
+        "total_volume_mm3": 56308.49
+      },
+      "step_sha256": "266bcdcf9c890e1e4fe19c074995ce71f356e8aea731b5478e2b763d91dc92be",
+      "step_size_bytes": 63538
+    },
+    "right": {
+      "artifact_signature": {
+        "bbox_mm": [
+          95.0,
+          5.0,
+          140.0
+        ],
+        "solid_count": 1,
+        "solid_signatures": [
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ]
+        ],
+        "total_volume_mm3": 56308.49
+      },
+      "semantic_geometry_reproducible": true,
+      "source_signature": {
+        "bbox_mm": [
+          95.0,
+          5.0,
+          140.0
+        ],
+        "solid_count": 1,
+        "solid_signatures": [
+          [
+            56308.49,
+            95.0,
+            5.0,
+            140.0
+          ]
+        ],
+        "total_volume_mm3": 56308.49
+      },
+      "step_sha256": "954798198db055111b3177ce42c36d17bd31ab6af1fc014de1949a48759ee3fd",
+      "step_size_bytes": 63637
+    }
+  },
+  "interference_summary": {
+    "belt_intersection_count": 0,
+    "check_count": 15,
+    "clearance_after_plate_deflection_mm": 9.8068,
+    "fastener_intersection_count": 0,
+    "intersection_count": 0,
+    "nominal_pto_belt_clearance_mm": 15.0,
+    "physical_fit": "HOLD",
+    "plate_deflection_toward_belt_mm": 0.1932,
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "pulley_fixed_after_plate_deflection_mm": 12.8068,
+    "residual_pto_belt_clearance_mm": 10.0,
+    "tool_intersection_count": 0,
+    "total_width_mm": 290.0
+  },
+  "manufacturing_release": "HOLD",
+  "overall": "CONDITIONAL_PASS_ANALYTICAL_ONLY",
+  "physical_fit": "HOLD",
+  "recommended_candidate": "P3-A5052-T5",
+  "strength_summary": {
+    "candidate_safety_factor": 2.0218,
+    "clearance_after_deflection_mm": 9.8068,
+    "plate_deflection_mm": 0.1932,
+    "status": "CONDITIONAL_PASS_ANALYTICAL_ONLY"
+  }
+}

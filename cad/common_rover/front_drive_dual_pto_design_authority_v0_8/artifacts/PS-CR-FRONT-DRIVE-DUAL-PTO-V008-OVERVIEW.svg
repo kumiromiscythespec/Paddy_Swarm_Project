@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#f7f8fa"/>
+  <style>
+    .t{font-family:Arial,sans-serif;fill:#182230}.h{font-size:22px;font-weight:700}.s{font-size:13px}
+    .frame{fill:#9aa4b2;stroke:#3e4c59;stroke-width:2}.box{fill:#6ec5d6;stroke:#126e82;stroke-width:2}
+    .motor{fill:#f4a261;stroke:#9c4f16;stroke-width:2}.pto{fill:#e76f51;stroke:#8f2714;stroke-width:2}
+    .drive{fill:none;stroke:#7b2cbf;stroke-width:12;opacity:.72}.ptob{fill:none;stroke:#d62828;stroke-width:12;opacity:.72}
+    .track{fill:#4f5d75;stroke:#222b3a;stroke-width:2;opacity:.82}.hold{fill:#fff1cc;stroke:#b36b00;stroke-width:2}
+    .dim{fill:none;stroke:#1d3557;stroke-width:1.5;marker-start:url(#a);marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><path d="M0,3.5 L7,0 L7,7 Z" fill="#1d3557"/></marker></defs>
+  <text x="40" y="38" class="t h">Common Rover v0.8 — envelope inspection, NOT manufacturing CAD</text>
+  <text x="40" y="62" class="t s">+X front →   +Y left ↑   120 mm safety envelope   all actual hardware dimensions HOLD</text>
+
+  <!-- top view, X right, Y up -->
+  <rect x="45" y="90" width="1110" height="360" fill="white" stroke="#c5ccd5"/>
+  <text x="60" y="115" class="t h">TOP VIEW</text>
+  <polygon class="track" points="170,150 1020,150 1020,205 170,205"/>
+  <polygon class="track" points="170,335 1020,335 1020,390 170,390"/>
+  <rect class="box" x="240" y="177" width="210" height="186"/>
+  <text x="302" y="272" class="t h">BBOX</text>
+  <rect class="box" x="478" y="210" width="182" height="120"/>
+  <text x="530" y="274" class="t h">CBOX</text>
+  <rect class="motor" x="680" y="155" width="95" height="62" rx="15"/>
+  <rect class="motor" x="680" y="323" width="95" height="62" rx="15"/>
+  <text x="691" y="193" class="t s">LEFT MOTOR</text>
+  <text x="687" y="360" class="t s">RIGHT MOTOR</text>
+  <rect class="hold" x="770" y="215" width="75" height="52"/>
+  <rect class="hold" x="770" y="273" width="75" height="52"/>
+  <text x="779" y="246" class="t s">CLUTCH L</text>
+  <text x="779" y="304" class="t s">CLUTCH R</text>
+  <line class="drive" x1="755" y1="177" x2="890" y2="177"/>
+  <line class="drive" x1="755" y1="363" x2="890" y2="363"/>
+  <line class="ptob" x1="820" y1="245" x2="1000" y2="245"/>
+  <line class="ptob" x1="820" y1="295" x2="1000" y2="295"/>
+  <circle class="pto" cx="1000" cy="245" r="32"/><circle class="pto" cx="1000" cy="295" r="32"/>
+  <line x1="1000" y1="245" x2="1000" y2="135" stroke="#8f2714" stroke-width="8"/>
+  <line x1="1000" y1="295" x2="1000" y2="405" stroke="#8f2714" stroke-width="8"/>
+  <text x="1020" y="205" class="t s">LEFT PTO +Y</text><text x="1020" y="344" class="t s">RIGHT PTO -Y</text>
+  <line class="frame" x1="780" y1="220" x2="1080" y2="220"/><line class="frame" x1="780" y1="320" x2="1080" y2="320"/>
+  <line class="frame" x1="780" y1="245" x2="1080" y2="220"/><line class="frame" x1="780" y1="295" x2="1080" y2="320"/>
+  <line class="dim" x1="1120" y1="150" x2="1120" y2="390"/><text x="1105" y="278" text-anchor="end" class="t s">290 mm candidate</text>
+
+  <!-- side view -->
+  <rect x="45" y="475" width="1110" height="300" fill="white" stroke="#c5ccd5"/>
+  <text x="60" y="505" class="t h">LEFT SIDE VIEW</text>
+  <polygon class="track" points="175,575 915,575 810,735 300,735"/>
+  <line class="frame" x1="210" y1="610" x2="840" y2="610"/><line class="frame" x1="315" y1="705" x2="795" y2="705"/>
+  <line class="frame" x1="210" y1="610" x2="315" y2="705"/><line class="frame" x1="840" y1="610" x2="795" y2="705"/>
+  <circle cx="835" cy="615" r="42" fill="#75859a" stroke="#222b3a" stroke-width="2"/>
+  <circle cx="225" cy="615" r="42" fill="#75859a" stroke="#222b3a" stroke-width="2"/>
+  <circle cx="385" cy="705" r="25" fill="#75859a"/><circle cx="500" cy="705" r="25" fill="#75859a"/>
+  <circle cx="615" cy="705" r="25" fill="#75859a"/><circle cx="730" cy="705" r="25" fill="#75859a"/>
+  <rect class="box" x="225" y="515" width="230" height="90"/><text x="300" y="566" class="t h">BBOX</text>
+  <rect class="box" x="485" y="540" width="190" height="65"/><text x="540" y="579" class="t h">CBOX</text>
+  <circle class="motor" cx="755" cy="515" r="30"/><circle class="pto" cx="1010" cy="515" r="60"/>
+  <line class="ptob" x1="790" y1="515" x2="1010" y2="515"/><line class="drive" x1="760" y1="515" x2="835" y2="615"/>
+  <rect class="frame" x="850" y="625" width="220" height="20"/>
+  <text x="925" y="662" class="t s">PTO frame Z=220–240</text>
+  <line class="dim" x1="1100" y1="515" x2="1100" y2="635"/><text x="1065" y="585" class="t s">70 mm</text>
+  <text x="60" y="798" class="t s">Candidate only: BBOX interior, motor, clutch, KP000, pulleys, coupling, tensioners, fasteners and track dynamics require measurement.</text>
+</svg>

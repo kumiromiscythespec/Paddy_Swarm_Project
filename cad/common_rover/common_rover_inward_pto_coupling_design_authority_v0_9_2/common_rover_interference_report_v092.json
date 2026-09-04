@@ -1,0 +1,281 @@
+{
+  "all_checks_pass": true,
+  "candidate_id": "S12-C1-SMALL-STUB12.5-SHIFT00-GAP36-RES2-S1-E1",
+  "check_count": 27,
+  "document_id": "PS-CR-INWARD-PTO-COUPLING-V092",
+  "intersection_count": 0,
+  "minimum_clearance_mm": 2.0,
+  "physical_fit": "HOLD_MEASUREMENTS_AND_HAND_FIT_REQUIRED",
+  "rows": [
+    {
+      "check_id": "I01",
+      "clearance_mm": 36.0,
+      "contract": "CENTER_END_GAP",
+      "envelope_a": "LEFT_STUB",
+      "envelope_b": "RIGHT_STUB",
+      "intersection_count": 0,
+      "minimum_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I02",
+      "clearance_mm": 11.0,
+      "contract": "FIXED_BODY",
+      "envelope_a": "LEFT_COUPLING_BODY",
+      "envelope_b": "RIGHT_COUPLING_BODY",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I03",
+      "clearance_mm": 12.0,
+      "contract": "MUTUAL_SWEEP",
+      "envelope_a": "LEFT_FULL_SWEEP",
+      "envelope_b": "RIGHT_FULL_SWEEP",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I04",
+      "clearance_mm": 10.0,
+      "contract": "CENTER_BAY",
+      "envelope_a": "LEFT_COUPLING",
+      "envelope_b": "CENTRAL_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I05",
+      "clearance_mm": 10.0,
+      "contract": "CENTER_BAY",
+      "envelope_a": "RIGHT_COUPLING",
+      "envelope_b": "CENTRAL_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I06",
+      "clearance_mm": 25.0,
+      "contract": "WIRING_KEEP_OUT",
+      "envelope_a": "COUPLING_SWEEP",
+      "envelope_b": "CENTRAL_WIRING",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I07",
+      "clearance_mm": 5.0,
+      "contract": "INSTALL_REMOVE",
+      "envelope_a": "WORK_UNIT_INSTALL_PATH",
+      "envelope_b": "ROVER_SHAFT_ENDS",
+      "intersection_count": 0,
+      "minimum_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I08",
+      "clearance_mm": 5.0,
+      "contract": "INSTALL_REMOVE",
+      "envelope_a": "WORK_UNIT_REMOVAL_PATH",
+      "envelope_b": "ROVER_SHAFT_ENDS",
+      "intersection_count": 0,
+      "minimum_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I09",
+      "clearance_mm": 20.0,
+      "contract": "FRAME",
+      "envelope_a": "LEFT_COUPLING",
+      "envelope_b": "LEFT_FRAME",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I10",
+      "clearance_mm": 20.0,
+      "contract": "FRAME",
+      "envelope_a": "RIGHT_COUPLING",
+      "envelope_b": "RIGHT_FRAME",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I11",
+      "clearance_mm": 8.0,
+      "contract": "GUARD",
+      "envelope_a": "LEFT_COUPLING",
+      "envelope_b": "LEFT_GUARD",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I12",
+      "clearance_mm": 8.0,
+      "contract": "GUARD",
+      "envelope_a": "RIGHT_COUPLING",
+      "envelope_b": "RIGHT_GUARD",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I13",
+      "clearance_mm": 2.0,
+      "contract": "UNUSED_INPUT_CAP",
+      "envelope_a": "LEFT_SHAFT_CAP",
+      "envelope_b": "LEFT_COUPLING",
+      "intersection_count": 0,
+      "minimum_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I14",
+      "clearance_mm": 2.0,
+      "contract": "UNUSED_INPUT_CAP",
+      "envelope_a": "RIGHT_SHAFT_CAP",
+      "envelope_b": "RIGHT_COUPLING",
+      "intersection_count": 0,
+      "minimum_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I15",
+      "clearance_mm": 11.5,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_DRIVE_BELT",
+      "envelope_b": "LEFT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I16",
+      "clearance_mm": 11.5,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_DRIVE_BELT",
+      "envelope_b": "RIGHT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I17",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_BELT_SAFETY",
+      "envelope_b": "LEFT_L_BRACKET_FASTENERS",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I18",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_BELT_SAFETY",
+      "envelope_b": "RIGHT_L_BRACKET_FASTENERS",
+      "intersection_count": 0,
+      "minimum_mm": 5.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I19",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_PTO_60T",
+      "envelope_b": "LEFT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I20",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_PTO_60T",
+      "envelope_b": "RIGHT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I21",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_PTO_60T",
+      "envelope_b": "LEFT_L_BRACKET_FASTENERS",
+      "intersection_count": 0,
+      "minimum_mm": 8.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I22",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_PTO_60T",
+      "envelope_b": "RIGHT_L_BRACKET_FASTENERS",
+      "intersection_count": 0,
+      "minimum_mm": 8.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I23",
+      "clearance_mm": 12.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_SLIDE_CLUTCH",
+      "envelope_b": "LEFT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I24",
+      "clearance_mm": 12.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_SLIDE_CLUTCH",
+      "envelope_b": "RIGHT_FIXED_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I25",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "LEFT_SLIDE_CLUTCH",
+      "envelope_b": "LEFT_BELT",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I26",
+      "clearance_mm": 10.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "RIGHT_SLIDE_CLUTCH",
+      "envelope_b": "RIGHT_BELT",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "I27",
+      "clearance_mm": 25.0,
+      "contract": "NON_REGRESSION",
+      "envelope_a": "COUPLING_ROTATION_ENVELOPE",
+      "envelope_b": "E2_WIRING",
+      "intersection_count": 0,
+      "minimum_mm": 10.0,
+      "status": "PASS"
+    }
+  ]
+}

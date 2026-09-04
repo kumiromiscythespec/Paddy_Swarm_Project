@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "T0p5": {
+      "bearing_inner_ring_face_contact_distance_mm": 0.0,
+      "bearing_inner_ring_intersection_mm3": 0.0,
+      "bearing_outer_ring_intersection_mm3": 0.0,
+      "crawler_intersection_mm3": 0.0,
+      "frame_intersection_mm3": 0.0,
+      "kp000_housing_intersection_mm3": 0.0,
+      "pulley_face_contact_distance_mm": 0.0,
+      "pulley_intersection_mm3": 0.0,
+      "shaft_intersection_mm3": 0.0,
+      "shaft_radial_clearance_mm": 0.1,
+      "stationary_bracket_intersection_mm3": 0.0
+    },
+    "T1p0": {
+      "bearing_inner_ring_face_contact_distance_mm": 0.0,
+      "bearing_inner_ring_intersection_mm3": 0.0,
+      "bearing_outer_ring_intersection_mm3": 0.0,
+      "crawler_intersection_mm3": 0.0,
+      "frame_intersection_mm3": 0.0,
+      "kp000_housing_intersection_mm3": 0.0,
+      "pulley_face_contact_distance_mm": 0.0,
+      "pulley_intersection_mm3": 0.0,
+      "shaft_intersection_mm3": 0.0,
+      "shaft_radial_clearance_mm": 0.1,
+      "stationary_bracket_intersection_mm3": 0.0
+    }
+  },
+  "exact_axial_contact_status": "PHYSICAL_CONTACT_FACE_PENDING",
+  "interpretation": "BEARING_INNER_RING_ROTATING_FACE -> SHIM -> PTO_PULLEY_ROTATING_FACE",
+  "radial_margin_per_side_mm": 0.1999999999999993,
+  "rotating_inner_region_od_mm": 14.2
+}

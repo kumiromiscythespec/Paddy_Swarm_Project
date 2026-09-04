@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Exploded assembly and maintenance access</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · Yellow items remain HOLD · no machining or shaft cut release</text>
+<rect x="45" y="130" width="730" height="760" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Exploded order</text>
+<rect x="155" y="210" width="330" height="45" fill="#b9c0c8" opacity=".78"/>
+<text x="525" y="239" font-family="Arial" font-size="18">1. frame</text>
+<rect x="167" y="295" width="330" height="45" fill="#8e60bd" opacity=".78"/>
+<text x="525" y="324" font-family="Arial" font-size="18">2. clutch</text>
+<rect x="179" y="380" width="330" height="45" fill="#2676d2" opacity=".78"/>
+<text x="525" y="409" font-family="Arial" font-size="18">3. DRIVE</text>
+<rect x="191" y="465" width="330" height="45" fill="#d62728" opacity=".78"/>
+<text x="525" y="494" font-family="Arial" font-size="18">4. belt safety</text>
+<rect x="203" y="550" width="330" height="45" fill="#f39c35" opacity=".78"/>
+<text x="525" y="579" font-family="Arial" font-size="18">5. PTO</text>
+<rect x="215" y="635" width="330" height="45" fill="#65c18c" opacity=".78"/>
+<text x="525" y="664" font-family="Arial" font-size="18">6. unit interface</text>
+<rect x="227" y="720" width="330" height="45" fill="#f1c40f" opacity=".78"/>
+<text x="525" y="749" font-family="Arial" font-size="18">7. HOLD detail</text>
+<rect x="815" y="130" width="730" height="760" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Service access / belt replacement</text>
+<rect x="925" y="210" width="330" height="45" fill="#b9c0c8" opacity=".78"/>
+<text x="1295" y="239" font-family="Arial" font-size="18">1. frame</text>
+<rect x="937" y="295" width="330" height="45" fill="#8e60bd" opacity=".78"/>
+<text x="1295" y="324" font-family="Arial" font-size="18">2. clutch</text>
+<rect x="949" y="380" width="330" height="45" fill="#2676d2" opacity=".78"/>
+<text x="1295" y="409" font-family="Arial" font-size="18">3. DRIVE</text>
+<rect x="961" y="465" width="330" height="45" fill="#d62728" opacity=".78"/>
+<text x="1295" y="494" font-family="Arial" font-size="18">4. belt safety</text>
+<rect x="973" y="550" width="330" height="45" fill="#f39c35" opacity=".78"/>
+<text x="1295" y="579" font-family="Arial" font-size="18">5. PTO</text>
+<rect x="985" y="635" width="330" height="45" fill="#65c18c" opacity=".78"/>
+<text x="1295" y="664" font-family="Arial" font-size="18">6. unit interface</text>
+<rect x="997" y="720" width="330" height="45" fill="#f1c40f" opacity=".78"/>
+<text x="1295" y="749" font-family="Arial" font-size="18">7. HOLD detail</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="900" viewBox="0 0 1300 900">
+<rect width="100%" height="100%" fill="#f5f7fa"/>
+<style>.h{font:700 25px Arial;fill:#132238}.s{font:15px Arial;fill:#1d2d3c}.w{font:700 15px Arial;fill:#ad1515}.ok{fill:#67bd6a;stroke:#174f2b;stroke-width:2}.old{fill:#ced5dc;stroke:#566573;stroke-width:2}.hold{fill:#ffe6a8;stroke:#9c6510;stroke-width:2}.bad{fill:#ffd0d0;stroke:#ad1515;stroke-width:2}.d{stroke:#1d426d;stroke-width:2;fill:none}.g{stroke:#8997a5;stroke-dasharray:7 5;fill:none}</style>
+<text x="35" y="42" class="h">Common Rover v0.8.3 measurement integration</text>
+<text x="35" y="68" class="w">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+
+<rect x="35" y="95" width="1230" height="300" fill="white" stroke="#cad4df"/>
+<text x="55" y="130" class="h">KP000 envelope update</text>
+<rect x="100" y="190" width="180" height="140" class="old"/><text x="115" y="180" class="s">v0.8.2: 45 x 15 x 35 candidate</text>
+<rect x="390" y="175" width="268" height="140" class="ok"/><text x="405" y="165" class="s">v0.8.3: 67 x 17 x 35 provisional</text>
+<circle cx="524" cy="249" r="35" fill="white" stroke="#174f2b"/><text x="485" y="255" class="s">bore 10 nominal</text>
+<text x="730" y="185" class="s">axis center/base: 18.5 +/-0.5 mm</text>
+<text x="730" y="220" class="s">one-side insert: 6 mm provisional</text>
+<text x="730" y="255" class="w">hole centers: PART_MEASUREMENT_REQUIRED</text>
+<text x="730" y="290" class="w">total axial envelope: HOLD</text>
+<text x="730" y="325" class="s">no grease nipple; two set-screw envelopes</text>
+<rect x="35" y="420" width="1230" height="390" fill="white" stroke="#cad4df"/>
+<text x="55" y="458" class="h">60T and shaft/bore audit</text>
+<circle cx="230" cy="610" r="120" class="hold"/><circle cx="230" cy="610" r="100" class="ok"/><circle cx="230" cy="610" r="20" fill="white" stroke="#ad1515"/>
+<text x="90" y="760" class="s">MODEL_A OD120 safety · MODEL_B flange OD100</text>
+<rect x="450" y="530" width="290" height="160" class="bad"/>
+<text x="475" y="565" class="s">10 mm shaft / reported 11 mm bore</text>
+<text x="475" y="610" class="w">diametral clearance = 1.0 mm</text>
+<text x="475" y="645" class="w">radial eccentricity up to 0.5 mm</text>
+<text x="475" y="675" class="w">FAIL_PROVISIONAL_FOR_LOAD</text>
+<rect x="800" y="500" width="410" height="220" class="hold"/>
+<text x="825" y="540" class="h">Axial semantic conflict</text>
+<text x="825" y="580" class="s">reported total = 20 mm</text>
+<text x="825" y="615" class="s">2 flange + 17 face + 2 flange = 21 mm</text>
+<text x="825" y="650" class="w">difference 1 mm — remeasure</text>
+<text x="825" y="685" class="s">1400 mm is stock total, never one shaft</text>
+
+</svg>

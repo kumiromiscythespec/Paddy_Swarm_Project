@@ -1,0 +1,36 @@
+DOCUMENT_ID=PS-CR-FRONT-DRIVE-DUAL-PTO-BELT-CLEARANCE-V0081
+COMMAND=C:\Users\yu_ki\Miniforge\envs\paddy-cad\python.exe -B tests/test_common_rover_front_drive_dual_pto_v0081_contract.py
+RETURN_CODE=0
+PYTHON_VERSION=3.12.13
+CADQUERY_VERSION=2.8.0
+
+STDOUT
+
+STDERR
+test_001_exact_package_paths_exist (__main__.CommonRoverV0081Contract.test_001_exact_package_paths_exist) ... ok
+test_002_v008_baseline_reproduced_and_unchanged (__main__.CommonRoverV0081Contract.test_002_v008_baseline_reproduced_and_unchanged) ... ok
+test_003_baseline_numeric_contract (__main__.CommonRoverV0081Contract.test_003_baseline_numeric_contract) ... ok
+test_004_fixed_two_motor_two_independent_pto_architecture (__main__.CommonRoverV0081Contract.test_004_fixed_two_motor_two_independent_pto_architecture) ... ok
+test_005_clutch_and_box_contract (__main__.CommonRoverV0081Contract.test_005_clutch_and_box_contract) ... ok
+test_006_motor_height_definition_and_axis_relation (__main__.CommonRoverV0081Contract.test_006_motor_height_definition_and_axis_relation) ... ok
+test_007_inverted_trapezoid_crawler_non_regression (__main__.CommonRoverV0081Contract.test_007_inverted_trapezoid_crawler_non_regression) ... ok
+test_008_stage_order_and_stop_condition (__main__.CommonRoverV0081Contract.test_008_stage_order_and_stop_condition) ... ok
+test_009_recommended_clearances (__main__.CommonRoverV0081Contract.test_009_recommended_clearances) ... ok
+test_010_residual_formula (__main__.CommonRoverV0081Contract.test_010_residual_formula) ... ok
+test_011_all_required_intersections_zero (__main__.CommonRoverV0081Contract.test_011_all_required_intersections_zero) ... ok
+test_012_inner_fasteners_and_tool_access (__main__.CommonRoverV0081Contract.test_012_inner_fasteners_and_tool_access) ... ok
+test_013_all_clutch_and_tensioner_states_registered (__main__.CommonRoverV0081Contract.test_013_all_clutch_and_tensioner_states_registered) ... ok
+test_014_width_and_pto_end_contract (__main__.CommonRoverV0081Contract.test_014_width_and_pto_end_contract) ... ok
+test_015_track_clearance_non_regression_and_z210_reference (__main__.CommonRoverV0081Contract.test_015_track_clearance_non_regression_and_z210_reference) ... ok
+test_016_aluminum_stock_and_member_length (__main__.CommonRoverV0081Contract.test_016_aluminum_stock_and_member_length) ... ok
+test_017_ranking_contains_recommended_and_two_alternatives (__main__.CommonRoverV0081Contract.test_017_ranking_contains_recommended_and_two_alternatives) ... ok
+test_018_step_semantic_reproducibility (__main__.CommonRoverV0081Contract.test_018_step_semantic_reproducibility) ... ok
+test_019_manifest_and_sha256s_complete (__main__.CommonRoverV0081Contract.test_019_manifest_and_sha256s_complete) ... ok
+test_020_no_cache_or_forbidden_large_package_file (__main__.CommonRoverV0081Contract.test_020_no_cache_or_forbidden_large_package_file) ... ok
+test_021_builder_verify_is_read_only (__main__.CommonRoverV0081Contract.test_021_builder_verify_is_read_only) ... ok
+test_022_release_holds (__main__.CommonRoverV0081Contract.test_022_release_holds) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 6.028s
+
+OK

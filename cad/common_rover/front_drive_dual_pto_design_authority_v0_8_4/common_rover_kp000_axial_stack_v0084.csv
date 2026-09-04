@@ -1,0 +1,35 @@
+side,order,item,classification,min_mm,max_mm,position_or_role,release_state
+LEFT,1,central reserve,HOLD,0,6,central shaft start reserve,HOLD
+LEFT,2,inner support plate,NOMINAL,5,5,P3-A5052-T5 reference only,CANDIDATE_ONLY
+LEFT,3,inner KP000 housing,MEASURED,17,17,housing axial depth,CANDIDATE_ONLY
+LEFT,4,inner KP000 collar or opposite protrusion,MEASURED,6,6,ORIENTATION_C collar faces center,CANDIDATE_ONLY
+LEFT,5,inner shaft collar,HOLD,0,6,axial retention required,HOLD
+LEFT,6,spacer A,HOLD,0,4,do not contact-locate pulley on KP000,HOLD
+LEFT,7,60T flange,MEASURED,2,2,MODEL_A axial envelope component,CANDIDATE_ONLY
+LEFT,8,60T toothed section,PROVISIONAL,17,17,semantic confirmation required,HOLD
+LEFT,9,60T opposite flange,MEASURED,2,2,component sum conflicts with reported total,CANDIDATE_ONLY
+LEFT,10,spacer B,HOLD,0,4,pulley-to-outer support reserve,HOLD
+LEFT,11,outer shaft collar,HOLD,0,6,axial retention required,HOLD
+LEFT,12,outer KP000 housing,MEASURED,17,17,housing axial depth,CANDIDATE_ONLY
+LEFT,13,outer KP000 collar or opposite protrusion,MEASURED,6,6,ORIENTATION_O collar faces output,CANDIDATE_ONLY
+LEFT,14,output shaft reserve,POSITION_DERIVED,43.0,43.0,remaining to Y=145 output end,CANDIDATE_ONLY
+LEFT,15,coupling reserve,HOLD,0,,coupling part not selected,HOLD
+LEFT,16,retaining reserve,HOLD,0,,retaining method not released,HOLD
+LEFT,17,PTO output end,NOMINAL_BOUNDARY,145,145,absolute Y coordinate limit,CANDIDATE_ONLY
+RIGHT,1,central reserve,HOLD,0,6,central shaft start reserve,HOLD
+RIGHT,2,inner support plate,NOMINAL,5,5,P3-A5052-T5 reference only,CANDIDATE_ONLY
+RIGHT,3,inner KP000 housing,MEASURED,17,17,housing axial depth,CANDIDATE_ONLY
+RIGHT,4,inner KP000 collar or opposite protrusion,MEASURED,6,6,ORIENTATION_C collar faces center,CANDIDATE_ONLY
+RIGHT,5,inner shaft collar,HOLD,0,6,axial retention required,HOLD
+RIGHT,6,spacer A,HOLD,0,4,do not contact-locate pulley on KP000,HOLD
+RIGHT,7,60T flange,MEASURED,2,2,MODEL_A axial envelope component,CANDIDATE_ONLY
+RIGHT,8,60T toothed section,PROVISIONAL,17,17,semantic confirmation required,HOLD
+RIGHT,9,60T opposite flange,MEASURED,2,2,component sum conflicts with reported total,CANDIDATE_ONLY
+RIGHT,10,spacer B,HOLD,0,4,pulley-to-outer support reserve,HOLD
+RIGHT,11,outer shaft collar,HOLD,0,6,axial retention required,HOLD
+RIGHT,12,outer KP000 housing,MEASURED,17,17,housing axial depth,CANDIDATE_ONLY
+RIGHT,13,outer KP000 collar or opposite protrusion,MEASURED,6,6,ORIENTATION_O collar faces output,CANDIDATE_ONLY
+RIGHT,14,output shaft reserve,POSITION_DERIVED,43.0,43.0,remaining to Y=145 output end,CANDIDATE_ONLY
+RIGHT,15,coupling reserve,HOLD,0,,coupling part not selected,HOLD
+RIGHT,16,retaining reserve,HOLD,0,,retaining method not released,HOLD
+RIGHT,17,PTO output end,NOMINAL_BOUNDARY,145,145,absolute Y coordinate limit,CANDIDATE_ONLY

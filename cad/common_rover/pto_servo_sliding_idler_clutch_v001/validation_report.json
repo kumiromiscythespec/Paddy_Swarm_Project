@@ -1,0 +1,205 @@
+{
+  "check_count": 23,
+  "checks": {
+    "authority": true,
+    "double_support": true,
+    "frame_205": true,
+    "hard_width_below_300": true,
+    "idler_only_moves": true,
+    "motor_fixed": true,
+    "motor_shaft_6": true,
+    "off_stop": true,
+    "on_stop": true,
+    "one_side_first": true,
+    "output_fixed": true,
+    "output_shaft_10": true,
+    "over_center_candidates": true,
+    "protected": true,
+    "pulley_20_20": true,
+    "ratio_1": true,
+    "reproducibility": true,
+    "servo_not_load_path": true,
+    "step_reload": true,
+    "stl_watertight": true,
+    "stroke_candidates": true,
+    "sweep_candidates": true,
+    "switch_pads": true
+  },
+  "forbidden_statuses": [
+    "SERVO_PHYSICAL_FIT_PASS",
+    "CLUTCH_PHYSICAL_PASS",
+    "PTO_POWERED_PASS",
+    "PTO_TORQUE_PASS",
+    "LEFT_RIGHT_CLUTCH_PASS",
+    "FIELD_PASS",
+    "DURABILITY_PASS"
+  ],
+  "pass_count": 23,
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "protected": {
+      "cad/common_rover/common_rover_dual_outboard_pto_guard_interface_v0_9_6_38": {
+        "files": 31,
+        "sha256": "5f90828318bb5f914893953abd385afb9234110c3fe50739a7a5b696b907288b",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1": {
+        "files": 55,
+        "sha256": "fc0e459370be39f24a98d477a750a7c48e5533b85947432a0d80556d788e093a",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_motor_layout_powerpath_trade_study_v0_9_3_0": {
+        "files": 151,
+        "sha256": "98d11ae279ad888e1f2aeda1353b84701757d2de1c13113f099bce7d74311541",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_outboard_inward_pto_design_authority_v0_9_1": {
+        "files": 37,
+        "sha256": "70ff56f30f406b0471220d3c2698f060f0697afc6518fe4af62fc4729f5ab5fd",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2": {
+        "files": 57,
+        "sha256": "168a21f0a1cabb30971dfd4330f0d7b474a26a38b5fd735d455ff61ffed091ab",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "files": 55,
+        "sha256": "9d0d0eb92b759be81ed61a69d89a1888adbb4b88fcd66e63b14a056d59966300",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3": {
+        "files": 66,
+        "sha256": "9a167824f4260fd20629e45f5485dfb8da6c2fe5529101c7a26c0a13e0db2447",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/front_drive_dual_pto_design_authority_v0_8_5": {
+        "files": 24,
+        "sha256": "2ae05cc9c7a3befd5b4f7e316d16e12da803b896800022bfaaf45b44e18d0a7a",
+        "status": "UNCHANGED"
+      },
+      "rovers/common_rover/v2.29.3.9.1": {
+        "files": 45,
+        "sha256": "ab8c79b41c5a7eae3f45dc6cc79564882c84e2a412a61fef7384b28c49d07659",
+        "status": "UNCHANGED"
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": 31,
+    "compared": 31,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "PTO_CLUTCH_ARCHITECTURE_SELECTED/PARAMETER_STUDY_COMPLETE/ONE_SIDE_PHYSICAL_VALIDATION_PENDING",
+  "steps": [
+    {
+      "bbox_mm": [
+        245.0,
+        208.5,
+        54.5
+      ],
+      "path": "reference/pto_one_side_reference.step",
+      "solids": 17,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        54.0,
+        20.0,
+        46.5
+      ],
+      "path": "reference/servo_envelope_reference.step",
+      "solids": 3,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        39.0,
+        46.0,
+        18.0
+      ],
+      "path": "reference/slider_s06.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        39.0,
+        44.0,
+        18.0
+      ],
+      "path": "reference/slider_s08.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        39.0,
+        42.0,
+        18.0
+      ],
+      "path": "reference/slider_s10.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        39.0,
+        40.0,
+        18.0
+      ],
+      "path": "reference/slider_s12.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        171.0,
+        130.0,
+        54.5
+      ],
+      "path": "reference/clutch_assembly_reference.step",
+      "solids": 12,
+      "valid": true
+    }
+  ],
+  "stls": {
+    "print/fixed_guide_coupon.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "manifold": true,
+      "triangles": 108,
+      "watertight": true
+    },
+    "print/linkage_coupon.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "manifold": true,
+      "triangles": 5748,
+      "watertight": true
+    },
+    "print/one_side_clutch_test_fixture.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "manifold": true,
+      "triangles": 172,
+      "watertight": true
+    },
+    "print/slider_stroke_coupon.stl": {
+      "bad_edges": 0,
+      "degenerate_triangles": 0,
+      "manifold": true,
+      "triangles": 5260,
+      "watertight": true
+    }
+  },
+  "version": "PTO_SERVO_SLIDING_IDLER_CLUTCH_V001"
+}

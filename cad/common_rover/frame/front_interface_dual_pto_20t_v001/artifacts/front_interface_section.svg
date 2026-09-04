@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f8fafc"/><text x="55" y="62" font-family="sans-serif" font-size="30" font-weight="700" fill="#0f172a">Front Interface V001 — section / datum</text>
+<style>.b{fill:#64748b;stroke:#334155;stroke-width:2}.k{fill:#10b981;stroke:#047857;stroke-width:2}.p{fill:#f59e0b;stroke:#b45309;stroke-width:2}.r{fill:none;stroke:#ef4444;stroke-width:3;stroke-dasharray:10 8}.m{fill:#2563eb;stroke:#1e40af;stroke-width:2}.t{font:20px sans-serif;fill:#0f172a}.s{font:16px monospace;fill:#334155}</style>
+<g transform="translate(90 90)">
+<line x1="0" y1="520" x2="1020" y2="520" stroke="#111827" stroke-width="4"/><text x="20" y="555" class="t">CRAWLER BOTTOM / FLOOR = Z0</text>
+<rect x="170" y="328" width="400" height="40" class="b"/><text x="190" y="400" class="s">beam top Z99</text>
+<rect x="210" y="318" width="320" height="10" class="m"/><rect x="260" y="248" width="95" height="70" class="k"/><rect x="420" y="248" width="95" height="70" class="k"/>
+<line x1="110" y1="275" x2="940" y2="275" stroke="#ef4444" stroke-width="4"/><text x="630" y="260" class="t">PTO = DRIVE axis Z 122.5 mm</text>
+<circle cx="575" cy="275" r="50" class="p"/><circle cx="575" cy="275" r="64" class="r"/>
+<rect x="639" y="225" width="220" height="100" class="r"/><circle cx="920" cy="275" r="80" class="r"/>
+<text x="635" y="345" class="s">belt keep-out</text><text x="855" y="375" class="s">unit-input envelope</text>
+<text x="110" y="65" class="t">Observed drive Z: left 122.0 / right 123.0</text><text x="110" y="100" class="s">178 obsolete · 175 CAD-only</text>
+</g></svg>

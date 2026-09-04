@@ -1,0 +1,282 @@
+{
+  "classification": {
+    "p25_physical_layout_selection": "CURRENT_SELECTED_CANDIDATE",
+    "primary_function": "POSITIONING_ASSEMBLY_GAUGE",
+    "structural_load_authority": "PENDING"
+  },
+  "geometry": {
+    "combined_plate_generated": false,
+    "coupons": {
+      "A": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.8000001
+        ],
+        "print_oriented_bounds_mm": [
+          9.800000100000002,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 1932.998710209791
+      },
+      "B": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.9000001
+        ],
+        "print_oriented_bounds_mm": [
+          9.900000100000002,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 1964.7949999999994
+      },
+      "C": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          10.000000100000001
+        ],
+        "print_oriented_bounds_mm": [
+          10.000000100000001,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 2003.0807500000008
+      }
+    },
+    "p25": {
+      "body_mm": [
+        25.0,
+        18.0,
+        8.0
+      ],
+      "datum_patch": {
+        "y_mm": [
+          -5,
+          5
+        ],
+        "z_mm": [
+          2,
+          6
+        ]
+      },
+      "installed_bounds_mm": [
+        25.000000200000002,
+        18.0000002,
+        13.9000001
+      ],
+      "print_oriented_bounds_mm": [
+        13.900000100000003,
+        18.000000200000002,
+        25.000000200000002
+      ],
+      "tongue_engagement_length_mm": 25.0,
+      "tongue_variant": "B_PROVISIONAL",
+      "working_dimension_independent_of_fit": true,
+      "working_dimension_mm": 25.0
+    },
+    "print": {
+      "critical_dimensions": "XY",
+      "first_layer_note": "Only the 0.4 mm insertion lead-in is first-layer-adjacent; full fit starts above it.",
+      "material": "PETG",
+      "orientation": "INSERTION_END_FLAT_ON_PLATE_LOGICAL_X_TO_PRINT_Z",
+      "printer": "BAMBU_A1",
+      "slicer": "HOLD_SLICER_NOT_RUN",
+      "support": "OFF"
+    },
+    "reason": "Individual exact coupons avoid accidental joining and keep selection unambiguous.",
+    "slot": {
+      "entrance_width_mm": 6.4,
+      "lip_profile": "PHYSICAL_PARTIAL",
+      "maximum_internal_width_mm": 10.8,
+      "measurement_class": "PHYSICAL_DIRECT",
+      "surface_to_bottom_depth_mm": 6.4
+    },
+    "variants": [
+      {
+        "bottom_clearance_mm": 0.6000000000000005,
+        "candidate": "A",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 5.8,
+        "entrance_lateral_clearance_per_side_mm": 0.40000000000000036,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 9.8,
+        "internal_head_clearance_per_side_mm": 0.5,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 3.8,
+        "stem_width_mm": 5.6,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.1000000000000005,
+        "vertical_pull_through_possible_by_width": false
+      },
+      {
+        "bottom_clearance_mm": 0.5,
+        "candidate": "B",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 5.9,
+        "entrance_lateral_clearance_per_side_mm": 0.30000000000000027,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.0,
+        "internal_head_clearance_per_side_mm": 0.40000000000000036,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 3.9000000000000004,
+        "stem_width_mm": 5.8,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.1,
+        "vertical_pull_through_possible_by_width": false
+      },
+      {
+        "bottom_clearance_mm": 0.40000000000000036,
+        "candidate": "C",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 6.0,
+        "entrance_lateral_clearance_per_side_mm": 0.20000000000000018,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.2,
+        "internal_head_clearance_per_side_mm": 0.3000000000000007,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 4.0,
+        "stem_width_mm": 6.0,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.0999999999999996,
+        "vertical_pull_through_possible_by_width": false
+      }
+    ]
+  },
+  "physical_fit": "PENDING",
+  "powered": "NOT_APPROVED",
+  "source": {
+    "p25_offset_mm": 25.0,
+    "p25_selection": "CURRENT_SELECTED_CANDIDATE",
+    "parent_class": "READ_ONLY_PHYSICAL_PLACEMENT_REFERENCE",
+    "parent_lane": "cad/common_rover/pto/pto_offset_spacer_test_v001",
+    "parent_tree": {
+      "files": 51,
+      "sha256": "f7913cae9de9507c751cb5828d233409f6aa27979b0840e954d5901758fb0f2b"
+    },
+    "physical_observations": {
+      "60t_rotating_max_mm": [
+        100.1,
+        100.2
+      ],
+      "classification": "CURRENT_PHYSICAL_RESULT_NOT_STRUCTURAL_FIELD_AUTHORITY",
+      "p20_20t_to_60t_spacing_mm_approx": 20.0,
+      "p20_kp000_to_60t_edge_spacing_mm_approx": 4.0,
+      "p25_20t_to_60t_spacing_mm_approx": 25.0,
+      "p25_additional_spacing_vs_p20_mm_approx": 5.0,
+      "p25_kp000_to_60t_edge_spacing_mm_approx": 9.0,
+      "pto_axis_from_local_member_end_mm": 34.0
+    },
+    "protected": {
+      "cad/common/waterproof/ps_wp_tpu_face_gasket_v001": {
+        "files": 55,
+        "sha256": "1665bc214899d788aa2c0a0faecbc7645fb37c3c63d089b88c9db62c533ca96d"
+      },
+      "cad/common_rover/bbox/bbox_compact_field_goldenmate_v003": {
+        "files": 46,
+        "sha256": "53fc8b3504a6f856ee110a669cf561221d5c6ff1b7f60b27186b00c9fdff9c70"
+      },
+      "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065": {
+        "files": 47,
+        "sha256": "3b350ed90a33e8d556aa5811a546af66cf9a5b862ce87d18d3409d85ed6ce52f"
+      },
+      "cad/common_rover/bbox/bbox_compact_seal_b_water_dummy_v001": {
+        "files": 37,
+        "sha256": "5866b9b01690397577d367570182a964630e09cbbe4ee9d146a4d140f8d561f7"
+      },
+      "cad/common_rover/bbox/bbox_field_box_goldenmate_v001": {
+        "files": 1,
+        "sha256": "c9010845e8ab4680a273d1ddd7464c9231ec71d0b4d9aee2a412fc5677d42332"
+      },
+      "cad/common_rover/bbox/bbox_tall_field_body_goldenmate_v002": {
+        "files": 1,
+        "sha256": "82f3e9ae2c9f61c0291783a9bb1845cf143a3677f1217ed046739b6821ff63c4"
+      },
+      "cad/common_rover/bbox_cbox/cbox_transverse_cross_saddle_bbox_alignment_v001": {
+        "files": 45,
+        "sha256": "51f75bfe80bddd2e5b0ee1d4a6ba7ada77601842bfd351fe5c9b873f365324ca"
+      },
+      "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+        "files": 18,
+        "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c"
+      },
+      "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8": {
+        "files": 37,
+        "sha256": "d0d58d47f45360ade6718d1f9bc856f06bfeaa355b6bd9f48229a480c4be3481"
+      },
+      "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+        "files": 53,
+        "sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+      },
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+        "files": 66,
+        "sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26": {
+        "files": 45,
+        "sha256": "c8954045f43a1d82440c169d3c60380eda08ee88b401aa44c95b2dd903ee267e"
+      },
+      "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003": {
+        "files": 29,
+        "sha256": "4e25c6f456aaae2aedd147cdb2d1bfd8268715f507184dbea2432d1ac0a114cf"
+      },
+      "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001": {
+        "files": 28,
+        "sha256": "89f3878136014c68a03ba7b15615db23e2c0bacbb0626446c450e9143658f87a"
+      },
+      "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001": {
+        "files": 29,
+        "sha256": "77be5e617d5e8c3a27ee5246d3b12b065759c5a83ee033470823c8c19688b601"
+      },
+      "cad/common_rover/frame/front_interface_dual_pto_20t_v001": {
+        "files": 30,
+        "sha256": "62f630cc61c2c34f41db4adf9638a32bfd45e24c3069b24bea254a89155a2952"
+      },
+      "cad/common_rover/frame/front_interface_dual_pto_20t_v002": {
+        "files": 26,
+        "sha256": "3bc425b0e857dc921f602d7fd594d9c60e0d6f70640498483ed8aa2260534d28"
+      },
+      "cad/common_rover/physical_authority/common_rover_bbox_installed_transform_front_interface_audit_v001": {
+        "files": 12,
+        "sha256": "623cc33fc5e9193be7480b70de5e2273b5bd6ea005f24bed9c08b5c81c5e94d9"
+      },
+      "cad/common_rover/physical_authority/common_rover_electrical_hardware_physical_authority_v001": {
+        "files": 11,
+        "sha256": "22169c9bca3cb63c5b7c6f5707e2cc49a57770cde6b3404e5dcf5d4d3f1676c0"
+      },
+      "cad/common_rover/physical_authority/common_rover_goldenmate_battery_fit_bbox_packaging_authority_v001": {
+        "files": 12,
+        "sha256": "bdb7ac87e0171100633c6d4948d2282001572964c8a8c71625b7256d69feed89"
+      },
+      "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001": {
+        "files": 15,
+        "sha256": "1e825c6b5adeec81e0554c0d8ffb6df536b2e016dbc368c63b02964502ee4c38"
+      },
+      "cad/common_rover/pto/pto_20t_od10_physical_envelope_v001": {
+        "files": 20,
+        "sha256": "db7eaab1f104a97be7676aa058704c4bc1f049c8d6b14e6017cd05fc56aab3f1"
+      },
+      "cad/common_rover/pto/pto_axial_shim_spacer_test_v001": {
+        "files": 21,
+        "sha256": "0fd3d0c4f0d22b77a30a042efed6b517b57755a493f2496c0a8572faf6266723"
+      },
+      "cad/common_rover/pto/pto_offset_spacer_test_v001": {
+        "files": 51,
+        "sha256": "f7913cae9de9507c751cb5828d233409f6aa27979b0840e954d5901758fb0f2b"
+      },
+      "cad/common_rover/pto_servo_sliding_idler_clutch_v001": {
+        "files": 39,
+        "sha256": "52c15cae54dbe8d4d336556df95b74b070b9ae40109271eb4d62dae4f1c78a43"
+      }
+    },
+    "protected_source_changed_count": 0
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/2040_SLIDE_FIT_COUPONS_PRINT_READY/P25_SLIDE_B_PROVISIONAL_PRINT_READY/PHYSICAL_FIT_SELECTION_PENDING/STRUCTURAL_LOAD_AUTHORITY_PENDING",
+  "version": "P25_SLIDE_IN_POSITIONING_BLOCK_V002"
+}

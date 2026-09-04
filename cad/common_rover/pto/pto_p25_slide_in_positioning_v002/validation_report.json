@@ -1,0 +1,430 @@
+{
+  "documentation_reproducibility": {
+    "2040_PHYSICAL_SLOT_MEASUREMENTS.md": true,
+    "P25_SLIDE_IN_V002_DESIGN.md": true,
+    "PHYSICAL_RESULT_SHEET.md": true,
+    "PHYSICAL_TEST_PLAN.md": true,
+    "README.md": true,
+    "SLIDE_FIT_VARIANT_MATRIX.md": true,
+    "STRUCTURAL_LOAD_HOLD.md": true
+  },
+  "geometry": {
+    "combined_plate_generated": false,
+    "coupons": {
+      "A": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.8000001
+        ],
+        "print_oriented_bounds_mm": [
+          9.800000100000002,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 1932.998710209791
+      },
+      "B": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.9000001
+        ],
+        "print_oriented_bounds_mm": [
+          9.900000100000002,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 1964.7949999999994
+      },
+      "C": {
+        "installed_bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          10.000000100000001
+        ],
+        "print_oriented_bounds_mm": [
+          10.000000100000001,
+          14.0000002,
+          20.000000200000002
+        ],
+        "volume_mm3": 2003.0807500000008
+      }
+    },
+    "p25": {
+      "body_mm": [
+        25.0,
+        18.0,
+        8.0
+      ],
+      "datum_patch": {
+        "y_mm": [
+          -5,
+          5
+        ],
+        "z_mm": [
+          2,
+          6
+        ]
+      },
+      "installed_bounds_mm": [
+        25.000000200000002,
+        18.0000002,
+        13.9000001
+      ],
+      "print_oriented_bounds_mm": [
+        13.900000100000003,
+        18.000000200000002,
+        25.000000200000002
+      ],
+      "tongue_engagement_length_mm": 25.0,
+      "tongue_variant": "B_PROVISIONAL",
+      "working_dimension_independent_of_fit": true,
+      "working_dimension_mm": 25.0
+    },
+    "print": {
+      "critical_dimensions": "XY",
+      "first_layer_note": "Only the 0.4 mm insertion lead-in is first-layer-adjacent; full fit starts above it.",
+      "material": "PETG",
+      "orientation": "INSERTION_END_FLAT_ON_PLATE_LOGICAL_X_TO_PRINT_Z",
+      "printer": "BAMBU_A1",
+      "slicer": "HOLD_SLICER_NOT_RUN",
+      "support": "OFF"
+    },
+    "reason": "Individual exact coupons avoid accidental joining and keep selection unambiguous.",
+    "slot": {
+      "entrance_width_mm": 6.4,
+      "lip_profile": "PHYSICAL_PARTIAL",
+      "maximum_internal_width_mm": 10.8,
+      "measurement_class": "PHYSICAL_DIRECT",
+      "surface_to_bottom_depth_mm": 6.4
+    },
+    "variants": [
+      {
+        "bottom_clearance_mm": 0.6000000000000005,
+        "candidate": "A",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 5.8,
+        "entrance_lateral_clearance_per_side_mm": 0.40000000000000036,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 9.8,
+        "internal_head_clearance_per_side_mm": 0.5,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 3.8,
+        "stem_width_mm": 5.6,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.1000000000000005,
+        "vertical_pull_through_possible_by_width": false
+      },
+      {
+        "bottom_clearance_mm": 0.5,
+        "candidate": "B",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 5.9,
+        "entrance_lateral_clearance_per_side_mm": 0.30000000000000027,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.0,
+        "internal_head_clearance_per_side_mm": 0.40000000000000036,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 3.9000000000000004,
+        "stem_width_mm": 5.8,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.1,
+        "vertical_pull_through_possible_by_width": false
+      },
+      {
+        "bottom_clearance_mm": 0.40000000000000036,
+        "candidate": "C",
+        "coupon_engagement_length_mm": 20.0,
+        "depth_mm": 6.0,
+        "entrance_lateral_clearance_per_side_mm": 0.20000000000000018,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.2,
+        "internal_head_clearance_per_side_mm": 0.3000000000000007,
+        "lead_in_length_mm": 0.4,
+        "physical_result": "PENDING",
+        "stem_height_mm": 4.0,
+        "stem_width_mm": 6.0,
+        "target": "HAND_SLIDE_NOT_PRESS_FIT",
+        "vertical_capture_overhang_per_side_mm": 2.0999999999999996,
+        "vertical_pull_through_possible_by_width": false
+      }
+    ]
+  },
+  "quality": {
+    "actual_geometry": {
+      "A": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 9.8,
+        "lead_face_head_width_mm": 9.23,
+        "lead_face_stem_width_mm": 5.030000000000001,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 3.8,
+        "stem_width_mm": 5.600000000000001,
+        "total_insertion_depth_mm": 5.8000001
+      },
+      "B": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.0,
+        "lead_face_head_width_mm": 9.43,
+        "lead_face_stem_width_mm": 5.229999999999999,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 3.9000000000000004,
+        "stem_width_mm": 5.799999999999999,
+        "total_insertion_depth_mm": 5.900000100000001
+      },
+      "C": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.200000000000001,
+        "lead_face_head_width_mm": 9.629999999999999,
+        "lead_face_stem_width_mm": 5.4300000000000015,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 4.0,
+        "stem_width_mm": 6.0,
+        "total_insertion_depth_mm": 6.0000001
+      },
+      "P25": {
+        "datum_x_mm": [
+          0.0,
+          25.0
+        ],
+        "engagement_length_mm": 25.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.0,
+        "lead_face_head_width_mm": 9.43,
+        "lead_face_stem_width_mm": 5.229999999999999,
+        "lead_in_length_mm": 0.4,
+        "measurement_patch_y_mm": [
+          -5.0,
+          5.0
+        ],
+        "measurement_patch_z_mm": [
+          2.0,
+          6.0
+        ],
+        "parallel": true,
+        "planar": true,
+        "stem_height_mm": 3.9000000000000004,
+        "stem_width_mm": 5.799999999999999,
+        "total_insertion_depth_mm": 5.900000100000001,
+        "working_dimension_mm": 25.0
+      }
+    },
+    "step": {
+      "artifacts/2040_physical_slot_reference.step": {
+        "bounds_mm": [
+          40.0,
+          11.2,
+          6.6
+        ],
+        "reload": "PASS",
+        "solids": 5
+      },
+      "artifacts/2040_slide_fit_coupon_A.step": {
+        "bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.8000001
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/2040_slide_fit_coupon_B.step": {
+        "bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          9.9000001
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/2040_slide_fit_coupon_C.step": {
+        "bounds_mm": [
+          20.000000200000002,
+          14.0000002,
+          10.000000100000001
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/p25_slide_in_positioning_block_B_provisional.step": {
+        "bounds_mm": [
+          25.000000200000002,
+          18.0000002,
+          13.9000001
+        ],
+        "reload": "PASS",
+        "self_intersections": 0,
+        "solids": 1
+      },
+      "artifacts/p25_slide_reference_assembly.step": {
+        "bounds_mm": [
+          40.0,
+          18.0000002,
+          14.6
+        ],
+        "reload": "PASS",
+        "solids": 6
+      }
+    },
+    "stl": {
+      "artifacts/2040_slide_fit_coupon_A.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 2,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "print_oriented_bounds_mm": [
+          9.8,
+          14.0,
+          20.0
+        ],
+        "triangles": 108,
+        "watertight": true
+      },
+      "artifacts/2040_slide_fit_coupon_B.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 2,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "print_oriented_bounds_mm": [
+          9.9,
+          14.0,
+          20.0
+        ],
+        "triangles": 144,
+        "watertight": true
+      },
+      "artifacts/2040_slide_fit_coupon_C.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 2,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "print_oriented_bounds_mm": [
+          10.0,
+          14.0,
+          20.0
+        ],
+        "triangles": 104,
+        "watertight": true
+      },
+      "artifacts/p25_slide_in_positioning_block_B_provisional.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "print_oriented_bounds_mm": [
+          13.9,
+          18.0,
+          25.0
+        ],
+        "triangles": 276,
+        "watertight": true
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": {
+      "artifacts/2040_physical_slot_reference.step": true,
+      "artifacts/2040_slide_fit_coupon_A.step": true,
+      "artifacts/2040_slide_fit_coupon_A.stl": true,
+      "artifacts/2040_slide_fit_coupon_B.step": true,
+      "artifacts/2040_slide_fit_coupon_B.stl": true,
+      "artifacts/2040_slide_fit_coupon_C.step": true,
+      "artifacts/2040_slide_fit_coupon_C.stl": true,
+      "artifacts/p25_slide_in_positioning_block_B_provisional.step": true,
+      "artifacts/p25_slide_in_positioning_block_B_provisional.stl": true,
+      "artifacts/p25_slide_reference_assembly.step": true,
+      "previews/coupon_A_section.svg": true,
+      "previews/coupon_B_section.svg": true,
+      "previews/coupon_C_section.svg": true,
+      "previews/coupon_comparison.svg": true,
+      "previews/p25_slide_block.svg": true,
+      "previews/p25_working_datum.svg": true,
+      "previews/slot_cross_section.svg": true
+    },
+    "count": 17,
+    "pass": true,
+    "pass_count": 17
+  },
+  "slot_lip_profile": "PHYSICAL_PARTIAL",
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/2040_SLIDE_FIT_COUPONS_PRINT_READY/P25_SLIDE_B_PROVISIONAL_PRINT_READY/PHYSICAL_FIT_SELECTION_PENDING/STRUCTURAL_LOAD_AUTHORITY_PENDING",
+  "structural_load_authority": "PENDING",
+  "systematic_drift_regression": [
+    {
+      "actual": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 9.8,
+        "lead_face_head_width_mm": 9.23,
+        "lead_face_stem_width_mm": 5.030000000000001,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 3.8,
+        "stem_width_mm": 5.600000000000001,
+        "total_insertion_depth_mm": 5.8000001
+      },
+      "candidate": "A",
+      "systematic_plus_0p10_mm_rejected": true
+    },
+    {
+      "actual": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.0,
+        "lead_face_head_width_mm": 9.43,
+        "lead_face_stem_width_mm": 5.229999999999999,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 3.9000000000000004,
+        "stem_width_mm": 5.799999999999999,
+        "total_insertion_depth_mm": 5.900000100000001
+      },
+      "candidate": "B",
+      "systematic_plus_0p10_mm_rejected": true
+    },
+    {
+      "actual": {
+        "engagement_length_mm": 20.0,
+        "full_section_start_x_mm": 0.4,
+        "head_thickness_mm": 2.0,
+        "head_width_mm": 10.200000000000001,
+        "lead_face_head_width_mm": 9.629999999999999,
+        "lead_face_stem_width_mm": 5.4300000000000015,
+        "lead_in_length_mm": 0.4,
+        "stem_height_mm": 4.0,
+        "stem_width_mm": 6.0,
+        "total_insertion_depth_mm": 6.0000001
+      },
+      "candidate": "C",
+      "systematic_plus_0p10_mm_rejected": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "architecture": {
+    "common_shaft": false,
+    "historical_inward_candidate": "SUPERSEDED_BY_NEW_PHYSICAL_LAYOUT_CONSTRAINT",
+    "left_direction": "OUTWARD_NEGATIVE_X",
+    "left_right_independent": true,
+    "name": "DUAL_INDEPENDENT_OUTBOARD_PTO",
+    "pto_count": 2,
+    "right_direction": "OUTWARD_POSITIVE_X"
+  },
+  "classification": "DOCUMENTATION_AND_INTERFACE_FREEZE_REFERENCE_ONLY",
+  "guard": {
+    "clearance_candidate_mm": 3.0,
+    "coverage": [
+      "TOP",
+      "FRONT",
+      "OUTBOARD"
+    ],
+    "final_clearance": "HOLD",
+    "mandatory": true,
+    "open": [
+      "BOTTOM",
+      "LOWER_REAR"
+    ],
+    "sealed_box": false,
+    "sensitivity_mm": [
+      3.0,
+      5.0
+    ]
+  },
+  "operation_sequence": [
+    "DRIVE",
+    "STOP",
+    "DRIVE_DISENGAGE",
+    "LOCK_OR_BRAKE",
+    "PTO_ENGAGE",
+    "WORK",
+    "PTO_DISENGAGE",
+    "DRIVE_RESTORE"
+  ],
+  "production_cad": {
+    "bearing": 0,
+    "guard": 0,
+    "pulley": 0,
+    "reference_step_only": 5,
+    "shaft": 0,
+    "slide_clutch": 0
+  },
+  "release": {
+    "field_deployment": "NOT_APPROVED",
+    "manufacturing": "NOT_APPROVED",
+    "powered_test": "NOT_APPROVED"
+  },
+  "shaft": {
+    "diameter_mm": "HOLD",
+    "load_authority": "ROTATIONAL_TORQUE_ONLY",
+    "pulley_center_overhang_max_candidate_mm": 15.0,
+    "work_unit_weight_or_reaction": "PROHIBITED"
+  },
+  "simultaneous_drive_pto": "PROHIBITED",
+  "version": "v0.9.6.38",
+  "width_mm": {
+    "frame_200_extra_margin_vs_worst_case": 5.0,
+    "frame_candidates": [
+      200.0,
+      205.0
+    ],
+    "frame_worst_case": 205.0,
+    "guarded_reference": [
+      258.0,
+      263.0
+    ],
+    "per_side": {
+      "gap_candidate": 2.0,
+      "guard_candidate": 3.0,
+      "pulley_usable_authority": 20.0,
+      "retention_candidate": 4.0,
+      "total": 29.0
+    },
+    "pulley_body_only": [
+      240.0,
+      245.0
+    ],
+    "registered_ceiling": 286.0,
+    "target": 265.0,
+    "worst_case_ceiling_margin": 23.0,
+    "worst_case_target_margin": 2.0
+  },
+  "work_unit": {
+    "modes_future": [
+      "LEFT_ONLY",
+      "RIGHT_ONLY",
+      "DUAL"
+    ],
+    "pto_role": "TORQUE_TRANSMISSION_ONLY",
+    "side_ratio_pulley_belt": "FLEXIBLE_PRODUCT_SELECTION_HOLD",
+    "support": "DEDICATED_HITCH_AND_GUIDE_FRAME"
+  }
+}

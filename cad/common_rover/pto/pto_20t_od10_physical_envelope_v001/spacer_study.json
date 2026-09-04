@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "belt_plane_shift_mm": 0.0,
+      "operating_selection": "PHYSICAL_PENDING",
+      "shaft_usage_increase_mm": 0.0,
+      "spacer_mm": 0.0,
+      "static_geometry": "PASS",
+      "tool_access_effect": "NO_GEOMETRIC_REGRESSION"
+    },
+    {
+      "belt_plane_shift_mm": 0.5,
+      "operating_selection": "PHYSICAL_PENDING",
+      "shaft_usage_increase_mm": 0.5,
+      "spacer_mm": 0.5,
+      "static_geometry": "PASS",
+      "tool_access_effect": "NO_GEOMETRIC_REGRESSION"
+    },
+    {
+      "belt_plane_shift_mm": 1.0,
+      "operating_selection": "PHYSICAL_PENDING",
+      "shaft_usage_increase_mm": 1.0,
+      "spacer_mm": 1.0,
+      "static_geometry": "PASS",
+      "tool_access_effect": "NO_GEOMETRIC_REGRESSION"
+    }
+  ],
+  "reason": "0.0 mm is static-contact datum only; 0.5 mm is the first nonzero candidate and minimizes overhang before physical rotation testing",
+  "recommended_first_running_candidate_mm": 0.5,
+  "status": "PTO_SPACER_PHYSICAL_SELECTION_PENDING"
+}

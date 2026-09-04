@@ -1,0 +1,318 @@
+{
+  "alternatives": [
+    {
+      "added_part_count": 0,
+      "architecture_id": "A",
+      "belt_frame_clearance_mm": 4.75,
+      "belt_replacement_clearance_mm": 14.75,
+      "candidate_id": "S1-A-PTOX020.0-Z370.0-FX40.0-FY20.0-FZ20.0",
+      "clutch_frame_clearance_mm": 55.0,
+      "electrical_separation_mm": 10.0,
+      "frame_x_offset_mm": 40.0,
+      "frame_y_offset_mm": 20.0,
+      "frame_z_offset_mm": 20.0,
+      "front_cross_x_mm": 180.0,
+      "load_path_score": 5,
+      "max_member_length_mm": 290.0,
+      "pto_axis_x_mm": 80.0,
+      "pto_axis_z_mm": 370.0,
+      "pto_rotation_frame_clearance_mm": 5.0,
+      "rail_abs_y_mm": 88.75,
+      "rail_center_z_mm": 225.0,
+      "rejection_reason": "",
+      "search_stage": 1,
+      "selection": "HIGH_ALTERNATIVE",
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tool_access_mm": 12.0,
+      "total_width_mm": 298.0
+    },
+    {
+      "added_part_count": 4,
+      "architecture_id": "B",
+      "belt_frame_clearance_mm": 4.75,
+      "belt_replacement_clearance_mm": 14.75,
+      "candidate_id": "S3-B-PTOX040.0-Z280.0-FX40.0-FY20.0-FZ20.0",
+      "clutch_frame_clearance_mm": 55.0,
+      "electrical_separation_mm": 100.0,
+      "frame_x_offset_mm": 40.0,
+      "frame_y_offset_mm": 20.0,
+      "frame_z_offset_mm": 20.0,
+      "front_cross_x_mm": 180.0,
+      "load_path_score": 5,
+      "max_member_length_mm": 290.0,
+      "pto_axis_x_mm": 100.0,
+      "pto_axis_z_mm": 280.0,
+      "pto_rotation_frame_clearance_mm": 5.0,
+      "rail_abs_y_mm": 88.75,
+      "rail_center_z_mm": 225.0,
+      "rejection_reason": "",
+      "search_stage": 3,
+      "selection": "LOW_ALTERNATIVE",
+      "status": "CONDITIONAL_PASS_CANDIDATE",
+      "tool_access_mm": 12.0,
+      "total_width_mm": 290.0
+    }
+  ],
+  "belts": {
+    "drive_plane_abs_y_mm": 119.0,
+    "guard_reservation_width_mm": 35.0,
+    "large_pulley_teeth": 60,
+    "nominal_width_mm": 21.0,
+    "physical_width_mm": 15.0,
+    "pitch_mm": 5.0,
+    "pto_plane_abs_y_mm": 58.25,
+    "ratio": 3.0,
+    "safety_width_mm": 31.0,
+    "small_pulley_teeth": 20
+  },
+  "boxes": {
+    "BATTERY_CASSETTE": {
+      "size_xyz_mm": [
+        125.0,
+        180.0,
+        120.0
+      ],
+      "status": "REFERENCE_ENVELOPE"
+    },
+    "BBOX": {
+      "center_xyz_mm": [
+        -225.0,
+        0.0,
+        275.0
+      ],
+      "size_xyz_mm": [
+        150.0,
+        220.0,
+        150.0
+      ]
+    },
+    "CBOX": {
+      "center_xyz_mm": [
+        -75.0,
+        0.0,
+        252.5
+      ],
+      "size_xyz_mm": [
+        130.0,
+        140.0,
+        105.0
+      ]
+    }
+  },
+  "clutch": {
+    "actuator_force_n": "HOLD",
+    "dog_engagement_depth_mm": "HOLD",
+    "dog_tooth_count": "HOLD",
+    "final_dog_material": "METAL_CANDIDATE",
+    "full_stroke_abs_y_range_mm": [
+      58.0,
+      117.0
+    ],
+    "geometry": "PARAMETRIC_CANDIDATE",
+    "manufacturing": "HOLD",
+    "neutral_gap_mm": 9.0,
+    "petg_final_torque": "PROHIBITED",
+    "power_loss_priority": "NEUTRAL",
+    "shaft_spline": "HOLD",
+    "shift_fork_thickness_mm": "HOLD",
+    "slider_centers_abs_y_mm": {
+      "DRIVE": 105.0,
+      "NEUTRAL": 87.5,
+      "PTO": 70.0
+    }
+  },
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090",
+  "electrical": {
+    "bbox_top_z_mm": 350.0,
+    "connector_type": "HOLD",
+    "interface_zone_bottom_z_mm": 440.0,
+    "interface_zone_center_xyz_mm": [
+      180.0,
+      0.0,
+      455.0
+    ],
+    "interface_zone_size_xyz_mm": [
+      50.0,
+      100.0,
+      30.0
+    ],
+    "pin_count": "HOLD",
+    "recommended_architecture": "E2_FRONT_UPPER_ELECTRICAL_BRIDGE",
+    "sensor_actual_envelope": "HOLD",
+    "unit_id_separate_from_present": true,
+    "unit_present_required_for_pto": true,
+    "voltage": "HOLD"
+  },
+  "fixed_contract": {
+    "belt_standard": "HTD_5M_15MM_20T_TO_60T_RATIO_3_TO_1_CANDIDATE",
+    "box_bottom_min_z_mm": 200.0,
+    "box_order": "CBOX_FRONT_BBOX_REAR_SERIAL",
+    "box_structural_role": "PROHIBITED",
+    "crawler": "LEFT_RIGHT_INDEPENDENT_INVERSE_TRAPEZOID",
+    "drive_belt_count": 2,
+    "drive_pto_simultaneous": "MECHANICALLY_PROHIBITED",
+    "kp000_direct_to_2040": "FAIL_PHYSICAL_FIT",
+    "kp000_support": "A5052_5MM_WIDE_PLATE_REQUIRED",
+    "motor_axis_direction": {
+      "left": "-Y",
+      "right": "+Y"
+    },
+    "motor_axis_z_mm": 370.0,
+    "motor_count": 2,
+    "pto_architecture": "LEFT_RIGHT_INDEPENDENT_NO_COMMON_SHAFT",
+    "pto_axis": "LATERAL_Y_FORWARD_OF_MOTOR",
+    "pto_belt_count": 2,
+    "pto_output_direction": {
+      "left": "+Y",
+      "right": "-Y"
+    },
+    "pto_port_count": 2,
+    "pto_while_travelling": "PROHIBITED",
+    "single_frame_member_max_mm": 400.0,
+    "slide_clutch_count": 2,
+    "slide_clutch_states": [
+      "DRIVE",
+      "NEUTRAL",
+      "PTO"
+    ],
+    "switch_while_motor_rotating": "PROHIBITED",
+    "third_pto_motor": "PROHIBITED",
+    "total_belt_count": 4,
+    "total_width_limit_mm": 300.0
+  },
+  "frame": {
+    "design_order": "POWERTRAIN_BELTS_TENSIONER_TOOL_WIRING_THEN_FRAME",
+    "front_cross_x_mm": 180.0,
+    "main_rail_abs_y_mm": 88.75,
+    "main_rail_center_z_mm": 225.0,
+    "main_rail_sections_mm": [
+      290.0,
+      170.0
+    ],
+    "material_cut_release": "HOLD",
+    "root_cross_x_mm": -10.0,
+    "section_2020_mm": [
+      20.0,
+      20.0
+    ],
+    "section_2040_mm": [
+      20.0,
+      40.0
+    ]
+  },
+  "manufacturing_holds": [
+    "CLUTCH_STROKE",
+    "DOG_ENGAGEMENT_DEPTH",
+    "DOG_TOOTH_COUNT",
+    "SHAFT_SPLINE",
+    "SHIFT_FORK_THICKNESS",
+    "ACTUATOR_FORCE",
+    "KP000_HOLE_CENTER_DISTANCE",
+    "SUPPORT_PLATE_HOLES",
+    "PULLEY_BORE_FIT",
+    "BELT_LENGTH_AND_TENSIONER",
+    "CONNECTOR_VOLTAGE_PIN_COUNT_TYPE",
+    "SENSOR_ACTUAL_ENVELOPE",
+    "SHAFT_CUT_LENGTH"
+  ],
+  "parent_designs": [
+    "v0.8",
+    "v0.8.1",
+    "v0.8.2",
+    "v0.8.3",
+    "v0.8.4",
+    "v0.8.5"
+  ],
+  "parent_protection": {
+    "authority": "EMBEDDED_SHA256_LEDGER_LOCK_V008_TO_V0085",
+    "ledger_sha256": {
+      "v0.8": "754eba93b3d6efc0af3fb59b0f792cb093656808fc682f01b7257ebd1a1c3e6c",
+      "v0.8.1": "2375924fc925396dc26f314df5bf2573f2c32eae3b32361788caeadbab67cf58",
+      "v0.8.2": "9bda06588588e6b0ba98861c06428307f61a4ef6651a7ebf4f804c257e0a34c4",
+      "v0.8.3": "5ca0b59e1eed15eab3ea1c5ba540ba695b55f9180e0b8c07c8946e97be0d937b",
+      "v0.8.4": "ca91b5fb76de196c7267dd616e236aeed9d0e278ed829655c910b0978389c1ea",
+      "v0.8.5": "1daaec5b3bc7b923a05383b57b1385042133cdb835308facf756283ba65a8bbc"
+    },
+    "mismatches": [],
+    "protected_path_count": 124
+  },
+  "pto": {
+    "absolute_axis_min_z_mm": 260.0,
+    "inner_kp000_abs_y_mm": 19.0,
+    "motor_axis_z_mm": 370.0,
+    "outer_kp000_abs_y_mm": 97.5,
+    "output_end_abs_y_mm": 145.0,
+    "pulley_plane_abs_y_mm": 58.25,
+    "recommended_rotation_bottom_min_z_mm": 220.0,
+    "rotation_safety_od_mm": 120.0,
+    "rotation_safety_radius_mm": 60.0,
+    "standard_axis_min_z_mm": 280.0,
+    "water_mud_limit_z_mm": 200.0
+  },
+  "recommended": {
+    "added_part_count": 4,
+    "architecture_id": "B",
+    "belt_frame_clearance_mm": 4.75,
+    "belt_replacement_clearance_mm": 14.75,
+    "candidate_id": "S4-B-PTOX040.0-Z320.0-FX40.0-FY20.0-FZ20.0",
+    "clutch_frame_clearance_mm": 55.0,
+    "electrical_separation_mm": 60.0,
+    "frame_x_offset_mm": 40.0,
+    "frame_y_offset_mm": 20.0,
+    "frame_z_offset_mm": 20.0,
+    "front_cross_x_mm": 180.0,
+    "load_path_score": 5,
+    "max_member_length_mm": 290.0,
+    "pto_axis_x_mm": 100.0,
+    "pto_axis_z_mm": 320.0,
+    "pto_rotation_frame_clearance_mm": 5.0,
+    "rail_abs_y_mm": 88.75,
+    "rail_center_z_mm": 225.0,
+    "rejection_reason": "",
+    "search_stage": 4,
+    "selection": "RECOMMENDED",
+    "status": "CONDITIONAL_PASS_CANDIDATE",
+    "tool_access_mm": 12.0,
+    "total_width_mm": 290.0
+  },
+  "release_states": {
+    "belt_corridors": "CONDITIONAL_PASS_CANDIDATE",
+    "drilling": "HOLD",
+    "field_deployment": "NOT_APPROVED",
+    "frame_layout": "CONDITIONAL_PASS_CANDIDATE",
+    "functional_powertrain_contract": "FIXED",
+    "manufacturing": "HOLD",
+    "physical_fit": "HOLD",
+    "pto_height": "CONDITIONAL_PASS_CANDIDATE",
+    "shaft_cutting": "HOLD",
+    "support_plate_machining": "HOLD",
+    "unit_electrical_interface": "CONDITIONAL_PASS_CANDIDATE"
+  },
+  "search": {
+    "architecture_candidate_count": 2,
+    "design_order": "POWERTRAIN_BELTS_TENSIONER_TOOL_WIRING_THEN_FRAME",
+    "frame_candidate_count": 1875,
+    "height_candidate_count": 12,
+    "high_candidate_id": "S1-A-PTOX020.0-Z370.0-FX40.0-FY20.0-FZ20.0",
+    "low_candidate_id": "S3-B-PTOX040.0-Z280.0-FX40.0-FY20.0-FZ20.0",
+    "recommended_candidate_id": "S4-B-PTOX040.0-Z320.0-FX40.0-FY20.0-FZ20.0",
+    "stage_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "selected_electrical_architecture": "E2",
+  "selected_pto_height_mm": 320.0,
+  "selected_sensor_concept": "S2",
+  "status": "NOT_FOR_MANUFACTURING",
+  "superseded_contract": {
+    "new": "PTO_AXIS_CAN_BE_LOWER_THAN_MOTOR_AXIS_IF_ROTATION_BOTTOM_Z_GTE_200_AND_BELT_FRAME_CONTRACTS_PASS",
+    "old": "Z_PTO_AXIS >= Z_MOTOR_AXIS",
+    "status": "SUPERSEDED_BY_V090_CONDITIONAL_LOWER_PTO"
+  }
+}

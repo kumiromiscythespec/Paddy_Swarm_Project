@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Belt-first frame layout</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · Frame is placed after four safety corridors</text>
+<rect x="45" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Frame only</text>
+<rect x="125" y="250" width="550" height="25" fill="#b9c0c8"/>
+<rect x="145" y="350" width="520" height="25" fill="#b9c0c8"/>
+<line x1="165" y1="350" x2="545" y2="250" stroke="#9aa3ad" stroke-width="18"/>
+<rect x="505" y="195" width="95" height="140" fill="none" stroke="#d3a400" stroke-width="8"/>
+<path d="M 175 220 L 620 320" stroke="#d62728" stroke-width="24" opacity=".25"/>
+<rect x="815" y="130" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="162" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Frame + four belt envelopes</text>
+<rect x="895" y="250" width="550" height="25" fill="#b9c0c8"/>
+<rect x="915" y="350" width="520" height="25" fill="#b9c0c8"/>
+<line x1="935" y1="350" x2="1315" y2="250" stroke="#9aa3ad" stroke-width="18"/>
+<rect x="1275" y="195" width="95" height="140" fill="none" stroke="#d3a400" stroke-width="8"/>
+<path d="M 945 220 L 1390 320" stroke="#d62728" stroke-width="24" opacity=".25"/>
+<rect x="45" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="63" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">KP000 metal support plates</text>
+<rect x="125" y="640" width="550" height="25" fill="#b9c0c8"/>
+<rect x="145" y="740" width="520" height="25" fill="#b9c0c8"/>
+<line x1="165" y1="740" x2="545" y2="640" stroke="#9aa3ad" stroke-width="18"/>
+<rect x="505" y="585" width="95" height="140" fill="none" stroke="#d3a400" stroke-width="8"/>
+<path d="M 175 610 L 620 710" stroke="#d62728" stroke-width="24" opacity=".25"/>
+<rect x="815" y="520" width="730" height="350" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="833" y="552" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Work-unit removal and service access</text>
+<rect x="895" y="640" width="550" height="25" fill="#b9c0c8"/>
+<rect x="915" y="740" width="520" height="25" fill="#b9c0c8"/>
+<line x1="935" y1="740" x2="1315" y2="640" stroke="#9aa3ad" stroke-width="18"/>
+<rect x="1275" y="585" width="95" height="140" fill="none" stroke="#d3a400" stroke-width="8"/>
+<path d="M 945 610 L 1390 710" stroke="#d62728" stroke-width="24" opacity=".25"/>
+<text x="55" y="955" font-family="Arial" font-size="17">Rail Y ±88.75; belt-frame candidate clearance 4.75 mm; max member 290 mm.</text>
+</svg>

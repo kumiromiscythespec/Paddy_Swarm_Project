@@ -1,0 +1,22 @@
+{
+  "schema": "BBOX_INSTALLED_TRANSFORM_FRONT_INTERFACE_AUDIT_MANIFEST_V001",
+  "classification": "DOCUMENTATION_REFERENCE_REGISTRATION_ONLY_NO_RELEASE_CAD",
+  "files": [
+    "README.md",
+    "BBOX_INSTALLED_TRANSFORM_AUDIT.md",
+    "V002_V003_LOCAL_COORDINATE_AUDIT.md",
+    "PHYSICAL_Z_SOURCE_TRACE.md",
+    "BBOX_XY_SOURCE_AUDIT.md",
+    "FRONT_INTERFACE_PHYSICAL_STATUS_AUDIT.md",
+    "COLLISION_CLASSIFICATION_AUDIT.md",
+    "BBOX_PHYSICAL_REGISTRATION_MEASUREMENT_PLAN.md",
+    "transform_candidates.json",
+    "validation_report.json",
+    "manifest.json",
+    "SHA256SUMS.txt"
+  ],
+  "exact_path_count": 12,
+  "manufacturing_stl_count": 0,
+  "release_cad_count": 0,
+  "outcome": "TRANSFORM_PARTIAL_PHYSICAL_MEASUREMENT_REQUIRED"
+}

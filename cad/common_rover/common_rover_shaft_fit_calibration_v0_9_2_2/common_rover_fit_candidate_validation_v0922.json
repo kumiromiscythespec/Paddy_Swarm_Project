@@ -1,0 +1,565 @@
+{
+  "D_REF_CAD_resolved": true,
+  "actual_cad_interference": {
+    "actual_shape_checks": [
+      {
+        "candidate_id": "P0",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      },
+      {
+        "candidate_id": "P1",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      },
+      {
+        "candidate_id": "P2",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      },
+      {
+        "candidate_id": "P3",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      },
+      {
+        "candidate_id": "P4",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      },
+      {
+        "candidate_id": "P5",
+        "fastener_to_shaft_intersection_mm3": 0.0,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "hard_stop": "CONTACT_ZERO_VOLUME",
+        "shaft_axis_z_mm": 10.0,
+        "split_plane_z_mm": 10.0,
+        "tool_to_shaft_intersection_mm3": 0.0,
+        "top_bottom_overlap_volume_mm3": 0.0
+      }
+    ],
+    "all_fastener_shaft_zero": true,
+    "all_sleeve_shaft_zero": true,
+    "all_tool_shaft_zero": true,
+    "all_top_bottom_no_volume_overlap": true,
+    "sliding_actual_shape_checks": [
+      {
+        "candidate_id": "S0",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.1,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S1",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.2,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S2",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.3,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S3",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.4,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S4",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.5,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S5",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.6,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      },
+      {
+        "candidate_id": "S6",
+        "entry_exit_chamfer_mm": 0.4,
+        "fit_relation": "INTENTIONAL_DIAMETRAL_RELATION_NOT_GENERIC_SOLID_COLLISION",
+        "functional_center_bore_unchanged": true,
+        "identification_holes_outside_functional_bore": true,
+        "nominal_diametral_clearance_mm": 0.7,
+        "sleeve_to_10mm_shaft_intersection_mm3": 0.0
+      }
+    ]
+  },
+  "all_ids_unique": true,
+  "authority_pointer": "UNCHANGED_V0_9_2_1",
+  "bore_validation_method": "SOURCE_PARAMETER_PLUS_ANALYTIC_CROSS_SECTION_NOT_BOUNDING_BOX",
+  "embossed_or_floating_text": false,
+  "exchange_artifact_checks": {
+    "step": [
+      {
+        "expected_solid_count": 10,
+        "path": "artifacts/plates/PS-CR-V0922-MINIMUM-FIRST-PASS-PLATE.step",
+        "solid_count": 10,
+        "status": "PASS"
+      },
+      {
+        "expected_solid_count": 12,
+        "path": "artifacts/PS-CR-V0922-POSITIONING-ASSEMBLY.step",
+        "solid_count": 12,
+        "status": "PASS"
+      },
+      {
+        "expected_solid_count": 7,
+        "path": "artifacts/PS-CR-V0922-SLIDING-ASSEMBLY.step",
+        "solid_count": 7,
+        "status": "PASS"
+      }
+    ],
+    "stl": [
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P0-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P0-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P1-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P1-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P2-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P2-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P3-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P3-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P4-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P4-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P5-BOTTOM.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/positioning/PS-CR-V0922-P5-TOP.stl",
+        "size_xyz_mm": [
+          50.0,
+          20.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S0.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S1.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S2.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S3.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S4.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S5.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 1,
+        "expected_component_count": 1,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/sliding/PS-CR-V0922-S6.stl",
+        "size_xyz_mm": [
+          32.0,
+          24.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 12,
+        "expected_component_count": 12,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/plates/PS-CR-V0922-POSITIONING-PLATE.stl",
+        "size_xyz_mm": [
+          236.0,
+          116.0,
+          10.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 7,
+        "expected_component_count": 7,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/plates/PS-CR-V0922-SLIDING-PLATE.stl",
+        "size_xyz_mm": [
+          176.0,
+          84.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      },
+      {
+        "component_count": 10,
+        "expected_component_count": 10,
+        "fits_A1": true,
+        "minimum_z_mm": 0.0,
+        "path": "artifacts/plates/PS-CR-V0922-MINIMUM-FIRST-PASS-PLATE.stl",
+        "size_xyz_mm": [
+          176.5,
+          105.0,
+          20.0
+        ],
+        "watertight": true,
+        "winding_consistent": true
+      }
+    ]
+  },
+  "hard_stop_surfaces_exist": true,
+  "horizontal_bore_roof_overhang": false,
+  "identification": "GEOMETRIC_HOLES_ONLY",
+  "no_accidental_common_shaft": true,
+  "no_common_PTO_geometry": true,
+  "overall": "PASS_READY_FOR_PRINT_PHYSICAL_TEST_REQUIRED",
+  "parent_protection": {
+    "actual_file_count": 55,
+    "actual_tree_ledger_sha256": "d7cb3a99f02b87b9fea4623a60c5b758f1a8796a9514708edc84050321be58c1",
+    "actual_zip_sha256": "4a7b51354725f8ef74d5f83cb20b3728d09b59710fee9a67b76bca3179ab4e6e",
+    "authority_pointer": "common_rover_inward_pto_coupling_cad_verified_v0_9_2_1",
+    "expected_file_count": 55,
+    "expected_tree_ledger_sha256": "d7cb3a99f02b87b9fea4623a60c5b758f1a8796a9514708edc84050321be58c1",
+    "expected_zip_sha256": "4a7b51354725f8ef74d5f83cb20b3728d09b59710fee9a67b76bca3179ab4e6e",
+    "parent_relative_path": "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1",
+    "status": "PASS"
+  },
+  "physical_test_status": "PHYSICAL_TEST_NOT_PERFORMED",
+  "plate_A_component_count": 12,
+  "plate_A_minimum_xy_bbox_gap_mm": 12.0,
+  "plate_B_component_count": 7,
+  "plate_B_minimum_xy_bbox_gap_mm": 16.0,
+  "plate_C_candidate_ids": [
+    "P1",
+    "P2",
+    "P3",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "plate_C_component_count": 10,
+  "plate_C_minimum_xy_bbox_gap_mm": 12.0,
+  "positioning_candidate_count": 6,
+  "positioning_offsets_mm": [
+    -0.2,
+    -0.1,
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "reference_60T_source": {
+    "D_REF_ACTUAL_mm": 10.1,
+    "D_REF_CAD_mm": 10.1,
+    "bore_axis": "Z",
+    "bore_chamfer": "NONE_IN_SOURCE_CAD",
+    "component_id": "PS-HTD5M-PULLEY-60T-STD-DUMMY-V001",
+    "elephant_foot_relief": "NONE_IN_SOURCE_CAD",
+    "global_xy_scale": false,
+    "live_source_check": "PASS",
+    "mesh_angular_tolerance": 0.1,
+    "mesh_tolerance_mm": 0.01,
+    "pitch_scale": false,
+    "print_bed_face": "LOWER_FLANGE",
+    "scale_transform": "NONE",
+    "source_hashes": {
+      "artifacts/PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256",
+      "artifacts/PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.stl": "2577b0cd8575a961e527c47e304036a4072245ef051f91c5eccf3e1adbac42f7",
+      "full_pulley_common.py": "cc4e894275c32d2e37c101367ec9bda7f124e9cf374ca53c011afda11f4a78de",
+      "htd5m_full_pulley_dummy_geometry_report.json": "80470c1b9d72d9d6ac35d2c8d15d15722b268d143004048915273de32f1d0a7c",
+      "pulley_60t_standard_dummy.py": "0a9d8e905df54b2594c420374eabc7678a6d95da231cb1f83bce15b64c864ec3"
+    },
+    "source_root": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1",
+    "status": "RESOLVED",
+    "support": "NOT_REQUIRED"
+  },
+  "schema": "PS-CR-SHAFT-FIT-CALIBRATION-VALIDATION-V0922",
+  "sleeve_bore_axis_vertical": true,
+  "sliding_candidate_count": 7,
+  "sliding_offsets_mm": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "split_faces_print_flat": true,
+  "split_plane_passes_shaft_center": true,
+  "statuses": {
+    "AUTHORITY_POINTER": "UNCHANGED_V0_9_2_1",
+    "FIELD_DEPLOYMENT": "NOT_APPROVED",
+    "FIT_CALIBRATION_COUPONS": "READY_FOR_PRINT",
+    "LOAD_CAPACITY": "HOLD",
+    "MACHINING": "HOLD",
+    "MANUFACTURING": "HOLD",
+    "PHYSICAL_FIT": "HOLD",
+    "POSITIONING_FIT_SELECTION": "PHYSICAL_TEST_REQUIRED",
+    "POWERED_TEST": "NOT_APPROVED",
+    "SLIDING_FIT_SELECTION": "PHYSICAL_TEST_REQUIRED"
+  }
+}

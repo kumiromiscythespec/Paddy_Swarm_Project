@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#f8fafc"/><style>text{font-family:Arial,sans-serif;fill:#18334a;font-size:18px}.dim{stroke:#136f93;stroke-width:2;fill:none}.hold{fill:#9c4316}</style><text x="30" y="42" style="font-size:26px">P20 — printable placement gauge</text><text x="30" y="78">Top view; text is absent from the two working end faces.</text><svg x="40" y="120"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="530.0"
+   height="450.0"
+
+>
+    <g transform="scale(18.75, -18.75)   translate(1.6,-10.333333333333334)" stroke-width="0.040000000400000006"  fill="none">
+       <!-- hidden lines -->
+       <g  stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.040000000400000006,0.040000000400000006" >
+
+       </g>
+
+       <!-- solid lines -->
+       <g  stroke="rgb(0,0,0)" fill="none">
+			<path d="M0.0,-9.0 L0.0,9.0 " />
+			<path d="M0.0,-9.0 L20.0,-9.0 " />
+			<path d="M0.0,9.0 L20.0,9.0 " />
+			<path d="M20.0,-9.0 L20.0,9.0 " />
+			<path d="M7.949999999999999,3.3000000000000003 L4.55,3.3000000000000003 " />
+			<path d="M7.949999999999999,0.5 L7.949999999999999,3.3 " />
+			<path d="M4.55,3.3000000000000003 L4.55,4.300000000000001 " />
+			<path d="M7.949999999999999,0.5 L4.55,0.5 " />
+			<path d="M8.950000000000001,4.300000000000001 L4.55,4.300000000000001 " />
+			<path d="M4.55,-4.3 L4.55,0.5 " />
+			<path d="M8.95,-0.49999999999999956 L8.95,4.300000000000001 " />
+			<path d="M8.950000000000001,-4.3 L4.55,-4.3 " />
+			<path d="M8.950000000000001,-0.5 L5.55,-0.5 " />
+			<path d="M8.95,-4.3 L8.95,-3.3 " />
+			<path d="M5.55,-3.3 L5.55,-0.5 " />
+			<path d="M8.950000000000001,-3.3 L5.55,-3.3 " />
+			<path d="M15.450000000000001,-4.3 L11.05,-4.3 " />
+			<path d="M15.45,-4.299999999999999 L15.45,4.300000000000001 " />
+			<path d="M15.450000000000001,4.300000000000001 L11.05,4.300000000000001 " />
+			<path d="M11.05,-4.299999999999999 L11.05,4.300000000000001 " />
+			<path d="M12.05,-3.3 L12.05,3.299999999999999 " />
+			<path d="M14.45,3.3000000000000003 L12.05,3.3000000000000003 " />
+			<path d="M14.45,-3.3 L14.45,3.3 " />
+			<path d="M14.45,-3.3 L12.05,-3.3 " />
+
+       </g>
+    </g>
+    
+</svg>
+<text x="650" y="175">X=0 to X=20: exact working length</text><text x="650" y="225">Two end faces: 18 x 8 mm each</text><text x="650" y="275">Top engraving 20: 0.6 mm deep</text><text x="650" y="325">Measure end patches at Z2..6 mm</text><text x="650" y="390" class="hold">NO mounting holes / NO shaft bore</text><text x="650" y="430" class="hold">NOT a permanent bearing spacer</text><text x="30" y="645">PETG; flat bottom Z0; support OFF. Check first-layer expansion away from measurement patches.</text><text x="30" y="676">Identify physical face B and offset direction before using the gauge against member-end datum A.</text><text x="30" y="707">Secure the assembly independently and REMOVE ALL GAUGES before hand rotation.</text><text x="30" y="781" style="font-size:14px">PTO OFFSET TEST V001 | NON-LOAD-BEARING GAUGES | PHYSICAL CLEARANCE TEST PENDING</text></svg>

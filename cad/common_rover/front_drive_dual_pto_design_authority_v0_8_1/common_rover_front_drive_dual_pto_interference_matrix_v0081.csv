@@ -1,0 +1,22 @@
+check_id,classification,physical_status,intersection_count,intersection_volume_mm3,minimum_distance_mm,required_minimum_clearance_mm,note
+LEFT_DRIVE_BELT_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,15.5,13.0,v0.8 DRIVE plane retained; residual allowance is checked separately.
+LEFT_PTO_BELT_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,15.0,13.0,5 mm plate and shifted outer support create the selected corridor.
+LEFT_DRIVE_BELT_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,19.5,5.0,Representative candidate fastener envelopes only.
+LEFT_PTO_BELT_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,20.0,13.0,Inner and outer bearing hardware faces away from the belt.
+LEFT_CLUTCH_FULL_STROKE_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,97.5,0.0,Placeholder full stroke; actual stroke remains unmeasured.
+LEFT_CLUTCH_FULL_STROKE_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,95.0,0.0,Placeholder full stroke; actual hardware remains unmeasured.
+LEFT_PTO_60T_VS_KP000,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,13.0,10.0,120 mm radial envelope with 25 mm axial candidate width.
+LEFT_PTO_BELT_VS_WIRING_RESERVED,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,21.5,15.0,Candidate wiring space only; route and loom diameter are HOLD.
+RIGHT_DRIVE_BELT_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,15.5,13.0,v0.8 DRIVE plane retained; residual allowance is checked separately.
+RIGHT_PTO_BELT_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,15.0,13.0,5 mm plate and shifted outer support create the selected corridor.
+RIGHT_DRIVE_BELT_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,19.5,5.0,Representative candidate fastener envelopes only.
+RIGHT_PTO_BELT_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,20.0,13.0,Inner and outer bearing hardware faces away from the belt.
+RIGHT_CLUTCH_FULL_STROKE_VS_FRAME,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,97.5,0.0,Placeholder full stroke; actual stroke remains unmeasured.
+RIGHT_CLUTCH_FULL_STROKE_VS_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,95.0,0.0,Placeholder full stroke; actual hardware remains unmeasured.
+RIGHT_PTO_60T_VS_KP000,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,13.0,10.0,120 mm radial envelope with 25 mm axial candidate width.
+RIGHT_PTO_BELT_VS_WIRING_RESERVED,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,21.5,15.0,Candidate wiring space only; route and loom diameter are HOLD.
+LEFT_INNER_FASTENERS_VS_RIGHT_INNER_FASTENERS,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,7.0,0.0,Reversed fasteners retain a central separation.
+TOOL_ACCESS_LEFT_VS_OPPOSITE_SUPPORT,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,1.5,0.0,Parameterized tool box; actual tool envelope is HOLD.
+TOOL_ACCESS_RIGHT_VS_OPPOSITE_SUPPORT,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,1.5,0.0,Parameterized tool box; actual tool envelope is HOLD.
+TRACK_LEFT_DYNAMIC_VS_UPPER_STRUCTURE,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,10.0,10.0,v0.8 Z200 box bottom and 10 mm non-regression are retained.
+TRACK_RIGHT_DYNAMIC_VS_UPPER_STRUCTURE,CONDITIONAL_PASS,HOLD / PART_MEASUREMENT_REQUIRED,0,0.0,10.0,10.0,v0.8 Z200 box bottom and 10 mm non-regression are retained.

@@ -1,0 +1,35 @@
+{
+  "architecture": "B",
+  "authority": "PROTECTED_PARENT_NOT_MODIFIED",
+  "baseline_reproduction": "PASS",
+  "clutch_full_stroke_to_belt_mm": 9.0,
+  "document_id": "PS-CR-PWR-FRAME-BELT-V090",
+  "drive_belt_planes_y_mm": [
+    -119.0,
+    119.0
+  ],
+  "drive_belt_to_frame_mm": 4.75,
+  "drive_belt_to_support_mm": 3.5,
+  "electrical_interface": {
+    "bottom_z_mm": 440.0,
+    "candidate_id": "E2",
+    "center_x_mm": 180.0,
+    "center_z_mm": 455.0
+  },
+  "motor_axis_z_mm": 370.0,
+  "pto_axis_x_mm": 100.0,
+  "pto_axis_z_mm": 320.0,
+  "pto_belt_planes_y_mm": [
+    -58.25,
+    58.25
+  ],
+  "pto_belt_to_frame_mm": 5.0,
+  "pto_output_direction": {
+    "left": "+Y",
+    "right": "-Y"
+  },
+  "pto_rotation_envelope_bottom_z_mm": 260.0,
+  "recommended_candidate_id": "S4-B-PTOX040.0-Z320.0-FX40.0-FY20.0-FZ20.0",
+  "total_width_mm": 290.0,
+  "water_mud_margin_mm": 60.0
+}

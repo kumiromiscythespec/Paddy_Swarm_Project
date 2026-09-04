@@ -1,0 +1,9 @@
+NO_LOAD_GEOMETRY_DUMMY
+NOT_FOR_TORQUE
+NOT_FOR_POWERED_ROTATION
+NOT_FOR_MANUFACTURING
+HAND_FIT_ONLY
+
+This dummy visualizes candidate shaft and warning geometry only.
+It is not a coupling, guard, torque-transmission part, or manufacturing file.
+Motor power must remain isolated.

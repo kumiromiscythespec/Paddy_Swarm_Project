@@ -1,0 +1,265 @@
+{
+  "candidate_id": "S12-C1-SMALL-STUB12.5-SHIFT00-GAP36-RES2-S1-E1",
+  "check_count": 63,
+  "checks": [
+    {
+      "name": "parent_v091_reproduced",
+      "passed": true
+    },
+    {
+      "name": "motor_count_two",
+      "passed": true
+    },
+    {
+      "name": "pto_ports_two",
+      "passed": true
+    },
+    {
+      "name": "independent_pto",
+      "passed": true
+    },
+    {
+      "name": "no_common_pto_shaft",
+      "passed": true
+    },
+    {
+      "name": "no_third_motor",
+      "passed": true
+    },
+    {
+      "name": "slide_clutches_two",
+      "passed": true
+    },
+    {
+      "name": "drive_pto_simultaneous_prohibited",
+      "passed": true
+    },
+    {
+      "name": "pto_while_travelling_prohibited",
+      "passed": true
+    },
+    {
+      "name": "switch_at_zero_speed",
+      "passed": true
+    },
+    {
+      "name": "belts_four",
+      "passed": true
+    },
+    {
+      "name": "stub_candidates_nine",
+      "passed": true
+    },
+    {
+      "name": "shift_candidates_seven",
+      "passed": true
+    },
+    {
+      "name": "coupling_classes_four",
+      "passed": true
+    },
+    {
+      "name": "architectures_six",
+      "passed": true
+    },
+    {
+      "name": "shaft_ends_seven",
+      "passed": true
+    },
+    {
+      "name": "v091_stub_fails",
+      "passed": true
+    },
+    {
+      "name": "recommended_stub_12_5",
+      "passed": true
+    },
+    {
+      "name": "recommended_no_stack_shift",
+      "passed": true
+    },
+    {
+      "name": "shaft_ends_mirrored",
+      "passed": true
+    },
+    {
+      "name": "center_gap_36",
+      "passed": true
+    },
+    {
+      "name": "small_od_20",
+      "passed": true
+    },
+    {
+      "name": "small_body_25",
+      "passed": true
+    },
+    {
+      "name": "required_engagement_8",
+      "passed": true
+    },
+    {
+      "name": "stroke_10",
+      "passed": true
+    },
+    {
+      "name": "engagement_margin_2_5",
+      "passed": true
+    },
+    {
+      "name": "body_mutual_clearance_11",
+      "passed": true
+    },
+    {
+      "name": "sweep_mutual_clearance_12",
+      "passed": true
+    },
+    {
+      "name": "center_fixed_clearance_10",
+      "passed": true
+    },
+    {
+      "name": "wiring_clearance_25",
+      "passed": true
+    },
+    {
+      "name": "installation_path_clearance_5",
+      "passed": true
+    },
+    {
+      "name": "total_width_under_300",
+      "passed": true
+    },
+    {
+      "name": "width_non_regression_290",
+      "passed": true
+    },
+    {
+      "name": "belt_non_regression",
+      "passed": true
+    },
+    {
+      "name": "pto_rotation_non_regression",
+      "passed": true
+    },
+    {
+      "name": "clutch_non_regression",
+      "passed": true
+    },
+    {
+      "name": "clutch_belt_non_regression",
+      "passed": true
+    },
+    {
+      "name": "pto_bottom_260",
+      "passed": true
+    },
+    {
+      "name": "box_bottom_contract",
+      "passed": true
+    },
+    {
+      "name": "e2_high_position",
+      "passed": true
+    },
+    {
+      "name": "all_intersections_zero",
+      "passed": true
+    },
+    {
+      "name": "all_clearance_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "left_right_power_independent",
+      "passed": true
+    },
+    {
+      "name": "no_direct_left_right_edge",
+      "passed": true
+    },
+    {
+      "name": "unit_present_separate",
+      "passed": true
+    },
+    {
+      "name": "unit_id_separate",
+      "passed": true
+    },
+    {
+      "name": "left_feedback_separate",
+      "passed": true
+    },
+    {
+      "name": "right_feedback_separate",
+      "passed": true
+    },
+    {
+      "name": "state_count_ten",
+      "passed": true
+    },
+    {
+      "name": "required_mask_four_modes",
+      "passed": true
+    },
+    {
+      "name": "part_selection_critical",
+      "passed": true
+    },
+    {
+      "name": "center_bay_mechanical_only",
+      "passed": true
+    },
+    {
+      "name": "pto_60t_between_bearings",
+      "passed": true
+    },
+    {
+      "name": "not_for_manufacturing",
+      "passed": true
+    },
+    {
+      "name": "shaft_cutting_hold",
+      "passed": true
+    },
+    {
+      "name": "machining_hold",
+      "passed": true
+    },
+    {
+      "name": "load_test_hold",
+      "passed": true
+    },
+    {
+      "name": "powered_rotation_hold",
+      "passed": true
+    },
+    {
+      "name": "water_mud_hold",
+      "passed": true
+    },
+    {
+      "name": "field_not_approved",
+      "passed": true
+    },
+    {
+      "name": "candidate_table_populated",
+      "passed": true
+    },
+    {
+      "name": "recommended_in_candidate_table",
+      "passed": true
+    },
+    {
+      "name": "three_finalists",
+      "passed": true
+    }
+  ],
+  "document_id": "PS-CR-INWARD-PTO-COUPLING-V092",
+  "failed_checks": [],
+  "failed_count": 0,
+  "overall_design_status": "CONDITIONAL_PASS_CANDIDATE",
+  "passed_count": 63,
+  "physical_status": "HOLD",
+  "status": "PASS"
+}

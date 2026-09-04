@@ -1,0 +1,47 @@
+{
+  "schema": "GOLDENMATE_BATTERY_FIT_BBOX_SOURCE_TRACEABILITY_V001",
+  "new_direct_source": {
+    "path": "C:/Users/yu_ki/.codex/attachments/17f4f09f-8ce8-4437-9ffb-700bf87da4ea/pasted-text.txt",
+    "sha256": "c2f27445a4fcb5ee8eed0291b50d48845f6170db16416e56864d15d77c1b765d",
+    "classification": "USER_PHYSICAL_MEASUREMENT"
+  },
+  "legacy_electrical_authority_occurrences": [
+    {
+      "path": "electrical_hardware_authority.json",
+      "representation": "overall_body_dimensions_mm = [150.9,99.4,92.5]; cad_use SAFE_TO_USE_FOR_CAD_PHYSICAL",
+      "classification": "UNORDERED_ROLE_WARNING_PRESENT_BUT_BODY_LABEL_AMBIGUOUS"
+    },
+    {
+      "path": "ELECTRICAL_HARDWARE_PHYSICAL_AUTHORITY.md",
+      "representation": "GoldenMate battery body = 150.9 x 99.4 x 92.5 mm",
+      "classification": "BODY_DIMENSION_SET_AXIS_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "path": "electronics_inventory.csv",
+      "representation": "physical_dimensions = 150.9 x 99.4 x 92.5 mm",
+      "classification": "BODY_DIMENSION_SET_AXIS_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "path": "tests/test_electrical_hardware_physical_authority_v001.py",
+      "representation": "BAT-BODY-001 exact list [150.9,99.4,92.5] enforced",
+      "classification": "LEGACY_SEMANTIC_CONTRACT"
+    }
+  ],
+  "downstream_axis_use": [
+    {
+      "path": "cad/common_rover/bbox/bbox_field_box_goldenmate_v001/BBOX_FIELD_BODY_CONFLICT_REPORT.md",
+      "use": "99.4 mm used as plan Y/X dimension",
+      "status": "SUPERSEDED_AXIS_INTERPRETATION"
+    },
+    {
+      "path": "cad/common_rover/bbox/bbox_tall_field_body_goldenmate_v002/BBOX_TALL_FIELD_BODY_CONFLICT_REPORT.md",
+      "use": "terminal height calculations valid; inherited plan packaging statements require reevaluation",
+      "status": "PARTIAL_REEVALUATION_REQUIRED"
+    }
+  ],
+  "authority_separation": {
+    "waterproof_v002": "WATERPROOF_GEOMETRY_AND_PHYSICAL_WATER_TEST_AUTHORITY",
+    "v003": "LID_CHIMNEY_AUTHORITY_PHYSICAL_FIT_TO_TEMP_SPECIMEN_PENDING",
+    "temporary_bbox": "PHYSICAL_PACKAGING_AUTHORITY_ONLY"
+  }
+}

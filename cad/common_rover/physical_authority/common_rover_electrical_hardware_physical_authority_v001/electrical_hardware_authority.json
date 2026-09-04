@@ -1,0 +1,395 @@
+{
+  "authority_id": "COMMON_ROVER_ELECTRICAL_HARDWARE_PHYSICAL_AUTHORITY_V001",
+  "schema_version": "1.0",
+  "record_date": "2026-09-01",
+  "status": [
+    "DOCUMENTATION_COMPLETE",
+    "ELECTRICAL_HARDWARE_AUTHORITY_RECORDED",
+    "PHYSICAL_GAPS_REMAIN"
+  ],
+  "scope": "Documentation-only recovery and classification of Common Rover BBOX/CBOX electrical hardware data. No CAD authority is created by this lane.",
+  "repository_context": {
+    "repository": "D:/Paddy_Swarm_Project",
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "preexisting_tracked_dirty_paths": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ],
+    "preexisting_untracked_file_count": 4133,
+    "preexisting_untracked_content_digest_sha256": "22d0f97b11ab4df86e0f60b61d2c169709233fe08b0d0ce89ce6636a75b02a3f",
+    "documentation_only": true,
+    "cad_generated": false
+  },
+  "source_class_definitions": {
+    "PHYSICAL_DIRECT": "Value measured directly from the physical article by the user.",
+    "PHYSICAL_FIT_RESULT": "Result of fitting or passing a physical article through a physical assembly.",
+    "DATASHEET_AUTHORITY": "Manufacturer manual or drawing value; not a physical measurement.",
+    "PURCHASE_RECORD": "Purchased product identity, quantity, length, or labelled specification.",
+    "DESIGN_SERVICE_REQUIREMENT": "Current operational or service requirement; not a direct measurement.",
+    "UNVERIFIED_HISTORICAL": "Value present in historical repository material without adequate primary-source confirmation.",
+    "MEASUREMENT_PENDING": "Required physical measurement has not been recorded.",
+    "UNKNOWN_REQUIRES_SOURCE_CONFIRMATION": "Repository evidence is insufficient to identify or authorize the value."
+  },
+  "trace_records": [
+    {
+      "record_id": "BAT-PRODUCT-001",
+      "item_id": "BAT-001",
+      "attribute": "product_label",
+      "value": "GOLDENMATE LiFePO4 12.8 V 10 Ah 128 Wh",
+      "unit": "label",
+      "source_class": "PURCHASE_RECORD",
+      "source_location": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BATTERY_REFERENCE.md",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Product/label identity is not a direct dimensional measurement.",
+      "cad_use": "IDENTIFICATION_ONLY"
+    },
+    {
+      "record_id": "BAT-BODY-001",
+      "item_id": "BAT-001",
+      "attribute": "overall_body_dimensions_mm",
+      "value": [150.9, 99.4, 92.5],
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/MEASUREMENT_LEDGER.md BAT-DIM-1..3",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Dimension order is preserved from the physical record; do not silently remap axes.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-MASS-001",
+      "item_id": "BAT-001",
+      "attribute": "mass",
+      "value": 1.2,
+      "unit": "kg",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BATTERY_REFERENCE.md",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Measured/user-reported physical mass.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-TAB-W-001",
+      "item_id": "BAT-001",
+      "attribute": "male_terminal_tab_width",
+      "value": 6.3,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/terminal_physical_record.json BAT-TAB-WIDTH",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Does not by itself authorize a connector model.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-TAB-T-001",
+      "item_id": "BAT-001",
+      "attribute": "male_terminal_tab_thickness",
+      "value": 0.7,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/terminal_physical_record.json BAT-TAB-THICK",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Direct physical dimension.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-RECEPTACLE-W-001",
+      "item_id": "BAT-001",
+      "attribute": "female_receptacle_outer_width",
+      "value": 10.6,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/terminal_physical_record.json FEMALE-OUTER-W",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Physical mating and insulation envelope remain separate checks.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-TERM-Z-001",
+      "item_id": "BAT-001",
+      "attribute": "battery_bottom_to_terminal_top",
+      "value": 99.4,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/terminal_physical_record.json BAT-BOTTOM-TERM-TOP",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Common-datum body height is 92.5 mm; derived terminal protrusion is 6.9 mm.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "BAT-PASSAGE-001",
+      "item_id": "BAT-001",
+      "attribute": "terminal_included_frame_passage",
+      "value": 108.0,
+      "unit": "mm",
+      "source_class": "PHYSICAL_FIT_RESULT",
+      "source_location": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/FRAME_PHYSICAL_REFERENCE_RECORD.md",
+      "source_date_if_known": "2026-08-09..2026-08-10",
+      "confidence": "HIGH",
+      "notes": "Physical passage result. Historical 90.7 mm is a different datum and is not an insertion-clearance replacement.",
+      "cad_use": "FIT_RESULT_ONLY"
+    },
+    {
+      "record_id": "ESP32-BODY-001",
+      "item_id": "MCU-001",
+      "attribute": "pcb_module_envelope",
+      "value": [56.8, 28.2, 12.9],
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/ESP32_PHYSICAL_INTEGRATION.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Freenove ESP32 WROOM v1.3 bare module envelope.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "ESP32-HOLES-001",
+      "item_id": "MCU-001",
+      "attribute": "mounting_holes",
+      "value": "NONE_OBSERVED",
+      "unit": "status",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/design_parameters.json",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "No PCB drilling or adhesive mounting is authorized.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "ESP32-HEADERS-001",
+      "item_id": "MCU-001",
+      "attribute": "long_side_header_pins",
+      "value": "PRESENT",
+      "unit": "status",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "User physical authority supplied for this 2026-09-01 documentation task",
+      "source_date_if_known": "2026-09-01",
+      "confidence": "HIGH",
+      "notes": "Connector and USB service envelopes are not included in the body dimensions.",
+      "cad_use": "FEATURE_PRESENCE_ONLY"
+    },
+    {
+      "record_id": "MD10C-PLAN-001",
+      "item_id": "DRIVER-001",
+      "attribute": "board_plan_envelope",
+      "value": [75.0, 43.0],
+      "unit": "mm",
+      "source_class": "DATASHEET_AUTHORITY",
+      "source_location": "Cytron MD10C manual as recorded by cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/PHYSICAL_SOURCE_TRACE.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Not PHYSICAL_DIRECT. Applies to the MD10C Revision 3 family plan envelope.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_DATASHEET"
+    },
+    {
+      "record_id": "MD10C-PHYSICAL-XY-001",
+      "item_id": "DRIVER-001",
+      "attribute": "physical_board_xy",
+      "value": null,
+      "unit": "mm",
+      "source_class": "MEASUREMENT_PENDING",
+      "source_location": "No independent physical X/Y measurement found in repository search on 2026-09-01",
+      "source_date_if_known": "2026-09-01",
+      "confidence": "HIGH",
+      "notes": "Do not copy 75 x 43 mm into PHYSICAL_DIRECT.",
+      "cad_use": "HOLD"
+    },
+    {
+      "record_id": "MD10C-HEIGHT-001",
+      "item_id": "DRIVER-001",
+      "attribute": "overall_installed_height",
+      "value": null,
+      "unit": "mm",
+      "source_class": "MEASUREMENT_PENDING",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/design_parameters.json MD10C_PHYSICAL_MAX_HEIGHT",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Historical 18 mm reference is explicitly non-authority.",
+      "cad_use": "HOLD"
+    },
+    {
+      "record_id": "MD10C-TERM-001",
+      "item_id": "DRIVER-001",
+      "attribute": "terminal_and_service_protrusion",
+      "value": null,
+      "unit": "mm",
+      "source_class": "MEASUREMENT_PENDING",
+      "source_location": "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32/docs/PHYSICAL_VALIDATION_PLAN.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Includes ferrule, wire bend, screwdriver, and connector removal clearance.",
+      "cad_use": "HOLD"
+    },
+    {
+      "record_id": "MD10C-HOLES-001",
+      "item_id": "DRIVER-001",
+      "attribute": "mounting_hole_coordinates",
+      "value": [69.0, 35.0],
+      "unit": "mm",
+      "source_class": "UNVERIFIED_HISTORICAL",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/MD10C_PHYSICAL_INTEGRATION.md drawing-reference pattern",
+      "source_date_if_known": null,
+      "confidence": "MEDIUM",
+      "notes": "Repository calls this a drawing reference, but the primary vendor drawing is not stored in the searched authority set. Confirm before manufacture.",
+      "cad_use": "HOLD_SOURCE_CONFIRMATION"
+    },
+    {
+      "record_id": "CABLE-OD-001",
+      "item_id": "CABLE-UNKNOWN-9P6-001",
+      "attribute": "outer_diameter",
+      "value": 9.6,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/bbox_lid_wiring_chimney_v001_above_water_gland/PHYSICAL_MEASUREMENTS.md",
+      "source_date_if_known": "2026-08-25",
+      "confidence": "HIGH",
+      "notes": "Specimen identity is not proven to be Taiyo Cabletec 2PNCT. Do not merge those records.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL_FOR_THIS_SPECIMEN_ONLY"
+    },
+    {
+      "record_id": "GLAND-THREAD-001",
+      "item_id": "GLAND-001",
+      "attribute": "male_thread_outer_diameter",
+      "value": 14.9,
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/bbox_lid_wiring_chimney_v001_above_water_gland/PHYSICAL_MEASUREMENTS.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "No M16/PG standard is inferred from the measured diameter.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    },
+    {
+      "record_id": "2PNCT-PURCHASE-001",
+      "item_id": "CABLE-2PNCT-001",
+      "attribute": "purchase_specification",
+      "value": "Taiyo Cabletec 2PNCT 1.25 sq x 2C, 3 m",
+      "unit": "purchase_record",
+      "source_class": "PURCHASE_RECORD",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/CABLE_ARCHITECTURE.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Purchased identity and length only.",
+      "cad_use": "IDENTIFICATION_ONLY"
+    },
+    {
+      "record_id": "2PNCT-OD-001",
+      "item_id": "CABLE-2PNCT-001",
+      "attribute": "actual_outer_diameter",
+      "value": null,
+      "unit": "mm",
+      "source_class": "MEASUREMENT_PENDING",
+      "source_location": "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2/HOLD_REGISTER.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "The separate 9.6 mm cable record is not copied here.",
+      "cad_use": "HOLD"
+    },
+    {
+      "record_id": "SERVICE-CABLE-001",
+      "item_id": "CABLE-SERVICE-001",
+      "attribute": "cbox_service_length",
+      "value": 900.0,
+      "unit": "mm",
+      "source_class": "DESIGN_SERVICE_REQUIREMENT",
+      "source_location": "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36/SERVICE_CABLE_REQUIREMENTS.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Repository records a physically checked service arrangement, but no end-to-end finished-harness measurement evidence was found. Therefore this is not PHYSICAL_DIRECT.",
+      "cad_use": "DESIGN_ONLY"
+    },
+    {
+      "record_id": "CBOX-BODY-001",
+      "item_id": "CBOX-001",
+      "attribute": "current_physical_envelope",
+      "value": [150.0, 246.0, 80.0],
+      "unit": "mm",
+      "source_class": "PHYSICAL_DIRECT",
+      "source_location": "cad/common_rover/common_rover_manual_cbox_service_top_battery_swap_v0_9_6_36/CBOX_MANUAL_SERVICE_REQUIREMENTS.md",
+      "source_date_if_known": null,
+      "confidence": "HIGH",
+      "notes": "Recorded exactly as reported; long axis is currently used along rover Y by the later saddle lane.",
+      "cad_use": "SAFE_TO_USE_FOR_CAD_PHYSICAL"
+    }
+  ],
+  "safe_to_use_for_cad": {
+    "physical": [
+      "BAT-001 body 150.9 x 99.4 x 92.5 mm",
+      "BAT-001 mass 1.2 kg",
+      "BAT-001 male tab 6.3 x 0.7 mm",
+      "BAT-001 female receptacle outer width 10.6 mm",
+      "BAT-001 bottom-to-terminal-top 99.4 mm",
+      "MCU-001 Freenove ESP32 WROOM v1.3 envelope 56.8 x 28.2 x 12.9 mm",
+      "CABLE-UNKNOWN-9P6-001 OD approximately 9.6 mm for that specimen only",
+      "GLAND-001 male thread OD 14.9 mm",
+      "CBOX-001 physical envelope 150 x 246 x 80 mm"
+    ],
+    "datasheet": [
+      "DRIVER-001 Cytron MD10C board plan envelope 75 x 43 mm"
+    ],
+    "design_only": [
+      "CABLE-SERVICE-001 service length 900 mm"
+    ],
+    "hold": [
+      "MD10C physical X/Y and installed height",
+      "MD10C terminal, ferrule, wire-bend and tool envelope",
+      "MD10C mounting pattern primary-source confirmation",
+      "ESP32 USB/connector/RF service envelope",
+      "Taiyo Cabletec 2PNCT actual OD",
+      "DC-DC model and dimensions",
+      "relay model, rating and dimensions",
+      "fuse holder and final fuse ratings",
+      "E-stop model and installed envelope",
+      "XT60 installed and cable-bend envelope",
+      "capacitor selection and envelope",
+      "crimp/ferrule terminal installed envelopes",
+      "final cable-gland models and service envelopes"
+    ]
+  },
+  "conflicts_and_separations": [
+    {
+      "id": "BATTERY_VS_CASSETTE",
+      "status": "DISTINCT_OBJECTS",
+      "detail": "Historical battery cassette 125 x 180 x 120 mm is a design envelope, not the 150.9 x 99.4 x 92.5 mm battery body."
+    },
+    {
+      "id": "OLD_VS_CURRENT_CBOX",
+      "status": "SUPERSESSION_CANDIDATE_DOCUMENTED_ONLY",
+      "detail": "Historical CBOX 130 x 140 x 105 mm is not the current physical CBOX 150 x 246 x 80 mm. Existing files are not changed."
+    },
+    {
+      "id": "OLD_BBOX_REFERENCE",
+      "status": "HISTORICAL_DESIGN_ENVELOPE",
+      "detail": "Historical BBOX 150 x 220 x 150 mm remains separate from battery physical dimensions and later BBOX implementations."
+    },
+    {
+      "id": "BATTERY_KEEP_OUT_VARIANT",
+      "status": "SOURCE_RECONCILIATION_PENDING",
+      "detail": "v0.9.6.37 uses a 102 x 99.4 x 99 mm fitting-article keep-out while explicitly preserving 150.9 x 99.4 x 92.5 mm as historical nominal reference. Do not silently merge or relabel these specimens/axes."
+    },
+    {
+      "id": "CABLE_IDENTITY",
+      "status": "SEPARATE_SPECIMENS",
+      "detail": "Measured OD 9.6 mm cable is not proven to be the purchased Taiyo Cabletec 2PNCT; its actual OD remains pending."
+    },
+    {
+      "id": "SERVICE_LENGTH_CLASSIFICATION",
+      "status": "CLASSIFIED_DESIGN_SERVICE_REQUIREMENT",
+      "detail": "900 mm is retained for service design but is not called a direct finished-harness measurement."
+    },
+    {
+      "id": "FRAME_PASSAGE_DATUM",
+      "status": "DO_NOT_SUBSTITUTE",
+      "detail": "108 mm is the terminal-included physical passage result. Historical 90.7 mm is a different-datum measurement."
+    }
+  ]
+}

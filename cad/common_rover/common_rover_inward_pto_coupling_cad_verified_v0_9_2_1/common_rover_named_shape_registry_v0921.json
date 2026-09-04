@@ -1,0 +1,2427 @@
+{
+  "document_id": "PS-CR-INWARD-PTO-CAD-VERIFIED-V0921",
+  "entries": [
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 170.0,
+        "xmin": 165.0,
+        "ylen": 22.0,
+        "ymax": 29.0,
+        "ymin": 7.0,
+        "zlen": 40.0,
+        "zmax": 340.0,
+        "zmin": 300.0
+      },
+      "component_id": "PS-CR-V0921-CENTRAL_ALIGNMENT_GUIDE_LEFT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "CENTRAL_ALIGNMENT_GUIDE_LEFT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 170.0,
+        "xmin": 165.0,
+        "ylen": 22.0,
+        "ymax": -7.0,
+        "ymin": -29.0,
+        "zlen": 40.0,
+        "zmax": 340.0,
+        "zmin": 300.0
+      },
+      "component_id": "PS-CR-V0921-CENTRAL_ALIGNMENT_GUIDE_RIGHT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "CENTRAL_ALIGNMENT_GUIDE_RIGHT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 165.0,
+        "xmin": 160.0,
+        "ylen": 46.0,
+        "ymax": 23.0,
+        "ymin": -23.0,
+        "zlen": 48.0,
+        "zmax": 389.0,
+        "zmin": 341.0
+      },
+      "component_id": "PS-CR-V0921-CENTRAL_FINGER_KEEP_OUT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "CENTRAL_FINGER_KEEP_OUT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 18.0,
+        "xmax": 199.0,
+        "xmin": 181.0,
+        "ylen": 32.0,
+        "ymax": 16.0,
+        "ymin": -16.0,
+        "zlen": 18.0,
+        "zmax": 364.0,
+        "zmin": 346.0
+      },
+      "component_id": "PS-CR-V0921-CENTRAL_MECHANICAL_LOCK",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "CENTRAL_MECHANICAL_LOCK",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 60.0,
+        "xmax": 240.0,
+        "xmin": 180.0,
+        "ylen": 44.0,
+        "ymax": 22.0,
+        "ymin": -22.0,
+        "zlen": 90.0,
+        "zmax": 370.0,
+        "zmin": 280.0
+      },
+      "component_id": "PS-CR-V0921-CENTRAL_UNIT_FRAME",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "CENTRAL_UNIT_FRAME",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 34.0,
+        "xmax": -25.0,
+        "xmin": -59.0,
+        "ylen": 28.0,
+        "ymax": 114.0,
+        "ymin": 86.0,
+        "zlen": 28.0,
+        "zmax": 384.0,
+        "zmin": 356.0
+      },
+      "component_id": "PS-CR-V0921-CLUTCH_FULL_STROKE_LEFT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "CLUTCH_FULL_STROKE_LEFT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 34.0,
+        "xmax": -25.0,
+        "xmin": -59.0,
+        "ylen": 28.0,
+        "ymax": -86.0,
+        "ymin": -114.0,
+        "zlen": 28.0,
+        "zmax": 384.0,
+        "zmin": 356.0
+      },
+      "component_id": "PS-CR-V0921-CLUTCH_FULL_STROKE_RIGHT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "CLUTCH_FULL_STROKE_RIGHT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 15.0,
+        "xmax": 175.0,
+        "xmin": 160.0,
+        "ylen": 48.0,
+        "ymax": 24.0,
+        "ymin": -24.0,
+        "zlen": 48.0,
+        "zmax": 344.0,
+        "zmin": 296.0
+      },
+      "component_id": "PS-CR-V0921-COUPLING_OPERATION_TOOL_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "COUPLING_OPERATION_TOOL_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 170.0,
+        "xmax": 160.0,
+        "xmin": -10.0,
+        "ylen": 31.0,
+        "ymax": 140.5,
+        "ymin": 109.5,
+        "zlen": 105.0,
+        "zmax": 397.5,
+        "zmin": 292.5
+      },
+      "component_id": "PS-CR-V0921-DRIVE_BELT_SAFETY_LEFT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "DRIVE_BELT_SAFETY_LEFT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 170.0,
+        "xmax": 160.0,
+        "xmin": -10.0,
+        "ylen": 31.0,
+        "ymax": -109.5,
+        "ymin": -140.5,
+        "zlen": 105.0,
+        "zmax": 397.5,
+        "zmin": 292.5
+      },
+      "component_id": "PS-CR-V0921-DRIVE_BELT_SAFETY_RIGHT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "DRIVE_BELT_SAFETY_RIGHT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 50.0,
+        "xmax": 205.0,
+        "xmin": 155.0,
+        "ylen": 100.0,
+        "ymax": 50.0,
+        "ymin": -50.0,
+        "zlen": 30.0,
+        "zmax": 470.0,
+        "zmin": 440.0
+      },
+      "component_id": "PS-CR-V0921-E2_INTERFACE_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "E2_INTERFACE_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 37.0,
+        "xmax": 251.0,
+        "xmin": 214.0,
+        "ylen": 144.0,
+        "ymax": 72.0,
+        "ymin": -72.0,
+        "zlen": 22.0,
+        "zmax": 266.0,
+        "zmin": 244.0
+      },
+      "component_id": "PS-CR-V0921-FASTENERS_FIXED",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "FASTENERS_FIXED",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 250.0,
+        "xmax": 90.0,
+        "xmin": -160.0,
+        "ylen": 116.0,
+        "ymax": 58.0,
+        "ymin": -58.0,
+        "zlen": 180.0,
+        "zmax": 360.0,
+        "zmin": 180.0
+      },
+      "component_id": "PS-CR-V0921-FRAME_FIXED",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "FRAME_FIXED",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 24.0,
+        "xmax": 162.0,
+        "xmin": 138.0,
+        "ylen": 25.0,
+        "ymax": 30.5,
+        "ymin": 5.5,
+        "zlen": 24.0,
+        "zmax": 332.0,
+        "zmin": 308.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_COUPLING_FIXED_HUB",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_COUPLING_FIXED_HUB",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 20.0,
+        "ymax": 28.0,
+        "ymin": 8.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_COUPLING_FULL_SWEEP",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_COUPLING_FULL_SWEEP",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "FULL_SWEEP",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": 28.0,
+        "ymin": 18.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_COUPLING_SLEEVE_ENGAGED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_COUPLING_SLEEVE_ENGAGED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "ENGAGED",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": 23.0,
+        "ymin": 13.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_COUPLING_SLEEVE_PARTIAL",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_COUPLING_SLEEVE_PARTIAL",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "PARTIAL",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": 18.0,
+        "ymin": 8.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_COUPLING_SLEEVE_RETRACTED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_COUPLING_SLEEVE_RETRACTED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "RETRACTED",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 38.0,
+        "xmax": 169.0,
+        "xmin": 131.0,
+        "ylen": 3.0,
+        "ymax": 38.0,
+        "ymin": 35.0,
+        "zlen": 38.0,
+        "zmax": 339.0,
+        "zmin": 301.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_GUARD_FIXED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_GUARD_FIXED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 67.0,
+        "xmax": 183.5,
+        "xmin": 116.5,
+        "ylen": 17.0,
+        "ymax": 53.5,
+        "ymin": 36.5,
+        "zlen": 35.0,
+        "zmax": 337.5,
+        "zmin": 302.5
+      },
+      "component_id": "PS-CR-V0921-LEFT_INNER_KP000_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_INNER_KP000_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 182.5,
+        "xmin": 177.5,
+        "ylen": 5.0,
+        "ymax": 25.5,
+        "ymin": 20.5,
+        "zlen": 125.0,
+        "zmax": 445.0,
+        "zmin": 320.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_MECHANICAL_LINK",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_MECHANICAL_LINK",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 67.0,
+        "xmax": 183.5,
+        "xmin": 116.5,
+        "ylen": 17.0,
+        "ymax": 133.5,
+        "ymin": 116.5,
+        "zlen": 35.0,
+        "zmax": 337.5,
+        "zmin": 302.5
+      },
+      "component_id": "PS-CR-V0921-LEFT_OUTER_KP000_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_OUTER_KP000_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 16.0,
+        "xmax": 158.0,
+        "xmin": 142.0,
+        "ylen": 4.0,
+        "ymax": 18.0,
+        "ymin": 14.0,
+        "zlen": 16.0,
+        "zmax": 328.0,
+        "zmin": 312.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_PROTECTIVE_CAP",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_PROTECTIVE_CAP",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 100.0,
+        "xmax": 200.0,
+        "xmin": 100.0,
+        "ylen": 20.0,
+        "ymax": 95.0,
+        "ymin": 75.0,
+        "zlen": 100.0,
+        "zmax": 370.0,
+        "zmin": 270.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_PTO_60T_PHYSICAL",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_PTO_60T_PHYSICAL",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 120.0,
+        "xmax": 210.0,
+        "xmin": 90.0,
+        "ylen": 20.0,
+        "ymax": 95.0,
+        "ymin": 75.0,
+        "zlen": 120.0,
+        "zmax": 380.0,
+        "zmin": 260.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_PTO_60T_SAFETY",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_PTO_60T_SAFETY",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 121.5,
+        "ymax": 139.5,
+        "ymin": 18.0,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_PTO_SHAFT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_PTO_SHAFT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 12.5,
+        "ymax": 30.5,
+        "ymin": 18.0,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_PTO_STUB",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_PTO_STUB",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 163.5,
+        "xmin": 158.5,
+        "ylen": 2.0,
+        "ymax": 24.0,
+        "ymin": 22.0,
+        "zlen": 25.0,
+        "zmax": 352.5,
+        "zmin": 327.5
+      },
+      "component_id": "PS-CR-V0921-LEFT_SENSOR_TARGET",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_SENSOR_TARGET",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 16.0,
+        "ymax": 18.0,
+        "ymin": 2.0,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_UNIT_INPUT_SHAFT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_UNIT_INPUT_SHAFT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 185.0,
+        "xmin": 175.0,
+        "ylen": 24.0,
+        "ymax": 24.0,
+        "ymin": 0.0,
+        "zlen": 42.0,
+        "zmax": 341.0,
+        "zmin": 299.0
+      },
+      "component_id": "PS-CR-V0921-LEFT_UNIT_INPUT_SUPPORT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "LEFT_UNIT_INPUT_SUPPORT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 42.5,
+        "xmax": 260.0,
+        "xmin": 217.5,
+        "ylen": 136.0,
+        "ymax": 68.0,
+        "ymin": -68.0,
+        "zlen": 42.5,
+        "zmax": 290.0,
+        "zmin": 247.5
+      },
+      "component_id": "PS-CR-V0921-L_BRACKETS_FIXED",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "L_BRACKETS_FIXED",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 170.0,
+        "xmax": 160.0,
+        "xmin": -10.0,
+        "ylen": 31.0,
+        "ymax": 100.5,
+        "ymin": 69.5,
+        "zlen": 105.0,
+        "zmax": 397.5,
+        "zmin": 292.5
+      },
+      "component_id": "PS-CR-V0921-PTO_BELT_SAFETY_LEFT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "PTO_BELT_SAFETY_LEFT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 170.0,
+        "xmax": 160.0,
+        "xmin": -10.0,
+        "ylen": 31.0,
+        "ymax": -69.5,
+        "ymin": -100.5,
+        "zlen": 105.0,
+        "zmax": 397.5,
+        "zmin": 292.5
+      },
+      "component_id": "PS-CR-V0921-PTO_BELT_SAFETY_RIGHT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "PTO_BELT_SAFETY_RIGHT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 24.0,
+        "xmax": 162.0,
+        "xmin": 138.0,
+        "ylen": 25.0,
+        "ymax": -5.5,
+        "ymin": -30.5,
+        "zlen": 24.0,
+        "zmax": 332.0,
+        "zmin": 308.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_COUPLING_FIXED_HUB",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_COUPLING_FIXED_HUB",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 20.0,
+        "ymax": -8.0,
+        "ymin": -28.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_COUPLING_FULL_SWEEP",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_COUPLING_FULL_SWEEP",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "FULL_SWEEP",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": -18.0,
+        "ymin": -28.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_COUPLING_SLEEVE_ENGAGED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_COUPLING_SLEEVE_ENGAGED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "ENGAGED",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": -13.0,
+        "ymin": -23.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_COUPLING_SLEEVE_PARTIAL",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_COUPLING_SLEEVE_PARTIAL",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "PARTIAL",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 20.0,
+        "xmax": 160.0,
+        "xmin": 140.0,
+        "ylen": 10.0,
+        "ymax": -8.0,
+        "ymin": -18.0,
+        "zlen": 20.0,
+        "zmax": 330.0,
+        "zmin": 310.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_COUPLING_SLEEVE_RETRACTED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_COUPLING_SLEEVE_RETRACTED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "RETRACTED",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 38.0,
+        "xmax": 169.0,
+        "xmin": 131.0,
+        "ylen": 3.0,
+        "ymax": -35.0,
+        "ymin": -38.0,
+        "zlen": 38.0,
+        "zmax": 339.0,
+        "zmin": 301.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_GUARD_FIXED",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_GUARD_FIXED",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 67.0,
+        "xmax": 183.5,
+        "xmin": 116.5,
+        "ylen": 17.0,
+        "ymax": -36.5,
+        "ymin": -53.5,
+        "zlen": 35.0,
+        "zmax": 337.5,
+        "zmin": 302.5
+      },
+      "component_id": "PS-CR-V0921-RIGHT_INNER_KP000_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_INNER_KP000_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 182.5,
+        "xmin": 177.5,
+        "ylen": 5.0,
+        "ymax": -20.5,
+        "ymin": -25.5,
+        "zlen": 125.0,
+        "zmax": 445.0,
+        "zmin": 320.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_MECHANICAL_LINK",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_MECHANICAL_LINK",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 67.0,
+        "xmax": 183.5,
+        "xmin": 116.5,
+        "ylen": 17.0,
+        "ymax": -116.5,
+        "ymin": -133.5,
+        "zlen": 35.0,
+        "zmax": 337.5,
+        "zmin": 302.5
+      },
+      "component_id": "PS-CR-V0921-RIGHT_OUTER_KP000_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_OUTER_KP000_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 16.0,
+        "xmax": 158.0,
+        "xmin": 142.0,
+        "ylen": 4.0,
+        "ymax": -14.0,
+        "ymin": -18.0,
+        "zlen": 16.0,
+        "zmax": 328.0,
+        "zmin": 312.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_PROTECTIVE_CAP",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_PROTECTIVE_CAP",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 100.0,
+        "xmax": 200.0,
+        "xmin": 100.0,
+        "ylen": 20.0,
+        "ymax": -75.0,
+        "ymin": -95.0,
+        "zlen": 100.0,
+        "zmax": 370.0,
+        "zmin": 270.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_PTO_60T_PHYSICAL",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_PTO_60T_PHYSICAL",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 120.0,
+        "xmax": 210.0,
+        "xmin": 90.0,
+        "ylen": 20.0,
+        "ymax": -75.0,
+        "ymin": -95.0,
+        "zlen": 120.0,
+        "zmax": 380.0,
+        "zmin": 260.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_PTO_60T_SAFETY",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_PTO_60T_SAFETY",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 121.5,
+        "ymax": -18.0,
+        "ymin": -139.5,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_PTO_SHAFT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_PTO_SHAFT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 12.5,
+        "ymax": -18.0,
+        "ymin": -30.5,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_PTO_STUB",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_PTO_STUB",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 5.0,
+        "xmax": 163.5,
+        "xmin": 158.5,
+        "ylen": 2.0,
+        "ymax": -22.0,
+        "ymin": -24.0,
+        "zlen": 25.0,
+        "zmax": 352.5,
+        "zmin": 327.5
+      },
+      "component_id": "PS-CR-V0921-RIGHT_SENSOR_TARGET",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_SENSOR_TARGET",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 155.0,
+        "xmin": 145.0,
+        "ylen": 16.0,
+        "ymax": -2.0,
+        "ymin": -18.0,
+        "zlen": 10.0,
+        "zmax": 325.0,
+        "zmin": 315.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_UNIT_INPUT_SHAFT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_UNIT_INPUT_SHAFT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 185.0,
+        "xmin": 175.0,
+        "ylen": 24.0,
+        "ymax": 0.0,
+        "ymin": -24.0,
+        "zlen": 42.0,
+        "zmax": 341.0,
+        "zmin": 299.0
+      },
+      "component_id": "PS-CR-V0921-RIGHT_UNIT_INPUT_SUPPORT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "RIGHT_UNIT_INPUT_SUPPORT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 350.0,
+        "xmax": 205.0,
+        "xmin": -145.0,
+        "ylen": 10.0,
+        "ymax": 145.0,
+        "ymin": 135.0,
+        "zlen": 140.0,
+        "zmax": 220.0,
+        "zmin": 80.0
+      },
+      "component_id": "PS-CR-V0921-TRACK_DYNAMIC_LEFT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "TRACK_DYNAMIC_LEFT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 350.0,
+        "xmax": 205.0,
+        "xmin": -145.0,
+        "ylen": 10.0,
+        "ymax": -135.0,
+        "ymin": -145.0,
+        "zlen": 140.0,
+        "zmax": 220.0,
+        "zmin": 80.0
+      },
+      "component_id": "PS-CR-V0921-TRACK_DYNAMIC_RIGHT",
+      "geometry_source": "V092_PARENT_PARAMETRIC_RECONSTRUCTION",
+      "shape_name": "TRACK_DYNAMIC_RIGHT",
+      "source_builder_function": "named_shapes.parent_parametric_reconstruction",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 80.0,
+        "xmax": 245.0,
+        "xmin": 165.0,
+        "ylen": 50.0,
+        "ymax": 25.0,
+        "ymin": -25.0,
+        "zlen": 40.0,
+        "zmax": 340.0,
+        "zmin": 300.0
+      },
+      "component_id": "PS-CR-V0921-UNIT_INSTALLATION_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "UNIT_INSTALLATION_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 80.0,
+        "xmax": 245.0,
+        "xmin": 165.0,
+        "ylen": 50.0,
+        "ymax": 25.0,
+        "ymin": -25.0,
+        "zlen": 40.0,
+        "zmax": 340.0,
+        "zmin": 300.0
+      },
+      "component_id": "PS-CR-V0921-UNIT_REMOVAL_ENVELOPE",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "UNIT_REMOVAL_ENVELOPE",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "bounding_box_mm": {
+        "xlen": 10.0,
+        "xmax": 190.0,
+        "xmin": 180.0,
+        "ylen": 50.0,
+        "ymax": 25.0,
+        "ymin": -25.0,
+        "zlen": 100.0,
+        "zmax": 440.0,
+        "zmin": 340.0
+      },
+      "component_id": "PS-CR-V0921-WIRING_KEEP_OUT",
+      "geometry_source": "V0921_ACTUAL_CAD_CENTRAL",
+      "shape_name": "WIRING_KEEP_OUT",
+      "source_builder_function": "named_shapes.central_coupling_v0921",
+      "state": "STATE_INDEPENDENT",
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "names_unique": true,
+  "registry_entry_count": 55
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f4f7fb"/>
+<text x="40" y="55" font-family="Arial" font-size="30" font-weight="700" fill="#082b55">Common Rover v0.9.0 integrated powertrain</text>
+<text x="40" y="88" font-family="Arial" font-size="17" font-weight="700" fill="#bd0000">NOT_FOR_MANUFACTURING · Envelope-level geometry</text>
+<rect x="35" y="115" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="53" y="147" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Overall isometric</text>
+<rect x="90" y="185" width="570" height="20" fill="#b9c0c8"/>
+<rect x="215" y="215" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="385" y="210" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="635" cy="230" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="165" y1="170" x2="640" y2="230" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="805" y="115" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="823" y="147" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Top view</text>
+<rect x="860" y="185" width="570" height="20" fill="#b9c0c8"/>
+<rect x="985" y="215" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="1155" y="210" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="1405" cy="230" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="935" y1="170" x2="1410" y2="230" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="35" y="325" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="53" y="357" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Front view</text>
+<rect x="90" y="395" width="570" height="20" fill="#b9c0c8"/>
+<rect x="215" y="425" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="385" y="420" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="635" cy="440" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="165" y1="380" x2="640" y2="440" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="805" y="325" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="823" y="357" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Left side</text>
+<rect x="860" y="395" width="570" height="20" fill="#b9c0c8"/>
+<rect x="985" y="425" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="1155" y="420" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="1405" cy="440" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="935" y1="380" x2="1410" y2="440" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="35" y="535" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="53" y="567" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">Right side</text>
+<rect x="90" y="605" width="570" height="20" fill="#b9c0c8"/>
+<rect x="215" y="635" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="385" y="630" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="635" cy="650" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="165" y1="590" x2="640" y2="650" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="805" y="535" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="823" y="567" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">HIGH PTO Z370</text>
+<rect x="860" y="605" width="570" height="20" fill="#b9c0c8"/>
+<rect x="985" y="635" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="1155" y="630" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="1405" cy="650" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="935" y1="590" x2="1410" y2="650" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="35" y="745" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="53" y="777" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">MID PTO Z320 · recommended</text>
+<rect x="90" y="815" width="570" height="20" fill="#b9c0c8"/>
+<rect x="215" y="845" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="385" y="840" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="635" cy="860" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="165" y1="800" x2="640" y2="860" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<rect x="805" y="745" width="735" height="185" rx="8" fill="#ffffff" stroke="#b8c7d9" stroke-width="2"/>
+<text x="823" y="777" font-family="Arial" font-size="20" font-weight="700" fill="#082b55">LOW PTO Z280</text>
+<rect x="860" y="815" width="570" height="20" fill="#b9c0c8"/>
+<rect x="985" y="845" width="150" height="50" fill="#6aaed6" opacity=".8"/>
+<rect x="1155" y="840" width="170" height="65" fill="#9aa3ad" opacity=".8"/>
+<circle cx="1405" cy="860" r="38" fill="#f3a43b" opacity=".75"/>
+<line x1="935" y1="800" x2="1410" y2="860" stroke="#d62728" stroke-width="14" opacity=".35"/>
+<text x="40" y="975" font-family="Arial" font-size="16">Recommended S4-B-PTOX040.0-Z320.0-FX40.0-FY20.0-FZ20.0 · width 290 · PTO bottom Z260 · E2 high interface</text>
+</svg>

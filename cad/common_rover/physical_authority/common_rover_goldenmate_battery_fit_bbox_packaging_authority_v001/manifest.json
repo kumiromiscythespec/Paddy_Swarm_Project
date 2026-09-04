@@ -1,0 +1,23 @@
+{
+  "schema": "GOLDENMATE_BATTERY_FIT_BBOX_AUTHORITY_MANIFEST_V001",
+  "classification": "DOCUMENTATION_ONLY_NO_RELEASE_CAD",
+  "files": [
+    "README.md",
+    "GOLDENMATE_BATTERY_AXIS_CORRECTION.md",
+    "BATTERY_FIT_BBOX_PHYSICAL_PACKAGING_AUTHORITY.md",
+    "BATTERY_FIT_CLEARANCE_AUDIT.md",
+    "PREVIOUS_BBOX_STUDY_REEVALUATION_NOTES.md",
+    "FIELD_BBOX_NEXT_DESIGN_INPUTS.md",
+    "battery_physical_dimensions.json",
+    "battery_fit_bbox_physical_dimensions.json",
+    "source_traceability.json",
+    "validation_report.json",
+    "manifest.json",
+    "SHA256SUMS.txt"
+  ],
+  "exact_path_count": 12,
+  "step_count": 0,
+  "stl_count": 0,
+  "dxf_count": 0,
+  "release_cad_count": 0
+}

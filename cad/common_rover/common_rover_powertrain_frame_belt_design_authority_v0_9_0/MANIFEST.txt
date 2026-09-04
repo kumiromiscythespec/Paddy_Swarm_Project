@@ -1,0 +1,42 @@
+DOCUMENT_ID=PS-CR-PWR-FRAME-BELT-V090
+EXPECTED_FILE_COUNT=38
+STATUS=NOT_FOR_MANUFACTURING
+ROOT=ZIP_ROOT
+common_rover_powertrain_frame_belt_design_authority_v090.md	FILE
+common_rover_powertrain_parameters_v090.json	FILE
+common_rover_power_flow_graph_v090.json	FILE
+common_rover_electrical_interface_graph_v090.json	FILE
+common_rover_clutch_states_v090.csv	FILE
+common_rover_slide_clutch_contract_v090.md	FILE
+common_rover_powertrain_architecture_candidates_v090.csv	FILE
+common_rover_pto_height_candidates_v090.csv	FILE
+common_rover_frame_layout_candidates_v090.csv	FILE
+common_rover_belt_corridors_v090.json	FILE
+common_rover_belt_clearance_matrix_v090.csv	FILE
+common_rover_unit_interface_candidates_v090.csv	FILE
+common_rover_unit_sensor_candidates_v090.csv	FILE
+common_rover_unit_wiring_routes_v090.csv	FILE
+common_rover_interference_report_v090.json	FILE
+common_rover_validation_v090.json	FILE
+common_rover_superseded_contracts_v090.md	FILE
+build_common_rover_powertrain_frame_belt_v090.py	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-RECOMMENDED.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-HIGH-PTO.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-MID-PTO.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-LOW-PTO.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-DRIVE.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-NEUTRAL.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-PTO.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-FULL-STROKE.step	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-OVERVIEW.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-BELT-CORRIDORS.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-FRAME-LAYOUT.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-SLIDE-CLUTCH.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-UNIT-INTERFACE.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-WIRING-ROUTE.svg	FILE
+artifacts/PS-CR-PWR-FRAME-BELT-V090-EXPLODED.svg	FILE
+tests/test_common_rover_powertrain_frame_belt_v090_contract.py	FILE
+README_HANDOFF.md	FILE
+MANIFEST.txt	FILE
+SHA256SUMS.txt	FILE
+test_results_v090.txt	FILE

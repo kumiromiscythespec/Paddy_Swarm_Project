@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="100%" height="100%" fill="#f5f7fa"/>
+<style>.h{font:700 25px Arial;fill:#132238}.s{font:15px Arial;fill:#1c2b39}.w{font:700 15px Arial;fill:#a31212}.p{fill:#6abf69;stroke:#174f2b;stroke-width:2}.e{fill:none;stroke:#d85d5d;stroke-width:2}.f{fill:#8299a6;stroke:#263d48;stroke-width:2}.d{stroke:#1e3d65;stroke-width:2;fill:none}.g{stroke:#8796a5;stroke-dasharray:7 5;fill:none}</style>
+<text x="35" y="42" class="h">V0.8.2 support-plate dimensions</text>
+<text x="35" y="68" class="w">NOT_FOR_MANUFACTURING · PART_MEASUREMENT_REQUIRED · physical fit HOLD</text>
+
+<text x="55" y="115" class="h">P3 candidate dimension contract</text>
+<polygon points="280,650 660,650 660,420 557,170 383,170 280,420" class="p"/>
+<line x1="280" y1="700" x2="660" y2="700" class="d"/><text x="430" y="730" class="s">95 mm candidate width</text>
+<line x1="720" y1="650" x2="720" y2="170" class="d"/><text x="735" y="620" class="s">140 mm candidate height</text>
+<circle cx="400" cy="250" r="17" fill="white" stroke="#263d48"/>
+<circle cx="540" cy="250" r="17" fill="white" stroke="#263d48"/>
+<circle cx="370" cy="570" r="13" fill="white" stroke="#263d48"/>
+<circle cx="570" cy="570" r="13" fill="white" stroke="#263d48"/>
+<circle cx="370" cy="450" r="13" fill="white" stroke="#263d48"/>
+<circle cx="570" cy="450" r="13" fill="white" stroke="#263d48"/>
+<text x="790" y="210" class="w">HOLE DIAMETERS/PATTERN:</text>
+<text x="790" y="242" class="w">PART_MEASUREMENT_REQUIRED</text>
+<text x="790" y="300" class="s">Shown circles are parametric placeholders.</text>
+<text x="790" y="330" class="s">No coordinate may be used for machining.</text>
+<text x="790" y="390" class="s">Plate thickness: 5 mm candidate</text>
+<text x="790" y="420" class="s">Minimum edge rule: parameter 10 mm</text>
+<text x="790" y="450" class="s">Minimum spacing rule: parameter 20 mm</text>
+
+</svg>

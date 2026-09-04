@@ -1,0 +1,53 @@
+{
+  "all_pass": true,
+  "rows": [
+    {
+      "actual_sha256": "77ae432278d07302883f78ad71f3152d28895c672bb0282a486c78ffc8db1f16",
+      "expected_sha256": "77ae432278d07302883f78ad71f3152d28895c672bb0282a486c78ffc8db1f16",
+      "pass": true,
+      "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/dimensions.json"
+    },
+    {
+      "actual_sha256": "655a94e023a608c6b68564f0b355230a11e015c7cdadb5cdb95b84ac99a66b0b",
+      "expected_sha256": "655a94e023a608c6b68564f0b355230a11e015c7cdadb5cdb95b84ac99a66b0b",
+      "pass": true,
+      "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/measurement_ledger.json"
+    },
+    {
+      "actual_sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+      "expected_sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+      "pass": true,
+      "path": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1/cad/drive_htd5m_20t_reference.step"
+    },
+    {
+      "actual_sha256": "88b5eb4d1c2cfbd543792ff738d728b3011d9349d0d7f2e4da99da70cab87265",
+      "expected_sha256": "88b5eb4d1c2cfbd543792ff738d728b3011d9349d0d7f2e4da99da70cab87265",
+      "pass": true,
+      "path": "cad/common_rover/pto_servo_sliding_idler_clutch_v001/design_parameters.json"
+    },
+    {
+      "actual_sha256": "86532a8b70387f67e26de929dd061d85bd5efc4a21699251971b16a5f62952fd",
+      "expected_sha256": "86532a8b70387f67e26de929dd061d85bd5efc4a21699251971b16a5f62952fd",
+      "pass": true,
+      "path": "cad/common_rover/drivetrain/crawler_candidate_c_12t_misumi_groove1_keeperless_v003/cad/candidate_C_12T_misumi_groove1_keeperless.step"
+    },
+    {
+      "actual_sha256": "111522ec40ba7fd8b2c6c88b8a86833445314d305c6fcccf0331bea7c1bd0418",
+      "expected_sha256": "111522ec40ba7fd8b2c6c88b8a86833445314d305c6fcccf0331bea7c1bd0418",
+      "pass": true,
+      "path": "cad/common_rover/drivetrain/crawler_idler_candidate_c_v001/cad/candidate_C_crawler_idler.step"
+    },
+    {
+      "actual_sha256": "3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c",
+      "expected_sha256": "3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c",
+      "pass": true,
+      "path": "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl"
+    },
+    {
+      "actual_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+      "expected_sha256": "0ebb03a8c45665aebb7f9e1bfa73048edb1fa8e540ebe039a5f204ca3fe0001b",
+      "pass": true,
+      "path": "cad/common_rover/front_drive_dual_pto_design_authority_v0_8/common_rover_front_drive_dual_pto_design_authority_v008.md"
+    }
+  ]
+}

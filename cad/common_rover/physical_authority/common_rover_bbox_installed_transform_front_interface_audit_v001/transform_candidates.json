@@ -1,0 +1,102 @@
+{
+  "schema": "BBOX_INSTALLED_TRANSFORM_FRONT_INTERFACE_AUDIT_V001",
+  "date": "2026-09-02",
+  "coordinate_basis": {
+    "x": "vehicle front/back; physical origin pending",
+    "y": "vehicle left/right; absolute centerline pending",
+    "z": "crawler/floor contact = Z0"
+  },
+  "sources": {
+    "v002_body_step": {
+      "path": "cad/common_rover/bbox_water_dummy_v002_external_vertical_m4_rubber_cord_1p8/artifacts/bbox_water_dummy_v002_body.step",
+      "sha256": "9101bce93c2da8c1b9f87bfd38ae184451a7d1bfead4fb3a26ab9f8b36a176b9"
+    },
+    "v003_lid_step": {
+      "path": "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority/cad/bbox_lid_wiring_chimney_v003_local_wall_2p4.step",
+      "sha256": "11582cab5641591f385b521252fe2feeb3f43bba7ed0e72c3591c56bf5ab5c9c"
+    },
+    "physical_record": "cad/common_rover/physical_authority/common_rover_physical_dimensional_authority_2026_09_01_v001/physical_dimensions_2026_09_01.json"
+  },
+  "local_geometry_mm": {
+    "body_bounds": {"x": [-120.0, 120.0], "y": [-95.0, 95.0], "z": [0.0, 70.895]},
+    "body_top_rim_z": 70.0,
+    "body_gasket_groove_floor_z": 69.5,
+    "body_lid_mating_z": 70.895,
+    "body_floor_outer_z": 0.0,
+    "body_floor_inner_z": 5.0,
+    "body_internal_usable_height": 65.0,
+    "lid_bounds": {"x": [-120.0, 120.0], "y": [-95.0, 95.0], "z": [0.0, 58.0]},
+    "lid_body_mating_z": 0.0,
+    "lid_flat_top_z": 8.0,
+    "lid_chimney_top_z": 58.0
+  },
+  "exact_join": {
+    "translation_mm": [0.0, 0.0, 70.895],
+    "rotation_deg": [0.0, 0.0, 0.0],
+    "combined_z_bounds_mm": [0.0, 128.895],
+    "combined_height_mm": 128.895,
+    "flat_lid_top_assembly_local_z_mm": 78.895,
+    "chimney_top_assembly_local_z_mm": 128.895
+  },
+  "physical_record_mm": {
+    "body_lowest_z": 148.0,
+    "lid_highest_z": 254.0,
+    "derived_height": 106.0,
+    "point_definition": "AMBIGUOUS"
+  },
+  "height_comparison_mm": {
+    "cad_combined": 128.895,
+    "physical_combined": 106.0,
+    "cad_minus_physical": 22.895,
+    "reported_flat_lid_registration_body_bottom": 175.105,
+    "reported_body_bottom_delta": 27.105
+  },
+  "z_candidates": [
+    {
+      "id": "Z-P",
+      "assumption": "ALIGN_BODY_LOWEST_TO_148",
+      "tz_mm": 148.0,
+      "body_bottom_global_z_mm": 148.0,
+      "flat_lid_top_global_z_mm": 226.895,
+      "chimney_top_global_z_mm": 276.895,
+      "status": "CONFLICTS_WITH_UNDEFINED_Z254_FEATURE"
+    },
+    {
+      "id": "Z-L-FLAT",
+      "assumption": "Z254_IS_FLAT_LID_TOP",
+      "tz_mm": 175.105,
+      "body_bottom_global_z_mm": 175.105,
+      "flat_lid_top_global_z_mm": 254.0,
+      "chimney_top_global_z_mm": 304.0,
+      "body_bottom_residual_mm": 27.105,
+      "status": "FAIL_INCONSISTENT_WITH_Z148"
+    },
+    {
+      "id": "Z-L-CHIMNEY",
+      "assumption": "Z254_IS_CHIMNEY_TOP",
+      "tz_mm": 125.105,
+      "body_bottom_global_z_mm": 125.105,
+      "flat_lid_top_global_z_mm": 204.0,
+      "chimney_top_global_z_mm": 254.0,
+      "body_bottom_residual_mm": -22.895,
+      "status": "FAIL_INCONSISTENT_WITH_Z148"
+    }
+  ],
+  "xy_registration": {
+    "physical_x_datums": 0,
+    "physical_y_datums": 0,
+    "resolved": false,
+    "cross_saddle_xy_origin_classification": "DERIVED_MOUNT_ASSUMPTION"
+  },
+  "front_interface": {
+    "cad_status": "CAD_AUTHORITY_EXISTS",
+    "physical_status": "NOT_PROVEN_MANUFACTURED_OR_INSTALLED",
+    "installed_transform_status": "PHYSICAL_PENDING"
+  },
+  "collision": {
+    "previous_classification": "CAD_REGISTERED_CONFLICT",
+    "recheck_permitted": false,
+    "recheck_performed": false
+  },
+  "result": "TRANSFORM_PARTIAL_PHYSICAL_MEASUREMENT_REQUIRED"
+}

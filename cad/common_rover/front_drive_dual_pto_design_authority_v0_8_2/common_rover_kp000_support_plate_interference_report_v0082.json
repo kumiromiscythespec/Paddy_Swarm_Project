@@ -1,0 +1,129 @@
+{
+  "candidate_id": "P3-A5052-T5",
+  "checks": [
+    {
+      "check_id": "LEFT_PLATE_VS_LEFT_PTO_BELT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "note": "P3 plate remains inside v0.8.1 support envelope.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_PLATE_VS_RIGHT_PTO_BELT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "note": "Mirrored independent plate.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_PTO_BELT_VS_FASTENERS",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.0,
+      "note": "Fastener envelope faces away from belt.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_PTO_BELT_VS_FASTENERS",
+      "intersection_count": 0,
+      "minimum_distance_mm": 20.0,
+      "note": "Fastener envelope faces away from belt.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_PTO_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "note": "v0.8.1 baseline held.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_PTO_BELT_VS_FRAME",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "note": "v0.8.1 baseline held.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_60T_VS_FIXED_KP000",
+      "intersection_count": 0,
+      "minimum_distance_mm": 13.0,
+      "note": "120 mm rotation safety envelope.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_60T_VS_FIXED_KP000",
+      "intersection_count": 0,
+      "minimum_distance_mm": 13.0,
+      "note": "120 mm rotation safety envelope.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_FASTENERS_VS_RIGHT_FASTENERS",
+      "intersection_count": 0,
+      "minimum_distance_mm": 15.0,
+      "note": "Candidate captured hardware envelope.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_PLATE_VS_RIGHT_PLATE",
+      "intersection_count": 0,
+      "minimum_distance_mm": 23.0,
+      "note": "Independent plates at Y=+/-14, thickness 5.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_TOOL_SWEEP_VS_OPPOSITE_SUPPORT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.0,
+      "note": "Tool redirected along X; actual tool remains HOLD.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_TOOL_SWEEP_VS_OPPOSITE_SUPPORT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 14.0,
+      "note": "Tool redirected along X; actual tool remains HOLD.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_TRACK_DYNAMIC_VS_UPPER_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_distance_mm": 10.0,
+      "note": "No crawler change.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "RIGHT_TRACK_DYNAMIC_VS_UPPER_STRUCTURE",
+      "intersection_count": 0,
+      "minimum_distance_mm": 10.0,
+      "note": "No crawler change.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    },
+    {
+      "check_id": "LEFT_SHAFT_VS_RIGHT_SHAFT",
+      "intersection_count": 0,
+      "minimum_distance_mm": 6.0,
+      "note": "Independent shafts retain a central gap.",
+      "status": "CONDITIONAL_PASS_ENVELOPE_ONLY"
+    }
+  ],
+  "document_id": "PS-CR-KP000-SUPPORT-PLATE-V0082",
+  "summary": {
+    "belt_intersection_count": 0,
+    "check_count": 15,
+    "clearance_after_plate_deflection_mm": 9.8068,
+    "fastener_intersection_count": 0,
+    "intersection_count": 0,
+    "nominal_pto_belt_clearance_mm": 15.0,
+    "physical_fit": "HOLD",
+    "plate_deflection_toward_belt_mm": 0.1932,
+    "pto_ends_y_mm": [
+      -145.0,
+      145.0
+    ],
+    "pulley_fixed_after_plate_deflection_mm": 12.8068,
+    "residual_pto_belt_clearance_mm": 10.0,
+    "tool_intersection_count": 0,
+    "total_width_mm": 290.0
+  }
+}
