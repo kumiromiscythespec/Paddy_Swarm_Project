@@ -1,0 +1,40 @@
+{
+  "expected_changes": {
+    "annular_keeper_removed": true,
+    "flat_contact_datums_created": [
+      -22.0,
+      22.0
+    ],
+    "former_keeper_hole_material_filled": true,
+    "keeper_m5_holes_removed": true,
+    "keeper_pcd56_removed": true,
+    "old_14t_outer_replaced_by_candidate_c_12t": true
+  },
+  "legacy": {
+    "b_collar": "ABSENT",
+    "dual_l": "ABSENT",
+    "h25a1": "ABSENT",
+    "headed_m4x2": "ABSENT",
+    "shaft_collar_torque_path": "ABSENT",
+    "y3": "ABSENT"
+  },
+  "protected_zero_diff": {
+    "candidate_c_engagement_parameters": true,
+    "global_scaling": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "groove1_c1_exact_source": true,
+    "pulley_axial_datum_mm": [
+      0.5,
+      21.5
+    ],
+    "pulley_center_axis": [
+      0.0,
+      0.0
+    ],
+    "pulley_center_z_mm": 11.0,
+    "shaft_key_axis": "UNCHANGED"
+  }
+}

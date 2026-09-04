@@ -1,0 +1,63 @@
+{
+  "classification": "DRIVE_Y3_REMOVABLE_REACTION_SHOE",
+  "firewall": {
+    "crawler_guard_geometry_dependency_count": 0,
+    "v09617_geometry_import_count": 0
+  },
+  "head_clearance": {
+    "m4_head_top_mm": 4.3,
+    "shoe_height_mm": 3.7,
+    "vertical_margin_mm": 0.6
+  },
+  "powered_rotation": "NOT_APPROVED",
+  "print": {
+    "first_print_quantity": 1,
+    "material": "PETG",
+    "pair_print_after_single_fit_pass": true,
+    "pair_separate_solids": 2,
+    "printer": "Bambu A1",
+    "runner": "NONE",
+    "support": "SUPPORT_FREE_CANDIDATE"
+  },
+  "reaction_shoe": {
+    "bounds_mm": [
+      15.0,
+      15.2,
+      12.0
+    ],
+    "broad_shoulders": true,
+    "height_mm": 3.7,
+    "installed_rotation_difference_deg": 90.0,
+    "left_right_geometry_identical": true,
+    "positive_stop": true,
+    "primary_torque_reaction_component": true,
+    "quantity_per_sprocket": 2,
+    "receiver_facing_nominal_width_mm": 15.2,
+    "service_notch": true,
+    "volume_mm3": 2212.752
+  },
+  "receiver": {
+    "cap_removal_required": true,
+    "name": "YW30",
+    "nominal_total_clearance_mm": 0.3,
+    "width_mm": 15.5
+  },
+  "source_geometry": {
+    "dependency_chain": [
+      "v0.9.6.9 reaction_yoke",
+      "v0.9.6.12 y3_pair",
+      "v0.9.6.18 q.p12.y3_pair"
+    ],
+    "generating_function": "reaction_yoke(3.7)",
+    "guessed_reconstruction": false,
+    "source_hashes": {
+      "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18/build_guard_free_true_open_bottom_drive_12t_v0_9_6_18.py": "254e96145c2f8501dbfe98b437b363d6d6cfecc7be2f666e7d84fd710a3b9962",
+      "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9/build_reinforced_guard_reaction_yoke_v0_9_6_9.py": "a19049e526d159ef1dc8abb3c6e74babe0bfcf5a64f980f6bc06b06d4d5039d8",
+      "cad/common_rover/common_rover_short_slide_yoke_receiver_v0_9_6_12/build_short_slide_yoke_receiver_v0_9_6_12.py": "5b20fc61f727691ee4c64b2e7f32fa197443e868466c1cf3146c46aa4acfae6f"
+    },
+    "source_lane": "v0.9.6.9",
+    "source_path": "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9/build_reinforced_guard_reaction_yoke_v0_9_6_9.py",
+    "status": "EXACT_PROTECTED_SOURCE"
+  },
+  "version": "v0.9.6.19"
+}

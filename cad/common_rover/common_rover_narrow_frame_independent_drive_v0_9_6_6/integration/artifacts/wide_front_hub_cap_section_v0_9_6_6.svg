@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#fbfcfe"/><text x="25" y="34" font-family="sans-serif" font-size="22" font-weight="bold">Wide front hub cap section</text>
+<text x="975" y="32" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.6 · DRY DRIVE · NOT FIELD APPROVED</text><g font-family="sans-serif"><rect x="180" y="120" width="560" height="300" fill="#aaa" opacity=".25"/><rect x="470" y="120" width="110" height="250" fill="#27ae60" opacity=".6"/><line x1="180" y1="120" x2="740" y2="120" stroke="#222"/><text x="610" y="170">OD50 × 5.5</text><text x="610" y="205">nested z16.5…22</text><text x="610" y="240">complete axial envelope 44</text><text x="610" y="275">root radial margin 4.47</text></g>
+<text x="25" y="535" font-family="sans-serif" font-size="12">Blue=USER/MEASURED · Purple=DERIVED · Green=DESIGN PRIMARY · Orange=HOLD</text></svg>

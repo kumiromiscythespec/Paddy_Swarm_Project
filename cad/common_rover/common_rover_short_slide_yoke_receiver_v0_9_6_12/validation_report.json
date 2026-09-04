@@ -1,0 +1,1397 @@
+{
+  "classification": "SHORT_SLIDE_YOKE_RECEIVER_FINALIZATION",
+  "gates": {
+    "belt": "HOLD",
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_HEX_YOKE_AND_SHORT_SLIDE_PASSES",
+    "full_torque": "HOLD",
+    "hex_nut_seat": "READY_FOR_COUPON",
+    "mud": "HOLD",
+    "powered": "NOT_YET_APPROVED",
+    "shaft_cut": "HOLD",
+    "short_slide": "READY_FOR_PHYSICAL_TEST",
+    "water": "HOLD",
+    "y3_height": "PROMISING_PHYSICAL_FIT",
+    "yoke_receiver_width": "PENDING_PHYSICAL_COUPON"
+  },
+  "geometry": {
+    "all_primary_valid": true,
+    "cap_bounds_mm": [
+      54.0,
+      54.0,
+      13.7
+    ],
+    "cap_solids": 1,
+    "coupon_solids": {
+      "hex": 9,
+      "short_slide": 2,
+      "yoke_receiver": 12
+    },
+    "endpoint_all_zero": true,
+    "endpoint_intersections": {
+      "cap_crawler_space_mm3": 0.0,
+      "crawler_reference_cap_mm3": 0.0,
+      "crawler_reference_guard_mm3": 0.0,
+      "crawler_reference_m3_mm3": 0.0,
+      "crawler_reference_receiver_mm3": 0.0,
+      "guard_frame_mm3": 0.0,
+      "m3_crawler_space_mm3": 0.0,
+      "m3_guard_mm3": 0.0,
+      "m3_m4_mm3": 0.0,
+      "m3_yokes_mm3": 0.0,
+      "main_crawler_space_mm3": 0.0,
+      "receiver_crawler_space_mm3": 0.0,
+      "yoke1_cap_mm3": 0.0,
+      "yoke1_collar_mm3": 0.0,
+      "yoke1_m4_mm3": 0.0,
+      "yoke1_main_mm3": 0.0,
+      "yoke2_cap_mm3": 0.0,
+      "yoke2_collar_mm3": 0.0,
+      "yoke2_m4_mm3": 0.0,
+      "yoke2_main_mm3": 0.0
+    },
+    "frame_clearance_measured_mm": 4.4,
+    "main_bounds_mm": [
+      76.94,
+      76.94,
+      48.0
+    ],
+    "main_solids": 1,
+    "motion": {
+      "hook_overlap_nominal_mm": 3.0,
+      "hook_overlap_residual_s45_mm": 2.55,
+      "lock_concentric_error_mm": 0.0,
+      "max_unintended_intersection_mm3": 0.0,
+      "method": "CADQUERY_COMMON_VOLUME_13_SAMPLE_0P25MM_FULL_3MM_SWEEP",
+      "open_offset_mm": 3.0,
+      "sample_count": 13,
+      "samples": [
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.0
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.25
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.5
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.75
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.0
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.25
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.5
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.75
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.0
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.25
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.5
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.75
+        },
+        {
+          "cap_collar_mm3": 0.0,
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_m4_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_running_space_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 3.0
+        }
+      ],
+      "swept_path_pass": true
+    },
+    "protected_external_missing_mm3": 0.0,
+    "support_free_internal_volume_mm3": 0.0,
+    "support_free_long_trapped_region_count": 0,
+    "y3_bounds_mm": [
+      15.0,
+      15.2,
+      12.0
+    ],
+    "y3_volume_mm3": 2212.752,
+    "yoke_insertion": {
+      "cap_present_path_intersection_mm3": 556.05,
+      "cap_removal_required": true,
+      "insertion_removal_pass_with_cap_removed": true,
+      "max_unintended_intersection_cap_removed_mm3": 0.0,
+      "method": "CADQUERY_COMMON_VOLUME_55_SAMPLE_0P5MM_AXIAL_INSERT_REMOVE_EACH_Y3",
+      "sample_count_per_yoke": 55,
+      "samples": [
+        {
+          "axial_offset_mm": 0.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 0.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 1.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 1.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 2.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 2.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 3.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 3.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 4.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 4.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 5.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 5.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 6.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 6.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 7.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 7.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 8.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 8.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 9.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 9.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 10.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 10.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 11.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 11.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 12.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 12.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 13.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 13.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 14.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 14.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 15.0,
+          "cap_if_not_removed_mm3": 40.44,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 15.5,
+          "cap_if_not_removed_mm3": 90.99,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 16.0,
+          "cap_if_not_removed_mm3": 141.54,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 16.5,
+          "cap_if_not_removed_mm3": 192.09,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 17.0,
+          "cap_if_not_removed_mm3": 242.64,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 17.5,
+          "cap_if_not_removed_mm3": 293.19,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 18.0,
+          "cap_if_not_removed_mm3": 343.74,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 18.5,
+          "cap_if_not_removed_mm3": 394.29,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 19.0,
+          "cap_if_not_removed_mm3": 444.84,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 19.5,
+          "cap_if_not_removed_mm3": 495.39,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 20.0,
+          "cap_if_not_removed_mm3": 545.94,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 20.5,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 21.0,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 21.5,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 22.0,
+          "cap_if_not_removed_mm3": 553.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 22.5,
+          "cap_if_not_removed_mm3": 550.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 23.0,
+          "cap_if_not_removed_mm3": 547.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 23.5,
+          "cap_if_not_removed_mm3": 544.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 24.0,
+          "cap_if_not_removed_mm3": 541.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 24.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 25.0,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 25.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 26.0,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 26.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 27.0,
+          "cap_if_not_removed_mm3": 497.61,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 1
+        },
+        {
+          "axial_offset_mm": 0.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 0.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 1.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 1.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 2.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 2.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 3.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 3.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 4.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 4.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 5.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 5.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 6.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 6.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 7.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 7.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 8.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 8.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 9.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 9.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 10.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 10.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 11.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 11.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 12.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 12.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 13.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 13.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 14.0,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 14.5,
+          "cap_if_not_removed_mm3": 0.0,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 15.0,
+          "cap_if_not_removed_mm3": 40.44,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 15.5,
+          "cap_if_not_removed_mm3": 90.99,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 16.0,
+          "cap_if_not_removed_mm3": 141.54,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 16.5,
+          "cap_if_not_removed_mm3": 192.09,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 17.0,
+          "cap_if_not_removed_mm3": 242.64,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 17.5,
+          "cap_if_not_removed_mm3": 293.19,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 18.0,
+          "cap_if_not_removed_mm3": 343.74,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 18.5,
+          "cap_if_not_removed_mm3": 394.29,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 19.0,
+          "cap_if_not_removed_mm3": 444.84,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 19.5,
+          "cap_if_not_removed_mm3": 495.39,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 20.0,
+          "cap_if_not_removed_mm3": 545.94,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 20.5,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 21.0,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 21.5,
+          "cap_if_not_removed_mm3": 556.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 22.0,
+          "cap_if_not_removed_mm3": 553.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 22.5,
+          "cap_if_not_removed_mm3": 550.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 23.0,
+          "cap_if_not_removed_mm3": 547.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 23.5,
+          "cap_if_not_removed_mm3": 544.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 24.0,
+          "cap_if_not_removed_mm3": 541.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 24.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 25.0,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 25.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 26.0,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 26.5,
+          "cap_if_not_removed_mm3": 538.05,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        },
+        {
+          "axial_offset_mm": 27.0,
+          "cap_if_not_removed_mm3": 497.61,
+          "headed_m4_mm3": 0.0,
+          "m3_bridge_hardware_mm3": 0.0,
+          "new_receiver_main_mm3": 0.0,
+          "slide_receiver_mass_mm3": 0.0,
+          "washer_collar_mm3": 0.0,
+          "yoke": 2
+        }
+      ]
+    },
+    "yoke_receiver_variants": {
+      "YW20": {
+        "installed_intersection_mm3": 0.0,
+        "nominal_total_width_clearance_mm": 0.2,
+        "pocket_valid": true,
+        "receiver_width_mm": 15.4,
+        "same_y3_geometry": true,
+        "y3_bounds_mm": [
+          15.0,
+          15.2,
+          12.0
+        ],
+        "y3_volume_mm3": 2212.752
+      },
+      "YW30": {
+        "installed_intersection_mm3": 0.0,
+        "nominal_total_width_clearance_mm": 0.3,
+        "pocket_valid": true,
+        "receiver_width_mm": 15.5,
+        "same_y3_geometry": true,
+        "y3_bounds_mm": [
+          15.0,
+          15.2,
+          12.0
+        ],
+        "y3_volume_mm3": 2212.752
+      },
+      "YW40": {
+        "installed_intersection_mm3": 0.0,
+        "nominal_total_width_clearance_mm": 0.4,
+        "pocket_valid": true,
+        "receiver_width_mm": 15.6,
+        "same_y3_geometry": true,
+        "y3_bounds_mm": [
+          15.0,
+          15.2,
+          12.0
+        ],
+        "y3_volume_mm3": 2212.752
+      }
+    }
+  },
+  "guard": "THICK_ROOT_9MM_SELECTED",
+  "holds": [
+    "FINAL_HEX_SIZE",
+    "NUT_THICKNESS",
+    "FINAL_RECEIVER_WIDTH",
+    "FULL_Y3_PASS",
+    "FULL_12T",
+    "FULL_TORQUE",
+    "BELT",
+    "SHAFT_CUT",
+    "WATER",
+    "MUD",
+    "FIELD"
+  ],
+  "long_receiver": "SUPERSEDED_PRINTABILITY_FAIL_FOR_FINAL_USE",
+  "open_hex": "READY_FOR_H55_H56_H57_COUPON",
+  "result": "SHORT_SLIDE_YOKE_RECEIVER_INTEGRATION_COMPLETE",
+  "short_slide": "S45_SHORT_SLIDE_READY_FOR_PHYSICAL_TEST",
+  "slide_lock": "HYBRID_SLIDE_LOCK_PRINCIPLE_PHYSICAL_PASS_RECORDED",
+  "version": "v0.9.6.12",
+  "y3": "HEIGHT_PROMISING_RECEIVER_WIDTH_PENDING"
+}

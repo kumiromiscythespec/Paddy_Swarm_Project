@@ -1,0 +1,48 @@
+{
+  "adopted_geometry": "MEASURED_140MM_CLEAR_REFERENCE_ONLY",
+  "decision": "FRAME_MOUNT_INTERFACE_HOLD_TRAY_ONLY_FIT_PROTOTYPE",
+  "new_holes": 0,
+  "new_m5_slots": 0,
+  "not_proven": [
+    "FINAL_FASTENER_CENTERS",
+    "FINAL_RAIL_SKID_Z",
+    "PRIMARY_LOCK",
+    "SAFETY_PIN",
+    "DRY_TRAY_LOAD_BEARING_CONTACT"
+  ],
+  "proven": {
+    "insertion_height_mm": 108.0,
+    "lower_clear_mm": [
+      400.0,
+      140.0
+    ],
+    "lower_outer_mm": [
+      442.0,
+      181.0
+    ],
+    "pitch_and_slide_concept": true,
+    "rail_candidates_mm": [
+      130.0,
+      132.0,
+      134.0
+    ]
+  },
+  "sources": [
+    {
+      "path": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BBOX_RAIL_INTERFACE.md",
+      "sha256": "f7154b1d09fdda4dc7b4b4d54c4144e3344b046b8dcf55f5b926105b6489e4ae"
+    },
+    {
+      "path": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BBOX_WEAR_PAD.md",
+      "sha256": "28445cce67e563756dfb5889f413d138a09d592a6f2e10211edcae3d66c3acf7"
+    },
+    {
+      "path": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/interfaces.json",
+      "sha256": "abb941a42f0713cae09a5636d8f8c99e80a927d6dc61bceba9b2d9287c9bb2da"
+    },
+    {
+      "path": "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/design_parameters.json",
+      "sha256": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271"
+    }
+  ]
+}

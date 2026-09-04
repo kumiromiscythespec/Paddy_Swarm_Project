@@ -1,0 +1,135 @@
+{
+  "Y3": {
+    "YW30_receiver_width_mm": 15.5,
+    "cap_removal_for_service": true,
+    "full_physical_fit": "HOLD",
+    "height_mm": 3.7,
+    "m4_head_top_mm": 4.3,
+    "vertical_margin_mm": 0.6
+  },
+  "classification": "GUARD_FREE_TRUE_OPEN_BOTTOM_DRIVE_12T",
+  "dual_l": {
+    "clearance_mm": 0.45,
+    "engagement_width_mm": 12.0,
+    "hook_count": 2,
+    "hook_root_mm": 6.0,
+    "hook_root_radius_mm": 2.0,
+    "hook_thickness_mm": 4.0,
+    "minimum_overlap_mm": 2.5,
+    "nominal_overlap_mm": 2.75,
+    "opposed_deg": 180.0,
+    "receiver_count": 2,
+    "slide_travel_mm": 3.0,
+    "stop_key": "EXTERNAL_REMOVABLE_REVERSE_SLIDE_BLOCK_NON_TORQUE"
+  },
+  "firewall": {
+    "H9_guard_feature_count": 0,
+    "R1_crawler_guard_top_count": 0,
+    "R3_crawler_guard_gusset_count": 0,
+    "crawler_guard_dependency_count": 0,
+    "crawler_guard_geometry_count": 0,
+    "crawler_guard_test": "OUT_OF_SCOPE",
+    "root6_crawler_guard_feature_count": 0,
+    "tooth_aligned_guard_segment_count": 0,
+    "upper5_guard_feature_count": 0
+  },
+  "gates": {
+    "Y3_full_fit": "HOLD",
+    "belt_side_entry": "HOLD",
+    "dual_l_vibration_life": "HOLD",
+    "field": "HOLD",
+    "full_drivetrain_torque": "HOLD",
+    "mud": "HOLD",
+    "physical_print": "ONE_MAIN_12T_READY_FOR_PHYSICAL_PRINT",
+    "powered": "NOT_APPROVED",
+    "powered_belt": "HOLD",
+    "shaft_cut_length": "HOLD",
+    "spoke_full_load_strength": "HOLD",
+    "stop_key_life": "HOLD",
+    "water": "HOLD"
+  },
+  "hardware": {
+    "B_collar_pocket_diameter_mm": 16.2,
+    "B_hardware_cavity_radius_mm": 20.4,
+    "grub_screw_count": 0,
+    "headed_m4_count": 2,
+    "headed_m4_separation_deg": 90.0,
+    "m3_bridge_count": 0,
+    "m3_count": 0,
+    "nut_count": 0,
+    "nut_seat_count": 0,
+    "washer_count": 0
+  },
+  "parent_lane": "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16",
+  "pitch": {
+    "difference_mm": 0.0,
+    "physical_result": "PHYSICAL_MATCH",
+    "spacing_difference_deg": 0.0,
+    "status": "FROZEN"
+  },
+  "printability": {
+    "adhesion": "USE_BAMBU_STUDIO_BRIM_IF_REQUIRED",
+    "circular_adhesion_flange_forbidden": true,
+    "long_enclosed_support": false,
+    "material": "PETG",
+    "printer": "BAMBU_A1",
+    "slicer": "HOLD_SLICER_NOT_RUN",
+    "trapped_support": false
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "protected_v09617_entry_tree": {
+    "files": 33,
+    "sha256": "0265438fd9714faf7291544e3604e0e208719a83699dbf3f244c5009862e2a75"
+  },
+  "radial_authority": {
+    "corner_derivation": "hypot(33.07,3.75)",
+    "exact_protected_tip_corner_radius_mm": 33.281938045,
+    "nominal_tip_face_radius_mm": 33.07,
+    "old_segment_detector_threshold_mm": 33.3,
+    "policy": "PROTECTED_TOOTH_CORNERS_ARE_CLASS_A; UNEXPLAINED_MATERIAL_MUST_BE_ZERO",
+    "review_threshold_mm": 33.2
+  },
+  "spokes": {
+    "count": 6,
+    "explicit_root_fillet_mm": 0.0,
+    "minimum_section_mm": 8.0,
+    "radial_length_mm": 6.2,
+    "root_note": "NO_NEW_FILLET; BROAD 8x44 SECTION; FULL_LOAD_STRENGTH_HOLD",
+    "tangential_width_mm": 8.0
+  },
+  "true_open_bottom": {
+    "belt_side_entry": "OPEN_CANDIDATE",
+    "continuous_lower_ring": false,
+    "lower_annular_flange_count": 0,
+    "minimum_z_rule_mm": -22.05,
+    "near_bottom_z_mm": [
+      -21.75,
+      -21.5,
+      -21.25
+    ],
+    "old_section_z_mm": [
+      -25.5,
+      -24.5,
+      -23.5,
+      -22.5
+    ],
+    "physical_belt_result": "HOLD",
+    "preferred_z_min_mm": -22.0
+  },
+  "units": "mm",
+  "version": "v0.9.6.18"
+}

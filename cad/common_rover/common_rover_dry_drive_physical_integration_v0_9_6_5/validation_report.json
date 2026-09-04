@@ -1,0 +1,94 @@
+{
+  "battery_carrier": "CAD_COMPLETE_PHYSICAL_FIT_PENDING",
+  "field_deployment": "NOT_APPROVED",
+  "full_capture_cage": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING",
+  "geometry": {
+    "all_primary_shapes_valid": true,
+    "battery_bounds_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "battery_terminal_to_rail_min_adjusted_clearance_mm": 0.3,
+    "battery_terminal_to_rail_nominal_clearance_mm": 2.3,
+    "battery_to_carrier_intersection_mm3": 0.0,
+    "battery_to_upper_rail_intersection_mm3": 0.0,
+    "carrier_bounds_mm": [
+      159.5,
+      116.0,
+      22.0
+    ],
+    "carrier_solid_count": 1,
+    "carrier_to_idler_datum_min_adjusted_clearance_mm": 0.3,
+    "carrier_to_idler_datum_nominal_clearance_mm": 2.3,
+    "carrier_to_idler_observation_plane_intersection_mm3": 0.0,
+    "collar_removable": true,
+    "collar_sprocket_intersection_mm3": 0.0,
+    "coupon_solid_count": 3,
+    "full_capture_back_axial_support_present": true,
+    "full_capture_circumferential_support_present": true,
+    "full_capture_front_retainer_present": true,
+    "hardware_sprocket_intersection_mm3": 0.0,
+    "m4_head_point_only_petg_reaction": false,
+    "protected_root_void_intersection_mm3": 0.0,
+    "rail_bounds_mm": [
+      20.0,
+      181.0,
+      20.0
+    ],
+    "reaction_area_each_mm2": 52.8,
+    "reaction_shoes_replaceable": true,
+    "retainer_axial_only": true,
+    "retainer_hardware_intersection_mm3": 0.0,
+    "retainer_shoe_a_intersection_mm3": 0.0,
+    "retainer_shoe_b_intersection_mm3": 0.0,
+    "retainer_sprocket_intersection_mm3": 0.0,
+    "saddle_rail_nominal_face_clearance_mm": 0.2,
+    "service_tool_retainer_intersection_mm3": 0.0,
+    "service_tool_sprocket_intersection_mm3": 0.0,
+    "shoe_a_hardware_intersection_mm3": 0.0,
+    "shoe_a_sprocket_intersection_mm3": 0.0,
+    "shoe_b_hardware_intersection_mm3": 0.0,
+    "shoe_b_sprocket_intersection_mm3": 0.0,
+    "shoes_mutual_intersection_mm3": 0.0,
+    "spacer_3_bounds_mm": [
+      13.8,
+      13.8,
+      3.0
+    ],
+    "spacer_4_bounds_mm": [
+      13.8,
+      13.8,
+      4.0
+    ],
+    "spacer_5_bounds_mm": [
+      13.8,
+      13.8,
+      5.0
+    ],
+    "spacer_housing_intersection_mm3": 0.0,
+    "spacer_inner_race_intersection_mm3": 0.0,
+    "spacer_to_inner_race_axial_gap_mm": 0.0,
+    "sprocket_bounds_mm": [
+      65.827,
+      65.827,
+      44.0
+    ],
+    "sprocket_solid_count": 1
+  },
+  "h25a1_m4_retention": "PHYSICAL_PASS_USER_REPORTED",
+  "idler_clearance": "PHYSICAL_PENDING",
+  "known_collision_zero": true,
+  "powered_bench": "NOT_YET_APPROVED",
+  "result": "CAD_COMPLETE_PHYSICAL_COUPONS_AND_MEASUREMENTS_PENDING",
+  "shaft_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+  "unknown_global_collisions": [
+    "BATTERY_VS_EXACT_IDLER_SHAFT",
+    "STRAP_TAIL_VS_ROTATING_SHAFT",
+    "CABLE_ZONE_VS_CRAWLER",
+    "BATTERY_CARRIER_VS_DRIVE_SHAFT",
+    "12T_VS_GLOBAL_FRAME",
+    "CRAWLER_GUIDE_VS_GLOBAL_FRAME"
+  ],
+  "version": "v0.9.6.5"
+}

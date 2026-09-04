@@ -1,0 +1,144 @@
+{
+  "classification": "CRAWLER_LINK_ANTI_DERAIL_GUARD",
+  "output": {
+    "material": "PETG",
+    "powered_rotation": "NOT_APPROVED_BY_THIS_LANE",
+    "print_quantity": 1,
+    "printer": "Bambu A1",
+    "step_count": 0,
+    "step_status": "HOLD_SOURCE_IS_MESH",
+    "stl_count": 1,
+    "svg_count": 7
+  },
+  "physical_authority": {
+    "connector_protrusion_mm": 5.1,
+    "current_guard_status": "PHYSICAL_ANTI_CLIMB_FAIL",
+    "current_root_status": "PHYSICAL_BREAKAGE_RECORDED",
+    "failed_root_thickness_mm": 4.0,
+    "frame_clearance_with_8mm_spacer_mm": 4.4,
+    "max_lateral_shift_mm": 1.8,
+    "old_guard_height_mm": 6.0,
+    "old_height_margin_mm": 0.9,
+    "old_wall_thickness_mm": 4.0
+  },
+  "reinforced_design": {
+    "design_count": 1,
+    "frame_clearance_hard_min_mm": 3.0,
+    "frame_facing_y_mm": [
+      -27.0,
+      27.0
+    ],
+    "guard_count": 2,
+    "guard_height_mm": 9.0,
+    "nominal_connector_margin_mm": 3.9,
+    "outboard_frame_side_delta_mm": 0.0,
+    "predicted_frame_clearance_mm": 4.4,
+    "print_bed_translation_z_mm": 3.0,
+    "root_apron": "R3-class arc from (Y=21,Z=3) to (Y=18,Z=6)",
+    "root_fillet_class_mm": 3.0,
+    "root_land_positive_yz_mm": [
+      [
+        21,
+        3
+      ],
+      [
+        27,
+        3
+      ],
+      [
+        27,
+        6.2
+      ],
+      [
+        21,
+        6.2
+      ]
+    ],
+    "root_min_thickness_mm": 6.0,
+    "selection": "THICK_ROOT_ONLY",
+    "source_guard_regions_mm": [
+      {
+        "x": [
+          -4.0,
+          4.0
+        ],
+        "y": [
+          23.0,
+          27.0
+        ],
+        "z": [
+          0.0,
+          9.0
+        ]
+      },
+      {
+        "x": [
+          -4.0,
+          4.0
+        ],
+        "y": [
+          -27.0,
+          -23.0
+        ],
+        "z": [
+          0.0,
+          9.0
+        ]
+      }
+    ],
+    "top_edge_class_mm": 1.0,
+    "upper_profile_positive_yz_mm": [
+      [
+        23,
+        -3
+      ],
+      [
+        26,
+        -3
+      ],
+      [
+        27,
+        -2
+      ],
+      [
+        27,
+        3
+      ],
+      [
+        22,
+        3
+      ],
+      [
+        22,
+        -2
+      ]
+    ],
+    "upper_thickness_mm": 5.0
+  },
+  "source": {
+    "datum_relationship": "UNRESOLVED",
+    "expected_bounds_mm": [
+      [
+        -15.9984788895,
+        -27.0,
+        0.0
+      ],
+      [
+        15.9984788895,
+        27.0,
+        21.75
+      ]
+    ],
+    "expected_extents_mm": [
+      31.996957779,
+      54.0,
+      21.75
+    ],
+    "physical_link_body_height_mm": 24.1,
+    "repository_path": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl",
+    "requested_filename": "STANDARD_V0125_WIDE_46_LINK(2).stl",
+    "scale_applied": 1.0,
+    "sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a"
+  },
+  "version": "v0.9.6.17"
+}

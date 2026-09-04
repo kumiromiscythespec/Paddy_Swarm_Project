@@ -1,0 +1,19 @@
+{
+  "actual_link_instances": 12,
+  "angular_coverage_deg": 360.0,
+  "anti_derail_guide_intersection_mm3": 0,
+  "evaluated_unique_boolean_pose_count": 1,
+  "intended_body_root_tangent_clearance_mm": 0.0,
+  "maximum_bearing_intersection_mm3": 0,
+  "maximum_body_bridge_intersection_mm3": 0,
+  "maximum_shaft_intersection_mm3": 0,
+  "maximum_whole_idler_intersection_mm3": 0,
+  "method": "ONE_ACTUAL_REINFORCED_LINK_SOLID_BOOLEAN_MAPPED_BY_EXACT_12FOLD_30_DEG_PERIODICITY_TO_ALL_360_DEG_STATES",
+  "minimum_body_bridge_clearance_mm": 0.0,
+  "minimum_intended_tooth_clearance_mm": 1.0,
+  "minimum_non_intended_clearance_mm": 1.19386,
+  "minimum_non_intended_tooth_clearance_mm": 1.19386,
+  "minimum_whole_idler_clearance_mm": 0.0,
+  "side_guide_status": "PASS_NO_NON_INTENDED_INTERSECTION",
+  "status": "PASS"
+}

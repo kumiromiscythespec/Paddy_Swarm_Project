@@ -1,0 +1,31 @@
+{
+  "classification": "D_CUT_SHAFT_COLLAR_TORQUE_SCREEN",
+  "collar": {
+    "m4_count": 2,
+    "m4_head_od_mm": 8.8,
+    "od_mm": 15.8,
+    "width_mm": 5.8
+  },
+  "d_flat_axial_length_mm": 10.0,
+  "d_flat_depths_mm": {
+    "D03": 0.3,
+    "D05": 0.5,
+    "D07": 0.7
+  },
+  "fixture": {
+    "collar_service_pocket_mm": 16.6,
+    "root_fillet_mm": 4.0,
+    "root_width_mm": 30.0,
+    "shaft_guide_mm": 10.8,
+    "thickness_mm": 14.0
+  },
+  "load_radii_mm": [
+    100.0,
+    150.0,
+    200.0
+  ],
+  "shaft_mm": 10.0,
+  "status": "D_CUT_SHAFT_COLLAR_TORQUE_COUPON_CAD_COMPLETE/BLOCKER_1_DRIVETRAIN_TORQUE_TRANSMISSION_TARGETED/D03_D05_D07_READY/2NM_TORQUE_FIXTURE_READY/PHYSICAL_TORQUE_TEST_REQUIRED/CRAWLER_GEOMETRY_UNCHANGED/BBOX_GEOMETRY_UNCHANGED/FULL_60T_PRINT_HOLD/TORQUE_PASS_NOT_YET_GRANTED/COMMIT_READY_NOT_STAGED",
+  "torque_contract_nm": 2.0,
+  "version": "v0.9.6.28"
+}

@@ -1,0 +1,62 @@
+{
+  "bearing_contact": "INNER_RACE_FACE_ONLY_REFERENCE_ZERO_INTERSECTION_AT_CONTACT_FACE",
+  "field_deployment": "NOT_APPROVED",
+  "frame_check": "HOLD_GLOBAL_POSITION_USE_PHYSICAL_4MM_GATE",
+  "full_drive_torque": "NOT_QUALIFIED",
+  "geometry": {
+    "actual_hardware_key_a_intersection_mm3": 0.0,
+    "actual_hardware_key_b_intersection_mm3": 0.0,
+    "actual_hardware_sprocket_intersection_mm3": 0.0,
+    "axial_collars_housing_intersection_mm3": 0.0,
+    "collar_sprocket_intersection_mm3": 0.0,
+    "full_hardware_envelope_bounds_mm": [
+      40.0,
+      40.0,
+      8.8
+    ],
+    "key_a_sprocket_intersection_mm3": 0.0,
+    "key_b_sprocket_intersection_mm3": 0.0,
+    "key_mutual_intersection_mm3": 0.0,
+    "keys_valid": true,
+    "kp000_set_screw_radial_clearance_mm": 1.1,
+    "protected_root_hardware_intersection_mm3": 0.0,
+    "protected_root_void_intersection_mm3": 0.0,
+    "service_channel_axial_clearance_mm": 26.6,
+    "service_channel_radial_reach_mm": 20.0,
+    "shaft_sprocket_clearance_diametral_mm": 0.3,
+    "spacer_3_bounds_mm": [
+      13.8,
+      13.8,
+      3.0
+    ],
+    "spacer_4_bounds_mm": [
+      13.8,
+      13.8,
+      4.0
+    ],
+    "spacer_5_bounds_mm": [
+      13.8,
+      13.8,
+      5.0
+    ],
+    "spacer_housing_intersection_mm3": 0.0,
+    "spacer_inner_race_intersection_mm3": 0.0,
+    "spacer_radial_margin_to_inner_race_mm": 0.2,
+    "spacer_to_inner_race_axial_gap_mm": 0.0,
+    "spacers_valid": true,
+    "sprocket_bounds_mm": [
+      65.827,
+      65.827,
+      44.0
+    ],
+    "sprocket_solid_count": 1,
+    "sprocket_to_frame": "HOLD_GLOBAL_FRAME_POSITION_PHYSICAL_SPACER_GATE",
+    "sprocket_valid": true
+  },
+  "powered_rotation": "NOT_APPROVED",
+  "protected_external_delta_mm": 0.0,
+  "result": "CAD_COMPLETE_SPACER_PHYSICAL_GATE_PENDING",
+  "split_teeth": false,
+  "tooth_root_service_holes": 0,
+  "version": "v0.9.6.4"
+}

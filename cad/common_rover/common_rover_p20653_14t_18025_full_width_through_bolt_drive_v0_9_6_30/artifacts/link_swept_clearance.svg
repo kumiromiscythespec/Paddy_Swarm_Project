@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#fbfaf6"/><style>text{font-family:Arial,sans-serif;fill:#17252a} .t{font-size:32px;font-weight:bold} .m{font-size:21px} .s{fill:none;stroke:#264653;stroke-width:5} .a{fill:none;stroke:#e76f51;stroke-width:5} .g{fill:none;stroke:#2a9d8f;stroke-width:5} .d{stroke-dasharray:12 8}</style>
+<text x="55" y="55" class="t">Exact link swept-envelope clearance</text><circle cx="600" cy="350" r="260" class="g"/><circle cx="600" cy="350" r="286.3" class="a d"/><text x="250" y="610" class="m">non-contact ring clearance 0.877 mm = HARD PASS / 1.0 target miss</text><text x="55" y="670" class="m">v0.9.6.30 · PROVISIONAL · NOT FIELD AUTHORITY</text></svg>

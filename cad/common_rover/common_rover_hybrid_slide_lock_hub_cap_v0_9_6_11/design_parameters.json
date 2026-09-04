@@ -1,0 +1,267 @@
+{
+  "cap": {
+    "lock_end_shaft_seat": true,
+    "lock_position_centered": true,
+    "open_position_eccentric": true,
+    "outer_diameter_mm": 54.0,
+    "primary_torque_path": false,
+    "service_motion_slot_mm": 5.0,
+    "snap_fingers": 0,
+    "thickness_mm": 5.5
+  },
+  "classification": "HYBRID_SLIDE_LOCK_HUB_CAP",
+  "clearance_coupon": {
+    "design_primary": "S35",
+    "labels_embossed": true,
+    "physical_selection": "TIGHTEST_RELIABLE_SLIDING_FIT_PENDING",
+    "retention_by_friction": false,
+    "variants_mm": {
+      "S25": 0.25,
+      "S35": 0.35,
+      "S45": 0.45
+    }
+  },
+  "collar": {
+    "id_mm": 10.1,
+    "od_mm": 15.9,
+    "width_mm": 3.0
+  },
+  "full_capture": {
+    "A": "REJECT_TOO_TIGHT",
+    "B": "PHYSICAL_PRIMARY_PASS",
+    "C": "REJECT_TOO_LOOSE",
+    "collar_pocket_diameter_mm": 16.2,
+    "hardware_cavity_radius_mm": 20.4,
+    "selected": "B"
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_REACTION_YOKE_AND_SLIDE_LOCK_COUPON",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_YET_APPROVED",
+    "reaction_yoke": "PHYSICAL_PASS_REQUIRED",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "slide_lock_coupon": "READY_FOR_PHYSICAL_COUPON",
+    "water": "NOT_APPROVED"
+  },
+  "guard": {
+    "allowed_upper_wall_mm": [
+      4.5,
+      5.0
+    ],
+    "connector_max_protrusion_mm": 5.1,
+    "connector_vertical_margin_mm": 3.9,
+    "current_height_mm": 6.0,
+    "current_margin_class": "INSUFFICIENT",
+    "current_vertical_margin_mm": 0.9,
+    "current_wall_mm": 4.0,
+    "dynamic_pass": false,
+    "failed_root_mm": 4.0,
+    "frame_clearance_measured_mm": 4.4,
+    "frame_clearance_target_mm": 4.0,
+    "frame_facing_surface": "AXIAL_POSITION_FROZEN",
+    "frame_facing_surface_z_mm": -26.0,
+    "lateral_shift_static_path": "NO_DIRECT_PATH_OVER_9MM_TOP_CAD_REFERENCE",
+    "link_body_height_mm": 24.1,
+    "link_facing_wall": "NEAR_VERTICAL_NO_INWARD_RAMP",
+    "max_lateral_shift_mm": 1.8,
+    "new_height_mm": 9.0,
+    "preserved_from": "v0.9.6.9",
+    "root_gusset_class": "R3_CLASS",
+    "root_gusset_radial_run_mm": 3.0,
+    "root_mm": 6.0,
+    "selected_upper_wall_mm": 5.0,
+    "top_edge_radius_mm": 1.0
+  },
+  "hook": {
+    "broad": true,
+    "center_radius_mm": 21.5,
+    "engagement_overlap_nominal_mm": 3.0,
+    "engagement_width_mm": 12.0,
+    "flexure_required": false,
+    "primary_axial_retention_hook_side": true,
+    "primary_torque_path": false,
+    "receiver_lip_thickness_mm": 4.0,
+    "rigid": true,
+    "root_fillet_mm": 2.0,
+    "root_thickness_mm": 6.0,
+    "short": true,
+    "structural_thickness_mm": 4.0
+  },
+  "m4": {
+    "count": 2,
+    "full_radial_envelope_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "qualification": "1.0KG_AT_70MM_24H_NO_SHAFT_SHIFT",
+    "separation_deg": 90.0,
+    "type": "HEADED_M4",
+    "unchanged": true,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "mechanism": {
+    "adhesive": false,
+    "final_concentric": true,
+    "full_body_m3": false,
+    "hard_stop": true,
+    "hidden_captive_nut": false,
+    "l_hook_count": 1,
+    "linear_slide": true,
+    "m3_count": 1,
+    "name": "RIGID_L_HOOK_RECEIVER_POSITIVE_SLIDE_LOCK",
+    "petg_thread": false,
+    "receiver": true,
+    "rigid_hook": true,
+    "snap_hook": false,
+    "spring_finger": false
+  },
+  "motion": {
+    "comparison_mm": [
+      4.0,
+      5.0,
+      6.0
+    ],
+    "lock_cap_eccentric_mm": 0.0,
+    "lock_end_shaft_seat_axis_error_mm": 0.0,
+    "m3_alignment_lock": true,
+    "m3_alignment_open": false,
+    "m3_open_misalignment_mm": 5.0,
+    "open_cap_eccentric_allowed": true,
+    "open_cap_offset_mm": 5.0,
+    "sample_count": 21,
+    "shaft_service_slot_required": true,
+    "slide_primary_mm": 5.0
+  },
+  "orientation": {
+    "cad_primary": "LOCK_A",
+    "mechanical_design_difference": false,
+    "mirrored_candidates": {
+      "LOCK_A": {
+        "hook_angle_deg": 225.0,
+        "keep_m3_angle_deg": 45.0
+      },
+      "LOCK_B": {
+        "hook_angle_deg": 45.0,
+        "keep_m3_angle_deg": 225.0
+      }
+    },
+    "selection_basis": [
+      "CRAWLER_RUNNING_CLEARANCE",
+      "YOKE_CLEARANCE",
+      "REAR_NUT_ACCESS",
+      "M4_SERVICE_ACCESS",
+      "GUARD_CLEARANCE"
+    ],
+    "user_view_mapping": "AMBIGUOUS_NOT_GUESSED"
+  },
+  "pitch": {
+    "difference_mm": 0.0,
+    "physical_result": "PHYSICAL_MATCH",
+    "spacing_difference_deg": 0.0,
+    "status": "FROZEN"
+  },
+  "printability": {
+    "coupon_orientation": "HOOK_ON_SIDE_RECEIVER_WINDOW_UP",
+    "full_12t_step_mark": "DO_NOT_PRINT_UNTIL_SLIDE_LOCK_COUPON_PASS",
+    "full_12t_stl_generated": false,
+    "hook_root_crosses_multiple_extrusion_paths": true,
+    "material": "PETG",
+    "printer": "BAMBU_A1",
+    "slicer_verification_required": true,
+    "support_free_candidate": true
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "reaction_yoke": {
+    "architecture": "LOW_PROFILE_U_SHAPED_REACTION_BRIDGE",
+    "design_primary_bridge_mm": 3.5,
+    "direct_overlap_max_mm": 3.7,
+    "hammer_required": false,
+    "insertion": "FRONT_AXIAL_PRESENTATION_THEN_SHORT_RADIAL_SEATING_SLIDE",
+    "low_profile_bridge": true,
+    "physical_selection": "THICKEST_RELIABLE_FIT_PENDING",
+    "positive_stop": true,
+    "preserved_from": "v0.9.6.9",
+    "primary_torque_path": true,
+    "quantity_per_sprocket": 2,
+    "removable": true,
+    "roof_role": "RETENTION_AND_GEOMETRY_BRIDGE_NOT_SOLE_TORQUE_MEMBER",
+    "service_notch": true,
+    "side_shoulders": "THICK_BROAD_REACTION_SURFACES",
+    "solid_overhead_block": false,
+    "variant_remaining_clearance_mm": {
+      "Y1": 1.0,
+      "Y2": 0.8,
+      "Y3": 0.6
+    },
+    "variants_mm": {
+      "Y1": 3.3,
+      "Y2": 3.5,
+      "Y3": 3.7
+    }
+  },
+  "receiver": {
+    "entry_opening": true,
+    "positive_final_stop": true,
+    "restored_opposite_local_bridge": true,
+    "restored_opposite_m3_hole": true,
+    "restored_opposite_service_window": true,
+    "root_mass_min_mm": 6.0,
+    "sliding_channel": true,
+    "undercut_lip": true,
+    "unnecessary_circular_void": false
+  },
+  "single_m3": {
+    "cap_thickness_mm": 5.5,
+    "count": 1,
+    "hidden_captive_nut": false,
+    "hole_diameter_mm": 3.4,
+    "local_bridge_thickness_mm": 7.0,
+    "overall_reference_mm": 27.9,
+    "petg_stack_mm": 12.5,
+    "petg_thread": false,
+    "physical_stack": "HOLD",
+    "primary_torque_path": false,
+    "rear_nut": true,
+    "rear_visible_accessible_removable": true,
+    "rear_washer": true,
+    "remaining_hardware_budget_mm": 8.0,
+    "role": "ANTI_REVERSE_SLIDE_AND_OPPOSITE_AXIAL_RETENTION_LOCK_INDICATOR",
+    "under_head_usable_length_mm": 20.5
+  },
+  "spacer": {
+    "chamfer_mm": 0.35,
+    "clearance_class": "PHYSICAL_MEASURED_4P4MM",
+    "frame_guard_clearance_mm": 4.4,
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "other_checks": "PHYSICAL_PENDING",
+    "thickness_mm": 8.0,
+    "width_conservative_mm": 295.0,
+    "width_nominal_mm": 294.0
+  },
+  "units": "mm",
+  "v09610_rejection": {
+    "architecture": "M3_X2_LOCAL_BRIDGE_AND_REAR_SERVICE_WINDOW",
+    "m3_length_only_failure": false,
+    "reason": "CRAWLER_RUNNING_SPACE_INTERFERENCE_RISK",
+    "status": "CAD_PHYSICAL_REVIEW_REJECT",
+    "superseded_candidate": true
+  },
+  "version": "v0.9.6.11"
+}

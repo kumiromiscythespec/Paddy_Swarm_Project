@@ -1,0 +1,198 @@
+{
+  "battery": {
+    "carrier_outer_width_reference_mm": 110.0,
+    "frame_inner_width_reference_mm": 130.0,
+    "side_opportunity_each_mm": 10.0,
+    "status": "GEOMETRIC_OPPORTUNITY_PHYSICAL_PENDING"
+  },
+  "bbox": {
+    "submerged_compatibility": "HOLD_FRAME_REDESIGN"
+  },
+  "classification": "DRY_DRIVE_FRAME_AND_SHAFT_INTEGRATION",
+  "crawler": {
+    "classification": "GEOMETRY_PASS_CANDIDATE_PHYSICAL_WIDTH_PENDING",
+    "link_width_measured_mm": 54.0,
+    "rotating_width_conservative_mm": 295.0,
+    "rotating_width_nominal_mm": 294.0,
+    "target_max_mm": 300.0,
+    "total_margin_conservative_mm": 5.0,
+    "total_margin_nominal_mm": 6.0
+  },
+  "frame": {
+    "architecture": "NARROW_CENTRAL_BODY_PLUS_LOCAL_OUTBOARD_DRIVE_SHOULDERS",
+    "core_class": "USER_SELECTED_PHYSICAL_MOCKUP",
+    "core_inner_width_mm": 130.0,
+    "core_transverse_mm": 170.0,
+    "cut_length_changed": false,
+    "historical_transverse_mm": 180.0,
+    "left_outboard_shift_mm": 20.0,
+    "physical_envelope_class": "DERIVED_REFERENCE_ONLY",
+    "physical_envelope_reference_mm": 171.0,
+    "profile_orientation": "LENGTH_X_WIDTH20_Y_HEIGHT40_Z",
+    "right_outboard_shift_mm": 20.0,
+    "upper_2040_final_center_abs_y_mm": 100.5,
+    "upper_2040_length_mm": 540.0,
+    "upper_2040_section_mm": [
+      20.0,
+      40.0
+    ],
+    "upper_2040_source_center_abs_y_mm": 80.5
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "frame_170": "CAD_COMPLETE_PHYSICAL_REBUILD_PENDING",
+    "full_12t": "PRINT_AFTER_WIDE_CAP_COUPON_PASS",
+    "mud": "NOT_APPROVED",
+    "powered_bench": "NOT_YET_APPROVED",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "spacer_8mm": "READY_TO_PRINT",
+    "upper_2040": "CAD_COMPLETE_PHYSICAL_REBUILD_PENDING",
+    "water": "NOT_APPROVED",
+    "wide_cap": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING"
+  },
+  "h25a1": {
+    "angle_deg": 90.0,
+    "architecture": "H2.5-A1-FC-WIDE-CAP",
+    "collar_mm": [
+      15.9,
+      10.1,
+      3.0
+    ],
+    "coupon_results": {
+      "A": "TOO_TIGHT_FOR_SERVICE_REJECT_FINAL",
+      "B": "PHYSICAL_PRIMARY_PASS",
+      "C": "TOO_LOOSE_REJECT_FINAL"
+    },
+    "fastener": "HEADED_M4",
+    "full_axial_envelope_mm": 8.8,
+    "full_radial_envelope_radius_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "permanent_adhesive": false,
+    "qualification_24h": "SHAFT_TO_COLLAR_PHYSICAL_EVIDENCE_NOT_FULL_TORQUE",
+    "quantity": 2,
+    "reaction_shoes": 2,
+    "screw_od_mm_approx": 3.8,
+    "selected_collar_pocket_diameter_mm": 16.2,
+    "selected_hardware_cavity_radius_mm": 20.4,
+    "selection": "B_PHYSICAL_SELECTED",
+    "staged_relief_mm": [
+      9.2,
+      6.9,
+      4.2
+    ],
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "kp000": {
+    "housing_reference_mm": [
+      67.0,
+      17.0,
+      35.0
+    ],
+    "positions": "REFERENCE_ONLY_FINAL_PHYSICAL_RECORD_REQUIRED",
+    "quantity_per_side": 2,
+    "quantity_total": 4,
+    "support": "DOUBLE_SUPPORTED_PER_HALF_SHAFT"
+  },
+  "motor": {
+    "body_length_mm": 60.9,
+    "boss_mm": [
+      12.0,
+      2.7
+    ],
+    "bracket_mm": [
+      40.1,
+      45.5,
+      42.8
+    ],
+    "bracket_thickness_mm": 3.1,
+    "cylinder_diameter_mm": 36.9,
+    "front_to_rear_fixed_mm": 70.1,
+    "product": "JGB37-520",
+    "rear_terminal_mm": 9.2,
+    "shaft_diameter_mm": 5.9,
+    "shaft_length_mm": 16.9,
+    "source": "v0.9.3.1_USER_REPORTED_PHYSICAL_REFERENCE"
+  },
+  "powertrain": {
+    "axis_z_mm": 175.0,
+    "belt_nominal_width_mm": 15.0,
+    "belt_plane_abs_y_mm": 63.1,
+    "center_distance_mm": 120.0,
+    "drive_x_mm": -60.0,
+    "intended_contacts_excluded": [
+      "BELT_TO_20T",
+      "BELT_TO_60T"
+    ],
+    "known_unintended_solid_intersections": 0,
+    "motor_front_abs_y_mm": 75.0,
+    "motor_x_mm": 60.0,
+    "pulley_20_source": "STANDARD_FULL_DUMMY_OD35_WIDTH20",
+    "pulley_60_source": "STANDARD_FULL_DUMMY_OD102_WIDTH20",
+    "tensioner_product": "HOLD",
+    "tensioner_sweep_radius_mm": 18.0
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "pto": {
+    "outboard_reservation": "PRESERVED_REFERENCE_ONLY",
+    "redesign": "OUT_OF_SCOPE"
+  },
+  "shaft": {
+    "architecture": "LEFT_RIGHT_INDEPENDENT_HALF_SHAFTS",
+    "continuous_cross_shaft_primary": false,
+    "diameter_mm": 10.0,
+    "display_center_gap_class": "ENGINEERING_REFERENCE_ONLY_NOT_FINAL",
+    "display_center_gap_mm": 2.0,
+    "display_length_mm": 149.0,
+    "dry_material": "STEEL_CANDIDATE",
+    "final_material": "HOLD",
+    "flats": "OPTIONAL_FUTURE",
+    "form": "SOLID_PRIMARY",
+    "left_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "right_cut_length": "HOLD_PHYSICAL_MEASUREMENT"
+  },
+  "spacer": {
+    "contact": "KP000_ROTATING_INNER_RACE_FACE_ONLY",
+    "edge_chamfer_mm": 0.35,
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "seven_mm": "PHYSICAL_MARGIN_INSUFFICIENT",
+    "status": "READY_TO_PRINT_PHYSICAL_VALIDATION_PENDING",
+    "thickness_mm": 8.0
+  },
+  "units": "mm",
+  "version": "v0.9.6.6",
+  "wide_cap": {
+    "axial_complete_target_mm": 44.0,
+    "coupon": "READY_TO_PRINT",
+    "full_12t_print": "PENDING_WIDE_CAP_COUPON_PASS",
+    "index_pads": 4,
+    "index_pads_torque_primary": false,
+    "locking": "CAP_LOCKING_HARDWARE_HOLD_PROTOTYPE_FRICTION_INDEX_ONLY",
+    "nested_z_mm": [
+      16.5,
+      22.0
+    ],
+    "outer_diameter_mm": 50.0,
+    "primary_torque_path": false,
+    "radial_root_margin_mm": 4.47,
+    "role": "AXIAL_CAPTURE_AND_LOAD_SPREAD",
+    "thickness_mm": 5.5
+  }
+}

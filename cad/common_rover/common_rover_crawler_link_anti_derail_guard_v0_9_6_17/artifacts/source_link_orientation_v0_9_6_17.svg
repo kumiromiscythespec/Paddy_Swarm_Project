@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 26px; font-weight: bold; }
+    .label { font-size: 17px; }
+    .small { font-size: 14px; }
+    .body { fill: #b7d8ee; stroke: #24506b; stroke-width: 2; }
+    .guard { fill: #f4a261; stroke: #9c3f00; stroke-width: 2; }
+    .connector { fill: #a8dadc; stroke: #1d6b70; stroke-width: 2; }
+    .dim { stroke: #8b1e3f; stroke-width: 2; fill: none; }
+    .hold { fill: #fff3cd; stroke: #8a6d1d; stroke-width: 2; }
+  </style>
+  <text x="30" y="40" class="title">Source link orientation and feature identification</text>
+  
+  <g transform="translate(35,75)">
+    <rect x="0" y="0" width="445" height="225" fill="#f8fafc" stroke="#999"/>
+    <text x="12" y="26" class="label">TOP: X/Y, viewed from +Z</text>
+    <rect x="184" y="42" width="76" height="140" class="body"/>
+    <rect x="203" y="20" width="38" height="26" class="guard"/>
+    <rect x="203" y="178" width="38" height="26" class="guard"/>
+    <circle cx="176" cy="76" r="31" class="connector"/><circle cx="268" cy="148" r="31" class="connector"/>
+    <text x="278" y="70" class="small">connector regions</text>
+    <text x="250" y="201" class="small">guards Y=+/-23..27</text>
+    <line x1="48" y1="190" x2="98" y2="190" class="dim"/><text x="101" y="195" class="small">+X</text>
+    <line x1="48" y1="190" x2="48" y2="140" class="dim"/><text x="36" y="134" class="small">+Y</text>
+  </g>
+  <g transform="translate(520,75)">
+    <rect x="0" y="0" width="445" height="225" fill="#f8fafc" stroke="#999"/>
+    <text x="12" y="26" class="label">SIDE: Y/Z, viewed from +X</text>
+    <rect x="65" y="105" width="315" height="58" class="body"/>
+    <rect x="48" y="90" width="35" height="73" class="guard"/>
+    <rect x="362" y="90" width="35" height="73" class="guard"/>
+    <rect x="135" y="55" width="52" height="50" class="connector"/>
+    <rect x="260" y="55" width="52" height="50" class="connector"/>
+    <text x="100" y="192" class="small">source bounds Y=-27..+27; Z=0..21.75</text>
+    <line x1="70" y1="190" x2="120" y2="190" class="dim"/><text x="124" y="195" class="small">+Y</text>
+    <line x1="70" y1="190" x2="70" y2="140" class="dim"/><text x="56" y="135" class="small">+Z</text>
+  </g>
+  <g transform="translate(35,330)">
+    <rect x="0" y="0" width="445" height="225" fill="#f8fafc" stroke="#999"/>
+    <text x="12" y="26" class="label">END: X/Z, viewed from +Y</text>
+    <rect x="138" y="100" width="169" height="55" class="body"/>
+    <circle cx="117" cy="145" r="58" class="connector"/><circle cx="328" cy="145" r="58" class="connector"/>
+    <rect x="203" y="56" width="39" height="99" class="guard"/>
+    <line x1="52" y1="190" x2="102" y2="190" class="dim"/><text x="106" y="195" class="small">+X</text>
+    <line x1="52" y1="190" x2="52" y2="140" class="dim"/><text x="39" y="135" class="small">+Z</text>
+  </g>
+  <g transform="translate(520,330)">
+    <rect x="0" y="0" width="445" height="225" fill="#f8fafc" stroke="#999"/>
+    <text x="12" y="26" class="label">ISOMETRIC / feature map</text>
+    <polygon points="95,155 220,75 360,130 235,205" class="body"/>
+    <polygon points="199,71 224,55 244,63 219,80" class="guard"/>
+    <polygon points="224,197 249,181 269,189 244,208" class="guard"/>
+    <ellipse cx="145" cy="117" rx="48" ry="31" class="connector"/>
+    <ellipse cx="310" cy="160" rx="48" ry="31" class="connector"/>
+    <text x="25" y="48" class="small">link body: blue</text>
+    <text x="25" y="68" class="small">connector regions: cyan</text>
+    <text x="25" y="88" class="small">existing anti-derail guards: orange</text>
+    <text x="25" y="218" class="small">Identification: UNAMBIGUOUS from X +/-4, Y +/-23..27, Z 0..9</text>
+  </g>
+  <text x="30" y="582" class="small">v0.9.6.17 | mesh authority | NOT FOR POWERED TEST</text>
+</svg>

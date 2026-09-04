@@ -1,0 +1,610 @@
+{
+  "checks": {
+    "bbox_authority_unambiguous": "PASS",
+    "closed_loop": "PASS",
+    "closure_four": "PASS",
+    "compression_20_25": "PASS",
+    "drain_zone": "PASS",
+    "dynamic_sliding_seal_zero": "PASS",
+    "full_bbox_print": "NOT_APPROVED",
+    "gasket_2mm": "PASS",
+    "live_battery": "NOT_APPROVED",
+    "long_term_compression_set": "PHYSICAL_HOLD",
+    "moving_collision_zero": "PASS",
+    "mud_lip": "PASS",
+    "mud_sealing": "PHYSICAL_HOLD",
+    "petg_porosity": "PHYSICAL_HOLD",
+    "rails_no_through_wall": "PASS",
+    "real_gasket_pressure": "PHYSICAL_HOLD",
+    "real_waterproofness": "PHYSICAL_HOLD",
+    "seal_penetrations_zero": "PASS",
+    "sealed_drain_zero": "PASS",
+    "slide_contact_zero": "PASS",
+    "static_face_seal": "PASS",
+    "step_reload": "PASS",
+    "stl_reload": "PASS",
+    "surface_roughness": "PHYSICAL_HOLD",
+    "thermal_pumping": "PHYSICAL_HOLD"
+  },
+  "classification": "BBOX_REAR_SLIDE_STATIC_FACE_SEAL_VALIDATION",
+  "geometry": {
+    "authority_discovery": {
+      "conflict_resolution": "V0960_CONTROLS_WATERPROOF_RULES;V0950_CONTROLS_MINUS_X_SERVICE_LINEAGE;V0952_CONTROLS_PHYSICAL_MEASUREMENTS;V0963_CONTROLS_DRY_TRAY_SECTION_REFERENCE",
+      "current_bbox_body_and_waterproof": "common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0",
+      "dry_battery_tray_reference": "common_rover_dry_drive_battery_tray_v0_9_6_3",
+      "latest_physical_measurement": "common_rover_physical_measurement_closure_v0_9_5_2",
+      "rapid_dry_v0967": "EXPLICITLY_NOT_FINAL_WATERPROOF_AUTHORITY",
+      "rear_opening_service_concept": "common_rover_bbox_cbox_printable_prototype_v0_9_5_0",
+      "status": "PASS_UNAMBIGUOUS"
+    },
+    "battery": {
+      "body_clearance_height_mm": 7.5,
+      "body_mm": [
+        150.9,
+        99.4,
+        92.5
+      ],
+      "dummy_mass_target_kg": 1.2,
+      "frame_insertion_height_mm": 108.0,
+      "live_battery": "NOT_APPROVED",
+      "mass_kg": 1.2,
+      "product": "GOLDENMATE_LIFEPO4",
+      "rear_opening_nominal_terminal_clearance_mm": 0.6,
+      "terminal_bolt_lug_cable_bend": "HOLD",
+      "terminal_extreme_mm": 99.4
+    },
+    "compression_stops": {
+      "candidate_lengths_mm": [
+        1.6,
+        1.55,
+        1.5
+      ],
+      "gasket_is_motion_stop": false,
+      "id_mm": 4.5,
+      "metal_selection": "PHYSICAL_HOLD",
+      "od_mm": 8.0,
+      "selected_length_mm": 1.5,
+      "type": "INTERCHANGEABLE_METAL_SPACER_INTERFACE_WITH_PRINTED_SETUP_GAUGES"
+    },
+    "coupon": {
+      "bambu_a1_fit": true,
+      "full_bbox": false,
+      "outer_frame_mm": [
+        160.0,
+        150.0,
+        8.0
+      ],
+      "rear_opening_mm": [
+        110.0,
+        104.0
+      ],
+      "scale": "FULL_SIZE_REAR_OPENING_CROSS_SECTION_SHORT_CASSETTE",
+      "shell_stub_length_mm": 80.0
+    },
+    "electrical": {
+      "connector": "OUT_OF_SCOPE",
+      "feedthrough_count": 0
+    },
+    "faceplate": {
+      "closure_points": 4,
+      "closure_type": "M4_X4_INDEPENDENT_OUTSIDE_GASKET",
+      "fasteners_outside_gasket": true,
+      "ribs": "INTEGRATED_CASSETTE_FLOOR_PLUS_DUAL_SIDE_WALL_RIBS",
+      "selected_thickness_mm": 6.0,
+      "stiffness_proxy": [
+        {
+          "relative_bending_stiffness_vs_4mm": 1.0,
+          "thickness_mm": 4.0
+        },
+        {
+          "relative_bending_stiffness_vs_4mm": 1.953,
+          "thickness_mm": 5.0
+        },
+        {
+          "relative_bending_stiffness_vs_4mm": 3.375,
+          "thickness_mm": 6.0
+        }
+      ],
+      "structural_proof": "PHYSICAL_HOLD",
+      "thickness_candidates_mm": [
+        4.0,
+        5.0,
+        6.0
+      ]
+    },
+    "gates": {
+      "C1": "PLANNED",
+      "M1": "PLANNED",
+      "S0": "PHYSICAL_HOLD_50_CYCLES",
+      "S1": "PHYSICAL_HOLD_DRY_COMPRESSION",
+      "W1": "HOLD_AFTER_S0_S1",
+      "W2": "HOLD_AFTER_S0_S1",
+      "W3_W4": "PLANNED_PREFERRED_BEFORE_FULL_BBOX",
+      "W5": "PLANNED",
+      "full_bbox_print": "NOT_APPROVED",
+      "live_battery": "NOT_APPROVED"
+    },
+    "intersections": {
+      "fastener_vs_gasket_mm3": 0,
+      "fixed_vs_moving_closed_mm3": 0,
+      "gasket_contact_during_normal_slide_mm3": 0
+    },
+    "mud": {
+      "classification": "MUD_EXCLUSION_ONLY",
+      "drain_inside_sealed_perimeter": 0,
+      "drain_notches": 2,
+      "drain_zone": true,
+      "minimum_drain_zone_width_mm": 4.0,
+      "outer_lip": true
+    },
+    "physical_holds": [
+      "REAL_WATERPROOFNESS",
+      "PETG_POROSITY",
+      "REAL_GASKET_PRESSURE",
+      "SURFACE_ROUGHNESS",
+      "MUD_SEALING",
+      "THERMAL_PUMPING",
+      "LONG_TERM_COMPRESSION_SET",
+      "FACEPLATE_WARPAGE",
+      "RAIL_WEAR",
+      "TERMINAL_BOLT_LUG_CABLE_BEND"
+    ],
+    "seal": {
+      "centerline_perimeter_mm": 381.115,
+      "closed_gap_candidates_mm": [
+        1.6,
+        1.55,
+        1.5
+      ],
+      "closed_loop_count": 1,
+      "compression_candidates_percent": [
+        20.0,
+        22.5,
+        25.0
+      ],
+      "continuity": true,
+      "dynamic_sliding_seal_count": 0,
+      "fastener_to_gasket_intersection_mm3": 0,
+      "final_approach_mm": 1.5,
+      "inner_corner_radius_mm": 8.0,
+      "inner_mm": [
+        118.0,
+        112.0
+      ],
+      "land_width_mm": 8.0,
+      "material": "SOLID_SILICONE_SHEET_CANDIDATE",
+      "nominal_thickness_mm": 2.0,
+      "outer_corner_radius_mm": 14.0,
+      "outer_mm": [
+        132.0,
+        126.0
+      ],
+      "preseat_free_gap_mm": 3.0,
+      "primary_line_penetrations": 0,
+      "selected_closed_gap_mm": 1.5,
+      "selected_compression_percent": 25.0,
+      "sliding_contact_before_final_seat_mm3": 0,
+      "type": "STATIC_FACE_COMPRESSION"
+    },
+    "slide": {
+      "cassette_outer_width_mm": 108.0,
+      "direction": "REAR_MINUS_X",
+      "mechanical_final_stop": "FOUR_INTERCHANGEABLE_COMPRESSION_STOPS_DEFINE_X",
+      "rail_clearance_candidates_per_side_mm": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "rail_inner_span_mm": 109.0,
+      "rail_type": "INTEGRAL_INTERNAL_BLIND_GEOMETRY",
+      "secondary_nose_stop_gap_mm": 0.05,
+      "selected_clearance_per_side_mm": 0.5,
+      "through_wall_rail_fasteners": 0
+    }
+  },
+  "mesh": {
+    "artifacts/bbox_rear_slide_water_seal_coupon_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -7.5,
+          -80.0,
+          -0.0
+        ],
+        [
+          80.0,
+          80.0,
+          150.0
+        ]
+      ],
+      "component_count": 2,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        87.5,
+        160.0,
+        150.0
+      ],
+      "triangles": 9632,
+      "watertight": true
+    },
+    "artifacts/cassette_rear_faceplate_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -150.0,
+          -80.0,
+          -0.0
+        ],
+        [
+          0.0,
+          80.0,
+          6.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        150.0,
+        160.0,
+        6.0
+      ],
+      "triangles": 4388,
+      "watertight": true
+    },
+    "artifacts/compression_stop_20pct_gap160_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -11.0,
+          -10.999209,
+          0.0
+        ],
+        [
+          11.0,
+          10.999209,
+          1.6
+        ]
+      ],
+      "component_count": 4,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        22.0,
+        21.998418,
+        1.6
+      ],
+      "triangles": 5056,
+      "watertight": true
+    },
+    "artifacts/compression_stop_22p5pct_gap155_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -11.0,
+          -10.999209,
+          0.0
+        ],
+        [
+          11.0,
+          10.999209,
+          1.55
+        ]
+      ],
+      "component_count": 4,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        22.0,
+        21.998418,
+        1.55
+      ],
+      "triangles": 5056,
+      "watertight": true
+    },
+    "artifacts/compression_stop_25pct_gap150_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -11.0,
+          -10.999209,
+          0.0
+        ],
+        [
+          11.0,
+          10.999209,
+          1.5
+        ]
+      ],
+      "component_count": 4,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        22.0,
+        21.998418,
+        1.5
+      ],
+      "triangles": 5056,
+      "watertight": true
+    },
+    "artifacts/internal_slide_rail_pair_source_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -30.5,
+          -57.0,
+          -0.3
+        ],
+        [
+          -18.0,
+          57.0,
+          68.300003
+        ]
+      ],
+      "component_count": 2,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        12.5,
+        114.0,
+        68.600003
+      ],
+      "triangles": 56,
+      "watertight": true
+    },
+    "artifacts/moving_cassette_assembly_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -150.0,
+          -80.0,
+          -0.0
+        ],
+        [
+          0.0,
+          80.0,
+          83.650002
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        150.0,
+        160.0,
+        83.650002
+      ],
+      "triangles": 4420,
+      "watertight": true
+    },
+    "artifacts/rear_wall_frame_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -150.0,
+          -80.0,
+          -3.0
+        ],
+        [
+          0.0,
+          80.0,
+          80.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        150.0,
+        160.0,
+        83.0
+      ],
+      "triangles": 5212,
+      "watertight": true
+    },
+    "artifacts/short_test_cassette_v0_9_6_27.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -47.5,
+          -54.0,
+          -0.1
+        ],
+        [
+          -23.5,
+          54.0,
+          77.650002
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        24.0,
+        108.0,
+        77.750002
+      ],
+      "triangles": 28,
+      "watertight": true
+    }
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "bbox_source_sha256": {
+      "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BBOX_ARCHITECTURE.md": "9b868e367c1ad31bf478dbc364bcbf76f4ef7269418962c45c559091ca67fedc",
+      "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/BBOX_DIMENSION_AUTHORITY.md": "e088af0e47b2434e00a09c03f46bcd5799329b79249a0b6c271bb98f13e335ca",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/ARCHITECTURE_AUTHORITY.md": "b198289fd95879342170dc5e5fda92f11a5dfe3048336f8824c9b2859e71e063",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/BBOX_GASKET_AND_CLAMPING_SPEC.md": "92561f707542eca9db831d8217a2436d249913d159fdf33fcf91b7201561d724",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/BBOX_SEAL_ARCHITECTURE.md": "e795e69b185fb0dcf27289b477be7ee17fe16cf1e6d60d633e99dee7c314d0c3",
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0/design_parameters.json": "88180cd2b61f049e8610f00a270502ece985d874623f35db1b93c9f576e21271",
+      "cad/common_rover/common_rover_dry_drive_battery_tray_v0_9_6_3/DRY_BATTERY_TRAY_SPEC.md": "579249699ef260136f36d7417baf545dfcd6b71586015ab60bc2ab0cc74f8400",
+      "cad/common_rover/common_rover_dry_drive_battery_tray_v0_9_6_3/design_parameters.json": "2b3c93badccb0550b16e43a7f5f5b45e8acffee1dac8ba37e849fe0cb394e5b5",
+      "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/bbox_physical_record.json": "a60df51c31fa7ca5de08f234b1c809cb33c75938cbb37dc353a3bbdb287c391b"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "cache": [],
+    "checks": {
+      "authority_4_of_4": true,
+      "bbox_authority_unambiguous": true,
+      "bbox_source_files": true,
+      "branch": true,
+      "complete": true,
+      "forbidden_zero": true,
+      "head": true,
+      "lane_cache_zero": true,
+      "lane_scope": true,
+      "outside_untracked_preserved": true,
+      "protected_lanes": true,
+      "repository": true,
+      "staged_zero": true,
+      "tracked_dirty_preserved": true
+    },
+    "forbidden": [],
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_files": 54,
+    "outside_untracked": [
+      2753,
+      "50af77c2143276bdd917f0d302a4e42c024f9b788e15b422045b1c616fa43855"
+    ],
+    "protected_lanes": {
+      "cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1": {
+        "count": 68,
+        "status": "UNCHANGED",
+        "tree_sha256": "eaa75b58bee220a6eca1aeeaa01d15ff5931616ae3145265b8c1e317811ebe20"
+      },
+      "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0": {
+        "count": 105,
+        "status": "UNCHANGED",
+        "tree_sha256": "5884ae618cec383c8f5bbae3e6c7332a61b5ee70be94c46223903060d3fce7b5"
+      },
+      "cad/common_rover/common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "5b18fee1976e292a370f3ac56930544df711cd44d66075f9b6216af40a91c465"
+      },
+      "cad/common_rover/common_rover_candidate_a_physical_mockup_v0_9_3_1": {
+        "count": 46,
+        "status": "UNCHANGED",
+        "tree_sha256": "59d3167c925dcf02cea7abd68a4e83ddd92620559f154eff5570850d16eb8847"
+      },
+      "cad/common_rover/common_rover_cbox_drive_electrical_physical_integration_v0_9_6_2": {
+        "count": 57,
+        "status": "UNCHANGED",
+        "tree_sha256": "20dce098bf9c065c875dd98f01e240cfa3d11b81872c5eb3270124ea365f2649"
+      },
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "count": 33,
+        "status": "UNCHANGED",
+        "tree_sha256": "3e0a550c7d9faa38fae8d106e60b91467788e18533d23063156070d1259615b8"
+      },
+      "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "e632689b54678455adec6758b2420bcf0ed4a2bd8ade8d229d80087275a4630e"
+      },
+      "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+        "count": 53,
+        "status": "UNCHANGED",
+        "tree_sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+      },
+      "cad/common_rover/common_rover_dry_drive_battery_tray_v0_9_6_3": {
+        "count": 35,
+        "status": "UNCHANGED",
+        "tree_sha256": "5bc13b17f52a3bc96c148bd1185c80f74e3b324406d7eb2962319e24a7589139"
+      },
+      "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "fcab7a320e371504767153d1167c6c7f5416b84a8edd28e7331f988b01998373"
+      },
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+        "count": 66,
+        "status": "UNCHANGED",
+        "tree_sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+      },
+      "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2": {
+        "count": 57,
+        "status": "UNCHANGED",
+        "tree_sha256": "168a21f0a1cabb30971dfd4330f0d7b474a26a38b5fd735d455ff61ffed091ab"
+      },
+      "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0": {
+        "count": 43,
+        "status": "UNCHANGED",
+        "tree_sha256": "ecd753e02d6a9b88d763dd0da5f716aadfcd951961384bfd45f57a236f043242"
+      },
+      "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2": {
+        "count": 28,
+        "status": "UNCHANGED",
+        "tree_sha256": "e5fc34dcd721472817aaf1a76183ba2242e20c665ca2a45bd7da717faf74717a"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "9d0d0eb92b759be81ed61a69d89a1888adbb4b88fcd66e63b14a056d59966300"
+      },
+      "cad/common_rover/common_rover_rapid_dry_bbox_cbox_v0_9_6_7": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "64e0d2f02207442aebfbead2b6546058ce570f3aebc0cdc9a43859ff21254333"
+      },
+      "cad/common_rover/common_rover_service_motion_servo_slide_clutch_h25a1_v0_9_4_3": {
+        "count": 66,
+        "status": "UNCHANGED",
+        "tree_sha256": "9a167824f4260fd20629e45f5485dfb8da6c2fe5529101c7a26c0a13e0db2447"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_compact_external_ear_double_split_clamp_v0_9_6_25": {
+        "count": 42,
+        "status": "UNCHANGED",
+        "tree_sha256": "1a00f38cb6a70c62698bd87ba8f3e18950cae471576c08d9e907e6bb9adcac64"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_double_split_clamp_v0_9_6_22": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "29b8ff01eea737001885ade0ae9876debbf83d0a1ed6cea6c91de60ce48668ca"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26": {
+        "count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "c8954045f43a1d82440c169d3c60380eda08ee88b401aa44c95b2dd903ee267e"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24": {
+        "count": 46,
+        "status": "UNCHANGED",
+        "tree_sha256": "b09600fae8ee56f5ab97fab966818d20119329cbadf8de9d0f54b0d614306c55"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "1f8d01cda3ca2b049dcffdda17b1f0c15b2c8de809cef476a157b941ddf4edc9"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "214a215578f1f43013fe70e73203ddeb4b58e52c792322052a0504bcfad8921e"
+      },
+      "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16": {
+        "count": 37,
+        "status": "UNCHANGED",
+        "tree_sha256": "fe514d3a9c1ca21bca92beee738ff1ed1b6d47fd2cdb2f2aa59866584303ea56"
+      },
+      "cad/common_rover/common_rover_y3_reaction_shoe_v0_9_6_19": {
+        "count": 34,
+        "status": "UNCHANGED",
+        "tree_sha256": "ede454f33bbd1030c0e744de0fda9614d86d201f89a7ebdc17e8a468bbfedb7a"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "BBOX_REAR_SLIDE_WATER_SEAL_COUPON_CAD_COMPLETE/STATIC_FACE_COMPRESSION_SEAL_ARCHITECTURE_COMPLETE/DYNAMIC_SLIDING_SEAL_REJECTED/REAR_SLIDE_CASSETTE_ARCHITECTURE_READY/2MM_GASKET_COMPRESSION_CANDIDATES_READY/FOUR_POINT_COMPRESSION_READY/MUD_EXCLUSION_AND_DRAINAGE_READY/LIVE_BATTERY_NOT_APPROVED/FULL_BBOX_PRINT_NOT_APPROVED/PHYSICAL_WATER_SEAL_VALIDATION_NEXT/COMMIT_READY_NOT_STAGED",
+  "step_import": {
+    "artifacts/bbox_rear_slide_water_seal_coupon_v0_9_6_27.step": {
+      "solid_count": 7,
+      "valid": true
+    }
+  },
+  "version": "v0.9.6.27"
+}

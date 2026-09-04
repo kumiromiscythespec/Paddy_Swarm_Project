@@ -1,0 +1,118 @@
+{
+  "classification": "PHYSICAL_LINK_PITCH_MATCHED_DRIVE_IDLER",
+  "drive": {
+    "candidates": {
+      "P2060": {
+        "diameter_mm": 79.59228808621924,
+        "mark": "2060",
+        "paired_path_increase_mm": 10.04654753409944,
+        "pitch_mm": 20.6,
+        "radius_shift_mm": 1.5989577010596179,
+        "remaining_candidate_stroke_mm": 6.97672623295028,
+        "required_center_inward_shift_mm": 5.02327376704972,
+        "role": "COMPARISON_ONLY"
+      },
+      "P20653": {
+        "diameter_mm": 79.79835226236546,
+        "mark": "2065",
+        "paired_path_increase_mm": 10.693917236048417,
+        "pitch_mm": 20.6533333333,
+        "radius_shift_mm": 1.7019897891327247,
+        "remaining_candidate_stroke_mm": 6.653041381975791,
+        "required_center_inward_shift_mm": 5.346958618024209,
+        "role": "PRIMARY_PHYSICAL_TEST_CANDIDATE"
+      },
+      "P2072": {
+        "diameter_mm": 80.05593248283799,
+        "mark": "2072",
+        "paired_path_increase_mm": 11.503129364394969,
+        "pitch_mm": 20.72,
+        "radius_shift_mm": 1.8307798993689914,
+        "remaining_candidate_stroke_mm": 6.248435317802516,
+        "required_center_inward_shift_mm": 5.751564682197484,
+        "role": "COMPARISON_ONLY"
+      }
+    },
+    "current_adjacent_chord_mm": 19.77231858930486,
+    "current_pitch_diameter_mm": 76.3943726841,
+    "phase_deg": 15.0,
+    "spacing_deg": 30.0,
+    "status": "PHYSICAL_PHASE_MISMATCH_SUSPECTED",
+    "teeth": 12,
+    "tooth_profile_shape_revision_count": 0
+  },
+  "gates": {
+    "field": "HOLD",
+    "full_torque": "HOLD",
+    "hand_rotation": "APPROVED_AFTER_STATIC_FIT",
+    "mud": "HOLD",
+    "powered_rotation": "NOT_APPROVED",
+    "printing": "P20653_DRIVE_FIRST",
+    "static_fit": "APPROVED",
+    "water": "HOLD"
+  },
+  "idler": {
+    "bearing": "6000-2RS",
+    "bearing_depth_mm": 8.2,
+    "bearing_seat_mm": 26.2,
+    "candidate_geometry": [
+      "P2060",
+      "P20653",
+      "P2072"
+    ],
+    "center_relief_mm": 12.0,
+    "fabricated_source": false,
+    "sha256": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+    "source": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+    "source_identified": true,
+    "tooth_count": 12,
+    "type": "TOOTHED",
+    "width_mm": 44.0
+  },
+  "measurement": {
+    "condition": "LINKS_STRETCHED_TO_PRACTICAL_MAXIMUM",
+    "derived_individual_pitch_mm": [
+      20.72,
+      20.64,
+      20.6
+    ],
+    "final_nominal_operating_pitch": "HOLD",
+    "five_pitch_mm": [
+      103.6,
+      103.2,
+      103.0
+    ],
+    "initial_104mm": "SUPERSEDED_COARSE_MEASUREMENT",
+    "mean_five_pitch_mm": 103.26666666666667,
+    "mean_pitch_mm": 20.6533333333,
+    "range_mm": [
+      20.6,
+      20.72
+    ],
+    "spread_mm_per_pitch": 0.12,
+    "status": "PHYSICAL_MAX_EXTENSION_PITCH_REFERENCE"
+  },
+  "scope": {
+    "anti_derail_redesign_count": 0,
+    "crawler_guard_modification_count": 0,
+    "top_hold_down_roller_artifact_count": 0,
+    "top_hold_down_status": "DEFERRED_AFTER_PITCH_TEST"
+  },
+  "source_sha256": {
+    "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18/build_guard_free_true_open_bottom_drive_12t_v0_9_6_18.py": "254e96145c2f8501dbfe98b437b363d6d6cfecc7be2f666e7d84fd710a3b9962",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py": "9a15fbd05f2972090faba594e010c55b16b2fb226b2a944b8962bc398dbc268e",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_wide_span_three_knuckle_link_v0_12_5.py": "8eeb1b73f14a4c6b5d57898f9e625e43d834e41d02a34a8d0d9b3e1bc1eac861",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+    "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a"
+  },
+  "track": {
+    "current_tension": "USER_REPORTED_MAXIMUM",
+    "link_count": 40,
+    "physical_max_extension_path_mm": 826.133333332,
+    "source_center_distance_mm": 280.0,
+    "source_nominal_path_mm": 800.0,
+    "source_nominal_pitch_mm": 20.0,
+    "source_tension_stroke_candidate_mm": 12.0
+  },
+  "version": "v0.9.6.20"
+}

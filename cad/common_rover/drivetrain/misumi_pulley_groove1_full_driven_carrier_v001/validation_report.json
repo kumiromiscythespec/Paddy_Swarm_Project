@@ -1,0 +1,226 @@
+{
+  "assumptions": [
+    "M5 through-bolt/locknut is an architecture candidate inherited from Common Rover practice; exact hardware length, washer, nut and installed tool envelope are not released."
+  ],
+  "check_count": 25,
+  "checks": {
+    "authority": true,
+    "backing": true,
+    "carrier_valid": true,
+    "forbidden_claims": true,
+    "groove_c1": true,
+    "hardware_hold": true,
+    "initial_play_retained": true,
+    "keeper_separate": true,
+    "keeper_tooth_clear": true,
+    "keeper_valid": true,
+    "metal_clear": true,
+    "outer_teeth_frozen": true,
+    "physical_pass": true,
+    "pretest_clear": true,
+    "pretest_valid": true,
+    "protected": true,
+    "reproducibility": true,
+    "screw_tooth_clear": true,
+    "separated_functions": true,
+    "service": true,
+    "shaft_clearance": true,
+    "source_dimensions": true,
+    "source_exact": true,
+    "step_reload": true,
+    "stl_quality": true
+  },
+  "geometry": {
+    "assembly_axial_width_mm": 47.5,
+    "axial_keeper_gap_mm": 0.5,
+    "carrier_metal_intersection_mm3": 0,
+    "carrier_solids": 1,
+    "carrier_valid": true,
+    "groove_clearance_radial_equivalent_mm": 0.15,
+    "groove_code": "C1",
+    "groove_engagement_mm": 16.6,
+    "groove_profile_bbox_mm": [
+      43.573284,
+      43.573284,
+      9.0
+    ],
+    "groove_profile_volume_mm3": 12496.95011,
+    "keeper_carrier_intersection_mm3": 0,
+    "keeper_metal_intersection_mm3": 0,
+    "keeper_outer_to_root_clearance_mm": 0.55,
+    "keeper_solids": 1,
+    "keeper_to_outer_tooth_mm3": 0,
+    "keeper_valid": true,
+    "outer_pitch_mm": 20.6533333333,
+    "outer_tooth_added_mm3": 0.0,
+    "outer_tooth_carrier_volume_mm3": 47830.344596,
+    "outer_tooth_count": 14,
+    "outer_tooth_parent_volume_mm3": 47830.344596,
+    "outer_tooth_removed_mm3": 0.0,
+    "outer_width_mm": 44.0,
+    "pretest_metal_intersection_mm3": 0,
+    "pretest_solids": 1,
+    "pretest_valid": true,
+    "radial_backing_at_groove_tip_mm": 11.69,
+    "rear_shoulder_backing_mm": 22.5,
+    "retention_path": "REMOVABLE_KEEPER_ONLY_NOT_PRIMARY_TORQUE",
+    "screw_outer_to_root_clearance_mm": 2.8,
+    "service_withdrawal_direction": "+Z_AFTER_KEEPER_REMOVAL",
+    "shaft_clearance_diameter_mm": 12.0,
+    "source_geometry_method": "AP203_EXACT_SECTION_NO_APPROXIMATION",
+    "source_pitch_mm": 5.0,
+    "source_root_od_mm": 39.8,
+    "source_step_sha256": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+    "source_tip_od_mm": 43.42,
+    "source_tooth_count": 28,
+    "source_wire_edges": 224,
+    "source_zip_sha256": "4d296d9b827e188a3223bef57a4049c5a6bc956210537de1b50d51a727323b4a",
+    "torque_path": "KEYED_METAL_PULLEY_TO_EXACT_GROOVE1_TO_PRINTED_P20653_14T"
+  },
+  "holds": [
+    "PHYSICAL_FASTENER_SELECTION_PENDING",
+    "KEEPER_5_CYCLE_PHYSICAL_VALIDATION_PENDING",
+    "POWERED_TORQUE_VALIDATION_PENDING",
+    "CRAWLER_DRY_RUN_PENDING",
+    "CONTINUOUS_RUN_PENDING",
+    "MUD_RESISTANCE_PENDING",
+    "FIELD_PENDING"
+  ],
+  "pass_count": 25,
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "protected": {
+      "cad/common/servo/ds3218_20kg_180deg_mount_molded_exit_relief_v002": {
+        "files": 27,
+        "sha256": "5b41936960958df146933f6e2da8d443891ccf4ca37c85c60d0feb7893f78c88",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19": {
+        "files": 39,
+        "sha256": "e632689b54678455adec6758b2420bcf0ed4a2bd8ade8d229d80087275a4630e",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31": {
+        "files": 20,
+        "sha256": "8065cefb36cef1dfb823a989185a67534f7eebdfd432fd5a664b364cc9053a72",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p20653_14t_18025_full_width_through_bolt_drive_v0_9_6_30": {
+        "files": 69,
+        "sha256": "8ac79a2b4dadeb6a8584e8949e190e62fd74cdb4299dee0276be0c14e7513cd2",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34": {
+        "files": 36,
+        "sha256": "121ae43e71aa732e601e67595401284f8953e4f55bde71dbd3340646e452451d",
+        "status": "UNCHANGED"
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": 20,
+    "compared": 20,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/GROOVE1_FULL_CARRIER_PRINT_READY/POWERED_TORQUE_VALIDATION_PENDING/CRAWLER_DRY_RUN_PENDING/CONTINUOUS_RUN_PENDING/MUD_RESISTANCE_PENDING/FIELD_PENDING",
+  "steps": [
+    {
+      "bbox_mm": [
+        82.162,
+        82.561,
+        44.0
+      ],
+      "path": "cad/full_driven_wheel_carrier_groove1.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        66.0,
+        66.0,
+        3.5
+      ],
+      "path": "cad/removable_axial_keeper.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        82.162,
+        82.561,
+        55.5
+      ],
+      "path": "cad/full_carrier_assembly_reference.step",
+      "solids": 4,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        43.573,
+        43.573,
+        9.0
+      ],
+      "path": "cad/groove1_C1_exact_interface_envelope.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        66.0,
+        74.06,
+        22.7
+      ],
+      "path": "cad/pretest_carrier_keeper_coupon.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        66.0,
+        74.06,
+        26.2
+      ],
+      "path": "cad/pretest_coupon_assembly_reference.step",
+      "solids": 3,
+      "valid": true
+    }
+  ],
+  "stls": {
+    "print/full_driven_wheel_carrier_groove1.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 24460,
+      "watertight": true
+    },
+    "print/pretest_carrier_keeper_coupon.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 23848,
+      "watertight": true
+    },
+    "print/removable_axial_keeper.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 7576,
+      "watertight": true
+    }
+  },
+  "version": "PADDY-SWARM-MISUMI-GROOVE1-FULL-DRIVEN-CARRIER-V001"
+}

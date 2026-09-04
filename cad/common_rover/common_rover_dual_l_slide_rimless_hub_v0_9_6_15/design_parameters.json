@@ -1,0 +1,148 @@
+{
+  "architecture": {
+    "clearance_mm": 0.45,
+    "final_concentricity_offset_mm": 0.0,
+    "flexure": false,
+    "hard_stop_count": 2,
+    "hook_count": 2,
+    "lock": "DUAL_RIGID_L_HOOK_LINEAR_SLIDE",
+    "m3_bridge_count": 0,
+    "m3_island_count": 0,
+    "m3_nut_count": 0,
+    "m3_nut_seat_count": 0,
+    "m3_screw_count": 0,
+    "opposition_deg": 180.0,
+    "receiver_count": 2,
+    "same_linear_motion": true,
+    "snap": false,
+    "spring": false,
+    "travel_mm": 3.0
+  },
+  "belt_entry": {
+    "actual_section": "BELT_SECTION_PHYSICAL_HOLD",
+    "angles_deg": [
+      150.0,
+      270.0
+    ],
+    "conservative_cad_envelope_width_mm": 12.0,
+    "continuous_floor": false,
+    "continuous_lower_ring_result": "NO_CONTINUOUS_LOWER_RING",
+    "former_v09614_probe_width_mm": 9.0,
+    "radial_depth_mm": 4.6
+  },
+  "classification": "DUAL_L_SLIDE_BELT_ENTRY_FINALIZATION",
+  "gates": {
+    "Y3_full_fit": "HOLD",
+    "actual_belt": "BELT_SECTION_PHYSICAL_HOLD",
+    "coupon": "READY_FOR_PHYSICAL_PRINT",
+    "dual_l_vibration": "HOLD",
+    "field": "NOT_APPROVED",
+    "full_12t": "PENDING_DUAL_L_COUPON_PASS",
+    "mud": "HOLD",
+    "powered": "NOT_YET_APPROVED",
+    "powered_belt": "HOLD",
+    "shaft_cut": "HOLD",
+    "stop_key_lifetime": "HOLD",
+    "torque": "HOLD",
+    "water": "HOLD"
+  },
+  "hook": {
+    "engagement_width_mm": 12.0,
+    "nominal_overlap_mm": 2.75,
+    "required_minimum_overlap_mm": 2.5,
+    "root_radius_mm": 2.0,
+    "root_thickness_mm": 6.0,
+    "structural_thickness_mm": 4.0,
+    "target_overlap_range_mm": [
+      2.5,
+      3.0
+    ]
+  },
+  "non_torque_components": [
+    "DUAL_L_HOOKS",
+    "DUAL_RECEIVERS",
+    "STOP_KEY"
+  ],
+  "parent_lane": "cad/common_rover/common_rover_belt_entry_clearance_rimless_v0_9_6_14",
+  "preserved": {
+    "B_collar_pocket_diameter_mm": 16.2,
+    "B_hardware_cavity_radius_mm": 20.4,
+    "M4_head_space_mm": 4.3,
+    "Y3_height_mm": 3.7,
+    "Y3_physical_status": "REACTION_Y3_PARENT_STATUS_PENDING_FULL_PHYSICAL_FIT",
+    "Y3_vertical_margin_mm": 0.6,
+    "YW30_receiver_width_mm": 15.5,
+    "grub_screw_count": 0,
+    "guard": "H9_UPPER5_ROOT6_R3_TOPR1_FINAL_PRESERVED",
+    "guard_frame_clearance_mm": 4.4,
+    "headed_m4_count": 2,
+    "headed_m4_separation_deg": 90.0,
+    "pitch": {
+      "difference_mm": 0.0,
+      "physical_result": "PHYSICAL_MATCH",
+      "spacing_difference_deg": 0.0,
+      "status": "FROZEN"
+    },
+    "protected_12t": {
+      "axial_width_mm": 44.0,
+      "buried_root_overlap_mm": 4.0,
+      "outer_body": "ONE_PIECE",
+      "phase_deg": 15.0,
+      "pitch_diameter_mm": 76.3943726841,
+      "root_radius_mm": 29.47,
+      "root_width_mm": 9.5,
+      "spacing_deg": 30.0,
+      "split_teeth": false,
+      "teeth": 12,
+      "tip_radius_mm": 33.07,
+      "tip_width_mm": 7.5,
+      "tooth_root_radial_service_holes": 0
+    }
+  },
+  "printability": {
+    "first_print": "DUAL_L_SLIDE_LOCK_COUPON_ONLY",
+    "full_12t": "PRINT_ONE_ONLY_AFTER_COUPON_PASS",
+    "material": "PETG",
+    "new_closed_cavity": false,
+    "new_long_internal_support": false,
+    "printer": "BAMBU_A1",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "receiver": {
+    "broad_hard_stop": true,
+    "continuous_backing_ring": false,
+    "entry": "OPEN_SIDED_45_DEG_SELF_SUPPORTING",
+    "local_islands": 2,
+    "short_channel": true,
+    "trapped_support": false,
+    "undercut_lip": true
+  },
+  "stop_key": {
+    "blocks_reverse_slide_only": true,
+    "count": 1,
+    "external": true,
+    "finger_tab": true,
+    "friction_only_retention": false,
+    "material": "PETG",
+    "removable": true,
+    "screwless": true,
+    "tool_notch": true,
+    "torque_path": false
+  },
+  "torque_path": [
+    "SHAFT",
+    "HEADED_M4_X2",
+    "METAL_B_COLLAR",
+    "Y3_X2",
+    "SHOULDERS",
+    "HUB",
+    "PROTECTED_12T"
+  ],
+  "units": "mm",
+  "v09614_failure": {
+    "LOWER_CIRCULAR_PLATE": "BELT_ENTRY_PHYSICAL_PACKAGING_FAIL",
+    "disposition": "REJECT_AS_FULL_12T_PHYSICAL_CANDIDATE",
+    "reason": "BELT_CANNOT_BE_INSTALLED_FROM_SIDE"
+  },
+  "version": "v0.9.6.15"
+}

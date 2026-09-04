@@ -1,0 +1,40 @@
+{
+  "authority_class": "USER_SUPPLIED_OFFICIAL_VENDOR_DRAWING+VSTONE_VENDOR_DRAWING_AUTHORITY",
+  "dimensions_mm": {
+    "authority": "USER_SUPPLIED_OFFICIAL_VENDOR_DRAWING+VSTONE_VENDOR_DRAWING_AUTHORITY",
+    "bore_mm": 10.0,
+    "bore_tolerance_mm": [
+      0.0,
+      0.02
+    ],
+    "boss_od_mm": 24.0,
+    "derived_boss_projection_mm": 20.4,
+    "derived_keyway_reference_authority": "DERIVED_VENDOR_DRAWING_REFERENCE",
+    "derived_keyway_reference_mm": 1.4000000000000004,
+    "flange_od_mm": 56.8,
+    "flange_thickness_mm": 6.0,
+    "keyway_tolerance_mm": [
+      0.0,
+      0.02
+    ],
+    "keyway_width_mm": 3.0,
+    "mounting_hole_mm": 5.2,
+    "mounting_holes": 6,
+    "overall_width_mm": 26.4,
+    "part": "Nexus/Vstone 18025",
+    "pcd_mm": 47.5,
+    "physical_measured": "NOT_YET",
+    "raw_11p4_dimension_mm": 11.4,
+    "set_screw_exact_position": "PHYSICAL_HOLD",
+    "set_screw_service_access": "PHYSICAL_HOLD",
+    "set_screw_torque_path": "PROHIBITED"
+  },
+  "drawing_url": "https://www.vstone.co.jp/products/nexusrobot/download/nexus_18025.pdf",
+  "firewall": {
+    "physical_measured": "NOT_YET",
+    "raw_11p4_not_silently_reinterpreted": true,
+    "set_screw_service_tunnel": "PROHIBITED_IN_V09630"
+  },
+  "part": "Nexus/Vstone 18025",
+  "product_url": "https://www.vstone.co.jp/robotshop/index.php?main_page=product_info&products_id=4206"
+}

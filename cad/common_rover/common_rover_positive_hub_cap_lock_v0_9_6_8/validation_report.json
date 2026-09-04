@@ -1,0 +1,146 @@
+{
+  "cap_m3_packaging": "PASS_CAD_CANDIDATE",
+  "classification": "DRIVE_HUB_POSITIVE_LOCK_PHYSICAL_UPDATE",
+  "collision": {
+    "analytic_clearances_mm": {
+      "hole_to_r20p4_mm": 0.9,
+      "nut_pocket_to_cap_recess_edge_mm": 0.736,
+      "nut_pocket_to_root_mm": 3.006,
+      "targets_mm": {
+        "free_edge_min": 0.5,
+        "head_to_cap_min": 0.5,
+        "hole_to_r20p4_preferred": 0.8,
+        "nut_to_root_preferred": 2.0
+      },
+      "washer_to_cap_edge_mm": 0.5
+    },
+    "frame_rotating_intersections_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "holds": [
+      "ACTUAL_M3_NUT",
+      "ACTUAL_M3_HEAD_AND_WASHER",
+      "FINAL_SCREW_LENGTH",
+      "FINAL_KP000_POSITION",
+      "8MM_SPACER_PHYSICAL_CLEARANCE",
+      "DYNAMIC_CRAWLER_RUNOUT"
+    ],
+    "intended_contacts_excluded": [
+      "CAP_SEATING_FACE_TO_MAIN_HUB",
+      "M3_THREADS_TO_METAL_NUT",
+      "COLLAR_TO_REACTION_SHOES"
+    ],
+    "known_all_zero": true,
+    "local_unintended": {
+      "cap_main_intersection_mm3": 0.0,
+      "m3_cap_intersection_mm3": 0.0,
+      "m3_m4_intersection_mm3": 0.0,
+      "m3_main_intersection_mm3": 0.0,
+      "m3_service_tool_intersection_mm3": 0.0,
+      "m3_shoe_a_intersection_mm3": 0.0,
+      "m3_shoe_b_intersection_mm3": 0.0,
+      "m4_cap_intersection_mm3": 0.0,
+      "m4_service_tool_cap_intersection_mm3": 0.0,
+      "shaft_center_overlap_mm3": 0.0,
+      "shoe_a_main_intersection_mm3": 0.0,
+      "shoe_b_main_intersection_mm3": 0.0,
+      "shoe_mutual_intersection_mm3": 0.0
+    },
+    "method": "CADQUERY_COMMON_VOLUME_PLUS_ANALYTIC_RADIAL_CLEARANCE"
+  },
+  "field": "NOT_APPROVED",
+  "gates": {
+    "current_snap_cap": "PHYSICAL_REJECT",
+    "field_deployment": "NOT_APPROVED",
+    "frame_170": "PHYSICAL_MOCKUP_RECORDED",
+    "full_12t": "PRINT_PENDING_CAP_LOCK_COUPON",
+    "h25a1_b": "PHYSICAL_SELECTED",
+    "m3_nut_pocket": "READY_FOR_PHYSICAL_COUPON",
+    "m3_positive_cap_lock": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING",
+    "powered_rotation": "NOT_YET_APPROVED",
+    "shaft_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "spacer_7mm": "PHYSICAL_MARGIN_INSUFFICIENT",
+    "spacer_8mm": "PHYSICAL_TEST_PENDING",
+    "upper_2040_outboard": "DESIGN_SELECTED_PHYSICAL_FINAL_PENDING",
+    "wide_front_hub_cap": "CAD_REVISED"
+  },
+  "geometry": {
+    "all_primary_valid": true,
+    "cap_bounds_mm": [
+      54.0,
+      54.0,
+      5.5
+    ],
+    "cap_contact_area_sampled_mm2": 1284.76,
+    "cap_coupon_bounds_mm": [
+      128.0,
+      128.0,
+      9.0
+    ],
+    "cap_coupon_solids": 4,
+    "cap_main_intersection_mm3": 0.0,
+    "cap_solids": 1,
+    "complete_axial_envelope_mm": 44.0,
+    "frame_bounds_mm": [
+      540.0,
+      221.0,
+      60.0
+    ],
+    "frame_core_bounds_mm": [
+      540.0,
+      170.0,
+      20.0
+    ],
+    "frame_rotating_intersections_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "m3_cap_intersection_mm3": 0.0,
+    "m3_m4_intersection_mm3": 0.0,
+    "m3_main_intersection_mm3": 0.0,
+    "m3_service_tool_intersection_mm3": 0.0,
+    "m3_shoe_a_intersection_mm3": 0.0,
+    "m3_shoe_b_intersection_mm3": 0.0,
+    "m4_cap_intersection_mm3": 0.0,
+    "m4_service_tool_cap_intersection_mm3": 0.0,
+    "nut_coupon_bounds_mm": [
+      90.0,
+      32.0,
+      4.6
+    ],
+    "nut_coupon_solids": 1,
+    "shaft_center_overlap_mm3": 0.0,
+    "shoe_a_main_intersection_mm3": 0.0,
+    "shoe_b_main_intersection_mm3": 0.0,
+    "shoe_mutual_intersection_mm3": 0.0,
+    "spacer_bounds_mm": [
+      13.8,
+      13.8,
+      8.0
+    ],
+    "sprocket_bounds_mm": [
+      65.827,
+      65.827,
+      44.0
+    ],
+    "sprocket_solids": 1,
+    "upper_2040_bounds_mm": [
+      540.0,
+      20.0,
+      40.0
+    ]
+  },
+  "physical_fit": "COUPON_PENDING",
+  "powered": "NOT_YET_APPROVED",
+  "result": "POSITIVE_HUB_CAP_LOCK_INTEGRATION_COMPLETE",
+  "version": "v0.9.6.8"
+}

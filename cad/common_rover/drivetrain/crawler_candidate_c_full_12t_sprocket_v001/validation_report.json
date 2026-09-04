@@ -1,0 +1,695 @@
+{
+  "artifacts": {
+    "step": [
+      {
+        "path": "artifacts/candidate_C_full_12T_sprocket.step",
+        "reload": "PASS",
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 84912.928716
+      },
+      {
+        "path": "artifacts/candidate_C_full_12T_sprocket_section.step",
+        "reload": "PASS",
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 41685.041855
+      }
+    ],
+    "stl": [
+      {
+        "bad_edges": 0,
+        "bounds_mm": [
+          [
+            -35.29766,
+            -35.29766,
+            -22.0
+          ],
+          [
+            35.29766,
+            35.29766,
+            22.0
+          ]
+        ],
+        "components": 1,
+        "degenerate_triangles": 0,
+        "extents_mm": [
+          70.59532,
+          70.59532,
+          44.0
+        ],
+        "manifold": true,
+        "path": "artifacts/candidate_C_full_12T_sprocket.stl",
+        "triangles": 8900,
+        "watertight": true
+      },
+      {
+        "bad_edges": 0,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -11.0
+          ],
+          [
+            35.29766,
+            35.29766,
+            11.0
+          ]
+        ],
+        "components": 1,
+        "degenerate_triangles": 0,
+        "extents_mm": [
+          35.29766,
+          35.29766,
+          22.0
+        ],
+        "manifold": true,
+        "path": "artifacts/candidate_C_curved_3tooth_validation.stl",
+        "triangles": 1216,
+        "watertight": true
+      }
+    ]
+  },
+  "check_count": 9,
+  "checks": {
+    "candidate_exact": true,
+    "core_zero_diff": true,
+    "full_valid": true,
+    "no_overlap": true,
+    "reproducibility": true,
+    "spacing": true,
+    "step_reload": true,
+    "stl_quality": true,
+    "tooth_count": true
+  },
+  "geometry": {
+    "angles_deg": [
+      15.0,
+      45.0,
+      75.0,
+      105.0,
+      135.0,
+      165.0,
+      195.0,
+      225.0,
+      255.0,
+      285.0,
+      315.0,
+      345.0
+    ],
+    "bridge_axial_width_mm": 44.0,
+    "bridge_count": 12,
+    "bridge_span_mm": 1.9019897891327247,
+    "bridge_width_mm": 11.0,
+    "candidate_source_metrics": {
+      "achievable_insertion_depth_mm": 4.5,
+      "anti_derail_interference_mm3": 0.0,
+      "approach_path_interference_mm3": {
+        "root_z_0": 0.0,
+        "root_z_1.75": 0.0,
+        "root_z_3.5": 0.0
+      },
+      "axial_width_measured_at_tip_mm": 22.0,
+      "axial_width_mm": 22.0,
+      "candidate_id": "C",
+      "candidate_solids": 1,
+      "candidate_valid": true,
+      "central_bridge_underside_z_mm": 9.0,
+      "coupon_interference_volume_mm3": 0.0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "feature_clearances_mm": {
+        "anti_derail_negative_y": 5.107165,
+        "anti_derail_positive_y": 5.107165,
+        "hinge_bridge": 1.0,
+        "pivot_negative_x": 2.593978,
+        "pivot_positive_x": 3.275473
+      },
+      "full_depth_seating_cad": true,
+      "hinge_bridge_interference_mm3": 0.0,
+      "intent": "LARGEST_CLEARANCE_BIASED_CANDIDATE",
+      "local_contact_surfaces": "NONE_AT_INTENDED_POSE",
+      "maximum_interference_volume_mm3": 0.0,
+      "minimum_anti_derail_side_clearance_mm": 5.107165,
+      "minimum_global_clearance_mm": 1.0,
+      "minimum_pivot_region_clearance_mm": 2.593978,
+      "nearest_surfaces": "TOOTH_TIP_TO_CENTRAL_HINGE_BRIDGE_UNDERSIDE",
+      "physical_fit": "PENDING",
+      "pivot_screw_region_interference_mm3": 0.0,
+      "radial_clearance_to_bridge_mm": 1.0,
+      "radial_height_mm": 4.5,
+      "root_plane_engaged_z_mm": 3.5,
+      "root_total_tangential_width_mm": 11.0,
+      "root_transition_radius_mm": 1.25,
+      "tip_engaged_z_mm": 8.0,
+      "tip_tangential_width_measured_mm": 6.5,
+      "tip_tangential_width_mm": 6.5
+    },
+    "centroid_angles_deg": [
+      15.0,
+      45.0,
+      75.0,
+      105.0,
+      135.0,
+      165.0,
+      195.0,
+      225.0,
+      255.0,
+      285.0,
+      315.0,
+      345.0
+    ],
+    "curved_coupon_solids": 1,
+    "curved_coupon_valid": true,
+    "delta_added_candidate_mm3": 2763.412071,
+    "delta_missing_reference_mm3": 8704.389169,
+    "full_solids": 1,
+    "full_valid": true,
+    "full_volume_mm3": 84912.928716,
+    "maximum_pairwise_overlap_mm3": 0,
+    "pairwise_overlap": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          2
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          4
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          5
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          0,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          3
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          5
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          1,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          4
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          2,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          4
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          5
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          3,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          5
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          4,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          6
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          5,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          6,
+          7
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          6,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          6,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          6,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          6,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          7,
+          8
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          7,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          7,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          7,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          8,
+          9
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          8,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          8,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          9,
+          10
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          9,
+          11
+        ],
+        "volume_mm3": 0
+      },
+      {
+        "pair": [
+          10,
+          11
+        ],
+        "volume_mm3": 0
+      }
+    ],
+    "pitch_radius_mm": 39.89917613118273,
+    "protected_core_added_mm3": 0,
+    "protected_core_missing_mm3": 0,
+    "reference_volume_mm3": 90853.905815,
+    "root_radius_mm": 31.171989789132724,
+    "section_valid": true,
+    "source_bounds_mm": [
+      11.0,
+      22.0,
+      4.5
+    ],
+    "tip_centerline_radius_mm": 35.671989789132724,
+    "tooth_count": 12,
+    "tooth_volume_spread_mm3": 0.0,
+    "tooth_volumes_mm3": [
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124,
+      823.996124
+    ]
+  },
+  "holds": [
+    "PHYSICAL_VALIDATION_PENDING",
+    "CRAWLER_FULL_LOOP_VALIDATION_PENDING",
+    "POWERED_DRY_RUN_PENDING",
+    "CONTINUOUS_DRY_RUN_PENDING",
+    "MUD_WATER_FIELD_HOLD",
+    "SLICER_REVIEW_PENDING",
+    "P20653_FINAL_OPERATING_PITCH_AUTHORITY_HOLD"
+  ],
+  "pass_count": 9,
+  "reproducibility": {
+    "byte_identical": 17,
+    "compared": 17,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "sources": {
+    "candidate_c_builder": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py",
+    "candidate_c_lane": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001",
+    "candidate_c_stl": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl",
+    "current_12t_lane": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20",
+    "current_12t_step": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step",
+    "sha256": {
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step": "cf5a4bbdcc583105ad200009a671a0cb15c1697ab1eeff948a2313010c9212e3",
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/build_physical_pitch_drive_idler_v0_9_6_20.py": "269354de29d6ec2fc4bead3dbe2523fded5ba04ab3419cbba619110dc6b5eb0f",
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py": "4ffa3776904918292a28e2e736648c1c98bb43dd5d8fd4dd5cd90b2b98e8f780",
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl": "c6fc7b47dfd4872428c0e01650473a08b50cb18d6d351e6af8f373964de90edc"
+    }
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CANDIDATE_C_FULL_12T_SPROCKET_PRINT_READY/PHYSICAL_VALIDATION_PENDING/CRAWLER_FULL_LOOP_VALIDATION_PENDING/POWERED_DRY_RUN_PENDING",
+  "version": "PADDY-SWARM-CRAWLER-CANDIDATE-C-FULL-12T-SPROCKET-V001"
+}

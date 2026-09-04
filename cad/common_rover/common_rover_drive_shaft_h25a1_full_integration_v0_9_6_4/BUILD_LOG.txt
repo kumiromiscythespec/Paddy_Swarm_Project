@@ -1,0 +1,10 @@
+version=v0.9.6.4
+python=3.12.13
+cadquery=2.8.0
+paths=56
+step=14
+stl=7
+svg=6
+json=5
+reaction_key=R42_INSPIRED_REFERENCE_FINAL_FALSE
+kp000_17p9=UNRESOLVED

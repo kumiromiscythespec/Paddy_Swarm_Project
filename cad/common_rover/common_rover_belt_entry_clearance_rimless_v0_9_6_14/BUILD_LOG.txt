@@ -1,0 +1,10 @@
+version=v0.9.6.14
+classification=BELT_ENTRY_CLEARANCE_PRACTICAL_RIMLESS
+python=3.12.13
+cadquery=2.8.0
+paths=17
+step=1
+stl=1
+svg=2
+spokes=6
+validated_corridors=2x9mm

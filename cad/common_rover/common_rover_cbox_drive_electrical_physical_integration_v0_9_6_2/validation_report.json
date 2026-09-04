@@ -1,0 +1,54 @@
+{
+  "cad_source_valid": true,
+  "component_intersections": "ZERO_FOR_KNOWN_ENVELOPES",
+  "geometry": {
+    "assembly_bounds_mm": [
+      230.0,
+      92.5,
+      55.0
+    ],
+    "body_bounds_mm": [
+      230.0,
+      92.0,
+      50.0
+    ],
+    "esp32_left_md10c_intersection_mm3": 0.0,
+    "esp32_reference_bounds_mm": [
+      56.8,
+      12.9,
+      28.2
+    ],
+    "esp32_right_md10c_intersection_mm3": 0.0,
+    "esp32_to_md10c_reference_clearance_mm": 11.1,
+    "known_component_to_lid_clearance_mm": 14.6,
+    "known_component_top_z_mm": 36.2,
+    "left_md10c_body_intersection_mm3": 0.0,
+    "lid_bounds_mm": [
+      230.0,
+      92.0,
+      4.2
+    ],
+    "md10c_height_authority": "HOLD_PHYSICAL_MAX_HEIGHT",
+    "md10c_mutual_intersection_mm3": 0.0,
+    "printable_solids_valid": true,
+    "right_md10c_body_intersection_mm3": 0.0,
+    "tray_bounds_mm": [
+      210.0,
+      72.0,
+      5.4
+    ]
+  },
+  "penetration_contract": {
+    "blank_landing_pads": 5,
+    "gland_through_holes": 0,
+    "lid": 0
+  },
+  "result": "CAD_COMPLETE_PHYSICAL_VALIDATION_PENDING",
+  "safety": {
+    "field_deployment": "NOT_APPROVED",
+    "live_battery_submersion": "NOT_APPROVED",
+    "powered_rotation": "NOT_APPROVED"
+  },
+  "unknown_height_gate": "HOLD_MD10C_PHYSICAL_MAX_HEIGHT",
+  "version": "v0.9.6.2"
+}

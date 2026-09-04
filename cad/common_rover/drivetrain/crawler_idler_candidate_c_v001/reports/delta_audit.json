@@ -1,0 +1,29 @@
+{
+  "candidate_c_source_difference": {
+    "axial_width_mm": 0.0,
+    "radial_height_mm": 0.0,
+    "root_radius_mm": 0.0,
+    "tip_width_mm": 0.0
+  },
+  "drive_architecture": {
+    "IDLER_ROTATION_ARCHITECTURE": "EXISTING_BEARING_BASED_AUTHORITY",
+    "KEYED_TORQUE_PATH": "ABSENT",
+    "MISUMI_GROOVE1_DRIVE_INTERFACE": "ABSENT",
+    "OLD_SHAFT_COLLAR_DRIVE_PATH": "ABSENT"
+  },
+  "expected_changes": {
+    "candidate_c_teeth_added": 12,
+    "local_root_bridges_added": 12,
+    "old_crawler_contact_teeth_removed": true
+  },
+  "protected_center": {
+    "added_volume_mm3": 0.0,
+    "axis_change_mm": 0.0,
+    "bearing_seat_change_mm": 0.0,
+    "center_relief_change_mm": 0.0,
+    "common_volume_mm3": 103985.571991255,
+    "missing_volume_mm3": 0.0,
+    "protected_radius_mm": 29.47,
+    "status": "ZERO_DIFF"
+  }
+}

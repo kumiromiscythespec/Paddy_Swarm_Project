@@ -1,0 +1,10 @@
+version=v0.9.6.2
+python=3.12.13
+cadquery=2.8.0
+paths=57
+step=16
+stl=6
+svg=5
+json=4
+lid_penetrations=0
+final_gland_holes=0

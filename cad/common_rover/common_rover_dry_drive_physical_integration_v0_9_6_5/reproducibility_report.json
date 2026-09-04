@@ -1,0 +1,14 @@
+{
+  "expected": "BYTE_IDENTICAL",
+  "method": "independent_temporary_directory_rebuild",
+  "scope": {
+    "JSON": 5,
+    "STEP": 29,
+    "STL": 9,
+    "SVG": 10,
+    "total": 53
+  },
+  "status": "PASS_WHEN_REBUILD_VERIFY_COMPLETES",
+  "step_metadata": "TIMESTAMP_AND_OCCURRENCE_NORMALIZED",
+  "version": "v0.9.6.5"
+}

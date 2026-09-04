@@ -1,0 +1,145 @@
+{
+  "collision": {
+    "holds": [
+      "TENSIONER_PRODUCT",
+      "BELT_LENGTH_TENSION",
+      "FINAL_KP000_POSITIONS",
+      "FINAL_MOTOR_ADAPTER_BOLT_STACK",
+      "DYNAMIC_CRAWLER_RUNOUT",
+      "ACTUAL_TOOL_ENVELOPE",
+      "FUTURE_PTO_GEOMETRY"
+    ],
+    "intended_contacts_excluded": [
+      "BELT_TO_20T",
+      "BELT_TO_60T"
+    ],
+    "known_all_zero": true,
+    "known_unintended": {
+      "-1_20t_frame": 0.0,
+      "-1_60t_frame": 0.0,
+      "-1_belt_frame": 0.0,
+      "-1_body_frame": 0.0,
+      "-1_boss_frame": 0.0,
+      "-1_bracket_frame": 0.0,
+      "-1_future_pto_frame": 0.0,
+      "-1_shaft_frame": 0.0,
+      "-1_tensioner_frame": 0.0,
+      "-1_terminal_frame": 0.0,
+      "1_20t_frame": 0.0,
+      "1_60t_frame": 0.0,
+      "1_belt_frame": 0.0,
+      "1_body_frame": 0.0,
+      "1_boss_frame": 0.0,
+      "1_bracket_frame": 0.0,
+      "1_future_pto_frame": 0.0,
+      "1_shaft_frame": 0.0,
+      "1_tensioner_frame": 0.0,
+      "1_terminal_frame": 0.0
+    },
+    "local_fit": {
+      "BATTERY_VS_FRAME": 0.0,
+      "CAP_VS_HARDWARE": 0.0,
+      "CAP_VS_MAIN_HUB": 0.0,
+      "CAP_VS_SHOE_A": 0.0,
+      "CAP_VS_SHOE_B": 0.0,
+      "HARDWARE_VS_MAIN_HUB": 0.0,
+      "LEFT_SHAFT_VS_RIGHT_SHAFT": 0.0,
+      "SHOE_A_VS_MAIN_HUB": 0.0,
+      "SHOE_B_VS_MAIN_HUB": 0.0
+    },
+    "method": "CADQUERY_COMMON_VOLUME_SOURCE_PROVEN_OR_EXPLICIT_REFERENCE_DATUMS"
+  },
+  "field": "NOT_APPROVED",
+  "frame_170": "CAD_COMPLETE_PHYSICAL_REBUILD_PENDING",
+  "full_12t": "PRINT_AFTER_WIDE_CAP_COUPON_PASS",
+  "geometry": {
+    "all_primary_shapes_valid": true,
+    "battery_frame_intersection_mm3": 0.0,
+    "battery_side_opportunity_each_mm": 10.0,
+    "cap_bounds_mm": [
+      50.0,
+      50.0,
+      17.4
+    ],
+    "cap_contact_area_sampled_mm2": 951.88,
+    "cap_hardware_intersection_mm3": 0.0,
+    "cap_main_intersection_mm3": 0.0,
+    "cap_shoe_a_intersection_mm3": 0.0,
+    "cap_shoe_b_intersection_mm3": 0.0,
+    "cap_solids": 1,
+    "complete_axial_envelope_mm": 44.0,
+    "core_bounds_mm": [
+      540.0,
+      170.0,
+      20.0
+    ],
+    "coupon_solids": 4,
+    "frame_layout_bounds_mm": [
+      540.0,
+      221.0,
+      60.0
+    ],
+    "hardware_sprocket_intersection_mm3": 0.0,
+    "known_unintended_all_zero": true,
+    "protected_root_void_intersection_mm3": 0.0,
+    "rotating_width_conservative_mm": 295.0,
+    "rotating_width_nominal_mm": 294.0,
+    "shaft_center_overlap_mm3": 0.0,
+    "shaft_display_gap_mm": 2.0,
+    "shoe_a_sprocket_intersection_mm3": 0.0,
+    "shoe_b_sprocket_intersection_mm3": 0.0,
+    "shoe_mutual_intersection_mm3": 0.0,
+    "spacer_bounds_mm": [
+      13.8,
+      13.8,
+      8.0
+    ],
+    "sprocket_bounds_mm": [
+      65.827,
+      65.827,
+      44.0
+    ],
+    "sprocket_solids": 1,
+    "tool_cap_intersection_mm3": 0.0,
+    "tool_sprocket_intersection_mm3": 0.0,
+    "unintended_intersections_mm3": {
+      "-1_20t_frame": 0.0,
+      "-1_60t_frame": 0.0,
+      "-1_belt_frame": 0.0,
+      "-1_body_frame": 0.0,
+      "-1_boss_frame": 0.0,
+      "-1_bracket_frame": 0.0,
+      "-1_future_pto_frame": 0.0,
+      "-1_shaft_frame": 0.0,
+      "-1_tensioner_frame": 0.0,
+      "-1_terminal_frame": 0.0,
+      "1_20t_frame": 0.0,
+      "1_60t_frame": 0.0,
+      "1_belt_frame": 0.0,
+      "1_body_frame": 0.0,
+      "1_boss_frame": 0.0,
+      "1_bracket_frame": 0.0,
+      "1_future_pto_frame": 0.0,
+      "1_shaft_frame": 0.0,
+      "1_tensioner_frame": 0.0,
+      "1_terminal_frame": 0.0
+    },
+    "upper_2040_bounds_mm": [
+      540.0,
+      20.0,
+      40.0
+    ],
+    "upper_left_center_y_mm": 100.5,
+    "upper_right_center_y_mm": -100.5
+  },
+  "h25a1_b": "PHYSICAL_SELECTED",
+  "mud": "NOT_APPROVED",
+  "powered_bench": "NOT_YET_APPROVED",
+  "result": "NARROW_FRAME_INDEPENDENT_DRIVE_INTEGRATION_COMPLETE",
+  "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+  "spacer_8mm": "READY_TO_PRINT",
+  "upper_2040": "CAD_COMPLETE_PHYSICAL_REBUILD_PENDING",
+  "version": "v0.9.6.6",
+  "water": "NOT_APPROVED",
+  "wide_cap": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING"
+}

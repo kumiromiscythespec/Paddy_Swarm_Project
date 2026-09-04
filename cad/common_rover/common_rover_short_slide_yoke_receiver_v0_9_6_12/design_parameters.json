@@ -1,0 +1,217 @@
+{
+  "classification": "SHORT_SLIDE_YOKE_RECEIVER_FINALIZATION",
+  "collar": {
+    "id_mm": 10.1,
+    "od_mm": 15.9,
+    "width_mm": 3.0
+  },
+  "full_capture": {
+    "A": "REJECT_TOO_TIGHT",
+    "B": "PHYSICAL_PRIMARY_PASS",
+    "C": "REJECT_TOO_LOOSE",
+    "collar_pocket_diameter_mm": 16.2,
+    "hardware_cavity_radius_mm": 20.4,
+    "selected": "B"
+  },
+  "gates": {
+    "belt": "HOLD",
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_HEX_YOKE_AND_SHORT_SLIDE_PASSES",
+    "full_torque": "HOLD",
+    "hex_nut_seat": "READY_FOR_COUPON",
+    "mud": "HOLD",
+    "powered": "NOT_YET_APPROVED",
+    "shaft_cut": "HOLD",
+    "short_slide": "READY_FOR_PHYSICAL_TEST",
+    "water": "HOLD",
+    "y3_height": "PROMISING_PHYSICAL_FIT",
+    "yoke_receiver_width": "PENDING_PHYSICAL_COUPON"
+  },
+  "guard": {
+    "allowed_upper_wall_mm": [
+      4.5,
+      5.0
+    ],
+    "connector_max_protrusion_mm": 5.1,
+    "connector_vertical_margin_mm": 3.9,
+    "current_height_mm": 6.0,
+    "current_margin_class": "INSUFFICIENT",
+    "current_vertical_margin_mm": 0.9,
+    "current_wall_mm": 4.0,
+    "dynamic_pass": false,
+    "failed_root_mm": 4.0,
+    "frame_clearance_measured_mm": 4.4,
+    "frame_clearance_target_mm": 4.0,
+    "frame_facing_surface": "AXIAL_POSITION_FROZEN",
+    "frame_facing_surface_z_mm": -26.0,
+    "lateral_shift_static_path": "NO_DIRECT_PATH_OVER_9MM_TOP_CAD_REFERENCE",
+    "link_body_height_mm": 24.1,
+    "link_facing_wall": "NEAR_VERTICAL_NO_INWARD_RAMP",
+    "max_lateral_shift_mm": 1.8,
+    "new_height_mm": 9.0,
+    "old_thin_root": "REJECT_FINAL",
+    "preserved_from": "v0.9.6.9",
+    "root_gusset_class": "R3_CLASS",
+    "root_gusset_radial_run_mm": 3.0,
+    "root_mm": 6.0,
+    "selected_upper_wall_mm": 5.0,
+    "selection": "FINAL_DRY_PROTOTYPE_GUARD_GEOMETRY",
+    "top_edge_radius_mm": 1.0
+  },
+  "hook": {
+    "center_radius_mm": 21.5,
+    "engagement_width_mm": 12.0,
+    "overlap_nominal_mm": 3.0,
+    "overlap_preferred_mm": [
+      2.5,
+      3.0
+    ],
+    "overlap_residual_s45_mm": 2.55,
+    "overlap_target_min_mm": 2.5,
+    "rigid": true,
+    "root_fillet_class": "R2_CLASS",
+    "root_thickness_mm": 6.0,
+    "snap": false,
+    "structural_thickness_mm": 4.0
+  },
+  "m4": {
+    "count": 2,
+    "full_radial_envelope_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "qualification": "1.0KG_AT_70MM_24H_NO_SHAFT_SHIFT",
+    "separation_deg": 90.0,
+    "type": "HEADED_M4",
+    "unchanged": true,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "motion": {
+    "comparison_mm": 3.5,
+    "hard_stop": true,
+    "historical_mm": 5.0,
+    "lock_concentric_error_mm": 0.0,
+    "primary_mm": 3.0,
+    "sample_count": 13,
+    "sample_increment_mm": 0.25
+  },
+  "open_hex_nut_seat": {
+    "design_primary": "H56",
+    "design_primary_af_mm": 5.6,
+    "hidden_pocket": false,
+    "nut_thickness": "HOLD",
+    "open_backed": true,
+    "petg_thread": false,
+    "physical_nut_af_reference_mm": 5.4,
+    "physical_selection": "PENDING_COUPON",
+    "removable": true,
+    "total_clearance_at_primary_mm": 0.2,
+    "variants_mm": {
+      "H55": 5.5,
+      "H56": 5.6,
+      "H57": 5.7
+    },
+    "visible": true
+  },
+  "physical_authority": {
+    "hybrid_slide_lock_principle": "PHYSICAL_PASS_USER_REPORTED",
+    "long_internal_slide_receiver": "PRINTABILITY_FAIL_FOR_FINAL_USE",
+    "long_receiver_reasons": [
+      "INTERNAL_SUPPORT_REQUIRED",
+      "POOR_SERVICE_SURFACE_RISK"
+    ],
+    "reaction_yoke_overall": "PHYSICAL_PASS_NOT_YET_GRANTED",
+    "scope": "ALL_TESTED_CLEARANCE_VARIANTS_LOCKED_FIRMLY",
+    "torque_pass": false,
+    "vibration_pass": false,
+    "y3_3p7_height": "PROMISING_PHYSICAL_FIT",
+    "y3_receiver_width": "NOT_TESTED"
+  },
+  "pitch": {
+    "difference_mm": 0.0,
+    "physical_result": "PHYSICAL_MATCH",
+    "spacing_difference_deg": 0.0,
+    "status": "FROZEN"
+  },
+  "printability": {
+    "first": "H55_H56_H57_OPEN_HEX_COUPON",
+    "full_12t_mark": "DO_NOT_PRINT_UNTIL_HEX_YOKE_RECEIVER_AND_SHORT_SLIDE_PASS",
+    "material": "PETG",
+    "printer": "BAMBU_A1",
+    "second": "YW20_YW30_YW40_WITH_IDENTICAL_Y3",
+    "third": "S45_SHORT_SLIDE_COUPON"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "reaction_yoke": {
+    "bridge_height_mm": 3.7,
+    "geometry": "PROTECTED_V0969_Y3_EXACT",
+    "load_path_primary": true,
+    "m4_head_space_mm": 4.3,
+    "nominal_width_from_cad_mm": 15.2,
+    "old_wheel_groove_authority": false,
+    "overall_bounds_mm": [
+      15.0,
+      15.2,
+      12.0
+    ],
+    "physical_selection": "PENDING_COUPON",
+    "receiver_cad_primary": "YW30",
+    "receiver_cad_primary_width_mm": 15.5,
+    "receiver_variants_mm": {
+      "YW20": 15.4,
+      "YW30": 15.5,
+      "YW40": 15.6
+    },
+    "vertical_margin_mm": 0.6,
+    "volume_mm3": 2212.752
+  },
+  "receiver": {
+    "architecture": "SHORT_OPEN_SIDED_45_DEG_SELF_SUPPORTING",
+    "hard_stop_face": "BROAD_6MM_CLASS",
+    "internal_support_region": "NONE_BY_CAD_45_DEG_RULE",
+    "internal_support_volume_mm3": 0.0,
+    "long_trapped_horizontal_ceiling": false,
+    "roof_slope_deg": 45.0,
+    "slicer_verification_required": true
+  },
+  "single_m3": {
+    "cap_thickness_mm": 5.5,
+    "count": 1,
+    "local_bridge_thickness_mm": 7.0,
+    "overall_reference_mm": 27.9,
+    "petg_stack_mm": 12.5,
+    "primary_torque_path": false,
+    "remaining_hardware_budget_mm": 8.0,
+    "role": "ANTI_REVERSE_AND_SECONDARY_AXIAL_RETENTION",
+    "under_head_usable_length_mm": 20.5
+  },
+  "slide_clearance": {
+    "S25_mm": 0.25,
+    "S35_mm": 0.35,
+    "S45_mm": 0.45,
+    "design_primary": "S45",
+    "repeat_S25_S35_S45_required": false,
+    "selection_reason": [
+      "DUST_DEBRIS",
+      "PETG_VARIATION",
+      "REPEATABLE_PHYSICAL_LOCK"
+    ]
+  },
+  "units": "mm",
+  "version": "v0.9.6.12"
+}

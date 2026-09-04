@@ -1,0 +1,12 @@
+version=v0.9.6.11
+classification=HYBRID_SLIDE_LOCK_HUB_CAP
+python=3.12.13
+cadquery=2.8.0
+paths=48
+step=5
+stl=2
+svg=10
+slide_primary_mm=5.0
+clearance_primary=S35
+m3_count=1
+full_12t_stl=NOT_GENERATED

@@ -1,0 +1,3 @@
+# Candidate C 12T + MISUMI Groove-1 keeperless V003
+
+Candidate C editable source `cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001`; current exact center source `cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001`; outer placement reference `cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001` is read only and its obsolete center is not imported; actual link `cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl`; spacer geometry `cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6/drive/artifacts/drive_spacer_8mm_v0_9_6_6.step`. All protected tree and input hashes are recorded in validation.

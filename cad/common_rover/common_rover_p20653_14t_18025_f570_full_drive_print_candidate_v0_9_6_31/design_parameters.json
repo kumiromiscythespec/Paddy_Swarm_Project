@@ -1,0 +1,191 @@
+{
+  "classification": "P20653_14T_18025_F570_FULL_DRIVE_PRINT_CANDIDATE",
+  "dimensions": {
+    "hub_count_per_drive": 1,
+    "pilot_d_mm": 24.1,
+    "pilot_length_mm": 4.0,
+    "relief_d_mm": 24.5,
+    "total_cavity_depth_mm": 26.8,
+    "total_hubs": 2
+  },
+  "frozen_parent": {
+    "idler_tooth_count": 12,
+    "lane": "cad/common_rover/common_rover_p20653_14t_18025_full_width_through_bolt_drive_v0_9_6_30",
+    "phase_deg": 12.857142857142858,
+    "pitch_diameter_mm": 92.81523749740639,
+    "pitch_mm": 20.6533333333,
+    "spacing_deg": 25.714285714285715,
+    "tooth_count": 14,
+    "tooth_regression": {
+      "all_14_pass": true,
+      "max_added_volume_mm3": 0,
+      "max_removed_volume_mm3": 0,
+      "operation": "RIGID_ROTATION_PLUS_TRANSLATION_ONLY",
+      "rows": [
+        {
+          "added_volume_mm3": 0,
+          "index": 1,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 12.857142857142858
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 2,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 38.57142857142857
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 3,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 64.28571428571429
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 4,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 90.0
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 5,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 115.71428571428572
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 6,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 141.42857142857144
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 7,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 167.14285714285714
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 8,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 192.85714285714286
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 9,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 218.57142857142858
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 10,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 244.2857142857143
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 11,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 270.0
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 12,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 295.7142857142857
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 13,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 321.4285714285714
+        },
+        {
+          "added_volume_mm3": 0,
+          "index": 14,
+          "removed_volume_mm3": 0,
+          "status": "PASS",
+          "target_angle_deg": 347.1428571428571
+        }
+      ],
+      "scale_factor": 1.0
+    },
+    "tooth_width_mm": 44.0
+  },
+  "m5": {
+    "cad_access": "PASS_OPEN_COUNTERBORE",
+    "captive_nut": "PROHIBITED",
+    "count": 6,
+    "head_side": "18025_METAL_FLANGE_SIDE",
+    "opposite_side": "METAL_FLAT_WASHER_PLUS_METAL_LOCKNUT",
+    "pcd_mm": 47.5,
+    "petg_clearance_mm": 5.5,
+    "petg_tap": "PROHIBITED",
+    "service_counterbore_d_mm": 12.0,
+    "service_counterbore_depth_mm": 4.0
+  },
+  "print": {
+    "first_stl": "artifacts/p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31.stl",
+    "gate": "PASS",
+    "process": "BAMBU_A1_PETG_CANDIDATE",
+    "quantity": 1,
+    "single_part": "APPROVED",
+    "slicer": "HOLD_NOT_RUN"
+  },
+  "selected_flange": {
+    "actual_18025_fit": "NOT_YET_PART_NOT_RECEIVED",
+    "candidate": "F570",
+    "physical_proxy_results": {
+      "F569": {
+        "diameter_mm": 56.9,
+        "result": "FAIL_TIGHT"
+      },
+      "F570": {
+        "diameter_mm": 57.0,
+        "result": "PASS_SELECTED"
+      },
+      "F571": {
+        "diameter_mm": 57.1,
+        "result": "FAIL_LOOSE"
+      }
+    },
+    "pocket_depth_mm": 6.2,
+    "pocket_diameter_mm": 57.0
+  },
+  "status": "F570_SELECTED_PHYSICAL_PROXY_PASS/TENSIONER_INWARD_STROKE_PHYSICAL_GATE_PASS/14T_FRAME_CLEARANCE_SCREEN_PASS/F570_FULL_14T_DRIVE_REGENERATED/P20653_TOOTH_GEOMETRY_FROZEN/FULL_WIDTH_SUPPORT_DRUM_COMPLETE/M5_THROUGH_BOLT_LOCKNUT_ARCHITECTURE_COMPLETE/18025_PHYSICAL_FIT_NOT_YET/FULL_14T_SINGLE_PRINT_APPROVED/STATIC_6P5NM_NOT_YET/POWERED_NOT_APPROVED/MUD_NOT_YET/FIELD_NOT_YET/COMMIT_READY_NOT_STAGED",
+  "support": {
+    "clearance_hard_mm": 0.8,
+    "clearance_target_mm": 1.0,
+    "f570_pocket_to_continuous_ring_ligament_mm": 5.049999999999997,
+    "link_swept_clearance_mm": 0.8772255106742008,
+    "link_swept_intersection_max_mm3": 0,
+    "ring_radius_mm": 33.55,
+    "structural_hard_mm": 5.0,
+    "structural_target_mm": 6.0,
+    "type": "FULL_WIDTH_CONTINUOUS_RING_PLUS_14_LOCAL_ROUNDED_ROOT_PADS",
+    "vendor_flange_to_tooth_root_mm": 5.620730891077322,
+    "width_mm": 44.0
+  },
+  "tensioner": {
+    "available_inward_mm": 10.0,
+    "physical_gate": "PASS",
+    "required_inward_mm": 2.5801,
+    "required_with_margin_mm": 4.5801,
+    "residual_mm": 5.4199,
+    "service_margin_mm": 2.0
+  },
+  "version": "v0.9.6.31"
+}

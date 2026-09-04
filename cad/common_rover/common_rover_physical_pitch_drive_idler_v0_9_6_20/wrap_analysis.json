@@ -1,0 +1,144 @@
+{
+  "drive": {
+    "adjacent_actual_link_body_intersection_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "connector_ear_interference_max_mm3": 0.0,
+    "connector_interference_method": "KINEMATIC_HINGE_REFERENCE_SOURCE_STL_SHELL; PHYSICAL_CONTACT_HOLD",
+    "phase_rows": [
+      {
+        "actual_chord_mm": 19.77231858930486,
+        "candidate": "CURRENT",
+        "diameter_mm": 76.3943726841,
+        "kinematic_usable_engagements": 1,
+        "mean_pitch_error_per_link_mm": 0.8810147439951415,
+        "phase_error_first_to_fifth_mm": 3.524058975980566,
+        "phase_error_range_first_to_fifth_mm": [
+          3.310725642780568,
+          3.790725642780558
+        ],
+        "pitch_mm": 19.77231858930486,
+        "role": "READ_ONLY_COMPARISON"
+      },
+      {
+        "actual_chord_mm": 20.6,
+        "candidate": "P2060",
+        "diameter_mm": 79.59228808621924,
+        "kinematic_usable_engagements": 5,
+        "mark": "2060",
+        "mean_pitch_error_per_link_mm": 0.05333333329999945,
+        "paired_path_increase_mm": 10.04654753409944,
+        "phase_error_first_to_fifth_mm": 0.2133333331999978,
+        "phase_error_range_first_to_fifth_mm": [
+          0.0,
+          0.47999999999998977
+        ],
+        "pitch_mm": 20.6,
+        "radius_shift_mm": 1.5989577010596179,
+        "remaining_candidate_stroke_mm": 6.97672623295028,
+        "required_center_inward_shift_mm": 5.02327376704972,
+        "role": "COMPARISON_ONLY"
+      },
+      {
+        "actual_chord_mm": 20.6533333333,
+        "candidate": "P20653",
+        "diameter_mm": 79.79835226236546,
+        "kinematic_usable_engagements": 5,
+        "mark": "2065",
+        "mean_pitch_error_per_link_mm": 0.0,
+        "paired_path_increase_mm": 10.693917236048417,
+        "phase_error_first_to_fifth_mm": 0.0,
+        "phase_error_range_first_to_fifth_mm": [
+          -0.2133333331999978,
+          0.26666666679999196
+        ],
+        "pitch_mm": 20.6533333333,
+        "radius_shift_mm": 1.7019897891327247,
+        "remaining_candidate_stroke_mm": 6.653041381975791,
+        "required_center_inward_shift_mm": 5.346958618024209,
+        "role": "PRIMARY_PHYSICAL_TEST_CANDIDATE"
+      },
+      {
+        "actual_chord_mm": 20.72,
+        "candidate": "P2072",
+        "diameter_mm": 80.05593248283799,
+        "kinematic_usable_engagements": 5,
+        "mark": "2072",
+        "mean_pitch_error_per_link_mm": -0.06666666669999799,
+        "paired_path_increase_mm": 11.503129364394969,
+        "phase_error_first_to_fifth_mm": -0.26666666679999196,
+        "phase_error_range_first_to_fifth_mm": [
+          -0.47999999999998977,
+          0.0
+        ],
+        "pitch_mm": 20.72,
+        "radius_shift_mm": 1.8307798993689914,
+        "remaining_candidate_stroke_mm": 6.248435317802516,
+        "required_center_inward_shift_mm": 5.751564682197484,
+        "role": "COMPARISON_ONLY"
+      }
+    ],
+    "root_seating": "KINEMATIC_REFERENCE_MATCH_PHYSICAL_CONTACT_HOLD",
+    "simultaneous_reference_links": 5,
+    "tooth_engagement": "FIVE_PHASE_ALIGNED_REFERENCE_POSITIONS_PHYSICAL_FIT_HOLD"
+  },
+  "idler": {
+    "actual_link_instances": 8,
+    "connector_interference_max_mm3": 0.0,
+    "forced_bending": false,
+    "guide_interference": "HOLD_CURRENT_GUIDE_TRANSFORM",
+    "hinge_articulation_deg": 30.0,
+    "same_pitch_set_as_drive": true,
+    "tooth_count": 12,
+    "type": "TOOTHED"
+  },
+  "link_geometry": {
+    "actual_source_stl_instances": 8,
+    "effective_physical_pitch_reference_mm": 20.6533333333,
+    "joint_extension_relative_to_source_mm": 0.6533333333000009,
+    "sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a",
+    "source": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl",
+    "source_geometry_scaled": false,
+    "source_hinge_centers_mm": [
+      -10.0,
+      10.0
+    ]
+  },
+  "track": {
+    "candidate_rows": [
+      {
+        "candidate": "P2060",
+        "paired_wheel_path_increase_mm": 10.04654753409944,
+        "remaining_candidate_stroke_mm": 6.97672623295028,
+        "required_idler_center_inward_shift_mm": 5.02327376704972,
+        "source_candidate_available_inward_stroke_mm": 12.0
+      },
+      {
+        "candidate": "P20653",
+        "paired_wheel_path_increase_mm": 10.693917236048417,
+        "remaining_candidate_stroke_mm": 6.653041381975791,
+        "required_idler_center_inward_shift_mm": 5.346958618024209,
+        "source_candidate_available_inward_stroke_mm": 12.0
+      },
+      {
+        "candidate": "P2072",
+        "paired_wheel_path_increase_mm": 11.503129364394969,
+        "remaining_candidate_stroke_mm": 6.248435317802516,
+        "required_idler_center_inward_shift_mm": 5.751564682197484,
+        "source_candidate_available_inward_stroke_mm": 12.0
+      }
+    ],
+    "current_adjustment_state": "USER_REPORTED_MAXIMUM_EXTENSION",
+    "excessive_tension": "NOT_APPROVED",
+    "physical_available_stroke": "HOLD_VERIFY_CURRENT_SLOT_AND_POSITION",
+    "physical_max_extension_reference_path_mm": 826.133333332,
+    "source_link_count": 40,
+    "source_nominal_path_mm": 800.0
+  }
+}

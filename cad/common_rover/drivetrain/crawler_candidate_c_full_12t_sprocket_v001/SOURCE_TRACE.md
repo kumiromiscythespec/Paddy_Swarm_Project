@@ -1,0 +1,3 @@
+# Candidate C full 12T crawler sprocket V001
+
+Candidate C editable source: `cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py` SHA `4ffa3776904918292a28e2e736648c1c98bb43dd5d8fd4dd5cd90b2b98e8f780`; validated STL SHA `c6fc7b47dfd4872428c0e01650473a08b50cb18d6d351e6af8f373964de90edc`. Current 12T source: `cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/build_physical_pitch_drive_idler_v0_9_6_20.py` SHA `269354de29d6ec2fc4bead3dbe2523fded5ba04ab3419cbba619110dc6b5eb0f`; P20653 STEP SHA `cf5a4bbdcc583105ad200009a671a0cb15c1697ab1eeff948a2313010c9212e3`. Candidate C is direct-imported from `candidate_tooth('C')`; it is not reconstructed from prompt values.

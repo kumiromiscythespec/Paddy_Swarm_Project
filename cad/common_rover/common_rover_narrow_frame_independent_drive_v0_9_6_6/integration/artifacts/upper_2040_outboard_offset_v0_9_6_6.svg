@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#fbfcfe"/><text x="25" y="34" font-family="sans-serif" font-size="22" font-weight="bold">Upper 2040 outboard relocation</text>
+<text x="975" y="32" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.6 · DRY DRIVE · NOT FIELD APPROVED</text><g font-family="sans-serif"><line x1="500" y1="80" x2="500" y2="450" stroke="#333"/><rect x="350" y="170" width="40" height="220" fill="#aaa"/><rect x="250" y="170" width="40" height="220" fill="#27ae60"/><rect x="610" y="170" width="40" height="220" fill="#aaa"/><rect x="710" y="170" width="40" height="220" fill="#27ae60"/><text x="190" y="430">LEFT: 20 mm OUTBOARD</text><text x="650" y="430">RIGHT: 20 mm OUTBOARD</text><text x="350" y="470">540×20×40, orientation unchanged, cut length unchanged</text></g>
+<text x="25" y="535" font-family="sans-serif" font-size="12">Blue=USER/MEASURED · Purple=DERIVED · Green=DESIGN PRIMARY · Orange=HOLD</text></svg>

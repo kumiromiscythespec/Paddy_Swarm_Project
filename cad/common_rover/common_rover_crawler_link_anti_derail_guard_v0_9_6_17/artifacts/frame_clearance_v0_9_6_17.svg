@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 26px; font-weight: bold; }
+    .label { font-size: 17px; }
+    .small { font-size: 14px; }
+    .body { fill: #b7d8ee; stroke: #24506b; stroke-width: 2; }
+    .guard { fill: #f4a261; stroke: #9c3f00; stroke-width: 2; }
+    .connector { fill: #a8dadc; stroke: #1d6b70; stroke-width: 2; }
+    .dim { stroke: #8b1e3f; stroke-width: 2; fill: none; }
+    .hold { fill: #fff3cd; stroke: #8a6d1d; stroke-width: 2; }
+  </style>
+  <text x="30" y="40" class="title">Frame-side envelope preservation</text>
+  
+  <rect x="100" y="120" width="160" height="360" fill="#adb5bd" stroke="#343a40" stroke-width="3"/>
+  <text x="126" y="105" class="label">frame</text>
+  <rect x="436" y="165" width="70" height="270" class="guard"/>
+  <text x="414" y="145" class="label">guard outer face</text>
+  <line x1="260" y1="300" x2="436" y2="300" class="dim"/>
+  <polygon points="260,300 274,292 274,308" fill="#8b1e3f"/><polygon points="436,300 422,292 422,308" fill="#8b1e3f"/>
+  <text x="306" y="285" class="label">4.4 mm physical reference</text>
+  <text x="580" y="220" class="label">OUTBOARD_FRAME_SIDE_DELTA = 0.0 mm</text>
+  <text x="580" y="260" class="label">predicted clearance approx. 4.4 mm</text>
+  <text x="580" y="300" class="label">hard candidate minimum 3.0 mm</text>
+  <rect x="565" y="350" width="350" height="90" class="hold"/>
+  <text x="590" y="387" class="label">HOLD: measure after printing</text>
+  <text x="590" y="416" class="small">No physical PASS is claimed by CAD.</text>
+  <text x="30" y="602" class="small">v0.9.6.17 | mesh authority | NOT FOR POWERED TEST</text>
+</svg>

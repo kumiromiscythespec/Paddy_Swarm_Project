@@ -1,0 +1,3 @@
+# MISUMI Groove-1 Full Driven-Wheel Carrier V001
+
+Pre-test: print the carrier/keeper coupon and keeper; insert the pulley; install keeper; measure axial and rotational play; remove keeper and pulley; repeat5 cycles; reject crack, whitening, catching, tooth damage or permanent deformation. Full sequence:1 print carrier;2 insert pulley;3 install keeper;4 check play;5 manually rotate20+ forward;6 manually rotate20+ reverse;7 inspect;8 mount actual shaft;9 low-power no-load;10 forward/reverse;11 inspect backlash growth;12 low-load crawler;13 dry-run crawler only after prior PASS. Water/mud and field remain HOLD.

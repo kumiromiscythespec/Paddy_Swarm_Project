@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f8f7f2"/><style>text{font-family:Arial,sans-serif;fill:#17324d}.t{font-size:30px;font-weight:bold}.m{font-size:19px}.s{fill:none;stroke:#17324d;stroke-width:4}.g{fill:none;stroke:#2a9d8f;stroke-width:5}.a{fill:none;stroke:#e76f51;stroke-width:5}.f{fill:#dbeafe;stroke:#264653;stroke-width:3}.d{stroke-dasharray:10 8}</style>
+<text x="45" y="50" class="t">EJECTOR ACCESS — FRONT DATUM</text>
+<circle cx="390" cy="350" r="258" class="s"/><circle cx="390" cy="350" r="256" class="g d"/>
+<circle cx="390" cy="350" r="217" class="g d"/><circle cx="390" cy="350" r="108" class="s"/><circle cx="605.00" cy="350.00" r="18" class="s"/><circle cx="497.50" cy="536.20" r="18" class="s"/><circle cx="282.50" cy="536.20" r="18" class="s"/><circle cx="175.00" cy="350.00" r="18" class="s"/><circle cx="282.50" cy="163.80" r="18" class="s"/><circle cx="497.50" cy="163.80" r="18" class="s"/><circle cx="546.75" cy="440.50" r="23" class="a"/><circle cx="233.25" cy="259.50" r="23" class="a"/>
+<text x="705" y="150" class="m">M5 ×6: 0° + n×60°</text><text x="705" y="200" class="m">EJECTOR: 30° / 210°</text>
+<text x="705" y="250" class="m">radius 20.00 · Ø5.00</text><text x="705" y="300" class="m">opposed spacing 180°</text>
+<text x="705" y="365" class="m">between adjacent M5 paths</text><text x="705" y="410" class="m">outside Ø24 boss</text>
+<text x="705" y="455" class="m">inside Ø56.8 metal flange</text><text x="45" y="675" class="m">v0.9.6.37 · F570 Ø57.00 EXACT · DUAL EJECTOR ONLY · POWERED NOT APPROVED</text></svg>

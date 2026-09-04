@@ -1,0 +1,1041 @@
+{
+  "checks": {
+    "broad_shoulders": "PASS",
+    "crawler_guard_dependency_zero": "PASS",
+    "exact_protected_source": "PASS",
+    "final_collision_zero": "PASS",
+    "fit_clearance_0p3": "PASS",
+    "guessed_reconstruction_false": "PASS",
+    "head_top_4p3": "PASS",
+    "height_3p7": "PASS",
+    "insertion_110_samples": "PASS",
+    "pair_artifact": "PASS",
+    "pair_stl_two_solids": "PASS",
+    "positive_stop": "PASS",
+    "powered_rotation": "NOT_APPROVED",
+    "receiver_yw30_15p5": "PASS",
+    "service_notch": "PASS",
+    "shoe_count_two": "PASS",
+    "shoe_width_15p2": "PASS",
+    "single_shoe_artifact": "PASS",
+    "single_stl_watertight": "PASS",
+    "v09618_preserved": "PASS",
+    "vertical_margin_0p6": "PASS"
+  },
+  "classification": "DRIVE_Y3_REMOVABLE_REACTION_SHOE",
+  "firewall": {
+    "crawler_guard_geometry_dependency_count": 0,
+    "v09617_geometry_import_count": 0
+  },
+  "geometry": {
+    "assembly_solid_count": 14,
+    "cap_removal_required": true,
+    "final_installed_collision_rows": [
+      {
+        "cap_and_dual_l_hooks_mm3": 0,
+        "collar_mm3": 0,
+        "headed_m4_mm3": 0,
+        "main_mm3": 0,
+        "other_shoe_mm3": 0,
+        "shaft_mm3": 0,
+        "shoe": 1,
+        "stop_key_mm3": 0
+      },
+      {
+        "cap_and_dual_l_hooks_mm3": 0,
+        "collar_mm3": 0,
+        "headed_m4_mm3": 0,
+        "main_mm3": 0,
+        "other_shoe_mm3": 0,
+        "shaft_mm3": 0,
+        "shoe": 2,
+        "stop_key_mm3": 0
+      }
+    ],
+    "final_installed_max_unintended_intersection_mm3": 0,
+    "insertion": {
+      "cap_removed": true,
+      "increment_mm": 0.5,
+      "max_unintended_intersection_mm3": 0,
+      "pass": true,
+      "rows": [
+        {
+          "axial_offset_mm": 0.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 0.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 1.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 1.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 2.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 2.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 3.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 3.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 4.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 4.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 5.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 5.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 6.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 6.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 7.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 7.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 8.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 8.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 9.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 9.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 10.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 10.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 11.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 11.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 12.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 12.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 13.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 13.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 14.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 14.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 15.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 15.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 16.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 16.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 17.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 17.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 18.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 18.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 19.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 19.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 20.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 20.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 21.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 21.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 22.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 22.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 23.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 23.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 24.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 24.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 25.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 25.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 26.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 26.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 27.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 1
+        },
+        {
+          "axial_offset_mm": 0.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 0.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 1.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 1.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 2.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 2.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 3.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 3.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 4.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 4.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 5.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 5.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 6.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 6.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 7.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 7.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 8.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 8.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 9.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 9.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 10.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 10.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 11.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 11.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 12.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 12.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 13.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 13.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 14.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 14.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 15.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 15.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 16.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 16.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 17.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 17.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 18.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 18.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 19.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 19.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 20.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 20.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 21.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 21.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 22.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 22.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 23.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 23.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 24.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 24.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 25.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 25.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 26.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 26.5,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        },
+        {
+          "axial_offset_mm": 27.0,
+          "collar_mm3": 0,
+          "headed_m4_mm3": 0,
+          "main_mm3": 0,
+          "shaft_mm3": 0,
+          "shoe": 2
+        }
+      ],
+      "sample_count_per_shoe": 55
+    },
+    "pair_print_solid_count": 2,
+    "source": {
+      "bounds_mm": [
+        15.0,
+        15.2,
+        12.0
+      ],
+      "broad_shoulders": true,
+      "geometry": "EXACT_PROTECTED_SOURCE",
+      "guessed_reconstruction": false,
+      "installed_rotation_difference_deg": 90.0,
+      "left_right_geometry_identical": true,
+      "positive_stop": true,
+      "service_notch": true,
+      "volume_mm3": 2212.752
+    }
+  },
+  "pair_stl": {
+    "bad_edge_count": 0,
+    "bounds_mm": [
+      [
+        -25.5,
+        -7.6,
+        0.0
+      ],
+      [
+        25.5,
+        7.6,
+        12.0
+      ]
+    ],
+    "connected_solid_count": 2,
+    "extents_mm": [
+      51.0,
+      15.2,
+      12.0
+    ],
+    "triangles": 104,
+    "watertight": true
+  },
+  "physical_gate": {
+    "pair": "PENDING_SINGLE_SHOE_FIT",
+    "powered": "NOT_APPROVED",
+    "single_shoe": "PENDING"
+  },
+  "single_stl": {
+    "bad_edge_count": 0,
+    "bounds_mm": [
+      [
+        -7.5,
+        -7.6,
+        0.0
+      ],
+      [
+        7.5,
+        7.6,
+        12.0
+      ]
+    ],
+    "connected_solid_count": 1,
+    "extents_mm": [
+      15.0,
+      15.2,
+      12.0
+    ],
+    "triangles": 52,
+    "watertight": true
+  },
+  "source": {
+    "bounds_mm": [
+      15.0,
+      15.2,
+      12.0
+    ],
+    "broad_shoulders": true,
+    "geometry": "EXACT_PROTECTED_SOURCE",
+    "guessed_reconstruction": false,
+    "installed_rotation_difference_deg": 90.0,
+    "left_right_geometry_identical": true,
+    "positive_stop": true,
+    "service_notch": true,
+    "volume_mm3": 2212.752
+  },
+  "status": "Y3_REACTION_SHOE_PHYSICAL_PART_COMPLETE/V09618_MISSING_REACTION_SHOE_ARTIFACT_CORRECTED/EXACT_PROTECTED_Y3_GEOMETRY_REUSED/REACTION_SHOE_COUNT_TWO_PER_DRIVE_SPROCKET/YW30_COMPATIBILITY_VERIFIED_IN_CAD/SINGLE_SHOE_READY_FOR_PHYSICAL_PRINT/PAIR_PRINT_PENDING_SINGLE_SHOE_FIT/V09618_MAIN_DRIVE_12T_UNCHANGED/CRAWLER_GUARD_DEPENDENCY_ZERO/POWERED_ROTATION_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "summary": {
+    "fail": 0,
+    "hold": 12,
+    "pass": 20
+  },
+  "v09618_preservation": {
+    "artifacts/drive_12t_h25a1_guard_free_true_open_bottom_v0_9_6_18.step": "f492ad24c9c81b2c0c6602397dad7f6c71a064f69244cb2a18f7f7cce8a1dcfe",
+    "artifacts/drive_12t_h25a1_guard_free_true_open_bottom_v0_9_6_18.stl": "2b7aa66660fed7cb37be2300cbd08f87f6d494b9500a7b5a3162ff5912924ea9",
+    "artifacts/h25a1_dual_l_slide_cap_v0_9_6_18.step": "db77749126c1dcbed4d120b6f950197211fa9e2b8202e74b94e7bc9212acea05",
+    "artifacts/h25a1_dual_l_stop_key_v0_9_6_18.step": "22508553a109a1f88cc29759cea33d6f062f953eb9d2bd1d30b23e74647b709c"
+  },
+  "version": "v0.9.6.19"
+}

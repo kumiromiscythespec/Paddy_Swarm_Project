@@ -1,0 +1,26 @@
+{
+  "angular_samples_equivalent": 360,
+  "clearances_mm": {
+    "candidate_c_tooth_mm": 1.0,
+    "carrier_conservative_outer_mm": 1.0,
+    "front_spacer_mm": 3.17199,
+    "metal_sweep_mm": 6.14779,
+    "rear_spacer_mm": 20.77199,
+    "set_screw_360_sweep_mm": 11.266727,
+    "shaft_mm": 22.67199
+  },
+  "intersections_mm3": {
+    "candidate_c_tooth_mm3": 0,
+    "carrier_conservative_outer_mm3": 0,
+    "front_spacer_mm3": 0,
+    "metal_sweep_mm3": 0,
+    "rear_spacer_mm3": 0,
+    "set_screw_360_sweep_mm3": 0,
+    "shaft_mm3": 0
+  },
+  "keeper_to_crawler_test": "N/A_KEEPER_REMOVED",
+  "method": "AXISYMMETRIC_FULL_SWEEPS_FOR_BODY_METAL_SETSCREW_SPACERS_SHAFT_PLUS_12FOLD_ENGAGEMENT_EQUIVALENCE",
+  "minimum_non_intended_clearance_mm": 1.0,
+  "status": "PASS",
+  "tooth_periodic_states": 12
+}

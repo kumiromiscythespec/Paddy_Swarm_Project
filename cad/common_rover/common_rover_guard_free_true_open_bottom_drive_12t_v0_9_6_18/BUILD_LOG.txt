@@ -1,0 +1,11 @@
+version=v0.9.6.18
+classification=GUARD_FREE_TRUE_OPEN_BOTTOM_DRIVE_12T
+python=3.12.13
+cadquery=2.8.0
+paths=39
+step=4
+stl=3
+svg=6
+parent_max_radial_mm=38.470001795
+final_max_radial_mm=33.281937805
+final_z_min_mm=-22.0

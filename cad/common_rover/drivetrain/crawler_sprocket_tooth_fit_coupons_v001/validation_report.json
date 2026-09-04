@@ -1,0 +1,392 @@
+{
+  "candidates": {
+    "A": {
+      "achievable_insertion_depth_mm": 4.0,
+      "anti_derail_interference_mm3": 0.0,
+      "approach_path_interference_mm3": {
+        "root_z_0": 0.0,
+        "root_z_1.75": 0.0,
+        "root_z_3.5": 0.0
+      },
+      "axial_width_measured_at_tip_mm": 18.0,
+      "axial_width_mm": 18.0,
+      "candidate_id": "A",
+      "candidate_solids": 1,
+      "candidate_valid": true,
+      "central_bridge_underside_z_mm": 9.0,
+      "coupon_interference_volume_mm3": 0.0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "feature_clearances_mm": {
+        "anti_derail_negative_y": 7.196191,
+        "anti_derail_positive_y": 7.196191,
+        "hinge_bridge": 1.5,
+        "pivot_negative_x": 3.083147,
+        "pivot_positive_x": 5.050326
+      },
+      "full_depth_seating_cad": true,
+      "hinge_bridge_interference_mm3": 0.0,
+      "intent": "MAXIMUM_GEOMETRIC_CLEARANCE_FIRST_PHYSICAL_FIT",
+      "local_contact_surfaces": "NONE_AT_INTENDED_POSE",
+      "maximum_interference_volume_mm3": 0.0,
+      "minimum_anti_derail_side_clearance_mm": 7.196191,
+      "minimum_global_clearance_mm": 1.5,
+      "minimum_pivot_region_clearance_mm": 3.083147,
+      "nearest_surfaces": "TOOTH_TIP_TO_CENTRAL_HINGE_BRIDGE_UNDERSIDE",
+      "physical_fit": "PENDING",
+      "pivot_screw_region_interference_mm3": 0.0,
+      "radial_clearance_to_bridge_mm": 1.5,
+      "radial_height_mm": 4.0,
+      "root_plane_engaged_z_mm": 3.5,
+      "root_total_tangential_width_mm": 10.0,
+      "root_transition_radius_mm": 1.25,
+      "tip_engaged_z_mm": 7.5,
+      "tip_tangential_width_measured_mm": 5.5,
+      "tip_tangential_width_mm": 5.5
+    },
+    "B": {
+      "achievable_insertion_depth_mm": 4.25,
+      "anti_derail_interference_mm3": 0.0,
+      "approach_path_interference_mm3": {
+        "root_z_0": 0.0,
+        "root_z_1.75": 0.0,
+        "root_z_3.5": 0.0
+      },
+      "axial_width_measured_at_tip_mm": 20.0,
+      "axial_width_mm": 20.0,
+      "candidate_id": "B",
+      "candidate_solids": 1,
+      "candidate_valid": true,
+      "central_bridge_underside_z_mm": 9.0,
+      "coupon_interference_volume_mm3": 0.0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "feature_clearances_mm": {
+        "anti_derail_negative_y": 6.150517,
+        "anti_derail_positive_y": 6.150517,
+        "hinge_bridge": 1.25,
+        "pivot_negative_x": 2.838235,
+        "pivot_positive_x": 4.12984
+      },
+      "full_depth_seating_cad": true,
+      "hinge_bridge_interference_mm3": 0.0,
+      "intent": "CAD_PRIMARY_BALANCED_FIT_AND_DRIVE_FACE",
+      "local_contact_surfaces": "NONE_AT_INTENDED_POSE",
+      "maximum_interference_volume_mm3": 0.0,
+      "minimum_anti_derail_side_clearance_mm": 6.150517,
+      "minimum_global_clearance_mm": 1.25,
+      "minimum_pivot_region_clearance_mm": 2.838235,
+      "nearest_surfaces": "TOOTH_TIP_TO_CENTRAL_HINGE_BRIDGE_UNDERSIDE",
+      "physical_fit": "PENDING",
+      "pivot_screw_region_interference_mm3": 0.0,
+      "radial_clearance_to_bridge_mm": 1.25,
+      "radial_height_mm": 4.25,
+      "root_plane_engaged_z_mm": 3.5,
+      "root_total_tangential_width_mm": 10.5,
+      "root_transition_radius_mm": 1.25,
+      "tip_engaged_z_mm": 7.75,
+      "tip_tangential_width_measured_mm": 6.0,
+      "tip_tangential_width_mm": 6.0
+    },
+    "C": {
+      "achievable_insertion_depth_mm": 4.5,
+      "anti_derail_interference_mm3": 0.0,
+      "approach_path_interference_mm3": {
+        "root_z_0": 0.0,
+        "root_z_1.75": 0.0,
+        "root_z_3.5": 0.0
+      },
+      "axial_width_measured_at_tip_mm": 22.0,
+      "axial_width_mm": 22.0,
+      "candidate_id": "C",
+      "candidate_solids": 1,
+      "candidate_valid": true,
+      "central_bridge_underside_z_mm": 9.0,
+      "coupon_interference_volume_mm3": 0.0,
+      "coupon_solids": 1,
+      "coupon_valid": true,
+      "feature_clearances_mm": {
+        "anti_derail_negative_y": 5.107165,
+        "anti_derail_positive_y": 5.107165,
+        "hinge_bridge": 1.0,
+        "pivot_negative_x": 2.593978,
+        "pivot_positive_x": 3.275473
+      },
+      "full_depth_seating_cad": true,
+      "hinge_bridge_interference_mm3": 0.0,
+      "intent": "LARGEST_CLEARANCE_BIASED_CANDIDATE",
+      "local_contact_surfaces": "NONE_AT_INTENDED_POSE",
+      "maximum_interference_volume_mm3": 0.0,
+      "minimum_anti_derail_side_clearance_mm": 5.107165,
+      "minimum_global_clearance_mm": 1.0,
+      "minimum_pivot_region_clearance_mm": 2.593978,
+      "nearest_surfaces": "TOOTH_TIP_TO_CENTRAL_HINGE_BRIDGE_UNDERSIDE",
+      "physical_fit": "PENDING",
+      "pivot_screw_region_interference_mm3": 0.0,
+      "radial_clearance_to_bridge_mm": 1.0,
+      "radial_height_mm": 4.5,
+      "root_plane_engaged_z_mm": 3.5,
+      "root_total_tangential_width_mm": 11.0,
+      "root_transition_radius_mm": 1.25,
+      "tip_engaged_z_mm": 8.0,
+      "tip_tangential_width_measured_mm": 6.5,
+      "tip_tangential_width_mm": 6.5
+    }
+  },
+  "check_count": 28,
+  "checks": {
+    "approach_zero": true,
+    "authority": true,
+    "axial_measured_exact": true,
+    "candidate_A_exact": true,
+    "candidate_B_exact": true,
+    "candidate_C_exact": true,
+    "candidate_valid": true,
+    "coupon_collision_zero": true,
+    "coupon_valid": true,
+    "full_depth": true,
+    "groove1_untouched": true,
+    "guard_collision_zero": true,
+    "hinge_collision_zero": true,
+    "no_pitch_pattern": true,
+    "pivot_collision_zero": true,
+    "pivot_margin": true,
+    "protected": true,
+    "radial_margin": true,
+    "reproducibility": true,
+    "root_r": true,
+    "side_margin": true,
+    "source_carrier_hash": true,
+    "source_link_hash": true,
+    "step_not_generated_mesh_phase": true,
+    "stl_quality": true,
+    "tip_measured_exact": true,
+    "twelve_hold": true,
+    "whole_collision_zero": true
+  },
+  "forbidden_claims": [
+    "CRAWLER_DRIVE_PASS",
+    "POWERED_TORQUE_PASS",
+    "DRY_RUN_PASS",
+    "MUD_PASS",
+    "FIELD_PASS"
+  ],
+  "holds": [
+    "CRAWLER_TOOTH_GEOMETRY_PHYSICAL_VALIDATION_PENDING",
+    "CRAWLER_PITCH_PENDING",
+    "POWERED_CRAWLER_TEST_HOLD"
+  ],
+  "pass_count": 28,
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "inputs": {
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl": "3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c",
+      "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001/print/full_driven_wheel_carrier_groove1.stl": "2e06c099a83334f7097590da73cd33755f86230367ad40ee3608ad6a5428e121"
+    },
+    "protected": {
+      "cad/common_rover/bbox_lid_wiring_chimney_v004_drainage_biased_gland": {
+        "files": 27,
+        "sha256": "7c08b27d629ad800c9a5caa55357466dd1413f740027f30cce7303ee2fe1de25",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "files": 33,
+        "sha256": "3e0a550c7d9faa38fae8d106e60b91467788e18533d23063156070d1259615b8",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31": {
+        "files": 20,
+        "sha256": "8065cefb36cef1dfb823a989185a67534f7eebdfd432fd5a664b364cc9053a72",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34": {
+        "files": 36,
+        "sha256": "121ae43e71aa732e601e67595401284f8953e4f55bde71dbd3340646e452451d",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001": {
+        "files": 28,
+        "sha256": "ac04cd892018cdc7d60116254ab47102507c4e3608bf7505c59aa2e863b7d9a1",
+        "status": "UNCHANGED"
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": 15,
+    "compared": 15,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "sources": {
+    "crawler_link": {
+      "bounds_mm": [
+        [
+          -15.99848,
+          -27.0,
+          0.0
+        ],
+        [
+          15.99848,
+          27.0,
+          24.75
+        ]
+      ],
+      "extents_mm": [
+        31.99696,
+        54.0,
+        24.75
+      ],
+      "manifold": true,
+      "path": "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl",
+      "scale": 1.0,
+      "sha256": "3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c",
+      "watertight": true
+    },
+    "current_carrier": {
+      "authority_outer_geometry": "PROTECTED_P20653_14T",
+      "authority_outer_tooth_count": 14,
+      "authority_outer_width_mm": 44.0,
+      "bounds_mm": [
+        [
+          -41.08098,
+          -41.28043,
+          -22.0
+        ],
+        [
+          41.08098,
+          41.28043,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        82.16196,
+        82.56086,
+        44.0
+      ],
+      "manifold": true,
+      "path": "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001/print/full_driven_wheel_carrier_groove1.stl",
+      "sha256": "2e06c099a83334f7097590da73cd33755f86230367ad40ee3608ad6a5428e121",
+      "watertight": true
+    }
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CRAWLER_TOOTH_FIT_COUPONS_PRINT_READY/CRAWLER_TOOTH_GEOMETRY_PHYSICAL_VALIDATION_PENDING",
+  "step": [],
+  "stl": [
+    {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -30.0,
+          -12.0,
+          -3.0
+        ],
+        [
+          8.0,
+          12.0,
+          4.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        38.0,
+        24.0,
+        7.0
+      ],
+      "manifold": true,
+      "path": "print/crawler_tooth_fit_A_h4p0_w5p5_ax18.stl",
+      "reload": "PASS",
+      "triangle_count": 428,
+      "watertight": true
+    },
+    {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -30.0,
+          -13.0,
+          -3.0
+        ],
+        [
+          8.0,
+          13.0,
+          4.25
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        38.0,
+        26.0,
+        7.25
+      ],
+      "manifold": true,
+      "path": "print/crawler_tooth_fit_B_h4p25_w6p0_ax20.stl",
+      "reload": "PASS",
+      "triangle_count": 444,
+      "watertight": true
+    },
+    {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -30.0,
+          -14.0,
+          -3.0
+        ],
+        [
+          8.0,
+          14.0,
+          4.5
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        38.0,
+        28.0,
+        7.5
+      ],
+      "manifold": true,
+      "path": "print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl",
+      "reload": "PASS",
+      "triangle_count": 412,
+      "watertight": true
+    },
+    {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -30.0,
+          -47.0,
+          -3.0
+        ],
+        [
+          8.0,
+          51.0,
+          4.5
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        38.0,
+        98.0,
+        7.5
+      ],
+      "manifold": true,
+      "path": "print/combined_crawler_tooth_fit_A_B_C.stl",
+      "reload": "PASS",
+      "triangle_count": 1356,
+      "watertight": true
+    }
+  ],
+  "version": "PADDY-SWARM-CRAWLER-SPROCKET-TOOTH-FIT-COUPONS-V001"
+}

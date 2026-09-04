@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 26px; font-weight: bold; }
+    .label { font-size: 17px; }
+    .small { font-size: 14px; }
+    .body { fill: #b7d8ee; stroke: #24506b; stroke-width: 2; }
+    .guard { fill: #f4a261; stroke: #9c3f00; stroke-width: 2; }
+    .connector { fill: #a8dadc; stroke: #1d6b70; stroke-width: 2; }
+    .dim { stroke: #8b1e3f; stroke-width: 2; fill: none; }
+    .hold { fill: #fff3cd; stroke: #8a6d1d; stroke-width: 2; }
+  </style>
+  <text x="30" y="40" class="title">Anti-climb load path</text>
+  
+  <rect x="95" y="390" width="800" height="125" class="body"/>
+  <path d="M640 95 L710 95 L720 115 L720 390 L620 390 Q620 335 565 280 L620 235 L620 115 Z" class="guard"/>
+  <circle cx="430" cy="185" r="65" class="connector"/>
+  <line x1="495" y1="185" x2="622" y2="185" stroke="#c1121f" stroke-width="8"/>
+  <polygon points="622,185 600,171 600,199" fill="#c1121f"/>
+  <line x1="665" y1="205" x2="665" y2="330" stroke="#2a9d8f" stroke-width="10"/>
+  <polygon points="665,350 650,324 680,324" fill="#2a9d8f"/>
+  <line x1="650" y1="350" x2="520" y2="420" stroke="#2a9d8f" stroke-width="10"/>
+  <polygon points="500,430 520,405 535,432" fill="#2a9d8f"/>
+  <text x="105" y="100" class="label">connector contact</text>
+  <text x="735" y="210" class="label">upper wall 5</text>
+  <text x="720" y="345" class="label">root min 6</text>
+  <text x="380" y="470" class="label">broad link body</text>
+  <text x="120" y="560" class="label">Load path: upper wall -&gt; thick root -&gt; broad link body</text>
+  <text x="30" y="602" class="small">v0.9.6.17 | mesh authority | NOT FOR POWERED TEST</text>
+</svg>

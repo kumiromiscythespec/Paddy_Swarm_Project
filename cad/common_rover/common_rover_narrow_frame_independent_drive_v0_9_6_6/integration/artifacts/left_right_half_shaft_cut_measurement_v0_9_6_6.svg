@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#fbfcfe"/><text x="25" y="34" font-family="sans-serif" font-size="22" font-weight="bold">Left/right shaft cut measurement worksheet</text>
+<text x="975" y="32" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.6 · DRY DRIVE · NOT FIELD APPROVED</text><g font-family="sans-serif"><text x="60" y="100">LEFT — measure after frame170 / 2040 / KP000 / 8mm / 12T / collars are physical-final</text><line x1="90" y1="170" x2="910" y2="170" stroke="#222"/><text x="60" y="260">RIGHT — repeat independently; identify caliper faces and smooth end reserve</text><line x1="90" y1="330" x2="910" y2="330" stroke="#222"/><text x="60" y="430" fill="#e67e22">LEFT_CUT=HOLD · RIGHT_CUT=HOLD · do not use old110 or unresolved17.9</text></g>
+<text x="25" y="535" font-family="sans-serif" font-size="12">Blue=USER/MEASURED · Purple=DERIVED · Green=DESIGN PRIMARY · Orange=HOLD</text></svg>

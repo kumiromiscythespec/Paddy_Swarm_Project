@@ -1,0 +1,90 @@
+{
+  "belt_entry": {
+    "actual_belt_section": "HOLD_MEASUREMENT_NOT_PROVIDED",
+    "continuous_circumferential_path_retained": false,
+    "entry_side": "FRONT_OPEN_SIDE_OPPOSITE_THICK_ROOT_GUARD",
+    "former_residual_ring_outer_radius_mm": 25.67,
+    "guaranteed_open_corridor_angles_deg": [
+      150.0,
+      270.0
+    ],
+    "hub_keep_radius_mm": 20.4,
+    "minimum_analytical_spoke_gap_chord_mm": 11.117511,
+    "spoke_angles_deg": [
+      0,
+      60,
+      120,
+      180,
+      240,
+      300
+    ],
+    "spoke_count": 6,
+    "spoke_radial_length_mm": 6.0,
+    "spoke_tangential_width_mm": 10.0,
+    "status": "BELT_ENTRY_CONTINUOUS_RING_REMOVED",
+    "validated_corridor_width_mm": 9.0,
+    "validated_radial_depth_mm": 4.6
+  },
+  "change_scope": "FULL_12T_RESIDUAL_RING_TO_LOCAL_SPOKES_AND_FUNCTIONAL_ISLANDS_ONLY",
+  "classification": "BELT_ENTRY_CLEARANCE_PRACTICAL_RIMLESS",
+  "gates": {
+    "actual_belt_fit": "HOLD_ACTUAL_BELT_SECTION_AND_PHYSICAL_TEST",
+    "belt_entry_test": "READY",
+    "belt_power": "HOLD",
+    "field": "NOT_APPROVED",
+    "full_torque": "HOLD",
+    "mud": "HOLD",
+    "physical_print": "READY",
+    "powered": "NOT_YET_APPROVED",
+    "shaft_cut": "HOLD",
+    "water": "HOLD"
+  },
+  "parent_lane": "cad/common_rover/common_rover_rimless_short_slide_y3_v0_9_6_13",
+  "physical_problem": "V09613_RESIDUAL_CONTINUOUS_INNER_RING_BLOCKS_BELT_ENTRY_USER_CONFIRMED",
+  "preserved": {
+    "B_collar_pocket_diameter_mm": 16.2,
+    "B_hardware_cavity_radius_mm": 20.4,
+    "S45_clearance_mm": 0.45,
+    "Y3_height_mm": 3.7,
+    "YW30_receiver_width_mm": 15.5,
+    "guard_frame_clearance_mm": 4.4,
+    "headed_m4_count": 2,
+    "headed_m4_separation_deg": 90.0,
+    "pitch": {
+      "difference_mm": 0.0,
+      "physical_result": "PHYSICAL_MATCH",
+      "spacing_difference_deg": 0.0,
+      "status": "FROZEN"
+    },
+    "protected_12t": {
+      "axial_width_mm": 44.0,
+      "buried_root_overlap_mm": 4.0,
+      "outer_body": "ONE_PIECE",
+      "phase_deg": 15.0,
+      "pitch_diameter_mm": 76.3943726841,
+      "root_radius_mm": 29.47,
+      "root_width_mm": 9.5,
+      "spacing_deg": 30.0,
+      "split_teeth": false,
+      "teeth": 12,
+      "tip_radius_mm": 33.07,
+      "tip_width_mm": 7.5,
+      "tooth_root_radial_service_holes": 0
+    },
+    "short_slide_y3": "PRESERVED_FROM_V09613",
+    "slide_travel_mm": 3.0,
+    "thick_root_guard": "H9_UPPER5_ROOT6_R3_TOPR1_PRESERVED"
+  },
+  "printability": {
+    "architecture": "CENTRAL_HUB_PLUS_SIX_LOCAL_SPOKES_PLUS_FUNCTIONAL_ISLANDS",
+    "front_entry_open": true,
+    "material": "PETG",
+    "new_deep_closed_space": false,
+    "new_long_internal_support": false,
+    "printer": "BAMBU_A1",
+    "release": "FULL_12T_READY_FOR_PHYSICAL_PRINT_AND_BELT_ENTRY_TEST",
+    "slicer_status": "HOLD_SLICER_NOT_RUN"
+  },
+  "units": "mm",
+  "version": "v0.9.6.14"
+}

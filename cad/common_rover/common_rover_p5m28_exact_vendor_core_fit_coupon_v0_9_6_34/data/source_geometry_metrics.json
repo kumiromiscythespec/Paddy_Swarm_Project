@@ -1,0 +1,104 @@
+{
+  "assembly_bbox_mm": [
+    21.000000200000006,
+    50.0000002,
+    50.00000020000001
+  ],
+  "main_body": {
+    "bbox_mm": [
+      21.000000200000006,
+      43.27328383275754,
+      43.27328383275757
+    ],
+    "exact_root_envelope_diameter_mm": 39.800000000000004,
+    "exact_tooth_tip_od_mm": 43.420000000000016,
+    "global_xyz_scaling": 0.0,
+    "identification": "UNIQUE_LARGEST_VOLUME_PLUS_43P42_OD_PLUS_28_PERIODIC_P5M_TEETH",
+    "normal_offset_kernel": "OCCT_2D_PARALLEL_OFFSET_ARC_JOIN",
+    "overall_axial_width_mm": 21.000000200000006,
+    "periodicity_added_mm3": 0,
+    "periodicity_angle_deg": 12.857142857142858,
+    "periodicity_removed_mm3": 0,
+    "pitch_mm_order_authority": 5.0,
+    "sampled_root_radius_mm": 19.899999999999995,
+    "section_wire_edge_count": 224,
+    "tooth_count_detected": 28,
+    "tooth_geometry_source": "AP203_EXACT_SECTION_NO_APPROXIMATION",
+    "tooth_zone_width_mm": 16.6,
+    "tooth_zone_x_mm": [
+      2.2,
+      18.8
+    ],
+    "volume_mm3": 25568.41453550105
+  },
+  "separate_flange_candidates": {
+    "cad_state": "NFC_SEPARATE_FLANGE_GEOMETRY_CONFIRMED_IN_CAD",
+    "count": 2,
+    "physical_state": "NOT_YET"
+  },
+  "small_accessory_solids": {
+    "count": 2,
+    "naming": "ACCESSORY_SOLID_ONLY_FUNCTION_NOT_INFERRED"
+  },
+  "solid_count": 5,
+  "solids": [
+    {
+      "bbox_mm": [
+        21.0000002,
+        43.273283833,
+        43.273283833
+      ],
+      "classification": "UNIQUE_LARGEST_MAIN_PULLEY_BODY",
+      "source_index": 0,
+      "volume_mm3": 25568.414535501
+    },
+    {
+      "bbox_mm": [
+        1.69474783,
+        50.0000002,
+        50.0000002
+      ],
+      "classification": "SEPARATE_THIN_50MM_FLANGE_CANDIDATE",
+      "source_index": 1,
+      "volume_mm3": 822.984897721
+    },
+    {
+      "bbox_mm": [
+        1.69474783,
+        50.0000002,
+        50.0000002
+      ],
+      "classification": "SEPARATE_THIN_50MM_FLANGE_CANDIDATE",
+      "source_index": 2,
+      "volume_mm3": 822.984897721
+    },
+    {
+      "bbox_mm": [
+        4.0000002,
+        3.0000002,
+        4.0000002
+      ],
+      "classification": "SEPARATE_SMALL_ACCESSORY_SOLID_NAME_NOT_INFERRED",
+      "source_index": 3,
+      "volume_mm3": 28.805854364
+    },
+    {
+      "bbox_mm": [
+        4.0000002,
+        4.0000002,
+        3.0000002
+      ],
+      "classification": "SEPARATE_SMALL_ACCESSORY_SOLID_NAME_NOT_INFERRED",
+      "source_index": 4,
+      "volume_mm3": 28.805854364
+    }
+  ],
+  "source_authority": {
+    "file_description_ap203": true,
+    "file_schema_config_control_design": true,
+    "step_entry": "PTPK28P5M150-A-N10-NFC.stp",
+    "step_sha256": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+    "zip_path": "D:\\Downloads\\PTPK28P5M150-A-N10-NFC_STEP.zip",
+    "zip_sha256": "4d296d9b827e188a3223bef57a4049c5a6bc956210537de1b50d51a727323b4a"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "cap": {
+    "broad_seating": true,
+    "outer_diameter_mm": 54.0,
+    "primary_torque_path": false,
+    "role": "AXIAL_RETENTION_AND_LOAD_SPREAD",
+    "snap_fingers": 0,
+    "thickness_mm": 5.5
+  },
+  "cap_lock": {
+    "angles_deg": [
+      45.0,
+      225.0
+    ],
+    "bolt_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "captive_internal_nut": false,
+    "center_radius_mm": 23.0,
+    "count": 2,
+    "fastener": "M3_TRUE_THROUGH_BOLT",
+    "front_head": true,
+    "front_washer_optional": true,
+    "pcd_mm": 46.0,
+    "petg_threads": false,
+    "primary_torque_path": false,
+    "rear_nut": true,
+    "rear_nut_accessible": true,
+    "rear_nut_visible": true,
+    "rear_tool_envelope": "GENERIC_REFERENCE_ACTUAL_TOOL_HOLD",
+    "rear_washer": true,
+    "separation_deg": 180.0,
+    "snap_retention": false,
+    "through_hole_diameter_mm": 3.4,
+    "v0968_captive_nut": "SUPERSEDED"
+  },
+  "classification": "DRIVE_REACTION_AND_CRAWLER_PHYSICAL_CORRECTION",
+  "collar": {
+    "id_mm": 10.1,
+    "od_mm": 15.9,
+    "width_mm": 3.0
+  },
+  "crawler_failure": {
+    "current_guard": "ANTI_CLIMB_FAIL",
+    "failure_mode": "LATERAL_DRIFT_TO_CONNECTOR_CLIMB",
+    "sequence": [
+      "LATERAL_DRIFT",
+      "CONNECTOR_APPROACH",
+      "CONNECTOR_CLIMB",
+      "CRAWLER_RISE",
+      "ABNORMAL_GUARD_BENDING",
+      "GUARD_FRACTURE"
+    ],
+    "strength": "FAIL_ONE_FRACTURE_USER_REPORTED"
+  },
+  "envelopes": {
+    "petg_rotating_axial_mm": 48.0,
+    "protected_tooth_axial_mm": 44.0,
+    "rear_nut_projection_from_tooth_face_mm": 2.9,
+    "throughbolt_hardware_axial_mm": 46.9,
+    "total_assembly_axial_mm": 48.0
+  },
+  "full_capture": {
+    "A": "REJECT_TOO_TIGHT",
+    "B": "PHYSICAL_PRIMARY_PASS",
+    "C": "REJECT_TOO_LOOSE",
+    "collar_pocket_diameter_mm": 16.2,
+    "hardware_cavity_radius_mm": 20.4,
+    "selected": "B"
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_REACTION_YOKE_AND_CAP_COUPON",
+    "m3_throughbolt": "READY_FOR_PHYSICAL_COUPON",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_YET_APPROVED",
+    "reaction_yoke": "READY_FOR_PHYSICAL_COUPON",
+    "reinforced_guard": "READY_FOR_PHYSICAL_COUPON",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "water": "NOT_APPROVED"
+  },
+  "guard": {
+    "allowed_upper_wall_mm": [
+      4.5,
+      5.0
+    ],
+    "connector_max_protrusion_mm": 5.1,
+    "connector_vertical_margin_mm": 3.9,
+    "current_height_mm": 6.0,
+    "current_margin_class": "INSUFFICIENT",
+    "current_vertical_margin_mm": 0.9,
+    "current_wall_mm": 4.0,
+    "dynamic_pass": false,
+    "failed_root_mm": 4.0,
+    "frame_clearance_measured_mm": 4.4,
+    "frame_clearance_target_mm": 4.0,
+    "frame_facing_surface": "AXIAL_POSITION_FROZEN",
+    "frame_facing_surface_z_mm": -26.0,
+    "lateral_shift_static_path": "NO_DIRECT_PATH_OVER_9MM_TOP_CAD_REFERENCE",
+    "link_body_height_mm": 24.1,
+    "link_facing_wall": "NEAR_VERTICAL_NO_INWARD_RAMP",
+    "max_lateral_shift_mm": 1.8,
+    "new_height_mm": 9.0,
+    "root_gusset_class": "R3_CLASS",
+    "root_gusset_radial_run_mm": 3.0,
+    "root_mm": 6.0,
+    "selected_upper_wall_mm": 5.0,
+    "top_edge_radius_mm": 1.0
+  },
+  "m4": {
+    "count": 2,
+    "full_radial_envelope_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "qualification": "1.0KG_AT_70MM_24H_NO_SHAFT_SHIFT",
+    "separation_deg": 90.0,
+    "type": "HEADED_M4",
+    "unchanged": true,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "old_reaction_shoe": {
+    "deeper_pocket_fix_valid": false,
+    "head_top_space_mm": 4.3,
+    "installed_overhead_requirement_mm": 8.3,
+    "interference_mm": 4.0,
+    "physical_measurement_precedes_stl_axis_bounds": true,
+    "primary": false,
+    "status": "GEOMETRICALLY_INCOMPATIBLE_WITH_ACTUAL_M4_HEAD_SPACE"
+  },
+  "pitch": {
+    "difference_mm": 0.0,
+    "physical_result": "PHYSICAL_MATCH",
+    "spacing_difference_deg": 0.0,
+    "status": "FROZEN"
+  },
+  "print": {
+    "full_12t_gate": "PENDING_REACTION_YOKE_AND_THROUGHBOLT_PHYSICAL_PASS",
+    "material": "PETG",
+    "order": [
+      "LOW_PROFILE_REACTION_YOKE_COUPON",
+      "M3_REAR_NUT_THROUGHBOLT_COUPON",
+      "CRAWLER_GUARD_COMPARISON_COUPON"
+    ],
+    "printer": "BAMBU_A1"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "reaction_yoke": {
+    "architecture": "LOW_PROFILE_U_SHAPED_REACTION_BRIDGE",
+    "design_primary_bridge_mm": 3.5,
+    "direct_overlap_max_mm": 3.7,
+    "hammer_required": false,
+    "insertion": "FRONT_AXIAL_PRESENTATION_THEN_SHORT_RADIAL_SEATING_SLIDE",
+    "low_profile_bridge": true,
+    "physical_selection": "THICKEST_RELIABLE_FIT_PENDING",
+    "positive_stop": true,
+    "quantity_per_sprocket": 2,
+    "removable": true,
+    "roof_role": "RETENTION_AND_GEOMETRY_BRIDGE_NOT_SOLE_TORQUE_MEMBER",
+    "service_notch": true,
+    "side_shoulders": "THICK_BROAD_REACTION_SURFACES",
+    "solid_overhead_block": false,
+    "variant_remaining_clearance_mm": {
+      "Y1": 1.0,
+      "Y2": 0.8,
+      "Y3": 0.6
+    },
+    "variants_mm": {
+      "Y1": 3.3,
+      "Y2": 3.5,
+      "Y3": 3.7
+    }
+  },
+  "shaft": {
+    "architecture": "LEFT_RIGHT_INDEPENDENT_HALF_SHAFTS",
+    "cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "diameter_mm": 10.0,
+    "final_center_gap": "HOLD_NON_CONTACT_REQUIRED"
+  },
+  "spacer": {
+    "chamfer_mm": 0.35,
+    "clearance_class": "PHYSICAL_MEASURED_4P4MM",
+    "frame_guard_clearance_mm": 4.4,
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "other_checks": "PHYSICAL_PENDING",
+    "thickness_mm": 8.0,
+    "width_conservative_mm": 295.0,
+    "width_nominal_mm": 294.0
+  },
+  "units": "mm",
+  "version": "v0.9.6.9"
+}

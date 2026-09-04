@@ -1,0 +1,227 @@
+{
+  "artifacts": {
+    "exact_path_count": 33,
+    "reproducibility_contract": "BYTE_IDENTICAL_REQUIRED",
+    "step_count": 0,
+    "step_status": "HOLD_SOURCE_IS_MESH",
+    "stl_count": 1,
+    "svg_count": 7
+  },
+  "check_summary": {
+    "fail": 0,
+    "hold": 2,
+    "pass": 23
+  },
+  "checks": {
+    "drive_wheel_geometry_dependency_count_0": "PASS",
+    "guard_feature_identification": "PASS_UNAMBIGUOUS",
+    "guard_height_9": "PASS",
+    "outboard_frame_delta_0": "PASS",
+    "physical_vs_stl_datum": "HOLD_UNRESOLVED",
+    "powered_rotation_not_approved": "PASS",
+    "predicted_frame_clearance_ge_3": "PASS_CONDITIONAL",
+    "primary_shape_valid": "PASS",
+    "repository_guard": "PASS",
+    "root_fillet_r3_class": "PASS",
+    "root_min_thickness_6": "PASS",
+    "source_connected_solid_1": "PASS",
+    "source_extents": "PASS",
+    "source_removed_volume_0": "PASS",
+    "source_sha_exact": "PASS",
+    "source_watertight": "PASS",
+    "source_y_extent_preserved": "PASS",
+    "step_not_fabricated": "PASS_HOLD_SOURCE_IS_MESH",
+    "stl_connected_solid_1": "PASS",
+    "stl_watertight": "PASS",
+    "thick_root_only": "PASS",
+    "top_edge_r1_class": "PASS",
+    "upper_thickness_5": "PASS"
+  },
+  "classification": "CRAWLER_LINK_ANTI_DERAIL_GUARD",
+  "datum": {
+    "physical_link_body_height_mm": 24.1,
+    "relationship": "UNRESOLVED",
+    "stl_mesh_height_mm": 21.75,
+    "stl_scaled": false
+  },
+  "firewall": {
+    "drive_wheel_geometry_dependency_count": 0,
+    "result": "DRIVE_WHEEL_AND_CRAWLER_GUARD_SEPARATED"
+  },
+  "geometry": {
+    "final_mesh": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -15.998478889465332,
+          -27.0,
+          0.0
+        ],
+        [
+          15.998478889465332,
+          27.0,
+          24.75
+        ]
+      ],
+      "connected_solid_count": 1,
+      "extents_mm": [
+        31.996957778930664,
+        54.0,
+        24.75
+      ],
+      "triangle_count": 11488,
+      "volume_mm3": 11162.731497067407,
+      "watertight": true
+    },
+    "nominal_connector_margin_mm": 3.9,
+    "outboard_frame_side_delta_mm": 0.0,
+    "predicted_frame_clearance_mm": 4.4,
+    "source_geometry_preservation": "PASS_ADDITIVE_ONLY",
+    "unexpected_removed_source_material_mm3": 0.0,
+    "volumes": {
+      "added_volume_mm3": 498.79934256705474,
+      "new_brep_volume_mm3": 11162.686109699513,
+      "raw_alignment_translation_z_mm": 3.0,
+      "removed_volume_mm3": 0.0,
+      "source_volume_mm3": 10663.88676713242,
+      "x_extent_mm": 31.996957778930664,
+      "y_extent_mm": 54.0,
+      "z_extent_mm": 24.75
+    }
+  },
+  "physical_gate": {
+    "manual_crawler_validation": "PENDING",
+    "one_full_link_ready_for_physical_print": true,
+    "powered_rotation": "NOT_APPROVED_BY_THIS_LANE"
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "outside_untracked_count": 2292,
+    "outside_untracked_tree_sha256": "c63e3dcdc7f4e48170685f5ac028d780d27b9b63589b582cd1cf6b7aa21503d4",
+    "protected_lanes": {
+      "cad/common_rover/common_rover_belt_entry_clearance_rimless_v0_9_6_14": {
+        "count": 17,
+        "sha256": "fde60a9bc0d87badde7e3929380f106bc6ba4e5aaf42cc4fcc30be7387ba2c94",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_dual_l_slide_rimless_hub_v0_9_6_15": {
+        "count": 43,
+        "sha256": "bcbc78816e40b6ecb14db5bdfff870eca614c2a190f6a78a3689ef6080a58a2b",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_hybrid_slide_lock_hub_cap_v0_9_6_11": {
+        "count": 48,
+        "sha256": "b9a725d6ba6bf2a0da0ce17b7a188c4f8430cc2a58aac7f2e14f147824149e65",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9": {
+        "count": 54,
+        "sha256": "284e02be52bc62c91e6314a4fe4a60d8c8b01a3fdf382011cb5ad21c242c4c29",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_rimless_short_slide_y3_v0_9_6_13": {
+        "count": 16,
+        "sha256": "510b3533341bee59f7ff0553c286180483dffea66fc0ff80d73d5aaa0d1c6261",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_short_m3_local_bridge_cap_lock_v0_9_6_10": {
+        "count": 43,
+        "sha256": "d12bfe1d5a60732d7e28c16a2393695352e70e33375868b247421006f51cc334",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_short_slide_yoke_receiver_v0_9_6_12": {
+        "count": 48,
+        "sha256": "189f3c0ad3fa8527e5f80b377e135e0dd220b182ba1db76a6d40cbbd8599f715",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16": {
+        "count": 36,
+        "sha256": "c63538fea957f487ac0fd4ae71137a648aee2653bb103ecf78d36639927a153e",
+        "status": "UNCHANGED"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_path": "D:\\Paddy_Swarm_Project\\cad\\crawler_h1\\track_module\\pretest_candidate_v0_1\\stl\\petg\\STANDARD_V0125_WIDE_46_LINK.stl",
+    "source_sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a",
+    "staged_count": 0,
+    "tracked_dirty_paths": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "source_authority": {
+    "copied_path": "source/STANDARD_V0125_WIDE_46_LINK(2).stl",
+    "guard_feature_identification": {
+      "functional_height_from_source_body_datum_mm": 6.0,
+      "negative_guard_mm": {
+        "x": [
+          -4,
+          4
+        ],
+        "y": [
+          -27,
+          -23
+        ],
+        "z": [
+          0,
+          9
+        ]
+      },
+      "positive_guard_mm": {
+        "x": [
+          -4,
+          4
+        ],
+        "y": [
+          23,
+          27
+        ],
+        "z": [
+          0,
+          9
+        ]
+      },
+      "source_body_datum_z_mm": 6.0,
+      "status": "UNAMBIGUOUS"
+    },
+    "mesh": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -15.998478889465332,
+          -27.0,
+          0.0
+        ],
+        [
+          15.998478889465332,
+          27.0,
+          21.75
+        ]
+      ],
+      "connected_solid_count": 1,
+      "extents_mm": [
+        31.996957778930664,
+        54.0,
+        21.75
+      ],
+      "triangle_count": 11144,
+      "volume_mm3": 10663.886767132502,
+      "watertight": true
+    },
+    "repository_alias_verified_by_exact_sha": true,
+    "repository_path": "D:\\Paddy_Swarm_Project\\cad\\crawler_h1\\track_module\\pretest_candidate_v0_1\\stl\\petg\\STANDARD_V0125_WIDE_46_LINK.stl",
+    "requested_filename_found_literally": false,
+    "sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a"
+  },
+  "status": "CRAWLER_LINK_ANTI_DERAIL_GUARD_COMPLETE/DRIVE_WHEEL_AND_CRAWLER_GUARD_SEPARATED/SOURCE_LINK_STL_AUTHORITY_RECORDED/CURRENT_6MM_GUARD_ANTI_CLIMB_FAIL_RECORDED/FAILED_4MM_ROOT_SUPERSEDED/9MM_HEIGHT_5MM_UPPER_6MM_ROOT_GUARD_COMPLETE/FRAME_SIDE_ENVELOPE_PRESERVED/THICK_ROOT_ONLY/ONE_FULL_LINK_READY_FOR_PHYSICAL_PRINT/MANUAL_CRAWLER_VALIDATION_PENDING/POWERED_ROTATION_NOT_APPROVED_BY_THIS_LANE/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.17"
+}

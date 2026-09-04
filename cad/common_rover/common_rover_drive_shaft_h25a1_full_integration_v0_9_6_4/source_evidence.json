@@ -1,0 +1,28 @@
+{
+  "kp000_17p9": "UNRESOLVED_PHYSICAL_DATUM",
+  "r42_use": "NEUTRAL_REFERENCE_FINAL_FALSE",
+  "reaction_key_winner": "NONE_FINAL",
+  "shaft_length_derived_from_17p9": false,
+  "sources": [
+    {
+      "path": "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7/build_common_rover_integral_drive_sprocket_shaft_connection_v0937.py",
+      "sha256": "14fb36d0b734cfbd29422e14d13482bc528ebd76e3b7b55dad2ce4346ea3faf5"
+    },
+    {
+      "path": "cad/common_rover/common_rover_h25a1_2s_full_hardware_fixture_v0_9_4_4/H25A1_PROTECTED_GEOMETRY_AUDIT.md",
+      "sha256": "f6a00fde4338d2f99a23f6f7bc6ec2d2fe7654c067c940f4efa876ec78aa8cd0"
+    },
+    {
+      "path": "cad/common_rover/common_rover_h25a1_2s_full_hardware_fixture_v0_9_4_4/H25A1_REACTION_KEY_SPEC.md",
+      "sha256": "d9bdf5bae98224b9ba39da8cb36632207d935c1508b3fec8fe38f665d64ea6ce"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_measurement_closure_v0_9_5_2/H25A1_PRELIMINARY_PHYSICAL_TEST_RECORD.md",
+      "sha256": "efc0d40b4f0ab3e4277e9dd056b009d11f2e7d92f356dd2fc1701fd7145769a5"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_followup_measurement_v0_9_5_3/H25A1_24H_CREEP_TEST.md",
+      "sha256": "ae2b15bcdc97a159c11d30b905acb448e39921856f28e24d7d2a70b944b2a3c8"
+    }
+  ]
+}

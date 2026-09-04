@@ -1,0 +1,26 @@
+{
+  "adjustment_mechanism": "SOURCE_TENSION_SLOT_CANDIDATE_12_MM; PHYSICAL_POSITION_MAX_REPORTED",
+  "bearing": "6000-2RS",
+  "bearing_depth_mm": 8.2,
+  "bearing_seat_mm": 26.2,
+  "bore_center_relief_mm": 12.0,
+  "builder": "cad/crawler_h1/track_module/pretest_candidate_v0_1/source_snapshots/crawler_h1_integrated_sprocket_reinforcement_v0_13_1.py",
+  "cad_bounds_mm": [
+    65.82747698902787,
+    65.82747698902789,
+    44.0
+  ],
+  "current_transform": "HOLD_EXACT_CURRENT_XYZ",
+  "exact_source_located": true,
+  "mesh_od_mm": 65.827477,
+  "mounting_axis": "SOURCE_HINGE_AXIS",
+  "no_fabricated_idler": true,
+  "sha256": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+  "side_flange_guides": "INTEGRATED_TOOTHED_BODY_NO_NEW_GUIDE",
+  "source_file": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+  "source_lane": "cad/crawler_h1/track_module/pretest_candidate_v0_1",
+  "tooth_count": 12,
+  "type": "TOOTHED",
+  "type_classified": true,
+  "width_mm": 44.0
+}

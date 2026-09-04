@@ -1,0 +1,212 @@
+{
+  "alignment_mark": "REQUIRED_BEFORE_POWERED_ROTATION",
+  "axial_retention": {
+    "final_hardware": "HOLD",
+    "generic_metal_collars": 2,
+    "independent": true,
+    "petg_sprocket_sole": false
+  },
+  "battery": {
+    "body_measured_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "bottom_to_terminal_top_mm": 99.4,
+    "label": [
+      12.8,
+      10.0,
+      128.0
+    ],
+    "mass_kg": 1.2,
+    "product": "GOLDENMATE_LIFEPO4",
+    "terminal_protrusion_derived_mm": 6.9,
+    "terminal_side": "OPEN",
+    "terminal_tab_measured_mm": [
+      6.3,
+      0.7
+    ]
+  },
+  "belt": {
+    "length_only_cause": "UNLIKELY",
+    "profile_compatibility_suspect": true,
+    "redesign_in_lane": false,
+    "tpu_560_tooth_lift": true,
+    "tpu_565_tooth_lift": true,
+    "use": "LOW_LOAD_DRY_FUNCTION_ONLY"
+  },
+  "carrier": {
+    "bottom": "OPEN_CENTER_TWO_RUNNERS",
+    "cable_clamp": "ZIP_TIE_SLOTS_DIMENSION_AGNOSTIC",
+    "cavity_reference_mm": [
+      153.5,
+      102.0
+    ],
+    "field": "NOT_APPROVED",
+    "material": "PETG_PROTOTYPE",
+    "mud": "NOT_APPROVED",
+    "strap_qty": 2,
+    "strap_width_mm": 25.0,
+    "strap_x_mm": [
+      -45.0,
+      45.0
+    ],
+    "tail_retention": true,
+    "terminal_end": "OPEN",
+    "water": "NOT_APPROVED"
+  },
+  "classification": "DRY_DRIVE_PHYSICAL_INTEGRATION",
+  "crawler": {
+    "link_width_measured_mm": 54.0,
+    "overhang_each_derived_mm": 3.0,
+    "rotating_preferred_max_mm": 300.0,
+    "wheel_link_difference_measured_mm": 6.0,
+    "wheel_width_derived_mm": 48.0,
+    "width_180": [
+      294,
+      296,
+      298
+    ],
+    "width_181": [
+      295,
+      297,
+      299
+    ]
+  },
+  "gates": {
+    "battery_carrier": "CAD_COMPLETE_PHYSICAL_FIT_PENDING",
+    "field_deployment": "NOT_APPROVED",
+    "full_12t_print": "PRINT_AFTER_FULL_CAPTURE_COUPON_PASS",
+    "full_capture_cage": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING",
+    "full_capture_coupon": "READY_FOR_PHYSICAL_COUPON",
+    "low_load_powered_bench": "NOT_YET_APPROVED",
+    "rail_coupon": "READY_FOR_PHYSICAL_COUPON"
+  },
+  "h25a1": {
+    "angle_deg": 90.0,
+    "architecture": "H2.5-A1-FC",
+    "collar_cage_diametral_clearance_reference_mm": 0.3,
+    "collar_mm": [
+      15.9,
+      10.1,
+      3.0
+    ],
+    "coupon_variants": {
+      "A": [
+        16.1,
+        20.2
+      ],
+      "B": [
+        16.2,
+        20.4
+      ],
+      "C": [
+        16.3,
+        20.6
+      ]
+    },
+    "fastener": "HEADED_M4",
+    "full_axial_envelope_mm": 8.8,
+    "full_capture_tolerance": "PHYSICAL_COUPON_PENDING",
+    "full_radial_envelope_radius_mm": 20.0,
+    "grub_screw_primary_count": 0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "permanent_adhesive": false,
+    "point_only_petg_reaction": false,
+    "quantity": 2,
+    "reaction_area_each_mm2": 52.8,
+    "reaction_shoes": 2,
+    "retainer_final_lock": "PHYSICAL_COUPON_PENDING",
+    "retainer_role": "AXIAL_ONLY",
+    "screw_od_mm_approx": 3.8,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "idler": {
+    "classification": "MEASURED_PASSAGE_DATUM",
+    "exact_xyz": "UNRESOLVED",
+    "keepout": "PHYSICAL_PENDING",
+    "minimum_adjusted_clearance_mm": 0.3,
+    "nominal_carrier_to_datum_mm": 2.3,
+    "upper_underside_to_observation_datum_mm": 108.0
+  },
+  "kp000": {
+    "datum_17p9_mm": 17.9,
+    "datum_17p9_status": "UNRESOLVED",
+    "inner_rotating_od_mm": 14.2,
+    "max_screw_envelope_od_mm": 16.0,
+    "quantity": 2,
+    "support": "DOUBLE_SUPPORTED"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "qualification": {
+    "collar_rotation": "NONE_REPORTED",
+    "full_drive_torque": "NOT_QUALIFIED",
+    "hours": 24,
+    "lever_mm": 70.0,
+    "load_kg": 1.0,
+    "nominal_torque_nm": 0.6864655,
+    "petg_damage": "NONE_REPORTED",
+    "shaft_shift": "NONE",
+    "shaft_to_collar": "PHYSICAL_PASS_USER_REPORTED"
+  },
+  "rail": {
+    "hidden_slot_profile": "NOT_MODELED",
+    "m5_petg_clearance_mm": 5.5,
+    "m5_total": 4,
+    "mount_authority": "UPPER_TRANSVERSE_RAIL_ONLY",
+    "outer_measured_mm": [
+      20.0,
+      20.0
+    ],
+    "petg_threads_primary": false,
+    "saddles": 2,
+    "side_slot_m5_total": 2,
+    "top_slot_m5_total": 2,
+    "type": "2020_ALUMINUM_EXTRUSION",
+    "vertical_adjustment_nominal_mm": [
+      -2.0,
+      2.0
+    ],
+    "vertical_adjustment_total_mm": 4.0
+  },
+  "shaft": {
+    "cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "diameter_mm": 10.0,
+    "display_length_mm": 110.0,
+    "dry_material": "STEEL_CANDIDATE",
+    "final_material": "HOLD",
+    "flat_depth": "HOLD",
+    "flats": "OPTIONAL_FUTURE",
+    "form": "SOLID_PRIMARY",
+    "smooth_reserve": true
+  },
+  "spacer": {
+    "contact": "KP000_ROTATING_INNER_RACE_FACE_ONLY",
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "primary_mm": 4.0,
+    "thicknesses_mm": [
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  "units": "mm",
+  "version": "v0.9.6.5"
+}

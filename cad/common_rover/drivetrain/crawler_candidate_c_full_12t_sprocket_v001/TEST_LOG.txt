@@ -1,0 +1,164 @@
+warning: could not open directory '.pytest_cache/': Permission denied
+warning: could not open directory '.pytest_cache/': Permission denied
+warning: could not open directory '.pytest_cache/': Permission denied
+warning: in the working copy of 'CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md', LF will be replaced by CRLF the next time Git touches it
+test_001_candidate-c-exact: PASS | {'axial_width_mm': 22.0, 'id': 'C', 'physical_result': 'HOLD_NEAR_PASS', 'radial_height_mm': 4.5, 'root_total_tangential_width_mm': 11.0, 'root_transition_radius_mm': 1.25, 'tip_tangential_width_mm': 6.5}
+test_002_candidate-source-direct: PASS | {'candidate_c_builder': 'cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py', 'candidate_c_lane': 'cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001', 'candidate_c_stl': 'cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl', 'current_12t_lane': 'cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20', 'current_12t_step': 'cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step', 'sha256': {'cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step': 'cf5a4bbdcc583105ad200009a671a0cb15c1697ab1eeff948a2313010c9212e3', 'cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/build_physical_pitch_drive_idler_v0_9_6_20.py': '269354de29d6ec2fc4bead3dbe2523fded5ba04ab3419cbba619110dc6b5eb0f', 'cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py': '4ffa3776904918292a28e2e736648c1c98bb43dd5d8fd4dd5cd90b2b98e8f780', 'cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl': 'c6fc7b47dfd4872428c0e01650473a08b50cb18d6d351e6af8f373964de90edc'}}
+test_003_tooth-count: PASS | 12
+test_004_pattern-contract: PASS | {'phase_deg': 15.0, 'pitch_classification': 'P20653_PHYSICAL_MAX_EXTENSION_SUPPORTED_PRIMARY_CANDIDATE_NOT_UNIVERSAL_OPERATING_AUTHORITY', 'pitch_diameter_mm': 79.79835226236546, 'pitch_mm': 20.6533333333, 'spacing_deg': 30.0, 'tooth_count': 12}
+test_005_center-axis: PASS | {'center_axis': [0.0, 0.0], 'expected_core_added_mm3': 0.0, 'expected_core_missing_mm3': 0.0, 'shaft_hub': 'V09618_H25A1_DUAL_L_Y3_B_COLLAR_HEADED_M4X2', 'source': 'cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step'}
+test_006_axial-contract: PASS | {'candidate_engagement_width_mm': 22.0, 'protected_body_width_mm': 44.0, 'rule': 'CANDIDATE_WIDTH_ONLY_ON_ENGAGEMENT_TOOTH'}
+test_007_full-valid-single-solid: PASS | [True, 1]
+test_008_protected-core-zero-diff: PASS | [0, 0]
+test_009_hub-shaft-fastener-zero-diff: PASS | R29.47 complete center core
+test_010_no-global-scale: PASS | [39.89917613118273, 31.171989789132724]
+test_011_support-count: PASS | 12
+test_012_support-width: PASS | [11.0, 44.0]
+test_013_curved-coupon: PASS | [True, 1]
+test_014_tooth-volume-identical: PASS | 0.0
+test_015_no-tooth-overlap: PASS | 0
+test_016_tooth-01-angle: PASS | 15.0
+test_017_tooth-02-angle: PASS | 45.0
+test_018_tooth-03-angle: PASS | 75.0
+test_019_tooth-04-angle: PASS | 105.0
+test_020_tooth-05-angle: PASS | 135.0
+test_021_tooth-06-angle: PASS | 165.0
+test_022_tooth-07-angle: PASS | 195.0
+test_023_tooth-08-angle: PASS | 225.0
+test_024_tooth-09-angle: PASS | 255.0
+test_025_tooth-10-angle: PASS | 285.0
+test_026_tooth-11-angle: PASS | 315.0
+test_027_tooth-12-angle: PASS | 345.0
+test_028_spacing-01: PASS | 30.0
+test_029_spacing-02: PASS | 30.0
+test_030_spacing-03: PASS | 30.0
+test_031_spacing-04: PASS | 30.0
+test_032_spacing-05: PASS | 30.0
+test_033_spacing-06: PASS | 30.0
+test_034_spacing-07: PASS | 30.0
+test_035_spacing-08: PASS | 30.0
+test_036_spacing-09: PASS | 30.0
+test_037_spacing-10: PASS | 30.0
+test_038_spacing-11: PASS | 30.0
+test_039_spacing-12: PASS | 30.0
+test_040_pair-01-02-zero: PASS | 0
+test_041_pair-01-03-zero: PASS | 0
+test_042_pair-01-04-zero: PASS | 0
+test_043_pair-01-05-zero: PASS | 0
+test_044_pair-01-06-zero: PASS | 0
+test_045_pair-01-07-zero: PASS | 0
+test_046_pair-01-08-zero: PASS | 0
+test_047_pair-01-09-zero: PASS | 0
+test_048_pair-01-10-zero: PASS | 0
+test_049_pair-01-11-zero: PASS | 0
+test_050_pair-01-12-zero: PASS | 0
+test_051_pair-02-03-zero: PASS | 0
+test_052_pair-02-04-zero: PASS | 0
+test_053_pair-02-05-zero: PASS | 0
+test_054_pair-02-06-zero: PASS | 0
+test_055_pair-02-07-zero: PASS | 0
+test_056_pair-02-08-zero: PASS | 0
+test_057_pair-02-09-zero: PASS | 0
+test_058_pair-02-10-zero: PASS | 0
+test_059_pair-02-11-zero: PASS | 0
+test_060_pair-02-12-zero: PASS | 0
+test_061_pair-03-04-zero: PASS | 0
+test_062_pair-03-05-zero: PASS | 0
+test_063_pair-03-06-zero: PASS | 0
+test_064_pair-03-07-zero: PASS | 0
+test_065_pair-03-08-zero: PASS | 0
+test_066_pair-03-09-zero: PASS | 0
+test_067_pair-03-10-zero: PASS | 0
+test_068_pair-03-11-zero: PASS | 0
+test_069_pair-03-12-zero: PASS | 0
+test_070_pair-04-05-zero: PASS | 0
+test_071_pair-04-06-zero: PASS | 0
+test_072_pair-04-07-zero: PASS | 0
+test_073_pair-04-08-zero: PASS | 0
+test_074_pair-04-09-zero: PASS | 0
+test_075_pair-04-10-zero: PASS | 0
+test_076_pair-04-11-zero: PASS | 0
+test_077_pair-04-12-zero: PASS | 0
+test_078_pair-05-06-zero: PASS | 0
+test_079_pair-05-07-zero: PASS | 0
+test_080_pair-05-08-zero: PASS | 0
+test_081_pair-05-09-zero: PASS | 0
+test_082_pair-05-10-zero: PASS | 0
+test_083_pair-05-11-zero: PASS | 0
+test_084_pair-05-12-zero: PASS | 0
+test_085_pair-06-07-zero: PASS | 0
+test_086_pair-06-08-zero: PASS | 0
+test_087_pair-06-09-zero: PASS | 0
+test_088_pair-06-10-zero: PASS | 0
+test_089_pair-06-11-zero: PASS | 0
+test_090_pair-06-12-zero: PASS | 0
+test_091_pair-07-08-zero: PASS | 0
+test_092_pair-07-09-zero: PASS | 0
+test_093_pair-07-10-zero: PASS | 0
+test_094_pair-07-11-zero: PASS | 0
+test_095_pair-07-12-zero: PASS | 0
+test_096_pair-08-09-zero: PASS | 0
+test_097_pair-08-10-zero: PASS | 0
+test_098_pair-08-11-zero: PASS | 0
+test_099_pair-08-12-zero: PASS | 0
+test_100_pair-09-10-zero: PASS | 0
+test_101_pair-09-11-zero: PASS | 0
+test_102_pair-09-12-zero: PASS | 0
+test_103_pair-10-11-zero: PASS | 0
+test_104_pair-10-12-zero: PASS | 0
+test_105_pair-11-12-zero: PASS | 0
+test_106_step-reload-candidate_C_full_12T_sprocket: PASS | {'path': 'artifacts/candidate_C_full_12T_sprocket.step', 'reload': 'PASS', 'valid': True, 'solids': 1, 'volume_mm3': 84912.928716}
+test_107_step-reload-candidate_C_full_12T_sprocket_section: PASS | {'path': 'artifacts/candidate_C_full_12T_sprocket_section.step', 'reload': 'PASS', 'valid': True, 'solids': 1, 'volume_mm3': 41685.041855}
+test_108_stl-watertight-candidate_C_full_12T_sprocket: PASS | {'path': 'artifacts/candidate_C_full_12T_sprocket.stl', 'triangles': 8900, 'components': 1, 'watertight': True, 'manifold': True, 'bad_edges': 0, 'degenerate_triangles': 0, 'bounds_mm': [[-35.29766, -35.29766, -22.0], [35.29766, 35.29766, 22.0]], 'extents_mm': [70.59532, 70.59532, 44.0]}
+test_109_stl-manifold-candidate_C_full_12T_sprocket: PASS | {'path': 'artifacts/candidate_C_full_12T_sprocket.stl', 'triangles': 8900, 'components': 1, 'watertight': True, 'manifold': True, 'bad_edges': 0, 'degenerate_triangles': 0, 'bounds_mm': [[-35.29766, -35.29766, -22.0], [35.29766, 35.29766, 22.0]], 'extents_mm': [70.59532, 70.59532, 44.0]}
+test_110_stl-bad-edge-zero-candidate_C_full_12T_sprocket: PASS | 0
+test_111_stl-degenerate-zero-candidate_C_full_12T_sprocket: PASS | 0
+test_112_stl-single-component-candidate_C_full_12T_sprocket: PASS | 1
+test_113_stl-watertight-candidate_C_curved_3tooth_validation: PASS | {'path': 'artifacts/candidate_C_curved_3tooth_validation.stl', 'triangles': 1216, 'components': 1, 'watertight': True, 'manifold': True, 'bad_edges': 0, 'degenerate_triangles': 0, 'bounds_mm': [[0.0, 0.0, -11.0], [35.29766, 35.29766, 11.0]], 'extents_mm': [35.29766, 35.29766, 22.0]}
+test_114_stl-manifold-candidate_C_curved_3tooth_validation: PASS | {'path': 'artifacts/candidate_C_curved_3tooth_validation.stl', 'triangles': 1216, 'components': 1, 'watertight': True, 'manifold': True, 'bad_edges': 0, 'degenerate_triangles': 0, 'bounds_mm': [[0.0, 0.0, -11.0], [35.29766, 35.29766, 11.0]], 'extents_mm': [35.29766, 35.29766, 22.0]}
+test_115_stl-bad-edge-zero-candidate_C_curved_3tooth_validation: PASS | 0
+test_116_stl-degenerate-zero-candidate_C_curved_3tooth_validation: PASS | 0
+test_117_stl-single-component-candidate_C_curved_3tooth_validation: PASS | 1
+test_118_path-BUILD_LOG-txt: PASS | BUILD_LOG.txt
+test_119_path-CANDIDATE_C_PHYSICAL_RESULT-md: PASS | CANDIDATE_C_PHYSICAL_RESULT.md
+test_120_path-COMMIT_PATHS-txt: PASS | COMMIT_PATHS.txt
+test_121_path-DELTA_REPORT-md: PASS | DELTA_REPORT.md
+test_122_path-DESIGN_AUTHORITY-md: PASS | DESIGN_AUTHORITY.md
+test_123_path-HOLD_REGISTER-md: PASS | HOLD_REGISTER.md
+test_124_path-MANIFEST-txt: PASS | MANIFEST.txt
+test_125_path-PHYSICAL_TEST_PLAN-md: PASS | PHYSICAL_TEST_PLAN.md
+test_126_path-README-md: PASS | README.md
+test_127_path-SHA256SUMS-txt: PASS | SHA256SUMS.txt
+test_128_path-SOURCE_TRACE-md: PASS | SOURCE_TRACE.md
+test_129_path-STRUCTURAL_SUPPORT_AUDIT-md: PASS | STRUCTURAL_SUPPORT_AUDIT.md
+test_130_path-TEST_LOG-txt: PASS | TEST_LOG.txt
+test_131_path-artifacts-candidate_C_curved_3tooth_validation-stl: PASS | artifacts/candidate_C_curved_3tooth_validation.stl
+test_132_path-artifacts-candidate_C_full_12T_delta-svg: PASS | artifacts/candidate_C_full_12T_delta.svg
+test_133_path-artifacts-candidate_C_full_12T_sprocket-step: PASS | artifacts/candidate_C_full_12T_sprocket.step
+test_134_path-artifacts-candidate_C_full_12T_sprocket-stl: PASS | artifacts/candidate_C_full_12T_sprocket.stl
+test_135_path-artifacts-candidate_C_full_12T_sprocket_reference-svg: PASS | artifacts/candidate_C_full_12T_sprocket_reference.svg
+test_136_path-artifacts-candidate_C_full_12T_sprocket_section-step: PASS | artifacts/candidate_C_full_12T_sprocket_section.step
+test_137_path-artifacts-candidate_C_full_12T_sprocket_section-svg: PASS | artifacts/candidate_C_full_12T_sprocket_section.svg
+test_138_path-build_candidate_c_full_12t_sprocket_v001-py: PASS | build_candidate_c_full_12t_sprocket_v001.py
+test_139_path-design_parameters-json: PASS | design_parameters.json
+test_140_path-tests-test_candidate_c_full_12t_sprocket_v001_contract-py: PASS | tests/test_candidate_c_full_12t_sprocket_v001_contract.py
+test_141_path-validation_report-json: PASS | validation_report.json
+test_142_manifest-exact: PASS | 24
+test_143_reproducibility: PASS | {'byte_identical': 17, 'compared': 17, 'mismatches': [], 'status': 'PASS'}
+test_144_status-holds: PASS | CAD_PASS/CONTRACT_TEST_PASS/CANDIDATE_C_FULL_12T_SPROCKET_PRINT_READY/PHYSICAL_VALIDATION_PENDING/CRAWLER_FULL_LOOP_VALIDATION_PENDING/POWERED_DRY_RUN_PENDING
+test_145_repository-root: PASS | root
+test_146_repository-branch: PASS | branch
+test_147_repository-head: PASS | head
+test_148_repository-staged_zero: PASS | staged_zero
+test_149_repository-tracked_dirty_preserved: PASS | tracked_dirty_preserved
+test_150_repository-outside_untracked_preserved: PASS | outside_untracked_preserved
+test_151_repository-authority_four: PASS | authority_four
+test_152_repository-protected_five: PASS | protected_five
+test_153_repository-source_hashes: PASS | source_hashes
+test_154_repository-lane_scope: PASS | lane_scope
+test_155_repository-lane_complete: PASS | lane_complete
+test_156_repository-cache_zero: PASS | cache_zero
+RESULT=156/156 PASS

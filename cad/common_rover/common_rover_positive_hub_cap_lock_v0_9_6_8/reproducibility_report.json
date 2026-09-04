@@ -1,0 +1,8 @@
+{
+  "checked": 60,
+  "differences": [],
+  "identical": 60,
+  "method": "TWO_ISOLATED_BUILDS_BYTE_COMPARE_WITH_STEP_HEADER_NORMALIZATION",
+  "status": "PASS",
+  "version": "v0.9.6.8"
+}

@@ -1,0 +1,15 @@
+version=v0.9.6.12
+classification=SHORT_SLIDE_YOKE_RECEIVER_FINALIZATION
+python=3.12.13
+cadquery=2.8.0
+paths=48
+step=6
+stl=5
+svg=9
+docs=19
+slide_primary_mm=3.0
+clearance_primary=S45
+hex_primary=H56
+yoke_receiver_primary=YW30
+full_12t=DO_NOT_PRINT_UNTIL_HEX_YOKE_RECEIVER_AND_SHORT_SLIDE_PASS
+powered=NOT_YET_APPROVED

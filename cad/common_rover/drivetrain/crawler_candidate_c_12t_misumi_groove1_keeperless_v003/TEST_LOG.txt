@@ -1,0 +1,57 @@
+warning: could not open directory '.pytest_cache/': Permission denied
+test_001_candidate-c-h: PASS | 4.5
+test_002_candidate-c-tip: PASS | 6.5
+test_003_candidate-c-axial: PASS | 22.0
+test_004_candidate-c-root-r: PASS | 1.25
+test_005_tooth-count: PASS | 12
+test_006_spacing: PASS | [15.0, 45.0, 75.0, 105.0, 135.0, 165.0, 195.0, 225.0, 255.0, 285.0, 315.0, 345.0]
+test_007_tooth-self-intersection: PASS | 0
+test_008_groove-code: PASS | C1
+test_009_groove-clearance: PASS | 0.15
+test_010_groove-zero-change: PASS | 0
+test_011_pulley-center: PASS | 11.0
+test_012_keeper-absent: PASS | False
+test_013_pcd56-absent: PASS | False
+test_014_m5-holes-absent: PASS | False
+test_015_pcd56-filled: PASS | [0.0, 0.0, 0.0, 0.0]
+test_016_legacy-center-absent: PASS | ABSENT
+test_017_current-torque-path: PASS | SHAFT_TO_KEY_TO_MISUMI_METAL_PULLEY_TO_EXACT_GROOVE1_C1_TO_PRINTED_CARRIER_TO_CANDIDATE_C_12T
+test_018_axial-architecture: PASS | MISUMI_SETSCREW_PLUS_SPACER_SANDWICH
+test_019_set-screw-not-primary: PASS | AXIAL_POSITION_RETENTION_AND_ANTI_WALK_NOT_PRIMARY_TORQUE
+test_020_key-effective: PASS | {'effective_mm': 16.7, 'original_mm': 19.7, 'primary_torque_element': True, 'removed_mm': 3.0}
+test_021_carrier-valid: PASS | {'carrier_main_z_mm': [-21.0, 21.0], 'contact_datums_z_mm': [-22.0, 22.0], 'keeper_present': False, 'legacy_shaft_collar_torque_path': 'ABSENT', 'm5_keeper_holes_present': False, 'pcd56_present': False, 'pcd56_void_volumes_mm3': [0.0, 0.0, 0.0, 0.0], 'printed_shaft_radial_gap_mm': 1.0, 'solid_count': 1, 'valid': True, 'volume_mm3': 110728.930251}
+test_022_intersection-candidate_c_tooth_mm3: PASS | 0
+test_023_intersection-carrier_conservative_outer_mm3: PASS | 0
+test_024_intersection-front_spacer_mm3: PASS | 0
+test_025_intersection-metal_sweep_mm3: PASS | 0
+test_026_intersection-rear_spacer_mm3: PASS | 0
+test_027_intersection-set_screw_360_sweep_mm3: PASS | 0
+test_028_intersection-shaft_mm3: PASS | 0
+test_029_minimum-clearance: PASS | 1.0
+test_030_full-360: PASS | AXISYMMETRIC_FULL_SWEEPS_FOR_BODY_METAL_SETSCREW_SPACERS_SHAFT_PLUS_12FOLD_ENGAGEMENT_EQUIVALENCE
+test_031_keeper-test-na: PASS | N/A_KEEPER_REMOVED
+test_032_tool-access: PASS | {'approved_method': 'PRETIGHTEN_BEFORE_CARRIER_INSERTION_OR_REMOVE_CRAWLER_AND_RETRACT_CARRIER_PLUS_Z', 'carrier_retraction_mm': 50.0, 'crawler_removal_required_for_service': True, 'in_situ_tool_access_claimed': False, 'installed_direct_radial_path_blocked': True, 'retracted_tool_intersection_mm3': 0, 'source_small_solid_count': 2, 'status': 'PASS_BY_AXIAL_SERVICE_RETRACTION'}
+test_033_tool-retracted-clear: PASS | 0
+test_034_spacer-pending: PASS | SPACER_STACK_PHYSICAL_SELECTION_PENDING
+test_035_spacer-id: PASS | {'chamfer_mm': 0.35, 'id_mm': 10.2, 'od_mm': 13.8, 'thickness_mm': 8.0}
+test_036_spacer-od: PASS | {'chamfer_mm': 0.35, 'id_mm': 10.2, 'od_mm': 13.8, 'thickness_mm': 8.0}
+test_037_staged-zero-record: PASS | []
+test_038_reproducibility: PASS | {'byte_identical': 21, 'compared': 21, 'mismatches': [], 'status': 'PASS'}
+test_039_expected-path-count: PASS | 29
+test_040_step-count: PASS | 6
+test_041_step-candidate_C_12T_misumi_groove1_keeperless: PASS | {'path': 'cad/candidate_C_12T_misumi_groove1_keeperless.step', 'reload': 'PASS', 'valid': True, 'solids': 1, 'bbox_mm': [70.595, 70.595, 44.0]}
+test_042_step-candidate_C_12T_misumi_groove1_keeperless_assembly_reference: PASS | {'path': 'cad/candidate_C_12T_misumi_groove1_keeperless_assembly_reference.step', 'reload': 'PASS', 'valid': True, 'solids': 7, 'bbox_mm': [70.595, 70.595, 80.0]}
+test_043_step-groove1_exact_interface_reference: PASS | {'path': 'cad/groove1_exact_interface_reference.step', 'reload': 'PASS', 'valid': True, 'solids': 1, 'bbox_mm': [43.573, 43.573, 16.6]}
+test_044_step-spacer_stack_reference: PASS | {'path': 'cad/spacer_stack_reference.step', 'reload': 'PASS', 'valid': True, 'solids': 4, 'bbox_mm': [62.544, 62.544, 80.0]}
+test_045_step-set_screw_tool_access_reference: PASS | {'path': 'cad/set_screw_tool_access_reference.step', 'reload': 'PASS', 'valid': True, 'solids': 7, 'bbox_mm': [88.298, 88.298, 112.0]}
+test_046_step-actual_crawler_clearance_reference: PASS | {'path': 'cad/actual_crawler_clearance_reference.step', 'reload': 'PASS', 'valid': True, 'solids': 7, 'bbox_mm': [86.348, 70.595, 80.0]}
+test_047_stl-watertight: PASS | {'triangle_count': 25440, 'component_count': 1, 'watertight': True, 'manifold': True, 'bad_edge_count': 0, 'degenerate_triangle_count': 0, 'reload': 'PASS'}
+test_048_stl-bad-edge-zero: PASS | 0
+test_049_stl-degenerate-zero: PASS | 0
+test_050_stl-reload: PASS | PASS
+test_051_status: PASS | CAD_PASS/CONTRACT_TEST_PASS/CANDIDATE_C_12T_MISUMI_KEEPERLESS_PRINT_READY/SPACER_STACK_PHYSICAL_VALIDATION_PENDING
+test_052_forbidden-claims: PASS | ['DRIVETRAIN_PASS', 'CRAWLER_PASS', 'MUD_PASS', 'FIELD_PASS']
+test_053_repository-guard: PASS | {'root': True, 'branch': True, 'head': True, 'staged_zero': True, 'dirty_preserved': True, 'outside_preserved': True, 'authority_four': True, 'protected_eight': True, 'input_hashes': True, 'scope': True, 'untracked_scope': True, 'ignored_zero': True, 'cache_zero': True, 'complete': True}
+RESULT=53/53 PASS
+
+EXIT_CODE=0

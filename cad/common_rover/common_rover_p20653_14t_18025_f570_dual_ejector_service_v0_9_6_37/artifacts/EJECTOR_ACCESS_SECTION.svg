@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f8f7f2"/><style>text{font-family:Arial,sans-serif;fill:#17324d}.t{font-size:30px;font-weight:bold}.m{font-size:19px}.s{fill:none;stroke:#17324d;stroke-width:4}.g{fill:none;stroke:#2a9d8f;stroke-width:5}.a{fill:none;stroke:#e76f51;stroke-width:5}.f{fill:#dbeafe;stroke:#264653;stroke-width:3}.d{stroke-dasharray:10 8}</style>
+<text x="45" y="50" class="t">EJECTOR ACCESS — AXIAL SECTION</text>
+<g transform="translate(80,90)"><rect x="90" y="90" width="760" height="360" class="f"/><rect x="600" y="90" width="130" height="360" fill="#fff" stroke="#e76f51" stroke-width="4"/>
+<line x1="90" y1="270" x2="730" y2="270" class="a d"/><line x1="600" y1="70" x2="600" y2="475" class="g"/>
+<text x="95" y="510" class="m">tool entry Z=-22.00</text><text x="475" y="510" class="m">flange backside Z=15.80</text>
+<text x="240" y="245" class="m">Ø4 tool proxy inside Ø5 access</text><text x="705" y="150" class="m">metal</text><text x="705" y="185" class="m">flange</text>
+<text x="235" y="555" class="m">insertion depth 37.80 mm · PETG collision 0</text></g><text x="45" y="675" class="m">v0.9.6.37 · F570 Ø57.00 EXACT · DUAL EJECTOR ONLY · POWERED NOT APPROVED</text></svg>

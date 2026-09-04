@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+  <rect width="900" height="470" fill="#fafafa"/>
+  <text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">CBOX DRIVE power topology</text>
+  <text x="875" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.2 / NOT FOR MANUFACTURING</text>
+  
+      <g font-family="sans-serif" font-size="14" text-anchor="middle">
+        <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#333"/></marker></defs>
+        <g fill="#eee" stroke="#333"><rect x="30" y="90" width="120" height="50"/><rect x="185" y="90" width="120" height="50"/><rect x="340" y="90" width="140" height="50"/><rect x="515" y="90" width="120" height="50"/><rect x="680" y="90" width="170" height="50"/></g>
+        <text x="90" y="120">BBOX battery</text><text x="245" y="120">main fuse HOLD</text><text x="410" y="112">2PNCT + connector</text><text x="410" y="130">connector HOLD</text><text x="575" y="112">hardware cut</text><text x="575" y="130">HOLD</text><text x="765" y="120">CBOX STAR + / GND</text>
+        <g stroke="#333" stroke-width="2" marker-end="url(#a)"><line x1="150" y1="115" x2="180" y2="115"/><line x1="305" y1="115" x2="335" y2="115"/><line x1="480" y1="115" x2="510" y2="115"/><line x1="635" y1="115" x2="675" y2="115"/></g>
+        <g fill="#d5f5e3" stroke="#27ae60"><rect x="560" y="230" width="130" height="50"/><rect x="710" y="230" width="130" height="50"/><rect x="635" y="330" width="130" height="50"/></g>
+        <text x="625" y="260">MD10C-L</text><text x="775" y="260">MD10C-R</text><text x="700" y="352">DC-DC HOLD</text><text x="700" y="370">→ ESP32 5 V</text>
+        <g stroke="#333" stroke-width="2" marker-end="url(#a)"><line x1="735" y1="140" x2="625" y2="225"/><line x1="775" y1="140" x2="775" y2="225"/><line x1="755" y1="140" x2="705" y2="325"/></g>
+      </g>
+  
+      <g transform="translate(25 430)" font-family="sans-serif" font-size="12">
+        <rect x="0" y="0" width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text>
+        <rect x="130" y="0" width="14" height="14" fill="#8e44ad"/><text x="150" y="12">DRAWING_REFERENCE</text>
+        <rect x="330" y="0" width="14" height="14" fill="#27ae60"/><text x="350" y="12">DESIGN_CANDIDATE</text>
+        <rect x="530" y="0" width="14" height="14" fill="#e67e22"/><text x="550" y="12">HOLD</text>
+      </g>
+</svg>

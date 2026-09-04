@@ -1,0 +1,11 @@
+version=v0.9.6.9
+classification=DRIVE_REACTION_AND_CRAWLER_PHYSICAL_CORRECTION
+python=3.12.13
+cadquery=2.8.0
+paths=54
+step=7
+stl=6
+svg=10
+bridge_design_mm=3.5
+guard_height_mm=9.0
+shaft_cut=HOLD_PHYSICAL_MEASUREMENT

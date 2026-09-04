@@ -1,0 +1,74 @@
+{
+  "change_scope": "REMOVE_CONTINUOUS_INTERTOOTH_CIRCULAR_RIM_ONLY",
+  "classification": "RIMLESS_FULL_12T_MINIMAL_DERIVATIVE",
+  "gates": {
+    "belt": "HOLD",
+    "dry_fit": "READY_AFTER_PRINT_INSPECTION",
+    "field": "NOT_APPROVED",
+    "full_torque": "HOLD",
+    "mud": "HOLD",
+    "physical_print": "READY",
+    "powered": "NOT_YET_APPROVED",
+    "shaft_cut": "HOLD",
+    "water": "HOLD"
+  },
+  "parent_lane": "cad/common_rover/common_rover_short_slide_yoke_receiver_v0_9_6_12",
+  "preserved": {
+    "B_collar_pocket_diameter_mm": 16.2,
+    "B_hardware_cavity_radius_mm": 20.4,
+    "guard_frame_clearance_mm": 4.4,
+    "headed_m4_count": 2,
+    "headed_m4_separation_deg": 90.0,
+    "pitch": {
+      "difference_mm": 0.0,
+      "physical_result": "PHYSICAL_MATCH",
+      "spacing_difference_deg": 0.0,
+      "status": "FROZEN"
+    },
+    "protected_12t": {
+      "axial_width_mm": 44.0,
+      "buried_root_overlap_mm": 4.0,
+      "outer_body": "ONE_PIECE",
+      "phase_deg": 15.0,
+      "pitch_diameter_mm": 76.3943726841,
+      "root_radius_mm": 29.47,
+      "root_width_mm": 9.5,
+      "spacing_deg": 30.0,
+      "split_teeth": false,
+      "teeth": 12,
+      "tip_radius_mm": 33.07,
+      "tip_width_mm": 7.5,
+      "tooth_root_radial_service_holes": 0
+    },
+    "short_slide_y3": "PRESERVED_FROM_V09612",
+    "slide_clearance_primary": "S45",
+    "slide_travel_mm": 3.0,
+    "thick_root_guard": "H9_UPPER5_ROOT6_R3_TOPR1_PRESERVED",
+    "y3_height_mm": 3.7,
+    "yoke_receiver_primary": "YW30_15P5MM_PHYSICAL_PENDING"
+  },
+  "printability": {
+    "material": "PETG",
+    "new_deep_closed_space": false,
+    "new_long_internal_support": false,
+    "printer": "BAMBU_A1",
+    "release": "FULL_12T_READY_FOR_PHYSICAL_PRINT",
+    "slicer_status": "HOLD_SLICER_NOT_RUN",
+    "underside": "SIMPLIFIED_OPEN_INTERTOOTH_RELIEF",
+    "use": "DRY_PHYSICAL_FIT_CANDIDATE"
+  },
+  "rim": {
+    "axial_max_mm": 22.2,
+    "axial_min_mm": -22.2,
+    "continuous_circumferential_path_retained": false,
+    "definition": "INTERTOOTH_CONTINUOUS_ANNULAR_MASS_EXCLUDING_EXACT_TEETH_AND_LOCAL_FUNCTIONAL_PADS",
+    "former_outer_radius_mm": 29.469,
+    "inner_support_radius_mm": 25.67,
+    "new_closed_internal_cavity_count": 0,
+    "status": "CIRCULAR_RIM_REMOVED",
+    "tooth_buried_root_radius_mm": 25.47,
+    "tooth_support_overlap_mm": 0.2
+  },
+  "units": "mm",
+  "version": "v0.9.6.13"
+}

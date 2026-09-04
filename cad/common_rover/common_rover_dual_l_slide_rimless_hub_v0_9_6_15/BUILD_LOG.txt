@@ -1,0 +1,12 @@
+version=v0.9.6.15
+classification=DUAL_L_SLIDE_BELT_ENTRY_FINALIZATION
+python=3.12.13
+cadquery=2.8.0
+paths=43
+step=4
+stl=4
+svg=8
+hooks=2
+receivers=2
+m3=0
+continuous_lower_ring=0

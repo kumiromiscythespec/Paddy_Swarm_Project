@@ -1,0 +1,128 @@
+{
+  "battery": {
+    "bottom_to_terminal_top": 99.4,
+    "label": {
+      "capacity_ah": 10,
+      "energy_wh": 128,
+      "voltage_v": 12.8
+    },
+    "male_terminal": [
+      6.3,
+      0.7
+    ],
+    "mass_kg": 1.2,
+    "orientation": "LONG_AXIS_ROVER_X_TERMINALS_REARWARD",
+    "physical_measured_body": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "product": "GOLDENMATE LiFePO4",
+    "terminal_inner_gap": 20.0,
+    "terminal_outer_span": 29.5,
+    "terminal_protrusion_derived": 6.9
+  },
+  "classification": "DRY_DRIVE_TEST_FIXTURE",
+  "dry_test_only": true,
+  "field_deployment": "NOT_APPROVED",
+  "frame": {
+    "height": 150.0,
+    "insertion_height": 108.0,
+    "interface": "HOLD_NO_PROVEN_FASTENER_CENTERS",
+    "lateral_reference_each": 15.0,
+    "lower_clear": [
+      400.0,
+      140.0
+    ],
+    "lower_outer": [
+      442.0,
+      181.0
+    ],
+    "reference_geometry": "MEASURED_CLEAR_ENVELOPE_ONLY",
+    "tray_width": 110.0
+  },
+  "holds": [
+    "FRAME_MOUNT_INTERFACE",
+    "FINAL_FRAME_FASTENER_CENTERS",
+    "FINAL_RAIL_SKID_Z",
+    "PRIMARY_LOCK",
+    "SAFETY_PIN",
+    "OPTIONAL_FRONT_KEEPER",
+    "TEMP_CABLE_TOTAL_OUTSIDE_WIDTH",
+    "TEMP_CABLE_INDIVIDUAL_INSULATION_OD",
+    "TEMP_CABLE_BEND_RADIUS",
+    "FUSE_HOLDER_MODEL",
+    "MAIN_FUSE_FINAL",
+    "HARDWARE_POWER_CUT_MODEL",
+    "FINAL_TERMINAL_PROTECTOR",
+    "POWERED_ROTATION"
+  ],
+  "material": "PETG",
+  "mud": "NOT_APPROVED",
+  "powered_rotation": "NOT_APPROVED_BY_THIS_LANE",
+  "print": {
+    "bed": [
+      256.0,
+      256.0
+    ],
+    "direct_full_print": "ACCEPTABLE",
+    "orientation": "BOTTOM_FLAT",
+    "print_time": "HOLD_SLICER_PROFILE",
+    "printer": "Bambu A1",
+    "support": "NOT_REQUIRED_CANDIDATE_SLICER_REVIEW"
+  },
+  "retention": {
+    "optional_secondary_pair_included": true,
+    "primary_pair": true,
+    "primary_strap_width": 25.0,
+    "primary_x": 0.0,
+    "secondary_required_for_initial_fit": false,
+    "secondary_x": 45.0,
+    "slot": [
+      28.0,
+      4.0
+    ]
+  },
+  "strain_relief": {
+    "cable_specific_clamp": false,
+    "pairs": 2,
+    "zip_tie_slot": [
+      5.0,
+      2.5
+    ]
+  },
+  "temporary_power": "BATTERY_TO_FUSE_TO_1P25SQ_2C_TO_HARDWARE_CUT_TO_CBOX",
+  "tray": {
+    "bottom": 4.0,
+    "cable_glands": 0,
+    "cavity": [
+      153.5,
+      102.0
+    ],
+    "clearance_each": [
+      1.3,
+      1.3
+    ],
+    "clearance_total": [
+      2.6,
+      2.6
+    ],
+    "front": "OPEN",
+    "gasket": 0,
+    "lid": 0,
+    "overall_nominal": [
+      157.5,
+      110.0,
+      29.0
+    ],
+    "rear_service_opening": 70.0,
+    "rear_stop_height_above_floor": 25.0,
+    "rear_stop_thickness": 4.0,
+    "side_height_above_floor": 15.0,
+    "side_wall": 4.0,
+    "waterproof_features": 0
+  },
+  "units": "mm",
+  "version": "v0.9.6.3",
+  "water": "NOT_APPROVED"
+}

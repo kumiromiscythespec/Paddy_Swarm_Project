@@ -1,0 +1,16 @@
+BUILD_LOG.txt
+COMMIT_PATHS.txt
+DESIGN_AUTHORITY.md
+MANIFEST.txt
+PRINT_AND_TEST_GATE.md
+README.md
+RIM_REMOVAL_SPEC.md
+SHA256SUMS.txt
+TEST_LOG.txt
+artifacts/drive_12t_h25a1_short_slide_y3_rimless_v0_9_6_13.step
+artifacts/drive_12t_h25a1_short_slide_y3_rimless_v0_9_6_13.stl
+artifacts/v09612_vs_v09613_rim_section.svg
+build_rimless_short_slide_y3_v0_9_6_13.py
+design_parameters.json
+tests/test_rimless_short_slide_y3_v0_9_6_13_contract.py
+validation_report.json

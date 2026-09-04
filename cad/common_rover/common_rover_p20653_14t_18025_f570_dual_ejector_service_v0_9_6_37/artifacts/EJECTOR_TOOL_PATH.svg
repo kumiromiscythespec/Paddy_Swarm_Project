@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f8f7f2"/><style>text{font-family:Arial,sans-serif;fill:#17324d}.t{font-size:30px;font-weight:bold}.m{font-size:19px}.s{fill:none;stroke:#17324d;stroke-width:4}.g{fill:none;stroke:#2a9d8f;stroke-width:5}.a{fill:none;stroke:#e76f51;stroke-width:5}.f{fill:#dbeafe;stroke:#264653;stroke-width:3}.d{stroke-dasharray:10 8}</style>
+<text x="45" y="50" class="t">EJECTOR TOOL PATH</text>
+<g transform="translate(95,95)"><rect x="80" y="120" width="760" height="280" class="f"/><rect x="650" y="120" width="115" height="280" fill="#d9d9d9" stroke="#264653" stroke-width="3"/>
+<path d="M40 220 H650" class="a"/><path d="M40 310 H650" class="a"/><circle cx="650" cy="220" r="10" fill="#e76f51"/><circle cx="650" cy="310" r="10" fill="#e76f51"/>
+<text x="70" y="465" class="m">2 paths · Ø4 proxy · direct flange-backside contact</text><text x="70" y="510" class="m">boss / shaft / key / M5 / counterbore / drain intersections = 0</text></g><text x="45" y="675" class="m">v0.9.6.37 · F570 Ø57.00 EXACT · DUAL EJECTOR ONLY · POWERED NOT APPROVED</text></svg>

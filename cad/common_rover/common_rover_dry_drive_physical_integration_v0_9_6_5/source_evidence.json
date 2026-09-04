@@ -1,0 +1,36 @@
+{
+  "cross_zone_transform": "UNRESOLVED_REFERENCE_PARKING_ONLY",
+  "idler_xyz": "UNRESOLVED",
+  "kp000_17p9": "UNRESOLVED",
+  "shaft_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+  "sources": [
+    {
+      "path": "cad/common_rover/common_rover_dry_drive_battery_tray_v0_9_6_3/design_parameters.json",
+      "sha256": "2b3c93badccb0550b16e43a7f5f5b45e8acffee1dac8ba37e849fe0cb394e5b5"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/measurement_ledger.json",
+      "sha256": "655a94e023a608c6b68564f0b355230a11e015c7cdadb5cdb95b84ac99a66b0b"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/BATTERY_INSERTION_CLEARANCE.md",
+      "sha256": "3dc006813c0a61aca0a546c668d9bb39afb2e45c886f70d0e913929a05202695"
+    },
+    {
+      "path": "cad/common_rover/common_rover_190mm_frame_h25a1_2s_bbox_cbox_integration_v0_9_4_1/PHYSICAL_FRAME_150_REFERENCE.md",
+      "sha256": "fc9dc653bfd164e54da932b3cdee5e6db379c5a1d2b20eb2deaba8617926ad0d"
+    },
+    {
+      "path": "cad/common_rover/common_rover_drive_shaft_h25a1_full_integration_v0_9_6_4/design_parameters.json",
+      "sha256": "46cc2bcff13e3d61d15fa0d9fa4fad83fd974cdc5398985d3bca5ab0cbb86a67"
+    },
+    {
+      "path": "cad/common_rover/common_rover_drive_shaft_h25a1_full_integration_v0_9_6_4/validation_report.json",
+      "sha256": "00fc8192016a1d9314f8dea62da0b0e0f9e30a2f926de9cc1c8e08635ea39c93"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_followup_measurement_v0_9_5_3/H25A1_24H_CREEP_TEST.md",
+      "sha256": "ae2b15bcdc97a159c11d30b905acb448e39921856f28e24d7d2a70b944b2a3c8"
+    }
+  ]
+}

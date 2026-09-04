@@ -1,0 +1,3 @@
+# Candidate C 12T + MISUMI Groove-1 keeperless V003
+
+Repository search found a physical spacer cross-section ID10.2/OD13.8/chamfer0.35 and an8 mm installed reference that produced4.4 mm frame-to-guard clearance. It does not establish the new MISUMI left/right stack. Therefore8 mm is visualization/reference only. Available shaft space, both bearing inner-ring face positions and final left/right thickness remain `PHYSICAL_MEASUREMENT_REQUIRED`. The front broad-contact envelope is OD49 with a2.25 mm reference contact plate; it has no bolts and is not an annular keeper authority. Production material, stiffness and thickness remain pending. Never clamp against a bearing outer race, seal, housing or frame.

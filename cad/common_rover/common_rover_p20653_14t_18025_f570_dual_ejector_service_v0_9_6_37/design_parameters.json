@@ -1,0 +1,133 @@
+{
+  "classification": "F570_EXACT_DUAL_EJECTOR_SERVICE_ACCESS",
+  "ejector": {
+    "access_d_mm": 5.0,
+    "access_rows": [
+      {
+        "access_removed_volume_mm3": 742.201264,
+        "angle_deg": 30.0,
+        "center_xy_mm": [
+          17.320508,
+          10.0
+        ],
+        "continuous_ring_radial_zone_violation_mm3": 0.0,
+        "counterbore_clearance_mm": 3.388581,
+        "deep_relief_boss_clearance_mm": 5.25,
+        "drain_intersection_mm3": 0,
+        "f570_pocket_edge_clearance_mm": 6.0,
+        "m5_petg_hole_clearance_mm": 6.638581,
+        "metal_boss_clearance_mm": 5.5,
+        "metal_flange_outer_edge_clearance_mm": 5.9,
+        "radius_mm": 20.0,
+        "shaft_clearance_mm": 12.25,
+        "tool_to_key_intersection_mm3": 0,
+        "tool_to_metal_flange_contact_mm3": 2.513274,
+        "tool_to_petg_intersection_mm3": 0,
+        "tooth_root_clearance_mm": 11.520731,
+        "tooth_solid_intersection_max_mm3": 0
+      },
+      {
+        "access_removed_volume_mm3": 742.201264,
+        "angle_deg": 210.0,
+        "center_xy_mm": [
+          -17.320508,
+          -10.0
+        ],
+        "continuous_ring_radial_zone_violation_mm3": 0.0,
+        "counterbore_clearance_mm": 3.388581,
+        "deep_relief_boss_clearance_mm": 5.25,
+        "drain_intersection_mm3": 0,
+        "f570_pocket_edge_clearance_mm": 6.0,
+        "m5_petg_hole_clearance_mm": 6.638581,
+        "metal_boss_clearance_mm": 5.5,
+        "metal_flange_outer_edge_clearance_mm": 5.9,
+        "radius_mm": 20.0,
+        "shaft_clearance_mm": 12.25,
+        "tool_to_key_intersection_mm3": 0,
+        "tool_to_metal_flange_contact_mm3": 2.513274,
+        "tool_to_petg_intersection_mm3": 0,
+        "tooth_root_clearance_mm": 11.520731,
+        "tooth_solid_intersection_max_mm3": 0
+      }
+    ],
+    "added_volume_mm3": 0,
+    "angles_deg": [
+      30.0,
+      210.0
+    ],
+    "angular_spacing_deg": 180.0,
+    "ejector_count": 2,
+    "flange_backside_z_mm": 15.8,
+    "insertion_depth_mm": 37.8,
+    "operation": "SUBTRACT_TWO_CYLINDRICAL_SERVICE_ACCESS_PATHS_ONLY",
+    "radius_mm": 20.0,
+    "removed_volume_mm3": 1484.402529,
+    "tool_entry_z_mm": -22.0,
+    "tool_proxy_d_mm": 4.0
+  },
+  "frozen_parent": {
+    "center_pilot_d_mm": 24.1,
+    "center_pilot_length_mm": 4.0,
+    "deep_relief_d_mm": 24.5,
+    "f570_pocket_d_mm": 57.0,
+    "flange_pocket_depth_mm": 6.2,
+    "hub_boss_od_mm": 24.0,
+    "hub_flange_od_mm": 56.8,
+    "idler_change_count": 0,
+    "idler_tooth_count": 12,
+    "lane": "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31",
+    "m5_count": 6,
+    "p20653_pitch_mm": 20.6533333333,
+    "pcd_mm": 47.5,
+    "phase_deg": 12.857142857142858,
+    "pitch_diameter_mm": 92.81523749740639,
+    "spacing_deg": 25.714285714285715,
+    "tooth_count": 14,
+    "tooth_width_mm": 44.0
+  },
+  "physical_record": {
+    "actual_18025_identity": "HOLD_REPOSITORY_DOES_NOT_UNIQUELY_IDENTIFY_TESTED_HUB",
+    "ejector_physical_pass": "NOT_YET",
+    "f570_physical_fit": "PASS",
+    "flange_pocket_d_mm": 57.0,
+    "hub_insertion": "PASS",
+    "hub_self_fallout": "NONE",
+    "keyed_hub_physical_fit": "PASS",
+    "manual_removal_without_tool": "NOT_EASY"
+  },
+  "print": {
+    "first_stl": "artifacts/p20653_14t_18025_f570_dual_ejector_full_drive_v0_9_6_37.stl",
+    "gate": "PASS",
+    "process": "BAMBU_A1_PETG_CANDIDATE",
+    "quantity": 1,
+    "single_part": "APPROVED",
+    "slicer": "HOLD_NOT_RUN"
+  },
+  "service_access": {
+    "minimum_contact_proxy_volume_mm3": 2.513274,
+    "opposed_push": true,
+    "standard_sequence": [
+      "REMOVE_ALL_6_M5_BOLTS",
+      "INSERT_4MM_CLASS_ROD_FROM_REAR",
+      "PUSH_TWO_ACCESS_PATHS_ALTERNATELY_IN_SMALL_INCREMENTS",
+      "REMOVE_HUB_PARALLEL"
+    ],
+    "tool_insertion_collision_max_mm3": 0.0,
+    "tool_reaches_flange_backside": true,
+    "two_holes_usable": true
+  },
+  "status": "F570_DUAL_EJECTOR_CAD_PASS/SERVICE_REMOVAL_ACCESS_CAD_PASS/F570_PHYSICAL_FIT_PASS/KEYED_HUB_PHYSICAL_FIT_PASS/HUB_SELF_FALLOUT_NONE/18025_PHYSICAL_IDENTITY_HOLD/FULL_14T_SINGLE_PRINT_APPROVED/EJECTOR_PHYSICAL_PASS_NOT_YET/POWERED_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "structural": {
+    "access_drain_intersection_max_mm3": 0.0,
+    "access_tooth_intersection_max_mm3": 0.0,
+    "continuous_ring_cut_volume_mm3": 0.0,
+    "continuous_structural_hard_minimum_mm": 5.0,
+    "f570_to_continuous_ring_ligament_mm": 5.049999999999997,
+    "link_swept_clearance_mm": 0.8772255106742008,
+    "link_swept_hard_minimum_mm": 0.8,
+    "link_swept_intersection_mm3": 0,
+    "parent_collision_non_regression_proof": "NEW_SOLID_IS_STRICT_SUBSET_OF_PARENT_SOLID",
+    "removal_only_subset_added_volume_mm3": 0
+  },
+  "version": "v0.9.6.37"
+}

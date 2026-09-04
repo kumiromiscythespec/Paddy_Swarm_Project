@@ -1,0 +1,3 @@
+# Crawler sprocket tooth fit coupons V001
+
+Crawler link: `cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl`, SHA-256 `3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c`, actual bounds [[-15.99848, -27.0, 0.0], [15.99848, 27.0, 24.75]] mm, scale1.0, watertight/manifold. Current carrier: `cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001/print/full_driven_wheel_carrier_groove1.stl`, SHA-256 `2e06c099a83334f7097590da73cd33755f86230367ad40ee3608ad6a5428e121`, authority `PROTECTED_P20653_14T`, width 44.0 mm. Both lanes are read-only and protected by complete tree hashes.

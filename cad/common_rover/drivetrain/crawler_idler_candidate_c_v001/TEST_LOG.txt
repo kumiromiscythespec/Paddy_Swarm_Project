@@ -1,0 +1,67 @@
+warning: could not open directory '.pytest_cache/': Permission denied
+test_001_repository_guard (__main__.Contract.test_001_repository_guard) ... ok
+test_002_exact_paths (__main__.Contract.test_002_exact_paths) ... ok
+test_003_commit_paths_exact (__main__.Contract.test_003_commit_paths_exact) ... ok
+test_004_source_hashes (__main__.Contract.test_004_source_hashes) ... ok
+test_005_authority_hashes (__main__.Contract.test_005_authority_hashes) ... ok
+test_006_protected_trees (__main__.Contract.test_006_protected_trees) ... ok
+test_007_status (__main__.Contract.test_007_status) ... ok
+test_008_no_drive_architecture (__main__.Contract.test_008_no_drive_architecture) ... ok
+test_009_idler_bearing_architecture (__main__.Contract.test_009_idler_bearing_architecture) ... ok
+test_010_reproducibility (__main__.Contract.test_010_reproducibility) ... ok
+test_011_candidate_c_height (__main__.Contract.test_011_candidate_c_height) ... ok
+test_012_candidate_c_tip_width (__main__.Contract.test_012_candidate_c_tip_width) ... ok
+test_013_candidate_c_axial (__main__.Contract.test_013_candidate_c_axial) ... ok
+test_014_candidate_c_root_r (__main__.Contract.test_014_candidate_c_root_r) ... ok
+test_015_tooth_count (__main__.Contract.test_015_tooth_count) ... ok
+test_016_spacing (__main__.Contract.test_016_spacing) ... ok
+test_017_tooth_self_intersection (__main__.Contract.test_017_tooth_self_intersection) ... ok
+test_018_idler_width (__main__.Contract.test_018_idler_width) ... ok
+test_019_bearing_model (__main__.Contract.test_019_bearing_model) ... ok
+test_020_bearing_count (__main__.Contract.test_020_bearing_count) ... ok
+test_021_bearing_seat (__main__.Contract.test_021_bearing_seat) ... ok
+test_022_center_relief (__main__.Contract.test_022_center_relief) ... ok
+test_023_shaft_nominal (__main__.Contract.test_023_shaft_nominal) ... ok
+test_024_idler_valid (__main__.Contract.test_024_idler_valid) ... ok
+test_025_center_missing_zero (__main__.Contract.test_025_center_missing_zero) ... ok
+test_026_center_added_zero (__main__.Contract.test_026_center_added_zero) ... ok
+test_027_bearing_change_zero (__main__.Contract.test_027_bearing_change_zero) ... ok
+test_028_axis_change_zero (__main__.Contract.test_028_axis_change_zero) ... ok
+test_029_full_360 (__main__.Contract.test_029_full_360) ... ok
+test_030_zero_maximum_whole_idler_intersection_mm3 (__main__.Contract.test_030_zero_maximum_whole_idler_intersection_mm3) ... ok
+test_031_zero_maximum_body_bridge_intersection_mm3 (__main__.Contract.test_031_zero_maximum_body_bridge_intersection_mm3) ... ok
+test_032_zero_maximum_bearing_intersection_mm3 (__main__.Contract.test_032_zero_maximum_bearing_intersection_mm3) ... ok
+test_033_zero_maximum_shaft_intersection_mm3 (__main__.Contract.test_033_zero_maximum_shaft_intersection_mm3) ... ok
+test_034_zero_anti_derail_guide_intersection_mm3 (__main__.Contract.test_034_zero_anti_derail_guide_intersection_mm3) ... ok
+test_035_minimum_non_intended_clearance (__main__.Contract.test_035_minimum_non_intended_clearance) ... ok
+test_036_intended_tangent_no_penetration (__main__.Contract.test_036_intended_tangent_no_penetration) ... ok
+test_037_clearance_status (__main__.Contract.test_037_clearance_status) ... ok
+test_038_misumi_absent (__main__.Contract.test_038_misumi_absent) ... ok
+test_039_keyed_absent (__main__.Contract.test_039_keyed_absent) ... ok
+test_040_old_drive_absent (__main__.Contract.test_040_old_drive_absent) ... ok
+test_041_bearing_idler (__main__.Contract.test_041_bearing_idler) ... ok
+test_042_p20653_candidate (__main__.Contract.test_042_p20653_candidate) ... ok
+test_043_spacer_hold (__main__.Contract.test_043_spacer_hold) ... ok
+test_044_retention_hold (__main__.Contract.test_044_retention_hold) ... ok
+test_045_staged_zero_record (__main__.Contract.test_045_staged_zero_record) ... ok
+test_046_reproducibility (__main__.Contract.test_046_reproducibility) ... ok
+test_047_expected_path_count (__main__.Contract.test_047_expected_path_count) ... ok
+test_048_step_count (__main__.Contract.test_048_step_count) ... ok
+test_049_step_candidate_C_crawler_idler (__main__.Contract.test_049_step_candidate_C_crawler_idler) ... ok
+test_050_step_candidate_C_crawler_idler_assembly_reference (__main__.Contract.test_050_step_candidate_C_crawler_idler_assembly_reference) ... ok
+test_051_step_candidate_C_idler_section_reference (__main__.Contract.test_051_step_candidate_C_idler_section_reference) ... ok
+test_052_step_candidate_C_crawler_idler_section_reference (__main__.Contract.test_052_step_candidate_C_crawler_idler_section_reference) ... ok
+test_053_step_idler_hardware_reference (__main__.Contract.test_053_step_idler_hardware_reference) ... ok
+test_054_stl_watertight (__main__.Contract.test_054_stl_watertight) ... ok
+test_055_stl_bad_edge_zero (__main__.Contract.test_055_stl_bad_edge_zero) ... ok
+test_056_stl_degenerate_zero (__main__.Contract.test_056_stl_degenerate_zero) ... ok
+test_057_stl_reload (__main__.Contract.test_057_stl_reload) ... ok
+test_058_status (__main__.Contract.test_058_status) ... ok
+test_059_forbidden_claims (__main__.Contract.test_059_forbidden_claims) ... ok
+
+----------------------------------------------------------------------
+Ran 59 tests in 23.948s
+
+OK
+
+EXIT_CODE=0

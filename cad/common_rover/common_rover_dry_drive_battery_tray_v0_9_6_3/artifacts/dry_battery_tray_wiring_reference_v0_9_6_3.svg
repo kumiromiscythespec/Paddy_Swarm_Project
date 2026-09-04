@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+ <rect width="900" height="470" fill="#fafafa"/>
+ <text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">Temporary dry-test wiring</text>
+ <text x="875" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.3 / DRY TEST ONLY</text>
+ 
+ <g font-family="sans-serif" font-size="14" text-anchor="middle">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#333"/></marker></defs>
+  <g fill="#eee" stroke="#333"><rect x="30" y="95" width="120" height="55"/><rect x="190" y="95" width="120" height="55"/><rect x="350" y="95" width="150" height="55"/><rect x="540" y="95" width="140" height="55"/><rect x="720" y="95" width="145" height="55"/></g>
+  <text x="90" y="120">Battery</text><text x="90" y="138">12.8 V</text><text x="250" y="120">Fuse reserve</text><text x="250" y="138">rating HOLD</text><text x="425" y="120">1.25sq ×2C</text><text x="425" y="138">dimensions HOLD</text><text x="610" y="120">Hardware cut</text><text x="610" y="138">model HOLD</text><text x="792" y="120">CBOX / MD10C</text>
+  <g stroke="#333" stroke-width="2" marker-end="url(#a)"><line x1="150" y1="122" x2="185" y2="122"/><line x1="310" y1="122" x2="345" y2="122"/><line x1="500" y1="122" x2="535" y2="122"/><line x1="680" y1="122" x2="715" y2="122"/></g>
+  <rect x="260" y="245" width="380" height="95" fill="#d5f5e3" stroke="#27ae60"/><text x="450" y="275">2 pairs generic 5 × 2.5 zip-tie slots</text><text x="450" y="300">terminal carries no cable mass or pull</text><text x="450" y="325">NO GLAND / NO SEALED CONNECTOR</text>
+ </g>
+ <g transform="translate(25 430)" font-family="sans-serif" font-size="12">
+  <rect width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text>
+  <rect x="130" width="14" height="14" fill="#8e44ad"/><text x="150" y="12">DERIVED</text>
+  <rect x="260" width="14" height="14" fill="#27ae60"/><text x="280" y="12">DESIGN_CANDIDATE</text>
+  <rect x="460" width="14" height="14" fill="#e67e22"/><text x="480" y="12">HOLD</text>
+ </g>
+</svg>

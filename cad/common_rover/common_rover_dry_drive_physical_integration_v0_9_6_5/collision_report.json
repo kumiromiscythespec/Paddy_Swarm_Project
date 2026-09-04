@@ -1,0 +1,67 @@
+{
+  "cross_zone_transform": "UNRESOLVED",
+  "idler_exact_xyz": "UNRESOLVED",
+  "intended_contacts": [
+    "STRAPS_TO_BATTERY",
+    "BATTERY_BOTTOM_TO_RUNNERS",
+    "SADDLE_FASTENERS_TO_RAIL_TNUTS",
+    "RETAINER_TO_SHOE_SHOULDERS_ZERO_VOLUME_FACE"
+  ],
+  "known_all_zero": true,
+  "known_rows": [
+    {
+      "check": "BATTERY_VS_UPPER_FRAME_RAIL",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS_LOCAL_DATUM"
+    },
+    {
+      "check": "BATTERY_VS_CARRIER",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS_CONTACT_FACES_ZERO_VOLUME"
+    },
+    {
+      "check": "CARRIER_VS_IDLER_OBSERVATION_PLANE",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS_NOMINAL_PLANE_PHYSICAL_PENDING"
+    },
+    {
+      "check": "M4_HARDWARE_VS_PETG_CAGE",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS"
+    },
+    {
+      "check": "SERVICE_TOOL_VS_HUB",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS_REFERENCE_TOOL"
+    },
+    {
+      "check": "REACTION_SHOE_A_VS_12T_ROOT",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS"
+    },
+    {
+      "check": "REACTION_SHOE_B_VS_12T_ROOT",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS"
+    },
+    {
+      "check": "RETAINER_VS_SPROCKET",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS"
+    },
+    {
+      "check": "4MM_SPACER_VS_KP000_HOUSING",
+      "common_volume_mm3": 0.0,
+      "status": "CAD_PASS"
+    }
+  ],
+  "method": "CADQUERY_COMMON_VOLUME_FOR_SOURCE_PROVEN_LOCAL_DATUMS",
+  "physical_pending": [
+    "BATTERY_VS_EXACT_IDLER_SHAFT",
+    "STRAP_TAIL_VS_ROTATING_SHAFT",
+    "CABLE_ZONE_VS_CRAWLER",
+    "BATTERY_CARRIER_VS_DRIVE_SHAFT",
+    "12T_VS_GLOBAL_FRAME",
+    "CRAWLER_GUIDE_VS_GLOBAL_FRAME"
+  ]
+}

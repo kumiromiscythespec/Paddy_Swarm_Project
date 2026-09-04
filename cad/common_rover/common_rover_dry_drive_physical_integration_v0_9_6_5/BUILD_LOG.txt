@@ -1,0 +1,10 @@
+version=v0.9.6.5
+python=3.12.13
+cadquery=2.8.0
+paths=81
+step=29
+stl=9
+svg=10
+json=5
+shaft_cut_length=HOLD_PHYSICAL_MEASUREMENT
+idler_xyz=UNRESOLVED

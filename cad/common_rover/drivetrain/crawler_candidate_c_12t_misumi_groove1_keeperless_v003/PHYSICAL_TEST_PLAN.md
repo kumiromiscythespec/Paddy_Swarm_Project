@@ -1,0 +1,3 @@
+# Candidate C 12T + MISUMI Groove-1 keeperless V003
+
+1 insert real MISUMI pulley;2 install shortened≈16.7 mm key and shaft;3 tighten MISUMI set screw before carrier insertion;4 slide carrier over pulley;5 select provisional spacers from measured inner-ring faces;6 verify free hand rotation/no axial rattle/no print crushing;7 install crawler;8 forward20 revolutions;9 reverse20;10 bias left/right;11 inspect set-screw movement, axial walk, Groove-1 backlash, crack and whitening. For service remove crawler and spacer stack, retract carrier +Z, then access the set screw. After manual PASS only: low-speed no-load, powered forward/reverse, dry crawler, continuous dry later. Water/mud/field remain HOLD.

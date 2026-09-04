@@ -1,0 +1,491 @@
+{
+  "checks": {
+    "ap203_schema": "PASS",
+    "c2_reference_not_selected": "PASS",
+    "clearance_C1_015": "PASS",
+    "clearance_C2_025": "PASS",
+    "clearance_C3_035": "PASS",
+    "coupon_wall_ge_5": "PASS",
+    "exact_c2_ligament_ge_5": "PASS",
+    "exact_c2_ligament_stretch_ge_8": "PASS",
+    "exact_c2_ligament_target_ge_6": "PASS",
+    "exact_tooth_count_28": "PASS",
+    "fit_coupon_print": "APPROVED_CAD_AND_CONTRACT_ONLY",
+    "full_drive_print": "HOLD",
+    "global_scaling_zero": "PASS",
+    "notch_ids_1_2_3": "PASS",
+    "other_vendor_solids_preserved": "PASS",
+    "p20653_14_tooth_regression": "PASS",
+    "p20653_frozen": "PASS",
+    "p20653_visible_change_outside_hub": "PASS",
+    "periodicity_28": "PASS",
+    "physical_fit": "NOT_YET",
+    "powered": "NOT_APPROVED",
+    "production": "NOT_APPROVED",
+    "retention_physical": "HOLD",
+    "source_step_sha": "PASS",
+    "source_zip_sha": "PASS",
+    "static_torque": "HOLD",
+    "step_reload": "PASS",
+    "stl_watertight_manifold": "PASS",
+    "support_free_orientation_feasible": "PASS_CAD_ORIENTATION_SLICER_NOT_RUN",
+    "tooth_approximation_zero": "PASS",
+    "unique_main_solid": "PASS",
+    "vendor_solid_count_5": "PASS",
+    "water_mud_field": "NOT_APPROVED"
+  },
+  "classification": "PTPK28P5M150_A_N10_NFC_EXACT_VENDOR_GEOMETRY_FIT_COUPONS",
+  "geometry": {
+    "coupons": {
+      "C1": {
+        "axial_excess_clearance_mm": 0.0,
+        "axial_seating_stop_mm": 1.2,
+        "clearance_radial_equivalent_mm": 0.15,
+        "engagement_mm": 9.0,
+        "estimated_petg_mass_g": 23.34271523091,
+        "finger_push_access_count": 2,
+        "global_xyz_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_wall_at_id_notch_mm": 6.200000000000003,
+        "notch_count": 1,
+        "offset_profile_bbox_xy_mm": [
+          43.573283732757574,
+          43.573283732757545
+        ],
+        "outer_radius_mm": 30.06000000000001,
+        "status": "C1_015_CAD_PASS"
+      },
+      "C2": {
+        "axial_excess_clearance_mm": 0.0,
+        "axial_seating_stop_mm": 1.2,
+        "clearance_radial_equivalent_mm": 0.25,
+        "engagement_mm": 9.0,
+        "estimated_petg_mass_g": 23.04427328779,
+        "finger_push_access_count": 2,
+        "global_xyz_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_wall_at_id_notch_mm": 6.100000000000001,
+        "notch_count": 2,
+        "offset_profile_bbox_xy_mm": [
+          43.77328373275756,
+          43.77328373275754
+        ],
+        "outer_radius_mm": 30.06000000000001,
+        "status": "C2_025_CAD_PASS"
+      },
+      "C3": {
+        "axial_excess_clearance_mm": 0.0,
+        "axial_seating_stop_mm": 1.2,
+        "clearance_radial_equivalent_mm": 0.35,
+        "engagement_mm": 9.0,
+        "estimated_petg_mass_g": 22.745842288259997,
+        "finger_push_access_count": 2,
+        "global_xyz_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_wall_at_id_notch_mm": 6.0,
+        "notch_count": 3,
+        "offset_profile_bbox_xy_mm": [
+          43.973283732757565,
+          43.973283732757544
+        ],
+        "outer_radius_mm": 30.06000000000001,
+        "status": "C3_035_CAD_PASS"
+      }
+    },
+    "exact_core_reference": {
+      "c2_tooth_tip_envelope_radius_mm": 21.960000000000008,
+      "clearance": "C2_REFERENCE_ONLY",
+      "continuous_outer_root_radius_mm": 33.54999999999996,
+      "hard_gate_mm": 5.0,
+      "main_body_axial_width_mm": 21.0,
+      "minimum_continuous_ligament_mm": 11.589999999999954,
+      "p20653_axial_width_mm": 44.0,
+      "remaining_each_side_if_centered_mm": 11.5,
+      "root_envelope_ligament_mm": 13.39999999999996,
+      "selected_winner": false,
+      "status": "PASS_STRETCH_REFERENCE_ONLY",
+      "stretch_gate_mm": 8.0,
+      "target_gate_mm": 6.0,
+      "total_axial_remaining_mm": 23.0
+    },
+    "p20653_outer": {
+      "global_xyz_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hub_modification_envelope_radius_mm": 22.1,
+      "outside_hub_modification_added_mm3": 0,
+      "outside_hub_modification_removed_mm3": 0,
+      "p20653_14_tooth_regression": {
+        "all_14_pass": true,
+        "max_added_volume_mm3": 0,
+        "max_removed_volume_mm3": 0,
+        "operation": "RIGID_ROTATION_PLUS_TRANSLATION_ONLY",
+        "rows": [
+          {
+            "added_volume_mm3": 0,
+            "index": 1,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 12.857142857142858
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 2,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 38.57142857142857
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 3,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 64.28571428571429
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 4,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 90.0
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 5,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 115.71428571428572
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 6,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 141.42857142857144
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 7,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 167.14285714285714
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 8,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 192.85714285714286
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 9,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 218.57142857142858
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 10,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 244.2857142857143
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 11,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 270.0
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 12,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 295.7142857142857
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 13,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 321.4285714285714
+          },
+          {
+            "added_volume_mm3": 0,
+            "index": 14,
+            "removed_volume_mm3": 0,
+            "status": "PASS",
+            "target_angle_deg": 347.1428571428571
+          }
+        ],
+        "scale_factor": 1.0
+      },
+      "phase_deg": 12.8571428571,
+      "pitch_diameter_mm": 92.8152374974,
+      "pitch_mm": 20.6533333333,
+      "spacing_deg": 25.7142857143,
+      "tooth_axial_width_mm": 44.0,
+      "tooth_count": 14,
+      "visible_change_outside_hub_envelope": 0
+    },
+    "retention": {
+      "NFC_flange_mandatory": false,
+      "adhesive_only": "PROHIBITED",
+      "metal_drilling": "PROHIBITED",
+      "option_A": "SIDE_REMOVABLE_PETG_RETAINER_CONCEPT",
+      "option_B": "CAPTURED_SHOULDER_PLUS_REMOVABLE_RETAINER_CONCEPT",
+      "physical": "HOLD",
+      "set_screw_primary_torque": "PROHIBITED",
+      "welding": "PROHIBITED"
+    },
+    "source_geometry": {
+      "assembly_bbox_mm": [
+        21.000000200000006,
+        50.0000002,
+        50.00000020000001
+      ],
+      "main_body": {
+        "bbox_mm": [
+          21.000000200000006,
+          43.27328383275754,
+          43.27328383275757
+        ],
+        "exact_root_envelope_diameter_mm": 39.800000000000004,
+        "exact_tooth_tip_od_mm": 43.420000000000016,
+        "global_xyz_scaling": 0.0,
+        "identification": "UNIQUE_LARGEST_VOLUME_PLUS_43P42_OD_PLUS_28_PERIODIC_P5M_TEETH",
+        "normal_offset_kernel": "OCCT_2D_PARALLEL_OFFSET_ARC_JOIN",
+        "overall_axial_width_mm": 21.000000200000006,
+        "periodicity_added_mm3": 0,
+        "periodicity_angle_deg": 12.857142857142858,
+        "periodicity_removed_mm3": 0,
+        "pitch_mm_order_authority": 5.0,
+        "sampled_root_radius_mm": 19.899999999999995,
+        "section_wire_edge_count": 224,
+        "tooth_count_detected": 28,
+        "tooth_geometry_source": "AP203_EXACT_SECTION_NO_APPROXIMATION",
+        "tooth_zone_width_mm": 16.6,
+        "tooth_zone_x_mm": [
+          2.2,
+          18.8
+        ],
+        "volume_mm3": 25568.41453550105
+      },
+      "separate_flange_candidates": {
+        "cad_state": "NFC_SEPARATE_FLANGE_GEOMETRY_CONFIRMED_IN_CAD",
+        "count": 2,
+        "physical_state": "NOT_YET"
+      },
+      "small_accessory_solids": {
+        "count": 2,
+        "naming": "ACCESSORY_SOLID_ONLY_FUNCTION_NOT_INFERRED"
+      },
+      "solid_count": 5,
+      "solids": [
+        {
+          "bbox_mm": [
+            21.0000002,
+            43.273283833,
+            43.273283833
+          ],
+          "classification": "UNIQUE_LARGEST_MAIN_PULLEY_BODY",
+          "source_index": 0,
+          "volume_mm3": 25568.414535501
+        },
+        {
+          "bbox_mm": [
+            1.69474783,
+            50.0000002,
+            50.0000002
+          ],
+          "classification": "SEPARATE_THIN_50MM_FLANGE_CANDIDATE",
+          "source_index": 1,
+          "volume_mm3": 822.984897721
+        },
+        {
+          "bbox_mm": [
+            1.69474783,
+            50.0000002,
+            50.0000002
+          ],
+          "classification": "SEPARATE_THIN_50MM_FLANGE_CANDIDATE",
+          "source_index": 2,
+          "volume_mm3": 822.984897721
+        },
+        {
+          "bbox_mm": [
+            4.0000002,
+            3.0000002,
+            4.0000002
+          ],
+          "classification": "SEPARATE_SMALL_ACCESSORY_SOLID_NAME_NOT_INFERRED",
+          "source_index": 3,
+          "volume_mm3": 28.805854364
+        },
+        {
+          "bbox_mm": [
+            4.0000002,
+            4.0000002,
+            3.0000002
+          ],
+          "classification": "SEPARATE_SMALL_ACCESSORY_SOLID_NAME_NOT_INFERRED",
+          "source_index": 4,
+          "volume_mm3": 28.805854364
+        }
+      ],
+      "source_authority": {
+        "file_description_ap203": true,
+        "file_schema_config_control_design": true,
+        "step_entry": "PTPK28P5M150-A-N10-NFC.stp",
+        "step_sha256": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+        "zip_path": "D:\\Downloads\\PTPK28P5M150-A-N10-NFC_STEP.zip",
+        "zip_sha256": "4d296d9b827e188a3223bef57a4049c5a6bc956210537de1b50d51a727323b4a"
+      }
+    }
+  },
+  "order_snapshot": {
+    "authority": "ORDER_SNAPSHOT_ONLY_NOT_LIVE_PRICE_OR_STOCK_AUTHORITY",
+    "estimated_arrival_date": "2026-08-27",
+    "order_date": "2026-08-20",
+    "ordered_code": "PTPK28P5M150-A-N10-NFC",
+    "price_snapshot_jpy_tax_included": 3971,
+    "quantity": 1,
+    "scheduled_ship_date": "2026-08-26",
+    "shipping_snapshot_jpy": 0,
+    "supplier": "MISUMI"
+  },
+  "repository_guard": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "outside_untracked": [
+      3097,
+      "23d2065362e016fae41455df34709ac5190f3b3b6cb9192e1cff7bda1076602b"
+    ],
+    "protected_lanes": {
+      "aggregate_sha256": "f0ac3e00e1788904c22da7715544c0f1f45234e26755f03faf80e6f996e9fa45",
+      "file_count": 1504,
+      "focus": {
+        "cad/common_rover/common_rover_cbox_246x150x80_modular_waterproof_control_box_v0_9_6_32": {
+          "count": 28,
+          "tree_sha256": "4792b7db682d02e78ab88bdd8642f42b6805a6773782f4bcc36f2ff3427bc516"
+        },
+        "cad/common_rover/common_rover_generic_keyed_industrial_torque_core_comparison_v0_9_6_33": {
+          "count": 30,
+          "tree_sha256": "b0e1d30421c78c201658f5a410ecfaedd570c1121804a9ea26470884ec212496"
+        },
+        "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31": {
+          "count": 20,
+          "tree_sha256": "8065cefb36cef1dfb823a989185a67534f7eebdfd432fd5a664b364cc9053a72"
+        }
+      },
+      "lane_count": 34
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_authority": {
+      "file_description_ap203": true,
+      "file_schema_config_control_design": true,
+      "step_entry": "PTPK28P5M150-A-N10-NFC.stp",
+      "step_sha256": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+      "zip_path": "D:\\Downloads\\PTPK28P5M150-A-N10-NFC_STEP.zip",
+      "zip_sha256": "4d296d9b827e188a3223bef57a4049c5a6bc956210537de1b50d51a727323b4a"
+    },
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "PTPK28P5M150_A_N10_NFC_ORDERED_1PC/AP203_SOURCE_AUTHORITY_PASS/P5M28_EXACT_MAIN_BODY_EXTRACTED/NFC_SEPARATE_FLANGE_GEOMETRY_CONFIRMED_IN_CAD/C1_015_CAD_PASS/C2_025_CAD_PASS/C3_035_CAD_PASS/GEOMETRIC_NOTCH_IDS_PASS/FIT_COUPONS_PRINT_APPROVED/EXACT_CORE_14T_REFERENCE_COMPLETE/PHYSICAL_CORE_NOT_RECEIVED/FIT_WINNER_NOT_YET/RETENTION_NOT_YET/FULL_DRIVE_PRINT_HOLD/STATIC_TORQUE_HOLD/POWERED_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "step_reload": {
+    "artifacts/p5m28_exact_core_in_p20653_14t_C2_reference.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "artifacts/p5m28_fit_coupon_C1_015_notch1.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "artifacts/p5m28_fit_coupon_C2_025_notch2.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "artifacts/p5m28_fit_coupon_C3_035_notch3.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "derived/p5m28_main_pulley_body_exact.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 1
+    },
+    "derived/p5m28_separated_vendor_solids_reference.step": {
+      "all_valid": true,
+      "reload": "PASS",
+      "solid_count": 5
+    }
+  },
+  "stl_quality": {
+    "artifacts/p5m28_fit_coupon_C1_015_notch1.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 17236,
+      "watertight": true
+    },
+    "artifacts/p5m28_fit_coupon_C2_025_notch2.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 12092,
+      "watertight": true
+    },
+    "artifacts/p5m28_fit_coupon_C3_035_notch3.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 12092,
+      "watertight": true
+    },
+    "derived/p5m28_main_pulley_body_exact.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 24156,
+      "watertight": true
+    }
+  },
+  "version": "v0.9.6.34"
+}

@@ -1,0 +1,45 @@
+{
+  "bearing_interface": {
+    "bearing_mm": [
+      10.0,
+      26.0,
+      8.0
+    ],
+    "count": 2,
+    "model": "6000-2RS",
+    "seat_mm": [
+      26.2,
+      8.2
+    ]
+  },
+  "mount_datum": "CENTER_AXIS_ORIGIN_SOURCE_CURRENT_XYZ_HOLD",
+  "protected_center_delta": {
+    "added_volume_mm3": 0.0,
+    "axis_change_mm": 0.0,
+    "bearing_seat_change_mm": 0.0,
+    "center_relief_change_mm": 0.0,
+    "common_volume_mm3": 103985.571991255,
+    "missing_volume_mm3": 0.0,
+    "protected_radius_mm": 29.47,
+    "status": "ZERO_DIFF"
+  },
+  "radius_basis": {
+    "candidate_root_radius_mm": 31.171989789132724,
+    "candidate_swept_od_mm": 71.34397957826545,
+    "pitch_diameter_mm": 79.79835226236546
+  },
+  "retention": "NO_INTEGRATED_RETENTION_RELEASED_IN_CURRENT_AUTHORITY_PHYSICAL_HOLD",
+  "selected_lane": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20",
+  "shaft_interface": {
+    "center_relief_mm": 12.0,
+    "nominal_mm": 10.0,
+    "printed_direct_shaft_bore": false
+  },
+  "side_guide": "NO_NEW_IDLER_GUIDE_LINK_ANTI_DERAIL_FEATURES_PRESERVED",
+  "source_sha256": "abf4ef081e6b5fd7334a1041ce24e7b2de1987e15a3b69752e110c567093c97c",
+  "source_step": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/idler_pitch_matched_primary_v0_9_6_20.step",
+  "spacer_interface": "BEARING_INNER_RACE_FACE_DATUM_PRESERVED_GEOMETRY_HOLD",
+  "tooth_count": 12,
+  "why_current": "v0.9.6.20 explicitly identifies the tracked crawler_h1 12T/6000-2RS idler selected by the Common Rover v0.9.3.5 physical result; later drivetrain lanes record 12T_IDLER_UNCHANGED.",
+  "width_mm": 44.0
+}

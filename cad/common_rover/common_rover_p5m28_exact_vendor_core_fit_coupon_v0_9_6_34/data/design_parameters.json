@@ -1,0 +1,38 @@
+{
+  "c2_state": "REFERENCE_ONLY_NOT_SELECTED",
+  "classification": "PTPK28P5M150_A_N10_NFC_EXACT_VENDOR_GEOMETRY_FIT_COUPONS",
+  "clearances_radial_equivalent_mm": {
+    "C1": 0.15,
+    "C2": 0.25,
+    "C3": 0.35
+  },
+  "coupon_engagement_mm": 9.0,
+  "coupon_stop_mm": 1.2,
+  "coupon_wall_nominal_mm": 8.0,
+  "notch_counts": {
+    "C1": 1,
+    "C2": 2,
+    "C3": 3
+  },
+  "order_snapshot": {
+    "authority": "ORDER_SNAPSHOT_ONLY_NOT_LIVE_PRICE_OR_STOCK_AUTHORITY",
+    "estimated_arrival_date": "2026-08-27",
+    "order_date": "2026-08-20",
+    "ordered_code": "PTPK28P5M150-A-N10-NFC",
+    "price_snapshot_jpy_tax_included": 3971,
+    "quantity": 1,
+    "scheduled_ship_date": "2026-08-26",
+    "shipping_snapshot_jpy": 0,
+    "supplier": "MISUMI"
+  },
+  "p20653_outer_authority": {
+    "phase_deg": 12.8571428571,
+    "pitch_diameter_mm": 92.8152374974,
+    "pitch_mm": 20.6533333333,
+    "spacing_deg": 25.7142857143,
+    "tooth_axial_width_mm": 44.0,
+    "tooth_count": 14
+  },
+  "retention_physical": "HOLD",
+  "version": "v0.9.6.34"
+}

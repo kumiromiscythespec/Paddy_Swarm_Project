@@ -1,0 +1,10 @@
+{
+  "approved_method": "PRETIGHTEN_BEFORE_CARRIER_INSERTION_OR_REMOVE_CRAWLER_AND_RETRACT_CARRIER_PLUS_Z",
+  "carrier_retraction_mm": 50.0,
+  "crawler_removal_required_for_service": true,
+  "in_situ_tool_access_claimed": false,
+  "installed_direct_radial_path_blocked": true,
+  "retracted_tool_intersection_mm3": 0,
+  "source_small_solid_count": 2,
+  "status": "PASS_BY_AXIAL_SERVICE_RETRACTION"
+}

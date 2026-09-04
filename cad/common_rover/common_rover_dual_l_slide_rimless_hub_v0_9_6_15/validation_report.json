@@ -1,0 +1,316 @@
+{
+  "Y3": "Y3_PRESERVED",
+  "belt_entry": "BELT_SIDE_ENTRY_OPEN_GEOMETRY_COMPLETE",
+  "classification": "DUAL_L_SLIDE_BELT_ENTRY_FINALIZATION",
+  "collar": "H25A1_B_PRESERVED",
+  "coupon": "DUAL_RIGID_L_HOOK_READY_FOR_COUPON",
+  "full_12t": "FULL_12T_PRINT_PENDING_DUAL_L_COUPON",
+  "gates": {
+    "Y3_full_fit": "HOLD",
+    "actual_belt": "BELT_SECTION_PHYSICAL_HOLD",
+    "coupon": "READY_FOR_PHYSICAL_PRINT",
+    "dual_l_vibration": "HOLD",
+    "field": "NOT_APPROVED",
+    "full_12t": "PENDING_DUAL_L_COUPON_PASS",
+    "mud": "HOLD",
+    "powered": "NOT_YET_APPROVED",
+    "powered_belt": "HOLD",
+    "shaft_cut": "HOLD",
+    "stop_key_lifetime": "HOLD",
+    "torque": "HOLD",
+    "water": "HOLD"
+  },
+  "geometry": {
+    "base_bounds_mm": [
+      76.94,
+      76.94,
+      48.0
+    ],
+    "base_volume_mm3": 109875.65324,
+    "belt_entry_all_zero": true,
+    "belt_entry_intersections_mm3": {
+      "150.0": 0.0,
+      "270.0": 0.0
+    },
+    "closed_internal_cavity_count_added": 0,
+    "endpoint_all_zero": true,
+    "endpoint_intersections": {
+      "cap_guard_mm3": 0.0,
+      "cap_main_mm3": 0.0,
+      "collar_main_mm3": 0.0,
+      "crawler_cap_mm3": 0.0,
+      "m4_main_mm3": 0.0,
+      "yokes_main_mm3": 0.0
+    },
+    "guard_missing_mm3": 0,
+    "hard_stop_negative_0_25mm_intersection_mm3": 23.478198,
+    "hard_stop_pass": true,
+    "lower_ring_search": {
+      "continuous_rows": [],
+      "method": "15_DEG_POINT_PROBE_AT_5_RADII_X_3_AXIAL_PLANES",
+      "pass": true,
+      "result": "NO_CONTINUOUS_LOWER_RING",
+      "rows": [
+        {
+          "continuous": false,
+          "occupied_samples": 6,
+          "radius_mm": 20.8,
+          "samples": 24,
+          "z_mm": -18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 6,
+          "radius_mm": 21.8,
+          "samples": 24,
+          "z_mm": -18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 6,
+          "radius_mm": 22.8,
+          "samples": 24,
+          "z_mm": -18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 6,
+          "radius_mm": 23.8,
+          "samples": 24,
+          "z_mm": -18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 6,
+          "radius_mm": 24.8,
+          "samples": 24,
+          "z_mm": -18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 5,
+          "radius_mm": 20.8,
+          "samples": 24,
+          "z_mm": 0.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 5,
+          "radius_mm": 21.8,
+          "samples": 24,
+          "z_mm": 0.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 5,
+          "radius_mm": 22.8,
+          "samples": 24,
+          "z_mm": 0.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 5,
+          "radius_mm": 23.8,
+          "samples": 24,
+          "z_mm": 0.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 7,
+          "radius_mm": 24.8,
+          "samples": 24,
+          "z_mm": 0.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 2,
+          "radius_mm": 20.8,
+          "samples": 24,
+          "z_mm": 18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 2,
+          "radius_mm": 21.8,
+          "samples": 24,
+          "z_mm": 18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 2,
+          "radius_mm": 22.8,
+          "samples": 24,
+          "z_mm": 18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 2,
+          "radius_mm": 23.8,
+          "samples": 24,
+          "z_mm": 18.0
+        },
+        {
+          "continuous": false,
+          "occupied_samples": 4,
+          "radius_mm": 24.8,
+          "samples": 24,
+          "z_mm": 18.0
+        }
+      ],
+      "sample_count": 360
+    },
+    "m3_bridge_count": 0,
+    "m3_nut_count": 0,
+    "m3_nut_seat_count": 0,
+    "m3_screw_count": 0,
+    "main_bounds_mm": [
+      76.94,
+      76.94,
+      48.0
+    ],
+    "main_solids": 1,
+    "main_valid": true,
+    "main_volume_mm3": 89395.911699,
+    "protected_tooth_missing_mm3": 0,
+    "receiver_1_missing_mm3": 0,
+    "receiver_2_missing_mm3": 0,
+    "removed_volume_mm3": 20479.741541,
+    "slide_sweep": {
+      "increment_mm": 0.25,
+      "max_unintended_intersection_mm3": 0.0,
+      "pass": true,
+      "sample_count": 13,
+      "samples": [
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.0
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.25
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.5
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 0.75
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.0
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.25
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.5
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 1.75
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.0
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.25
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.5
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 2.75
+        },
+        {
+          "cap_crawler_mm3": 0.0,
+          "cap_guard_mm3": 0.0,
+          "cap_main_mm3": 0.0,
+          "cap_shaft_mm3": 0.0,
+          "cap_yokes_mm3": 0.0,
+          "position_mm": 3.0
+        }
+      ],
+      "travel_mm": 3.0
+    },
+    "spoke_missing_mm3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stop_key": {
+      "key_locked_cap_mm3": 0.0,
+      "key_main_mm3": 0.0,
+      "key_reverse_0_5mm_cap_mm3": 15.416018,
+      "lock_install_clear": true,
+      "reverse_motion_blocked": true,
+      "torque_path": false
+    }
+  },
+  "guard": "THICK_ROOT_9MM_GUARD_PRESERVED",
+  "legacy_architecture": "M3_AND_NUT_ARCHITECTURE_SUPERSEDED",
+  "repository": "COMMIT_READY_NOT_STAGED",
+  "result": "DUAL_L_SLIDE_RIMLESS_INTEGRATION_COMPLETE",
+  "ring": "NO_CONTINUOUS_LOWER_RING",
+  "tooth": "PROTECTED_12T_FROZEN",
+  "v09614": "V09614_LOWER_FLANGE_REJECTED",
+  "version": "v0.9.6.15"
+}

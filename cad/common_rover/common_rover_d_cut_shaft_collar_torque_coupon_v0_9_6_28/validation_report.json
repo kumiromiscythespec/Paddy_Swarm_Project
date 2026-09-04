@@ -1,0 +1,589 @@
+{
+  "checks": {
+    "a1_fit": "PASS",
+    "arm_root": "PASS",
+    "bbox_unchanged": "PASS",
+    "collar_authority": "PASS",
+    "crawler_unchanged": "PASS",
+    "dflat_candidates": "PASS",
+    "field": "NOT_YET",
+    "fixture_strength": "PHYSICAL_HOLD",
+    "full_60t_print": "HOLD",
+    "load_holes": "PASS",
+    "m4_authority": "PASS",
+    "m4_tightening": "PHYSICAL_HOLD",
+    "m4_tip": "PHYSICAL_HOLD",
+    "primary_radius": "PASS",
+    "reaction_thickness": "PASS",
+    "real_torque": "PHYSICAL_HOLD",
+    "shaft_10mm": "PASS",
+    "shaft_non_clamping": "PASS",
+    "source_unambiguous": "PASS",
+    "step_reload": "PASS",
+    "stl_reload": "PASS"
+  },
+  "classification": "D_CUT_SHAFT_COLLAR_TORQUE_SCREEN",
+  "geometry": {
+    "d_flat": {
+      "axial_length_target_mm": 10.0,
+      "axial_margin_target_each_end_mm": 1.0,
+      "candidate_count": 3,
+      "candidates": {
+        "D03": {
+          "axial_length_target_mm": 10.0,
+          "depth_mm": 0.3,
+          "opposite_surface_caliper_mm": 9.7,
+          "status": "COUPON_TEST_CANDIDATE",
+          "theoretical_width_mm": 3.411744
+        },
+        "D05": {
+          "axial_length_target_mm": 10.0,
+          "depth_mm": 0.5,
+          "opposite_surface_caliper_mm": 9.5,
+          "status": "COUPON_TEST_CANDIDATE",
+          "theoretical_width_mm": 4.358899
+        },
+        "D07": {
+          "axial_length_target_mm": 10.0,
+          "depth_mm": 0.7,
+          "opposite_surface_caliper_mm": 9.3,
+          "status": "COUPON_TEST_CANDIDATE",
+          "theoretical_width_mm": 5.10294
+        }
+      },
+      "fatigue_bending_bearing_effect": "PHYSICAL_HOLD",
+      "primary_candidate_not_final": "D05",
+      "primary_screw": "PRIMARY_D_FLAT_M4_NORMAL_TO_FLAT",
+      "secondary_screw": "SECONDARY_ROUND_CONTACT_M4_APPROX_90_DEG",
+      "selection_rule": "SHALLOWEST_COMPLETE_2NM_PASS_D03_THEN_D05_THEN_D07"
+    },
+    "development": {
+      "failure_interface": "UNKNOWN_REQUIRES_PHYSICAL_TEST",
+      "latest_status": "FAIL_SHAFT_COLLAR_TORQUE_RETENTION_SUSPECTED",
+      "observation": [
+        "SHAFT_ROTATED",
+        "CRAWLER_HIGH_TENSION",
+        "HOLD_DOWN_ROLLER_LOWERED",
+        "DRIVETRAIN_TORQUE_NOT_TRANSMITTED_AS_INTENDED"
+      ],
+      "target_blocker": "BLOCKER_1_DRIVETRAIN_TORQUE_TRANSMISSION"
+    },
+    "firewalls": {
+      "bbox_geometry_changes": 0,
+      "crawler_geometry_changes": 0,
+      "full_60t_print": "HOLD",
+      "full_drivetrain_torque": "PHYSICAL_VALIDATION_PENDING"
+    },
+    "fixture": {
+      "architecture": "PETG_COLLAR_AND_M4_HEAD_REACTION_FIXTURE_WITH_INTEGRATED_TORQUE_ARM",
+      "arm_end_width_mm": 24.0,
+      "arm_root_width_mm": 30.0,
+      "arm_thickness_mm": 14.0,
+      "bambu_a1_bed_mm": [
+        256.0,
+        256.0
+      ],
+      "bounds_mm": [
+        [
+          -30.0,
+          -30.0,
+          0.0
+        ],
+        [
+          210.0,
+          30.0,
+          14.0
+        ]
+      ],
+      "collar_radial_clearance_mm": 0.4,
+      "collar_service_pocket_mm": 16.6,
+      "extents_mm": [
+        240.0,
+        60.0,
+        14.0
+      ],
+      "fits_bambu_a1_without_scaling": true,
+      "fixture_failure_class": "FAIL_TEST_FIXTURE",
+      "flat_print_xy": true,
+      "head_clearance_each_side_mm": 0.4,
+      "head_reaction_angles_deg": [
+        90.0,
+        180.0
+      ],
+      "head_reaction_locations": 2,
+      "head_slot_width_mm": 9.6,
+      "load_hole_centers_mm": [
+        100.0,
+        150.0,
+        200.0
+      ],
+      "load_hole_diameter_mm": 8.0,
+      "minimum_reaction_thickness_mm": 6.0,
+      "primary_load_radius_mm": 200.0,
+      "root_fillet_mm": 4.0,
+      "shaft_clamping_feature_count": 0,
+      "shaft_guide_diameter_mm": 10.8,
+      "shaft_radial_clearance_mm": 0.4,
+      "tangential_reaction_shoulder_mm": 21.463,
+      "torque_path": [
+        "KNOWN_EXTERNAL_LOAD",
+        "TORQUE_ARM",
+        "PETG_FIXTURE",
+        "BROAD_M4_HEAD_REACTION_SHOULDERS",
+        "ACTUAL_M4",
+        "ACTUAL_METAL_COLLAR",
+        "D_FLAT_SHAFT",
+        "EXTERNAL_SHAFT_RESTRAINT"
+      ]
+    },
+    "physical_collar_authority": {
+      "classification": "PHYSICAL_MEASURED_COLLAR_AUTHORITY",
+      "collar_od_mm": 15.8,
+      "collar_width_mm": 5.8,
+      "m4_head_od_mm": 8.8,
+      "m4_per_collar": 2,
+      "m4_relationship": "APPROXIMATELY_90_DEG",
+      "m4_tightening_torque": "PHYSICAL_HOLD",
+      "m4_tip_geometry": "PHYSICAL_HOLD",
+      "max_radial_projection_from_collar_outer_to_head_top_mm": 11.0,
+      "shaft_nominal_mm": 10.0
+    },
+    "physical_holds": [
+      "M4_TIP_GEOMETRY",
+      "M4_TIGHTENING_TORQUE",
+      "SHAFT_COLLAR_FRICTION",
+      "ACTUAL_D_FLAT_TORQUE_CAPACITY",
+      "CHROME_FAILURE",
+      "PETG_FIXTURE_STRENGTH",
+      "SCREW_LOOSENING",
+      "FINAL_SHAFT_FATIGUE_BENDING_BEARING_EFFECT",
+      "FULL_DRIVETRAIN_CAPACITY"
+    ],
+    "print": {
+      "bottom_layers_min": 6,
+      "fixture_solid_equivalent_petg_g": 125.73,
+      "fixture_volume_mm3": 98997.541,
+      "gauge_volumes_mm3": {
+        "D03": 2345.513,
+        "D05": 2323.132,
+        "D07": 2301.77
+      },
+      "layer_mm": 0.2,
+      "material": "PETG",
+      "nozzle_mm": 0.4,
+      "printer": "BAMBU_LAB_A1",
+      "slicer": "HOLD_SLICER_NOT_RUN",
+      "support_preview": "PHYSICAL_HOLD",
+      "top_layers_min": 6,
+      "walls_min": 8
+    },
+    "source_discovery": {
+      "existing_dflat_physical_measurement": false,
+      "m4_tip_measurement_found": false,
+      "physical_collar_authority": "V09626_PHYSICAL_MEASURED_COLLAR_AUTHORITY",
+      "prior_torque_failure_references": [
+        "V0937",
+        "V09371",
+        "V09372",
+        "V09373"
+      ],
+      "reaction_reference": "V09619_Y3_REACTION_SHOE",
+      "shaft_coupling_references": [
+        "V092",
+        "V0921",
+        "V0922"
+      ],
+      "status": "PASS_UNAMBIGUOUS"
+    },
+    "state_matrix": {
+      "CAD_PASS": "PASS",
+      "CONTRACT_TEST_PASS": "PASS",
+      "DRY_RUN_PASS": "NOT_YET",
+      "DURABILITY_PASS": "NOT_YET",
+      "FIELD_PASS": "NOT_YET",
+      "FIT_PASS": "NOT_YET",
+      "MUD_PASS": "NOT_YET",
+      "PRINT_PASS": "NOT_YET",
+      "STATIC_PASS": "NOT_YET",
+      "TORQUE_PASS": "NOT_YET",
+      "WATER_PASS": "NOT_YET"
+    },
+    "torque": {
+      "above_2nm_initial_program": "PROHIBITED",
+      "contract_nm": 2.0,
+      "cycles_at_2nm_each_direction": 3,
+      "directions": [
+        "CW",
+        "CCW"
+      ],
+      "gravity_m_s2": 9.80665,
+      "hold_seconds": 10,
+      "impact_loading": "PROHIBITED",
+      "reference_masses": {
+        "R100": {
+          "mass_kg": 2.039432,
+          "radius_mm": 100.0,
+          "torque_nm": 2.0
+        },
+        "R150": {
+          "mass_kg": 1.359622,
+          "radius_mm": 150.0,
+          "torque_nm": 2.0
+        },
+        "R200": {
+          "mass_kg": 1.019716,
+          "radius_mm": 200.0,
+          "torque_nm": 2.0
+        }
+      },
+      "stages_nm": [
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ]
+    }
+  },
+  "mesh": {
+    "artifacts/d_cut_depth_gauge_d03_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -12.0,
+          -10.0,
+          0.0
+        ],
+        [
+          12.0,
+          10.0,
+          6.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        24.0,
+        20.0,
+        6.0
+      ],
+      "triangles": 1856,
+      "watertight": true
+    },
+    "artifacts/d_cut_depth_gauge_d05_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -12.0,
+          -10.0,
+          0.0
+        ],
+        [
+          12.0,
+          10.0,
+          6.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        24.0,
+        20.0,
+        6.0
+      ],
+      "triangles": 2472,
+      "watertight": true
+    },
+    "artifacts/d_cut_depth_gauge_d07_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -12.0,
+          -10.0,
+          0.0
+        ],
+        [
+          12.0,
+          10.0,
+          6.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        24.0,
+        20.0,
+        6.0
+      ],
+      "triangles": 3092,
+      "watertight": true
+    },
+    "artifacts/d_cut_depth_gauge_triplet_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -42.0,
+          -10.0,
+          0.0
+        ],
+        [
+          42.0,
+          10.0,
+          6.0
+        ]
+      ],
+      "component_count": 3,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        84.0,
+        20.0,
+        6.0
+      ],
+      "triangles": 7420,
+      "watertight": true
+    },
+    "artifacts/d_cut_shaft_collar_torque_fixture_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -29.995218,
+          -29.999977,
+          0.0
+        ],
+        [
+          210.0,
+          29.999977,
+          14.0
+        ]
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        239.995218,
+        59.999954,
+        14.0
+      ],
+      "triangles": 4086,
+      "watertight": true
+    },
+    "artifacts/d_cut_torque_test_plate_v0_9_6_28.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -29.995218,
+          -84.999977,
+          0.0
+        ],
+        [
+          210.0,
+          45.0,
+          14.0
+        ]
+      ],
+      "component_count": 4,
+      "degenerate_triangle_count": 0,
+      "extents_mm": [
+        239.995218,
+        129.999977,
+        14.0
+      ],
+      "triangles": 11506,
+      "watertight": true
+    }
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "cache": [],
+    "checks": {
+      "authority_4_of_4": true,
+      "branch": true,
+      "complete": true,
+      "forbidden_zero": true,
+      "head": true,
+      "lane_cache_zero": true,
+      "lane_scope": true,
+      "outside_untracked_preserved": true,
+      "protected_lanes": true,
+      "repository": true,
+      "source_files": true,
+      "staged_zero": true,
+      "tracked_dirty_preserved": true
+    },
+    "forbidden": [],
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_files": 46,
+    "outside_untracked": [
+      2807,
+      "ebfcf5b152cc9a2c5bc9ec2ea4d80fe48956de2c783aba05feb819aebc97d5ad"
+    ],
+    "protected_lanes": {
+      "cad/common_rover/common_rover_bbox_rear_slide_water_seal_coupon_v0_9_6_27": {
+        "count": 54,
+        "status": "UNCHANGED",
+        "tree_sha256": "1079a028588d35564e9e7241dda645a120b570fe2cf4c8b607169138c5742701"
+      },
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "count": 33,
+        "status": "UNCHANGED",
+        "tree_sha256": "3e0a550c7d9faa38fae8d106e60b91467788e18533d23063156070d1259615b8"
+      },
+      "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "e632689b54678455adec6758b2420bcf0ed4a2bd8ade8d229d80087275a4630e"
+      },
+      "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1": {
+        "count": 53,
+        "status": "UNCHANGED",
+        "tree_sha256": "a0cb4b831d639be4619a6bb42bff765a8196e04963dfc2df8826e1bbaf89fe00"
+      },
+      "cad/common_rover/common_rover_drive_shaft_h25a1_full_integration_v0_9_6_4": {
+        "count": 56,
+        "status": "UNCHANGED",
+        "tree_sha256": "a4782bb36e3373a69a3e97359e902010ab7ef6810402954dd61ee4d4e912a641"
+      },
+      "cad/common_rover/common_rover_dry_drive_physical_integration_v0_9_6_5": {
+        "count": 82,
+        "status": "UNCHANGED",
+        "tree_sha256": "f636f414eb940b2223b58cffc553623cf932117585dc06d652ff5ccab9d2edc7"
+      },
+      "cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "08f9d6d3de38a1c194c68f2c505df5407d51023057908f2d419dd11c18029b1a"
+      },
+      "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18": {
+        "count": 39,
+        "status": "UNCHANGED",
+        "tree_sha256": "fcab7a320e371504767153d1167c6c7f5416b84a8edd28e7331f988b01998373"
+      },
+      "cad/common_rover/common_rover_hybrid_slide_lock_hub_cap_v0_9_6_11": {
+        "count": 49,
+        "status": "UNCHANGED",
+        "tree_sha256": "0d5ab46da209e9f1f6a0ee3511548771605a9a68d2a6d78e14b679e32fae0438"
+      },
+      "cad/common_rover/common_rover_integral_drive_sprocket_shaft_connection_v0_9_3_7": {
+        "count": 32,
+        "status": "UNCHANGED",
+        "tree_sha256": "9ce514a86289f0830a10bec176c54cf95e60ff0cc828b61bca4f50ab730cb830"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_cad_verified_v0_9_2_1": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "fc0e459370be39f24a98d477a750a7c48e5533b85947432a0d80556d788e093a"
+      },
+      "cad/common_rover/common_rover_inward_pto_coupling_design_authority_v0_9_2": {
+        "count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "d716d23899f0ccbe2fc39872e06db57072d27cbcf2cbbb971356e16d67e69ef0"
+      },
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+        "count": 66,
+        "status": "UNCHANGED",
+        "tree_sha256": "8ec865fe56d28305f3bf282c4dd14bbc2f2ef793ce155159af2208e4ff6ac014"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "9d0d0eb92b759be81ed61a69d89a1888adbb4b88fcd66e63b14a056d59966300"
+      },
+      "cad/common_rover/common_rover_positive_hub_cap_lock_v0_9_6_8": {
+        "count": 61,
+        "status": "UNCHANGED",
+        "tree_sha256": "10160bba069c8c21b6ae6fd2189f06b79090d2921619245ce85028d77bd8481e"
+      },
+      "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9": {
+        "count": 55,
+        "status": "UNCHANGED",
+        "tree_sha256": "278e6da55abd4a85cd66276a5d67c523e59d4832e1806d922595f954e77adfd1"
+      },
+      "cad/common_rover/common_rover_shaft_fit_calibration_v0_9_2_2": {
+        "count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "9cff69e530206585149fa706123f7930af9b48af40b616585c944f6d4bca85ba"
+      },
+      "cad/common_rover/common_rover_staggered_alternating_deep_nut_drive_sprocket_v0_9_3_7_2": {
+        "count": 70,
+        "status": "UNCHANGED",
+        "tree_sha256": "37709a83bd63816578461b22e726adc8458abca43b81dff8a290af89860cb3c5"
+      },
+      "cad/common_rover/common_rover_staggered_deep_nut_set_screw_drive_sprocket_v0_9_3_7_3": {
+        "count": 75,
+        "status": "UNCHANGED",
+        "tree_sha256": "c276eb6709e3ccf3f247eea1f043f1f8d2b3bcae29b936478dd807567f86e683"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_compact_external_ear_double_split_clamp_v0_9_6_25": {
+        "count": 42,
+        "status": "UNCHANGED",
+        "tree_sha256": "1a00f38cb6a70c62698bd87ba8f3e18950cae471576c08d9e907e6bb9adcac64"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_double_split_clamp_v0_9_6_22": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "29b8ff01eea737001885ade0ae9876debbf83d0a1ed6cea6c91de60ce48668ca"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26": {
+        "count": 45,
+        "status": "UNCHANGED",
+        "tree_sha256": "c8954045f43a1d82440c169d3c60380eda08ee88b401aa44c95b2dd903ee267e"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_external_ear_double_split_clamp_v0_9_6_24": {
+        "count": 46,
+        "status": "UNCHANGED",
+        "tree_sha256": "b09600fae8ee56f5ab97fab966818d20119329cbadf8de9d0f54b0d614306c55"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_split_clamp_pulley_v0_9_6_21": {
+        "count": 40,
+        "status": "UNCHANGED",
+        "tree_sha256": "1f8d01cda3ca2b049dcffdda17b1f0c15b2c8de809cef476a157b941ddf4edc9"
+      },
+      "cad/common_rover/common_rover_temp_htd5m_60t_symmetric_double_split_clamp_v0_9_6_23": {
+        "count": 44,
+        "status": "UNCHANGED",
+        "tree_sha256": "214a215578f1f43013fe70e73203ddeb4b58e52c792322052a0504bcfad8921e"
+      },
+      "cad/common_rover/common_rover_true_open_bottom_dual_l_12t_v0_9_6_16": {
+        "count": 37,
+        "status": "UNCHANGED",
+        "tree_sha256": "fe514d3a9c1ca21bca92beee738ff1ed1b6d47fd2cdb2f2aa59866584303ea56"
+      },
+      "cad/common_rover/common_rover_y3_reaction_shoe_v0_9_6_19": {
+        "count": 34,
+        "status": "UNCHANGED",
+        "tree_sha256": "ede454f33bbd1030c0e744de0fda9614d86d201f89a7ebdc17e8a468bbfedb7a"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": {
+      "cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1/PHYSICAL_FAILURE_INPUT.md": "af7834749337cfd0ffdd858c1b3d6567dbff7ee44a3c1f7eff59131af1a4a852",
+      "cad/common_rover/common_rover_four_point_set_screw_drive_sprocket_v0_9_3_7_1/TORQUE_TEST_PLAN.md": "0e00a1998ec6f33b54ea98d59213f6c4a7a0ed7666284fcf6002718474300953",
+      "cad/common_rover/common_rover_staggered_alternating_deep_nut_drive_sprocket_v0_9_3_7_2/TORQUE_TEST_PLAN.md": "aa3b0094da1af8eecca8962f7f67f97a358bd181ffe43f26e987573925167b7e",
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/M4_HEAD_REACTION_POCKET.md": "a5fd6fb335ac71659ef34ee87f6f0bd92528065ea3139563b2b88bc41bdfa165",
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/PHYSICAL_COLLAR_MEASUREMENTS.md": "67fcf993ca080e63c6e03f0d56532caa5cca1c0191b8978c1d90f1eaf753dd16",
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/build_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26.py": "7c004f82b820c7775b1f13fe96054671fbc9bebfa97735614efa2e726c1405ad",
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/design_parameters.json": "435c89190a4a9564455c284ddd2fa5f5cb7c2409687580571b001378636bd469",
+      "cad/common_rover/common_rover_temp_htd5m_60t_dual_shaft_collar_embedded_m4_v0_9_6_26/validation_report.json": "304a752e10d16add1b8dd20a3074dedefc1b25321032d9a07fc7338e752afcde",
+      "cad/common_rover/common_rover_y3_reaction_shoe_v0_9_6_19/TORQUE_REACTION_LOAD_PATH.md": "d29ddb67c59d47052105437539777121b07c5eb8894b442ed92b6dd241ccc91d"
+    },
+    "staged": [],
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "D_CUT_SHAFT_COLLAR_TORQUE_COUPON_CAD_COMPLETE/BLOCKER_1_DRIVETRAIN_TORQUE_TRANSMISSION_TARGETED/D03_D05_D07_READY/2NM_TORQUE_FIXTURE_READY/PHYSICAL_TORQUE_TEST_REQUIRED/CRAWLER_GEOMETRY_UNCHANGED/BBOX_GEOMETRY_UNCHANGED/FULL_60T_PRINT_HOLD/TORQUE_PASS_NOT_YET_GRANTED/COMMIT_READY_NOT_STAGED",
+  "step_import": {
+    "artifacts/d_cut_shaft_collar_torque_fixture_v0_9_6_28.step": {
+      "solid_count": 1,
+      "valid": true
+    }
+  },
+  "version": "v0.9.6.28"
+}

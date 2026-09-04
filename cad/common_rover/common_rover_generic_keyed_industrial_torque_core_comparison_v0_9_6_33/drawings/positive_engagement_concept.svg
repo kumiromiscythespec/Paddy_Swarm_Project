@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>.t{font:700 26px sans-serif;fill:#102a43}.h{font:700 18px sans-serif;fill:#243b53}.m{font:15px monospace;fill:#334e68}.s{fill:#e6f6ff;stroke:#127fbf;stroke-width:2}.a{fill:#fff3bf;stroke:#d98300;stroke-width:2}.g{fill:#e6fcf5;stroke:#087f5b;stroke-width:2}.r{fill:#fff0f0;stroke:#c92a2a;stroke-width:2}.d{stroke-dasharray:8 6}</style>
+<rect width="1100" height="700" fill="#f8fafc"/><text x="45" y="48" class="t">Decoupled positive-engagement concept</text>
+<rect x="70" y="100" width="220" height="100" rx="12" class="s"/><text x="105" y="145" class="h">10 mm keyed shaft</text><text x="105" y="175" class="m">shaft → key</text><path d="M290 150 H385" stroke="#334e68" stroke-width="5" marker-end="url(#a)"/>
+<rect x="385" y="100" width="300" height="100" rx="12" class="a"/><text x="425" y="140" class="h">industrial metal core</text><text x="425" y="175" class="m">P5M or #40 positive teeth</text><path d="M685 150 H780" stroke="#334e68" stroke-width="5"/>
+<rect x="780" y="100" width="250" height="100" rx="12" class="g"/><text x="825" y="140" class="h">PETG 14T DRIVE</text><text x="825" y="175" class="m">future exact negative pocket</text>
+<rect x="140" y="300" width="820" height="180" rx="18" class="s d"/><text x="190" y="350" class="h">Outer crawler geometry remains independent and frozen</text><text x="190" y="395" class="m">P20653 pitch 20.6533333333 · 14T · phase 12.8571428571° · width 44</text><text x="190" y="440" class="m">metal core pitch may be 5.0 or 12.7 without changing crawler teeth</text>
+<text x="45" y="676" class="m">v0.9.6.33 · DIMENSION REFERENCE ONLY · SOURCE GEOMETRY HOLD · FULL DRIVE PRINT HOLD</text></svg>

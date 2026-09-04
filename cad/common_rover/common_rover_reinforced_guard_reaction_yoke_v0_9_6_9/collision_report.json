@@ -1,0 +1,35 @@
+{
+  "intended_contacts_excluded": [
+    "M4_TO_COLLAR",
+    "YOKE_POSITIVE_STOP",
+    "CAP_TO_SEATING_LAND",
+    "REAR_WASHER_TO_REAR_FACE"
+  ],
+  "known_all_zero": true,
+  "known_unintended": {
+    "cap_main_intersection_mm3": 0.0,
+    "guard_frame_plane_intersection_mm3": 0.0,
+    "m3_cap_intersection_mm3": 0.0,
+    "m3_guard_intersection_mm3": 0.0,
+    "m3_m4_intersection_mm3": 0.0,
+    "m3_main_intersection_mm3": 0.0,
+    "m3_yoke_a_intersection_mm3": 0.0,
+    "m3_yoke_b_intersection_mm3": 0.0,
+    "rear_tool_guard_intersection_mm3": 0.0,
+    "rear_tool_main_intersection_mm3": 0.0,
+    "yoke_a_m4_intersection_mm3": 0.0,
+    "yoke_a_main_intersection_mm3": 0.0,
+    "yoke_b_m4_intersection_mm3": 0.0,
+    "yoke_b_main_intersection_mm3": 0.0,
+    "yoke_mutual_intersection_mm3": 0.0
+  },
+  "method": "CADQUERY_COMMON_VOLUME_FULL_AXIAL_M3_PATH_PLUS_PHYSICAL_DIMENSION_CONTRACT",
+  "physical_holds": [
+    "ACTUAL_YOKE_VARIANT",
+    "M3_BOLT_LENGTH",
+    "M3_NUT_DIMENSIONS",
+    "REAR_TOOL_ENVELOPE",
+    "DYNAMIC_GUARD_LIFE",
+    "FULL_MOTOR_TORQUE"
+  ]
+}

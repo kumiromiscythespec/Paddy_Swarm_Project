@@ -1,0 +1,6 @@
+warning: could not open directory '.pytest_cache/': Permission denied
+CONTRACT=167/167 PASS
+EXACT_PATHS=28
+STEP_RELOAD=6/6 PASS
+STL_QUALITY=3/3 PASS
+REPRO=20/20 PASS

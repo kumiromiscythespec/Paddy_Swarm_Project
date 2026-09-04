@@ -1,0 +1,26 @@
+{
+  "classification": "READ_ONLY_PARENT_TRACE",
+  "no_measurement_fabricated": true,
+  "no_parent_modified": true,
+  "sources": [
+    {
+      "lane": "v0.9.6.6",
+      "role": "DRIVE_FRAME_PARENT_AUTHORITY",
+      "tree_sha256": "d01b3b67c3603ec9e7d3c647a77d6935f80107eed711b9b29691641d3487e94f"
+    },
+    {
+      "lane": "v0.9.6.7",
+      "role": "RAPID_DRY_BBOX_CBOX_AUTHORITY_NOT_MODIFIED",
+      "tree_sha256": "a831a1e90a65395c2e796599a365a6fe6fa4ac57a492d78f591196b2eb09c5e7"
+    },
+    {
+      "lane": "v0.9.5.3",
+      "role": "HEADED_M4_24H_PHYSICAL_EVIDENCE",
+      "tree_sha256": "c49217200ea8d1a55b92632d4d1e3ad932fffd6ffdb9dbcb8edbea96c051ca0c"
+    },
+    {
+      "role": "CAP_FAILURE_FRAME170_SPACER7_PHYSICAL_INPUT",
+      "source": "USER_V0.9.6.8_INSTRUCTION"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "holds": [
+    "TENSIONER_PRODUCT",
+    "BELT_LENGTH_TENSION",
+    "FINAL_KP000_POSITIONS",
+    "FINAL_MOTOR_ADAPTER_BOLT_STACK",
+    "DYNAMIC_CRAWLER_RUNOUT",
+    "ACTUAL_TOOL_ENVELOPE",
+    "FUTURE_PTO_GEOMETRY"
+  ],
+  "intended_contacts_excluded": [
+    "BELT_TO_20T",
+    "BELT_TO_60T"
+  ],
+  "known_all_zero": true,
+  "known_unintended": {
+    "-1_20t_frame": 0.0,
+    "-1_60t_frame": 0.0,
+    "-1_belt_frame": 0.0,
+    "-1_body_frame": 0.0,
+    "-1_boss_frame": 0.0,
+    "-1_bracket_frame": 0.0,
+    "-1_future_pto_frame": 0.0,
+    "-1_shaft_frame": 0.0,
+    "-1_tensioner_frame": 0.0,
+    "-1_terminal_frame": 0.0,
+    "1_20t_frame": 0.0,
+    "1_60t_frame": 0.0,
+    "1_belt_frame": 0.0,
+    "1_body_frame": 0.0,
+    "1_boss_frame": 0.0,
+    "1_bracket_frame": 0.0,
+    "1_future_pto_frame": 0.0,
+    "1_shaft_frame": 0.0,
+    "1_tensioner_frame": 0.0,
+    "1_terminal_frame": 0.0
+  },
+  "local_fit": {
+    "BATTERY_VS_FRAME": 0.0,
+    "CAP_VS_HARDWARE": 0.0,
+    "CAP_VS_MAIN_HUB": 0.0,
+    "CAP_VS_SHOE_A": 0.0,
+    "CAP_VS_SHOE_B": 0.0,
+    "HARDWARE_VS_MAIN_HUB": 0.0,
+    "LEFT_SHAFT_VS_RIGHT_SHAFT": 0.0,
+    "SHOE_A_VS_MAIN_HUB": 0.0,
+    "SHOE_B_VS_MAIN_HUB": 0.0
+  },
+  "method": "CADQUERY_COMMON_VOLUME_SOURCE_PROVEN_OR_EXPLICIT_REFERENCE_DATUMS"
+}

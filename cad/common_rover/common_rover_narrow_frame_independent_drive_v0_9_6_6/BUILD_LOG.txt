@@ -1,0 +1,10 @@
+version=v0.9.6.6
+python=3.12.13
+cadquery=2.8.0
+paths=66
+step=14
+stl=6
+svg=10
+json=5
+classification=DRY_DRIVE_FRAME_AND_SHAFT_INTEGRATION
+shaft_cut_length=HOLD_PHYSICAL_MEASUREMENT

@@ -1,0 +1,17 @@
+BELT_ENTRY_OPENING_SPEC.md
+BUILD_LOG.txt
+COMMIT_PATHS.txt
+DESIGN_AUTHORITY.md
+MANIFEST.txt
+PRINT_AND_PHYSICAL_GATE.md
+README.md
+SHA256SUMS.txt
+TEST_LOG.txt
+artifacts/drive_12t_h25a1_belt_entry_clearance_rimless_v0_9_6_14.step
+artifacts/drive_12t_h25a1_belt_entry_clearance_rimless_v0_9_6_14.stl
+artifacts/v09613_vs_v09614_belt_entry_section.svg
+artifacts/v09613_vs_v09614_top_view.svg
+build_belt_entry_clearance_rimless_v0_9_6_14.py
+design_parameters.json
+tests/test_belt_entry_clearance_rimless_v0_9_6_14_contract.py
+validation_report.json

@@ -1,0 +1,108 @@
+{
+  "authorities": {
+    "dry_cassette": "common_rover_dry_drive_battery_tray_v0_9_6_3",
+    "physical_measurement": "common_rover_physical_measurement_closure_v0_9_5_2",
+    "rear_service": "common_rover_bbox_cbox_printable_prototype_v0_9_5_0",
+    "waterproof": "common_rover_bbox_cbox_submerged_power_architecture_v0_9_6_0"
+  },
+  "battery": {
+    "body_mm": [
+      150.9,
+      99.4,
+      92.5
+    ],
+    "mass_kg": 1.2,
+    "terminal_clearance": "HOLD_BOLT_LUG_CABLE_BEND",
+    "terminal_extreme_mm": 99.4
+  },
+  "classification": "BBOX_REAR_SLIDE_STATIC_FACE_SEAL_VALIDATION",
+  "coupon": {
+    "outer_frame_mm": [
+      160.0,
+      150.0,
+      8.0
+    ],
+    "rear_opening_mm": [
+      110.0,
+      104.0
+    ],
+    "shell_stub_length_mm": 80.0,
+    "slide_direction": "REAR_MINUS_X"
+  },
+  "faceplate": {
+    "m4_count": 4,
+    "ribs": "INTEGRATED_CASSETTE_FLOOR_PLUS_DUAL_SIDE_WALL_RIBS",
+    "selected_mm": 6.0,
+    "thickness_candidates_mm": [
+      4.0,
+      5.0,
+      6.0
+    ]
+  },
+  "gasket": {
+    "closed_gaps_mm": [
+      1.6,
+      1.55,
+      1.5
+    ],
+    "compression_candidates_percent": [
+      20.0,
+      22.5,
+      25.0
+    ],
+    "corner_radius_outer_inner_mm": [
+      14.0,
+      8.0
+    ],
+    "inner_mm": [
+      118.0,
+      112.0
+    ],
+    "land_width_mm": 8.0,
+    "material": "SOLID_SILICONE_SHEET_CANDIDATE",
+    "nominal_mm": 2.0,
+    "outer_mm": [
+      132.0,
+      126.0
+    ],
+    "selected_gap_mm": 1.5,
+    "selected_percent": 25.0,
+    "type": "STATIC_FACE_COMPRESSION"
+  },
+  "gates": {
+    "first": "S0_THEN_S1",
+    "full_bbox_print": "NOT_APPROVED",
+    "live_battery": "NOT_APPROVED",
+    "water": "W1_W2_ONLY_AFTER_S0_S1"
+  },
+  "mud": {
+    "drain_inside_seal": 0,
+    "drain_zone": true,
+    "lip": "MUD_EXCLUSION_ONLY"
+  },
+  "rails": {
+    "clearance_candidates_per_side_mm": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "inner_span_mm": 109.0,
+    "selected_mm": 0.5,
+    "through_wall_fasteners": 0
+  },
+  "source_bbox": {
+    "lower_shell_mm": [
+      200.0,
+      130.0,
+      97.0
+    ],
+    "main_body_mm": [
+      180.0,
+      114.0,
+      93.0
+    ],
+    "wall_mm": 3.2
+  },
+  "status": "BBOX_REAR_SLIDE_WATER_SEAL_COUPON_CAD_COMPLETE/STATIC_FACE_COMPRESSION_SEAL_ARCHITECTURE_COMPLETE/DYNAMIC_SLIDING_SEAL_REJECTED/REAR_SLIDE_CASSETTE_ARCHITECTURE_READY/2MM_GASKET_COMPRESSION_CANDIDATES_READY/FOUR_POINT_COMPRESSION_READY/MUD_EXCLUSION_AND_DRAINAGE_READY/LIVE_BATTERY_NOT_APPROVED/FULL_BBOX_PRINT_NOT_APPROVED/PHYSICAL_WATER_SEAL_VALIDATION_NEXT/COMMIT_READY_NOT_STAGED",
+  "version": "v0.9.6.27"
+}

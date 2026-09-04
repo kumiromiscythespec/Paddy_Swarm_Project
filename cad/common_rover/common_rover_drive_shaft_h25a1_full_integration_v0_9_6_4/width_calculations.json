@@ -1,0 +1,24 @@
+{
+  "datum_180": {
+    "base": 288,
+    "spacer_3": 294,
+    "spacer_4": 296,
+    "spacer_5": 298,
+    "spacer_6": 300
+  },
+  "datum_181_conservative": {
+    "base": 289,
+    "spacer_3": 295,
+    "spacer_4": 297,
+    "spacer_5": 299,
+    "spacer_6": 301
+  },
+  "do_not_mix_datums": true,
+  "primary_4mm": {
+    "180": 296,
+    "181": 297
+  },
+  "rotating_limit": 300,
+  "shaft_end_rule": "SMOOTH_NON_ENTANGLING_REPORTED_SEPARATELY",
+  "units": "mm"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+  <rect width="900" height="470" fill="#fafafa"/>
+  <text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">CBOX DRIVE blank gland landing zones</text>
+  <text x="875" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.2 / NOT FOR MANUFACTURING</text>
+  
+      <g font-family="sans-serif" text-anchor="middle">
+        <rect x="90" y="100" width="720" height="220" fill="#eee" stroke="#222" stroke-width="4"/>
+        <g fill="#27ae60" stroke="#176b3a"><rect x="350" y="100" width="200" height="42"/><rect x="90" y="155" width="42" height="75"/><rect x="90" y="245" width="42" height="60"/><rect x="768" y="155" width="42" height="75"/><rect x="768" y="245" width="42" height="60"/></g>
+        <text x="450" y="127">MAIN POWER BLANK PAD</text><text x="111" y="190" transform="rotate(-90 111 190)">LEFT MOTOR</text><text x="111" y="275" transform="rotate(-90 111 275)">LEFT ENCODER</text><text x="789" y="190" transform="rotate(90 789 190)">RIGHT MOTOR</text><text x="789" y="275" transform="rotate(90 789 275)">RIGHT ENCODER</text>
+        <text x="450" y="360">Final holes = 0 / lid penetrations = 0 / physical cable OD and gland required</text>
+      </g>
+  
+      <g transform="translate(25 430)" font-family="sans-serif" font-size="12">
+        <rect x="0" y="0" width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text>
+        <rect x="130" y="0" width="14" height="14" fill="#8e44ad"/><text x="150" y="12">DRAWING_REFERENCE</text>
+        <rect x="330" y="0" width="14" height="14" fill="#27ae60"/><text x="350" y="12">DESIGN_CANDIDATE</text>
+        <rect x="530" y="0" width="14" height="14" fill="#e67e22"/><text x="550" y="12">HOLD</text>
+      </g>
+</svg>

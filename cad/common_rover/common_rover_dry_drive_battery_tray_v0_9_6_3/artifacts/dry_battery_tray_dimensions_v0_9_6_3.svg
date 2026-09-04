@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+ <rect width="900" height="470" fill="#fafafa"/>
+ <text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">Dry battery tray dimensions</text>
+ <text x="875" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.3 / DRY TEST ONLY</text>
+ 
+ <g transform="translate(85 75)" font-family="sans-serif">
+  <rect x="0" y="0" width="630" height="300" rx="12" fill="#d5f5e3" stroke="#222" stroke-width="3"/>
+  <rect x="16" y="12" width="604" height="276" fill="#fdfefe" stroke="#27ae60" stroke-width="2"/>
+  <rect x="16" y="12" width="16" height="80" fill="#27ae60"/><rect x="16" y="208" width="16" height="80" fill="#27ae60"/>
+  <rect x="37" y="20" width="570" height="260" rx="10" fill="#2e86de" opacity=".42"/>
+  <line x1="0" y1="325" x2="630" y2="325" stroke="#8e44ad" stroke-width="2"/><text x="315" y="350" text-anchor="middle">overall 157.5 / cavity 153.5 / rear wall 4 / front OPEN</text>
+  <line x1="655" y1="0" x2="655" y2="300" stroke="#8e44ad" stroke-width="2"/><text x="680" y="150" transform="rotate(90 680 150)" text-anchor="middle">overall 110 / cavity 102 / 1.3 each</text>
+  <text x="315" y="145" text-anchor="middle">BATTERY 150.9 × 99.4 × 92.5 / 1.2 kg</text>
+  <text x="315" y="170" text-anchor="middle">rear service opening 70; terminals rearward</text>
+ </g>
+ <g transform="translate(25 430)" font-family="sans-serif" font-size="12">
+  <rect width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text>
+  <rect x="130" width="14" height="14" fill="#8e44ad"/><text x="150" y="12">DERIVED</text>
+  <rect x="260" width="14" height="14" fill="#27ae60"/><text x="280" y="12">DESIGN_CANDIDATE</text>
+  <rect x="460" width="14" height="14" fill="#e67e22"/><text x="480" y="12">HOLD</text>
+ </g>
+</svg>

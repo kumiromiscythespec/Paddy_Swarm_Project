@@ -1,0 +1,202 @@
+{
+  "classification": "DRIVE_HUB_POSITIVE_LOCK_PHYSICAL_UPDATE",
+  "clearances": {
+    "hole_to_r20p4_mm": 0.9,
+    "nut_pocket_to_cap_recess_edge_mm": 0.736,
+    "nut_pocket_to_root_mm": 3.006,
+    "targets_mm": {
+      "free_edge_min": 0.5,
+      "head_to_cap_min": 0.5,
+      "hole_to_r20p4_preferred": 0.8,
+      "nut_to_root_preferred": 2.0
+    },
+    "washer_to_cap_edge_mm": 0.5
+  },
+  "frame": {
+    "battery_bilateral_grip": "PHYSICAL_DESIGN_PENDING",
+    "conservative_reference_mm": 171.0,
+    "historical_width_mm": 180.0,
+    "observations": [
+      "CORE_CAN_REDUCE_TO_170",
+      "60T_LATERAL_ROOM_REMAINS",
+      "BATTERY_LATERAL_ROOM_USEFUL",
+      "NARROWING_RECOVERS_CRAWLER_WIDTH"
+    ],
+    "primary_core_width_mm": 170.0,
+    "status": "PHYSICAL_MOCKUP_USER_REPORTED",
+    "structural_field_validation": false,
+    "upper_2040_length_mm": 540.0,
+    "upper_2040_outboard_each_mm": 20.0,
+    "upper_2040_status": "DESIGN_SELECTED_PHYSICAL_FINAL_POSITION_PENDING"
+  },
+  "full_capture": {
+    "A": "REJECT_TOO_TIGHT",
+    "B": "PHYSICAL_PRIMARY_PASS",
+    "C": "REJECT_TOO_LOOSE",
+    "collar_pocket_diameter_mm": 16.2,
+    "hardware_cavity_radius_mm": 20.4,
+    "repeat_abc_experiment": false,
+    "selected": "B"
+  },
+  "gates": {
+    "current_snap_cap": "PHYSICAL_REJECT",
+    "field_deployment": "NOT_APPROVED",
+    "frame_170": "PHYSICAL_MOCKUP_RECORDED",
+    "full_12t": "PRINT_PENDING_CAP_LOCK_COUPON",
+    "h25a1_b": "PHYSICAL_SELECTED",
+    "m3_nut_pocket": "READY_FOR_PHYSICAL_COUPON",
+    "m3_positive_cap_lock": "CAD_COMPLETE_PHYSICAL_COUPON_PENDING",
+    "powered_rotation": "NOT_YET_APPROVED",
+    "shaft_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+    "spacer_7mm": "PHYSICAL_MARGIN_INSUFFICIENT",
+    "spacer_8mm": "PHYSICAL_TEST_PENDING",
+    "upper_2040_outboard": "DESIGN_SELECTED_PHYSICAL_FINAL_PENDING",
+    "wide_front_hub_cap": "CAD_REVISED"
+  },
+  "generic_m3_references": {
+    "classification": "GENERIC_REFERENCE_NOT_PHYSICAL_AUTHORITY",
+    "nut_across_flats_mm": 5.5,
+    "nut_thickness_mm": 2.4,
+    "screw_display_length_mm": 10.0,
+    "screw_head_od_mm": 5.5,
+    "washer_od_mm": 7.0,
+    "washer_thickness_mm": 0.5
+  },
+  "m3_cap_lock": {
+    "angles_deg": [
+      45.0,
+      225.0
+    ],
+    "center_radius_mm": 23.0,
+    "count": 2,
+    "fastener": "M3",
+    "generic_reference_only": true,
+    "head_side": "FRONT_HUB_CAP",
+    "metal_captive_nuts": 2,
+    "nut_pocket_in_full_cad": "C_6.0_MAX_PACKAGING_ENVELOPE_PHYSICAL_SELECTION_PENDING",
+    "nut_side": "MAIN_SPROCKET_BODY",
+    "pcd_mm": 46.0,
+    "permanent_adhesive": false,
+    "primary_torque_path": false,
+    "printed_petg_threads": 0,
+    "screw_length": "HOLD_PHYSICAL_HARDWARE",
+    "separation_deg": 180.0,
+    "through_hole_diameter_mm": 3.4
+  },
+  "m4_collar": {
+    "count": 2,
+    "grub_screw_primary_count": 0,
+    "qualification": "1.0KG_AT_70MM_24H_NO_SHAFT_SHIFT",
+    "separation_deg": 90.0,
+    "type": "HEADED_M4",
+    "unchanged": true
+  },
+  "metal_collar": {
+    "id_mm": 10.1,
+    "od_mm": 15.9,
+    "width_mm": 3.0
+  },
+  "nut_coupon": {
+    "A": {
+      "across_flats_mm": 5.6,
+      "depth_mm": 2.5
+    },
+    "B": {
+      "across_flats_mm": 5.8,
+      "depth_mm": 2.7
+    },
+    "C": {
+      "across_flats_mm": 6.0,
+      "depth_mm": 2.9
+    },
+    "selection": "PHYSICAL_COUPON_PENDING"
+  },
+  "physical_failure": {
+    "current_cap": "PHYSICAL_FAIL_USER_REPORTED",
+    "functional_retention_failure": true,
+    "long_snap_fingers": "REMOVED_REJECTED_AS_PRIMARY_LOCK",
+    "snap_or_friction_primary": false
+  },
+  "print": {
+    "full_12t_gate": "PENDING_NUT_AND_CAP_LOCK_COUPON_PHYSICAL_PASS",
+    "material": "PETG",
+    "order": [
+      "M3_NUT_POCKET_COUPON",
+      "POSITIVE_CAP_LOCK_FIT_COUPON",
+      "FULL_REVISED_12T_AFTER_TWO_PHYSICAL_PASSES"
+    ],
+    "printer": "BAMBU_A1",
+    "support": "REVIEW_SLICER_DO_NOT_BLINDLY_TRUST_AUTO_SUPPORT"
+  },
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5,
+    "tooth_root_radial_service_holes": 0
+  },
+  "reaction_shoes": {
+    "count": 2,
+    "replaceable": true,
+    "role": "METAL_COLLAR_TO_PETG_MAIN_HUB_TORQUE_TRANSFER",
+    "staged_relief_mm": [
+      9.2,
+      6.9,
+      4.2
+    ]
+  },
+  "shaft": {
+    "architecture": "LEFT_RIGHT_INDEPENDENT_HALF_SHAFTS",
+    "continuous_cross_shaft": false,
+    "diameter_mm": 10.0,
+    "display_center_gap_mm": 2.0,
+    "final_center_gap": "HOLD_NON_CONTACT_REQUIRED",
+    "form": "SOLID_PRIMARY",
+    "kp000_per_side": 2,
+    "left_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "right_cut": "HOLD_PHYSICAL_MEASUREMENT"
+  },
+  "spacer": {
+    "chamfer_mm": 0.35,
+    "eight_mm": "PHYSICAL_TEST_PENDING",
+    "five_to_six_mm": "FRAME_CONTACT",
+    "id_mm": 10.2,
+    "od_mm": 13.8,
+    "rotating_width_conservative_mm": 295.0,
+    "rotating_width_nominal_mm": 294.0,
+    "seven_mm": "PHYSICAL_MARGIN_INSUFFICIENT",
+    "thickness_mm": 8.0,
+    "width_class": "GEOMETRY_PASS_CANDIDATE_NOT_PHYSICAL_PASS"
+  },
+  "units": "mm",
+  "version": "v0.9.6.8",
+  "wide_cap": {
+    "allowed_od_mm": [
+      50.0,
+      54.0
+    ],
+    "axial_envelope_limit_mm": 44.0,
+    "counterbore_depth_mm": 3.5,
+    "counterbore_diameter_mm": 7.2,
+    "index_features_retention_authority": false,
+    "indexing": "ASYMMETRIC_M4_SERVICE_WINDOWS_PLUS_M3_PAIR",
+    "long_snap_fingers": 0,
+    "nested_z_mm": [
+      16.5,
+      22.0
+    ],
+    "optional_washer_reference_od_mm": 7.0,
+    "outer_diameter_mm": 54.0,
+    "primary_torque_path": false,
+    "role": "AXIAL_RETENTION_AND_LOAD_SPREAD",
+    "thickness_mm": 5.5
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "battery": {
+    "live_submersion": "NOT_APPROVED"
+  },
+  "body": [
+    230.0,
+    92.0,
+    50.0
+  ],
+  "cbox_external": [
+    230.0,
+    92.0,
+    55.0
+  ],
+  "classification": "DRIVE_ELECTRICAL_PHYSICAL_INTEGRATION",
+  "compressed_gasket": 0.8,
+  "control": {
+    "mode": "SIGN_MAGNITUDE_PWM",
+    "powered_rotation": "NOT_APPROVED"
+  },
+  "esp32": {
+    "cradle_cavity": [
+      57.6,
+      29.0,
+      13.7
+    ],
+    "installation": "SIDE_WALL_VERTICAL_REMOVABLE_PETG_CRADLE",
+    "internal_x": [
+      76.6,
+      133.4
+    ],
+    "measured": [
+      56.8,
+      28.2,
+      12.9
+    ],
+    "model": "Freenove ESP32 WROOM v1.3",
+    "mounting_holes": "NONE_OBSERVED",
+    "nominal_allowance_each_side": 0.4,
+    "reference_clearance_to_md10c": 11.1
+  },
+  "field_deployment": "NOT_APPROVED",
+  "floor": 3.2,
+  "holds": [
+    "2PNCT_ACTUAL_OD",
+    "CABLE_GLAND_SIZE",
+    "GLAND_THREAD",
+    "MAIN_POWER_GLAND_HOLE",
+    "MOTOR_GLAND_HOLE",
+    "ENCODER_GLAND_HOLE",
+    "MD10C_PHYSICAL_MAX_HEIGHT",
+    "MD10C_FINAL_FASTENER",
+    "DC_DC_MODEL",
+    "DC_DC_DIMENSIONS",
+    "ENCODER_SUPPLY_VOLTAGE",
+    "MAIN_FUSE_FINAL",
+    "BRANCH_FUSE_FINAL",
+    "MASTER_DISCONNECT_MODEL",
+    "ABOVE_WATER_CONNECTOR_MODEL",
+    "ESP32_GPIO_ASSIGNMENT",
+    "ESP32_RF_EXACT_KEEPOUT",
+    "CBOX_THERMAL_LIMIT",
+    "POWERED_ROTATION"
+  ],
+  "internal_coordinate_origin_global": [
+    -105.0,
+    -42.8
+  ],
+  "lid_thickness": 4.2,
+  "md10c": {
+    "board": [
+      75.0,
+      43.0
+    ],
+    "center_gap": 20.0,
+    "drawing_hole_diameter_approx": 3.0,
+    "left_internal_xy": [
+      20.0,
+      95.0,
+      24.0,
+      67.0
+    ],
+    "max_height": "HOLD",
+    "mount_pattern": [
+      69.0,
+      35.0
+    ],
+    "outer_service_each": 20.0,
+    "quantity": 2,
+    "reference_height_non_authority": 18.0,
+    "relative_rotation_deg": 180,
+    "right_internal_xy": [
+      115.0,
+      190.0,
+      24.0,
+      67.0
+    ],
+    "underside_clearance_candidate": 3.0
+  },
+  "penetrations": {
+    "blank_landing_pads": 5,
+    "final_gland_holes": 0,
+    "lid": 0
+  },
+  "printer": {
+    "bed": [
+      256.0,
+      256.0
+    ],
+    "model": "Bambu A1",
+    "part_margin_each_long_axis": 13.0,
+    "recommended_brim": 5.0,
+    "remaining_margin_after_brim_each": 8.0
+  },
+  "purchased_main_cable": {
+    "actual_outer_diameter": "HOLD_PHYSICAL_MEASUREMENT",
+    "conductors": "1.25sq x 2C",
+    "maker": "Taiyo Cabletec",
+    "purchased_length_m": 3.0,
+    "type": "2PNCT"
+  },
+  "top_throat": [
+    218.0,
+    80.0
+  ],
+  "tray_reference": [
+    210.0,
+    72.0,
+    2.4
+  ],
+  "units": "mm",
+  "version": "v0.9.6.2",
+  "wall": 3.2,
+  "zones": {
+    "logic_y": [
+      0.0,
+      20.0
+    ],
+    "power_y": [
+      24.0,
+      72.0
+    ],
+    "separator_y": [
+      20.0,
+      24.0
+    ]
+  }
+}

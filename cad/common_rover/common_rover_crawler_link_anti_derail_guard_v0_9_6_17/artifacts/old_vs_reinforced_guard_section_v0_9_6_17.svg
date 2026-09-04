@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 26px; font-weight: bold; }
+    .label { font-size: 17px; }
+    .small { font-size: 14px; }
+    .body { fill: #b7d8ee; stroke: #24506b; stroke-width: 2; }
+    .guard { fill: #f4a261; stroke: #9c3f00; stroke-width: 2; }
+    .connector { fill: #a8dadc; stroke: #1d6b70; stroke-width: 2; }
+    .dim { stroke: #8b1e3f; stroke-width: 2; fill: none; }
+    .hold { fill: #fff3cd; stroke: #8a6d1d; stroke-width: 2; }
+  </style>
+  <text x="30" y="40" class="title">Old 6 mm vs reinforced 9 mm guard section (Y/Z)</text>
+  
+  <g transform="translate(70,90)">
+    <text x="70" y="0" class="label">OLD / physical failure authority</text>
+    <rect x="55" y="190" width="240" height="70" class="body"/>
+    <rect x="235" y="70" width="40" height="120" fill="#f8c4a8" stroke="#9c3f00" stroke-width="2"/>
+    <text x="78" y="225" class="label">link body</text>
+    <text x="225" y="52" class="small">4 mm wall/root</text>
+    <line x1="305" y1="70" x2="305" y2="190" class="dim"/>
+    <text x="316" y="136" class="label">6.0 mm</text>
+    <text x="82" y="290" class="small">margin over connector = 0.9 mm; root break recorded</text>
+  </g>
+  <g transform="translate(540,90)">
+    <text x="55" y="0" class="label">NEW / thick-root only</text>
+    <rect x="45" y="190" width="280" height="70" class="body"/>
+    <path d="M230 10 L260 10 L270 20 L270 130 L210 130 L180 160 Q180 130 210 100 L220 100 L220 20 Z" class="guard"/>
+    <text x="60" y="225" class="label">link body</text>
+    <line x1="350" y1="10" x2="350" y2="190" class="dim"/>
+    <text x="360" y="108" class="label">9.0 mm</text>
+    <text x="178" y="82" class="small">upper 5</text>
+    <text x="178" y="151" class="small">root min 6</text>
+    <text x="178" y="174" class="small">R3-class apron</text>
+    <text x="58" y="290" class="small">R1-class top chamfer; frame face remains at Y=+/-27</text>
+  </g>
+  <text x="30" y="602" class="small">v0.9.6.17 | mesh authority | NOT FOR POWERED TEST</text>
+</svg>

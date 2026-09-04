@@ -1,0 +1,357 @@
+{
+  "artifact_counts": {
+    "step": 2,
+    "stl": 1,
+    "svg": 5
+  },
+  "checks": {
+    "actual_18025_identity": "HOLD",
+    "all_step_reload": "PASS",
+    "authority_4_of_4": "PASS",
+    "boss_collision_zero": "PASS",
+    "continuous_ligament_hard": "PASS",
+    "counterbore_collision_zero": "PASS",
+    "crawler_collision_non_regression": "PASS",
+    "drain_collision_zero": "PASS",
+    "dry_run": "NOT_YET",
+    "durability": "NOT_YET",
+    "ejector_count_2": "PASS",
+    "ejector_physical": "NOT_YET",
+    "ejector_spacing_180": "PASS",
+    "f570_57p00_exact_unchanged": "PASS",
+    "field": "NOT_YET",
+    "frame_collision_zero": "PASS",
+    "idler_change_zero": "PASS",
+    "link_swept_clearance_hard": "PASS",
+    "link_swept_intersection_zero": "PASS",
+    "m5_bolt_collision_zero": "PASS",
+    "mud": "NOT_YET",
+    "outer_structural_ring_cut_zero": "PASS",
+    "powered": "NOT_APPROVED",
+    "protected_lanes": "PASS",
+    "repository_guard": "PASS",
+    "roller_collision_zero": "PASS",
+    "shaft_key_collision_zero": "PASS",
+    "single_print_gate": "PASS",
+    "static_torque": "NOT_YET",
+    "stl_bad_edge_zero": "PASS",
+    "stl_degenerate_zero": "PASS",
+    "stl_watertight": "PASS",
+    "strict_removal_only_delta": "PASS",
+    "tool_insertion_collision_zero": "PASS",
+    "tool_proxy_d4": "PASS",
+    "tool_reaches_metal_flange_backside": "PASS",
+    "tooth_regression_added_removed_zero": "PASS",
+    "tooth_root_contact_violation_zero": "PASS"
+  },
+  "classification": "F570_EXACT_DUAL_EJECTOR_SERVICE_ACCESS",
+  "geometry": {
+    "delta": {
+      "access_d_mm": 5.0,
+      "access_rows": [
+        {
+          "access_removed_volume_mm3": 742.201264,
+          "angle_deg": 30.0,
+          "center_xy_mm": [
+            17.320508,
+            10.0
+          ],
+          "continuous_ring_radial_zone_violation_mm3": 0.0,
+          "counterbore_clearance_mm": 3.388581,
+          "deep_relief_boss_clearance_mm": 5.25,
+          "drain_intersection_mm3": 0,
+          "f570_pocket_edge_clearance_mm": 6.0,
+          "m5_petg_hole_clearance_mm": 6.638581,
+          "metal_boss_clearance_mm": 5.5,
+          "metal_flange_outer_edge_clearance_mm": 5.9,
+          "radius_mm": 20.0,
+          "shaft_clearance_mm": 12.25,
+          "tool_to_key_intersection_mm3": 0,
+          "tool_to_metal_flange_contact_mm3": 2.513274,
+          "tool_to_petg_intersection_mm3": 0,
+          "tooth_root_clearance_mm": 11.520731,
+          "tooth_solid_intersection_max_mm3": 0
+        },
+        {
+          "access_removed_volume_mm3": 742.201264,
+          "angle_deg": 210.0,
+          "center_xy_mm": [
+            -17.320508,
+            -10.0
+          ],
+          "continuous_ring_radial_zone_violation_mm3": 0.0,
+          "counterbore_clearance_mm": 3.388581,
+          "deep_relief_boss_clearance_mm": 5.25,
+          "drain_intersection_mm3": 0,
+          "f570_pocket_edge_clearance_mm": 6.0,
+          "m5_petg_hole_clearance_mm": 6.638581,
+          "metal_boss_clearance_mm": 5.5,
+          "metal_flange_outer_edge_clearance_mm": 5.9,
+          "radius_mm": 20.0,
+          "shaft_clearance_mm": 12.25,
+          "tool_to_key_intersection_mm3": 0,
+          "tool_to_metal_flange_contact_mm3": 2.513274,
+          "tool_to_petg_intersection_mm3": 0,
+          "tooth_root_clearance_mm": 11.520731,
+          "tooth_solid_intersection_max_mm3": 0
+        }
+      ],
+      "added_volume_mm3": 0,
+      "angles_deg": [
+        30.0,
+        210.0
+      ],
+      "angular_spacing_deg": 180.0,
+      "ejector_count": 2,
+      "flange_backside_z_mm": 15.8,
+      "insertion_depth_mm": 37.8,
+      "operation": "SUBTRACT_TWO_CYLINDRICAL_SERVICE_ACCESS_PATHS_ONLY",
+      "radius_mm": 20.0,
+      "removed_volume_mm3": 1484.402529,
+      "tool_entry_z_mm": -22.0,
+      "tool_proxy_d_mm": 4.0
+    },
+    "frozen_parent": {
+      "center_pilot_d_mm": 24.1,
+      "center_pilot_length_mm": 4.0,
+      "deep_relief_d_mm": 24.5,
+      "f570_pocket_d_mm": 57.0,
+      "flange_pocket_depth_mm": 6.2,
+      "hub_boss_od_mm": 24.0,
+      "hub_flange_od_mm": 56.8,
+      "idler_change_count": 0,
+      "idler_tooth_count": 12,
+      "lane": "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31",
+      "m5_count": 6,
+      "p20653_pitch_mm": 20.6533333333,
+      "pcd_mm": 47.5,
+      "phase_deg": 12.857142857142858,
+      "pitch_diameter_mm": 92.81523749740639,
+      "spacing_deg": 25.714285714285715,
+      "tooth_count": 14,
+      "tooth_width_mm": 44.0
+    },
+    "physical_record": {
+      "actual_18025_identity": "HOLD_REPOSITORY_DOES_NOT_UNIQUELY_IDENTIFY_TESTED_HUB",
+      "ejector_physical_pass": "NOT_YET",
+      "f570_physical_fit": "PASS",
+      "flange_pocket_d_mm": 57.0,
+      "hub_insertion": "PASS",
+      "hub_self_fallout": "NONE",
+      "keyed_hub_physical_fit": "PASS",
+      "manual_removal_without_tool": "NOT_EASY"
+    },
+    "placement": {
+      "coordinate_source": "v0.9.6.19 placement transform + v0.8.1 lower-roller candidate",
+      "crawler_straight_run": {
+        "intersection_mm3": 0,
+        "keepout_end_x_mm": -26.0,
+        "minimum_distance_mm": 4.616416,
+        "wrap_sector_contract": "INTENDED_MESH_CHECKED_BY_EXACT_LINK_SWEEP"
+      },
+      "drive_bounds_world_mm": [
+        82.161959,
+        44.0,
+        82.560862
+      ],
+      "final_physical_clearance": "NOT_YET_ACTUAL_ASSEMBLY_RETEST_REQUIRED",
+      "frame": {
+        "intersection_mm3": 0,
+        "minimum_distance_mm": 65.0,
+        "source": "cad/common_rover/common_rover_drive_entry_top_hold_down_roller_v0_9_6_19"
+      },
+      "hold_down_roller": {
+        "max_unintended_intersection_mm3": 0,
+        "rows": [
+          {
+            "drive_to_carriage_distance_mm": 10.997431,
+            "drive_to_rollers_distance_mm": 10.804479,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 0.0
+          },
+          {
+            "drive_to_carriage_distance_mm": 10.699265,
+            "drive_to_rollers_distance_mm": 10.497006,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 0.5
+          },
+          {
+            "drive_to_carriage_distance_mm": 10.416577,
+            "drive_to_rollers_distance_mm": 10.198078,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 1.0
+          },
+          {
+            "drive_to_carriage_distance_mm": 10.150659,
+            "drive_to_rollers_distance_mm": 9.908122,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 1.5
+          },
+          {
+            "drive_to_carriage_distance_mm": 9.902862,
+            "drive_to_rollers_distance_mm": 9.627582,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 2.0
+          },
+          {
+            "drive_to_carriage_distance_mm": 9.674579,
+            "drive_to_rollers_distance_mm": 9.218337,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 2.5
+          },
+          {
+            "drive_to_carriage_distance_mm": 9.467221,
+            "drive_to_rollers_distance_mm": 8.75126,
+            "drive_vs_carriage_mm3": 0,
+            "drive_vs_rollers_mm3": 0,
+            "push_mm": 3.0
+          }
+        ]
+      },
+      "idler_adjustment_range": {
+        "max_intersection_mm3": 0,
+        "rows": [
+          {
+            "center_distance_mm": 280.0,
+            "drive_to_12t_idler_distance_mm": 206.006121,
+            "drive_vs_12t_idler_mm3": 0
+          },
+          {
+            "center_distance_mm": 277.4199,
+            "drive_to_12t_idler_distance_mm": 203.426032,
+            "drive_vs_12t_idler_mm3": 0
+          },
+          {
+            "center_distance_mm": 270.0,
+            "drive_to_12t_idler_distance_mm": 196.006164,
+            "drive_vs_12t_idler_mm3": 0
+          }
+        ],
+        "screened_center_distance_range_mm": [
+          270.0,
+          280.0
+        ]
+      },
+      "lower_rollers": {
+        "candidate_source": "front_drive_dual_pto_design_authority_v0_8_1",
+        "intersection_mm3": 0,
+        "minimum_distance_mm": 76.103915,
+        "station_registration": "HOLD_ACTUAL_LOWER_ROLLER_STATIONS"
+      },
+      "physical_observation": "USER_CONFIRMED_LARGE_PLACEMENT_MARGIN_SCREEN_PASS"
+    },
+    "service_access": {
+      "minimum_contact_proxy_volume_mm3": 2.513274,
+      "opposed_push": true,
+      "standard_sequence": [
+        "REMOVE_ALL_6_M5_BOLTS",
+        "INSERT_4MM_CLASS_ROD_FROM_REAR",
+        "PUSH_TWO_ACCESS_PATHS_ALTERNATELY_IN_SMALL_INCREMENTS",
+        "REMOVE_HUB_PARALLEL"
+      ],
+      "tool_insertion_collision_max_mm3": 0.0,
+      "tool_reaches_flange_backside": true,
+      "two_holes_usable": true
+    },
+    "structural": {
+      "access_drain_intersection_max_mm3": 0.0,
+      "access_tooth_intersection_max_mm3": 0.0,
+      "continuous_ring_cut_volume_mm3": 0.0,
+      "continuous_structural_hard_minimum_mm": 5.0,
+      "f570_to_continuous_ring_ligament_mm": 5.049999999999997,
+      "link_swept_clearance_mm": 0.8772255106742008,
+      "link_swept_hard_minimum_mm": 0.8,
+      "link_swept_intersection_mm3": 0,
+      "parent_collision_non_regression_proof": "NEW_SOLID_IS_STRICT_SUBSET_OF_PARENT_SOLID",
+      "removal_only_subset_added_volume_mm3": 0
+    }
+  },
+  "mesh": {
+    "artifacts/p20653_14t_18025_f570_dual_ejector_full_drive_v0_9_6_37.stl": {
+      "bad_edge_count": 0,
+      "bbox_mm": [
+        -41.080978,
+        41.080978,
+        -41.28043,
+        41.28043,
+        -22.0,
+        22.0
+      ],
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "reload": "PASS",
+      "triangle_count": 18672,
+      "watertight": true
+    }
+  },
+  "physical_classification": "KEYED_HUB_FIT_PASS_18025_IDENTITY_HOLD_EJECTOR_NOT_YET",
+  "print_gate": {
+    "F570_DUAL_EJECTOR_CAD_PASS": "PASS",
+    "FULL_14T_SINGLE_PRINT_APPROVED": "PASS",
+    "SERVICE_REMOVAL_ACCESS_CAD_PASS": "PASS",
+    "first_print": "artifacts/p20653_14t_18025_f570_dual_ejector_full_drive_v0_9_6_37.stl",
+    "quantity": 1
+  },
+  "repository": {
+    "authority_sha256": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "lane_expected_paths": 23,
+    "outside_untracked": [
+      3210,
+      "1c28d64b34068a689ce9fefe5102351e1ba94e3e45c2c0396960e5fbaa038c5c"
+    ],
+    "parent_tree": {
+      "file_count": 21,
+      "tree_sha256": "79aa2a06acb0db88bfa64007733f20490e3d1e8663f8bc7f7b608349aa1a912d"
+    },
+    "protected_lanes": {
+      "aggregate_sha256": "974463d8de4a2b7b9ec67981b52928777f2ab18ce7d4cbd07086688d086cc696",
+      "file_count": 1612,
+      "lane_count": 37,
+      "status": "UNCHANGED"
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "source_sha256": {
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31/artifacts/p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31.step": "fa7f1118bb907b7f932ed89b550e2c3e531553157b7360e74daa70acf61d967d",
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31/artifacts/p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31.stl": "b7f5760d54d89362064ad389aed29e8afc7d2f003b0764d9889783cb74e56a3f",
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31/artifacts/p20653_14t_18025_f570_full_drive_reference_assembly_v0_9_6_31.step": "62f4befb37673681819b6ab0c24ce054c9ac169b105558daf033f212aa80c69e",
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31/build_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31.py": "ccba3325d9445771bbc8093161f8c0258e1071510d725e559ba5d89df087f231",
+      "cad/common_rover/common_rover_p20653_14t_18025_f570_full_drive_print_candidate_v0_9_6_31/validation_report.json": "b139c1f43988a3683988724054fe9e74207243133deb066fadbc2f39b0d3adb6"
+    },
+    "staged_count": 0,
+    "tracked_dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "status": "F570_DUAL_EJECTOR_CAD_PASS/SERVICE_REMOVAL_ACCESS_CAD_PASS/F570_PHYSICAL_FIT_PASS/KEYED_HUB_PHYSICAL_FIT_PASS/HUB_SELF_FALLOUT_NONE/18025_PHYSICAL_IDENTITY_HOLD/FULL_14T_SINGLE_PRINT_APPROVED/EJECTOR_PHYSICAL_PASS_NOT_YET/POWERED_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "step_import": {
+    "artifacts/p20653_14t_18025_f570_dual_ejector_full_drive_v0_9_6_37.step": {
+      "expected_solids": 1,
+      "reload": "PASS",
+      "solid_count": 1,
+      "valid": true
+    },
+    "artifacts/p20653_14t_18025_f570_dual_ejector_service_reference_v0_9_6_37.step": {
+      "expected_solids": 6,
+      "reload": "PASS",
+      "solid_count": 6,
+      "valid": true
+    }
+  },
+  "version": "v0.9.6.37"
+}

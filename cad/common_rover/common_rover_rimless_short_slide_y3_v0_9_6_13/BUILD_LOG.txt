@@ -1,0 +1,10 @@
+version=v0.9.6.13
+classification=RIMLESS_FULL_12T_MINIMAL_DERIVATIVE
+python=3.12.13
+cadquery=2.8.0
+paths=16
+step=1
+stl=1
+svg=1
+parent=v0.9.6.12
+rim=CIRCULAR_RIM_REMOVED

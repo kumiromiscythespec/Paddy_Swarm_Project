@@ -1,0 +1,620 @@
+{
+  "checks": {
+    "104mm_superseded": "PASS",
+    "actual_link_stl_eight_instances": "PASS",
+    "all_step_import_valid": "PASS",
+    "all_stl_watertight": "PASS",
+    "crawler_guard_modification_zero": "PASS",
+    "current_chord_recorded": "PASS",
+    "diameters": "PASS",
+    "idler_exact_source": "PASS",
+    "idler_type_classified": "PASS",
+    "mean_pitch": "PASS",
+    "minimum_three_engagements": "PASS_KINEMATIC",
+    "no_fabricated_idler": "PASS",
+    "open_bottom_preserved": "PASS",
+    "phase_error_compared": "PASS",
+    "physical_inputs_exact": "PASS",
+    "physical_operating_pitch": "HOLD",
+    "powered": "NOT_APPROVED",
+    "tension_center_shift_analyzed": "PASS",
+    "three_drive_candidates": "PASS",
+    "three_paired_idlers": "PASS",
+    "tooth_count_spacing_phase": "PASS",
+    "tooth_profile_revision_zero": "PASS",
+    "top_roller_artifact_zero": "PASS",
+    "track_length_analyzed": "PASS",
+    "v09618_hub_rebuild_exact": "PASS"
+  },
+  "classification": "PHYSICAL_LINK_PITCH_MATCHED_DRIVE_IDLER",
+  "gates": {
+    "field": "NOT_APPROVED",
+    "first_print": "P20653_DRIVE_ONLY",
+    "hand_rotation": "PENDING_STATIC_PASS",
+    "powered": "NOT_APPROVED",
+    "static_fit": "PENDING"
+  },
+  "geometry": {
+    "candidate_rows": [
+      {
+        "actual_chord_mm": 20.6,
+        "candidate": "P2060",
+        "drive_max_radius_mm": 34.45821313311123,
+        "drive_solids": 1,
+        "drive_valid": true,
+        "identification_mark_removed_volume_mm3": 2.074838,
+        "idler_max_radius_mm": 34.45821303311123,
+        "idler_solids": 1,
+        "idler_valid": true,
+        "pitch_diameter_mm": 79.59228808621924,
+        "pitch_mm": 20.6,
+        "radius_shift_mm": 1.5989577010596179,
+        "role": "COMPARISON_ONLY"
+      },
+      {
+        "actual_chord_mm": 20.6533333333,
+        "candidate": "P20653",
+        "drive_max_radius_mm": 34.55773448791753,
+        "drive_solids": 1,
+        "drive_valid": true,
+        "identification_mark_removed_volume_mm3": 2.073249,
+        "idler_max_radius_mm": 34.55773438791753,
+        "idler_solids": 1,
+        "idler_valid": true,
+        "pitch_diameter_mm": 79.79835226236546,
+        "pitch_mm": 20.6533333333,
+        "radius_shift_mm": 1.7019897891327247,
+        "role": "PRIMARY_PHYSICAL_TEST_CANDIDATE"
+      },
+      {
+        "actual_chord_mm": 20.72,
+        "candidate": "P2072",
+        "drive_max_radius_mm": 34.682136181565355,
+        "drive_solids": 1,
+        "drive_valid": true,
+        "identification_mark_removed_volume_mm3": 1.834555,
+        "idler_max_radius_mm": 34.68213608156535,
+        "idler_solids": 1,
+        "idler_valid": true,
+        "pitch_diameter_mm": 80.05593248283799,
+        "pitch_mm": 20.72,
+        "radius_shift_mm": 1.8307798993689914,
+        "role": "COMPARISON_ONLY"
+      }
+    ],
+    "current_drive": {
+      "adjacent_chord_mm": 19.77231858930486,
+      "pitch_diameter_mm": 76.3943726841,
+      "v18_rebuild_added_mm3": 0,
+      "v18_rebuild_missing_mm3": 0,
+      "volume_mm3": 80102.21378
+    },
+    "current_idler_volume_mm3": 120821.912847,
+    "guard_geometry_count": 0,
+    "idler_source": {
+      "adjustment": "SOURCE_CANDIDATE_12_MM_TENSION_STROKE",
+      "bearing": "6000-2RS",
+      "bearing_depth_mm": 8.2,
+      "bearing_seat_mm": 26.2,
+      "center_relief_mm": 12.0,
+      "identified": true,
+      "mesh_od_mm": 65.827477,
+      "mounting_axis": "HINGE_AXIS / SOURCE CURRENT TRANSFORM HOLD",
+      "source": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/IDLER_SPROCKET_V0131_INTEGRATED_6000_SEAT_B.stl",
+      "source_sha256": "6544a7dace441579acd6d96e3a90cec84437fe6c048f19edc7d34f2ce0b1cad8",
+      "tooth_count": 12,
+      "type": "TOOTHED",
+      "width_mm": 44.0
+    },
+    "tooth_profile": {
+      "continuous_ring_added": false,
+      "local_root_bridge_count": 12,
+      "local_root_bridge_width_mm": 9.5,
+      "phase_deg": 15.0,
+      "revision_count": 0,
+      "root_width_mm": 9.5,
+      "spacing_deg": 30.0,
+      "tip_root_shape": "EXACT_V09618_SOLIDS_TRANSLATED_RADIALLY",
+      "tip_width_mm": 7.5,
+      "tooth_count": 12
+    },
+    "top_roller_artifact_count": 0
+  },
+  "mesh": {
+    "artifacts/drive_12t_pitch_p2060_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.458214,
+          -34.458214,
+          -22.0
+        ],
+        [
+          34.458214,
+          34.458214,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        68.916428,
+        68.916428,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 4.35e-07,
+        "derived_adjacent_chord_mm": 20.599999565,
+        "derived_pitch_radius_mm": 39.796143202,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.6,
+        "tip_face_radial_mm": [
+          34.66896,
+          34.668948,
+          34.668958,
+          34.668959,
+          34.668958,
+          34.668959,
+          34.66896,
+          34.668948,
+          34.668958,
+          34.668959,
+          34.668958,
+          34.668959
+        ],
+        "tip_face_spread_mm": 1.1e-05
+      },
+      "triangles": 16322,
+      "watertight": true
+    },
+    "artifacts/drive_12t_pitch_p20653_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.557735,
+          -34.557735,
+          -22.0
+        ],
+        [
+          34.557735,
+          34.557735,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        69.11547,
+        69.11547,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 7.97e-07,
+        "derived_adjacent_chord_mm": 20.653332536,
+        "derived_pitch_radius_mm": 39.899174592,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.6533333333,
+        "tip_face_radial_mm": [
+          34.771988,
+          34.771981,
+          34.771989,
+          34.77199,
+          34.771991,
+          34.77199,
+          34.771988,
+          34.771981,
+          34.771989,
+          34.77199,
+          34.771991,
+          34.77199
+        ],
+        "tip_face_spread_mm": 1e-05
+      },
+      "triangles": 15942,
+      "watertight": true
+    },
+    "artifacts/drive_12t_pitch_p2072_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.682137,
+          -34.682137,
+          -22.0
+        ],
+        [
+          34.682137,
+          34.682137,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        69.364274,
+        69.364274,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 7.25e-07,
+        "derived_adjacent_chord_mm": 20.719999275,
+        "derived_pitch_radius_mm": 40.027964842,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.72,
+        "tip_face_radial_mm": [
+          34.900778,
+          34.90077,
+          34.900781,
+          34.900781,
+          34.90078,
+          34.900781,
+          34.900778,
+          34.90077,
+          34.900781,
+          34.900781,
+          34.90078,
+          34.900781
+        ],
+        "tip_face_spread_mm": 1.1e-05
+      },
+      "triangles": 11760,
+      "watertight": true
+    },
+    "artifacts/drive_wrap_8links_p20653_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.557735,
+          -48.144993,
+          -27.0
+        ],
+        [
+          48.144993,
+          48.144993,
+          27.0
+        ]
+      ],
+      "extents_mm": [
+        82.70272800000001,
+        96.289986,
+        54.0
+      ],
+      "triangles": 105094,
+      "watertight": true
+    },
+    "artifacts/idler_12t_pitch_p2060_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.458214,
+          -34.458214,
+          -22.0
+        ],
+        [
+          34.458214,
+          34.458214,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        68.916428,
+        68.916428,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 4.52e-07,
+        "derived_adjacent_chord_mm": 20.600000452,
+        "derived_pitch_radius_mm": 39.796144916,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.6,
+        "tip_face_radial_mm": [
+          34.668959,
+          34.668958,
+          34.668959,
+          34.668959,
+          34.668958,
+          34.668959,
+          34.668959,
+          34.668958,
+          34.668959,
+          34.668959,
+          34.668958,
+          34.668959
+        ],
+        "tip_face_spread_mm": 0.0
+      },
+      "triangles": 3536,
+      "watertight": true
+    },
+    "artifacts/idler_12t_pitch_p2072_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.682137,
+          -34.682137,
+          -22.0
+        ],
+        [
+          34.682137,
+          34.682137,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        69.364274,
+        69.364274,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 4.24e-07,
+        "derived_adjacent_chord_mm": 20.720000424,
+        "derived_pitch_radius_mm": 40.02796706,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.72,
+        "tip_face_radial_mm": [
+          34.900781,
+          34.90078,
+          34.900781,
+          34.900781,
+          34.90078,
+          34.900781,
+          34.900781,
+          34.90078,
+          34.900781,
+          34.900781,
+          34.90078,
+          34.900781
+        ],
+        "tip_face_spread_mm": 0.0
+      },
+      "triangles": 3536,
+      "watertight": true
+    },
+    "artifacts/idler_pitch_matched_primary_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.557735,
+          -34.557735,
+          -22.0
+        ],
+        [
+          34.557735,
+          34.557735,
+          22.0
+        ]
+      ],
+      "extents_mm": [
+        69.11547,
+        69.11547,
+        44.0
+      ],
+      "tooth_pitch_reference": {
+        "absolute_error_mm": 3.5e-07,
+        "derived_adjacent_chord_mm": 20.653333683,
+        "derived_pitch_radius_mm": 39.899176807,
+        "method": "RELOADED_BINARY_STL_12_SECTOR_TIP_FACE_REFERENCE",
+        "positions": 12,
+        "target_chord_mm": 20.6533333333,
+        "tip_face_radial_mm": [
+          34.77199,
+          34.771991,
+          34.77199,
+          34.77199,
+          34.771991,
+          34.77199,
+          34.77199,
+          34.771991,
+          34.77199,
+          34.77199,
+          34.771991,
+          34.77199
+        ],
+        "tip_face_spread_mm": 1e-06
+      },
+      "triangles": 3536,
+      "watertight": true
+    },
+    "artifacts/idler_wrap_8links_p20653_v0_9_6_20.stl": {
+      "bad_edge_count": 0,
+      "bounds_mm": [
+        [
+          -34.557735,
+          -48.144993,
+          -27.0
+        ],
+        [
+          48.144993,
+          48.144993,
+          27.0
+        ]
+      ],
+      "extents_mm": [
+        82.70272800000001,
+        96.289986,
+        54.0
+      ],
+      "triangles": 92688,
+      "watertight": true
+    }
+  },
+  "status": "PHYSICAL_PITCH_DRIVE_IDLER_INTEGRATION_COMPLETE/REPEATED_5_PITCH_MEASUREMENTS_RECORDED/INITIAL_104MM_SUPERSEDED/CURRENT_12T_PITCH_MISMATCH_RECORDED/P2060_P20653_P2072_DRIVE_CANDIDATES_COMPLETE/P20653_PRIMARY_PHYSICAL_CANDIDATE/TOOTH_PROFILE_FROZEN/CURRENT_IDLER_SOURCE_IDENTIFIED/IDLER_WRAP_GEOMETRY_CORRECTED_OR_VERIFIED/TRACK_LENGTH_EFFECT_ANALYZED/CRAWLER_GUARD_SCOPE_SEPARATED/TOP_HOLD_DOWN_ROLLER_DEFERRED/ONE_PRIMARY_DRIVE_READY_FOR_PHYSICAL_PRINT/POWERED_ROTATION_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "step_import": {
+    "artifacts/drive_12t_pitch_p2060_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    },
+    "artifacts/drive_12t_pitch_p20653_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    },
+    "artifacts/drive_12t_pitch_p2072_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    },
+    "artifacts/drive_idler_pair_layout_primary_v0_9_6_20.step": {
+      "solids": 4,
+      "valid": true
+    },
+    "artifacts/idler_12t_pitch_p2060_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    },
+    "artifacts/idler_12t_pitch_p2072_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    },
+    "artifacts/idler_pitch_matched_primary_v0_9_6_20.step": {
+      "solids": 1,
+      "valid": true
+    }
+  },
+  "summary": {
+    "fail": 0,
+    "hold": 12,
+    "pass": 23
+  },
+  "version": "v0.9.6.20",
+  "wrap": {
+    "drive": {
+      "adjacent_actual_link_body_intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connector_ear_interference_max_mm3": 0.0,
+      "connector_interference_method": "KINEMATIC_HINGE_REFERENCE_SOURCE_STL_SHELL; PHYSICAL_CONTACT_HOLD",
+      "phase_rows": [
+        {
+          "actual_chord_mm": 19.77231858930486,
+          "candidate": "CURRENT",
+          "diameter_mm": 76.3943726841,
+          "kinematic_usable_engagements": 1,
+          "mean_pitch_error_per_link_mm": 0.8810147439951415,
+          "phase_error_first_to_fifth_mm": 3.524058975980566,
+          "phase_error_range_first_to_fifth_mm": [
+            3.310725642780568,
+            3.790725642780558
+          ],
+          "pitch_mm": 19.77231858930486,
+          "role": "READ_ONLY_COMPARISON"
+        },
+        {
+          "actual_chord_mm": 20.6,
+          "candidate": "P2060",
+          "diameter_mm": 79.59228808621924,
+          "kinematic_usable_engagements": 5,
+          "mark": "2060",
+          "mean_pitch_error_per_link_mm": 0.05333333329999945,
+          "paired_path_increase_mm": 10.04654753409944,
+          "phase_error_first_to_fifth_mm": 0.2133333331999978,
+          "phase_error_range_first_to_fifth_mm": [
+            0.0,
+            0.47999999999998977
+          ],
+          "pitch_mm": 20.6,
+          "radius_shift_mm": 1.5989577010596179,
+          "remaining_candidate_stroke_mm": 6.97672623295028,
+          "required_center_inward_shift_mm": 5.02327376704972,
+          "role": "COMPARISON_ONLY"
+        },
+        {
+          "actual_chord_mm": 20.6533333333,
+          "candidate": "P20653",
+          "diameter_mm": 79.79835226236546,
+          "kinematic_usable_engagements": 5,
+          "mark": "2065",
+          "mean_pitch_error_per_link_mm": 0.0,
+          "paired_path_increase_mm": 10.693917236048417,
+          "phase_error_first_to_fifth_mm": 0.0,
+          "phase_error_range_first_to_fifth_mm": [
+            -0.2133333331999978,
+            0.26666666679999196
+          ],
+          "pitch_mm": 20.6533333333,
+          "radius_shift_mm": 1.7019897891327247,
+          "remaining_candidate_stroke_mm": 6.653041381975791,
+          "required_center_inward_shift_mm": 5.346958618024209,
+          "role": "PRIMARY_PHYSICAL_TEST_CANDIDATE"
+        },
+        {
+          "actual_chord_mm": 20.72,
+          "candidate": "P2072",
+          "diameter_mm": 80.05593248283799,
+          "kinematic_usable_engagements": 5,
+          "mark": "2072",
+          "mean_pitch_error_per_link_mm": -0.06666666669999799,
+          "paired_path_increase_mm": 11.503129364394969,
+          "phase_error_first_to_fifth_mm": -0.26666666679999196,
+          "phase_error_range_first_to_fifth_mm": [
+            -0.47999999999998977,
+            0.0
+          ],
+          "pitch_mm": 20.72,
+          "radius_shift_mm": 1.8307798993689914,
+          "remaining_candidate_stroke_mm": 6.248435317802516,
+          "required_center_inward_shift_mm": 5.751564682197484,
+          "role": "COMPARISON_ONLY"
+        }
+      ],
+      "root_seating": "KINEMATIC_REFERENCE_MATCH_PHYSICAL_CONTACT_HOLD",
+      "simultaneous_reference_links": 5,
+      "tooth_engagement": "FIVE_PHASE_ALIGNED_REFERENCE_POSITIONS_PHYSICAL_FIT_HOLD"
+    },
+    "idler": {
+      "actual_link_instances": 8,
+      "connector_interference_max_mm3": 0.0,
+      "forced_bending": false,
+      "guide_interference": "HOLD_CURRENT_GUIDE_TRANSFORM",
+      "hinge_articulation_deg": 30.0,
+      "same_pitch_set_as_drive": true,
+      "tooth_count": 12,
+      "type": "TOOTHED"
+    },
+    "link_geometry": {
+      "actual_source_stl_instances": 8,
+      "effective_physical_pitch_reference_mm": 20.6533333333,
+      "joint_extension_relative_to_source_mm": 0.6533333333000009,
+      "sha256": "eb21877913a281b17d080a178fbb5b916384c29504ba1e16a188e90c85f49c6a",
+      "source": "cad/crawler_h1/track_module/pretest_candidate_v0_1/stl/petg/STANDARD_V0125_WIDE_46_LINK.stl",
+      "source_geometry_scaled": false,
+      "source_hinge_centers_mm": [
+        -10.0,
+        10.0
+      ]
+    },
+    "track": {
+      "candidate_rows": [
+        {
+          "candidate": "P2060",
+          "paired_wheel_path_increase_mm": 10.04654753409944,
+          "remaining_candidate_stroke_mm": 6.97672623295028,
+          "required_idler_center_inward_shift_mm": 5.02327376704972,
+          "source_candidate_available_inward_stroke_mm": 12.0
+        },
+        {
+          "candidate": "P20653",
+          "paired_wheel_path_increase_mm": 10.693917236048417,
+          "remaining_candidate_stroke_mm": 6.653041381975791,
+          "required_idler_center_inward_shift_mm": 5.346958618024209,
+          "source_candidate_available_inward_stroke_mm": 12.0
+        },
+        {
+          "candidate": "P2072",
+          "paired_wheel_path_increase_mm": 11.503129364394969,
+          "remaining_candidate_stroke_mm": 6.248435317802516,
+          "required_idler_center_inward_shift_mm": 5.751564682197484,
+          "source_candidate_available_inward_stroke_mm": 12.0
+        }
+      ],
+      "current_adjustment_state": "USER_REPORTED_MAXIMUM_EXTENSION",
+      "excessive_tension": "NOT_APPROVED",
+      "physical_available_stroke": "HOLD_VERIFY_CURRENT_SLOT_AND_POSITION",
+      "physical_max_extension_reference_path_mm": 826.133333332,
+      "source_link_count": 40,
+      "source_nominal_path_mm": 800.0
+    }
+  }
+}

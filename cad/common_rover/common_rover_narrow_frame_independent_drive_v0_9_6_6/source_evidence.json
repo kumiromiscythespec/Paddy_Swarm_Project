@@ -1,0 +1,39 @@
+{
+  "physical_result_authority": "USER_REPORTED_2026-08-11",
+  "pulley_hash_contract": {
+    "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.step": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1",
+    "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+  },
+  "shaft_cut_length": "HOLD_PHYSICAL_MEASUREMENT",
+  "sources": [
+    {
+      "path": "cad/common_rover/common_rover_dry_drive_physical_integration_v0_9_6_5/build_dry_drive_physical_integration_v0_9_6_5.py",
+      "sha256": "2353143bb9b2a7ef3a1a483af5780eea156de370f1eac9a88bb3d3fc653e8be0"
+    },
+    {
+      "path": "cad/common_rover/common_rover_candidate_a_physical_mockup_v0_9_3_1/build_candidate_a_physical_mockup_v0931.py",
+      "sha256": "f55800baf5778a827e8fc26ca4cc588eda86ca4671ae0d56bfa8171c011cb448"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_frame_bbox_cbox_h25a1_integration_v0_9_4_0/build_common_rover_physical_integration_v0940.py",
+      "sha256": "15bc112e287c8b8f42fafbe6f9b64d1db677fcda6e49b8056bf88db7e0164cd3"
+    },
+    {
+      "path": "cad/common_rover/common_rover_powertrain_frame_belt_design_authority_v0_9_0/common_rover_powertrain_parameters_v090.json",
+      "sha256": "1134aedacc15e259c92655491dda6cd6596147c1840ebbce1a58bb8ea8ff3fa5"
+    },
+    {
+      "path": "cad/common_rover/common_rover_physical_followup_measurement_v0_9_5_3/H25A1_24H_CREEP_TEST.md",
+      "sha256": "ae2b15bcdc97a159c11d30b905acb448e39921856f28e24d7d2a70b944b2a3c8"
+    },
+    {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-20T-STD-DUMMY-V001.step",
+      "sha256": "95684926935f9f49ae02cd02b88fd71bc4cac318cfe0f16c48099d735b2c46c1"
+    },
+    {
+      "path": "D:\\Paddy_Swarm_Project_worktrees\\common_rover_htd5m_full_pulley_dummy_v0_1\\cad\\common_rover\\htd5m_full_pulley_dummy_candidate_v0_1\\artifacts\\PS-HTD5M-PULLEY-60T-STD-DUMMY-V001.step",
+      "sha256": "bc3e00bca0db5fe4c3975b5904ad4f72faa2b3fe6822057522c12df16ec0d256"
+    }
+  ],
+  "tensioner_product": "HOLD"
+}

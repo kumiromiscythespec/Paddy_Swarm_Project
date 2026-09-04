@@ -1,0 +1,11 @@
+version=v0.9.6.8
+classification=DRIVE_HUB_POSITIVE_LOCK_PHYSICAL_UPDATE
+python=3.12.13
+cadquery=2.8.0
+paths=60
+step=11
+stl=6
+svg=10
+cap_od_mm=54.0
+pcd_mm=46.0
+shaft_cut=HOLD_PHYSICAL_MEASUREMENT

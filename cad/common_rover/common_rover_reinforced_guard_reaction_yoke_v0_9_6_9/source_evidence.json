@@ -1,0 +1,26 @@
+{
+  "classification": "READ_ONLY_PARENT_AND_USER_PHYSICAL_TRACE",
+  "parent_modified": false,
+  "physical_measurement_precedence": true,
+  "sources": [
+    {
+      "lane": "v0.9.6.6",
+      "role": "170MM_INDEPENDENT_DRIVE_PARENT",
+      "tree_sha256": "d01b3b67c3603ec9e7d3c647a77d6935f80107eed711b9b29691641d3487e94f"
+    },
+    {
+      "lane": "v0.9.6.8",
+      "role": "POSITIVE_CAP_PARENT_SUPERSEDED_REFERENCE",
+      "tree_sha256": "71dff91a280c404408ed3453af95515b138cd7df65573cff54f477796e1cea55"
+    },
+    {
+      "lane": "v0.9.6.7",
+      "role": "RAPID_DRY_BBOX_CBOX_READ_ONLY",
+      "tree_sha256": "a831a1e90a65395c2e796599a365a6fe6fa4ac57a492d78f591196b2eb09c5e7"
+    },
+    {
+      "role": "4P3_HEAD_SPACE_8P3_SHOE_GUARD_AND_SPACER_AUTHORITY",
+      "source": "USER_V0.9.6.9_PHYSICAL_CORRECTION"
+    }
+  ]
+}

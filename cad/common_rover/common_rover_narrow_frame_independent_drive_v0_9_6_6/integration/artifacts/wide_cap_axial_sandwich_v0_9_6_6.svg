@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#fbfcfe"/><text x="25" y="34" font-family="sans-serif" font-size="22" font-weight="bold">Wide-cap axial sandwich</text>
+<text x="975" y="32" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.6 · DRY DRIVE · NOT FIELD APPROVED</text><g font-family="sans-serif"><text x="70" y="135" font-size="20">WIDE CAP → indexing/capture pads → reaction shoes → metal collar + headed M4 → main one-piece hub</text><path d="M100 190H880" stroke="#27ae60" stroke-width="50"/><text x="100" y="290">Broad cap land spreads axial load. Shoes remain the collar→PETG torque features.</text><text x="100" y="340">Cap is NOT primary torque path. Final removable locking hardware remains HOLD.</text></g>
+<text x="25" y="535" font-family="sans-serif" font-size="12">Blue=USER/MEASURED · Purple=DERIVED · Green=DESIGN PRIMARY · Orange=HOLD</text></svg>

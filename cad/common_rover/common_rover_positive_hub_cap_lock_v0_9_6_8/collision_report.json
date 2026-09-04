@@ -1,0 +1,52 @@
+{
+  "analytic_clearances_mm": {
+    "hole_to_r20p4_mm": 0.9,
+    "nut_pocket_to_cap_recess_edge_mm": 0.736,
+    "nut_pocket_to_root_mm": 3.006,
+    "targets_mm": {
+      "free_edge_min": 0.5,
+      "head_to_cap_min": 0.5,
+      "hole_to_r20p4_preferred": 0.8,
+      "nut_to_root_preferred": 2.0
+    },
+    "washer_to_cap_edge_mm": 0.5
+  },
+  "frame_rotating_intersections_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "holds": [
+    "ACTUAL_M3_NUT",
+    "ACTUAL_M3_HEAD_AND_WASHER",
+    "FINAL_SCREW_LENGTH",
+    "FINAL_KP000_POSITION",
+    "8MM_SPACER_PHYSICAL_CLEARANCE",
+    "DYNAMIC_CRAWLER_RUNOUT"
+  ],
+  "intended_contacts_excluded": [
+    "CAP_SEATING_FACE_TO_MAIN_HUB",
+    "M3_THREADS_TO_METAL_NUT",
+    "COLLAR_TO_REACTION_SHOES"
+  ],
+  "known_all_zero": true,
+  "local_unintended": {
+    "cap_main_intersection_mm3": 0.0,
+    "m3_cap_intersection_mm3": 0.0,
+    "m3_m4_intersection_mm3": 0.0,
+    "m3_main_intersection_mm3": 0.0,
+    "m3_service_tool_intersection_mm3": 0.0,
+    "m3_shoe_a_intersection_mm3": 0.0,
+    "m3_shoe_b_intersection_mm3": 0.0,
+    "m4_cap_intersection_mm3": 0.0,
+    "m4_service_tool_cap_intersection_mm3": 0.0,
+    "shaft_center_overlap_mm3": 0.0,
+    "shoe_a_main_intersection_mm3": 0.0,
+    "shoe_b_main_intersection_mm3": 0.0,
+    "shoe_mutual_intersection_mm3": 0.0
+  },
+  "method": "CADQUERY_COMMON_VOLUME_PLUS_ANALYTIC_RADIAL_CLEARANCE"
+}

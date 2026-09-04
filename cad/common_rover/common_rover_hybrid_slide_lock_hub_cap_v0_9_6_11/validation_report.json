@@ -1,0 +1,806 @@
+{
+  "classification": "HYBRID_SLIDE_LOCK_HUB_CAP",
+  "collision": {
+    "intended_contacts_excluded": [
+      "HOOK_TO_HARD_STOP_AT_LOCK",
+      "HOOK_FOOT_TO_RECEIVER_LIP_AXIAL_PULL",
+      "CAP_TO_MAIN_FRONT_SEAT",
+      "M3_REAR_WASHER_TO_BRIDGE"
+    ],
+    "known_all_zero": true,
+    "method": "CADQUERY_COMMON_VOLUME_21_SAMPLE_FULL_SLIDE_SWEEP_LOCK_A_AND_LOCK_B",
+    "orientations": {
+      "LOCK_A": {
+        "endpoint_all_zero": true,
+        "endpoint_intersections": {
+          "guard_frame_intersection_mm3": 0.0,
+          "lock_cap_running_space_intersection_mm3": 0.0,
+          "m3_guard_intersection_mm3": 0.0,
+          "m3_m4_intersection_mm3": 0.0,
+          "m3_running_space_intersection_mm3": 0.0,
+          "m3_yoke_a_intersection_mm3": 0.0,
+          "m3_yoke_b_intersection_mm3": 0.0,
+          "open_cap_running_space_intersection_mm3": 0.0,
+          "receiver_running_space_intersection_mm3": 0.0,
+          "tool_m4_intersection_mm3": 0.0,
+          "tool_main_intersection_mm3": 0.0,
+          "tool_yoke_a_intersection_mm3": 0.0,
+          "tool_yoke_b_intersection_mm3": 0.0
+        },
+        "swept_path": {
+          "hook_angle_deg": 225.0,
+          "hook_overlap_nominal_mm": 3.0,
+          "hook_overlap_residual_mm": 2.65,
+          "keep_m3_angle_deg": 45.0,
+          "lock_concentric_error_mm": 0.0,
+          "m3_lock_misalignment_mm": 0.0,
+          "m3_open_misalignment_mm": 5.0,
+          "max_unintended_intersection_mm3": 0.0,
+          "open_offset_mm": 5.0,
+          "orientation": "LOCK_A",
+          "sample_count": 21,
+          "samples": [
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 5.0
+            }
+          ],
+          "swept_path_pass": true
+        }
+      },
+      "LOCK_B": {
+        "endpoint_all_zero": true,
+        "endpoint_intersections": {
+          "guard_frame_intersection_mm3": 0.0,
+          "lock_cap_running_space_intersection_mm3": 0.0,
+          "m3_guard_intersection_mm3": 0.0,
+          "m3_m4_intersection_mm3": 0.0,
+          "m3_running_space_intersection_mm3": 0.0,
+          "m3_yoke_a_intersection_mm3": 0.0,
+          "m3_yoke_b_intersection_mm3": 0.0,
+          "open_cap_running_space_intersection_mm3": 0.0,
+          "receiver_running_space_intersection_mm3": 0.0,
+          "tool_m4_intersection_mm3": 0.0,
+          "tool_main_intersection_mm3": 0.0,
+          "tool_yoke_a_intersection_mm3": 0.0,
+          "tool_yoke_b_intersection_mm3": 0.0
+        },
+        "swept_path": {
+          "hook_angle_deg": 45.0,
+          "hook_overlap_nominal_mm": 3.0,
+          "hook_overlap_residual_mm": 2.65,
+          "keep_m3_angle_deg": 225.0,
+          "lock_concentric_error_mm": 0.0,
+          "m3_lock_misalignment_mm": 0.0,
+          "m3_open_misalignment_mm": 5.0,
+          "max_unintended_intersection_mm3": 0.0,
+          "open_offset_mm": 5.0,
+          "orientation": "LOCK_B",
+          "sample_count": 21,
+          "samples": [
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 5.0
+            }
+          ],
+          "swept_path_pass": true
+        }
+      }
+    },
+    "physical_holds": [
+      "S25_S35_S45_SELECTION",
+      "HOOK_WEAR_LIFE",
+      "REACTION_YOKE_VARIANT",
+      "M3_NUT_WASHER_STACK",
+      "M3_TORQUE",
+      "FULL_LOAD_TORQUE"
+    ]
+  },
+  "coupon": "S25_S35_S45_READY",
+  "gates": {
+    "field": "NOT_APPROVED",
+    "full_12t": "PRINT_PENDING_REACTION_YOKE_AND_SLIDE_LOCK_COUPON",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_YET_APPROVED",
+    "reaction_yoke": "PHYSICAL_PASS_REQUIRED",
+    "shaft_cut": "HOLD_PHYSICAL_MEASUREMENT",
+    "slide_lock_coupon": "READY_FOR_PHYSICAL_COUPON",
+    "water": "NOT_APPROVED"
+  },
+  "geometry": {
+    "coupon_solids": 6,
+    "coupon_valid": true,
+    "mirror_metric_equivalent": true,
+    "orientations": {
+      "LOCK_A": {
+        "all_primary_valid": true,
+        "assembly_axial_mm": 60.9,
+        "cap_lock_bounds_mm": [
+          54.0,
+          54.0,
+          13.7
+        ],
+        "cap_open_bounds_mm": [
+          54.0,
+          54.0,
+          13.7
+        ],
+        "deleted_m3_axis_restored_petg_mm3": 323.214145,
+        "guard_frame_intersection_mm3": 0.0,
+        "hardware_axial_mm": 27.9,
+        "lock_cap_running_space_intersection_mm3": 0.0,
+        "m3_guard_intersection_mm3": 0.0,
+        "m3_m4_intersection_mm3": 0.0,
+        "m3_running_space_intersection_mm3": 0.0,
+        "m3_yoke_a_intersection_mm3": 0.0,
+        "m3_yoke_b_intersection_mm3": 0.0,
+        "main_bounds_mm": [
+          76.94,
+          76.94,
+          48.0
+        ],
+        "main_solids": 1,
+        "motion": {
+          "hook_angle_deg": 225.0,
+          "hook_overlap_nominal_mm": 3.0,
+          "hook_overlap_residual_mm": 2.65,
+          "keep_m3_angle_deg": 45.0,
+          "lock_concentric_error_mm": 0.0,
+          "m3_lock_misalignment_mm": 0.0,
+          "m3_open_misalignment_mm": 5.0,
+          "max_unintended_intersection_mm3": 0.0,
+          "open_offset_mm": 5.0,
+          "orientation": "LOCK_A",
+          "sample_count": 21,
+          "samples": [
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 5.0
+            }
+          ],
+          "swept_path_pass": true
+        },
+        "open_cap_running_space_intersection_mm3": 0.0,
+        "protected_external_missing_mm3": 0.0,
+        "receiver_running_space_intersection_mm3": 0.0,
+        "tool_m4_intersection_mm3": 0.0,
+        "tool_main_intersection_mm3": 0.0,
+        "tool_yoke_a_intersection_mm3": 0.0,
+        "tool_yoke_b_intersection_mm3": 0.0
+      },
+      "LOCK_B": {
+        "all_primary_valid": true,
+        "assembly_axial_mm": 60.9,
+        "cap_lock_bounds_mm": [
+          54.0,
+          54.0,
+          13.7
+        ],
+        "cap_open_bounds_mm": [
+          54.0,
+          54.0,
+          13.7
+        ],
+        "deleted_m3_axis_restored_petg_mm3": 323.214145,
+        "guard_frame_intersection_mm3": 0.0,
+        "hardware_axial_mm": 27.9,
+        "lock_cap_running_space_intersection_mm3": 0.0,
+        "m3_guard_intersection_mm3": 0.0,
+        "m3_m4_intersection_mm3": 0.0,
+        "m3_running_space_intersection_mm3": 0.0,
+        "m3_yoke_a_intersection_mm3": 0.0,
+        "m3_yoke_b_intersection_mm3": 0.0,
+        "main_bounds_mm": [
+          76.94,
+          76.94,
+          48.0
+        ],
+        "main_solids": 1,
+        "motion": {
+          "hook_angle_deg": 45.0,
+          "hook_overlap_nominal_mm": 3.0,
+          "hook_overlap_residual_mm": 2.65,
+          "keep_m3_angle_deg": 225.0,
+          "lock_concentric_error_mm": 0.0,
+          "m3_lock_misalignment_mm": 0.0,
+          "m3_open_misalignment_mm": 5.0,
+          "max_unintended_intersection_mm3": 0.0,
+          "open_offset_mm": 5.0,
+          "orientation": "LOCK_B",
+          "sample_count": 21,
+          "samples": [
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 0.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 1.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 2.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 3.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.0
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.25
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.5
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 4.75
+            },
+            {
+              "cap_m4_mm3": 0.0,
+              "cap_main_mm3": 0.0,
+              "cap_shaft_mm3": 0.0,
+              "cap_yoke_mm3": 0.0,
+              "position_mm": 5.0
+            }
+          ],
+          "swept_path_pass": true
+        },
+        "open_cap_running_space_intersection_mm3": 0.0,
+        "protected_external_missing_mm3": 0.0,
+        "receiver_running_space_intersection_mm3": 0.0,
+        "tool_m4_intersection_mm3": 0.0,
+        "tool_main_intersection_mm3": 0.0,
+        "tool_yoke_a_intersection_mm3": 0.0,
+        "tool_yoke_b_intersection_mm3": 0.0
+      }
+    }
+  },
+  "lock_concentricity": "VERIFIED_IN_CAD_0P0MM_NOMINAL",
+  "mechanism": "SINGLE_M3_PLUS_RIGID_L_HOOK_COMPLETE",
+  "result": "HYBRID_SLIDE_LOCK_HUB_CAP_COMPLETE",
+  "v09610": "TWO_BRIDGE_ARCHITECTURE_SUPERSEDED",
+  "version": "v0.9.6.11"
+}

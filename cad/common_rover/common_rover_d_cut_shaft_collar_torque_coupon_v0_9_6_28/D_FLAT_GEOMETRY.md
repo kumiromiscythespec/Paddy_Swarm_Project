@@ -1,0 +1,12 @@
+# Common Rover D-cut shaft-collar torque coupon v0.9.6.28
+
+Classification: `D_CUT_SHAFT_COLLAR_TORQUE_SCREEN`  
+Status: `D_CUT_SHAFT_COLLAR_TORQUE_COUPON_CAD_COMPLETE/BLOCKER_1_DRIVETRAIN_TORQUE_TRANSMISSION_TARGETED/D03_D05_D07_READY/2NM_TORQUE_FIXTURE_READY/PHYSICAL_TORQUE_TEST_REQUIRED/CRAWLER_GEOMETRY_UNCHANGED/BBOX_GEOMETRY_UNCHANGED/FULL_60T_PRINT_HOLD/TORQUE_PASS_NOT_YET_GRANTED/COMMIT_READY_NOT_STAGED`
+
+|ID|depth|theoretical chord|opposite caliper|
+|---|---:|---:|---:|
+|D03|0.30 mm|3.411744 mm|9.70 mm|
+|D05|0.50 mm|4.358899 mm|9.50 mm|
+|D07|0.70 mm|5.102940 mm|9.30 mm|
+
+Axial flat target10.0 mm; theoretical chord is not a hand-machining measurement.

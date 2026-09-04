@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500">
+ <rect width="920" height="500" fill="#fafafa"/><text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">Crawler rotating-width envelopes</text>
+ <text x="895" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.4 / NOT FOR FULL POWER</text><g transform="translate(110 75)" font-family="sans-serif">
+ <text x="0" y="35">datum</text><text x="140" y="35">base</text><text x="260" y="35">+3 mm</text><text x="380" y="35">+4 mm</text><text x="500" y="35">+5 mm</text><text x="620" y="35">+6 mm</text>
+ <text x="0" y="100">180</text><text x="140" y="100">288</text><text x="260" y="100">294</text><text x="380" y="100" fill="#27ae60">296</text><text x="500" y="100">298</text><text x="620" y="100">300</text>
+ <text x="0" y="165">181 conservative</text><text x="140" y="165">289</text><text x="260" y="165">295</text><text x="380" y="165" fill="#27ae60">297</text><text x="500" y="165">299</text><text x="620" y="165" fill="#e67e22">301</text>
+ <line x1="0" y1="220" x2="700" y2="220" stroke="#222"/><text x="350" y="260" text-anchor="middle">ROTATING envelope ≤300; smooth shaft-end envelope reported separately</text></g>
+ <g transform="translate(25 458)" font-family="sans-serif" font-size="12"><rect width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text><rect x="120" width="14" height="14" fill="#8e44ad"/><text x="140" y="12">DERIVED</text><rect x="240" width="14" height="14" fill="#27ae60"/><text x="260" y="12">DESIGN_PRIMARY</text><rect x="430" width="14" height="14" fill="#7f8c8d"/><text x="450" y="12">REFERENCE</text><rect x="550" width="14" height="14" fill="#e67e22"/><text x="570" y="12">HOLD</text></g>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "center_pilot_candidates_mm": {
+    "P241": 24.1,
+    "P242": 24.2,
+    "P243": 24.3
+  },
+  "center_pilot_d_mm": 24.2,
+  "classification": "P20653_18025_KEYED_HUB_DRIVE",
+  "petg_interface": {
+    "clearance_hole_mm": 5.5,
+    "minimum_ligament_mm": 6.0,
+    "root_fillet_mm": 3.0,
+    "selected_web_thickness_mm": 10.0,
+    "web_outer_radius_mm": 32.5,
+    "web_thickness_candidates_mm": [
+      8.0,
+      9.0,
+      10.0
+    ]
+  },
+  "source_p20653": {
+    "axial_width_mm": 44.0,
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 79.79835226236546,
+    "pitch_mm": 20.6533333333,
+    "spacing_deg": 30.0,
+    "tooth_count": 12
+  },
+  "status": "P20653_18025_KEYED_HUB_DRIVE_CAD_COMPLETE/BLOCKER_1_DRIVETRAIN_TORQUE_TRANSMISSION_TARGETED/SET_SCREW_PRODUCTION_ARCHITECTURE_RETIRED/P20653_DRIVE_GEOMETRY_FROZEN/P20653_IDLER_UNCHANGED/18025_VENDOR_DRAWING_INTERFACE_COMPLETE/18009_PROXY_FLANGE_COUPONS_READY/P241_P242_P243_READY/FULL_DRIVE_PROVISIONAL_CAD_READY/18025_PHYSICAL_FIT_NOT_YET/KEYED_TORQUE_PASS_NOT_YET/POWERED_KEYED_DRIVE_NOT_APPROVED/COMMIT_READY_NOT_STAGED",
+  "vendor_18025": {
+    "bore_mm": 10.0,
+    "boss_od_mm": 24.0,
+    "flange_od_mm": 56.8,
+    "flange_thickness_mm": 6.0,
+    "keyway_width_mm": 3.0,
+    "mounting_hole_mm": 5.2,
+    "mounting_holes": 6,
+    "overall_width_mm": 26.4,
+    "pcd_mm": 47.5
+  },
+  "version": "v0.9.6.29"
+}

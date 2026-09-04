@@ -1,0 +1,350 @@
+{
+  "analysis": {
+    "candidate_c": {
+      "angles_deg": [
+        15.0,
+        45.0,
+        75.0,
+        105.0,
+        135.0,
+        165.0,
+        195.0,
+        225.0,
+        255.0,
+        285.0,
+        315.0,
+        345.0
+      ],
+      "engagement_axial_width_mm": 22.0,
+      "maximum_pairwise_intersection_mm3": 0,
+      "pairwise_count": 66,
+      "radial_height_mm": 4.5,
+      "root_radius_mm": 1.25,
+      "source_metrics": {
+        "achievable_insertion_depth_mm": 4.5,
+        "anti_derail_interference_mm3": 0.0,
+        "approach_path_interference_mm3": {
+          "root_z_0": 0.0,
+          "root_z_1.75": 0.0,
+          "root_z_3.5": 0.0
+        },
+        "axial_width_measured_at_tip_mm": 22.0,
+        "axial_width_mm": 22.0,
+        "candidate_id": "C",
+        "candidate_solids": 1,
+        "candidate_valid": true,
+        "central_bridge_underside_z_mm": 9.0,
+        "coupon_interference_volume_mm3": 0.0,
+        "coupon_solids": 1,
+        "coupon_valid": true,
+        "feature_clearances_mm": {
+          "anti_derail_negative_y": 5.107165,
+          "anti_derail_positive_y": 5.107165,
+          "hinge_bridge": 1.0,
+          "pivot_negative_x": 2.593978,
+          "pivot_positive_x": 3.275473
+        },
+        "full_depth_seating_cad": true,
+        "hinge_bridge_interference_mm3": 0.0,
+        "intent": "LARGEST_CLEARANCE_BIASED_CANDIDATE",
+        "local_contact_surfaces": "NONE_AT_INTENDED_POSE",
+        "maximum_interference_volume_mm3": 0.0,
+        "minimum_anti_derail_side_clearance_mm": 5.107165,
+        "minimum_global_clearance_mm": 1.0,
+        "minimum_pivot_region_clearance_mm": 2.593978,
+        "nearest_surfaces": "TOOTH_TIP_TO_CENTRAL_HINGE_BRIDGE_UNDERSIDE",
+        "physical_fit": "PENDING",
+        "pivot_screw_region_interference_mm3": 0.0,
+        "radial_clearance_to_bridge_mm": 1.0,
+        "radial_height_mm": 4.5,
+        "root_plane_engaged_z_mm": 3.5,
+        "root_total_tangential_width_mm": 11.0,
+        "root_transition_radius_mm": 1.25,
+        "tip_engaged_z_mm": 8.0,
+        "tip_tangential_width_measured_mm": 6.5,
+        "tip_tangential_width_mm": 6.5
+      },
+      "tip_tangential_width_mm": 6.5,
+      "tooth_count": 12
+    },
+    "clearance_360deg": {
+      "angular_samples_equivalent": 360,
+      "clearances_mm": {
+        "candidate_c_tooth_mm": 1.0,
+        "carrier_conservative_outer_mm": 1.0,
+        "front_spacer_mm": 3.17199,
+        "metal_sweep_mm": 6.14779,
+        "rear_spacer_mm": 20.77199,
+        "set_screw_360_sweep_mm": 11.266727,
+        "shaft_mm": 22.67199
+      },
+      "intersections_mm3": {
+        "candidate_c_tooth_mm3": 0,
+        "carrier_conservative_outer_mm3": 0,
+        "front_spacer_mm3": 0,
+        "metal_sweep_mm3": 0,
+        "rear_spacer_mm3": 0,
+        "set_screw_360_sweep_mm3": 0,
+        "shaft_mm3": 0
+      },
+      "keeper_to_crawler_test": "N/A_KEEPER_REMOVED",
+      "method": "AXISYMMETRIC_FULL_SWEEPS_FOR_BODY_METAL_SETSCREW_SPACERS_SHAFT_PLUS_12FOLD_ENGAGEMENT_EQUIVALENCE",
+      "minimum_non_intended_clearance_mm": 1.0,
+      "status": "PASS",
+      "tooth_periodic_states": 12
+    },
+    "groove1": {
+      "clearance_mm": 0.15,
+      "code": "C1",
+      "geometry_change": 0,
+      "metal_center_z_mm": 11.0,
+      "metal_front_z_mm": 21.5,
+      "metal_rear_z_mm": 0.5,
+      "profile_bbox_mm": [
+        43.573284,
+        43.573284,
+        16.6
+      ],
+      "profile_volume_mm3": 23049.930202
+    },
+    "printable": {
+      "carrier_main_z_mm": [
+        -21.0,
+        21.0
+      ],
+      "contact_datums_z_mm": [
+        -22.0,
+        22.0
+      ],
+      "keeper_present": false,
+      "legacy_shaft_collar_torque_path": "ABSENT",
+      "m5_keeper_holes_present": false,
+      "pcd56_present": false,
+      "pcd56_void_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "printed_shaft_radial_gap_mm": 1.0,
+      "solid_count": 1,
+      "valid": true,
+      "volume_mm3": 110728.930251
+    },
+    "set_screw_access": {
+      "approved_method": "PRETIGHTEN_BEFORE_CARRIER_INSERTION_OR_REMOVE_CRAWLER_AND_RETRACT_CARRIER_PLUS_Z",
+      "carrier_retraction_mm": 50.0,
+      "crawler_removal_required_for_service": true,
+      "in_situ_tool_access_claimed": false,
+      "installed_direct_radial_path_blocked": true,
+      "retracted_tool_intersection_mm3": 0,
+      "source_small_solid_count": 2,
+      "status": "PASS_BY_AXIAL_SERVICE_RETRACTION"
+    },
+    "spacer": {
+      "available_shaft_axial_space": "PHYSICAL_MEASUREMENT_REQUIRED",
+      "bearing_inner_ring_face_positions": "PHYSICAL_MEASUREMENT_REQUIRED",
+      "existing_geometry": {
+        "chamfer_mm": 0.35,
+        "id_mm": 10.2,
+        "od_mm": 13.8,
+        "thickness_mm": 8.0
+      },
+      "existing_physical_result": "8MM_INSTALLED_FRAME_TO_GUARD_CLEARANCE_4P4MM_OTHER_DRIVETRAIN_CHECKS_PENDING",
+      "misumi_left_thickness": "PHYSICAL_MEASUREMENT_REQUIRED",
+      "misumi_right_thickness": "PHYSICAL_MEASUREMENT_REQUIRED",
+      "reference_only_front_contact_od_mm": 49.0,
+      "reference_only_front_contact_plate_t_mm": 2.25,
+      "status": "SPACER_STACK_PHYSICAL_SELECTION_PENDING"
+    }
+  },
+  "checks": {
+    "all_steps_reload": true,
+    "all_stl_quality": true,
+    "geometry_status": true,
+    "keeper_removed": true,
+    "m5_keeper_holes_removed": true,
+    "minimum_clearance": true,
+    "pcd56_removed": true,
+    "printable_valid": true,
+    "reproducibility": true,
+    "tool_access": true
+  },
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "checks": {
+      "authority_four": true,
+      "branch": true,
+      "cache_zero": true,
+      "complete": true,
+      "dirty_preserved": true,
+      "head": true,
+      "ignored_zero": true,
+      "input_hashes": true,
+      "outside_preserved": true,
+      "protected_eight": true,
+      "root": true,
+      "scope": true,
+      "staged_zero": true,
+      "untracked_scope": true
+    },
+    "dirty": [
+      "CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "README.md",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ],
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "inputs": {
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17/artifacts/crawler_link_reinforced_anti_derail_guard_v0_9_6_17.stl": "3bf2f55347d045faf62d5f269d80ad59917c29c4029399a381397b4fe1d1d16c",
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6/drive/artifacts/drive_spacer_8mm_v0_9_6_6.step": "e83e146b93ed2578f8f120b832a1867e0eb7942d570119f04f40087835cea967",
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6/drive/artifacts/drive_spacer_8mm_v0_9_6_6.stl": "2744b25a1313bbe41e93d02e86a23865f07334081289cb4f1afb2ef76cdaf5a2",
+      "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34/source/vendor/PTPK28P5M150-A-N10-NFC.stp": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+      "cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001/build_candidate_c_full_12t_sprocket_v001.py": "5671e8b2858f6628b4e10a25a26a36439eb0243ed6afa8854eb5e8c3af73aec6",
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py": "4ffa3776904918292a28e2e736648c1c98bb43dd5d8fd4dd5cd90b2b98e8f780",
+      "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001/build_misumi_groove1_full_driven_carrier_v001.py": "7c2c50a44f4a6c92c33402008ce6b576430a1e54358ab049a2aacf7bb9770d52"
+    },
+    "lane_file_count": 2,
+    "outside_untracked": [
+      3842,
+      "f819d2cf99183206e135e07d3fe378f86c4a965753ce36353f711d05149e64f7"
+    ],
+    "protected": {
+      "cad/common_rover/common_rover_crawler_link_anti_derail_guard_v0_9_6_17": {
+        "files": 33,
+        "sha256": "f26d294d4f9e2c7b08150f72ba85f028050c1407797ea45acd51900c9aadfd09",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6": {
+        "files": 66,
+        "sha256": "069885e4645f5f0433d07f5c316bb0863decbb25afaabc1cb318d603cd42945c",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34": {
+        "files": 36,
+        "sha256": "c4d9db3aa6f391426d5af8ebe7c5a719e62d2c13328213a629e2c3e17f453e0f",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20": {
+        "files": 55,
+        "sha256": "5bc9cd5611b93b7ec67e68a7b6342f0c333245096bb961cfcf5fed2ecf2e7eef",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/common_rover_reinforced_guard_reaction_yoke_v0_9_6_9": {
+        "files": 54,
+        "sha256": "d0c31aaa67e3c79d4a51913c568ce8c23c308460a98d17869edd85e434ff77c0",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001": {
+        "files": 24,
+        "sha256": "186585902012b54363bc732d238317fc35aabae3321d16fa813e731a0c56016c",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001": {
+        "files": 23,
+        "sha256": "18dfcd36ae1db9f779e641f2e72241c908df471727f3ae4bfc61b9fbccdf6a19",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/drivetrain/misumi_pulley_groove1_full_driven_carrier_v001": {
+        "files": 28,
+        "sha256": "ca9e647a0bc3c50fef4b8a059ddc364495f98c8ad00a64913f675dcd692fb21e",
+        "status": "UNCHANGED"
+      }
+    },
+    "repository": "D:\\Paddy_Swarm_Project",
+    "staged": []
+  },
+  "reproducibility": {
+    "byte_identical": 21,
+    "compared": 21,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CANDIDATE_C_12T_MISUMI_KEEPERLESS_PRINT_READY/SPACER_STACK_PHYSICAL_VALIDATION_PENDING",
+  "step_audit": [
+    {
+      "bbox_mm": [
+        70.595,
+        70.595,
+        44.0
+      ],
+      "path": "cad/candidate_C_12T_misumi_groove1_keeperless.step",
+      "reload": "PASS",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        70.595,
+        70.595,
+        80.0
+      ],
+      "path": "cad/candidate_C_12T_misumi_groove1_keeperless_assembly_reference.step",
+      "reload": "PASS",
+      "solids": 7,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        43.573,
+        43.573,
+        16.6
+      ],
+      "path": "cad/groove1_exact_interface_reference.step",
+      "reload": "PASS",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        62.544,
+        62.544,
+        80.0
+      ],
+      "path": "cad/spacer_stack_reference.step",
+      "reload": "PASS",
+      "solids": 4,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        88.298,
+        88.298,
+        112.0
+      ],
+      "path": "cad/set_screw_tool_access_reference.step",
+      "reload": "PASS",
+      "solids": 7,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        86.348,
+        70.595,
+        80.0
+      ],
+      "path": "cad/actual_crawler_clearance_reference.step",
+      "reload": "PASS",
+      "solids": 7,
+      "valid": true
+    }
+  ],
+  "stl_audit": {
+    "print/candidate_C_12T_misumi_groove1_keeperless.stl": {
+      "bad_edge_count": 0,
+      "component_count": 1,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 25440,
+      "watertight": true
+    }
+  },
+  "version": "PADDY-SWARM-CANDIDATE-C-12T-MISUMI-GROOVE1-KEEPERLESS-V003"
+}

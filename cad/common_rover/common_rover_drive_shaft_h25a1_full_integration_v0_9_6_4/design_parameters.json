@@ -1,0 +1,157 @@
+{
+  "axial_retention": {
+    "final_hardware": "HOLD",
+    "generic_metal_collars": 2,
+    "petg_sprocket_sole": false,
+    "shaft_position_without_sprocket": "RETAINED_ARCHITECTURE"
+  },
+  "belt": {
+    "560mm_112t_tooth_lift": true,
+    "565mm_113t_tooth_lift": true,
+    "length_only_cause": "UNLIKELY",
+    "primary_suspect": "TPU_TOOTH_PROFILE_PITCH_COMPATIBILITY",
+    "this_lane_redesign": false,
+    "use": "LOW_LOAD_DRY_FUNCTIONAL_CHECK_ONLY"
+  },
+  "classification": "DRIVE_SHAFT_FULL_PHYSICAL_INTEGRATION",
+  "crawler": {
+    "link_width_measured_mm": 54.0,
+    "overhang_each_derived_mm": 3.0,
+    "rotating_width_limit_mm": 300.0,
+    "wheel_width_derived_mm": 48.0
+  },
+  "gates": {
+    "field_deployment": "NOT_APPROVED",
+    "four_mm": "PRIMARY_PHYSICAL_CANDIDATE",
+    "full_sprocket_print": "HOLD_SPACER_PHYSICAL_CLEARANCE",
+    "powered_rotation": "NOT_APPROVED",
+    "spacer_plate": "READY_TO_PRINT"
+  },
+  "h25a1": {
+    "actual_screw_od_mm_approx": 3.8,
+    "collar_id_mm": 10.1,
+    "collar_od_mm": 15.9,
+    "collar_width_mm": 3.0,
+    "full_axial_envelope_mm": 8.8,
+    "full_radial_envelope_radius_mm": 20.0,
+    "head_height_mm": 2.8,
+    "head_od_mm": 6.8,
+    "pocket_classification": "REFERENCE_NOT_FINAL",
+    "pocket_diameter_reference_mm": 16.2,
+    "reaction_key_body_radial_mm": 19.75,
+    "reaction_key_body_tangential_mm": 9.4,
+    "reaction_key_final_tolerance": "HOLD",
+    "reaction_key_head_relief_mm": 6.9,
+    "reaction_key_reference": "R42_NEUTRAL_FINAL_FALSE",
+    "reaction_key_shank_throat_mm": 4.2,
+    "reaction_key_washer_relief_mm": 9.2,
+    "screw_length_mm": 4.0,
+    "set_screw": "M4",
+    "set_screw_angle_deg": 90.0,
+    "set_screw_qty": 2,
+    "tightened_projection_mm_approx": 1.0,
+    "washer_od_mm": 8.8,
+    "washer_stack_mm": 1.8
+  },
+  "holds": [
+    "REACTION_KEY_FINAL_TOLERANCE",
+    "SHAFT_MATERIAL",
+    "SHAFT_TOTAL_LENGTH",
+    "SHAFT_FLAT_DEPTH",
+    "FINAL_METAL_SPACER_MATERIAL",
+    "FINAL_AXIAL_RETENTION_COLLAR_MODEL",
+    "M4_TIGHTENING_TORQUE",
+    "KP000_17P9_DATUM_IDENTITY",
+    "FULL_POWERED_TORQUE_QUALIFICATION",
+    "FINAL_FIELD_CRAWLER_WIDTH",
+    "COMMERCIAL_DRIVE_BELT",
+    "POWERED_ROTATION",
+    "FIELD_DEPLOYMENT"
+  ],
+  "kp000": {
+    "datum_17p9_mm": 17.9,
+    "datum_17p9_status": "UNRESOLVED_PHYSICAL_DATUM",
+    "housing_reference": [
+      67.0,
+      35.0,
+      17.0
+    ],
+    "inner_region_od_mm": 14.2,
+    "quantity": 2,
+    "set_screw_envelope_diameter_mm": 16.0,
+    "support": "DOUBLE_SUPPORTED"
+  },
+  "paint_alignment_mark": "REQUIRED_BEFORE_POWERED_TEST",
+  "protected_12t": {
+    "axial_width_mm": 44.0,
+    "buried_root_overlap_mm": 4.0,
+    "outer_body": "ONE_PIECE",
+    "phase_deg": 15.0,
+    "pitch_diameter_mm": 76.3943726841,
+    "radial_tooth_root_service_holes": 0,
+    "root_radius_mm": 29.47,
+    "root_width_mm": 9.5,
+    "spacing_deg": 30.0,
+    "split_teeth": false,
+    "teeth": 12,
+    "tip_radius_mm": 33.07,
+    "tip_width_mm": 7.5
+  },
+  "qualification": {
+    "aggressive_hand_rotation": "NO_SHAFT_SHIFT",
+    "creep_1p0kg_70mm_24h": "PHYSICAL_PASS_USER_REPORTED",
+    "full_drive_torque": "NOT_QUALIFIED",
+    "nominal_reference_n_m": 0.6864655,
+    "prototype_integration": "APPROVED",
+    "short_static_1p2kg_70mm": "NO_SHIFT_REPORTED"
+  },
+  "shaft": {
+    "flat_angle_deg": 90.0,
+    "flat_count_reference": 2,
+    "flat_depth": "HOLD",
+    "form": "SOLID_PRIMARY",
+    "material": "HOLD",
+    "nominal_diameter_mm": 10.0,
+    "reference_display_length_mm": 110.0,
+    "total_length": "HOLD_NOT_DERIVED_FROM_17P9"
+  },
+  "spacers": {
+    "contact": "KP000_ROTATING_INNER_RACE_FACE_ONLY",
+    "final_material": "HOLD",
+    "id_mm": 10.2,
+    "material_fit_test": "PETG",
+    "od_mm": 13.8,
+    "primary_mm": 4.0,
+    "radial_margin_to_14p2_mm": 0.2,
+    "six_mm": "DO_NOT_MANUFACTURE_AS_PRIMARY",
+    "thicknesses_mm": [
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  "torque_roles": {
+    "bore_friction_primary": false,
+    "m4": "METAL_COLLAR_TO_METAL_SHAFT",
+    "petg_teeth": "CRAWLER_ENGAGEMENT",
+    "reaction_keys": "METAL_COLLAR_TO_PETG_SPROCKET"
+  },
+  "units": "mm",
+  "version": "v0.9.6.4",
+  "widths": {
+    "datum_180": {
+      "base": 288,
+      "spacer_3": 294,
+      "spacer_4": 296,
+      "spacer_5": 298,
+      "spacer_6": 300
+    },
+    "datum_181": {
+      "base": 289,
+      "spacer_3": 295,
+      "spacer_4": 297,
+      "spacer_5": 299,
+      "spacer_6": 301
+    }
+  }
+}

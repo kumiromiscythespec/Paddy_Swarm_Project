@@ -1,0 +1,106 @@
+{
+  "authority": {
+    "lane": "cad/common_rover/common_rover_p5m28_exact_vendor_core_fit_coupon_v0_9_6_34",
+    "reuse_method": "DIRECT_IMPORT_OF_EXACT_OUTER_WIRE_AND_OCCT_C1_0P15_NORMAL_OFFSET_NO_RECONSTRUCTION_NO_SCALING",
+    "source_step_sha256": "55dd2ae80b4b72a9ff101b093d9ab7d71538d74bda5c907906c5ede0b6b94729",
+    "tree_sha256": "121ae43e71aa732e601e67595401284f8953e4f55bde71dbd3340646e452451d",
+    "vendor_part": "PTPK28P5M150-A-N10-NFC"
+  },
+  "carrier": {
+    "material": "PETG_CANDIDATE",
+    "metal_center_z_mm": 11.0,
+    "outer_geometry": "PROTECTED_P20653_14T",
+    "outer_pitch_mm": 20.6533333333,
+    "outer_tooth_count": 14,
+    "outer_width_mm": 44.0,
+    "rear_seat_z_mm": 0.5,
+    "shaft_clearance_diameter_mm": 12.0,
+    "status": "FULL_DRIVEN_WHEEL_CARRIER_PRINT_READY_PHYSICAL_VALIDATION_PENDING"
+  },
+  "forbidden_claims": [
+    "POWERED_DRIVETRAIN_PASS",
+    "CRAWLER_DRY_RUN_PASS",
+    "CONTINUOUS_RUN_PASS",
+    "MUD_RESISTANCE_PASS",
+    "FIELD_PASS"
+  ],
+  "gates": {
+    "cad": "CAD_PASS",
+    "continuous_run": "CONTINUOUS_RUN_PENDING",
+    "contract": "CONTRACT_TEST_PASS",
+    "crawler_dry_run": "CRAWLER_DRY_RUN_PENDING",
+    "field": "FIELD_PENDING",
+    "mud": "MUD_RESISTANCE_PENDING",
+    "powered_torque": "POWERED_TORQUE_VALIDATION_PENDING",
+    "print": "GROOVE1_FULL_CARRIER_PRINT_READY"
+  },
+  "groove1": {
+    "clearance_radial_equivalent_mm": 0.15,
+    "code": "C1",
+    "metal_tooth_width_mm": 16.6,
+    "pitch_mm": 5.0,
+    "root_od_mm": 39.8,
+    "source": "AP203_EXACT_SECTION_NO_APPROXIMATION",
+    "tip_od_mm": 43.42,
+    "tooth_count": 28,
+    "torque_function": "PRIMARY_ROTATIONAL_TORQUE_PATH"
+  },
+  "keeper": {
+    "architecture": "REMOVABLE_FRONT_ANNULAR_PLATE",
+    "axial_gap_mm": 0.5,
+    "destructive_removal": false,
+    "glue": false,
+    "hardware_candidate": "M5_THROUGH_BOLT_LOCKNUT_CANDIDATE",
+    "hardware_status": "PHYSICAL_FASTENER_SELECTION_PENDING",
+    "id_mm": 36.0,
+    "od_mm": 66.0,
+    "permanent_press_fit": false,
+    "primary_torque_path": false,
+    "printed_clearance_hole_mm": 5.5,
+    "screw_count": 4,
+    "screw_pcd_mm": 56.0,
+    "thickness_mm": 3.5
+  },
+  "physical_result": {
+    "backlash_growth_after_staged_manual_static_torque": "NONE",
+    "cracking": "NONE",
+    "hand_removable": true,
+    "initial_rotational_backlash": "SLIGHT_APPROX_0P1MM_VISUAL",
+    "interface_authority": "FULL_CARRIER_INTERFACE_AUTHORITY",
+    "permanent_deformation": "NONE",
+    "pulley_groove_1_physical_fit": "PASS",
+    "pulley_groove_1_static_torque_transfer": "PASS",
+    "repeated_insertion_removal": "PASS",
+    "tightening_to_remove_initial_play": "PROHIBITED",
+    "tooth_damage": "NONE",
+    "tooth_ride_over": "NONE",
+    "whitening": "NONE"
+  },
+  "pretest": {
+    "carrier_coupon": "print/pretest_carrier_keeper_coupon.stl",
+    "checks": [
+      "AXIAL_PLAY",
+      "HAND_REMOVAL",
+      "CRACK",
+      "WHITENING",
+      "TOOTH_DAMAGE",
+      "KEEPER_ACCESS"
+    ],
+    "cycles": 5,
+    "keeper": "print/removable_axial_keeper.stl"
+  },
+  "service": {
+    "metal_damage_required_for_removal": false,
+    "pulley_trapped": false,
+    "sequence": [
+      "REMOVE_KEEPER_FASTENERS",
+      "REMOVE_KEEPER",
+      "WITHDRAW_METAL_PULLEY_PLUS_Z",
+      "INSPECT_OR_REPLACE_PRINTED_CARRIER",
+      "REINSTALL_PULLEY",
+      "REINSTALL_KEEPER"
+    ]
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/GROOVE1_FULL_CARRIER_PRINT_READY/POWERED_TORQUE_VALIDATION_PENDING/CRAWLER_DRY_RUN_PENDING/CONTINUOUS_RUN_PENDING/MUD_RESISTANCE_PENDING/FIELD_PENDING",
+  "version": "PADDY-SWARM-MISUMI-GROOVE1-FULL-DRIVEN-CARRIER-V001"
+}

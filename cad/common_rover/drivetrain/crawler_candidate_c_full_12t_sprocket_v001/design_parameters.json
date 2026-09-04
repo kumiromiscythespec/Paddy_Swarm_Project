@@ -1,0 +1,89 @@
+{
+  "authority_conflict": {
+    "current_project_carrier": "PROTECTED_P20653_14T_MISUMI_GROOVE1_SEPARATE_ARCHITECTURE",
+    "disposition": "NEW_12T_PHYSICAL_TEST_CANDIDATE_ONLY_NO_GLOBAL_AUTHORITY_PROMOTION",
+    "requested_output": "P20653_12T_CANDIDATE_C"
+  },
+  "axial": {
+    "candidate_engagement_width_mm": 22.0,
+    "protected_body_width_mm": 44.0,
+    "rule": "CANDIDATE_WIDTH_ONLY_ON_ENGAGEMENT_TOOTH"
+  },
+  "candidate_c": {
+    "axial_width_mm": 22.0,
+    "id": "C",
+    "physical_result": "HOLD_NEAR_PASS",
+    "radial_height_mm": 4.5,
+    "root_total_tangential_width_mm": 11.0,
+    "root_transition_radius_mm": 1.25,
+    "tip_tangential_width_mm": 6.5
+  },
+  "forbidden_claims": [
+    "CRAWLER_PASS",
+    "DERAILMENT_PASS",
+    "POWERED_PASS",
+    "MUD_PASS",
+    "FIELD_PASS"
+  ],
+  "holds": [
+    "PHYSICAL_VALIDATION_PENDING",
+    "CRAWLER_FULL_LOOP_VALIDATION_PENDING",
+    "POWERED_DRY_RUN_PENDING",
+    "CONTINUOUS_DRY_RUN_PENDING",
+    "MUD_WATER_FIELD_HOLD",
+    "SLICER_REVIEW_PENDING",
+    "P20653_FINAL_OPERATING_PITCH_AUTHORITY_HOLD"
+  ],
+  "pattern": {
+    "phase_deg": 15.0,
+    "pitch_classification": "P20653_PHYSICAL_MAX_EXTENSION_SUPPORTED_PRIMARY_CANDIDATE_NOT_UNIVERSAL_OPERATING_AUTHORITY",
+    "pitch_diameter_mm": 79.79835226236546,
+    "pitch_mm": 20.6533333333,
+    "spacing_deg": 30.0,
+    "tooth_count": 12
+  },
+  "physical_result": {
+    "candidate_B": "FAIL_LOOSE_LARGE_LEFT_RIGHT_PLAY",
+    "candidate_C": "HOLD_NEAR_PASS_SMALL_LEFT_RIGHT_PLAY_NO_REPORTED_CRACK_OR_BINDING",
+    "selection": "CANDIDATE_C_CURRENT_FULL_SPROCKET_BASELINE"
+  },
+  "protected_center": {
+    "center_axis": [
+      0.0,
+      0.0
+    ],
+    "expected_core_added_mm3": 0.0,
+    "expected_core_missing_mm3": 0.0,
+    "shaft_hub": "V09618_H25A1_DUAL_L_Y3_B_COLLAR_HEADED_M4X2",
+    "source": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step"
+  },
+  "radial": {
+    "candidate_root_radius_mm": 31.171989789132724,
+    "candidate_tip_centerline_radius_mm": 35.671989789132724,
+    "p20653_radial_shift_mm": 1.7019897891327247,
+    "protected_core_radius_mm": 29.47,
+    "reference_tip_centerline_radius_mm": 34.771989789132725
+  },
+  "sources": {
+    "candidate_c_builder": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py",
+    "candidate_c_lane": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001",
+    "candidate_c_stl": "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl",
+    "current_12t_lane": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20",
+    "current_12t_step": "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step",
+    "sha256": {
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/artifacts/drive_12t_pitch_p20653_v0_9_6_20.step": "cf5a4bbdcc583105ad200009a671a0cb15c1697ab1eeff948a2313010c9212e3",
+      "cad/common_rover/common_rover_physical_pitch_drive_idler_v0_9_6_20/build_physical_pitch_drive_idler_v0_9_6_20.py": "269354de29d6ec2fc4bead3dbe2523fded5ba04ab3419cbba619110dc6b5eb0f",
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/build_crawler_sprocket_tooth_fit_coupons_v001.py": "4ffa3776904918292a28e2e736648c1c98bb43dd5d8fd4dd5cd90b2b98e8f780",
+      "cad/common_rover/drivetrain/crawler_sprocket_tooth_fit_coupons_v001/print/crawler_tooth_fit_C_h4p5_w6p5_ax22.stl": "c6fc7b47dfd4872428c0e01650473a08b50cb18d6d351e6af8f373964de90edc"
+    }
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/CANDIDATE_C_FULL_12T_SPROCKET_PRINT_READY/PHYSICAL_VALIDATION_PENDING/CRAWLER_FULL_LOOP_VALIDATION_PENDING/POWERED_DRY_RUN_PENDING",
+  "support": {
+    "bridge_axial_width_mm": 44.0,
+    "bridge_span_mm": 1.9019897891327247,
+    "bridge_tangential_width_mm": 11.0,
+    "continuous_new_ring_count": 0,
+    "local_bridge_count": 12
+  },
+  "version": "PADDY-SWARM-CRAWLER-CANDIDATE-C-FULL-12T-SPROCKET-V001"
+}

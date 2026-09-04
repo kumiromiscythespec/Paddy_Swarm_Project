@@ -1,0 +1,85 @@
+{
+  "adjustment": {
+    "allowed_upstream_mm": [
+      5.0,
+      15.0
+    ],
+    "cad_samples_mm": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "physical_test_mm": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "push_range_mm": [
+      0.0,
+      3.0
+    ],
+    "upstream_mm": 10.0,
+    "vertical_slot_length_mm": 8.5,
+    "vertical_slot_width_mm": 5.5
+  },
+  "classification": "DRIVE_ENTRY_TOP_HOLD_DOWN_ROLLER_DRY_TEST",
+  "frame": {
+    "cut_gate": "HOLD_VERIFY_ACTUAL_UPPER_LOWER_FACE_GAP",
+    "cut_length_class": "CANDIDATE_FROM_PHYSICAL_COMPACT_FRAME_HISTORY",
+    "mount": "TWO_PRINTED_L_SPLICE_BRACKETS_WITH_M5_T_NUT_SLOTS",
+    "profile": "2020",
+    "vertical_cut_length_mm": 110.0
+  },
+  "gates": {
+    "field": "NOT_APPROVED",
+    "first": "DRY_HAND_TEST_ONLY",
+    "mud": "NOT_APPROVED",
+    "powered": "NOT_APPROVED",
+    "water": "NOT_APPROVED"
+  },
+  "physical_authority": {
+    "link_flat_width_each_mm": 10.0,
+    "link_to_nearest_frame_face_mm": 60.0,
+    "manual_top_press_improved_engagement": true
+  },
+  "print": {
+    "internal_closed_support": false,
+    "material": "PETG",
+    "printer": "Bambu A1",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "roller": {
+    "architecture": "LEFT_RIGHT_SPLIT_PLAIN_ROLLER",
+    "axis": "M4x20_TWO_INDEPENDENT_AXLES",
+    "bearing": "NONE_DRY_TEST_PLAIN_BORE",
+    "bearing_selection": "HOLD",
+    "bore_mm": 4.3,
+    "flat_margin_each_mm": 2.0,
+    "od_mm": 16.0,
+    "quantity": 2,
+    "width_each_mm": 8.0
+  },
+  "scope": {
+    "crawler_guard_geometry_dependency_count": 0,
+    "drive_entry_hold_down_only": true,
+    "v09618_body_modified": false
+  },
+  "source_sha256": {
+    "cad/common_rover/common_rover_guard_free_true_open_bottom_drive_12t_v0_9_6_18/build_guard_free_true_open_bottom_drive_12t_v0_9_6_18.py": "254e96145c2f8501dbfe98b437b363d6d6cfecc7be2f666e7d84fd710a3b9962",
+    "cad/common_rover/common_rover_narrow_frame_independent_drive_v0_9_6_6/build_narrow_frame_independent_drive_v0_9_6_6.py": "2139e64fefc5776449885728bf81f2745557646adb6d5cd9233dd6a34720af29",
+    "cad/common_rover/common_rover_physical_fit_closure_v0_9_4_2/dimensions.json": "77ae432278d07302883f78ad71f3152d28895c672bb0282a486c78ffc8db1f16"
+  },
+  "v09618_sha256": {
+    "artifacts/drive_12t_h25a1_guard_free_true_open_bottom_v0_9_6_18.step": "f492ad24c9c81b2c0c6602397dad7f6c71a064f69244cb2a18f7f7cce8a1dcfe",
+    "artifacts/drive_12t_h25a1_guard_free_true_open_bottom_v0_9_6_18.stl": "2b7aa66660fed7cb37be2300cbd08f87f6d494b9500a7b5a3162ff5912924ea9",
+    "artifacts/h25a1_dual_l_slide_cap_v0_9_6_18.step": "db77749126c1dcbed4d120b6f950197211fa9e2b8202e74b94e7bc9212acea05",
+    "artifacts/h25a1_dual_l_stop_key_v0_9_6_18.step": "22508553a109a1f88cc29759cea33d6f062f953eb9d2bd1d30b23e74647b709c"
+  },
+  "version": "v0.9.6.19"
+}

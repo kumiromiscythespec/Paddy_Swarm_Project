@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f8f7f2"/><style>text{font-family:Arial,sans-serif;fill:#17324d}.t{font-size:30px;font-weight:bold}.m{font-size:19px}.s{fill:none;stroke:#17324d;stroke-width:4}.g{fill:none;stroke:#2a9d8f;stroke-width:5}.a{fill:none;stroke:#e76f51;stroke-width:5}.f{fill:#dbeafe;stroke:#264653;stroke-width:3}.d{stroke-dasharray:10 8}</style>
+<text x="45" y="50" class="t">STRUCTURAL CLEARANCE CHECK</text>
+<g transform="translate(80,85)"><circle cx="300" cy="300" r="245" class="s"/><circle cx="300" cy="300" r="180" class="g d"/><circle cx="300" cy="300" r="150" class="a d"/><circle cx="300" cy="300" r="110" class="s"/>
+<text x="610" y="120" class="m">boss ≥ 5.250000 mm</text><text x="610" y="165" class="m">M5 hole ≥ 6.638581 mm</text>
+<text x="610" y="210" class="m">counterbore ≥ 3.388581 mm</text><text x="610" y="255" class="m">flange edge ≥ 5.900000 mm</text>
+<text x="610" y="300" class="m">tooth/root ≥ 11.520731 mm</text><text x="610" y="345" class="m">continuous ligament = 5.050000 mm</text>
+<text x="610" y="390" class="m">link swept = 0.877226 mm</text><text x="610" y="455" class="m">local tooth removed volume = 0</text><text x="610" y="500" class="m">outer structural ring cut = 0</text></g><text x="45" y="675" class="m">v0.9.6.37 · F570 Ø57.00 EXACT · DUAL EJECTOR ONLY · POWERED NOT APPROVED</text></svg>

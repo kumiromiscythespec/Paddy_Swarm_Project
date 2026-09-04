@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500">
+ <rect width="920" height="500" fill="#fafafa"/><text x="25" y="32" font-family="sans-serif" font-size="22" font-weight="bold">DRIVE shaft cross section</text>
+ <text x="895" y="30" text-anchor="end" font-family="sans-serif" font-size="12">v0.9.6.4 / NOT FOR FULL POWER</text><g transform="translate(70 75)" font-family="sans-serif" text-anchor="middle">
+ <line x1="40" y1="190" x2="740" y2="190" stroke="#222" stroke-width="12"/><text x="390" y="220">Ø10 SOLID shaft / total length HOLD</text>
+ <rect x="270" y="70" width="240" height="240" fill="#27ae60" opacity=".55"/><text x="390" y="55">12T width44</text>
+ <rect x="250" y="120" width="20" height="140" fill="#8e44ad"/><rect x="510" y="120" width="20" height="140" fill="#8e44ad"/><text x="260" y="285">4 mm</text><text x="520" y="285">4 mm</text>
+ <rect x="170" y="105" width="80" height="170" fill="#2e86de" opacity=".6"/><rect x="530" y="105" width="80" height="170" fill="#2e86de" opacity=".6"/><text x="210" y="335">KP000</text><text x="570" y="335">KP000</text>
+ <rect x="130" y="135" width="40" height="110" fill="#7f8c8d"/><rect x="610" y="135" width="40" height="110" fill="#7f8c8d"/><text x="390" y="380">generic axial collars independent of PETG sprocket</text></g>
+ <g transform="translate(25 458)" font-family="sans-serif" font-size="12"><rect width="14" height="14" fill="#2e86de"/><text x="20" y="12">MEASURED</text><rect x="120" width="14" height="14" fill="#8e44ad"/><text x="140" y="12">DERIVED</text><rect x="240" width="14" height="14" fill="#27ae60"/><text x="260" y="12">DESIGN_PRIMARY</text><rect x="430" width="14" height="14" fill="#7f8c8d"/><text x="450" y="12">REFERENCE</text><rect x="550" width="14" height="14" fill="#e67e22"/><text x="570" y="12">HOLD</text></g>
+</svg>
