@@ -1,0 +1,276 @@
+{
+  "assumptions": [
+    "Molded exit placement uses the existing +X case face and Y=10.2 approximation; direct physical XY measurement is pending."
+  ],
+  "check_count": 25,
+  "checks": {
+    "authority": true,
+    "coupon_valid": true,
+    "edge_radius": true,
+    "flex_slot_6": true,
+    "forbidden_claims": true,
+    "full_hold": true,
+    "margins": true,
+    "outside_delta_zero": true,
+    "outward_clearance": true,
+    "parent_values": true,
+    "physical_root": true,
+    "pocket_height": true,
+    "pocket_widths": true,
+    "primary_width": true,
+    "protected": true,
+    "removed_positive": true,
+    "reproducibility": true,
+    "revised_valid": true,
+    "root_service_clear": true,
+    "stage_a_valid": true,
+    "step_reload": true,
+    "stl_quality": true,
+    "subtractive_only": true,
+    "wall_safe": true,
+    "xy_hold": true
+  },
+  "forbidden_claims": [
+    "FULL_MOUNT_PASS",
+    "POWERED_SERVO_PASS",
+    "LOAD_PASS",
+    "TORQUE_PASS",
+    "DURABILITY_PASS",
+    "FIELD_PASS"
+  ],
+  "geometry": {
+    "added_volume_mm3": 0,
+    "body_fit_dimensions_mm": [
+      40.0,
+      20.4,
+      41.7
+    ],
+    "combined_valid": true,
+    "coupon_solids": {
+      "7.5": 1,
+      "8.0": 1,
+      "8.5": 1
+    },
+    "coupon_valid": {
+      "7.5": true,
+      "8.0": true,
+      "8.5": true
+    },
+    "delta_outside_root_pocket_mm3": 0.0,
+    "flex_slot_width_mm": 6.0,
+    "horn_keepout_mm": [
+      30.0,
+      2.4,
+      46.2
+    ],
+    "lateral_margin_per_side_mm": {
+      "7.5": 0.55,
+      "8.0": 0.8,
+      "8.5": 1.05
+    },
+    "local_subtractive_only": true,
+    "minimum_existing_wall_mm": 2.5,
+    "minimum_remaining_base_ligament_each_side_mm": 11.75,
+    "mount_hole_centers_mm": [
+      [
+        -4.55,
+        5.2
+      ],
+      [
+        -4.55,
+        15.2
+      ],
+      [
+        44.55,
+        5.2
+      ],
+      [
+        44.55,
+        15.2
+      ]
+    ],
+    "output_axis_mm": [
+      10.1,
+      10.2
+    ],
+    "primary_root_pocket_width_mm": 8.0,
+    "removed_delta_bbox_mm": [
+      7.604,
+      8.0,
+      4.0
+    ],
+    "removed_delta_origin_mm": [
+      38.525,
+      6.2,
+      -4.0
+    ],
+    "revised_root_service_intersection_mm3": 0,
+    "revised_solids": 1,
+    "revised_valid": true,
+    "revised_volume_mm3": 12578.232,
+    "root_outward_margin_mm": 1.4,
+    "root_pocket_height_mm": 10.0,
+    "root_pocket_outward_clearance_mm": 6.5,
+    "root_pocket_removed_volume_mm3": 41.923,
+    "root_pocket_widths_mm": [
+      7.5,
+      8.0,
+      8.5
+    ],
+    "root_vertical_clearance_mm": 1.4,
+    "stage_a_root_service_intersection_mm3": 32.589,
+    "stage_a_solids": 1,
+    "stage_a_valid": true,
+    "stage_a_volume_mm3": 12620.155
+  },
+  "pass_count": 25,
+  "repository": {
+    "authority": {
+      "CURRENT_COMMON_ROVER_AUTHORITY.md": "390cdb2625254e000efd2ceae3f9c035096707d072188bffaff3176c765678d9",
+      "README.md": "f729dad1fee8f3dd7417bd37c3e0c3062d224830fcd1ca17abfb3ce697c57849",
+      "docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md": "78e23facb95b9e0da4f2be8af62d6b802f32020cdd2bd7066b05446563421ac0",
+      "rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md": "0d96d3dd9de8ed0b04763ce39fda3334277e724dd47e2bb0f76a64a34e3e36e9"
+    },
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "protected": {
+      "cad/common/servo/ds3218_20kg_180deg_mount_cable_relief_v001": {
+        "files": 27,
+        "sha256": "5483f5d88d45479ac97fc27dc73ca4c3be609221517b57e0d381f890142a100c",
+        "status": "UNCHANGED"
+      },
+      "cad/common/servo/ds3218_20kg_180deg_physical_authority_v001": {
+        "files": 41,
+        "sha256": "58256a9be468c78a49c68f77e5b1706634967625484481ceb832193ca2ba56fd",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/bbox_lid_wiring_chimney_v002_compact_50mm": {
+        "files": 29,
+        "sha256": "4ee812f422005201e8093fd710fd796be9bc49a7a30612e99e06696b79dc7503",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/bbox_lid_wiring_chimney_v003_full_lid_2p4_authority": {
+        "files": 18,
+        "sha256": "6a4ccbf88eac70a2bd938dcf672f380e108fc86ee05bdf503f9bd88f9f022a9c",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/bbox_lid_wiring_chimney_v003_local_gland_recess": {
+        "files": 32,
+        "sha256": "052663630e9a1a9bfc84320c9286ad26f7559bb06e2274b326d6b1ef4c31ad99",
+        "status": "UNCHANGED"
+      },
+      "cad/common_rover/pto_servo_sliding_idler_clutch_v001": {
+        "files": 39,
+        "sha256": "52c15cae54dbe8d4d336556df95b74b070b9ae40109271eb4d62dae4f1c78a43",
+        "status": "UNCHANGED"
+      },
+      "rovers/common_rover/v2.29.3.9.1": {
+        "files": 45,
+        "sha256": "ab8c79b41c5a7eae3f45dc6cc79564882c84e2a412a61fef7384b28c49d07659",
+        "status": "UNCHANGED"
+      }
+    }
+  },
+  "reproducibility": {
+    "byte_identical": 19,
+    "compared": 19,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/MOLDED_EXIT_ROOT_COUPONS_PRINT_READY/MOLDED_EXIT_ROOT_PHYSICAL_VALIDATION_PENDING/FULL_BRACKET_HOLD",
+  "steps": [
+    {
+      "bbox_mm": [
+        23.0,
+        26.0,
+        12.0
+      ],
+      "path": "cad/molded_exit_root_pocket_7p5.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        23.0,
+        26.0,
+        12.0
+      ],
+      "path": "cad/molded_exit_root_pocket_8p0.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        23.0,
+        26.0,
+        12.0
+      ],
+      "path": "cad/molded_exit_root_pocket_8p5.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        24.0,
+        90.0,
+        12.0
+      ],
+      "path": "cad/combined_molded_exit_root_coupon_plate.step",
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "bbox_mm": [
+        62.0,
+        32.0,
+        32.0
+      ],
+      "path": "cad/HOLD_ds3218_generic_mount_molded_exit_relief_8p0.step",
+      "solids": 1,
+      "valid": true
+    }
+  ],
+  "stls": {
+    "print/HOLD_ds3218_generic_mount_molded_exit_relief_8p0.stl": {
+      "bad_edge_count": 0,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 3476,
+      "watertight": true
+    },
+    "print/combined_molded_exit_root_coupon_plate.stl": {
+      "bad_edge_count": 0,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 2620,
+      "watertight": true
+    },
+    "print/molded_exit_root_pocket_7p5.stl": {
+      "bad_edge_count": 0,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 756,
+      "watertight": true
+    },
+    "print/molded_exit_root_pocket_8p0.stl": {
+      "bad_edge_count": 0,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 860,
+      "watertight": true
+    },
+    "print/molded_exit_root_pocket_8p5.stl": {
+      "bad_edge_count": 0,
+      "degenerate_triangle_count": 0,
+      "manifold": true,
+      "reload": "PASS",
+      "triangle_count": 948,
+      "watertight": true
+    }
+  },
+  "version": "PADDY-SWARM-DS3218-MOLDED-EXIT-ROOT-RELIEF-V002"
+}

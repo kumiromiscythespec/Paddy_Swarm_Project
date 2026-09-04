@@ -1,0 +1,14 @@
+{
+  "step": [
+    "step/BH_V007_main_body_reinforced_integrated_slide_PETG.step",
+    "step/BH_V007_neck_collar_ID26p2_long_tab_PETG.step",
+    "step/BH_V007_upper_structure_coupon_PETG.step",
+    "step/BH_V007_assembly_reference.step"
+  ],
+  "stl": [
+    "stl/BH_V007_main_body_reinforced_integrated_slide_PETG.stl",
+    "stl/BH_V007_neck_collar_ID26p2_long_tab_PETG.stl",
+    "stl/BH_V007_upper_structure_coupon_PETG.stl",
+    "stl/BH_V007_assembly_preview.stl"
+  ]
+}

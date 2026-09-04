@@ -1,0 +1,25 @@
+{
+  "authority_conclusion": "No documented exact current manufacturer+Shore authority found; do not invent95A",
+  "findings": [
+    {
+      "finding": "TPU Shore/manufacturer HOLD",
+      "path": "cad/common_rover/common_rover_drive_htd5m_tpu_trial_belt_v0_9_5_1/MISSING_MEASUREMENTS.md"
+    },
+    {
+      "finding": "TPU_SHORE UNKNOWN_PHYSICAL; approximate95A is explicitly NOT authority",
+      "path": "cad/ps_webcam_rainhood_v005_tpu_storm_skin/reports/DIMENSIONAL_AUTHORITY.md"
+    },
+    {
+      "finding": "TPU95A_FUTURE_CANDIDATE is not a proven current spool",
+      "path": "cad/common_rover/common_rover_bbox_cbox_printable_prototype_v0_9_5_0/hardware.json"
+    },
+    {
+      "finding": "Generic TPU95A design specification, no current spool identity",
+      "path": "cad/dummy_panicle_v0_1/README.md"
+    }
+  ],
+  "product": "PHYSICAL_PENDING",
+  "search_scope": "Repository cad/common, cad/common_rover, cad, docs, rovers; Markdown/JSON/text material records",
+  "shore_hardness": "PHYSICAL_PENDING",
+  "specimen": "CURRENT_TPU_SPECIMEN"
+}

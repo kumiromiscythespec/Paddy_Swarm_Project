@@ -1,0 +1,91 @@
+{
+  "exit_placement": {
+    "case_face": "+X",
+    "hold": "DIRECT_XY_PHYSICAL_MEASUREMENT_PENDING",
+    "status": "MOLDED_EXIT_XY_APPROXIMATED_FROM_EXISTING_MODEL",
+    "y_center_mm": 10.2
+  },
+  "forbidden_claims": [
+    "FULL_MOUNT_PASS",
+    "POWERED_SERVO_PASS",
+    "LOAD_PASS",
+    "TORQUE_PASS",
+    "DURABILITY_PASS",
+    "FIELD_PASS"
+  ],
+  "parent": {
+    "lane": "cad/common/servo/ds3218_20kg_180deg_mount_cable_relief_v001",
+    "status": "READ_ONLY_V001_AUTHORITY",
+    "tree_sha256": "5483f5d88d45479ac97fc27dc73ca4c3be609221517b57e0d381f890142a100c"
+  },
+  "physical_result": {
+    "flexible_cable_slot_authority_mm": 6.0,
+    "flexible_cable_slot_result": "PHYSICAL_PASS",
+    "flexible_cable_width_mm": 4.4,
+    "molded_exit_root_interference": "PHYSICAL_FAIL",
+    "molded_exit_root_protrusion_from_case_face_mm": 5.1,
+    "molded_exit_root_top_z_from_servo_bottom_mm": 8.6,
+    "molded_exit_root_width_mm": 6.4
+  },
+  "print": {
+    "combined_plate": "print/combined_molded_exit_root_coupon_plate.stl",
+    "coupon_order": [
+      "print/molded_exit_root_pocket_7p5.stl",
+      "print/molded_exit_root_pocket_8p0.stl",
+      "print/molded_exit_root_pocket_8p5.stl"
+    ],
+    "coupon_status": "MOLDED_EXIT_ROOT_COUPONS_PRINT_READY",
+    "full_bracket": "print/HOLD_ds3218_generic_mount_molded_exit_relief_8p0.stl",
+    "full_bracket_status": "FULL_BRACKET_HOLD_PENDING_MOLDED_EXIT_ROOT_PHYSICAL_VALIDATION",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "protected_servo_authority": {
+    "case_lwh_mm": [
+      40.0,
+      20.4,
+      41.7
+    ],
+    "horn_radius_mm": 30.0,
+    "horn_rotation_plane_z_mm": 46.2,
+    "mount_pitch_xy_mm": [
+      49.1,
+      10.0
+    ],
+    "mounting_envelope_mm": 54.5,
+    "output_axis_xy_mm": [
+      10.1,
+      10.2
+    ],
+    "servo_hole_diameter_mm": 4.6,
+    "servo_mount_position_changed": false
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/MOLDED_EXIT_ROOT_COUPONS_PRINT_READY/MOLDED_EXIT_ROOT_PHYSICAL_VALIDATION_PENDING/FULL_BRACKET_HOLD",
+  "two_stage_relief": {
+    "stage_a": {
+      "clear_width_mm": 6.0,
+      "name": "FLEXIBLE_CABLE_SLOT",
+      "status": "PHYSICAL_AUTHORITY_PRESERVED"
+    },
+    "stage_b": {
+      "candidate_widths_mm": [
+        7.5,
+        8.0,
+        8.5
+      ],
+      "edge_radius_mm": 1.25,
+      "height_mm": 10.0,
+      "lateral_margin_per_side_mm": {
+        "7.5": 0.55,
+        "8.0": 0.8,
+        "8.5": 1.05
+      },
+      "name": "MOLDED_ROOT_LOCAL_POCKET",
+      "outward_clearance_mm": 6.5,
+      "outward_margin_mm": 1.4,
+      "primary_width_mm": 8.0,
+      "shape": "OPEN_DOWNWARD_AND_OUTWARD_ROUNDED_LOCAL_POCKET",
+      "vertical_clearance_mm": 1.4
+    }
+  },
+  "version": "PADDY-SWARM-DS3218-MOLDED-EXIT-ROOT-RELIEF-V002"
+}

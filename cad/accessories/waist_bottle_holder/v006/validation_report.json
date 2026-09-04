@@ -1,0 +1,451 @@
+{
+  "project": "BH_V006 Waist Bottle Holder",
+  "generated_at_note": "Generated locally by source/build_bh_v006.py; no Git operation performed.",
+  "overall_cad_status": "PASS",
+  "hard_failures": [],
+  "checks": {
+    "all_step_generated": {
+      "status": "PASS",
+      "detail": "All required STEP files exist and are non-empty."
+    },
+    "all_stl_generated": {
+      "status": "PASS",
+      "detail": "All required STL files exist and are non-empty."
+    },
+    "step_reload_valid": {
+      "status": "PASS",
+      "detail": "Every STEP reloaded in CadQuery with valid positive-volume solids."
+    },
+    "all_stl_watertight": {
+      "status": "PASS",
+      "detail": "Every STL is watertight, including multi-shell coupon/assembly files."
+    },
+    "non_manifold_edge_zero": {
+      "status": "PASS",
+      "detail": "All STL edge incidences are exactly two."
+    },
+    "no_negative_volume": {
+      "status": "PASS",
+      "detail": "All STL signed volumes are positive."
+    },
+    "no_duplicate_body": {
+      "status": "PASS",
+      "detail": "No artifact contains geometrically duplicated solid signatures; coupon kits intentionally contain distinct solids."
+    },
+    "assembly_no_unintended_intersection": {
+      "status": "PASS",
+      "detail": "Main/collar nominal intersection volume = 0.000000 mm^3."
+    },
+    "nominal_slide_insertion_path": {
+      "status": "PASS",
+      "detail": "Discrete top-down Z path is collision-free from +30 mm to nominal seat."
+    },
+    "receiver_closed_bottom_stop": {
+      "status": "PASS",
+      "detail": "Receiver has a 3.0 mm full-width physical floor."
+    },
+    "neck_collar_id_matches_parameter": {
+      "status": "PASS",
+      "detail": "Nominal collar ID is 26.0 mm; a slightly undersize gauge has zero solid overlap."
+    },
+    "cup_height_94": {
+      "status": "PASS",
+      "detail": "Cup B-rep Z extent = 94.024 mm (within 0.05 mm geometric tolerance of 94.0 mm)."
+    },
+    "cup_internal_envelope_72x72": {
+      "status": "PASS",
+      "detail": "Functional cavity bbox = 72.000 x 72.000 mm before the 1.2 mm entry lead-in."
+    },
+    "two_rope_slots_present": {
+      "status": "PASS",
+      "detail": "Two independent through-slots pass a phi4.8 mm cylindrical gauge."
+    },
+    "rope_slot_opening_margin": {
+      "status": "PASS",
+      "detail": "Minimum slot width 8.0 mm gives 3.2 mm diametral margin."
+    },
+    "body_side_no_proud_hardware": {
+      "status": "PASS",
+      "detail": "The rounded upper contact pad is the rearmost feature; receiver, ribs, and spine are recessed and no hardware is present."
+    },
+    "cap_rotation_space": {
+      "status": "PASS",
+      "detail": "Phi34.0 x 14 mm cap rotation envelope above collar is unobstructed."
+    },
+    "cup_is_primary_weight_support": {
+      "status": "PASS",
+      "detail": "Nominal tab floats 0.500 mm above receiver stop while bottle seats on the cup floor at Z=3.6 mm."
+    },
+    "NECK_COLLAR_PHYSICAL_FIT": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    },
+    "SLIDE_PHYSICAL_FIT": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    },
+    "ROUND_BOTTLE_FIELD_FIT": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    },
+    "SQUARE_BOTTLE_FIELD_FIT": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    },
+    "BODY_COMFORT_FIELD_TEST": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    },
+    "BOUNCE_FIELD_TEST": {
+      "status": "PENDING",
+      "detail": "Requires printed coupon or field test; CAD cannot close this item."
+    }
+  },
+  "step_reload": {
+    "BH_V006_main_body_94mm_squircle_rope4p8_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_neck_collar_slide_tab_ID26p0_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_neck_fit_coupon_ID25p8_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_neck_fit_coupon_ID26p0_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_neck_fit_coupon_ID26p2_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_slide_fit_coupon_S1_tight_PETG.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_slide_fit_coupon_S2_nominal_PETG.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_slide_fit_coupon_S3_loose_PETG.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V006_assembly_reference.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    }
+  },
+  "stl_metrics": {
+    "BH_V006_main_body_94mm_squircle_rope4p8_PETG.stl": {
+      "vertices": 14020,
+      "faces": 28064,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 193000.9,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -41.0,
+          -49.8,
+          0.0
+        ],
+        [
+          41.0,
+          39.2,
+          204.0
+        ]
+      ]
+    },
+    "BH_V006_neck_collar_slide_tab_ID26p0_PETG.stl": {
+      "vertices": 1696,
+      "faces": 3388,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 3860.065,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -16.0,
+          -27.7,
+          -7.0
+        ],
+        [
+          16.0,
+          15.53,
+          13.0
+        ]
+      ]
+    },
+    "BH_V006_neck_fit_coupon_ID25p8_PETG.stl": {
+      "vertices": 602,
+      "faces": 1200,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 1783.937,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -15.9,
+          -15.893,
+          0.0
+        ],
+        [
+          15.9,
+          15.427,
+          7.0
+        ]
+      ]
+    },
+    "BH_V006_neck_fit_coupon_ID26p0_PETG.stl": {
+      "vertices": 602,
+      "faces": 1200,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 1797.143,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -16.0,
+          -15.993,
+          0.0
+        ],
+        [
+          16.0,
+          15.53,
+          7.0
+        ]
+      ]
+    },
+    "BH_V006_neck_fit_coupon_ID26p2_PETG.stl": {
+      "vertices": 602,
+      "faces": 1200,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 1810.349,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -16.099,
+          -16.093,
+          0.0
+        ],
+        [
+          16.099,
+          15.633,
+          7.0
+        ]
+      ]
+    },
+    "BH_V006_slide_fit_coupon_S1_tight_PETG.stl": {
+      "vertices": 1124,
+      "faces": 2240,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 5159.586,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -30.25,
+          -5.2,
+          -0.0
+        ],
+        [
+          30.0,
+          5.2,
+          24.0
+        ]
+      ]
+    },
+    "BH_V006_slide_fit_coupon_S2_nominal_PETG.stl": {
+      "vertices": 1124,
+      "faces": 2240,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 5241.627,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -30.4,
+          -5.3,
+          -0.0
+        ],
+        [
+          30.0,
+          5.3,
+          24.0
+        ]
+      ]
+    },
+    "BH_V006_slide_fit_coupon_S3_loose_PETG.stl": {
+      "vertices": 1124,
+      "faces": 2240,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 5324.026,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -30.55,
+          -5.4,
+          -0.0
+        ],
+        [
+          30.0,
+          5.4,
+          24.0
+        ]
+      ]
+    },
+    "BH_V006_assembly_preview.stl": {
+      "vertices": 15716,
+      "faces": 31452,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 196860.966,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -41.0,
+          -49.8,
+          0.0
+        ],
+        [
+          41.0,
+          39.2,
+          204.0
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "main_body_bbox_mm": {
+      "xmin": -41.0051,
+      "xmax": 41.0051,
+      "ymin": -49.8051,
+      "ymax": 39.2069,
+      "zmin": -0.0122,
+      "zmax": 204.0051,
+      "xlen": 82.0102,
+      "ylen": 89.0119,
+      "zlen": 204.0173
+    },
+    "cup_bbox_mm": {
+      "xmin": -39.2069,
+      "xmax": 39.2069,
+      "ymin": -39.2069,
+      "ymax": 39.2069,
+      "zmin": -0.006,
+      "zmax": 94.0181,
+      "xlen": 78.4137,
+      "ylen": 78.4137,
+      "zlen": 94.0242
+    },
+    "functional_cavity_bbox_mm": {
+      "xmin": -36.0,
+      "xmax": 36.0,
+      "ymin": -36.0,
+      "ymax": 36.0,
+      "zmin": 3.6,
+      "zmax": 92.8,
+      "xlen": 72.0,
+      "ylen": 72.0,
+      "zlen": 89.2
+    },
+    "receiver_cavity_z_global_mm": [
+      179.6,
+      201.6
+    ],
+    "receiver_cavity_z_bottle_relative_mm": [
+      176.0,
+      198.0
+    ],
+    "nominal_main_collar_intersection_mm3": 0.0,
+    "insertion_path": [
+      {
+        "offset_z": 30.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z": 24.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z": 18.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z": 12.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z": 6.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z": 0.0,
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "rope_gauge_checks": [
+      {
+        "center_x": -23.0,
+        "center_z": 158.0,
+        "gauge_intersection_mm3": 0.0
+      },
+      {
+        "center_x": 23.0,
+        "center_z": 158.0,
+        "gauge_intersection_mm3": 0.0
+      }
+    ],
+    "nominal_tab_stop_gap_mm": 0.5,
+    "duplicate_solid_signatures": {
+      "BH_V006_main_body_94mm_squircle_rope4p8_PETG": [],
+      "BH_V006_neck_collar_slide_tab_ID26p0_PETG": [],
+      "BH_V006_neck_fit_coupon_ID25p8_PETG": [],
+      "BH_V006_neck_fit_coupon_ID26p0_PETG": [],
+      "BH_V006_neck_fit_coupon_ID26p2_PETG": [],
+      "BH_V006_slide_fit_coupon_S1_tight_PETG": [],
+      "BH_V006_slide_fit_coupon_S2_nominal_PETG": [],
+      "BH_V006_slide_fit_coupon_S3_loose_PETG": [],
+      "BH_V006_assembly_reference": []
+    }
+  },
+  "authority_deviations": [
+    "Spine thickness is 6.5 mm (authority basis 6.0 mm) for PETG fatigue margin; +0.5 mm is within permitted minor DFM adjustment.",
+    "Receiver insertion length is 22.0 mm, the permitted upper bound, to maximize overlap across the measured 184-190 mm neck-height population.",
+    "Receiver uses a 10.8 mm front stem slit. The 16 mm tab wings remain captured, so removal is still only by upward motion.",
+    "The 72 x 72 mm functional cavity expands by 1.2 mm per side only over the final 1.2 mm top lead-in."
+  ]
+}

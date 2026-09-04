@@ -1,0 +1,72 @@
+{
+  "lane": "ps_usb_inline_raincover_v003_side_load_labyrinth",
+  "version": "v0.0.3",
+  "status": "CAD_COMPLETE_SIDE_LOAD_LABYRINTH_PHYSICAL_VALIDATION_PENDING",
+  "water_rating": "SPLASH_RESISTANT_NOT_WATERPROOF",
+  "v002_authority": "cad/ps_usb_inline_raincover_v002_measured_envelope",
+  "physical_results": {
+    "connector_chamber_fit": "PASS",
+    "cable_channel_diameter_fit": "PASS",
+    "v002_labyrinth_assembly_path": "FAIL_END_THREADING_REQUIRED",
+    "real_cable_connector_removable": false,
+    "cable_cutting_allowed": false
+  },
+  "connector_envelope_mm": {
+    "L": 95.1,
+    "W": 18.7,
+    "H": 10.8
+  },
+  "cables_mm": {
+    "camera_side_OD": 3.8,
+    "extension_side_OD": 4.0,
+    "assembled_channel_nominal_D": 4.4,
+    "local_split_relief": 0.25
+  },
+  "chamber_inner_mm": {
+    "L": 102.0,
+    "W": 24.0,
+    "H": 16.0
+  },
+  "split_labyrinth": {
+    "lower": "OPEN_FROM_ABOVE_U_CHANNEL",
+    "upper": "OPEN_FROM_BELOW_COMPLEMENTARY_COVER",
+    "no_closed_ring_around_cable_in_single_part": true,
+    "no_end_threading_required": true,
+    "lower_slot_width_mm": 4.65,
+    "upper_tongue_width_mm": 4.15,
+    "cap_ceiling_z_mm": 6.575,
+    "lateral_dogleg_mm": 8.0,
+    "sightline_deviation_mm": 2.5547822179792776
+  },
+  "preserved_v002": {
+    "WALL_T": 3.0,
+    "LABYRINTH_HORIZONTAL_RUN": 10.0,
+    "LABYRINTH_VERTICAL_OFFSET": 5.0,
+    "DRAIN_D": 2.5,
+    "DRAIN_COUNT": 2,
+    "FLOOR_SLOPE_DEG": 2.0,
+    "ROOF_SLOPE_DEG": 3.0,
+    "TOP_OVERLAP_SKIRT": 6.0,
+    "PARTING_STEP_H": 2.0,
+    "PARTING_OVERLAP": 3.0,
+    "PARTING_CLEARANCE": 0.3,
+    "closure": "M3_X6_SIDE_FLANGE_WITH_CAPTURED_HEX_NUTS",
+    "screw_stations_x_mm": [
+      -50.0,
+      0.0,
+      50.0
+    ],
+    "floor_center_crown_mm": 1.7809592440791342
+  },
+  "physical_statuses": {
+    "CABLE_CHANNEL_PHYSICAL": "PASS",
+    "CONNECTOR_DIMENSION_PHYSICAL": "PASS_MEASURED",
+    "CHAMBER_PHYSICAL": "PASS",
+    "V002_CABLE_LABYRINTH_ASSEMBLY_PATH": "FAIL",
+    "V003_SIDE_LOAD_ASSEMBLY": "PENDING",
+    "LABYRINTH_DRAIN_PHYSICAL": "PENDING",
+    "FULL_SHELL_RAIN": "PENDING",
+    "LIVE_USB_RAIN": "PENDING"
+  },
+  "next_print": "split_labyrinth_side_load_coupon_lower_v003.stl + split_labyrinth_side_load_coupon_upper_v003.stl"
+}

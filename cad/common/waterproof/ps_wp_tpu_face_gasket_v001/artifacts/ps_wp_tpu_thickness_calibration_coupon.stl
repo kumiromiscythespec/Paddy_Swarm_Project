@@ -1,0 +1,254 @@
+solid PS_WP_TPU_FACE_GASKET_V001
+  facet normal -1 0 0
+    outer loop
+      vertex -27.000000000 -7.000000000 2.000000000
+      vertex -27.000000000 7.000000000 0.000000000
+      vertex -27.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -27.000000000 -7.000000000 2.000000000
+      vertex -27.000000000 7.000000000 2.000000000
+      vertex -27.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex -13.000000000 -7.000000000 2.000000000
+      vertex -13.000000000 -7.000000000 0.000000000
+      vertex -13.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 -0 0
+    outer loop
+      vertex -13.000000000 -7.000000000 2.000000000
+      vertex -13.000000000 7.000000000 0.000000000
+      vertex -13.000000000 7.000000000 2.000000000
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex -13.000000000 -7.000000000 2.000000000
+      vertex -27.000000000 -7.000000000 0.000000000
+      vertex -13.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -0 -1 0
+    outer loop
+      vertex -13.000000000 -7.000000000 2.000000000
+      vertex -27.000000000 -7.000000000 2.000000000
+      vertex -27.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -13.000000000 7.000000000 2.000000000
+      vertex -13.000000000 7.000000000 0.000000000
+      vertex -27.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -13.000000000 7.000000000 2.000000000
+      vertex -27.000000000 7.000000000 0.000000000
+      vertex -27.000000000 7.000000000 2.000000000
+    endloop
+  endfacet
+  facet normal -0 0 -1
+    outer loop
+      vertex -13.000000000 7.000000000 0.000000000
+      vertex -27.000000000 -7.000000000 0.000000000
+      vertex -27.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 -0 -1
+    outer loop
+      vertex -13.000000000 7.000000000 0.000000000
+      vertex -13.000000000 -7.000000000 0.000000000
+      vertex -27.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -13.000000000 7.000000000 2.000000000
+      vertex -27.000000000 7.000000000 2.000000000
+      vertex -27.000000000 -7.000000000 2.000000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -13.000000000 7.000000000 2.000000000
+      vertex -27.000000000 -7.000000000 2.000000000
+      vertex -13.000000000 -7.000000000 2.000000000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -7.000000000 -7.000000000 2.500000000
+      vertex -7.000000000 7.000000000 0.000000000
+      vertex -7.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -7.000000000 -7.000000000 2.500000000
+      vertex -7.000000000 7.000000000 2.500000000
+      vertex -7.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 7.000000000 -7.000000000 2.500000000
+      vertex 7.000000000 -7.000000000 0.000000000
+      vertex 7.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 -0 0
+    outer loop
+      vertex 7.000000000 -7.000000000 2.500000000
+      vertex 7.000000000 7.000000000 0.000000000
+      vertex 7.000000000 7.000000000 2.500000000
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 7.000000000 -7.000000000 2.500000000
+      vertex -7.000000000 -7.000000000 0.000000000
+      vertex 7.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -0 -1 0
+    outer loop
+      vertex 7.000000000 -7.000000000 2.500000000
+      vertex -7.000000000 -7.000000000 2.500000000
+      vertex -7.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 7.000000000 7.000000000 2.500000000
+      vertex 7.000000000 7.000000000 0.000000000
+      vertex -7.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 7.000000000 7.000000000 2.500000000
+      vertex -7.000000000 7.000000000 0.000000000
+      vertex -7.000000000 7.000000000 2.500000000
+    endloop
+  endfacet
+  facet normal -0 0 -1
+    outer loop
+      vertex 7.000000000 7.000000000 0.000000000
+      vertex -7.000000000 -7.000000000 0.000000000
+      vertex -7.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 -0 -1
+    outer loop
+      vertex 7.000000000 7.000000000 0.000000000
+      vertex 7.000000000 -7.000000000 0.000000000
+      vertex -7.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 7.000000000 7.000000000 2.500000000
+      vertex -7.000000000 7.000000000 2.500000000
+      vertex -7.000000000 -7.000000000 2.500000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 7.000000000 7.000000000 2.500000000
+      vertex -7.000000000 -7.000000000 2.500000000
+      vertex 7.000000000 -7.000000000 2.500000000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 13.000000000 -7.000000000 3.000000000
+      vertex 13.000000000 7.000000000 0.000000000
+      vertex 13.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 13.000000000 -7.000000000 3.000000000
+      vertex 13.000000000 7.000000000 3.000000000
+      vertex 13.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 27.000000000 -7.000000000 3.000000000
+      vertex 27.000000000 -7.000000000 0.000000000
+      vertex 27.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 1 -0 0
+    outer loop
+      vertex 27.000000000 -7.000000000 3.000000000
+      vertex 27.000000000 7.000000000 0.000000000
+      vertex 27.000000000 7.000000000 3.000000000
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 27.000000000 -7.000000000 3.000000000
+      vertex 13.000000000 -7.000000000 0.000000000
+      vertex 27.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal -0 -1 0
+    outer loop
+      vertex 27.000000000 -7.000000000 3.000000000
+      vertex 13.000000000 -7.000000000 3.000000000
+      vertex 13.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 27.000000000 7.000000000 3.000000000
+      vertex 27.000000000 7.000000000 0.000000000
+      vertex 13.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 27.000000000 7.000000000 3.000000000
+      vertex 13.000000000 7.000000000 0.000000000
+      vertex 13.000000000 7.000000000 3.000000000
+    endloop
+  endfacet
+  facet normal -0 0 -1
+    outer loop
+      vertex 27.000000000 7.000000000 0.000000000
+      vertex 13.000000000 -7.000000000 0.000000000
+      vertex 13.000000000 7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 -0 -1
+    outer loop
+      vertex 27.000000000 7.000000000 0.000000000
+      vertex 27.000000000 -7.000000000 0.000000000
+      vertex 13.000000000 -7.000000000 0.000000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 27.000000000 7.000000000 3.000000000
+      vertex 13.000000000 7.000000000 3.000000000
+      vertex 13.000000000 -7.000000000 3.000000000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 27.000000000 7.000000000 3.000000000
+      vertex 13.000000000 -7.000000000 3.000000000
+      vertex 27.000000000 -7.000000000 3.000000000
+    endloop
+  endfacet
+endsolid PS_WP_TPU_FACE_GASKET_V001

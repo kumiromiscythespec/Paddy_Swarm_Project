@@ -1,0 +1,102 @@
+{
+  "project": "BH_V007 Neck Collar Reinforcement Coupon Study N-A / N-B / N-C",
+  "units": "mm",
+  "scope": {
+    "lane": "cad/accessories/waist_bottle_holder/v007/neck_collar_reinforcement_coupon_v001",
+    "coupon_only": true,
+    "production_update": "PROHIBITED",
+    "production_authority": "UNDECIDED_PENDING_PHYSICAL_TEST",
+    "first_print_recommendation": "N-B",
+    "print_order": ["N-B", "N-A", "N-C"]
+  },
+  "fixed_authority": {
+    "neck_id": 26.2,
+    "tab_width": 16.0,
+    "tab_thickness": 4.0,
+    "tab_total_length": 30.0,
+    "tab_center_y": -41.9,
+    "receiver_hold_width": 17.1,
+    "receiver_hold_thickness": 4.8,
+    "receiver_front_stem_slot_width": 10.8
+  },
+  "candidates": {
+    "N-A": {
+      "opening_clear": 18.0,
+      "construction_gap_before_tip_blend": 17.966,
+      "radial_ring_thickness": 4.0,
+      "collar_height": 9.0
+    },
+    "N-B": {
+      "opening_clear": 20.0,
+      "construction_gap_before_tip_blend": 19.925,
+      "radial_ring_thickness": 4.0,
+      "collar_height": 9.0
+    },
+    "N-C": {
+      "opening_clear": 20.0,
+      "construction_gap_before_tip_blend": 19.705,
+      "radial_ring_thickness": 3.5,
+      "collar_height": 9.0
+    }
+  },
+  "reinforcement": {
+    "root_saddle_width": 26.0,
+    "root_saddle_depth": 16.0,
+    "root_saddle_plan_radius": 8.0,
+    "root_saddle_center_y": -18.1,
+    "bridge_width": 10.0,
+    "bridge_y_min": -40.2,
+    "bridge_y_max": -26.0,
+    "bridge_z_min": -2.0,
+    "bridge_z_max": 9.0,
+    "gusset_count": 2,
+    "gusset_thickness": 4.0,
+    "gusset_height": 14.0,
+    "gusset_y_min": -40.2,
+    "gusset_y_max": -24.5,
+    "gusset_z_min": -5.0,
+    "gusset_z_max": 9.0,
+    "gusset_x_centers": [-3.0, 3.0],
+    "gusset_end_radius": 2.0,
+    "opening_tip_radius": 1.5
+  },
+  "comparison_baseline_v007": {
+    "opening_clear": 5.0,
+    "radial_ring_thickness": 3.0,
+    "collar_height": 7.0,
+    "bridge_width": 10.0,
+    "bridge_height": 10.0,
+    "root_strength_physical": "FAIL"
+  },
+  "physical_state": {
+    "V007_EXISTING_COLLAR_ROOT_STRENGTH": "FAIL",
+    "NA_NECK_INSERTION_FIT": "PENDING",
+    "NA_ROOT_DURABILITY": "PENDING",
+    "NB_NECK_INSERTION_FIT": "PENDING",
+    "NB_ROOT_DURABILITY": "PENDING",
+    "NC_NECK_INSERTION_FIT": "PENDING",
+    "NC_ROOT_DURABILITY": "PENDING"
+  },
+  "mesh_export": {
+    "linear_tolerance": 0.08,
+    "angular_tolerance": 0.12
+  },
+  "start_git_state": {
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "tracked_status": [
+      " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M README.md",
+      " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "protected_v007_files_sha256": {
+    "step/BH_V007_main_body_reinforced_integrated_slide_PETG.step": "D76F6A77370934125557E640A1A53CF875A05371E5A7B06881BDAB80685281CE",
+    "stl/BH_V007_main_body_reinforced_integrated_slide_PETG.stl": "D0870CEDD14E4713370F3CCD8D0D0AFE8B20E5A4AF40E719402D2C4E18C535DE",
+    "step/BH_V007_neck_collar_ID26p2_long_tab_PETG.step": "B3FB9EBE6EBA471C114C3ED44C1763D83E62726D1F4C4E09DDDC321369F4E55B",
+    "stl/BH_V007_neck_collar_ID26p2_long_tab_PETG.stl": "D5285BB45A15760B227BB0E2A01A282B3E41FC09DC8604B9CB53D2E7F9B6A129",
+    "parameters.json": "A9DA806E0DD2B24632928D2E85EAD04E63ED9ECC03C4C09A49366F75CFCB94E6",
+    "source/build_bh_v007.py": "EDEE8793FBE3F2C9B45F2F0F596BFCB41AA7F44D1B50AFE80599FDD9B9B099A0"
+  }
+}

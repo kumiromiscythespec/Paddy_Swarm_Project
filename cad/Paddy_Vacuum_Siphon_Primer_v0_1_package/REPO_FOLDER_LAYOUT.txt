@@ -1,0 +1,66 @@
+D:\Paddy_Swarm_Project\
+├─ README.md
+├─ CONTRIBUTING.md
+├─ .gitignore
+├─ docs\
+│  ├─ safety.md
+│  ├─ test_checklist.md
+│  ├─ repo_setup_windows.md
+│  ├─ license_policy.md
+│  ├─ part_numbering.md
+│  └─ print_notes\
+├─ stl\
+│  └─ paddy_vacuum_siphon_primer_v0_1\        ← 今回追加する公開用STL配置
+├─ cad\
+│  └─ paddy_vacuum_siphon_primer_v0_1\        ← 今回追加するCAD設計正本
+│     ├─ README.md
+│     ├─ DESIGN_DEVIATIONS.md
+│     ├─ parameters.py
+│     ├─ requirements.txt
+│     ├─ build_all.py
+│     ├─ preview_mesh_generator.py
+│     ├─ common\
+│     │  └─ cq_helpers.py
+│     ├─ water_trap\
+│     │  ├─ tank_body.py
+│     │  ├─ tank_lid.py
+│     │  ├─ dip_tube.py
+│     │  ├─ baffle.py
+│     │  ├─ tank_stand.py
+│     │  └─ sight_tube_guard.py
+│     ├─ bellows\
+│     │  ├─ bellows_tpu.py
+│     │  ├─ fixed_base.py
+│     │  ├─ foot_plate.py
+│     │  ├─ clamp_ring.py
+│     │  ├─ guide_bushing.py
+│     │  ├─ spring_anchor.py
+│     │  ├─ stroke_stop.py
+│     │  └─ foot_pad_tpu.py
+│     ├─ adapters\
+│     │  ├─ hose_support.py
+│     │  └─ check_valve_bracket.py
+│     ├─ calibration\
+│     │  ├─ bulkhead_hole_coupon.py
+│     │  ├─ gasket_compression_coupon.py
+│     │  └─ bellows_wall_coupon.py
+│     ├─ exports\
+│     │  ├─ stl\
+│     │  ├─ step\
+│     │  └─ preview\
+│     └─ tests\
+│        ├─ inspection_checklist.md
+│        ├─ vacuum_test.md
+│        └─ cycle_test.md
+├─ bom\
+├─ experiments\
+├─ software\
+├─ images\
+├─ tools\
+├─ print_manifest.csv
+└─ kit_index.csv
+
+注記:
+- 上段のルート構成はGitHub mainのREADME記載内容を基礎にしています。
+- ローカルDドライブの未追跡ファイル・作業ブランチ固有フォルダは、この環境から確認できません。
+- 今回のZIPは上記の新規フォルダだけを追加する前提です。

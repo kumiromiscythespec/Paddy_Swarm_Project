@@ -1,0 +1,693 @@
+{
+  "lane": "ps_webcam_rainhood_v005_tpu_storm_skin",
+  "version": "v0.0.5",
+  "generated_utc": "2026-08-23T08:18:06.665687+00:00",
+  "cadquery_version": "2.8.0",
+  "status": "CAD_COMPLETE_TPU_STORM_SKIN_PHYSICAL_VALIDATION_PENDING",
+  "selected_architecture": "near_full_contact_flat_print_TPU_skin_with_four_external_dogbone_captures",
+  "selected_attachment": "TPU_DOGBONE_T_HEAD_IN_EXTERNAL_PETG_SIDEWALL_CAGE",
+  "v004_authority": {
+    "lane": "cad/ps_webcam_rainhood_v004_b15_position_retention/",
+    "source_sha256": "0d0a2979c6a3b38ed40585bcddb6d64aa167995e6413cc3cb94ad7bcabd99c94",
+    "validation_sha256": "ab23b0c902bdc43a8a2a96da67397f620d1760ab6000212d4d857308c3e80187",
+    "hood_step_sha256": "51acb7fcc67dcd4785247f70470ef583aa72446036c9110d3f031fa07baa86f4",
+    "latest_physical_observation": "intentional_camera_twist_did_not_show_hood_intrusion"
+  },
+  "physical_observation": {
+    "BARE_PETG_RAIN_IMPACT_NOISE": "OBSERVED",
+    "LIGHT_RAIN": "AUDIBLE_CLICKING",
+    "HEAVY_RAIN": "UNTESTED_POTENTIAL_HIGH_NOISE_RISK"
+  },
+  "controlled_delta": {
+    "v004_hood_removed_volume_mm3": 0.0,
+    "external_anchor_geometry_added_mm3": 1553.721,
+    "nose_to_optical_interior_margin_mm": 2.0
+  },
+  "intersections": {
+    "camera_vs_installed_TPU_mm3": 0.0,
+    "optical_exclusion_vs_installed_TPU_mm3": 0.0,
+    "USB_route_vs_installed_TPU_mm3": 0.0,
+    "carrier_vs_installed_TPU_mm3": 0.0,
+    "v005_anchor_hood_vs_installed_TPU_mm3": 0.0,
+    "anchor_coupon_PETG_vs_TPU_mm3": 0.0
+  },
+  "checks": {
+    "v004_optical_front_y_unchanged": true,
+    "v004_bevel_unchanged": true,
+    "v004_hood_geometry_not_removed": true,
+    "only_external_anchor_geometry_added_to_hood": true,
+    "tripod_and_carrier_authority_unchanged": true,
+    "USB_route_unchanged": true,
+    "camera_TPU_interference_zero": true,
+    "optical_TPU_interference_zero": true,
+    "USB_TPU_interference_zero": true,
+    "carrier_TPU_interference_zero": true,
+    "hood_TPU_no_solid_overlap": true,
+    "anchor_coupon_clearance_no_overlap": true,
+    "nose_stays_above_B_optical_interior": true,
+    "four_mechanical_anchors": true,
+    "no_roof_penetration": true,
+    "adhesive_not_primary": true,
+    "roof_membrane_min_1p5": true,
+    "anchor_tab_min_2p5": true,
+    "anchor_head_width_10_to_12": true,
+    "anchor_root_width_min_10": true,
+    "anchor_root_min_R2": true,
+    "cavity_clearance_positive": true,
+    "preload_X_parameterized": true,
+    "preload_Y_parameterized": true,
+    "flat_pattern_reduced_X": true,
+    "flat_pattern_reduced_Y": true,
+    "rear_corner_drainage_reliefs_present": true,
+    "installed_numeric_contact_clearance_is_small": true,
+    "wind_result_not_certified": true
+  },
+  "artifacts": {
+    "storm_skin_anchor_coupon_v005_petg": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 5032.43,
+        "bounding_box_mm": {
+          "x": 12.0,
+          "y": 36.0,
+          "z": 34.0
+        },
+        "bounds_mm": {
+          "xmin": -0.0,
+          "xmax": 12.0,
+          "ymin": -18.0,
+          "ymax": 18.0,
+          "zmin": -0.0,
+          "zmax": 34.0
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 73484,
+        "triangle_count": 1468,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 12.0,
+          "y": 36.0,
+          "z": 34.0
+        },
+        "sha256": "0706e1e3a2e48cfabedddcf60d110aec7f53b7c472dc6a7a2209a91015770f34"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "storm_skin_anchor_coupon_v005_tpu": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 1494.248,
+        "bounding_box_mm": {
+          "x": 18.002,
+          "y": 50.002,
+          "z": 2.502
+        },
+        "bounds_mm": {
+          "xmin": -9.001,
+          "xmax": 9.001,
+          "ymin": -6.001,
+          "ymax": 44.001,
+          "zmin": -0.001,
+          "zmax": 2.501
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 67084,
+        "triangle_count": 1340,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 18.0,
+          "y": 50.0,
+          "z": 2.5
+        },
+        "sha256": "9231530c11e17eca04cc63f332edbdafa53e583f63edf5252aa398b76a5c1f94"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "tpu_acoustic_coupon_1p0": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 3716.858,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 1.001
+        },
+        "bounds_mm": {
+          "xmin": -30.0,
+          "xmax": 42.0,
+          "ymin": -30.0,
+          "ymax": 30.0,
+          "zmin": -0.0,
+          "zmax": 1.0
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 22684,
+        "triangle_count": 452,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 1.0
+        },
+        "sha256": "633add6119212dfa95716653dfc248a5d2ac5aafa65f4633d82d6bcd076c1efe"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "tpu_acoustic_coupon_1p5": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 5570.575,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 1.501
+        },
+        "bounds_mm": {
+          "xmin": -30.0,
+          "xmax": 42.0,
+          "ymin": -30.0,
+          "ymax": 30.0,
+          "zmin": -0.0,
+          "zmax": 1.5
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 43884,
+        "triangle_count": 876,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 1.5
+        },
+        "sha256": "20a75a66ff33dfe793758bb9cd2ba93e17a5fc86181aa78eae49cffdd82cf9cd"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "tpu_acoustic_coupon_2p0": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 7421.15,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 2.001
+        },
+        "bounds_mm": {
+          "xmin": -30.0,
+          "xmax": 42.0,
+          "ymin": -30.0,
+          "ymax": 30.0,
+          "zmin": -0.0,
+          "zmax": 2.0
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 65084,
+        "triangle_count": 1300,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 72.0,
+          "y": 60.0,
+          "z": 2.0
+        },
+        "sha256": "3c3f5ef6478aa1524ea2dd2733cfacb132b184503f4491a474ecd01cdd3dfa3c"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "tpu_preload_strap_coupon_v005": {
+      "expected_solids": 3,
+      "brep": {
+        "valid": true,
+        "solid_count": 3,
+        "volume_mm3": 4217.851,
+        "bounding_box_mm": {
+          "x": 80.002,
+          "y": 60.002,
+          "z": 2.301
+        },
+        "bounds_mm": {
+          "xmin": -40.001,
+          "xmax": 40.001,
+          "ymin": -30.001,
+          "ymax": 30.001,
+          "zmin": -0.001,
+          "zmax": 2.3
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 198684,
+        "triangle_count": 3972,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 80.0,
+          "y": 60.0,
+          "z": 2.3
+        },
+        "sha256": "06039d9790eec9fc553d989890a5d77bfb6c1015d9399978aece7fbceb1caf46"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "rainhood_tpu_storm_skin_v005": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 21276.536,
+        "bounding_box_mm": {
+          "x": 161.412,
+          "y": 100.988,
+          "z": 2.502
+        },
+        "bounds_mm": {
+          "xmin": -80.706,
+          "xmax": 80.706,
+          "ymin": -47.994,
+          "ymax": 52.994,
+          "zmin": -0.001,
+          "zmax": 2.501
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 182284,
+        "triangle_count": 3644,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 161.41,
+          "y": 100.988,
+          "z": 2.5
+        },
+        "sha256": "e98dfd547548f83df720429ff49adb84223859e733ed99f6b48b136627195f80"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "rainhood_b15_storm_anchor_v005": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 87908.164,
+        "bounding_box_mm": {
+          "x": 128.801,
+          "y": 88.4,
+          "z": 73.125
+        },
+        "bounds_mm": {
+          "xmin": -64.4,
+          "xmax": 64.4,
+          "ymin": -45.4,
+          "ymax": 43.0,
+          "zmin": -11.503,
+          "zmax": 61.622
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 387684,
+        "triangle_count": 7752,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 128.8,
+          "y": 88.4,
+          "z": 73.122
+        },
+        "sha256": "f94ccd893b89549b10b6d710e040831a51f01cb31f284a2481fdf53bfe52bfd2"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    }
+  },
+  "step_reimport": {
+    "storm_skin_anchor_coupon_v005": {
+      "expected_solids": 2,
+      "source": {
+        "valid": true,
+        "solid_count": 2,
+        "volume_mm3": 5541.18,
+        "bounding_box_mm": {
+          "x": 12.0,
+          "y": 36.0,
+          "z": 42.0
+        },
+        "bounds_mm": {
+          "xmin": -0.0,
+          "xmax": 12.0,
+          "ymin": -18.0,
+          "ymax": 18.0,
+          "zmin": -0.0,
+          "zmax": 42.0
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 2,
+        "volume_mm3": 5541.18,
+        "bounding_box_mm": {
+          "x": 12.0,
+          "y": 36.0,
+          "z": 42.0
+        },
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 12.0,
+          "ymin": -18.0,
+          "ymax": 18.0,
+          "zmin": 0.0,
+          "zmax": 42.0
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "b22f9868eeb3160d8569cf0a6dde861b912f1d1176697caf4375e8c39a9e4e38"
+    },
+    "rainhood_tpu_storm_skin_v005": {
+      "expected_solids": 1,
+      "source": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 20093.914,
+        "bounding_box_mm": {
+          "x": 123.0,
+          "y": 91.4,
+          "z": 12.257
+        },
+        "bounds_mm": {
+          "xmin": -61.5,
+          "xmax": 61.5,
+          "ymin": -46.9,
+          "ymax": 44.5,
+          "zmin": 50.965,
+          "zmax": 63.222
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 20093.914,
+        "bounding_box_mm": {
+          "x": 123.0,
+          "y": 91.4,
+          "z": 12.257
+        },
+        "bounds_mm": {
+          "xmin": -61.5,
+          "xmax": 61.5,
+          "ymin": -46.9,
+          "ymax": 44.5,
+          "zmin": 50.965,
+          "zmax": 63.222
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "ef25937a371101d0bfc37055a15e5f37deebdce813330e2eaa438b3130751627"
+    },
+    "rainhood_b15_storm_anchor_v005": {
+      "expected_solids": 1,
+      "source": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 87908.164,
+        "bounding_box_mm": {
+          "x": 128.801,
+          "y": 88.4,
+          "z": 73.125
+        },
+        "bounds_mm": {
+          "xmin": -64.4,
+          "xmax": 64.4,
+          "ymin": -45.4,
+          "ymax": 43.0,
+          "zmin": -11.503,
+          "zmax": 61.622
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 87908.164,
+        "bounding_box_mm": {
+          "x": 128.8,
+          "y": 88.4,
+          "z": 73.122
+        },
+        "bounds_mm": {
+          "xmin": -64.4,
+          "xmax": 64.4,
+          "ymin": -45.4,
+          "ymax": 43.0,
+          "zmin": -11.5,
+          "zmax": 61.622
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "87c6083b0be1e9c1bbc864574de2ce0f4e46d3826f20d8854a3270a87f0aca79"
+    },
+    "storm_skin_assembly_v005": {
+      "expected_solids": 5,
+      "source": {
+        "valid": true,
+        "solid_count": 5,
+        "volume_mm3": 328641.254,
+        "bounding_box_mm": {
+          "x": 128.801,
+          "y": 91.4,
+          "z": 78.222
+        },
+        "bounds_mm": {
+          "xmin": -64.4,
+          "xmax": 64.4,
+          "ymin": -46.9,
+          "ymax": 44.5,
+          "zmin": -15.0,
+          "zmax": 63.222
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 5,
+        "volume_mm3": 328641.254,
+        "bounding_box_mm": {
+          "x": 128.8,
+          "y": 91.4,
+          "z": 78.222
+        },
+        "bounds_mm": {
+          "xmin": -64.4,
+          "xmax": 64.4,
+          "ymin": -46.9,
+          "ymax": 44.5,
+          "zmin": -15.0,
+          "zmax": 63.222
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "6c843c63c5d72567c540d8b39d3d3cc150169ac32a66e8201dcf50c9b8d12e71"
+    }
+  },
+  "wind_estimate": {
+    "status": "ENGINEERING_ESTIMATE_ONLY",
+    "certified_wind_rating": false,
+    "air_density_kg_m3": 1.225,
+    "Cd_range": [
+      0.8,
+      1.4
+    ],
+    "projected_areas": {
+      "plan_xy_m2": 0.0112422,
+      "front_xz_m2": 0.0015075899163576893,
+      "side_yz_m2": 0.0011202741329682344,
+      "method": "conservative_CAD_bounding_projection_envelope"
+    },
+    "cases": {
+      "10_m_s": {
+        "dynamic_pressure_Pa": 61.25,
+        "directions": {
+          "uplift_plan": {
+            "area_m2": 0.0112422,
+            "force_N_Cd0p8": 0.5508678000000001,
+            "force_N_Cd1p4": 0.9640186500000001
+          },
+          "front": {
+            "area_m2": 0.0015075899163576893,
+            "force_N_Cd0p8": 0.07387190590152679,
+            "force_N_Cd1p4": 0.12927583532767187
+          },
+          "side": {
+            "area_m2": 0.0011202741329682344,
+            "force_N_Cd0p8": 0.054893432515443485,
+            "force_N_Cd1p4": 0.0960635069020261
+          }
+        }
+      },
+      "20_m_s": {
+        "dynamic_pressure_Pa": 245.0,
+        "directions": {
+          "uplift_plan": {
+            "area_m2": 0.0112422,
+            "force_N_Cd0p8": 2.2034712000000005,
+            "force_N_Cd1p4": 3.8560746000000004
+          },
+          "front": {
+            "area_m2": 0.0015075899163576893,
+            "force_N_Cd0p8": 0.29548762360610714,
+            "force_N_Cd1p4": 0.5171033413106875
+          },
+          "side": {
+            "area_m2": 0.0011202741329682344,
+            "force_N_Cd0p8": 0.21957373006177394,
+            "force_N_Cd1p4": 0.3842540276081044
+          }
+        }
+      },
+      "30_m_s": {
+        "dynamic_pressure_Pa": 551.25,
+        "directions": {
+          "uplift_plan": {
+            "area_m2": 0.0112422,
+            "force_N_Cd0p8": 4.957810200000001,
+            "force_N_Cd1p4": 8.676167849999999
+          },
+          "front": {
+            "area_m2": 0.0015075899163576893,
+            "force_N_Cd0p8": 0.6648471531137411,
+            "force_N_Cd1p4": 1.1634825179490467
+          },
+          "side": {
+            "area_m2": 0.0011202741329682344,
+            "force_N_Cd0p8": 0.4940408926389914,
+            "force_N_Cd1p4": 0.8645715621182348
+          }
+        }
+      }
+    },
+    "limitations": [
+      "bounding-envelope projection is conservative rather than CFD silhouette",
+      "gust, turbulence, edge suction, local peel, and installation variation are not resolved",
+      "bench targets are validation loads, not a certified wind-speed rating"
+    ]
+  },
+  "pass_separation": {
+    "CAD_PASS": true,
+    "TPU_ANCHOR_PHYSICAL_PASS": false,
+    "TPU_RAIN_NOISE_REDUCTION_PHYSICAL_PASS": false,
+    "TPU_STORM_SKIN_BENCH_RETENTION_PASS": false,
+    "FIELD_WIND_VALIDATION_PASS": false,
+    "WIND_DRIVEN_RAIN_PASS": false,
+    "UV_WEATHER_AGING_PASS": false
+  },
+  "blockers": [
+    "TPU anchor physical retention",
+    "TPU acoustic effectiveness",
+    "full-skin peel resistance"
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "lane": "ps_webcam_rainhood_v003_optical_clearance",
+  "version": "v0.0.3",
+  "generated_utc": "2026-08-18T07:23:12.165069+00:00",
+  "cadquery_version": "2.8.0",
+  "status": "CAD_COMPLETE_OPTICAL_COUPON_PHYSICAL_VALIDATION_PENDING",
+  "pass_level_separation": {
+    "CAD_PASS": true,
+    "PRINT_PENDING": true,
+    "FIT_PENDING": true,
+    "OPTICAL_PENDING": true,
+    "RAIN_PENDING": true,
+    "FIELD_PENDING": true,
+    "OPTICAL_PASS": false,
+    "RAIN_PASS": false,
+    "FIELD_PASS": false
+  },
+  "v002_provenance": {
+    "commit": "17a703694d5b2e127b5f7bccf8bfe3c5f1f0f2b9",
+    "source_path": "cad/ps_webcam_rainhood_v002_tripod_mount/cad/ps_webcam_rainhood_v002.py",
+    "source_blob": "43cd3b5197be19add694b078bd655b0c3a8c75d8"
+  },
+  "coupon_scope": {
+    "exact_v002_carrier_interface": true,
+    "camera_reference_unchanged": true,
+    "roof_complete_through_y_mm": 22.0,
+    "rear_roof_and_rear_baffle_omitted_for_low_material_test": true,
+    "deployable_rainhood": false
+  },
+  "interface_authority": {
+    "carrier_w": 110.8,
+    "carrier_front_y": -36.0,
+    "carrier_rear_y": 38.0,
+    "carrier_thickness": 6.0,
+    "tripod_axis_x": 0.15,
+    "tripod_axis_y": 0.0,
+    "tripod_through_hole": 6.8,
+    "shell_mount_x": 44.0,
+    "shell_mount_y": 33.0,
+    "shell_m4_clearance": 4.5,
+    "lower_rail_inner_x": 50.0,
+    "lower_rail_top_z": -6.0,
+    "upper_rail_bottom_z": 0.8,
+    "rail_thickness": 3.0,
+    "slide_lateral_clearance": 0.6,
+    "slide_vertical_clearance": 0.8
+  },
+  "interface_brep": {
+    "valid": true,
+    "solid_count": 4,
+    "volume_mm3": 13064.907,
+    "bounding_box_mm": {
+      "x": 118.0,
+      "y": 79.0,
+      "z": 15.3
+    },
+    "bounds_mm": {
+      "xmin": -59.0,
+      "xmax": 59.0,
+      "ymin": -36.0,
+      "ymax": 43.0,
+      "zmin": -11.5,
+      "zmax": 3.8
+    }
+  },
+  "set_checks": {
+    "three_candidates_generated": true,
+    "candidate_stl_hashes_are_distinct": true,
+    "candidate_brep_volumes_are_distinct": true,
+    "candidate_front_bounds_are_distinct": true,
+    "identifier_counts_are_1_2_3": true,
+    "front_setbacks_are_10_15_20": true,
+    "v002_interface_authority_exact_match": true,
+    "same_interface_builder_used_for_all_candidates": true
+  },
+  "candidates": {
+    "A": {
+      "parameters": {
+        "key": "A",
+        "front_setback": 10.0,
+        "underside_bevel_angle": 35.0,
+        "hood_top_height": 59.7,
+        "hood_front_length": 20.0,
+        "camera_reference_position": [
+          0.0,
+          -2.1999999999999993,
+          17.2
+        ],
+        "identifier_count": 1,
+        "physical_status": "PHYSICAL_OPTICAL_VALIDATION_PENDING"
+      },
+      "derived": {
+        "v002_front_y_mm": -60.4,
+        "candidate_front_y_mm": -50.4,
+        "bevel_run_mm": 2.478,
+        "actual_bevel_angle_deg": 35.0,
+        "optical_roof_rear_y_mm": 22.0,
+        "camera_body_rear_y_mm": 14.8,
+        "identifier_rib_count": 1
+      },
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 63600.763,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 93.4,
+          "z": 72.575
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -50.4,
+          "ymax": 43.0,
+          "zmin": -11.503,
+          "zmax": 61.072
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 98884,
+        "triangle_count": 1976,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 93.4,
+          "z": 72.572
+        },
+        "sha256": "b9c39505ecfbe8ab25a81cffd038a515a1157b472abe1191a112e8fb61c44733"
+      },
+      "step_reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 63600.763,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 93.4,
+          "z": 72.572
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -50.4,
+          "ymax": 43.0,
+          "zmin": -11.5,
+          "zmax": 61.072
+        }
+      },
+      "camera_safe_interference_mm3": 0.0,
+      "carrier_interference_mm3": 0.0,
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "stl_nonempty": true,
+        "mesh_triangles_present": true,
+        "mesh_no_degenerate_triangles": true,
+        "mesh_watertight_edge_check": true,
+        "mesh_bbox_matches_brep": true,
+        "step_reimport_valid": true,
+        "step_reimport_single_solid": true,
+        "step_reimport_volume_matches_brep": true,
+        "camera_safe_envelope_no_interference": true,
+        "carrier_no_solid_interference": true,
+        "bevel_angle_matches_parameter": true,
+        "identifier_count_matches_candidate": true,
+        "front_setback_from_v002_exact": true,
+        "hood_front_length_constraint_exact": true,
+        "top_clearance_datum_preserved": true,
+        "camera_reference_position_preserved": true
+      },
+      "cad_pass": true,
+      "print_status": "PRINT_PENDING",
+      "fit_status": "FIT_PENDING",
+      "optical_status": "OPTICAL_PENDING",
+      "rain_status": "RAIN_PENDING",
+      "field_status": "FIELD_PENDING"
+    },
+    "B": {
+      "parameters": {
+        "key": "B",
+        "front_setback": 15.0,
+        "underside_bevel_angle": 40.0,
+        "hood_top_height": 59.7,
+        "hood_front_length": 15.0,
+        "camera_reference_position": [
+          0.0,
+          -2.1999999999999993,
+          17.2
+        ],
+        "identifier_count": 2,
+        "physical_status": "PHYSICAL_OPTICAL_VALIDATION_PENDING"
+      },
+      "derived": {
+        "v002_front_y_mm": -60.4,
+        "candidate_front_y_mm": -45.4,
+        "bevel_run_mm": 2.08,
+        "actual_bevel_angle_deg": 40.0,
+        "optical_roof_rear_y_mm": 22.0,
+        "camera_body_rear_y_mm": 14.8,
+        "identifier_rib_count": 2
+      },
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 60973.715,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 88.4,
+          "z": 72.575
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -45.4,
+          "ymax": 43.0,
+          "zmin": -11.503,
+          "zmax": 61.072
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 99684,
+        "triangle_count": 1992,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 88.4,
+          "z": 72.572
+        },
+        "sha256": "0bab2bbba49622ba3aadc0f0579259bc3029595b20e84506aac6c734bdf8703a"
+      },
+      "step_reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 60973.715,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 88.4,
+          "z": 72.572
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -45.4,
+          "ymax": 43.0,
+          "zmin": -11.5,
+          "zmax": 61.072
+        }
+      },
+      "camera_safe_interference_mm3": 0.0,
+      "carrier_interference_mm3": 0.0,
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "stl_nonempty": true,
+        "mesh_triangles_present": true,
+        "mesh_no_degenerate_triangles": true,
+        "mesh_watertight_edge_check": true,
+        "mesh_bbox_matches_brep": true,
+        "step_reimport_valid": true,
+        "step_reimport_single_solid": true,
+        "step_reimport_volume_matches_brep": true,
+        "camera_safe_envelope_no_interference": true,
+        "carrier_no_solid_interference": true,
+        "bevel_angle_matches_parameter": true,
+        "identifier_count_matches_candidate": true,
+        "front_setback_from_v002_exact": true,
+        "hood_front_length_constraint_exact": true,
+        "top_clearance_datum_preserved": true,
+        "camera_reference_position_preserved": true
+      },
+      "cad_pass": true,
+      "print_status": "PRINT_PENDING",
+      "fit_status": "FIT_PENDING",
+      "optical_status": "OPTICAL_PENDING",
+      "rain_status": "RAIN_PENDING",
+      "field_status": "FIELD_PENDING"
+    },
+    "C": {
+      "parameters": {
+        "key": "C",
+        "front_setback": 20.0,
+        "underside_bevel_angle": 45.0,
+        "hood_top_height": 59.7,
+        "hood_front_length": 10.0,
+        "camera_reference_position": [
+          0.0,
+          -2.1999999999999993,
+          17.2
+        ],
+        "identifier_count": 3,
+        "physical_status": "PHYSICAL_OPTICAL_VALIDATION_PENDING"
+      },
+      "derived": {
+        "v002_front_y_mm": -60.4,
+        "candidate_front_y_mm": -40.4,
+        "bevel_run_mm": 1.754,
+        "actual_bevel_angle_deg": 45.0,
+        "optical_roof_rear_y_mm": 22.0,
+        "camera_body_rear_y_mm": 14.8,
+        "identifier_rib_count": 3
+      },
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 58183.302,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 83.4,
+          "z": 72.575
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -40.4,
+          "ymax": 43.0,
+          "zmin": -11.503,
+          "zmax": 61.072
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 100484,
+        "triangle_count": 2008,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 83.4,
+          "z": 72.572
+        },
+        "sha256": "3b6331487684875469f0d4197aa512c59fafd63a5e9afbf8cd5b20cb78f508c8"
+      },
+      "step_reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 58183.302,
+        "bounding_box_mm": {
+          "x": 119.2,
+          "y": 83.4,
+          "z": 72.572
+        },
+        "bounds_mm": {
+          "xmin": -59.0,
+          "xmax": 60.2,
+          "ymin": -40.4,
+          "ymax": 43.0,
+          "zmin": -11.5,
+          "zmax": 61.072
+        }
+      },
+      "camera_safe_interference_mm3": 0.0,
+      "carrier_interference_mm3": 0.0,
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "stl_nonempty": true,
+        "mesh_triangles_present": true,
+        "mesh_no_degenerate_triangles": true,
+        "mesh_watertight_edge_check": true,
+        "mesh_bbox_matches_brep": true,
+        "step_reimport_valid": true,
+        "step_reimport_single_solid": true,
+        "step_reimport_volume_matches_brep": true,
+        "camera_safe_envelope_no_interference": true,
+        "carrier_no_solid_interference": true,
+        "bevel_angle_matches_parameter": true,
+        "identifier_count_matches_candidate": true,
+        "front_setback_from_v002_exact": true,
+        "hood_front_length_constraint_exact": true,
+        "top_clearance_datum_preserved": true,
+        "camera_reference_position_preserved": true
+      },
+      "cad_pass": true,
+      "print_status": "PRINT_PENDING",
+      "fit_status": "FIT_PENDING",
+      "optical_status": "OPTICAL_PENDING",
+      "rain_status": "RAIN_PENDING",
+      "field_status": "FIELD_PENDING"
+    }
+  }
+}

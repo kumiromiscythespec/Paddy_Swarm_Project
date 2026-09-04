@@ -1,0 +1,179 @@
+{
+  "project": "BH_V007 Reinforced Upper Spine + Integrated Long Slide Receiver",
+  "units": "mm",
+  "material": "PETG Basic equivalent",
+  "printer": {
+    "model": "Bambu Lab A1",
+    "nozzle_diameter": 0.4,
+    "main_layer_height": 0.2,
+    "collar_layer_height_range": [0.16, 0.2],
+    "main_walls_min": 5,
+    "upper_structure_walls_recommended": 6,
+    "infill_percent_range": [30, 40]
+  },
+  "physical_authority": {
+    "neck_id": 26.2,
+    "slide_candidate": "S3_loose",
+    "tab_width": 16.0,
+    "tab_thickness": 4.0,
+    "receiver_hold_width": 17.1,
+    "receiver_hold_thickness": 4.8,
+    "clearance_width": 1.1,
+    "clearance_thickness": 0.8,
+    "v006_coupon_to_production_tab_solid_difference_mm3": 0.0
+  },
+  "cup": {
+    "height": 94.0,
+    "inner_x": 72.0,
+    "inner_y": 72.0,
+    "inner_corner_radius": 11.0,
+    "wall": 3.2,
+    "bottom_thickness": 3.6,
+    "outer_x": 78.4,
+    "outer_y": 78.4,
+    "outer_corner_radius": 14.2,
+    "top_lead_in_height": 1.2,
+    "top_lead_in_radial": 1.2,
+    "outer_top_edge_radius": 2.0,
+    "drain_hole_diameter": 8.0,
+    "drain_hole_centers_xy": [[0.0, 0.0], [20.0, 0.0], [-20.0, 0.0], [0.0, 20.0], [0.0, -20.0]]
+  },
+  "rope": {
+    "diameter": 4.8,
+    "slot_width": 8.0,
+    "slot_height": 14.0,
+    "slot_count": 2,
+    "slot_center_spacing": 46.0,
+    "slot_center_z": 165.0,
+    "body_side_entry_width": 12.0,
+    "body_side_entry_height": 18.0,
+    "body_side_edge_radius": 1.5
+  },
+  "body_contact": {
+    "upper_pad_width": 82.0,
+    "upper_pad_height": 78.0,
+    "upper_pad_corner_radius": 12.0,
+    "upper_pad_thickness": 5.0,
+    "upper_pad_center_z": 179.6,
+    "lower_pad_width": 74.0,
+    "lower_pad_height": 46.0,
+    "lower_pad_corner_radius": 11.0,
+    "lower_pad_thickness": 8.0,
+    "lower_pad_center_z": 53.0
+  },
+  "upper_spine": {
+    "width": 38.0,
+    "thickness": 8.5,
+    "front_y": -38.7,
+    "rear_y": -47.2,
+    "z_min": 54.0,
+    "z_max": 213.6,
+    "root_fillet": 10.0,
+    "rib_thickness": 4.5,
+    "rib_x_centers": [-15.0, 15.0],
+    "rib_z_min": 124.0,
+    "rib_z_max": 179.6,
+    "rib_front_y_at_top": -36.35,
+    "minimum_section_area_mm2": 323.0
+  },
+  "receiver": {
+    "center_y": -41.9,
+    "hold_width": 17.1,
+    "hold_thickness": 4.8,
+    "entry_width": 17.5,
+    "entry_thickness": 5.1,
+    "entry_guide_length": 6.0,
+    "total_internal_length": 34.0,
+    "hold_length": 28.0,
+    "side_wall": 3.0,
+    "back_wall": 3.0,
+    "front_lip": 3.0,
+    "front_stem_slot_width": 10.8,
+    "bottom_stop_thickness": 3.0,
+    "cavity_z_min": 179.6,
+    "cavity_z_max": 213.6,
+    "hold_z_max": 207.6,
+    "outer_front_y": -36.35,
+    "v007_forward_protrusion_from_cup_rear": 2.85,
+    "v006_forward_protrusion_from_cup_rear": 18.9
+  },
+  "neck_collar": {
+    "id": 26.2,
+    "height": 7.0,
+    "wall": 3.0,
+    "od": 32.2,
+    "c_opening": 5.0,
+    "opening_tip_radius": 1.2
+  },
+  "long_tab": {
+    "width": 16.0,
+    "thickness": 4.0,
+    "height": 30.0,
+    "center_y": -41.9,
+    "local_z_min_from_collar_bottom": -7.0,
+    "local_z_max_from_collar_bottom": 23.0,
+    "hold_corner_radius": 1.2,
+    "nose_length": 4.0,
+    "nose_tip_width": 14.0,
+    "nose_tip_thickness": 2.0,
+    "root_width": 10.0,
+    "root_plan_radius": 4.0,
+    "rearward_projection_from_collar_od": 27.8
+  },
+  "assembly": {
+    "bottle_support_plane_z": 3.6,
+    "nominal_collar_bottom_global_z": 187.1,
+    "target_float": 0.5,
+    "acceptable_float_range": [0.3, 0.8],
+    "cap_rotation_clearance_diameter": 34.0,
+    "bottle_centerline_x": 0.0,
+    "bottle_centerline_y": 0.0,
+    "cup_centerline_x": 0.0,
+    "cup_centerline_y": 0.0
+  },
+  "bottle_clearance_envelope": {
+    "upper_body_x": 72.0,
+    "upper_body_y": 72.0,
+    "upper_body_corner_radius": 11.0,
+    "upper_body_z_max": 145.6,
+    "shoulder_z_max": 183.6,
+    "neck_diameter": 26.2,
+    "neck_z_max": 214.0
+  },
+  "comparison_v006": {
+    "upper_spine_width": 30.0,
+    "upper_spine_thickness": 6.5,
+    "upper_min_section_area_mm2": 195.0,
+    "root_fillet": 6.0,
+    "receiver_length": 22.0,
+    "tab_length": 20.0,
+    "receiver_protrusion": 18.9,
+    "main_body_volume_mm3": 193032.32
+  },
+  "physical_state": {
+    "NECK_ID26p2_PHYSICAL_FIT": "PASS",
+    "V006_SLIDE_S3_PHYSICAL_FIT": "PASS",
+    "V007_LONG_SLIDE_PHYSICAL_FIT": "PENDING",
+    "V007_VERTICAL_BOTTLE_ALIGNMENT": "PENDING",
+    "V007_UPPER_STRUCTURE_STRENGTH": "PENDING",
+    "V007_ROUND_BOTTLE_FIELD_FIT": "PENDING",
+    "V007_SQUARE_BOTTLE_FIELD_FIT": "PENDING",
+    "V007_BODY_COMFORT": "PENDING",
+    "V007_BOUNCE_TEST": "PENDING",
+    "V007_35N_CYCLIC_DURABILITY": "PENDING"
+  },
+  "start_git_state": {
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "tracked_status": [
+      " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M README.md",
+      " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  },
+  "mesh_export": {
+    "linear_tolerance": 0.08,
+    "angular_tolerance": 0.12
+  }
+}

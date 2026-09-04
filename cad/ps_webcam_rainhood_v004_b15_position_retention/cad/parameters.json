@@ -1,0 +1,72 @@
+{
+  "lane": "ps_webcam_rainhood_v004_b15_position_retention",
+  "version": "v0.0.4",
+  "status": "CAD_COMPLETE_B15_POSITION_RETENTION_PHYSICAL_VALIDATION_PENDING",
+  "selected_optical_geometry": {
+    "name": "B_setback15",
+    "front_setback_mm": 15.0,
+    "front_y_mm": -45.4,
+    "underside_bevel_deg": 40.0,
+    "bevel_run_mm": 2.08,
+    "front_length_mm": 15.0,
+    "hood_outer_width_mm": 118.0,
+    "hood_inner_width_mm": 112.0,
+    "wall_mm": 3.0,
+    "top_clearance_mm": 4.0,
+    "physical_result": "SELECTED_CONDITIONAL"
+  },
+  "position_retention": {
+    "strategy": "extended_guides_plus_shallow_front_corner_stops",
+    "guide_clearance_mm": 0.7,
+    "guide_height_mm": 2.8,
+    "v002_guide_length_mm": 44.0,
+    "v004_guide_length_mm": 52.4,
+    "guide_y0_mm": -28.4,
+    "guide_y1_mm": 24.0,
+    "front_corner_stop_clearance_mm": 0.7,
+    "front_corner_stop_height_mm": 2.8,
+    "rear_stop_clearance_mm": 0.7,
+    "normal_contact_target": "NONE_OR_LIGHT",
+    "hard_press_fit_allowed": false
+  },
+  "fixed_authority": {
+    "tripod_axis_mm": [
+      0.14999999999999858,
+      0.0
+    ],
+    "tripod_through_hole_mm": 6.8,
+    "tripod_thread": "1/4-20 UNC",
+    "candidate_screw_length_in": 0.375,
+    "calculated_insertion_mm": 3.525,
+    "thread_depth_mm": 4.8,
+    "bottom_clearance_mm": 1.275,
+    "tripod_thread_physical": "PENDING",
+    "carrier_mm": [
+      110.8,
+      74.0,
+      6.0
+    ],
+    "camera_mm": [
+      101.5,
+      35.5,
+      34.0
+    ],
+    "folded_safe_envelope_depth_mm": 56.4,
+    "folded_safe_envelope_height_mm": 52.7,
+    "usb_cable_od_mm": 3.6,
+    "usb_channel_mm": 6.0
+  },
+  "fallback": {
+    "name": "C_setback20",
+    "physical_result": "OPTICAL_ROBUST_PASS"
+  },
+  "indicator": {
+    "safety_feature": false,
+    "status_indicator_only": true
+  },
+  "holds": {
+    "printed_pipe_clamp": "REJECTED",
+    "commercial_metal_clamp": "HOLD_SELECTION",
+    "pipe_od_mm": 26.2
+  }
+}

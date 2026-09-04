@@ -1,0 +1,502 @@
+{
+  "project": "BH_V007 Reinforced Upper Spine + Integrated Long Slide Receiver",
+  "overall_cad_status": "PASS",
+  "hard_failures": [],
+  "summary_counts": {
+    "PASS": 40,
+    "PENDING": 8
+  },
+  "cad_checks": {
+    "all_step_generated": {
+      "status": "PASS",
+      "detail": "All required V007 STEP files exist and are non-empty."
+    },
+    "all_stl_generated": {
+      "status": "PASS",
+      "detail": "All required V007 STL files exist and are non-empty."
+    },
+    "step_reload_valid": {
+      "status": "PASS",
+      "detail": "Every STEP reloads with valid positive-volume solids."
+    },
+    "all_stl_watertight": {
+      "status": "PASS",
+      "detail": "All V007 STL meshes are watertight."
+    },
+    "non_manifold_edge_zero": {
+      "status": "PASS",
+      "detail": "Every V007 STL has zero non-manifold edges."
+    },
+    "no_negative_volume": {
+      "status": "PASS",
+      "detail": "Every V007 STL has positive signed volume."
+    },
+    "no_duplicate_solid": {
+      "status": "PASS",
+      "detail": "No artifact contains duplicated solid signatures; coupon and assembly contain intentional distinct shells."
+    },
+    "cup_height_94": {
+      "status": "PASS",
+      "detail": "Cup B-rep Z extent = 94.024 mm."
+    },
+    "cup_72x72_r11": {
+      "status": "PASS",
+      "detail": "Functional cavity = 72.000 x 72.000 mm / R11.0."
+    },
+    "rope_slots_8x14_two_at_46": {
+      "status": "PASS",
+      "detail": "Two 8 x 14 mm slots at 46 mm centers pass phi4.8 mm gauges."
+    },
+    "neck_id26p2": {
+      "status": "PASS",
+      "detail": "The unchanged V006 tested C-ring primitive is generated at ID26.2 mm."
+    },
+    "tab_width_16": {
+      "status": "PASS",
+      "detail": "Hold-section construction width = 16.0 mm; B-rep bbox = 16.000 mm."
+    },
+    "tab_thickness_4": {
+      "status": "PASS",
+      "detail": "Hold-section construction thickness = 4.0 mm; B-rep bbox = 4.000 mm."
+    },
+    "tab_height_28_to_32": {
+      "status": "PASS",
+      "detail": "Long-tab B-rep height = 30.000 mm; authority = 30.0 mm."
+    },
+    "tab_nose_lead_in": {
+      "status": "PASS",
+      "detail": "The first 4.0 mm tapers from 14.0 x 2.0 to 16.0 x 4.0 mm."
+    },
+    "receiver_hold_17p1x4p8": {
+      "status": "PASS",
+      "detail": "Receiver hold cutter = 17.100 x 4.800 mm."
+    },
+    "receiver_length_32_to_36": {
+      "status": "PASS",
+      "detail": "Receiver internal guide length = 34.0 mm."
+    },
+    "receiver_entry_lead_in": {
+      "status": "PASS",
+      "detail": "Smooth loft lead-in length = 6.150 mm, expanding to 17.5 x 5.1 mm."
+    },
+    "main_collar_intersection_zero": {
+      "status": "PASS",
+      "detail": "Nominal main/collar intersection = 0.000000 mm3."
+    },
+    "straight_top_slide_in": {
+      "status": "PASS",
+      "detail": "The vertical path from +42 mm to nominal seat is collision-free."
+    },
+    "bottle_shoulder_envelope_clear": {
+      "status": "PASS",
+      "detail": "Upper structural overlap with conservative bottle envelope = 0.000000 mm3."
+    },
+    "bottle_centerline_alignment": {
+      "status": "PASS",
+      "detail": "Cup/bottle axis offset = 0.000 mm; receiver/tab lateral X offset = 0.000 mm."
+    },
+    "receiver_protrusion_reduced": {
+      "status": "PASS",
+      "detail": "Receiver forward protrusion reduced from 18.90 to 2.85 mm (84.9% reduction)."
+    },
+    "receiver_integrated_into_spine": {
+      "status": "PASS",
+      "detail": "Receiver/spine fused overlap = 7324.896 mm3; no separate forward pedestal exists."
+    },
+    "upper_spine_width_at_least_36": {
+      "status": "PASS",
+      "detail": "Upper spine width = 38.0 mm."
+    },
+    "upper_spine_thickness_at_least_8": {
+      "status": "PASS",
+      "detail": "Upper spine thickness = 8.5 mm."
+    },
+    "root_fillet_at_least_r8": {
+      "status": "PASS",
+      "detail": "Spine/root rounded-plate radius = R10.0."
+    },
+    "two_receiver_support_ribs": {
+      "status": "PASS",
+      "detail": "Two receiver-to-spine ribs use 4.5 mm CAD thickness."
+    },
+    "assembly_float_positive": {
+      "status": "PASS",
+      "detail": "Assembly float = 0.500 mm (>0)."
+    },
+    "assembly_float_target_range": {
+      "status": "PASS",
+      "detail": "Assembly float 0.500 mm is within 0.3--0.8 mm."
+    },
+    "cup_bottom_primary_support": {
+      "status": "PASS",
+      "detail": "The bottle seats on the 3.6 mm cup floor while the tab floats above the stop."
+    },
+    "cap_rotation_envelope_clear": {
+      "status": "PASS",
+      "detail": "Phi34.0 cap envelope overlap = 0.000000 mm3."
+    },
+    "upper_coupon_contains_actual_structure": {
+      "status": "PASS",
+      "detail": "Actual upper-structure material absent from coupon fixture = 0.000000 mm3."
+    },
+    "upper_coupon_has_fixture_and_long_collar": {
+      "status": "PASS",
+      "detail": "Coupon STL/STEP contains the tall reinforced fixture and a separate printable long-tab collar."
+    },
+    "bambu_a1_z_envelope": {
+      "status": "PASS",
+      "detail": "Main body maximum Z = 218.605 mm, within Bambu A1 256 mm Z."
+    },
+    "upper_min_section_increased": {
+      "status": "PASS",
+      "detail": "Analytical uninterrupted spine section increased from 195.0 to 323.0 mm2 (65.6%)."
+    },
+    "git_branch_head_unchanged": {
+      "status": "PASS",
+      "detail": "Start/end branch=agent/organize-untracked-cad-assets-20260725, HEAD=7c149a65053f2292bc4cc0ed06d8941c96852f2b."
+    },
+    "preexisting_tracked_status_unchanged": {
+      "status": "PASS",
+      "detail": "Pre-existing tracked status is unchanged; the generator performs read-only Git inspection only."
+    }
+  },
+  "physical_state": {
+    "NECK_ID26p2_PHYSICAL_FIT": {
+      "status": "PASS",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V006_SLIDE_S3_PHYSICAL_FIT": {
+      "status": "PASS",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_LONG_SLIDE_PHYSICAL_FIT": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_VERTICAL_BOTTLE_ALIGNMENT": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_UPPER_STRUCTURE_STRENGTH": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_ROUND_BOTTLE_FIELD_FIT": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_SQUARE_BOTTLE_FIELD_FIT": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_BODY_COMFORT": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_BOUNCE_TEST": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    },
+    "V007_35N_CYCLIC_DURABILITY": {
+      "status": "PENDING",
+      "detail": "Inherited V006 physical result or V007 test state; CAD does not promote PENDING items."
+    }
+  },
+  "git": {
+    "start": {
+      "branch": "agent/organize-untracked-cad-assets-20260725",
+      "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+      "tracked_status": [
+        " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M README.md",
+        " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      ]
+    },
+    "end": {
+      "branch": "agent/organize-untracked-cad-assets-20260725",
+      "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+      "tracked_status": [
+        " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M README.md",
+        " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      ]
+    }
+  },
+  "step_reload": {
+    "BH_V007_main_body_reinforced_integrated_slide_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_neck_collar_ID26p2_long_tab_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_upper_structure_coupon_PETG.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_assembly_reference.step": {
+      "solid_count": 2,
+      "valid": true,
+      "positive_volume": true
+    }
+  },
+  "stl_metrics": {
+    "BH_V007_main_body_reinforced_integrated_slide_PETG.stl": {
+      "vertices": 14081,
+      "faces": 28186,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 205764.604,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -41.0,
+          -51.8,
+          0.0
+        ],
+        [
+          41.0,
+          39.2,
+          218.6
+        ]
+      ]
+    },
+    "BH_V007_neck_collar_ID26p2_long_tab_PETG.stl": {
+      "vertices": 3488,
+      "faces": 6972,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 6023.734,
+      "negative_volume": false,
+      "body_count": 1,
+      "bounds_mm": [
+        [
+          -16.097,
+          -43.9,
+          -7.0
+        ],
+        [
+          16.097,
+          15.633,
+          23.0
+        ]
+      ]
+    },
+    "BH_V007_upper_structure_coupon_PETG.stl": {
+      "vertices": 4547,
+      "faces": 9086,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 120363.32,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -45.0,
+          -57.5,
+          0.0
+        ],
+        [
+          82.097,
+          47.5,
+          213.6
+        ]
+      ]
+    },
+    "BH_V007_assembly_preview.stl": {
+      "vertices": 17569,
+      "faces": 35158,
+      "watertight": true,
+      "winding_consistent": true,
+      "non_manifold_edges": 0,
+      "volume_mm3": 211788.338,
+      "negative_volume": false,
+      "body_count": 2,
+      "bounds_mm": [
+        [
+          -41.0,
+          -51.8,
+          0.0
+        ],
+        [
+          41.0,
+          39.2,
+          218.6
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "main_body_bbox_mm": {
+      "xmin": -41.0051,
+      "xmax": 41.0051,
+      "ymin": -51.8051,
+      "ymax": 39.2069,
+      "zmin": -0.0122,
+      "zmax": 218.6051,
+      "xlen": 82.0102,
+      "ylen": 91.0119,
+      "zlen": 218.6173
+    },
+    "cup_bbox_mm": {
+      "xmin": -39.2069,
+      "xmax": 39.2069,
+      "ymin": -39.2,
+      "ymax": 39.2069,
+      "zmin": -0.006,
+      "zmax": 94.0181,
+      "xlen": 78.4137,
+      "ylen": 78.4069,
+      "zlen": 94.0242
+    },
+    "functional_cavity_bbox_mm": {
+      "xmin": -36.0,
+      "xmax": 36.0,
+      "ymin": -36.0,
+      "ymax": 36.0,
+      "zmin": 3.6,
+      "zmax": 92.8,
+      "xlen": 72.0,
+      "ylen": 72.0,
+      "zlen": 89.2
+    },
+    "tab_bbox_mm": {
+      "xmin": -8.0,
+      "xmax": 8.0,
+      "ymin": -43.9,
+      "ymax": -39.9,
+      "zmin": -7.0,
+      "zmax": 23.0,
+      "xlen": 16.0,
+      "ylen": 4.0,
+      "zlen": 30.0
+    },
+    "receiver_hold_cutter_bbox_mm": {
+      "xmin": -8.55,
+      "xmax": 8.55,
+      "ymin": -44.3,
+      "ymax": -39.5,
+      "zmin": 179.6,
+      "zmax": 207.6,
+      "xlen": 17.1,
+      "ylen": 4.8,
+      "zlen": 28.0
+    },
+    "receiver_entry_bbox_mm": {
+      "xmin": -8.75,
+      "xmax": 8.75,
+      "ymin": -44.45,
+      "ymax": -39.35,
+      "zmin": 207.6,
+      "zmax": 213.75,
+      "xlen": 17.5,
+      "ylen": 5.1,
+      "zlen": 6.15
+    },
+    "nominal_main_collar_intersection_mm3": 0.0,
+    "slide_path": [
+      {
+        "offset_z_mm": 42.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 36.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 30.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 24.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 18.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 12.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 6.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "offset_z_mm": 0.0,
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "bottle_envelope_intersection_mm3": 0.0,
+    "bottle_centerline_offset_mm": 0.0,
+    "receiver_tab_x_offset_mm": 0.0,
+    "assembly_float_mm": 0.5,
+    "cap_envelope_intersection_mm3": 0.0,
+    "receiver_spine_fused_overlap_mm3": 7324.896,
+    "upper_coupon_missing_actual_structure_mm3": 0.0,
+    "rope_gauge_checks": [
+      {
+        "center_x_mm": -23.0,
+        "center_z_mm": 165.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "center_x_mm": 23.0,
+        "center_z_mm": 165.0,
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "duplicate_solid_signatures": {
+      "BH_V007_main_body_reinforced_integrated_slide_PETG": [],
+      "BH_V007_neck_collar_ID26p2_long_tab_PETG": [],
+      "BH_V007_upper_structure_coupon_PETG": [],
+      "BH_V007_assembly_reference": []
+    }
+  },
+  "comparison_v006_v007": {
+    "receiver_forward_protrusion_mm": {
+      "V006": 18.9,
+      "V007": 2.85,
+      "reduction_percent": 84.92
+    },
+    "upper_min_section_area_mm2": {
+      "V006": 195.0,
+      "V007": 323.0,
+      "increase_percent": 65.64
+    },
+    "root_fillet_mm": {
+      "V006": 6.0,
+      "V007": 10.0
+    },
+    "receiver_guide_length_mm": {
+      "V006": 22.0,
+      "V007": 34.0
+    },
+    "tab_length_mm": {
+      "V006": 20.0,
+      "V007": 30.0
+    },
+    "bottle_centerline_offset_mm": 0.0,
+    "main_body_cad_volume_mm3": {
+      "V006": 193032.32,
+      "V007": 205780.21,
+      "change_percent": 6.6
+    },
+    "solid_petg_equivalent_mass_g_at_1p27": {
+      "V006": 245.15,
+      "V007": 261.34,
+      "note": "Solid-CAD equivalent only; slicer walls/infill determine printed mass."
+    }
+  }
+}

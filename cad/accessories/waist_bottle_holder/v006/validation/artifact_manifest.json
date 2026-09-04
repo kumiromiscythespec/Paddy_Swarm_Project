@@ -1,0 +1,24 @@
+{
+  "step": [
+    "step/BH_V006_main_body_94mm_squircle_rope4p8_PETG.step",
+    "step/BH_V006_neck_collar_slide_tab_ID26p0_PETG.step",
+    "step/BH_V006_neck_fit_coupon_ID25p8_PETG.step",
+    "step/BH_V006_neck_fit_coupon_ID26p0_PETG.step",
+    "step/BH_V006_neck_fit_coupon_ID26p2_PETG.step",
+    "step/BH_V006_slide_fit_coupon_S1_tight_PETG.step",
+    "step/BH_V006_slide_fit_coupon_S2_nominal_PETG.step",
+    "step/BH_V006_slide_fit_coupon_S3_loose_PETG.step",
+    "step/BH_V006_assembly_reference.step"
+  ],
+  "stl": [
+    "stl/BH_V006_main_body_94mm_squircle_rope4p8_PETG.stl",
+    "stl/BH_V006_neck_collar_slide_tab_ID26p0_PETG.stl",
+    "stl/BH_V006_neck_fit_coupon_ID25p8_PETG.stl",
+    "stl/BH_V006_neck_fit_coupon_ID26p0_PETG.stl",
+    "stl/BH_V006_neck_fit_coupon_ID26p2_PETG.stl",
+    "stl/BH_V006_slide_fit_coupon_S1_tight_PETG.stl",
+    "stl/BH_V006_slide_fit_coupon_S2_nominal_PETG.stl",
+    "stl/BH_V006_slide_fit_coupon_S3_loose_PETG.stl",
+    "stl/BH_V006_assembly_preview.stl"
+  ]
+}

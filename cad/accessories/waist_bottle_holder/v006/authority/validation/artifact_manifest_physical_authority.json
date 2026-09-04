@@ -1,0 +1,12 @@
+{
+  "step": [
+    "step/BH_V006_main_body_PHYSICAL_AUTHORITY_PETG.step",
+    "step/BH_V006_neck_collar_slide_tab_ID26p2_AUTHORITY_PETG.step",
+    "step/BH_V006_assembly_PHYSICAL_AUTHORITY.step"
+  ],
+  "stl": [
+    "stl/BH_V006_main_body_PHYSICAL_AUTHORITY_PETG.stl",
+    "stl/BH_V006_neck_collar_slide_tab_ID26p2_AUTHORITY_PETG.stl",
+    "stl/BH_V006_assembly_PHYSICAL_AUTHORITY_preview.stl"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "TOP_RAIN": "umbrella roof plus 6 mm downward skirt; parting line is hidden",
+  "SIDE_RAIN": "skirt plus offset tongue/groove prevents straight path",
+  "WIND_DRIVEN_RAIN": "two terminal baffles and dogleg vestibules; physical spray pending",
+  "CABLE_TRACKED_WATER": "local downward port drops into drip vestibule before chamber",
+  "BOTTOM_SPLASH": "offset drain axes terminate in baffle-isolated vestibules, not the connector chamber",
+  "WATER_POOLING": "2 deg two-way chamber floor, low weeps, two gravity drains",
+  "CAPILLARY_ENTRY": "3 mm overlap and 0.30 mm offset path; long-duration physical test pending"
+}

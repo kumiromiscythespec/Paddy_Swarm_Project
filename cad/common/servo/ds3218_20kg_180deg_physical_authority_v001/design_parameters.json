@@ -1,0 +1,150 @@
+{
+  "bracket": {
+    "architecture": "OPEN_CRADLE_WITH_MOUNT_EAR_SHELVES",
+    "clearance_candidate_total_mm": 0.5,
+    "glue_primary": false,
+    "horn_removable": true,
+    "material": "PETG_CANDIDATE",
+    "printer": "Bambu Lab A1",
+    "servo_removable": true,
+    "status": "HOLD_PENDING_CASE_AND_HOLE_COUPON_PHYSICAL_VALIDATION"
+  },
+  "cable": {
+    "bend_radius": "CABLE_BEND_RADIUS_PHYSICAL_VALIDATION_PENDING",
+    "clamp_at_root": false,
+    "connector_route_space_required": true,
+    "exit_center_mm": [
+      40.0,
+      10.2,
+      8.0
+    ],
+    "exit_center_status": "CAD_PLACEHOLDER_PHOTO_COORDINATE_NOT_SUPPLIED",
+    "hard_90deg_bend": false,
+    "keepout_xyz_mm": [
+      30.0,
+      14.0,
+      14.0
+    ],
+    "length_mm_approx": 303.0
+  },
+  "coordinate_system": {
+    "axes": {
+      "+X": "LONGITUDINAL_FROM_NEAR_CASE_END",
+      "+Y": "ACROSS_CASE",
+      "+Z": "UP_FROM_SERVO_BOTTOM"
+    },
+    "bottom_plane_z_mm": 0,
+    "near_case_end_x_mm": 0,
+    "one_case_side_y_mm": 0
+  },
+  "fit_coupons": {
+    "application": "INDEPENDENT_X_AND_Y_TOTAL_CLEARANCE",
+    "selection": "PHYSICAL_VALIDATION_PENDING",
+    "total_clearances_mm": [
+      0.3,
+      0.5,
+      0.7
+    ]
+  },
+  "forbidden_claims": [
+    "LOAD_PASS",
+    "TORQUE_PASS",
+    "FIELD_PASS",
+    "DURABILITY_PASS"
+  ],
+  "horn": {
+    "bottom_z_mm": 45.0,
+    "bottom_z_status": "PHYSICAL_WITH_VISUAL_ALIGNMENT_UNCERTAINTY",
+    "link_hole_diameter_mm": 3.0,
+    "link_hole_diameter_status": "CAD_VISUAL_PLACEHOLDER",
+    "max_height_status": "PHYSICAL_MAX_ENVELOPE",
+    "prior_32mm_interpretation": "OVERALL_LENGTH_NOT_LINK_RADIUS",
+    "rotation_plane_status": "PHYSICAL_DERIVED",
+    "rotation_plane_z_mm": 46.2,
+    "selected_link_hole_radius_mm": 30.0,
+    "servo_with_horn_max_height_mm": 48.0,
+    "thickness_mm": 2.4,
+    "type": "25T_ALUMINUM"
+  },
+  "keepouts": {
+    "conservative": {
+      "plane_z_mm": 46.2,
+      "powered_360_claim": false,
+      "purpose": [
+        "ASSEMBLY",
+        "INDEXING_UNCERTAINTY",
+        "MAINTENANCE",
+        "UNPOWERED_MANUAL_MOVEMENT",
+        "INTERFERENCE_CHECK"
+      ],
+      "radius_mm": 30.0,
+      "sweep_deg": 360
+    },
+    "nominal": {
+      "plane_z_mm": 46.2,
+      "radius_mm": 30.0,
+      "sweep_deg": 180.0,
+      "zero_angle_reference": "+X_CAD_REFERENCE"
+    }
+  },
+  "load_note": {
+    "arm_cm": 3.0,
+    "bracket_structural_pass": false,
+    "classification": "THEORETICAL_MAX_FROM_PRODUCT_SPEC",
+    "endpoint_force_kgf": 7.167,
+    "endpoint_force_n": 70.3,
+    "max_torque_kgf_cm_at_6p8v": 21.5
+  },
+  "mounting": {
+    "ear_bottom_z_mm": 28.0,
+    "ear_thickness_mm": 2.5,
+    "ear_z_status": "CAD_PLACEHOLDER_PHYSICAL_MEASUREMENT_REQUIRED",
+    "hardware": "PHYSICAL_FASTENER_SELECTION_PENDING",
+    "longitudinal_hole_pitch_mm": 49.1,
+    "printed_bracket_fastener_hole_candidate_mm": 5.0,
+    "printed_hole_status": "DESIGN_CLEARANCE_CANDIDATE",
+    "servo_physical_hole_mm": 4.6,
+    "short_axis_hole_pitch_mm": 10.0,
+    "short_axis_pitch_status": "PHYSICAL_CANDIDATE"
+  },
+  "output_axis": {
+    "averaging_prohibited": true,
+    "horn_axis_origin_mm": [
+      10.1,
+      10.2,
+      46.2
+    ],
+    "opposite_end_derived_mm": 29.9,
+    "separate_visual_opposite_mm": 29.2,
+    "spline": "25T",
+    "spline_geometry_status": "PLACEHOLDER_NOT_TOOTH_AUTHORITY",
+    "spline_placeholder_diameter_mm": 8.0,
+    "x_mm": 10.1,
+    "x_status": "PHYSICAL_PRIMARY_DATUM",
+    "y_mm": 10.2,
+    "y_status": "DERIVED_FROM_CASE_CENTER_20P4_DIV_2"
+  },
+  "print": {
+    "first_print_order": [
+      "print/servo_case_fit_coupon_clearance_0p3.stl",
+      "print/servo_case_fit_coupon_clearance_0p5.stl",
+      "print/servo_case_fit_coupon_clearance_0p7.stl",
+      "print/servo_mount_hole_pattern_coupon.stl"
+    ],
+    "full_bracket": "print/HOLD_ds3218_generic_mount_bracket.stl",
+    "slicer": "HOLD_SLICER_NOT_RUN"
+  },
+  "servo": {
+    "case_lwh_mm": [
+      40.0,
+      20.4,
+      41.7
+    ],
+    "case_status": "PHYSICAL_AUTHORITY",
+    "model": "DS3218_20KG_DIGITAL_SERVO",
+    "mounting_envelope_length_mm": 54.5,
+    "operating_range_deg": 180
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/DS3218_PHYSICAL_AUTHORITY_MODEL_READY/FIT_COUPONS_PRINT_READY/MOUNT_PHYSICAL_VALIDATION_PENDING/FULL_BRACKET_HOLD_PENDING_PHYSICAL_COUPONS",
+  "version": "PS-DS3218-20KG-180DEG-PHYSICAL-AUTHORITY-V001"
+}

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820"><rect width="1200" height="820" fill="#f8fafc"/><style>text{font-family:Arial,sans-serif;fill:#17324c;font-size:18px}</style><text x="30" y="40" style="font-size:26px">G25 / S20 — closed assembly section</text><text x="30" y="75">Section Y=0. Free-thickness TPU reference overlaps lid by nominal0.5 mm.</text><svg x="20" y="110"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="1130.0"
+   height="490.0"
+
+>
+    <g transform="scale(10.068493150684931, -10.068493150684931)   translate(41.98639455782313,-38.48639455782313)" stroke-width="0.1"  fill="none">
+       <!-- hidden lines -->
+       <g  stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.1,0.1" >
+
+       </g>
+
+       <!-- solid lines -->
+       <g  stroke="rgb(0,0,0)" fill="none">
+			<path d="M-31.5,28.5 L-34.0,28.5 " />
+			<path d="M-34.0,27.5 L-34.0,28.5 " />
+			<path d="M-26.5,28.5 L-31.5,28.5 " />
+			<path d="M34.0,28.5 L31.5,28.5 " />
+			<path d="M31.5,28.5 L26.5,28.5 " />
+			<path d="M26.5,28.5 L24.0,28.5 " />
+			<path d="M24.0,3.5 L24.0,28.5 " />
+			<path d="M24.0,3.5 L-24.0,3.5 " />
+			<path d="M-24.0,3.5 L-24.0,28.5 " />
+			<path d="M-24.0,28.5 L-26.5,28.5 " />
+			<path d="M-34.0,27.5 L-27.5,21.0 " />
+			<path d="M-27.5,0.0 L-27.5,21.0 " />
+			<path d="M27.5,0.0 L-27.5,0.0 " />
+			<path d="M27.5,0.0 L27.5,21.0 " />
+			<path d="M27.500000000000007,21.0 L34.00000000000001,27.500000000000007 " />
+			<path d="M34.0,27.5 L34.0,28.5 " />
+			<path d="M-40.0,30.5 L-40.0,36.5 " />
+			<path d="M40.0,36.5 L-40.0,36.5 " />
+			<path d="M-31.5,30.5 L-40.0,30.5 " />
+			<path d="M40.0,30.5 L31.5,30.5 " />
+			<path d="M40.0,30.5 L40.0,36.5 " />
+			<path d="M-31.5,30.5 L-31.5,31.0 " />
+			<path d="M-26.5,31.0 L-31.5,31.0 " />
+			<path d="M-26.5,30.5 L-26.5,31.0 " />
+			<path d="M26.5,30.5 L-26.5,30.5 " />
+			<path d="M26.5,30.5 L26.5,31.0 " />
+			<path d="M31.5,31.0 L26.5,31.0 " />
+			<path d="M31.5,30.5 L31.5,31.0 " />
+			<path d="M-26.5,30.5 L-31.5,30.5 " />
+			<path d="M31.5,30.5 L26.5,30.5 " />
+			<path d="M-31.5,28.5 L-31.5,30.5 " />
+			<path d="M-26.5,28.5 L-26.5,30.5 " />
+			<path d="M26.5,28.5 L26.5,30.5 " />
+			<path d="M31.5,28.5 L31.5,30.5 " />
+			<path d="M14.0,3.5999999999999996 L14.0,3.8 " />
+			<path d="M22.0,3.8000000000000007 L14.0,3.8000000000000007 " />
+			<path d="M22.0,3.5999999999999996 L14.0,3.5999999999999996 " />
+			<path d="M22.0,3.5999999999999996 L22.0,3.8 " />
+			<path d="M-22.0,3.5999999999999996 L-22.0,3.8 " />
+			<path d="M-14.0,3.8000000000000007 L-22.0,3.8000000000000007 " />
+			<path d="M-14.0,3.5999999999999996 L-22.0,3.5999999999999996 " />
+			<path d="M-14.0,3.5999999999999996 L-14.0,3.8 " />
+
+       </g>
+    </g>
+    
+</svg>
+<text x="30" y="640">Cavity48 x48 x25; floor3.5; lower wall3.5; lid6.0.</text><text x="30" y="670">Seal datum Z28.5; closed lid underside Z30.5; assembly top Z36.5.</text><text x="30" y="700">No gland, chimney or cable. CAD closure is not a water-performance prediction.</text><text x="30" y="803" style="font-size:14px">PS-WP-TPU-FACE-GASKET-V001 | mm | CAD geometry only; WATER PHYSICAL TEST PENDING</text></svg>

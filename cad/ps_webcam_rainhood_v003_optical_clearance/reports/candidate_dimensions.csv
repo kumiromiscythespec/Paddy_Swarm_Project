@@ -1,0 +1,4 @@
+candidate,front_setback_mm,v002_front_y_mm,candidate_front_y_mm,hood_front_length_mm,underside_bevel_angle_deg,actual_bevel_angle_deg,bevel_run_mm,hood_top_height_at_safe_front_mm,identifier_rib_count,volume_mm3,bbox_x_mm,bbox_y_mm,bbox_z_mm,status
+A,10.0,-60.4,-50.4,20.0,35.0,35.0,2.478,59.7,1,63600.763,119.2,93.4,72.575,PHYSICAL_OPTICAL_VALIDATION_PENDING
+B,15.0,-60.4,-45.4,15.0,40.0,40.0,2.08,59.7,2,60973.715,119.2,88.4,72.575,PHYSICAL_OPTICAL_VALIDATION_PENDING
+C,20.0,-60.4,-40.4,10.0,45.0,45.0,1.754,59.7,3,58183.302,119.2,83.4,72.575,PHYSICAL_OPTICAL_VALIDATION_PENDING

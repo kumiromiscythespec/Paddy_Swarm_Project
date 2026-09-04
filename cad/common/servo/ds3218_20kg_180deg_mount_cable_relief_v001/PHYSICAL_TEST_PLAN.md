@@ -1,0 +1,3 @@
+# DS3218 Generic Mount Cable Exit Relief V001
+
+1. Print 6.0 mm coupon. 2. Insert and remove servo. 3. Confirm cable root is not pinched. 4. Confirm natural exit, no visible sheath compression, no hard bend and no sharp-edge rubbing. 5. Confirm slight manual cable movement does not load the bracket. 6. If comfortable, select 6.0. 7. If tight, repeat with 6.5. 8. Use 7.0 only if needed. 9. Record selected physical authority. 10. Regenerate/authorize the full bracket at that width. 11. Print and install screws. 12. Confirm cable root free. 13. Install 30 mm horn. 14. Manual sweep. 15. Powered 180° no-load sweep. 16. Observe cable through motion. 17. Load/torque testing only later.

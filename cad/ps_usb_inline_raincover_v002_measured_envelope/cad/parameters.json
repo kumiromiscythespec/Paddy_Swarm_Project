@@ -1,0 +1,100 @@
+{
+  "lane": "ps_usb_inline_raincover_v002_measured_envelope",
+  "version": "v0.0.2",
+  "status": "CAD_COMPLETE_MEASURED_ENVELOPE_PHYSICAL_VALIDATION_PENDING",
+  "water_rating": "SPLASH_RESISTANT_NOT_WATERPROOF",
+  "physical_authority_priority": [
+    "Physical measurement",
+    "Physical coupon result",
+    "v001 validated geometry",
+    "CAD nominal",
+    "provisional assumption"
+  ],
+  "connector_envelope_mm": {
+    "L": 95.1,
+    "W": 18.7,
+    "H": 10.8,
+    "definition": "rigid-to-flexible total protected connector bounding envelope",
+    "authority": "PHYSICAL_MEASUREMENT"
+  },
+  "cables_mm": {
+    "camera_side_OD": 3.8,
+    "extension_side_OD": 4.0,
+    "common_channel_D": 4.4,
+    "camera_diametral_clearance": 0.6000000000000005,
+    "extension_diametral_clearance": 0.40000000000000036,
+    "authority": "V001_COUPON_PHYSICAL_PASS_BOTH_CABLES"
+  },
+  "chamber_inner_mm": {
+    "L": 102.0,
+    "W": 24.0,
+    "H": 16.0
+  },
+  "clearances_mm": {
+    "axial_total": 6.900000000000006,
+    "axial_each_end": 3.450000000000003,
+    "width_total": 5.300000000000001,
+    "width_each_side": 2.6500000000000004,
+    "height_total": 5.199999999999999,
+    "connector_compression": "NONE_TARGET"
+  },
+  "preserved_v001": {
+    "WALL_T": 3.0,
+    "LABYRINTH_HORIZONTAL_RUN": 10.0,
+    "LABYRINTH_VERTICAL_OFFSET": 5.0,
+    "DRAIN_D": 2.5,
+    "DRAIN_COUNT": 2,
+    "FLOOR_SLOPE_DEG": 2.0,
+    "ROOF_SLOPE_DEG": 3.0,
+    "TOP_OVERLAP_SKIRT": 6.0,
+    "PARTING_STEP_H": 2.0,
+    "PARTING_OVERLAP": 3.0,
+    "PARTING_CLEARANCE": 0.3
+  },
+  "derived": {
+    "floor_center_crown_mm": 1.7809592440791342,
+    "roof_rise_mm": 7.054087091497347,
+    "full_lower_outer_length_mm": 128.0,
+    "full_upper_outer_length_mm": 134.6
+  },
+  "closure": {
+    "configuration": "M3_X6_SIDE_FLANGE_WITH_CAPTURED_HEX_NUTS",
+    "stations_x_mm": [
+      -50.0,
+      0.0,
+      50.0
+    ],
+    "reason": "MEASURED_ENVELOPE_REQUIRED_CHANGE_parting_span_control",
+    "external_reinforcement_ribs": false
+  },
+  "strain_relief_saddle": {
+    "center_x_abs_mm": 49.275,
+    "axial_length_mm": 3.0,
+    "gap_to_measured_envelope_mm": 0.22500000000000142,
+    "groove_d_mm": 5.2,
+    "hard_clamping": false,
+    "reason": "MEASURED_ENVELOPE_REQUIRED_CHANGE"
+  },
+  "v001_superseded": {
+    "chamber_length_50_mm": "REJECTED_UNDERSIZED_PROVISIONAL_DIMENSION",
+    "cable_7p9_mm": "SUPERSEDED_BY_PHYSICAL_MEASUREMENT",
+    "large_channel_9p0_mm": "NO_LONGER_REQUIRED"
+  },
+  "physical_statuses": {
+    "CABLE_CHANNEL_PHYSICAL": "PASS",
+    "CONNECTOR_DIMENSION_PHYSICAL": "PASS_MEASURED",
+    "CHAMBER_PHYSICAL": "PENDING",
+    "LABYRINTH_DRAIN_PHYSICAL": "PENDING",
+    "FULL_SHELL_RAIN": "PENDING",
+    "LIVE_USB_RAIN": "PENDING"
+  },
+  "print": {
+    "printer": "Bambu Lab A1",
+    "material": "PETG",
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.2,
+    "walls_min": 4,
+    "top_bottom_min": 5,
+    "infill_percent": "25-35"
+  }
+}

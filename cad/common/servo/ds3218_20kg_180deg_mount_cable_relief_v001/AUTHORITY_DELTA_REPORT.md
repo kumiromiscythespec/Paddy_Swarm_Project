@@ -1,0 +1,3 @@
+# DS3218 Generic Mount Cable Exit Relief V001
+
+Only the +X cable-exit/base region is subtractively changed. The slot is open downward and outward, has a rounded inner root and an outward 1.25 mm/side entry flare. No material is added. Case 40.0×20.4×41.7, mounting envelope 54.5, pitches 49.1×10.0, physical holes Ø4.6, bracket-hole candidate Ø5.0, output (10.1,10.2), horn R30/T2.4/Z46.2 and all horn keep-outs are frozen by the parent tree hash. The physically aligned narrower coupon pattern is identifiable as Ø4.6, but this revision does not promote a screw standard or replace the existing bracket Ø5.0 candidate.

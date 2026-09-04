@@ -1,0 +1,3 @@
+# DS3218 Molded Cable-Exit Root Relief V002
+
+1. Print 7.5 mm coupon. 2. Mount real DS3218. 3. Confirm unchanged body fit. 4. Confirm molded root has no printed contact or catching during insertion/removal. 5. Confirm flexible cable remains free, uncompressed and without hard bend. 6. Confirm slight hand movement and safe wall thickness. 7. Select 7.5 if PASS. 8. If marginal test 8.0; use 8.5 only if needed. 9. Regenerate/authorize the full bracket at the selected width. 10. Print bracket and install screws. 11. Install 30 mm horn. 12. Manual 180° sweep. 13. Powered 180° no-load sweep. 14. Inspect cable during movement. 15. Mechanism/load/torque/durability testing later.

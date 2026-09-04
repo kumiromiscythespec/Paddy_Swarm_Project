@@ -1,0 +1,8 @@
+These STL files are preview-only meshes generated without CadQuery.
+They are supplied for visual and dimensional review, not as manufacturing release files.
+Regenerate the manufacturing STEP/STL files with CadQuery 2.8.0 by running:
+
+D:\Paddy_Swarm_Project\cad\paddy_vacuum_siphon_primer_v0_1\build_all.py
+
+MANUFACTURING_RELEASE = False
+FIELD_DEPLOYMENT_STATUS = NOT_APPROVED

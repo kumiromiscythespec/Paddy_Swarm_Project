@@ -1,0 +1,80 @@
+{
+  "G1_G4_measured_closed_gap_mm": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "S1_S4_spacer_thickness_mm": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "T1_T8_free_thickness_mm": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "actual_compression": null,
+  "dry_10_cycles_result": "PENDING",
+  "face_orientation": "BUILD_PLATE_FACE_TOWARD_BODY_PRIMARY",
+  "first_wet_zone": "PENDING",
+  "front_tilt": "PENDING",
+  "gasket_candidate": "G25",
+  "left_tilt": "PENDING",
+  "material_product": null,
+  "measurement_xy_mm": {
+    "T1": [
+      29,
+      0
+    ],
+    "T2": [
+      0,
+      29
+    ],
+    "T3": [
+      -29,
+      0
+    ],
+    "T4": [
+      0,
+      -29
+    ],
+    "T5": [
+      27.09619407771256,
+      27.09619407771256
+    ],
+    "T6": [
+      -27.09619407771256,
+      27.09619407771256
+    ],
+    "T7": [
+      -27.09619407771256,
+      -27.09619407771256
+    ],
+    "T8": [
+      27.09619407771256,
+      -27.09619407771256
+    ]
+  },
+  "petg_damage": "PENDING",
+  "printer_settings": null,
+  "promotion": "WATER_PHYSICAL_TEST_PENDING",
+  "rear_tilt": "PENDING",
+  "right_tilt": "PENDING",
+  "shore_hardness": null,
+  "specimen_id": null,
+  "stop_candidate": "S20",
+  "tpu_damage": "PENDING",
+  "tpu_movement": "PENDING",
+  "upright_60min": "PENDING",
+  "water_level_mm": null,
+  "water_temperature_c": null,
+  "witness": "PENDING"
+}

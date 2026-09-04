@@ -1,0 +1,126 @@
+{
+  "project": "BH_V006 Waist Bottle Holder",
+  "revision": "V006",
+  "units": "mm",
+  "material": "PETG Basic equivalent",
+  "printer": {
+    "model": "Bambu Lab A1",
+    "nozzle_diameter": 0.4,
+    "main_layer_height": 0.2,
+    "collar_layer_height_range": [0.16, 0.2],
+    "walls": 5,
+    "top_bottom_layers": [5, 6],
+    "infill_percent_range": [30, 40]
+  },
+  "cup": {
+    "height": 94.0,
+    "inner_x": 72.0,
+    "inner_y": 72.0,
+    "inner_corner_radius": 11.0,
+    "wall": 3.2,
+    "bottom_thickness": 3.6,
+    "outer_x": 78.4,
+    "outer_y": 78.4,
+    "outer_corner_radius": 14.2,
+    "top_lead_in_height": 1.2,
+    "top_lead_in_radial": 1.2,
+    "outer_top_edge_radius": 2.0,
+    "drain_hole_diameter": 8.0,
+    "drain_hole_centers_xy": [[0.0, 0.0], [20.0, 0.0], [-20.0, 0.0], [0.0, 20.0], [0.0, -20.0]]
+  },
+  "spine": {
+    "width": 30.0,
+    "thickness": 6.5,
+    "z_min": 54.0,
+    "z_max": 204.0,
+    "root_corner_radius": 6.0,
+    "side_rib_z_min": 60.0,
+    "side_rib_z_max": 110.0
+  },
+  "rope": {
+    "diameter": 4.8,
+    "slot_width": 8.0,
+    "slot_height": 14.0,
+    "slot_center_spacing": 46.0,
+    "slot_center_z": 158.0,
+    "body_side_entry_width": 12.0,
+    "body_side_entry_height": 18.0,
+    "body_side_edge_radius": 1.5,
+    "count": 2
+  },
+  "body_contact": {
+    "upper_pad_width": 82.0,
+    "upper_pad_height": 70.0,
+    "upper_pad_corner_radius": 12.0,
+    "upper_pad_thickness": 5.0,
+    "upper_pad_center_z": 169.0,
+    "lower_pad_width": 74.0,
+    "lower_pad_height": 46.0,
+    "lower_pad_corner_radius": 11.0,
+    "lower_pad_thickness": 8.0,
+    "lower_pad_center_z": 53.0,
+    "optional_tpu_pad_thickness_range": [2.0, 2.5]
+  },
+  "neck_collar": {
+    "id": 26.0,
+    "height": 7.0,
+    "wall": 3.0,
+    "od": 32.0,
+    "c_opening": 5.0,
+    "opening_tip_radius": 1.2,
+    "fit_coupon_ids": [25.8, 26.0, 26.2]
+  },
+  "slide_tab": {
+    "width": 16.0,
+    "thickness": 4.0,
+    "height": 20.0,
+    "corner_radius": 1.2,
+    "nominal_center_y": -25.7,
+    "local_z_min_from_collar_bottom": -7.0,
+    "local_z_max_from_collar_bottom": 13.0,
+    "rearward_projection_from_collar_od": 11.7,
+    "root_width": 10.0,
+    "root_corner_radius": 3.0
+  },
+  "receiver": {
+    "internal_width": 16.8,
+    "internal_thickness": 4.6,
+    "insertion_length": 22.0,
+    "width_clearance": 0.8,
+    "thickness_clearance": 0.6,
+    "side_wall": 3.0,
+    "back_wall": 3.0,
+    "front_lip": 3.0,
+    "bottom_stop_thickness": 3.0,
+    "front_stem_slot_width": 10.8,
+    "lead_in_chamfer": 1.0,
+    "bottle_relative_cavity_z_min": 176.0,
+    "bottle_relative_cavity_z_max": 198.0
+  },
+  "assembly": {
+    "bottle_support_plane_z": 3.6,
+    "nominal_neck_center_from_bottle_bottom": 187.0,
+    "nominal_collar_bottom_global_z": 187.1,
+    "nominal_tab_bottom_stop_clearance": 0.5,
+    "nominal_tab_top_clearance": 1.5,
+    "cap_rotation_clearance_diameter": 34.0,
+    "design_dynamic_load_n": 35.0
+  },
+  "slide_fit_coupons": {
+    "S1_tight": {"tab_width": 16.0, "tab_thickness": 4.0, "receiver_width": 16.5, "receiver_thickness": 4.4},
+    "S2_nominal": {"tab_width": 16.0, "tab_thickness": 4.0, "receiver_width": 16.8, "receiver_thickness": 4.6},
+    "S3_loose": {"tab_width": 16.0, "tab_thickness": 4.0, "receiver_width": 17.1, "receiver_thickness": 4.8}
+  },
+  "mesh_export": {
+    "linear_tolerance": 0.08,
+    "angular_tolerance": 0.12
+  },
+  "physical_status": {
+    "NECK_COLLAR_PHYSICAL_FIT": "PENDING",
+    "SLIDE_PHYSICAL_FIT": "PENDING",
+    "ROUND_BOTTLE_FIELD_FIT": "PENDING",
+    "SQUARE_BOTTLE_FIELD_FIT": "PENDING",
+    "BODY_COMFORT_FIELD_TEST": "PENDING",
+    "BOUNCE_FIELD_TEST": "PENDING"
+  }
+}

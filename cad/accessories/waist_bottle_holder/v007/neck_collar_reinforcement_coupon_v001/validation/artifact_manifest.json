@@ -1,0 +1,86 @@
+{
+  "lane": "cad/accessories/waist_bottle_holder/v007/neck_collar_reinforcement_coupon_v001",
+  "production_v007_updated": false,
+  "artifacts": [
+    {
+      "path": "step/BH_V007_NA_neck_collar_coupon_ID26p2_G18_T4p0_H9_PETG.step",
+      "exists": true,
+      "size_bytes": 238916
+    },
+    {
+      "path": "stl/BH_V007_NA_neck_collar_coupon_ID26p2_G18_T4p0_H9_PETG.stl",
+      "exists": true,
+      "size_bytes": 356284
+    },
+    {
+      "path": "step/BH_V007_NB_neck_collar_coupon_ID26p2_G20_T4p0_H9_PETG.step",
+      "exists": true,
+      "size_bytes": 238970
+    },
+    {
+      "path": "stl/BH_V007_NB_neck_collar_coupon_ID26p2_G20_T4p0_H9_PETG.stl",
+      "exists": true,
+      "size_bytes": 354684
+    },
+    {
+      "path": "step/BH_V007_NC_neck_collar_coupon_ID26p2_G20_T3p5_H9_PETG.step",
+      "exists": true,
+      "size_bytes": 238934
+    },
+    {
+      "path": "stl/BH_V007_NC_neck_collar_coupon_ID26p2_G20_T3p5_H9_PETG.stl",
+      "exists": true,
+      "size_bytes": 355684
+    },
+    {
+      "path": "step/BH_V007_neck_collar_reinforcement_comparison_NA_NB_NC.step",
+      "exists": true,
+      "size_bytes": 722928
+    },
+    {
+      "path": "stl/BH_V007_neck_collar_reinforcement_3up_print_preview.stl",
+      "exists": true,
+      "size_bytes": 1066884
+    },
+    {
+      "path": "parameters.json",
+      "exists": true,
+      "size_bytes": 3499
+    },
+    {
+      "path": "README.md",
+      "exists": true,
+      "size_bytes": 3824
+    },
+    {
+      "path": "docs/GEOMETRY_COMPARISON.md",
+      "exists": true,
+      "size_bytes": 3159
+    },
+    {
+      "path": "docs/BH_V007_neck_collar_coupon_visual_review.png",
+      "exists": true,
+      "size_bytes": 113406
+    },
+    {
+      "path": "source/build_neck_collar_reinforcement_coupons.py",
+      "exists": true,
+      "size_bytes": 30314
+    },
+    {
+      "path": "source/render_coupon_preview.py",
+      "exists": true,
+      "size_bytes": 8313
+    },
+    {
+      "path": "validation_report.json",
+      "exists": true,
+      "size_bytes": 20370
+    },
+    {
+      "path": "validation/README.md",
+      "exists": true,
+      "size_bytes": 660
+    }
+  ]
+}

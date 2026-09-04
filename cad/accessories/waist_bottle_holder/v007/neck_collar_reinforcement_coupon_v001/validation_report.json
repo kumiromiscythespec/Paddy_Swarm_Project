@@ -1,0 +1,679 @@
+{
+  "project": "BH_V007 Neck Collar Reinforcement Coupon Study N-A / N-B / N-C",
+  "overall_cad_status": "PASS",
+  "hard_failures": [],
+  "cad_summary_counts": {
+    "PASS": 27
+  },
+  "summary_counts_including_physical": {
+    "FAIL": 1,
+    "PASS": 27,
+    "PENDING": 6
+  },
+  "cad_checks": {
+    "required_exports_exist": {
+      "status": "PASS",
+      "detail": "Three candidate pairs, one comparison STEP and one 3-up preview STL exist and are non-empty."
+    },
+    "step_reload_valid": {
+      "status": "PASS",
+      "detail": "Every STEP reloads with valid positive-volume solids."
+    },
+    "all_stl_watertight": {
+      "status": "PASS",
+      "detail": "All STL meshes are watertight."
+    },
+    "non_manifold_edges_zero": {
+      "status": "PASS",
+      "detail": "All STL meshes have zero non-manifold edges."
+    },
+    "positive_stl_volume": {
+      "status": "PASS",
+      "detail": "All STL meshes have positive signed volume."
+    },
+    "one_solid_per_candidate": {
+      "status": "PASS",
+      "detail": "Candidate solid counts = {'N-A': 1, 'N-B': 1, 'N-C': 1}."
+    },
+    "comparison_has_three_solids": {
+      "status": "PASS",
+      "detail": "Comparison layout contains 3 distinct candidate solids."
+    },
+    "no_duplicate_solids": {
+      "status": "PASS",
+      "detail": "Comparison contains no duplicated solid signature."
+    },
+    "neck_id26p2_preserved": {
+      "status": "PASS",
+      "detail": "Phi26.18 go-gauge intersection volumes = {'N-A': 0.0, 'N-B': 0.0, 'N-C': 0.0} mm3."
+    },
+    "finished_opening_targets": {
+      "status": "PASS",
+      "detail": "Finished B-rep minimum gaps: N-A=18.000 mm, N-B=20.001 mm, N-C=20.001 mm"
+    },
+    "ring_thickness_targets": {
+      "status": "PASS",
+      "detail": "Nominal arm thicknesses are N-A/N-B=4.0 mm and N-C=3.5 mm; B-rep outer X spans match."
+    },
+    "collar_height_9": {
+      "status": "PASS",
+      "detail": "All isolated ring B-reps are 9.0 mm high."
+    },
+    "tip_radius_at_least_1p5": {
+      "status": "PASS",
+      "detail": "Free split-tip vertical edges use R1.5 blends."
+    },
+    "root_saddle_r8": {
+      "status": "PASS",
+      "detail": "Broad rear saddle plan radius = R8.0."
+    },
+    "two_4x14_gussets": {
+      "status": "PASS",
+      "detail": "Each candidate has two rounded gusset rails, 4.0 mm thick x 14.0 mm high."
+    },
+    "v007_tab_brep_identical": {
+      "status": "PASS",
+      "detail": "Symmetric tab B-rep differences = {'N-A': 0.0, 'N-B': 0.0, 'N-C': 0.0} mm3."
+    },
+    "tab_16x4x30": {
+      "status": "PASS",
+      "detail": "Reused V007 tab B-rep = 16.000 x 4.000 x 30.000 mm."
+    },
+    "receiver_authority_17p1x4p8": {
+      "status": "PASS",
+      "detail": "Receiver hold authority remains 17.1 x 4.8 mm and is not regenerated."
+    },
+    "root_passes_front_stem_slot": {
+      "status": "PASS",
+      "detail": "Root/gusset X envelope is 10.0 mm within the 10.8 mm front stem slot."
+    },
+    "root_section_increased": {
+      "status": "PASS",
+      "detail": "Minimum constant-throat section rises from 97.95 mm2 to N-A=134.00 mm2 (36.8%), N-B=134.00 mm2 (36.8%), N-C=134.00 mm2 (36.8%)"
+    },
+    "straight_slide_path_clear": {
+      "status": "PASS",
+      "detail": "All three coupons are collision-free through the eight-station V007 straight slide path."
+    },
+    "deflection_reduced_vs_existing": {
+      "status": "PASS",
+      "detail": "Required total gap expansion reduces from 21.20 mm to N-A=8.20 mm, N-B=6.20 mm, N-C=6.20 mm"
+    },
+    "positive_material_volumes": {
+      "status": "PASS",
+      "detail": "All total and reinforcement-only CAD volumes are positive."
+    },
+    "bambu_a1_3up_envelope": {
+      "status": "PASS",
+      "detail": "3-up mesh envelope = 153.7 x 57.0 x 30.0 mm with Zmin=0.000 mm."
+    },
+    "production_v007_files_unchanged": {
+      "status": "PASS",
+      "detail": "Protected V007 source/parameters/main/collar hashes unchanged = {'step/BH_V007_main_body_reinforced_integrated_slide_PETG.step': True, 'stl/BH_V007_main_body_reinforced_integrated_slide_PETG.stl': True, 'step/BH_V007_neck_collar_ID26p2_long_tab_PETG.step': True, 'stl/BH_V007_neck_collar_ID26p2_long_tab_PETG.stl': True, 'parameters.json': True, 'source/build_bh_v007.py': True}."
+    },
+    "git_branch_head_unchanged": {
+      "status": "PASS",
+      "detail": "Start/end branch=agent/organize-untracked-cad-assets-20260725, HEAD=7c149a65053f2292bc4cc0ed06d8941c96852f2b."
+    },
+    "preexisting_tracked_status_unchanged": {
+      "status": "PASS",
+      "detail": "Pre-existing tracked status is unchanged; no Git mutation was performed."
+    }
+  },
+  "physical_state": {
+    "V007_EXISTING_COLLAR_ROOT_STRENGTH": {
+      "status": "FAIL",
+      "detail": "Known broken original V007 collar root; retained as comparison evidence."
+    },
+    "NA_NECK_INSERTION_FIT": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    },
+    "NA_ROOT_DURABILITY": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    },
+    "NB_NECK_INSERTION_FIT": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    },
+    "NB_ROOT_DURABILITY": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    },
+    "NC_NECK_INSERTION_FIT": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    },
+    "NC_ROOT_DURABILITY": {
+      "status": "PENDING",
+      "detail": "Physical print/fit/durability result is not promoted by CAD validation."
+    }
+  },
+  "production_authority": {
+    "status": "UNDECIDED_PENDING_PHYSICAL_TEST",
+    "production_update": "PROHIBITED",
+    "first_print_recommendation": "N-B"
+  },
+  "git": {
+    "start": {
+      "branch": "agent/organize-untracked-cad-assets-20260725",
+      "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+      "tracked_status": [
+        " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M README.md",
+        " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      ]
+    },
+    "end": {
+      "branch": "agent/organize-untracked-cad-assets-20260725",
+      "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+      "tracked_status": [
+        " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M README.md",
+        " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+        " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+      ]
+    }
+  },
+  "protected_v007_sha256": {
+    "step/BH_V007_main_body_reinforced_integrated_slide_PETG.step": {
+      "expected": "D76F6A77370934125557E640A1A53CF875A05371E5A7B06881BDAB80685281CE",
+      "actual": "D76F6A77370934125557E640A1A53CF875A05371E5A7B06881BDAB80685281CE",
+      "unchanged": true
+    },
+    "stl/BH_V007_main_body_reinforced_integrated_slide_PETG.stl": {
+      "expected": "D0870CEDD14E4713370F3CCD8D0D0AFE8B20E5A4AF40E719402D2C4E18C535DE",
+      "actual": "D0870CEDD14E4713370F3CCD8D0D0AFE8B20E5A4AF40E719402D2C4E18C535DE",
+      "unchanged": true
+    },
+    "step/BH_V007_neck_collar_ID26p2_long_tab_PETG.step": {
+      "expected": "B3FB9EBE6EBA471C114C3ED44C1763D83E62726D1F4C4E09DDDC321369F4E55B",
+      "actual": "B3FB9EBE6EBA471C114C3ED44C1763D83E62726D1F4C4E09DDDC321369F4E55B",
+      "unchanged": true
+    },
+    "stl/BH_V007_neck_collar_ID26p2_long_tab_PETG.stl": {
+      "expected": "D5285BB45A15760B227BB0E2A01A282B3E41FC09DC8604B9CB53D2E7F9B6A129",
+      "actual": "D5285BB45A15760B227BB0E2A01A282B3E41FC09DC8604B9CB53D2E7F9B6A129",
+      "unchanged": true
+    },
+    "parameters.json": {
+      "expected": "A9DA806E0DD2B24632928D2E85EAD04E63ED9ECC03C4C09A49366F75CFCB94E6",
+      "actual": "A9DA806E0DD2B24632928D2E85EAD04E63ED9ECC03C4C09A49366F75CFCB94E6",
+      "unchanged": true
+    },
+    "source/build_bh_v007.py": {
+      "expected": "EDEE8793FBE3F2C9B45F2F0F596BFCB41AA7F44D1B50AFE80599FDD9B9B099A0",
+      "actual": "EDEE8793FBE3F2C9B45F2F0F596BFCB41AA7F44D1B50AFE80599FDD9B9B099A0",
+      "unchanged": true
+    }
+  },
+  "step_reload": {
+    "BH_V007_NA_neck_collar_coupon_ID26p2_G18_T4p0_H9_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_NB_neck_collar_coupon_ID26p2_G20_T4p0_H9_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_NC_neck_collar_coupon_ID26p2_G20_T3p5_H9_PETG.step": {
+      "solid_count": 1,
+      "valid": true,
+      "positive_volume": true
+    },
+    "BH_V007_neck_collar_reinforcement_comparison_NA_NB_NC.step": {
+      "solid_count": 3,
+      "valid": true,
+      "positive_volume": true
+    }
+  },
+  "stl_metrics": {
+    "BH_V007_NA_neck_collar_coupon_ID26p2_G18_T4p0_H9_PETG.stl": {
+      "triangle_count": 7124,
+      "watertight": true,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_mm3": 8592.757,
+      "negative_volume": false,
+      "mesh_bbox_mm": {
+        "xmin": -17.0979,
+        "xmax": 17.0979,
+        "ymin": -43.9,
+        "ymax": 13.0522,
+        "zmin": -7.0,
+        "zmax": 23.0,
+        "xlen": 34.1959,
+        "ylen": 56.9522,
+        "zlen": 30.0
+      }
+    },
+    "BH_V007_NB_neck_collar_coupon_ID26p2_G20_T4p0_H9_PETG.stl": {
+      "triangle_count": 7092,
+      "watertight": true,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_mm3": 8493.571,
+      "negative_volume": false,
+      "mesh_bbox_mm": {
+        "xmin": -17.0932,
+        "xmax": 17.0932,
+        "ymin": -43.9,
+        "ymax": 12.0815,
+        "zmin": -7.0,
+        "zmax": 23.0,
+        "xlen": 34.1865,
+        "ylen": 55.9815,
+        "zlen": 30.0
+      }
+    },
+    "BH_V007_NC_neck_collar_coupon_ID26p2_G20_T3p5_H9_PETG.stl": {
+      "triangle_count": 7112,
+      "watertight": true,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_mm3": 8227.897,
+      "negative_volume": false,
+      "mesh_bbox_mm": {
+        "xmin": -16.5976,
+        "xmax": 16.5976,
+        "ymin": -43.9,
+        "ymax": 11.456,
+        "zmin": -7.0,
+        "zmax": 23.0,
+        "xlen": 33.1952,
+        "ylen": 55.356,
+        "zlen": 30.0
+      }
+    },
+    "BH_V007_neck_collar_reinforcement_3up_print_preview.stl": {
+      "triangle_count": 21336,
+      "watertight": true,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_mm3": 25314.231,
+      "negative_volume": false,
+      "mesh_bbox_mm": {
+        "xmin": -77.0979,
+        "xmax": 76.5976,
+        "ymin": -43.9,
+        "ymax": 13.0522,
+        "zmin": 0.0,
+        "zmax": 30.0,
+        "xlen": 153.6955,
+        "ylen": 56.9522,
+        "zlen": 30.0
+      }
+    }
+  },
+  "geometry": {
+    "candidate_solid_counts": {
+      "N-A": 1,
+      "N-B": 1,
+      "N-C": 1
+    },
+    "comparison_solid_count": 3,
+    "comparison_bbox_mm": {
+      "xmin": -77.1052,
+      "xmax": 76.6047,
+      "ymin": -45.5667,
+      "ymax": 13.0529,
+      "zmin": -1.679,
+      "zmax": 30.0005,
+      "xlen": 153.71,
+      "ylen": 58.6196,
+      "zlen": 31.6795
+    },
+    "comparison_print_mesh_bbox_mm": {
+      "xmin": -77.0979,
+      "xmax": 76.5976,
+      "ymin": -43.9,
+      "ymax": 13.0522,
+      "zmin": 0.0,
+      "zmax": 30.0,
+      "xlen": 153.6955,
+      "ylen": 56.9522,
+      "zlen": 30.0
+    },
+    "finished_opening_measurements": {
+      "N-A": {
+        "minimum_clear_gap_mm": 18.0004,
+        "sample_gaps_mm": [
+          18.0004,
+          18.1215,
+          18.3415
+        ],
+        "sample_y_mm": [
+          11.7794,
+          12.0294,
+          12.2794
+        ],
+        "method": "B-rep point-in-solid boundary search at three finished mid-height tip stations"
+      },
+      "N-B": {
+        "minimum_clear_gap_mm": 20.0008,
+        "sample_gaps_mm": [
+          20.0008,
+          20.1626,
+          20.4329
+        ],
+        "sample_y_mm": [
+          10.9167,
+          11.1667,
+          11.4167
+        ],
+        "method": "B-rep point-in-solid boundary search at three finished mid-height tip stations"
+      },
+      "N-C": {
+        "minimum_clear_gap_mm": 20.001,
+        "sample_gaps_mm": [
+          20.001,
+          20.3045,
+          20.778
+        ],
+        "sample_y_mm": [
+          10.6061,
+          10.8561,
+          11.1061
+        ],
+        "method": "B-rep point-in-solid boundary search at three finished mid-height tip stations"
+      }
+    },
+    "neck_id_gauge_intersection_mm3": {
+      "N-A": 0.0,
+      "N-B": 0.0,
+      "N-C": 0.0
+    },
+    "ring_bboxes_mm": {
+      "N-A": {
+        "xmin": -17.1,
+        "xmax": 17.1,
+        "ymin": -17.1,
+        "ymax": 13.0529,
+        "zmin": -0.0007,
+        "zmax": 9.0007,
+        "xlen": 34.2,
+        "ylen": 30.1529,
+        "zlen": 9.0013
+      },
+      "N-B": {
+        "xmin": -17.1,
+        "xmax": 17.1,
+        "ymin": -17.1,
+        "ymax": 12.0822,
+        "zmin": -0.0007,
+        "zmax": 9.0007,
+        "xlen": 34.2,
+        "ylen": 29.1822,
+        "zlen": 9.0013
+      },
+      "N-C": {
+        "xmin": -16.6,
+        "xmax": 16.6,
+        "ymin": -16.6,
+        "ymax": 11.4567,
+        "zmin": -0.0007,
+        "zmax": 9.0007,
+        "xlen": 33.2,
+        "ylen": 28.0567,
+        "zlen": 9.0013
+      }
+    },
+    "root_system_bbox_mm": {
+      "xmin": -13.0,
+      "xmax": 13.0,
+      "ymin": -40.2,
+      "ymax": -10.5789,
+      "zmin": -5.0008,
+      "zmax": 9.0,
+      "xlen": 26.0,
+      "ylen": 29.6211,
+      "zlen": 14.0008
+    },
+    "tab_bbox_mm": {
+      "xmin": -8.0,
+      "xmax": 8.0,
+      "ymin": -43.9,
+      "ymax": -39.9,
+      "zmin": -7.0,
+      "zmax": 23.0,
+      "xlen": 16.0,
+      "ylen": 4.0,
+      "zlen": 30.0
+    },
+    "tab_hold_bbox_mm": {
+      "xmin": -8.0,
+      "xmax": 8.0,
+      "ymin": -43.9,
+      "ymax": -39.9,
+      "zmin": -3.0,
+      "zmax": 23.0,
+      "xlen": 16.0,
+      "ylen": 4.0,
+      "zlen": 26.0
+    },
+    "tab_symmetric_difference_mm3": {
+      "N-A": 0.0,
+      "N-B": 0.0,
+      "N-C": 0.0
+    },
+    "slide_path": {
+      "N-A": [
+        {
+          "offset_z_mm": 42.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 36.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 30.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 24.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 18.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 12.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 6.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 0.0,
+          "intersection_volume_mm3": 0.0
+        }
+      ],
+      "N-B": [
+        {
+          "offset_z_mm": 42.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 36.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 30.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 24.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 18.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 12.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 6.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 0.0,
+          "intersection_volume_mm3": 0.0
+        }
+      ],
+      "N-C": [
+        {
+          "offset_z_mm": 42.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 36.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 30.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 24.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 18.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 12.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 6.0,
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "offset_z_mm": 0.0,
+          "intersection_volume_mm3": 0.0
+        }
+      ]
+    },
+    "duplicate_solid_signatures": []
+  },
+  "comparison_existing_v007_to_candidates": {
+    "opening_clear_mm": {
+      "existing_V007": 5.0,
+      "N-A": 18.0004,
+      "N-B": 20.0008,
+      "N-C": 20.001
+    },
+    "minimum_root_throat_section": {
+      "existing_V007": {
+        "minimum_area_mm2": 97.947,
+        "station_y_mm": -37.0,
+        "samples_mm2": [
+          97.947,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "method": "0.08 mm transverse B-rep slice across the constant root-throat span"
+      },
+      "N-A": {
+        "minimum_area_mm2": 134.0,
+        "station_y_mm": -29.0,
+        "samples_mm2": [
+          134.0,
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "method": "0.08 mm transverse B-rep slice across the constant root-throat span"
+      },
+      "N-B": {
+        "minimum_area_mm2": 134.0,
+        "station_y_mm": -29.0,
+        "samples_mm2": [
+          134.0,
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "method": "0.08 mm transverse B-rep slice across the constant root-throat span"
+      },
+      "N-C": {
+        "minimum_area_mm2": 134.0,
+        "station_y_mm": -29.0,
+        "samples_mm2": [
+          134.0,
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "method": "0.08 mm transverse B-rep slice across the constant root-throat span"
+      },
+      "increase_vs_existing_percent": {
+        "N-A": 36.81,
+        "N-B": 36.81,
+        "N-C": 36.81
+      }
+    },
+    "material_volume": {
+      "existing_V007": {
+        "collar_total_mm3": 6024.96,
+        "bridge_only_mm3": 2562.65
+      },
+      "N-A": {
+        "collar_total_mm3": 8594.38,
+        "root_saddle_bridge_gussets_mm3": 4892.11,
+        "total_change_vs_existing_percent": 42.65
+      },
+      "N-B": {
+        "collar_total_mm3": 8495.21,
+        "root_saddle_bridge_gussets_mm3": 4892.11,
+        "total_change_vs_existing_percent": 41.0
+      },
+      "N-C": {
+        "collar_total_mm3": 8229.33,
+        "root_saddle_bridge_gussets_mm3": 4892.11,
+        "total_change_vs_existing_percent": 36.59
+      }
+    },
+    "theoretical_opening_deflection": {
+      "existing_V007": {
+        "opening_mm": 5.0,
+        "total_required_gap_expansion_mm": 21.2,
+        "symmetric_tip_deflection_mm_each": 10.6
+      },
+      "N-A": {
+        "opening_mm": 18.0004,
+        "total_required_gap_expansion_mm": 8.1996,
+        "symmetric_tip_deflection_mm_each": 4.0998,
+        "reduction_vs_existing_percent": 61.32
+      },
+      "N-B": {
+        "opening_mm": 20.0008,
+        "total_required_gap_expansion_mm": 6.1992,
+        "symmetric_tip_deflection_mm_each": 3.0996,
+        "reduction_vs_existing_percent": 70.76
+      },
+      "N-C": {
+        "opening_mm": 20.001,
+        "total_required_gap_expansion_mm": 6.199,
+        "symmetric_tip_deflection_mm_each": 3.0995,
+        "reduction_vs_existing_percent": 70.76
+      }
+    },
+    "note": "Deflection is the diametral gap expansion needed to pass phi26.2; symmetric tip values divide that expansion equally between both arms."
+  }
+}

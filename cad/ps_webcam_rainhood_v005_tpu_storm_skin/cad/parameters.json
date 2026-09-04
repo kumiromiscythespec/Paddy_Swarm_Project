@@ -1,0 +1,76 @@
+{
+  "lane": "ps_webcam_rainhood_v005_tpu_storm_skin",
+  "version": "v0.0.5",
+  "status": "CAD_COMPLETE_TPU_STORM_SKIN_PHYSICAL_VALIDATION_PENDING",
+  "v004_authority": {
+    "lane": "cad/ps_webcam_rainhood_v004_b15_position_retention/",
+    "source_sha256": "0d0a2979c6a3b38ed40585bcddb6d64aa167995e6413cc3cb94ad7bcabd99c94",
+    "validation_sha256": "ab23b0c902bdc43a8a2a96da67397f620d1760ab6000212d4d857308c3e80187",
+    "hood_step_sha256": "51acb7fcc67dcd4785247f70470ef583aa72446036c9110d3f031fa07baa86f4",
+    "optical_variant": "B_setback15",
+    "front_y_mm": -45.4,
+    "setback_mm": 15.0,
+    "bevel_deg": 40.0,
+    "bevel_run_mm": 2.08,
+    "front_length_mm": 15.0
+  },
+  "material": {
+    "name": "TPU",
+    "shore": "UNKNOWN_PHYSICAL",
+    "geometry_assumption": "approximately_95A_not_authority",
+    "printer": "Bambu Lab A1",
+    "nozzle_mm": 0.4
+  },
+  "storm_skin": {
+    "roof_membrane_mm": 1.5,
+    "thickness_comparison_mm": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "preload_x_fraction": 0.005,
+    "preload_y_fraction": 0.005,
+    "preload_coupon_fractions": [
+      0.0,
+      0.005,
+      0.01
+    ],
+    "side_skirt_mm": 9.0,
+    "rear_skirt_mm": 9.0,
+    "nose_wrap_down_mm": 1.0,
+    "flat_roof_pattern_w_mm": 117.41,
+    "flat_roof_pattern_developed_d_mm": 87.98815134191176,
+    "contact_target": "FULL_OR_NEAR_FULL_CONTACT",
+    "installed_STEP_numeric_contact_clearance_mm": 0.1
+  },
+  "anchor": {
+    "method": "TPU_DOGBONE_T_HEAD_IN_EXTERNAL_PETG_SIDEWALL_CAGE",
+    "count": 4,
+    "positions_y_mm": [
+      -26.0,
+      24.0
+    ],
+    "tab_thickness_mm": 2.5,
+    "tab_head_width_mm": 12.0,
+    "neck_width_mm": 10.0,
+    "root_radius_mm": 2.0,
+    "cavity_clearance_mm": 0.4,
+    "lateral_clearance_per_side_mm": 0.2,
+    "roof_penetration": false,
+    "existing_M4_reuse": false,
+    "existing_M4_reuse_rejection": "only_two_rear_points_and_long_service_interfering_straps",
+    "primary_retention_by_adhesive": false
+  },
+  "bench_targets": {
+    "front_peel_N_min": 10.0,
+    "distributed_uplift_N_min": 20.0,
+    "distributed_uplift_duration_s": 60,
+    "certified_wind_rating": false
+  },
+  "holds": {
+    "TPU_shore": "UNKNOWN_PHYSICAL",
+    "heavy_rain_acoustics": "UNTESTED",
+    "field_wind": "PENDING",
+    "UV_weather_aging": "PENDING"
+  }
+}

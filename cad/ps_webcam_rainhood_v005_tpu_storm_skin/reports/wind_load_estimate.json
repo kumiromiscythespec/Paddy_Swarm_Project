@@ -1,0 +1,82 @@
+{
+  "status": "ENGINEERING_ESTIMATE_ONLY",
+  "certified_wind_rating": false,
+  "air_density_kg_m3": 1.225,
+  "Cd_range": [
+    0.8,
+    1.4
+  ],
+  "projected_areas": {
+    "plan_xy_m2": 0.0112422,
+    "front_xz_m2": 0.0015075899163576893,
+    "side_yz_m2": 0.0011202741329682344,
+    "method": "conservative_CAD_bounding_projection_envelope"
+  },
+  "cases": {
+    "10_m_s": {
+      "dynamic_pressure_Pa": 61.25,
+      "directions": {
+        "uplift_plan": {
+          "area_m2": 0.0112422,
+          "force_N_Cd0p8": 0.5508678000000001,
+          "force_N_Cd1p4": 0.9640186500000001
+        },
+        "front": {
+          "area_m2": 0.0015075899163576893,
+          "force_N_Cd0p8": 0.07387190590152679,
+          "force_N_Cd1p4": 0.12927583532767187
+        },
+        "side": {
+          "area_m2": 0.0011202741329682344,
+          "force_N_Cd0p8": 0.054893432515443485,
+          "force_N_Cd1p4": 0.0960635069020261
+        }
+      }
+    },
+    "20_m_s": {
+      "dynamic_pressure_Pa": 245.0,
+      "directions": {
+        "uplift_plan": {
+          "area_m2": 0.0112422,
+          "force_N_Cd0p8": 2.2034712000000005,
+          "force_N_Cd1p4": 3.8560746000000004
+        },
+        "front": {
+          "area_m2": 0.0015075899163576893,
+          "force_N_Cd0p8": 0.29548762360610714,
+          "force_N_Cd1p4": 0.5171033413106875
+        },
+        "side": {
+          "area_m2": 0.0011202741329682344,
+          "force_N_Cd0p8": 0.21957373006177394,
+          "force_N_Cd1p4": 0.3842540276081044
+        }
+      }
+    },
+    "30_m_s": {
+      "dynamic_pressure_Pa": 551.25,
+      "directions": {
+        "uplift_plan": {
+          "area_m2": 0.0112422,
+          "force_N_Cd0p8": 4.957810200000001,
+          "force_N_Cd1p4": 8.676167849999999
+        },
+        "front": {
+          "area_m2": 0.0015075899163576893,
+          "force_N_Cd0p8": 0.6648471531137411,
+          "force_N_Cd1p4": 1.1634825179490467
+        },
+        "side": {
+          "area_m2": 0.0011202741329682344,
+          "force_N_Cd0p8": 0.4940408926389914,
+          "force_N_Cd1p4": 0.8645715621182348
+        }
+      }
+    }
+  },
+  "limitations": [
+    "bounding-envelope projection is conservative rather than CFD silhouette",
+    "gust, turbulence, edge suction, local peel, and installation variation are not resolved",
+    "bench targets are validation loads, not a certified wind-speed rating"
+  ]
+}

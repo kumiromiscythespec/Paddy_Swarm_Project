@@ -1,0 +1,974 @@
+{
+  "geometry": {
+    "assembly_bounds_mm": [
+      81.707106781,
+      81.707106781,
+      36.5
+    ],
+    "body_bounds_mm": [
+      80.0,
+      80.0,
+      28.5
+    ],
+    "body_volume_mm3": 38434.144784547534,
+    "compression_matrix": [
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G20",
+        "land_margin_after_080_position_error_mm": 1.075,
+        "nominal_ratio": 0.19999999999999996,
+        "provisional_constant_perimeter_volume_width_mm": 6.25,
+        "stop": "S16",
+        "test_role": "PLANNED_COMPARISON",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G20",
+        "land_margin_after_080_position_error_mm": 1.4222222222222223,
+        "nominal_ratio": 0.09999999999999998,
+        "provisional_constant_perimeter_volume_width_mm": 5.555555555555555,
+        "stop": "S18",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G20",
+        "land_margin_after_080_position_error_mm": 1.7,
+        "nominal_ratio": 0.0,
+        "provisional_constant_perimeter_volume_width_mm": 5.0,
+        "stop": "S20",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "NO_COMPRESSION_OR_GAP"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G20",
+        "land_margin_after_080_position_error_mm": 1.9272727272727275,
+        "nominal_ratio": -0.10000000000000009,
+        "provisional_constant_perimeter_volume_width_mm": 4.545454545454545,
+        "stop": "S22",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "NO_COMPRESSION_OR_GAP"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G20",
+        "land_margin_after_080_position_error_mm": 2.1166666666666663,
+        "nominal_ratio": -0.19999999999999996,
+        "provisional_constant_perimeter_volume_width_mm": 4.166666666666667,
+        "stop": "S24",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "NO_COMPRESSION_OR_GAP"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G25",
+        "land_margin_after_080_position_error_mm": 0.29374999999999996,
+        "nominal_ratio": 0.36,
+        "provisional_constant_perimeter_volume_width_mm": 7.8125,
+        "stop": "S16",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "HIGH_COMPRESSION_PHYSICAL_HOLD"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G25",
+        "land_margin_after_080_position_error_mm": 0.7277777777777776,
+        "nominal_ratio": 0.28,
+        "provisional_constant_perimeter_volume_width_mm": 6.944444444444445,
+        "stop": "S18",
+        "test_role": "PLANNED_COMPARISON",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G25",
+        "land_margin_after_080_position_error_mm": 1.075,
+        "nominal_ratio": 0.19999999999999996,
+        "provisional_constant_perimeter_volume_width_mm": 6.25,
+        "stop": "S20",
+        "test_role": "PRIMARY",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G25",
+        "land_margin_after_080_position_error_mm": 1.3590909090909091,
+        "nominal_ratio": 0.11999999999999988,
+        "provisional_constant_perimeter_volume_width_mm": 5.681818181818182,
+        "stop": "S22",
+        "test_role": "PLANNED_COMPARISON",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G25",
+        "land_margin_after_080_position_error_mm": 1.595833333333333,
+        "nominal_ratio": 0.040000000000000036,
+        "provisional_constant_perimeter_volume_width_mm": 5.208333333333334,
+        "stop": "S24",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G30",
+        "land_margin_after_080_position_error_mm": -0.48750000000000004,
+        "nominal_ratio": 0.4666666666666667,
+        "provisional_constant_perimeter_volume_width_mm": 9.375,
+        "stop": "S16",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "UNSUPPORTED_EXTREME_NOT_APPROVED"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G30",
+        "land_margin_after_080_position_error_mm": 0.03333333333333299,
+        "nominal_ratio": 0.4,
+        "provisional_constant_perimeter_volume_width_mm": 8.333333333333334,
+        "stop": "S18",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "HIGH_COMPRESSION_PHYSICAL_HOLD"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G30",
+        "land_margin_after_080_position_error_mm": 0.44999999999999996,
+        "nominal_ratio": 0.33333333333333337,
+        "provisional_constant_perimeter_volume_width_mm": 7.5,
+        "stop": "S20",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "HIGH_COMPRESSION_PHYSICAL_HOLD"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G30",
+        "land_margin_after_080_position_error_mm": 0.7909090909090912,
+        "nominal_ratio": 0.2666666666666666,
+        "provisional_constant_perimeter_volume_width_mm": 6.8181818181818175,
+        "stop": "S22",
+        "test_role": "REFERENCE_ONLY_NOT_FIRST_PRINT",
+        "warning": "PHYSICAL_PENDING"
+      },
+      {
+        "classification": "NOMINAL_DESIGN_REFERENCE",
+        "gasket": "G30",
+        "land_margin_after_080_position_error_mm": 1.075,
+        "nominal_ratio": 0.20000000000000007,
+        "provisional_constant_perimeter_volume_width_mm": 6.25,
+        "stop": "S24",
+        "test_role": "PLANNED_COMPARISON",
+        "warning": "PHYSICAL_PENDING"
+      }
+    ],
+    "dry_internal_volume_ml": 63.142245551679295,
+    "external_penetration_count": 0,
+    "floor_mm": 3.5,
+    "gasket_centerline_perimeter_mm": 220.8407044966673,
+    "gasket_centerline_plan_mm": 58.0,
+    "gasket_centerline_radius_mm": 6.5,
+    "gasket_inner_plan_mm": 53.0,
+    "gasket_inner_radius_mm": 4.0,
+    "gasket_outer_plan_mm": 63.0,
+    "gasket_outer_radius_mm": 9.0,
+    "hole_diameter_mm": 4.5,
+    "internal_cavity_mm": [
+      48.0,
+      48.0,
+      25.0
+    ],
+    "joint_count": 0,
+    "lateral_budget_basis": "0.25 body-hole/nominal-M4 +0.25 stop-hole/nominal-M4 +0.30 ear/stop; print distortion not included",
+    "lid_bounds_mm": [
+      80.0,
+      80.0,
+      6.0
+    ],
+    "lid_mm": 6.0,
+    "lid_selection_basis": "6mm: 3.375x section bending stiffness of 4mm at equal material/span; no absolute stiffness claim without printed material/force data",
+    "lid_stiffness_geometric_comparison": [
+      {
+        "lid_thickness_mm": 4,
+        "relative_bending_compliance_vs_6mm": 3.375,
+        "section_I_mm4": 426.6666666666667,
+        "strip_width_mm": 80
+      },
+      {
+        "lid_thickness_mm": 5,
+        "relative_bending_compliance_vs_6mm": 1.7279999999999998,
+        "section_I_mm4": 833.3333333333334,
+        "strip_width_mm": 80
+      },
+      {
+        "lid_thickness_mm": 6,
+        "relative_bending_compliance_vs_6mm": 1.0,
+        "section_I_mm4": 1440.0,
+        "strip_width_mm": 80
+      }
+    ],
+    "lid_volume_mm3": 37832.880505764246,
+    "locating_stop_intersection_mm3": 0,
+    "locator_radial_clearance_mm": 0.2999999999999998,
+    "locator_slot_length_mm": 10.6,
+    "locator_tab_thickness_mm": 0.8,
+    "locators": {
+      "FOUR_POINT": {
+        "active_band_difference_mm3": 0,
+        "bounds_mm": [
+          81.0,
+          81.0,
+          2.5
+        ],
+        "selection": "NOT_SELECTED_FOUR_ROUND_HOLES_CAN_OVERCONSTRAIN",
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 3016.0838140947267
+      },
+      "TWO_POINT": {
+        "active_band_difference_mm3": 0,
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          2.5
+        ],
+        "selection": "SELECTED_ROUND_PLUS_RADIAL_SLOT",
+        "solids": 1,
+        "valid": true,
+        "volume_mm3": 2891.3363101515297
+      }
+    },
+    "m4_active_seal_clearance_mm": 5.013455967290591,
+    "m4_active_seal_intersection_mm3": 0,
+    "m4_centers_mm": [
+      [
+        -34.0,
+        -34.0
+      ],
+      [
+        -34.0,
+        34.0
+      ],
+      [
+        34.0,
+        -34.0
+      ],
+      [
+        34.0,
+        34.0
+      ]
+    ],
+    "m4_count": 4,
+    "nominal_lateral_registration_budget_mm": 0.8,
+    "nominal_primary_compression_ratio": 0.2,
+    "planned_configuration_land_support": [
+      {
+        "gasket": "G20",
+        "max_unsupported_volume_mm3": 0,
+        "model": "CONSTANT_PERIMETER_VOLUME_RESERVATION_NOT_TPU_DEFORMATION_PREDICTION",
+        "position_allowance_mm": 0.8,
+        "reservation_width_mm": 6.25,
+        "stop": "S16"
+      },
+      {
+        "gasket": "G25",
+        "max_unsupported_volume_mm3": 0,
+        "model": "CONSTANT_PERIMETER_VOLUME_RESERVATION_NOT_TPU_DEFORMATION_PREDICTION",
+        "position_allowance_mm": 0.8,
+        "reservation_width_mm": 6.944444444444445,
+        "stop": "S18"
+      },
+      {
+        "gasket": "G25",
+        "max_unsupported_volume_mm3": 0,
+        "model": "CONSTANT_PERIMETER_VOLUME_RESERVATION_NOT_TPU_DEFORMATION_PREDICTION",
+        "position_allowance_mm": 0.8,
+        "reservation_width_mm": 6.25,
+        "stop": "S20"
+      },
+      {
+        "gasket": "G25",
+        "max_unsupported_volume_mm3": 0,
+        "model": "CONSTANT_PERIMETER_VOLUME_RESERVATION_NOT_TPU_DEFORMATION_PREDICTION",
+        "position_allowance_mm": 0.8,
+        "reservation_width_mm": 5.681818181818182,
+        "stop": "S22"
+      },
+      {
+        "gasket": "G30",
+        "max_unsupported_volume_mm3": 0,
+        "model": "CONSTANT_PERIMETER_VOLUME_RESERVATION_NOT_TPU_DEFORMATION_PREDICTION",
+        "position_allowance_mm": 0.8,
+        "reservation_width_mm": 6.25,
+        "stop": "S24"
+      }
+    ],
+    "rigid_body_lid_intersection_mm3": 0,
+    "round_cord_geometry_dependency": false,
+    "seal_datum_z_mm": 28.5,
+    "seal_land_missing_body_mm3": 0,
+    "seal_land_missing_lid_mm3": 0,
+    "seal_land_width_mm": 10.0,
+    "stop_active_seal_clearance_mm": 3.2634559672905885,
+    "stop_active_seal_intersection_mm3": 0,
+    "stop_outer_diameter_mm": 8.0,
+    "tab_free_height_at_min_gap_mm": 0.8,
+    "tab_lid_intersection_at_min_stop_mm3": 0,
+    "wall_mm": 3.5,
+    "witness_body_intersection_mm3": 0
+  },
+  "quality": {
+    "actual_gaskets": {
+      "G20": {
+        "step": {
+          "bottom_z_mm": 0.0,
+          "thickness_mm": 2.0000000000000004,
+          "top_z_mm": 2.0000000000000004,
+          "width_mm": 5.0
+        },
+        "stl": {
+          "thickness_mm": 2.0,
+          "width_mm": 5.0
+        }
+      },
+      "G25": {
+        "step": {
+          "bottom_z_mm": 0.0,
+          "thickness_mm": 2.5000000000000004,
+          "top_z_mm": 2.5000000000000004,
+          "width_mm": 5.0
+        },
+        "stl": {
+          "thickness_mm": 2.5,
+          "width_mm": 5.0
+        }
+      },
+      "G30": {
+        "step": {
+          "bottom_z_mm": 0.0,
+          "thickness_mm": 3.0000000000000004,
+          "top_z_mm": 3.0000000000000004,
+          "width_mm": 5.0
+        },
+        "stl": {
+          "thickness_mm": 3.0,
+          "width_mm": 5.0
+        }
+      }
+    },
+    "actual_primary_assembly_gap_mm": 2.0,
+    "actual_stops": {
+      "S16": {
+        "step_thicknesses_mm": [
+          1.6,
+          1.6,
+          1.6,
+          1.6
+        ],
+        "stl_thickness_mm": 1.6
+      },
+      "S18": {
+        "step_thicknesses_mm": [
+          1.8,
+          1.8,
+          1.8,
+          1.8
+        ],
+        "stl_thickness_mm": 1.8
+      },
+      "S20": {
+        "step_thicknesses_mm": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "stl_thickness_mm": 2.0
+      },
+      "S22": {
+        "step_thicknesses_mm": [
+          2.2,
+          2.2,
+          2.2,
+          2.2
+        ],
+        "stl_thickness_mm": 2.2
+      },
+      "S24": {
+        "step_thicknesses_mm": [
+          2.4,
+          2.4,
+          2.4,
+          2.4
+        ],
+        "stl_thickness_mm": 2.4
+      }
+    },
+    "step": {
+      "artifacts/ps_wp_gasket_reference.step": {
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          2.5
+        ],
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_tpu_gasket_g20.step": {
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          2.0
+        ],
+        "self_interference": {
+          "count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_tpu_gasket_g25.step": {
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          2.5
+        ],
+        "self_interference": {
+          "count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_tpu_gasket_g30.step": {
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          3.0
+        ],
+        "self_interference": {
+          "count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_tpu_thickness_calibration_coupon.step": {
+        "bounds_mm": [
+          54.0,
+          14.0,
+          3.0
+        ],
+        "solids": 3,
+        "valid": true
+      },
+      "artifacts/ps_wp_water_dummy_assembly_g25_s20.step": {
+        "bounds_mm": [
+          81.707106781,
+          81.707106781,
+          36.5
+        ],
+        "solids": 15,
+        "valid": true
+      },
+      "artifacts/ps_wp_water_dummy_body.step": {
+        "bounds_mm": [
+          80.0,
+          80.0,
+          28.5
+        ],
+        "self_interference": {
+          "count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_water_dummy_lid.step": {
+        "bounds_mm": [
+          80.0,
+          80.0,
+          6.0
+        ],
+        "self_interference": {
+          "count": 0,
+          "faulty": false
+        },
+        "solids": 1,
+        "valid": true
+      },
+      "artifacts/ps_wp_witness_zone_reference.step": {
+        "bounds_mm": [
+          44.0,
+          44.0,
+          0.2
+        ],
+        "solids": 8,
+        "valid": true
+      },
+      "artifacts/stop_s16.step": {
+        "bounds_mm": [
+          22.0,
+          22.0,
+          1.6
+        ],
+        "solids": 4,
+        "valid": true
+      },
+      "artifacts/stop_s18.step": {
+        "bounds_mm": [
+          22.0,
+          22.0,
+          1.8
+        ],
+        "solids": 4,
+        "valid": true
+      },
+      "artifacts/stop_s20.step": {
+        "bounds_mm": [
+          22.0,
+          22.0,
+          2.0
+        ],
+        "solids": 4,
+        "valid": true
+      },
+      "artifacts/stop_s22.step": {
+        "bounds_mm": [
+          22.0,
+          22.0,
+          2.2
+        ],
+        "solids": 4,
+        "valid": true
+      },
+      "artifacts/stop_s24.step": {
+        "bounds_mm": [
+          22.0,
+          22.0,
+          2.4
+        ],
+        "solids": 4,
+        "valid": true
+      }
+    },
+    "stl": {
+      "artifacts/ps_wp_tpu_gasket_g20.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            81.7064082,
+            81.7064082,
+            2.0
+          ]
+        ],
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 3732,
+        "watertight": true
+      },
+      "artifacts/ps_wp_tpu_gasket_g25.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            81.7064082,
+            81.7064082,
+            2.5
+          ]
+        ],
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 3732,
+        "watertight": true
+      },
+      "artifacts/ps_wp_tpu_gasket_g30.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            81.7064082,
+            81.7064082,
+            3.0
+          ]
+        ],
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 3732,
+        "watertight": true
+      },
+      "artifacts/ps_wp_tpu_thickness_calibration_coupon.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            14.0,
+            14.0,
+            3.0
+          ],
+          [
+            14.0,
+            14.0,
+            2.0
+          ],
+          [
+            14.0,
+            14.0,
+            2.5
+          ]
+        ],
+        "connected_components": 3,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 36,
+        "watertight": true
+      },
+      "artifacts/ps_wp_water_dummy_body.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            79.9989388,
+            79.9989388,
+            28.5
+          ]
+        ],
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 6532,
+        "watertight": true
+      },
+      "artifacts/ps_wp_water_dummy_lid.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            80.0,
+            80.0,
+            6.0
+          ]
+        ],
+        "connected_components": 1,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 3196,
+        "watertight": true
+      },
+      "artifacts/stop_s16.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            8.0,
+            7.998418600000001,
+            1.6
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.6
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.6
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.6
+          ]
+        ],
+        "connected_components": 4,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 5056,
+        "watertight": true
+      },
+      "artifacts/stop_s18.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            8.0,
+            7.998418600000001,
+            1.8
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.8
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.8
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            1.8
+          ]
+        ],
+        "connected_components": 4,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 5056,
+        "watertight": true
+      },
+      "artifacts/stop_s20.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            8.0,
+            7.998418600000001,
+            2.0
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.0
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.0
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.0
+          ]
+        ],
+        "connected_components": 4,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 5056,
+        "watertight": true
+      },
+      "artifacts/stop_s22.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            8.0,
+            7.998418600000001,
+            2.2
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.2
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.2
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.2
+          ]
+        ],
+        "connected_components": 4,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 5056,
+        "watertight": true
+      },
+      "artifacts/stop_s24.stl": {
+        "bad_edges": 0,
+        "bad_vertex_links": 0,
+        "bad_winding_edges": 0,
+        "component_bounds_mm": [
+          [
+            8.0,
+            7.998418600000001,
+            2.4
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.4
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.4
+          ],
+          [
+            8.0,
+            7.998418600000001,
+            2.4
+          ]
+        ],
+        "connected_components": 4,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "manifold": true,
+        "pass": true,
+        "triangles": 5056,
+        "watertight": true
+      }
+    }
+  },
+  "regression": [
+    {
+      "actual_mm": 2.0000000000000004,
+      "part": "G20",
+      "plus010_rejected": true,
+      "requested_mm": 2.0
+    },
+    {
+      "actual_mm": 2.5000000000000004,
+      "part": "G25",
+      "plus010_rejected": true,
+      "requested_mm": 2.5
+    },
+    {
+      "actual_mm": 3.0000000000000004,
+      "part": "G30",
+      "plus010_rejected": true,
+      "requested_mm": 3.0
+    },
+    {
+      "actual_mm": [
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ],
+      "assembly_gap_mm": 1.6000000000000014,
+      "part": "S16",
+      "plus010_rejected": true,
+      "requested_mm": 1.6
+    },
+    {
+      "actual_mm": [
+        1.8,
+        1.8,
+        1.8,
+        1.8
+      ],
+      "assembly_gap_mm": 1.8000000000000007,
+      "part": "S18",
+      "plus010_rejected": true,
+      "requested_mm": 1.8
+    },
+    {
+      "actual_mm": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "assembly_gap_mm": 2.0,
+      "part": "S20",
+      "plus010_rejected": true,
+      "requested_mm": 2.0
+    },
+    {
+      "actual_mm": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "assembly_gap_mm": 2.1999999999999993,
+      "part": "S22",
+      "plus010_rejected": true,
+      "requested_mm": 2.2
+    },
+    {
+      "actual_mm": [
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ],
+      "assembly_gap_mm": 2.3999999999999986,
+      "part": "S24",
+      "plus010_rejected": true,
+      "requested_mm": 2.4
+    }
+  ],
+  "reproducibility": {
+    "byte_identical": {
+      "artifacts/ps_wp_gasket_reference.step": true,
+      "artifacts/ps_wp_tpu_gasket_g20.step": true,
+      "artifacts/ps_wp_tpu_gasket_g20.stl": true,
+      "artifacts/ps_wp_tpu_gasket_g25.step": true,
+      "artifacts/ps_wp_tpu_gasket_g25.stl": true,
+      "artifacts/ps_wp_tpu_gasket_g30.step": true,
+      "artifacts/ps_wp_tpu_gasket_g30.stl": true,
+      "artifacts/ps_wp_tpu_thickness_calibration_coupon.step": true,
+      "artifacts/ps_wp_tpu_thickness_calibration_coupon.stl": true,
+      "artifacts/ps_wp_water_dummy_assembly_g25_s20.step": true,
+      "artifacts/ps_wp_water_dummy_body.step": true,
+      "artifacts/ps_wp_water_dummy_body.stl": true,
+      "artifacts/ps_wp_water_dummy_lid.step": true,
+      "artifacts/ps_wp_water_dummy_lid.stl": true,
+      "artifacts/ps_wp_witness_zone_reference.step": true,
+      "artifacts/stop_s16.step": true,
+      "artifacts/stop_s16.stl": true,
+      "artifacts/stop_s18.step": true,
+      "artifacts/stop_s18.stl": true,
+      "artifacts/stop_s20.step": true,
+      "artifacts/stop_s20.stl": true,
+      "artifacts/stop_s22.step": true,
+      "artifacts/stop_s22.stl": true,
+      "artifacts/stop_s24.step": true,
+      "artifacts/stop_s24.stl": true,
+      "previews/assembly_section.svg": true,
+      "previews/assembly_top.svg": true,
+      "previews/g20_g25_g30_comparison.svg": true,
+      "previews/hard_stop_system.svg": true,
+      "previews/locating_tab_layout.svg": true,
+      "previews/s16_s18_s20_s22_s24_comparison.svg": true,
+      "previews/tpu_face_gasket_section.svg": true,
+      "previews/witness_zone_layout.svg": true
+    },
+    "count": 33,
+    "pass_count": 33,
+    "step_metadata_policy": "Normalize FILE_NAME, generic PRODUCT and NAUO occurrence labels only; geometry untouched"
+  },
+  "status": "CAD_PASS/CONTRACT_TEST_PASS/PS_WP_TPU_FACE_GASKET_DUMMY_PRINT_READY/G25_S20_PRIMARY_TEST_READY/WATER_PHYSICAL_TEST_PENDING/BBOX_V005_PENDING/CBOX_FIELD_BOX_PENDING"
+}

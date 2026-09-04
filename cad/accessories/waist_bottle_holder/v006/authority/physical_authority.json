@@ -1,0 +1,86 @@
+{
+  "project": "BH_V006 Physical Authority Production",
+  "authority_basis": "User-reported PETG physical coupon tests",
+  "authority_priority": "Physical test result overrides coupon label semantics and nominal CAD preference",
+  "neck": {
+    "neck_collar_authority": "ID26.2",
+    "neck_id_mm": 26.2,
+    "collar_height_mm": 7.0,
+    "collar_wall_mm": 3.0,
+    "c_opening_mm": 5.0,
+    "opening_tip_radius_mm": 1.2,
+    "physical_result": "PASS",
+    "selection_reason": [
+      "Fits the measured transparent PET neck",
+      "Provides the required retention",
+      "Allows intentional removal",
+      "Suitable for remaining on the bottle",
+      "Avoids excessive clamping"
+    ]
+  },
+  "slide": {
+    "slide_authority": "S3_loose",
+    "authority_semantic": "PHYSICAL_LARGEST_THICKEST_PAIR",
+    "selection_method": "Compared numeric geometry in existing parameters.json; did not infer from S1/S2/S3 labels",
+    "slide_tab_authority_width_mm": 16.0,
+    "slide_tab_authority_thickness_mm": 4.0,
+    "slide_receiver_authority_width_mm": 17.1,
+    "slide_receiver_authority_thickness_mm": 4.8,
+    "resulting_width_clearance_mm": 1.1,
+    "resulting_thickness_clearance_mm": 0.8,
+    "insertion_length_mm": 22.0,
+    "front_stem_slot_width_mm": 10.8,
+    "entrance_chamfer_mm": 1.0,
+    "target_float_mm": 0.5,
+    "acceptable_float_range_mm": [0.3, 0.8],
+    "physical_result": "PASS",
+    "manual_insertion": "PASS",
+    "manual_removal": "PASS",
+    "friction_retention": "PASS_CANDIDATE",
+    "friction_retention_reason": "The physical report states that suitable friction retention is expected and that spontaneous release in normal posture is unlikely; it does not state that a field retention test is complete."
+  },
+  "unchanged_main_body": {
+    "cup_height_mm": 94.0,
+    "cup_inner_x_mm": 72.0,
+    "cup_inner_y_mm": 72.0,
+    "cup_corner_r_mm": 11.0,
+    "wall_mm": 3.2,
+    "bottom_thickness_mm": 3.6,
+    "drain_hole_diameter_mm": 8.0,
+    "drain_hole_count": 5,
+    "rope_diameter_mm": 4.8,
+    "rope_slot_mm": [8.0, 14.0],
+    "rope_slot_count": 2,
+    "rope_slot_center_distance_mm": 46.0
+  },
+  "load_path": [
+    "BOTTLE",
+    "94mm_CUP",
+    "BOTTOM",
+    "MAIN_BODY_SPINE",
+    "ROPE_SUPPORT"
+  ],
+  "physical_state": {
+    "NECK_COLLAR_PHYSICAL_FIT": "PASS",
+    "NECK_COLLAR_ID26p2": "PASS",
+    "SLIDE_PHYSICAL_FIT": "PASS",
+    "SLIDE_INSERTION_BY_HAND": "PASS",
+    "SLIDE_REMOVAL_BY_HAND": "PASS",
+    "SLIDE_FRICTION_RETENTION": "PASS_CANDIDATE",
+    "ROUND_BOTTLE_FIELD_FIT": "PENDING",
+    "SQUARE_BOTTLE_FIELD_FIT": "PENDING",
+    "BODY_COMFORT_FIELD_TEST": "PENDING",
+    "BOUNCE_FIELD_TEST": "PENDING",
+    "35N_CYCLIC_DURABILITY": "PENDING"
+  },
+  "start_git_state": {
+    "branch": "agent/organize-untracked-cad-assets-20260725",
+    "head": "7c149a65053f2292bc4cc0ed06d8941c96852f2b",
+    "tracked_status": [
+      " M CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M README.md",
+      " M docs/design_authority/CURRENT_COMMON_ROVER_AUTHORITY.md",
+      " M rovers/common_rover/CURRENT_COMMON_ROVER_AUTHORITY.md"
+    ]
+  }
+}

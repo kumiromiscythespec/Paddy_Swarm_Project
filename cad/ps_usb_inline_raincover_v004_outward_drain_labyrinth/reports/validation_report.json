@@ -1,0 +1,506 @@
+{
+  "lane": "ps_usb_inline_raincover_v004_outward_drain_labyrinth",
+  "version": "v0.0.4",
+  "generated_utc": "2026-08-27T10:51:21.893300+00:00",
+  "cadquery_version": "2.8.0",
+  "status": "CAD_COMPLETE_OUTWARD_DRAIN_LABYRINTH_PHYSICAL_VALIDATION_PENDING",
+  "physical_rating": "SPLASH_RESISTANT_PHYSICAL_PASS_WITH_PRESSURE_JET_LIMIT",
+  "PRESSURE_JET_RATED": false,
+  "IMMERSION_RATED": false,
+  "v003_authority": {
+    "lane": "cad/ps_usb_inline_raincover_v003_side_load_labyrinth",
+    "hashes": {
+      "source": "542307c25ac5a4d2c165a8a14b7fff84fe189266890012934f501f034ed3157f",
+      "parameters": "35551c26e4d176e2e17fd16a8f2382a9ddb29c35a59eafff1c229dab43e3b02c",
+      "validation": "9cb51be8eabc44703e9fffd66dd5b0bab7d6f9823fab76be95a244569f50f0ad",
+      "assembly_step": "35f245fffab7a3b6954c58830175ddde87bb16e1afc402ff636fe4e6cce109bb",
+      "manifest": "108d2b1476ce5a3b7fcdfd33e68165f56a698de05c01da65d27fd7aa2bab6f6e"
+    }
+  },
+  "inherited_physical_results": {
+    "CONNECTOR_FIT": "PASS",
+    "4.4 mm CABLE_FIT": "PASS",
+    "SIDE_LOAD": "PASS",
+    "TOP_SPRAY": "DRY",
+    "SIDE_SPRAY": "DRY",
+    "WEAK_DIRECT_JET": "DRY",
+    "STRONG_DIRECT_JET": "WET",
+    "INTERPRETATION": "SPLASH_RESISTANT_NOT_PRESSURE_JET_RATED"
+  },
+  "elevations_mm": {
+    "chamber_side_labyrinth_floor_z": 2.05,
+    "outer_labyrinth_floor_z": 0.8222,
+    "lower_floor_drop": 1.2278,
+    "capillary_break_upstream_floor_z": 1.0186,
+    "capillary_break_downstream_floor_z": 0.8713,
+    "capillary_break_upstream_bottom_z": 0.2186,
+    "capillary_break_downstream_bottom_z": 0.0713,
+    "drain_capture_floor_z": 0.0713,
+    "difference_chamber_to_drain": 1.9787,
+    "upper_ceiling_chamber_z": 7.2743,
+    "upper_ceiling_outer_z": 6.575,
+    "upper_ceiling_drop": 0.6993
+  },
+  "water_path": {
+    "LOWER FLOOR GRAVITY VECTOR": "OUTWARD",
+    "UPPER CEILING GRAVITY VECTOR": "OUTWARD",
+    "CHAMBER-SIDE SILL": "PRESENT",
+    "CAPILLARY BREAK": "PRESENT_AND_DRAIN_CONNECTED",
+    "DRAIN": "AT_LOWEST_POINT_CAPTURE_REGION",
+    "CLOSED WATER POCKET": "NONE_CAD",
+    "DIRECT LINE OF SIGHT": "NONE_CAD",
+    "physical_v004_coupon": "PENDING"
+  },
+  "installation_authority": {
+    "support": "vertical support pipe",
+    "cover_location": "upper protected cable run",
+    "long_axis": "approximately horizontal",
+    "drain": "DOWNWARD",
+    "port": "NOT UPWARD",
+    "drip_loop": "REQUIRED BELOW COVER",
+    "cover": "SUSPENDED ABOVE GROUND"
+  },
+  "intersections": {
+    "connector_vs_lower_mm3": 0.0,
+    "connector_vs_upper_mm3": 0.0,
+    "camera_vs_lower_mm3": 0.0,
+    "camera_vs_upper_mm3": 0.0,
+    "extension_vs_lower_mm3": 0.0,
+    "extension_vs_upper_mm3": 0.0,
+    "upper_vs_lower_mm3": 0.0,
+    "camera_top_load_sweep_vs_lower_mm3": 0.0,
+    "extension_top_load_sweep_vs_lower_mm3": 0.0,
+    "camera_release_sweep_vs_upper_mm3": 0.0,
+    "extension_release_sweep_vs_upper_mm3": 0.0,
+    "connector_placement_vs_lower_mm3": 0.0
+  },
+  "checks": {
+    "v003_authority_hashes_match": true,
+    "connector_and_chamber_authority_preserved": true,
+    "4p4_channel_and_relief_preserved": true,
+    "lower_floor_gravity_vector_outward": true,
+    "lower_floor_drop_exact": true,
+    "upper_ceiling_gravity_vector_outward": true,
+    "upper_ceiling_drop_exact": true,
+    "chamber_side_sill_present": true,
+    "capillary_break_present_and_printable": true,
+    "capillary_break_intersects_drain": true,
+    "drain_at_lowest_capture_region": true,
+    "closed_water_pocket_none": true,
+    "drain_diameter_count_preserved": true,
+    "camera_clearance_positive": true,
+    "extension_clearance_positive": true,
+    "lower_path_open_from_above": true,
+    "lower_closed_loop_none": true,
+    "upper_closed_loop_none": true,
+    "cable_interference_zero": true,
+    "connector_interference_zero": true,
+    "connector_placement_path_clear": true,
+    "upper_lower_unintended_interference_zero": true,
+    "direct_line_of_sight_none": true,
+    "roof_skirt_parting_m3_preserved": true,
+    "coupon_material_reduced": true,
+    "pressure_jet_not_rated": true
+  },
+  "drain_capillary_break_overlap_mm3": 2.9246,
+  "coupon_volume_ratio_to_full_shell": 0.2466,
+  "artifacts": {
+    "outward_drain_labyrinth_coupon_lower_v004": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 5282.708,
+        "bounding_box_mm": {
+          "x": 23.161,
+          "y": 37.0,
+          "z": 13.004
+        },
+        "bounds_mm": {
+          "xmin": -9.661,
+          "xmax": 13.5,
+          "ymin": -18.5,
+          "ymax": 18.5,
+          "zmin": -3.003,
+          "zmax": 10.001
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 151184,
+        "triangle_count": 3022,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 23.161,
+          "y": 37.0,
+          "z": 13.0
+        },
+        "sha256": "cfc334b91fbfb5cde5f11cdbad9eeac6b5c0450a8addd15ccc7e4b778731ae45"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "brep_positive_volume": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "outward_drain_labyrinth_coupon_upper_v004": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 13964.047,
+        "bounding_box_mm": {
+          "x": 26.302,
+          "y": 37.0,
+          "z": 25.837
+        },
+        "bounds_mm": {
+          "xmin": -12.802,
+          "xmax": 13.5,
+          "ymin": -18.5,
+          "ymax": 18.5,
+          "zmin": 1.998,
+          "zmax": 27.835
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 81784,
+        "triangle_count": 1634,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 26.3,
+          "y": 37.0,
+          "z": 25.835
+        },
+        "sha256": "6913e613c7d4682b12e206353fda118831f2bdbb60faa8720bb24ecb84b64bd0"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "brep_positive_volume": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "usb_raincover_lower_v004": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 25976.039,
+        "bounding_box_mm": {
+          "x": 128.323,
+          "y": 52.0,
+          "z": 13.004
+        },
+        "bounds_mm": {
+          "xmin": -64.161,
+          "xmax": 64.162,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": -3.003,
+          "zmax": 10.001
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 440984,
+        "triangle_count": 8818,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 128.321,
+          "y": 52.0,
+          "z": 13.0
+        },
+        "sha256": "54b6b781788942e2080a2c740016e2c2228d01372c52be0bad91c7f4facce150"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "brep_positive_volume": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    },
+    "usb_raincover_upper_v004": {
+      "expected_solids": 1,
+      "brep": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 52058.696,
+        "bounding_box_mm": {
+          "x": 134.604,
+          "y": 52.0,
+          "z": 25.837
+        },
+        "bounds_mm": {
+          "xmin": -67.302,
+          "xmax": 67.302,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": 1.998,
+          "zmax": 27.835
+        }
+      },
+      "mesh": {
+        "file_size_bytes": 291684,
+        "triangle_count": 5832,
+        "degenerate_triangles": 0,
+        "nonmanifold_or_boundary_edges": 0,
+        "watertight_edge_count_check": true,
+        "bounding_box_mm": {
+          "x": 134.6,
+          "y": 52.0,
+          "z": 25.835
+        },
+        "sha256": "8582e3835f0499bf56ee4fc63ff0f7f83a67fe9737701e8f073c64454ee15ffd"
+      },
+      "checks": {
+        "brep_valid": true,
+        "brep_expected_solids": true,
+        "brep_positive_volume": true,
+        "stl_nonempty": true,
+        "stl_triangles_present": true,
+        "stl_no_degenerate_triangles": true,
+        "stl_boundary_nonmanifold_edges_zero": true,
+        "stl_bbox_matches_brep": true
+      }
+    }
+  },
+  "step_reimport": {
+    "outward_drain_labyrinth_coupon_v004": {
+      "expected_solids": 2,
+      "source": {
+        "valid": true,
+        "solid_count": 2,
+        "volume_mm3": 19246.755,
+        "bounding_box_mm": {
+          "x": 26.302,
+          "y": 37.0,
+          "z": 30.838
+        },
+        "bounds_mm": {
+          "xmin": -12.802,
+          "xmax": 13.5,
+          "ymin": -18.5,
+          "ymax": 18.5,
+          "zmin": -3.003,
+          "zmax": 27.835
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 2,
+        "volume_mm3": 19246.755,
+        "bounding_box_mm": {
+          "x": 26.3,
+          "y": 37.0,
+          "z": 30.835
+        },
+        "bounds_mm": {
+          "xmin": -12.8,
+          "xmax": 13.5,
+          "ymin": -18.5,
+          "ymax": 18.5,
+          "zmin": -3.0,
+          "zmax": 27.835
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "f765df682dfcbef8c36540fdbcc1a3d4eb123b70d7be8588f9b858d9f20358bf"
+    },
+    "usb_raincover_lower_v004": {
+      "expected_solids": 1,
+      "source": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 25976.039,
+        "bounding_box_mm": {
+          "x": 128.323,
+          "y": 52.0,
+          "z": 13.004
+        },
+        "bounds_mm": {
+          "xmin": -64.161,
+          "xmax": 64.162,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": -3.003,
+          "zmax": 10.001
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 25976.039,
+        "bounding_box_mm": {
+          "x": 128.321,
+          "y": 52.0,
+          "z": 13.0
+        },
+        "bounds_mm": {
+          "xmin": -64.161,
+          "xmax": 64.161,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": -3.0,
+          "zmax": 10.0
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "9ecff7e4376f72cd0d51dd59eade81c4e932d9f8e5dd77f30ea720c92a09d4a1"
+    },
+    "usb_raincover_upper_v004": {
+      "expected_solids": 1,
+      "source": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 52058.696,
+        "bounding_box_mm": {
+          "x": 134.604,
+          "y": 52.0,
+          "z": 25.837
+        },
+        "bounds_mm": {
+          "xmin": -67.302,
+          "xmax": 67.302,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": 1.998,
+          "zmax": 27.835
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 1,
+        "volume_mm3": 52058.696,
+        "bounding_box_mm": {
+          "x": 134.6,
+          "y": 52.0,
+          "z": 25.835
+        },
+        "bounds_mm": {
+          "xmin": -67.3,
+          "xmax": 67.3,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": 2.0,
+          "zmax": 27.835
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "6bd76b48e04176e80f209b6ca6ebc96afd357906320d2d65defa543f9e3868f7"
+    },
+    "usb_raincover_assembly_v004": {
+      "expected_solids": 5,
+      "source": {
+        "valid": true,
+        "solid_count": 5,
+        "volume_mm3": 97959.151,
+        "bounding_box_mm": {
+          "x": 135.9,
+          "y": 52.0,
+          "z": 34.835
+        },
+        "bounds_mm": {
+          "xmin": -67.9,
+          "xmax": 68.0,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": -7.0,
+          "zmax": 27.835
+        }
+      },
+      "reimport": {
+        "valid": true,
+        "solid_count": 5,
+        "volume_mm3": 97959.151,
+        "bounding_box_mm": {
+          "x": 135.9,
+          "y": 52.0,
+          "z": 34.835
+        },
+        "bounds_mm": {
+          "xmin": -67.9,
+          "xmax": 68.0,
+          "ymin": -26.0,
+          "ymax": 26.0,
+          "zmin": -7.0,
+          "zmax": 27.835
+        }
+      },
+      "checks": {
+        "step_nonempty": true,
+        "step_reimport_valid": true,
+        "step_expected_solids": true,
+        "step_volume_matches_source": true
+      },
+      "sha256": "a7346a32a48d77b71a9dd6ce698ceb49ef48bac147230adb4e9aeec9c08f1cc9"
+    }
+  },
+  "assembly_path": {
+    "lower cable path open from above": "PASS",
+    "upper closed loop": "NONE",
+    "lower closed loop": "NONE",
+    "camera cable interference": "0 mm3",
+    "extension cable interference": "0 mm3",
+    "connector reference interference": "0 mm3",
+    "upper/lower unintended interference": "0 mm3"
+  },
+  "pass_separation": {
+    "CAD_PASS": true,
+    "PRINT_PASS": false,
+    "CABLE_FIT_PASS": true,
+    "CONNECTOR_FIT_PASS": true,
+    "SIDE_LOAD_ASSEMBLY_PASS": true,
+    "OUTWARD_DRAIN_WATER_PASS": false,
+    "FULL_SHELL_RAIN_PASS": false,
+    "POWERED_USB_PASS": false,
+    "HEAVY_RAIN_FIELD_PASS": false
+  },
+  "blockers": [
+    "outward-drain labyrinth Physical water validation",
+    "capillary-break effectiveness",
+    "full-shell rain intrusion"
+  ],
+  "field_unconfirmed": [
+    "heavy rain",
+    "wind-driven rain",
+    "long-duration rain",
+    "capillary ingress over hours",
+    "mud splash",
+    "drain blockage",
+    "insect contamination",
+    "UV/weather aging"
+  ]
+}

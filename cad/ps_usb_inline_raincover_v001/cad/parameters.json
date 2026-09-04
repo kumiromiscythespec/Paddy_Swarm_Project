@@ -1,0 +1,76 @@
+{
+  "lane": "ps_usb_inline_raincover_v001",
+  "version": "v0.0.1",
+  "status": "CAD_COMPLETE_USB_RAINCOVER_PHYSICAL_VALIDATION_PENDING",
+  "water_rating": "SPLASH_RESISTANT_NOT_WATERPROOF",
+  "physical_authority": {
+    "CONNECTOR_MAX_W_mm": 18.7,
+    "CABLE_SMALL_OD_mm": 3.6,
+    "CABLE_LARGE_OD_mm": 7.9
+  },
+  "unknown_physical": {
+    "CONNECTOR_BODY_LENGTH": "UNKNOWN_PHYSICAL",
+    "CONNECTOR_BODY_HEIGHT": "UNKNOWN_PHYSICAL",
+    "CONNECTOR_SHAPE_DETAIL": "UNKNOWN_PHYSICAL",
+    "CONNECTOR_RIGID_FLEXIBLE_BOUNDARY": "UNKNOWN_PHYSICAL",
+    "CABLE_ENTRY_STRAIN_RELIEF_LENGTH": "UNKNOWN_PHYSICAL"
+  },
+  "provisional_chamber_mm": {
+    "length": 50.0,
+    "width": 24.0,
+    "height_min": 16.0,
+    "status": "PROVISIONAL_PHYSICAL_VALIDATION_REQUIRED"
+  },
+  "shell": {
+    "wall_mm": 3.0,
+    "flange_mm": 4.0,
+    "roof_slope_deg": 3.0,
+    "top_overlap_skirt_mm": 6.0,
+    "parting_step_h_mm": 2.0,
+    "parting_overlap_mm": 3.0,
+    "parting_clearance_mm": 0.3,
+    "closure": "M3_X4_SIDE_FLANGE_WITH_CAPTURED_HEX_NUTS",
+    "roof_screw_penetration": false
+  },
+  "cable_paths": {
+    "small_channel_mm": 4.6,
+    "large_channel_mm": 9.0,
+    "small_coupon_candidates_mm": [
+      4.4,
+      4.6,
+      4.8
+    ],
+    "large_coupon_candidates_mm": [
+      8.8,
+      9.0,
+      9.2
+    ],
+    "horizontal_run_mm": 10.0,
+    "vertical_offset_mm": 5.0,
+    "minimum_bend_space_radius_mm": 4.0,
+    "hard_clamp": false
+  },
+  "drainage": {
+    "drain_d_mm": 2.5,
+    "drain_count": 2,
+    "floor_slope_deg": 2.0,
+    "drip_pocket_bottom_z_mm": -0.75,
+    "drain_laterally_offset_from_weep": true,
+    "direct_drain_to_connector_line": false
+  },
+  "print": {
+    "printer": "Bambu Lab A1",
+    "material": "PETG",
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.2,
+    "walls_min": 4,
+    "top_bottom_min": 5,
+    "infill_percent": "25-35"
+  },
+  "physical_authority_priority": [
+    "actual physical measurement",
+    "successful physical coupon",
+    "CAD nominal",
+    "provisional assumption"
+  ]
+}
