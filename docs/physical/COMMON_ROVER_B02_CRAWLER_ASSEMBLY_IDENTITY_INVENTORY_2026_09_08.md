@@ -313,6 +313,364 @@ NUMERICAL_MATCH != SPECIMEN_IDENTITY_CONFIRMATION。既存の旧/reference 8 mm 
 
 PHASE 4の計画と当時のMEASUREMENT_EXECUTED: NOは履歴として保持し、今回の実測結果・工具差をここに分離して記録した。Caliper再測定、他spacer/shaft測定、回転、set-screw access、締付確認、分解、retention test、powered testなど追加の物理操作は要求しない。
 
+## PHASE 6 — Residual blocker re-ranking
+
+2026-09-09。RECOMMENDED_REASONING: MEDIUM。AGENT_MODE: SINGLE。分析・次actionの計画のみ。
+
+```text
+START_BRANCH: agent/organize-untracked-cad-assets-20260725
+START_HEAD: d90189ea5e986d47bb50b45c4385d67589d12e7f
+PRECONDITION_MISMATCH: NO
+B02_RUN_STATUS: IN_PROGRESS
+RESIDUAL_BLOCKER_COUNT: 7
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL
+PHYSICAL_ACTION_PERFORMED: NO
+OWNER_INPUT_REQUESTED: NO
+```
+
+PHASE 6 START_STATUS: 既存untrackedはbbox_functional_diagonal_corner_locator_test_v001/、bbox_functional_diagonal_corner_locator_test_v002_fastener_relief/、bbox_cbox_stacked_service_cradle_v001/（Environmentの対応path）、cad/high_cut_harvest/、failure_ledger/。対象B02は開始時tracked・変更なし。いずれのuntrackedも内容確認・移動・変更していない。
+
+証拠は本recordと、既読Production audit B02 / S16–S21を使用。今回Idler CURRENT_IDLER_SELECTION / HOLD_REGISTERとDrive HOLD_REGISTERを再確認した。関連sourceのリンクはTargeted Sources参照。Sourceの範囲を全repositoryの欠落と一般化しない。
+
+### Evidence baseline
+
+Drive/idlerのOWNER_CONFIRMED_PROVENANCEは維持し、両geometryはNOT_DIRECTLY_VERIFIED。Driveの意図はSET_SCREW + SPACER_SANDWICHの併用であり、set screwは主torque要素ではない。現在のねじ装着・締付はUNKNOWN、visibilityはNOT_VISIBLE。Q6 spacerはVISIBLE、NM01は8 mm / Steel ruler / 1 mm resolutionのcoarse input。Source mappingはPARTIALであり、stack・retention・shaft・bearing全体の検証にはならない。
+
+### Residual blocker matrix and ranking
+
+以下はauditのB02組立入力scopeに対するAgentの優先順位・必要性評価であり、新しいauthorityやrelease承認ではない。YESは当該問題を次段階の対象scopeに十分な証拠で解消する必要、CONDITIONALは具体的なassembly/test scopeによる。完全寸法測定や全公差制定を一律要求しない。非破壊解決可否は検査・証拠取得の見込みであり、不具合があった場合の修理可能性ではない。Disturbanceは不足証拠を揃えるための計画上の見積りで、隠れた箇所のアクセスは未確認。
+
+| BLOCKER_ID | SCOPE | CURRENT_EVIDENCE | MISSING_EVIDENCE | REQUIRED_BEFORE_B02_CLOSE | REQUIRED_BEFORE_MANUAL_ROTATION | REQUIRED_BEFORE_POWERED_TEST | CAN_BE_RESOLVED_NONDESTRUCTIVELY | PHYSICAL_DISTURBANCE | BLOCKER_REDUCTION_VALUE |
+|---|---|---|---|---|---|---|---|---|---|
+| B02-R1 (F) | IDLER | V001来歴。Selectionではouter-race retention / mount XYZ HOLD | 現在の軸・bearing保持方式、取付支持、装着状態の対応。外観presenceと性能検証は別 | YES | YES | YES | UNKNOWN | MODERATE | HIGH |
+| B02-R2 (E) | IDLER | 来歴と設計center系譜のみ。Fit / spacer physical pending | 現物shaft/bearing/spacer配置、fit、必要な面・寸法。Driveの8 mmを転用不可 | YES | YES | YES | UNKNOWN | MODERATE | HIGH |
+| B02-R3 (C) | DRIVE | ねじ組立時記憶、現在NOT_VISIBLE、spacer一部VISIBLE | 現在のset screw + spacer sandwich実装・位置保持の確認。記憶やspacer厚さだけで代替不可 | YES | YES | YES | UNKNOWN | MODERATE | HIGH |
+| B02-R4 (B) | DRIVE | Q6の概略位置、NM01 8 mm。Inner-ring face coordinates HOLD | Spacerがどのbearing面に対応するか、inner-ringとの接触関係・支持経路 | YES | YES | YES | UNKNOWN | MODERATE | HIGH |
+| B02-R5 (G) | BOTH | 許可されたDrive読取りでは順序部分定義。Idlerはmount/retention未確定 | 現物を評価できる接続順・基準面・保持意図とsourceの対応、必要な判定根拠 | YES | CONDITIONAL | YES | YES | NONE | HIGH |
+| B02-R6 (D) | DRIVE | 可視一部品の8 mmのみ | 隠れた/反対側spacerの存在、順序、必要厚さ・材質・接触。既知値からmirrorしない | YES | YES | YES | UNKNOWN | MODERATE | MEDIUM |
+| B02-R7 (A) | DRIVE | 使用可能軸長HOLD。旧shaft/keyの限定evidenceのみ | 同じ現物の基準面を持つ使用可能軸長・必要projection。単一突出値は全軸長ではない | YES | CONDITIONAL | YES | YES | LOW | MEDIUM |
+
+順位理由:
+
+- B02-R1: Idler側は保持・取付の現在構成自体が未記録で、crawler経路全体の手回し準備を制限する。非接触の初回inventoryで解消可能な部分と隠れた部分を先に切り分けられる。
+- B02-R2: Idlerのshaft/bearing/spacer入力はDriveに比べ直接証拠が少ない。R1で支持・保持位置を把握すると、後続の測点を誤りにくい。
+- B02-R3: Drive保持は重要だが、ねじは現在見えず、既に得た記憶確認の反復には価値が低い。安全なアクセス方法を決めず工具操作を先行させない。
+- B02-R4: 8 mmをstack解釈に使うにはbearing面との対応が要る。厚さの精度向上より支持経路の把握が先。
+- B02-R5: 許可sourceが部分定義でも単純なpresence観察は可能であり、全調査を停止する理由にはしない。ただしfit/保持の評価前には対象関係・判定根拠の不明点を解消し、未許可のsource全探索は行わない。
+- B02-R6: 反対側情報は必要だが、source/現物の面対応を先に把握しないままもう一つの厚さを測ってもstackを確定できない。
+- B02-R7: 軸長は重要な組立入力だが、基準面・必要支持/保持長との対応が先。無関係な突出寸法の精密測定を優先しない。
+
+依存関係: R1でidlerの保持・支持構成をinventory → R2の必要測点・fit確認範囲を定義。DriveはR3/R4/R5で保持と基準面を対応 → R6/R7の不足入力を対象化。これらの解消をreviewしてB02を閉じるか判断し、manual rotationは別途releaseする。R1の目視1件だけではR1全体もB02全体も閉じない。
+
+### Separate completion and release requirements
+
+B02_CLOSE_REQUIREMENTS: Auditで対象とするcurrent drive/idler両方について、現物来歴、機能に関係するshaft/bearing/spacerの配置・必要寸法/面対応、実装保持・mount/fitの証拠を結び付け、重要な組立入力/HOLDが解消されたとreviewできること。完全なCAD一致や全車両global XYZを無条件に要求せず、組立判断に必要なscopeに限定する。8 mm一件、来歴確認、単なる可視性だけではclose不可。未定義thresholdは作らず、判定に本当に必要ならその定義を残作業にする。
+
+MANUAL_ROTATION_RELEASE_REQUIREMENTS: 対象loopの静的fit、支持/保持、接触/干渉の懸念が手回しscopeに対して解消され、無通電・安全な支持・接近範囲・停止条件・Ownerの当該実施承認が成立すること。R5/R7の完全な数値/設計確定が必須かは手回しの具体scopeと証拠によるが、必要な保持・支持の未解決を迂回しない。手回しの結果は別B06で取得するもので、開始前に存在を要求しない。
+
+POWERED_TEST_RELEASE_REQUIREMENTS: B02組立入力に加え、対象manual loop結果、powered用の保持/負荷判断、電装・隔離/停止・安全支持・試験条件・Owner明示承認が必要。Powered torque、連続運転、動的挙動、水/泥/fieldの将来結果をB02 closeの必須条件にしない。Powered自体の将来resultを開始前に要求する循環条件にもせず、powered releaseはB02 closeから自動発生しない。
+
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL。V001としての製作・装着来歴はあるが、現在のshaft/bearing/spacer配置・fit、bearing outer-raceを含む保持方法と現状態、mount支持・必要位置情報が不足。CAD/旧centerの証拠を現在idlerのphysical fit/retentionへ拡張しない。
+
+### Exactly one next action — not executed
+
+```text
+NEXT_ACTION_ID: B02-NA02-IDLER-RETENTION-MOUNT-VISUAL-INVENTORY
+TARGET: B02-R1 — currently installed idler retention / mount
+ACTION_TYPE: VISUAL
+TOOL: NONE
+POWER_STATE: UNPOWERED
+ROTATION_REQUIRED: NO
+DISASSEMBLY_REQUIRED: NO
+PHYSICAL_ACTION_PERFORMED: NO
+OWNER_INPUT_REQUESTED: NO
+```
+
+OWNER_INSTRUCTION (将来承認時に使用する案。今は回答・実施依頼ではない): 現在位置のまま、接触せず外側から見えるidler assemblyの保持・取付要素を1回の静的inventoryとして記録する。どのidler/車体側かを示し、shaft端付近・bearing外側・mount接続で見える保持/支持要素と位置関係だけを記す。見えなければNOT_VISIBLE、種類不明ならUNKNOWNとし、左右に同じものがあるとは推定しない。新規写真・寸法は求めない。
+
+WHY_THIS_ACTION_FIRST: Idler側の大きい証拠空白と次のmanual validationの共通前提を、部品を動かさず切り分けられる。Drive側の既知8 mmの再測定や、見えないねじへの接触より先に、未記録側の構成を把握する価値が高い。
+
+RESULT_WILL_SUPPORT: 対象idlerと可視保持/取付要素の対応、外観で把握できる範囲と隠れた残項目の区別。R1/R2の次の検証scopeを絞る入力。
+
+RESULT_WILL_NOT_SUPPORT: 隠れたbearing保持・接触、締付torque、軸方向拘束性能、寸法/CAD一致、preload/clearance、fit PASS、R1完了、B02 close、manual/powered release。VISIBLEは保持性能ではなく、NOT_VISIBLEは不在ではない。
+
+STOP_CONDITION: 観察のために接触・回転・押引・移動・工具・分解が必要、無通電/安全な接近条件が不明、または対象を同定できない場合はその範囲をUNKNOWN/NOT_VISIBLEとして終了し、代替操作へ進まない。実施可能性は未確認であり、今回はこの案を実行しない。
+
+現在のSPACER_STACK / RETENTION / SHAFT_LENGTH / BEARING_STACK / CRAWLER_LOOP_READYはNOT_VERIFIED、MANUAL_ROTATION_READYはNOT_ESTABLISHED、POWERED_TEST_READYはNO、PHYSICAL_PASS / FIELD_PASSはNO。AUTHORITY_CHANGED / PHYSICAL_AUTHORITY_CHANGED: NO。
+
+## PHASE 7 — Idler retention / mount visual inventory
+
+Source: Owner「B02 PHASE 7 — Execute idler retention / mount visual inventory」。RECOMMENDED_REASONING: MEDIUM。AGENT_MODE: SINGLE。PHASE 6の計画に対し今回承認されたのは無通電・非接触の目視のみ。以下の実施条件・質問に対するOwner目視結果を受領済み。
+
+```text
+PHASE_7_STATUS: OWNER_VISUAL_INVENTORY_RECORDED
+ACTION_ID: B02-NA02-IDLER-RETENTION-MOUNT-VISUAL-INVENTORY
+POWER_STATE: UNPOWERED
+ACTION_TYPE: VISUAL
+CONTACT: NO
+ROTATION: NO
+DISASSEMBLY: NO
+MEASUREMENT: NO
+Q7_A_SHAFT_END_AREA: VISIBLE
+Q7_B_BEARING_OUTER_SIDE: VISIBLE
+Q7_C_IDLER_MOUNT_CONNECTION: VISIBLE
+PHYSICAL_ACTION_REQUESTED: NO_ADDITIONAL_ACTION
+```
+
+対象は現在装着されているidler。無通電のまま現在の外側観察位置から確認し、物に触れたり動かしたりしない。各回答は観察したidlerに限定し、左右をmirrorせず、対称性や隠れた部品を仮定しない。
+
+- Q7-A — SHAFT END AREA: 現在の外側観察位置からidlerのshaft端部周辺が見えるか。VISIBLEなら見えるものだけを短く記述してよい。隠れた機能の同定は求めない。
+- Q7-B — BEARING OUTER-SIDE AREA: Idler bearing / bearing領域の外側が見えるか。VISIBLEなら見えるhardware / printed featureだけを短く記述してよい。Outer-race保持、preload、接触、fit、保持性能を推定しない。
+- Q7-C — IDLER MOUNT CONNECTION: Idler assemblyとrover/frame側取付構造との接続部が見えるか。VISIBLEなら見えるbolt、printed support、plate、bracket、slot等だけを短く記述してよい。締付torque、load capacity、fit PASS、mount剛性、final XYZを推定しない。
+
+各zoneの回答選択: VISIBLE / NOT_VISIBLE / UNCERTAIN。VISIBLEは外側から見えることだけ、NOT_VISIBLEは不在を意味しない。UNCERTAINは現在の観察位置から対象featureを確実に識別できないことを表す。外観を裏付けのないengineering機能へ変換しない。
+
+STOP_CONDITIONS: 接触、crawler/idler移動、shaft/crawler回転、押引、持上げ、工具挿入、狭い機構内へのflashlight挿入、分解、新規測定が必要なら、該当zoneをNOT_VISIBLEまたはUNCERTAINとして記録し、代替操作をしない。無通電・安全な観察条件が不明の場合も操作を追加しない。
+
+```text
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL
+IDLER_BEARING_RETENTION: NOT_VERIFIED
+IDLER_MOUNT_RETENTION: NOT_VERIFIED
+IDLER_FIT: NOT_VERIFIED
+IDLER_SHAFT_STACK: NOT_VERIFIED
+AUTHORITY_PROMOTION: NO
+PHYSICAL_AUTHORITY_PROMOTION: NO
+```
+
+回答後も可視性だけで保持性能・fit・B02完了を認定しない。下記のbearing/spacer/retention/loop/manual/powered境界を維持する。PHASE 6の未実施計画は当時の記録として保持する。
+
+### Owner visual result and blocker effect
+
+Source: Owner「B02 PHASE 7 — Record Owner idler visual inventory result」。Agentによる実物確認ではなく、Ownerから受領した非接触の外観観察として保持する。
+
+```text
+EVIDENCE_CLASSIFICATION: OWNER_VISUAL_OBSERVATION / NON_CONTACT
+PHYSICAL_ACTION_PERFORMED: VISUAL_OBSERVATION_ONLY
+IDLER_SHAFT_END_VISIBILITY: VISIBLE
+IDLER_BEARING_OUTER_SIDE_VISIBILITY: VISIBLE
+IDLER_MOUNT_CONNECTION_VISIBILITY: VISIBLE
+IDLER_VISIBLE_SHAFT_COLLAR: PRESENT_BY_OWNER_VISUAL_OBSERVATION
+IDLER_VISIBLE_BEARING: PRESENT_BY_OWNER_VISUAL_OBSERVATION
+IDLER_VISIBLE_ROLLER: PRESENT_BY_OWNER_VISUAL_OBSERVATION
+OWNER_REPORTED_VISIBLE_SEQUENCE_FROM_SHAFT_END:
+SHAFT_COLLAR → BEARING → IDLER_ROLLER
+B02_R1_VISUAL_INVENTORY_COMPONENT: COMPLETED
+B02_R1_STATUS: OPEN
+B02_R2_STATUS: OPEN
+```
+
+上記sequenceは軸端から見た方向でOwnerが報告した外側の順序であり、inboard/outboardのCAD datumではない。可視shaft collarは外観の存在証拠のみ。Bearing inner-ring接触、outer-ring保持、collar保持PASS、preload、締付torque、軸方向拘束性能、mount剛性、fit PASS、exact CAD matchへ変換しない。観察した車体側の明示は今回の回答になく、左右へ転用しない。Mount接続はVISIBLEとの回答を保持するが、具体的bolt等の未報告詳細は作らない。
+
+BLOCKER_EFFECT: PHASE 6時点で不足していた外側構造の可視性情報は改善したためR1のvisual inventory componentだけを完了とする。保持の現状態、bearing支持関係、寸法、fit、mount性能は未解決でありR1/R2はOPEN。PHASE 6のmatrixと順位は当時の分析として保持し、この追記を現在の可視性情報の補完とする。B02全体・idler stackの完了やretention PASSにはしない。
+
+追加のcollar接触・締付確認、shaft移動、押引、回転、bearing接触試験、寸法測定、分解、powered testは要求・実施しない。
+
+## PHASE 8 — Idler shaft-collar / bearing retention source reconciliation
+
+2026-09-09。RECOMMENDED_REASONING: MEDIUM。AGENT_MODE: SINGLE。
+START_BRANCH: agent/organize-untracked-cad-assets-20260725。START_HEAD: d90189ea5e986d47bb50b45c4385d67589d12e7f。PRECONDITION_MISMATCH: NO。
+開始時の対象fileはPHASE 6–7の既存変更あり。既存untracked 5directory（PHASE 6記載）と既存変更を保全した。
+
+Targeted source read: Idler V001のREADME.md、CURRENT_IDLER_SELECTION.md、SOURCE_TRACE.md、HOLD_REGISTER.mdのみ（Targeted Sourcesのリンク）。4文書に条件に合う同一laneの保持/支持定義文書への直接リンクはなく、追加lane・CAD・hashを調査していない。
+
+### Terminology reconciliation
+
+```text
+VISIBLE_SHAFT_COLLAR_TO_HISTORICAL_INTERFACE_RELATION: UNRESOLVED_FROM_SOURCE
+IDLER_RETENTION_SOURCE_STATUS: PARTIAL / PHYSICAL_HOLD
+```
+
+CURRENT_VISIBLE_EXTERNAL_SHAFT_COLLARはPHASE 7でOwnerが現装着idlerの軸端側に見た外側部品。HISTORICAL_PRINTED_SHAFT_COLLAR_DRIVE_INTERFACEはREADMEがV001 idlerには存在しないと述べる旧drive interfaceである。前者は現物観察、後者はsourceのdrive接続概念であり、同じ語だけで同一視しない。READMEの不採用記述は「外側collarを一切使わない」とは述べていない。外側collarの材質・形状・機能や旧interfaceとの関係を定義する記述がないため、同一物/同一機能にも、具体的な別保持機構にも確定しない。これによってOwnerの現物観察やV001来歴を否定しない。
+
+### Source-defined architecture versus physical evidence
+
+CURRENT_PHYSICAL_PRESENCEのVERIFIED_VISUALLYはOwnerの外観観察だけを指し、Agentによる直接確認や機能検証ではない。Race別・隠れた面は部品全体が見えてもUNKNOWN。
+
+| FEATURE | SOURCE_DEFINED_ROLE | CURRENT_PHYSICAL_PRESENCE | CURRENT_PHYSICAL_FUNCTION | SOURCE_STATUS |
+|---|---|---|---|---|
+| Shaft axial positioning | Selectionにnominal Ø10 shaft interfaceあり。軸方向位置決め方法は未記載 | OWNER_PROVENANCE_ONLY | NOT_VERIFIED | PARTIAL |
+| Bearing inner-race support | Inner-raceの軸方向支持面・荷重経路は4文書に未記載 | UNKNOWN | NOT_VERIFIED | NOT_FOUND_IN_TARGETED_SOURCE |
+| Bearing outer-race retention | Selectionがouter-race retentionをphysical HOLD、HOLD_REGISTERもbearing retention pendingとする。具体的拘束方法は未記載 | UNKNOWN | NOT_VERIFIED | HOLD |
+| Bearing seats | Selection: 6000-2RS seat 2箇所、Ø26.2×8.2、Ø12 center relief。READMEは旧12T/6000-2RS centerを保持 | OWNER_PROVENANCE_ONLY | NOT_VERIFIED | DEFINED |
+| External shaft collar | 役割を定義する記述なし。旧printed drive interface不採用と混同しない | VERIFIED_VISUALLY | NOT_VERIFIED | NOT_FOUND_IN_TARGETED_SOURCE |
+| Spacer | Selectionではspacer stack physical HOLD、HOLD_REGISTERでも測定pending。具体的配置・役割は未確定 | UNKNOWN | NOT_VERIFIED | HOLD |
+| Idler roller/body retention | READMEはidler・12Tとしkeyed drive等を持たない。Bodyの軸方向拘束経路は未記載 | VERIFIED_VISUALLY | NOT_VERIFIED | PARTIAL |
+| Rover/frame mount support | Selection: P20653 candidate placement、exact mounted XYZ HOLD。具体的支持/締結経路は未記載 | VERIFIED_VISUALLY (接続部の可視性のみ) | NOT_VERIFIED | HOLD |
+| Bearing全体 | README/Selectionの6000-2RS center。見えるbearingの型式一致は別途未確認 | VERIFIED_VISUALLY | NOT_VERIFIED | PARTIAL |
+
+Source寸法は設計記述のみで今回の実測ではない。Seat geometryの定義は正しい着座やrace保持の証明ではない。
+
+```text
+INNER_RACE_AXIAL_SUPPORT: UNRESOLVED_FROM_TARGETED_SOURCE
+OUTER_RACE_AXIAL_RETENTION: UNRESOLVED_FROM_TARGETED_SOURCE (explicit physical HOLD)
+BEARING_SEAT_RELATION: SOURCE_DEFINED_TWO_6000_2RS_SEATS / CURRENT_SEATING_NOT_VERIFIED
+```
+
+Bearing visible != correctly retained != correct race loaded != correctly seated。Collar→bearing→rollerという外側観察順からinner/outer raceのどちらを支持するか、接触・preload・保持性能を導出しない。
+
+### Existing evidence and R1 / R2 effect
+
+PHASE 7のQ7-A/B/C: VISIBLE、OWNER_REPORTED_VISIBLE_SEQUENCE_FROM_SHAFT_END: SHAFT_COLLAR → BEARING → IDLER_ROLLER、collar/bearing/rollerのPRESENT_BY_OWNER_VISUAL_OBSERVATIONをそのまま保持する。Idler来歴はOWNER_CONFIRMED_PROVENANCE、geometryはNOT_DIRECTLY_VERIFIED。
+
+```text
+B02_R1_VISUAL_INVENTORY_COMPONENT: COMPLETED
+B02_R1_STATUS: OPEN
+B02_R2_STATUS: OPEN
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL
+```
+
+今回sourceと用語の範囲は整理できたが、現在collarの保持機能、bearing race支持/拘束、mount機能は確認できないためR1を閉じない。R2もshaft/bearing/spacerの実寸・配置・fit・接触が未解決。新しいphysical evidenceはなく、PHASE 7の可視性改善以上のstatus昇格はしない。
+
+### Exactly one next physical action — plan only
+
+```text
+NEXT_ACTION_ID: B02-NA03-IDLER-COLLAR-FACING-BEARING-FEATURE-VISUAL
+TARGET: Q7で見えたshaft collarのbearing側端面に向かい合うbearing側feature
+ACTION_TYPE: VISUAL
+TOOL: NONE
+POWER_STATE: UNPOWERED
+ROTATION_REQUIRED: NO
+DISASSEMBLY_REQUIRED: NO
+PHYSICAL_ACTION_PERFORMED: NO
+OWNER_INPUT_REQUESTED: NO
+```
+
+OWNER_INSTRUCTION (将来承認時の案。今回の依頼ではない): Q7と同じidlerを現在位置のまま非接触で外側から見て、collarのbearing側端面に向かい合うfeatureを識別できるかだけを記録する。識別できる場合は見える輪状面・seal・housing等の外形と位置関係を短く記述し、race名を確実に区別できなければUNKNOWNとする。接触の有無や隙間寸法は判定せず、別の車体側へ転用しない。
+
+WHY_THIS_ACTION_FIRST: Collarを見ただけでは何に向かい合うか不明であり、race支持関係を切り分ける手掛かりが不足している。まずその局所featureの可視性・識別可能性を把握すれば、締付や寸法を先行させずR1/R2共通の支持関係の次の検証範囲を絞れる。締付確認やpull testは機能・アクセス未確定のまま実物を変えるため優先しない。
+
+RESULT_WILL_SUPPORT: Collar近傍のbearing側可視featureと位置関係、識別可能な範囲/見えない範囲。次の支持関係検証を具体化する入力。
+
+RESULT_WILL_NOT_SUPPORT: 接触、正しいraceへの荷重、着座、preload、outer-race retention、collar締付・保持性能、寸法、fit/CAD一致、R1/R2完了、manual/powered readiness。見える関係だけでsource未定義機能を埋めない。
+
+STOP_CONDITION: 対象部位を識別できない/見えない場合はUNKNOWN/NOT_VISIBLE。接触、押引、回転、移動、持上げ、工具/ライト挿入、分解、測定が必要ならそこで終了し代替操作をしない。無通電・安全な外部観察条件が確認できなければ開始しない。今回このactionは実行せず、Owner入力も要求しない。
+
+IDLER_BEARING_RETENTION / IDLER_MOUNT_RETENTION / IDLER_FIT / IDLER_SHAFT_STACK / BEARING_STACK / SPACER_STACK / RETENTION / CRAWLER_LOOP_READY: NOT_VERIFIED。MANUAL_ROTATION_READY: NOT_ESTABLISHED。POWERED_TEST_READY / PHYSICAL_PASS / FIELD_PASS: NO。AUTHORITY_CHANGED / PHYSICAL_AUTHORITY_CHANGED: NO。
+
+## PHASE 9 — Idler collar-facing bearing feature visual
+
+Source: Owner「B02 PHASE 9 — Execute idler collar-facing bearing feature visual」。今回承認されたのはPHASE 8で計画した無通電・非接触の目視のみ。Owner「B02 PHASE 9 — Record Q8 Owner visual result」により、非接触の目視結果を受領した。
+
+```text
+PHASE_9_STATUS: OWNER_VISUAL_RESULT_RECORDED
+ACTION_ID: B02-NA03-IDLER-COLLAR-FACING-BEARING-FEATURE-VISUAL
+POWER_STATE: UNPOWERED
+CONTACT: NO
+ROTATION: NO
+DISASSEMBLY: NO
+MEASUREMENT: NO
+PHYSICAL_ACTION_REQUESTED: VISUAL_OBSERVATION_ONLY
+```
+
+POWER_STATE等は今回の観察の実施条件であり、新たな実施済み確認や観察結果ではない。
+
+Q8: PHASE 7と同じshaft-end側から見て、外側shaft collarのbearing側端面に直接向かい合っている可視featureは何ですか。無通電のまま、何にも触れず動かさず、現在の外側観察位置から確認する。
+
+Owner回答（Agentによる実物確認ではない）:
+
+```text
+Q8_COLLAR_FACING_FEATURE_VISIBILITY: VISIBLE
+Q8_VISIBLE_FEATURE_DESCRIPTION: BEARING_SEAL_LIKE_CIRCULAR_FACE
+RACE_IDENTITY: UNKNOWN
+EVIDENCE_CLASSIFICATION: OWNER_VISUAL_OBSERVATION / NON_CONTACT
+PHYSICAL_ACTION_PERFORMED: VISUAL_OBSERVATION_ONLY
+```
+
+OwnerはPHASE 7と同じshaft-end方向から、外側shaft collarのbearing側端面に直接向かい合うfeatureがbearing-seal状の円形面に見えると報告した。これは外観記述のみで、sealそのものの同定やINNER_RACE / OUTER_RACEの同定ではない。実接触、zero gap、inner-race/outer-race接触、preload、正しいrace荷重・着座、collar保持の有効性、bearing retention PASS、fit PASSを推定しない。R1/R2はOPEN、idler evidenceはPARTIALのまま。この更新で追加のphysical actionは要求・実施しない。
+
+INTERPRETATION_BOUNDARY: VISIBLEは向かい合うfeatureが見えることだけ。NOT_VISIBLEは不在ではない。実接触、gap=zero、preload、collar締付力、inner-race支持、outer-race保持、正しいrace荷重、正しい着座、axial retention PASS、fit PASS、manual rotation readinessを外観から推定しない。
+
+STOP_CONDITIONS: Collar/bearingへの接触、shaft/idler移動、crawler/shaft回転、押引、持上げ、工具挿入、機構内へのライト挿入、隙間測定、分解が必要ならNOT_VISIBLEまたはUNCERTAINとして終了する。代替操作へ進まない。無通電・安全な外側観察条件が不明なら開始しない。
+
+```text
+VISIBLE_SHAFT_COLLAR_TO_HISTORICAL_INTERFACE_RELATION: UNRESOLVED_FROM_SOURCE
+INNER_RACE_AXIAL_SUPPORT: UNRESOLVED_FROM_TARGETED_SOURCE
+OUTER_RACE_AXIAL_RETENTION: UNRESOLVED_FROM_TARGETED_SOURCE
+BEARING_SEAT_RELATION: SOURCE_DEFINED_TWO_6000_2RS_SEATS / CURRENT_SEATING_NOT_VERIFIED
+B02_R1_STATUS: OPEN
+B02_R2_STATUS: OPEN
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL
+IDLER_BEARING_RETENTION: NOT_VERIFIED
+IDLER_MOUNT_RETENTION: NOT_VERIFIED
+IDLER_FIT: NOT_VERIFIED
+IDLER_SHAFT_STACK: NOT_VERIFIED
+BEARING_STACK: NOT_VERIFIED
+RETENTION: NOT_VERIFIED
+CRAWLER_LOOP_READY: NOT_VERIFIED
+MANUAL_ROTATION_READY: NOT_ESTABLISHED
+POWERED_TEST_READY: NO
+PHYSICAL_PASS: NO
+FIELD_PASS: NO
+AUTHORITY_PROMOTION: NO
+PHYSICAL_AUTHORITY_PROMOTION: NO
+```
+
+## PHASE 10 — Idler collar-to-bearing visible-gap inventory
+
+Source: Owner「B02 PHASE 10 — Idler collar-to-bearing visible-gap inventory」。PHASE 7–9と同じshaft-end方向から行う、無通電・非接触の目視1件のみ。Owner「B02 PHASE 10 — Record already-received Q9 Owner result」に基づき、会話で受領済みの回答を記録する。実施条件とOwner報告結果を区別し、再観察・再回答は要求しない。
+
+```text
+PHASE_10_STATUS: OWNER_VISUAL_RESULT_RECORDED
+ACTION_ID: B02-NA04-IDLER-COLLAR-BEARING-VISIBLE-GAP
+POWER_STATE: UNPOWERED
+ACTION_TYPE: VISUAL
+CONTACT: NO
+ROTATION: NO
+DISASSEMBLY: NO
+MEASUREMENT: NO
+```
+
+当初の質問（再回答依頼ではない）Q9: PHASE 7–9と同じshaft-end方向から、外側shaft collarのbearing側端面と、PHASE 9で報告したbearing-seal状の円形面の間に、軸方向の隙間を目視で区別できますか。
+
+当初の回答選択肢と定義（履歴として保持）:
+
+- VISIBLE_GAP: 2つのfeature間に明確な離れ/空間が見える。
+- NO_VISIBLE_GAP: 現在の外側観察位置から明確な隙間は見えない。
+- UNCERTAIN: 隙間の有無を確実に判断できない。
+
+```text
+Q9_COLLAR_TO_BEARING_VISIBLE_GAP: NO_VISIBLE_GAP
+IDLER_COLLAR_BEARING_VISIBLE_GAP_STATUS: NO_VISIBLE_GAP
+EVIDENCE_CLASSIFICATION: OWNER_VISUAL_OBSERVATION / NON_CONTACT
+PHYSICAL_ACTION_PERFORMED: VISUAL_OBSERVATION_ONLY
+OWNER_RESULT_SOURCE: ALREADY_RECEIVED_IN_CONVERSATION
+COLLAR_TO_BEARING_PHYSICAL_CONTACT: NOT_VERIFIED
+COLLAR_TO_INNER_RACE_RELATION: NOT_VERIFIED
+COLLAR_TO_OUTER_RACE_RELATION: NOT_VERIFIED
+IDLER_MOUNT_RETENTION: NOT_VERIFIED
+SPACER_STACK: NOT_VERIFIED
+```
+
+OwnerはPHASE 7–9と同じshaft-end外側観察方向から、外側shaft collarのbearing側端面とPHASE 9のbearing-seal状円形面の間に、明確な軸方向の隙間を目視では区別できなかったと報告した。NO_VISIBLE_GAPのみとして扱う。実接触、zero clearance、preload、inner-race/outer-race接触、正しいrace荷重・着座、collar/bearing/axial retention PASSを意味しない。Agentによる実物確認ではなく、受領済みOwner目視結果の記録である。追加の観察、Q9再確認、指での接触、ゲージ・定規・caliper、移動・押引・回転・締付・分解・powered testは要求・実施しない。
+
+INTERPRETATION_BOUNDARY: NO_VISIBLE_GAPは実接触、zero clearance、preload、collarによるinner raceの押圧、正しいrace荷重・着座、axial retention PASSを意味しない。VISIBLE_GAPもretention FAIL、bearing誤組付け、geometry誤りを自動的に意味しない。現在の外側からの見え方だけを記録し、隙間の大きさの推定や数値測定への変換はしない。
+
+STOP_CONDITIONS: 接触、collar/shaft移動、crawler/idler回転、押引、feeler gauge・ruler・caliperの使用、機構内へのflashlight挿入、分解は行わない。判断にいずれかが必要ならQ9: UNCERTAINとして終了し、代替操作へ進まない。無通電で安全な外側観察ができない場合も開始しない。
+
+```text
+RACE_IDENTITY: UNKNOWN
+INNER_RACE_AXIAL_SUPPORT: UNRESOLVED_FROM_TARGETED_SOURCE
+OUTER_RACE_AXIAL_RETENTION: UNRESOLVED_FROM_TARGETED_SOURCE
+BEARING_SEAT_RELATION: SOURCE_DEFINED_TWO_6000_2RS_SEATS / CURRENT_SEATING_NOT_VERIFIED
+B02_R1_STATUS: OPEN
+B02_R2_STATUS: OPEN
+IDLER_EVIDENCE_SUFFICIENT_FOR_B02: PARTIAL
+IDLER_BEARING_RETENTION: NOT_VERIFIED
+IDLER_FIT: NOT_VERIFIED
+IDLER_SHAFT_STACK: NOT_VERIFIED
+BEARING_STACK: NOT_VERIFIED
+RETENTION: NOT_VERIFIED
+CRAWLER_LOOP_READY: NOT_VERIFIED
+MANUAL_ROTATION_READY: NOT_ESTABLISHED
+POWERED_TEST_READY: NO
+PHYSICAL_PASS: NO
+FIELD_PASS: NO
+AUTHORITY_PROMOTION: NO
+PHYSICAL_AUTHORITY_PROMOTION: NO
+```
+
+Q9結果にかかわらず、別途の裏付けがない限り上記statusを維持する。過去のOwner観察・実測・未解決事項も保持する。
+
 ## Execution and Evidence Boundary
 
 ```text
@@ -348,4 +706,4 @@ COMMIT_CREATED: NO
 PUSH_PERFORMED: NO
 ```
 
-NEXT_OWNER_INPUT: NONE_REQUESTED_THIS_UPDATE。PHASE 5のOwner実測8 mmと工具差を記録完了。先行記録（Q5撤回を含む）は保持し、追加の観察・写真・測定は要求しない。
+NEXT_OWNER_INPUT: NONE_REQUESTED_THIS_UPDATE。OWNER_INPUT_REQUESTED: NO。PHASE 10の受領済みQ9結果を記録した。追加の観察・再回答・物理操作は要求しない。
