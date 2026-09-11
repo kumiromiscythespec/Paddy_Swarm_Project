@@ -1,0 +1,73 @@
+[
+  {
+    "observation_id": "OBS-001",
+    "component": "lower cradle V001 x Crawler Candidate B",
+    "classification": "PHYSICAL_FAILURE_CONFIRMED_OR_REPORTED",
+    "count_status": "HOLD",
+    "maximum_candidates": 2,
+    "notes": "Maximum two candidates, not two established independent failures. Exact physical test date, uniqueness and overlap with previous 50 are unresolved. Candidate B mapping below may describe the same event. No F-0051/F-0052 issued.",
+    "source_paths": [
+      "cad/common_rover/bbox/bbox_4point_lower_cradle_v002_support_clip/V001_PHYSICAL_FAILURE_RECORD.md"
+    ]
+  },
+  {
+    "observation_id": "OBS-002",
+    "component": "Crawler Candidate B",
+    "classification": "PHYSICAL_FAIL",
+    "count_status": "ID_MAPPING_PENDING",
+    "maximum_candidates": null,
+    "notes": "PHYSICAL_TOOTH_FIT=FAIL_LOOSE. May already belong to F-0001..F-0050 and may overlap OBS-001. No new count.",
+    "source_paths": [
+      "cad/common_rover/drivetrain/crawler_candidate_c_full_12t_sprocket_v001/CANDIDATE_C_PHYSICAL_RESULT.md"
+    ]
+  },
+  {
+    "observation_id": "OBS-003",
+    "component": "CBOX cross-saddle V001",
+    "classification": "PHYSICAL_FAIL",
+    "count_status": "ID_MAPPING_PENDING",
+    "maximum_candidates": null,
+    "notes": "cbox_cross_saddle_v001_round1_status=PHYSICAL_FIT_FAIL; cbox_cross_saddle_v001_side_wall_to_side_m5_rail_interface=PHYSICAL_FAIL. Treat as one mapping entry, not two independent failures. Existing count overlap unresolved.",
+    "source_paths": [
+      "cad/common_rover/bbox_cbox/cbox_transverse_top_tslot_saddle_v002/V001_PHYSICAL_FIT_FAILURE_RECORD.md"
+    ]
+  },
+  {
+    "observation_id": "OBS-004",
+    "component": "D50 adapter",
+    "classification": "PHYSICAL_FAIL",
+    "count_status": "ID_MAPPING_PENDING",
+    "maximum_candidates": null,
+    "notes": "Owner places this old physical FAIL in history at or before F-0046. Exact ID and repository source not reconstructed. No new count.",
+    "source_paths": []
+  },
+  {
+    "observation_id": "OBS-005",
+    "component": "BBOX/CBOX Cross Base V001",
+    "classification": "PREFLIGHT_FAIL",
+    "count_status": "NOT_COUNTED",
+    "maximum_candidates": null,
+    "notes": "Failed closed in preflight before physical fabrication or testing. Intake exclusion example; no physical failure unit asserted.",
+    "source_paths": []
+  },
+  {
+    "observation_id": "OBS-006",
+    "component": "BBOX V003 G050 full-body groove",
+    "classification": "SUPERSEDED_UNVALIDATED",
+    "count_status": "NOT_COUNTED",
+    "maximum_candidates": null,
+    "notes": "Not physical FAIL. Intake exclusion example.",
+    "source_paths": [
+      "cad/common_rover/bbox/bbox_compact_field_goldenmate_v004_g065/V003_G050_SUPERSESSION_RECORD.md"
+    ]
+  },
+  {
+    "observation_id": "OBS-007",
+    "component": "PTO trade-study rejected options",
+    "classification": "REJECTED_BEFORE_BUILD",
+    "count_status": "NOT_COUNTED",
+    "maximum_candidates": null,
+    "notes": "One intake group for unbuilt, physically untested design rejections. Individual option count is unknown; no physical failure units asserted.",
+    "source_paths": []
+  }
+]
